@@ -72,6 +72,11 @@ const LESSON: Partial<Record<number, string>> = {
   55: "b1-55-konjunktiv-ii-formen",
   56: "b1-56-konjunktiv-ii-verwendung",
   57: "b1-57-passiv-praesens",
+  58: "b1-58-passiv-praeteritum",
+  59: "b1-59-futur-annahme",
+  60: "b1-60-werden-verwendungen",
+  61: "b1-61-lassen",
+  62: "b1-62-lage-richtung",
 };
 
 type Seed = [number, "A1" | "A2" | "B1", string, string, string, string];

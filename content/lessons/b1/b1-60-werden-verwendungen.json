@@ -1,0 +1,1093 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-60-werden-verwendungen",
+  "level": "B1",
+  "unit": "Kapitel 60",
+  "chapter": 60,
+  "chapters": [60],
+  "title": "Werden, werden, werden …",
+  "subtitle": "Uses of werden",
+  "glossary": {
+    "werden": {
+      "de": "werden → sie werden",
+      "pos": "form",
+      "en": "will, or are (passive)",
+      "emoji": "🔁",
+      "note": "Three uses. Infinitive, no wohl: a plan. Participle: passive. wohl plus an infinitive: a guess. wir and formal Sie werden. She wird."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🔵" },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "Future: Der Arzt wird um zehn kommen."
+    },
+    "wird": {
+      "de": "werden → sie wird",
+      "pos": "form",
+      "en": "will, or is (passive)",
+      "emoji": "🔁",
+      "note": "Singular. She wird. The word after wird shows the use: kommen is a plan, gereinigt is passive, wohl schlafen is a guess."
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (clock time)",
+      "emoji": "🕙",
+      "note": "um zehn marks the plan. Um zehn wird der Arzt kommen."
+    },
+    "zehn": { "de": "zehn", "pos": "number", "en": "ten", "emoji": "🕙" },
+    "kommen": {
+      "de": "kommen",
+      "pos": "infinitive",
+      "en": "to come",
+      "emoji": "🚶",
+      "note": "Infinitive, no wohl: future. Der Arzt wird um zehn kommen. Der Präsident wird kommen."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "emoji": "🩹",
+      "article": "die",
+      "plural": "die Wunden",
+      "note": "Passive: Die Wunde wird gereinigt."
+    },
+    "gereinigt": {
+      "de": "reinigen → gereinigt",
+      "pos": "participle",
+      "en": "cleaned",
+      "emoji": "🩹",
+      "note": "Participle, so this werden is passive. Die Wunde wird gereinigt. Not reinigen."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative: Der Patient wird wohl schlafen."
+    },
+    "wohl": {
+      "de": "wohl",
+      "pos": "adverb",
+      "en": "probably",
+      "emoji": "🤔",
+      "note": "wohl plus an infinitive is a guess about now. Der Patient wird wohl schlafen."
+    },
+    "schlafen": {
+      "de": "schlafen",
+      "pos": "infinitive",
+      "en": "to sleep",
+      "emoji": "😴",
+      "note": "With wohl: a guess. Der Patient wird wohl schlafen. Not schläft."
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten",
+      "note": "Passive: Die Tablette wird gegeben."
+    },
+    "gegeben": {
+      "de": "geben → gegeben",
+      "pos": "participle",
+      "en": "given",
+      "emoji": "💊",
+      "note": "Participle, so this werden is passive. Not gegibt. Not geben."
+    },
+    "präsident": {
+      "de": "Präsident",
+      "pos": "noun",
+      "en": "president",
+      "emoji": "👔",
+      "article": "der",
+      "plural": "die Präsidenten",
+      "note": "Nominative, no -en. Future, no wohl: Der Präsident wird kommen."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she, or formal you",
+      "emoji": "👩",
+      "note": "She wird. Formal Sie werden. Sie wird wohl Fieber haben is she, a guess."
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "Guess: Sie wird wohl Fieber haben."
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "infinitive",
+      "en": "to have",
+      "emoji": "🌡️",
+      "note": "With wohl: a guess. Sie wird wohl Fieber haben. Not hat."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Three uses, one verb",
+      "learn": [
+        "werden has three uses on this chart. The form of werden is the one you know. The ending of the line tells you which use.",
+        "Future, a plan: infinitive, no wohl. Der Arzt wird um zehn kommen. Der Präsident wird kommen.",
+        "Passive: participle. Die Wunde wird gereinigt. Die Tablette wird gegeben. That is chapter 57.",
+        "Assumption, a guess about now: wohl plus an infinitive. Der Patient wird wohl schlafen. Sie wird wohl Fieber haben. That is chapter 59."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor (male)", "emoji": "👨‍⚕️", "glossaryKey": "arzt" },
+        { "de": "Wunde", "article": "die", "plural": "die Wunden", "en": "wound", "emoji": "🩹", "glossaryKey": "wunde" },
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tablette" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "image": { "type": "svg", "id": "thermometer" }, "glossaryKey": "fieber" }
+      ],
+      "text": {
+        "title": "Werden, werden, werden …",
+        "de": "Der Arzt wird um zehn kommen. Die Wunde wird gereinigt. Der Patient wird wohl schlafen. Die Tablette wird gegeben. Der Präsident wird kommen. Sie wird wohl Fieber haben.",
+        "en": "The doctor will come at ten. The wound is cleaned. The patient is probably asleep. The tablet is given. The president will come. She probably has a fever."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Sort the three lines",
+      "practice": "choose",
+      "heroTitle": "Die Wunde wird gereinigt",
+      "heroImage": "bed",
+      "story": [
+        "The ward chart uses <b>werden</b> three ways. Do not translate the verb first. Read the <b>end of the line</b>.",
+        "An <b>infinitive</b>, and no wohl, is a <b>plan</b>. <b>Der Arzt wird um zehn kommen. Der Präsident wird kommen.</b> um zehn is the clock time. Chapter 59.",
+        "A <b>participle</b> is the <b>passive</b>. <b>Die Wunde wird gereinigt. Die Tablette wird gegeben.</b> The thing is the subject. Chapter 57. <b>wurde</b> plus a participle is the past passive, chapter 58.",
+        "<b>wohl</b> plus an <b>infinitive</b> is a <b>guess</b> about now. <b>Der Patient wird wohl schlafen. Sie wird wohl Fieber haben.</b> schon and wahrscheinlich can also mark a guess. This chart sorts with wohl.",
+        "The persons stay the ones you know. <b>ich werde, du wirst, er/sie wird, wir werden, ihr werdet, sie/Sie werden.</b> She <b>wird</b>. Formal Sie <b>werden</b>. No <b>zu</b>.",
+        "<b>Der Arzt kommt um zehn</b> is still a correct present for a fixed plan. <b>würde</b> plus an infinitive is Konjunktiv II. <b>Die Wunde wird wohl gereinigt</b> is a guess about a passive: the participle is still the passive, and wohl adds the guess. The three plain lines below keep the uses apart."
+      ],
+      "questionRule": "Infinitive, no wohl: future plan. Participle: passive. wohl plus an infinitive: guess. No zu. du wirst. She wird. Formal Sie werden.",
+      "tables": [
+        {
+          "title": "Drei Verwendungen",
+          "caption": "Same werden. The end of the line sorts the use.",
+          "columns": ["Verwendung", "Beispiel"],
+          "rows": [
+            { "label": "Futur", "cells": ["Infinitiv, kein wohl", "Der Arzt wird um zehn kommen."], "highlight": true },
+            { "label": "Passiv", "cells": ["Partizip", "Die Wunde wird gereinigt."], "highlight": true },
+            { "label": "Annahme", "cells": ["wohl + Infinitiv", "Der Patient wird wohl schlafen."], "highlight": true },
+            { "label": "Passiv", "cells": ["Partizip", "Die Tablette wird gegeben."] },
+            { "label": "Futur", "cells": ["Infinitiv, kein wohl", "Der Präsident wird kommen."] },
+            { "label": "Annahme", "cells": ["wohl + Infinitiv", "Sie wird wohl Fieber haben."] }
+          ]
+        },
+        {
+          "title": "Werden",
+          "caption": "The person is the same in all three uses. She wird. Formal Sie werden.",
+          "columns": ["Form", "Beispiel"],
+          "rows": [
+            { "label": "ich", "cells": ["werde", "Ich werde kommen."], "highlight": true },
+            { "label": "du", "cells": ["wirst", "Du wirst kommen."], "highlight": true },
+            { "label": "er/sie", "cells": ["wird", "Sie wird untersucht."] },
+            { "label": "wir", "cells": ["werden", "Wir werden wohl warten."] },
+            { "label": "ihr", "cells": ["werdet", "Ihr werdet kommen."] },
+            { "label": "sie/Sie", "cells": ["werden", "Sie werden untersucht."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "zu, a second finite verb, or a bad participle. The other two uses stay correct German.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "zu", "cells": ["zu kommen", "kommen"] },
+            { "label": "kommt", "cells": ["wird kommt", "wird kommen"] },
+            { "label": "reinigen", "cells": ["reinigen", "gereinigt"] },
+            { "label": "geben", "cells": ["gegibt", "gegeben"] },
+            { "label": "schlafen", "cells": ["schläft", "schlafen"] },
+            { "label": "du", "cells": ["Du wird", "Du wirst"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four sorting traps",
+        "items": [
+          { "de": "Der Arzt wird um zehn kommen.", "en": "Infinitive, a plan.", "tone": "ok" },
+          { "de": "Der Arzt wird um zehn kommt.", "en": "kommt is not the infinitive.", "tone": "stop" },
+          { "de": "Die Wunde wird gereinigt.", "en": "Participle, passive.", "tone": "ok" },
+          { "de": "Die Wunde wird reinigen.", "en": "reinigen is not the participle.", "tone": "stop" },
+          { "de": "Der Patient wird wohl schlafen.", "en": "wohl plus infinitive, a guess.", "tone": "ok" },
+          { "de": "Der Patient wird wohl schläft.", "en": "schläft is not the infinitive.", "tone": "stop" },
+          { "de": "Der Präsident wird kommen.", "en": "No zu.", "tone": "ok" },
+          { "de": "Der Präsident wird zu kommen.", "en": "werden does not take zu.", "tone": "stop" }
+        ],
+        "tip": "Infinitive: plan. Participle: passive. wohl plus infinitive: guess."
+      },
+      "meaningsTitle": "Three ward lines",
+      "meanings": [
+        { "modal": "kommen", "emoji": "🕙", "en": "a plan", "use": "infinitive, no wohl", "de": "Der Arzt wird um zehn kommen.", "deEn": "The doctor will come at ten." },
+        { "modal": "gereinigt", "emoji": "🩹", "en": "passive", "use": "participle", "de": "Die Wunde wird gereinigt.", "deEn": "The wound is cleaned." },
+        { "modal": "wohl", "emoji": "🤔", "en": "a guess", "use": "wohl plus infinitive", "de": "Der Patient wird wohl schlafen.", "deEn": "The patient is probably asleep." },
+        { "modal": "gegeben", "emoji": "💊", "en": "passive", "use": "participle of geben", "de": "Die Tablette wird gegeben.", "deEn": "The tablet is given." }
+      ],
+      "tips": [
+        {
+          "title": "Read the end of the line",
+          "body": "kommen or another infinitive, with no wohl, is the plan. A participle such as gereinigt or gegeben is the passive. wohl plus an infinitive is the guess. No zu.",
+          "mnemonic": "kommen: plan. gereinigt: passive. wohl schlafen: guess.",
+          "emoji": "🔁"
+        }
+      ],
+      "quizTitle": "Which use?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Future, the doctor at ten.",
+          "qEn": "Infinitive, no wohl.",
+          "options": ["Der Arzt wird um zehn kommen.", "Die Wunde wird gereinigt.", "Der Arzt wird um zehn kommt."],
+          "answer": 0,
+          "why": "kommen plus um zehn is the plan. gereinigt is the passive. kommt is not the infinitive.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "Passive, the wound.",
+          "qEn": "Participle.",
+          "options": ["Die Wunde wird gereinigt.", "Der Patient wird wohl schlafen.", "Die Wunde wird reinigen."],
+          "answer": 0,
+          "why": "gereinigt is the passive. wohl schlafen is the guess. reinigen is not a participle.",
+          "hint": "gereinigt."
+        },
+        {
+          "kind": "mc",
+          "q": "Guess about now. The patient.",
+          "qEn": "wohl plus infinitive.",
+          "options": ["Der Patient wird wohl schlafen.", "Der Arzt wird um zehn kommen.", "Der Patient wird wohl schläft."],
+          "answer": 0,
+          "why": "wohl schlafen is the guess. um zehn kommen is the plan. schläft is not the infinitive.",
+          "hint": "wohl."
+        },
+        {
+          "kind": "mc",
+          "q": "Future, the president. No guess.",
+          "qEn": "Infinitive, no wohl.",
+          "options": ["Der Präsident wird kommen.", "Der Präsident wird wohl kommen.", "Der Präsident wird zu kommen."],
+          "answer": 0,
+          "why": "kommen, no wohl, is the plan. wohl kommen is the guess. No zu.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "Passive, the tablet.",
+          "qEn": "gegeben.",
+          "options": ["Die Tablette wird gegeben.", "Die Tablette wird geben.", "Sie wird wohl Fieber haben."],
+          "answer": 0,
+          "why": "gegeben is the passive. geben is the infinitive. wohl Fieber haben is the guess.",
+          "hint": "gegeben."
+        },
+        {
+          "kind": "mc",
+          "q": "Guess. She, fever.",
+          "qEn": "wohl plus haben.",
+          "options": ["Sie wird wohl Fieber haben.", "Die Wunde wird gereinigt.", "Sie wird wohl Fieber hat."],
+          "answer": 0,
+          "why": "wohl haben is the guess. gereinigt is the passive. hat is not the infinitive.",
+          "hint": "haben."
+        }
+      ]
+    },
+    {
+      "id": "gap-sort",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the use. Future: infinitive, no wohl. Passive: participle. Guess: wohl plus an infinitive. No zu.",
+      "chips": [
+        { "w": "Der Arzt wird um zehn kommen", "hint": "plan." },
+        { "w": "Die Wunde wird gereinigt", "hint": "passive." },
+        { "w": "Der Patient wird wohl schlafen", "hint": "guess." },
+        { "w": "Die Tablette wird gegeben", "hint": "passive." },
+        { "w": "Der Präsident wird kommen", "hint": "plan, no wohl." },
+        { "w": "Sie wird wohl Fieber haben", "hint": "guess." },
+        { "w": "Der Arzt wird um zehn kommt", "hint": "infinitive." },
+        { "w": "Die Wunde wird reinigen", "hint": "participle." },
+        { "w": "Der Patient wird wohl schläft", "hint": "infinitive." },
+        { "w": "Die Tablette wird gegibt", "hint": "gegeben." },
+        { "w": "Der Präsident wird wohl kommen", "hint": "no wohl." },
+        { "w": "Der Präsident wird zu kommen", "hint": "no zu." },
+        { "w": "Sie wird wohl Fieber hat", "hint": "haben." }
+      ],
+      "items": [
+        {
+          "before": "Future, the doctor at ten:",
+          "after": ".",
+          "answer": "Der Arzt wird um zehn kommen",
+          "en": "The doctor will come at ten.",
+          "why": "Infinitive kommen, clock time, no wohl. That is the plan.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Passive, the wound:",
+          "after": ".",
+          "answer": "Die Wunde wird gereinigt",
+          "en": "The wound is cleaned.",
+          "why": "gereinigt is the participle, so this is passive.",
+          "tip": "gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "before": "Guess, the patient is probably asleep:",
+          "after": ".",
+          "answer": "Der Patient wird wohl schlafen",
+          "en": "The patient is probably asleep.",
+          "why": "wohl plus schlafen. Not schläft.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Passive, the tablet:",
+          "after": ".",
+          "answer": "Die Tablette wird gegeben",
+          "en": "The tablet is given.",
+          "why": "gegeben is the participle. Not gegibt.",
+          "tip": "gegeben.",
+          "hint": "gegeben."
+        },
+        {
+          "before": "Future, the president, no guess:",
+          "after": ".",
+          "answer": "Der Präsident wird kommen",
+          "en": "The president will come.",
+          "why": "kommen, no wohl, is the plan. wohl kommen would be the guess. No zu.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Guess, she probably has a fever:",
+          "after": ".",
+          "answer": "Sie wird wohl Fieber haben",
+          "en": "She probably has a fever.",
+          "why": "wohl plus haben. Not hat.",
+          "tip": "haben.",
+          "hint": "haben."
+        }
+      ]
+    },
+    {
+      "id": "match-sort",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names the use or the person. One label is that piece. One is another real use. One is not the form.",
+      "items": [
+        {
+          "prompt": "Future plan",
+          "options": [
+            { "emoji": "🕙", "label": "um zehn kommen", "caption": "infinitive, a plan" },
+            { "emoji": "🤔", "label": "wohl schlafen", "caption": "a guess" },
+            { "emoji": "🩹", "label": "gereinigt", "caption": "passive" }
+          ],
+          "answer": 0,
+          "why": "um zehn kommen is the plan. wohl schlafen is the guess. gereinigt is the passive.",
+          "hint": "kommen."
+        },
+        {
+          "prompt": "Passive",
+          "options": [
+            { "emoji": "🩹", "label": "gereinigt", "caption": "participle" },
+            { "emoji": "🚶", "label": "kommen", "caption": "future infinitive" },
+            { "emoji": "🚫", "label": "reinigen", "caption": "not a participle" }
+          ],
+          "answer": 0,
+          "why": "gereinigt is passive. kommen is the plan. reinigen is not a participle.",
+          "hint": "gereinigt."
+        },
+        {
+          "prompt": "Assumption signal",
+          "options": [
+            { "emoji": "🤔", "label": "wohl", "caption": "a guess" },
+            { "emoji": "🕙", "label": "um zehn", "caption": "a plan" },
+            { "emoji": "🚫", "label": "zu", "caption": "not a signal" }
+          ],
+          "answer": 0,
+          "why": "wohl marks the guess. um zehn marks the plan. zu is not used.",
+          "hint": "wohl."
+        },
+        {
+          "prompt": "After wird, a passive",
+          "options": [
+            { "emoji": "💊", "label": "gegeben", "caption": "participle" },
+            { "emoji": "🚶", "label": "kommen", "caption": "infinitive" },
+            { "emoji": "🚫", "label": "gegibt", "caption": "not a form" }
+          ],
+          "answer": 0,
+          "why": "gegeben is the passive. kommen is the plan. gegibt is not a form.",
+          "hint": "gegeben."
+        },
+        {
+          "prompt": "After wird, a future",
+          "options": [
+            { "emoji": "🚶", "label": "kommen", "caption": "infinitive" },
+            { "emoji": "🩹", "label": "gereinigt", "caption": "passive" },
+            { "emoji": "🚫", "label": "zu kommen", "caption": "no zu" }
+          ],
+          "answer": 0,
+          "why": "kommen is the plan. gereinigt is the passive. No zu.",
+          "hint": "kommen."
+        },
+        {
+          "prompt": "werden, du",
+          "options": [
+            { "emoji": "🧑", "label": "wirst", "caption": "du wirst" },
+            { "emoji": "👩", "label": "wird", "caption": "sie wird" },
+            { "emoji": "👥", "label": "werdet", "caption": "ihr werdet" }
+          ],
+          "answer": 0,
+          "why": "du wirst in every use. She wird. ihr werdet.",
+          "hint": "wirst."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed in the guess about sleep",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the wound that is cleaned",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer for the fever guess",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart that sorts the three uses",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-sort",
+      "type": "builder",
+      "label": "Build",
+      "title": "End of the line",
+      "practice": "build",
+      "instructions": "Build the line the label describes. A participle closes a passive. An infinitive closes a plan or a guess. um zehn or wohl can stand first.",
+      "items": [
+        {
+          "tiles": ["Die", "Wunde", "wird", "gereinigt"],
+          "answers": ["Die Wunde wird gereinigt"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "gereinigt",
+          "question": false,
+          "en": "The wound is cleaned.",
+          "hint": "gereinigt last. Passive.",
+          "feedback": {
+            "end": "gereinigt closes the passive: Die Wunde wird gereinigt.",
+            "fallback": "Die Wunde wird gereinigt."
+          }
+        },
+        {
+          "tiles": ["Um", "zehn", "wird", "der", "Arzt", "kommen"],
+          "answers": ["Um zehn wird der Arzt kommen", "Der Arzt wird um zehn kommen"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "kommen",
+          "question": false,
+          "en": "The doctor will come at ten.",
+          "hint": "kommen last. A plan.",
+          "feedback": {
+            "end": "kommen closes the plan.",
+            "fallback": "Um zehn wird der Arzt kommen. Or: Der Arzt wird um zehn kommen."
+          }
+        },
+        {
+          "tiles": ["Der", "Patient", "wird", "wohl", "schlafen"],
+          "answers": ["Der Patient wird wohl schlafen", "Wohl wird der Patient schlafen"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "schlafen",
+          "question": false,
+          "en": "The patient is probably asleep.",
+          "hint": "schlafen last. A guess.",
+          "feedback": {
+            "end": "schlafen closes the guess.",
+            "fallback": "Der Patient wird wohl schlafen. Or: Wohl wird der Patient schlafen."
+          }
+        },
+        {
+          "tiles": ["Sie", "wird", "wohl", "Fieber", "haben"],
+          "answers": ["Sie wird wohl Fieber haben"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "haben",
+          "question": false,
+          "en": "She probably has a fever.",
+          "hint": "haben last. She wird.",
+          "feedback": {
+            "end": "haben closes the guess.",
+            "fallback": "Sie wird wohl Fieber haben."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-sort",
+      "label": "Rewrite",
+      "title": "Into the named use",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names the use and shows a correct present or active line. Give the werden sentence for that use. The present and the active stay correct German.",
+      "chips": [
+        { "w": "Der Arzt wird um zehn kommen", "hint": "plan." },
+        { "w": "Die Wunde wird gereinigt", "hint": "passive." },
+        { "w": "Der Patient wird wohl schlafen", "hint": "guess." },
+        { "w": "Die Tablette wird gegeben", "hint": "passive." },
+        { "w": "Der Präsident wird kommen", "hint": "plan." },
+        { "w": "Sie wird wohl Fieber haben", "hint": "guess." },
+        { "w": "Der Arzt wird um zehn kommt", "hint": "infinitive." },
+        { "w": "Die Wunde wird reinigen", "hint": "participle." },
+        { "w": "Der Patient wird wohl schläft", "hint": "infinitive." },
+        { "w": "Die Tablette wird gegibt", "hint": "gegeben." },
+        { "w": "Der Präsident wird zu kommen", "hint": "no zu." },
+        { "w": "Sie wird wohl Fieber hat", "hint": "haben." },
+        { "w": "Der Präsident wird wohl kommen", "hint": "no wohl." }
+      ],
+      "items": [
+        {
+          "before": "Future. Present: Der Arzt kommt um zehn. Line:",
+          "after": ".",
+          "answer": "Der Arzt wird um zehn kommen",
+          "en": "The doctor will come at ten.",
+          "why": "The plan is wird plus kommen. Der Arzt kommt um zehn stays correct present.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Passive. Active: Die Pflegekraft reinigt die Wunde. Line:",
+          "after": ".",
+          "answer": "Die Wunde wird gereinigt",
+          "en": "The wound is cleaned.",
+          "why": "The wound becomes the subject. gereinigt is the participle.",
+          "tip": "gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "before": "Guess. Present: Der Patient schläft. Line:",
+          "after": ".",
+          "answer": "Der Patient wird wohl schlafen",
+          "en": "The patient is probably asleep.",
+          "why": "Add wohl and use the infinitive schlafen.",
+          "tip": "wohl.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Passive. Active: Die Pflegekraft gibt die Tablette. Line:",
+          "after": ".",
+          "answer": "Die Tablette wird gegeben",
+          "en": "The tablet is given.",
+          "why": "gegeben, the participle. Not the infinitive geben.",
+          "tip": "gegeben.",
+          "hint": "gegeben."
+        },
+        {
+          "before": "Future, no guess. Present: Der Präsident kommt. Line:",
+          "after": ".",
+          "answer": "Der Präsident wird kommen",
+          "en": "The president will come.",
+          "why": "wird kommen, no wohl. wohl kommen would be the guess.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Guess. Present: Sie hat Fieber. Line:",
+          "after": ".",
+          "answer": "Sie wird wohl Fieber haben",
+          "en": "She probably has a fever.",
+          "why": "wohl plus haben. Sie hat Fieber stays correct present.",
+          "tip": "haben.",
+          "hint": "haben."
+        }
+      ]
+    },
+    {
+      "id": "error-sort",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line does not match the use in the clues. Choose the correction. The other real use stays correct German. würde is Konjunktiv II and stays correct too.",
+      "items": [
+        {
+          "clues": ["Future, the doctor.", "Infinitive.", "Der Arzt wird um zehn kommt."],
+          "options": ["Der Arzt wird um zehn kommen.", "Der Arzt wird um zehn kommt.", "Die Wunde wird gereinigt."],
+          "answer": 0,
+          "reveal": "Der Arzt wird um zehn kommen.",
+          "hint": "kommen."
+        },
+        {
+          "clues": ["Passive, the wound.", "Participle.", "Die Wunde wird reinigen."],
+          "options": ["Die Wunde wird gereinigt.", "Die Wunde wird reinigen.", "Der Patient wird wohl schlafen."],
+          "answer": 0,
+          "reveal": "Die Wunde wird gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "clues": ["Guess, wohl.", "Infinitive.", "Der Patient wird wohl schläft."],
+          "options": ["Der Patient wird wohl schlafen.", "Der Patient wird wohl schläft.", "Der Arzt wird um zehn kommen."],
+          "answer": 0,
+          "reveal": "Der Patient wird wohl schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "clues": ["Future, no zu.", "No wohl.", "Der Präsident wird zu kommen."],
+          "options": ["Der Präsident wird kommen.", "Der Präsident wird zu kommen.", "Der Präsident würde kommen."],
+          "answer": 0,
+          "reveal": "Der Präsident wird kommen.",
+          "hint": "kommen."
+        },
+        {
+          "clues": ["Passive, geben.", "Not gegibt.", "Die Tablette wird gegibt."],
+          "options": ["Die Tablette wird gegeben.", "Die Tablette wird gegibt.", "Die Tablette wird geben."],
+          "answer": 0,
+          "reveal": "Die Tablette wird gegeben.",
+          "hint": "gegeben."
+        },
+        {
+          "clues": ["um zehn is position 1.", "wird is position 2.", "Um zehn der Arzt wird kommen."],
+          "options": ["Um zehn wird der Arzt kommen.", "Um zehn der Arzt wird kommen.", "Um zehn wird der Arzt zu kommen."],
+          "answer": 0,
+          "reveal": "Um zehn wird der Arzt kommen.",
+          "hint": "wird."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "Sorting the chart",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse reads three kinds of line. Match the label: plan, passive, or guess.",
+      "chips": [
+        { "w": "Der Arzt wird um zehn kommen", "hint": "plan." },
+        { "w": "Die Wunde wird gereinigt", "hint": "passive." },
+        { "w": "Der Patient wird wohl schlafen", "hint": "guess." },
+        { "w": "Die Tablette wird gegeben", "hint": "passive." },
+        { "w": "Der Präsident wird kommen", "hint": "plan." },
+        { "w": "Sie wird wohl Fieber haben", "hint": "guess." },
+        { "w": "Der Arzt wird um zehn kommt", "hint": "infinitive." },
+        { "w": "Die Wunde wird reinigen", "hint": "participle." },
+        { "w": "Der Patient wird wohl schläft", "hint": "infinitive." },
+        { "w": "Die Tablette wird gegibt", "hint": "gegeben." },
+        { "w": "Der Präsident wird zu kommen", "hint": "no zu." },
+        { "w": "Sie wird wohl Fieber hat", "hint": "haben." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, the plan at ten:",
+          "after": ".",
+          "answer": "Der Arzt wird um zehn kommen",
+          "en": "The doctor will come at ten.",
+          "why": "um zehn kommen is the plan.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Nurse, the wound, passive:",
+          "after": ".",
+          "answer": "Die Wunde wird gereinigt",
+          "en": "The wound is cleaned.",
+          "why": "gereinigt is passive.",
+          "tip": "gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "before": "Nurse, the guess:",
+          "after": ".",
+          "answer": "Der Patient wird wohl schlafen",
+          "en": "The patient is probably asleep.",
+          "why": "wohl schlafen is the guess.",
+          "tip": "wohl.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Nurse, the tablet, passive:",
+          "after": ".",
+          "answer": "Die Tablette wird gegeben",
+          "en": "The tablet is given.",
+          "why": "gegeben is passive.",
+          "tip": "gegeben.",
+          "hint": "gegeben."
+        },
+        {
+          "before": "Nurse, the president, future:",
+          "after": ".",
+          "answer": "Der Präsident wird kommen",
+          "en": "The president will come.",
+          "why": "kommen, no wohl.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Nurse, her fever, guess:",
+          "after": ".",
+          "answer": "Sie wird wohl Fieber haben",
+          "en": "She probably has a fever.",
+          "why": "wohl haben is the guess.",
+          "tip": "haben.",
+          "hint": "haben."
+        }
+      ]
+    },
+    {
+      "id": "gap-person",
+      "label": "Gap",
+      "title": "Who, and which use?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the person and the use. Future and the guess use an infinitive. Passive uses untersucht. She wird. Formal Sie werden.",
+      "chips": [
+        { "w": "Ich werde kommen", "hint": "ich werde." },
+        { "w": "Du wirst kommen", "hint": "du wirst." },
+        { "w": "Sie wird untersucht", "hint": "she, passive." },
+        { "w": "Wir werden wohl warten", "hint": "wir, a guess." },
+        { "w": "Ihr werdet kommen", "hint": "ihr werdet." },
+        { "w": "Sie werden untersucht", "hint": "formal, passive." },
+        { "w": "Ich wird kommen", "hint": "ich werde." },
+        { "w": "Du wird kommen", "hint": "du wirst." },
+        { "w": "Sie werdet untersucht", "hint": "not werdet." },
+        { "w": "Wir wird wohl warten", "hint": "wir werden." },
+        { "w": "Ihr wird kommen", "hint": "ihr werdet." },
+        { "w": "Du werdet kommen", "hint": "werdet is ihr." }
+      ],
+      "items": [
+        {
+          "before": "ich, future:",
+          "after": ".",
+          "answer": "Ich werde kommen",
+          "en": "I will come.",
+          "why": "ich werde plus the infinitive. A plan.",
+          "tip": "werde.",
+          "hint": "werde."
+        },
+        {
+          "before": "du, future:",
+          "after": ".",
+          "answer": "Du wirst kommen",
+          "en": "You will come.",
+          "why": "du wirst. She wird.",
+          "tip": "wirst.",
+          "hint": "wirst."
+        },
+        {
+          "before": "she, passive, not formal Sie:",
+          "after": ".",
+          "answer": "Sie wird untersucht",
+          "en": "She is examined.",
+          "why": "She wird plus the participle untersucht. Formal Sie werden.",
+          "tip": "wird.",
+          "hint": "wird."
+        },
+        {
+          "before": "wir, assumption:",
+          "after": ".",
+          "answer": "Wir werden wohl warten",
+          "en": "We are probably waiting.",
+          "why": "wir werden, wohl, infinitive warten. A guess.",
+          "tip": "wohl.",
+          "hint": "werden."
+        },
+        {
+          "before": "ihr, future:",
+          "after": ".",
+          "answer": "Ihr werdet kommen",
+          "en": "You will come.",
+          "why": "ihr werdet plus kommen.",
+          "tip": "werdet.",
+          "hint": "werdet."
+        },
+        {
+          "before": "formal Sie, passive, not she:",
+          "after": ".",
+          "answer": "Sie werden untersucht",
+          "en": "You are examined.",
+          "why": "Formal Sie werden plus the participle. She wird.",
+          "tip": "werden.",
+          "hint": "werden."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The chart",
+      "practice": "reading",
+      "instructions": "Read the three kinds of line. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Die Wunde",
+        "paragraphs": [
+          "Der Arzt wird um zehn kommen. Der Präsident wird kommen.",
+          "Die Wunde wird gereinigt. Die Tablette wird gegeben.",
+          "Der Patient wird wohl schlafen. Sie wird wohl Fieber haben."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The plan at ten, from the chart.",
+          "qEn": "Future.",
+          "options": ["wird um zehn kommen", "wird gereinigt", "wird wohl schlafen"],
+          "answer": 0,
+          "why": "Der Arzt wird um zehn kommen.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "The wound, from the chart.",
+          "qEn": "Passive.",
+          "options": ["wird gereinigt", "wird reinigen", "wird wohl schlafen"],
+          "answer": 0,
+          "why": "Die Wunde wird gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "kind": "mc",
+          "q": "The guess about the patient.",
+          "qEn": "wohl.",
+          "options": ["wird wohl schlafen", "wird um zehn kommen", "wird gegeben"],
+          "answer": 0,
+          "why": "Der Patient wird wohl schlafen.",
+          "hint": "wohl."
+        },
+        {
+          "kind": "mc",
+          "q": "The tablet, from the chart.",
+          "qEn": "Passive.",
+          "options": ["wird gegeben", "wird gegibt", "wird kommen"],
+          "answer": 0,
+          "why": "Die Tablette wird gegeben.",
+          "hint": "gegeben."
+        }
+      ]
+    },
+    {
+      "id": "writing-sort",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four sorted lines",
+      "practice": "writing",
+      "instructions": "Write four lines. One plan, two passive lines, one guess. Use kommen, gereinigt, schlafen and gegeben.",
+      "prompt": "The doctor will come at ten. The wound is cleaned. The patient is probably asleep. The tablet is given.",
+      "bullets": ["Arzt wird um zehn kommen", "Wunde wird gereinigt", "Patient wird wohl schlafen", "Tablette wird gegeben"],
+      "model": "Der Arzt wird um zehn kommen. Die Wunde wird gereinigt. Der Patient wird wohl schlafen. Die Tablette wird gegeben.",
+      "modelEn": "The doctor will come at ten. The wound is cleaned. The patient is probably asleep. The tablet is given.",
+      "hint": "Arzt wird um zehn kommen. Wunde wird gereinigt. Patient wird wohl schlafen. Tablette wird gegeben.",
+      "checklist": [
+        { "id": "a", "label": "Arzt wird um zehn kommen", "keywords": ["arzt wird um zehn kommen"] },
+        { "id": "w", "label": "Wunde wird gereinigt", "keywords": ["wunde wird gereinigt"] },
+        { "id": "p", "label": "Patient wird wohl schlafen", "keywords": ["patient wird wohl schlafen"] },
+        { "id": "t", "label": "Tablette wird gegeben", "keywords": ["tablette wird gegeben"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Werden, werden, werden …",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Infinitive, no wohl: plan. Participle: passive. wohl plus infinitive: guess. No zu. du wirst. She wird. Formal Sie werden.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Future, the doctor at ten.",
+          "qEn": "kommen.",
+          "options": ["Der Arzt wird um zehn kommen.", "Die Wunde wird gereinigt.", "Der Arzt wird um zehn kommt."],
+          "answer": 0,
+          "why": "kommen is the plan. gereinigt is the passive. kommt is not the infinitive.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive, the wound.",
+          "qEn": "gereinigt.",
+          "options": ["Die Wunde wird gereinigt.", "Die Wunde wird reinigen.", "Die Wunde wurde gereinigt."],
+          "answer": 0,
+          "why": "wird gereinigt is the present passive. wurde is the past passive, chapter 58. reinigen is not a participle.",
+          "hint": "gereinigt."
+        },
+        {
+          "kind": "mc",
+          "q": "Guess about now. The patient.",
+          "qEn": "wohl.",
+          "options": ["Der Patient wird wohl schlafen.", "Der Arzt wird um zehn kommen.", "Der Patient wird wohl schläft."],
+          "answer": 0,
+          "why": "wohl schlafen is the guess. um zehn kommen is the plan. schläft is not the infinitive.",
+          "hint": "wohl."
+        },
+        {
+          "kind": "mc",
+          "q": "Passive. geben.",
+          "qEn": "gegeben.",
+          "options": ["Die Tablette wird gegeben.", "Die Tablette wird geben.", "Die Tablette wird gegibt."],
+          "answer": 0,
+          "why": "gegeben is the participle. geben is the infinitive. gegibt is not a form.",
+          "hint": "gegeben."
+        },
+        {
+          "kind": "mc",
+          "q": "Future, the president. No guess.",
+          "qEn": "no wohl.",
+          "options": ["Der Präsident wird kommen.", "Der Präsident wird wohl kommen.", "Der Präsident wird zu kommen."],
+          "answer": 0,
+          "why": "kommen, no wohl, is the plan. wohl kommen is the guess. No zu.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "Guess. She, fever.",
+          "qEn": "haben.",
+          "options": ["Sie wird wohl Fieber haben.", "Sie wird wohl Fieber hat.", "Sie wird wohl Fieber gehabt."],
+          "answer": 0,
+          "why": "wohl plus haben. hat is present. gehabt is the participle.",
+          "hint": "haben."
+        },
+        {
+          "kind": "mc",
+          "q": "Passive. messen.",
+          "qEn": "gemessen.",
+          "options": ["Das Fieber wird gemessen.", "Das Fieber wird gemesst.", "Das Fieber wird messen."],
+          "answer": 0,
+          "why": "gemessen is the participle, chapter 26. gemesst is not a form. messen is the infinitive.",
+          "hint": "gemessen."
+        },
+        {
+          "kind": "mc",
+          "q": "At ten, position 1. The doctor. A plan.",
+          "qEn": "wird is position 2.",
+          "options": ["Um zehn wird der Arzt kommen.", "Um zehn der Arzt wird kommen.", "Um zehn wird der Arzt zu kommen."],
+          "answer": 0,
+          "why": "Um zehn wird der Arzt kommen. No zu.",
+          "hint": "wird."
+        },
+        {
+          "kind": "mc",
+          "q": "Future. du.",
+          "qEn": "wirst.",
+          "options": ["Du wirst kommen.", "Du wird kommen.", "Du werdet kommen."],
+          "answer": 0,
+          "why": "du wirst. She wird. ihr werdet.",
+          "hint": "wirst."
+        },
+        {
+          "kind": "mc",
+          "q": "Passive. formal Sie, not she.",
+          "qEn": "werden plus participle.",
+          "options": ["Sie werden untersucht.", "Sie wird untersucht.", "Sie werdet untersucht."],
+          "answer": 0,
+          "why": "Formal Sie werden. She wird untersucht is she. werdet is ihr.",
+          "hint": "werden."
+        },
+        {
+          "kind": "mc",
+          "q": "The guess, not the plan. The patient.",
+          "qEn": "wohl.",
+          "options": ["Der Patient wird wohl schlafen.", "Der Präsident wird kommen.", "Der Patient wird wohl zu schlafen."],
+          "answer": 0,
+          "why": "wohl schlafen is the guess. Der Präsident wird kommen is the plan. No zu.",
+          "hint": "wohl."
+        },
+        {
+          "kind": "mc",
+          "q": "The passive, not the future. The wound.",
+          "qEn": "participle.",
+          "options": ["Die Wunde wird gereinigt.", "Der Arzt wird kommen.", "Die Wunde wird reinigen."],
+          "answer": 0,
+          "why": "gereinigt is passive. kommen is the plan. reinigen is not a participle.",
+          "hint": "gereinigt."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Werden, werden, werden …",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Der Arzt wird um zehn kommen.", "en": "The doctor will come at ten. A plan." },
+        { "de": "Die Wunde wird gereinigt.", "en": "The wound is cleaned. Passive." },
+        { "de": "Der Patient wird wohl schlafen.", "en": "The patient is probably asleep. A guess." },
+        { "de": "Die Tablette wird gegeben.", "en": "The tablet is given. Passive." }
+      ],
+      "messages": [
+        "Infinitive, no wohl: a plan. Participle: passive. wohl plus an infinitive: a guess about now.",
+        "du wirst. She wird. Formal Sie werden. No zu. wurde plus a participle is the past passive.",
+        "Sehr gut. Der Arzt wird um zehn kommen. Die Wunde wird gereinigt. Der Patient wird wohl schlafen.",
+        "Ausgezeichnet. You can sort the three uses of werden on the chart."
+      ]
+    }
+  ]
+}

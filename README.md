@@ -67,8 +67,13 @@ npm run build
 | 55 | Konjunktiv II forms (hätte, wäre, würde) |
 | 56 | Konjunktiv II use (wenn, wishes, advice) |
 | 57 | Present passive (wird gereinigt, wird gegeben) |
+| 58 | Past passive (wurde gereinigt, wurde durchgeführt) |
+| 59 | Futur I and assumption (wird kommen, wird wohl schlafen) |
+| 60 | Uses of werden (plan, passive, guess) |
+| 61 | lassen (let him sleep, have the blood taken) |
+| 62 | Position and direction (sitzen/setzen, liegen/legen, hängen) |
 
-The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29, 34–38, 40–44 and 46, and B1 chapters 39, 49, 50, 51, 52, 53, 54, 55, 56 and 57. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
+The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29, 34–38, 40–44 and 46, and B1 chapters 39, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 and 62. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
 
 **Wortbank** keeps the words you star from a grammar popup or a comic popup. They stay grouped by the lesson you saved them in. Open Wortbank in the header to filter, mark a word Schwer, review it, or open a separable verb.
 

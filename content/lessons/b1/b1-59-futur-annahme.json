@@ -1,0 +1,1084 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-59-futur-annahme",
+  "level": "B1",
+  "unit": "Kapitel 59",
+  "chapter": 59,
+  "chapters": [59],
+  "title": "Der Präsident wird kommen",
+  "subtitle": "Future and assumption",
+  "glossary": {
+    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🔵" },
+    "präsident": {
+      "de": "Präsident",
+      "pos": "noun",
+      "en": "president",
+      "emoji": "👔",
+      "article": "der",
+      "plural": "die Präsidenten",
+      "note": "Nominative, no -en: Der Präsident wird kommen."
+    },
+    "wird": {
+      "de": "werden → sie wird",
+      "pos": "form",
+      "en": "will (singular), or probably",
+      "emoji": "🔁",
+      "note": "Futur I, singular. She wird. Der Arzt wird um zehn kommen. With wohl it is a guess. Passive wird plus a participle is chapter 57. würde is Konjunktiv II, chapter 55."
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "infinitive",
+      "en": "to come",
+      "emoji": "🚶",
+      "note": "Infinitive at the end. Der Präsident wird kommen. Not zu kommen. Not kommt."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "Der Arzt wird um zehn kommen. The consultant on this ward."
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (clock time)",
+      "emoji": "🕙",
+      "note": "um zehn. Clock time. Um zehn wird der Arzt kommen."
+    },
+    "zehn": { "de": "zehn", "pos": "number", "en": "ten", "emoji": "🕙", "note": "um zehn. At ten." },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "emoji": "🩺",
+      "article": "die",
+      "plural": "die Visiten",
+      "note": "Die Visite wird beginnen."
+    },
+    "beginnen": {
+      "de": "beginnen",
+      "pos": "infinitive",
+      "en": "to begin",
+      "emoji": "🩺",
+      "note": "Die Visite wird beginnen. Not zu beginnen. Not beginnt."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative: Der Patient wird wohl schlafen."
+    },
+    "wohl": {
+      "de": "wohl",
+      "pos": "adverb",
+      "en": "probably",
+      "emoji": "🤔",
+      "note": "Marks a guess about now. Der Patient wird wohl schlafen. The form is still wird plus the infinitive."
+    },
+    "schlafen": {
+      "de": "schlafen",
+      "pos": "infinitive",
+      "en": "to sleep",
+      "emoji": "😴",
+      "note": "Der Patient wird wohl schlafen. Not schläft. Not zu schlafen."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she, or formal you",
+      "emoji": "👩",
+      "note": "She wird. Formal Sie werden. Sie wird wohl Fieber haben is she."
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "Sie wird wohl Fieber haben."
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "infinitive",
+      "en": "to have",
+      "emoji": "🌡️",
+      "note": "Sie wird wohl Fieber haben. Not hat. Not gehabt."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "werden": {
+      "de": "werden → sie werden",
+      "pos": "form",
+      "en": "will (plural or formal you)",
+      "emoji": "🔁",
+      "note": "wir, they, and formal Sie. Wir werden warten. She wird."
+    },
+    "warten": {
+      "de": "warten",
+      "pos": "infinitive",
+      "en": "to wait",
+      "emoji": "⏳",
+      "note": "Wir werden warten. Not zu warten."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "A plan, or a guess",
+      "learn": [
+        "Futur I is the present of werden plus the infinitive at the end. No zu. Der Präsident wird kommen. Der Arzt wird um zehn kommen.",
+        "ich werde, du wirst, er/sie wird, wir werden, ihr werdet, sie/Sie werden. She wird. Formal Sie werden. The infinitive stays kommen, schlafen, haben, warten, beginnen.",
+        "The same form is a guess about now when wohl is in the line. Der Patient wird wohl schlafen. Sie wird wohl Fieber haben.",
+        "A fixed plan can also stay in the present: Der Arzt kommt um zehn. würde plus an infinitive is Konjunktiv II. wird plus a participle is the passive, chapter 57."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Präsident", "article": "der", "plural": "die Präsidenten", "en": "president", "emoji": "👔", "glossaryKey": "präsident" },
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor (male)", "emoji": "👨‍⚕️", "glossaryKey": "arzt" },
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Visite", "article": "die", "plural": "die Visiten", "en": "ward round", "emoji": "🩺", "glossaryKey": "visite" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "image": { "type": "svg", "id": "thermometer" }, "glossaryKey": "fieber" }
+      ],
+      "text": {
+        "title": "Der Präsident wird kommen",
+        "de": "Der Präsident wird kommen. Der Arzt wird um zehn kommen. Die Visite wird beginnen. Der Patient wird wohl schlafen. Sie wird wohl Fieber haben. Wir werden warten.",
+        "en": "The president will come. The doctor will come at ten. The ward round will begin. The patient is probably asleep. She probably has a fever. We will wait."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "werden plus the infinitive",
+      "practice": "choose",
+      "heroTitle": "Der Präsident wird kommen",
+      "heroImage": "bed",
+      "story": [
+        "The consultant is due at ten. That plan is Futur I: a present form of <b>werden</b>, then the <b>infinitive at the end</b>. No <b>zu</b>. <b>Der Präsident wird kommen. Der Arzt wird um zehn kommen.</b>",
+        "werden still changes with the person. <b>ich werde, du wirst, er/sie wird, wir werden, ihr werdet, sie/Sie werden.</b> She <b>wird</b>. Formal Sie <b>werden</b>. <b>Du wirst kommen. Wir werden warten.</b> The infinitive does not change: kommen, schlafen, haben, beginnen.",
+        "Clock time can stand first. <b>Um zehn wird der Arzt kommen.</b> um zehn is position 1, so wird is position 2, and kommen still closes the line. The same words in the other order: <b>Der Arzt wird um zehn kommen.</b>",
+        "<b>wohl</b> turns the same form into a guess about now. <b>Der Patient wird wohl schlafen.</b> He is probably asleep. <b>Sie wird wohl Fieber haben.</b> She probably has a fever. wahrscheinlich does the same job. The infinitive is still last.",
+        "A fixed plan can stay in the present: <b>Der Arzt kommt um zehn.</b> That sentence stays correct. <b>würde</b> plus an infinitive is Konjunktiv II, chapters 55 and 56. <b>wird</b> plus a participle is the present passive, chapter 57: Die Wunde wird gereinigt. <b>wurde</b> plus a participle is chapter 58.",
+        "Chapter 60 sorts future, passive, and assumption. This chart learns one form. Without wohl it is a plan. With wohl it is a guess. The infinitive, not a participle, closes the line."
+      ],
+      "questionRule": "Futur I: werde, wirst, wird, werden, werdet, werden, then the infinitive at the end. No zu. du wirst. She wird. Formal Sie werden. wohl marks a guess.",
+      "tables": [
+        {
+          "title": "Präsens → Futur I",
+          "caption": "werden is position 2. The infinitive is last. No zu. wohl marks the guess.",
+          "columns": ["Präsens", "Futur I"],
+          "rows": [
+            { "label": "kommen", "cells": ["Der Präsident kommt.", "Der Präsident wird kommen."], "highlight": true },
+            { "label": "um zehn", "cells": ["Der Arzt kommt um zehn.", "Der Arzt wird um zehn kommen."], "highlight": true },
+            { "label": "warten", "cells": ["Wir warten.", "Wir werden warten."] },
+            { "label": "wohl", "cells": ["Der Patient schläft wohl.", "Der Patient wird wohl schlafen."] },
+            { "label": "Fieber", "cells": ["Sie hat wohl Fieber.", "Sie wird wohl Fieber haben."] }
+          ]
+        },
+        {
+          "title": "werden",
+          "caption": "Present of werden plus kommen. She wird. Formal Sie werden.",
+          "columns": ["Form", "Beispiel"],
+          "rows": [
+            { "label": "ich", "cells": ["werde", "Ich werde kommen."], "highlight": true },
+            { "label": "du", "cells": ["wirst", "Du wirst kommen."], "highlight": true },
+            { "label": "er/sie", "cells": ["wird", "Sie wird kommen."] },
+            { "label": "wir", "cells": ["werden", "Wir werden kommen."] },
+            { "label": "ihr", "cells": ["werdet", "Ihr werdet kommen."] },
+            { "label": "sie/Sie", "cells": ["werden", "Sie werden kommen."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "zu, or a second finite verb. The present, würde, and the passive participle stay correct in their own patterns.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "zu", "cells": ["zu kommen", "kommen"] },
+            { "label": "kommt", "cells": ["wird kommt", "wird kommen"] },
+            { "label": "du", "cells": ["Du wird", "Du wirst"] },
+            { "label": "wohl", "cells": ["wird schläft", "wird schlafen"] },
+            { "label": "haben", "cells": ["wird gehabt", "wird haben"] },
+            { "label": "um zehn", "cells": ["Um zehn der Arzt wird", "Um zehn wird"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four Futur traps",
+        "items": [
+          { "de": "Der Präsident wird kommen.", "en": "wird plus the infinitive.", "tone": "ok" },
+          { "de": "Der Präsident wird zu kommen.", "en": "No zu.", "tone": "stop" },
+          { "de": "Du wirst kommen.", "en": "du wirst.", "tone": "ok" },
+          { "de": "Du wird kommen.", "en": "du does not take wird.", "tone": "stop" },
+          { "de": "Um zehn wird der Arzt kommen.", "en": "wird is position 2.", "tone": "ok" },
+          { "de": "Um zehn der Arzt wird kommen.", "en": "The verb is not position 2.", "tone": "stop" },
+          { "de": "Der Patient wird wohl schlafen.", "en": "wohl, then the infinitive.", "tone": "ok" },
+          { "de": "Der Patient wird wohl schläft.", "en": "schläft is not the infinitive.", "tone": "stop" }
+        ],
+        "tip": "werden plus the infinitive at the end. No zu. wohl marks a guess."
+      },
+      "meaningsTitle": "On the plan",
+      "meanings": [
+        { "modal": "kommen", "emoji": "🚶", "en": "will come", "use": "a plan", "de": "Der Präsident wird kommen.", "deEn": "The president will come." },
+        { "modal": "um zehn", "emoji": "🕙", "en": "at ten", "use": "clock time", "de": "Der Arzt wird um zehn kommen.", "deEn": "The doctor will come at ten." },
+        { "modal": "wohl", "emoji": "🤔", "en": "probably", "use": "a guess about now", "de": "Der Patient wird wohl schlafen.", "deEn": "The patient is probably asleep." },
+        { "modal": "haben", "emoji": "🌡️", "en": "probably has", "use": "infinitive of haben", "de": "Sie wird wohl Fieber haben.", "deEn": "She probably has a fever." }
+      ],
+      "tips": [
+        {
+          "title": "The infinitive closes the line",
+          "body": "Say werden for the person, then the infinitive last. No zu. du wirst. She wird. Formal Sie werden. wohl makes it a guess. A clock time makes it a plan.",
+          "mnemonic": "wird kommen. wohl schlafen. um zehn.",
+          "emoji": "🕙"
+        }
+      ],
+      "quizTitle": "Futur I?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Futur I. The president.",
+          "qEn": "Infinitive at the end.",
+          "options": ["Der Präsident wird kommen.", "Der Präsident wird zu kommen.", "Der Präsident wird kommt."],
+          "answer": 0,
+          "why": "wird kommen. No zu. kommt is the present, and it does not follow wird.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "Plan, at ten. The doctor. Time first.",
+          "qEn": "wird is position 2.",
+          "options": ["Um zehn wird der Arzt kommen.", "Um zehn der Arzt wird kommen.", "Um zehn wird der Arzt kommt."],
+          "answer": 0,
+          "why": "Um zehn wird der Arzt kommen. kommen closes it.",
+          "hint": "wird."
+        },
+        {
+          "kind": "mc",
+          "q": "Guess about now. The patient.",
+          "qEn": "wohl, then the infinitive.",
+          "options": ["Der Patient wird wohl schlafen.", "Der Patient wird wohl schläft.", "Der Patient wird wohl zu schlafen."],
+          "answer": 0,
+          "why": "wird wohl schlafen. schläft is present. No zu.",
+          "hint": "schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "Guess. She, fever.",
+          "qEn": "Infinitive of haben.",
+          "options": ["Sie wird wohl Fieber haben.", "Sie wird wohl Fieber hat.", "Sie wird wohl Fieber gehabt."],
+          "answer": 0,
+          "why": "haben. hat is present. gehabt is the participle.",
+          "hint": "haben."
+        },
+        {
+          "kind": "mc",
+          "q": "Futur I. du.",
+          "qEn": "wirst.",
+          "options": ["Du wirst kommen.", "Du wird kommen.", "Du werdet kommen."],
+          "answer": 0,
+          "why": "du wirst. She wird. ihr werdet.",
+          "hint": "wirst."
+        },
+        {
+          "kind": "mc",
+          "q": "Futur I, not the passive. The doctor will come.",
+          "qEn": "Infinitive, not a participle.",
+          "options": ["Der Arzt wird kommen.", "Die Wunde wird gereinigt.", "Der Arzt wird zu kommen."],
+          "answer": 0,
+          "why": "kommen. gereinigt is the present passive, chapter 57. Chapter 60 sorts the uses. No zu.",
+          "hint": "kommen."
+        }
+      ]
+    },
+    {
+      "id": "gap-futur",
+      "label": "Gap",
+      "title": "On the plan",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label says Futur I or a guess. Use werden plus the infinitive. No zu. wohl marks the guess. um zehn is the plan.",
+      "chips": [
+        { "w": "Der Präsident wird kommen", "hint": "infinitive last." },
+        { "w": "Der Arzt wird um zehn kommen", "hint": "at ten." },
+        { "w": "Der Patient wird wohl schlafen", "hint": "wohl." },
+        { "w": "Sie wird wohl Fieber haben", "hint": "haben." },
+        { "w": "Du wirst kommen", "hint": "du wirst." },
+        { "w": "Wir werden warten", "hint": "wir werden." },
+        { "w": "Der Präsident wird zu kommen", "hint": "no zu." },
+        { "w": "Der Präsident wird kommt", "hint": "infinitive." },
+        { "w": "Um zehn der Arzt wird kommen", "hint": "wird is position 2." },
+        { "w": "Der Patient wird wohl schläft", "hint": "infinitive." },
+        { "w": "Sie wird wohl Fieber hat", "hint": "haben." },
+        { "w": "Du wird kommen", "hint": "du wirst." },
+        { "w": "Wir wird warten", "hint": "wir werden." }
+      ],
+      "items": [
+        {
+          "before": "Future, the president:",
+          "after": ".",
+          "answer": "Der Präsident wird kommen",
+          "en": "The president will come.",
+          "why": "wird kommen. No zu. kommt does not follow wird.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Plan, the doctor at ten:",
+          "after": ".",
+          "answer": "Der Arzt wird um zehn kommen",
+          "en": "The doctor will come at ten.",
+          "why": "wird um zehn kommen. The infinitive is last.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Guess, the patient is probably asleep:",
+          "after": ".",
+          "answer": "Der Patient wird wohl schlafen",
+          "en": "The patient is probably asleep.",
+          "why": "wohl, then schlafen. Not schläft.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Guess, she probably has a fever:",
+          "after": ".",
+          "answer": "Sie wird wohl Fieber haben",
+          "en": "She probably has a fever.",
+          "why": "haben. Not hat.",
+          "tip": "haben.",
+          "hint": "haben."
+        },
+        {
+          "before": "Futur I, du:",
+          "after": ".",
+          "answer": "Du wirst kommen",
+          "en": "You will come.",
+          "why": "du wirst. She wird.",
+          "tip": "wirst.",
+          "hint": "wirst."
+        },
+        {
+          "before": "Futur I, we wait:",
+          "after": ".",
+          "answer": "Wir werden warten",
+          "en": "We will wait.",
+          "why": "wir werden. Not wird.",
+          "tip": "werden.",
+          "hint": "werden."
+        }
+      ]
+    },
+    {
+      "id": "match-futur",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt says Futur I, the infinitive, the guess, or the person. One label is that form. One is another real pattern. One is not the form.",
+      "items": [
+        {
+          "prompt": "Futur I, der Präsident",
+          "options": [
+            { "emoji": "👔", "label": "wird kommen", "caption": "infinitive last" },
+            { "emoji": "💭", "label": "würde kommen", "caption": "Konjunktiv II" },
+            { "emoji": "🚫", "label": "wird zu kommen", "caption": "no zu" }
+          ],
+          "answer": 0,
+          "why": "wird kommen. würde is Konjunktiv II, chapter 55. No zu.",
+          "hint": "kommen."
+        },
+        {
+          "prompt": "A clock time, the plan",
+          "options": [
+            { "emoji": "🕙", "label": "um zehn", "caption": "at ten" },
+            { "emoji": "🤔", "label": "wohl", "caption": "a guess" },
+            { "emoji": "🚫", "label": "zu", "caption": "not a signal" }
+          ],
+          "answer": 0,
+          "why": "um zehn is the plan. wohl marks a guess. zu is not used.",
+          "hint": "zehn."
+        },
+        {
+          "prompt": "Infinitive after wird, schlafen",
+          "options": [
+            { "emoji": "😴", "label": "schlafen", "caption": "infinitive" },
+            { "emoji": "🛏️", "label": "schläft", "caption": "present" },
+            { "emoji": "🚫", "label": "zu schlafen", "caption": "no zu" }
+          ],
+          "answer": 0,
+          "why": "schlafen. schläft is the present. No zu.",
+          "hint": "schlafen."
+        },
+        {
+          "prompt": "werden, du",
+          "options": [
+            { "emoji": "🧑", "label": "wirst", "caption": "du wirst" },
+            { "emoji": "👩", "label": "wird", "caption": "sie wird" },
+            { "emoji": "👥", "label": "werdet", "caption": "ihr werdet" }
+          ],
+          "answer": 0,
+          "why": "du wirst. She wird. ihr werdet.",
+          "hint": "wirst."
+        },
+        {
+          "prompt": "Guess, the patient",
+          "options": [
+            { "emoji": "🤔", "label": "wohl schlafen", "caption": "a guess" },
+            { "emoji": "🕙", "label": "um zehn kommen", "caption": "a plan" },
+            { "emoji": "🚫", "label": "wohl schläft", "caption": "not the infinitive" }
+          ],
+          "answer": 0,
+          "why": "wohl schlafen. um zehn kommen is the plan. schläft is not the infinitive.",
+          "hint": "schlafen."
+        },
+        {
+          "prompt": "werden, wir",
+          "options": [
+            { "emoji": "👥", "label": "werden", "caption": "wir werden" },
+            { "emoji": "👩", "label": "wird", "caption": "sie wird" },
+            { "emoji": "🧑‍🤝‍🧑", "label": "werdet", "caption": "ihr werdet" }
+          ],
+          "answer": 0,
+          "why": "wir werden. She wird. ihr werdet.",
+          "hint": "werden."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed where the patient is probably asleep",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster for the wound after the round",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer if she probably has a fever",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart for the doctor at ten",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-futur",
+      "type": "builder",
+      "label": "Build",
+      "title": "Infinitive last",
+      "practice": "build",
+      "instructions": "Build the line. The infinitive closes it. um zehn or wohl can stand first, and then wird comes next.",
+      "items": [
+        {
+          "tiles": ["Der", "Präsident", "wird", "kommen"],
+          "answers": ["Der Präsident wird kommen"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "kommen",
+          "question": false,
+          "en": "The president will come.",
+          "hint": "kommen last.",
+          "feedback": {
+            "end": "kommen closes the line: Der Präsident wird kommen.",
+            "fallback": "Der Präsident wird kommen."
+          }
+        },
+        {
+          "tiles": ["Um", "zehn", "wird", "der", "Arzt", "kommen"],
+          "answers": ["Um zehn wird der Arzt kommen", "Der Arzt wird um zehn kommen"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "kommen",
+          "question": false,
+          "en": "The doctor will come at ten.",
+          "hint": "kommen last. um zehn can be first.",
+          "feedback": {
+            "end": "kommen closes the line.",
+            "fallback": "Um zehn wird der Arzt kommen. Or: Der Arzt wird um zehn kommen."
+          }
+        },
+        {
+          "tiles": ["Der", "Patient", "wird", "wohl", "schlafen"],
+          "answers": ["Der Patient wird wohl schlafen", "Wohl wird der Patient schlafen"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "schlafen",
+          "question": false,
+          "en": "The patient is probably asleep.",
+          "hint": "schlafen last. wohl can be first.",
+          "feedback": {
+            "end": "schlafen closes the line.",
+            "fallback": "Der Patient wird wohl schlafen. Or: Wohl wird der Patient schlafen."
+          }
+        },
+        {
+          "tiles": ["Sie", "wird", "wohl", "Fieber", "haben"],
+          "answers": ["Sie wird wohl Fieber haben"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "haben",
+          "question": false,
+          "en": "She probably has a fever.",
+          "hint": "haben last. She wird.",
+          "feedback": {
+            "end": "haben closes the line.",
+            "fallback": "Sie wird wohl Fieber haben."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-futur",
+      "label": "Rewrite",
+      "title": "From present to Futur I",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label shows a correct present sentence. Give the Futur I. Keep wohl and um zehn. The infinitive goes last. The present line stays correct German.",
+      "chips": [
+        { "w": "Der Präsident wird kommen", "hint": "kommen." },
+        { "w": "Der Arzt wird um zehn kommen", "hint": "at ten." },
+        { "w": "Der Patient wird wohl schlafen", "hint": "schlafen." },
+        { "w": "Sie wird wohl Fieber haben", "hint": "haben." },
+        { "w": "Du wirst kommen", "hint": "du wirst." },
+        { "w": "Wir werden warten", "hint": "wir werden." },
+        { "w": "Der Präsident wird zu kommen", "hint": "no zu." },
+        { "w": "Der Präsident wird kommt", "hint": "infinitive." },
+        { "w": "Der Arzt wird um zehn kommt", "hint": "infinitive." },
+        { "w": "Der Patient wird wohl schläft", "hint": "infinitive." },
+        { "w": "Sie wird wohl Fieber hat", "hint": "haben." },
+        { "w": "Du wird kommen", "hint": "du wirst." },
+        { "w": "Wir wird warten", "hint": "wir werden." }
+      ],
+      "items": [
+        {
+          "before": "Present: Der Präsident kommt. Futur:",
+          "after": ".",
+          "answer": "Der Präsident wird kommen",
+          "en": "The president will come.",
+          "why": "wird kommen. Der Präsident kommt stays a correct present.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Present: Der Arzt kommt um zehn. Futur:",
+          "after": ".",
+          "answer": "Der Arzt wird um zehn kommen",
+          "en": "The doctor will come at ten.",
+          "why": "wird um zehn kommen. The present with um zehn stays correct for a fixed plan.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Present: Der Patient schläft wohl. Futur:",
+          "after": ".",
+          "answer": "Der Patient wird wohl schlafen",
+          "en": "The patient is probably asleep.",
+          "why": "wohl stays. schlafen replaces schläft.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Present: Sie hat wohl Fieber. Futur:",
+          "after": ".",
+          "answer": "Sie wird wohl Fieber haben",
+          "en": "She probably has a fever.",
+          "why": "haben replaces hat. wohl stays.",
+          "tip": "haben.",
+          "hint": "haben."
+        },
+        {
+          "before": "Present: Du kommst. Futur:",
+          "after": ".",
+          "answer": "Du wirst kommen",
+          "en": "You will come.",
+          "why": "du wirst plus kommen. Du kommst stays the present.",
+          "tip": "wirst.",
+          "hint": "wirst."
+        },
+        {
+          "before": "Present: Wir warten. Futur:",
+          "after": ".",
+          "answer": "Wir werden warten",
+          "en": "We will wait.",
+          "why": "wir werden plus warten.",
+          "tip": "werden.",
+          "hint": "werden."
+        }
+      ]
+    },
+    {
+      "id": "error-futur",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not Futur I. Choose the correction. A würde-sentence is Konjunktiv II and stays correct German. A present kommt-sentence stays correct for a fixed plan.",
+      "items": [
+        {
+          "clues": ["Futur I.", "No zu.", "Der Präsident wird zu kommen."],
+          "options": ["Der Präsident wird kommen.", "Der Präsident wird zu kommen.", "Der Präsident würde kommen."],
+          "answer": 0,
+          "reveal": "Der Präsident wird kommen.",
+          "hint": "kommen."
+        },
+        {
+          "clues": ["Plan, at ten.", "Infinitive last.", "Der Arzt wird um zehn kommt."],
+          "options": ["Der Arzt wird um zehn kommen.", "Der Arzt wird um zehn kommt.", "Der Arzt kommt um zehn."],
+          "answer": 0,
+          "reveal": "Der Arzt wird um zehn kommen.",
+          "hint": "kommen."
+        },
+        {
+          "clues": ["Guess, wohl.", "Infinitive.", "Der Patient wird wohl schläft."],
+          "options": ["Der Patient wird wohl schlafen.", "Der Patient wird wohl schläft.", "Der Patient schläft wohl."],
+          "answer": 0,
+          "reveal": "Der Patient wird wohl schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "clues": ["haben, infinitive.", "Not hat.", "Sie wird wohl Fieber hat."],
+          "options": ["Sie wird wohl Fieber haben.", "Sie wird wohl Fieber hat.", "Sie wird wohl Fieber gehabt."],
+          "answer": 0,
+          "reveal": "Sie wird wohl Fieber haben.",
+          "hint": "haben."
+        },
+        {
+          "clues": ["du.", "wirst.", "Du wird kommen."],
+          "options": ["Du wirst kommen.", "Du wird kommen.", "Du werdet kommen."],
+          "answer": 0,
+          "reveal": "Du wirst kommen.",
+          "hint": "wirst."
+        },
+        {
+          "clues": ["um zehn is position 1.", "wird is position 2.", "Um zehn der Arzt wird kommen."],
+          "options": ["Um zehn wird der Arzt kommen.", "Um zehn der Arzt wird kommen.", "Um zehn wird der Arzt zu kommen."],
+          "answer": 0,
+          "reveal": "Um zehn wird der Arzt kommen.",
+          "hint": "wird."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "The night plan",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse and the doctor plan the night. Futur I. A guess uses wohl. The patient, du, is wirst.",
+      "chips": [
+        { "w": "Der Präsident wird kommen", "hint": "president." },
+        { "w": "Der Arzt wird um zehn kommen", "hint": "at ten." },
+        { "w": "Der Patient wird wohl schlafen", "hint": "wohl." },
+        { "w": "Sie wird wohl Fieber haben", "hint": "haben." },
+        { "w": "Du wirst warten", "hint": "du wirst." },
+        { "w": "Wir werden warten", "hint": "wir werden." },
+        { "w": "Der Präsident wird zu kommen", "hint": "no zu." },
+        { "w": "Der Arzt wird um zehn kommt", "hint": "infinitive." },
+        { "w": "Der Patient wird wohl schläft", "hint": "infinitive." },
+        { "w": "Sie wird wohl Fieber hat", "hint": "haben." },
+        { "w": "Du wird warten", "hint": "du wirst." },
+        { "w": "Wir wird warten", "hint": "wir werden." }
+      ],
+      "items": [
+        {
+          "before": "Doctor, the president:",
+          "after": ".",
+          "answer": "Der Präsident wird kommen",
+          "en": "The president will come.",
+          "why": "wird kommen.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Plan, the doctor at ten:",
+          "after": ".",
+          "answer": "Der Arzt wird um zehn kommen",
+          "en": "The doctor will come at ten.",
+          "why": "um zehn, infinitive kommen.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Guess, the patient:",
+          "after": ".",
+          "answer": "Der Patient wird wohl schlafen",
+          "en": "The patient is probably asleep.",
+          "why": "wohl schlafen.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Guess, her fever:",
+          "after": ".",
+          "answer": "Sie wird wohl Fieber haben",
+          "en": "She probably has a fever.",
+          "why": "wohl Fieber haben.",
+          "tip": "haben.",
+          "hint": "haben."
+        },
+        {
+          "before": "Nurse to the patient, du:",
+          "after": ".",
+          "answer": "Du wirst warten",
+          "en": "You will wait.",
+          "why": "du wirst. She wird.",
+          "tip": "wirst.",
+          "hint": "wirst."
+        },
+        {
+          "before": "The team:",
+          "after": ".",
+          "answer": "Wir werden warten",
+          "en": "We will wait.",
+          "why": "wir werden.",
+          "tip": "werden.",
+          "hint": "werden."
+        }
+      ]
+    },
+    {
+      "id": "gap-person",
+      "label": "Gap",
+      "title": "Who will come?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The infinitive stays kommen. The person is on werden: werde, wirst, wird, werden, werdet, werden. She wird. Formal Sie werden.",
+      "chips": [
+        { "w": "Ich werde kommen", "hint": "ich werde." },
+        { "w": "Du wirst kommen", "hint": "du wirst." },
+        { "w": "Sie wird kommen", "hint": "she wird." },
+        { "w": "Wir werden kommen", "hint": "wir werden." },
+        { "w": "Ihr werdet kommen", "hint": "ihr werdet." },
+        { "w": "Sie werden kommen", "hint": "formal Sie." },
+        { "w": "Ich wird kommen", "hint": "ich werde." },
+        { "w": "Du wird kommen", "hint": "du wirst." },
+        { "w": "Sie werdet kommen", "hint": "not werdet." },
+        { "w": "Wir wird kommen", "hint": "wir werden." },
+        { "w": "Ihr wird kommen", "hint": "ihr werdet." },
+        { "w": "Du werdet kommen", "hint": "werdet is ihr." }
+      ],
+      "items": [
+        {
+          "before": "ich:",
+          "after": ".",
+          "answer": "Ich werde kommen",
+          "en": "I will come.",
+          "why": "ich werde. Not wird.",
+          "tip": "werde.",
+          "hint": "werde."
+        },
+        {
+          "before": "du:",
+          "after": ".",
+          "answer": "Du wirst kommen",
+          "en": "You will come.",
+          "why": "du wirst. werdet is ihr.",
+          "tip": "wirst.",
+          "hint": "wirst."
+        },
+        {
+          "before": "she, not formal Sie:",
+          "after": ".",
+          "answer": "Sie wird kommen",
+          "en": "She will come.",
+          "why": "She wird. Formal Sie werden.",
+          "tip": "wird.",
+          "hint": "wird."
+        },
+        {
+          "before": "wir:",
+          "after": ".",
+          "answer": "Wir werden kommen",
+          "en": "We will come.",
+          "why": "wir werden.",
+          "tip": "werden.",
+          "hint": "werden."
+        },
+        {
+          "before": "ihr:",
+          "after": ".",
+          "answer": "Ihr werdet kommen",
+          "en": "You will come.",
+          "why": "ihr werdet. Not wird.",
+          "tip": "werdet.",
+          "hint": "werdet."
+        },
+        {
+          "before": "formal Sie, not she:",
+          "after": ".",
+          "answer": "Sie werden kommen",
+          "en": "You will come.",
+          "why": "Formal Sie werden. She wird.",
+          "tip": "werden.",
+          "hint": "werden."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The plan",
+      "practice": "reading",
+      "instructions": "Read the night plan. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Arzt",
+        "paragraphs": [
+          "Der Präsident wird kommen. Der Arzt wird um zehn kommen. Um zehn wird der Arzt kommen.",
+          "Der Patient wird wohl schlafen. Sie wird wohl Fieber haben.",
+          "Die Visite wird beginnen. Wir werden warten."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The doctor, from the plan.",
+          "qEn": "At ten.",
+          "options": ["wird um zehn kommen", "wird um zehn kommt", "wird um zehn zu kommen"],
+          "answer": 0,
+          "why": "Der Arzt wird um zehn kommen.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient, the guess.",
+          "qEn": "wohl.",
+          "options": ["wird wohl schlafen", "wird wohl schläft", "wird wohl zu schlafen"],
+          "answer": 0,
+          "why": "Der Patient wird wohl schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "She, from the plan.",
+          "qEn": "haben.",
+          "options": ["wird wohl Fieber haben", "wird wohl Fieber hat", "wird wohl Fieber gehabt"],
+          "answer": 0,
+          "why": "Sie wird wohl Fieber haben.",
+          "hint": "haben."
+        },
+        {
+          "kind": "mc",
+          "q": "The team, from the plan.",
+          "qEn": "werden.",
+          "options": ["werden warten", "wird warten", "werden zu warten"],
+          "answer": 0,
+          "why": "Wir werden warten.",
+          "hint": "warten."
+        }
+      ]
+    },
+    {
+      "id": "writing-futur",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four plan lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Use kommen, schlafen, haben and warten.",
+      "prompt": "The doctor will come at ten. The patient is probably asleep. She probably has a fever. We will wait.",
+      "bullets": ["Arzt wird um zehn kommen", "Patient wird wohl schlafen", "wohl Fieber haben", "Wir werden warten"],
+      "model": "Der Arzt wird um zehn kommen. Der Patient wird wohl schlafen. Sie wird wohl Fieber haben. Wir werden warten.",
+      "modelEn": "The doctor will come at ten. The patient is probably asleep. She probably has a fever. We will wait.",
+      "hint": "Arzt wird um zehn kommen. Patient wird wohl schlafen. wohl Fieber haben. Wir werden warten.",
+      "checklist": [
+        { "id": "a", "label": "Arzt wird um zehn kommen", "keywords": ["arzt wird um zehn kommen"] },
+        { "id": "p", "label": "Patient wird wohl schlafen", "keywords": ["patient wird wohl schlafen"] },
+        { "id": "f", "label": "wohl Fieber haben", "keywords": ["wohl fieber haben"] },
+        { "id": "w", "label": "Wir werden warten", "keywords": ["wir werden warten"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Der Arzt wird um zehn kommen",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Futur I: wird or werden plus the infinitive at the end. No zu. du wirst. She wird. Formal Sie werden. wohl is a guess. um zehn is a plan.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Futur I. The president.",
+          "qEn": "kommen.",
+          "options": ["Der Präsident wird kommen.", "Der Präsident wird zu kommen.", "Der Präsident wird kommt."],
+          "answer": 0,
+          "why": "wird kommen. No zu.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "Plan, at ten. The doctor.",
+          "qEn": "kommen last.",
+          "options": ["Der Arzt wird um zehn kommen.", "Um zehn der Arzt wird kommen.", "Der Arzt wird um zehn kommt."],
+          "answer": 0,
+          "why": "Der Arzt wird um zehn kommen. kommen closes it.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "Guess about now. The patient.",
+          "qEn": "schlafen.",
+          "options": ["Der Patient wird wohl schlafen.", "Der Patient wird wohl schläft.", "Der Patient wird wohl zu schlafen."],
+          "answer": 0,
+          "why": "wohl schlafen. Not schläft. No zu.",
+          "hint": "schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "Guess. She, fever.",
+          "qEn": "haben.",
+          "options": ["Sie wird wohl Fieber haben.", "Sie wird wohl Fieber hat.", "Sie wird wohl Fieber gehabt."],
+          "answer": 0,
+          "why": "haben. Not hat. Not gehabt.",
+          "hint": "haben."
+        },
+        {
+          "kind": "mc",
+          "q": "Futur I. du.",
+          "qEn": "wirst.",
+          "options": ["Du wirst kommen.", "Du wird kommen.", "Du werdet kommen."],
+          "answer": 0,
+          "why": "du wirst. She wird. ihr werdet.",
+          "hint": "wirst."
+        },
+        {
+          "kind": "mc",
+          "q": "Futur I. ich.",
+          "qEn": "werde.",
+          "options": ["Ich werde kommen.", "Ich wird kommen.", "Ich wirst kommen."],
+          "answer": 0,
+          "why": "ich werde. wirst is du. wird is er or sie.",
+          "hint": "werde."
+        },
+        {
+          "kind": "mc",
+          "q": "Futur I. formal Sie, not she.",
+          "qEn": "werden.",
+          "options": ["Sie werden kommen.", "Sie wird kommen.", "Sie werdet kommen."],
+          "answer": 0,
+          "why": "Formal Sie werden. She wird. werdet is ihr.",
+          "hint": "werden."
+        },
+        {
+          "kind": "mc",
+          "q": "At ten, position 1. The doctor.",
+          "qEn": "wird is position 2.",
+          "options": ["Um zehn wird der Arzt kommen.", "Um zehn der Arzt wird kommen.", "Um zehn wird der Arzt zu kommen."],
+          "answer": 0,
+          "why": "Um zehn wird der Arzt kommen. No zu.",
+          "hint": "wird."
+        },
+        {
+          "kind": "mc",
+          "q": "Futur I. The ward round.",
+          "qEn": "beginnen.",
+          "options": ["Die Visite wird beginnen.", "Die Visite wird zu beginnen.", "Die Visite wird beginnt."],
+          "answer": 0,
+          "why": "wird beginnen. No zu. beginnt does not follow wird.",
+          "hint": "beginnen."
+        },
+        {
+          "kind": "mc",
+          "q": "Futur I. wir.",
+          "qEn": "werden.",
+          "options": ["Wir werden warten.", "Wir wird warten.", "Wir werden zu warten."],
+          "answer": 0,
+          "why": "wir werden warten. No zu.",
+          "hint": "werden."
+        },
+        {
+          "kind": "mc",
+          "q": "Guess, not the plan at ten. The patient.",
+          "qEn": "wohl.",
+          "options": ["Der Patient wird wohl schlafen.", "Der Arzt wird um zehn kommen.", "Der Patient wird wohl schläft."],
+          "answer": 0,
+          "why": "wohl marks the guess. um zehn is the plan, and that plan is still Futur I. schläft is not the infinitive.",
+          "hint": "wohl."
+        },
+        {
+          "kind": "mc",
+          "q": "Futur I, not the passive. The doctor will come.",
+          "qEn": "Infinitive.",
+          "options": ["Der Arzt wird kommen.", "Die Wunde wird gereinigt.", "Der Arzt wird zu kommen."],
+          "answer": 0,
+          "why": "kommen. gereinigt is the present passive, chapter 57. Chapter 60 sorts the uses.",
+          "hint": "kommen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Der Präsident wird kommen",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Der Präsident wird kommen.", "en": "The president will come." },
+        { "de": "Der Arzt wird um zehn kommen.", "en": "The doctor will come at ten." },
+        { "de": "Der Patient wird wohl schlafen.", "en": "The patient is probably asleep." },
+        { "de": "Sie wird wohl Fieber haben.", "en": "She probably has a fever." }
+      ],
+      "messages": [
+        "Futur I is werden plus the infinitive at the end. No zu. ich werde, du wirst, she wird, wir and formal Sie werden, ihr werdet.",
+        "um zehn makes a plan. wohl makes a guess about now. The infinitive still closes the line.",
+        "Sehr gut. Der Arzt wird um zehn kommen. Der Patient wird wohl schlafen.",
+        "Ausgezeichnet. You can write a plan and a guess on the chart."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1154 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-62-lage-richtung",
+  "level": "B1",
+  "unit": "Kapitel 62",
+  "chapter": 62,
+  "chapters": [62],
+  "title": "Sitzen/setzen, stehen/stellen, liegen/legen und hängen",
+  "subtitle": "Position and direction verbs",
+  "glossary": {
+    "sitzen": {
+      "de": "sitzen",
+      "pos": "infinitive",
+      "en": "to sit",
+      "emoji": "🪑",
+      "note": "Position, wo? Dative. Der Patient sitzt auf dem Bett. Not auf das. Not setzen."
+    },
+    "setzen": {
+      "de": "setzen",
+      "pos": "infinitive",
+      "en": "to put (someone) sitting",
+      "emoji": "🪑",
+      "note": "Direction, wohin? Accusative, with an object. Sie setzt ihn auf das Bett. den Patienten is that object."
+    },
+    "stehen": {
+      "de": "stehen",
+      "pos": "infinitive",
+      "en": "to stand",
+      "emoji": "🧍",
+      "note": "Position, wo? Es steht auf dem Tisch. Not auf den. A thermometer can also lie."
+    },
+    "stellen": {
+      "de": "stellen",
+      "pos": "infinitive",
+      "en": "to put (upright)",
+      "emoji": "🧍",
+      "note": "Direction, wohin? Sie stellt es auf den Tisch. Not stehen with an object."
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "infinitive",
+      "en": "to lie",
+      "emoji": "🛌",
+      "note": "Position, wo? Die Akte liegt auf dem Tisch. Chapter 34. Not legt."
+    },
+    "legen": {
+      "de": "legen",
+      "pos": "infinitive",
+      "en": "to lay",
+      "emoji": "🛌",
+      "note": "Direction, wohin? Sie legt die Akte auf das Bett. Legen Sie die Akte auf den Tisch."
+    },
+    "hängen": {
+      "de": "hängen",
+      "pos": "infinitive",
+      "en": "to hang",
+      "emoji": "🖼️",
+      "note": "Both jobs. No object, an der Wand: it hangs. With an object, an die Wand: she hangs it up. Same present."
+    },
+    "und": { "de": "und", "pos": "conjunction", "en": "and", "emoji": "➕" },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative, or feminine dative)",
+      "emoji": "🔵",
+      "note": "Der Patient is nominative. an der Wand is feminine dative."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴", "note": "die Akte. an die Wand is feminine accusative, the destination." },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢", "note": "das Bett, accusative as well. auf das Bett is the destination." },
+    "dem": { "de": "dem", "pos": "article", "en": "the (dative masculine or neuter)", "emoji": "🟩", "note": "auf dem Bett and auf dem Tisch. Location. Not the destination after setzen, stellen or legen." },
+    "den": { "de": "den", "pos": "article", "en": "the (masculine accusative)", "emoji": "🌹", "note": "auf den Tisch. Also den Patienten, the object of setzen." },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "He sits: Der Patient. Object of setzen: den Patienten. Not den Patient."
+    },
+    "sitzt": {
+      "de": "sitzen → er sitzt",
+      "pos": "form",
+      "en": "sits",
+      "emoji": "🪑",
+      "note": "du sitzt and ihr sitzt look the same. She sitzt. Formal Sie sitzen. Not setzt."
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on",
+      "emoji": "📍",
+      "note": "Two-way. Wo? auf dem. Wohin? auf das or auf den. aufs Bett means auf das Bett and is also correct."
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten",
+      "note": "Location: auf dem Bett. Destination: auf das Bett. Not auf den Bett."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she, or formal you",
+      "emoji": "👩",
+      "note": "She sitzt, setzt, stellt, legt, hängt. Formal Sie sitzen and Sie setzen. Legen Sie is the request."
+    },
+    "setzt": {
+      "de": "setzen → sie setzt",
+      "pos": "form",
+      "en": "puts (sitting)",
+      "emoji": "🪑",
+      "note": "She setzt ihn auf das Bett. Direction, auf das. Not sitzt."
+    },
+    "ihn": { "de": "ihn", "pos": "pronoun", "en": "him", "emoji": "🏥", "note": "Accusative. Sie setzt ihn auf das Bett. The full noun is den Patienten." },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "thermometer",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Thermometer",
+      "note": "Es steht auf dem Tisch. It can also lie. Chapter 34 has it on the nightstand."
+    },
+    "steht": {
+      "de": "stehen → er steht",
+      "pos": "form",
+      "en": "stands",
+      "emoji": "🧍",
+      "note": "Position. ihr steht. du stehst. Not stellt."
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "emoji": "🪵",
+      "article": "der",
+      "plural": "die Tische",
+      "note": "Location: auf dem Tisch. Destination: auf den Tisch."
+    },
+    "stellt": {
+      "de": "stellen → sie stellt",
+      "pos": "form",
+      "en": "puts (upright)",
+      "emoji": "🧍",
+      "note": "She stellt es auf den Tisch. Not auf dem."
+    },
+    "es": { "de": "es", "pos": "pronoun", "en": "it", "emoji": "🌡️", "note": "The thermometer. Sie stellt es auf den Tisch." },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "emoji": "📋",
+      "article": "die",
+      "plural": "die Akten",
+      "note": "Die Akte liegt auf dem Tisch. She lays it on the bed, or hangs it on the wall."
+    },
+    "liegt": {
+      "de": "liegen → er liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🛌",
+      "note": "Position. Die Akte liegt auf dem Tisch. Not legt."
+    },
+    "legt": {
+      "de": "legen → sie legt",
+      "pos": "form",
+      "en": "lays",
+      "emoji": "🛌",
+      "note": "Direction. Sie legt die Akte auf das Bett. Not liegt."
+    },
+    "hängt": {
+      "de": "hängen → sie hängt",
+      "pos": "form",
+      "en": "hangs",
+      "emoji": "🖼️",
+      "note": "Same present for both jobs. du hängst. ihr hängt. Location an der. Destination an die."
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "on, against",
+      "emoji": "🖼️",
+      "note": "Two-way. Wo? an der Wand. Wohin? an die Wand."
+    },
+    "wand": {
+      "de": "Wand",
+      "pos": "noun",
+      "en": "wall",
+      "emoji": "🧱",
+      "article": "die",
+      "plural": "die Wände",
+      "note": "Location: an der Wand. Destination: an die Wand. Not an dem Wand."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Where it is, or where it goes",
+      "learn": [
+        "Position answers wo? and takes the dative: sitzen, stehen, liegen, and hängen with no object. Der Patient sitzt auf dem Bett. Die Akte liegt auf dem Tisch.",
+        "Direction answers wohin?, takes the accusative, and has an object: setzen, stellen, legen, and hängen with an object. Sie setzt ihn auf das Bett. Sie legt die Akte auf das Bett.",
+        "hängen does both. No object plus an der Wand: it is already hanging. An object plus an die Wand: she hangs it up. The present form is the same.",
+        "du stehst, ihr steht. She sitzt, formal Sie sitzen. du sitzt and ihr sitzt look the same. Legen Sie die Akte auf den Tisch is the request from chapter 34."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "glossaryKey": "bett" },
+        { "de": "Akte", "article": "die", "plural": "die Akten", "en": "chart", "emoji": "📋", "glossaryKey": "akte" },
+        { "de": "Tisch", "article": "der", "plural": "die Tische", "en": "table", "emoji": "🪵", "glossaryKey": "tisch" },
+        { "de": "Thermometer", "article": "das", "plural": "die Thermometer", "en": "thermometer", "emoji": "🌡️", "image": { "type": "svg", "id": "thermometer" }, "glossaryKey": "thermometer" }
+      ],
+      "text": {
+        "title": "Sitzen/setzen, stehen/stellen, liegen/legen und hängen",
+        "de": "Der Patient sitzt auf dem Bett. Sie setzt ihn auf das Bett. Das Thermometer steht auf dem Tisch. Sie stellt es auf den Tisch. Die Akte liegt auf dem Tisch. Sie legt die Akte auf das Bett. Die Akte hängt an der Wand. Sie hängt die Akte an die Wand.",
+        "en": "The patient sits on the bed. She puts him on the bed. The thermometer stands on the table. She puts it on the table. The chart lies on the table. She lays the chart on the bed. The chart hangs on the wall. She hangs the chart on the wall."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Wo or wohin?",
+      "practice": "choose",
+      "heroTitle": "Der Patient sitzt auf dem Bett",
+      "heroImage": "bed",
+      "story": [
+        "Four pairs. A <b>position</b> verb answers <b>wo?</b> and takes the <b>dative</b>. A <b>direction</b> verb answers <b>wohin?</b>, takes the <b>accusative</b>, and has an object. Chapters 33 and 34 already sorted the two-way prepositions. Here the verb chooses the question.",
+        "<b>sitzen / setzen.</b> <b>Der Patient sitzt auf dem Bett. Sie setzt ihn auf das Bett.</b> The object is <b>den Patienten</b>. <b>der Patient</b> is the one who sits. <b>den Patient</b> is missing -en. <b>dem Patienten</b> is dative from chapter 21, a different job.",
+        "<b>stehen / stellen.</b> <b>Das Thermometer steht auf dem Tisch. Sie stellt es auf den Tisch.</b> A thermometer can also <b>lie</b>. Chapter 34 has it on the nightstand. Both positions are real. This chart pairs stehen with stellen.",
+        "<b>liegen / legen.</b> <b>Die Akte liegt auf dem Tisch. Sie legt die Akte auf das Bett.</b> <b>Legen Sie die Akte auf den Tisch</b> is the request from chapter 34 and stays correct. <b>Der Patient liegt auf dem Bett</b> stays correct too. <b>Die Infusion steht neben dem Bett</b> stays correct.",
+        "<b>hängen</b> does both. No object, <b>an der Wand</b>: it is hanging. With an object, <b>an die Wand</b>: she hangs it up. The present is the same. The past differs, hing and gehangen against hängte and gehängt, and this chart does not drill it.",
+        "<b>aufs Bett</b> means <b>auf das Bett</b> and is also correct. <b>im Bett</b> and <b>ins Bett</b> work the same way. The lines below spell the article so the case stays visible. <b>du stehst</b>, <b>ihr steht</b>. She <b>sitzt</b>. Formal Sie <b>sitzen</b>. <b>du sitzt</b> and <b>ihr sitzt</b> look the same."
+      ],
+      "questionRule": "Wo? dative: sitzen, stehen, liegen, hängen with no object. Wohin? accusative: setzen, stellen, legen, hängen with an object. auf dem or auf das. auf dem or auf den. an der or an die.",
+      "tables": [
+        {
+          "title": "Lage und Richtung",
+          "caption": "Position is wo? Direction is wohin? and has an object.",
+          "columns": ["Verb", "Beispiel"],
+          "rows": [
+            { "label": "sitzen", "cells": ["wo?", "Der Patient sitzt auf dem Bett."], "highlight": true },
+            { "label": "setzen", "cells": ["wohin?", "Sie setzt ihn auf das Bett."], "highlight": true },
+            { "label": "stehen", "cells": ["wo?", "Es steht auf dem Tisch."] },
+            { "label": "stellen", "cells": ["wohin?", "Sie stellt es auf den Tisch."] },
+            { "label": "liegen", "cells": ["wo?", "Die Akte liegt auf dem Tisch."] },
+            { "label": "legen", "cells": ["wohin?", "Sie legt die Akte auf das Bett."] },
+            { "label": "hängen", "cells": ["wo? und wohin?", "Die Akte hängt an der Wand."] }
+          ]
+        },
+        {
+          "title": "Der Kasus",
+          "caption": "The verb chooses. aufs Bett means auf das Bett and stays correct.",
+          "columns": ["Frage", "Form"],
+          "rows": [
+            { "label": "Bett, wo?", "cells": ["Dativ", "auf dem Bett"], "highlight": true },
+            { "label": "Bett, wohin?", "cells": ["Akkusativ", "auf das Bett"], "highlight": true },
+            { "label": "Tisch, wo?", "cells": ["Dativ", "auf dem Tisch"] },
+            { "label": "Tisch, wohin?", "cells": ["Akkusativ", "auf den Tisch"] },
+            { "label": "Wand, wo?", "cells": ["Dativ", "an der Wand"] },
+            { "label": "Wand, wohin?", "cells": ["Akkusativ", "an die Wand"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Wrong case, the wrong verb with no object, or the wrong ending. The other position, chapter 34, and dem Patienten stay correct in their own patterns.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "sitzen", "cells": ["auf das Bett", "auf dem Bett"] },
+            { "label": "setzen", "cells": ["auf dem Bett", "auf das Bett"] },
+            { "label": "liegen", "cells": ["legt", "liegt"] },
+            { "label": "hängt", "cells": ["Die Akte hängt an die Wand", "Die Akte hängt an der Wand"] },
+            { "label": "du", "cells": ["Du steht", "Du stehst"] },
+            { "label": "Bett", "cells": ["auf den Bett", "auf das Bett"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four pair traps",
+        "items": [
+          { "de": "Der Patient sitzt auf dem Bett.", "en": "sitzen, wo?, dative.", "tone": "ok" },
+          { "de": "Der Patient sitzt auf das Bett.", "en": "sitzen does not take the accusative.", "tone": "stop" },
+          { "de": "Sie setzt ihn auf das Bett.", "en": "setzen, wohin?, accusative.", "tone": "ok" },
+          { "de": "Sie setzt ihn auf dem Bett.", "en": "The destination is auf das.", "tone": "stop" },
+          { "de": "Die Akte liegt auf dem Tisch.", "en": "liegen, wo?. Chapter 34.", "tone": "ok" },
+          { "de": "Die Akte legt auf dem Tisch.", "en": "legt needs an object.", "tone": "stop" },
+          { "de": "Die Akte hängt an der Wand.", "en": "hängen with no object, dative.", "tone": "ok" },
+          { "de": "Die Akte hängt an die Wand.", "en": "No object, so not the accusative.", "tone": "stop" }
+        ],
+        "tip": "Wo? dative. Wohin? accusative, and an object."
+      },
+      "tips": [
+        {
+          "title": "The verb chooses the case",
+          "body": "sitzen, stehen, liegen, and hängen with no object take the dative. setzen, stellen, legen, and hängen with an object take the accusative.",
+          "mnemonic": "sitzt auf dem. setzt auf das. liegt auf dem. legt auf das.",
+          "emoji": "📍"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "sitzen", "emoji": "🪑", "en": "he sits", "use": "wo?, dative", "de": "Der Patient sitzt auf dem Bett.", "deEn": "The patient sits on the bed." },
+        { "modal": "setzen", "emoji": "🛏️", "en": "she puts him there", "use": "wohin?, accusative", "de": "Sie setzt ihn auf das Bett.", "deEn": "She puts him on the bed." },
+        { "modal": "liegen", "emoji": "📋", "en": "the chart lies there", "use": "wo?, dative", "de": "Die Akte liegt auf dem Tisch.", "deEn": "The chart lies on the table." },
+        { "modal": "hängen", "emoji": "🖼️", "en": "it hangs there", "use": "wo?, dative", "de": "Die Akte hängt an der Wand.", "deEn": "The chart hangs on the wall." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Where he sits. The patient.",
+          "qEn": "sitzen, wo?",
+          "options": ["Der Patient sitzt auf dem Bett.", "Der Patient sitzt auf das Bett.", "Sie sitzt ihn auf das Bett."],
+          "answer": 0,
+          "why": "sitzen takes auf dem. auf das is a destination. sitzen does not take ihn.",
+          "hint": "auf dem."
+        },
+        {
+          "kind": "mc",
+          "q": "She puts him on the bed.",
+          "qEn": "setzen, wohin?",
+          "options": ["Sie setzt ihn auf das Bett.", "Sie setzt ihn auf dem Bett.", "Sie sitzt ihn auf das Bett."],
+          "answer": 0,
+          "why": "setzen takes auf das. auf dem is where he sits. Not sitzt.",
+          "hint": "auf das."
+        },
+        {
+          "kind": "mc",
+          "q": "The chart lies on the table.",
+          "qEn": "liegen, wo?",
+          "options": ["Die Akte liegt auf dem Tisch.", "Die Akte liegt auf den Tisch.", "Die Akte legt auf dem Tisch."],
+          "answer": 0,
+          "why": "liegen takes auf dem. That is chapter 34. auf den is a destination. legt needs an object.",
+          "hint": "liegt."
+        },
+        {
+          "kind": "mc",
+          "q": "She lays the chart on the bed.",
+          "qEn": "legen, wohin?",
+          "options": ["Sie legt die Akte auf das Bett.", "Sie legt die Akte auf dem Bett.", "Die Akte liegt auf dem Tisch."],
+          "answer": 0,
+          "why": "legen takes auf das. The location line stays correct on the table. Not auf dem with legen.",
+          "hint": "auf das."
+        },
+        {
+          "kind": "mc",
+          "q": "The thermometer stands on the table.",
+          "qEn": "stehen, wo?",
+          "options": ["Es steht auf dem Tisch.", "Es steht auf den Tisch.", "Sie stellt es auf den Tisch."],
+          "answer": 0,
+          "why": "stehen takes auf dem. The stellen line is the destination and stays correct. It can also lie.",
+          "hint": "auf dem."
+        },
+        {
+          "kind": "mc",
+          "q": "She hangs the chart on the wall.",
+          "qEn": "hängen, wohin?",
+          "options": ["Sie hängt die Akte an die Wand.", "Sie hängt die Akte an der Wand.", "Die Akte hängt an der Wand."],
+          "answer": 0,
+          "why": "An object plus an die is the destination. Die Akte hängt an der Wand is the location line and stays correct.",
+          "hint": "an die."
+        }
+      ]
+    },
+    {
+      "id": "gap-sort",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names position or direction. Wo? takes the dative. Wohin? takes the accusative and an object. hängen with no object is an der.",
+      "chips": [
+        { "w": "Der Patient sitzt auf dem Bett", "hint": "wo?" },
+        { "w": "Sie setzt ihn auf das Bett", "hint": "wohin?" },
+        { "w": "Die Akte liegt auf dem Tisch", "hint": "wo?" },
+        { "w": "Sie legt die Akte auf das Bett", "hint": "wohin?" },
+        { "w": "Die Akte hängt an der Wand", "hint": "wo?" },
+        { "w": "Sie stellt es auf den Tisch", "hint": "wohin?" },
+        { "w": "Der Patient sitzt auf das Bett", "hint": "dative." },
+        { "w": "Sie setzt ihn auf dem Bett", "hint": "accusative." },
+        { "w": "Die Akte liegt auf den Tisch", "hint": "dative." },
+        { "w": "Sie legt die Akte auf dem Bett", "hint": "accusative." },
+        { "w": "Die Akte hängt an die Wand", "hint": "dative." },
+        { "w": "Sie stellt es auf dem Tisch", "hint": "accusative." }
+      ],
+      "items": [
+        {
+          "before": "Where he sits:",
+          "after": ".",
+          "answer": "Der Patient sitzt auf dem Bett",
+          "en": "The patient sits on the bed.",
+          "why": "sitzen, wo?, auf dem. Not auf das.",
+          "tip": "auf dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "She puts him on the bed:",
+          "after": ".",
+          "answer": "Sie setzt ihn auf das Bett",
+          "en": "She puts him on the bed.",
+          "why": "setzen, wohin?, auf das. Not auf dem.",
+          "tip": "auf das.",
+          "hint": "das."
+        },
+        {
+          "before": "The chart lies on the table:",
+          "after": ".",
+          "answer": "Die Akte liegt auf dem Tisch",
+          "en": "The chart lies on the table.",
+          "why": "liegen, wo?, auf dem. Chapter 34. Not auf den.",
+          "tip": "auf dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "She lays the chart on the bed:",
+          "after": ".",
+          "answer": "Sie legt die Akte auf das Bett",
+          "en": "She lays the chart on the bed.",
+          "why": "legen, wohin?, auf das. Not auf dem.",
+          "tip": "auf das.",
+          "hint": "das."
+        },
+        {
+          "before": "The chart hangs on the wall:",
+          "after": ".",
+          "answer": "Die Akte hängt an der Wand",
+          "en": "The chart hangs on the wall.",
+          "why": "hängen with no object, wo?, an der. Not an die.",
+          "tip": "an der.",
+          "hint": "der."
+        },
+        {
+          "before": "She puts the thermometer on the table:",
+          "after": ".",
+          "answer": "Sie stellt es auf den Tisch",
+          "en": "She puts it on the table.",
+          "why": "stellen, wohin?, auf den. Not auf dem.",
+          "tip": "auf den.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "match-sort",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names the verb. One phrase is its case. One is the other case of the pair. One is not the form.",
+      "items": [
+        {
+          "prompt": "sitzen, where",
+          "options": [
+            { "emoji": "🪑", "label": "auf dem Bett", "caption": "dative" },
+            { "emoji": "➡️", "label": "auf das Bett", "caption": "destination" },
+            { "emoji": "🚫", "label": "auf den Bett", "caption": "not neuter" }
+          ],
+          "answer": 0,
+          "why": "sitzen takes auf dem. auf das is setzen. Bett is das, not den.",
+          "hint": "dem."
+        },
+        {
+          "prompt": "setzen, where to",
+          "options": [
+            { "emoji": "🛏️", "label": "auf das Bett", "caption": "accusative" },
+            { "emoji": "🪑", "label": "auf dem Bett", "caption": "location" },
+            { "emoji": "🚫", "label": "auf den Bett", "caption": "not neuter" }
+          ],
+          "answer": 0,
+          "why": "setzen takes auf das. auf dem is sitzen. Not den Bett.",
+          "hint": "das."
+        },
+        {
+          "prompt": "liegen, the chart",
+          "options": [
+            { "emoji": "📋", "label": "auf dem Tisch", "caption": "dative" },
+            { "emoji": "➡️", "label": "auf den Tisch", "caption": "destination" },
+            { "emoji": "🚫", "label": "auf das Tisch", "caption": "not neuter" }
+          ],
+          "answer": 0,
+          "why": "liegen takes auf dem. auf den is legen or stellen. Tisch is der.",
+          "hint": "dem."
+        },
+        {
+          "prompt": "stellen, onto the table",
+          "options": [
+            { "emoji": "🌡️", "label": "auf den Tisch", "caption": "accusative" },
+            { "emoji": "🧍", "label": "auf dem Tisch", "caption": "location" },
+            { "emoji": "🚫", "label": "auf das Tisch", "caption": "not neuter" }
+          ],
+          "answer": 0,
+          "why": "stellen takes auf den. auf dem is stehen. Not das Tisch.",
+          "hint": "den."
+        },
+        {
+          "prompt": "hängen, where it hangs",
+          "options": [
+            { "emoji": "🖼️", "label": "an der Wand", "caption": "dative" },
+            { "emoji": "➡️", "label": "an die Wand", "caption": "destination" },
+            { "emoji": "🚫", "label": "an dem Wand", "caption": "not masculine" }
+          ],
+          "answer": 0,
+          "why": "No object: an der. an die is the destination. Wand is feminine.",
+          "hint": "der."
+        },
+        {
+          "prompt": "du, stand",
+          "options": [
+            { "emoji": "🧍", "label": "stehst", "caption": "du" },
+            { "emoji": "👥", "label": "steht", "caption": "ihr or er" },
+            { "emoji": "➡️", "label": "stellst", "caption": "stellen" }
+          ],
+          "answer": 0,
+          "why": "du stehst. steht is ihr or er. stellst is the direction verb.",
+          "hint": "stehst."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed he sits on",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster that lies on the table",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer that stands on the table",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart she hangs on the wall",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-sort",
+      "type": "builder",
+      "label": "Build",
+      "title": "Verb in position 2",
+      "practice": "build",
+      "instructions": "Build the line. The place can stand first. A formal request can start with the verb. The object can stand first when the verb still follows it.",
+      "items": [
+        {
+          "tiles": ["Der", "Patient", "sitzt", "auf", "dem", "Bett"],
+          "answers": ["Der Patient sitzt auf dem Bett", "Auf dem Bett sitzt der Patient"],
+          "punct": ".",
+          "modal": "sitzt",
+          "inf": "Bett",
+          "question": false,
+          "en": "The patient sits on the bed.",
+          "hint": "sitzt in position 2. auf dem.",
+          "feedback": {
+            "end": "The bed closes the location line, or the patient closes the fronted line.",
+            "fallback": "Der Patient sitzt auf dem Bett. Or: Auf dem Bett sitzt der Patient."
+          }
+        },
+        {
+          "tiles": ["Anna", "legt", "die", "Akte", "auf", "das", "Bett"],
+          "answers": ["Anna legt die Akte auf das Bett", "Auf das Bett legt Anna die Akte", "Die Akte legt Anna auf das Bett"],
+          "punct": ".",
+          "modal": "legt",
+          "inf": "Bett",
+          "question": false,
+          "en": "Anna lays the chart on the bed.",
+          "hint": "legt in position 2. auf das.",
+          "feedback": {
+            "end": "auf das Bett is the destination.",
+            "fallback": "Anna legt die Akte auf das Bett. Or: Auf das Bett legt Anna die Akte."
+          }
+        },
+        {
+          "tiles": ["Sie", "setzen", "ihn", "auf", "das", "Bett"],
+          "answers": ["Sie setzen ihn auf das Bett", "Setzen Sie ihn auf das Bett", "Auf das Bett setzen Sie ihn", "Ihn setzen Sie auf das Bett"],
+          "punct": ".",
+          "modal": "setzen",
+          "inf": "Bett",
+          "question": false,
+          "en": "Formal: put him on the bed.",
+          "hint": "Sie setzen, or Setzen Sie. auf das.",
+          "feedback": {
+            "end": "Bett closes the destination.",
+            "fallback": "Sie setzen ihn auf das Bett. Or: Setzen Sie ihn auf das Bett."
+          }
+        },
+        {
+          "tiles": ["Legen", "Sie", "die", "Akte", "auf", "den", "Tisch"],
+          "answers": ["Legen Sie die Akte auf den Tisch", "Sie legen die Akte auf den Tisch", "Auf den Tisch legen Sie die Akte", "Die Akte legen Sie auf den Tisch"],
+          "punct": ".",
+          "modal": "legen",
+          "inf": "Tisch",
+          "question": false,
+          "en": "Lay the chart on the table.",
+          "hint": "Legen Sie, or Sie legen. auf den.",
+          "feedback": {
+            "end": "Tisch closes the request from chapter 34.",
+            "fallback": "Legen Sie die Akte auf den Tisch. Or: Sie legen die Akte auf den Tisch."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-sort",
+      "label": "Rewrite",
+      "title": "Into the named job",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names position or direction and shows the other correct line. Give the line the label asks for. The other line stays correct German.",
+      "chips": [
+        { "w": "Der Patient sitzt auf dem Bett", "hint": "wo?" },
+        { "w": "Sie setzt ihn auf das Bett", "hint": "wohin?" },
+        { "w": "Die Akte liegt auf dem Tisch", "hint": "wo?" },
+        { "w": "Sie legt die Akte auf das Bett", "hint": "wohin?" },
+        { "w": "Die Akte hängt an der Wand", "hint": "wo?" },
+        { "w": "Sie stellt es auf den Tisch", "hint": "wohin?" },
+        { "w": "Der Patient sitzt auf das Bett", "hint": "dative." },
+        { "w": "Sie setzt ihn auf dem Bett", "hint": "accusative." },
+        { "w": "Die Akte liegt auf den Tisch", "hint": "dative." },
+        { "w": "Sie legt die Akte auf dem Bett", "hint": "accusative." },
+        { "w": "Die Akte hängt an die Wand", "hint": "dative." },
+        { "w": "Sie stellt es auf dem Tisch", "hint": "accusative." }
+      ],
+      "items": [
+        {
+          "before": "Where he sits. Direction stays correct: Sie setzt ihn auf das Bett. Line:",
+          "after": ".",
+          "answer": "Der Patient sitzt auf dem Bett",
+          "en": "The patient sits on the bed.",
+          "why": "sitzen, auf dem. The setzen line stays correct.",
+          "tip": "auf dem.",
+          "hint": "sitzt."
+        },
+        {
+          "before": "She puts him on the bed. Location stays correct: Der Patient sitzt auf dem Bett. Line:",
+          "after": ".",
+          "answer": "Sie setzt ihn auf das Bett",
+          "en": "She puts him on the bed.",
+          "why": "setzen, auf das. The sitzen line stays correct.",
+          "tip": "auf das.",
+          "hint": "setzt."
+        },
+        {
+          "before": "The chart lies on the table. Chapter 34. Line:",
+          "after": ".",
+          "answer": "Die Akte liegt auf dem Tisch",
+          "en": "The chart lies on the table.",
+          "why": "liegen, auf dem. Not legt, and not auf den.",
+          "tip": "liegt.",
+          "hint": "liegt."
+        },
+        {
+          "before": "She lays the chart on the bed. The table line stays correct. Line:",
+          "after": ".",
+          "answer": "Sie legt die Akte auf das Bett",
+          "en": "She lays the chart on the bed.",
+          "why": "legen, auf das. Die Akte liegt auf dem Tisch stays correct.",
+          "tip": "legt.",
+          "hint": "legt."
+        },
+        {
+          "before": "The chart is already hanging. The destination line stays correct. Line:",
+          "after": ".",
+          "answer": "Die Akte hängt an der Wand",
+          "en": "The chart hangs on the wall.",
+          "why": "No object, an der. Sie hängt die Akte an die Wand stays correct.",
+          "tip": "an der.",
+          "hint": "der."
+        },
+        {
+          "before": "She puts the thermometer on the table. Standing there stays correct: Es steht auf dem Tisch. Line:",
+          "after": ".",
+          "answer": "Sie stellt es auf den Tisch",
+          "en": "She puts it on the table.",
+          "why": "stellen, auf den. Es steht auf dem Tisch stays correct. It can also lie.",
+          "tip": "auf den.",
+          "hint": "stellt."
+        }
+      ]
+    },
+    {
+      "id": "error-sort",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the pair in the clues. Choose the correction. The other job in the pair stays correct German.",
+      "items": [
+        {
+          "clues": ["He is sitting.", "Wo? Dative.", "Der Patient sitzt auf das Bett."],
+          "options": ["Der Patient sitzt auf dem Bett.", "Der Patient sitzt auf das Bett.", "Sie setzt ihn auf das Bett."],
+          "answer": 0,
+          "reveal": "Der Patient sitzt auf dem Bett.",
+          "hint": "dem."
+        },
+        {
+          "clues": ["She puts him on the bed.", "Wohin?", "Sie setzt ihn auf dem Bett."],
+          "options": ["Sie setzt ihn auf das Bett.", "Sie setzt ihn auf dem Bett.", "Sie sitzt ihn auf das Bett."],
+          "answer": 0,
+          "reveal": "Sie setzt ihn auf das Bett.",
+          "hint": "das."
+        },
+        {
+          "clues": ["The chart is on the table.", "liegen.", "Die Akte legt auf dem Tisch."],
+          "options": ["Die Akte liegt auf dem Tisch.", "Die Akte legt auf dem Tisch.", "Die Akte liegt auf den Tisch."],
+          "answer": 0,
+          "reveal": "Die Akte liegt auf dem Tisch.",
+          "hint": "liegt."
+        },
+        {
+          "clues": ["Onto the bed.", "legen.", "Sie legt die Akte auf dem Bett."],
+          "options": ["Sie legt die Akte auf das Bett.", "Sie legt die Akte auf dem Bett.", "Die Akte liegt auf dem Tisch."],
+          "answer": 0,
+          "reveal": "Sie legt die Akte auf das Bett.",
+          "hint": "das."
+        },
+        {
+          "clues": ["It is already hanging.", "Wo?", "Die Akte hängt an die Wand."],
+          "options": ["Die Akte hängt an der Wand.", "Die Akte hängt an die Wand.", "Sie hängt die Akte an die Wand."],
+          "answer": 0,
+          "reveal": "Die Akte hängt an der Wand.",
+          "hint": "der."
+        },
+        {
+          "clues": ["Formal request.", "Chapter 34.", "Legen Sie die Akte auf dem Tisch."],
+          "options": ["Legen Sie die Akte auf den Tisch.", "Legen Sie die Akte auf dem Tisch.", "Liegen Sie die Akte auf den Tisch."],
+          "answer": 0,
+          "reveal": "Legen Sie die Akte auf den Tisch.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse names a position or a destination. Wo? is dative. Wohin? is accusative.",
+      "chips": [
+        { "w": "Der Patient sitzt auf dem Bett", "hint": "wo?" },
+        { "w": "Sie setzt ihn auf das Bett", "hint": "wohin?" },
+        { "w": "Die Akte liegt auf dem Tisch", "hint": "wo?" },
+        { "w": "Sie legt die Akte auf das Bett", "hint": "wohin?" },
+        { "w": "Die Akte hängt an der Wand", "hint": "wo?" },
+        { "w": "Sie stellt es auf den Tisch", "hint": "wohin?" },
+        { "w": "Der Patient sitzt auf das Bett", "hint": "dative." },
+        { "w": "Sie setzt ihn auf dem Bett", "hint": "accusative." },
+        { "w": "Die Akte liegt auf den Tisch", "hint": "dative." },
+        { "w": "Sie legt die Akte auf dem Bett", "hint": "accusative." },
+        { "w": "Die Akte hängt an die Wand", "hint": "dative." },
+        { "w": "Sie stellt es auf dem Tisch", "hint": "accusative." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, where the patient sits:",
+          "after": ".",
+          "answer": "Der Patient sitzt auf dem Bett",
+          "en": "The patient sits on the bed.",
+          "why": "sitzen, auf dem.",
+          "tip": "auf dem.",
+          "hint": "sitzt."
+        },
+        {
+          "before": "Nurse, she puts him on the bed:",
+          "after": ".",
+          "answer": "Sie setzt ihn auf das Bett",
+          "en": "She puts him on the bed.",
+          "why": "setzen, auf das.",
+          "tip": "auf das.",
+          "hint": "setzt."
+        },
+        {
+          "before": "Nurse, the chart on the table:",
+          "after": ".",
+          "answer": "Die Akte liegt auf dem Tisch",
+          "en": "The chart lies on the table.",
+          "why": "liegen, auf dem.",
+          "tip": "liegt.",
+          "hint": "liegt."
+        },
+        {
+          "before": "Nurse, she lays the chart on the bed:",
+          "after": ".",
+          "answer": "Sie legt die Akte auf das Bett",
+          "en": "She lays the chart on the bed.",
+          "why": "legen, auf das.",
+          "tip": "legt.",
+          "hint": "legt."
+        },
+        {
+          "before": "Nurse, the chart on the wall:",
+          "after": ".",
+          "answer": "Die Akte hängt an der Wand",
+          "en": "The chart hangs on the wall.",
+          "why": "hängen, an der.",
+          "tip": "an der.",
+          "hint": "hängt."
+        },
+        {
+          "before": "Nurse, she puts the thermometer on the table:",
+          "after": ".",
+          "answer": "Sie stellt es auf den Tisch",
+          "en": "She puts it on the table.",
+          "why": "stellen, auf den.",
+          "tip": "stellt.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "gap-person",
+      "label": "Gap",
+      "title": "Who, and which ending?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "These are position lines, so the case stays auf dem. The label names the person and the verb. du stehst. ihr steht. She sitzt. Formal Sie sitzen.",
+      "chips": [
+        { "w": "Ich sitze auf dem Bett", "hint": "ich sitze." },
+        { "w": "Du stehst auf dem Bett", "hint": "du stehst." },
+        { "w": "Sie sitzt auf dem Bett", "hint": "she sitzt." },
+        { "w": "Wir sitzen auf dem Bett", "hint": "wir sitzen." },
+        { "w": "Ihr steht auf dem Bett", "hint": "ihr steht." },
+        { "w": "Sie sitzen auf dem Bett", "hint": "formal Sie sitzen." },
+        { "w": "Ich sitzt auf dem Bett", "hint": "sitze." },
+        { "w": "Du steht auf dem Bett", "hint": "stehst." },
+        { "w": "Wir sitzt auf dem Bett", "hint": "sitzen." },
+        { "w": "Ihr stehst auf dem Bett", "hint": "steht." },
+        { "w": "Du stehst auf das Bett", "hint": "dative." },
+        { "w": "Sie sitzen auf das Bett", "hint": "dative." }
+      ],
+      "items": [
+        {
+          "before": "ich, sit:",
+          "after": ".",
+          "answer": "Ich sitze auf dem Bett",
+          "en": "I sit on the bed.",
+          "why": "ich sitze. Not sitzt.",
+          "tip": "sitze.",
+          "hint": "sitze."
+        },
+        {
+          "before": "du, stand:",
+          "after": ".",
+          "answer": "Du stehst auf dem Bett",
+          "en": "You stand on the bed.",
+          "why": "du stehst. steht is ihr. Not auf das.",
+          "tip": "stehst.",
+          "hint": "stehst."
+        },
+        {
+          "before": "she, sit, not formal Sie:",
+          "after": ".",
+          "answer": "Sie sitzt auf dem Bett",
+          "en": "She sits on the bed.",
+          "why": "She sitzt. Formal Sie sitzen.",
+          "tip": "sitzt.",
+          "hint": "sitzt."
+        },
+        {
+          "before": "wir, sit:",
+          "after": ".",
+          "answer": "Wir sitzen auf dem Bett",
+          "en": "We sit on the bed.",
+          "why": "wir sitzen. Not sitzt.",
+          "tip": "sitzen.",
+          "hint": "sitzen."
+        },
+        {
+          "before": "ihr, stand:",
+          "after": ".",
+          "answer": "Ihr steht auf dem Bett",
+          "en": "You stand on the bed.",
+          "why": "ihr steht. stehst is du.",
+          "tip": "steht.",
+          "hint": "steht."
+        },
+        {
+          "before": "formal Sie, sit, not she:",
+          "after": ".",
+          "answer": "Sie sitzen auf dem Bett",
+          "en": "You sit on the bed.",
+          "why": "Formal Sie sitzen. She sitzt. Not auf das.",
+          "tip": "sitzen.",
+          "hint": "sitzen."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. The other job in a pair stays correct German when the label does not ask for it.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Die Akte",
+        "paragraphs": [
+          "Der Patient sitzt auf dem Bett. Sie setzt ihn auf das Bett.",
+          "Das Thermometer steht auf dem Tisch. Sie stellt es auf den Tisch.",
+          "Die Akte liegt auf dem Tisch. Sie legt die Akte auf das Bett.",
+          "Die Akte hängt an der Wand. Sie hängt die Akte an die Wand."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Where the patient sits, from the note.",
+          "qEn": "sitzen.",
+          "options": ["sitzt auf dem Bett", "sitzt auf das Bett", "setzt ihn auf das Bett"],
+          "answer": 0,
+          "why": "Der Patient sitzt auf dem Bett. The setzen line is the other job.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The thermometer, onto the table.",
+          "qEn": "stellen.",
+          "options": ["stellt es auf den Tisch", "stellt es auf dem Tisch", "steht auf dem Tisch"],
+          "answer": 0,
+          "why": "Sie stellt es auf den Tisch. steht auf dem is where it already stands.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "The chart, onto the bed.",
+          "qEn": "legen.",
+          "options": ["legt die Akte auf das Bett", "legt die Akte auf dem Bett", "liegt auf dem Tisch"],
+          "answer": 0,
+          "why": "Sie legt die Akte auf das Bett. liegt auf dem Tisch stays correct.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "The chart, already on the wall.",
+          "qEn": "hängen, wo?",
+          "options": ["hängt an der Wand", "hängt an die Wand", "hängt die Akte an die Wand"],
+          "answer": 0,
+          "why": "Die Akte hängt an der Wand. The last option is the destination and stays correct.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "writing-sort",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. He sits on the bed. She puts him on the bed. The chart lies on the table. She lays the chart on the bed.",
+      "prompt": "The patient sits on the bed. She puts him on the bed. The chart lies on the table. She lays the chart on the bed.",
+      "bullets": ["sitzt auf dem Bett", "setzt ihn auf das Bett", "liegt auf dem Tisch", "legt die Akte auf das Bett"],
+      "model": "Der Patient sitzt auf dem Bett. Sie setzt ihn auf das Bett. Die Akte liegt auf dem Tisch. Sie legt die Akte auf das Bett.",
+      "modelEn": "The patient sits on the bed. She puts him on the bed. The chart lies on the table. She lays the chart on the bed.",
+      "hint": "sitzt auf dem Bett. setzt ihn auf das Bett. liegt auf dem Tisch. legt die Akte auf das Bett.",
+      "checklist": [
+        { "id": "s", "label": "sitzt auf dem Bett", "keywords": ["sitzt auf dem bett"] },
+        { "id": "z", "label": "setzt ihn auf das Bett", "keywords": ["setzt ihn auf das bett"] },
+        { "id": "l", "label": "liegt auf dem Tisch", "keywords": ["liegt auf dem tisch"] },
+        { "id": "g", "label": "legt die Akte auf das Bett", "keywords": ["legt die akte auf das bett"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Sitzen/setzen, stehen/stellen, liegen/legen und hängen",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Wo? dative. Wohin? accusative and an object. sitzen auf dem, setzen auf das, liegen auf dem, legen auf das, stehen auf dem, stellen auf den, hängen an der or an die.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Where he sits. The patient.",
+          "qEn": "sitzen.",
+          "options": ["Der Patient sitzt auf dem Bett.", "Der Patient sitzt auf das Bett.", "Sie sitzt ihn auf das Bett."],
+          "answer": 0,
+          "why": "sitzen takes auf dem. Not auf das. sitzen does not take ihn.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "She puts him on the bed.",
+          "qEn": "setzen.",
+          "options": ["Sie setzt ihn auf das Bett.", "Sie setzt ihn auf dem Bett.", "Sie sitzt ihn auf das Bett."],
+          "answer": 0,
+          "why": "setzen takes auf das. Not auf dem. Not sitzt.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "The thermometer stands on the table.",
+          "qEn": "stehen.",
+          "options": ["Es steht auf dem Tisch.", "Es steht auf den Tisch.", "Sie stellt es auf den Tisch."],
+          "answer": 0,
+          "why": "stehen takes auf dem. The stellen line is the destination and stays correct.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "She puts the thermometer on the table.",
+          "qEn": "stellen.",
+          "options": ["Sie stellt es auf den Tisch.", "Sie stellt es auf dem Tisch.", "Es steht auf dem Tisch."],
+          "answer": 0,
+          "why": "stellen takes auf den. Es steht auf dem Tisch stays correct.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "The chart lies on the table.",
+          "qEn": "liegen.",
+          "options": ["Die Akte liegt auf dem Tisch.", "Die Akte liegt auf den Tisch.", "Die Akte legt auf dem Tisch."],
+          "answer": 0,
+          "why": "liegen takes auf dem. Chapter 34. legt needs an object.",
+          "hint": "liegt."
+        },
+        {
+          "kind": "mc",
+          "q": "She lays the chart on the bed.",
+          "qEn": "legen.",
+          "options": ["Sie legt die Akte auf das Bett.", "Sie legt die Akte auf dem Bett.", "Die Akte liegt auf dem Tisch."],
+          "answer": 0,
+          "why": "legen takes auf das. The location line stays correct.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "The chart is already hanging.",
+          "qEn": "hängen, wo?",
+          "options": ["Die Akte hängt an der Wand.", "Die Akte hängt an die Wand.", "Sie hängt die Akte an die Wand."],
+          "answer": 0,
+          "why": "No object, an der. The destination line stays correct.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "She hangs the chart on the wall.",
+          "qEn": "hängen, wohin?",
+          "options": ["Sie hängt die Akte an die Wand.", "Sie hängt die Akte an der Wand.", "Die Akte hängt an der Wand."],
+          "answer": 0,
+          "why": "An object plus an die. Die Akte hängt an der Wand is the location line and stays correct.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "Formal request. Lay the chart on the table.",
+          "qEn": "Chapter 34.",
+          "options": ["Legen Sie die Akte auf den Tisch.", "Legen Sie die Akte auf dem Tisch.", "Liegen Sie die Akte auf den Tisch."],
+          "answer": 0,
+          "why": "legen Sie, auf den. Not auf dem. liegen does not take the chart as an object.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "Object of setzen, one male patient.",
+          "qEn": "den Patienten.",
+          "options": ["den Patienten", "den Patient", "der Patient"],
+          "answer": 0,
+          "why": "den Patienten is the object. den Patient is missing -en. der Patient is the one who sits.",
+          "hint": "Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "You, one person. Stand on the bed.",
+          "qEn": "du stehst.",
+          "options": ["Du stehst auf dem Bett.", "Du steht auf dem Bett.", "Du stehst auf das Bett."],
+          "answer": 0,
+          "why": "du stehst. steht is ihr. Position stays auf dem.",
+          "hint": "stehst."
+        },
+        {
+          "kind": "mc",
+          "q": "Formal Sie, sitting. Not she.",
+          "qEn": "Sie sitzen.",
+          "options": ["Sie sitzen auf dem Bett.", "Sie sitzt auf dem Bett.", "Sie sitzen auf das Bett."],
+          "answer": 0,
+          "why": "Formal Sie sitzen. She sitzt, and that stays correct for she. Not auf das.",
+          "hint": "sitzen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Sitzen/setzen, stehen/stellen, liegen/legen und hängen",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Der Patient sitzt auf dem Bett.", "en": "The patient sits on the bed. Position." },
+        { "de": "Sie setzt ihn auf das Bett.", "en": "She puts him on the bed. Direction." },
+        { "de": "Die Akte liegt auf dem Tisch.", "en": "The chart lies on the table. Position." },
+        { "de": "Sie legt die Akte auf das Bett.", "en": "She lays the chart on the bed. Direction." }
+      ],
+      "messages": [
+        "Wo? dative: sitzen, stehen, liegen, and hängen with no object. Wohin? accusative: setzen, stellen, legen, and hängen with an object.",
+        "auf dem Bett, auf das Bett. auf dem Tisch, auf den Tisch. an der Wand, an die Wand. du stehst, ihr steht. She sitzt, formal Sie sitzen.",
+        "Sehr gut. Der Patient sitzt auf dem Bett. Die Akte liegt auf dem Tisch. Sie legt die Akte auf das Bett.",
+        "Ausgezeichnet. You can put the chart on the table, on the bed, or on the wall, and keep wo? and wohin? apart."
+      ]
+    }
+  ]
+}

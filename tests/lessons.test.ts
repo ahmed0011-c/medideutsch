@@ -151,6 +151,11 @@ describe("catalog", () => {
     expect(byNumber.get(55)).toBe("b1-55-konjunktiv-ii-formen");
     expect(byNumber.get(56)).toBe("b1-56-konjunktiv-ii-verwendung");
     expect(byNumber.get(57)).toBe("b1-57-passiv-praesens");
+    expect(byNumber.get(58)).toBe("b1-58-passiv-praeteritum");
+    expect(byNumber.get(59)).toBe("b1-59-futur-annahme");
+    expect(byNumber.get(60)).toBe("b1-60-werden-verwendungen");
+    expect(byNumber.get(61)).toBe("b1-61-lassen");
+    expect(byNumber.get(62)).toBe("b1-62-lage-richtung");
     expect(byNumber.get(41)).toBe("a2-41-konnektoren-pos1");
     expect(byNumber.get(42)).toBe("a2-42-weil-dass-wenn");
     expect(byNumber.get(43)).toBe("a2-43-da-dahin-daher");

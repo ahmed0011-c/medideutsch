@@ -1,0 +1,1060 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-61-lassen",
+  "level": "B1",
+  "unit": "Kapitel 61",
+  "chapter": 61,
+  "chapters": [61],
+  "title": "Leben und leben lassen",
+  "subtitle": "lassen",
+  "glossary": {
+    "leben": {
+      "de": "Leben und leben lassen",
+      "pos": "expression",
+      "en": "live and let live",
+      "emoji": "🌱",
+      "note": "das Leben is the noun. leben is the verb. The title means live and let live. On the ward, lassen lets the patient sleep or has the blood taken."
+    },
+    "und": { "de": "und", "pos": "conjunction", "en": "and", "emoji": "➕" },
+    "lassen": {
+      "de": "lassen",
+      "pos": "infinitive",
+      "en": "to let, or to have something done",
+      "emoji": "🤲",
+      "note": "Bare infinitive at the end. No zu. Let: Wir lassen den Patienten schlafen. Have done: Wir lassen das Blut abnehmen. Not schläft."
+    },
+    "lässt": {
+      "de": "lassen → sie lässt",
+      "pos": "form",
+      "en": "lets, or has something done",
+      "emoji": "🤲",
+      "note": "du lässt and sie lässt. Formal Sie lassen. ihr lasst. Not du lasst."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥", "note": "Wir lassen. The infinitive stays at the end." },
+    "du": { "de": "du", "pos": "pronoun", "en": "you (one person)", "emoji": "👤", "note": "du lässt. ihr lasst. Not du lasst." },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she, or formal you",
+      "emoji": "👩",
+      "note": "She lässt. Formal Sie lassen. Lassen Sie is the formal request. She lässt das Blut abnehmen."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)",
+      "emoji": "🌹",
+      "note": "den Patienten is the object of lassen. der Patient is nominative. dem Patienten is dative, chapter 21."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🔵" },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Accusative singular, object of lassen: den Patienten. Not den Patient."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative: Der Patient. Object of lassen: den Patienten."
+    },
+    "schlafen": {
+      "de": "schlafen",
+      "pos": "infinitive",
+      "en": "to sleep",
+      "emoji": "😴",
+      "note": "After lassen, the bare infinitive. Wir lassen den Patienten schlafen. Not schläft. Not zu schlafen."
+    },
+    "blut": {
+      "de": "Blut",
+      "pos": "noun",
+      "en": "blood",
+      "emoji": "🩸",
+      "article": "das",
+      "plural": "Blut",
+      "note": "Wir lassen das Blut abnehmen. Without das, Wir lassen Blut abnehmen is also correct."
+    },
+    "abnehmen": {
+      "de": "abnehmen",
+      "pos": "infinitive",
+      "en": "to take (blood)",
+      "emoji": "🩸",
+      "note": "One word after lassen. Not nehmen ab. Not abzunehmen. Active: nimmt das Blut ab."
+    },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "emoji": "🩹",
+      "article": "die",
+      "plural": "die Wunden",
+      "note": "Wir lassen die Wunde reinigen. Someone else cleans it."
+    },
+    "reinigen": {
+      "de": "reinigen",
+      "pos": "infinitive",
+      "en": "to clean",
+      "emoji": "🩹",
+      "note": "After lassen: Wir lassen die Wunde reinigen. We have it cleaned. Not zu reinigen."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Let, or have it done",
+      "learn": [
+        "lassen has two jobs here. Let someone do something: Wir lassen den Patienten schlafen. Have something done: Wir lassen das Blut abnehmen.",
+        "The person or the thing is the accusative object. One male patient: den Patienten. der Patient is nominative. dem Patienten is dative, a different job.",
+        "The second verb is a bare infinitive at the end. No zu. abnehmen stays one word. Not nehmen ab. Not abzunehmen.",
+        "Persons: ich lasse, du lässt, sie lässt, wir lassen, ihr lasst, sie/Sie lassen. She lässt. Formal Sie lassen. The request is Lassen Sie."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Blut", "article": "das", "plural": "Blut", "en": "blood", "emoji": "🩸", "glossaryKey": "blut" },
+        { "de": "Wunde", "article": "die", "plural": "die Wunden", "en": "wound", "emoji": "🩹", "glossaryKey": "wunde" }
+      ],
+      "text": {
+        "title": "Leben und leben lassen",
+        "de": "Wir lassen den Patienten schlafen. Lassen Sie den Patienten schlafen. Wir lassen das Blut abnehmen. Sie lässt das Blut abnehmen. Wir lassen die Wunde reinigen. Du lässt den Patienten schlafen.",
+        "en": "We let the patient sleep. Let the patient sleep. We have the blood taken. She has the blood taken. We have the wound cleaned. You let the patient sleep."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Two jobs for lassen",
+      "practice": "choose",
+      "heroTitle": "Wir lassen den Patienten schlafen",
+      "heroImage": "bed",
+      "story": [
+        "The title <b>Leben und leben lassen</b> means live and let live. On the ward, <b>lassen</b> does two jobs.",
+        "<b>Let:</b> <b>Wir lassen den Patienten schlafen. Lassen Sie den Patienten schlafen.</b> The patient is the accusative object: <b>den Patienten</b>. <b>der Patient</b> is nominative. <b>dem Patienten</b> is the dative receiver from chapter 21, still correct for that other job. <b>den Patient</b> is missing -en.",
+        "<b>Have something done:</b> <b>Wir lassen das Blut abnehmen.</b> Someone else takes the blood. <b>abnehmen</b> is one word. The active stays correct: <b>Die Pflegekraft nimmt das Blut ab.</b> <b>Wir lassen Blut abnehmen</b>, without das, is also correct. <b>Wir lassen die Wunde reinigen</b> means we have the wound cleaned. <b>Wir reinigen die Wunde</b> means we clean it ourselves, and that stays correct.",
+        "The second verb is a <b>bare infinitive</b> at the end. No <b>zu</b>. <b>zu schlafen</b> and <b>abzunehmen</b> belong to the zu-infinitive in chapter 68. Chapter 69 sets lassen next to the modals and bleiben. Not <b>schläft</b> after lassen.",
+        "Persons: <b>ich lasse, du lässt, er/sie lässt, wir lassen, ihr lasst, sie/Sie lassen.</b> She <b>lässt</b>. Formal Sie <b>lassen</b>. Imperative: <b>lass, lasst, lassen Sie.</b> <b>Lass Sie</b> mixes the du form with formal Sie.",
+        "<b>Die Wunde wird gereinigt</b> is the present passive, chapter 57, and stays correct. <b>Die Wunde lässt sich reinigen</b> means it can be cleaned. That is a third pattern, and this chart does not drill it. The usual perfect is <b>hat schlafen lassen</b>. <b>schlafen gelassen</b> is also heard. Neither perfect is drilled here."
+      ],
+      "questionRule": "Bare infinitive at the end. No zu. den Patienten. abnehmen is one word. du lässt. She lässt. Formal Sie lassen.",
+      "tables": [
+        {
+          "title": "Zwei Aufgaben",
+          "caption": "Let someone act, or have something done. The infinitive is last.",
+          "columns": ["Aufgabe", "Beispiel"],
+          "rows": [
+            { "label": "lassen", "cells": ["schlafen lassen", "Wir lassen den Patienten schlafen."], "highlight": true },
+            { "label": "machen lassen", "cells": ["abnehmen lassen", "Wir lassen das Blut abnehmen."], "highlight": true },
+            { "label": "Bitte", "cells": ["lassen Sie", "Lassen Sie den Patienten schlafen."] },
+            { "label": "Wunde", "cells": ["reinigen lassen", "Wir lassen die Wunde reinigen."] }
+          ]
+        },
+        {
+          "title": "Personen",
+          "caption": "du lässt and sie lässt. ihr lasst. Formal Sie lassen.",
+          "columns": ["Form", "Beispiel"],
+          "rows": [
+            { "label": "ich", "cells": ["lasse", "Ich lasse ihn schlafen."], "highlight": true },
+            { "label": "du", "cells": ["lässt", "Du lässt den Patienten schlafen."], "highlight": true },
+            { "label": "er/sie", "cells": ["lässt", "Sie lässt das Blut abnehmen."] },
+            { "label": "wir", "cells": ["lassen", "Wir lassen den Patienten schlafen."] },
+            { "label": "ihr", "cells": ["lasst", "Ihr lasst den Patienten schlafen."] },
+            { "label": "sie/Sie", "cells": ["lassen", "Sie lassen ihn schlafen."] },
+            { "label": "Imperativ", "cells": ["lass / lasst / lassen Sie", "Lass den Patienten schlafen."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "zu, a split infinitive, the wrong person, or a missing -en. The passive, the active split, dem Patienten, gelassen, and the future stay correct in their own patterns.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "zu", "cells": ["zu schlafen", "schlafen"] },
+            { "label": "trennbar", "cells": ["nehmen ab", "abnehmen"] },
+            { "label": "du", "cells": ["du lasst", "du lässt"] },
+            { "label": "ihr", "cells": ["ihr lässt", "ihr lasst"] },
+            { "label": "Objekt", "cells": ["den Patient", "den Patienten"] },
+            { "label": "schläft", "cells": ["schläft", "schlafen"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four lassen traps",
+        "items": [
+          { "de": "Wir lassen den Patienten schlafen.", "en": "Bare infinitive. Let him sleep.", "tone": "ok" },
+          { "de": "Wir lassen ihn zu schlafen.", "en": "lassen does not take zu.", "tone": "stop" },
+          { "de": "Wir lassen das Blut abnehmen.", "en": "abnehmen is one word.", "tone": "ok" },
+          { "de": "Wir lassen das Blut nehmen ab.", "en": "The infinitive does not split.", "tone": "stop" },
+          { "de": "Du lässt den Patienten schlafen.", "en": "du lässt.", "tone": "ok" },
+          { "de": "Du lasst den Patienten schlafen.", "en": "lasst is ihr.", "tone": "stop" },
+          { "de": "den Patienten", "en": "Accusative object, with -en.", "tone": "ok" },
+          { "de": "den Patient", "en": "Missing -en.", "tone": "stop" }
+        ],
+        "tip": "Infinitive last. No zu. den Patienten. du lässt."
+      },
+      "tips": [
+        {
+          "title": "Read the infinitive",
+          "body": "schlafen lets him sleep. abnehmen has the blood taken. reinigen has the wound cleaned. No zu. She lässt. Formal Sie lassen.",
+          "mnemonic": "schlafen: let. abnehmen: have it done. lässt: she and du.",
+          "emoji": "🤲"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "schlafen", "emoji": "😴", "en": "let him sleep", "use": "bare infinitive", "de": "Wir lassen den Patienten schlafen.", "deEn": "We let the patient sleep." },
+        { "modal": "abnehmen", "emoji": "🩸", "en": "have the blood taken", "use": "one word", "de": "Wir lassen das Blut abnehmen.", "deEn": "We have the blood taken." },
+        { "modal": "den Patienten", "emoji": "🏥", "en": "accusative object", "use": "with -en", "de": "Lassen Sie den Patienten schlafen.", "deEn": "Let the patient sleep." },
+        { "modal": "reinigen", "emoji": "🩹", "en": "have the wound cleaned", "use": "someone else does it", "de": "Wir lassen die Wunde reinigen.", "deEn": "We have the wound cleaned." }
+      ],
+      "quizTitle": "Which lassen line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Let the patient sleep. We.",
+          "qEn": "Bare infinitive.",
+          "options": ["Wir lassen den Patienten schlafen.", "Wir lassen ihn zu schlafen.", "Wir lassen ihn schläft."],
+          "answer": 0,
+          "why": "schlafen is the bare infinitive. No zu. schläft is a present form.",
+          "hint": "schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "Have the blood taken. We.",
+          "qEn": "abnehmen, one word.",
+          "options": ["Wir lassen das Blut abnehmen.", "Wir lassen das Blut nehmen ab.", "Wir lassen das Blut abzunehmen."],
+          "answer": 0,
+          "why": "abnehmen is one word. nehmen ab splits it. abzunehmen is the zu-form, chapter 68. The active nimmt … ab stays correct.",
+          "hint": "abnehmen."
+        },
+        {
+          "kind": "mc",
+          "q": "You, one person. Let him sleep.",
+          "qEn": "du lässt.",
+          "options": ["Du lässt den Patienten schlafen.", "Du lasst den Patienten schlafen.", "Du lässt ihn zu schlafen."],
+          "answer": 0,
+          "why": "du lässt. lasst is ihr. No zu.",
+          "hint": "lässt."
+        },
+        {
+          "kind": "mc",
+          "q": "Accusative object, one male patient.",
+          "qEn": "den Patienten.",
+          "options": ["den Patienten", "der Patient", "den Patient"],
+          "answer": 0,
+          "why": "den Patienten is the object. der Patient is nominative. den Patient is missing -en.",
+          "hint": "Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "Formal request. Let him sleep.",
+          "qEn": "lassen Sie.",
+          "options": ["Lassen Sie den Patienten schlafen.", "Lass Sie den Patienten schlafen.", "Lassen Sie ihn zu schlafen."],
+          "answer": 0,
+          "why": "Lassen Sie. Lass Sie mixes the du imperative with formal Sie. No zu.",
+          "hint": "Lassen Sie."
+        },
+        {
+          "kind": "mc",
+          "q": "She has the blood taken. Not formal Sie.",
+          "qEn": "sie lässt.",
+          "options": ["Sie lässt das Blut abnehmen.", "Sie lassen das Blut abnehmen.", "Sie lässt das Blut nehmen ab."],
+          "answer": 0,
+          "why": "She lässt. Formal Sie lassen is the other real person. abnehmen is one word.",
+          "hint": "lässt."
+        }
+      ]
+    },
+    {
+      "id": "gap-sort",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names let or have-done, and the person. Bare infinitive at the end. No zu. abnehmen is one word. du lässt.",
+      "chips": [
+        { "w": "Wir lassen den Patienten schlafen", "hint": "let." },
+        { "w": "Wir lassen das Blut abnehmen", "hint": "have it done." },
+        { "w": "Du lässt den Patienten schlafen", "hint": "du lässt." },
+        { "w": "Lassen Sie den Patienten schlafen", "hint": "formal request." },
+        { "w": "Sie lässt das Blut abnehmen", "hint": "she lässt." },
+        { "w": "Wir lassen die Wunde reinigen", "hint": "have it cleaned." },
+        { "w": "Wir lassen den Patienten schläft", "hint": "infinitive." },
+        { "w": "Wir lassen das Blut nehmen ab", "hint": "one word." },
+        { "w": "Du lasst den Patienten schlafen", "hint": "lässt." },
+        { "w": "Wir lassen die Wunde zu reinigen", "hint": "no zu." },
+        { "w": "Sie lässt das Blut nehmen ab", "hint": "one word." },
+        { "w": "Der Patient lassen wir schlafen", "hint": "den Patienten." }
+      ],
+      "items": [
+        {
+          "before": "Let, we:",
+          "after": ".",
+          "answer": "Wir lassen den Patienten schlafen",
+          "en": "We let the patient sleep.",
+          "why": "Bare infinitive schlafen. No zu. Not schläft.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Have the blood taken, we:",
+          "after": ".",
+          "answer": "Wir lassen das Blut abnehmen",
+          "en": "We have the blood taken.",
+          "why": "abnehmen is one word. Not nehmen ab.",
+          "tip": "abnehmen.",
+          "hint": "abnehmen."
+        },
+        {
+          "before": "du, let:",
+          "after": ".",
+          "answer": "Du lässt den Patienten schlafen",
+          "en": "You let the patient sleep.",
+          "why": "du lässt. lasst is ihr.",
+          "tip": "lässt.",
+          "hint": "lässt."
+        },
+        {
+          "before": "Formal, let:",
+          "after": ".",
+          "answer": "Lassen Sie den Patienten schlafen",
+          "en": "Let the patient sleep.",
+          "why": "Lassen Sie. The infinitive is schlafen.",
+          "tip": "Lassen Sie.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "She, blood:",
+          "after": ".",
+          "answer": "Sie lässt das Blut abnehmen",
+          "en": "She has the blood taken.",
+          "why": "She lässt. abnehmen is one word. Formal Sie lassen.",
+          "tip": "lässt.",
+          "hint": "lässt."
+        },
+        {
+          "before": "Have the wound cleaned:",
+          "after": ".",
+          "answer": "Wir lassen die Wunde reinigen",
+          "en": "We have the wound cleaned.",
+          "why": "Bare infinitive reinigen. No zu. The passive Die Wunde wird gereinigt stays correct.",
+          "tip": "reinigen.",
+          "hint": "reinigen."
+        }
+      ]
+    },
+    {
+      "id": "match-sort",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names the job or the person. One label is that piece. One is another real form. One is not the form.",
+      "items": [
+        {
+          "prompt": "Infinitive after lassen, sleep",
+          "options": [
+            { "emoji": "😴", "label": "schlafen", "caption": "bare infinitive" },
+            { "emoji": "💤", "label": "schläft", "caption": "present, another pattern" },
+            { "emoji": "🚫", "label": "zu schlafen", "caption": "not after lassen" }
+          ],
+          "answer": 0,
+          "why": "schlafen is the bare infinitive. schläft is present and stays correct there. No zu.",
+          "hint": "schlafen."
+        },
+        {
+          "prompt": "Have the blood taken",
+          "options": [
+            { "emoji": "🩸", "label": "abnehmen", "caption": "one word" },
+            { "emoji": "🚫", "label": "nehmen ab", "caption": "split infinitive" },
+            { "emoji": "🚫", "label": "abzunehmen", "caption": "zu-form, chapter 68" }
+          ],
+          "answer": 0,
+          "why": "abnehmen is one word after lassen. The active nimmt … ab stays correct.",
+          "hint": "abnehmen."
+        },
+        {
+          "prompt": "du",
+          "options": [
+            { "emoji": "👤", "label": "lässt", "caption": "du and sie" },
+            { "emoji": "👥", "label": "lasst", "caption": "ihr" },
+            { "emoji": "🚫", "label": "lasse", "caption": "ich" }
+          ],
+          "answer": 0,
+          "why": "du lässt. lasst is ihr. lasse is ich.",
+          "hint": "lässt."
+        },
+        {
+          "prompt": "ihr",
+          "options": [
+            { "emoji": "👥", "label": "lasst", "caption": "ihr" },
+            { "emoji": "👤", "label": "lässt", "caption": "du and sie" },
+            { "emoji": "👥", "label": "lassen", "caption": "wir and formal Sie" }
+          ],
+          "answer": 0,
+          "why": "ihr lasst. lässt is du and sie. lassen is wir and formal Sie.",
+          "hint": "lasst."
+        },
+        {
+          "prompt": "Object, one male patient",
+          "options": [
+            { "emoji": "🌹", "label": "den Patienten", "caption": "accusative object" },
+            { "emoji": "🔵", "label": "der Patient", "caption": "nominative" },
+            { "emoji": "🚫", "label": "den Patient", "caption": "missing -en" }
+          ],
+          "answer": 0,
+          "why": "den Patienten. der Patient is nominative. den Patient is missing -en.",
+          "hint": "Patienten."
+        },
+        {
+          "prompt": "she, not formal Sie",
+          "options": [
+            { "emoji": "👩", "label": "lässt", "caption": "she" },
+            { "emoji": "🧑‍⚕️", "label": "lassen", "caption": "formal Sie" },
+            { "emoji": "👥", "label": "lasst", "caption": "ihr" }
+          ],
+          "answer": 0,
+          "why": "She lässt. Formal Sie lassen. ihr lasst.",
+          "hint": "lässt."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed where we let him sleep",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the wound someone else cleans",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer after the blood is taken",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart that says let him sleep",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-sort",
+      "type": "builder",
+      "label": "Build",
+      "title": "Infinitive last",
+      "practice": "build",
+      "instructions": "Build the lassen line. The bare infinitive is last. The object can stand first. A formal request can start with Lassen Sie.",
+      "items": [
+        {
+          "tiles": ["Wir", "lassen", "den", "Patienten", "schlafen"],
+          "answers": ["Wir lassen den Patienten schlafen", "Den Patienten lassen wir schlafen"],
+          "punct": ".",
+          "modal": "lassen",
+          "inf": "schlafen",
+          "question": false,
+          "en": "We let the patient sleep.",
+          "hint": "schlafen last.",
+          "feedback": {
+            "end": "schlafen closes the line: Wir lassen den Patienten schlafen.",
+            "fallback": "Wir lassen den Patienten schlafen. Or: Den Patienten lassen wir schlafen."
+          }
+        },
+        {
+          "tiles": ["Wir", "lassen", "das", "Blut", "abnehmen"],
+          "answers": ["Wir lassen das Blut abnehmen", "Das Blut lassen wir abnehmen"],
+          "punct": ".",
+          "modal": "lassen",
+          "inf": "abnehmen",
+          "question": false,
+          "en": "We have the blood taken.",
+          "hint": "abnehmen last. One word.",
+          "feedback": {
+            "end": "abnehmen closes the line.",
+            "fallback": "Wir lassen das Blut abnehmen. Or: Das Blut lassen wir abnehmen."
+          }
+        },
+        {
+          "tiles": ["Du", "lässt", "den", "Patienten", "schlafen"],
+          "answers": ["Du lässt den Patienten schlafen", "Den Patienten lässt du schlafen"],
+          "punct": ".",
+          "modal": "lässt",
+          "inf": "schlafen",
+          "question": false,
+          "en": "You let the patient sleep.",
+          "hint": "schlafen last. du lässt.",
+          "feedback": {
+            "end": "schlafen closes the line.",
+            "fallback": "Du lässt den Patienten schlafen. Or: Den Patienten lässt du schlafen."
+          }
+        },
+        {
+          "tiles": ["Lassen", "Sie", "den", "Patienten", "schlafen"],
+          "answers": ["Lassen Sie den Patienten schlafen", "Sie lassen den Patienten schlafen", "Den Patienten lassen Sie schlafen"],
+          "punct": ".",
+          "modal": "lassen",
+          "inf": "schlafen",
+          "question": false,
+          "en": "Let the patient sleep, formal.",
+          "hint": "schlafen last. Lassen Sie, or Sie lassen.",
+          "feedback": {
+            "end": "schlafen closes the request.",
+            "fallback": "Lassen Sie den Patienten schlafen. Or: Sie lassen den Patienten schlafen. Or: Den Patienten lassen Sie schlafen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-sort",
+      "label": "Rewrite",
+      "title": "Into lassen",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names let or have-done and shows a correct present or active line. Give the lassen line. The present and the active stay correct German.",
+      "chips": [
+        { "w": "Wir lassen den Patienten schlafen", "hint": "let." },
+        { "w": "Wir lassen das Blut abnehmen", "hint": "have it done." },
+        { "w": "Du lässt den Patienten schlafen", "hint": "du lässt." },
+        { "w": "Lassen Sie den Patienten schlafen", "hint": "formal request." },
+        { "w": "Sie lässt das Blut abnehmen", "hint": "she lässt." },
+        { "w": "Wir lassen die Wunde reinigen", "hint": "have it cleaned." },
+        { "w": "Wir lassen den Patienten schläft", "hint": "infinitive." },
+        { "w": "Wir lassen das Blut nehmen ab", "hint": "one word." },
+        { "w": "Du lasst den Patienten schlafen", "hint": "lässt." },
+        { "w": "Wir lassen die Wunde zu reinigen", "hint": "no zu." },
+        { "w": "Sie lässt das Blut nehmen ab", "hint": "one word." },
+        { "w": "Der Patient lassen wir schlafen", "hint": "den Patienten." }
+      ],
+      "items": [
+        {
+          "before": "Let him sleep. Present: Der Patient schläft. Line:",
+          "after": ".",
+          "answer": "Wir lassen den Patienten schlafen",
+          "en": "We let the patient sleep.",
+          "why": "lassen plus schlafen. Der Patient schläft stays correct present.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Have the blood taken. Active: Die Pflegekraft nimmt das Blut ab. Line:",
+          "after": ".",
+          "answer": "Wir lassen das Blut abnehmen",
+          "en": "We have the blood taken.",
+          "why": "The active split stays correct. lassen uses abnehmen, one word.",
+          "tip": "abnehmen.",
+          "hint": "abnehmen."
+        },
+        {
+          "before": "du, let him sleep. Line:",
+          "after": ".",
+          "answer": "Du lässt den Patienten schlafen",
+          "en": "You let the patient sleep.",
+          "why": "du lässt plus schlafen.",
+          "tip": "lässt.",
+          "hint": "lässt."
+        },
+        {
+          "before": "Formal request. Let him sleep. Line:",
+          "after": ".",
+          "answer": "Lassen Sie den Patienten schlafen",
+          "en": "Let the patient sleep.",
+          "why": "Lassen Sie plus schlafen.",
+          "tip": "Lassen Sie.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "She has the blood taken, not formal Sie. Line:",
+          "after": ".",
+          "answer": "Sie lässt das Blut abnehmen",
+          "en": "She has the blood taken.",
+          "why": "She lässt. Formal Sie lassen is the other person. abnehmen is one word.",
+          "tip": "lässt.",
+          "hint": "lässt."
+        },
+        {
+          "before": "Have the wound cleaned. Active: Die Pflegekraft reinigt die Wunde. Line:",
+          "after": ".",
+          "answer": "Wir lassen die Wunde reinigen",
+          "en": "We have the wound cleaned.",
+          "why": "We have it cleaned. Wir reinigen die Wunde would mean we do it ourselves, and that stays correct.",
+          "tip": "reinigen.",
+          "hint": "reinigen."
+        }
+      ]
+    },
+    {
+      "id": "error-sort",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the lassen form in the clues. Choose the correction. The present, the formal person, and the nominative stay correct German in their own jobs.",
+      "items": [
+        {
+          "clues": ["Let him sleep.", "No zu.", "Lass den Patienten zu schlafen."],
+          "options": ["Lass den Patienten schlafen.", "Lass den Patienten zu schlafen.", "Der Patient schläft."],
+          "answer": 0,
+          "reveal": "Lass den Patienten schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "clues": ["Have the blood taken.", "One word.", "Wir lassen das Blut nehmen ab."],
+          "options": ["Wir lassen das Blut abnehmen.", "Wir lassen das Blut nehmen ab.", "Wir lassen das Blut abzunehmen."],
+          "answer": 0,
+          "reveal": "Wir lassen das Blut abnehmen.",
+          "hint": "abnehmen."
+        },
+        {
+          "clues": ["You, one person.", "du lässt.", "Du lasst den Patienten schlafen."],
+          "options": ["Du lässt den Patienten schlafen.", "Du lasst den Patienten schlafen.", "Du lässt ihn zu schlafen."],
+          "answer": 0,
+          "reveal": "Du lässt den Patienten schlafen.",
+          "hint": "lässt."
+        },
+        {
+          "clues": ["Object of lassen.", "One male patient.", "den Patient"],
+          "options": ["den Patienten", "den Patient", "der Patient"],
+          "answer": 0,
+          "reveal": "den Patienten",
+          "hint": "Patienten."
+        },
+        {
+          "clues": ["She, not formal Sie.", "One word.", "Sie lässt das Blut nehmen ab."],
+          "options": ["Sie lässt das Blut abnehmen.", "Sie lässt das Blut nehmen ab.", "Sie lassen das Blut abnehmen."],
+          "answer": 0,
+          "reveal": "Sie lässt das Blut abnehmen.",
+          "hint": "lässt."
+        },
+        {
+          "clues": ["You all.", "ihr lasst.", "Ihr lässt den Patienten schlafen."],
+          "options": ["Ihr lasst den Patienten schlafen.", "Ihr lässt den Patienten schlafen.", "Ihr lasst ihn zu schlafen."],
+          "answer": 0,
+          "reveal": "Ihr lasst den Patienten schlafen.",
+          "hint": "lasst."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the night shift",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names who speaks and whether they let him sleep or have something done. Bare infinitive. No zu.",
+      "chips": [
+        { "w": "Wir lassen den Patienten schlafen", "hint": "let." },
+        { "w": "Wir lassen das Blut abnehmen", "hint": "have it done." },
+        { "w": "Du lässt den Patienten schlafen", "hint": "du lässt." },
+        { "w": "Lassen Sie den Patienten schlafen", "hint": "formal request." },
+        { "w": "Sie lässt das Blut abnehmen", "hint": "she lässt." },
+        { "w": "Wir lassen die Wunde reinigen", "hint": "have it cleaned." },
+        { "w": "Wir lassen den Patienten schläft", "hint": "infinitive." },
+        { "w": "Wir lassen das Blut nehmen ab", "hint": "one word." },
+        { "w": "Du lasst den Patienten schlafen", "hint": "lässt." },
+        { "w": "Wir lassen die Wunde zu reinigen", "hint": "no zu." },
+        { "w": "Sie lässt das Blut nehmen ab", "hint": "one word." },
+        { "w": "Der Patient lassen wir schlafen", "hint": "den Patienten." }
+      ],
+      "items": [
+        {
+          "before": "Nurse to the team, let him sleep:",
+          "after": ".",
+          "answer": "Wir lassen den Patienten schlafen",
+          "en": "We let the patient sleep.",
+          "why": "schlafen at the end.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Nurse, have the blood taken:",
+          "after": ".",
+          "answer": "Wir lassen das Blut abnehmen",
+          "en": "We have the blood taken.",
+          "why": "abnehmen is one word.",
+          "tip": "abnehmen.",
+          "hint": "abnehmen."
+        },
+        {
+          "before": "Nurse to one colleague, du:",
+          "after": ".",
+          "answer": "Du lässt den Patienten schlafen",
+          "en": "You let the patient sleep.",
+          "why": "du lässt.",
+          "tip": "lässt.",
+          "hint": "lässt."
+        },
+        {
+          "before": "Doctor to the nurse, formal:",
+          "after": ".",
+          "answer": "Lassen Sie den Patienten schlafen",
+          "en": "Let the patient sleep.",
+          "why": "The doctor tells the nurse to let him sleep. Lassen Sie.",
+          "tip": "Lassen Sie.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "The doctor about Anna, she takes the blood order:",
+          "after": ".",
+          "answer": "Sie lässt das Blut abnehmen",
+          "en": "She has the blood taken.",
+          "why": "She lässt. Not the split infinitive.",
+          "tip": "lässt.",
+          "hint": "lässt."
+        },
+        {
+          "before": "Nurse, have the wound cleaned:",
+          "after": ".",
+          "answer": "Wir lassen die Wunde reinigen",
+          "en": "We have the wound cleaned.",
+          "why": "reinigen, no zu.",
+          "tip": "reinigen.",
+          "hint": "reinigen."
+        }
+      ]
+    },
+    {
+      "id": "gap-person",
+      "label": "Gap",
+      "title": "Who lets him sleep?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "ihn stands for the patient. The person ending is on lassen. She lässt. Formal Sie lassen. ihr lasst. No zu.",
+      "chips": [
+        { "w": "Ich lasse ihn schlafen", "hint": "ich lasse." },
+        { "w": "Du lässt ihn schlafen", "hint": "du lässt." },
+        { "w": "Sie lässt ihn schlafen", "hint": "she lässt." },
+        { "w": "Wir lassen ihn schlafen", "hint": "wir lassen." },
+        { "w": "Ihr lasst ihn schlafen", "hint": "ihr lasst." },
+        { "w": "Sie lassen ihn schlafen", "hint": "formal Sie lassen." },
+        { "w": "Ich lässt ihn schlafen", "hint": "lasse." },
+        { "w": "Du lasst ihn schlafen", "hint": "lässt." },
+        { "w": "Sie lasst ihn schlafen", "hint": "lässt or lassen." },
+        { "w": "Wir lässt ihn schlafen", "hint": "lassen." },
+        { "w": "Ihr lässt ihn schlafen", "hint": "lasst." },
+        { "w": "Du lässt ihn zu schlafen", "hint": "no zu." }
+      ],
+      "items": [
+        {
+          "before": "ich, let:",
+          "after": ".",
+          "answer": "Ich lasse ihn schlafen",
+          "en": "I let him sleep.",
+          "why": "ich lasse. Not lässt.",
+          "tip": "lasse.",
+          "hint": "lasse."
+        },
+        {
+          "before": "du, let:",
+          "after": ".",
+          "answer": "Du lässt ihn schlafen",
+          "en": "You let him sleep.",
+          "why": "du lässt. lasst is ihr. No zu.",
+          "tip": "lässt.",
+          "hint": "lässt."
+        },
+        {
+          "before": "she, let him sleep, not formal Sie:",
+          "after": ".",
+          "answer": "Sie lässt ihn schlafen",
+          "en": "She lets him sleep.",
+          "why": "She lässt. Formal Sie lassen.",
+          "tip": "lässt.",
+          "hint": "lässt."
+        },
+        {
+          "before": "wir, let:",
+          "after": ".",
+          "answer": "Wir lassen ihn schlafen",
+          "en": "We let him sleep.",
+          "why": "wir lassen plus schlafen.",
+          "tip": "lassen.",
+          "hint": "lassen."
+        },
+        {
+          "before": "ihr, let:",
+          "after": ".",
+          "answer": "Ihr lasst ihn schlafen",
+          "en": "You let him sleep.",
+          "why": "ihr lasst. Not lässt.",
+          "tip": "lasst.",
+          "hint": "lasst."
+        },
+        {
+          "before": "formal Sie, let him sleep, not she:",
+          "after": ".",
+          "answer": "Sie lassen ihn schlafen",
+          "en": "You let him sleep.",
+          "why": "Formal Sie lassen. She lässt.",
+          "tip": "lassen.",
+          "hint": "lassen."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The night note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. The active stays correct German when the team does the work itself.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Patient",
+        "paragraphs": [
+          "Wir lassen den Patienten schlafen. Lassen Sie den Patienten schlafen.",
+          "Wir lassen das Blut abnehmen. Sie lässt das Blut abnehmen.",
+          "Wir lassen die Wunde reinigen. Du lässt den Patienten schlafen."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Let him sleep, from the note.",
+          "qEn": "schlafen.",
+          "options": ["lassen den Patienten schlafen", "lassen den Patienten schläft", "lassen ihn zu schlafen"],
+          "answer": 0,
+          "why": "Wir lassen den Patienten schlafen. Not schläft. No zu.",
+          "hint": "schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "The blood, from the note.",
+          "qEn": "abnehmen.",
+          "options": ["lassen das Blut abnehmen", "lassen das Blut nehmen ab", "lassen das Blut abzunehmen"],
+          "answer": 0,
+          "why": "Wir lassen das Blut abnehmen. One word.",
+          "hint": "abnehmen."
+        },
+        {
+          "kind": "mc",
+          "q": "The wound, from the note.",
+          "qEn": "reinigen.",
+          "options": ["lassen die Wunde reinigen", "lassen die Wunde zu reinigen", "reinigt die Wunde"],
+          "answer": 0,
+          "why": "Wir lassen die Wunde reinigen. No zu. reinigt die Wunde is the active and stays correct when the team does it.",
+          "hint": "reinigen."
+        },
+        {
+          "kind": "mc",
+          "q": "du, from the note.",
+          "qEn": "lässt.",
+          "options": ["lässt", "lasst", "lasse"],
+          "answer": 0,
+          "why": "Du lässt den Patienten schlafen. lasst is ihr. lasse is ich.",
+          "hint": "lässt."
+        }
+      ]
+    },
+    {
+      "id": "writing-sort",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Let him sleep. Have the blood taken. She has the blood taken. Have the wound cleaned.",
+      "prompt": "We let the patient sleep. We have the blood taken. She has the blood taken. We have the wound cleaned.",
+      "bullets": ["lassen den Patienten schlafen", "lassen das Blut abnehmen", "lässt das Blut abnehmen", "lassen die Wunde reinigen"],
+      "model": "Wir lassen den Patienten schlafen. Wir lassen das Blut abnehmen. Sie lässt das Blut abnehmen. Wir lassen die Wunde reinigen.",
+      "modelEn": "We let the patient sleep. We have the blood taken. She has the blood taken. We have the wound cleaned.",
+      "hint": "lassen den Patienten schlafen. lassen das Blut abnehmen. lässt das Blut abnehmen. lassen die Wunde reinigen.",
+      "checklist": [
+        { "id": "s", "label": "lassen den Patienten schlafen", "keywords": ["lassen den patienten schlafen"] },
+        { "id": "b", "label": "lassen das Blut abnehmen", "keywords": ["lassen das blut abnehmen"] },
+        { "id": "a", "label": "lässt das Blut abnehmen", "keywords": ["lässt das blut abnehmen"] },
+        { "id": "w", "label": "lassen die Wunde reinigen", "keywords": ["lassen die wunde reinigen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Leben und leben lassen",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Bare infinitive at the end. No zu. den Patienten. abnehmen is one word. du lässt. She lässt. Formal Sie lassen. ihr lasst.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Let him sleep. We.",
+          "qEn": "schlafen.",
+          "options": ["Wir lassen den Patienten schlafen.", "Wir lassen ihn zu schlafen.", "Wir lassen ihn schläft."],
+          "answer": 0,
+          "why": "schlafen is the bare infinitive. No zu. schläft is present.",
+          "hint": "schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "Have the blood taken. We.",
+          "qEn": "abnehmen.",
+          "options": ["Wir lassen das Blut abnehmen.", "Wir lassen das Blut nehmen ab.", "Wir lassen das Blut abzunehmen."],
+          "answer": 0,
+          "why": "abnehmen is one word. nehmen ab splits it. abzunehmen is the zu-form, chapter 68.",
+          "hint": "abnehmen."
+        },
+        {
+          "kind": "mc",
+          "q": "You, one person. Let him sleep.",
+          "qEn": "du lässt.",
+          "options": ["Du lässt den Patienten schlafen.", "Du lasst den Patienten schlafen.", "Du lässt ihn zu schlafen."],
+          "answer": 0,
+          "why": "du lässt. lasst is ihr. No zu.",
+          "hint": "lässt."
+        },
+        {
+          "kind": "mc",
+          "q": "Formal request. Let him sleep.",
+          "qEn": "lassen Sie.",
+          "options": ["Lassen Sie den Patienten schlafen.", "Lass Sie den Patienten schlafen.", "Lassen Sie ihn zu schlafen."],
+          "answer": 0,
+          "why": "Lassen Sie. Lass Sie mixes du and formal Sie. No zu.",
+          "hint": "Lassen Sie."
+        },
+        {
+          "kind": "mc",
+          "q": "Accusative object, one male patient.",
+          "qEn": "den Patienten.",
+          "options": ["den Patienten", "den Patient", "der Patient"],
+          "answer": 0,
+          "why": "den Patienten. den Patient is missing -en. der Patient is nominative.",
+          "hint": "Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "She has the blood taken. Not formal Sie.",
+          "qEn": "sie lässt.",
+          "options": ["Sie lässt das Blut abnehmen.", "Sie lassen das Blut abnehmen.", "Sie lässt das Blut nehmen ab."],
+          "answer": 0,
+          "why": "She lässt. Formal Sie lassen is the other real person. abnehmen is one word.",
+          "hint": "lässt."
+        },
+        {
+          "kind": "mc",
+          "q": "Have the wound cleaned. Not the passive, and not zu.",
+          "qEn": "reinigen.",
+          "options": ["Wir lassen die Wunde reinigen.", "Die Wunde wird gereinigt.", "Wir lassen die Wunde zu reinigen."],
+          "answer": 0,
+          "why": "lassen plus reinigen means we have it cleaned. Die Wunde wird gereinigt is the passive, chapter 57, and stays correct. No zu.",
+          "hint": "reinigen."
+        },
+        {
+          "kind": "mc",
+          "q": "You all. Let him sleep.",
+          "qEn": "ihr lasst.",
+          "options": ["Ihr lasst den Patienten schlafen.", "Ihr lässt den Patienten schlafen.", "Ihr lasst ihn zu schlafen."],
+          "answer": 0,
+          "why": "ihr lasst. lässt is du and sie. No zu.",
+          "hint": "lasst."
+        },
+        {
+          "kind": "mc",
+          "q": "Have the blood taken. The object is first.",
+          "qEn": "abnehmen last.",
+          "options": ["Das Blut lassen wir abnehmen.", "Das Blut wir lassen abnehmen.", "Das Blut lassen wir nehmen ab."],
+          "answer": 0,
+          "why": "lassen is in position 2. abnehmen is one word at the end.",
+          "hint": "abnehmen."
+        },
+        {
+          "kind": "mc",
+          "q": "She lets him sleep. Not formal Sie.",
+          "qEn": "sie lässt.",
+          "options": ["Sie lässt ihn schlafen.", "Sie lassen ihn schlafen.", "Sie lasst ihn schlafen."],
+          "answer": 0,
+          "why": "She lässt. Formal Sie lassen. lasst is ihr.",
+          "hint": "lässt."
+        },
+        {
+          "kind": "mc",
+          "q": "I let the patient sleep.",
+          "qEn": "ich lasse.",
+          "options": ["Ich lasse den Patienten schlafen.", "Ich lässt den Patienten schlafen.", "Ich lasse ihn zu schlafen."],
+          "answer": 0,
+          "why": "ich lasse. Not lässt. No zu.",
+          "hint": "lasse."
+        },
+        {
+          "kind": "mc",
+          "q": "Not the future. Let him sleep.",
+          "qEn": "lassen, not wird.",
+          "options": ["Wir lassen den Patienten schlafen.", "Der Patient wird schlafen.", "Wir lassen ihn zu schlafen."],
+          "answer": 0,
+          "why": "lassen plus schlafen lets him sleep. Der Patient wird schlafen is Futur I, chapter 59, and stays correct. No zu.",
+          "hint": "lassen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Leben und leben lassen",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Wir lassen den Patienten schlafen.", "en": "We let the patient sleep." },
+        { "de": "Wir lassen das Blut abnehmen.", "en": "We have the blood taken." },
+        { "de": "Sie lässt das Blut abnehmen.", "en": "She has the blood taken." },
+        { "de": "Wir lassen die Wunde reinigen.", "en": "We have the wound cleaned." }
+      ],
+      "messages": [
+        "Bare infinitive at the end. Let: den Patienten schlafen. Have done: das Blut abnehmen. No zu.",
+        "du lässt. She lässt. ihr lasst. Formal Sie lassen. Lassen Sie is the request. den Patienten, not den Patient.",
+        "Sehr gut. Wir lassen den Patienten schlafen. Wir lassen das Blut abnehmen. Sie lässt das Blut abnehmen.",
+        "Ausgezeichnet. You can let the patient sleep and have the blood taken."
+      ]
+    }
+  ]
+}
