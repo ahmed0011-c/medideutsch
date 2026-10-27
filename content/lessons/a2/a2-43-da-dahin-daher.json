@@ -1,0 +1,1067 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "a2-43-da-dahin-daher",
+  "level": "A2",
+  "unit": "Kapitel 43",
+  "chapter": 43,
+  "chapters": [43],
+  "title": "Ich bin da. Kommst du auch dahin?",
+  "subtitle": "Place adverbs",
+  "glossary": {
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🙋"
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal)",
+      "emoji": "👉"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "bin": {
+      "de": "sein → ich bin",
+      "pos": "form",
+      "en": "am",
+      "emoji": "📍"
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "📍"
+    },
+    "gehen": {
+      "de": "gehen → wir gehen",
+      "pos": "form",
+      "en": "we go",
+      "emoji": "🚶"
+    },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶"
+    },
+    "kommst": {
+      "de": "kommen → du kommst",
+      "pos": "form",
+      "en": "you come",
+      "emoji": "🚶"
+    },
+    "da": {
+      "de": "da",
+      "pos": "adverb",
+      "en": "there (location)",
+      "emoji": "📍",
+      "note": "Wo? No movement: Der Patient ist da. Ich bin da. One place-word, not weil."
+    },
+    "dahin": {
+      "de": "dahin",
+      "pos": "adverb",
+      "en": "to there",
+      "emoji": "➡️",
+      "note": "Wohin? One word: Wir gehen dahin. Not da hin."
+    },
+    "daher": {
+      "de": "daher",
+      "pos": "adverb",
+      "en": "from there",
+      "emoji": "↩️",
+      "note": "Woher? One word: Er kommt daher. Not deshalb, which means therefore."
+    },
+    "auch": {
+      "de": "auch",
+      "pos": "adverb",
+      "en": "also; too",
+      "emoji": "➕"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🔴"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🧑🏽",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative: der Patient. Accusative singular: den Patienten."
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer",
+      "note": "Wo? im Zimmer. Woher? aus dem Zimmer."
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen",
+      "note": "Wohin? zur Station."
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🗣️",
+      "article": "die",
+      "plural": "die Übergaben"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "the nurse's name",
+      "emoji": "🧑‍⚕️"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "There, to there, from there",
+      "learn": [
+        "da answers Wo? It is location, with no movement. Der Patient ist da. Ich bin da. The room is im Zimmer.",
+        "dahin answers Wohin? It is one word and means to that place. Wir gehen dahin. Kommst du auch dahin? The ward is zur Station.",
+        "daher answers Woher? It is one word and means from that place. Er kommt daher. The room he left is aus dem Zimmer. daher is not deshalb.",
+        "The adverb can stand in position 1. Then the verb is position 2: Da ist der Patient. Dahin gehen wir. Daher kommt er."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🧑🏽", "glossaryKey": "patient" },
+        { "de": "Zimmer", "article": "das", "plural": "die Zimmer", "en": "room", "emoji": "🚪", "glossaryKey": "zimmer" },
+        { "de": "Station", "article": "die", "plural": "die Stationen", "en": "ward", "emoji": "🏥", "glossaryKey": "station" },
+        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "image": { "type": "svg", "id": "bed" }, "glossaryKey": "bett" }
+      ],
+      "text": {
+        "title": "Ich bin da",
+        "de": "Ich bin da. Der Patient ist da. Wir gehen dahin. Er kommt daher. Kommst du auch dahin?",
+        "en": "I am there. The patient is there. We go there. He comes from there. Are you coming there too?"
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Wo, wohin, woher",
+      "practice": "choose",
+      "heroTitle": "Ich bin da",
+      "heroImage": "bed",
+      "story": [
+        "<b>da</b>, <b>dahin</b> and <b>daher</b> point at a place you already know. They do not take an article. da in this chapter is the place-word there. It does not send a verb to the end.",
+        "<b>Wo?</b> Location, no movement. im Zimmer → <b>da</b>. <b>Der Patient ist da. Ich bin da.</b> He stays there too: Er bleibt da. Not ist dahin.",
+        "<b>Wohin?</b> Movement to that place. zur Station → <b>dahin</b>, one word. <b>Wir gehen dahin. Kommst du auch dahin?</b> Not gehen da, and not da hin.",
+        "<b>Woher?</b> Movement from that place. aus dem Zimmer → <b>daher</b>, one word. <b>Er kommt daher.</b> Not kommt da. daher here is from there. <b>deshalb</b> means therefore, from chapter 41.",
+        "kommen takes both directions. Wohin kommt er? Er kommt dahin. Woher kommt er? Er kommt daher. The question decides.",
+        "Position 1 is open to the adverb. The verb stays position 2: <b>Da ist der Patient. Dahin gehen wir. Daher kommt er.</b>"
+      ],
+      "questionRule": "Wo? da. Wohin? dahin. Woher? daher. Each of dahin and daher is one word. daher is from there, not deshalb.",
+      "tables": [
+        {
+          "title": "da, dahin, daher",
+          "caption": "The question picks the adverb.",
+          "columns": ["Frage", "Satz"],
+          "rows": [
+            { "label": "da", "cells": ["Wo?", "Der Patient ist da."], "highlight": true },
+            { "label": "dahin", "cells": ["Wohin?", "Wir gehen dahin."], "highlight": true },
+            { "label": "daher", "cells": ["Woher?", "Er kommt daher."] }
+          ]
+        },
+        {
+          "title": "Statt der Ergänzung",
+          "caption": "The adverb stands in for the place you just named.",
+          "columns": ["Ort", "Adverb"],
+          "rows": [
+            { "label": "Zimmer", "cells": ["im Zimmer", "Der Patient ist da."], "highlight": true },
+            { "label": "Station", "cells": ["zur Station", "Wir gehen dahin."], "highlight": true },
+            { "label": "her", "cells": ["aus dem Zimmer", "Er kommt daher."] }
+          ]
+        },
+        {
+          "title": "Ein Wort, Position 1",
+          "caption": "dahin and daher do not split. The verb is still position 2.",
+          "columns": ["Vorn", "Nicht"],
+          "rows": [
+            { "label": "da", "cells": ["Da ist der Patient.", "Der Patient ist dahin."], "highlight": true },
+            { "label": "dahin", "cells": ["Dahin gehen wir.", "Wir gehen da hin."], "highlight": true },
+            { "label": "daher", "cells": ["Daher kommt er.", "Er kommt deshalb."] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four place traps",
+        "items": [
+          { "de": "Der Patient ist da.", "en": "Wo? Location.", "tone": "ok" },
+          { "de": "Der Patient ist dahin.", "en": "dahin is movement to a place.", "tone": "stop" },
+          { "de": "Wir gehen dahin.", "en": "Wohin? One word.", "tone": "ok" },
+          { "de": "Wir gehen da.", "en": "gehen needs a direction.", "tone": "stop" },
+          { "de": "Er kommt daher.", "en": "Woher? From the room.", "tone": "ok" },
+          { "de": "Er kommt deshalb.", "en": "deshalb means therefore, not from there.", "tone": "stop" },
+          { "de": "Kommst du auch dahin?", "en": "To that place, too.", "tone": "ok" },
+          { "de": "Kommst du auch da hin?", "en": "dahin is one word.", "tone": "stop" }
+        ],
+        "tip": "Wo da. Wohin dahin. Woher daher. daher is not deshalb."
+      },
+      "quizTitle": "Which place?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Wo ist der Patient? Im Zimmer.",
+          "qEn": "Location.",
+          "options": ["Der Patient ist da.", "Der Patient ist dahin.", "Der Patient ist daher."],
+          "answer": 0,
+          "why": "ist da.",
+          "hint": "da."
+        },
+        {
+          "kind": "mc",
+          "q": "Wohin gehen wir? Zur Station.",
+          "qEn": "To there.",
+          "options": ["Wir gehen dahin.", "Wir gehen da.", "Wir gehen daher."],
+          "answer": 0,
+          "why": "gehen dahin.",
+          "hint": "dahin."
+        },
+        {
+          "kind": "mc",
+          "q": "Woher kommt er? Aus dem Zimmer.",
+          "qEn": "From there, not to there.",
+          "options": ["Er kommt daher.", "Er kommt da.", "Er kommt dahin."],
+          "answer": 0,
+          "why": "kommt daher.",
+          "hint": "daher."
+        },
+        {
+          "kind": "mc",
+          "q": "I am there.",
+          "qEn": "Wo?",
+          "options": ["Ich bin da.", "Ich bin dahin.", "Ich bin daher."],
+          "answer": 0,
+          "why": "bin da.",
+          "hint": "da."
+        },
+        {
+          "kind": "mc",
+          "q": "Are you coming there too?",
+          "qEn": "Wohin?",
+          "options": ["Kommst du auch dahin?", "Kommst du auch da?", "Kommst du auch daher?"],
+          "answer": 0,
+          "why": "auch dahin.",
+          "hint": "dahin."
+        },
+        {
+          "kind": "mc",
+          "q": "He stays there. Wo?",
+          "qEn": "Location, like im Bett.",
+          "options": ["Er bleibt da.", "Er bleibt dahin.", "Er bleibt daher."],
+          "answer": 0,
+          "why": "bleibt da.",
+          "hint": "da."
+        }
+      ]
+    },
+    {
+      "id": "gap-adverb",
+      "label": "Gap",
+      "title": "da, dahin, or daher?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label is Wo, Wohin, or Woher. Location takes da. To the station takes dahin. From the room takes daher.",
+      "chips": [
+        { "w": "ist da", "hint": "Wo? der Patient." },
+        { "w": "bin da", "hint": "Wo? ich." },
+        { "w": "gehen dahin", "hint": "Wohin? wir." },
+        { "w": "auch dahin", "hint": "Wohin? the question." },
+        { "w": "kommt daher", "hint": "Woher? er." },
+        { "w": "Da ist", "hint": "Wo, position 1." },
+        { "w": "ist dahin", "hint": "not location." },
+        { "w": "gehen da", "hint": "not a direction." },
+        { "w": "kommt da", "hint": "not woher." }
+      ],
+      "items": [
+        {
+          "before": "Wo, Zimmer: Der Patient",
+          "after": ".",
+          "answer": "ist da",
+          "en": "The patient is there.",
+          "why": "ist da.",
+          "tip": "Location.",
+          "hint": "da."
+        },
+        {
+          "before": "Wo, ich: Ich",
+          "after": ".",
+          "answer": "bin da",
+          "en": "I am there.",
+          "why": "bin da.",
+          "tip": "Location.",
+          "hint": "da."
+        },
+        {
+          "before": "Wohin, Station: Wir",
+          "after": ".",
+          "answer": "gehen dahin",
+          "en": "We go there.",
+          "why": "gehen dahin.",
+          "tip": "To there.",
+          "hint": "dahin."
+        },
+        {
+          "before": "Wohin, Frage: Kommst du",
+          "after": "?",
+          "answer": "auch dahin",
+          "en": "Are you coming there too?",
+          "why": "auch dahin.",
+          "tip": "To there.",
+          "hint": "dahin."
+        },
+        {
+          "before": "Woher, Zimmer: Er",
+          "after": ".",
+          "answer": "kommt daher",
+          "en": "He comes from there.",
+          "why": "kommt daher.",
+          "tip": "From there.",
+          "hint": "daher."
+        },
+        {
+          "before": "Wo, vorn:",
+          "after": "der Patient.",
+          "answer": "Da ist",
+          "en": "The patient is there.",
+          "why": "Da ist der Patient.",
+          "tip": "da in position 1.",
+          "hint": "Da."
+        }
+      ]
+    },
+    {
+      "id": "match-ort",
+      "type": "compare",
+      "label": "Match",
+      "title": "Question and adverb",
+      "practice": "match",
+      "instructions": "Match the question to the adverb. From the room is daher, not deshalb.",
+      "items": [
+        {
+          "prompt": "Where is the patient? In the room.",
+          "options": [
+            { "emoji": "📍", "label": "Der Patient ist da.", "caption": "Wo?" },
+            { "emoji": "🚫", "label": "Der Patient ist dahin.", "caption": "dahin moves." },
+            { "emoji": "🚫", "label": "Der Patient ist daher.", "caption": "daher is from there." }
+          ],
+          "answer": 0,
+          "why": "ist da.",
+          "hint": "da."
+        },
+        {
+          "prompt": "Where are we going? To the ward.",
+          "options": [
+            { "emoji": "➡️", "label": "Wir gehen dahin.", "caption": "Wohin?" },
+            { "emoji": "🚫", "label": "Wir gehen da.", "caption": "da does not move." },
+            { "emoji": "🚫", "label": "Wir gehen daher.", "caption": "daher is from there." }
+          ],
+          "answer": 0,
+          "why": "gehen dahin.",
+          "hint": "dahin."
+        },
+        {
+          "prompt": "Where is he coming from? From the room.",
+          "options": [
+            { "emoji": "↩️", "label": "Er kommt daher.", "caption": "Woher?" },
+            { "emoji": "🚫", "label": "Er kommt da.", "caption": "da is location." },
+            { "emoji": "➡️", "label": "Er kommt dahin.", "caption": "That would be to there." }
+          ],
+          "answer": 0,
+          "why": "kommt daher.",
+          "hint": "daher."
+        },
+        {
+          "prompt": "I am there.",
+          "options": [
+            { "emoji": "📍", "label": "Ich bin da.", "caption": "Wo?" },
+            { "emoji": "🚫", "label": "Ich bin dahin.", "caption": "Not a direction." },
+            { "emoji": "🚫", "label": "Ich bin daher.", "caption": "Not from there." }
+          ],
+          "answer": 0,
+          "why": "bin da.",
+          "hint": "da."
+        },
+        {
+          "prompt": "Are you coming there too?",
+          "options": [
+            { "emoji": "➡️", "label": "Kommst du auch dahin?", "caption": "Wohin?" },
+            { "emoji": "🚫", "label": "Kommst du auch da?", "caption": "da is not the direction." },
+            { "emoji": "🚫", "label": "Kommst du auch daher?", "caption": "daher is from there." }
+          ],
+          "answer": 0,
+          "why": "auch dahin.",
+          "hint": "dahin."
+        },
+        {
+          "prompt": "From the room. Not therefore.",
+          "options": [
+            { "emoji": "↩️", "label": "daher", "caption": "Woher?" },
+            { "emoji": "➡️", "label": "deshalb", "caption": "Therefore." },
+            { "emoji": "➡️", "label": "dahin", "caption": "To there." }
+          ],
+          "answer": 0,
+          "why": "daher, not deshalb.",
+          "hint": "daher."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a wheelchair, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed in the room",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "rollstuhl",
+          "de": "Rollstuhl",
+          "article": "der",
+          "plural": "die Rollstühle",
+          "en": "the wheelchair for the trip",
+          "image": { "type": "svg", "id": "wheelchair" },
+          "hint": "der"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer on the ward",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart from the handover",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-ort",
+      "type": "builder",
+      "label": "Build",
+      "title": "Adverb in position 1 or after the verb",
+      "practice": "build",
+      "instructions": "Both orders are right when the verb stays in position 2. dahin and daher stay one word.",
+      "items": [
+        {
+          "tiles": ["Der", "Patient", "ist", "da"],
+          "answers": ["Der Patient ist da", "Da ist der Patient"],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "da",
+          "question": false,
+          "en": "The patient is there.",
+          "hint": "ist da, or Da ist.",
+          "feedback": {
+            "end": "da closes the plain order: Der Patient ist da.",
+            "fallback": "ist is position 2. Der Patient ist da. Or Da ist der Patient."
+          }
+        },
+        {
+          "tiles": ["Wir", "gehen", "dahin"],
+          "answers": ["Wir gehen dahin", "Dahin gehen wir"],
+          "punct": ".",
+          "modal": "gehen",
+          "inf": "dahin",
+          "question": false,
+          "en": "We go there.",
+          "hint": "gehen dahin.",
+          "feedback": {
+            "end": "dahin closes the plain order: Wir gehen dahin.",
+            "fallback": "gehen is position 2. Wir gehen dahin. Or Dahin gehen wir."
+          }
+        },
+        {
+          "tiles": ["Er", "kommt", "daher"],
+          "answers": ["Er kommt daher", "Daher kommt er"],
+          "punct": ".",
+          "modal": "kommt",
+          "inf": "daher",
+          "question": false,
+          "en": "He comes from there.",
+          "hint": "kommt daher.",
+          "feedback": {
+            "end": "daher closes the plain order: Er kommt daher.",
+            "fallback": "kommt is position 2. Er kommt daher. Or Daher kommt er."
+          }
+        },
+        {
+          "tiles": ["Kommst", "du", "auch", "dahin"],
+          "answers": ["Kommst du auch dahin", "Dahin kommst du auch", "Kommst du dahin auch"],
+          "punct": "?",
+          "modal": "Kommst",
+          "inf": "dahin",
+          "question": true,
+          "en": "Are you coming there too?",
+          "hint": "Kommst first, or Dahin first.",
+          "feedback": {
+            "end": "The plain question ends with dahin: Kommst du auch dahin?",
+            "fallback": "Kommst du auch dahin? Or Dahin kommst du auch?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-ort",
+      "label": "Rewrite",
+      "title": "One sentence",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished line. A question keeps the question mark.",
+      "chips": [
+        { "w": "Der Patient ist da", "hint": "Wo?" },
+        { "w": "Ich bin da", "hint": "Wo? ich." },
+        { "w": "Wir gehen dahin", "hint": "Wohin?" },
+        { "w": "Kommst du auch dahin", "hint": "the question." },
+        { "w": "Er kommt daher", "hint": "Woher?" },
+        { "w": "Daher kommt er", "hint": "Woher, position 1." }
+      ],
+      "items": [
+        {
+          "before": "Wo, Patient:",
+          "after": ".",
+          "answer": "Der Patient ist da",
+          "en": "The patient is there.",
+          "why": "ist da.",
+          "tip": "da.",
+          "hint": "da."
+        },
+        {
+          "before": "Wo, ich:",
+          "after": ".",
+          "answer": "Ich bin da",
+          "en": "I am there.",
+          "why": "bin da.",
+          "tip": "da.",
+          "hint": "da."
+        },
+        {
+          "before": "Wohin, Station:",
+          "after": ".",
+          "answer": "Wir gehen dahin",
+          "en": "We go there.",
+          "why": "gehen dahin.",
+          "tip": "dahin.",
+          "hint": "dahin."
+        },
+        {
+          "before": "Wohin, Frage:",
+          "after": "?",
+          "answer": "Kommst du auch dahin",
+          "en": "Are you coming there too?",
+          "why": "auch dahin.",
+          "tip": "dahin.",
+          "hint": "dahin."
+        },
+        {
+          "before": "Woher, Zimmer:",
+          "after": ".",
+          "answer": "Er kommt daher",
+          "en": "He comes from there.",
+          "why": "kommt daher.",
+          "tip": "daher.",
+          "hint": "daher."
+        },
+        {
+          "before": "Woher, vorn:",
+          "after": ".",
+          "answer": "Daher kommt er",
+          "en": "He comes from there.",
+          "why": "Daher kommt er.",
+          "tip": "Position 1.",
+          "hint": "Daher."
+        }
+      ]
+    },
+    {
+      "id": "error-ort",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line uses the wrong adverb, or it splits dahin. Choose the correction.",
+      "items": [
+        {
+          "clues": ["The patient is in the room.", "Wo?", "Der Patient ist dahin."],
+          "options": ["Der Patient ist da.", "Der Patient ist dahin.", "Der Patient geht da."],
+          "answer": 0,
+          "reveal": "Der Patient ist da.",
+          "hint": "da."
+        },
+        {
+          "clues": ["We are going to the ward.", "Wohin?", "Wir gehen da."],
+          "options": ["Wir gehen dahin.", "Wir gehen da.", "Wir gehen daher."],
+          "answer": 0,
+          "reveal": "Wir gehen dahin.",
+          "hint": "dahin."
+        },
+        {
+          "clues": ["He is coming from the room.", "Woher?", "Er kommt da."],
+          "options": ["Er kommt daher.", "Er kommt da.", "Er kommt dahin."],
+          "answer": 0,
+          "reveal": "Er kommt daher.",
+          "hint": "daher."
+        },
+        {
+          "clues": ["Are you coming to that place too?", "Wohin?", "Kommst du auch da?"],
+          "options": ["Kommst du auch dahin?", "Kommst du auch da?", "Kommst du auch daher?"],
+          "answer": 0,
+          "reveal": "Kommst du auch dahin?",
+          "hint": "dahin."
+        },
+        {
+          "clues": ["To there is one word.", "Wohin?", "Wir gehen da hin."],
+          "options": ["Wir gehen dahin.", "Wir gehen da hin.", "Wir gehen da her."],
+          "answer": 0,
+          "reveal": "Wir gehen dahin.",
+          "hint": "dahin."
+        },
+        {
+          "clues": ["From the room, not therefore.", "Woher?", "Er kommt deshalb."],
+          "options": ["Er kommt daher.", "Er kommt deshalb.", "Er kommt dahin."],
+          "answer": 0,
+          "reveal": "Er kommt daher.",
+          "hint": "daher."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ort",
+      "label": "Dialogue",
+      "title": "At the door",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the speaker and the question. Wo takes da. Wohin takes dahin. Woher takes daher.",
+      "chips": [
+        { "w": "ist da", "hint": "Wo? der Patient." },
+        { "w": "bin da", "hint": "Wo? ich." },
+        { "w": "gehen dahin", "hint": "Wohin? wir." },
+        { "w": "auch dahin", "hint": "the question." },
+        { "w": "komme daher", "hint": "Woher? ich." },
+        { "w": "Da ist", "hint": "position 1." }
+      ],
+      "items": [
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, Zimmer: Der Patient",
+          "after": ".",
+          "answer": "ist da",
+          "en": "The patient is there.",
+          "why": "ist da.",
+          "tip": "Location.",
+          "hint": "da."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, ich: Ich",
+          "after": ".",
+          "answer": "bin da",
+          "en": "I am there.",
+          "why": "bin da.",
+          "tip": "Location.",
+          "hint": "da."
+        },
+        {
+          "who": "Arzt",
+          "before": "Arzt, Station: Wir",
+          "after": ".",
+          "answer": "gehen dahin",
+          "en": "We go there.",
+          "why": "gehen dahin.",
+          "tip": "To the ward.",
+          "hint": "dahin."
+        },
+        {
+          "who": "Arzt",
+          "before": "Arzt, Frage: Kommst du",
+          "after": "?",
+          "answer": "auch dahin",
+          "en": "Are you coming there too?",
+          "why": "auch dahin.",
+          "tip": "To there.",
+          "hint": "dahin."
+        },
+        {
+          "who": "Patient",
+          "before": "Patient, Zimmer: Ich",
+          "after": ".",
+          "answer": "komme daher",
+          "en": "I come from there.",
+          "why": "komme daher.",
+          "tip": "From the room.",
+          "hint": "daher."
+        },
+        {
+          "who": "Arzt",
+          "before": "Arzt, Wo, vorn:",
+          "after": "der Patient.",
+          "answer": "Da ist",
+          "en": "The patient is there.",
+          "why": "Da ist der Patient.",
+          "tip": "da first.",
+          "hint": "Da."
+        }
+      ]
+    },
+    {
+      "id": "gap-frage",
+      "label": "Replace",
+      "title": "Instead of the place phrase",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Replace the place. im Zimmer becomes da. zur Station becomes dahin. aus dem Zimmer becomes daher.",
+      "chips": [
+        { "w": "da", "hint": "Wo?" },
+        { "w": "dahin", "hint": "Wohin?" },
+        { "w": "daher", "hint": "Woher?" },
+        { "w": "bin da", "hint": "Wo? ich." },
+        { "w": "Kommst du auch dahin", "hint": "the question." },
+        { "w": "Daher kommt er", "hint": "position 1." },
+        { "w": "deshalb", "hint": "therefore, not from there." },
+        { "w": "da hin", "hint": "not two words." }
+      ],
+      "items": [
+        {
+          "before": "Wo, im Zimmer: Der Patient ist",
+          "after": ".",
+          "answer": "da",
+          "en": "The patient is there.",
+          "why": "da replaces im Zimmer.",
+          "tip": "Location.",
+          "hint": "da."
+        },
+        {
+          "before": "Wohin, zur Station: Wir gehen",
+          "after": ".",
+          "answer": "dahin",
+          "en": "We go there.",
+          "why": "dahin replaces zur Station.",
+          "tip": "One word.",
+          "hint": "dahin."
+        },
+        {
+          "before": "Woher, aus dem Zimmer: Er kommt",
+          "after": ".",
+          "answer": "daher",
+          "en": "He comes from there.",
+          "why": "daher replaces aus dem Zimmer.",
+          "tip": "Not deshalb.",
+          "hint": "daher."
+        },
+        {
+          "before": "Wo, nicht wohin: Ich",
+          "after": ".",
+          "answer": "bin da",
+          "en": "I am there.",
+          "why": "bin da.",
+          "tip": "Location.",
+          "hint": "da."
+        },
+        {
+          "before": "Wohin, Frage:",
+          "after": "?",
+          "answer": "Kommst du auch dahin",
+          "en": "Are you coming there too?",
+          "why": "auch dahin.",
+          "tip": "To there.",
+          "hint": "dahin."
+        },
+        {
+          "before": "Woher, vorn:",
+          "after": ".",
+          "answer": "Daher kommt er",
+          "en": "He comes from there.",
+          "why": "Daher kommt er.",
+          "tip": "Position 1.",
+          "hint": "Daher."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The handover",
+      "practice": "reading",
+      "instructions": "Read the four lines. Each line is a different place question. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Übergabe",
+        "title": "Die Übergabe",
+        "paragraphs": [
+          "Der Patient ist da. Wir gehen dahin.",
+          "Er kommt daher. Ich bin da."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wo ist der Patient?",
+          "qEn": "Location.",
+          "options": ["Er ist da.", "Er geht dahin.", "Er kommt daher."],
+          "answer": 0,
+          "why": "Er ist da.",
+          "hint": "da."
+        },
+        {
+          "kind": "mc",
+          "q": "Wohin gehen wir?",
+          "qEn": "To there.",
+          "options": ["Wir gehen dahin.", "Wir sind da.", "Er kommt daher."],
+          "answer": 0,
+          "why": "Wir gehen dahin.",
+          "hint": "dahin."
+        },
+        {
+          "kind": "mc",
+          "q": "Woher kommt er?",
+          "qEn": "From there.",
+          "options": ["Er kommt daher.", "Er kommt dahin.", "Er ist da."],
+          "answer": 0,
+          "why": "Er kommt daher.",
+          "hint": "daher."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo bin ich?",
+          "qEn": "Location.",
+          "options": ["Ich bin da.", "Ich gehe dahin.", "Ich komme daher."],
+          "answer": 0,
+          "why": "Ich bin da.",
+          "hint": "bin."
+        }
+      ]
+    },
+    {
+      "id": "writing-ort",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four place lines",
+      "practice": "writing",
+      "instructions": "Write four lines. da stays put. dahin is to there. daher is from there.",
+      "prompt": "The patient is there. We go there. He comes from there. Are you coming there too?",
+      "bullets": ["ist da", "gehen dahin", "kommt daher", "auch dahin"],
+      "model": "Der Patient ist da. Wir gehen dahin. Er kommt daher. Kommst du auch dahin?",
+      "modelEn": "The patient is there. We go there. He comes from there. Are you coming there too?",
+      "hint": "ist da. gehen dahin. kommt daher. auch dahin.",
+      "checklist": [
+        { "id": "d", "label": "ist da", "keywords": ["ist da"] },
+        { "id": "h", "label": "gehen dahin", "keywords": ["gehen dahin"] },
+        { "id": "r", "label": "kommt daher", "keywords": ["kommt daher"] },
+        { "id": "a", "label": "auch dahin", "keywords": ["auch dahin"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Ich bin da",
+      "heroImage": "wheelchair",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Wo? da. Wohin? dahin. Woher? daher. daher is from there, not deshalb.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Wo ist der Patient?",
+          "qEn": "In the room.",
+          "options": ["Der Patient ist da.", "Der Patient ist dahin.", "Der Patient ist daher."],
+          "answer": 0,
+          "why": "ist da.",
+          "hint": "da."
+        },
+        {
+          "kind": "mc",
+          "q": "Wohin gehen wir?",
+          "qEn": "To the ward.",
+          "options": ["Wir gehen dahin.", "Wir gehen da.", "Wir gehen daher."],
+          "answer": 0,
+          "why": "gehen dahin.",
+          "hint": "dahin."
+        },
+        {
+          "kind": "mc",
+          "q": "Woher kommt er?",
+          "qEn": "From the room, not to there.",
+          "options": ["Er kommt daher.", "Er kommt da.", "Er kommt dahin."],
+          "answer": 0,
+          "why": "kommt daher.",
+          "hint": "daher."
+        },
+        {
+          "kind": "mc",
+          "q": "I am there.",
+          "qEn": "Wo?",
+          "options": ["Ich bin da.", "Ich bin dahin.", "Ich bin daher."],
+          "answer": 0,
+          "why": "bin da.",
+          "hint": "da."
+        },
+        {
+          "kind": "mc",
+          "q": "Are you coming there too?",
+          "qEn": "Wohin?",
+          "options": ["Kommst du auch dahin?", "Kommst du auch da?", "Kommst du auch daher?"],
+          "answer": 0,
+          "why": "auch dahin.",
+          "hint": "dahin."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient is there. The adverb is first.",
+          "qEn": "Wo?",
+          "options": ["Da ist der Patient.", "Dahin ist der Patient.", "Der Patient ist dahin."],
+          "answer": 0,
+          "why": "Da ist der Patient.",
+          "hint": "Da ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? Which word?",
+          "qEn": "Location.",
+          "options": ["da", "dahin", "daher"],
+          "answer": 0,
+          "why": "da.",
+          "hint": "da."
+        },
+        {
+          "kind": "mc",
+          "q": "Wohin? Which word?",
+          "qEn": "To there.",
+          "options": ["dahin", "da", "daher"],
+          "answer": 0,
+          "why": "dahin.",
+          "hint": "dahin."
+        },
+        {
+          "kind": "mc",
+          "q": "Woher? Which word?",
+          "qEn": "From there, not to there.",
+          "options": ["daher", "dahin", "da"],
+          "answer": 0,
+          "why": "daher.",
+          "hint": "daher."
+        },
+        {
+          "kind": "mc",
+          "q": "From the room. Not therefore. Which word?",
+          "qEn": "daher, not deshalb.",
+          "options": ["daher", "deshalb", "dahin"],
+          "answer": 0,
+          "why": "daher.",
+          "hint": "daher."
+        },
+        {
+          "kind": "mc",
+          "q": "To there, one word.",
+          "qEn": "Not two words.",
+          "options": ["dahin", "da hin", "daher"],
+          "answer": 0,
+          "why": "dahin.",
+          "hint": "dahin."
+        },
+        {
+          "kind": "mc",
+          "q": "From there, one word. Not therefore.",
+          "qEn": "daher, not deshalb.",
+          "options": ["daher", "da her", "deshalb"],
+          "answer": 0,
+          "why": "daher.",
+          "hint": "daher."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Ich bin da",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Der Patient ist da.", "en": "The patient is there." },
+        { "de": "Wir gehen dahin.", "en": "We go there." },
+        { "de": "Er kommt daher.", "en": "He comes from there." },
+        { "de": "Kommst du auch dahin?", "en": "Are you coming there too?" }
+      ],
+      "messages": [
+        "Look again at wo, wohin and woher.",
+        "da stays. dahin goes to that place. daher comes from that place.",
+        "Sehr gut. Ich bin da.",
+        "Ausgezeichnet. You can point at the room and the ward."
+      ]
+    }
+  ]
+}

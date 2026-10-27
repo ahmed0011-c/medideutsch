@@ -141,6 +141,11 @@ describe("catalog", () => {
     expect(byNumber.get(36)).toBe("a2-36-adjektive");
     expect(byNumber.get(37)).toBe("a2-37-adjektive-dativ");
     expect(byNumber.get(38)).toBe("a2-38-komparativ");
+    expect(byNumber.get(41)).toBe("a2-41-konnektoren-pos1");
+    expect(byNumber.get(42)).toBe("a2-42-weil-dass-wenn");
+    expect(byNumber.get(43)).toBe("a2-43-da-dahin-daher");
+    expect(byNumber.get(44)).toBe("a2-44-partikeln");
+    expect(byNumber.get(46)).toBe("a2-46-wortbildung");
     expect(byNumber.get(5)).toBe(byNumber.get(6));
     expect(byNumber.get(16)).toBe(byNumber.get(17));
   });

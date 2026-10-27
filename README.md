@@ -52,8 +52,13 @@ npm run build
 | 8 | Imperative |
 | 16–17 | Cases: Nominativ, Akkusativ, Dativ, Genitiv |
 | 40 | Connectors in position 0 (und, aber, oder, denn, sondern) |
+| 41 | Connectors in position 1 (deshalb, sonst, dann, danach) |
+| 42 | Subordinate clauses (weil, dass, wenn) |
+| 43 | Place adverbs (da, dahin, daher) |
+| 44 | Particles (denn, mal, doch) |
+| 46 | Word formation (-chen, -lein, -er, -in, -ung) |
 
-The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29 and 34–38 and 40. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
+The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29, 34–38, 40–44 and 46. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
 
 **Wortbank** keeps the words you star from a grammar popup or a comic popup. They stay grouped by the lesson you saved them in. Open Wortbank in the header to filter, mark a word Schwer, review it, or open a separable verb.
 

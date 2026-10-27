@@ -1,0 +1,1153 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "a2-46-wortbildung",
+  "level": "A2",
+  "unit": "Kapitel 46",
+  "chapter": 46,
+  "chapters": [46],
+  "title": "Die Pflegerin und die Untersuchung",
+  "subtitle": "Word formation",
+  "glossary": {
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🔴"
+    },
+    "pflegerin": {
+      "de": "Pflegerin",
+      "pos": "noun",
+      "en": "nurse (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Pflegerinnen",
+      "note": "der Pfleger + -in. The -er stays. Not Pflegin."
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "untersuchung": {
+      "de": "Untersuchung",
+      "pos": "noun",
+      "en": "examination",
+      "emoji": "🔍",
+      "article": "die",
+      "plural": "die Untersuchungen",
+      "note": "untersuchen → die Untersuchung. Suffix -ung is feminine."
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢"
+    },
+    "fläschchen": {
+      "de": "Fläschchen",
+      "pos": "noun",
+      "en": "little bottle",
+      "emoji": "🍼",
+      "article": "das",
+      "plural": "die Fläschchen",
+      "note": "die Flasche → das Fläschchen. -chen is neuter, with ä. One: das. Several: die Fläschchen."
+    },
+    "ist": {
+      "de": "sein → es ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🔵"
+    },
+    "klein": {
+      "de": "klein",
+      "pos": "adjective",
+      "en": "small",
+      "emoji": "🔹"
+    },
+    "büchlein": {
+      "de": "Büchlein",
+      "pos": "noun",
+      "en": "little book",
+      "emoji": "📖",
+      "article": "das",
+      "plural": "die Büchlein",
+      "note": "das Buch → das Büchlein. -lein is neuter, with ü."
+    },
+    "liegt": {
+      "de": "liegen → es liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🛏️"
+    },
+    "im": {
+      "de": "im (= in dem)",
+      "pos": "preposition",
+      "en": "in the",
+      "emoji": "📥",
+      "note": "im Bett and im Bettchen are location."
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)",
+      "emoji": "🔵"
+    },
+    "pfleger": {
+      "de": "Pfleger",
+      "pos": "noun",
+      "en": "nurse (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Pfleger",
+      "note": "pflegen → der Pfleger. Suffix -er is the man who does the job."
+    },
+    "hilft": {
+      "de": "helfen → er hilft",
+      "pos": "form",
+      "en": "helps",
+      "emoji": "🤝"
+    },
+    "kommt": {
+      "de": "kommen → sie kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶"
+    },
+    "beginnt": {
+      "de": "beginnen → sie beginnt",
+      "pos": "form",
+      "en": "starts",
+      "emoji": "▶️"
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🗣️",
+      "article": "die",
+      "plural": "die Übergaben"
+    },
+    "mädchen": {
+      "de": "Mädchen",
+      "pos": "noun",
+      "en": "girl",
+      "emoji": "👧",
+      "article": "das",
+      "plural": "die Mädchen",
+      "note": "-chen keeps the article das, even for a girl. Plural die Mädchen, with no extra ending. Not Mädchens."
+    },
+    "hat": {
+      "de": "haben → sie hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🤲"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it; she, for das Mädchen",
+      "emoji": "🟢",
+      "note": "das Mädchen is neuter, so es is the right pronoun."
+    },
+    "bekommt": {
+      "de": "bekommen → sie bekommt",
+      "pos": "form",
+      "en": "receives",
+      "emoji": "🤲"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (neuter or masculine)",
+      "emoji": "🟢",
+      "note": "ein Fläschchen: neuter, because -chen is das."
+    },
+    "kindlein": {
+      "de": "Kindlein",
+      "pos": "noun",
+      "en": "little child",
+      "emoji": "👶",
+      "article": "das",
+      "plural": "die Kindlein",
+      "note": "das Kind → das Kindlein. -lein, no umlaut on i."
+    },
+    "bettchen": {
+      "de": "Bettchen",
+      "pos": "noun",
+      "en": "little bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Bettchen",
+      "note": "das Bett → das Bettchen. e takes no umlaut. Not Bättchen."
+    },
+    "macht": {
+      "de": "machen → sie macht",
+      "pos": "form",
+      "en": "does",
+      "emoji": "✅"
+    },
+    "misst": {
+      "de": "messen → er misst",
+      "pos": "form",
+      "en": "measures",
+      "emoji": "📏"
+    },
+    "atmung": {
+      "de": "Atmung",
+      "pos": "noun",
+      "en": "breathing",
+      "emoji": "💨",
+      "article": "die",
+      "plural": "die Atmungen",
+      "note": "atmen → die Atmung. Suffix -ung."
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Ärztinnen",
+      "note": "der Arzt → die Ärztin. Umlaut ä. Not Arztin."
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "the nurse's name",
+      "emoji": "🧑‍⚕️"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Five endings, five articles",
+      "learn": [
+        "-chen and -lein make a smaller form, and the new noun is das. die Flasche → das Fläschchen. das Buch → das Büchlein. The vowel often takes an umlaut.",
+        "-er is the man who does the job: pflegen → der Pfleger. -in is the woman: die Pflegerin. der Arzt → die Ärztin, with ä. der Patient → die Patientin, with no umlaut.",
+        "-ung is the feminine action: untersuchen → die Untersuchung. behandeln → die Behandlung. messen → die Messung. der Messer is a knife.",
+        "das Mädchen stays das because of -chen. Tabletten is only the plural of Tablette. It is not one of these five suffixes."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Fläschchen", "article": "das", "plural": "die Fläschchen", "en": "little bottle", "emoji": "🍼", "glossaryKey": "fläschchen" },
+        { "de": "Pflegerin", "article": "die", "plural": "die Pflegerinnen", "en": "nurse (female)", "emoji": "👩‍⚕️", "glossaryKey": "pflegerin" },
+        { "de": "Untersuchung", "article": "die", "plural": "die Untersuchungen", "en": "examination", "emoji": "🔍", "glossaryKey": "untersuchung" },
+        { "de": "Bettchen", "article": "das", "plural": "die Bettchen", "en": "little bed", "emoji": "🛏️", "image": { "type": "svg", "id": "bed" }, "glossaryKey": "bettchen" }
+      ],
+      "text": {
+        "title": "Die Pflegerin und die Untersuchung",
+        "de": "Das Fläschchen ist klein. Das Büchlein liegt im Bett. Der Pfleger hilft. Die Pflegerin kommt. Die Untersuchung beginnt.",
+        "en": "The little bottle is small. The little book is on the bed. The male nurse helps. The female nurse comes. The examination starts."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "-chen, -lein, -er, -in, -ung",
+      "practice": "choose",
+      "heroTitle": "Die Pflegerin und die Untersuchung",
+      "heroImage": "bed",
+      "story": [
+        "The ending chooses the article. <b>-chen</b> and <b>-lein</b> are a smaller or gentler form, and they are neuter. die Flasche → <b>das Fläschchen</b>. das Buch → <b>das Büchlein</b>. a, o, u and au often take an umlaut. The final -e of Flasche drops. Bett has e, so there is no umlaut: <b>das Bettchen</b>, not Bättchen. die Hand → das Händchen.",
+        "-lein is the same idea as -chen, only more southern or a little older. Both are correct. Use the ending the line asks for. Do not trade them.",
+        "<b>das Mädchen</b> is neuter because of -chen. One girl: Das Mädchen hat Fieber. The pronoun is es. Several girls: die Mädchen. Not die Mädchens.",
+        "<b>-er</b> is the man who does the verb. pflegen → <b>der Pfleger</b>. <b>-in</b> makes the woman, and -er stays: <b>die Pflegerin</b>. Not die Pflegin. der Arzt → <b>die Ärztin</b>, with ä. Not die Arztin. der Patient → die Patientin, and that one has no umlaut.",
+        "<b>-ung</b> is the action, and it is feminine. untersuchen → <b>die Untersuchung</b>. behandeln → <b>die Behandlung</b>, not Behandelung. messen → <b>die Messung</b>. der Messer is a knife. das Messing is brass. atmen → die Atmung.",
+        "Plural: die Untersuchungen, die Pflegerinnen. A diminutive usually adds nothing: die Fläschchen, die Mädchen. Tabletten is only the plural of die Tablette. It is not -chen, -lein, -er, -in or -ung."
+      ],
+      "questionRule": "-chen and -lein take das. -er takes der. -in and -ung take die. Keep the umlaut where the pair has one.",
+      "tables": [
+        {
+          "title": "Fünf Endungen",
+          "caption": "The ending tells you the article.",
+          "columns": ["Artikel", "Beispiel"],
+          "rows": [
+            { "label": "-chen", "cells": ["das", "das Fläschchen"], "highlight": true },
+            { "label": "-lein", "cells": ["das", "das Büchlein"], "highlight": true },
+            { "label": "-er", "cells": ["der", "der Pfleger"] },
+            { "label": "-in", "cells": ["die", "die Pflegerin"], "highlight": true },
+            { "label": "-ung", "cells": ["die", "die Untersuchung"], "highlight": true }
+          ]
+        },
+        {
+          "title": "Umlaut",
+          "caption": "a, o, u and au often change. e and i do not.",
+          "columns": ["Basis", "Neu"],
+          "rows": [
+            { "label": "Flasche", "cells": ["die Flasche", "das Fläschchen"], "highlight": true },
+            { "label": "Buch", "cells": ["das Buch", "das Büchlein"], "highlight": true },
+            { "label": "Arzt", "cells": ["der Arzt", "die Ärztin"], "highlight": true },
+            { "label": "Bett", "cells": ["das Bett", "das Bettchen"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "One diminutive is das. Ärztin keeps the umlaut. Behandlung drops the extra e.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "chen", "cells": ["Die Fläschchen ist klein.", "Das Fläschchen ist klein."] },
+            { "label": "in", "cells": ["Die Arztin kommt.", "Die Ärztin kommt."] },
+            { "label": "ung", "cells": ["Die Behandelung beginnt.", "Die Behandlung beginnt."] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four word-formation traps",
+        "items": [
+          { "de": "Das Fläschchen ist klein.", "en": "One -chen noun is das.", "tone": "ok" },
+          { "de": "Die Fläschchen ist klein.", "en": "die with ist does not fit one Fläschchen.", "tone": "stop" },
+          { "de": "Die Pflegerin kommt.", "en": "-er stays, then -in.", "tone": "ok" },
+          { "de": "Die Pflegin kommt.", "en": "Pflegin drops the -er.", "tone": "stop" },
+          { "de": "Die Ärztin kommt.", "en": "Arzt takes ä before -in.", "tone": "ok" },
+          { "de": "Die Arztin kommt.", "en": "Arztin has no umlaut.", "tone": "stop" },
+          { "de": "Die Messung beginnt.", "en": "messen → die Messung.", "tone": "ok" },
+          { "de": "Der Messer beginnt.", "en": "Der Messer is a knife, not the measurement.", "tone": "stop" }
+        ],
+        "tip": "-chen and -lein take das. -er takes der. -in and -ung take die."
+      },
+      "quizTitle": "Which form?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "One small bottle. Suffix -chen.",
+          "qEn": "Neuter, with ä.",
+          "options": ["das Fläschchen", "die Fläschchen", "der Fläschchen"],
+          "answer": 0,
+          "why": "das Fläschchen.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "One small book. Suffix -lein.",
+          "qEn": "Neuter, with ü.",
+          "options": ["das Büchlein", "das Buchlein", "die Büchlein"],
+          "answer": 0,
+          "why": "das Büchlein.",
+          "hint": "ü."
+        },
+        {
+          "kind": "mc",
+          "q": "One man who nurses. Suffix -er.",
+          "qEn": "Masculine person.",
+          "options": ["der Pfleger", "die Pfleger", "das Pfleger"],
+          "answer": 0,
+          "why": "der Pfleger.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "One woman who nurses, as the subject. Suffix -in.",
+          "qEn": "Keep -er.",
+          "options": ["die Pflegerin", "die Pflegin", "das Pflegerin"],
+          "answer": 0,
+          "why": "die Pflegerin.",
+          "hint": "Pflegerin."
+        },
+        {
+          "kind": "mc",
+          "q": "The examination, from untersuchen. Suffix -ung.",
+          "qEn": "Feminine action.",
+          "options": ["die Untersuchung", "das Untersuchung", "die Untersuching"],
+          "answer": 0,
+          "why": "die Untersuchung.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "One female doctor, as the subject.",
+          "qEn": "Umlaut, then -in.",
+          "options": ["die Ärztin", "die Arztin", "das Ärztin"],
+          "answer": 0,
+          "why": "die Ärztin.",
+          "hint": "ä."
+        }
+      ]
+    },
+    {
+      "id": "gap-endung",
+      "label": "Gap",
+      "title": "Which ending?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the suffix. -chen and -lein need das in the label. -er needs der. -in and -ung need die.",
+      "chips": [
+        { "w": "Fläschchen", "hint": "-chen, with ä." },
+        { "w": "Büchlein", "hint": "-lein, with ü." },
+        { "w": "Pfleger", "hint": "the man." },
+        { "w": "Pflegerin", "hint": "the woman, -er stays." },
+        { "w": "Untersuchung", "hint": "-ung." },
+        { "w": "Ärztin", "hint": "umlaut ä." },
+        { "w": "Arztin", "hint": "missing umlaut." },
+        { "w": "Messing", "hint": "brass, not the measurement." },
+        { "w": "Behandelung", "hint": "not the treatment." }
+      ],
+      "items": [
+        {
+          "before": "-chen, klein: Das",
+          "after": "ist klein.",
+          "answer": "Fläschchen",
+          "en": "The little bottle is small.",
+          "why": "Das Fläschchen ist klein.",
+          "tip": "Flasche, then ä, then -chen.",
+          "hint": "chen."
+        },
+        {
+          "before": "-lein, Buch: Das",
+          "after": "liegt im Bett.",
+          "answer": "Büchlein",
+          "en": "The little book is on the bed.",
+          "why": "Das Büchlein liegt im Bett.",
+          "tip": "Buch takes ü, then -lein.",
+          "hint": "lein."
+        },
+        {
+          "before": "-er, Mann: Der",
+          "after": "hilft.",
+          "answer": "Pfleger",
+          "en": "The male nurse helps.",
+          "why": "Der Pfleger hilft.",
+          "tip": "pflegen → Pfleger.",
+          "hint": "er."
+        },
+        {
+          "before": "-in, Frau: Die",
+          "after": "kommt.",
+          "answer": "Pflegerin",
+          "en": "The female nurse comes.",
+          "why": "Die Pflegerin kommt.",
+          "tip": "Pfleger + in.",
+          "hint": "in."
+        },
+        {
+          "before": "-ung, untersuchen: Die",
+          "after": "beginnt.",
+          "answer": "Untersuchung",
+          "en": "The examination starts.",
+          "why": "Die Untersuchung beginnt.",
+          "tip": "untersuchen → Untersuchung.",
+          "hint": "ung."
+        },
+        {
+          "before": "Arzt, Frau, -in: Die",
+          "after": "kommt zur Visite.",
+          "answer": "Ärztin",
+          "en": "The female doctor comes on the round.",
+          "why": "Die Ärztin kommt.",
+          "tip": "Arzt → Ärztin.",
+          "hint": "ä."
+        }
+      ]
+    },
+    {
+      "id": "match-endung",
+      "type": "compare",
+      "label": "Match",
+      "title": "Ending and article",
+      "practice": "match",
+      "instructions": "Match the one form the label asks for. A plural article is a different job.",
+      "items": [
+        {
+          "prompt": "One small bottle. Suffix -chen.",
+          "options": [
+            { "emoji": "🍼", "label": "das Fläschchen", "caption": "Neuter, with ä." },
+            { "emoji": "🚫", "label": "die Fläschchen", "caption": "die is several, or the wrong article for one." },
+            { "emoji": "🚫", "label": "der Fläschchen", "caption": "-chen is not masculine." }
+          ],
+          "answer": 0,
+          "why": "das Fläschchen.",
+          "hint": "das."
+        },
+        {
+          "prompt": "One small book. Suffix -lein.",
+          "options": [
+            { "emoji": "📖", "label": "das Büchlein", "caption": "Neuter, with ü." },
+            { "emoji": "🚫", "label": "das Buchlein", "caption": "The umlaut is missing." },
+            { "emoji": "🚫", "label": "die Büchlein", "caption": "One -lein noun is das." }
+          ],
+          "answer": 0,
+          "why": "das Büchlein.",
+          "hint": "ü."
+        },
+        {
+          "prompt": "One man who nurses. Suffix -er.",
+          "options": [
+            { "emoji": "👨‍⚕️", "label": "der Pfleger", "caption": "The man." },
+            { "emoji": "🚫", "label": "die Pfleger", "caption": "die Pfleger is more than one." },
+            { "emoji": "🚫", "label": "das Pfleger", "caption": "-er for a person is der." }
+          ],
+          "answer": 0,
+          "why": "der Pfleger.",
+          "hint": "der."
+        },
+        {
+          "prompt": "One woman who nurses, as the subject.",
+          "options": [
+            { "emoji": "👩‍⚕️", "label": "die Pflegerin", "caption": "-er stays." },
+            { "emoji": "🚫", "label": "die Pflegin", "caption": "The -er is missing." },
+            { "emoji": "🚫", "label": "das Pflegerin", "caption": "-in is die." }
+          ],
+          "answer": 0,
+          "why": "die Pflegerin.",
+          "hint": "Pflegerin."
+        },
+        {
+          "prompt": "The examination. Suffix -ung.",
+          "options": [
+            { "emoji": "🔍", "label": "die Untersuchung", "caption": "Feminine action." },
+            { "emoji": "🚫", "label": "das Untersuchung", "caption": "-ung is not das." },
+            { "emoji": "🚫", "label": "die Untersuching", "caption": "The suffix is -ung." }
+          ],
+          "answer": 0,
+          "why": "die Untersuchung.",
+          "hint": "ung."
+        },
+        {
+          "prompt": "One female doctor, as the subject.",
+          "options": [
+            { "emoji": "👩‍⚕️", "label": "die Ärztin", "caption": "Umlaut ä." },
+            { "emoji": "🚫", "label": "die Arztin", "caption": "No umlaut." },
+            { "emoji": "🚫", "label": "das Ärztin", "caption": "-in is die." }
+          ],
+          "answer": 0,
+          "why": "die Ärztin.",
+          "hint": "ä."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed; the small form is das Bettchen",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the trolley",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer for die Messung",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart from die Untersuchung",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-wort",
+      "type": "builder",
+      "label": "Build",
+      "title": "One new noun",
+      "practice": "build",
+      "instructions": "Build the statement. The verb stays in position 2. A fronted object is also fine when the words allow it.",
+      "items": [
+        {
+          "tiles": ["Das", "Mädchen", "hat", "Fieber"],
+          "answers": ["Das Mädchen hat Fieber", "Fieber hat das Mädchen"],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "Fieber",
+          "question": false,
+          "en": "The girl has a fever.",
+          "hint": "das Mädchen.",
+          "feedback": {
+            "end": "The plain statement ends with Fieber: Das Mädchen hat Fieber.",
+            "fallback": "hat is position 2. Das Mädchen hat Fieber. Or Fieber hat das Mädchen."
+          }
+        },
+        {
+          "tiles": ["Die", "Pflegerin", "kommt"],
+          "answers": ["Die Pflegerin kommt"],
+          "punct": ".",
+          "modal": "kommt",
+          "inf": "kommt",
+          "question": false,
+          "en": "The female nurse comes.",
+          "hint": "Pflegerin.",
+          "feedback": {
+            "end": "kommt closes the statement: Die Pflegerin kommt.",
+            "fallback": "Die Pflegerin kommt. -in stays feminine."
+          }
+        },
+        {
+          "tiles": ["Das", "ist", "ein", "Fläschchen"],
+          "answers": ["Das ist ein Fläschchen", "Ein Fläschchen ist das"],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "Fläschchen",
+          "question": false,
+          "en": "That is a little bottle.",
+          "hint": "ein Fläschchen.",
+          "feedback": {
+            "end": "The plain statement ends with Fläschchen: Das ist ein Fläschchen.",
+            "fallback": "ein, not eine. -chen is neuter. Das ist ein Fläschchen."
+          }
+        },
+        {
+          "tiles": ["Die", "Untersuchung", "beginnt"],
+          "answers": ["Die Untersuchung beginnt"],
+          "punct": ".",
+          "modal": "beginnt",
+          "inf": "beginnt",
+          "question": false,
+          "en": "The examination starts.",
+          "hint": "Untersuchung.",
+          "feedback": {
+            "end": "beginnt closes the statement: Die Untersuchung beginnt.",
+            "fallback": "Die Untersuchung beginnt. -ung is feminine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-wort",
+      "label": "Rewrite",
+      "title": "One line",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished line. The label names the suffix.",
+      "chips": [
+        { "w": "Das Fläschchen ist klein", "hint": "-chen." },
+        { "w": "Das Büchlein liegt im Bett", "hint": "-lein." },
+        { "w": "Der Pfleger hilft", "hint": "-er." },
+        { "w": "Die Pflegerin kommt", "hint": "-in." },
+        { "w": "Die Untersuchung beginnt", "hint": "-ung." },
+        { "w": "Die Ärztin kommt", "hint": "umlaut." }
+      ],
+      "items": [
+        {
+          "before": "-chen:",
+          "after": ".",
+          "answer": "Das Fläschchen ist klein",
+          "en": "The little bottle is small.",
+          "why": "Das Fläschchen ist klein.",
+          "tip": "das.",
+          "hint": "chen."
+        },
+        {
+          "before": "-lein:",
+          "after": ".",
+          "answer": "Das Büchlein liegt im Bett",
+          "en": "The little book is on the bed.",
+          "why": "Das Büchlein liegt im Bett.",
+          "tip": "ü.",
+          "hint": "lein."
+        },
+        {
+          "before": "-er:",
+          "after": ".",
+          "answer": "Der Pfleger hilft",
+          "en": "The male nurse helps.",
+          "why": "Der Pfleger hilft.",
+          "tip": "der.",
+          "hint": "er."
+        },
+        {
+          "before": "-in, Pflege:",
+          "after": ".",
+          "answer": "Die Pflegerin kommt",
+          "en": "The female nurse comes.",
+          "why": "Die Pflegerin kommt.",
+          "tip": "Pflegerin.",
+          "hint": "in."
+        },
+        {
+          "before": "-ung:",
+          "after": ".",
+          "answer": "Die Untersuchung beginnt",
+          "en": "The examination starts.",
+          "why": "Die Untersuchung beginnt.",
+          "tip": "die.",
+          "hint": "ung."
+        },
+        {
+          "before": "Ärztin:",
+          "after": ".",
+          "answer": "Die Ärztin kommt",
+          "en": "The female doctor comes.",
+          "why": "Die Ärztin kommt.",
+          "tip": "ä.",
+          "hint": "ä."
+        }
+      ]
+    },
+    {
+      "id": "error-wort",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line has the wrong article, a missing umlaut, or a bad suffix. Choose the correction.",
+      "items": [
+        {
+          "clues": ["One small bottle.", "Suffix -chen, article das.", "Die Fläschchen ist klein."],
+          "options": ["Das Fläschchen ist klein.", "Die Fläschchen ist klein.", "Der Fläschchen ist klein."],
+          "answer": 0,
+          "reveal": "Das Fläschchen ist klein.",
+          "hint": "das."
+        },
+        {
+          "clues": ["One small book.", "Suffix -lein, with umlaut.", "Das Buchlein liegt im Bett."],
+          "options": ["Das Büchlein liegt im Bett.", "Das Buchlein liegt im Bett.", "Die Büchlein liegt im Bett."],
+          "answer": 0,
+          "reveal": "Das Büchlein liegt im Bett.",
+          "hint": "ü."
+        },
+        {
+          "clues": ["One man who nurses.", "Suffix -er.", "Die Pfleger hilft."],
+          "options": ["Der Pfleger hilft.", "Die Pfleger hilft.", "Das Pfleger hilft."],
+          "answer": 0,
+          "reveal": "Der Pfleger hilft.",
+          "hint": "der."
+        },
+        {
+          "clues": ["One woman who nurses.", "Keep -er, then -in.", "Die Pflegin kommt."],
+          "options": ["Die Pflegerin kommt.", "Die Pflegin kommt.", "Das Pflegerin kommt."],
+          "answer": 0,
+          "reveal": "Die Pflegerin kommt.",
+          "hint": "Pflegerin."
+        },
+        {
+          "clues": ["From untersuchen.", "Suffix -ung, subject.", "Das Untersuchung beginnt."],
+          "options": ["Die Untersuchung beginnt.", "Das Untersuchung beginnt.", "Die Untersuching beginnt."],
+          "answer": 0,
+          "reveal": "Die Untersuchung beginnt.",
+          "hint": "die."
+        },
+        {
+          "clues": ["The female doctor.", "Umlaut, suffix -in.", "Die Arztin kommt."],
+          "options": ["Die Ärztin kommt.", "Die Arztin kommt.", "Das Ärztin kommt."],
+          "answer": 0,
+          "reveal": "Die Ärztin kommt.",
+          "hint": "ä."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-visite",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the speaker and the suffix. One -chen or -lein noun takes das. The woman takes die.",
+      "chips": [
+        { "w": "Fläschchen", "hint": "-chen." },
+        { "w": "Büchlein", "hint": "-lein." },
+        { "w": "Pfleger", "hint": "-er." },
+        { "w": "Pflegerin", "hint": "-in." },
+        { "w": "Untersuchung", "hint": "-ung." },
+        { "w": "Ärztin", "hint": "umlaut." }
+      ],
+      "items": [
+        {
+          "who": "Patient",
+          "before": "Patient, -chen: Das",
+          "after": "ist klein.",
+          "answer": "Fläschchen",
+          "en": "The little bottle is small.",
+          "why": "Das Fläschchen ist klein.",
+          "tip": "das.",
+          "hint": "chen."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, -lein: Das",
+          "after": "liegt im Bett.",
+          "answer": "Büchlein",
+          "en": "The little book is on the bed.",
+          "why": "Das Büchlein liegt im Bett.",
+          "tip": "ü.",
+          "hint": "lein."
+        },
+        {
+          "who": "Arzt",
+          "before": "Arzt, -er: Der",
+          "after": "hilft.",
+          "answer": "Pfleger",
+          "en": "The male nurse helps.",
+          "why": "Der Pfleger hilft.",
+          "tip": "der.",
+          "hint": "er."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, -in: Die",
+          "after": "kommt.",
+          "answer": "Pflegerin",
+          "en": "The female nurse comes.",
+          "why": "Die Pflegerin kommt.",
+          "tip": "Pflegerin.",
+          "hint": "in."
+        },
+        {
+          "who": "Arzt",
+          "before": "Arzt, -ung: Die",
+          "after": "beginnt.",
+          "answer": "Untersuchung",
+          "en": "The examination starts.",
+          "why": "Die Untersuchung beginnt.",
+          "tip": "die.",
+          "hint": "ung."
+        },
+        {
+          "who": "Patient",
+          "before": "Patient, Ärztin: Die",
+          "after": "kommt zur Visite.",
+          "answer": "Ärztin",
+          "en": "The female doctor comes on the round.",
+          "why": "Die Ärztin kommt.",
+          "tip": "ä.",
+          "hint": "ä."
+        }
+      ]
+    },
+    {
+      "id": "gap-satz",
+      "label": "Sentences",
+      "title": "Article and noun",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The chip is the article plus the new noun. One -chen takes das. The subject with -in or -ung takes die.",
+      "chips": [
+        { "w": "Das Fläschchen", "hint": "one bottle." },
+        { "w": "Das Büchlein", "hint": "one book." },
+        { "w": "Der Pfleger", "hint": "one man." },
+        { "w": "Die Pflegerin", "hint": "one woman." },
+        { "w": "Die Untersuchung", "hint": "the examination." },
+        { "w": "Die Ärztin", "hint": "the female doctor." },
+        { "w": "Die Arztin", "hint": "missing umlaut." },
+        { "w": "Das Untersuchung", "hint": "wrong article." }
+      ],
+      "items": [
+        {
+          "before": "Eine kleine Flasche, -chen:",
+          "after": "ist klein.",
+          "answer": "Das Fläschchen",
+          "en": "The little bottle is small.",
+          "why": "Das Fläschchen ist klein.",
+          "tip": "das.",
+          "hint": "das."
+        },
+        {
+          "before": "Ein kleines Buch, -lein:",
+          "after": "liegt im Bett.",
+          "answer": "Das Büchlein",
+          "en": "The little book is on the bed.",
+          "why": "Das Büchlein liegt im Bett.",
+          "tip": "ü.",
+          "hint": "das."
+        },
+        {
+          "before": "Ein Mann, pflegen, -er:",
+          "after": "hilft.",
+          "answer": "Der Pfleger",
+          "en": "The male nurse helps.",
+          "why": "Der Pfleger hilft.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Eine Frau, pflegen, -in:",
+          "after": "kommt.",
+          "answer": "Die Pflegerin",
+          "en": "The female nurse comes.",
+          "why": "Die Pflegerin kommt.",
+          "tip": "die.",
+          "hint": "in."
+        },
+        {
+          "before": "untersuchen, -ung:",
+          "after": "beginnt.",
+          "answer": "Die Untersuchung",
+          "en": "The examination starts.",
+          "why": "Die Untersuchung beginnt.",
+          "tip": "die.",
+          "hint": "ung."
+        },
+        {
+          "before": "der Arzt, als Frau:",
+          "after": "kommt.",
+          "answer": "Die Ärztin",
+          "en": "The female doctor comes.",
+          "why": "Die Ärztin kommt.",
+          "tip": "ä.",
+          "hint": "ä."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The handover",
+      "practice": "reading",
+      "instructions": "Read the handover. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Übergabe",
+        "title": "Die Übergabe",
+        "paragraphs": [
+          "Das Mädchen hat Fieber. Es bekommt ein Fläschchen.",
+          "Das Kindlein liegt im Bettchen. Das Büchlein ist klein.",
+          "Die Pflegerin macht die Untersuchung. Der Pfleger misst die Atmung. Die Ärztin kommt."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wer hat Fieber?",
+          "qEn": "The girl.",
+          "options": ["Das Mädchen", "Der Pfleger", "Die Ärztin"],
+          "answer": 0,
+          "why": "Das Mädchen hat Fieber.",
+          "hint": "Mädchen."
+        },
+        {
+          "kind": "mc",
+          "q": "Was bekommt das Mädchen?",
+          "qEn": "The little bottle.",
+          "options": ["ein Fläschchen", "die Untersuchung", "das Büchlein"],
+          "answer": 0,
+          "why": "Es bekommt ein Fläschchen.",
+          "hint": "Fläschchen."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer macht die Untersuchung?",
+          "qEn": "The female nurse.",
+          "options": ["Die Pflegerin", "Der Pfleger", "Die Ärztin"],
+          "answer": 0,
+          "why": "Die Pflegerin macht die Untersuchung.",
+          "hint": "Pflegerin."
+        },
+        {
+          "kind": "mc",
+          "q": "Was misst der Pfleger?",
+          "qEn": "The breathing.",
+          "options": ["die Atmung", "das Fieber", "das Fläschchen"],
+          "answer": 0,
+          "why": "Der Pfleger misst die Atmung.",
+          "hint": "Atmung."
+        }
+      ]
+    },
+    {
+      "id": "writing-wort",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four new nouns",
+      "practice": "writing",
+      "instructions": "Write four lines. Use -chen, -lein, -in and -ung, with the article the ending takes.",
+      "prompt": "The little bottle is small. The little book is on the bed. The female nurse comes. The examination starts.",
+      "bullets": ["das Fläschchen", "das Büchlein", "die Pflegerin", "die Untersuchung"],
+      "model": "Das Fläschchen ist klein. Das Büchlein liegt im Bett. Die Pflegerin kommt. Die Untersuchung beginnt.",
+      "modelEn": "The little bottle is small. The little book is on the bed. The female nurse comes. The examination starts.",
+      "hint": "das Fläschchen. das Büchlein. die Pflegerin. die Untersuchung.",
+      "checklist": [
+        { "id": "c", "label": "das Fläschchen", "keywords": ["das fläschchen"] },
+        { "id": "l", "label": "das Büchlein", "keywords": ["das büchlein"] },
+        { "id": "i", "label": "die Pflegerin", "keywords": ["die pflegerin"] },
+        { "id": "u", "label": "die Untersuchung", "keywords": ["die untersuchung"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Die Untersuchung beginnt",
+      "heroImage": "stethoscope",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "-chen and -lein take das. -er takes der. -in and -ung take die. One girl is das Mädchen.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "One small bottle. Suffix -chen.",
+          "qEn": "Neuter, with ä.",
+          "options": ["das Fläschchen", "die Fläschchen", "der Fläschchen"],
+          "answer": 0,
+          "why": "das Fläschchen.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "One small book. Suffix -lein.",
+          "qEn": "Neuter, with ü.",
+          "options": ["das Büchlein", "das Buchlein", "die Büchlein"],
+          "answer": 0,
+          "why": "das Büchlein.",
+          "hint": "ü."
+        },
+        {
+          "kind": "mc",
+          "q": "One small bed. Suffix -chen. No umlaut.",
+          "qEn": "e does not take an umlaut.",
+          "options": ["das Bettchen", "das Bättchen", "die Bettchen"],
+          "answer": 0,
+          "why": "das Bettchen.",
+          "hint": "Bettchen."
+        },
+        {
+          "kind": "mc",
+          "q": "One man who nurses. Suffix -er.",
+          "qEn": "Masculine.",
+          "options": ["der Pfleger", "die Pfleger", "das Pfleger"],
+          "answer": 0,
+          "why": "der Pfleger.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "One woman who nurses, as the subject.",
+          "qEn": "Keep -er.",
+          "options": ["die Pflegerin", "die Pflegin", "das Pflegerin"],
+          "answer": 0,
+          "why": "die Pflegerin.",
+          "hint": "Pflegerin."
+        },
+        {
+          "kind": "mc",
+          "q": "One female doctor, as the subject.",
+          "qEn": "Umlaut.",
+          "options": ["die Ärztin", "die Arztin", "das Ärztin"],
+          "answer": 0,
+          "why": "die Ärztin.",
+          "hint": "ä."
+        },
+        {
+          "kind": "mc",
+          "q": "The examination, from untersuchen.",
+          "qEn": "Suffix -ung.",
+          "options": ["die Untersuchung", "das Untersuchung", "die Untersuching"],
+          "answer": 0,
+          "why": "die Untersuchung.",
+          "hint": "ung."
+        },
+        {
+          "kind": "mc",
+          "q": "The measurement, from messen. Suffix -ung.",
+          "qEn": "Not the knife, not the metal.",
+          "options": ["die Messung", "der Messer", "das Messing"],
+          "answer": 0,
+          "why": "die Messung. Der Messer is a knife. Das Messing is brass.",
+          "hint": "Messung."
+        },
+        {
+          "kind": "mc",
+          "q": "The treatment, from behandeln. Suffix -ung.",
+          "qEn": "No extra e.",
+          "options": ["die Behandlung", "die Behandelung", "das Behandlung"],
+          "answer": 0,
+          "why": "die Behandlung.",
+          "hint": "Behandlung."
+        },
+        {
+          "kind": "mc",
+          "q": "One girl has a fever.",
+          "qEn": "-chen stays das. hat is singular.",
+          "options": ["Das Mädchen hat Fieber.", "Die Mädchen hat Fieber.", "Das Mädchens hat Fieber."],
+          "answer": 0,
+          "why": "Das Mädchen hat Fieber.",
+          "hint": "das Mädchen."
+        },
+        {
+          "kind": "mc",
+          "q": "More than one examination.",
+          "qEn": "-ung plural adds -en.",
+          "options": ["die Untersuchungen", "die Untersuchung", "die Untersuchungs"],
+          "answer": 0,
+          "why": "die Untersuchungen.",
+          "hint": "-en."
+        },
+        {
+          "kind": "mc",
+          "q": "More than one female nurse.",
+          "qEn": "-in plural adds -nen.",
+          "options": ["die Pflegerinnen", "die Pflegerin", "die Pflegerins"],
+          "answer": 0,
+          "why": "die Pflegerinnen.",
+          "hint": "-innen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Die Pflegerin und die Untersuchung",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Das Fläschchen ist klein.", "en": "The little bottle is small." },
+        { "de": "Das Büchlein liegt im Bett.", "en": "The little book is on the bed." },
+        { "de": "Die Pflegerin kommt.", "en": "The female nurse comes." },
+        { "de": "Die Untersuchung beginnt.", "en": "The examination starts." }
+      ],
+      "messages": [
+        "The ending chooses the article.",
+        "-chen and -lein take das. -er takes der. -in and -ung take die.",
+        "Sehr gut. Die Untersuchung beginnt.",
+        "Ausgezeichnet. You can build a ward noun from its ending."
+      ]
+    }
+  ]
+}

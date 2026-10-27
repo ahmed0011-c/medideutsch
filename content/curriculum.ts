@@ -54,7 +54,12 @@ const LESSON: Partial<Record<number, string>> = {
   37: "a2-37-adjektive-dativ",
   38: "a2-38-komparativ",
   40: "a2-40-aduso",
+  41: "a2-41-konnektoren-pos1",
+  42: "a2-42-weil-dass-wenn",
+  43: "a2-43-da-dahin-daher",
+  44: "a2-44-partikeln",
   45: "a1-45-komposita",
+  46: "a2-46-wortbildung",
   47: "a1-47-zusammengesetzte-verben",
   48: "a1-48-genusregeln",
 };

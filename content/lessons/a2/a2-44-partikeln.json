@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "a2-44-partikeln",
+  "level": "A2",
+  "unit": "Kapitel 44",
+  "chapter": 44,
+  "chapters": [44],
+  "title": "Was heißt das denn?",
+  "subtitle": "Particles",
+  "glossary": {
+    "was": {
+      "de": "was",
+      "pos": "pronoun",
+      "en": "what",
+      "emoji": "❓"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "adverb",
+      "en": "where",
+      "emoji": "📍"
+    },
+    "heißt": {
+      "de": "heißen → was heißt",
+      "pos": "form",
+      "en": "means; is called",
+      "emoji": "💬"
+    },
+    "das": {
+      "de": "das",
+      "pos": "pronoun",
+      "en": "that; the (neuter)",
+      "emoji": "🟢",
+      "note": "Was heißt das denn? Not the conjunction dass."
+    },
+    "denn": {
+      "de": "denn",
+      "pos": "particle",
+      "en": "softens a question; or because",
+      "emoji": "💬",
+      "note": "In a question it only softens: Was heißt das denn? As because it is position 0, and the verb stays in position 2: denn er hat Schmerzen."
+    },
+    "mal": {
+      "de": "mal",
+      "pos": "particle",
+      "en": "just; for a moment",
+      "emoji": "⏱️",
+      "note": "Softens a short instruction: Warten Sie mal. Not einmal, which means once."
+    },
+    "doch": {
+      "de": "doch",
+      "pos": "particle",
+      "en": "encouragement; yes, after a negative",
+      "emoji": "👉",
+      "note": "Encouragement: Kommen Sie doch. After a negative question: Doch, ich habe Schmerzen."
+    },
+    "haben": {
+      "de": "haben → Sie haben",
+      "pos": "form",
+      "en": "you have (formal)",
+      "emoji": "🤲"
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🤲"
+    },
+    "sie": {
+      "de": "Sie",
+      "pos": "pronoun",
+      "en": "you (formal)",
+      "emoji": "🫵",
+      "note": "Capital Sie is formal you at the bedside."
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "😣",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "warten": {
+      "de": "warten → warten Sie",
+      "pos": "form",
+      "en": "wait (formal)",
+      "emoji": "⏳"
+    },
+    "kommen": {
+      "de": "kommen → kommen Sie",
+      "pos": "form",
+      "en": "come (formal)",
+      "emoji": "🚶"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "bleibt": {
+      "de": "bleiben → er bleibt",
+      "pos": "form",
+      "en": "stays",
+      "emoji": "⏸️",
+      "note": "im Bett is location."
+    },
+    "im": {
+      "de": "im (= in dem)",
+      "pos": "preposition",
+      "en": "in the",
+      "emoji": "📥"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🔴"
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🗣️",
+      "article": "die",
+      "plural": "die Übergaben"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "the nurse's name",
+      "emoji": "🧑‍⚕️"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "A softer bedside",
+      "learn": [
+        "denn, mal and doch are particles. Take them out and the sentence is still correct German. They only change the tone.",
+        "denn in a question is friendly interest. Was heißt das denn? Wo haben Sie denn Schmerzen? It does not mean because.",
+        "mal softens a short instruction. Warten Sie mal. The verb comes first, then Sie, then mal. doch encourages when someone hesitates: Kommen Sie doch.",
+        "The because-denn is still the conjunction from chapter 40. Er bleibt im Bett, denn er hat Schmerzen. That denn needs the comma, and hat stays in position 2."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Schmerz", "article": "der", "plural": "die Schmerzen", "en": "pain", "emoji": "😣", "glossaryKey": "schmerzen" },
+        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "image": { "type": "svg", "id": "bed" }, "glossaryKey": "bett" },
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tablette" }
+      ],
+      "text": {
+        "title": "Was heißt das denn?",
+        "de": "Was heißt das denn? Wo haben Sie denn Schmerzen? Warten Sie mal. Kommen Sie doch. Er bleibt im Bett, denn er hat Schmerzen.",
+        "en": "What does that mean, then? Where does it hurt? Just wait a moment. Do come. He stays in bed because he has pain."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "denn, mal, doch",
+      "practice": "choose",
+      "heroTitle": "Was heißt das denn?",
+      "heroImage": "bed",
+      "story": [
+        "A particle sits in the middle of a sentence you already know. <b>Was heißt das?</b> is a complete question. <b>Was heißt das denn?</b> is the same question, only friendlier. das is that, not dass.",
+        "Question-<b>denn</b> is not the because-<b>denn</b>. The because-denn links two clauses and keeps the verb in position 2: <b>Er bleibt im Bett, denn er hat Schmerzen.</b> You cannot delete that denn. You can delete the question-denn.",
+        "<b>mal</b> softens a routine instruction. It means just, for a moment. <b>Warten Sie mal. Trinken Sie mal Wasser.</b> The formal imperative is verb, then Sie, then mal. Not Warten mal Sie.",
+        "<b>doch</b> encourages when the patient hesitates. <b>Kommen Sie doch. Setzen Sie sich doch.</b> Again Sie comes before the particle. In a calm statement it reassures: Das ist doch nur eine Tablette.",
+        "After a negative question, <b>Doch</b> means yes, on the contrary. Haben Sie keine Schmerzen? <b>Doch, ich habe Schmerzen.</b> Ja does not answer that negative question. Nein would mean no pain.",
+        "Was heißt denn das? is also a natural question. Was denn heißt das? is not: the verb would leave position 2."
+      ],
+      "questionRule": "Question-denn only softens. mal is a short instruction. doch encourages, or answers a negative question. Because-denn keeps hat in position 2.",
+      "tables": [
+        {
+          "title": "Drei Partikeln",
+          "caption": "The particle is optional. The rest of the sentence stays.",
+          "columns": ["Ton", "Satz"],
+          "rows": [
+            { "label": "denn", "cells": ["freundliche Frage", "Was heißt das denn?"], "highlight": true },
+            { "label": "mal", "cells": ["kurzer Imperativ", "Warten Sie mal."], "highlight": true },
+            { "label": "doch", "cells": ["Ermutigung", "Kommen Sie doch."] }
+          ]
+        },
+        {
+          "title": "Zwei denn, und Doch",
+          "caption": "Question-denn has no comma. Because-denn has a comma, and hat stays in position 2. Doch answers a negative question.",
+          "columns": ["Job", "Satz"],
+          "rows": [
+            { "label": "Frage", "cells": ["Partikel", "Was heißt das denn?"], "highlight": true },
+            { "label": "Grund", "cells": ["Konjunktion", "Er bleibt im Bett, denn er hat Schmerzen."], "highlight": true },
+            { "label": "Antwort", "cells": ["verneinte Frage", "Doch, ich habe Schmerzen."] }
+          ]
+        },
+        {
+          "title": "Die richtige Stelle",
+          "caption": "The verb stays in position 2. In the formal imperative, Sie stands before mal or doch.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "denn", "cells": ["Was denn heißt das?", "Was heißt das denn?"] },
+            { "label": "mal", "cells": ["Warten mal Sie.", "Warten Sie mal."] },
+            { "label": "doch", "cells": ["Kommen doch Sie.", "Kommen Sie doch."] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four particle traps",
+        "items": [
+          { "de": "Was heißt das denn?", "en": "Friendly question. Verb in position 2.", "tone": "ok" },
+          { "de": "Was denn heißt das?", "en": "denn is not in front of the verb.", "tone": "stop" },
+          { "de": "Warten Sie mal.", "en": "Sie, then mal.", "tone": "ok" },
+          { "de": "Warten mal Sie.", "en": "mal does not split the imperative from Sie.", "tone": "stop" },
+          { "de": "Kommen Sie doch.", "en": "Encouragement.", "tone": "ok" },
+          { "de": "Kommen doch Sie.", "en": "doch follows Sie.", "tone": "stop" },
+          { "de": "Doch, ich habe Schmerzen.", "en": "Yes, after a negative question.", "tone": "ok" },
+          { "de": "Ja, ich habe Schmerzen.", "en": "Ja does not contradict keine.", "tone": "stop" }
+        ],
+        "tip": "Question: denn. A moment: mal. Encouragement, or yes after keine: doch. Because: denn er hat."
+      },
+      "quizTitle": "Which tone?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "What does that mean? Make it friendly.",
+          "qEn": "Question particle.",
+          "options": ["Was heißt das denn?", "Was denn heißt das?", "Was heißt dass denn?"],
+          "answer": 0,
+          "why": "Was heißt das denn?",
+          "hint": "heißt das denn."
+        },
+        {
+          "kind": "mc",
+          "q": "Just wait a moment.",
+          "qEn": "Routine instruction.",
+          "options": ["Warten Sie mal.", "Warten mal Sie.", "Mal warten Sie."],
+          "answer": 0,
+          "why": "Warten Sie mal.",
+          "hint": "Sie mal."
+        },
+        {
+          "kind": "mc",
+          "q": "He is hesitating. Encourage him to come.",
+          "qEn": "doch, not a split imperative.",
+          "options": ["Kommen Sie doch.", "Kommen doch Sie.", "Doch kommen Sie."],
+          "answer": 0,
+          "why": "Kommen Sie doch.",
+          "hint": "Sie doch."
+        },
+        {
+          "kind": "mc",
+          "q": "Haben Sie keine Schmerzen? He does have pain.",
+          "qEn": "Yes, on the contrary.",
+          "options": ["Doch, ich habe Schmerzen.", "Ja, ich habe Schmerzen.", "Nein, ich habe Schmerzen."],
+          "answer": 0,
+          "why": "Doch, ich habe Schmerzen.",
+          "hint": "Doch."
+        },
+        {
+          "kind": "mc",
+          "q": "Because he has pain. Conjunction.",
+          "qEn": "Verb in position 2. Not the question particle.",
+          "options": ["Er bleibt im Bett, denn er hat Schmerzen.", "Er bleibt im Bett, denn er Schmerzen hat.", "Was heißt das denn?"],
+          "answer": 0,
+          "why": "denn er hat Schmerzen.",
+          "hint": "hat Schmerzen."
+        },
+        {
+          "kind": "mc",
+          "q": "A friendly question. Which particle?",
+          "qEn": "Not the instruction, not the encouragement.",
+          "options": ["denn", "mal", "doch"],
+          "answer": 0,
+          "why": "denn.",
+          "hint": "denn."
+        }
+      ]
+    },
+    {
+      "id": "gap-partikel",
+      "label": "Gap",
+      "title": "Which particle?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the job. A question takes denn. A short instruction takes mal. Encouragement and the answer to keine take doch. The because-link is the small denn.",
+      "chips": [
+        { "w": "heißt das denn", "hint": "friendly question." },
+        { "w": "haben Sie denn", "hint": "where does it hurt?" },
+        { "w": "Warten Sie mal", "hint": "just a moment." },
+        { "w": "Kommen Sie doch", "hint": "encouragement." },
+        { "w": "denn", "hint": "because, position 2." },
+        { "w": "Doch,", "hint": "yes after keine." },
+        { "w": "dass", "hint": "not das." },
+        { "w": "daher", "hint": "from there, not this chapter." },
+        { "w": "einmal", "hint": "once, not the softener." }
+      ],
+      "items": [
+        {
+          "before": "Frage, Wort: Was",
+          "after": "?",
+          "answer": "heißt das denn",
+          "en": "What does that mean, then?",
+          "why": "Was heißt das denn?",
+          "tip": "Verb, then das, then denn.",
+          "hint": "denn."
+        },
+        {
+          "before": "Frage, Ort: Wo",
+          "after": "Schmerzen?",
+          "answer": "haben Sie denn",
+          "en": "Where does it hurt?",
+          "why": "Wo haben Sie denn Schmerzen?",
+          "tip": "denn after Sie.",
+          "hint": "denn."
+        },
+        {
+          "before": "Kurz, Imperativ:",
+          "after": ".",
+          "answer": "Warten Sie mal",
+          "en": "Just wait a moment.",
+          "why": "Warten Sie mal.",
+          "tip": "Sie, then mal.",
+          "hint": "mal."
+        },
+        {
+          "before": "Ermutigung:",
+          "after": ".",
+          "answer": "Kommen Sie doch",
+          "en": "Do come.",
+          "why": "Kommen Sie doch.",
+          "tip": "Sie, then doch.",
+          "hint": "doch."
+        },
+        {
+          "before": "Grund, Position 2: Er bleibt im Bett,",
+          "after": "er hat Schmerzen.",
+          "answer": "denn",
+          "en": "He stays in bed because he has pain.",
+          "why": "denn er hat Schmerzen.",
+          "tip": "Conjunction. hat stays in position 2.",
+          "hint": "denn."
+        },
+        {
+          "before": "Antwort, keine Schmerzen:",
+          "after": "ich habe Schmerzen.",
+          "answer": "Doch,",
+          "en": "Yes, I do have pain.",
+          "why": "Doch, ich habe Schmerzen.",
+          "tip": "Doch, not Ja.",
+          "hint": "Doch."
+        }
+      ]
+    },
+    {
+      "id": "match-ton",
+      "type": "compare",
+      "label": "Match",
+      "title": "Tone and order",
+      "practice": "match",
+      "instructions": "Match the bedside job. Ja does not answer keine. The because-denn is not the question.",
+      "items": [
+        {
+          "prompt": "What does that mean? Make the question friendly.",
+          "options": [
+            { "emoji": "💬", "label": "Was heißt das denn?", "caption": "Verb in position 2." },
+            { "emoji": "🚫", "label": "Was denn heißt das?", "caption": "denn is before the verb." },
+            { "emoji": "🚫", "label": "Was heißt dass denn?", "caption": "dass is not that." }
+          ],
+          "answer": 0,
+          "why": "Was heißt das denn?",
+          "hint": "heißt."
+        },
+        {
+          "prompt": "Just wait a moment. Routine.",
+          "options": [
+            { "emoji": "⏱️", "label": "Warten Sie mal.", "caption": "Sie, then mal." },
+            { "emoji": "🚫", "label": "Warten mal Sie.", "caption": "mal splits the imperative." },
+            { "emoji": "🚫", "label": "Mal warten Sie.", "caption": "mal is not first." }
+          ],
+          "answer": 0,
+          "why": "Warten Sie mal.",
+          "hint": "mal."
+        },
+        {
+          "prompt": "He is hesitating. Encourage him to come.",
+          "options": [
+            { "emoji": "👉", "label": "Kommen Sie doch.", "caption": "Sie, then doch." },
+            { "emoji": "🚫", "label": "Kommen doch Sie.", "caption": "doch splits the imperative." },
+            { "emoji": "🚫", "label": "Doch kommen Sie.", "caption": "doch is not first." }
+          ],
+          "answer": 0,
+          "why": "Kommen Sie doch.",
+          "hint": "doch."
+        },
+        {
+          "prompt": "No pain? He does have pain.",
+          "options": [
+            { "emoji": "😣", "label": "Doch, ich habe Schmerzen.", "caption": "Yes, on the contrary." },
+            { "emoji": "🚫", "label": "Ja, ich habe Schmerzen.", "caption": "Ja does not answer keine." },
+            { "emoji": "🚫", "label": "Nein, ich habe Schmerzen.", "caption": "Nein would mean no pain." }
+          ],
+          "answer": 0,
+          "why": "Doch, ich habe Schmerzen.",
+          "hint": "Doch."
+        },
+        {
+          "prompt": "Because he has pain. Two clauses, verb in position 2.",
+          "options": [
+            { "emoji": "💡", "label": "Er bleibt im Bett, denn er hat Schmerzen.", "caption": "Conjunction." },
+            { "emoji": "🚫", "label": "Er bleibt im Bett, denn er Schmerzen hat.", "caption": "hat is not at the end." },
+            { "emoji": "💬", "label": "Was heißt das denn?", "caption": "That denn only softens." }
+          ],
+          "answer": 0,
+          "why": "denn er hat Schmerzen.",
+          "hint": "hat."
+        },
+        {
+          "prompt": "A friendly question. Which particle?",
+          "options": [
+            { "emoji": "💬", "label": "denn", "caption": "In the question." },
+            { "emoji": "⏱️", "label": "mal", "caption": "A short instruction." },
+            { "emoji": "👉", "label": "doch", "caption": "Encouragement." }
+          ],
+          "answer": 0,
+          "why": "denn.",
+          "hint": "denn."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed where he stays",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the trolley",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer from the round",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart from the handover",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-partikel",
+      "type": "builder",
+      "label": "Build",
+      "title": "Particle in the middle",
+      "practice": "build",
+      "instructions": "In the question, heißt stays in position 2. In the imperative, Sie comes before mal or doch.",
+      "items": [
+        {
+          "tiles": ["Was", "heißt", "das", "denn"],
+          "answers": ["Was heißt das denn", "Was heißt denn das"],
+          "punct": "?",
+          "modal": "heißt",
+          "inf": "denn",
+          "question": false,
+          "en": "What does that mean, then?",
+          "hint": "heißt in position 2.",
+          "feedback": {
+            "end": "The plain question ends with denn: Was heißt das denn?",
+            "fallback": "heißt is position 2. Was heißt das denn? Or Was heißt denn das?"
+          }
+        },
+        {
+          "tiles": ["Wo", "haben", "Sie", "denn", "Schmerzen"],
+          "answers": ["Wo haben Sie denn Schmerzen", "Wo haben denn Sie Schmerzen"],
+          "punct": "?",
+          "modal": "haben",
+          "inf": "Schmerzen",
+          "question": false,
+          "en": "Where does it hurt?",
+          "hint": "Sie denn.",
+          "feedback": {
+            "end": "Schmerzen closes the question: Wo haben Sie denn Schmerzen?",
+            "fallback": "haben is position 2. denn follows Sie."
+          }
+        },
+        {
+          "tiles": ["Warten", "Sie", "mal"],
+          "answers": ["Warten Sie mal"],
+          "punct": ".",
+          "modal": "Warten",
+          "inf": "mal",
+          "question": false,
+          "en": "Just wait a moment.",
+          "hint": "Sie mal.",
+          "feedback": {
+            "end": "mal closes the instruction: Warten Sie mal.",
+            "fallback": "Warten Sie mal. Sie comes before mal."
+          }
+        },
+        {
+          "tiles": ["Kommen", "Sie", "doch"],
+          "answers": ["Kommen Sie doch"],
+          "punct": ".",
+          "modal": "Kommen",
+          "inf": "doch",
+          "question": false,
+          "en": "Do come.",
+          "hint": "Sie doch.",
+          "feedback": {
+            "end": "doch closes the encouragement: Kommen Sie doch.",
+            "fallback": "Kommen Sie doch. Sie comes before doch."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-partikel",
+      "label": "Rewrite",
+      "title": "One line",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished line. Questions keep the question mark. The because-denn keeps hat in position 2.",
+      "chips": [
+        { "w": "Was heißt das denn", "hint": "friendly question." },
+        { "w": "Wo haben Sie denn Schmerzen", "hint": "where?" },
+        { "w": "Warten Sie mal", "hint": "a moment." },
+        { "w": "Kommen Sie doch", "hint": "encouragement." },
+        { "w": "Doch, ich habe Schmerzen", "hint": "after keine." },
+        { "w": "Er bleibt im Bett, denn er hat Schmerzen", "hint": "because." }
+      ],
+      "items": [
+        {
+          "before": "Frage, Wort:",
+          "after": "?",
+          "answer": "Was heißt das denn",
+          "en": "What does that mean, then?",
+          "why": "Was heißt das denn?",
+          "tip": "denn at the end.",
+          "hint": "denn."
+        },
+        {
+          "before": "Frage, Ort:",
+          "after": "?",
+          "answer": "Wo haben Sie denn Schmerzen",
+          "en": "Where does it hurt?",
+          "why": "haben Sie denn Schmerzen.",
+          "tip": "denn after Sie.",
+          "hint": "denn."
+        },
+        {
+          "before": "Kurz:",
+          "after": ".",
+          "answer": "Warten Sie mal",
+          "en": "Just wait a moment.",
+          "why": "Warten Sie mal.",
+          "tip": "mal.",
+          "hint": "mal."
+        },
+        {
+          "before": "Ermutigung:",
+          "after": ".",
+          "answer": "Kommen Sie doch",
+          "en": "Do come.",
+          "why": "Kommen Sie doch.",
+          "tip": "doch.",
+          "hint": "doch."
+        },
+        {
+          "before": "Antwort, keine:",
+          "after": ".",
+          "answer": "Doch, ich habe Schmerzen",
+          "en": "Yes, I do have pain.",
+          "why": "Doch, ich habe Schmerzen.",
+          "tip": "Doch.",
+          "hint": "Doch."
+        },
+        {
+          "before": "Grund:",
+          "after": ".",
+          "answer": "Er bleibt im Bett, denn er hat Schmerzen",
+          "en": "He stays in bed because he has pain.",
+          "why": "denn er hat Schmerzen.",
+          "tip": "Position 2.",
+          "hint": "hat."
+        }
+      ]
+    },
+    {
+      "id": "error-partikel",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line has the particle in the wrong place, Ja after keine, or dass instead of das. Choose the correction.",
+      "items": [
+        {
+          "clues": ["A friendly question.", "The verb stays in position 2.", "Was denn heißt das?"],
+          "options": ["Was heißt das denn?", "Was denn heißt das?", "Was heißt dass denn?"],
+          "answer": 0,
+          "reveal": "Was heißt das denn?",
+          "hint": "heißt das denn."
+        },
+        {
+          "clues": ["Just a moment.", "Sie comes before mal.", "Warten mal Sie."],
+          "options": ["Warten Sie mal.", "Warten mal Sie.", "Mal warten Sie."],
+          "answer": 0,
+          "reveal": "Warten Sie mal.",
+          "hint": "Sie mal."
+        },
+        {
+          "clues": ["He is hesitating.", "Sie comes before doch.", "Kommen doch Sie."],
+          "options": ["Kommen Sie doch.", "Kommen doch Sie.", "Doch kommen Sie."],
+          "answer": 0,
+          "reveal": "Kommen Sie doch.",
+          "hint": "Sie doch."
+        },
+        {
+          "clues": ["The question was negative.", "He does have pain.", "Ja, ich habe Schmerzen."],
+          "options": ["Doch, ich habe Schmerzen.", "Ja, ich habe Schmerzen.", "Nein, ich habe Schmerzen."],
+          "answer": 0,
+          "reveal": "Doch, ich habe Schmerzen.",
+          "hint": "Doch."
+        },
+        {
+          "clues": ["Because, two clauses.", "hat stays in position 2.", "Er bleibt im Bett, denn er Schmerzen hat."],
+          "options": ["Er bleibt im Bett, denn er hat Schmerzen.", "Er bleibt im Bett, denn er Schmerzen hat.", "Was heißt das denn?"],
+          "answer": 0,
+          "reveal": "Er bleibt im Bett, denn er hat Schmerzen.",
+          "hint": "hat Schmerzen."
+        },
+        {
+          "clues": ["that, not the conjunction.", "das.", "Was heißt dass denn?"],
+          "options": ["Was heißt das denn?", "Was heißt dass denn?", "Was heißt den denn?"],
+          "answer": 0,
+          "reveal": "Was heißt das denn?",
+          "hint": "das."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-bett",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the speaker and the job. Formal Sie stays with the patient. The because-denn stays small and after the comma.",
+      "chips": [
+        { "w": "heißt das denn", "hint": "the word." },
+        { "w": "haben Sie denn", "hint": "the pain." },
+        { "w": "Warten Sie mal", "hint": "a moment." },
+        { "w": "Kommen Sie doch", "hint": "encouragement." },
+        { "w": "Doch,", "hint": "after keine." },
+        { "w": "denn", "hint": "because." }
+      ],
+      "items": [
+        {
+          "who": "Patient",
+          "before": "Patient, Wort: Was",
+          "after": "?",
+          "answer": "heißt das denn",
+          "en": "What does that mean, then?",
+          "why": "Was heißt das denn?",
+          "tip": "denn.",
+          "hint": "denn."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, Ort: Wo",
+          "after": "Schmerzen?",
+          "answer": "haben Sie denn",
+          "en": "Where does it hurt?",
+          "why": "Wo haben Sie denn Schmerzen?",
+          "tip": "denn after Sie.",
+          "hint": "denn."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, kurz:",
+          "after": ".",
+          "answer": "Warten Sie mal",
+          "en": "Just wait a moment.",
+          "why": "Warten Sie mal.",
+          "tip": "mal.",
+          "hint": "mal."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, Ermutigung:",
+          "after": ".",
+          "answer": "Kommen Sie doch",
+          "en": "Do come.",
+          "why": "Kommen Sie doch.",
+          "tip": "doch.",
+          "hint": "doch."
+        },
+        {
+          "who": "Patient",
+          "before": "Patient, keine Schmerzen:",
+          "after": "ich habe Schmerzen.",
+          "answer": "Doch,",
+          "en": "Yes, I do have pain.",
+          "why": "Doch, ich habe Schmerzen.",
+          "tip": "Doch.",
+          "hint": "Doch."
+        },
+        {
+          "who": "Arzt",
+          "before": "Arzt, Grund: Er bleibt im Bett,",
+          "after": "er hat Schmerzen.",
+          "answer": "denn",
+          "en": "He stays in bed because he has pain.",
+          "why": "denn er hat Schmerzen.",
+          "tip": "Position 2.",
+          "hint": "denn."
+        }
+      ]
+    },
+    {
+      "id": "gap-satz",
+      "label": "Sentences",
+      "title": "Particle after Sie",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "denn follows Sie in the question. mal and doch follow Sie in the imperative. The because-chunk is denn er hat. The answer to keine is Doch.",
+      "chips": [
+        { "w": "denn", "hint": "Haben Sie … Schmerzen?" },
+        { "w": "mal", "hint": "Trinken Sie … Wasser." },
+        { "w": "sich doch", "hint": "Setzen Sie …" },
+        { "w": "doch nur", "hint": "Das ist … eine Tablette." },
+        { "w": "denn er hat", "hint": "because." },
+        { "w": "Doch,", "hint": "after keine." },
+        { "w": "dass", "hint": "not here." },
+        { "w": "einmal", "hint": "once." }
+      ],
+      "items": [
+        {
+          "before": "Frage, freundlich: Haben Sie",
+          "after": "Schmerzen?",
+          "answer": "denn",
+          "en": "Do you have pain, then?",
+          "why": "Haben Sie denn Schmerzen?",
+          "tip": "denn after Sie.",
+          "hint": "denn."
+        },
+        {
+          "before": "Kurz: Trinken Sie",
+          "after": "Wasser.",
+          "answer": "mal",
+          "en": "Just drink some water.",
+          "why": "Trinken Sie mal Wasser.",
+          "tip": "mal before Wasser.",
+          "hint": "mal."
+        },
+        {
+          "before": "Ermutigung: Setzen Sie",
+          "after": ".",
+          "answer": "sich doch",
+          "en": "Do sit down.",
+          "why": "Setzen Sie sich doch.",
+          "tip": "sich, then doch.",
+          "hint": "doch."
+        },
+        {
+          "before": "Beruhigung: Das ist",
+          "after": "eine Tablette.",
+          "answer": "doch nur",
+          "en": "It is only a tablet, after all.",
+          "why": "Das ist doch nur eine Tablette.",
+          "tip": "doch nur.",
+          "hint": "doch."
+        },
+        {
+          "before": "Grund: Er bleibt im Bett,",
+          "after": "Schmerzen.",
+          "answer": "denn er hat",
+          "en": "He stays in bed because he has pain.",
+          "why": "denn er hat Schmerzen.",
+          "tip": "hat in position 2.",
+          "hint": "hat."
+        },
+        {
+          "before": "Keine Schmerzen?",
+          "after": "ich habe Schmerzen.",
+          "answer": "Doch,",
+          "en": "Yes, I do have pain.",
+          "why": "Doch, ich habe Schmerzen.",
+          "tip": "Doch.",
+          "hint": "Doch."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The handover",
+      "practice": "reading",
+      "instructions": "Read the four lines. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Übergabe",
+        "title": "Die Übergabe",
+        "paragraphs": [
+          "Was heißt das denn? Wo haben Sie denn Schmerzen?",
+          "Warten Sie mal. Kommen Sie doch."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Welche Frage gilt dem Wort?",
+          "qEn": "The meaning.",
+          "options": ["Was heißt das denn?", "Wo haben Sie denn Schmerzen?", "Kommen Sie doch."],
+          "answer": 0,
+          "why": "Was heißt das denn?",
+          "hint": "heißt."
+        },
+        {
+          "kind": "mc",
+          "q": "Wonach fragt Anna noch?",
+          "qEn": "The place of the pain.",
+          "options": ["Wo haben Sie denn Schmerzen?", "Was heißt das denn?", "Warten Sie mal."],
+          "answer": 0,
+          "why": "Wo haben Sie denn Schmerzen?",
+          "hint": "Wo."
+        },
+        {
+          "kind": "mc",
+          "q": "Was soll der Patient kurz tun?",
+          "qEn": "A moment.",
+          "options": ["warten", "kommen", "das Wort erklären"],
+          "answer": 0,
+          "why": "Warten Sie mal.",
+          "hint": "mal."
+        },
+        {
+          "kind": "mc",
+          "q": "Was ist die Ermutigung?",
+          "qEn": "He should come.",
+          "options": ["Kommen Sie doch.", "Warten Sie mal.", "Was heißt das denn?"],
+          "answer": 0,
+          "why": "Kommen Sie doch.",
+          "hint": "doch."
+        }
+      ]
+    },
+    {
+      "id": "writing-partikel",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four bedside lines",
+      "practice": "writing",
+      "instructions": "Write four lines. The question-denn only softens. mal and doch follow Sie. The because-denn keeps hat in position 2.",
+      "prompt": "What does that mean, then? Just wait a moment. Do come. He stays in bed, denn he has pain.",
+      "bullets": ["heißt das denn", "Warten Sie mal", "Kommen Sie doch", "denn er hat Schmerzen"],
+      "model": "Was heißt das denn? Warten Sie mal. Kommen Sie doch. Er bleibt im Bett, denn er hat Schmerzen.",
+      "modelEn": "What does that mean, then? Just wait a moment. Do come. He stays in bed because he has pain.",
+      "hint": "heißt das denn. Warten Sie mal. Kommen Sie doch. denn er hat Schmerzen.",
+      "checklist": [
+        { "id": "d", "label": "heißt das denn", "keywords": ["heißt das denn"] },
+        { "id": "m", "label": "Warten Sie mal", "keywords": ["warten sie mal"] },
+        { "id": "c", "label": "Kommen Sie doch", "keywords": ["kommen sie doch"] },
+        { "id": "g", "label": "denn er hat Schmerzen", "keywords": ["denn er hat schmerzen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Was heißt das denn?",
+      "heroImage": "thermometer",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Question-denn softens. mal is a moment. doch encourages, or answers keine. Because-denn keeps the verb in position 2.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "What does that mean? Friendly.",
+          "qEn": "Verb in position 2.",
+          "options": ["Was heißt das denn?", "Was denn heißt das?", "Was heißt dass denn?"],
+          "answer": 0,
+          "why": "Was heißt das denn?",
+          "hint": "heißt."
+        },
+        {
+          "kind": "mc",
+          "q": "Where does it hurt? Friendly.",
+          "qEn": "denn after Sie.",
+          "options": ["Wo haben Sie denn Schmerzen?", "Wo denn haben Sie Schmerzen?", "Denn wo haben Sie Schmerzen?"],
+          "answer": 0,
+          "why": "Wo haben Sie denn Schmerzen?",
+          "hint": "Sie denn."
+        },
+        {
+          "kind": "mc",
+          "q": "Just wait a moment.",
+          "qEn": "Routine.",
+          "options": ["Warten Sie mal.", "Warten mal Sie.", "Mal warten Sie."],
+          "answer": 0,
+          "why": "Warten Sie mal.",
+          "hint": "mal."
+        },
+        {
+          "kind": "mc",
+          "q": "Just drink some water.",
+          "qEn": "mal before Wasser.",
+          "options": ["Trinken Sie mal Wasser.", "Trinken mal Sie Wasser.", "Mal trinken Sie Wasser."],
+          "answer": 0,
+          "why": "Trinken Sie mal Wasser.",
+          "hint": "mal."
+        },
+        {
+          "kind": "mc",
+          "q": "He is hesitating. Encourage him to come.",
+          "qEn": "doch after Sie.",
+          "options": ["Kommen Sie doch.", "Kommen doch Sie.", "Doch kommen Sie."],
+          "answer": 0,
+          "why": "Kommen Sie doch.",
+          "hint": "doch."
+        },
+        {
+          "kind": "mc",
+          "q": "Encourage him to sit down.",
+          "qEn": "sich, then doch.",
+          "options": ["Setzen Sie sich doch.", "Setzen Sie doch sich.", "Setzen doch Sie sich."],
+          "answer": 0,
+          "why": "Setzen Sie sich doch.",
+          "hint": "sich doch."
+        },
+        {
+          "kind": "mc",
+          "q": "Haben Sie keine Schmerzen? He does.",
+          "qEn": "On the contrary.",
+          "options": ["Doch, ich habe Schmerzen.", "Ja, ich habe Schmerzen.", "Nein, ich habe Schmerzen."],
+          "answer": 0,
+          "why": "Doch.",
+          "hint": "Doch."
+        },
+        {
+          "kind": "mc",
+          "q": "Because he has pain. Conjunction.",
+          "qEn": "Not the question particle.",
+          "options": ["Er bleibt im Bett, denn er hat Schmerzen.", "Er bleibt im Bett, denn er Schmerzen hat.", "Was heißt das denn?"],
+          "answer": 0,
+          "why": "denn er hat Schmerzen.",
+          "hint": "hat."
+        },
+        {
+          "kind": "mc",
+          "q": "A friendly question. Which particle?",
+          "qEn": "Not mal, not doch.",
+          "options": ["denn", "mal", "doch"],
+          "answer": 0,
+          "why": "denn.",
+          "hint": "denn."
+        },
+        {
+          "kind": "mc",
+          "q": "A routine instruction, just a moment. Which particle?",
+          "qEn": "mal, not the question particle.",
+          "options": ["mal", "denn", "doch"],
+          "answer": 0,
+          "why": "mal.",
+          "hint": "mal."
+        },
+        {
+          "kind": "mc",
+          "q": "He is hesitating. Which particle encourages him?",
+          "qEn": "doch, not just a moment.",
+          "options": ["doch", "mal", "denn"],
+          "answer": 0,
+          "why": "doch.",
+          "hint": "doch."
+        },
+        {
+          "kind": "mc",
+          "q": "Was heißt ___ denn?",
+          "qEn": "that, not dass.",
+          "options": ["das", "dass", "den"],
+          "answer": 0,
+          "why": "das.",
+          "hint": "das."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Was heißt das denn?",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Was heißt das denn?", "en": "What does that mean, then?" },
+        { "de": "Warten Sie mal.", "en": "Just wait a moment." },
+        { "de": "Kommen Sie doch.", "en": "Do come." },
+        { "de": "Doch, ich habe Schmerzen.", "en": "Yes, I do have pain." }
+      ],
+      "messages": [
+        "Look again at the tone, not a new fact.",
+        "denn softens a question. mal is a moment. doch encourages, or answers keine. Because-denn still means denn er hat.",
+        "Sehr gut. Was heißt das denn?",
+        "Ausgezeichnet. You can soften a question at the bedside."
+      ]
+    }
+  ]
+}

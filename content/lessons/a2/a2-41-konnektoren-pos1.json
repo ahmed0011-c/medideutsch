@@ -1,0 +1,1084 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "a2-41-konnektoren-pos1",
+  "level": "A2",
+  "unit": "Kapitel 41",
+  "chapter": 41,
+  "chapters": [41],
+  "title": "Deshalb, sonst, dann, danach",
+  "subtitle": "Connectors in position 1",
+  "glossary": {
+    "deshalb": {
+      "de": "deshalb",
+      "pos": "adverb",
+      "en": "therefore",
+      "emoji": "➡️",
+      "note": "Position 1. The verb is position 2: Deshalb bleibt er im Bett."
+    },
+    "sonst": {
+      "de": "sonst",
+      "pos": "adverb",
+      "en": "otherwise",
+      "emoji": "⚠️",
+      "note": "Position 1: Sonst öffnet sich die Wunde."
+    },
+    "dann": {
+      "de": "dann",
+      "pos": "adverb",
+      "en": "then (the next step)",
+      "emoji": "⏭️",
+      "note": "Not denn. Position 1: Dann rufen wir den Arzt."
+    },
+    "danach": {
+      "de": "danach",
+      "pos": "adverb",
+      "en": "after that",
+      "emoji": "⏩",
+      "note": "Position 1: Danach misst die Pflegekraft Fieber."
+    },
+    "bleibt": {
+      "de": "bleiben → er bleibt",
+      "pos": "form",
+      "en": "stays",
+      "emoji": "⏸️",
+      "note": "im Bett is location (wo?), not movement."
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "im": {
+      "de": "im (= in dem)",
+      "pos": "preposition",
+      "en": "in the",
+      "emoji": "📥",
+      "note": "Location: im Bett. Movement into the bed would be ins Bett."
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🤲"
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "😣",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "öffnet": {
+      "de": "öffnen → sie öffnet",
+      "pos": "form",
+      "en": "opens",
+      "emoji": "🩹",
+      "note": "The wound opens: die Wunde öffnet sich."
+    },
+    "sich": {
+      "de": "sich",
+      "pos": "pronoun",
+      "en": "himself; herself; itself",
+      "emoji": "🔁"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🔴"
+    },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "emoji": "🩹",
+      "article": "die",
+      "plural": "die Wunden"
+    },
+    "rufen": {
+      "de": "rufen → wir rufen",
+      "pos": "form",
+      "en": "we call",
+      "emoji": "📞"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)",
+      "emoji": "🔵"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "Accusative singular: den Arzt."
+    },
+    "misst": {
+      "de": "messen → er/sie misst",
+      "pos": "form",
+      "en": "measures",
+      "emoji": "📏",
+      "note": "e → i: du misst, er misst."
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🤒",
+      "article": "das"
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🗣️",
+      "article": "die",
+      "plural": "die Übergaben"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "the nurse's name",
+      "emoji": "🧑‍⚕️"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Connectors that invert",
+      "learn": [
+        "deshalb, sonst, dann and danach occupy position 1. The finite verb is position 2, and the subject follows: Deshalb bleibt er im Bett.",
+        "sonst means otherwise: Sonst öffnet sich die Wunde. dann is the next step: Dann rufen wir den Arzt. danach is after that finished step: Danach misst die Pflegekraft Fieber.",
+        "denn and aber stay in position 0 and do not invert. Er bleibt im Bett, denn er hat Schmerzen. dann is not denn.",
+        "The same connector can also follow the verb: Er bleibt deshalb im Bett. The verb is still position 2. im Bett is where he stays."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Schmerz", "article": "der", "plural": "die Schmerzen", "en": "pain", "emoji": "😣", "glossaryKey": "schmerzen" },
+        { "de": "Wunde", "article": "die", "plural": "die Wunden", "en": "wound", "emoji": "🩹", "glossaryKey": "wunde" },
+        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "image": { "type": "svg", "id": "bed" }, "glossaryKey": "bett" },
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor", "emoji": "👨‍⚕️", "glossaryKey": "arzt" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🤒", "image": { "type": "svg", "id": "thermometer" }, "glossaryKey": "fieber" },
+        { "de": "Pflegekraft", "article": "die", "plural": "die Pflegekräfte", "en": "nurse", "emoji": "🧑‍⚕️", "glossaryKey": "pflegekraft" }
+      ],
+      "text": {
+        "title": "Deshalb bleibt er im Bett",
+        "de": "Er hat Schmerzen. Deshalb bleibt er im Bett. Sonst öffnet sich die Wunde. Dann rufen wir den Arzt. Danach misst die Pflegekraft Fieber.",
+        "en": "He has pain. Therefore he stays in bed. Otherwise the wound opens. Then we call the doctor. After that the nurse measures the fever."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Position 1",
+      "practice": "choose",
+      "heroTitle": "Deshalb bleibt er",
+      "heroImage": "bed",
+      "story": [
+        "deshalb, sonst, dann and danach are position 1. The finite verb is position 2. When the connector starts the sentence, the subject follows the verb. This chapter is the present. war, hatte and the Perfekt do not change this word order.",
+        "<b>deshalb</b> means therefore. Er hat Schmerzen. <b>Deshalb bleibt er im Bett.</b> The comma link inverts too: Er hat Schmerzen, deshalb bleibt er im Bett. Not deshalb er bleibt.",
+        "<b>sonst</b> means otherwise. Er bleibt im Bett. <b>Sonst öffnet sich die Wunde.</b> öffnen needs sich here. Not Sonst die Wunde öffnet sich.",
+        "<b>dann</b> is the next step in the plan: <b>Dann rufen wir den Arzt.</b> <b>danach</b> is after that finished step: <b>Danach misst die Pflegekraft Fieber.</b> dann is not denn. denn means because.",
+        "Position 0 does not invert. <b>Er bleibt im Bett, denn er hat Schmerzen.</b> Not denn hat er Schmerzen. <b>Er hat Schmerzen, aber er trinkt Wasser.</b> Not aber trinkt er. If und still fits, the connector is position 0.",
+        "The connector can also sit after the verb: Er bleibt deshalb im Bett. Die Wunde öffnet sich sonst. Wir rufen dann den Arzt. Die Pflegekraft misst danach Fieber. im Bett is location, not ins Bett."
+      ],
+      "questionRule": "Position 1 inverts: verb second, subject after it. Position 0 (denn, aber) does not invert. dann is not denn.",
+      "tables": [
+        {
+          "title": "Position 1",
+          "caption": "The connector is position 1. The verb is position 2.",
+          "columns": ["Stelle", "Satz"],
+          "rows": [
+            { "label": "deshalb", "cells": ["Position 1", "Deshalb bleibt er im Bett."], "highlight": true },
+            { "label": "sonst", "cells": ["Position 1", "Sonst öffnet sich die Wunde."], "highlight": true },
+            { "label": "dann", "cells": ["Position 1", "Dann rufen wir den Arzt."] },
+            { "label": "danach", "cells": ["Position 1", "Danach misst die Pflegekraft Fieber."] }
+          ]
+        },
+        {
+          "title": "denn oder deshalb",
+          "caption": "denn and aber are position 0. deshalb is position 1.",
+          "columns": ["Stelle", "Satz"],
+          "rows": [
+            { "label": "denn", "cells": ["Position 0", "Er bleibt im Bett, denn er hat Schmerzen."], "highlight": true },
+            { "label": "deshalb", "cells": ["Position 1", "Deshalb bleibt er im Bett."], "highlight": true },
+            { "label": "aber", "cells": ["Position 0", "Er hat Schmerzen, aber er trinkt Wasser."] }
+          ]
+        },
+        {
+          "title": "Falsche Stellung",
+          "caption": "The verb has to be position 2.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "deshalb", "cells": ["Deshalb er bleibt im Bett.", "Deshalb bleibt er im Bett."] },
+            { "label": "dann", "cells": ["Dann wir rufen den Arzt.", "Dann rufen wir den Arzt."] },
+            { "label": "danach", "cells": ["Danach die Pflegekraft misst Fieber.", "Danach misst die Pflegekraft Fieber."] },
+            { "label": "denn", "cells": ["Er bleibt im Bett, denn hat er Schmerzen.", "Er bleibt im Bett, denn er hat Schmerzen."] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four order traps",
+        "items": [
+          { "de": "Deshalb bleibt er im Bett.", "en": "deshalb is position 1, bleibt is position 2.", "tone": "ok" },
+          { "de": "Deshalb er bleibt im Bett.", "en": "The subject is not position 2.", "tone": "stop" },
+          { "de": "Sonst öffnet sich die Wunde.", "en": "The verb follows sonst.", "tone": "ok" },
+          { "de": "Sonst sich öffnet die Wunde.", "en": "sich is not the verb.", "tone": "stop" },
+          { "de": "Dann rufen wir den Arzt.", "en": "dann means then.", "tone": "ok" },
+          { "de": "Denn rufen wir den Arzt.", "en": "denn means because, and this order inverts.", "tone": "stop" },
+          { "de": "Er bleibt im Bett, denn er hat Schmerzen.", "en": "denn is position 0. No inversion.", "tone": "ok" },
+          { "de": "Er bleibt im Bett, denn hat er Schmerzen.", "en": "denn does not send hat forward.", "tone": "stop" }
+        ],
+        "tip": "Position 1 inverts. Position 0 does not. dann is not denn."
+      },
+      "quizTitle": "Which order?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Pain, so he stays in bed. Start with deshalb.",
+          "qEn": "Verb second.",
+          "options": ["Deshalb bleibt er im Bett.", "Deshalb er bleibt im Bett.", "Denn bleibt er im Bett."],
+          "answer": 0,
+          "why": "Deshalb bleibt er im Bett.",
+          "hint": "bleibt er."
+        },
+        {
+          "kind": "mc",
+          "q": "Otherwise the wound opens.",
+          "qEn": "Verb second, then sich.",
+          "options": ["Sonst öffnet sich die Wunde.", "Sonst sich öffnet die Wunde.", "Sonst die Wunde öffnet sich."],
+          "answer": 0,
+          "why": "Sonst öffnet sich die Wunde.",
+          "hint": "öffnet sich."
+        },
+        {
+          "kind": "mc",
+          "q": "Then we call the doctor. Not because.",
+          "qEn": "dann, not denn.",
+          "options": ["Dann rufen wir den Arzt.", "Denn rufen wir den Arzt.", "Dann wir rufen den Arzt."],
+          "answer": 0,
+          "why": "Dann rufen wir den Arzt.",
+          "hint": "Dann rufen."
+        },
+        {
+          "kind": "mc",
+          "q": "After that, the nurse measures the fever.",
+          "qEn": "danach is position 1.",
+          "options": ["Danach misst die Pflegekraft Fieber.", "Danach die Pflegekraft misst Fieber.", "Danach Fieber misst die Pflegekraft."],
+          "answer": 0,
+          "why": "Danach misst die Pflegekraft Fieber.",
+          "hint": "misst."
+        },
+        {
+          "kind": "mc",
+          "q": "Because he has pain. Position 0.",
+          "qEn": "No inversion after denn.",
+          "options": ["Er bleibt im Bett, denn er hat Schmerzen.", "Er bleibt im Bett, denn hat er Schmerzen.", "Denn bleibt er im Bett."],
+          "answer": 0,
+          "why": "denn er hat Schmerzen.",
+          "hint": "denn er."
+        },
+        {
+          "kind": "mc",
+          "q": "He has pain, but he still drinks.",
+          "qEn": "aber does not invert.",
+          "options": ["Er hat Schmerzen, aber er trinkt Wasser.", "Er hat Schmerzen, aber trinkt er Wasser.", "Aber trinkt er Wasser."],
+          "answer": 0,
+          "why": "aber er trinkt Wasser.",
+          "hint": "aber er."
+        }
+      ]
+    },
+    {
+      "id": "gap-konnektor",
+      "label": "Gap",
+      "title": "Which connector?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the meaning. Position 1 starts the next sentence with a capital. denn and aber stay lowercase after the comma.",
+      "chips": [
+        { "w": "Deshalb", "hint": "therefore. Verb second." },
+        { "w": "Sonst", "hint": "otherwise." },
+        { "w": "Dann", "hint": "then, the next step." },
+        { "w": "Danach", "hint": "after that." },
+        { "w": "denn", "hint": "because. No inversion." },
+        { "w": "aber", "hint": "but. No inversion." }
+      ],
+      "items": [
+        {
+          "before": "Folge: Er hat Schmerzen.",
+          "after": "bleibt er im Bett.",
+          "answer": "Deshalb",
+          "en": "He has pain. Therefore he stays in bed.",
+          "why": "Deshalb bleibt er.",
+          "tip": "Therefore inverts.",
+          "hint": "Deshalb."
+        },
+        {
+          "before": "Gefahr: Er soll im Bett bleiben.",
+          "after": "öffnet sich die Wunde.",
+          "answer": "Sonst",
+          "en": "He should stay in bed. Otherwise the wound opens.",
+          "why": "Sonst öffnet sich die Wunde.",
+          "tip": "Otherwise inverts.",
+          "hint": "Sonst."
+        },
+        {
+          "before": "Nächster Schritt:",
+          "after": "rufen wir den Arzt.",
+          "answer": "Dann",
+          "en": "Then we call the doctor.",
+          "why": "Dann rufen wir.",
+          "tip": "Then, not because.",
+          "hint": "Dann."
+        },
+        {
+          "before": "Nach dem Anruf:",
+          "after": "misst die Pflegekraft Fieber.",
+          "answer": "Danach",
+          "en": "After that the nurse measures the fever.",
+          "why": "Danach misst die Pflegekraft.",
+          "tip": "After that inverts.",
+          "hint": "Danach."
+        },
+        {
+          "before": "Grund, Position 0: Er bleibt im Bett,",
+          "after": "er hat Schmerzen.",
+          "answer": "denn",
+          "en": "He stays in bed because he has pain.",
+          "why": "denn er hat. No inversion.",
+          "tip": "denn, then the subject.",
+          "hint": "denn."
+        },
+        {
+          "before": "Kontrast, Position 0: Er hat Schmerzen,",
+          "after": "er trinkt Wasser.",
+          "answer": "aber",
+          "en": "He has pain, but he drinks water.",
+          "why": "aber er trinkt. No inversion.",
+          "tip": "aber, then the subject.",
+          "hint": "aber."
+        }
+      ]
+    },
+    {
+      "id": "match-konnektor",
+      "type": "compare",
+      "label": "Match",
+      "title": "Meaning and order",
+      "practice": "match",
+      "instructions": "Match the English to the German order. dann is not denn.",
+      "items": [
+        {
+          "prompt": "He has pain. Therefore he stays in bed.",
+          "options": [
+            { "emoji": "🛏️", "label": "Deshalb bleibt er im Bett.", "caption": "Position 1." },
+            { "emoji": "🚫", "label": "Deshalb er bleibt im Bett.", "caption": "Subject before the verb." },
+            { "emoji": "💡", "label": "Denn bleibt er im Bett.", "caption": "denn does not start like this." }
+          ],
+          "answer": 0,
+          "why": "Deshalb bleibt er im Bett.",
+          "hint": "bleibt er."
+        },
+        {
+          "prompt": "Otherwise the wound opens.",
+          "options": [
+            { "emoji": "🩹", "label": "Sonst öffnet sich die Wunde.", "caption": "Verb, then sich." },
+            { "emoji": "🚫", "label": "Sonst sich öffnet die Wunde.", "caption": "sich is not the verb." },
+            { "emoji": "🚫", "label": "Sonst die Wunde öffnet sich.", "caption": "The subject is before the verb." }
+          ],
+          "answer": 0,
+          "why": "Sonst öffnet sich die Wunde.",
+          "hint": "öffnet sich."
+        },
+        {
+          "prompt": "Then we call the doctor.",
+          "options": [
+            { "emoji": "📞", "label": "Dann rufen wir den Arzt.", "caption": "dann, verb second." },
+            { "emoji": "🚫", "label": "Dann wir rufen den Arzt.", "caption": "wir is not the verb." },
+            { "emoji": "💡", "label": "Denn rufen wir den Arzt.", "caption": "denn means because." }
+          ],
+          "answer": 0,
+          "why": "Dann rufen wir den Arzt.",
+          "hint": "Dann rufen."
+        },
+        {
+          "prompt": "After that the nurse measures the fever.",
+          "options": [
+            { "emoji": "📏", "label": "Danach misst die Pflegekraft Fieber.", "caption": "danach, verb second." },
+            { "emoji": "🚫", "label": "Danach die Pflegekraft misst Fieber.", "caption": "The subject is before the verb." },
+            { "emoji": "🚫", "label": "Danach Fieber misst die Pflegekraft.", "caption": "Fieber is not position 2." }
+          ],
+          "answer": 0,
+          "why": "Danach misst die Pflegekraft Fieber.",
+          "hint": "misst."
+        },
+        {
+          "prompt": "Because he has pain. No inversion.",
+          "options": [
+            { "emoji": "💡", "label": "Er bleibt im Bett, denn er hat Schmerzen.", "caption": "Position 0." },
+            { "emoji": "🚫", "label": "Er bleibt im Bett, denn hat er Schmerzen.", "caption": "denn does not invert." },
+            { "emoji": "🚫", "label": "Denn bleibt er im Bett, er hat Schmerzen.", "caption": "denn is not position 1." }
+          ],
+          "answer": 0,
+          "why": "denn er hat Schmerzen.",
+          "hint": "denn er."
+        },
+        {
+          "prompt": "The next step in the plan. Not because.",
+          "options": [
+            { "emoji": "⏭️", "label": "dann", "caption": "Then we call." },
+            { "emoji": "💡", "label": "denn", "caption": "Because. Position 0." },
+            { "emoji": "➡️", "label": "deshalb", "caption": "Therefore." }
+          ],
+          "answer": 0,
+          "why": "dann, not denn.",
+          "hint": "dann."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed he stays in",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the dressing trolley",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer for the fever",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart from the handover",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-pos1",
+      "type": "builder",
+      "label": "Build",
+      "title": "Verb in position 2",
+      "practice": "build",
+      "instructions": "Build the sentence. The connector may start it, or it may follow the verb. Both orders use the same words.",
+      "items": [
+        {
+          "tiles": ["Deshalb", "bleibt", "er", "im", "Bett"],
+          "answers": ["Deshalb bleibt er im Bett", "Er bleibt deshalb im Bett"],
+          "punct": ".",
+          "modal": "bleibt",
+          "inf": "Bett",
+          "question": false,
+          "en": "Therefore he stays in bed.",
+          "hint": "bleibt in position 2.",
+          "feedback": {
+            "end": "Bett closes the sentence: Deshalb bleibt er im Bett.",
+            "fallback": "bleibt is position 2. Deshalb bleibt er, or Er bleibt deshalb."
+          }
+        },
+        {
+          "tiles": ["Sonst", "öffnet", "sich", "die", "Wunde"],
+          "answers": ["Sonst öffnet sich die Wunde", "Die Wunde öffnet sich sonst"],
+          "punct": ".",
+          "modal": "öffnet",
+          "inf": "Wunde",
+          "question": false,
+          "en": "Otherwise the wound opens.",
+          "hint": "öffnet sich.",
+          "feedback": {
+            "end": "Wunde closes the fronted sentence: Sonst öffnet sich die Wunde.",
+            "fallback": "öffnet is position 2. Sonst öffnet sich, or Die Wunde öffnet sich sonst."
+          }
+        },
+        {
+          "tiles": ["Dann", "rufen", "wir", "den", "Arzt"],
+          "answers": ["Dann rufen wir den Arzt", "Wir rufen dann den Arzt"],
+          "punct": ".",
+          "modal": "rufen",
+          "inf": "Arzt",
+          "question": false,
+          "en": "Then we call the doctor.",
+          "hint": "rufen in position 2.",
+          "feedback": {
+            "end": "Arzt closes the fronted sentence: Dann rufen wir den Arzt.",
+            "fallback": "rufen is position 2. Dann rufen wir, or Wir rufen dann."
+          }
+        },
+        {
+          "tiles": ["Danach", "misst", "die", "Pflegekraft", "Fieber"],
+          "answers": ["Danach misst die Pflegekraft Fieber", "Die Pflegekraft misst danach Fieber"],
+          "punct": ".",
+          "modal": "misst",
+          "inf": "Fieber",
+          "question": false,
+          "en": "After that the nurse measures the fever.",
+          "hint": "misst in position 2.",
+          "feedback": {
+            "end": "Fieber closes the fronted sentence: Danach misst die Pflegekraft Fieber.",
+            "fallback": "misst is position 2. Danach misst die Pflegekraft, or Die Pflegekraft misst danach."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-pos1",
+      "label": "Rewrite",
+      "title": "One sentence",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished sentence. Position 1 inverts. denn and aber do not.",
+      "chips": [
+        { "w": "Deshalb bleibt er im Bett", "hint": "therefore." },
+        { "w": "Sonst öffnet sich die Wunde", "hint": "otherwise." },
+        { "w": "Dann rufen wir den Arzt", "hint": "then." },
+        { "w": "Danach misst die Pflegekraft Fieber", "hint": "after that." },
+        { "w": "Er bleibt im Bett, denn er hat Schmerzen", "hint": "because. No inversion." },
+        { "w": "Er hat Schmerzen, aber er trinkt Wasser", "hint": "but. No inversion." }
+      ],
+      "items": [
+        {
+          "before": "Schmerzen, Folge:",
+          "after": ".",
+          "answer": "Deshalb bleibt er im Bett",
+          "en": "Therefore he stays in bed.",
+          "why": "Deshalb bleibt er im Bett.",
+          "tip": "bleibt er.",
+          "hint": "Deshalb."
+        },
+        {
+          "before": "Wunde, sonst:",
+          "after": ".",
+          "answer": "Sonst öffnet sich die Wunde",
+          "en": "Otherwise the wound opens.",
+          "why": "Sonst öffnet sich die Wunde.",
+          "tip": "öffnet sich.",
+          "hint": "Sonst."
+        },
+        {
+          "before": "Arzt, dann:",
+          "after": ".",
+          "answer": "Dann rufen wir den Arzt",
+          "en": "Then we call the doctor.",
+          "why": "Dann rufen wir den Arzt.",
+          "tip": "rufen wir.",
+          "hint": "Dann."
+        },
+        {
+          "before": "Fieber, danach:",
+          "after": ".",
+          "answer": "Danach misst die Pflegekraft Fieber",
+          "en": "After that the nurse measures the fever.",
+          "why": "Danach misst die Pflegekraft Fieber.",
+          "tip": "misst die Pflegekraft.",
+          "hint": "Danach."
+        },
+        {
+          "before": "Grund, denn:",
+          "after": ".",
+          "answer": "Er bleibt im Bett, denn er hat Schmerzen",
+          "en": "He stays in bed because he has pain.",
+          "why": "denn er hat Schmerzen.",
+          "tip": "No inversion.",
+          "hint": "denn er."
+        },
+        {
+          "before": "Kontrast, aber:",
+          "after": ".",
+          "answer": "Er hat Schmerzen, aber er trinkt Wasser",
+          "en": "He has pain, but he drinks water.",
+          "why": "aber er trinkt Wasser.",
+          "tip": "No inversion.",
+          "hint": "aber er."
+        }
+      ]
+    },
+    {
+      "id": "error-pos1",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line has the wrong order or the wrong connector. Choose the correction.",
+      "items": [
+        {
+          "clues": ["Pain, so he stays in bed.", "deshalb is position 1.", "Deshalb er bleibt im Bett."],
+          "options": ["Deshalb bleibt er im Bett.", "Deshalb er bleibt im Bett.", "Denn bleibt er im Bett."],
+          "answer": 0,
+          "reveal": "Deshalb bleibt er im Bett.",
+          "hint": "bleibt er."
+        },
+        {
+          "clues": ["If he does not stay in bed.", "sonst is position 1.", "Sonst sich öffnet die Wunde."],
+          "options": ["Sonst öffnet sich die Wunde.", "Sonst sich öffnet die Wunde.", "Sonst die Wunde öffnet sich."],
+          "answer": 0,
+          "reveal": "Sonst öffnet sich die Wunde.",
+          "hint": "öffnet sich."
+        },
+        {
+          "clues": ["The next step is the call.", "dann is position 1.", "Dann wir rufen den Arzt."],
+          "options": ["Dann rufen wir den Arzt.", "Dann wir rufen den Arzt.", "Denn rufen wir den Arzt."],
+          "answer": 0,
+          "reveal": "Dann rufen wir den Arzt.",
+          "hint": "Dann rufen."
+        },
+        {
+          "clues": ["After that finished step.", "danach is position 1.", "Danach die Pflegekraft misst Fieber."],
+          "options": ["Danach misst die Pflegekraft Fieber.", "Danach die Pflegekraft misst Fieber.", "Danach Fieber misst die Pflegekraft."],
+          "answer": 0,
+          "reveal": "Danach misst die Pflegekraft Fieber.",
+          "hint": "misst."
+        },
+        {
+          "clues": ["Because, and the verb stays in position 2.", "denn is position 0.", "Er bleibt im Bett, denn hat er Schmerzen."],
+          "options": ["Er bleibt im Bett, denn er hat Schmerzen.", "Er bleibt im Bett, denn hat er Schmerzen.", "Denn hat er Schmerzen, er bleibt im Bett."],
+          "answer": 0,
+          "reveal": "Er bleibt im Bett, denn er hat Schmerzen.",
+          "hint": "denn er."
+        },
+        {
+          "clues": ["Pain, but he still drinks.", "aber does not invert.", "Er hat Schmerzen, aber trinkt er Wasser."],
+          "options": ["Er hat Schmerzen, aber er trinkt Wasser.", "Er hat Schmerzen, aber trinkt er Wasser.", "Aber trinkt er Wasser, er hat Schmerzen."],
+          "answer": 0,
+          "reveal": "Er hat Schmerzen, aber er trinkt Wasser.",
+          "hint": "aber er."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-handover",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the speaker and the meaning. Position 1 is capitalised. denn and aber follow the comma.",
+      "chips": [
+        { "w": "Deshalb", "hint": "therefore." },
+        { "w": "Sonst", "hint": "otherwise." },
+        { "w": "Dann", "hint": "then." },
+        { "w": "Danach", "hint": "after that." },
+        { "w": "denn", "hint": "because." },
+        { "w": "aber", "hint": "but." }
+      ],
+      "items": [
+        {
+          "who": "Arzt",
+          "before": "Arzt, Folge: Er hat Schmerzen.",
+          "after": "bleibt er im Bett.",
+          "answer": "Deshalb",
+          "en": "He has pain. Therefore he stays in bed.",
+          "why": "Deshalb bleibt er.",
+          "tip": "Therefore inverts.",
+          "hint": "Deshalb."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, Gefahr: Bleiben Sie im Bett.",
+          "after": "öffnet sich die Wunde.",
+          "answer": "Sonst",
+          "en": "Please stay in bed. Otherwise the wound opens.",
+          "why": "Sonst öffnet sich die Wunde.",
+          "tip": "Otherwise inverts.",
+          "hint": "Sonst."
+        },
+        {
+          "who": "Arzt",
+          "before": "Arzt, Plan:",
+          "after": "rufen wir den Arzt.",
+          "answer": "Dann",
+          "en": "Then we call the doctor.",
+          "why": "Dann rufen wir.",
+          "tip": "Then, not because.",
+          "hint": "Dann."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, nach dem Anruf:",
+          "after": "misst die Pflegekraft Fieber.",
+          "answer": "Danach",
+          "en": "After the call the nurse measures the fever.",
+          "why": "Danach misst die Pflegekraft.",
+          "tip": "After that inverts.",
+          "hint": "Danach."
+        },
+        {
+          "who": "Patient",
+          "before": "Patient, Grund: Ich bleibe im Bett,",
+          "after": "ich habe Schmerzen.",
+          "answer": "denn",
+          "en": "I stay in bed because I have pain.",
+          "why": "denn ich habe. No inversion.",
+          "tip": "denn, then the subject.",
+          "hint": "denn."
+        },
+        {
+          "who": "Patient",
+          "before": "Patient, Kontrast: Ich habe Schmerzen,",
+          "after": "ich trinke Wasser.",
+          "answer": "aber",
+          "en": "I have pain, but I drink water.",
+          "why": "aber ich trinke. No inversion.",
+          "tip": "aber, then the subject.",
+          "hint": "aber."
+        }
+      ]
+    },
+    {
+      "id": "gap-stellung",
+      "label": "Order",
+      "title": "Verb or subject?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Position 1: the chunk starts with the verb. denn and aber: the chunk starts with the subject.",
+      "chips": [
+        { "w": "bleibt er", "hint": "deshalb." },
+        { "w": "öffnet sich", "hint": "sonst." },
+        { "w": "rufen wir", "hint": "dann." },
+        { "w": "misst die Pflegekraft", "hint": "danach." },
+        { "w": "er hat", "hint": "denn." },
+        { "w": "er trinkt", "hint": "aber." }
+      ],
+      "items": [
+        {
+          "before": "Deshalb",
+          "after": "im Bett.",
+          "answer": "bleibt er",
+          "en": "Therefore he stays in bed.",
+          "why": "bleibt er.",
+          "tip": "Verb, then subject.",
+          "hint": "bleibt er."
+        },
+        {
+          "before": "Sonst",
+          "after": "die Wunde.",
+          "answer": "öffnet sich",
+          "en": "Otherwise the wound opens.",
+          "why": "öffnet sich.",
+          "tip": "Verb, then sich.",
+          "hint": "öffnet sich."
+        },
+        {
+          "before": "Dann",
+          "after": "den Arzt.",
+          "answer": "rufen wir",
+          "en": "Then we call the doctor.",
+          "why": "rufen wir.",
+          "tip": "Verb, then subject.",
+          "hint": "rufen wir."
+        },
+        {
+          "before": "Danach",
+          "after": "Fieber.",
+          "answer": "misst die Pflegekraft",
+          "en": "After that the nurse measures the fever.",
+          "why": "misst die Pflegekraft.",
+          "tip": "Verb, then subject.",
+          "hint": "misst."
+        },
+        {
+          "before": "Er bleibt im Bett, denn",
+          "after": "Schmerzen.",
+          "answer": "er hat",
+          "en": "He stays in bed because he has pain.",
+          "why": "denn er hat.",
+          "tip": "Subject, then verb.",
+          "hint": "er hat."
+        },
+        {
+          "before": "Er hat Schmerzen, aber",
+          "after": "Wasser.",
+          "answer": "er trinkt",
+          "en": "He has pain, but he drinks water.",
+          "why": "aber er trinkt.",
+          "tip": "Subject, then verb.",
+          "hint": "er trinkt."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The handover",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Übergabe",
+        "title": "Die Übergabe",
+        "paragraphs": [
+          "Er hat Schmerzen. Deshalb bleibt er im Bett. Sonst öffnet sich die Wunde.",
+          "Dann rufen wir den Arzt. Danach misst die Pflegekraft Fieber."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Warum bleibt er im Bett?",
+          "qEn": "The reason in the note.",
+          "options": ["Er hat Schmerzen.", "Die Wunde öffnet sich.", "Wir rufen den Arzt."],
+          "answer": 0,
+          "why": "Er hat Schmerzen.",
+          "hint": "Schmerzen."
+        },
+        {
+          "kind": "mc",
+          "q": "Was passiert sonst?",
+          "qEn": "If he does not stay.",
+          "options": ["Die Wunde öffnet sich.", "Er hat Schmerzen.", "Die Pflegekraft misst Fieber."],
+          "answer": 0,
+          "why": "Die Wunde öffnet sich.",
+          "hint": "Wunde."
+        },
+        {
+          "kind": "mc",
+          "q": "Wen rufen wir dann?",
+          "qEn": "Accusative.",
+          "options": ["den Arzt", "die Pflegekraft", "die Wunde"],
+          "answer": 0,
+          "why": "den Arzt.",
+          "hint": "Arzt."
+        },
+        {
+          "kind": "mc",
+          "q": "Was misst die Pflegekraft danach?",
+          "qEn": "After the call.",
+          "options": ["Fieber", "den Arzt", "Schmerzen"],
+          "answer": 0,
+          "why": "Fieber.",
+          "hint": "Fieber."
+        }
+      ]
+    },
+    {
+      "id": "writing-plan",
+      "type": "writing",
+      "label": "Writing",
+      "title": "The handover plan",
+      "practice": "writing",
+      "instructions": "Write four sentences. Position 1 inverts. Stop before danach.",
+      "prompt": "He has pain. Therefore he stays in bed. Otherwise the wound opens. Then we call the doctor.",
+      "bullets": ["Schmerzen", "deshalb bleibt", "sonst öffnet", "dann rufen"],
+      "model": "Er hat Schmerzen. Deshalb bleibt er im Bett. Sonst öffnet sich die Wunde. Dann rufen wir den Arzt.",
+      "modelEn": "He has pain. Therefore he stays in bed. Otherwise the wound opens. Then we call the doctor.",
+      "hint": "Schmerzen. Deshalb bleibt. Sonst öffnet. Dann rufen.",
+      "checklist": [
+        { "id": "s", "label": "Schmerzen", "keywords": ["schmerzen"] },
+        { "id": "d", "label": "deshalb bleibt", "keywords": ["deshalb bleibt"] },
+        { "id": "o", "label": "sonst öffnet", "keywords": ["sonst öffnet"] },
+        { "id": "t", "label": "dann rufen", "keywords": ["dann rufen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Deshalb bleibt er",
+      "heroImage": "thermometer",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Position 1: deshalb, sonst, dann, danach. The verb is position 2. Position 0: denn and aber. dann is not denn.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "He has pain, so he stays in bed.",
+          "qEn": "deshalb, verb second.",
+          "options": ["Deshalb bleibt er im Bett.", "Deshalb er bleibt im Bett.", "Denn bleibt er im Bett."],
+          "answer": 0,
+          "why": "Deshalb bleibt er im Bett.",
+          "hint": "bleibt er."
+        },
+        {
+          "kind": "mc",
+          "q": "Otherwise the wound opens.",
+          "qEn": "sonst, verb second.",
+          "options": ["Sonst öffnet sich die Wunde.", "Sonst sich öffnet die Wunde.", "Sonst die Wunde öffnet sich."],
+          "answer": 0,
+          "why": "Sonst öffnet sich die Wunde.",
+          "hint": "öffnet sich."
+        },
+        {
+          "kind": "mc",
+          "q": "Then we call the doctor.",
+          "qEn": "dann, verb second.",
+          "options": ["Dann rufen wir den Arzt.", "Dann wir rufen den Arzt.", "Denn rufen wir den Arzt."],
+          "answer": 0,
+          "why": "Dann rufen wir den Arzt.",
+          "hint": "Dann rufen."
+        },
+        {
+          "kind": "mc",
+          "q": "After that the nurse measures the fever.",
+          "qEn": "danach, verb second.",
+          "options": ["Danach misst die Pflegekraft Fieber.", "Danach die Pflegekraft misst Fieber.", "Danach Fieber misst die Pflegekraft."],
+          "answer": 0,
+          "why": "Danach misst die Pflegekraft Fieber.",
+          "hint": "misst."
+        },
+        {
+          "kind": "mc",
+          "q": "Because he has pain. Position 0.",
+          "qEn": "No inversion.",
+          "options": ["Er bleibt im Bett, denn er hat Schmerzen.", "Er bleibt im Bett, denn hat er Schmerzen.", "Denn bleibt er im Bett."],
+          "answer": 0,
+          "why": "denn er hat Schmerzen.",
+          "hint": "denn er."
+        },
+        {
+          "kind": "mc",
+          "q": "The next step, not the reason. Which word?",
+          "qEn": "dann, not denn.",
+          "options": ["dann", "denn", "deshalb"],
+          "answer": 0,
+          "why": "dann.",
+          "hint": "dann."
+        },
+        {
+          "kind": "mc",
+          "q": "He has pain. The consequence is that he stays. Which word?",
+          "qEn": "therefore.",
+          "options": ["deshalb", "sonst", "dann"],
+          "answer": 0,
+          "why": "deshalb.",
+          "hint": "deshalb."
+        },
+        {
+          "kind": "mc",
+          "q": "If he does not stay, the wound opens. Which word?",
+          "qEn": "otherwise.",
+          "options": ["sonst", "deshalb", "danach"],
+          "answer": 0,
+          "why": "sonst.",
+          "hint": "sonst."
+        },
+        {
+          "kind": "mc",
+          "q": "The call is finished. The nurse measures the fever. Which word?",
+          "qEn": "after that, not because.",
+          "options": ["danach", "denn", "deshalb"],
+          "answer": 0,
+          "why": "danach.",
+          "hint": "danach."
+        },
+        {
+          "kind": "mc",
+          "q": "He has pain, but he still drinks.",
+          "qEn": "aber does not invert.",
+          "options": ["Er hat Schmerzen, aber er trinkt Wasser.", "Er hat Schmerzen, aber trinkt er Wasser.", "Aber trinkt er Wasser."],
+          "answer": 0,
+          "why": "aber er trinkt Wasser.",
+          "hint": "aber er."
+        },
+        {
+          "kind": "mc",
+          "q": "Deshalb ___ im Bett.",
+          "qEn": "Verb, then subject.",
+          "options": ["bleibt er", "er bleibt", "bleiben er"],
+          "answer": 0,
+          "why": "bleibt er.",
+          "hint": "bleibt."
+        },
+        {
+          "kind": "mc",
+          "q": "Sonst ___ die Wunde.",
+          "qEn": "Verb, then sich.",
+          "options": ["öffnet sich", "die Wunde öffnet", "sich öffnet"],
+          "answer": 0,
+          "why": "öffnet sich.",
+          "hint": "öffnet."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Deshalb bleibt er im Bett",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Deshalb bleibt er im Bett.", "en": "Therefore he stays in bed." },
+        { "de": "Sonst öffnet sich die Wunde.", "en": "Otherwise the wound opens." },
+        { "de": "Dann rufen wir den Arzt.", "en": "Then we call the doctor." },
+        { "de": "Danach misst die Pflegekraft Fieber.", "en": "After that the nurse measures the fever." }
+      ],
+      "messages": [
+        "Look again at position 1.",
+        "deshalb, sonst, dann and danach put the verb in position 2. denn and aber do not.",
+        "Sehr gut. Deshalb bleibt er im Bett.",
+        "Ausgezeichnet. You can link a handover with position 1."
+      ]
+    }
+  ]
+}
