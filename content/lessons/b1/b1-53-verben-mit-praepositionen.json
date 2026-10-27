@@ -1,0 +1,1150 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-53-verben-mit-praepositionen",
+  "level": "B1",
+  "unit": "Kapitel 53",
+  "chapter": 53,
+  "chapters": [53],
+  "title": "Sie freut sich über die Blumen",
+  "subtitle": "Verbs with prepositions",
+  "glossary": {
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she; they; formal you",
+      "emoji": "👩",
+      "note": "She is freut and spricht. Formal you and they use freuen and sprechen."
+    },
+    "freut": {
+      "de": "sich freuen → sie freut sich",
+      "pos": "form",
+      "en": "is glad",
+      "emoji": "🌸",
+      "note": "Accusative sich, then über plus accusative. Sie freut sich über die Blumen. ich freue mich. du freust dich. Formal Sie freuen sich."
+    },
+    "sich": {
+      "de": "sich",
+      "pos": "pronoun",
+      "en": "himself, herself, themselves, yourself (formal)",
+      "emoji": "🔁",
+      "note": "Accusative, as in chapter 29. Sie freut sich über die Blumen. Sie kümmert sich um den Patienten."
+    },
+    "über": {
+      "de": "über",
+      "pos": "preposition",
+      "en": "about, with sich freuen",
+      "emoji": "🌸",
+      "note": "sich freuen über takes the accusative: über die Blumen. Not über den Blumen. Place über dem Bett, from chapter 33, stays dative for Wo?."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴", "note": "Accusative plural stays die: die Blumen." },
+    "blumen": {
+      "de": "Blume",
+      "pos": "noun",
+      "en": "flower",
+      "emoji": "🌸",
+      "article": "die",
+      "plural": "die Blumen",
+      "note": "Accusative plural die Blumen. Dative plural is den Blumen."
+    },
+    "familie": {
+      "de": "Familie",
+      "pos": "noun",
+      "en": "family",
+      "emoji": "👨‍👩‍👧",
+      "article": "die",
+      "plural": "die Familien",
+      "note": "Accusative die Familie. Dative der Familie: mit der Familie. denken an takes an die Familie."
+    },
+    "wartet": {
+      "de": "warten → sie wartet auf",
+      "pos": "form",
+      "en": "waits",
+      "emoji": "⏳",
+      "note": "warten auf takes the accusative: wartet auf den Arzt. du wartest. ihr wartet. Not auf dem Arzt for this verb."
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "for, with warten",
+      "emoji": "⏳",
+      "note": "warten auf plus accusative: auf den Arzt. This auf stays with its noun. Place auf dem Tisch, from chapter 33, is Wo? and stays dative."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)",
+      "emoji": "🔵",
+      "note": "auf den Arzt. um den Patienten, one man."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "Accusative den Arzt. Dative dem Arzt."
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "spricht": {
+      "de": "sprechen → sie spricht mit",
+      "pos": "form",
+      "en": "speaks",
+      "emoji": "🗣️",
+      "note": "sprechen mit takes the dative. du sprichst. ihr sprecht. She spricht. Formal Sie sprechen."
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "🗣️",
+      "note": "Always dative, as in chapter 31. mit der Familie. mit dem Arzt. mit dem Patienten, one man."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative, or feminine dative)",
+      "emoji": "🔵",
+      "note": "mit der Familie is feminine dative. der Arzt is masculine nominative."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" },
+    "fragt": {
+      "de": "fragen → sie fragt nach",
+      "pos": "form",
+      "en": "asks",
+      "emoji": "❓",
+      "note": "fragen nach takes the dative: fragt nach dem Befund. du fragst. Ich frage den Arzt, with no nach, still means I ask the doctor."
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "about; after",
+      "emoji": "❓",
+      "note": "Always dative, as in chapter 31. fragen nach dem Befund. Time nach der Visite stays dative too."
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)",
+      "emoji": "🔵",
+      "note": "nach dem Befund. mit dem Arzt. mit dem Patienten."
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding; report",
+      "emoji": "📋",
+      "article": "der",
+      "plural": "die Befunde",
+      "note": "Dative dem Befund after nach. Not nach den Befund."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "👨" },
+    "bittet": {
+      "de": "bitten → er bittet um",
+      "pos": "form",
+      "en": "asks for",
+      "emoji": "🙏",
+      "note": "bitten um takes the accusative. um stays with the noun: bittet um Wasser. Participle gebeten. Ich bitte den Arzt, the person, is still correct."
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "for; around",
+      "emoji": "🙏",
+      "note": "Always accusative, as in chapter 32. bitten um Wasser. sich kümmern um den Patienten. um das Bett still means around."
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das",
+      "note": "No article: um Wasser."
+    },
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🙋" },
+    "denke": {
+      "de": "denken → ich denke an",
+      "pos": "form",
+      "en": "think of",
+      "emoji": "💭",
+      "note": "denken an takes the accusative, and an stays with the noun: denke an die Familie. Not denke die Familie an. Place an der Wand stays dative."
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "of; about, with denken",
+      "emoji": "💭",
+      "note": "denken an plus accusative. This an is not the separable prefix of anrufen from chapter 52."
+    },
+    "kümmert": {
+      "de": "kümmern → sie kümmert sich um",
+      "pos": "form",
+      "en": "looks after",
+      "emoji": "🤝",
+      "note": "sich, then um plus accusative. Sie kümmert sich um den Patienten. ich kümmere mich. Not um dem Patienten."
+    },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Accusative singular um den Patienten. Dative singular mit dem Patienten. One man takes -en. mit den Patienten is several people."
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "The family at the bedside",
+      "learn": [
+        "The verb picks the preposition and the case. Sie freut sich über die Blumen. Die Familie wartet auf den Arzt. Sie spricht mit der Familie.",
+        "über, auf, an and um take the accusative with these verbs. mit and nach take the dative. The preposition stays with its noun. It does not go to the end.",
+        "sich freuen and sich kümmern keep an accusative sich, as in chapter 29. Then the preposition: über die Blumen, um den Patienten.",
+        "Place sentences stay as they were. auf dem Tisch, über dem Bett and an der Wand still answer Wo?. Worauf and darüber come in the next chapter."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Blume", "article": "die", "plural": "die Blumen", "en": "flower", "emoji": "🌸", "glossaryKey": "blumen" },
+        { "de": "Familie", "article": "die", "plural": "die Familien", "en": "family", "emoji": "👨‍👩‍👧", "glossaryKey": "familie" },
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor (male)", "emoji": "👨‍⚕️", "glossaryKey": "arzt" },
+        { "de": "Befund", "article": "der", "plural": "die Befunde", "en": "finding; report", "emoji": "📋", "image": { "type": "svg", "id": "clipboard" }, "glossaryKey": "befund" },
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🤒", "glossaryKey": "patienten" }
+      ],
+      "text": {
+        "title": "Sie freut sich über die Blumen",
+        "de": "Sie freut sich über die Blumen. Die Familie wartet auf den Arzt. Die Pflegekraft spricht mit der Familie. Anna fragt nach dem Befund. Er bittet um Wasser. Ich denke an die Familie. Die Pflegekraft kümmert sich um den Patienten.",
+        "en": "She is glad about the flowers. The family waits for the doctor. The nurse speaks with the family. Anna asks about the report. He asks for water. I think of the family. The nurse looks after the patient."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "The verb picks the case",
+      "practice": "choose",
+      "heroTitle": "Sie freut sich über die Blumen",
+      "heroImage": "bed",
+      "story": [
+        "A family is at the bedside. The verb brings its own preposition, and that preposition brings a fixed case. This is not the Wo? or Wohin? rule. <b>Sie freut sich über die Blumen.</b> über takes the accusative. Plural accusative stays <b>die Blumen</b>. den Blumen is dative.",
+        "<b>Die Familie wartet auf den Arzt.</b> warten auf takes the accusative, even though nobody is moving onto the doctor. auf den Arzt, not auf dem Arzt. A place sentence is still dative: the chart lies auf dem Tisch. That Wo? sentence is correct, and it is a different auf.",
+        "<b>Die Pflegekraft spricht mit der Familie.</b> mit always takes the dative, as in chapter 31. die Familie becomes <b>der Familie</b>. One man is mit dem Patienten, with -en. Several people, mit den Patienten, is dative plural and stays correct. du sprichst. ihr sprecht. She spricht. Formal Sie sprechen. sprechen über, about a thing, is also German. This visit uses sprechen mit.",
+        "<b>Anna fragt nach dem Befund.</b> nach always takes the dative. nach dem Befund, not nach den Befund. Ich frage den Arzt, with no nach, still means I ask the doctor. <b>Er bittet um Wasser.</b> um always takes the accusative, as in chapter 32. um stays with Wasser. Ich bitte den Arzt, the person, is still correct. danken stays chapter 22: the person is dative, and this visit does not add für.",
+        "<b>Ich denke an die Familie.</b> denken an takes the accusative, and <b>an stays with the noun</b>. Not Ich denke die Familie an. That end position is the separable prefix of anrufen, from chapter 52. Place an der Wand stays dative for Wo?. <b>Die Pflegekraft kümmert sich um den Patienten.</b> sich is accusative. um den Patienten is accusative singular, one man. Not um dem Patienten.",
+        "In the Perfekt the preposition still sits with its noun, and the participle is last. <b>Sie hat sich über die Blumen gefreut. Ich habe um Ruhe gebeten. Ich habe an die Familie gedacht.</b> gebeten, not gebittet. sich stays just after the auxiliary. Worauf, darüber and darauf are the next chapter. Here every preposition keeps its noun."
+      ],
+      "questionRule": "über, auf, an and um take the accusative with these verbs. mit and nach take the dative. The preposition stays with its noun. die Blumen, not den Blumen. den Patienten, not dem Patienten, after um.",
+      "tables": [
+        {
+          "title": "Verb plus Präposition",
+          "caption": "The case belongs to the verb. The noun follows the preposition.",
+          "columns": ["Kasus", "Satz"],
+          "rows": [
+            { "label": "sich freuen über", "cells": ["Akkusativ", "Sie freut sich über die Blumen."], "highlight": true },
+            { "label": "warten auf", "cells": ["Akkusativ", "Die Familie wartet auf den Arzt."], "highlight": true },
+            { "label": "sprechen mit", "cells": ["Dativ", "Sie spricht mit der Familie."], "highlight": true },
+            { "label": "fragen nach", "cells": ["Dativ", "Anna fragt nach dem Befund."] },
+            { "label": "bitten um", "cells": ["Akkusativ", "Er bittet um Wasser."] },
+            { "label": "denken an", "cells": ["Akkusativ", "Ich denke an die Familie."] },
+            { "label": "sich kümmern um", "cells": ["Akkusativ", "Sie kümmert sich um den Patienten."] }
+          ]
+        },
+        {
+          "title": "ich, du, sie",
+          "caption": "sich and dich are accusative. du sprichst changes the vowel. du wartest.",
+          "columns": ["ich", "du", "sie"],
+          "rows": [
+            { "label": "freuen", "cells": ["freue mich", "freust dich", "freut sich"], "highlight": true },
+            { "label": "sprechen", "cells": ["spreche", "sprichst", "spricht"], "highlight": true },
+            { "label": "warten", "cells": ["warte", "wartest", "wartet"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Wrong case, a missing sich, or a preposition sent to the end.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "Blumen", "cells": ["über den Blumen", "über die Blumen"] },
+            { "label": "Arzt", "cells": ["auf dem Arzt", "auf den Arzt"] },
+            { "label": "Familie", "cells": ["mit die Familie", "mit der Familie"] },
+            { "label": "denken", "cells": ["denke … an", "denke an …"] },
+            { "label": "Patient", "cells": ["um dem Patienten", "um den Patienten"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four preposition traps",
+        "items": [
+          { "de": "Sie freut sich über die Blumen.", "en": "Accusative plural die Blumen.", "tone": "ok" },
+          { "de": "Sie freut sich über den Blumen.", "en": "den Blumen is dative.", "tone": "stop" },
+          { "de": "Die Familie wartet auf den Arzt.", "en": "warten auf takes den.", "tone": "ok" },
+          { "de": "Die Familie wartet auf dem Arzt.", "en": "dem is the place case.", "tone": "stop" },
+          { "de": "Ich denke an die Familie.", "en": "an stays with the noun.", "tone": "ok" },
+          { "de": "Ich denke die Familie an.", "en": "denken does not park an at the end.", "tone": "stop" },
+          { "de": "Sie kümmert sich um den Patienten.", "en": "um den, one man.", "tone": "ok" },
+          { "de": "Sie kümmert sich um dem Patienten.", "en": "um does not take dem.", "tone": "stop" }
+        ],
+        "tip": "Accusative after über, auf, an and um. Dative after mit and nach. The preposition stays with its noun."
+      },
+      "tips": [
+        {
+          "title": "Noun, not the end",
+          "body": "A separable prefix goes to the end. These prepositions do not. an die Familie. um Wasser. auf den Arzt.",
+          "mnemonic": "an die Familie, not die Familie an.",
+          "emoji": "🔗"
+        }
+      ],
+      "quizTitle": "Which case?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "sich freuen, the flowers.",
+          "qEn": "über plus accusative plural.",
+          "options": ["Sie freut sich über die Blumen.", "Sie freut sich über den Blumen.", "Sie freut über die Blumen."],
+          "answer": 0,
+          "why": "über die Blumen. sich.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "warten auf, one doctor.",
+          "qEn": "Accusative. Not the place case.",
+          "options": ["Die Familie wartet auf den Arzt.", "Die Familie wartet auf dem Arzt.", "Die Familie wartet den Arzt."],
+          "answer": 0,
+          "why": "auf den Arzt.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "sprechen mit, die Familie.",
+          "qEn": "mit takes the dative.",
+          "options": ["Sie spricht mit der Familie.", "Sie spricht mit die Familie.", "Sie spricht der Familie."],
+          "answer": 0,
+          "why": "mit der Familie.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "denken an, the family. an stays with the noun.",
+          "qEn": "Accusative. Not a prefix at the end.",
+          "options": ["Ich denke an die Familie.", "Ich denke die Familie an.", "Ich denke an der Familie."],
+          "answer": 0,
+          "why": "an die Familie.",
+          "hint": "an."
+        },
+        {
+          "kind": "mc",
+          "q": "bitten um, water.",
+          "qEn": "um stays with Wasser.",
+          "options": ["Er bittet um Wasser.", "Er bittet Wasser um.", "Er bittet um dem Wasser."],
+          "answer": 0,
+          "why": "um Wasser.",
+          "hint": "um."
+        },
+        {
+          "kind": "mc",
+          "q": "sich kümmern, one man.",
+          "qEn": "um plus accusative.",
+          "options": ["Sie kümmert sich um den Patienten.", "Sie kümmert sich um dem Patienten.", "Sie kümmert den Patienten um."],
+          "answer": 0,
+          "why": "um den Patienten.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "gap-verb",
+      "label": "Gap",
+      "title": "Preposition and case",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the verb. über, auf, an and um take the accusative. mit and nach take the dative. The preposition stays with its noun.",
+      "chips": [
+        { "w": "Sie freut sich über die Blumen", "hint": "die Blumen." },
+        { "w": "Die Familie wartet auf den Arzt", "hint": "auf den." },
+        { "w": "Sie spricht mit der Familie", "hint": "mit der." },
+        { "w": "Anna fragt nach dem Befund", "hint": "nach dem." },
+        { "w": "Ich denke an die Familie", "hint": "an stays." },
+        { "w": "Er bittet um Wasser", "hint": "um Wasser." },
+        { "w": "Sie freut sich über den Blumen", "hint": "not dative." },
+        { "w": "Die Familie wartet auf dem Arzt", "hint": "not dem." },
+        { "w": "Sie spricht mit die Familie", "hint": "not die." },
+        { "w": "Anna fragt nach den Befund", "hint": "not den." },
+        { "w": "Ich denke die Familie an", "hint": "an is not last." },
+        { "w": "Er bittet Wasser um", "hint": "um is not last." }
+      ],
+      "items": [
+        {
+          "before": "sich freuen, Blumen:",
+          "after": ".",
+          "answer": "Sie freut sich über die Blumen",
+          "en": "She is glad about the flowers.",
+          "why": "über die Blumen.",
+          "tip": "die.",
+          "hint": "die."
+        },
+        {
+          "before": "warten auf, one doctor:",
+          "after": ".",
+          "answer": "Die Familie wartet auf den Arzt",
+          "en": "The family waits for the doctor.",
+          "why": "auf den Arzt.",
+          "tip": "den.",
+          "hint": "den."
+        },
+        {
+          "before": "sprechen mit, die Familie:",
+          "after": ".",
+          "answer": "Sie spricht mit der Familie",
+          "en": "She speaks with the family.",
+          "why": "mit der Familie.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "fragen nach, the report:",
+          "after": ".",
+          "answer": "Anna fragt nach dem Befund",
+          "en": "Anna asks about the report.",
+          "why": "nach dem Befund.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "denken an, the family:",
+          "after": ".",
+          "answer": "Ich denke an die Familie",
+          "en": "I think of the family.",
+          "why": "an die Familie. an stays with the noun.",
+          "tip": "an.",
+          "hint": "an."
+        },
+        {
+          "before": "bitten um, water:",
+          "after": ".",
+          "answer": "Er bittet um Wasser",
+          "en": "He asks for water.",
+          "why": "um Wasser.",
+          "tip": "um.",
+          "hint": "um."
+        }
+      ]
+    },
+    {
+      "id": "match-verb",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which preposition?",
+      "practice": "match",
+      "instructions": "Match the sentence. Accusative after über, auf, an and um. Dative after mit and nach. Keep the preposition with its noun.",
+      "items": [
+        {
+          "prompt": "She is glad about the flowers.",
+          "options": [
+            { "emoji": "🌸", "label": "Sie freut sich über die Blumen.", "caption": "die Blumen." },
+            { "emoji": "🚫", "label": "Sie freut sich über den Blumen.", "caption": "Not den." },
+            { "emoji": "🚫", "label": "Sie freut über die Blumen.", "caption": "Needs sich." }
+          ],
+          "answer": 0,
+          "why": "über die Blumen.",
+          "hint": "die."
+        },
+        {
+          "prompt": "The family waits for the doctor.",
+          "options": [
+            { "emoji": "⏳", "label": "Die Familie wartet auf den Arzt.", "caption": "auf den." },
+            { "emoji": "🚫", "label": "Die Familie wartet auf dem Arzt.", "caption": "Not dem." },
+            { "emoji": "🚫", "label": "Die Familie wartet den Arzt.", "caption": "Needs auf." }
+          ],
+          "answer": 0,
+          "why": "auf den Arzt.",
+          "hint": "den."
+        },
+        {
+          "prompt": "She speaks with the family.",
+          "options": [
+            { "emoji": "🗣️", "label": "Sie spricht mit der Familie.", "caption": "mit der." },
+            { "emoji": "🚫", "label": "Sie spricht mit die Familie.", "caption": "Not die." },
+            { "emoji": "🚫", "label": "Sie spricht der Familie.", "caption": "Needs mit." }
+          ],
+          "answer": 0,
+          "why": "mit der Familie.",
+          "hint": "der."
+        },
+        {
+          "prompt": "I think of the family. an stays with the noun.",
+          "options": [
+            { "emoji": "💭", "label": "Ich denke an die Familie.", "caption": "an die." },
+            { "emoji": "🚫", "label": "Ich denke die Familie an.", "caption": "Not at the end." },
+            { "emoji": "🚫", "label": "Ich denke an der Familie.", "caption": "Not der." }
+          ],
+          "answer": 0,
+          "why": "an die Familie.",
+          "hint": "an."
+        },
+        {
+          "prompt": "He asks for water.",
+          "options": [
+            { "emoji": "💧", "label": "Er bittet um Wasser.", "caption": "um Wasser." },
+            { "emoji": "🚫", "label": "Er bittet Wasser um.", "caption": "um is not last." },
+            { "emoji": "🚫", "label": "Er bittet um dem Wasser.", "caption": "Not dem." }
+          ],
+          "answer": 0,
+          "why": "um Wasser.",
+          "hint": "um."
+        },
+        {
+          "prompt": "She looks after one man.",
+          "options": [
+            { "emoji": "🤝", "label": "Sie kümmert sich um den Patienten.", "caption": "um den." },
+            { "emoji": "🚫", "label": "Sie kümmert sich um dem Patienten.", "caption": "Not dem." },
+            { "emoji": "🚫", "label": "Sie kümmert den Patienten um.", "caption": "um is not last." }
+          ],
+          "answer": 0,
+          "why": "um den Patienten.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed where the family waits",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster the nurse looks after",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer on the ward",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart Anna asks about",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-verb",
+      "type": "builder",
+      "label": "Build",
+      "title": "Preposition with its noun",
+      "practice": "build",
+      "instructions": "Build the statement. The preposition stays with its noun. A fronted preposition phrase is also fine. sich stays after the verb.",
+      "items": [
+        {
+          "tiles": ["Sie", "freut", "sich", "über", "die", "Blumen"],
+          "answers": ["Sie freut sich über die Blumen", "Über die Blumen freut sie sich"],
+          "punct": ".",
+          "modal": "freut",
+          "inf": "Blumen",
+          "question": false,
+          "en": "She is glad about the flowers.",
+          "hint": "über die Blumen.",
+          "feedback": {
+            "end": "The plain line ends with Blumen: Sie freut sich über die Blumen.",
+            "fallback": "freut is position 2. Sie freut sich über die Blumen. Or: Über die Blumen freut sie sich."
+          }
+        },
+        {
+          "tiles": ["Die", "Familie", "wartet", "auf", "den", "Arzt"],
+          "answers": ["Die Familie wartet auf den Arzt", "Auf den Arzt wartet die Familie"],
+          "punct": ".",
+          "modal": "wartet",
+          "inf": "Arzt",
+          "question": false,
+          "en": "The family waits for the doctor.",
+          "hint": "auf den Arzt.",
+          "feedback": {
+            "end": "The plain line ends with Arzt: Die Familie wartet auf den Arzt.",
+            "fallback": "wartet is position 2. Die Familie wartet auf den Arzt. Or: Auf den Arzt wartet die Familie."
+          }
+        },
+        {
+          "tiles": ["Die", "Pflegekraft", "spricht", "mit", "der", "Familie"],
+          "answers": ["Die Pflegekraft spricht mit der Familie", "Mit der Familie spricht die Pflegekraft"],
+          "punct": ".",
+          "modal": "spricht",
+          "inf": "Familie",
+          "question": false,
+          "en": "The nurse speaks with the family.",
+          "hint": "mit der Familie.",
+          "feedback": {
+            "end": "The plain line ends with Familie: Die Pflegekraft spricht mit der Familie.",
+            "fallback": "spricht is position 2. Die Pflegekraft spricht mit der Familie."
+          }
+        },
+        {
+          "tiles": ["Anna", "fragt", "nach", "dem", "Befund"],
+          "answers": ["Anna fragt nach dem Befund", "Nach dem Befund fragt Anna"],
+          "punct": ".",
+          "modal": "fragt",
+          "inf": "Befund",
+          "question": false,
+          "en": "Anna asks about the report.",
+          "hint": "nach dem Befund.",
+          "feedback": {
+            "end": "The plain line ends with Befund: Anna fragt nach dem Befund.",
+            "fallback": "fragt is position 2. Anna fragt nach dem Befund. Or: Nach dem Befund fragt Anna."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-verb",
+      "label": "Rewrite",
+      "title": "Person and participle",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished line. du of sprechen is sprichst. ihr is sprecht. The Perfekt keeps über with die Blumen, and gefreut is last.",
+      "chips": [
+        { "w": "Sie freut sich über die Blumen", "hint": "she." },
+        { "w": "Die Familie wartet auf den Arzt", "hint": "auf den." },
+        { "w": "Du sprichst mit der Familie", "hint": "du sprichst." },
+        { "w": "Ihr sprecht mit dem Arzt", "hint": "ihr sprecht." },
+        { "w": "Sie kümmert sich um den Patienten", "hint": "one man." },
+        { "w": "Sie hat sich über die Blumen gefreut", "hint": "gefreut last." },
+        { "w": "Du sprecht mit der Familie", "hint": "sprecht is ihr." },
+        { "w": "Du spricht mit der Familie", "hint": "spricht is she." },
+        { "w": "Ihr spricht mit dem Arzt", "hint": "ihr is sprecht." },
+        { "w": "Sie kümmert sich um dem Patienten", "hint": "not dem." },
+        { "w": "Sie hat sich über die Blumen gefreuen", "hint": "not the infinitive." },
+        { "w": "Sie hat über die Blumen sich gefreut", "hint": "sich is earlier." }
+      ],
+      "items": [
+        {
+          "before": "sich freuen, she:",
+          "after": ".",
+          "answer": "Sie freut sich über die Blumen",
+          "en": "She is glad about the flowers.",
+          "why": "freut sich über die Blumen.",
+          "tip": "die.",
+          "hint": "die."
+        },
+        {
+          "before": "warten auf, the family:",
+          "after": ".",
+          "answer": "Die Familie wartet auf den Arzt",
+          "en": "The family waits for the doctor.",
+          "why": "auf den Arzt.",
+          "tip": "den.",
+          "hint": "den."
+        },
+        {
+          "before": "sprechen mit, du:",
+          "after": ".",
+          "answer": "Du sprichst mit der Familie",
+          "en": "You speak with the family.",
+          "why": "du sprichst. mit der.",
+          "tip": "sprichst.",
+          "hint": "sprichst."
+        },
+        {
+          "before": "sprechen mit, ihr, one doctor:",
+          "after": ".",
+          "answer": "Ihr sprecht mit dem Arzt",
+          "en": "You speak with the doctor.",
+          "why": "ihr sprecht. mit dem Arzt.",
+          "tip": "sprecht.",
+          "hint": "sprecht."
+        },
+        {
+          "before": "sich kümmern, one man:",
+          "after": ".",
+          "answer": "Sie kümmert sich um den Patienten",
+          "en": "She looks after the patient.",
+          "why": "um den Patienten.",
+          "tip": "den.",
+          "hint": "den."
+        },
+        {
+          "before": "sich freuen, Perfekt, she:",
+          "after": ".",
+          "answer": "Sie hat sich über die Blumen gefreut",
+          "en": "She was glad about the flowers.",
+          "why": "hat sich über die Blumen gefreut.",
+          "tip": "gefreut.",
+          "hint": "gefreut."
+        }
+      ]
+    },
+    {
+      "id": "error-verb",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line uses the place case, drops sich, or parks the preposition at the end. Choose the correction.",
+      "items": [
+        {
+          "clues": ["The flowers.", "über takes the accusative.", "Sie freut sich über den Blumen."],
+          "options": ["Sie freut sich über die Blumen.", "Sie freut sich über den Blumen.", "Sie freut über die Blumen."],
+          "answer": 0,
+          "reveal": "Sie freut sich über die Blumen.",
+          "hint": "die."
+        },
+        {
+          "clues": ["Wait for the doctor.", "auf takes the accusative.", "Die Familie wartet auf dem Arzt."],
+          "options": ["Die Familie wartet auf den Arzt.", "Die Familie wartet auf dem Arzt.", "Die Familie wartet den Arzt."],
+          "answer": 0,
+          "reveal": "Die Familie wartet auf den Arzt.",
+          "hint": "den."
+        },
+        {
+          "clues": ["Speak with the family.", "mit takes the dative.", "Sie spricht mit die Familie."],
+          "options": ["Sie spricht mit der Familie.", "Sie spricht mit die Familie.", "Sie spricht der Familie."],
+          "answer": 0,
+          "reveal": "Sie spricht mit der Familie.",
+          "hint": "der."
+        },
+        {
+          "clues": ["Think of the family.", "an stays with the noun.", "Ich denke die Familie an."],
+          "options": ["Ich denke an die Familie.", "Ich denke die Familie an.", "Ich denke an der Familie."],
+          "answer": 0,
+          "reveal": "Ich denke an die Familie.",
+          "hint": "an."
+        },
+        {
+          "clues": ["Ask for water.", "um stays with Wasser.", "Er bittet Wasser um."],
+          "options": ["Er bittet um Wasser.", "Er bittet Wasser um.", "Er bittet um dem Wasser."],
+          "answer": 0,
+          "reveal": "Er bittet um Wasser.",
+          "hint": "um."
+        },
+        {
+          "clues": ["One man.", "um takes den Patienten.", "Sie kümmert sich um dem Patienten."],
+          "options": ["Sie kümmert sich um den Patienten.", "Sie kümmert sich um dem Patienten.", "Sie kümmert den Patienten um."],
+          "answer": 0,
+          "reveal": "Sie kümmert sich um den Patienten.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-visit",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The family waits. Anna thinks of them. The son asks for water. The nurse looks after one man. ich of kümmern is kümmere mich.",
+      "chips": [
+        { "w": "Sie freut sich über die Blumen", "hint": "die Blumen." },
+        { "w": "Wir warten auf den Arzt", "hint": "auf den." },
+        { "w": "Ich spreche mit der Familie", "hint": "ich spreche." },
+        { "w": "Ich denke an die Familie", "hint": "an die." },
+        { "w": "Ich bitte um Wasser", "hint": "um Wasser." },
+        { "w": "Ich kümmere mich um den Patienten", "hint": "um den." },
+        { "w": "Sie freut sich über den Blumen", "hint": "not den." },
+        { "w": "Wir warten auf dem Arzt", "hint": "not dem." },
+        { "w": "Ich spreche mit die Familie", "hint": "not die." },
+        { "w": "Ich denke die Familie an", "hint": "an is not last." },
+        { "w": "Ich bitte Wasser um", "hint": "um is not last." },
+        { "w": "Ich kümmere mich um dem Patienten", "hint": "not dem." }
+      ],
+      "items": [
+        {
+          "who": "Patientin",
+          "before": "sich freuen:",
+          "after": ".",
+          "answer": "Sie freut sich über die Blumen",
+          "en": "She is glad about the flowers.",
+          "why": "über die Blumen.",
+          "tip": "die.",
+          "hint": "die."
+        },
+        {
+          "who": "Familie",
+          "before": "warten auf, wir:",
+          "after": ".",
+          "answer": "Wir warten auf den Arzt",
+          "en": "We wait for the doctor.",
+          "why": "auf den Arzt.",
+          "tip": "den.",
+          "hint": "den."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "sprechen mit, ich:",
+          "after": ".",
+          "answer": "Ich spreche mit der Familie",
+          "en": "I speak with the family.",
+          "why": "ich spreche. mit der.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "who": "Anna",
+          "before": "denken an, ich:",
+          "after": ".",
+          "answer": "Ich denke an die Familie",
+          "en": "I think of the family.",
+          "why": "an die Familie.",
+          "tip": "an.",
+          "hint": "an."
+        },
+        {
+          "who": "Sohn",
+          "before": "bitten um, ich:",
+          "after": ".",
+          "answer": "Ich bitte um Wasser",
+          "en": "I ask for water.",
+          "why": "um Wasser.",
+          "tip": "um.",
+          "hint": "um."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "sich kümmern, ich, one man:",
+          "after": ".",
+          "answer": "Ich kümmere mich um den Patienten",
+          "en": "I look after the patient.",
+          "why": "kümmere mich um den Patienten.",
+          "tip": "den.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "gap-person",
+      "label": "Sentences",
+      "title": "du, ihr, and the participle",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "du of freuen is freust dich, not mir. du of fragen is fragst. ihr of warten is wartet, not wartest. One man after mit is dem Patienten. bitten takes gebeten.",
+      "chips": [
+        { "w": "Ich freue mich über die Blumen", "hint": "mich, not mir." },
+        { "w": "Du denkst an die Familie", "hint": "an die." },
+        { "w": "Du fragst nach dem Befund", "hint": "nach dem." },
+        { "w": "Ihr wartet auf den Arzt", "hint": "ihr wartet." },
+        { "w": "Sie spricht mit dem Patienten", "hint": "one man." },
+        { "w": "Ich habe um Ruhe gebeten", "hint": "gebeten." },
+        { "w": "Ich freue mir über die Blumen", "hint": "not mir." },
+        { "w": "Du denkst die Familie an", "hint": "an is not last." },
+        { "w": "Du fragst nach den Befund", "hint": "not den." },
+        { "w": "Ihr wartest auf den Arzt", "hint": "wartest is du." },
+        { "w": "Sie spricht mit dem Patient", "hint": "needs -en." },
+        { "w": "Ich habe um Ruhe gebittet", "hint": "not gebittet." }
+      ],
+      "items": [
+        {
+          "before": "sich freuen, ich:",
+          "after": ".",
+          "answer": "Ich freue mich über die Blumen",
+          "en": "I am glad about the flowers.",
+          "why": "freue mich. Not mir.",
+          "tip": "mich.",
+          "hint": "mich."
+        },
+        {
+          "before": "denken an, du:",
+          "after": ".",
+          "answer": "Du denkst an die Familie",
+          "en": "You think of the family.",
+          "why": "denkst an die Familie.",
+          "tip": "an.",
+          "hint": "an."
+        },
+        {
+          "before": "fragen nach, du:",
+          "after": ".",
+          "answer": "Du fragst nach dem Befund",
+          "en": "You ask about the report.",
+          "why": "fragst nach dem Befund.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "warten auf, ihr:",
+          "after": ".",
+          "answer": "Ihr wartet auf den Arzt",
+          "en": "You wait for the doctor.",
+          "why": "ihr wartet. auf den.",
+          "tip": "wartet.",
+          "hint": "wartet."
+        },
+        {
+          "before": "sprechen mit, she, one man:",
+          "after": ".",
+          "answer": "Sie spricht mit dem Patienten",
+          "en": "She speaks with the patient.",
+          "why": "mit dem Patienten. Dative singular takes -en.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "bitten um, Perfekt, ich:",
+          "after": ".",
+          "answer": "Ich habe um Ruhe gebeten",
+          "en": "I have asked for quiet.",
+          "why": "um Ruhe gebeten. Not gebittet.",
+          "tip": "gebeten.",
+          "hint": "gebeten."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The visit note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Besuch",
+        "title": "Die Blumen",
+        "paragraphs": [
+          "Sie freut sich über die Blumen. Die Familie wartet auf den Arzt. Die Pflegekraft spricht mit der Familie.",
+          "Anna fragt nach dem Befund. Er bittet um Wasser. Ich denke an die Familie. Die Pflegekraft kümmert sich um den Patienten."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Sie freut sich über die …",
+          "qEn": "The first sentence.",
+          "options": ["Blumen", "Arzt", "Wasser"],
+          "answer": 0,
+          "why": "Sie freut sich über die Blumen.",
+          "hint": "Blumen."
+        },
+        {
+          "kind": "mc",
+          "q": "Die Familie wartet auf …",
+          "qEn": "Accusative.",
+          "options": ["den Arzt", "dem Arzt", "den Blumen"],
+          "answer": 0,
+          "why": "auf den Arzt.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "Mit wem spricht die Pflegekraft?",
+          "qEn": "Dative.",
+          "options": ["mit der Familie", "mit die Familie", "auf den Arzt"],
+          "answer": 0,
+          "why": "mit der Familie.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Anna fragt nach …",
+          "qEn": "Dative.",
+          "options": ["dem Befund", "den Befund", "die Blumen"],
+          "answer": 0,
+          "why": "nach dem Befund.",
+          "hint": "dem."
+        }
+      ]
+    },
+    {
+      "id": "writing-visit",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four visit lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Keep über, auf, mit and an with their nouns.",
+      "prompt": "She is glad about the flowers. The family waits for the doctor. She speaks with the family. I think of the family.",
+      "bullets": ["freut sich über die Blumen", "wartet auf den Arzt", "spricht mit der Familie", "denke an die Familie"],
+      "model": "Sie freut sich über die Blumen. Die Familie wartet auf den Arzt. Sie spricht mit der Familie. Ich denke an die Familie.",
+      "modelEn": "She is glad about the flowers. The family waits for the doctor. She speaks with the family. I think of the family.",
+      "hint": "freut sich über die Blumen. wartet auf den Arzt. spricht mit der Familie. denke an die Familie.",
+      "checklist": [
+        { "id": "f", "label": "freut sich über die Blumen", "keywords": ["freut sich über die blumen"] },
+        { "id": "w", "label": "wartet auf den Arzt", "keywords": ["wartet auf den arzt"] },
+        { "id": "s", "label": "spricht mit der Familie", "keywords": ["spricht mit der familie"] },
+        { "id": "d", "label": "denke an die Familie", "keywords": ["denke an die familie"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Sie freut sich über die Blumen",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "über die Blumen. auf den Arzt. mit der Familie. an die Familie. um Wasser. um den Patienten. nach dem Befund. du sprichst. ihr sprecht. Formal Sie freuen sich. gebeten.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "sich freuen, the flowers, she.",
+          "qEn": "die Blumen.",
+          "options": ["Sie freut sich über die Blumen.", "Sie freut sich über den Blumen.", "Sie freut über die Blumen."],
+          "answer": 0,
+          "why": "über die Blumen.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "warten auf, one doctor.",
+          "qEn": "Accusative.",
+          "options": ["Die Familie wartet auf den Arzt.", "Die Familie wartet auf dem Arzt.", "Die Familie wartet den Arzt."],
+          "answer": 0,
+          "why": "auf den Arzt.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "sprechen mit, die Familie, she.",
+          "qEn": "Dative.",
+          "options": ["Sie spricht mit der Familie.", "Sie spricht mit die Familie.", "Sie spricht der Familie."],
+          "answer": 0,
+          "why": "mit der Familie.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "denken an. an stays with the noun.",
+          "qEn": "Accusative.",
+          "options": ["Ich denke an die Familie.", "Ich denke die Familie an.", "Ich denke an der Familie."],
+          "answer": 0,
+          "why": "an die Familie.",
+          "hint": "an."
+        },
+        {
+          "kind": "mc",
+          "q": "bitten um, water.",
+          "qEn": "um stays with Wasser.",
+          "options": ["Er bittet um Wasser.", "Er bittet Wasser um.", "Er bittet um dem Wasser."],
+          "answer": 0,
+          "why": "um Wasser.",
+          "hint": "um."
+        },
+        {
+          "kind": "mc",
+          "q": "sich kümmern, one man.",
+          "qEn": "um den.",
+          "options": ["Sie kümmert sich um den Patienten.", "Sie kümmert sich um dem Patienten.", "Sie kümmert den Patienten um."],
+          "answer": 0,
+          "why": "um den Patienten.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "sprechen mit, du.",
+          "qEn": "sprichst.",
+          "options": ["Du sprichst mit der Familie.", "Du sprecht mit der Familie.", "Du spricht mit der Familie."],
+          "answer": 0,
+          "why": "du sprichst.",
+          "hint": "sprichst."
+        },
+        {
+          "kind": "mc",
+          "q": "sich freuen, du.",
+          "qEn": "dich, not mir.",
+          "options": ["Du freust dich über die Blumen.", "Du freust mir über die Blumen.", "Du freust dich über den Blumen."],
+          "answer": 0,
+          "why": "freust dich über die Blumen.",
+          "hint": "dich."
+        },
+        {
+          "kind": "mc",
+          "q": "sprechen mit, ihr, one doctor.",
+          "qEn": "sprecht. dem Arzt.",
+          "options": ["Ihr sprecht mit dem Arzt.", "Ihr spricht mit dem Arzt.", "Ihr sprechen mit dem Arzt."],
+          "answer": 0,
+          "why": "ihr sprecht mit dem Arzt.",
+          "hint": "sprecht."
+        },
+        {
+          "kind": "mc",
+          "q": "Formal Sie, not she. Glad about the flowers.",
+          "qEn": "freuen, not freut.",
+          "options": ["Sie freuen sich über die Blumen.", "Sie freut sich über die Blumen.", "Sie freuen über die Blumen."],
+          "answer": 0,
+          "why": "Formal Sie freuen sich. freut is she.",
+          "hint": "freuen."
+        },
+        {
+          "kind": "mc",
+          "q": "fragen nach, the report.",
+          "qEn": "Dative dem.",
+          "options": ["Anna fragt nach dem Befund.", "Anna fragt nach den Befund.", "Anna fragt dem Befund."],
+          "answer": 0,
+          "why": "nach dem Befund.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Perfekt. bitten um Ruhe.",
+          "qEn": "gebeten. um stays with Ruhe.",
+          "options": ["Ich habe um Ruhe gebeten.", "Ich habe um Ruhe gebittet.", "Ich habe Ruhe umgebeten."],
+          "answer": 0,
+          "why": "um Ruhe gebeten.",
+          "hint": "gebeten."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Sie freut sich über die Blumen",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Sie freut sich über die Blumen.", "en": "She is glad about the flowers." },
+        { "de": "Die Familie wartet auf den Arzt.", "en": "The family waits for the doctor." },
+        { "de": "Sie spricht mit der Familie.", "en": "She speaks with the family." },
+        { "de": "Ich denke an die Familie.", "en": "I think of the family." }
+      ],
+      "messages": [
+        "über, auf, an and um take the accusative. mit and nach take the dative. The preposition stays with its noun.",
+        "über die Blumen. auf den Arzt. mit der Familie. nach dem Befund. um Wasser. um den Patienten. an die Familie.",
+        "Sehr gut. Sie freut sich über die Blumen.",
+        "Ausgezeichnet. You can keep the verb’s preposition and its case together."
+      ]
+    }
+  ]
+}

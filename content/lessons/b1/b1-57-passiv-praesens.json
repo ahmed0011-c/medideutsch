@@ -1,0 +1,1107 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-57-passiv-praesens",
+  "level": "B1",
+  "unit": "Kapitel 57",
+  "chapter": 57,
+  "chapters": [57],
+  "title": "Das Auto wird gebaut",
+  "subtitle": "Passive, part 1",
+  "glossary": {
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
+    "auto": {
+      "de": "Auto",
+      "pos": "noun",
+      "en": "car",
+      "emoji": "🚗",
+      "article": "das",
+      "plural": "die Autos",
+      "note": "Das Auto wird gebaut. The participle is gebaut."
+    },
+    "wird": {
+      "de": "werden → sie wird",
+      "pos": "form",
+      "en": "is (passive, singular)",
+      "emoji": "🔁",
+      "note": "Present passive, singular. Die Wunde wird gereinigt. She wird. wurde is the past passive, chapter 58. würde is Konjunktiv II, chapter 55. wird plus an infinitive is chapter 59."
+    },
+    "gebaut": {
+      "de": "bauen → gebaut",
+      "pos": "participle",
+      "en": "built",
+      "emoji": "🚗",
+      "note": "Das Auto wird gebaut. Not gebauen."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "emoji": "🩹",
+      "article": "die",
+      "plural": "die Wunden",
+      "note": "Die Wunde wird gereinigt."
+    },
+    "gereinigt": {
+      "de": "reinigen → gereinigt",
+      "pos": "participle",
+      "en": "cleaned",
+      "emoji": "🩹",
+      "note": "Participle at the end. Die Wunde wird gereinigt. Not gereinigen."
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten",
+      "note": "Die Tablette wird gegeben. Taken: Die Tablette wird eingenommen."
+    },
+    "gegeben": {
+      "de": "geben → gegeben",
+      "pos": "participle",
+      "en": "given",
+      "emoji": "💊",
+      "note": "Die Tablette wird gegeben. Not gegibt."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative, or feminine dative)",
+      "emoji": "🔵",
+      "note": "Nominative: der Patient. Feminine dative after von: von der Pflegekraft."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative singular, no -en: Der Patient wird untersucht. The active object was den Patienten."
+    },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative plural: Die Patienten werden untersucht."
+    },
+    "untersucht": {
+      "de": "untersuchen → untersucht",
+      "pos": "participle",
+      "en": "examined",
+      "emoji": "🩺",
+      "note": "No extra ge-. Der Patient wird untersucht. Not geuntersucht."
+    },
+    "werden": {
+      "de": "werden → sie werden",
+      "pos": "form",
+      "en": "are (passive, plural or formal you)",
+      "emoji": "🔁",
+      "note": "wir, they, and formal Sie. Die Patienten werden untersucht. She wird."
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "Das Fieber wird gemessen."
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "by",
+      "emoji": "🧑‍⚕️",
+      "note": "The person takes von plus the dative. von der Pflegekraft. vom Arzt = von dem Arzt. Not von die. Not von den Arzt."
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "note": "Feminine dative: von der Pflegekraft."
+    },
+    "gemessen": {
+      "de": "messen → gemessen",
+      "pos": "participle",
+      "en": "measured",
+      "emoji": "🌡️",
+      "note": "Das Fieber wird gemessen. Not gemesst. Chapter 26."
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "📅",
+      "note": "Heute wird die Wunde gereinigt. heute is position 1, so wird is position 2."
+    },
+    "eingenommen": {
+      "de": "einnehmen → eingenommen",
+      "pos": "participle",
+      "en": "taken",
+      "emoji": "💊",
+      "note": "One word. ge sits in the middle. Die Tablette wird eingenommen. Not genommen ein."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "The chart names the thing",
+      "learn": [
+        "Present passive is werden plus the participle at the end. The active object becomes the subject: Die Pflegekraft reinigt die Wunde. → Die Wunde wird gereinigt.",
+        "ich werde, du wirst, er/sie wird, wir werden, ihr werdet, sie/Sie werden. She wird. Formal Sie werden. The participle stays the same.",
+        "Participles: gereinigt, gegeben, gebaut, gemessen (not gemesst), untersucht (no extra ge-), eingenommen (one word).",
+        "A person is von plus the dative: von der Pflegekraft, vom Arzt. The subject stays nominative: Der Patient wird untersucht."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Wunde", "article": "die", "plural": "die Wunden", "en": "wound", "emoji": "🩹", "glossaryKey": "wunde" },
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tablette" },
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Auto", "article": "das", "plural": "die Autos", "en": "car", "emoji": "🚗", "glossaryKey": "auto" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "image": { "type": "svg", "id": "thermometer" }, "glossaryKey": "fieber" }
+      ],
+      "text": {
+        "title": "Das Auto wird gebaut",
+        "de": "Das Auto wird gebaut. Die Wunde wird gereinigt. Die Tablette wird gegeben. Der Patient wird untersucht. Die Patienten werden untersucht. Das Fieber wird von der Pflegekraft gemessen.",
+        "en": "The car is being built. The wound is cleaned. The tablet is given. The patient is examined. The patients are examined. The fever is measured by the nurse."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "werden plus the participle",
+      "practice": "choose",
+      "heroTitle": "Die Wunde wird gereinigt",
+      "heroImage": "bed",
+      "story": [
+        "The chart names the thing, not the worker. That is the present passive: a form of <b>werden</b>, then the <b>participle at the end</b>. The object of the active sentence becomes the subject. <b>Die Pflegekraft reinigt die Wunde. → Die Wunde wird gereinigt.</b> The title works the same way: <b>Das Auto wird gebaut.</b>",
+        "werden still changes with the person. <b>ich werde, du wirst, er/sie wird, wir werden, ihr werdet, sie/Sie werden.</b> She <b>wird</b>. Formal Sie <b>werden</b>. <b>Du wirst untersucht. Die Patienten werden untersucht.</b> The participle does not grow an ending.",
+        "Use the participle you already know. reinigen → <b>gereinigt</b>. geben → <b>gegeben</b>, not gegibt. bauen → <b>gebaut</b>. messen → <b>gemessen</b>, not gemesst, chapter 26. untersuchen takes no extra ge-: <b>untersucht</b>, not geuntersucht. einnehmen stays one word: <b>eingenommen</b>. Not genommen ein.",
+        "The subject is nominative. <b>Der Patient wird untersucht.</b> In the active sentence he was the object: Der Arzt untersucht <b>den Patienten</b>. A person who does the work is <b>von</b> plus the dative. <b>von der Pflegekraft. vom Arzt</b> is von dem Arzt. Not von die. Not von den Arzt.",
+        "<b>Heute wird die Wunde gereinigt.</b> heute is position 1, so wird is position 2, and gereinigt still closes the sentence. The same with the person in front: <b>Von der Pflegekraft wird die Wunde gereinigt.</b>",
+        "<b>wurde</b> plus a participle is the past passive, chapter 58. <b>wird</b> plus an infinitive, Der Arzt wird kommen, is chapter 59. <b>Die Wunde ist gereinigt</b> is a state with sein, not this process. Those sentences stay correct German. This chart uses wird or werden plus the participle."
+      ],
+      "questionRule": "Present passive: werde, wirst, wird, werden, werdet, werden, then the participle at the end. du wirst. She wird. Formal Sie werden. von plus the dative. Nominative subject.",
+      "tables": [
+        {
+          "title": "Aktiv → Passiv",
+          "caption": "The accusative object becomes the nominative subject. werden is position 2. The participle is last.",
+          "columns": ["Aktiv", "Passiv"],
+          "rows": [
+            { "label": "reinigen", "cells": ["Die Pflegekraft reinigt die Wunde.", "Die Wunde wird gereinigt."], "highlight": true },
+            { "label": "geben", "cells": ["Die Pflegekraft gibt die Tablette.", "Die Tablette wird gegeben."], "highlight": true },
+            { "label": "untersuchen", "cells": ["Der Arzt untersucht den Patienten.", "Der Patient wird untersucht."] },
+            { "label": "messen", "cells": ["Die Pflegekraft misst das Fieber.", "Das Fieber wird gemessen."] },
+            { "label": "bauen", "cells": ["Man baut das Auto.", "Das Auto wird gebaut."] }
+          ]
+        },
+        {
+          "title": "werden",
+          "caption": "Present. The participle stays untersucht. She wird. Formal Sie werden.",
+          "columns": ["Form", "Beispiel"],
+          "rows": [
+            { "label": "ich", "cells": ["werde", "Ich werde untersucht."], "highlight": true },
+            { "label": "du", "cells": ["wirst", "Du wirst untersucht."], "highlight": true },
+            { "label": "er/sie", "cells": ["wird", "Sie wird untersucht."] },
+            { "label": "wir", "cells": ["werden", "Wir werden untersucht."] },
+            { "label": "ihr", "cells": ["werdet", "Ihr werdet untersucht."] },
+            { "label": "sie/Sie", "cells": ["werden", "Sie werden untersucht."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Wrong participle, wrong case, or a split. wurde and the infinitive after wird stay correct in later chapters.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "reinigen", "cells": ["gereinigen", "gereinigt"] },
+            { "label": "messen", "cells": ["gemesst", "gemessen"] },
+            { "label": "untersuchen", "cells": ["geuntersucht", "untersucht"] },
+            { "label": "von", "cells": ["von die Pflegekraft", "von der Pflegekraft"] },
+            { "label": "Patient", "cells": ["Den Patienten wird", "Der Patient wird"] },
+            { "label": "einnehmen", "cells": ["genommen ein", "eingenommen"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four passive traps",
+        "items": [
+          { "de": "Die Wunde wird gereinigt.", "en": "wird plus the participle.", "tone": "ok" },
+          { "de": "Die Wunde wird gereinigen.", "en": "gereinigen is not the participle.", "tone": "stop" },
+          { "de": "von der Pflegekraft.", "en": "Feminine dative.", "tone": "ok" },
+          { "de": "von die Pflegekraft.", "en": "von does not take die.", "tone": "stop" },
+          { "de": "Der Patient wird untersucht.", "en": "Nominative subject.", "tone": "ok" },
+          { "de": "Den Patienten wird untersucht.", "en": "den was the active object.", "tone": "stop" },
+          { "de": "Die Tablette wird eingenommen.", "en": "One word.", "tone": "ok" },
+          { "de": "Die Tablette wird genommen ein.", "en": "The participle does not split.", "tone": "stop" }
+        ],
+        "tip": "werden plus the participle at the end. von plus the dative. Nominative subject."
+      },
+      "meaningsTitle": "On the chart",
+      "meanings": [
+        { "modal": "gereinigt", "emoji": "🩹", "en": "is cleaned", "use": "process, not a state", "de": "Die Wunde wird gereinigt.", "deEn": "The wound is cleaned." },
+        { "modal": "gegeben", "emoji": "💊", "en": "is given", "use": "participle of geben", "de": "Die Tablette wird gegeben.", "deEn": "The tablet is given." },
+        { "modal": "untersucht", "emoji": "🩺", "en": "is examined", "use": "nominative subject", "de": "Der Patient wird untersucht.", "deEn": "The patient is examined." },
+        { "modal": "gemessen", "emoji": "🌡️", "en": "is measured", "use": "von der Pflegekraft", "de": "Das Fieber wird gemessen.", "deEn": "The fever is measured." }
+      ],
+      "tips": [
+        {
+          "title": "The participle closes the chart",
+          "body": "Say werden for the person, then the participle last. du wirst. She wird. Formal Sie werden. A worker is von plus the dative. The patient as subject is der Patient.",
+          "mnemonic": "wird gereinigt. von der. Der Patient.",
+          "emoji": "📋"
+        }
+      ],
+      "quizTitle": "Present passive?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Present passive. The wound.",
+          "qEn": "Participle at the end.",
+          "options": ["Die Wunde wird gereinigt.", "Die Wunde wird gereinigen.", "Die Wunde wurde gereinigt."],
+          "answer": 0,
+          "why": "wird gereinigt. gereinigen is not a participle. wurde is the past passive, chapter 58.",
+          "hint": "gereinigt."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. The tablet, geben.",
+          "qEn": "gegeben.",
+          "options": ["Die Tablette wird gegeben.", "Die Tablette wird geben.", "Die Tablette wird gegibt."],
+          "answer": 0,
+          "why": "gegeben. geben is the infinitive, the future pattern in chapter 59. gegibt is not a form.",
+          "hint": "gegeben."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. The patient. Nominative.",
+          "qEn": "No extra ge-.",
+          "options": ["Der Patient wird untersucht.", "Den Patienten wird untersucht.", "Der Patient wird geuntersucht."],
+          "answer": 0,
+          "why": "Der Patient. den Patienten was the active object. untersucht has no extra ge-.",
+          "hint": "Der Patient."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. The fever.",
+          "qEn": "Not gemesst.",
+          "options": ["Das Fieber wird gemessen.", "Das Fieber wird gemesst.", "Das Fieber wird messen."],
+          "answer": 0,
+          "why": "gemessen, chapter 26. messen is the infinitive.",
+          "hint": "gemessen."
+        },
+        {
+          "kind": "mc",
+          "q": "Agent, the nurse. von plus dative.",
+          "qEn": "Feminine dative.",
+          "options": ["von der Pflegekraft", "von die Pflegekraft", "von den Pflegekraft"],
+          "answer": 0,
+          "why": "von der Pflegekraft. von takes the dative. die is not the dative.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. The car.",
+          "qEn": "gebaut.",
+          "options": ["Das Auto wird gebaut.", "Das Auto wird bauen.", "Das Auto wird gebauen."],
+          "answer": 0,
+          "why": "gebaut. bauen after wird is the future pattern, chapter 59. gebauen is not a form.",
+          "hint": "gebaut."
+        }
+      ]
+    },
+    {
+      "id": "gap-passiv",
+      "label": "Gap",
+      "title": "On the chart",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label says present passive. Use wird or werden plus the participle. von takes the dative. The patient as subject is nominative.",
+      "chips": [
+        { "w": "Die Wunde wird gereinigt", "hint": "participle last." },
+        { "w": "Die Tablette wird gegeben", "hint": "gegeben." },
+        { "w": "Der Patient wird untersucht", "hint": "nominative." },
+        { "w": "Das Fieber wird gemessen", "hint": "gemessen." },
+        { "w": "von der Pflegekraft", "hint": "dative." },
+        { "w": "Das Auto wird gebaut", "hint": "gebaut." },
+        { "w": "Die Wunde wird gereinigen", "hint": "not a participle." },
+        { "w": "Die Wunde wurde gereinigt", "hint": "past." },
+        { "w": "Die Tablette wird gegibt", "hint": "not a form." },
+        { "w": "Den Patienten wird untersucht", "hint": "nominative." },
+        { "w": "Das Fieber wird gemesst", "hint": "gemessen." },
+        { "w": "von die Pflegekraft", "hint": "dative der." },
+        { "w": "Das Auto wird gebauen", "hint": "not a form." }
+      ],
+      "items": [
+        {
+          "before": "Present passive, the wound:",
+          "after": ".",
+          "answer": "Die Wunde wird gereinigt",
+          "en": "The wound is cleaned.",
+          "why": "wird gereinigt. wurde is the past passive, chapter 58.",
+          "tip": "gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "before": "Present passive, the tablet, geben:",
+          "after": ".",
+          "answer": "Die Tablette wird gegeben",
+          "en": "The tablet is given.",
+          "why": "gegeben. Not gegibt.",
+          "tip": "gegeben.",
+          "hint": "gegeben."
+        },
+        {
+          "before": "Present passive, the patient, nominative:",
+          "after": ".",
+          "answer": "Der Patient wird untersucht",
+          "en": "The patient is examined.",
+          "why": "Der Patient. den Patienten was the object. No extra ge-.",
+          "tip": "Der Patient.",
+          "hint": "Der."
+        },
+        {
+          "before": "Present passive, the fever:",
+          "after": ".",
+          "answer": "Das Fieber wird gemessen",
+          "en": "The fever is measured.",
+          "why": "gemessen. Not gemesst.",
+          "tip": "gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "before": "Agent, the nurse, dative:",
+          "after": ".",
+          "answer": "von der Pflegekraft",
+          "en": "by the nurse.",
+          "why": "von der. Feminine dative.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Present passive, the car:",
+          "after": ".",
+          "answer": "Das Auto wird gebaut",
+          "en": "The car is being built.",
+          "why": "gebaut. gebauen is not a form.",
+          "tip": "gebaut.",
+          "hint": "gebaut."
+        }
+      ]
+    },
+    {
+      "id": "match-passiv",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt says present passive, the participle, the subject, or the person. One label is that form. One is another real pattern. One is not the form.",
+      "items": [
+        {
+          "prompt": "Present passive, die Wunde",
+          "options": [
+            { "emoji": "🩹", "label": "wird gereinigt", "caption": "present process" },
+            { "emoji": "📅", "label": "wurde gereinigt", "caption": "past, chapter 58" },
+            { "emoji": "🚫", "label": "wird gereinigen", "caption": "not a participle" }
+          ],
+          "answer": 0,
+          "why": "wird gereinigt. wurde is the past passive. gereinigen is not a participle.",
+          "hint": "gereinigt."
+        },
+        {
+          "prompt": "Participle of geben",
+          "options": [
+            { "emoji": "💊", "label": "gegeben", "caption": "wird gegeben" },
+            { "emoji": "🚫", "label": "gegibt", "caption": "not a form" },
+            { "emoji": "➡️", "label": "geben", "caption": "infinitive" }
+          ],
+          "answer": 0,
+          "why": "gegeben. geben after wird is the future pattern, chapter 59.",
+          "hint": "gegeben."
+        },
+        {
+          "prompt": "Subject, one male patient",
+          "options": [
+            { "emoji": "🏥", "label": "Der Patient", "caption": "nominative" },
+            { "emoji": "🚫", "label": "Den Patienten", "caption": "active object" },
+            { "emoji": "🚫", "label": "Der Patienten", "caption": "not the nominative" }
+          ],
+          "answer": 0,
+          "why": "Der Patient wird untersucht. den Patienten was the object.",
+          "hint": "Der."
+        },
+        {
+          "prompt": "Participle of messen",
+          "options": [
+            { "emoji": "🌡️", "label": "gemessen", "caption": "chapter 26" },
+            { "emoji": "🚫", "label": "gemesst", "caption": "not a form" },
+            { "emoji": "➡️", "label": "messen", "caption": "infinitive" }
+          ],
+          "answer": 0,
+          "why": "gemessen. Not gemesst.",
+          "hint": "gemessen."
+        },
+        {
+          "prompt": "von, the nurse",
+          "options": [
+            { "emoji": "🧑‍⚕️", "label": "der", "caption": "von der Pflegekraft" },
+            { "emoji": "🚫", "label": "die", "caption": "not after von" },
+            { "emoji": "🚫", "label": "den", "caption": "not with Pflegekraft" }
+          ],
+          "answer": 0,
+          "why": "von der Pflegekraft. Feminine dative.",
+          "hint": "der."
+        },
+        {
+          "prompt": "werden, du",
+          "options": [
+            { "emoji": "🧑", "label": "wirst", "caption": "du wirst" },
+            { "emoji": "👩", "label": "wird", "caption": "sie wird" },
+            { "emoji": "👥", "label": "werdet", "caption": "ihr werdet" }
+          ],
+          "answer": 0,
+          "why": "du wirst. She wird. ihr werdet.",
+          "hint": "wirst."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed that is prepared",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the cleaned wound",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer when the fever is measured",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart where the passive is written",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-passiv",
+      "type": "builder",
+      "label": "Build",
+      "title": "Participle last",
+      "practice": "build",
+      "instructions": "Build the line. The participle closes it. heute or von der Pflegekraft can stand first, and then wird comes next.",
+      "items": [
+        {
+          "tiles": ["Die", "Wunde", "wird", "gereinigt"],
+          "answers": ["Die Wunde wird gereinigt"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "gereinigt",
+          "question": false,
+          "en": "The wound is cleaned.",
+          "hint": "gereinigt last.",
+          "feedback": {
+            "end": "gereinigt closes the line: Die Wunde wird gereinigt.",
+            "fallback": "Die Wunde wird gereinigt."
+          }
+        },
+        {
+          "tiles": ["Heute", "wird", "die", "Wunde", "gereinigt"],
+          "answers": ["Heute wird die Wunde gereinigt", "Die Wunde wird heute gereinigt"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "gereinigt",
+          "question": false,
+          "en": "The wound is cleaned today.",
+          "hint": "gereinigt last. heute can be first.",
+          "feedback": {
+            "end": "gereinigt closes the line.",
+            "fallback": "Heute wird die Wunde gereinigt. Or: Die Wunde wird heute gereinigt."
+          }
+        },
+        {
+          "tiles": ["Die", "Wunde", "wird", "von", "der", "Pflegekraft", "gereinigt"],
+          "answers": ["Die Wunde wird von der Pflegekraft gereinigt", "Von der Pflegekraft wird die Wunde gereinigt"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "gereinigt",
+          "question": false,
+          "en": "The wound is cleaned by the nurse.",
+          "hint": "von der, then gereinigt.",
+          "feedback": {
+            "end": "gereinigt closes the line.",
+            "fallback": "Die Wunde wird von der Pflegekraft gereinigt. Or: Von der Pflegekraft wird die Wunde gereinigt."
+          }
+        },
+        {
+          "tiles": ["Die", "Tablette", "wird", "eingenommen"],
+          "answers": ["Die Tablette wird eingenommen"],
+          "punct": ".",
+          "modal": "wird",
+          "inf": "eingenommen",
+          "question": false,
+          "en": "The tablet is taken.",
+          "hint": "eingenommen is one word.",
+          "feedback": {
+            "end": "eingenommen closes the line. One word.",
+            "fallback": "Die Tablette wird eingenommen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-passiv",
+      "label": "Rewrite",
+      "title": "From active to passive",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label shows the active sentence. Give the present passive. The object becomes the subject. den Patienten becomes Der Patient. einnehmen becomes eingenommen.",
+      "chips": [
+        { "w": "Die Wunde wird gereinigt", "hint": "the wound." },
+        { "w": "Die Tablette wird gegeben", "hint": "gegeben." },
+        { "w": "Der Patient wird untersucht", "hint": "nominative." },
+        { "w": "Das Fieber wird gemessen", "hint": "gemessen." },
+        { "w": "Das Auto wird gebaut", "hint": "gebaut." },
+        { "w": "Die Tablette wird eingenommen", "hint": "one word." },
+        { "w": "Die Wunde wird gereinigen", "hint": "participle." },
+        { "w": "Die Tablette wird gegibt", "hint": "not a form." },
+        { "w": "Den Patienten wird untersucht", "hint": "nominative." },
+        { "w": "Das Fieber wird gemesst", "hint": "gemessen." },
+        { "w": "Das Auto wird gebauen", "hint": "not a form." },
+        { "w": "Die Tablette wird genommen ein", "hint": "one word." },
+        { "w": "Der Patient wird geuntersucht", "hint": "no extra ge-." }
+      ],
+      "items": [
+        {
+          "before": "Active: Die Pflegekraft reinigt die Wunde. Passive:",
+          "after": ".",
+          "answer": "Die Wunde wird gereinigt",
+          "en": "The wound is cleaned.",
+          "why": "The wound becomes the subject. wird gereinigt.",
+          "tip": "gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "before": "Active: Die Pflegekraft gibt die Tablette. Passive:",
+          "after": ".",
+          "answer": "Die Tablette wird gegeben",
+          "en": "The tablet is given.",
+          "why": "gegeben.",
+          "tip": "gegeben.",
+          "hint": "gegeben."
+        },
+        {
+          "before": "Active: Der Arzt untersucht den Patienten. Passive:",
+          "after": ".",
+          "answer": "Der Patient wird untersucht",
+          "en": "The patient is examined.",
+          "why": "den Patienten becomes Der Patient. untersucht, no extra ge-.",
+          "tip": "Der Patient.",
+          "hint": "Der."
+        },
+        {
+          "before": "Active: Die Pflegekraft misst das Fieber. Passive:",
+          "after": ".",
+          "answer": "Das Fieber wird gemessen",
+          "en": "The fever is measured.",
+          "why": "gemessen. She misst in the active sentence.",
+          "tip": "gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "before": "Active: Man baut das Auto. Passive:",
+          "after": ".",
+          "answer": "Das Auto wird gebaut",
+          "en": "The car is being built.",
+          "why": "gebaut. Man baut stays a correct active sentence.",
+          "tip": "gebaut.",
+          "hint": "gebaut."
+        },
+        {
+          "before": "Active: Der Patient nimmt die Tablette ein. Passive:",
+          "after": ".",
+          "answer": "Die Tablette wird eingenommen",
+          "en": "The tablet is taken.",
+          "why": "eingenommen, one word. The active prefix stays at the end: nimmt ein.",
+          "tip": "eingenommen.",
+          "hint": "eingenommen."
+        }
+      ]
+    },
+    {
+      "id": "error-passiv",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the present passive. Choose the correction. A past wurde-sentence and a future infinitive stay correct German in later chapters.",
+      "items": [
+        {
+          "clues": ["Present passive.", "Participle at the end.", "Die Wunde wird gereinigen."],
+          "options": ["Die Wunde wird gereinigt.", "Die Wunde wird gereinigen.", "Die Wunde wurde gereinigt."],
+          "answer": 0,
+          "reveal": "Die Wunde wird gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "clues": ["geben, participle.", "Not gegibt.", "Die Tablette wird gegibt."],
+          "options": ["Die Tablette wird gegeben.", "Die Tablette wird gegibt.", "Die Tablette wird geben."],
+          "answer": 0,
+          "reveal": "Die Tablette wird gegeben.",
+          "hint": "gegeben."
+        },
+        {
+          "clues": ["The subject is nominative.", "Not den.", "Den Patienten wird untersucht."],
+          "options": ["Der Patient wird untersucht.", "Den Patienten wird untersucht.", "Der Patient wird geuntersucht."],
+          "answer": 0,
+          "reveal": "Der Patient wird untersucht.",
+          "hint": "Der Patient."
+        },
+        {
+          "clues": ["messen, participle.", "Not gemesst.", "Das Fieber wird gemesst."],
+          "options": ["Das Fieber wird gemessen.", "Das Fieber wird gemesst.", "Das Fieber wird messen."],
+          "answer": 0,
+          "reveal": "Das Fieber wird gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "clues": ["von takes the dative.", "The nurse.", "von die Pflegekraft."],
+          "options": ["von der Pflegekraft.", "von die Pflegekraft.", "von den Pflegekraft."],
+          "answer": 0,
+          "reveal": "von der Pflegekraft.",
+          "hint": "der."
+        },
+        {
+          "clues": ["einnehmen stays one word.", "No split.", "Die Tablette wird genommen ein."],
+          "options": ["Die Tablette wird eingenommen.", "Die Tablette wird genommen ein.", "Die Tablette wird geeinnehmen."],
+          "answer": 0,
+          "reveal": "Die Tablette wird eingenommen.",
+          "hint": "eingenommen."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "Reading the chart",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse reads the chart. Present passive. The patient, du, is wirst. The nurse as agent is von der.",
+      "chips": [
+        { "w": "Die Wunde wird gereinigt", "hint": "wound." },
+        { "w": "Die Tablette wird gegeben", "hint": "gegeben." },
+        { "w": "Der Patient wird untersucht", "hint": "nominative." },
+        { "w": "von der Pflegekraft", "hint": "dative." },
+        { "w": "Du wirst untersucht", "hint": "du wirst." },
+        { "w": "Die Tablette wird eingenommen", "hint": "one word." },
+        { "w": "Die Wunde wurde gereinigt", "hint": "past." },
+        { "w": "Die Tablette wird gegibt", "hint": "not a form." },
+        { "w": "Den Patienten wird untersucht", "hint": "nominative." },
+        { "w": "von die Pflegekraft", "hint": "dative der." },
+        { "w": "Du wird untersucht", "hint": "du wirst." },
+        { "w": "Die Tablette wird genommen ein", "hint": "one word." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, the wound:",
+          "after": ".",
+          "answer": "Die Wunde wird gereinigt",
+          "en": "The wound is cleaned.",
+          "why": "wird gereinigt.",
+          "tip": "gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "before": "Nurse, the tablet, geben:",
+          "after": ".",
+          "answer": "Die Tablette wird gegeben",
+          "en": "The tablet is given.",
+          "why": "gegeben.",
+          "tip": "gegeben.",
+          "hint": "gegeben."
+        },
+        {
+          "before": "Nurse, the patient:",
+          "after": ".",
+          "answer": "Der Patient wird untersucht",
+          "en": "The patient is examined.",
+          "why": "Der Patient. Nominative.",
+          "tip": "Der.",
+          "hint": "Der."
+        },
+        {
+          "before": "Who measures the fever? Agent:",
+          "after": ".",
+          "answer": "von der Pflegekraft",
+          "en": "by the nurse.",
+          "why": "von der Pflegekraft.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Nurse to the patient, du:",
+          "after": ".",
+          "answer": "Du wirst untersucht",
+          "en": "You are examined.",
+          "why": "du wirst. She wird.",
+          "tip": "wirst.",
+          "hint": "wirst."
+        },
+        {
+          "before": "Nurse, the tablet, einnehmen:",
+          "after": ".",
+          "answer": "Die Tablette wird eingenommen",
+          "en": "The tablet is taken.",
+          "why": "eingenommen, one word.",
+          "tip": "eingenommen.",
+          "hint": "eingenommen."
+        }
+      ]
+    },
+    {
+      "id": "gap-person",
+      "label": "Gap",
+      "title": "Who is examined?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The participle stays untersucht. The person is on werden: werde, wirst, wird, werden, werdet, werden. She wird. Formal Sie werden.",
+      "chips": [
+        { "w": "Ich werde untersucht", "hint": "ich werde." },
+        { "w": "Du wirst untersucht", "hint": "du wirst." },
+        { "w": "Sie wird untersucht", "hint": "she wird." },
+        { "w": "Wir werden untersucht", "hint": "wir werden." },
+        { "w": "Ihr werdet untersucht", "hint": "ihr werdet." },
+        { "w": "Sie werden untersucht", "hint": "formal Sie." },
+        { "w": "Ich wird untersucht", "hint": "ich werde." },
+        { "w": "Du wird untersucht", "hint": "du wirst." },
+        { "w": "Sie werdet untersucht", "hint": "not werdet." },
+        { "w": "Wir wird untersucht", "hint": "wir werden." },
+        { "w": "Ihr wird untersucht", "hint": "ihr werdet." },
+        { "w": "Du werdet untersucht", "hint": "werdet is ihr." }
+      ],
+      "items": [
+        {
+          "before": "ich:",
+          "after": ".",
+          "answer": "Ich werde untersucht",
+          "en": "I am examined.",
+          "why": "ich werde. Not wird.",
+          "tip": "werde.",
+          "hint": "werde."
+        },
+        {
+          "before": "du:",
+          "after": ".",
+          "answer": "Du wirst untersucht",
+          "en": "You are examined.",
+          "why": "du wirst. werdet is ihr.",
+          "tip": "wirst.",
+          "hint": "wirst."
+        },
+        {
+          "before": "she, not formal Sie:",
+          "after": ".",
+          "answer": "Sie wird untersucht",
+          "en": "She is examined.",
+          "why": "She wird. Formal Sie werden.",
+          "tip": "wird.",
+          "hint": "wird."
+        },
+        {
+          "before": "wir:",
+          "after": ".",
+          "answer": "Wir werden untersucht",
+          "en": "We are examined.",
+          "why": "wir werden.",
+          "tip": "werden.",
+          "hint": "werden."
+        },
+        {
+          "before": "ihr:",
+          "after": ".",
+          "answer": "Ihr werdet untersucht",
+          "en": "You are examined.",
+          "why": "ihr werdet. Not wird.",
+          "tip": "werdet.",
+          "hint": "werdet."
+        },
+        {
+          "before": "formal Sie, not she:",
+          "after": ".",
+          "answer": "Sie werden untersucht",
+          "en": "You are examined.",
+          "why": "Formal Sie werden. She wird.",
+          "tip": "werden.",
+          "hint": "werden."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The chart",
+      "practice": "reading",
+      "instructions": "Read the chart. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Die Wunde",
+        "paragraphs": [
+          "Das Auto wird gebaut. Die Wunde wird gereinigt. Die Tablette wird gegeben.",
+          "Der Patient wird untersucht. Die Patienten werden untersucht. Das Fieber wird von der Pflegekraft gemessen.",
+          "Heute wird die Wunde gereinigt. Die Tablette wird eingenommen."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The wound, from the chart.",
+          "qEn": "Present passive.",
+          "options": ["wird gereinigt", "wird gereinigen", "wurde gereinigt"],
+          "answer": 0,
+          "why": "Die Wunde wird gereinigt.",
+          "hint": "gereinigt."
+        },
+        {
+          "kind": "mc",
+          "q": "The tablet, geben, from the chart.",
+          "qEn": "Participle.",
+          "options": ["wird gegeben", "wird gegibt", "wird geben"],
+          "answer": 0,
+          "why": "Die Tablette wird gegeben.",
+          "hint": "gegeben."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse, from the chart.",
+          "qEn": "von plus dative.",
+          "options": ["von der Pflegekraft", "von die Pflegekraft", "von den Pflegekraft"],
+          "answer": 0,
+          "why": "Das Fieber wird von der Pflegekraft gemessen.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "The car, from the chart.",
+          "qEn": "Participle of bauen.",
+          "options": ["gebaut", "gebauen", "bauen"],
+          "answer": 0,
+          "why": "Das Auto wird gebaut.",
+          "hint": "gebaut."
+        }
+      ]
+    },
+    {
+      "id": "writing-passiv",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four chart lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Use gereinigt, gegeben, untersucht and gemessen.",
+      "prompt": "The wound is cleaned. The tablet is given. The patient is examined. The fever is measured.",
+      "bullets": ["Wunde wird gereinigt", "Tablette wird gegeben", "Patient wird untersucht", "Fieber wird gemessen"],
+      "model": "Die Wunde wird gereinigt. Die Tablette wird gegeben. Der Patient wird untersucht. Das Fieber wird gemessen.",
+      "modelEn": "The wound is cleaned. The tablet is given. The patient is examined. The fever is measured.",
+      "hint": "Wunde wird gereinigt. Tablette wird gegeben. Patient wird untersucht. Fieber wird gemessen.",
+      "checklist": [
+        { "id": "w", "label": "Wunde wird gereinigt", "keywords": ["wunde wird gereinigt"] },
+        { "id": "t", "label": "Tablette wird gegeben", "keywords": ["tablette wird gegeben"] },
+        { "id": "p", "label": "Patient wird untersucht", "keywords": ["patient wird untersucht"] },
+        { "id": "f", "label": "Fieber wird gemessen", "keywords": ["fieber wird gemessen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Die Wunde wird gereinigt",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Present passive: wird or werden plus the participle at the end. du wirst. She wird. Formal Sie werden. von der, vom Arzt. Der Patient, not den Patienten. eingenommen is one word.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Present passive. The wound.",
+          "qEn": "gereinigt.",
+          "options": ["Die Wunde wird gereinigt.", "Die Wunde wird gereinigen.", "Die Wunde wurde gereinigt."],
+          "answer": 0,
+          "why": "wird gereinigt. wurde is the past passive, chapter 58.",
+          "hint": "gereinigt."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. geben.",
+          "qEn": "gegeben.",
+          "options": ["Die Tablette wird gegeben.", "Die Tablette wird geben.", "Die Tablette wird gegibt."],
+          "answer": 0,
+          "why": "gegeben. The infinitive geben is the future pattern, chapter 59.",
+          "hint": "gegeben."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. The patient. Nominative.",
+          "qEn": "Der Patient.",
+          "options": ["Der Patient wird untersucht.", "Den Patienten wird untersucht.", "Der Patient wird geuntersucht."],
+          "answer": 0,
+          "why": "Der Patient. No extra ge-.",
+          "hint": "Der Patient."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. messen.",
+          "qEn": "gemessen.",
+          "options": ["Das Fieber wird gemessen.", "Das Fieber wird gemesst.", "Das Fieber wird messen."],
+          "answer": 0,
+          "why": "gemessen. Not gemesst.",
+          "hint": "gemessen."
+        },
+        {
+          "kind": "mc",
+          "q": "Agent, the nurse. von plus dative.",
+          "qEn": "der.",
+          "options": ["von der Pflegekraft", "von die Pflegekraft", "von den Pflegekraft"],
+          "answer": 0,
+          "why": "von der Pflegekraft.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. Plural patients.",
+          "qEn": "werden.",
+          "options": ["Die Patienten werden untersucht.", "Die Patienten wird untersucht.", "Die Patienten werden untersuchen."],
+          "answer": 0,
+          "why": "Plural werden. The participle is untersucht, not the infinitive.",
+          "hint": "werden."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. du.",
+          "qEn": "wirst.",
+          "options": ["Du wirst untersucht.", "Du wird untersucht.", "Du werdet untersucht."],
+          "answer": 0,
+          "why": "du wirst. She wird. ihr werdet.",
+          "hint": "wirst."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. ich.",
+          "qEn": "werde.",
+          "options": ["Ich werde untersucht.", "Ich wird untersucht.", "Ich wirst untersucht."],
+          "answer": 0,
+          "why": "ich werde. wirst is du. wird is er or sie.",
+          "hint": "werde."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. formal Sie, not she.",
+          "qEn": "werden.",
+          "options": ["Sie werden untersucht.", "Sie wird untersucht.", "Sie werdet untersucht."],
+          "answer": 0,
+          "why": "Formal Sie werden. She wird. werdet is ihr.",
+          "hint": "werden."
+        },
+        {
+          "kind": "mc",
+          "q": "Today, position 1. The wound.",
+          "qEn": "wird is position 2.",
+          "options": ["Heute wird die Wunde gereinigt.", "Heute die Wunde wird gereinigt.", "Heute wird die Wunde reinigen."],
+          "answer": 0,
+          "why": "Heute wird die Wunde gereinigt. The participle closes it.",
+          "hint": "wird."
+        },
+        {
+          "kind": "mc",
+          "q": "Agent, the doctor. von plus dative.",
+          "qEn": "vom = von dem.",
+          "options": ["vom Arzt", "von den Arzt", "von die Arzt"],
+          "answer": 0,
+          "why": "vom Arzt. That is von dem Arzt. den and die are not this dative.",
+          "hint": "vom."
+        },
+        {
+          "kind": "mc",
+          "q": "Present passive. einnehmen. One word.",
+          "qEn": "eingenommen.",
+          "options": ["Die Tablette wird eingenommen.", "Die Tablette wird genommen ein.", "Die Tablette wird einnehmen."],
+          "answer": 0,
+          "why": "eingenommen, one word. Not the infinitive einnehmen.",
+          "hint": "eingenommen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Das Auto wird gebaut",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Die Wunde wird gereinigt.", "en": "The wound is cleaned." },
+        { "de": "Die Tablette wird gegeben.", "en": "The tablet is given." },
+        { "de": "Der Patient wird untersucht.", "en": "The patient is examined." },
+        { "de": "Das Fieber wird von der Pflegekraft gemessen.", "en": "The fever is measured by the nurse." }
+      ],
+      "messages": [
+        "Present passive is werden plus the participle at the end. ich werde, du wirst, she wird, wir and formal Sie werden, ihr werdet.",
+        "The subject is nominative. A person is von plus the dative: von der Pflegekraft, vom Arzt. eingenommen stays one word.",
+        "Sehr gut. Die Wunde wird gereinigt. Die Tablette wird gegeben.",
+        "Ausgezeichnet. You can write the present passive on the chart."
+      ]
+    }
+  ]
+}

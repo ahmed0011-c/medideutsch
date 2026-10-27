@@ -1,0 +1,1174 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-56-konjunktiv-ii-verwendung",
+  "level": "B1",
+  "unit": "Kapitel 56",
+  "chapter": 56,
+  "chapters": [56],
+  "title": "Wenn ich viel Geld hätte, …",
+  "subtitle": "Konjunktiv II use",
+  "glossary": {
+    "wenn": {
+      "de": "wenn",
+      "pos": "conjunction",
+      "en": "if",
+      "emoji": "🔀",
+      "note": "Unreal if: the finite verb closes the clause. Wenn der Schmerz stärker wäre, würden wir den Arzt rufen. A real present wenn stays chapter 42. A repeated time, and als, are chapter 72."
+    },
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🙋" },
+    "viel": {
+      "de": "viel",
+      "pos": "determiner",
+      "en": "much, a lot of",
+      "emoji": "💰",
+      "note": "viel Geld. Geld is a mass noun, so not viele."
+    },
+    "geld": {
+      "de": "Geld",
+      "pos": "noun",
+      "en": "money",
+      "emoji": "💰",
+      "article": "das",
+      "note": "viel Geld. No article. Wenn ich viel Geld hätte, …"
+    },
+    "hätte": {
+      "de": "haben → ich hätte",
+      "pos": "form",
+      "en": "would have",
+      "emoji": "🕐",
+      "note": "Konjunktiv II from chapter 55. Wenn ich Zeit hätte. Wish: Ich hätte gern Wasser. hatte is the past."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🔵" },
+    "schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "⚡",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "note": "Singular. Wenn der Schmerz stärker wäre. Comparative stärker, chapter 38."
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "⚡",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "note": "Plural die Schmerzen. Then wären: Wenn die Schmerzen stärker wären."
+    },
+    "stärker": {
+      "de": "stärker",
+      "pos": "adjective",
+      "en": "stronger, worse (pain)",
+      "emoji": "📈",
+      "note": "Comparative of stark, chapter 38. Predicate, so no ending: stärker wäre. Before a noun, chapter 38 uses der stärkere Schmerz."
+    },
+    "wäre": {
+      "de": "sein → er wäre",
+      "pos": "form",
+      "en": "would be",
+      "emoji": "😴",
+      "note": "Singular Konjunktiv II. Wenn der Schmerz stärker wäre. Wenn das Fieber höher wäre. war is the past."
+    },
+    "wären": {
+      "de": "sein → sie wären",
+      "pos": "form",
+      "en": "would be (plural)",
+      "emoji": "😴",
+      "note": "Plural, and formal Sie. Wenn die Schmerzen stärker wären. Not wäre with a plural noun."
+    },
+    "würden": {
+      "de": "werden → wir würden",
+      "pos": "form",
+      "en": "would (wir, they, formal you)",
+      "emoji": "🙏",
+      "note": "After a fronted wenn-clause: würden wir den Arzt rufen. Formal Sie würden. She würde."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)",
+      "emoji": "🔵",
+      "note": "den Arzt. One man."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "würden wir den Arzt rufen."
+    },
+    "rufen": {
+      "de": "rufen → wir rufen",
+      "pos": "form",
+      "en": "call",
+      "emoji": "📞",
+      "note": "Bare infinitive after würde: den Arzt rufen. No zu."
+    },
+    "zeit": {
+      "de": "Zeit",
+      "pos": "noun",
+      "en": "time",
+      "emoji": "🕐",
+      "article": "die",
+      "plural": "die Zeiten",
+      "note": "No article: Wenn ich Zeit hätte. hätte closes the wenn-clause."
+    },
+    "würde": {
+      "de": "werden → ich würde",
+      "pos": "form",
+      "en": "would",
+      "emoji": "🙏",
+      "note": "ich and she. würde ich warten. würde sie den Arzt rufen. No zu. wurde is the past."
+    },
+    "warten": {
+      "de": "warten → ich warte",
+      "pos": "form",
+      "en": "wait",
+      "emoji": "⏳",
+      "note": "Bare infinitive: würde ich warten. Not zu warten."
+    },
+    "gern": {
+      "de": "gern",
+      "pos": "particle",
+      "en": "gladly",
+      "emoji": "💧",
+      "note": "Wish: Ich hätte gern Wasser. gern from chapter 39. The comparative lieber and am liebsten stay there."
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das",
+      "note": "No article: Ich hätte gern Wasser."
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "in (someone's place)",
+      "emoji": "🧭",
+      "note": "An Ihrer Stelle. an takes the dative in this phrase."
+    },
+    "ihrer": {
+      "de": "Ihrer",
+      "pos": "pronoun",
+      "en": "your (formal, feminine dative)",
+      "emoji": "🧭",
+      "note": "Formal Ihr plus the feminine dative ending. An Ihrer Stelle. Ihre is the nominative. The I stays capital."
+    },
+    "stelle": {
+      "de": "Stelle",
+      "pos": "noun",
+      "en": "place",
+      "emoji": "🧭",
+      "article": "die",
+      "plural": "die Stellen",
+      "note": "An Ihrer Stelle würde ich bleiben. Feminine, so dative Ihrer."
+    },
+    "bleiben": {
+      "de": "bleiben → ich bleibe",
+      "pos": "form",
+      "en": "stay",
+      "emoji": "🛏️",
+      "note": "Bare infinitive at the end: würde ich bleiben. No zu."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she; they; formal you",
+      "emoji": "👩",
+      "note": "She würde. Formal you: Sie sollten, Sie würden. They würden."
+    },
+    "sollten": {
+      "de": "sollen → Sie sollten",
+      "pos": "form",
+      "en": "should (formal you, wir, they)",
+      "emoji": "📋",
+      "note": "Advice: Sie sollten den Arzt rufen. She sollte. du solltest. After letzte Nacht the same spelling is the past, chapter 27. No zu."
+    },
+    "doch": {
+      "de": "doch",
+      "pos": "particle",
+      "en": "if only",
+      "emoji": "✨",
+      "note": "Marks a wish: Wenn ich doch Zeit hätte! The verb stays at the end. Chapter 44 doch still encourages, or answers nein."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "Singular. Wenn das Fieber höher wäre."
+    },
+    "höher": {
+      "de": "höher",
+      "pos": "adjective",
+      "en": "higher",
+      "emoji": "🌡️",
+      "note": "Comparative of hoch, chapter 38. The c drops. Wenn das Fieber höher wäre. Not hoher."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "If it were worse",
+      "learn": [
+        "An unreal wenn uses Konjunktiv II in both parts. The finite verb closes wenn. If wenn comes first, the main verb is next: Wenn der Schmerz stärker wäre, würden wir den Arzt rufen.",
+        "haben and sein use hätte, wäre and wären. Other verbs use würde plus a bare infinitive. No zu. aufstehen stays one word.",
+        "A wish: Ich hätte gern Wasser. Or: Wenn ich doch Zeit hätte! hätte is at the end.",
+        "Advice: An Ihrer Stelle würde ich bleiben. Sie sollten den Arzt rufen. an takes the dative Ihrer. Formal Sie sollten. She sollte."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Schmerz", "article": "der", "plural": "die Schmerzen", "en": "pain", "emoji": "⚡", "glossaryKey": "schmerz" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "image": { "type": "svg", "id": "thermometer" }, "glossaryKey": "fieber" },
+        { "de": "Wasser", "article": "das", "en": "water", "emoji": "💧", "glossaryKey": "wasser" },
+        { "de": "Geld", "article": "das", "en": "money", "emoji": "💰", "glossaryKey": "geld" },
+        { "de": "Stelle", "article": "die", "plural": "die Stellen", "en": "place", "emoji": "🧭", "glossaryKey": "stelle" }
+      ],
+      "text": {
+        "title": "Wenn ich viel Geld hätte, …",
+        "de": "Wenn der Schmerz stärker wäre, würden wir den Arzt rufen. Wenn ich Zeit hätte, würde ich warten. Ich hätte gern Wasser. An Ihrer Stelle würde ich bleiben. Sie sollten den Arzt rufen. Wenn ich doch Zeit hätte!",
+        "en": "If the pain were worse, we would call the doctor. If I had time, I would wait. I would like some water. In your place I would stay. You should call the doctor. If only I had time!"
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Unreal, wish, advice",
+      "practice": "choose",
+      "heroTitle": "Wenn der Schmerz stärker wäre",
+      "heroImage": "bed",
+      "story": [
+        "Chapter 55 built the forms: hätte, wäre, würde, könnte, sollten. This chapter uses them. An unreal if, a wish, and a piece of advice. The title is the pattern: <b>Wenn ich viel Geld hätte, …</b> hätte closes the wenn-clause. viel Geld, not viele.",
+        "A real wenn stays in the present, chapter 42: <b>Wenn er Fieber hat, rufen wir den Arzt.</b> The unreal pair is Konjunktiv II in both parts: <b>Wenn der Schmerz stärker wäre, würden wir den Arzt rufen.</b> The finite verb closes wenn. Put a comma. A fronted wenn-clause is position 1, so <b>würden</b> comes next. The other order is also right: <b>Wir würden den Arzt rufen, wenn der Schmerz stärker wäre.</b>",
+        "haben and sein keep the special forms: <b>Wenn ich Zeit hätte. Wenn der Schmerz stärker wäre. Wenn die Schmerzen stärker wären.</b> das Fieber is singular: <b>Wenn das Fieber höher wäre.</b> höher drops the c, chapter 38. Other verbs take <b>würde</b> plus a bare infinitive at the end. No zu. aufstehen stays one word. käme and ginge exist. The ward line is würde kommen and würde gehen.",
+        "Two wishes. <b>Ich hätte gern Wasser.</b> And <b>Wenn ich doch Zeit hätte!</b> doch marks the wish, and hätte still closes the clause. <b>Hätte ich doch Zeit!</b> is also a wish. Chapter 44 doch still encourages, or answers nein.",
+        "Advice. <b>An Ihrer Stelle würde ich bleiben.</b> an takes the dative. Formal Ihr plus the feminine ending is <b>Ihrer</b>, capital I. Ihre is the nominative. <b>Sie sollten den Arzt rufen.</b> Formal Sie sollten. She sollte. du solltest. After letzte Nacht that spelling is the past, chapter 27.",
+        "The present wenn of a real condition stays chapter 42. wenn for a repeated time, and als, are chapter 72. hätte gerufen is not this chapter. war, hatte and konnte stay correct in a night report."
+      ],
+      "questionRule": "Unreal wenn: verb at the end, then the main verb if wenn is first. Wish: hätte gern, or wenn … doch … hätte. Advice: An Ihrer Stelle, or sollten. No zu.",
+      "tables": [
+        {
+          "title": "Real oder unreal",
+          "caption": "A real condition stays present, chapter 42. An unreal condition uses Konjunktiv II in both parts.",
+          "columns": ["Real", "Unreal"],
+          "rows": [
+            { "label": "Schmerz", "cells": ["Der Schmerz ist stärker.", "Wenn der Schmerz stärker wäre, …"], "highlight": true },
+            { "label": "Zeit", "cells": ["Wenn ich Zeit habe, warte ich.", "Wenn ich Zeit hätte, würde ich warten."], "highlight": true },
+            { "label": "Arzt", "cells": ["Wenn er Fieber hat, rufen wir den Arzt.", "Wenn der Schmerz stärker wäre, würden wir den Arzt rufen."] }
+          ]
+        },
+        {
+          "title": "Vorn oder hinten",
+          "caption": "Fronted wenn: the main verb is next. Main clause first: würde is position 2, and hätte or wäre closes wenn.",
+          "columns": ["vorn", "hinten"],
+          "rows": [
+            { "label": "warten", "cells": ["Wenn ich Zeit hätte, würde ich warten.", "Ich würde warten, wenn ich Zeit hätte."], "highlight": true },
+            { "label": "rufen", "cells": ["Wenn der Schmerz stärker wäre, würden wir den Arzt rufen.", "Wir würden den Arzt rufen, wenn der Schmerz stärker wäre."], "highlight": true }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "These lines break the order, the case, or the infinitive. The present wenn stays correct for a real condition.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "wenn", "cells": ["Wenn ich hätte Zeit", "Wenn ich Zeit hätte"] },
+            { "label": "vorn", "cells": ["…, ich würde warten", "würde ich warten"] },
+            { "label": "an", "cells": ["An Ihre Stelle", "An Ihrer Stelle"] },
+            { "label": "zu", "cells": ["zu rufen", "rufen"] },
+            { "label": "Geld", "cells": ["viele Geld", "viel Geld"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four use traps",
+        "items": [
+          { "de": "Wenn ich Zeit hätte, würde ich warten.", "en": "hätte closes wenn. würde comes next.", "tone": "ok" },
+          { "de": "Wenn ich Zeit hätte, ich würde warten.", "en": "After wenn, the main verb is next.", "tone": "stop" },
+          { "de": "Wenn ich doch Zeit hätte!", "en": "Wish. hätte at the end.", "tone": "ok" },
+          { "de": "Wenn ich doch hätte Zeit!", "en": "The verb does not sit before Zeit.", "tone": "stop" },
+          { "de": "An Ihrer Stelle.", "en": "Dative Ihrer.", "tone": "ok" },
+          { "de": "An Ihre Stelle.", "en": "Ihre has no dative ending.", "tone": "stop" },
+          { "de": "Sie sollten den Arzt rufen.", "en": "Advice. No zu.", "tone": "ok" },
+          { "de": "Sie sollten den Arzt zu rufen.", "en": "sollten takes the bare infinitive.", "tone": "stop" }
+        ],
+        "tip": "Verb at the end of wenn. Main verb next if wenn is first. An Ihrer Stelle. No zu."
+      },
+      "meaningsTitle": "Three uses on the ward",
+      "meanings": [
+        { "modal": "wenn", "emoji": "📈", "en": "unreal if", "use": "both parts Konjunktiv II", "de": "Wenn der Schmerz stärker wäre, würden wir den Arzt rufen.", "deEn": "If the pain were worse, we would call the doctor." },
+        { "modal": "gern", "emoji": "💧", "en": "wish", "use": "hätte gern", "de": "Ich hätte gern Wasser.", "deEn": "I would like some water." },
+        { "modal": "doch", "emoji": "✨", "en": "if only", "use": "verb at the end", "de": "Wenn ich doch Zeit hätte!", "deEn": "If only I had time!" },
+        { "modal": "sollten", "emoji": "📋", "en": "advice", "use": "formal Sie, no zu", "de": "Sie sollten den Arzt rufen.", "deEn": "You should call the doctor." }
+      ],
+      "tips": [
+        {
+          "title": "Close wenn, then the result",
+          "body": "The finite verb ends the wenn-clause. If that clause is first, würde or würden is the next word. A wish can be hätte gern, or wenn with doch. Advice is An Ihrer Stelle, or sollten plus a bare infinitive.",
+          "mnemonic": "wäre … würden. hätte gern. An Ihrer Stelle.",
+          "emoji": "🔀"
+        }
+      ],
+      "quizTitle": "Which use?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Unreal. der Schmerz, singular.",
+          "qEn": "wäre.",
+          "options": ["Wenn der Schmerz stärker wäre.", "Wenn der Schmerz stärker wären.", "Wenn der Schmerz stärker war."],
+          "answer": 0,
+          "why": "Singular wäre. wären is plural. war is the past.",
+          "hint": "wäre."
+        },
+        {
+          "kind": "mc",
+          "q": "Unreal. Wenn ich Zeit hätte, …",
+          "qEn": "The main verb comes next.",
+          "options": ["würde ich warten.", "ich würde warten.", "würde ich zu warten."],
+          "answer": 0,
+          "why": "würde is next. ich würde is the order when Ich starts the sentence. No zu.",
+          "hint": "würde."
+        },
+        {
+          "kind": "mc",
+          "q": "Wish. gern, ich.",
+          "qEn": "hätte gern.",
+          "options": ["Ich hätte gern Wasser.", "Ich hatte gern Wasser.", "Ich hättete gern Wasser."],
+          "answer": 0,
+          "why": "hätte. hatte is the past. hättete is not a form.",
+          "hint": "hätte."
+        },
+        {
+          "kind": "mc",
+          "q": "Wish. doch. Verb at the end.",
+          "qEn": "hätte last.",
+          "options": ["Wenn ich doch Zeit hätte!", "Wenn ich doch hätte Zeit!", "Wenn ich doch Zeit hättete!"],
+          "answer": 0,
+          "why": "Wenn ich doch Zeit hätte! The verb closes wenn.",
+          "hint": "hätte."
+        },
+        {
+          "kind": "mc",
+          "q": "Advice. an, formal Sie, feminine dative.",
+          "qEn": "Ihrer.",
+          "options": ["An Ihrer Stelle würde ich bleiben.", "An Ihre Stelle würde ich bleiben.", "An Ihren Stelle würde ich bleiben."],
+          "answer": 0,
+          "why": "An Ihrer Stelle. an takes the dative. Ihre is nominative.",
+          "hint": "Ihrer."
+        },
+        {
+          "kind": "mc",
+          "q": "Advice. formal Sie. No zu.",
+          "qEn": "sollten, then rufen.",
+          "options": ["Sie sollten den Arzt rufen.", "Sie sollte den Arzt rufen.", "Sie sollten den Arzt zu rufen."],
+          "answer": 0,
+          "why": "Formal Sie sollten. She sollte. No zu. After letzte Nacht, sollte is the past from chapter 27.",
+          "hint": "sollten."
+        }
+      ]
+    },
+    {
+      "id": "gap-use",
+      "label": "Gap",
+      "title": "Finish the line",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label says unreal, wish, or advice. Close wenn with the verb. After a fronted wenn-clause, the main verb comes next.",
+      "chips": [
+        { "w": "Wenn der Schmerz stärker wäre", "hint": "singular wäre." },
+        { "w": "würde ich warten", "hint": "verb next." },
+        { "w": "wenn ich Zeit hätte", "hint": "hätte last." },
+        { "w": "Ich hätte gern Wasser", "hint": "wish." },
+        { "w": "Wenn ich doch Zeit hätte", "hint": "verb last." },
+        { "w": "Sie sollten den Arzt rufen", "hint": "formal Sie." },
+        { "w": "Wenn der Schmerz stärker wären", "hint": "plural verb." },
+        { "w": "Wenn der Schmerz stärker war", "hint": "past." },
+        { "w": "ich würde warten", "hint": "würde is next." },
+        { "w": "würde ich zu warten", "hint": "no zu." },
+        { "w": "wenn ich hätte Zeit", "hint": "verb last." },
+        { "w": "wenn ich Zeit habe", "hint": "real present." },
+        { "w": "Ich hatte gern Wasser", "hint": "past." },
+        { "w": "Ich hättete gern Wasser", "hint": "not a form." },
+        { "w": "Wenn ich doch hätte Zeit", "hint": "verb last." },
+        { "w": "Sie sollte den Arzt rufen", "hint": "she sollte." },
+        { "w": "Sie sollten den Arzt zu rufen", "hint": "no zu." }
+      ],
+      "items": [
+        {
+          "before": "Unreal, singular Schmerz:",
+          "after": ".",
+          "answer": "Wenn der Schmerz stärker wäre",
+          "en": "If the pain were worse.",
+          "why": "Singular wäre. wären is for die Schmerzen. war is the past.",
+          "tip": "wäre.",
+          "hint": "wäre."
+        },
+        {
+          "before": "Unreal, fronted. Wenn ich Zeit hätte,",
+          "after": ".",
+          "answer": "würde ich warten",
+          "en": "I would wait.",
+          "why": "würde comes next. ich würde is the order when Ich starts. No zu.",
+          "tip": "würde.",
+          "hint": "würde."
+        },
+        {
+          "before": "Unreal, hinten. Ich würde warten,",
+          "after": ".",
+          "answer": "wenn ich Zeit hätte",
+          "en": "if I had time.",
+          "why": "hätte closes wenn. habe is the real present from chapter 42.",
+          "tip": "hätte.",
+          "hint": "hätte."
+        },
+        {
+          "before": "Wish, gern:",
+          "after": ".",
+          "answer": "Ich hätte gern Wasser",
+          "en": "I would like some water.",
+          "why": "hätte gern. hatte is the past.",
+          "tip": "gern.",
+          "hint": "gern."
+        },
+        {
+          "before": "Wish, doch, verb last:",
+          "after": "!",
+          "answer": "Wenn ich doch Zeit hätte",
+          "en": "If only I had time!",
+          "why": "hätte closes the wish.",
+          "tip": "hätte.",
+          "hint": "hätte."
+        },
+        {
+          "before": "Advice, formal Sie:",
+          "after": ".",
+          "answer": "Sie sollten den Arzt rufen",
+          "en": "You should call the doctor.",
+          "why": "Formal Sie sollten. She sollte. No zu.",
+          "tip": "sollten.",
+          "hint": "sollten."
+        }
+      ]
+    },
+    {
+      "id": "match-use",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which form?",
+      "practice": "match",
+      "instructions": "The prompt says unreal, wish, or advice. One label is that form. Another is a real past or present. The last one is the wrong person, the wrong word, or not a form.",
+      "items": [
+        {
+          "prompt": "Unreal, der Schmerz, singular",
+          "options": [
+            { "emoji": "📈", "label": "wäre", "caption": "stärker wäre" },
+            { "emoji": "👥", "label": "wären", "caption": "plural Schmerzen" },
+            { "emoji": "📅", "label": "war", "caption": "past" }
+          ],
+          "answer": 0,
+          "why": "Singular wäre. wären is plural. war is the past.",
+          "hint": "wäre."
+        },
+        {
+          "prompt": "Unreal, die Schmerzen, plural",
+          "options": [
+            { "emoji": "📈", "label": "wären", "caption": "stärker wären" },
+            { "emoji": "1️⃣", "label": "wäre", "caption": "singular Schmerz" },
+            { "emoji": "📅", "label": "waren", "caption": "past" }
+          ],
+          "answer": 0,
+          "why": "Plural wären. wäre is singular. waren is the past.",
+          "hint": "wären."
+        },
+        {
+          "prompt": "Fronted wenn, result, ich",
+          "options": [
+            { "emoji": "⏳", "label": "würde ich", "caption": "verb next" },
+            { "emoji": "🔁", "label": "ich würde", "caption": "when Ich starts" },
+            { "emoji": "🚫", "label": "zu warten", "caption": "no zu" }
+          ],
+          "answer": 0,
+          "why": "After wenn, würde is next. ich würde starts the main clause. No zu.",
+          "hint": "würde ich."
+        },
+        {
+          "prompt": "Wish, gern, ich",
+          "options": [
+            { "emoji": "💧", "label": "hätte", "caption": "hätte gern Wasser" },
+            { "emoji": "📅", "label": "hatte", "caption": "past" },
+            { "emoji": "🚫", "label": "hättete", "caption": "not a form" }
+          ],
+          "answer": 0,
+          "why": "hätte. hatte is the past.",
+          "hint": "hätte."
+        },
+        {
+          "prompt": "Advice, an + Stelle, formal Sie",
+          "options": [
+            { "emoji": "🧭", "label": "Ihrer", "caption": "feminine dative" },
+            { "emoji": "🚫", "label": "Ihre", "caption": "nominative" },
+            { "emoji": "🚫", "label": "Ihren", "caption": "not with Stelle" }
+          ],
+          "answer": 0,
+          "why": "An Ihrer Stelle. an takes the dative.",
+          "hint": "Ihrer."
+        },
+        {
+          "prompt": "Unreal. viel Geld, ich",
+          "options": [
+            { "emoji": "💰", "label": "hätte", "caption": "viel Geld hätte" },
+            { "emoji": "📅", "label": "hatte", "caption": "past" },
+            { "emoji": "🚫", "label": "viele", "caption": "not with Geld" }
+          ],
+          "answer": 0,
+          "why": "Wenn ich viel Geld hätte. viele does not go with Geld. hatte is the past.",
+          "hint": "viel."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed where she would stay",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster if the pain were worse",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer if the fever were higher",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart with the advice",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-use",
+      "type": "builder",
+      "label": "Build",
+      "title": "Comma and verb",
+      "practice": "build",
+      "instructions": "Build the line. The comma is printed on its tile. Close wenn with hätte. After a fronted wenn-clause, würde comes next. Advice can start with An Ihrer Stelle or with Ich.",
+      "items": [
+        {
+          "tiles": ["Wenn", "ich", "Zeit", "hätte,", "würde", "ich", "warten"],
+          "answers": ["Wenn ich Zeit hätte, würde ich warten"],
+          "punct": ".",
+          "modal": "würde",
+          "inf": "warten",
+          "question": false,
+          "en": "If I had time, I would wait.",
+          "hint": "hätte, then würde.",
+          "feedback": {
+            "end": "warten stays at the end: Wenn ich Zeit hätte, würde ich warten.",
+            "fallback": "hätte closes wenn. Then würde ich warten."
+          }
+        },
+        {
+          "tiles": ["Ich", "würde", "warten,", "wenn", "ich", "Zeit", "hätte"],
+          "answers": ["Ich würde warten, wenn ich Zeit hätte"],
+          "punct": ".",
+          "modal": "würde",
+          "inf": "hätte",
+          "question": false,
+          "en": "I would wait if I had time.",
+          "hint": "The comma is on warten. hätte is last.",
+          "feedback": {
+            "end": "hätte closes wenn: Ich würde warten, wenn ich Zeit hätte.",
+            "fallback": "Ich würde warten, wenn ich Zeit hätte."
+          }
+        },
+        {
+          "tiles": ["Wenn", "ich", "doch", "Zeit", "hätte"],
+          "answers": ["Wenn ich doch Zeit hätte"],
+          "punct": "!",
+          "modal": "hätte",
+          "inf": "hätte",
+          "question": false,
+          "en": "If only I had time!",
+          "hint": "doch, then Zeit, then hätte.",
+          "feedback": {
+            "end": "The wish ends with hätte: Wenn ich doch Zeit hätte!",
+            "fallback": "Wenn ich doch Zeit hätte!"
+          }
+        },
+        {
+          "tiles": ["An", "Ihrer", "Stelle", "würde", "ich", "bleiben"],
+          "answers": ["An Ihrer Stelle würde ich bleiben", "Ich würde an Ihrer Stelle bleiben"],
+          "punct": ".",
+          "modal": "würde",
+          "inf": "bleiben",
+          "question": false,
+          "en": "In your place I would stay.",
+          "hint": "bleiben at the end.",
+          "feedback": {
+            "end": "bleiben stays at the end.",
+            "fallback": "An Ihrer Stelle würde ich bleiben. Or: Ich würde an Ihrer Stelle bleiben."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-use",
+      "label": "Rewrite",
+      "title": "From real to unreal",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label shows the real line. Give the unreal, the wish, or the advice. höher drops the c. Plural Schmerzen take wären.",
+      "chips": [
+        { "w": "Wenn der Schmerz stärker wäre", "hint": "singular." },
+        { "w": "Wenn die Schmerzen stärker wären", "hint": "plural." },
+        { "w": "Wenn das Fieber höher wäre", "hint": "höher." },
+        { "w": "würde ich warten", "hint": "verb next." },
+        { "w": "Sie sollten den Arzt rufen", "hint": "formal." },
+        { "w": "Ich hätte gern Wasser", "hint": "wish." },
+        { "w": "Wenn der Schmerz stärker wären", "hint": "not plural." },
+        { "w": "Wenn die Schmerzen stärker wäre", "hint": "not singular." },
+        { "w": "Wenn das Fieber hoher wäre", "hint": "höher." },
+        { "w": "ich würde warten", "hint": "würde is next." },
+        { "w": "Sie sollte den Arzt rufen", "hint": "she." },
+        { "w": "Ich hatte gern Wasser", "hint": "past." },
+        { "w": "Wenn ich Zeit habe", "hint": "real present." }
+      ],
+      "items": [
+        {
+          "before": "Real: Der Schmerz ist stärker. Unreal:",
+          "after": ".",
+          "answer": "Wenn der Schmerz stärker wäre",
+          "en": "If the pain were worse.",
+          "why": "wäre. The real line stays Der Schmerz ist stärker, chapter 38.",
+          "tip": "wäre.",
+          "hint": "wäre."
+        },
+        {
+          "before": "Real: Die Schmerzen sind stärker. Unreal:",
+          "after": ".",
+          "answer": "Wenn die Schmerzen stärker wären",
+          "en": "If the pains were worse.",
+          "why": "Plural wären.",
+          "tip": "wären.",
+          "hint": "wären."
+        },
+        {
+          "before": "Real: Das Fieber ist hoch. Unreal:",
+          "after": ".",
+          "answer": "Wenn das Fieber höher wäre",
+          "en": "If the fever were higher.",
+          "why": "höher. The c drops, chapter 38. Singular wäre.",
+          "tip": "höher.",
+          "hint": "höher."
+        },
+        {
+          "before": "Real: ich warte. Unreal, fronted wenn:",
+          "after": ".",
+          "answer": "würde ich warten",
+          "en": "I would wait.",
+          "why": "würde comes next. No zu.",
+          "tip": "würde.",
+          "hint": "würde."
+        },
+        {
+          "before": "Real: Sie rufen den Arzt. Advice, formal:",
+          "after": ".",
+          "answer": "Sie sollten den Arzt rufen",
+          "en": "You should call the doctor.",
+          "why": "Formal Sie sollten. She sollte. No zu.",
+          "tip": "sollten.",
+          "hint": "sollten."
+        },
+        {
+          "before": "Real: ich habe Wasser. Wish:",
+          "after": ".",
+          "answer": "Ich hätte gern Wasser",
+          "en": "I would like some water.",
+          "why": "hätte gern. habe is the real present.",
+          "tip": "gern.",
+          "hint": "gern."
+        }
+      ]
+    },
+    {
+      "id": "error-use",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line breaks the verb, the case, or the infinitive. Choose the correction. A real present wenn is still correct German in chapter 42.",
+      "items": [
+        {
+          "clues": ["Unreal, singular Schmerz.", "wäre.", "Wenn der Schmerz stärker wären."],
+          "options": ["Wenn der Schmerz stärker wäre.", "Wenn der Schmerz stärker wären.", "Wenn der Schmerz stärker war."],
+          "answer": 0,
+          "reveal": "Wenn der Schmerz stärker wäre.",
+          "hint": "wäre."
+        },
+        {
+          "clues": ["The wenn-clause is first.", "The main verb comes next.", "ich würde warten."],
+          "options": ["würde ich warten.", "ich würde warten.", "würde ich zu warten."],
+          "answer": 0,
+          "reveal": "würde ich warten.",
+          "hint": "würde."
+        },
+        {
+          "clues": ["Unreal wenn.", "hätte at the end.", "wenn ich hätte Zeit."],
+          "options": ["wenn ich Zeit hätte.", "wenn ich hätte Zeit.", "wenn ich Zeit hättete."],
+          "answer": 0,
+          "reveal": "wenn ich Zeit hätte.",
+          "hint": "hätte."
+        },
+        {
+          "clues": ["Wish.", "doch, verb last.", "Wenn ich doch hätte Zeit!"],
+          "options": ["Wenn ich doch Zeit hätte!", "Wenn ich doch hätte Zeit!", "Wenn ich doch Zeit hättete!"],
+          "answer": 0,
+          "reveal": "Wenn ich doch Zeit hätte!",
+          "hint": "hätte."
+        },
+        {
+          "clues": ["an takes the dative.", "Ihrer.", "An Ihre Stelle."],
+          "options": ["An Ihrer Stelle.", "An Ihre Stelle.", "An Ihren Stelle."],
+          "answer": 0,
+          "reveal": "An Ihrer Stelle.",
+          "hint": "Ihrer."
+        },
+        {
+          "clues": ["Advice, formal Sie.", "No zu.", "Sie sollten den Arzt zu rufen."],
+          "options": ["Sie sollten den Arzt rufen.", "Sie sollten den Arzt zu rufen.", "Sie sollten den Arzt ruf."],
+          "answer": 0,
+          "reveal": "Sie sollten den Arzt rufen.",
+          "hint": "rufen."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The patient wishes. The nurse gives the unreal if and the advice. Formal Sie sollten. an takes Ihrer.",
+      "chips": [
+        { "w": "Ich hätte gern Wasser", "hint": "wish." },
+        { "w": "Sie sollten den Arzt rufen", "hint": "formal." },
+        { "w": "An Ihrer Stelle würde ich bleiben", "hint": "dative." },
+        { "w": "Wenn der Schmerz stärker wäre", "hint": "singular." },
+        { "w": "Wenn ich doch Zeit hätte", "hint": "verb last." },
+        { "w": "Wenn das Fieber höher wäre", "hint": "höher." },
+        { "w": "Ich hatte gern Wasser", "hint": "past." },
+        { "w": "Sie sollte den Arzt rufen", "hint": "she." },
+        { "w": "An Ihre Stelle würde ich bleiben", "hint": "dative Ihrer." },
+        { "w": "Wenn der Schmerz stärker wären", "hint": "singular wäre." },
+        { "w": "Wenn ich doch hätte Zeit", "hint": "verb last." },
+        { "w": "Wenn das Fieber hoher wäre", "hint": "höher." },
+        { "w": "Sie sollten den Arzt zu rufen", "hint": "no zu." }
+      ],
+      "items": [
+        {
+          "before": "Patient, wish, gern:",
+          "after": ".",
+          "answer": "Ich hätte gern Wasser",
+          "en": "I would like some water.",
+          "why": "hätte gern.",
+          "tip": "gern.",
+          "hint": "gern."
+        },
+        {
+          "before": "Nurse, advice, formal Sie:",
+          "after": ".",
+          "answer": "Sie sollten den Arzt rufen",
+          "en": "You should call the doctor.",
+          "why": "Formal Sie sollten. She sollte. No zu.",
+          "tip": "sollten.",
+          "hint": "sollten."
+        },
+        {
+          "before": "Nurse, an Ihrer Stelle:",
+          "after": ".",
+          "answer": "An Ihrer Stelle würde ich bleiben",
+          "en": "In your place I would stay.",
+          "why": "Ihrer is the dative. Ihre is nominative.",
+          "tip": "Ihrer.",
+          "hint": "Ihrer."
+        },
+        {
+          "before": "Nurse, unreal, singular Schmerz:",
+          "after": ".",
+          "answer": "Wenn der Schmerz stärker wäre",
+          "en": "If the pain were worse.",
+          "why": "Singular wäre.",
+          "tip": "wäre.",
+          "hint": "wäre."
+        },
+        {
+          "before": "Patient, wish, doch:",
+          "after": "!",
+          "answer": "Wenn ich doch Zeit hätte",
+          "en": "If only I had time!",
+          "why": "hätte at the end.",
+          "tip": "hätte.",
+          "hint": "hätte."
+        },
+        {
+          "before": "Nurse, unreal, Fieber:",
+          "after": ".",
+          "answer": "Wenn das Fieber höher wäre",
+          "en": "If the fever were higher.",
+          "why": "höher, then wäre. Not hoher.",
+          "tip": "höher.",
+          "hint": "höher."
+        }
+      ]
+    },
+    {
+      "id": "gap-person",
+      "label": "Gap",
+      "title": "Who would?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label says where the wenn-clause sits, and who speaks. She würde. Formal Sie würden. du solltest. du wärst.",
+      "chips": [
+        { "w": "würde ich warten", "hint": "after wenn." },
+        { "w": "würde sie den Arzt rufen", "hint": "she." },
+        { "w": "würden wir den Arzt rufen", "hint": "after wenn." },
+        { "w": "Du solltest den Arzt rufen", "hint": "du." },
+        { "w": "Wenn du müde wärst", "hint": "wärst last." },
+        { "w": "Wir würden den Arzt rufen", "hint": "wir first." },
+        { "w": "ich würde warten", "hint": "when Ich starts." },
+        { "w": "würden Sie den Arzt rufen", "hint": "formal Sie." },
+        { "w": "würde sie den Arzt zu rufen", "hint": "no zu." },
+        { "w": "wir würden den Arzt rufen", "hint": "when wir starts." },
+        { "w": "Du sollte den Arzt rufen", "hint": "du solltest." },
+        { "w": "Du solltest den Arzt zu rufen", "hint": "no zu." },
+        { "w": "Wenn du müde wärstest", "hint": "not a form." },
+        { "w": "Wenn du müde warst", "hint": "past." },
+        { "w": "Wir würde den Arzt rufen", "hint": "wir würden." }
+      ],
+      "items": [
+        {
+          "before": "Fronted wenn, result, ich:",
+          "after": ".",
+          "answer": "würde ich warten",
+          "en": "I would wait.",
+          "why": "würde is next. ich würde is the other order, when Ich starts the sentence.",
+          "tip": "würde.",
+          "hint": "würde."
+        },
+        {
+          "before": "Unreal result, she, rufen:",
+          "after": ".",
+          "answer": "würde sie den Arzt rufen",
+          "en": "She would call the doctor.",
+          "why": "She würde. Formal Sie würden. No zu.",
+          "tip": "würde.",
+          "hint": "sie."
+        },
+        {
+          "before": "Fronted wenn, result, wir:",
+          "after": ".",
+          "answer": "würden wir den Arzt rufen",
+          "en": "We would call the doctor.",
+          "why": "würden is next. Wir würden is the order when Wir starts the sentence.",
+          "tip": "würden.",
+          "hint": "würden."
+        },
+        {
+          "before": "Advice, du, sollen:",
+          "after": ".",
+          "answer": "Du solltest den Arzt rufen",
+          "en": "You should call the doctor.",
+          "why": "du solltest. She sollte. No zu. After letzte Nacht, solltest is the past.",
+          "tip": "solltest.",
+          "hint": "solltest."
+        },
+        {
+          "before": "Unreal, sein, du:",
+          "after": ".",
+          "answer": "Wenn du müde wärst",
+          "en": "If you were tired.",
+          "why": "du wärst, at the end. warst is the past. wärstest is not a form.",
+          "tip": "wärst.",
+          "hint": "wärst."
+        },
+        {
+          "before": "Main clause first, wir:",
+          "after": ".",
+          "answer": "Wir würden den Arzt rufen",
+          "en": "We would call the doctor.",
+          "why": "Wir starts, so würden is position 2. After wenn, the order is würden wir.",
+          "tip": "würden.",
+          "hint": "würden."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Besuch",
+        "title": "Die Schmerzen",
+        "paragraphs": [
+          "Wenn der Schmerz stärker wäre, würden wir den Arzt rufen. Wir würden den Arzt rufen, wenn der Schmerz stärker wäre.",
+          "Wenn ich Zeit hätte, würde ich warten. Ich hätte gern Wasser. An Ihrer Stelle würde ich bleiben.",
+          "Sie sollten den Arzt rufen. Wenn ich doch Zeit hätte! Wenn die Schmerzen stärker wären, würde sie bleiben. Wenn das Fieber höher wäre, würde sie den Arzt rufen."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "der Schmerz, from the note.",
+          "qEn": "Singular.",
+          "options": ["stärker wäre", "stärker wären", "stärker war"],
+          "answer": 0,
+          "why": "Wenn der Schmerz stärker wäre.",
+          "hint": "wäre."
+        },
+        {
+          "kind": "mc",
+          "q": "The wish with gern, from the note.",
+          "qEn": "Wasser.",
+          "options": ["Ich hätte gern Wasser.", "Ich hatte gern Wasser.", "Ich hätte gern Zeit."],
+          "answer": 0,
+          "why": "The note says Ich hätte gern Wasser.",
+          "hint": "Wasser."
+        },
+        {
+          "kind": "mc",
+          "q": "Advice with sollen, from the note.",
+          "qEn": "Formal Sie.",
+          "options": ["Sie sollten den Arzt rufen.", "Sie sollte den Arzt rufen.", "Sie sollten den Arzt zu rufen."],
+          "answer": 0,
+          "why": "Sie sollten den Arzt rufen. No zu.",
+          "hint": "sollten."
+        },
+        {
+          "kind": "mc",
+          "q": "das Fieber, from the note.",
+          "qEn": "Comparative of hoch.",
+          "options": ["höher wäre", "hoher wäre", "höher wären"],
+          "answer": 0,
+          "why": "Wenn das Fieber höher wäre.",
+          "hint": "höher."
+        }
+      ]
+    },
+    {
+      "id": "writing-use",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Three ward lines",
+      "practice": "writing",
+      "instructions": "Write the three sentences. Cover stärker wäre, the call, the water, and sollten.",
+      "prompt": "If the pain were worse, we would call the doctor. I would like some water. You should call the doctor.",
+      "bullets": ["Schmerz stärker wäre", "würden wir den Arzt rufen", "hätte gern Wasser", "sollten den Arzt rufen"],
+      "model": "Wenn der Schmerz stärker wäre, würden wir den Arzt rufen. Ich hätte gern Wasser. Sie sollten den Arzt rufen.",
+      "modelEn": "If the pain were worse, we would call the doctor. I would like some water. You should call the doctor.",
+      "hint": "Schmerz stärker wäre. würden wir den Arzt rufen. hätte gern Wasser. sollten den Arzt rufen.",
+      "checklist": [
+        { "id": "p", "label": "Schmerz stärker wäre", "keywords": ["schmerz stärker wäre"] },
+        { "id": "r", "label": "würden wir den Arzt rufen", "keywords": ["würden wir den arzt rufen"] },
+        { "id": "g", "label": "hätte gern Wasser", "keywords": ["hätte gern wasser"] },
+        { "id": "s", "label": "sollten den Arzt rufen", "keywords": ["sollten den arzt rufen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Wenn der Schmerz stärker wäre",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Unreal wenn closes with hätte, wäre or wären. A fronted wenn-clause takes the main verb next. Wish: hätte gern, or wenn … doch … hätte. Advice: An Ihrer Stelle, or sollten. No zu. She würde. Formal Sie sollten.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Unreal. der Schmerz, singular.",
+          "qEn": "wäre.",
+          "options": ["Wenn der Schmerz stärker wäre.", "Wenn der Schmerz stärker wären.", "Wenn der Schmerz stärker war."],
+          "answer": 0,
+          "why": "Singular wäre. wären is plural. war is the past.",
+          "hint": "wäre."
+        },
+        {
+          "kind": "mc",
+          "q": "Unreal. die Schmerzen, plural.",
+          "qEn": "wären.",
+          "options": ["Wenn die Schmerzen stärker wären.", "Wenn die Schmerzen stärker wäre.", "Wenn die Schmerzen stärker waren."],
+          "answer": 0,
+          "why": "Plural wären. wäre is singular. waren is the past.",
+          "hint": "wären."
+        },
+        {
+          "kind": "mc",
+          "q": "Unreal. Wenn ich Zeit hätte, …",
+          "qEn": "Main verb next.",
+          "options": ["würde ich warten.", "ich würde warten.", "würde ich zu warten."],
+          "answer": 0,
+          "why": "würde is next. ich würde starts the main clause. No zu.",
+          "hint": "würde."
+        },
+        {
+          "kind": "mc",
+          "q": "Unreal. Ich würde warten, …",
+          "qEn": "hätte closes wenn.",
+          "options": ["wenn ich Zeit hätte.", "wenn ich hätte Zeit.", "wenn ich Zeit habe."],
+          "answer": 0,
+          "why": "hätte at the end. habe is the real present from chapter 42.",
+          "hint": "hätte."
+        },
+        {
+          "kind": "mc",
+          "q": "Wish. gern, ich.",
+          "qEn": "hätte gern.",
+          "options": ["Ich hätte gern Wasser.", "Ich hatte gern Wasser.", "Ich hättete gern Wasser."],
+          "answer": 0,
+          "why": "hätte. hatte is the past. hättete is not a form.",
+          "hint": "hätte."
+        },
+        {
+          "kind": "mc",
+          "q": "Wish. doch. Verb at the end.",
+          "qEn": "hätte last.",
+          "options": ["Wenn ich doch Zeit hätte!", "Wenn ich doch hätte Zeit!", "Wenn ich doch Zeit hättete!"],
+          "answer": 0,
+          "why": "Wenn ich doch Zeit hätte!",
+          "hint": "hätte."
+        },
+        {
+          "kind": "mc",
+          "q": "Advice. an, formal Sie, feminine dative.",
+          "qEn": "Ihrer.",
+          "options": ["An Ihrer Stelle würde ich bleiben.", "An Ihre Stelle würde ich bleiben.", "An Ihren Stelle würde ich bleiben."],
+          "answer": 0,
+          "why": "An Ihrer Stelle. an takes the dative.",
+          "hint": "Ihrer."
+        },
+        {
+          "kind": "mc",
+          "q": "Advice. formal Sie. No zu.",
+          "qEn": "sollten.",
+          "options": ["Sie sollten den Arzt rufen.", "Sie sollte den Arzt rufen.", "Sie sollten den Arzt zu rufen."],
+          "answer": 0,
+          "why": "Formal Sie sollten. She sollte. No zu.",
+          "hint": "sollten."
+        },
+        {
+          "kind": "mc",
+          "q": "Unreal. das Fieber. Comparative of hoch.",
+          "qEn": "höher, wäre.",
+          "options": ["Wenn das Fieber höher wäre.", "Wenn das Fieber hoher wäre.", "Wenn das Fieber höher war."],
+          "answer": 0,
+          "why": "höher. The c drops. war is the past.",
+          "hint": "höher."
+        },
+        {
+          "kind": "mc",
+          "q": "Unreal result. she, not formal Sie.",
+          "qEn": "würde sie.",
+          "options": ["würde sie den Arzt rufen.", "würden Sie den Arzt rufen.", "würde sie den Arzt zu rufen."],
+          "answer": 0,
+          "why": "She würde. Formal Sie würden. No zu.",
+          "hint": "würde."
+        },
+        {
+          "kind": "mc",
+          "q": "Advice. formal Sie, aufstehen. One word.",
+          "qEn": "No split. No zu.",
+          "options": ["würden Sie aufstehen.", "würden Sie stehen auf.", "würden Sie aufzustehen."],
+          "answer": 0,
+          "why": "aufstehen stays one word. No zu.",
+          "hint": "aufstehen."
+        },
+        {
+          "kind": "mc",
+          "q": "Advice. du. No zu.",
+          "qEn": "solltest.",
+          "options": ["Du solltest den Arzt rufen.", "Du sollte den Arzt rufen.", "Du solltest den Arzt zu rufen."],
+          "answer": 0,
+          "why": "du solltest. She sollte. No zu. After letzte Nacht, solltest is the past.",
+          "hint": "solltest."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Wenn ich viel Geld hätte, …",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Wenn der Schmerz stärker wäre, würden wir den Arzt rufen.", "en": "If the pain were worse, we would call the doctor." },
+        { "de": "Wenn ich Zeit hätte, würde ich warten.", "en": "If I had time, I would wait." },
+        { "de": "Ich hätte gern Wasser.", "en": "I would like some water." },
+        { "de": "Sie sollten den Arzt rufen.", "en": "You should call the doctor." }
+      ],
+      "messages": [
+        "Unreal wenn closes with hätte, wäre or wären. If wenn is first, the main verb is next. The other order starts with the main clause.",
+        "A wish is Ich hätte gern Wasser, or Wenn ich doch Zeit hätte! Advice is An Ihrer Stelle, or Sie sollten plus a bare infinitive.",
+        "Sehr gut. Wenn der Schmerz stärker wäre, würden wir den Arzt rufen.",
+        "Ausgezeichnet. You can build an unreal if, a wish, and a piece of advice."
+      ]
+    }
+  ]
+}

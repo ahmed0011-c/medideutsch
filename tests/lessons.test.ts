@@ -146,6 +146,11 @@ describe("catalog", () => {
     expect(byNumber.get(50)).toBe("b1-50-plusquamperfekt");
     expect(byNumber.get(51)).toBe("b1-51-reflexiv-dativ");
     expect(byNumber.get(52)).toBe("b1-52-trennbar-untrennbar");
+    expect(byNumber.get(53)).toBe("b1-53-verben-mit-praepositionen");
+    expect(byNumber.get(54)).toBe("b1-54-praepositionaladverbien");
+    expect(byNumber.get(55)).toBe("b1-55-konjunktiv-ii-formen");
+    expect(byNumber.get(56)).toBe("b1-56-konjunktiv-ii-verwendung");
+    expect(byNumber.get(57)).toBe("b1-57-passiv-praesens");
     expect(byNumber.get(41)).toBe("a2-41-konnektoren-pos1");
     expect(byNumber.get(42)).toBe("a2-42-weil-dass-wenn");
     expect(byNumber.get(43)).toBe("a2-43-da-dahin-daher");

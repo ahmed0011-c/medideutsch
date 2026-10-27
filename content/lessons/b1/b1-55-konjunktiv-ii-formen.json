@@ -1,0 +1,1139 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-55-konjunktiv-ii-formen",
+  "level": "B1",
+  "unit": "Kapitel 55",
+  "chapter": 55,
+  "chapters": [55],
+  "title": "War, hätte, würde …",
+  "subtitle": "Konjunktiv II forms",
+  "glossary": {
+    "war": {
+      "de": "sein → er war",
+      "pos": "form",
+      "en": "was",
+      "emoji": "🟦",
+      "note": "Präteritum, chapter 23. The Konjunktiv II is wäre. du warst, the Konjunktiv du is wärst. ihr wart, the Konjunktiv ihr is wärt."
+    },
+    "hätte": {
+      "de": "haben → ich hätte",
+      "pos": "form",
+      "en": "would have",
+      "emoji": "🕐",
+      "note": "Konjunktiv II. Umlaut on hatte. Ich hätte Zeit. hatte is the past state. Not hättete."
+    },
+    "würde": {
+      "de": "werden → ich würde",
+      "pos": "form",
+      "en": "would",
+      "emoji": "🙏",
+      "note": "Konjunktiv II. Umlaut on wurde. würde plus a bare infinitive: würde warten. No zu. wurde is the past. du würdest keeps the e."
+    },
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🙋" },
+    "zeit": {
+      "de": "Zeit",
+      "pos": "noun",
+      "en": "time",
+      "emoji": "🕐",
+      "article": "die",
+      "plural": "die Zeiten",
+      "note": "No article in the polite line: Ich hätte Zeit. Hätten Sie Zeit?"
+    },
+    "könnten": {
+      "de": "können → Sie könnten",
+      "pos": "form",
+      "en": "could (formal you or they)",
+      "emoji": "🤝",
+      "note": "Formal Sie and wir. She könnte. konnte is the night-report past from chapter 27."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she; they; formal you",
+      "emoji": "👩",
+      "note": "She könnte, sie wäre. Formal you: Könnten Sie, Würden Sie, Hätten Sie. They könnten."
+    },
+    "mir": {
+      "de": "mir",
+      "pos": "pronoun",
+      "en": "me (dative)",
+      "emoji": "🤝",
+      "note": "helfen takes the person in the dative, chapter 22. Könnten Sie mir helfen? Not mich."
+    },
+    "helfen": {
+      "de": "helfen → Sie helfen",
+      "pos": "form",
+      "en": "help",
+      "emoji": "🤝",
+      "note": "Infinitive at the end. The person is mir: Könnten Sie mir helfen?"
+    },
+    "würden": {
+      "de": "werden → Sie würden",
+      "pos": "form",
+      "en": "would (formal you or they)",
+      "emoji": "🙏",
+      "note": "Formal Sie and wir. She würde. Würden Sie bitte warten? The infinitive has no zu."
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please",
+      "emoji": "🙏",
+      "note": "Softens the request. Würden Sie bitte warten? Not the verb bitten."
+    },
+    "warten": {
+      "de": "warten → Sie warten",
+      "pos": "form",
+      "en": "wait",
+      "emoji": "⏳",
+      "note": "Bare infinitive after würde: Würden Sie bitte warten? Not zu warten."
+    },
+    "wäre": {
+      "de": "sein → sie wäre",
+      "pos": "form",
+      "en": "would be",
+      "emoji": "😴",
+      "note": "Konjunktiv II. Umlaut on war. Sie wäre müde. du wärst. ihr wärt. war is the past state."
+    },
+    "müde": {
+      "de": "müde",
+      "pos": "adjective",
+      "en": "tired",
+      "emoji": "😴",
+      "note": "Sie wäre müde. Sie war müde is the past state from chapter 23."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "👨" },
+    "müsste": {
+      "de": "müssen → er müsste",
+      "pos": "form",
+      "en": "would have to",
+      "emoji": "📞",
+      "note": "Konjunktiv II. Umlaut on musste. Er müsste den Arzt rufen. musste is the night-report past. No zu."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)",
+      "emoji": "🔵",
+      "note": "den Arzt. One man. rufen takes the accusative."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "Er müsste den Arzt rufen. Accusative singular."
+    },
+    "rufen": {
+      "de": "rufen → Sie rufen",
+      "pos": "form",
+      "en": "call",
+      "emoji": "📞",
+      "note": "Bare infinitive at the end: den Arzt rufen. Not zu rufen."
+    },
+    "du": { "de": "du", "pos": "pronoun", "en": "you (informal)", "emoji": "🧑" },
+    "hättest": {
+      "de": "haben → du hättest",
+      "pos": "form",
+      "en": "would have (du)",
+      "emoji": "🕐",
+      "note": "du hättest. Not hättetest. hattest is the past."
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)",
+      "emoji": "🔴",
+      "note": "eine Frage. Feminine accusative."
+    },
+    "frage": {
+      "de": "Frage",
+      "pos": "noun",
+      "en": "question",
+      "emoji": "❓",
+      "article": "die",
+      "plural": "die Fragen",
+      "note": "Du hättest eine Frage."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "hätten": {
+      "de": "haben → Sie hätten",
+      "pos": "form",
+      "en": "would have (formal you, wir, they)",
+      "emoji": "🕐",
+      "note": "wir, sie and formal Sie. Hätten Sie Zeit? She hätte. hattet is the past of ihr. hatten is the past of wir and Sie."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "The polite form",
+      "learn": [
+        "Konjunktiv II adds an umlaut to the past: war → wäre, hatte → hätte, wurde → würde, konnte → könnte, musste → müsste, durfte → dürfte.",
+        "sollte and wollte keep their spelling. möchte stays the polite form from chapter 3. mochte stays the night-report past.",
+        "ich, er and she share the form. du: hättest, wärst, würdest. Formal Sie and wir: hätten, wären, würden, könnten. She könnte. Formal Könnten Sie.",
+        "würde and the modals take a bare infinitive at the end. No zu. aufstehen stays one word. helfen takes mir. The wenn-sentence is chapter 56."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Zeit", "article": "die", "plural": "die Zeiten", "en": "time", "emoji": "🕐", "glossaryKey": "zeit" },
+        { "de": "Frage", "article": "die", "plural": "die Fragen", "en": "question", "emoji": "❓", "glossaryKey": "frage" },
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor (male)", "emoji": "👨‍⚕️", "glossaryKey": "arzt" }
+      ],
+      "text": {
+        "title": "War, hätte, würde …",
+        "de": "Ich hätte Zeit. Könnten Sie mir helfen? Würden Sie bitte warten? Sie wäre müde. Er müsste den Arzt rufen. Du hättest eine Frage.",
+        "en": "I would have time. Could you help me? Would you please wait? She would be tired. He would have to call the doctor. You would have a question."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Umlaut on the past",
+      "practice": "choose",
+      "heroTitle": "Könnten Sie mir helfen?",
+      "heroImage": "bed",
+      "story": [
+        "This chapter is the <b>form</b>. A polite request and a hypothetical shift use Konjunktiv II. <b>Ich hätte Zeit. Könnten Sie mir helfen? Würden Sie bitte warten?</b> The <b>wenn</b>-sentence is chapter 56. One story line is enough: Wenn ich Zeit hätte, … comes next.",
+        "Start from the Präteritum and add the umlaut. <b>war → wäre. hatte → hätte. wurde → würde. konnte → könnte. musste → müsste. durfte → dürfte.</b> <b>sollte</b> and <b>wollte</b> have no umlaut to add, so the letters stay. After letzte Nacht they are still the past from chapter 27. <b>Söllte</b> and <b>wöllte</b> are not forms. <b>möchte</b> stays the polite form from chapter 3. <b>mochte</b> stays the night-report past.",
+        "ich, er and she share <b>hätte, wäre, würde, könnte, müsste, dürfte</b>. du: <b>hättest, wärst, würdest, könntest</b>. würdest keeps the <b>e</b>. The short ward form of sein is <b>du wärst</b> and <b>ihr wärt</b>. ihr of haben is <b>hättet</b>. wir, sie (they) and formal Sie take <b>-en</b>: hätten, wären, würden, könnten. She <b>könnte</b>. Formal <b>Könnten Sie</b>.",
+        "würde and a modal take a <b>bare infinitive</b> at the end. No zu. <b>Würden Sie bitte warten? Er müsste den Arzt rufen.</b> A separable infinitive stays one word: <b>Würden Sie bitte aufstehen.</b> Not stehen auf. helfen takes the person in the dative, chapter 22: <b>Könnten Sie mir helfen?</b> Not mich.",
+        "war, hatte, wurde, konnte, musste and durfte stay correct in a night report. The label in this chapter says Konjunktiv or polite, so the umlaut form is the answer. kommen and gehen also have käme and ginge. The ward line here is <b>würde kommen</b> and <b>würde gehen</b>. hätte gehabt is not this chapter."
+      ],
+      "questionRule": "Umlaut on the past: wäre, hätte, würde, könnte, müsste, dürfte. sollte and wollte stay. du wärst, du hättest, du würdest. Bare infinitive, no zu. helfen takes mir.",
+      "conjugation": {
+        "persons": ["ich", "du", "er/sie", "wir", "ihr", "sie/Sie"],
+        "main": ["hätte", "wäre", "würde"],
+        "extra": ["könnte", "müsste", "dürfte"],
+        "forms": {
+          "hätte": ["hätt|e", "hätt|est", "hätt|e", "hätt|en", "hätt|et", "hätt|en"],
+          "wäre": ["wär|e", "wär|st", "wär|e", "wär|en", "wär|t", "wär|en"],
+          "würde": ["würd|e", "würd|est", "würd|e", "würd|en", "würd|et", "würd|en"],
+          "könnte": ["könnt|e", "könnt|est", "könnt|e", "könnt|en", "könnt|et", "könnt|en"],
+          "müsste": ["müsst|e", "müsst|est", "müsst|e", "müsst|en", "müsst|et", "müsst|en"],
+          "dürfte": ["dürft|e", "dürft|est", "dürft|e", "dürft|en", "dürft|et", "dürft|en"]
+        },
+        "tips": [
+          "du wärst and ihr wärt. No extra -e- on those two.",
+          "du würdest, du könntest, du müsstest, du dürftest. The e stays.",
+          "She hätte, wäre, würde, könnte. Formal Sie: hätten, wären, würden, könnten."
+        ]
+      },
+      "tables": [
+        {
+          "title": "Vom Präteritum",
+          "caption": "Add the umlaut. sollte and wollte stay. möchte is the polite form; mochte stays the past.",
+          "columns": ["Präteritum", "Konjunktiv II"],
+          "rows": [
+            { "label": "sein", "cells": ["war", "wäre"], "highlight": true },
+            { "label": "haben", "cells": ["hatte", "hätte"], "highlight": true },
+            { "label": "werden", "cells": ["wurde", "würde"], "highlight": true },
+            { "label": "können", "cells": ["konnte", "könnte"], "highlight": true },
+            { "label": "müssen", "cells": ["musste", "müsste"] },
+            { "label": "dürfen", "cells": ["durfte", "dürfte"] },
+            { "label": "sollen", "cells": ["sollte", "sollte"] },
+            { "label": "wollen", "cells": ["wollte", "wollte"] },
+            { "label": "mögen", "cells": ["mochte", "möchte"] }
+          ]
+        },
+        {
+          "title": "Person",
+          "caption": "ihr: hättet, wärt, würdet, könntet. She shares the ich form. Formal Sie shares the wir form.",
+          "columns": ["ich/er/sie", "du", "wir/Sie"],
+          "rows": [
+            { "label": "haben", "cells": ["hätte", "hättest", "hätten"], "highlight": true },
+            { "label": "sein", "cells": ["wäre", "wärst", "wären"], "highlight": true },
+            { "label": "werden", "cells": ["würde", "würdest", "würden"], "highlight": true },
+            { "label": "können", "cells": ["könnte", "könntest", "könnten"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "These are not the Konjunktiv line. The past forms war, hatte and konnte stay correct in a night report.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "du haben", "cells": ["hättetest", "hättest"] },
+            { "label": "du werden", "cells": ["würdst", "würdest"] },
+            { "label": "sollen", "cells": ["Söllte", "sollte"] },
+            { "label": "zu", "cells": ["zu warten", "warten"] },
+            { "label": "aufstehen", "cells": ["stehen auf", "aufstehen"] },
+            { "label": "helfen", "cells": ["mich", "mir"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four form traps",
+        "items": [
+          { "de": "Ich hätte Zeit.", "en": "Umlaut on hatte.", "tone": "ok" },
+          { "de": "Ich hättete Zeit.", "en": "hättete is not a form.", "tone": "stop" },
+          { "de": "Könnten Sie mir helfen?", "en": "mir. helfen takes the dative.", "tone": "ok" },
+          { "de": "Könnten Sie mich helfen?", "en": "Not mich with helfen.", "tone": "stop" },
+          { "de": "Würden Sie bitte aufstehen?", "en": "One word. No zu.", "tone": "ok" },
+          { "de": "Würden Sie bitte stehen auf?", "en": "The infinitive does not split.", "tone": "stop" },
+          { "de": "Sollte ich den Arzt rufen?", "en": "No umlaut. Same spelling as the past.", "tone": "ok" },
+          { "de": "Söllte ich den Arzt rufen?", "en": "Söllte is not a form.", "tone": "stop" }
+        ],
+        "tip": "Umlaut on war, hatte, wurde, konnte, musste, durfte. sollte and wollte stay. Bare infinitive. mir with helfen."
+      },
+      "meaningsTitle": "Polite lines on the ward",
+      "meanings": [
+        { "modal": "hätte", "emoji": "🕐", "en": "would have", "use": "haben, polite or hypothetical", "de": "Ich hätte Zeit.", "deEn": "I would have time." },
+        { "modal": "wäre", "emoji": "😴", "en": "would be", "use": "sein", "de": "Sie wäre müde.", "deEn": "She would be tired." },
+        { "modal": "würde", "emoji": "🙏", "en": "would", "use": "bare infinitive, no zu", "de": "Würden Sie bitte warten?", "deEn": "Would you please wait?" },
+        { "modal": "könnte", "emoji": "🤝", "en": "could", "use": "helfen takes mir", "de": "Könnten Sie mir helfen?", "deEn": "Could you help me?" }
+      ],
+      "tips": [
+        {
+          "title": "Past plus umlaut",
+          "body": "war, hatte, wurde, konnte, musste, durfte take the umlaut. du würdest keeps the e. sollte and wollte do not grow an umlaut. The wenn-sentence is the next chapter.",
+          "mnemonic": "hätte, wäre, würde. No zu.",
+          "emoji": "🔤"
+        }
+      ],
+      "quizTitle": "Which Konjunktiv form?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, haben, ich.",
+          "qEn": "Umlaut on hatte.",
+          "options": ["Ich hätte Zeit.", "Ich hatte Zeit.", "Ich hättete Zeit."],
+          "answer": 0,
+          "why": "hätte. hatte is the past state from chapter 23. hättete is not a form.",
+          "hint": "hätte."
+        },
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, sein, du. Short ward form.",
+          "qEn": "wärst.",
+          "options": ["Du wärst müde.", "Du warst müde.", "Du wärstest müde."],
+          "answer": 0,
+          "why": "du wärst. warst is the past. wärstest is not a form.",
+          "hint": "wärst."
+        },
+        {
+          "kind": "mc",
+          "q": "Polite, formal Sie, warten. No zu.",
+          "qEn": "würden plus the infinitive.",
+          "options": ["Würden Sie bitte warten?", "Würden Sie bitte zu warten?", "Wurden Sie bitte warten?"],
+          "answer": 0,
+          "why": "Würden Sie bitte warten? No zu. wurden is the past of werden.",
+          "hint": "warten."
+        },
+        {
+          "kind": "mc",
+          "q": "Polite, formal Sie, helfen.",
+          "qEn": "Dative mir.",
+          "options": ["Könnten Sie mir helfen?", "Könnten Sie mich helfen?", "Konnten Sie mir helfen?"],
+          "answer": 0,
+          "why": "mir, chapter 22. konnten is the night-report past from chapter 27.",
+          "hint": "mir."
+        },
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, müssen, er. No zu.",
+          "qEn": "müsste, then rufen.",
+          "options": ["Er müsste den Arzt rufen.", "Er musste den Arzt rufen.", "Er müsste den Arzt zu rufen."],
+          "answer": 0,
+          "why": "müsste, then rufen. musste is the past from chapter 27. No zu.",
+          "hint": "müsste."
+        },
+        {
+          "kind": "mc",
+          "q": "sollen, a suggestion. No false umlaut.",
+          "qEn": "Same letters as the past.",
+          "options": ["Sollte ich den Arzt rufen?", "Söllte ich den Arzt rufen?", "Solltet ich den Arzt rufen?"],
+          "answer": 0,
+          "why": "sollte has no umlaut. After letzte Nacht the same spelling is the past, chapter 27. Söllte is not a form.",
+          "hint": "sollte."
+        }
+      ]
+    },
+    {
+      "id": "gap-kii",
+      "label": "Gap",
+      "title": "The polite line",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label says Konjunktiv or polite. Use that form. hatte, war and musste stay the past in a night report.",
+      "chips": [
+        { "w": "Ich hätte Zeit", "hint": "umlaut." },
+        { "w": "Könnten Sie mir helfen", "hint": "mir." },
+        { "w": "Würden Sie bitte warten", "hint": "no zu." },
+        { "w": "Sie wäre müde", "hint": "umlaut on war." },
+        { "w": "Er müsste den Arzt rufen", "hint": "then rufen." },
+        { "w": "Du hättest eine Frage", "hint": "du hättest." },
+        { "w": "Ich hatte Zeit", "hint": "past state." },
+        { "w": "Könnten Sie mich helfen", "hint": "helfen takes mir." },
+        { "w": "Würden Sie bitte zu warten", "hint": "no zu." },
+        { "w": "Sie war müde", "hint": "past state." },
+        { "w": "Er musste den Arzt rufen", "hint": "past." },
+        { "w": "Du hättetest eine Frage", "hint": "not a form." }
+      ],
+      "items": [
+        {
+          "before": "Konjunktiv, haben, ich:",
+          "after": ".",
+          "answer": "Ich hätte Zeit",
+          "en": "I would have time.",
+          "why": "hätte. hatte is the past state.",
+          "tip": "hätte.",
+          "hint": "hätte."
+        },
+        {
+          "before": "Polite, formal Sie, helfen:",
+          "after": "?",
+          "answer": "Könnten Sie mir helfen",
+          "en": "Could you help me?",
+          "why": "mir. helfen takes the dative.",
+          "tip": "mir.",
+          "hint": "mir."
+        },
+        {
+          "before": "Polite, formal Sie, warten:",
+          "after": "?",
+          "answer": "Würden Sie bitte warten",
+          "en": "Would you please wait?",
+          "why": "würden, then warten. No zu.",
+          "tip": "warten.",
+          "hint": "warten."
+        },
+        {
+          "before": "Konjunktiv, sein, she:",
+          "after": ".",
+          "answer": "Sie wäre müde",
+          "en": "She would be tired.",
+          "why": "wäre. war is the past state.",
+          "tip": "wäre.",
+          "hint": "wäre."
+        },
+        {
+          "before": "Konjunktiv, müssen, er:",
+          "after": ".",
+          "answer": "Er müsste den Arzt rufen",
+          "en": "He would have to call the doctor.",
+          "why": "müsste, then rufen. No zu.",
+          "tip": "rufen.",
+          "hint": "müsste."
+        },
+        {
+          "before": "Konjunktiv, haben, du:",
+          "after": ".",
+          "answer": "Du hättest eine Frage",
+          "en": "You would have a question.",
+          "why": "du hättest. Not hättetest. hattest is the past.",
+          "tip": "hättest.",
+          "hint": "hättest."
+        }
+      ]
+    },
+    {
+      "id": "match-kii",
+      "type": "compare",
+      "label": "Match",
+      "title": "Past or Konjunktiv",
+      "practice": "match",
+      "instructions": "The prompt says Konjunktiv. One label is that form, one is the past, and one is not a form.",
+      "items": [
+        {
+          "prompt": "haben → Konjunktiv, ich",
+          "options": [
+            { "emoji": "🕐", "label": "hätte", "caption": "Ich hätte Zeit" },
+            { "emoji": "📅", "label": "hatte", "caption": "past state" },
+            { "emoji": "🚫", "label": "hättete", "caption": "not a form" }
+          ],
+          "answer": 0,
+          "why": "hätte. hatte is the past from chapter 23.",
+          "hint": "hätte."
+        },
+        {
+          "prompt": "sein → Konjunktiv, du",
+          "options": [
+            { "emoji": "😴", "label": "wärst", "caption": "short ward form" },
+            { "emoji": "📅", "label": "warst", "caption": "past" },
+            { "emoji": "🚫", "label": "wärstest", "caption": "not a form" }
+          ],
+          "answer": 0,
+          "why": "du wärst. ihr is wärt. warst is the past.",
+          "hint": "wärst."
+        },
+        {
+          "prompt": "werden → Konjunktiv, ich",
+          "options": [
+            { "emoji": "🙏", "label": "würde", "caption": "then a bare infinitive" },
+            { "emoji": "📅", "label": "wurde", "caption": "past" },
+            { "emoji": "🚫", "label": "würdst", "caption": "du keeps the e: würdest" }
+          ],
+          "answer": 0,
+          "why": "würde. wurde is the past. du würdest, not würdst.",
+          "hint": "würde."
+        },
+        {
+          "prompt": "können → Konjunktiv, formal Sie",
+          "options": [
+            { "emoji": "🤝", "label": "könnten", "caption": "Könnten Sie" },
+            { "emoji": "📅", "label": "konnte", "caption": "singular past" },
+            { "emoji": "🚫", "label": "könntte", "caption": "not a form" }
+          ],
+          "answer": 0,
+          "why": "Formal Sie könnten. She könnte. konnte is the past from chapter 27.",
+          "hint": "könnten."
+        },
+        {
+          "prompt": "müssen → Konjunktiv, er",
+          "options": [
+            { "emoji": "📞", "label": "müsste", "caption": "then rufen" },
+            { "emoji": "📅", "label": "musste", "caption": "past" },
+            { "emoji": "🚫", "label": "müsstete", "caption": "not a form" }
+          ],
+          "answer": 0,
+          "why": "müsste. musste is the past from chapter 27.",
+          "hint": "müsste."
+        },
+        {
+          "prompt": "dürfen → Konjunktiv, ich",
+          "options": [
+            { "emoji": "🙋", "label": "dürfte", "caption": "Dürfte ich fragen" },
+            { "emoji": "📅", "label": "durfte", "caption": "past" },
+            { "emoji": "🚫", "label": "dürftete", "caption": "not a form" }
+          ],
+          "answer": 0,
+          "why": "dürfte. durfte is the past from chapter 27. Dürftete is not a form.",
+          "hint": "dürfte."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed where she would rest",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the ward",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer by the bed",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart on the round",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-kii",
+      "type": "builder",
+      "label": "Build",
+      "title": "Infinitive at the end",
+      "practice": "build",
+      "instructions": "Build the line. The finite verb can start the question or follow one fronted piece. helfen and aufstehen stay at the end. aufstehen is one word.",
+      "items": [
+        {
+          "tiles": ["Könnten", "Sie", "mir", "helfen"],
+          "answers": ["Könnten Sie mir helfen", "Mir könnten Sie helfen", "Sie könnten mir helfen"],
+          "punct": "?",
+          "modal": "Könnten",
+          "inf": "helfen",
+          "question": false,
+          "en": "Could you help me?",
+          "hint": "mir, then helfen.",
+          "feedback": {
+            "end": "helfen stays at the end: Könnten Sie mir helfen?",
+            "fallback": "Könnten Sie mir helfen? Or: Mir könnten Sie helfen?"
+          }
+        },
+        {
+          "tiles": ["Würden", "Sie", "bitte", "aufstehen"],
+          "answers": ["Würden Sie bitte aufstehen", "Bitte würden Sie aufstehen", "Sie würden bitte aufstehen"],
+          "punct": "?",
+          "modal": "Würden",
+          "inf": "aufstehen",
+          "question": false,
+          "en": "Would you please get up?",
+          "hint": "aufstehen is one word.",
+          "feedback": {
+            "end": "aufstehen stays one word at the end.",
+            "fallback": "Würden Sie bitte aufstehen? Or: Bitte würden Sie aufstehen?"
+          }
+        },
+        {
+          "tiles": ["Ich", "hätte", "Zeit"],
+          "answers": ["Ich hätte Zeit", "Zeit hätte ich"],
+          "punct": ".",
+          "modal": "hätte",
+          "inf": "Zeit",
+          "question": false,
+          "en": "I would have time.",
+          "hint": "hätte, or Zeit first.",
+          "feedback": {
+            "end": "The plain line ends with Zeit: Ich hätte Zeit.",
+            "fallback": "Ich hätte Zeit. Or: Zeit hätte ich."
+          }
+        },
+        {
+          "tiles": ["Anna", "wäre", "heute", "müde"],
+          "answers": ["Anna wäre heute müde", "Heute wäre Anna müde"],
+          "punct": ".",
+          "modal": "wäre",
+          "inf": "müde",
+          "question": false,
+          "en": "Anna would be tired today.",
+          "hint": "müde at the end, or Heute first.",
+          "feedback": {
+            "end": "The plain line ends with müde: Anna wäre heute müde.",
+            "fallback": "Anna wäre heute müde. Or: Heute wäre Anna müde."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-kii",
+      "label": "Rewrite",
+      "title": "From the past form",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names the past form and asks for the Konjunktiv. Keep mir, and keep the infinitive bare.",
+      "chips": [
+        { "w": "Ich hätte Zeit", "hint": "from hatte." },
+        { "w": "Könnten Sie mir helfen", "hint": "from konnte." },
+        { "w": "Würden Sie bitte warten", "hint": "from wurde." },
+        { "w": "Sie wäre müde", "hint": "from war." },
+        { "w": "Er müsste den Arzt rufen", "hint": "from musste." },
+        { "w": "Dürfte ich fragen", "hint": "from durfte." },
+        { "w": "Ich hatte Zeit", "hint": "past." },
+        { "w": "Konnten Sie mir helfen", "hint": "past." },
+        { "w": "Wurden Sie bitte warten", "hint": "past plus infinitive." },
+        { "w": "Sie war müde", "hint": "past." },
+        { "w": "Er musste den Arzt rufen", "hint": "past." },
+        { "w": "Durfte ich fragen", "hint": "past." },
+        { "w": "Dürftete ich fragen", "hint": "not a form." }
+      ],
+      "items": [
+        {
+          "before": "Past hatte Zeit. Konjunktiv, ich:",
+          "after": ".",
+          "answer": "Ich hätte Zeit",
+          "en": "I would have time.",
+          "why": "hatte → hätte.",
+          "tip": "hätte.",
+          "hint": "hätte."
+        },
+        {
+          "before": "Past konnte. Polite, formal Sie, mir:",
+          "after": "?",
+          "answer": "Könnten Sie mir helfen",
+          "en": "Could you help me?",
+          "why": "konnte → könnten for formal Sie. mir.",
+          "tip": "könnten.",
+          "hint": "mir."
+        },
+        {
+          "before": "Past wurde. Polite, formal Sie, warten:",
+          "after": "?",
+          "answer": "Würden Sie bitte warten",
+          "en": "Would you please wait?",
+          "why": "wurde → würden. No zu.",
+          "tip": "würden.",
+          "hint": "würden."
+        },
+        {
+          "before": "Past war müde. Konjunktiv, she:",
+          "after": ".",
+          "answer": "Sie wäre müde",
+          "en": "She would be tired.",
+          "why": "war → wäre.",
+          "tip": "wäre.",
+          "hint": "wäre."
+        },
+        {
+          "before": "Past musste. Konjunktiv, er:",
+          "after": ".",
+          "answer": "Er müsste den Arzt rufen",
+          "en": "He would have to call the doctor.",
+          "why": "musste → müsste. Then rufen.",
+          "tip": "müsste.",
+          "hint": "müsste."
+        },
+        {
+          "before": "Past durfte. Konjunktiv, ich, fragen:",
+          "after": "?",
+          "answer": "Dürfte ich fragen",
+          "en": "Might I ask?",
+          "why": "durfte → dürfte. Dürftete is not a form.",
+          "tip": "dürfte.",
+          "hint": "dürfte."
+        }
+      ]
+    },
+    {
+      "id": "error-kii",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the Konjunktiv form. Choose the correction. A past form can still be correct German in a night report.",
+      "items": [
+        {
+          "clues": ["Konjunktiv of haben, ich.", "Not an extra e.", "Ich hättete Zeit."],
+          "options": ["Ich hätte Zeit.", "Ich hättete Zeit.", "Ich hatte Zeit."],
+          "answer": 0,
+          "reveal": "Ich hätte Zeit.",
+          "hint": "hätte."
+        },
+        {
+          "clues": ["Konjunktiv of sein, du.", "Short ward form.", "Du wärstest müde."],
+          "options": ["Du wärst müde.", "Du wärstest müde.", "Du warst müde."],
+          "answer": 0,
+          "reveal": "Du wärst müde.",
+          "hint": "wärst."
+        },
+        {
+          "clues": ["Polite würden.", "No zu.", "Würden Sie bitte zu warten."],
+          "options": ["Würden Sie bitte warten.", "Würden Sie bitte zu warten.", "Wurden Sie bitte warten."],
+          "answer": 0,
+          "reveal": "Würden Sie bitte warten.",
+          "hint": "warten."
+        },
+        {
+          "clues": ["helfen takes mir.", "Not mich.", "Könnten Sie mich helfen."],
+          "options": ["Könnten Sie mir helfen.", "Könnten Sie mich helfen.", "Konnten Sie mir helfen."],
+          "answer": 0,
+          "reveal": "Könnten Sie mir helfen.",
+          "hint": "mir."
+        },
+        {
+          "clues": ["The infinitive stays one word.", "No split.", "Würden Sie bitte stehen auf."],
+          "options": ["Würden Sie bitte aufstehen.", "Würden Sie bitte stehen auf.", "Würden Sie bitte aufzustehen."],
+          "answer": 0,
+          "reveal": "Würden Sie bitte aufstehen.",
+          "hint": "aufstehen."
+        },
+        {
+          "clues": ["sollen has no umlaut.", "Same letters as the past.", "Söllte ich den Arzt rufen."],
+          "options": ["Sollte ich den Arzt rufen.", "Söllte ich den Arzt rufen.", "Solltet ich den Arzt rufen."],
+          "answer": 0,
+          "reveal": "Sollte ich den Arzt rufen.",
+          "hint": "sollte."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Polite lines for the visit. Formal Sie uses the -en form. She uses wäre.",
+      "chips": [
+        { "w": "Hätten Sie Zeit", "hint": "formal Sie." },
+        { "w": "Ich hätte Zeit", "hint": "ich hätte." },
+        { "w": "Könnten Sie mir helfen", "hint": "mir." },
+        { "w": "Würden Sie bitte warten", "hint": "no zu." },
+        { "w": "Sie wäre müde", "hint": "she wäre." },
+        { "w": "Er müsste den Arzt rufen", "hint": "then rufen." },
+        { "w": "Hatten Sie Zeit", "hint": "past." },
+        { "w": "Ich hatte Zeit", "hint": "past." },
+        { "w": "Könnten Sie mich helfen", "hint": "not mich." },
+        { "w": "Würden Sie bitte zu warten", "hint": "no zu." },
+        { "w": "Sie war müde", "hint": "past." },
+        { "w": "Er musste den Arzt rufen", "hint": "past." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, polite, time:",
+          "after": "?",
+          "answer": "Hätten Sie Zeit",
+          "en": "Would you have time?",
+          "why": "Formal Sie hätten. hatten is the past.",
+          "tip": "Hätten.",
+          "hint": "Hätten."
+        },
+        {
+          "before": "Patient, ich, haben:",
+          "after": ".",
+          "answer": "Ich hätte Zeit",
+          "en": "I would have time.",
+          "why": "ich hätte.",
+          "tip": "hätte.",
+          "hint": "hätte."
+        },
+        {
+          "before": "Patient, polite, helfen:",
+          "after": "?",
+          "answer": "Könnten Sie mir helfen",
+          "en": "Could you help me?",
+          "why": "mir.",
+          "tip": "mir.",
+          "hint": "mir."
+        },
+        {
+          "before": "Nurse, polite, warten:",
+          "after": "?",
+          "answer": "Würden Sie bitte warten",
+          "en": "Would you please wait?",
+          "why": "No zu.",
+          "tip": "warten.",
+          "hint": "warten."
+        },
+        {
+          "before": "Nurse, about her, sein:",
+          "after": ".",
+          "answer": "Sie wäre müde",
+          "en": "She would be tired.",
+          "why": "She wäre. war is the past.",
+          "tip": "wäre.",
+          "hint": "wäre."
+        },
+        {
+          "before": "Nurse, müssen, the doctor:",
+          "after": ".",
+          "answer": "Er müsste den Arzt rufen",
+          "en": "He would have to call the doctor.",
+          "why": "müsste, then rufen.",
+          "tip": "müsste.",
+          "hint": "müsste."
+        }
+      ]
+    },
+    {
+      "id": "gap-person",
+      "label": "Gap",
+      "title": "Which person?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the person. du hättest, du wärst, du würdest. ihr hättet. wir wären. She könnte. Formal Sie would be könnten.",
+      "chips": [
+        { "w": "Du hättest eine Frage", "hint": "du hättest." },
+        { "w": "Du wärst müde", "hint": "du wärst." },
+        { "w": "Du würdest warten", "hint": "keep the e." },
+        { "w": "Ihr hättet Zeit", "hint": "ihr hättet." },
+        { "w": "Wir wären müde", "hint": "wir wären." },
+        { "w": "Sie könnte mir helfen", "hint": "she könnte." },
+        { "w": "Du hättetest eine Frage", "hint": "not a form." },
+        { "w": "Du wärstest müde", "hint": "not a form." },
+        { "w": "Du würdst warten", "hint": "keep the e." },
+        { "w": "Ihr hätte Zeit", "hint": "ihr takes hättet." },
+        { "w": "Wir wäre müde", "hint": "wir takes wären." },
+        { "w": "Sie könnten mir helfen", "hint": "formal Sie." },
+        { "w": "Sie konnte mir helfen", "hint": "past." }
+      ],
+      "items": [
+        {
+          "before": "haben, Konjunktiv, du:",
+          "after": ".",
+          "answer": "Du hättest eine Frage",
+          "en": "You would have a question.",
+          "why": "du hättest. Not hättetest.",
+          "tip": "hättest.",
+          "hint": "hättest."
+        },
+        {
+          "before": "sein, Konjunktiv, du:",
+          "after": ".",
+          "answer": "Du wärst müde",
+          "en": "You would be tired.",
+          "why": "du wärst. warst is the past.",
+          "tip": "wärst.",
+          "hint": "wärst."
+        },
+        {
+          "before": "werden, Konjunktiv, du, warten:",
+          "after": ".",
+          "answer": "Du würdest warten",
+          "en": "You would wait.",
+          "why": "würdest keeps the e. würdst is not a form. wurdest is the past.",
+          "tip": "würdest.",
+          "hint": "würdest."
+        },
+        {
+          "before": "haben, Konjunktiv, ihr:",
+          "after": ".",
+          "answer": "Ihr hättet Zeit",
+          "en": "You would have time.",
+          "why": "ihr hättet. hattet is the past.",
+          "tip": "hättet.",
+          "hint": "hättet."
+        },
+        {
+          "before": "sein, Konjunktiv, wir:",
+          "after": ".",
+          "answer": "Wir wären müde",
+          "en": "We would be tired.",
+          "why": "wir wären. waren is the past.",
+          "tip": "wären.",
+          "hint": "wären."
+        },
+        {
+          "before": "können, Konjunktiv, she:",
+          "after": ".",
+          "answer": "Sie könnte mir helfen",
+          "en": "She could help me.",
+          "why": "She könnte. Formal Sie könnten. konnte is the past from chapter 27.",
+          "tip": "könnte.",
+          "hint": "könnte."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Besuch",
+        "title": "Die Zeit",
+        "paragraphs": [
+          "Ich hätte Zeit. Könnten Sie mir helfen? Würden Sie bitte warten?",
+          "Sie wäre müde. Er müsste den Arzt rufen. Du hättest eine Frage. Hätten Sie Zeit?"
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "haben, ich, from the note.",
+          "qEn": "The first line.",
+          "options": ["Ich hätte Zeit.", "Du hättest Zeit.", "Sie hätte Zeit."],
+          "answer": 0,
+          "why": "The note says Ich hätte Zeit.",
+          "hint": "Zeit."
+        },
+        {
+          "kind": "mc",
+          "q": "helfen, formal Sie, from the note.",
+          "qEn": "Dative.",
+          "options": ["Könnten Sie mir helfen?", "Könnten Sie mich helfen?", "Konnten Sie mir helfen?"],
+          "answer": 0,
+          "why": "Könnten Sie mir helfen? mir. konnten is the past.",
+          "hint": "mir."
+        },
+        {
+          "kind": "mc",
+          "q": "sein, she, from the note.",
+          "qEn": "wäre.",
+          "options": ["Sie wäre müde.", "Sie war müde.", "Sie wärst müde."],
+          "answer": 0,
+          "why": "Sie wäre müde. war is the past. wärst is du.",
+          "hint": "wäre."
+        },
+        {
+          "kind": "mc",
+          "q": "müssen, er, from the note.",
+          "qEn": "Then rufen.",
+          "options": ["Er müsste den Arzt rufen.", "Er musste den Arzt rufen.", "Er müsste den Arzt zu rufen."],
+          "answer": 0,
+          "why": "Er müsste den Arzt rufen. No zu. musste is the past.",
+          "hint": "müsste."
+        }
+      ]
+    },
+    {
+      "id": "writing-kii",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four polite lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Use hätte, könnten, würden and wäre.",
+      "prompt": "I would have time. Could you help me? Would you please wait? She would be tired.",
+      "bullets": ["hätte Zeit", "Könnten Sie mir helfen", "Würden Sie bitte warten", "wäre müde"],
+      "model": "Ich hätte Zeit. Könnten Sie mir helfen? Würden Sie bitte warten? Sie wäre müde.",
+      "modelEn": "I would have time. Could you help me? Would you please wait? She would be tired.",
+      "hint": "hätte Zeit. könnten Sie mir helfen. würden Sie bitte warten. wäre müde.",
+      "checklist": [
+        { "id": "h", "label": "hätte Zeit", "keywords": ["hätte zeit"] },
+        { "id": "k", "label": "Könnten Sie mir helfen", "keywords": ["könnten sie mir helfen"] },
+        { "id": "w", "label": "Würden Sie bitte warten", "keywords": ["würden sie bitte warten"] },
+        { "id": "s", "label": "wäre müde", "keywords": ["wäre müde"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Ich hätte Zeit.",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "wäre, hätte, würde, könnte, müsste, dürfte. sollte stays. du wärst, du hättest, du würdest. ihr hättet. wir hätten. Bare infinitive, no zu. helfen takes mir. She könnte. Formal Könnten Sie.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, haben, ich.",
+          "qEn": "hätte.",
+          "options": ["Ich hätte Zeit.", "Ich hatte Zeit.", "Ich hättete Zeit."],
+          "answer": 0,
+          "why": "hätte. hatte is the past state from chapter 23. hättete is not a form.",
+          "hint": "hätte."
+        },
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, sein, du. Short ward form.",
+          "qEn": "wärst.",
+          "options": ["Du wärst müde.", "Du warst müde.", "Du wärstest müde."],
+          "answer": 0,
+          "why": "du wärst. warst is the past. wärstest is not a form.",
+          "hint": "wärst."
+        },
+        {
+          "kind": "mc",
+          "q": "Polite, formal Sie, warten. No zu.",
+          "qEn": "würden.",
+          "options": ["Würden Sie bitte warten?", "Würden Sie bitte zu warten?", "Wurden Sie bitte warten?"],
+          "answer": 0,
+          "why": "würden plus warten. No zu. wurden is the past of werden.",
+          "hint": "warten."
+        },
+        {
+          "kind": "mc",
+          "q": "Polite, formal Sie, helfen.",
+          "qEn": "mir.",
+          "options": ["Könnten Sie mir helfen?", "Könnten Sie mich helfen?", "Konnten Sie mir helfen?"],
+          "answer": 0,
+          "why": "mir, because helfen takes the dative. konnten is the past from chapter 27.",
+          "hint": "mir."
+        },
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, müssen, er. No zu.",
+          "qEn": "müsste.",
+          "options": ["Er müsste den Arzt rufen.", "Er musste den Arzt rufen.", "Er müsste den Arzt zu rufen."],
+          "answer": 0,
+          "why": "müsste, then rufen. musste is the past from chapter 27. No zu.",
+          "hint": "müsste."
+        },
+        {
+          "kind": "mc",
+          "q": "sollen, a suggestion. No false umlaut.",
+          "qEn": "sollte.",
+          "options": ["Sollte ich den Arzt rufen?", "Söllte ich den Arzt rufen?", "Solltet ich den Arzt rufen?"],
+          "answer": 0,
+          "why": "sollte has no umlaut. After letzte Nacht the same spelling is the past, chapter 27.",
+          "hint": "sollte."
+        },
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, werden, du. Keep the e.",
+          "qEn": "würdest.",
+          "options": ["Du würdest warten.", "Du würdst warten.", "Du wurdest warten."],
+          "answer": 0,
+          "why": "würdest keeps the e. würdst is not a form. wurdest is the past of werden.",
+          "hint": "würdest."
+        },
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, haben, ihr.",
+          "qEn": "hättet.",
+          "options": ["Ihr hättet Zeit.", "Ihr hätte Zeit.", "Ihr hattet Zeit."],
+          "answer": 0,
+          "why": "ihr hättet. Ihr hätte is the wrong person. hattet is the past.",
+          "hint": "hättet."
+        },
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, können, she. Not formal Sie.",
+          "qEn": "könnte.",
+          "options": ["Sie könnte mir helfen.", "Sie könnten mir helfen.", "Sie konnte mir helfen."],
+          "answer": 0,
+          "why": "She könnte. Formal Sie könnten. konnte is the past from chapter 27.",
+          "hint": "könnte."
+        },
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, dürfen, ich.",
+          "qEn": "dürfte.",
+          "options": ["Dürfte ich fragen?", "Durfte ich fragen?", "Dürftete ich fragen?"],
+          "answer": 0,
+          "why": "dürfte. durfte is the past from chapter 27. Dürftete is not a form.",
+          "hint": "dürfte."
+        },
+        {
+          "kind": "mc",
+          "q": "Polite, formal Sie, aufstehen. One word.",
+          "qEn": "würden. Not she.",
+          "options": ["Würden Sie bitte aufstehen?", "Würde sie bitte aufstehen?", "Würden Sie bitte stehen auf?"],
+          "answer": 0,
+          "why": "Formal Sie würden. She would be Würde sie. aufstehen stays one word. No zu.",
+          "hint": "aufstehen."
+        },
+        {
+          "kind": "mc",
+          "q": "Konjunktiv, haben, wir.",
+          "qEn": "hätten.",
+          "options": ["Wir hätten Zeit.", "Wir hätte Zeit.", "Wir hatten Zeit."],
+          "answer": 0,
+          "why": "wir hätten. Wir hätte is the wrong person. hatten is the past.",
+          "hint": "hätten."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "War, hätte, würde …",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Ich hätte Zeit.", "en": "I would have time." },
+        { "de": "Könnten Sie mir helfen?", "en": "Could you help me?" },
+        { "de": "Würden Sie bitte warten?", "en": "Would you please wait?" },
+        { "de": "Sie wäre müde.", "en": "She would be tired." }
+      ],
+      "messages": [
+        "Umlaut on the past: wäre, hätte, würde, könnte, müsste, dürfte. sollte and wollte stay. möchte stays polite. mochte stays the past.",
+        "du wärst, du hättest, du würdest. ihr wärt, ihr hättet. She könnte. Formal Könnten Sie. Bare infinitive, no zu. helfen takes mir.",
+        "Sehr gut. Ich hätte Zeit. Könnten Sie mir helfen?",
+        "Ausgezeichnet. You can build the Konjunktiv II form and a polite ward request."
+      ]
+    }
+  ]
+}

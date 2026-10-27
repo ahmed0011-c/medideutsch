@@ -1,0 +1,1151 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-54-praepositionaladverbien",
+  "level": "B1",
+  "unit": "Kapitel 54",
+  "chapter": 54,
+  "chapters": [54],
+  "title": "Daneben, danach, dafür …",
+  "subtitle": "Prepositional adverbs",
+  "glossary": {
+    "worauf": {
+      "de": "worauf",
+      "pos": "adverb",
+      "en": "what … for; on what",
+      "emoji": "❓",
+      "note": "wo + r + auf. Question for a thing: Worauf warten Sie? A person is Auf wen?"
+    },
+    "warten": {
+      "de": "warten → Sie warten",
+      "pos": "form",
+      "en": "wait (formal you)",
+      "emoji": "⏳",
+      "note": "Formal Sie warten. She wartet. du wartest. Worauf is position 1, so warten is position 2."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she; they; formal you",
+      "emoji": "👩",
+      "note": "Formal you: Worauf warten Sie? She: Sie freut sich darüber. Sie wartet."
+    },
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🙋" },
+    "warte": {
+      "de": "warten → ich warte",
+      "pos": "form",
+      "en": "wait",
+      "emoji": "⏳",
+      "note": "A thing: ich warte darauf. A person stays auf den Arzt."
+    },
+    "darauf": {
+      "de": "darauf",
+      "pos": "adverb",
+      "en": "for it; on it",
+      "emoji": "⏳",
+      "note": "da + r + auf, one word. Ich warte darauf. Not auf es, and not daauf. A person is auf ihn."
+    },
+    "freut": {
+      "de": "sich freuen → sie freut sich",
+      "pos": "form",
+      "en": "is glad",
+      "emoji": "🌸",
+      "note": "The thing is darüber. Sie freut sich darüber. ich freue mich darüber."
+    },
+    "sich": {
+      "de": "sich",
+      "pos": "pronoun",
+      "en": "herself, himself, themselves, yourself (formal)",
+      "emoji": "🔁",
+      "note": "Stays after the verb, as in chapter 53. Sie freut sich darüber."
+    },
+    "darüber": {
+      "de": "darüber",
+      "pos": "adverb",
+      "en": "about it",
+      "emoji": "🌸",
+      "note": "da + r + über. über starts with a vowel, so r. Not daüber. Not über es."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" },
+    "fragt": {
+      "de": "fragen → sie fragt",
+      "pos": "form",
+      "en": "asks",
+      "emoji": "❓",
+      "note": "About a thing: fragt danach. ihr fragt. About a person: nach wem."
+    },
+    "danach": {
+      "de": "danach",
+      "pos": "adverb",
+      "en": "about it; after that",
+      "emoji": "❓",
+      "note": "One word, no r, because nach starts with a consonant. fragen nach a thing: Anna fragt danach. Time, chapter 41: Danach misst die Pflegekraft Fieber."
+    },
+    "denke": {
+      "de": "denken → ich denke",
+      "pos": "form",
+      "en": "think",
+      "emoji": "💭",
+      "note": "A thing: ich denke daran. The family is a person: ich denke an sie."
+    },
+    "daran": {
+      "de": "daran",
+      "pos": "adverb",
+      "en": "of it; about it",
+      "emoji": "💭",
+      "note": "da + r + an. an starts with a vowel. Ich denke daran. Not an es."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "👨" },
+    "bittet": {
+      "de": "bitten → er bittet",
+      "pos": "form",
+      "en": "asks for",
+      "emoji": "🙏",
+      "note": "A thing: er bittet darum. um stays inside darum."
+    },
+    "darum": {
+      "de": "darum",
+      "pos": "adverb",
+      "en": "for it",
+      "emoji": "🙏",
+      "note": "da + r + um. Er bittet darum. Not um es. A person is um ihn."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten",
+      "note": "For a thing: Die Tablette ist dafür."
+    },
+    "ist": {
+      "de": "sein → sie ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🟦",
+      "note": "Die Tablette ist dafür."
+    },
+    "dafür": {
+      "de": "dafür",
+      "pos": "adverb",
+      "en": "for it",
+      "emoji": "💊",
+      "note": "da + für, no extra r. für starts with a consonant. Not darfür, and not da für. A person is für ihn."
+    },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "thermometer",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Thermometer",
+      "note": "Beside it: liegt daneben. With it: damit."
+    },
+    "liegt": {
+      "de": "liegen → es liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🌡️",
+      "note": "Wo? Das Thermometer liegt daneben."
+    },
+    "daneben": {
+      "de": "daneben",
+      "pos": "adverb",
+      "en": "beside it",
+      "emoji": "↔️",
+      "note": "da + neben, no r. One word. Beside the bed: daneben. Not da neben, and not darneben. A person is neben ihr."
+    },
+    "familie": {
+      "de": "Familie",
+      "pos": "noun",
+      "en": "family",
+      "emoji": "👨‍👩‍👧",
+      "article": "die",
+      "plural": "die Familien",
+      "note": "People. mit der Familie, or mit ihr. Not damit. denken an sie, not daran."
+    },
+    "wartet": {
+      "de": "warten → sie wartet",
+      "pos": "form",
+      "en": "waits (she)",
+      "emoji": "⏳",
+      "note": "She wartet. Formal Sie warten. Die Familie wartet auf den Arzt."
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "for; on",
+      "emoji": "⏳",
+      "note": "With a person you name: auf den Arzt. The thing-word is darauf, one word."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)",
+      "emoji": "🔵",
+      "note": "auf den Arzt. One man."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "A person. Auf wen? Auf den Arzt. Auf ihn. Not darauf."
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "About it, not about him",
+      "learn": [
+        "A thing becomes one word: da(r) plus the preposition. Ich warte darauf. Sie freut sich darüber. Anna fragt danach. Ich denke daran. Er bittet darum. Die Tablette ist dafür.",
+        "If the preposition starts with a vowel, add r: darauf, darüber, daran, darum. auf, über, an and um take that r. mit, nach, für and neben do not: damit, danach, dafür, daneben.",
+        "A person stays a preposition plus a pronoun. Auf wen? Auf den Arzt. Mit wem? Mit ihr. Not darauf for the doctor, and not damit for the family.",
+        "The question for a thing is wo(r) plus the preposition: Worauf warten Sie? Darauf. da alone is still the place from chapter 43. Time danach, Danach misst die Pflegekraft Fieber, stays chapter 41."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tablette" },
+        { "de": "Thermometer", "article": "das", "plural": "die Thermometer", "en": "thermometer", "emoji": "🌡️", "image": { "type": "svg", "id": "thermometer" }, "glossaryKey": "thermometer" },
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor (male)", "emoji": "👨‍⚕️", "glossaryKey": "arzt" },
+        { "de": "Familie", "article": "die", "plural": "die Familien", "en": "family", "emoji": "👨‍👩‍👧", "glossaryKey": "familie" }
+      ],
+      "text": {
+        "title": "Daneben, danach, dafür …",
+        "de": "Worauf warten Sie? Ich warte darauf. Sie freut sich darüber. Anna fragt danach. Ich denke daran. Er bittet darum. Die Tablette ist dafür. Das Thermometer liegt daneben.",
+        "en": "What are you waiting for? I am waiting for it. She is glad about it. Anna asks about it. I am thinking of it. He asks for it. The tablet is for it. The thermometer is lying beside it."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "One word for a thing",
+      "practice": "choose",
+      "heroTitle": "Worauf warten Sie?",
+      "heroImage": "thermometer",
+      "story": [
+        "Chapter 53 kept the preposition with its noun: auf den Arzt, über die Blumen, nach dem Befund. When that noun is a <b>thing</b>, and you do not name it again, German uses one word. <b>Ich warte darauf. Sie freut sich darüber. Ich denke daran. Er bittet darum.</b> Not auf es, über es, an es or um es.",
+        "Look at the first letter of the preposition. A vowel takes <b>r</b>: auf, über, an, um give <b>darauf, darüber, daran, darum</b>. The question does the same with wo: <b>Worauf warten Sie? Worüber freut sie sich? Woran denken Sie? Worum bittet er?</b> A consonant takes no r: <b>damit, danach, dafür, daneben</b>. Not darmit, darnach, darfür or darneben.",
+        "The question word is position 1, so the verb is position 2. <b>Worauf warten Sie?</b> Formal Sie uses warten. She uses wartet: Worauf wartet sie? du uses wartest: Worauf wartest du? A direct question does not send the verb to the end.",
+        "A <b>person</b> does not become a da-word. <b>Die Familie wartet auf den Arzt.</b> Auf wen? Auf den Arzt. Auf ihn. Not darauf. <b>Sie spricht mit der Familie.</b> Mit wem? Mit ihr. mit takes the dative, so ihr, not sie. Not damit. denken an the family is <b>an sie</b>, accusative, not daran. dafür is for a thing. A person is für ihn.",
+        "<b>danach</b> has two correct uses. With fragen nach, it means about that thing: <b>Anna fragt danach.</b> As time, it is still chapter 41, position 1: <b>Danach misst die Pflegekraft Fieber.</b> The label says which. <b>damit</b> here means with that thing: Sie misst damit, with the thermometer. damit meaning so that is chapter 74.",
+        "<b>daneben</b> is beside that thing: <b>Das Thermometer liegt daneben.</b> One word, no r. Beside a person stays neben ihr. <b>da</b> alone is still the place from chapter 43: Ich bin da. dahin and daher stay direction words. They are not darauf."
+      ],
+      "questionRule": "A thing is one word: darauf, darüber, daran, darum, damit, danach, dafür, daneben. Vowel prepositions take r. A person stays auf wen, mit ihr, an sie. Worauf warten Sie? The verb is position 2.",
+      "tables": [
+        {
+          "title": "Sache oder Person",
+          "caption": "da(r) and wo(r) replace a thing. A person keeps the preposition.",
+          "columns": ["Frage", "Sache", "Person"],
+          "rows": [
+            { "label": "auf", "cells": ["Worauf?", "darauf", "Auf wen?"], "highlight": true },
+            { "label": "über", "cells": ["Worüber?", "darüber", "Über wen?"], "highlight": true },
+            { "label": "an", "cells": ["Woran?", "daran", "An wen?"], "highlight": true },
+            { "label": "um", "cells": ["Worum?", "darum", "Um wen?"] },
+            { "label": "mit", "cells": ["Womit?", "damit", "Mit wem?"] },
+            { "label": "nach", "cells": ["Wonach?", "danach", "Nach wem?"] },
+            { "label": "für", "cells": ["Wofür?", "dafür", "Für wen?"] },
+            { "label": "neben", "cells": ["—", "daneben", "neben ihr"] }
+          ]
+        },
+        {
+          "title": "r oder kein r",
+          "caption": "Vowel: r. Consonant: no r. One word either way.",
+          "columns": ["Präposition", "Wort"],
+          "rows": [
+            { "label": "auf, über, an, um", "cells": ["Vokal, mit r", "darauf, darüber, daran, darum"], "highlight": true },
+            { "label": "mit, nach, für, neben", "cells": ["Konsonant, ohne r", "damit, danach, dafür, daneben"], "highlight": true }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "No es after the preposition. No split. No r before a consonant.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "auf", "cells": ["auf es", "darauf"] },
+            { "label": "über", "cells": ["daüber", "darüber"] },
+            { "label": "nach", "cells": ["da nach", "danach"] },
+            { "label": "für", "cells": ["darfür", "dafür"] },
+            { "label": "Arzt", "cells": ["auf es", "auf ihn"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four da-word traps",
+        "items": [
+          { "de": "Ich warte darauf.", "en": "A thing. r, because auf is a vowel.", "tone": "ok" },
+          { "de": "Ich warte auf es.", "en": "Not es after auf.", "tone": "stop" },
+          { "de": "Sie freut sich darüber.", "en": "r before über.", "tone": "ok" },
+          { "de": "Sie freut sich daüber.", "en": "über needs the r.", "tone": "stop" },
+          { "de": "Auf ihn.", "en": "A person keeps the preposition: auf ihn.", "tone": "ok" },
+          { "de": "Auf es.", "en": "Not es. The doctor is auf ihn.", "tone": "stop" },
+          { "de": "Anna fragt danach.", "en": "About the report. No r.", "tone": "ok" },
+          { "de": "Anna fragt da nach.", "en": "danach is one word.", "tone": "stop" }
+        ],
+        "tip": "Thing: one da-word or wo-word. Person: preposition plus wen, wem or a pronoun. Vowel prepositions take r."
+      },
+      "tips": [
+        {
+          "title": "The r test",
+          "body": "Say the preposition. If it starts with a vowel, put r in the middle. darauf, darüber, daran, darum. danach, dafür, damit and daneben have no r.",
+          "mnemonic": "auf takes r. nach does not.",
+          "emoji": "🔤"
+        }
+      ],
+      "quizTitle": "Thing or person?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "warten, a thing, ich.",
+          "qEn": "One word. Not auf es.",
+          "options": ["Ich warte darauf.", "Ich warte auf es.", "Ich warte daauf."],
+          "answer": 0,
+          "why": "darauf. r before auf.",
+          "hint": "darauf."
+        },
+        {
+          "kind": "mc",
+          "q": "Direct question. Formal Sie, a thing.",
+          "qEn": "Verb in position 2.",
+          "options": ["Worauf warten Sie?", "Woauf warten Sie?", "Worauf Sie warten?"],
+          "answer": 0,
+          "why": "Worauf warten Sie?",
+          "hint": "warten."
+        },
+        {
+          "kind": "mc",
+          "q": "Direct question. sich freuen, she, a thing.",
+          "qEn": "r before über.",
+          "options": ["Worüber freut sie sich?", "Woüber freut sie sich?", "Worüber sie sich freut?"],
+          "answer": 0,
+          "why": "Worüber freut sie sich?",
+          "hint": "Worüber."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor is a person. warten.",
+          "qEn": "Auf wen, not Worauf.",
+          "options": ["Auf wen wartet die Familie?", "Worauf wartet die Familie?", "Wen wartet die Familie?"],
+          "answer": 0,
+          "why": "A person: Auf wen. Worauf is for a thing.",
+          "hint": "wen."
+        },
+        {
+          "kind": "mc",
+          "q": "fragen nach, the report, a thing.",
+          "qEn": "About it. No r.",
+          "options": ["Anna fragt danach.", "Anna fragt da nach.", "Anna fragt nach es."],
+          "answer": 0,
+          "why": "danach. One word.",
+          "hint": "danach."
+        },
+        {
+          "kind": "mc",
+          "q": "messen, she, with the thermometer.",
+          "qEn": "A thing. No r. She misst.",
+          "options": ["Sie misst damit.", "Sie misst da mit.", "Sie misst mit es."],
+          "answer": 0,
+          "why": "damit. mit starts with a consonant.",
+          "hint": "damit."
+        }
+      ]
+    },
+    {
+      "id": "gap-da",
+      "label": "Gap",
+      "title": "Replace the thing",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label says the thing. Use one da-word. Vowel prepositions take r. für and nach do not.",
+      "chips": [
+        { "w": "Ich warte darauf", "hint": "r before auf." },
+        { "w": "Sie freut sich darüber", "hint": "r before über." },
+        { "w": "Ich denke daran", "hint": "r before an." },
+        { "w": "Er bittet darum", "hint": "r before um." },
+        { "w": "Die Tablette ist dafür", "hint": "no extra r." },
+        { "w": "Anna fragt danach", "hint": "one word." },
+        { "w": "Ich warte auf es", "hint": "not es." },
+        { "w": "Ich warte daauf", "hint": "needs r." },
+        { "w": "Sie freut sich daüber", "hint": "needs r." },
+        { "w": "Ich denke an es", "hint": "not es." },
+        { "w": "Er bittet um es", "hint": "not es." },
+        { "w": "Die Tablette ist darfür", "hint": "no r." },
+        { "w": "Anna fragt da nach", "hint": "one word." },
+        { "w": "Anna fragt nach es", "hint": "not es." }
+      ],
+      "items": [
+        {
+          "before": "warten, a thing, ich:",
+          "after": ".",
+          "answer": "Ich warte darauf",
+          "en": "I am waiting for it.",
+          "why": "darauf.",
+          "tip": "darauf.",
+          "hint": "darauf."
+        },
+        {
+          "before": "sich freuen, a thing, she:",
+          "after": ".",
+          "answer": "Sie freut sich darüber",
+          "en": "She is glad about it.",
+          "why": "darüber.",
+          "tip": "darüber.",
+          "hint": "darüber."
+        },
+        {
+          "before": "denken an, a thing, ich:",
+          "after": ".",
+          "answer": "Ich denke daran",
+          "en": "I am thinking of it.",
+          "why": "daran.",
+          "tip": "daran.",
+          "hint": "daran."
+        },
+        {
+          "before": "bitten um, a thing, er:",
+          "after": ".",
+          "answer": "Er bittet darum",
+          "en": "He asks for it.",
+          "why": "darum.",
+          "tip": "darum.",
+          "hint": "darum."
+        },
+        {
+          "before": "für, the tablet, a thing:",
+          "after": ".",
+          "answer": "Die Tablette ist dafür",
+          "en": "The tablet is for it.",
+          "why": "dafür. No extra r.",
+          "tip": "dafür.",
+          "hint": "dafür."
+        },
+        {
+          "before": "fragen nach, the report, a thing:",
+          "after": ".",
+          "answer": "Anna fragt danach",
+          "en": "Anna asks about it.",
+          "why": "danach. One word.",
+          "tip": "danach.",
+          "hint": "danach."
+        }
+      ]
+    },
+    {
+      "id": "match-da",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which word?",
+      "practice": "match",
+      "instructions": "Match the sentence. A thing is one da-word or wo-word. A person keeps the preposition. Add r only before a vowel.",
+      "items": [
+        {
+          "prompt": "I am waiting for it. A thing.",
+          "options": [
+            { "emoji": "⏳", "label": "Ich warte darauf.", "caption": "r." },
+            { "emoji": "🚫", "label": "Ich warte auf es.", "caption": "Not es." },
+            { "emoji": "🚫", "label": "Ich warte daauf.", "caption": "Needs r." }
+          ],
+          "answer": 0,
+          "why": "darauf.",
+          "hint": "darauf."
+        },
+        {
+          "prompt": "She is glad about it. A thing.",
+          "options": [
+            { "emoji": "🌸", "label": "Sie freut sich darüber.", "caption": "r." },
+            { "emoji": "🚫", "label": "Sie freut sich daüber.", "caption": "Needs r." },
+            { "emoji": "🚫", "label": "Sie freut sich über es.", "caption": "Not es." }
+          ],
+          "answer": 0,
+          "why": "darüber.",
+          "hint": "darüber."
+        },
+        {
+          "prompt": "Anna asks about the report. A thing.",
+          "options": [
+            { "emoji": "❓", "label": "Anna fragt danach.", "caption": "one word." },
+            { "emoji": "🚫", "label": "Anna fragt da nach.", "caption": "Not two words." },
+            { "emoji": "🚫", "label": "Anna fragt nach es.", "caption": "Not es." }
+          ],
+          "answer": 0,
+          "why": "danach.",
+          "hint": "danach."
+        },
+        {
+          "prompt": "He asks for it. A thing.",
+          "options": [
+            { "emoji": "🙏", "label": "Er bittet darum.", "caption": "r." },
+            { "emoji": "🚫", "label": "Er bittet um es.", "caption": "Not es." },
+            { "emoji": "🚫", "label": "Er bittet da rum.", "caption": "One word." }
+          ],
+          "answer": 0,
+          "why": "darum.",
+          "hint": "darum."
+        },
+        {
+          "prompt": "The tablet is for it. A thing.",
+          "options": [
+            { "emoji": "💊", "label": "Die Tablette ist dafür.", "caption": "no extra r." },
+            { "emoji": "🚫", "label": "Die Tablette ist da für.", "caption": "One word." },
+            { "emoji": "🚫", "label": "Die Tablette ist darfür.", "caption": "No r." }
+          ],
+          "answer": 0,
+          "why": "dafür.",
+          "hint": "dafür."
+        },
+        {
+          "prompt": "The doctor is a person. Replace him.",
+          "options": [
+            { "emoji": "👨‍⚕️", "label": "Auf ihn.", "caption": "a person." },
+            { "emoji": "🚫", "label": "Darauf.", "caption": "That is a thing." },
+            { "emoji": "🚫", "label": "Auf es.", "caption": "Not es." }
+          ],
+          "answer": 0,
+          "why": "A person: auf ihn. Darauf is for a thing.",
+          "hint": "ihn."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed the thermometer lies beside",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster beside the bed",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer she measures with",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart Anna asks about",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-da",
+      "type": "builder",
+      "label": "Build",
+      "title": "Question word first",
+      "practice": "build",
+      "instructions": "Build the line. In the direct question, Worauf is first and warten is position 2. A fronted da-word is also fine in a statement.",
+      "items": [
+        {
+          "tiles": ["Worauf", "warten", "Sie"],
+          "answers": ["Worauf warten Sie"],
+          "punct": "?",
+          "modal": "warten",
+          "inf": "Sie",
+          "question": false,
+          "en": "What are you waiting for?",
+          "hint": "Worauf first.",
+          "feedback": {
+            "end": "The question ends with Sie: Worauf warten Sie?",
+            "fallback": "Worauf is position 1. Worauf warten Sie?"
+          }
+        },
+        {
+          "tiles": ["Ich", "warte", "darauf"],
+          "answers": ["Ich warte darauf", "Darauf warte ich"],
+          "punct": ".",
+          "modal": "warte",
+          "inf": "darauf",
+          "question": false,
+          "en": "I am waiting for it.",
+          "hint": "darauf can be last or first.",
+          "feedback": {
+            "end": "The plain line ends with darauf: Ich warte darauf.",
+            "fallback": "Ich warte darauf. Or: Darauf warte ich."
+          }
+        },
+        {
+          "tiles": ["Sie", "freut", "sich", "darüber"],
+          "answers": ["Sie freut sich darüber", "Darüber freut sie sich"],
+          "punct": ".",
+          "modal": "freut",
+          "inf": "darüber",
+          "question": false,
+          "en": "She is glad about it.",
+          "hint": "sich, then darüber.",
+          "feedback": {
+            "end": "The plain line ends with darüber: Sie freut sich darüber.",
+            "fallback": "Sie freut sich darüber. Or: Darüber freut sie sich."
+          }
+        },
+        {
+          "tiles": ["Anna", "fragt", "danach"],
+          "answers": ["Anna fragt danach", "Danach fragt Anna"],
+          "punct": ".",
+          "modal": "fragt",
+          "inf": "danach",
+          "question": false,
+          "en": "Anna asks about it.",
+          "hint": "danach is one word.",
+          "feedback": {
+            "end": "The plain line ends with danach: Anna fragt danach.",
+            "fallback": "Anna fragt danach. Or: Danach fragt Anna."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-da",
+      "label": "Rewrite",
+      "title": "Thing or person",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished line. A thing is a da-word. The family is a person, so mit takes ihr, not damit. She of messen is misst.",
+      "chips": [
+        { "w": "Ich warte darauf", "hint": "a thing." },
+        { "w": "Sie freut sich darüber", "hint": "a thing." },
+        { "w": "Ich denke daran", "hint": "a thing." },
+        { "w": "Die Tablette ist dafür", "hint": "no extra r." },
+        { "w": "Sie misst damit", "hint": "a thing. misst." },
+        { "w": "Sie spricht mit ihr", "hint": "a person. dative." },
+        { "w": "Ich warte auf es", "hint": "not es." },
+        { "w": "Sie freut sich daüber", "hint": "needs r." },
+        { "w": "Ich denke an es", "hint": "not es." },
+        { "w": "Die Tablette ist darfür", "hint": "no r." },
+        { "w": "Sie misst da mit", "hint": "one word." },
+        { "w": "Sie spricht damit", "hint": "damit is a thing." },
+        { "w": "Sie spricht mit sie", "hint": "mit takes ihr." }
+      ],
+      "items": [
+        {
+          "before": "warten, a thing, ich:",
+          "after": ".",
+          "answer": "Ich warte darauf",
+          "en": "I am waiting for it.",
+          "why": "darauf.",
+          "tip": "darauf.",
+          "hint": "darauf."
+        },
+        {
+          "before": "sich freuen, a thing, she:",
+          "after": ".",
+          "answer": "Sie freut sich darüber",
+          "en": "She is glad about it.",
+          "why": "darüber.",
+          "tip": "darüber.",
+          "hint": "darüber."
+        },
+        {
+          "before": "denken an, a thing, ich:",
+          "after": ".",
+          "answer": "Ich denke daran",
+          "en": "I am thinking of it.",
+          "why": "daran.",
+          "tip": "daran.",
+          "hint": "daran."
+        },
+        {
+          "before": "für, the tablet:",
+          "after": ".",
+          "answer": "Die Tablette ist dafür",
+          "en": "The tablet is for it.",
+          "why": "dafür.",
+          "tip": "dafür.",
+          "hint": "dafür."
+        },
+        {
+          "before": "messen, she, the thermometer:",
+          "after": ".",
+          "answer": "Sie misst damit",
+          "en": "She measures with it.",
+          "why": "damit. She misst.",
+          "tip": "damit.",
+          "hint": "damit."
+        },
+        {
+          "before": "sprechen mit, the family, a person:",
+          "after": ".",
+          "answer": "Sie spricht mit ihr",
+          "en": "She speaks with her.",
+          "why": "A person: mit ihr. damit is for a thing. mit takes the dative.",
+          "tip": "ihr.",
+          "hint": "ihr."
+        }
+      ]
+    },
+    {
+      "id": "error-da",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line splits a da-word, drops the r, or uses a thing-word for a person. Choose the correction.",
+      "items": [
+        {
+          "clues": ["Waiting for it.", "auf takes r.", "Ich warte daauf."],
+          "options": ["Ich warte darauf.", "Ich warte daauf.", "Ich warte auf es."],
+          "answer": 0,
+          "reveal": "Ich warte darauf.",
+          "hint": "darauf."
+        },
+        {
+          "clues": ["Glad about it.", "über takes r.", "Sie freut sich über es."],
+          "options": ["Sie freut sich darüber.", "Sie freut sich über es.", "Sie freut sich daüber."],
+          "answer": 0,
+          "reveal": "Sie freut sich darüber.",
+          "hint": "darüber."
+        },
+        {
+          "clues": ["About the report.", "danach is one word.", "Anna fragt da nach."],
+          "options": ["Anna fragt danach.", "Anna fragt da nach.", "Anna fragt nach es."],
+          "answer": 0,
+          "reveal": "Anna fragt danach.",
+          "hint": "danach."
+        },
+        {
+          "clues": ["The doctor is a person.", "auf den Arzt.", "Die Familie wartet darauf."],
+          "options": ["Die Familie wartet auf den Arzt.", "Die Familie wartet darauf.", "Die Familie wartet auf es."],
+          "answer": 0,
+          "reveal": "Die Familie wartet auf den Arzt.",
+          "hint": "Arzt."
+        },
+        {
+          "clues": ["Beside it.", "daneben is one word.", "Das Thermometer liegt da neben."],
+          "options": ["Das Thermometer liegt daneben.", "Das Thermometer liegt da neben.", "Das Thermometer liegt darneben."],
+          "answer": 0,
+          "reveal": "Das Thermometer liegt daneben.",
+          "hint": "daneben."
+        },
+        {
+          "clues": ["The tablet is for it.", "für takes no r.", "Die Tablette ist für es."],
+          "options": ["Die Tablette ist dafür.", "Die Tablette ist für es.", "Die Tablette ist darfür."],
+          "answer": 0,
+          "reveal": "Die Tablette ist dafür.",
+          "hint": "dafür."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-visit",
+      "label": "Dialogue",
+      "title": "The patient asks",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The patient asks what you are waiting for. Answer with a thing-word. ich of freuen is freue mich. ich of fragen is frage.",
+      "chips": [
+        { "w": "Worauf warten Sie", "hint": "formal. verb position 2." },
+        { "w": "Ich warte darauf", "hint": "a thing." },
+        { "w": "Ich freue mich darüber", "hint": "r before über." },
+        { "w": "Ich frage danach", "hint": "about the report." },
+        { "w": "Ich bitte darum", "hint": "r before um." },
+        { "w": "Ich denke daran", "hint": "r before an." },
+        { "w": "Woauf warten Sie", "hint": "needs r." },
+        { "w": "Ich warte auf es", "hint": "not es." },
+        { "w": "Ich freue mich daüber", "hint": "needs r." },
+        { "w": "Ich frage da nach", "hint": "one word." },
+        { "w": "Ich bitte um es", "hint": "not es." },
+        { "w": "Ich denke an es", "hint": "not es." }
+      ],
+      "items": [
+        {
+          "who": "Patient",
+          "before": "Frage, formal, a thing:",
+          "after": "?",
+          "answer": "Worauf warten Sie",
+          "en": "What are you waiting for?",
+          "why": "Worauf warten Sie?",
+          "tip": "Worauf.",
+          "hint": "Worauf."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "warten, ich, a thing:",
+          "after": ".",
+          "answer": "Ich warte darauf",
+          "en": "I am waiting for it.",
+          "why": "darauf.",
+          "tip": "darauf.",
+          "hint": "darauf."
+        },
+        {
+          "who": "Patientin",
+          "before": "sich freuen, ich, a thing:",
+          "after": ".",
+          "answer": "Ich freue mich darüber",
+          "en": "I am glad about it.",
+          "why": "freue mich darüber.",
+          "tip": "darüber.",
+          "hint": "darüber."
+        },
+        {
+          "who": "Anna",
+          "before": "fragen nach, ich, the report:",
+          "after": ".",
+          "answer": "Ich frage danach",
+          "en": "I ask about it.",
+          "why": "danach.",
+          "tip": "danach.",
+          "hint": "danach."
+        },
+        {
+          "who": "Sohn",
+          "before": "bitten um, ich, a thing:",
+          "after": ".",
+          "answer": "Ich bitte darum",
+          "en": "I ask for it.",
+          "why": "darum.",
+          "tip": "darum.",
+          "hint": "darum."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "denken an, ich, a thing:",
+          "after": ".",
+          "answer": "Ich denke daran",
+          "en": "I am thinking of it.",
+          "why": "daran.",
+          "tip": "daran.",
+          "hint": "daran."
+        }
+      ]
+    },
+    {
+      "id": "gap-person",
+      "label": "Sentences",
+      "title": "du, ihr, and a person",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "du of warten is wartest. Formal Sie is warten, not wartet. ihr of fragen is fragt. The family is a person: an sie, not daran. Beside the bed is daneben, with no r.",
+      "chips": [
+        { "w": "Worauf wartest du", "hint": "du wartest." },
+        { "w": "Worauf warten Sie", "hint": "formal warten." },
+        { "w": "Wonach fragt ihr", "hint": "ihr fragt." },
+        { "w": "Ich denke an sie", "hint": "a person. accusative." },
+        { "w": "Das Thermometer liegt daneben", "hint": "no r." },
+        { "w": "Sie misst damit", "hint": "no r." },
+        { "w": "Worauf wartet du", "hint": "du is wartest." },
+        { "w": "Woauf wartest du", "hint": "needs r." },
+        { "w": "Worauf wartet Sie", "hint": "formal is warten." },
+        { "w": "Wonach fragen ihr", "hint": "ihr is fragt." },
+        { "w": "Ich denke daran", "hint": "daran is a thing." },
+        { "w": "Ich denke an ihr", "hint": "an takes sie." },
+        { "w": "Das Thermometer liegt darneben", "hint": "no r." },
+        { "w": "Sie misst da mit", "hint": "one word." }
+      ],
+      "items": [
+        {
+          "before": "warten, du, a thing:",
+          "after": "?",
+          "answer": "Worauf wartest du",
+          "en": "What are you waiting for?",
+          "why": "du wartest. Worauf.",
+          "tip": "wartest.",
+          "hint": "wartest."
+        },
+        {
+          "before": "warten, formal Sie, a thing:",
+          "after": "?",
+          "answer": "Worauf warten Sie",
+          "en": "What are you waiting for?",
+          "why": "Formal Sie warten. wartet is she.",
+          "tip": "warten.",
+          "hint": "warten."
+        },
+        {
+          "before": "fragen nach, ihr, a thing:",
+          "after": "?",
+          "answer": "Wonach fragt ihr",
+          "en": "What are you asking about?",
+          "why": "ihr fragt. Wonach. No r.",
+          "tip": "fragt.",
+          "hint": "fragt."
+        },
+        {
+          "before": "denken an, the family, a person:",
+          "after": ".",
+          "answer": "Ich denke an sie",
+          "en": "I am thinking of them.",
+          "why": "A person: an sie. daran is for a thing. an takes the accusative.",
+          "tip": "sie.",
+          "hint": "sie."
+        },
+        {
+          "before": "neben, the bed, a thing:",
+          "after": ".",
+          "answer": "Das Thermometer liegt daneben",
+          "en": "The thermometer is lying beside it.",
+          "why": "daneben. neben starts with a consonant.",
+          "tip": "daneben.",
+          "hint": "daneben."
+        },
+        {
+          "before": "mit, the thermometer, she:",
+          "after": ".",
+          "answer": "Sie misst damit",
+          "en": "She measures with it.",
+          "why": "damit. She misst.",
+          "tip": "damit.",
+          "hint": "damit."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The question",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Besuch",
+        "title": "Worauf",
+        "paragraphs": [
+          "Worauf warten Sie? Ich warte darauf. Sie freut sich darüber. Anna fragt danach.",
+          "Ich denke daran. Er bittet darum. Die Tablette ist dafür. Das Thermometer liegt daneben. Die Familie wartet auf den Arzt."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Ich warte …",
+          "qEn": "A thing.",
+          "options": ["darauf", "auf den Arzt", "daneben"],
+          "answer": 0,
+          "why": "Ich warte darauf.",
+          "hint": "darauf."
+        },
+        {
+          "kind": "mc",
+          "q": "Sie freut sich …",
+          "qEn": "About it.",
+          "options": ["darüber", "daüber", "darauf"],
+          "answer": 0,
+          "why": "Sie freut sich darüber.",
+          "hint": "darüber."
+        },
+        {
+          "kind": "mc",
+          "q": "Das Thermometer liegt …",
+          "qEn": "Beside it.",
+          "options": ["daneben", "darauf", "darneben"],
+          "answer": 0,
+          "why": "liegt daneben.",
+          "hint": "daneben."
+        },
+        {
+          "kind": "mc",
+          "q": "Die Familie wartet auf …",
+          "qEn": "A person.",
+          "options": ["den Arzt", "darauf", "dem Arzt"],
+          "answer": 0,
+          "why": "auf den Arzt. A person.",
+          "hint": "Arzt."
+        }
+      ]
+    },
+    {
+      "id": "writing-da",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four da-lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Use Worauf, darauf, darüber and daneben as single words.",
+      "prompt": "What are you waiting for? I am waiting for it. She is glad about it. The thermometer is lying beside it.",
+      "bullets": ["Worauf warten Sie", "warte darauf", "freut sich darüber", "liegt daneben"],
+      "model": "Worauf warten Sie? Ich warte darauf. Sie freut sich darüber. Das Thermometer liegt daneben.",
+      "modelEn": "What are you waiting for? I am waiting for it. She is glad about it. The thermometer is lying beside it.",
+      "hint": "Worauf warten Sie. warte darauf. freut sich darüber. liegt daneben.",
+      "checklist": [
+        { "id": "q", "label": "Worauf warten Sie", "keywords": ["worauf warten sie"] },
+        { "id": "a", "label": "warte darauf", "keywords": ["warte darauf"] },
+        { "id": "u", "label": "freut sich darüber", "keywords": ["freut sich darüber"] },
+        { "id": "n", "label": "liegt daneben", "keywords": ["liegt daneben"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Worauf warten Sie?",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Thing: darauf, darüber, daran, darum, damit, danach, dafür, daneben. Vowel prepositions take r. Person: Auf wen, auf ihn, mit ihr, an sie. Worauf warten Sie? Time danach stays Danach misst die Pflegekraft Fieber.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "warten, a thing, ich.",
+          "qEn": "darauf.",
+          "options": ["Ich warte darauf.", "Ich warte auf es.", "Ich warte daauf."],
+          "answer": 0,
+          "why": "darauf.",
+          "hint": "darauf."
+        },
+        {
+          "kind": "mc",
+          "q": "Direct question. Formal Sie, a thing.",
+          "qEn": "Verb position 2.",
+          "options": ["Worauf warten Sie?", "Woauf warten Sie?", "Worauf Sie warten?"],
+          "answer": 0,
+          "why": "Worauf warten Sie?",
+          "hint": "warten."
+        },
+        {
+          "kind": "mc",
+          "q": "sich freuen, she, a thing.",
+          "qEn": "darüber.",
+          "options": ["Sie freut sich darüber.", "Sie freut sich daüber.", "Sie freut sich über es."],
+          "answer": 0,
+          "why": "darüber.",
+          "hint": "darüber."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor is a person.",
+          "qEn": "Auf wen.",
+          "options": ["Auf wen wartet die Familie?", "Worauf wartet die Familie?", "Wen wartet die Familie?"],
+          "answer": 0,
+          "why": "A person: Auf wen. Worauf is for a thing.",
+          "hint": "wen."
+        },
+        {
+          "kind": "mc",
+          "q": "fragen nach, the report.",
+          "qEn": "About it.",
+          "options": ["Anna fragt danach.", "Anna fragt da nach.", "Anna fragt nach es."],
+          "answer": 0,
+          "why": "danach.",
+          "hint": "danach."
+        },
+        {
+          "kind": "mc",
+          "q": "bitten um, a thing.",
+          "qEn": "darum.",
+          "options": ["Er bittet darum.", "Er bittet um es.", "Er bittet da rum."],
+          "answer": 0,
+          "why": "darum.",
+          "hint": "darum."
+        },
+        {
+          "kind": "mc",
+          "q": "The tablet is for it.",
+          "qEn": "dafür. No extra r.",
+          "options": ["Die Tablette ist dafür.", "Die Tablette ist da für.", "Die Tablette ist darfür."],
+          "answer": 0,
+          "why": "dafür.",
+          "hint": "dafür."
+        },
+        {
+          "kind": "mc",
+          "q": "The thermometer is beside it.",
+          "qEn": "daneben. No r.",
+          "options": ["Das Thermometer liegt daneben.", "Das Thermometer liegt da neben.", "Das Thermometer liegt darneben."],
+          "answer": 0,
+          "why": "daneben.",
+          "hint": "daneben."
+        },
+        {
+          "kind": "mc",
+          "q": "denken an, a thing, ich.",
+          "qEn": "daran.",
+          "options": ["Ich denke daran.", "Ich denke an es.", "Ich denke da an."],
+          "answer": 0,
+          "why": "daran.",
+          "hint": "daran."
+        },
+        {
+          "kind": "mc",
+          "q": "sprechen mit, the family, a person.",
+          "qEn": "mit ihr. Dative.",
+          "options": ["Sie spricht mit ihr.", "Sie spricht damit.", "Sie spricht mit sie."],
+          "answer": 0,
+          "why": "mit ihr. damit is for a thing.",
+          "hint": "ihr."
+        },
+        {
+          "kind": "mc",
+          "q": "warten, du, a thing. Direct question.",
+          "qEn": "wartest.",
+          "options": ["Worauf wartest du?", "Worauf wartet du?", "Woauf wartest du?"],
+          "answer": 0,
+          "why": "du wartest.",
+          "hint": "wartest."
+        },
+        {
+          "kind": "mc",
+          "q": "After that, she takes the temperature. Chapter 41.",
+          "qEn": "danach is position 1.",
+          "options": ["Danach misst die Pflegekraft Fieber.", "Danach die Pflegekraft misst Fieber.", "Da nach misst sie Fieber."],
+          "answer": 0,
+          "why": "Danach misst die Pflegekraft Fieber.",
+          "hint": "misst."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Daneben, danach, dafür …",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Worauf warten Sie?", "en": "What are you waiting for?" },
+        { "de": "Ich warte darauf.", "en": "I am waiting for it." },
+        { "de": "Sie freut sich darüber.", "en": "She is glad about it." },
+        { "de": "Das Thermometer liegt daneben.", "en": "The thermometer is lying beside it." }
+      ],
+      "messages": [
+        "A thing is one word. Vowels take r: darauf, darüber, daran, darum. Consonants do not: damit, danach, dafür, daneben.",
+        "A person stays a preposition: Auf wen, auf ihn, mit ihr, an sie. Worauf warten Sie? The verb is position 2.",
+        "Sehr gut. Worauf warten Sie? Darauf.",
+        "Ausgezeichnet. You can replace a thing with a da-word and leave a person as a pronoun."
+      ]
+    }
+  ]
+}
