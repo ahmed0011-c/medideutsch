@@ -1,0 +1,1867 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "id": "a1-31-dativpraepositionen",
+  "level": "A1",
+  "unit": "Kapitel 31",
+  "chapter": 31,
+  "chapters": [
+    31
+  ],
+  "title": "Aus, bei, mit, nach, seit, von oder zu",
+  "subtitle": "Prepositions that always take the dative",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of; from (a place)"
+    },
+    "bei": {
+      "de": "bei",
+      "pos": "preposition",
+      "en": "at; with (a person)"
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with; by (instrument or transport)"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "after; to (a city)"
+    },
+    "seit": {
+      "de": "seit",
+      "pos": "preposition",
+      "en": "since; for (still continuing)"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from (a person)"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "preposition",
+      "en": "to (a person or place)"
+    },
+    "ab": {
+      "de": "ab",
+      "pos": "preposition",
+      "en": "from (a starting point)"
+    },
+    "gegenüber": {
+      "de": "gegenüber",
+      "pos": "preposition",
+      "en": "opposite"
+    },
+    "beim": {
+      "de": "beim",
+      "pos": "contraction",
+      "en": "bei + dem"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "contraction",
+      "en": "von + dem"
+    },
+    "zur": {
+      "de": "zur",
+      "pos": "contraction",
+      "en": "zu + der"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "fährt": {
+      "de": "fahren → fährt",
+      "pos": "verb",
+      "en": "goes; drives"
+    },
+    "taxi": {
+      "de": "Taxi",
+      "pos": "noun",
+      "en": "taxi",
+      "article": "das",
+      "plural": "die Taxis",
+      "emoji": "🚕"
+    },
+    "anmeldung": {
+      "de": "Anmeldung",
+      "pos": "noun",
+      "en": "reception; admissions desk",
+      "article": "die",
+      "plural": "die Anmeldungen",
+      "emoji": "🗂️"
+    },
+    "essen": {
+      "de": "Essen",
+      "pos": "noun",
+      "en": "meal",
+      "article": "das",
+      "plural": "die Mahlzeiten",
+      "emoji": "🍽️"
+    },
+    "nimmt": {
+      "de": "nehmen → nimmt",
+      "pos": "verb",
+      "en": "takes"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "article": "die",
+      "plural": "die Tabletten",
+      "emoji": "💊"
+    },
+    "montag": {
+      "de": "Montag",
+      "pos": "noun",
+      "en": "Monday",
+      "article": "der",
+      "plural": "die Montage"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "husten": {
+      "de": "Husten",
+      "pos": "noun",
+      "en": "cough",
+      "article": "der",
+      "emoji": "😷"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart; file",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "morgen": {
+      "de": "morgen",
+      "pos": "adverb",
+      "en": "tomorrow"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "hause": {
+      "de": "Hause",
+      "pos": "noun",
+      "en": "home, in zu Hause and nach Hause",
+      "emoji": "🏠"
+    },
+    "labor": {
+      "de": "Labor",
+      "pos": "noun",
+      "en": "laboratory",
+      "article": "das",
+      "plural": "die Labore",
+      "emoji": "🔬"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please"
+    },
+    "gehen": {
+      "de": "gehen",
+      "pos": "verb",
+      "en": "to go"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "aus, bei, mit, nach, seit, von and zu always take the dative. Sing them to the Blue Danube: aus-bei-mit-nach-seit-von-zu.",
+        "gegenüber and ab take the dative too. They sit beside the song.",
+        "Short forms: beim, vom, zum, zur. bei der and von der do not contract.",
+        "Traps: nach Hause is the way home, zu Hause is the place. seit wants the dative. zum Arzt is a person; ins Krankenhaus is a building."
+      ],
+      "vocab": [
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "🩺",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Anmeldung",
+          "article": "die",
+          "plural": "die Anmeldungen",
+          "en": "reception",
+          "emoji": "🗂️",
+          "glossaryKey": "anmeldung"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Taxi",
+          "article": "das",
+          "plural": "die Taxis",
+          "en": "taxi",
+          "emoji": "🚕",
+          "glossaryKey": "taxi"
+        },
+        {
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "emoji": "💊",
+          "glossaryKey": "tablette"
+        },
+        {
+          "de": "Labor",
+          "article": "das",
+          "plural": "die Labore",
+          "en": "laboratory",
+          "emoji": "🔬",
+          "glossaryKey": "labor"
+        }
+      ],
+      "text": {
+        "title": "Zur Anmeldung",
+        "de": "Die Pflegekraft kommt aus dem Zimmer. Der Patient ist beim Arzt. Er fährt mit dem Taxi zur Anmeldung. Nach dem Essen nimmt er die Tablette. Seit Montag hat er Husten. Die Akte ist vom Arzt. Ab morgen bleibt er zu Hause. Die Anmeldung ist gegenüber dem Labor.",
+        "en": "The nurse comes out of the room. The patient is at the doctor's. He goes by taxi to reception. After the meal he takes the tablet. He has had a cough since Monday. The chart is from the doctor. From tomorrow he stays at home. Reception is opposite the lab."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Immer Dativ",
+      "practice": "choose",
+      "heroTitle": "Seven prepositions, one case",
+      "heroImage": "stethoscope",
+      "story": [
+        "These seven always take the <b>dative</b>: aus, bei, mit, nach, seit, von, zu. The Blue Danube waltz has seven beats for them: <b>aus-bei-mit-nach-seit-von-zu</b>.",
+        "<b>gegenüber</b> and <b>ab</b> take the dative too. They do not fit the song, so learn them beside it.",
+        "Short forms: bei + dem = <b>beim</b>, von + dem = <b>vom</b>, zu + dem = <b>zum</b>, zu + der = <b>zur</b>. <i>bei der</i> and <i>von der</i> stay long."
+      ],
+      "questionRule": "Position 1 is the subject. Position 2 is the verb. The dative phrase follows. <b>in</b> is not in this list: ins Krankenhaus is a two-way preposition.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "aus",
+              "r": "subj"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "Dativ",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Die",
+              "r": "rest"
+            },
+            {
+              "t": "Pflegekraft",
+              "r": "subj"
+            },
+            {
+              "t": "kommt",
+              "r": "verb"
+            },
+            {
+              "t": "aus",
+              "r": "rest"
+            },
+            {
+              "t": "dem",
+              "r": "rest"
+            },
+            {
+              "t": "Zimmer",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "aus always takes the dative.",
+          "enAfter": "Die Pflegekraft kommt aus dem Zimmer.",
+          "callLabel": "Show aus"
+        },
+        {
+          "before": [
+            {
+              "t": "bei",
+              "r": "subj"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "dem",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Der",
+              "r": "rest"
+            },
+            {
+              "t": "Patient",
+              "r": "subj"
+            },
+            {
+              "t": "ist",
+              "r": "verb"
+            },
+            {
+              "t": "beim",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "bei + dem contracts to beim.",
+          "enAfter": "Der Patient ist beim Arzt.",
+          "callLabel": "Show beim"
+        },
+        {
+          "before": [
+            {
+              "t": "zu",
+              "r": "subj"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "der",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Gehen",
+              "r": "verb"
+            },
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "zur",
+              "r": "rest"
+            },
+            {
+              "t": "Anmeldung",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "zu + der contracts to zur.",
+          "enAfter": "Gehen Sie zur Anmeldung.",
+          "callLabel": "Show zur"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Immer Dativ",
+          "caption": "The seven in the waltz are highlighted. gegenüber and ab take the same case and sit beside the song.",
+          "columns": [
+            "Wofür?",
+            "Beispiel"
+          ],
+          "rows": [
+            {
+              "label": "aus",
+              "cells": [
+                "out of a room",
+                "aus dem Zimmer"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "bei",
+              "cells": [
+                "at a person",
+                "beim Arzt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "mit",
+              "cells": [
+                "instrument or transport",
+                "mit dem Taxi"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "nach",
+              "cells": [
+                "after; to a city",
+                "nach dem Essen"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "seit",
+              "cells": [
+                "since, and it still holds",
+                "seit Montag"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "von",
+              "cells": [
+                "from a person",
+                "vom Arzt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "zu",
+              "cells": [
+                "to a person",
+                "zur Anmeldung"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "gegenüber",
+              "cells": [
+                "opposite",
+                "gegenüber dem Labor"
+              ],
+              "highlight": false
+            },
+            {
+              "label": "ab",
+              "cells": [
+                "starting point",
+                "ab morgen"
+              ],
+              "highlight": false
+            }
+          ]
+        },
+        {
+          "title": "beim, vom, zum, zur",
+          "caption": "Only dem, and zu + der, contract. bei der and von der stay as two words.",
+          "columns": [
+            "Lang",
+            "Kurz"
+          ],
+          "rows": [
+            {
+              "label": "bei + dem",
+              "cells": [
+                "bei dem Arzt",
+                "beim Arzt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "von + dem",
+              "cells": [
+                "von dem Arzt",
+                "vom Arzt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "zu + dem",
+              "cells": [
+                "zu dem Arzt",
+                "zum Arzt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "zu + der",
+              "cells": [
+                "zu der Anmeldung",
+                "zur Anmeldung"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "bei + der",
+              "cells": [
+                "bei der Ärztin",
+                "— keine Kontraktion"
+              ]
+            },
+            {
+              "label": "von + der",
+              "cells": [
+                "von der Station",
+                "— keine Kontraktion"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "dem, der, den",
+          "caption": "Masculine and neuter dative dem, feminine der, plural den plus -n on the noun. A weekday often has no article: seit Montag.",
+          "columns": [
+            "Maskulin / Neutrum",
+            "Feminin",
+            "Plural"
+          ],
+          "rows": [
+            {
+              "label": "Artikel",
+              "cells": [
+                "dem",
+                "der",
+                "den"
+              ]
+            },
+            {
+              "label": "mit",
+              "cells": [
+                "mit dem Taxi",
+                "mit der Pflegekraft",
+                "mit den Tabletten"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "seit",
+              "cells": [
+                "seit Montag",
+                "seit einer Woche",
+                "seit drei Tagen"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Satzposition",
+          "caption": "The verb stays in position 2. The dative phrase does not move it.",
+          "columns": [
+            "Pos 1",
+            "Pos 2 · Verb",
+            "Dativphrase"
+          ],
+          "rows": [
+            {
+              "label": "Zimmer",
+              "cells": [
+                "Die Pflegekraft",
+                "kommt",
+                "aus dem Zimmer"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Arzt",
+              "cells": [
+                "Der Patient",
+                "ist",
+                "beim Arzt"
+              ]
+            },
+            {
+              "label": "Anmeldung",
+              "cells": [
+                "Sie",
+                "gehen",
+                "zur Anmeldung"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Three traps",
+        "items": [
+          {
+            "de": "Ich gehe nach Hause.",
+            "en": "Direction: on the way home.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich gehe zu Hause.",
+            "en": "zu Hause is the place, not the way.",
+            "tone": "stop"
+          },
+          {
+            "de": "Ich bin zu Hause.",
+            "en": "Place: he is at home. Ab morgen bleibt er zu Hause.",
+            "tone": "ok"
+          },
+          {
+            "de": "Seit einer Woche hat er Husten.",
+            "en": "seit + dative, and the cough is still there.",
+            "tone": "ok"
+          },
+          {
+            "de": "Seit eine Woche hat er Husten.",
+            "en": "eine is not dative. Say einer Woche, drei Tagen.",
+            "tone": "stop"
+          },
+          {
+            "de": "Ich gehe zum Arzt.",
+            "en": "A person takes zu + dative.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich gehe ins Arzt.",
+            "en": "Arzt is not a building. ins Arzt does not exist.",
+            "tone": "stop"
+          },
+          {
+            "de": "Ich gehe ins Krankenhaus.",
+            "en": "The building takes in. in is a two-way preposition, not one of the seven.",
+            "tone": "ok"
+          },
+          {
+            "de": "Wir fahren nach Berlin.",
+            "en": "A city without an article takes nach.",
+            "tone": "ok"
+          },
+          {
+            "de": "Wir fahren zu Berlin.",
+            "en": "Not zu, and not nach Arzt or nach Station.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Room: aus. Person: bei, zu, von. Time that is still true: seit. Home: nach Hause on the way, zu Hause once you are there."
+      },
+      "tips": [
+        {
+          "title": "Blue Danube",
+          "emoji": "🎻",
+          "color": "D",
+          "mnemonic": "aus – bei – mit – nach – seit – von – zu",
+          "body": "Seven syllables, like the waltz. If the preposition is in the song, the noun is dative: dem, der, or den.",
+          "examples": [
+            {
+              "de": "aus dem Zimmer",
+              "en": "out of the room"
+            },
+            {
+              "de": "seit Montag",
+              "en": "since Monday"
+            }
+          ]
+        },
+        {
+          "title": "Beside the song",
+          "emoji": "➕",
+          "color": "D",
+          "mnemonic": "gegenüber · ab",
+          "body": "Same case, not in the seven. gegenüber can also follow: dem Labor gegenüber. ab marks the start: ab morgen.",
+          "examples": [
+            {
+              "de": "gegenüber dem Labor",
+              "en": "opposite the lab"
+            },
+            {
+              "de": "ab morgen",
+              "en": "from tomorrow"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Recognise the dative",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "aus, bei, mit, nach, seit, von, zu take which case?",
+          "qEn": "The waltz list.",
+          "options": [
+            "Dativ",
+            "Akkusativ",
+            "Nominativ"
+          ],
+          "answer": 0,
+          "why": "The seven always take the dative.",
+          "hint": "Sing the seven."
+        },
+        {
+          "kind": "mc",
+          "q": "bei + dem Arzt shortens to…",
+          "qEn": "Contraction.",
+          "options": [
+            "zur Arzt",
+            "beim Arzt",
+            "vom Arzt"
+          ],
+          "answer": 1,
+          "why": "bei + dem = beim.",
+          "hint": "bei + dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse is going home after the shift.",
+          "qEn": "Direction.",
+          "options": [
+            "zu Hause",
+            "ins Hause",
+            "nach Hause"
+          ],
+          "answer": 2,
+          "why": "nach Hause is the direction. zu Hause is the place.",
+          "hint": "On the way."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient is staying at home.",
+          "qEn": "Place.",
+          "options": [
+            "zu Hause",
+            "nach Hause",
+            "vom Hause"
+          ],
+          "answer": 0,
+          "why": "bleiben answers where he is: zu Hause.",
+          "hint": "Place, not direction."
+        }
+      ]
+    },
+    {
+      "id": "gap-core",
+      "label": "Lücken",
+      "title": "aus, bei, mit, nach, seit, von",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is used once. The noun after it is dative.",
+      "chips": [
+        {
+          "w": "aus",
+          "hint": "Woher? a room"
+        },
+        {
+          "w": "beim",
+          "hint": "Wo? a person"
+        },
+        {
+          "w": "mit",
+          "hint": "Womit?"
+        },
+        {
+          "w": "nach",
+          "hint": "After what?"
+        },
+        {
+          "w": "seit",
+          "hint": "Since when?"
+        },
+        {
+          "w": "vom",
+          "hint": "Woher? a person"
+        }
+      ],
+      "items": [
+        {
+          "before": "Die Pflegekraft kommt",
+          "after": "dem Zimmer.",
+          "answer": "aus",
+          "en": "out of the room",
+          "why": "A room takes aus + dative.",
+          "tip": "aus",
+          "hint": "Woher? a room"
+        },
+        {
+          "before": "Der Patient ist",
+          "after": "Arzt.",
+          "answer": "beim",
+          "en": "at the doctor's",
+          "why": "bei + dem = beim.",
+          "tip": "beim",
+          "hint": "Wo? a person"
+        },
+        {
+          "before": "Er fährt",
+          "after": "dem Taxi.",
+          "answer": "mit",
+          "en": "by taxi",
+          "why": "Transport takes mit + dative.",
+          "tip": "mit",
+          "hint": "Womit?"
+        },
+        {
+          "before": "Er nimmt die Tablette",
+          "after": "dem Essen.",
+          "answer": "nach",
+          "en": "after the meal",
+          "why": "nach + dative for a time.",
+          "tip": "nach",
+          "hint": "After what?"
+        },
+        {
+          "before": "Er hat",
+          "after": "Montag Husten.",
+          "answer": "seit",
+          "en": "since Monday",
+          "why": "seit + dative, and it still holds.",
+          "tip": "seit",
+          "hint": "Since when?"
+        },
+        {
+          "before": "Die Akte ist",
+          "after": "Arzt.",
+          "answer": "vom",
+          "en": "from the doctor",
+          "why": "von + dem = vom. A person, not aus.",
+          "tip": "vom",
+          "hint": "Woher? a person"
+        }
+      ]
+    },
+    {
+      "id": "match-traps",
+      "label": "Match",
+      "title": "Which phrase?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the phrase that fits. Read the caption before you tap.",
+      "items": [
+        {
+          "prompt": "Which list always takes the dative?",
+          "options": [
+            {
+              "emoji": "🎻",
+              "label": "aus, bei, mit, nach, seit, von, zu",
+              "caption": "Blue Danube"
+            },
+            {
+              "emoji": "🐕",
+              "label": "für, um, durch, ohne, gegen",
+              "caption": "Always accusative"
+            },
+            {
+              "emoji": "🚪",
+              "label": "in, an, auf, neben",
+              "caption": "Two-way prepositions"
+            }
+          ],
+          "answer": 0,
+          "why": "The waltz seven are always dative. in is not one of them.",
+          "hint": "Seven syllables."
+        },
+        {
+          "prompt": "The patient is already with the doctor.",
+          "options": [
+            {
+              "emoji": "🩺",
+              "label": "beim Arzt",
+              "caption": "bei + dem, place"
+            },
+            {
+              "emoji": "🚶",
+              "label": "zum Arzt",
+              "caption": "zu + dem, direction"
+            },
+            {
+              "emoji": "📄",
+              "label": "vom Arzt",
+              "caption": "von + dem, origin"
+            }
+          ],
+          "answer": 0,
+          "why": "ist answers where he is: beim Arzt.",
+          "hint": "Wo?"
+        },
+        {
+          "prompt": "The nurse is going home after the shift.",
+          "options": [
+            {
+              "emoji": "🏠",
+              "label": "nach Hause",
+              "caption": "direction"
+            },
+            {
+              "emoji": "🛋️",
+              "label": "zu Hause",
+              "caption": "place"
+            },
+            {
+              "emoji": "🚑",
+              "label": "von zu Hause",
+              "caption": "origin"
+            }
+          ],
+          "answer": 0,
+          "why": "gehen is movement, so nach Hause.",
+          "hint": "Wohin?"
+        },
+        {
+          "prompt": "The cough started and he still has it.",
+          "options": [
+            {
+              "emoji": "📅",
+              "label": "seit einer Woche",
+              "caption": "dative, still true"
+            },
+            {
+              "emoji": "✏️",
+              "label": "seit eine Woche",
+              "caption": "eine is not dative"
+            },
+            {
+              "emoji": "⏪",
+              "label": "vor einer Woche",
+              "caption": "a finished point in the past"
+            }
+          ],
+          "answer": 0,
+          "why": "seit + dative for a stretch that includes now.",
+          "hint": "Still true."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "label": "Picture",
+      "title": "Picture the phrase",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match each picture to the ward word. The hint names the dative phrase.",
+      "items": [
+        {
+          "id": "arzt",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor — beim Arzt, zum Arzt",
+          "image": {
+            "type": "svg",
+            "id": "stethoscope"
+          },
+          "hint": "A person takes bei or zu."
+        },
+        {
+          "id": "station",
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "ward — zur Station",
+          "image": {
+            "type": "svg",
+            "id": "ward"
+          },
+          "hint": "zu + der = zur."
+        },
+        {
+          "id": "tablette",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet — mit den Tabletten",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "Plural dative adds -n."
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "chart — die Akte ist vom Arzt",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "von + dem = vom."
+        }
+      ]
+    },
+    {
+      "id": "build-sentences",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Put the tiles in order. The verb stays in position 2.",
+      "items": [
+        {
+          "tiles": [
+            "Ich",
+            "gehe",
+            "zum",
+            "Arzt"
+          ],
+          "answers": [
+            "Ich gehe zum Arzt"
+          ],
+          "punct": ".",
+          "modal": "gehe",
+          "inf": "Arzt",
+          "question": false,
+          "en": "I am going to the doctor.",
+          "hint": "A person: zu + dem = zum.",
+          "feedback": {
+            "fallback": "A person: zu + dem = zum."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "kommt",
+            "aus",
+            "dem",
+            "Zimmer"
+          ],
+          "answers": [
+            "Sie kommt aus dem Zimmer"
+          ],
+          "punct": ".",
+          "modal": "kommt",
+          "inf": "Zimmer",
+          "question": false,
+          "en": "She comes out of the room.",
+          "hint": "A room takes aus.",
+          "feedback": {
+            "fallback": "A room takes aus."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "fährt",
+            "mit",
+            "dem",
+            "Taxi"
+          ],
+          "answers": [
+            "Er fährt mit dem Taxi"
+          ],
+          "punct": ".",
+          "modal": "fährt",
+          "inf": "Taxi",
+          "question": false,
+          "en": "He goes by taxi.",
+          "hint": "Transport takes mit.",
+          "feedback": {
+            "fallback": "Transport takes mit."
+          }
+        },
+        {
+          "tiles": [
+            "Bitte",
+            "gehen",
+            "Sie",
+            "zur",
+            "Anmeldung"
+          ],
+          "answers": [
+            "Bitte gehen Sie zur Anmeldung"
+          ],
+          "punct": ".",
+          "modal": "gehen",
+          "inf": "Anmeldung",
+          "question": false,
+          "en": "Please go to reception.",
+          "hint": "zu + der = zur.",
+          "feedback": {
+            "fallback": "zu + der = zur."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-forms",
+      "label": "Umformen",
+      "title": "Make the short form",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Rewrite the long form, or repair the case.",
+      "chips": [
+        {
+          "w": "zum",
+          "hint": "zu + dem"
+        },
+        {
+          "w": "zur",
+          "hint": "zu + der"
+        },
+        {
+          "w": "beim",
+          "hint": "bei + dem"
+        },
+        {
+          "w": "vom",
+          "hint": "von + dem"
+        },
+        {
+          "w": "seit einer Woche",
+          "hint": "Not eine."
+        },
+        {
+          "w": "nach Hause",
+          "hint": "Wohin?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Bitte gehen Sie",
+          "after": "Arzt.",
+          "answer": "zum",
+          "en": "to the doctor",
+          "why": "zu + dem = zum.",
+          "tip": "zum",
+          "hint": "zu + dem"
+        },
+        {
+          "before": "Bitte gehen Sie",
+          "after": "Anmeldung.",
+          "answer": "zur",
+          "en": "to reception",
+          "why": "zu + der = zur.",
+          "tip": "zur",
+          "hint": "zu + der"
+        },
+        {
+          "before": "Der Patient ist",
+          "after": "Arzt.",
+          "answer": "beim",
+          "en": "at the doctor's",
+          "why": "bei + dem = beim.",
+          "tip": "beim",
+          "hint": "bei + dem"
+        },
+        {
+          "before": "Er kommt",
+          "after": "Röntgen.",
+          "answer": "vom",
+          "en": "from radiology",
+          "why": "von + dem = vom.",
+          "tip": "vom",
+          "hint": "von + dem"
+        },
+        {
+          "before": "Sie nimmt",
+          "after": "Antibiotika.",
+          "answer": "seit einer Woche",
+          "en": "for a week, still",
+          "why": "seit + feminine dative: einer.",
+          "tip": "einer",
+          "hint": "Not eine."
+        },
+        {
+          "before": "Ich gehe",
+          "after": ".",
+          "answer": "nach Hause",
+          "en": "going home",
+          "why": "Direction is nach Hause, not zu Hause.",
+          "tip": "nach",
+          "hint": "Wohin?"
+        }
+      ]
+    },
+    {
+      "id": "error-traps",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich gehe zu Hause."
+          ],
+          "options": [
+            "Ich gehe nach Hause.",
+            "Ich gehe zu dem Hause.",
+            "Ich gehe beim Hause."
+          ],
+          "answer": 0,
+          "reveal": "Richtung: nach Hause. Ort: zu Hause.",
+          "hint": "gehen is a direction."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Seit eine Woche hat er Husten."
+          ],
+          "options": [
+            "Seit einer Woche hat er Husten.",
+            "Seit einem Woche hat er Husten.",
+            "Seit eine Wochen hat er Husten."
+          ],
+          "answer": 0,
+          "reveal": "seit takes the dative: einer Woche.",
+          "hint": "eine is nominative."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich gehe ins Arzt."
+          ],
+          "options": [
+            "Ich gehe zum Arzt.",
+            "Ich gehe zur Arzt.",
+            "Ich gehe nach Arzt."
+          ],
+          "answer": 0,
+          "reveal": "A person takes zu + dative: zum Arzt.",
+          "hint": "Arzt is not a building."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er kommt seit dem Zimmer."
+          ],
+          "options": [
+            "Er kommt aus dem Zimmer.",
+            "Er kommt nach dem Zimmer.",
+            "Er kommt beim Zimmer."
+          ],
+          "answer": 0,
+          "reveal": "seit is time. A room takes aus.",
+          "hint": "seit does not mean out of."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialog",
+      "title": "At reception",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Complete the dialogue. Each chip is used once.",
+      "chips": [
+        {
+          "w": "zur",
+          "hint": "zu + der"
+        },
+        {
+          "w": "zum",
+          "hint": "zu + dem"
+        },
+        {
+          "w": "ab",
+          "hint": "Starting when?"
+        },
+        {
+          "w": "gegenüber",
+          "hint": "Opposite what?"
+        },
+        {
+          "w": "von",
+          "hint": "No short form."
+        },
+        {
+          "w": "zu",
+          "hint": "Wo?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Bitte gehen Sie",
+          "after": "Anmeldung.",
+          "answer": "zur",
+          "en": "to reception",
+          "why": "zu + der = zur.",
+          "tip": "zur",
+          "hint": "zu + der",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ich gehe",
+          "after": "Arzt.",
+          "answer": "zum",
+          "en": "to the doctor",
+          "why": "zu + dem = zum.",
+          "tip": "zum",
+          "hint": "zu + dem",
+          "who": "Patient"
+        },
+        {
+          "before": "Er bleibt",
+          "after": "morgen zu Hause.",
+          "answer": "ab",
+          "en": "from tomorrow",
+          "why": "ab marks the start, then zu Hause for the place.",
+          "tip": "ab",
+          "hint": "Starting when?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Die Anmeldung ist",
+          "after": "dem Labor.",
+          "answer": "gegenüber",
+          "en": "opposite the lab",
+          "why": "gegenüber + dative: dem Labor.",
+          "tip": "gegenüber",
+          "hint": "Opposite what?",
+          "who": "Patient"
+        },
+        {
+          "before": "Ich komme",
+          "after": "der Ärztin.",
+          "answer": "von",
+          "en": "from the doctor",
+          "why": "von + der does not contract.",
+          "tip": "von der",
+          "hint": "No short form.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Heute bin ich",
+          "after": "Hause.",
+          "answer": "zu",
+          "en": "at home today",
+          "why": "zu Hause is the place.",
+          "tip": "zu Hause",
+          "hint": "Wo?",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "gap-extra",
+      "label": "Lücken",
+      "title": "The whole phrase",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Now the preposition and the dative noun travel together.",
+      "chips": [
+        {
+          "w": "aus dem Zimmer",
+          "hint": "A room."
+        },
+        {
+          "w": "bei der Ärztin",
+          "hint": "No contraction."
+        },
+        {
+          "w": "mit der Pflegekraft",
+          "hint": "With whom?"
+        },
+        {
+          "w": "nach Berlin",
+          "hint": "A city."
+        },
+        {
+          "w": "seit drei Tagen",
+          "hint": "Still true."
+        },
+        {
+          "w": "vom Röntgen",
+          "hint": "von + dem"
+        },
+        {
+          "w": "zum Labor",
+          "hint": "zu + dem"
+        },
+        {
+          "w": "zur Station",
+          "hint": "zu + der"
+        }
+      ],
+      "items": [
+        {
+          "before": "Sie kommt",
+          "after": ".",
+          "answer": "aus dem Zimmer",
+          "en": "out of the room",
+          "why": "aus + dem Zimmer.",
+          "tip": "aus",
+          "hint": "A room."
+        },
+        {
+          "before": "Er ist",
+          "after": ".",
+          "answer": "bei der Ärztin",
+          "en": "with the doctor",
+          "why": "bei + der stays long.",
+          "tip": "bei der",
+          "hint": "No contraction."
+        },
+        {
+          "before": "Sie spricht",
+          "after": ".",
+          "answer": "mit der Pflegekraft",
+          "en": "with the nurse",
+          "why": "mit + feminine dative.",
+          "tip": "mit",
+          "hint": "With whom?"
+        },
+        {
+          "before": "Wir fahren",
+          "after": ".",
+          "answer": "nach Berlin",
+          "en": "to Berlin",
+          "why": "A city without an article takes nach.",
+          "tip": "nach",
+          "hint": "A city."
+        },
+        {
+          "before": "Er hat",
+          "after": "Husten.",
+          "answer": "seit drei Tagen",
+          "en": "for three days",
+          "why": "Plural dative: Tagen, not Tage.",
+          "tip": "Tagen",
+          "hint": "Still true."
+        },
+        {
+          "before": "Er kommt",
+          "after": ".",
+          "answer": "vom Röntgen",
+          "en": "from radiology",
+          "why": "von + dem = vom.",
+          "tip": "vom",
+          "hint": "von + dem"
+        },
+        {
+          "before": "Labor, Neutrum: Gehen Sie",
+          "after": ".",
+          "answer": "zum Labor",
+          "en": "to the lab",
+          "why": "Labor is neuter: zu + dem = zum.",
+          "tip": "zum",
+          "hint": "zu + dem"
+        },
+        {
+          "before": "Station, Femininum: Gehen Sie",
+          "after": ".",
+          "answer": "zur Station",
+          "en": "to the ward",
+          "why": "Station is feminine: zu + der = zur.",
+          "tip": "zur",
+          "hint": "zu + der"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the ward note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Zur Anmeldung",
+        "paragraphs": [
+          "Bitte gehen Sie zur Anmeldung. Die Pflegekraft kommt aus dem Zimmer. Der Patient ist beim Arzt. Er fährt mit dem Taxi. Nach dem Essen nimmt er die Tablette. Seit Montag hat er Husten. Die Akte ist vom Arzt. Ab morgen bleibt er zu Hause. Die Anmeldung ist gegenüber dem Labor."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Woher kommt die Pflegekraft?",
+          "qEn": "Origin.",
+          "options": [
+            "aus dem Zimmer",
+            "vom Arzt",
+            "zur Anmeldung"
+          ],
+          "answer": 0,
+          "why": "A room takes aus.",
+          "hint": "aus + room."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo ist der Patient?",
+          "qEn": "Place.",
+          "options": [
+            "zum Arzt",
+            "beim Arzt",
+            "nach Hause"
+          ],
+          "answer": 1,
+          "why": "ist answers where he is.",
+          "hint": "beim, not zum."
+        },
+        {
+          "kind": "mc",
+          "q": "Womit fährt der Patient?",
+          "qEn": "Transport.",
+          "options": [
+            "mit dem Arzt",
+            "aus dem Taxi",
+            "mit dem Taxi"
+          ],
+          "answer": 2,
+          "why": "mit + dative for transport.",
+          "hint": "mit."
+        },
+        {
+          "kind": "mc",
+          "q": "Seit wann hat er Husten?",
+          "qEn": "Time.",
+          "options": [
+            "seit Montag",
+            "nach dem Essen",
+            "ab morgen"
+          ],
+          "answer": 0,
+          "why": "seit is the stretch that includes now.",
+          "hint": "Still true."
+        }
+      ]
+    },
+    {
+      "id": "writing-note",
+      "label": "Writing",
+      "title": "Write the note",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four or five short sentences. Use the dative prepositions from the waltz.",
+      "prompt": "A patient leaves his room, is with the doctor, travels by taxi, has had a cough since Monday, and a visitor should go to reception.",
+      "bullets": [
+        "A room with aus + dative",
+        "A person with beim",
+        "Transport with mit + dative",
+        "Time with seit, still true",
+        "Reception with zur"
+      ],
+      "model": "Der Patient kommt aus dem Zimmer. Er ist beim Arzt. Er fährt mit dem Taxi. Seit Montag hat er Husten. Bitte gehen Sie zur Anmeldung.",
+      "modelEn": "The patient comes out of the room. He is at the doctor's. He goes by taxi. He has had a cough since Monday. Please go to reception.",
+      "hint": "Sing aus-bei-mit-nach-seit-von-zu, then pick the preposition that fits.",
+      "checklist": [
+        {
+          "id": "aus",
+          "label": "A room with aus",
+          "keywords": [
+            "aus"
+          ]
+        },
+        {
+          "id": "beim",
+          "label": "A person with beim",
+          "keywords": [
+            "beim"
+          ]
+        },
+        {
+          "id": "seit",
+          "label": "Time with seit",
+          "keywords": [
+            "seit"
+          ]
+        },
+        {
+          "id": "zur",
+          "label": "Reception with zur",
+          "keywords": [
+            "zur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 31. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Which case do aus, bei, mit, nach, seit, von and zu take?",
+          "qEn": "The seven.",
+          "options": [
+            "Dativ",
+            "Akkusativ",
+            "Nominativ"
+          ],
+          "answer": 0,
+          "why": "Always dative.",
+          "hint": "The waltz."
+        },
+        {
+          "kind": "mc",
+          "q": "bei + dem Arzt shortens to which form?",
+          "qEn": "Contraction.",
+          "options": [
+            "bei dem Arzt, and it must stay long",
+            "beim Arzt",
+            "zur Arzt"
+          ],
+          "answer": 1,
+          "why": "bei + dem = beim.",
+          "hint": "dem contracts."
+        },
+        {
+          "kind": "mc",
+          "q": "zu + der Anmeldung shortens to which form?",
+          "qEn": "Feminine.",
+          "options": [
+            "zum Anmeldung",
+            "zu der Anmeldung, and it never contracts",
+            "zur Anmeldung"
+          ],
+          "answer": 2,
+          "why": "zu + der = zur.",
+          "hint": "zu + der."
+        },
+        {
+          "kind": "mc",
+          "q": "von + der Ärztin — which form is right?",
+          "qEn": "No contraction.",
+          "options": [
+            "von der Ärztin",
+            "vom Ärztin",
+            "zur Ärztin"
+          ],
+          "answer": 0,
+          "why": "von + der stays long. vom is von + dem.",
+          "hint": "der does not contract with von."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse is going home. Which phrase is the direction?",
+          "qEn": "Wohin?",
+          "options": [
+            "zu Hause",
+            "nach Hause",
+            "von zu Hause"
+          ],
+          "answer": 1,
+          "why": "nach Hause is the way. zu Hause is the place.",
+          "hint": "Direction."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient is staying home. Which phrase is the place?",
+          "qEn": "Wo?",
+          "options": [
+            "nach Hause",
+            "ins Hause",
+            "zu Hause"
+          ],
+          "answer": 2,
+          "why": "bleiben + zu Hause.",
+          "hint": "Place."
+        },
+        {
+          "kind": "mc",
+          "q": "He still has the cough. Which time phrase is right?",
+          "qEn": "seit.",
+          "options": [
+            "seit einer Woche",
+            "seit eine Woche",
+            "seit einem Woche"
+          ],
+          "answer": 0,
+          "why": "Feminine dative: einer Woche.",
+          "hint": "Dative of eine."
+        },
+        {
+          "kind": "mc",
+          "q": "Please send him to the doctor. Which phrase?",
+          "qEn": "A person.",
+          "options": [
+            "ins Arzt",
+            "zum Arzt",
+            "nach Arzt"
+          ],
+          "answer": 1,
+          "why": "A person takes zu + dative.",
+          "hint": "Not in, not nach."
+        },
+        {
+          "kind": "mc",
+          "q": "The hospital is a building. Which phrase uses in, not the waltz list?",
+          "qEn": "Two-way.",
+          "options": [
+            "zum Arzt",
+            "nach Krankenhaus",
+            "ins Krankenhaus"
+          ],
+          "answer": 2,
+          "why": "in + das = ins. in is not aus-bei-mit-nach-seit-von-zu.",
+          "hint": "A building."
+        },
+        {
+          "kind": "mc",
+          "q": "Which phrase means to Berlin?",
+          "qEn": "A city.",
+          "options": [
+            "nach Berlin",
+            "zu Berlin",
+            "beim Berlin"
+          ],
+          "answer": 0,
+          "why": "Cities without an article take nach.",
+          "hint": "nach, not zu."
+        },
+        {
+          "kind": "mc",
+          "q": "The cough has lasted three days and is still there. Which phrase?",
+          "qEn": "Plural.",
+          "options": [
+            "seit drei Tage",
+            "seit drei Tagen",
+            "seit drei Tag"
+          ],
+          "answer": 1,
+          "why": "Plural dative adds -n: Tagen.",
+          "hint": "Dative plural."
+        },
+        {
+          "kind": "mc",
+          "q": "Reception is opposite the lab. Which phrase?",
+          "qEn": "gegenüber.",
+          "options": [
+            "gegenüber das Labor",
+            "gegenüber den Labor",
+            "gegenüber dem Labor"
+          ],
+          "answer": 2,
+          "why": "gegenüber + dative: dem Labor.",
+          "hint": "Neuter dative dem."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "aus, bei, mit, nach, seit, von, zu",
+      "redemittel": [
+        {
+          "de": "Die Pflegekraft kommt aus dem Zimmer.",
+          "en": "The nurse comes out of the room."
+        },
+        {
+          "de": "Der Patient ist beim Arzt.",
+          "en": "The patient is at the doctor's."
+        },
+        {
+          "de": "Bitte gehen Sie zur Anmeldung.",
+          "en": "Please go to reception."
+        },
+        {
+          "de": "Seit Montag hat er Husten.",
+          "en": "He has had a cough since Monday."
+        },
+        {
+          "de": "Ab morgen bleibt er zu Hause.",
+          "en": "From tomorrow he stays at home."
+        }
+      ],
+      "rules": [
+        {
+          "c": "D",
+          "rule": "aus, bei, mit, nach, seit, von, zu, gegenüber and ab take the dative: dem, der, den."
+        }
+      ]
+    }
+  ]
+}

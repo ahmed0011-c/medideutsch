@@ -1,0 +1,1573 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "id": "a1-07-trennbar",
+  "level": "A1",
+  "unit": "Kapitel 7",
+  "chapter": 7,
+  "chapters": [
+    7
+  ],
+  "title": "Er steht auf und nimmt die Tablette ein",
+  "subtitle": "Separable verbs: the prefix goes to the end",
+  "glossary": {
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🙋"
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal singular)",
+      "emoji": "👉",
+      "note": "Use du with colleagues you know well. With patients, use Sie."
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he; also the pronoun for der-nouns",
+      "emoji": "👨"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)",
+      "emoji": "🫵",
+      "note": "Capital Sie is formal you. Lowercase sie is she or they. A die-noun also takes sie."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)",
+      "emoji": "🔵",
+      "article": "der"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🔴"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🧑🏽",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "Mr",
+      "emoji": "👨",
+      "article": "der",
+      "plural": "die Herren"
+    },
+    "yilmaz": {
+      "de": "Yilmaz",
+      "pos": "name",
+      "en": "the patient's surname",
+      "emoji": "🧑🏽"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten"
+    },
+    "steht": {
+      "de": "stehen → er/sie steht",
+      "pos": "verb",
+      "en": "stands; steht … auf = gets up",
+      "emoji": "🧍"
+    },
+    "aufstehen": {
+      "de": "aufstehen",
+      "pos": "verb",
+      "en": "to get up",
+      "emoji": "🛏️",
+      "note": "Separable. Er steht um sieben Uhr auf."
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (a clock time)",
+      "emoji": "🕗"
+    },
+    "sieben": {
+      "de": "sieben",
+      "pos": "number",
+      "en": "seven",
+      "emoji": "7️⃣"
+    },
+    "uhr": {
+      "de": "Uhr",
+      "pos": "noun",
+      "en": "o'clock",
+      "emoji": "🕗",
+      "article": "die",
+      "plural": "die Uhren"
+    },
+    "einnehmen": {
+      "de": "einnehmen",
+      "pos": "verb",
+      "en": "to take (medicine)",
+      "emoji": "💊",
+      "note": "Separable. Er nimmt die Tablette ein."
+    },
+    "nimmt": {
+      "de": "nehmen → er/sie nimmt",
+      "pos": "verb",
+      "en": "takes",
+      "emoji": "✋",
+      "note": "e → i, and an extra m: du nimmst, er nimmt."
+    },
+    "ruft": {
+      "de": "rufen → er/sie ruft",
+      "pos": "verb",
+      "en": "calls",
+      "emoji": "📞"
+    },
+    "anrufen": {
+      "de": "anrufen",
+      "pos": "verb",
+      "en": "to phone",
+      "emoji": "📞",
+      "note": "Separable. Sie ruft die Station an."
+    },
+    "tochter": {
+      "de": "Tochter",
+      "pos": "noun",
+      "en": "daughter",
+      "emoji": "👧",
+      "article": "die",
+      "plural": "die Töchter"
+    },
+    "abholen": {
+      "de": "abholen",
+      "pos": "verb",
+      "en": "to pick someone up",
+      "emoji": "🚗",
+      "note": "Separable. Die Tochter holt ihn ab."
+    },
+    "holt": {
+      "de": "holen → er/sie holt",
+      "pos": "verb",
+      "en": "fetches; holt … ab = picks up",
+      "emoji": "🚗"
+    },
+    "ihn": {
+      "de": "ihn",
+      "pos": "pronoun",
+      "en": "him (accusative)",
+      "emoji": "👨"
+    },
+    "mitkommen": {
+      "de": "mitkommen",
+      "pos": "verb",
+      "en": "to come along",
+      "emoji": "🚶",
+      "note": "Separable. Kommen Sie bitte mit?"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "verb",
+      "en": "to come",
+      "emoji": "🚶"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🛏️",
+      "article": "die",
+      "plural": "die Stationen",
+      "note": "auf Station = on the ward, often without an article."
+    },
+    "3b": {
+      "de": "3B",
+      "pos": "name",
+      "en": "ward 3B",
+      "emoji": "🔢"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "📆"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)",
+      "emoji": "1️⃣"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on; auf Station = on the ward",
+      "emoji": "📍"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please",
+      "emoji": "🙏"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "the nurse's name",
+      "emoji": "🧑‍⚕️"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer"
+    },
+    "trinken": {
+      "de": "trinken",
+      "pos": "verb",
+      "en": "to drink",
+      "emoji": "🥤"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)",
+      "emoji": "1️⃣"
+    },
+    "an": {
+      "de": "an",
+      "pos": "prefix",
+      "en": "on; the prefix of anrufen",
+      "emoji": "📞",
+      "note": "In a main clause the prefix sits at the end: Sie ruft an."
+    },
+    "ab": {
+      "de": "ab",
+      "pos": "prefix",
+      "en": "off; the prefix of abholen",
+      "emoji": "🚗"
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "🤝",
+      "note": "mit + dative: mit dem Patienten."
+    },
+    "guten": {
+      "de": "gut → guten",
+      "pos": "adjective",
+      "en": "good (in greetings)",
+      "emoji": "👋"
+    },
+    "morgen": {
+      "de": "Morgen / morgen",
+      "pos": "noun or adverb",
+      "en": "morning; or tomorrow when lowercase",
+      "emoji": "🌅",
+      "note": "Guten Morgen = good morning. Lowercase morgen = tomorrow."
+    },
+    "ja": {
+      "de": "ja",
+      "pos": "particle",
+      "en": "yes",
+      "emoji": "✔️"
+    },
+    "stehe": {
+      "de": "stehen → ich stehe",
+      "pos": "verb",
+      "en": "stand; get up (ich)",
+      "emoji": "🧍"
+    },
+    "nehme": {
+      "de": "nehmen → ich nehme",
+      "pos": "verb",
+      "en": "take (ich)",
+      "emoji": "✋"
+    },
+    "nehmen": {
+      "de": "nehmen",
+      "pos": "verb",
+      "en": "to take",
+      "emoji": "✋"
+    },
+    "ihre": {
+      "de": "Ihre",
+      "pos": "possessive",
+      "en": "your (formal)",
+      "emoji": "🫵"
+    },
+    "mich": {
+      "de": "mich",
+      "pos": "pronoun",
+      "en": "me (accusative)",
+      "emoji": "🙋"
+    },
+    "komme": {
+      "de": "kommen → ich komme",
+      "pos": "verb",
+      "en": "come (ich)",
+      "emoji": "🚶"
+    },
+    "für": {
+      "de": "für",
+      "pos": "preposition",
+      "en": "for",
+      "emoji": "🎯"
+    },
+    "plan": {
+      "de": "Plan",
+      "pos": "noun",
+      "en": "plan",
+      "emoji": "📋",
+      "article": "der",
+      "plural": "die Pläne"
+    },
+    "wann": {
+      "de": "wann",
+      "pos": "question word",
+      "en": "when",
+      "emoji": "❓"
+    },
+    "sechs": {
+      "de": "sechs",
+      "pos": "number",
+      "en": "six",
+      "emoji": "6️⃣"
+    },
+    "acht": {
+      "de": "acht",
+      "pos": "number",
+      "en": "eight",
+      "emoji": "8️⃣"
+    },
+    "stehen": {
+      "de": "stehen",
+      "pos": "verb",
+      "en": "to stand",
+      "emoji": "🧍"
+    },
+    "kommt": {
+      "de": "kommen → er/sie kommt",
+      "pos": "verb",
+      "en": "comes",
+      "emoji": "🚶"
+    },
+    "früh": {
+      "de": "früh",
+      "pos": "adverb",
+      "en": "early",
+      "emoji": "🌅"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 18,
+      "learn": [
+        "Separable verbs have a stressed prefix: <b>auf</b>, <b>ein</b>, <b>an</b>, <b>ab</b>, <b>mit</b>.",
+        "In a statement the conjugated verb is in position 2 and the prefix goes to the <b>end</b>.",
+        "Er <b>steht</b> um sieben Uhr <b>auf</b>. Er <b>nimmt</b> die Tablette <b>ein</b>.",
+        "In a yes/no question the verb is first and the prefix is still at the end: <b>Steht</b> er <b>auf</b>?"
+      ],
+      "vocab": [
+        {
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet — einnehmen",
+          "emoji": "💊",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "glossaryKey": "tablette"
+        },
+        {
+          "de": "Tochter",
+          "article": "die",
+          "plural": "die Töchter",
+          "en": "daughter — anrufen, abholen",
+          "emoji": "👧",
+          "glossaryKey": "tochter"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Wasser",
+          "article": "das",
+          "en": "water",
+          "emoji": "💧",
+          "glossaryKey": "wasser"
+        }
+      ],
+      "text": {
+        "title": "Der Morgen",
+        "de": "Der Patient steht um sieben Uhr auf. Er nimmt die Tablette ein. Die Tochter ruft die Station an. Sie holt ihn heute ab. Die Pflegekraft kommt mit. Herr Yilmaz steht nicht früh auf.",
+        "en": "The patient gets up at seven. He takes the tablet. His daughter calls the ward. She picks him up today. The nurse comes along. Mr Yilmaz does not get up early."
+      }
+    },
+    {
+      "id": "dialogue",
+      "type": "dialogue",
+      "label": "Dialogue",
+      "title": "Morning on the ward",
+      "instructions": "Find the prefix at the end of each sentence.",
+      "scene": "7:05. Anna wakes Herr Yilmaz. His daughter will call.",
+      "sceneTitle": "Aufstehen",
+      "speakers": {
+        "N": {
+          "name": "Anna",
+          "role": "Pflegekraft",
+          "avatar": "🧑‍⚕️"
+        },
+        "P": {
+          "name": "Herr Yilmaz",
+          "role": "Patient",
+          "avatar": "🧑🏽"
+        }
+      },
+      "lines": [
+        {
+          "who": "N",
+          "de": "Guten Morgen. Stehen Sie bitte auf.",
+          "en": "Good morning. Please get up."
+        },
+        {
+          "who": "P",
+          "de": "Ich stehe auf. Nehme ich die Tablette ein?",
+          "en": "I am getting up. Do I take the tablet?"
+        },
+        {
+          "who": "N",
+          "de": "Ja. Sie nehmen die Tablette ein. Ihre Tochter ruft die Station an.",
+          "en": "Yes. You take the tablet. Your daughter is calling the ward."
+        },
+        {
+          "who": "P",
+          "de": "Holt sie mich heute ab?",
+          "en": "Is she picking me up today?"
+        },
+        {
+          "who": "N",
+          "de": "Ja, sie holt Sie ab. Ich komme mit.",
+          "en": "Yes, she is picking you up. I am coming along."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Prefix at the end",
+      "story": [
+        "The prefix is part of the verb, but in a main clause it leaves the verb and sits at the end. That is the sentence bracket.",
+        "Infinitive and the Sie-imperative keep the prefix attached: <b>aufstehen</b>, <b>Stehen Sie auf</b> still splits, while the infinitive <b>einnehmen</b> is one word."
+      ],
+      "tables": [
+        {
+          "title": "Where is the prefix?",
+          "columns": [
+            "Form",
+            "Example"
+          ],
+          "rows": [
+            {
+              "label": "Statement",
+              "cells": [
+                "Er steht um 7 Uhr auf."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Question",
+              "cells": [
+                "Steht er auf?"
+              ]
+            },
+            {
+              "label": "Sie-imperative",
+              "cells": [
+                "Stehen Sie bitte auf."
+              ]
+            },
+            {
+              "label": "Infinitive",
+              "cells": [
+                "Er muss aufstehen."
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Do not leave the prefix on the verb",
+        "items": [
+          {
+            "de": "Er steht um sieben Uhr auf.",
+            "en": "prefix at the end",
+            "tone": "ok"
+          },
+          {
+            "de": "Er aufsteht um sieben Uhr.",
+            "en": "prefix stuck to the verb",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Say the verb in position 2, then walk to the end of the sentence for the prefix."
+      },
+      "quiz": [
+        {
+          "q": "Er ___ die Tablette ___.",
+          "options": [
+            "einnimmt / —",
+            "nimmt / ein",
+            "nimmt / auf"
+          ],
+          "answer": 1,
+          "why": "nimmt in position 2, ein at the end.",
+          "hint": "einnehmen splits into nimmt … ein."
+        },
+        {
+          "q": "In a yes/no question, the prefix …",
+          "options": [
+            "disappears",
+            "stays at the end",
+            "moves to position 1"
+          ],
+          "answer": 1,
+          "why": "Steht er auf? The prefix is still last.",
+          "hint": "Only the conjugated part moves to the front."
+        }
+      ],
+      "practice": "choose"
+    },
+    {
+      "id": "gaps",
+      "type": "gapfill",
+      "label": "Gap fill",
+      "title": "Which prefix is waiting at the end?",
+      "instructions": "The verb is already there. Drag the prefix.",
+      "chips": [
+        {
+          "w": "auf",
+          "hint": "aufstehen"
+        },
+        {
+          "w": "ein",
+          "hint": "einnehmen"
+        },
+        {
+          "w": "an",
+          "hint": "anrufen"
+        },
+        {
+          "w": "ab",
+          "hint": "abholen"
+        },
+        {
+          "w": "mit",
+          "hint": "mitkommen"
+        },
+        {
+          "w": "zu",
+          "hint": "zu is not a separable prefix here"
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Patient steht um sieben Uhr",
+          "after": ".",
+          "answer": "auf",
+          "en": "The patient gets up at seven.",
+          "why": "aufstehen → steht … auf.",
+          "tip": "Getting up.",
+          "hint": "aufstehen."
+        },
+        {
+          "before": "Er nimmt die Tablette",
+          "after": ".",
+          "answer": "ein",
+          "en": "He takes the tablet.",
+          "why": "einnehmen → nimmt … ein.",
+          "tip": "Taking medicine.",
+          "hint": "einnehmen, not aufnehmen."
+        },
+        {
+          "before": "Die Tochter ruft die Station",
+          "after": ".",
+          "answer": "an",
+          "en": "The daughter calls the ward.",
+          "why": "anrufen → ruft … an.",
+          "tip": "A phone call.",
+          "hint": "anrufen."
+        },
+        {
+          "before": "Sie holt ihn heute",
+          "after": ".",
+          "answer": "ab",
+          "en": "She is picking him up today.",
+          "why": "abholen → holt … ab.",
+          "tip": "Picking someone up.",
+          "hint": "abholen."
+        },
+        {
+          "before": "Die Pflegekraft kommt",
+          "after": ".",
+          "answer": "mit",
+          "en": "The nurse is coming along.",
+          "why": "mitkommen → kommt … mit.",
+          "tip": "Coming along.",
+          "hint": "mitkommen."
+        }
+      ],
+      "practice": "gap"
+    },
+    {
+      "id": "builder",
+      "type": "builder",
+      "label": "Word order",
+      "title": "Send the prefix to the end",
+      "instructions": "Build the sentence. The little prefix is last.",
+      "items": [
+        {
+          "tiles": [
+            "Herr",
+            "Yilmaz",
+            "steht",
+            "um",
+            "sieben",
+            "Uhr",
+            "auf"
+          ],
+          "answers": [
+            "Herr Yilmaz steht um sieben Uhr auf"
+          ],
+          "punct": ".",
+          "modal": "steht",
+          "inf": "auf",
+          "question": false,
+          "en": "Mr Yilmaz gets up at seven.",
+          "hint": "steht is in position 2. auf is the last word.",
+          "feedback": {
+            "end": "The prefix auf has to be the last word.",
+            "fallback": "steht is in position 2, after Herr Yilmaz. The prefix closes the sentence."
+          }
+        },
+        {
+          "tiles": [
+            "Ruft",
+            "die",
+            "Tochter",
+            "die",
+            "Station",
+            "an"
+          ],
+          "answers": [
+            "Ruft die Tochter die Station an"
+          ],
+          "punct": "?",
+          "modal": "Ruft",
+          "inf": "an",
+          "question": true,
+          "en": "Is the daughter calling the ward?",
+          "hint": "A yes/no question starts with the verb. an stays at the end.",
+          "feedback": {
+            "end": "The prefix an stays at the end, even in a question.",
+            "first": "In a yes/no question the verb Ruft comes first.",
+            "fallback": "Ruft starts the question. The prefix an is last."
+          }
+        }
+      ],
+      "practice": "build"
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Morning plan",
+      "instructions": "Read the plan and answer.",
+      "document": {
+        "letterhead": "Station 3B",
+        "title": "Plan für Herr Yilmaz",
+        "paragraphs": [
+          "Herr Yilmaz steht um sieben Uhr auf. Er nimmt die Tablette ein.",
+          "Die Tochter ruft die Station an und sie holt ihn ab.",
+          "Anna kommt mit. Er steht nicht früh auf."
+        ],
+        "signature": "Anna, Pflegekraft",
+        "stamp": "PLAN"
+      },
+      "questions": [
+        {
+          "q": "Wann steht er auf?",
+          "options": [
+            "um sechs Uhr",
+            "um sieben Uhr",
+            "um acht Uhr"
+          ],
+          "answer": 1,
+          "why": "Er steht um sieben Uhr auf."
+        },
+        {
+          "kind": "tf",
+          "q": "Anna holt ihn ab.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "answer": 1,
+          "why": "Die Tochter holt ihn ab. Anna kommt mit."
+        }
+      ],
+      "practice": "reading"
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "Where is the prefix?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "In a main-clause statement the prefix goes to the end.",
+      "items": [
+        {
+          "prompt": "Er steht um sieben ___ .",
+          "options": [
+            {
+              "emoji": "➡️",
+              "label": "auf",
+              "caption": "prefix at the end"
+            },
+            {
+              "emoji": "⬅️",
+              "label": "aufsteht",
+              "caption": "prefix stuck to the verb"
+            }
+          ],
+          "answer": 0,
+          "why": "steht … auf.",
+          "hint": "end"
+        },
+        {
+          "prompt": "Sie nimmt die Tablette ___ .",
+          "options": [
+            {
+              "emoji": "💊",
+              "label": "ein",
+              "caption": "einnehmen"
+            },
+            {
+              "emoji": "💊",
+              "label": "nimmt ein die Tablette",
+              "caption": "wrong order"
+            }
+          ],
+          "answer": 0,
+          "why": "nimmt … ein.",
+          "hint": "ein"
+        },
+        {
+          "prompt": "Er ruft die Station ___ .",
+          "options": [
+            {
+              "emoji": "📞",
+              "label": "an",
+              "caption": "anrufen"
+            },
+            {
+              "emoji": "📞",
+              "label": "anruft",
+              "caption": "prefix stays attached"
+            }
+          ],
+          "answer": 0,
+          "why": "ruft … an.",
+          "hint": "an"
+        },
+        {
+          "prompt": "Die Tochter kommt ___ .",
+          "options": [
+            {
+              "emoji": "🚶",
+              "label": "mit",
+              "caption": "mitkommen"
+            },
+            {
+              "emoji": "🚶",
+              "label": "mitkommt",
+              "caption": "prefix stays attached"
+            }
+          ],
+          "answer": 0,
+          "why": "kommt … mit.",
+          "hint": "mit"
+        }
+      ]
+    },
+    {
+      "id": "px-picture",
+      "label": "Picture",
+      "title": "Picture task",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the word to the picture, then read the hint.",
+      "items": [
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "The prefix of aufstehen, einnehmen or anrufen goes to the end."
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "The prefix of aufstehen, einnehmen or anrufen goes to the end."
+        },
+        {
+          "id": "phone",
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "ward",
+          "image": {
+            "type": "svg",
+            "id": "ward"
+          },
+          "hint": "The prefix of aufstehen, einnehmen or anrufen goes to the end."
+        },
+        {
+          "id": "clip",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "file",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "The prefix of aufstehen, einnehmen or anrufen goes to the end."
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Change the form.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Rewrite the sentence in the form asked for.",
+      "chips": [
+        {
+          "w": "Er steht um sieben auf",
+          "hint": "auf"
+        },
+        {
+          "w": "Sie nimmt die Tablette ein",
+          "hint": "ein"
+        },
+        {
+          "w": "Er ruft die Station an",
+          "hint": "an"
+        },
+        {
+          "w": "Du holst den Arzt ab",
+          "hint": "ab"
+        },
+        {
+          "w": "Wir kommen heute mit",
+          "hint": "mit"
+        },
+        {
+          "w": "Ich stehe früh auf",
+          "hint": "auf"
+        }
+      ],
+      "items": [
+        {
+          "before": "aufstehen (er, um sieben) →",
+          "after": ".",
+          "answer": "Er steht um sieben auf",
+          "en": "He gets up at seven.",
+          "why": "steht … auf.",
+          "tip": "end",
+          "hint": "auf"
+        },
+        {
+          "before": "einnehmen (sie, die Tablette) →",
+          "after": ".",
+          "answer": "Sie nimmt die Tablette ein",
+          "en": "She takes the tablet.",
+          "why": "nimmt … ein.",
+          "tip": "end",
+          "hint": "ein"
+        },
+        {
+          "before": "anrufen (er, die Station) →",
+          "after": ".",
+          "answer": "Er ruft die Station an",
+          "en": "He calls the ward.",
+          "why": "ruft … an.",
+          "tip": "end",
+          "hint": "an"
+        },
+        {
+          "before": "abholen (du, den Arzt) →",
+          "after": ".",
+          "answer": "Du holst den Arzt ab",
+          "en": "You pick the doctor up.",
+          "why": "holst … ab.",
+          "tip": "end",
+          "hint": "ab"
+        },
+        {
+          "before": "mitkommen (wir, heute) →",
+          "after": ".",
+          "answer": "Wir kommen heute mit",
+          "en": "We come along today.",
+          "why": "kommen … mit.",
+          "tip": "end",
+          "hint": "mit"
+        },
+        {
+          "before": "aufstehen (ich, früh) →",
+          "after": ".",
+          "answer": "Ich stehe früh auf",
+          "en": "I get up early.",
+          "why": "stehe … auf.",
+          "tip": "end",
+          "hint": "auf"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er aufsteht früh."
+          ],
+          "options": [
+            "Er steht früh auf.",
+            "Er aufsteht früh.",
+            "Er steht auf früh."
+          ],
+          "answer": 0,
+          "reveal": "Er steht früh auf.",
+          "hint": "The prefix goes to the end."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie einnimmt die Tablette."
+          ],
+          "options": [
+            "Sie nimmt die Tablette ein.",
+            "Sie einnimmt die Tablette.",
+            "Sie nimmt ein die Tablette."
+          ],
+          "answer": 0,
+          "reveal": "Sie nimmt die Tablette ein.",
+          "hint": "ein is last."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er anruft die Station."
+          ],
+          "options": [
+            "Er ruft die Station an.",
+            "Er anruft die Station.",
+            "Er ruft an die Station."
+          ],
+          "answer": 0,
+          "reveal": "Er ruft die Station an.",
+          "hint": "an is last."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir mitkommen jetzt."
+          ],
+          "options": [
+            "Wir kommen jetzt mit.",
+            "Wir mitkommen jetzt.",
+            "Wir kommen mit jetzt."
+          ],
+          "answer": 0,
+          "reveal": "Wir kommen jetzt mit.",
+          "hint": "mit is last."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "Complete the dialogue.",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "One word in each gap. Notice who is speaking.",
+      "chips": [
+        {
+          "w": "stehe",
+          "hint": "auf"
+        },
+        {
+          "w": "nimmt",
+          "hint": "ein"
+        },
+        {
+          "w": "ruft",
+          "hint": "an"
+        },
+        {
+          "w": "holen",
+          "hint": "ab"
+        },
+        {
+          "w": "kommt",
+          "hint": "mit"
+        },
+        {
+          "w": "holst",
+          "hint": "ab"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich",
+          "after": "um sechs auf.",
+          "answer": "stehe",
+          "en": "I get up at six.",
+          "why": "stehe … auf.",
+          "tip": "auf",
+          "hint": "auf",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Sie",
+          "after": "die Tablette ein.",
+          "answer": "nimmt",
+          "en": "She takes the tablet.",
+          "why": "nimmt … ein.",
+          "tip": "ein",
+          "hint": "ein",
+          "who": "Kollegin"
+        },
+        {
+          "before": "Er",
+          "after": "die Tochter an.",
+          "answer": "ruft",
+          "en": "He calls his daughter.",
+          "why": "ruft … an.",
+          "tip": "an",
+          "hint": "an",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wir",
+          "after": "den Arzt ab.",
+          "answer": "holen",
+          "en": "We pick the doctor up.",
+          "why": "holen … ab.",
+          "tip": "ab",
+          "hint": "ab",
+          "who": "Team"
+        },
+        {
+          "before": "Die Tochter",
+          "after": "heute mit.",
+          "answer": "kommt",
+          "en": "The daughter comes along.",
+          "why": "kommt … mit.",
+          "tip": "mit",
+          "hint": "mit",
+          "who": "Patient"
+        },
+        {
+          "before": "Du",
+          "after": "die Akte ab.",
+          "answer": "holst",
+          "en": "You collect the file.",
+          "why": "holst … ab.",
+          "tip": "ab",
+          "hint": "ab",
+          "who": "Leitung"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "More practice",
+      "title": "Choose the form",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Fill every gap. Each chip is used once.",
+      "chips": [
+        {
+          "w": "auf",
+          "hint": "auf"
+        },
+        {
+          "w": "ein",
+          "hint": "ein"
+        },
+        {
+          "w": "an",
+          "hint": "an"
+        },
+        {
+          "w": "ab",
+          "hint": "ab"
+        },
+        {
+          "w": "mit",
+          "hint": "mit"
+        },
+        {
+          "w": "stehe auf",
+          "hint": "ich"
+        },
+        {
+          "w": "nimmst ein",
+          "hint": "du"
+        },
+        {
+          "w": "ruft an",
+          "hint": "er"
+        },
+        {
+          "w": "holen ab",
+          "hint": "wir"
+        },
+        {
+          "w": "kommt mit",
+          "hint": "ihr"
+        }
+      ],
+      "items": [
+        {
+          "before": "Er steht um sieben ___.",
+          "after": "",
+          "answer": "auf",
+          "en": "gets up",
+          "why": "Prefix at the end.",
+          "tip": "auf",
+          "hint": "auf"
+        },
+        {
+          "before": "Sie nimmt die Tablette ___.",
+          "after": "",
+          "answer": "ein",
+          "en": "takes",
+          "why": "einnehmen.",
+          "tip": "ein",
+          "hint": "ein"
+        },
+        {
+          "before": "Er ruft die Station ___.",
+          "after": "",
+          "answer": "an",
+          "en": "calls",
+          "why": "anrufen.",
+          "tip": "an",
+          "hint": "an"
+        },
+        {
+          "before": "Du holst den Arzt ___.",
+          "after": "",
+          "answer": "ab",
+          "en": "pick up",
+          "why": "abholen.",
+          "tip": "ab",
+          "hint": "ab"
+        },
+        {
+          "before": "Wir kommen heute ___.",
+          "after": "",
+          "answer": "mit",
+          "en": "come along",
+          "why": "mitkommen.",
+          "tip": "mit",
+          "hint": "mit"
+        },
+        {
+          "before": "ich aufstehen →",
+          "after": "",
+          "answer": "stehe auf",
+          "en": "I get up",
+          "why": "stehe … auf.",
+          "tip": "ich",
+          "hint": "ich"
+        },
+        {
+          "before": "du einnehmen →",
+          "after": "",
+          "answer": "nimmst ein",
+          "en": "you take",
+          "why": "nimmst … ein.",
+          "tip": "du",
+          "hint": "du"
+        },
+        {
+          "before": "er anrufen →",
+          "after": "",
+          "answer": "ruft an",
+          "en": "he calls",
+          "why": "ruft … an.",
+          "tip": "er",
+          "hint": "er"
+        },
+        {
+          "before": "wir abholen →",
+          "after": "",
+          "answer": "holen ab",
+          "en": "we pick up",
+          "why": "holen … ab.",
+          "tip": "wir",
+          "hint": "wir"
+        },
+        {
+          "before": "ihr mitkommen →",
+          "after": "",
+          "answer": "kommt mit",
+          "en": "you come along",
+          "why": "kommt … mit.",
+          "tip": "ihr",
+          "hint": "ihr"
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "A morning on the ward",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write three or four sentences. Then compare the model.",
+      "prompt": "Say when the patient gets up, that he takes a tablet, and that he calls the ward.",
+      "bullets": [
+        "Use steht … auf.",
+        "Use nimmt … ein.",
+        "Use ruft … an."
+      ],
+      "model": "Der Patient steht um sieben auf. Er nimmt die Tablette ein. Er ruft die Station an.",
+      "modelEn": "The patient gets up at seven. He takes the tablet. He calls the ward.",
+      "hint": "The prefix is the last word.",
+      "checklist": [
+        {
+          "id": "auf",
+          "label": "Gets up (steht … auf)",
+          "keywords": [
+            "steht"
+          ]
+        },
+        {
+          "id": "ein",
+          "label": "Takes the tablet (nimmt … ein)",
+          "keywords": [
+            "nimmt"
+          ]
+        },
+        {
+          "id": "an",
+          "label": "Calls (ruft … an)",
+          "keywords": [
+            "ruft"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "type": "grammar",
+      "story": [
+        "This mixed test closes the lesson. 80% marks it as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "In Er steht um sieben auf, where is auf?",
+          "qEn": "Statement.",
+          "options": [
+            "at the end",
+            "on the verb",
+            "in position 1"
+          ],
+          "answer": 0,
+          "why": "The prefix closes the sentence.",
+          "hint": "end"
+        },
+        {
+          "kind": "mc",
+          "q": "einnehmen, sie →",
+          "qEn": "Present.",
+          "options": [
+            "sie einnimmt",
+            "sie nimmt … ein",
+            "sie nimmt ein die Tablette"
+          ],
+          "answer": 1,
+          "why": "nimmt … ein.",
+          "hint": "ein"
+        },
+        {
+          "kind": "mc",
+          "q": "anrufen, er →",
+          "qEn": "Present.",
+          "options": [
+            "er anruft",
+            "er ruft an die Station",
+            "er ruft … an"
+          ],
+          "answer": 2,
+          "why": "ruft … an.",
+          "hint": "an"
+        },
+        {
+          "kind": "mc",
+          "q": "With a modal, the prefix…",
+          "qEn": "Ich muss aufstehen.",
+          "options": [
+            "stays on the infinitive",
+            "goes to the end alone",
+            "disappears"
+          ],
+          "answer": 0,
+          "why": "The infinitive keeps its prefix.",
+          "hint": "modal"
+        },
+        {
+          "kind": "mc",
+          "q": "abholen, du →",
+          "qEn": "Present.",
+          "options": [
+            "du abholst",
+            "du holst … ab",
+            "du holst ab den Arzt"
+          ],
+          "answer": 1,
+          "why": "holst … ab.",
+          "hint": "ab"
+        },
+        {
+          "kind": "mc",
+          "q": "mitkommen, wir →",
+          "qEn": "Present.",
+          "options": [
+            "wir mitkommen",
+            "wir kommen mit heute",
+            "wir kommen … mit"
+          ],
+          "answer": 2,
+          "why": "kommen … mit.",
+          "hint": "mit"
+        },
+        {
+          "kind": "mc",
+          "q": "ich aufstehen →",
+          "qEn": "Present.",
+          "options": [
+            "ich stehe … auf",
+            "ich aufstehe",
+            "ich stehe auf um sieben"
+          ],
+          "answer": 0,
+          "why": "stehe … auf.",
+          "hint": "auf"
+        },
+        {
+          "kind": "mc",
+          "q": "Which verb splits?",
+          "qEn": "Separable.",
+          "options": [
+            "verstehen",
+            "aufstehen",
+            "bekommen"
+          ],
+          "answer": 1,
+          "why": "Stress is on auf.",
+          "hint": "separable"
+        },
+        {
+          "kind": "mc",
+          "q": "Which verb does not split?",
+          "qEn": "Inseparable.",
+          "options": [
+            "anrufen",
+            "abholen",
+            "verstehen"
+          ],
+          "answer": 2,
+          "why": "ver- is not stressed and stays attached.",
+          "hint": "inseparable"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie nimmt die Tablette ___.",
+          "qEn": "einnehmen.",
+          "options": [
+            "ein",
+            "auf",
+            "an"
+          ],
+          "answer": 0,
+          "why": "einnehmen → ein.",
+          "hint": "ein"
+        },
+        {
+          "kind": "mc",
+          "q": "Er ruft die Station ___.",
+          "qEn": "anrufen.",
+          "options": [
+            "ein",
+            "an",
+            "ab"
+          ],
+          "answer": 1,
+          "why": "anrufen → an.",
+          "hint": "an"
+        },
+        {
+          "kind": "mc",
+          "q": "Perfect of aufstehen is…",
+          "qEn": "sein + participle.",
+          "options": [
+            "hat aufgestanden",
+            "ist gestanden auf",
+            "ist aufgestanden"
+          ],
+          "answer": 2,
+          "why": "The prefix sits in front of ge-.",
+          "hint": "perfekt"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Prefix am Ende",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        {
+          "de": "Stehen Sie bitte auf.",
+          "en": "Please get up."
+        },
+        {
+          "de": "Nehmen Sie die Tablette ein.",
+          "en": "Take the tablet."
+        },
+        {
+          "de": "Ich rufe die Station an.",
+          "en": "I am calling the ward."
+        },
+        {
+          "de": "Holt sie mich ab?",
+          "en": "Is she picking me up?"
+        }
+      ]
+    }
+  ]
+}

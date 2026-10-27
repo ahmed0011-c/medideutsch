@@ -1,0 +1,2400 @@
+{
+  "schemaVersion": 1,
+  "id": "a1a2-faelle-krankenhaus",
+  "platform": "MediDeutsch",
+  "level": "A1/A2",
+  "unit": "Kapitel 16–17",
+  "title": "Die Fälle im Krankenhaus",
+  "subtitle": "Cases on the ward: Nominativ, Akkusativ, Dativ (+ a first look at the Genitiv)",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "hintCost": 1,
+    "wordExplorePoints": 8,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "cases": {
+    "N": {
+      "name": "Nominativ",
+      "short": "Nom",
+      "q": "Wer? / Was?",
+      "role": "who acts",
+      "emoji": "⭐"
+    },
+    "A": {
+      "name": "Akkusativ",
+      "short": "Akk",
+      "q": "Wen? / Was?",
+      "role": "who/what is directly treated",
+      "emoji": "🎯"
+    },
+    "D": {
+      "name": "Dativ",
+      "short": "Dat",
+      "q": "Wem?",
+      "role": "to / for whom",
+      "emoji": "🎁"
+    },
+    "G": {
+      "name": "Genitiv",
+      "short": "Gen",
+      "q": "Wessen?",
+      "role": "whose",
+      "emoji": "🔗"
+    }
+  },
+  "glossary": {
+    "2": {
+      "de": "zwei",
+      "pos": "number",
+      "en": "two",
+      "emoji": "2️⃣",
+      "note": "Station 2 = ward 2"
+    },
+    "5": {
+      "de": "fünf",
+      "pos": "number",
+      "en": "five",
+      "emoji": "5️⃣"
+    },
+    "6": {
+      "de": "sechs",
+      "pos": "number",
+      "en": "six",
+      "emoji": "6️⃣"
+    },
+    "12": {
+      "de": "zwölf",
+      "pos": "number",
+      "en": "twelve",
+      "emoji": "🕛",
+      "note": "um 12 Uhr = at noon"
+    },
+    "18": {
+      "de": "achtzehn",
+      "pos": "number",
+      "en": "eighteen",
+      "emoji": "🕕",
+      "note": "18 Uhr = 6 pm (24-hour clock)"
+    },
+    "der_nom_m": {
+      "de": "der",
+      "pos": "article",
+      "en": "the",
+      "emoji": "⭐",
+      "case": {
+        "c": "N",
+        "gender": "masculine",
+        "text": "der = Nominativ, masculine (the basic form)"
+      },
+      "note": "Wer? → der Arzt, der Befund"
+    },
+    "die_nom_f": {
+      "de": "die",
+      "pos": "article",
+      "en": "the",
+      "emoji": "⭐",
+      "case": {
+        "c": "N",
+        "gender": "feminine",
+        "text": "die = Nominativ, feminine (the basic form)"
+      },
+      "note": "Wer? → die Ärztin, die Pflegekraft"
+    },
+    "die_akk_f": {
+      "de": "die",
+      "pos": "article",
+      "en": "the",
+      "emoji": "🎯",
+      "case": {
+        "c": "A",
+        "gender": "feminine",
+        "text": "die = die in Akkusativ (feminine: no change!)"
+      },
+      "note": "Wen? → die Tochter"
+    },
+    "den_akk_m": {
+      "de": "den",
+      "pos": "article",
+      "en": "the",
+      "emoji": "🎯",
+      "case": {
+        "c": "A",
+        "gender": "masculine",
+        "text": "den = der in Akkusativ (masc.)"
+      },
+      "note": "Only the masculine changes in the Akkusativ: der → den."
+    },
+    "das_akk_n": {
+      "de": "das",
+      "pos": "article",
+      "en": "the",
+      "emoji": "🎯",
+      "case": {
+        "c": "A",
+        "gender": "neuter",
+        "text": "das = das in Akkusativ (neuter: no change!)"
+      },
+      "note": "Was bringt er? → das Frühstück"
+    },
+    "dem_dat_m": {
+      "de": "dem",
+      "pos": "article",
+      "en": "(to/with) the",
+      "emoji": "🎁",
+      "case": {
+        "c": "D",
+        "gender": "masculine",
+        "text": "dem = der in Dativ (masc.)"
+      },
+      "note": "Dativ masculine & neuter: dem. Wem? → dem Patienten"
+    },
+    "der_dat_f": {
+      "de": "der",
+      "pos": "article",
+      "en": "(to/with) the",
+      "emoji": "🎁",
+      "case": {
+        "c": "D",
+        "gender": "feminine",
+        "text": "der = die in Dativ (fem.)"
+      },
+      "note": "Careful: this der is NOT masculine! Wem? → der Patientin"
+    },
+    "des_gen_m": {
+      "de": "des",
+      "pos": "article",
+      "en": "of the",
+      "emoji": "🔗",
+      "case": {
+        "c": "G",
+        "gender": "masculine",
+        "text": "des = der in Genitiv (masc.)"
+      },
+      "note": "The noun gets -s/-es (des Arztes) or, for weak nouns, -en (des Patienten)."
+    },
+    "der_gen_f": {
+      "de": "der",
+      "pos": "article",
+      "en": "of the",
+      "emoji": "🔗",
+      "case": {
+        "c": "G",
+        "gender": "feminine",
+        "text": "der = die in Genitiv (fem.)"
+      },
+      "note": "Wessen Tochter? → die Tochter der Patientin (= the patient's daughter)"
+    },
+    "eine_akk_f": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a; an",
+      "emoji": "🎯",
+      "case": {
+        "c": "A",
+        "gender": "feminine",
+        "text": "eine = eine in Akkusativ (feminine: no change!)"
+      },
+      "note": "Was gibt sie? → eine Spritze"
+    },
+    "ein_nom_m": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a; an",
+      "emoji": "⭐",
+      "case": {
+        "c": "N",
+        "gender": "masculine",
+        "text": "ein = Nominativ, masculine"
+      },
+      "note": "In the Akkusativ it becomes einen."
+    },
+    "patienten_akk": {
+      "de": "Patient",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Patienten",
+      "en": "patient (male)",
+      "emoji": "🛌",
+      "case": {
+        "c": "A",
+        "gender": "masculine",
+        "text": "Patienten = der Patient in Akkusativ (den Patienten)"
+      },
+      "note": "Weak noun: -en in every case except the Nominativ singular."
+    },
+    "patienten_dat": {
+      "de": "Patient",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Patienten",
+      "en": "patient (male)",
+      "emoji": "🛌",
+      "case": {
+        "c": "D",
+        "gender": "masculine",
+        "text": "Patienten = der Patient in Dativ (dem Patienten)"
+      },
+      "note": "Weak noun: -en in every case except the Nominativ singular."
+    },
+    "patienten_gen": {
+      "de": "Patient",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Patienten",
+      "en": "patient (male)",
+      "emoji": "🛌",
+      "case": {
+        "c": "G",
+        "gender": "masculine",
+        "text": "Patienten = der Patient in Genitiv (des Patienten)"
+      },
+      "note": "Weak noun: -en in every case except the Nominativ singular."
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it",
+      "emoji": "👉",
+      "note": "Es ist sieben Uhr. = It is seven o'clock."
+    },
+    "ist": {
+      "de": "sein → es ist",
+      "pos": "verb",
+      "en": "is",
+      "emoji": "🟰"
+    },
+    "sieben": {
+      "de": "sieben",
+      "pos": "number",
+      "en": "seven",
+      "emoji": "7️⃣"
+    },
+    "uhr": {
+      "de": "Uhr",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Uhren",
+      "en": "clock; o'clock",
+      "emoji": "🕖",
+      "note": "sieben Uhr = seven o'clock"
+    },
+    "morgens": {
+      "de": "morgens",
+      "pos": "adverb",
+      "en": "in the morning",
+      "emoji": "🌅"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on; at",
+      "emoji": "📍",
+      "note": "auf Station = on the ward"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Stationen",
+      "en": "ward",
+      "emoji": "🛏️"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "en": "nurse (any gender)",
+      "emoji": "🧑‍⚕️",
+      "note": "Also: der Pfleger (male nurse), die Pflegerin (female nurse)"
+    },
+    "misst": {
+      "de": "messen → er/sie misst",
+      "pos": "verb",
+      "en": "measures",
+      "emoji": "📏",
+      "note": "den Blutdruck messen = to take someone's blood pressure (Akkusativ)"
+    },
+    "blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "article": "der",
+      "plural": "(no plural)",
+      "en": "blood pressure",
+      "emoji": "🩺",
+      "note": "das Blut (blood) + der Druck (pressure)"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Ärzte",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "note": "Genitiv: des Arztes · Dativ plural: den Ärzten"
+    },
+    "besucht": {
+      "de": "besuchen → er besucht",
+      "pos": "verb",
+      "en": "visits",
+      "emoji": "🚶",
+      "note": "besuchen + Akkusativ: Er besucht den Patienten."
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in",
+      "emoji": "📥",
+      "note": "Location (Wo?) → Dativ: in der Akte, im (= in dem) Bett"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Zimmer",
+      "en": "room",
+      "emoji": "🚪",
+      "note": "Patientenzimmer = patient room"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨",
+      "case": {
+        "c": "N",
+        "gender": "masculine",
+        "text": "er = Nominativ (he)"
+      },
+      "note": "Akkusativ: ihn (him) · Dativ: ihm (to him)"
+    },
+    "zeigt": {
+      "de": "zeigen → er zeigt",
+      "pos": "verb",
+      "en": "shows",
+      "emoji": "👉",
+      "note": "jemandem (Dat) etwas (Akk) zeigen: Er zeigt dem Patienten den Befund."
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Befunde",
+      "en": "findings; (test) result",
+      "emoji": "📋",
+      "note": "der Laborbefund = lab result"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "good",
+      "emoji": "👍"
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Ärztinnen",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️"
+    },
+    "gibt": {
+      "de": "geben → er/sie gibt",
+      "pos": "verb",
+      "en": "gives",
+      "emoji": "🤲",
+      "note": "jemandem (Dat) etwas (Akk) geben"
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Patientinnen",
+      "en": "patient (female)",
+      "emoji": "🤒"
+    },
+    "spritze": {
+      "de": "Spritze",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Spritzen",
+      "en": "injection; syringe",
+      "emoji": "💉"
+    },
+    "dankt": {
+      "de": "danken → sie dankt",
+      "pos": "verb",
+      "en": "thanks",
+      "emoji": "🙏",
+      "note": "danken + Dativ: Sie dankt der Ärztin."
+    },
+    "dann": {
+      "de": "dann",
+      "pos": "adverb",
+      "en": "then",
+      "emoji": "⏭️"
+    },
+    "bringt": {
+      "de": "bringen → er bringt",
+      "pos": "verb",
+      "en": "brings",
+      "emoji": "🤲"
+    },
+    "pfleger": {
+      "de": "Pfleger",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Pfleger",
+      "en": "nurse (male)",
+      "emoji": "🧑‍⚕️"
+    },
+    "frühstück": {
+      "de": "Frühstück",
+      "pos": "noun",
+      "article": "das",
+      "plural": "(rarely used)",
+      "en": "breakfast",
+      "emoji": "🥐"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "hilft": {
+      "de": "helfen → er hilft",
+      "pos": "verb",
+      "en": "helps",
+      "emoji": "🤝",
+      "note": "helfen + Dativ: Er hilft dem Patienten."
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Übergaben",
+      "en": "(shift) handover",
+      "emoji": "🔄"
+    },
+    "frühdienst": {
+      "de": "Frühdienst",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Frühdienste",
+      "en": "early shift",
+      "emoji": "🌅"
+    },
+    "spätdienst": {
+      "de": "Spätdienst",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Spätdienste",
+      "en": "late shift",
+      "emoji": "🌇"
+    },
+    "herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Herren",
+      "en": "Mr; gentleman",
+      "emoji": "👨",
+      "note": "Weak noun like Patient: den/dem Herrn"
+    },
+    "weber": {
+      "de": "Weber",
+      "pos": "name",
+      "en": "Weber (surname)",
+      "emoji": "👴"
+    },
+    "hatte": {
+      "de": "haben → er hatte",
+      "pos": "verb (past)",
+      "en": "had",
+      "emoji": "⏪"
+    },
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday",
+      "emoji": "⬅️"
+    },
+    "operation": {
+      "de": "Operation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Operationen",
+      "en": "operation; surgery",
+      "emoji": "🏥"
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition / particle",
+      "en": "on; at · (part of anrufen)",
+      "emoji": "📍",
+      "note": "an der Hüfte = on the hip (Wo? → Dativ). In „Ruf … an!“ it belongs to the verb anrufen."
+    },
+    "hüfte": {
+      "de": "Hüfte",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Hüften",
+      "en": "hip",
+      "emoji": "🦴"
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "verb",
+      "en": "has",
+      "emoji": "🤲"
+    },
+    "noch": {
+      "de": "noch",
+      "pos": "adverb",
+      "en": "still",
+      "emoji": "⏳"
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "en": "pain",
+      "emoji": "😣",
+      "note": "Usually plural: Er hat Schmerzen."
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (clock time)",
+      "emoji": "🕛"
+    },
+    "schmerztablette": {
+      "de": "Schmerztablette",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Schmerztabletten",
+      "en": "painkiller",
+      "emoji": "💊"
+    },
+    "bekommen": {
+      "de": "bekommen",
+      "pos": "verb",
+      "en": "to get; to receive",
+      "emoji": "🎁",
+      "note": "hat … bekommen = has received. False friend: NOT 'become'."
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please",
+      "emoji": "🙏"
+    },
+    "gib": {
+      "de": "geben → gib! (du)",
+      "pos": "verb (imperative)",
+      "en": "give!",
+      "emoji": "🤲",
+      "note": "Informal: colleagues often say du to each other."
+    },
+    "antibiotikum": {
+      "de": "Antibiotikum",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Antibiotika",
+      "en": "antibiotic",
+      "emoji": "💊"
+    },
+    "morgen": {
+      "de": "morgen",
+      "pos": "adverb",
+      "en": "tomorrow",
+      "emoji": "📅",
+      "note": "morgen früh = tomorrow morning"
+    },
+    "früh": {
+      "de": "früh",
+      "pos": "adverb",
+      "en": "early; in the morning",
+      "emoji": "🌄"
+    },
+    "bringen": {
+      "de": "bringen",
+      "pos": "verb",
+      "en": "to bring; to take (someone somewhere)",
+      "emoji": "🤲"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "ihn": {
+      "de": "er → ihn",
+      "pos": "pronoun",
+      "en": "him",
+      "emoji": "👨",
+      "case": {
+        "c": "A",
+        "gender": "masculine",
+        "text": "ihn = er in Akkusativ"
+      },
+      "note": "er (Nom) · ihn (Akk) · ihm (Dat)"
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with; by",
+      "emoji": "🤝",
+      "note": "mit is ALWAYS followed by the Dativ."
+    },
+    "rollstuhl": {
+      "de": "Rollstuhl",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Rollstühle",
+      "en": "wheelchair",
+      "emoji": "🦽"
+    },
+    "zum": {
+      "de": "zum (= zu dem)",
+      "pos": "preposition + article",
+      "en": "to the",
+      "emoji": "➡️",
+      "case": {
+        "c": "D",
+        "gender": "masculine/neuter",
+        "text": "zum = zu + dem (Dativ)"
+      },
+      "note": "zu is always Dativ: zum Röntgen, zur (= zu der) Station"
+    },
+    "röntgen": {
+      "de": "Röntgen",
+      "pos": "noun",
+      "article": "das",
+      "plural": "(no plural)",
+      "en": "X-ray (examination)",
+      "emoji": "📸",
+      "note": "zum Röntgen bringen = take for an X-ray"
+    },
+    "frau": {
+      "de": "Frau",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Frauen",
+      "en": "Mrs/Ms; woman",
+      "emoji": "👩"
+    },
+    "kaya": {
+      "de": "Kaya",
+      "pos": "name",
+      "en": "Kaya (surname)",
+      "emoji": "👩🏽"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "article": "das",
+      "plural": "(no plural)",
+      "en": "fever",
+      "emoji": "🤒"
+    },
+    "kennt": {
+      "de": "kennen → sie kennt",
+      "pos": "verb",
+      "en": "knows; is familiar with",
+      "emoji": "🧠",
+      "note": "kennen + Akkusativ: Sie kennt den Befund."
+    },
+    "schon": {
+      "de": "schon",
+      "pos": "adverb",
+      "en": "already",
+      "emoji": "✔️"
+    },
+    "ruf": {
+      "de": "anrufen → ruf … an! (du)",
+      "pos": "verb (imperative)",
+      "en": "call! (phone)",
+      "emoji": "📞",
+      "note": "Separable verb: Ruf die Tochter an! anrufen + Akkusativ."
+    },
+    "tochter": {
+      "de": "Tochter",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Töchter",
+      "en": "daughter",
+      "emoji": "👧"
+    },
+    "ihre": {
+      "de": "ihre",
+      "pos": "possessive",
+      "en": "her; their",
+      "emoji": "👩"
+    },
+    "nummer": {
+      "de": "Nummer",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Nummern",
+      "en": "(phone) number",
+      "emoji": "🔢"
+    },
+    "steht": {
+      "de": "stehen → es steht",
+      "pos": "verb",
+      "en": "stands; is written",
+      "emoji": "📝",
+      "note": "Die Nummer steht in der Akte. = The number is in the file."
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Akten",
+      "en": "(patient) file; chart",
+      "emoji": "📁"
+    },
+    "danke": {
+      "de": "danke",
+      "pos": "particle",
+      "en": "thanks",
+      "emoji": "🙏"
+    },
+    "lena": {
+      "de": "Lena",
+      "pos": "name",
+      "en": "Lena (the nurse)",
+      "emoji": "🧑‍⚕️"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a; an (masculine or neuter)",
+      "emoji": "1️⃣",
+      "note": "ein Morgen = one morning. Also the indefinite article."
+    }
+  },
+  "steps": [
+    {
+      "id": "intro",
+      "type": "overview",
+      "label": "Overview",
+      "title": "Überblick: who does what to whom?",
+      "learn": [
+        "Recognise the cases <b>Nominativ, Akkusativ and Dativ</b>, and meet the <b>Genitiv</b>",
+        "Ask the case question: <b>Wer? Wen? Wem? Wessen?</b>",
+        "Choose the right article: <b>der → den → dem</b>, <b>ein → einen → einem</b>",
+        "Say who treats whom and who gives what to whom on the ward"
+      ],
+      "vocab": [
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor (m)",
+          "emoji": "👨‍⚕️"
+        },
+        {
+          "de": "Ärztin",
+          "article": "die",
+          "plural": "die Ärztinnen",
+          "en": "doctor (f)",
+          "emoji": "👩‍⚕️"
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient (m)",
+          "emoji": "🛌"
+        },
+        {
+          "de": "Patientin",
+          "article": "die",
+          "plural": "die Patientinnen",
+          "en": "patient (f)",
+          "emoji": "🤒"
+        },
+        {
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "nurse",
+          "emoji": "🧑‍⚕️"
+        },
+        {
+          "de": "Medikament",
+          "article": "das",
+          "plural": "die Medikamente",
+          "en": "medication",
+          "emoji": "💊"
+        },
+        {
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "injection; syringe",
+          "emoji": "💉"
+        },
+        {
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "emoji": "🛏️"
+        },
+        {
+          "de": "Befund",
+          "article": "der",
+          "plural": "die Befunde",
+          "en": "findings; result",
+          "emoji": "📋"
+        },
+        {
+          "de": "Rollstuhl",
+          "article": "der",
+          "plural": "die Rollstühle",
+          "en": "wheelchair",
+          "emoji": "🦽"
+        }
+      ],
+      "text": {
+        "title": "Ein Morgen auf Station 2",
+        "de": "Es ist sieben Uhr morgens auf Station 2. [[Die|die_nom_f]] Pflegekraft misst [[den|den_akk_m]] Blutdruck. [[Der|der_nom_m]] Arzt besucht [[den|den_akk_m]] [[Patienten|patienten_akk]] in Zimmer 5. Er zeigt [[dem|dem_dat_m]] [[Patienten|patienten_dat]] [[den|den_akk_m]] Befund. [[Der|der_nom_m]] Befund [[des|des_gen_m]] [[Patienten|patienten_gen]] ist gut. [[Die|die_nom_f]] Ärztin gibt [[der|der_dat_f]] Patientin [[eine|eine_akk_f]] Spritze. [[Die|die_nom_f]] Patientin dankt [[der|der_dat_f]] Ärztin. Dann bringt [[ein|ein_nom_m]] Pfleger [[das|das_akk_n]] Frühstück und hilft [[dem|dem_dat_m]] [[Patienten|patienten_dat]].",
+        "en": "It is seven o'clock in the morning on ward 2. The nurse takes the blood pressure. The doctor visits the patient in room 5. He shows the patient the findings. The patient's findings are good. The (female) doctor gives the (female) patient an injection. The patient thanks the doctor. Then a nurse brings the breakfast and helps the patient."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "cases",
+      "label": "Grammar",
+      "title": "Four roles on the ward",
+      "intro": "In German, every noun in a sentence has a <b>role</b>, and the article shows that role. Think of a ward round: someone acts, someone or something is treated directly, someone receives something, and things belong to someone.",
+      "roles": [
+        {
+          "c": "N",
+          "title": "The one who acts",
+          "metaphor": "The doctor in charge: the subject of the sentence.",
+          "q": "Wer?",
+          "de": "[N:Der Arzt] untersucht den Bauch.",
+          "en": "The doctor examines the abdomen."
+        },
+        {
+          "c": "A",
+          "title": "Directly treated",
+          "metaphor": "The patient or thing the action lands on: the direct object.",
+          "q": "Wen? / Was?",
+          "de": "Die Ärztin untersucht [A:den Patienten].",
+          "en": "The doctor examines the patient."
+        },
+        {
+          "c": "D",
+          "title": "To / for whom",
+          "metaphor": "The one who receives something: the indirect object.",
+          "q": "Wem?",
+          "de": "Die Pflegekraft gibt [D:dem Patienten] das Medikament.",
+          "en": "The nurse gives the patient the medication."
+        },
+        {
+          "c": "G",
+          "title": "Whose?",
+          "metaphor": "Ownership. Common in written reports; in speech people often say von + Dativ.",
+          "q": "Wessen?",
+          "de": "Das ist das Bett [G:des Patienten].",
+          "en": "That is the patient's bed."
+        }
+      ],
+      "table": {
+        "genders": [
+          "Maskulin",
+          "Feminin",
+          "Neutrum",
+          "Plural"
+        ],
+        "definite": {
+          "N": [
+            "der|Arzt",
+            "die|Ärztin",
+            "das|Bett",
+            "die|Ärzte"
+          ],
+          "A": [
+            "den*|Arzt",
+            "die|Ärztin",
+            "das|Bett",
+            "die|Ärzte"
+          ],
+          "D": [
+            "dem*|Arzt",
+            "der*|Ärztin",
+            "dem*|Bett",
+            "den*|Ärzten"
+          ],
+          "G": [
+            "des*|Arztes",
+            "der*|Ärztin",
+            "des*|Bettes",
+            "der*|Ärzte"
+          ]
+        },
+        "indefinite": {
+          "N": [
+            "ein|Arzt",
+            "eine|Ärztin",
+            "ein|Bett",
+            "–|Ärzte"
+          ],
+          "A": [
+            "einen*|Arzt",
+            "eine|Ärztin",
+            "ein|Bett",
+            "–|Ärzte"
+          ],
+          "D": [
+            "einem*|Arzt",
+            "einer*|Ärztin",
+            "einem*|Bett",
+            "–|Ärzten"
+          ],
+          "G": [
+            "eines*|Arztes",
+            "einer*|Ärztin",
+            "eines*|Bettes",
+            "(von)|Ärzten"
+          ]
+        },
+        "note": "Underlined articles are different from the Nominativ; bold endings show what the noun adds. ein/eine has no plural form (the negative is keine / keine / keinen / keiner)."
+      },
+      "animation": [
+        {
+          "parts": [
+            {
+              "t": "Der Arzt",
+              "c": "N",
+              "q": "Wer gibt?"
+            },
+            {
+              "t": "gibt"
+            },
+            {
+              "t": "dem Patienten",
+              "c": "D",
+              "q": "Wem gibt er die Tablette?"
+            },
+            {
+              "t": "die Tablette",
+              "c": "A",
+              "q": "Was gibt er?"
+            }
+          ],
+          "order": [
+            0,
+            3,
+            2
+          ],
+          "punct": ".",
+          "en": "The doctor gives the patient the tablet."
+        },
+        {
+          "parts": [
+            {
+              "t": "Die Ärztin",
+              "c": "N",
+              "q": "Wer zeigt?"
+            },
+            {
+              "t": "zeigt"
+            },
+            {
+              "t": "der Patientin",
+              "c": "D",
+              "q": "Wem zeigt sie den Befund?"
+            },
+            {
+              "t": "den Befund",
+              "c": "A",
+              "q": "Was zeigt sie?"
+            }
+          ],
+          "order": [
+            0,
+            3,
+            2
+          ],
+          "punct": ".",
+          "en": "The doctor shows the patient the findings."
+        },
+        {
+          "parts": [
+            {
+              "t": "Der Befund",
+              "c": "N",
+              "q": "Was ist gut?"
+            },
+            {
+              "t": "des Patienten",
+              "c": "G",
+              "q": "Wessen Befund?"
+            },
+            {
+              "t": "ist gut"
+            }
+          ],
+          "order": [
+            0,
+            1
+          ],
+          "punct": ".",
+          "en": "The patient's findings are good."
+        }
+      ],
+      "quiz": [
+        {
+          "q": "„Ich helfe ___ Patienten.“ Which question do you ask?",
+          "options": [
+            "Wer?",
+            "Wen?",
+            "Wem?"
+          ],
+          "answer": 2,
+          "why": "helfen always takes the Dativ → Wem helfe ich? → dem Patienten."
+        },
+        {
+          "q": "Which article changes in the Akkusativ?",
+          "options": [
+            "die (feminine)",
+            "der (masculine) → den",
+            "das (neuter)"
+          ],
+          "answer": 1,
+          "why": "Only the masculine changes: der → den, ein → einen. die, das and plural die stay the same."
+        }
+      ],
+      "practice": "choose"
+    },
+    {
+      "id": "tips",
+      "type": "tips",
+      "label": "Tips & tricks",
+      "title": "Clever tricks to remember the cases",
+      "tips": [
+        {
+          "emoji": "🎩",
+          "color": "A",
+          "title": "Only HE changes his hat",
+          "rule": "In the Akkusativ only the <b>masculine</b> changes: <b>der → den</b>, <b>ein → einen</b>. die, das and plural die stay the same.",
+          "examples": [
+            {
+              "de": "Ich brauche [A:den] Befund.",
+              "en": "I need the findings."
+            },
+            {
+              "de": "Ich brauche [A:die] Spritze. / Ich brauche [A:das] Bett.",
+              "en": "No change for die and das."
+            }
+          ]
+        },
+        {
+          "emoji": "🔔",
+          "color": "D",
+          "title": "Wem rhymes with dem",
+          "rule": "Listen to the question word: <b>wem</b> ↔ <b>dem</b> (Dativ), <b>wen</b> ↔ <b>den</b> (Akkusativ), <b>wer</b> ↔ <b>der</b> (Nominativ).",
+          "examples": [
+            {
+              "de": "Wem gibt sie die Tablette? [D:Dem] Patienten.",
+              "en": "To whom does she give the tablet? To the patient."
+            }
+          ]
+        },
+        {
+          "emoji": "👨‍👩‍👧‍👦",
+          "color": "D",
+          "title": "The Dativ family: Mr M, Mrs R, Baby M & the Ns",
+          "rule": "Dativ endings: masculine <b>-m</b>, feminine <b>-r</b>, neuter <b>-m</b>, plural <b>-n</b>: <b>dem · der · dem · den</b> (einem · einer · einem).",
+          "examples": [
+            {
+              "de": "mit [D:dem] Arzt · mit [D:der] Ärztin · mit [D:dem] Kind · mit [D:den] Ärzten",
+              "en": "with the doctor (m) · doctor (f) · child · doctors"
+            }
+          ]
+        },
+        {
+          "emoji": "➕",
+          "color": "D",
+          "title": "Dativ plural loves an extra -n",
+          "rule": "In the Dativ plural the noun gets <b>-n</b>: die Ärzte → <b>den Ärzten</b>, die Kinder → <b>den Kindern</b>. If the plural already ends in -n or -s, nothing changes: <b>den Patienten</b>, <b>den Handys</b>.",
+          "examples": [
+            {
+              "de": "Ich danke [D:den Ärzten] und [D:den Pflegekräften].",
+              "en": "I thank the doctors and the nurses."
+            }
+          ]
+        },
+        {
+          "emoji": "🛌",
+          "color": "A",
+          "title": "der Patient is a 'weak' noun",
+          "rule": "Some masculine nouns add <b>-en</b> in every case except the Nominativ singular: <b>der Patient → den / dem / des Patienten</b>. Same with der Herr (→ Herrn) and der Kollege (→ Kollegen).",
+          "examples": [
+            {
+              "de": "Ich untersuche [A:den Patienten]. Ich helfe [D:dem Patienten].",
+              "en": "I examine the patient. I help the patient."
+            }
+          ]
+        },
+        {
+          "emoji": "🤝",
+          "color": "D",
+          "title": "Dativ verbs",
+          "rule": "These verbs always take the Dativ: <b>helfen, danken, gehören, gefallen, wehtun</b>.",
+          "examples": [
+            {
+              "de": "Ich helfe [D:dem Patienten].",
+              "en": "I help the patient."
+            },
+            {
+              "de": "Das Handy gehört [D:der Patientin].",
+              "en": "The phone belongs to the patient."
+            },
+            {
+              "de": "[D:Mir] tut der Bauch weh.",
+              "en": "My stomach hurts. (literally: to me hurts the stomach)"
+            }
+          ]
+        },
+        {
+          "emoji": "🎵",
+          "color": "D",
+          "title": "Sing it! aus, bei, mit, nach, seit, von, zu",
+          "rule": "These prepositions are <b>always Dativ</b>. Sing them to the tune of the Blue Danube waltz: <i>aus-bei-mit, nach-seit-von-zu…</i> Short forms: zu dem = <b>zum</b>, zu der = <b>zur</b>, bei dem = <b>beim</b>, von dem = <b>vom</b>.",
+          "examples": [
+            {
+              "de": "mit [D:dem] Rollstuhl · nach [D:der] Operation · seit [D:einer] Woche",
+              "en": "by wheelchair · after the operation · for a week"
+            },
+            {
+              "de": "Er muss [D:zum] Röntgen.",
+              "en": "He has to go for an X-ray."
+            }
+          ]
+        },
+        {
+          "emoji": "🐶",
+          "color": "A",
+          "title": "DOGFU: the Akkusativ prepositions",
+          "rule": "<b>d</b>urch, <b>o</b>hne, <b>g</b>egen, <b>f</b>ür, <b>u</b>m are always followed by the <b>Akkusativ</b>.",
+          "examples": [
+            {
+              "de": "eine Tablette gegen [A:den] Schmerz · ein Zimmer für [A:den] Patienten",
+              "en": "a tablet for the pain · a room for the patient"
+            }
+          ]
+        },
+        {
+          "emoji": "🔗",
+          "color": "G",
+          "title": "Genitiv: read it, but often say von",
+          "rule": "In reports and letters you will read the Genitiv: <b>das Bett des Patienten</b>. On the ward people often say <b>von + Dativ</b>: <b>das Bett vom Patienten</b>.",
+          "examples": [
+            {
+              "de": "der Befund [G:der Patientin] = der Befund von der Patientin",
+              "en": "the patient's findings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "articles",
+      "type": "gapcase",
+      "label": "Articles",
+      "title": "Which article goes in the gap?",
+      "instructions": "The basic article is in brackets. Drag the correct form into the gap, or tap an article and then the gap. Stuck? A 💡 hint costs 1 point.",
+      "chips": [
+        "der",
+        "die",
+        "das",
+        "den",
+        "dem",
+        "des",
+        "ein",
+        "eine",
+        "einen",
+        "einem",
+        "einer",
+        "eines"
+      ],
+      "chipInfo": {
+        "der": "der is Nominativ masculine, or Dativ/Genitiv feminine",
+        "die": "die is Nominativ/Akkusativ feminine or plural",
+        "das": "das is Nominativ/Akkusativ neuter",
+        "den": "den is Akkusativ masculine, or Dativ plural",
+        "dem": "dem is Dativ masculine or neuter",
+        "des": "des is Genitiv masculine or neuter",
+        "ein": "ein is Nominativ masculine, or Nominativ/Akkusativ neuter",
+        "eine": "eine is Nominativ/Akkusativ feminine",
+        "einen": "einen is Akkusativ masculine",
+        "einem": "einem is Dativ masculine or neuter",
+        "einer": "einer is Dativ/Genitiv feminine",
+        "eines": "eines is Genitiv masculine or neuter"
+      },
+      "items": [
+        {
+          "before": "Die Ärztin untersucht",
+          "base": "der",
+          "after": "Bauch.",
+          "answer": "den",
+          "hint": "Ask: Wen/Was untersucht sie? → Akkusativ. der Bauch is masculine.",
+          "why": "untersuchen + Akkusativ. Only the masculine changes: der → den."
+        },
+        {
+          "before": "Die Pflegekraft gibt",
+          "base": "die",
+          "after": "Patientin eine Tablette.",
+          "answer": "der",
+          "hint": "Ask: Wem gibt sie die Tablette? → Dativ, feminine.",
+          "why": "The patient receives the tablet → Dativ. Feminine Dativ: die → der."
+        },
+        {
+          "before": "",
+          "base": "der",
+          "after": "Arzt erklärt die Operation.",
+          "answer": "der",
+          "hint": "Ask: Wer erklärt die Operation?",
+          "why": "The doctor is the one who acts → Nominativ. The basic form stays: Der Arzt."
+        },
+        {
+          "before": "Der Pfleger hilft",
+          "base": "das",
+          "after": "Kind beim Essen.",
+          "answer": "dem",
+          "hint": "helfen is a Dativ verb! Ask: Wem hilft er?",
+          "why": "helfen always takes the Dativ. Neuter Dativ: das → dem."
+        },
+        {
+          "before": "Herr Weber fährt mit",
+          "base": "der",
+          "after": "Rollstuhl zum Röntgen.",
+          "answer": "dem",
+          "hint": "mit is one of the 'always Dativ' prepositions.",
+          "why": "mit + Dativ. Masculine Dativ: der → dem."
+        },
+        {
+          "before": "Die Ärztin schreibt",
+          "base": "ein",
+          "after": "Befund.",
+          "answer": "einen",
+          "hint": "Ask: Was schreibt sie? → Akkusativ. der Befund is masculine.",
+          "why": "Direct object → Akkusativ. Masculine: ein → einen."
+        },
+        {
+          "before": "Nach",
+          "base": "die",
+          "after": "Operation muss Herr Weber im Bett bleiben.",
+          "answer": "der",
+          "hint": "nach is always followed by the Dativ. die Operation is feminine.",
+          "why": "nach + Dativ. Feminine Dativ: die → der."
+        },
+        {
+          "before": "Der Arzt zeigt",
+          "base": "der",
+          "after": "Patienten den Befund.",
+          "answer": "dem",
+          "hint": "Ask: Wem zeigt er den Befund? → Dativ, masculine.",
+          "why": "The patient receives the information → Dativ: dem Patienten (weak noun with -en)."
+        }
+      ],
+      "practice": "gap"
+    },
+    {
+      "id": "colour",
+      "type": "colour",
+      "label": "Case colours",
+      "title": "Colour the cases",
+      "instructions": "Pick a colour pen, then tap each highlighted phrase to colour it with its case. Press Check for each sentence.",
+      "sentences": [
+        {
+          "parts": [
+            {
+              "t": "Der Arzt",
+              "c": "N",
+              "why": "Wer gibt? → der Arzt (subject)"
+            },
+            " gibt ",
+            {
+              "t": "dem Patienten",
+              "c": "D",
+              "why": "Wem gibt er sie? → dem Patienten"
+            },
+            " ",
+            {
+              "t": "eine Tablette",
+              "c": "A",
+              "why": "Was gibt er? → eine Tablette"
+            },
+            "."
+          ],
+          "en": "The doctor gives the patient a tablet."
+        },
+        {
+          "parts": [
+            {
+              "t": "Die Pflegekraft",
+              "c": "N",
+              "why": "Wer zeigt? → die Pflegekraft"
+            },
+            " zeigt ",
+            {
+              "t": "der Patientin",
+              "c": "D",
+              "why": "Wem? → der Patientin (feminine Dativ: der)"
+            },
+            " ",
+            {
+              "t": "das Zimmer",
+              "c": "A",
+              "why": "Was zeigt sie? → das Zimmer"
+            },
+            "."
+          ],
+          "en": "The nurse shows the patient the room."
+        },
+        {
+          "parts": [
+            {
+              "t": "Die Ärztin",
+              "c": "N",
+              "why": "Wer untersucht? → die Ärztin"
+            },
+            " untersucht ",
+            {
+              "t": "den Patienten",
+              "c": "A",
+              "why": "Wen untersucht sie? → den Patienten (Akkusativ, weak noun)"
+            },
+            "."
+          ],
+          "en": "The doctor examines the patient."
+        },
+        {
+          "parts": [
+            {
+              "t": "Der Pfleger",
+              "c": "N",
+              "why": "Wer hilft? → der Pfleger"
+            },
+            " hilft ",
+            {
+              "t": "der Ärztin",
+              "c": "D",
+              "why": "helfen + Dativ → Wem hilft er? → der Ärztin"
+            },
+            "."
+          ],
+          "en": "The nurse helps the doctor."
+        },
+        {
+          "parts": [
+            {
+              "t": "Mir",
+              "c": "D",
+              "why": "Wem tut der Bauch weh? → mir (Dativ of ich)"
+            },
+            " tut ",
+            {
+              "t": "der Bauch",
+              "c": "N",
+              "why": "Was tut weh? → der Bauch is the subject (Nominativ)!"
+            },
+            " weh."
+          ],
+          "en": "My stomach hurts."
+        },
+        {
+          "parts": [
+            "Nach ",
+            {
+              "t": "der Visite",
+              "c": "D",
+              "why": "nach + Dativ → der Visite (feminine Dativ)"
+            },
+            " bringt ",
+            {
+              "t": "der Pfleger",
+              "c": "N",
+              "why": "Wer bringt? → der Pfleger"
+            },
+            " ",
+            {
+              "t": "den Befund",
+              "c": "A",
+              "why": "Was bringt er? → den Befund"
+            },
+            "."
+          ],
+          "en": "After the ward round, the nurse brings the findings."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the nurse's handover note",
+      "instructions": "Lena finishes her early shift and writes a handover note. Read it (tap any word), then answer the questions.",
+      "document": {
+        "letterhead": "Station 2 · Pflege-Übergabe",
+        "title": "Übergabe: Frühdienst → Spätdienst",
+        "paragraphs": [
+          "Zimmer 5: Herr Weber hatte gestern [[eine|eine_akk_f]] Operation an [[der|der_dat_f]] Hüfte.",
+          "Er hat noch Schmerzen. Um 12 Uhr hat er [[eine|eine_akk_f]] Schmerztablette bekommen.",
+          "Bitte gib [[dem|dem_dat_m]] [[Patienten|patienten_dat]] um 18 Uhr [[das|das_akk_n]] Antibiotikum.",
+          "Morgen früh bringen wir ihn mit [[dem|dem_dat_m]] Rollstuhl zum Röntgen.",
+          "Zimmer 6: Frau Kaya hat Fieber. [[Die|die_nom_f]] Ärztin kennt [[den|den_akk_m]] Befund schon.",
+          "Bitte ruf [[die|die_akk_f]] Tochter [[der|der_gen_f]] Patientin an. Ihre Nummer steht in [[der|der_dat_f]] Akte."
+        ],
+        "signature": "Danke! Lena (Frühdienst)"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wem soll der Spätdienst um 18 Uhr das Antibiotikum geben?",
+          "qEn": "Who should the late shift give the antibiotic to at 6 pm?",
+          "options": [
+            "dem Patienten in Zimmer 5 (Herrn Weber)",
+            "der Patientin in Zimmer 6 (Frau Kaya)",
+            "der Tochter von Frau Kaya"
+          ],
+          "answer": 0,
+          "why": "„Bitte gib dem Patienten um 18 Uhr das Antibiotikum.“ The paragraph is about Zimmer 5. Wem? → dem Patienten (Dativ)."
+        },
+        {
+          "kind": "tf",
+          "q": "Herr Weber geht morgen allein zum Röntgen.",
+          "qEn": "Mr Weber walks to the X-ray on his own tomorrow.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "answer": 1,
+          "why": "„Morgen früh bringen wir ihn mit dem Rollstuhl zum Röntgen.“ He goes by wheelchair, with the nurses."
+        },
+        {
+          "kind": "mc",
+          "q": "Wen soll der Spätdienst anrufen?",
+          "qEn": "Who should the late shift call?",
+          "options": [
+            "den Arzt",
+            "die Tochter von Frau Kaya",
+            "Herrn Weber"
+          ],
+          "answer": 1,
+          "why": "„Bitte ruf die Tochter der Patientin an.“ Wen? → die Tochter (Akkusativ). der Patientin = Genitiv (whose daughter?)."
+        }
+      ],
+      "practice": "reading"
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "Which case?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Wer? Wen? Wem?",
+      "items": [
+        {
+          "prompt": "Who is sleeping?",
+          "options": [
+            {
+              "emoji": "🟡",
+              "label": "Nominativ",
+              "caption": "Wer?"
+            },
+            {
+              "emoji": "🌹",
+              "label": "Akkusativ",
+              "caption": "Wen?"
+            },
+            {
+              "emoji": "🟣",
+              "label": "Dativ",
+              "caption": "Wem?"
+            }
+          ],
+          "answer": 0,
+          "why": "The subject is nominative.",
+          "hint": "Wer?"
+        },
+        {
+          "prompt": "The doctor sees the patient.",
+          "options": [
+            {
+              "emoji": "🌹",
+              "label": "Akkusativ",
+              "caption": "Wen sieht er?"
+            },
+            {
+              "emoji": "🟡",
+              "label": "Nominativ",
+              "caption": "Wer?"
+            },
+            {
+              "emoji": "🟣",
+              "label": "Dativ",
+              "caption": "Wem?"
+            }
+          ],
+          "answer": 0,
+          "why": "sehen takes the accusative.",
+          "hint": "Wen?"
+        },
+        {
+          "prompt": "The nurse helps the patient.",
+          "options": [
+            {
+              "emoji": "🟣",
+              "label": "Dativ",
+              "caption": "helfen + Wem?"
+            },
+            {
+              "emoji": "🌹",
+              "label": "Akkusativ",
+              "caption": "Wen?"
+            },
+            {
+              "emoji": "🟡",
+              "label": "Nominativ",
+              "caption": "Wer?"
+            }
+          ],
+          "answer": 0,
+          "why": "helfen takes the dative.",
+          "hint": "Wem?"
+        },
+        {
+          "prompt": "In Sie gibt dem Arzt die Akte, dem Arzt is…",
+          "options": [
+            {
+              "emoji": "🟣",
+              "label": "Dativ",
+              "caption": "the person"
+            },
+            {
+              "emoji": "🌹",
+              "label": "Akkusativ",
+              "caption": "the thing"
+            },
+            {
+              "emoji": "🟡",
+              "label": "Nominativ",
+              "caption": "the subject"
+            }
+          ],
+          "answer": 0,
+          "why": "The person is dative, the thing is accusative.",
+          "hint": "Wem?"
+        }
+      ]
+    },
+    {
+      "id": "px-picture",
+      "label": "Picture",
+      "title": "Picture task",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Name the thing, then check the case in the hint.",
+      "items": [
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Nominativ: das Bett. Akkusativ: das Bett. Dativ: dem Bett."
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "Nominativ: die Tablette. Akkusativ: die Tablette. Dativ: der Tablette."
+        },
+        {
+          "id": "syringe",
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "syringe",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          },
+          "hint": "geben + Akkusativ: die Spritze."
+        },
+        {
+          "id": "clip",
+          "de": "Befund",
+          "article": "der",
+          "plural": "die Befunde",
+          "en": "finding",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "der Befund, den Befund, dem Befund."
+        }
+      ]
+    },
+    {
+      "id": "px-build",
+      "label": "Build",
+      "title": "Build the case",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Keep the article in the right case.",
+      "items": [
+        {
+          "tiles": [
+            "Der",
+            "Arzt",
+            "sieht",
+            "den",
+            "Patienten"
+          ],
+          "answers": [
+            "Der Arzt sieht den Patienten"
+          ],
+          "punct": ".",
+          "modal": "Arzt",
+          "inf": "Patienten",
+          "question": false,
+          "en": "The doctor sees the patient.",
+          "hint": "Wen? den Patienten.",
+          "feedback": {
+            "fallback": "Wen? den Patienten."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Pflegekraft",
+            "hilft",
+            "dem",
+            "Patienten"
+          ],
+          "answers": [
+            "Die Pflegekraft hilft dem Patienten"
+          ],
+          "punct": ".",
+          "modal": "Pflegekraft",
+          "inf": "Patienten",
+          "question": false,
+          "en": "The nurse helps the patient.",
+          "hint": "Wem? dem Patienten.",
+          "feedback": {
+            "fallback": "Wem? dem Patienten."
+          }
+        },
+        {
+          "tiles": [
+            "Ich",
+            "gebe",
+            "dem",
+            "Arzt",
+            "die",
+            "Akte"
+          ],
+          "answers": [
+            "Ich gebe dem Arzt die Akte"
+          ],
+          "punct": ".",
+          "modal": "gebe",
+          "inf": "Akte",
+          "question": false,
+          "en": "I give the doctor the file.",
+          "hint": "dem Arzt, die Akte.",
+          "feedback": {
+            "fallback": "dem Arzt, die Akte."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "messen",
+            "den",
+            "Blutdruck"
+          ],
+          "answers": [
+            "Wir messen den Blutdruck"
+          ],
+          "punct": ".",
+          "modal": "messen",
+          "inf": "Blutdruck",
+          "question": false,
+          "en": "We measure the blood pressure.",
+          "hint": "Wen oder was? den Blutdruck.",
+          "feedback": {
+            "fallback": "Wen oder was? den Blutdruck."
+          }
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Change the form.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Put the article and noun into the case asked for.",
+      "chips": [
+        {
+          "w": "den Patienten",
+          "hint": "Akkusativ"
+        },
+        {
+          "w": "dem Patienten",
+          "hint": "Dativ"
+        },
+        {
+          "w": "den Arzt",
+          "hint": "Akkusativ"
+        },
+        {
+          "w": "dem Arzt",
+          "hint": "Dativ"
+        },
+        {
+          "w": "der Akte",
+          "hint": "Dativ"
+        },
+        {
+          "w": "dem Bett",
+          "hint": "Dativ"
+        }
+      ],
+      "items": [
+        {
+          "before": "der Patient (Akkusativ) →",
+          "after": "",
+          "answer": "den Patienten",
+          "en": "the patient",
+          "why": "Masculine accusative, and Patient adds -en.",
+          "tip": "den",
+          "hint": "Akkusativ"
+        },
+        {
+          "before": "der Patient (Dativ) →",
+          "after": "",
+          "answer": "dem Patienten",
+          "en": "to the patient",
+          "why": "Masculine dative, and Patient adds -en.",
+          "tip": "dem",
+          "hint": "Dativ"
+        },
+        {
+          "before": "der Arzt (Akkusativ) →",
+          "after": "",
+          "answer": "den Arzt",
+          "en": "the doctor",
+          "why": "Masculine accusative. Arzt does not add -en.",
+          "tip": "den",
+          "hint": "Akkusativ"
+        },
+        {
+          "before": "der Arzt (Dativ) →",
+          "after": "",
+          "answer": "dem Arzt",
+          "en": "to the doctor",
+          "why": "Masculine dative.",
+          "tip": "dem",
+          "hint": "Dativ"
+        },
+        {
+          "before": "die Akte (Dativ) →",
+          "after": "",
+          "answer": "der Akte",
+          "en": "to the file",
+          "why": "Feminine dative is der.",
+          "tip": "der",
+          "hint": "Dativ"
+        },
+        {
+          "before": "das Bett (Dativ) →",
+          "after": "",
+          "answer": "dem Bett",
+          "en": "to the bed",
+          "why": "Neuter dative is dem.",
+          "tip": "dem",
+          "hint": "Dativ"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich sehe der Patient."
+          ],
+          "options": [
+            "Ich sehe den Patienten.",
+            "Ich sehe der Patient.",
+            "Ich sehe dem Patienten."
+          ],
+          "answer": 0,
+          "reveal": "Ich sehe den Patienten.",
+          "hint": "sehen takes the accusative, and Patient adds -en."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich helfe den Arzt."
+          ],
+          "options": [
+            "Ich helfe dem Arzt.",
+            "Ich helfe den Arzt.",
+            "Ich helfe der Arzt."
+          ],
+          "answer": 0,
+          "reveal": "Ich helfe dem Arzt.",
+          "hint": "helfen takes the dative."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Dem Patient schläft."
+          ],
+          "options": [
+            "Der Patient schläft.",
+            "Dem Patient schläft.",
+            "Den Patient schläft."
+          ],
+          "answer": 0,
+          "reveal": "Der Patient schläft.",
+          "hint": "The subject is nominative."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie gibt den Arzt die Akte."
+          ],
+          "options": [
+            "Sie gibt dem Arzt die Akte.",
+            "Sie gibt den Arzt die Akte.",
+            "Sie gibt der Arzt die Akte."
+          ],
+          "answer": 0,
+          "reveal": "Sie gibt dem Arzt die Akte.",
+          "hint": "The person is dative."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "Complete the dialogue.",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Choose the article. Notice the case.",
+      "chips": [
+        {
+          "w": "Der",
+          "hint": "Wer?"
+        },
+        {
+          "w": "Den",
+          "hint": "Wen?"
+        },
+        {
+          "w": "Dem",
+          "hint": "Wem?"
+        },
+        {
+          "w": "dem",
+          "hint": "geben"
+        },
+        {
+          "w": "den",
+          "hint": "messen"
+        },
+        {
+          "w": "der",
+          "hint": "Ort"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wer kommt?",
+          "after": "Arzt kommt.",
+          "answer": "Der",
+          "en": "The doctor is coming.",
+          "why": "Subject: der.",
+          "tip": "Nominativ",
+          "hint": "Wer?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wen sehen Sie?",
+          "after": "Patienten.",
+          "answer": "Den",
+          "en": "The patient.",
+          "why": "Accusative masculine.",
+          "tip": "Wen?",
+          "hint": "Wen?",
+          "who": "Ärztin"
+        },
+        {
+          "before": "Wem helfen Sie?",
+          "after": "Patienten.",
+          "answer": "Dem",
+          "en": "The patient.",
+          "why": "Dative masculine.",
+          "tip": "Wem?",
+          "hint": "Wem?",
+          "who": "Kollegin"
+        },
+        {
+          "before": "Ich gebe",
+          "after": "Arzt die Akte.",
+          "answer": "dem",
+          "en": "I give the doctor the file.",
+          "why": "Person in the dative.",
+          "tip": "Wem?",
+          "hint": "geben",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wir messen",
+          "after": "Blutdruck.",
+          "answer": "den",
+          "en": "We measure the blood pressure.",
+          "why": "Accusative masculine.",
+          "tip": "Was?",
+          "hint": "messen",
+          "who": "Team"
+        },
+        {
+          "before": "Die Pflegekraft arbeitet auf",
+          "after": "Station.",
+          "answer": "der",
+          "en": "She works on the ward.",
+          "why": "Feminine dative after auf.",
+          "tip": "Wo?",
+          "hint": "Ort",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "More practice",
+      "title": "Choose the form",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Fill every gap. Each chip is used once.",
+      "chips": [
+        {
+          "w": "Der",
+          "hint": "Nominativ"
+        },
+        {
+          "w": "Die",
+          "hint": "Nominativ"
+        },
+        {
+          "w": "Das",
+          "hint": "Nominativ"
+        },
+        {
+          "w": "den",
+          "hint": "Akkusativ"
+        },
+        {
+          "w": "dem",
+          "hint": "Dativ"
+        },
+        {
+          "w": "den Arzt",
+          "hint": "Akkusativ"
+        },
+        {
+          "w": "der",
+          "hint": "Dativ"
+        },
+        {
+          "w": "den Blutdruck",
+          "hint": "Akkusativ"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wer? ___ Arzt schläft nicht.",
+          "after": "",
+          "answer": "Der",
+          "en": "the doctor",
+          "why": "Nominative masculine.",
+          "tip": "der",
+          "hint": "Nominativ"
+        },
+        {
+          "before": "Wer? ___ Pflegekraft kommt.",
+          "after": "",
+          "answer": "Die",
+          "en": "the nurse",
+          "why": "Nominative feminine.",
+          "tip": "die",
+          "hint": "Nominativ"
+        },
+        {
+          "before": "Wer? ___ Bett ist frei.",
+          "after": "",
+          "answer": "Das",
+          "en": "the bed",
+          "why": "Nominative neuter.",
+          "tip": "das",
+          "hint": "Nominativ"
+        },
+        {
+          "before": "Wen? Ich sehe ___ Patienten.",
+          "after": "",
+          "answer": "den",
+          "en": "the patient",
+          "why": "Accusative masculine.",
+          "tip": "den",
+          "hint": "Akkusativ"
+        },
+        {
+          "before": "Wem? Ich helfe ___ Patienten.",
+          "after": "",
+          "answer": "dem",
+          "en": "the patient",
+          "why": "Dative masculine.",
+          "tip": "dem",
+          "hint": "Dativ"
+        },
+        {
+          "before": "Wen? Ich sehe ___ Arzt.",
+          "after": "",
+          "answer": "den Arzt",
+          "en": "the doctor",
+          "why": "Accusative, no -en on Arzt.",
+          "tip": "den",
+          "hint": "Akkusativ"
+        },
+        {
+          "before": "Wem? Ich helfe ___ Ärztin.",
+          "after": "",
+          "answer": "der",
+          "en": "the doctor",
+          "why": "Feminine dative is der.",
+          "tip": "der",
+          "hint": "Dativ"
+        },
+        {
+          "before": "Was? Wir messen ___.",
+          "after": "",
+          "answer": "den Blutdruck",
+          "en": "the blood pressure",
+          "why": "Accusative masculine, whole phrase.",
+          "tip": "den",
+          "hint": "Akkusativ"
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "Who, whom, to whom",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write three or four sentences. Then compare the model.",
+      "prompt": "Write who visits, whom he sees, and whom the nurse helps.",
+      "bullets": [
+        "Use a nominative subject.",
+        "Use den Patienten.",
+        "Use dem Patienten."
+      ],
+      "model": "Der Arzt kommt. Er sieht den Patienten. Die Pflegekraft hilft dem Patienten.",
+      "modelEn": "The doctor comes. He sees the patient. The nurse helps the patient.",
+      "hint": "Wer = nominative, wen = accusative, wem = dative.",
+      "checklist": [
+        {
+          "id": "der",
+          "label": "Names the subject",
+          "keywords": [
+            "Der Arzt"
+          ]
+        },
+        {
+          "id": "den",
+          "label": "Uses den Patienten",
+          "keywords": [
+            "den Patienten"
+          ]
+        },
+        {
+          "id": "dem",
+          "label": "Uses dem Patienten",
+          "keywords": [
+            "dem Patienten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "type": "grammar",
+      "story": [
+        "This mixed test closes the lesson. 80% marks it as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "sehen takes…",
+          "qEn": "The person seen.",
+          "options": [
+            "Akkusativ",
+            "Dativ",
+            "Nominativ"
+          ],
+          "answer": 0,
+          "why": "Wen sieht er?",
+          "hint": "Akkusativ"
+        },
+        {
+          "kind": "mc",
+          "q": "helfen takes…",
+          "qEn": "The person helped.",
+          "options": [
+            "Akkusativ",
+            "Dativ",
+            "Nominativ"
+          ],
+          "answer": 1,
+          "why": "Wem hilft sie?",
+          "hint": "Dativ"
+        },
+        {
+          "kind": "mc",
+          "q": "der Patient, Akkusativ →",
+          "qEn": "Weak noun.",
+          "options": [
+            "den Patient",
+            "dem Patienten",
+            "den Patienten"
+          ],
+          "answer": 2,
+          "why": "Article den and noun -en.",
+          "hint": "Patienten"
+        },
+        {
+          "kind": "mc",
+          "q": "der Arzt, Dativ →",
+          "qEn": "Masculine.",
+          "options": [
+            "dem Arzt",
+            "den Arzt",
+            "der Arzt"
+          ],
+          "answer": 0,
+          "why": "Dative masculine is dem.",
+          "hint": "dem"
+        },
+        {
+          "kind": "mc",
+          "q": "die Akte, Dativ →",
+          "qEn": "Feminine.",
+          "options": [
+            "die Akte",
+            "der Akte",
+            "dem Akte"
+          ],
+          "answer": 1,
+          "why": "Feminine dative is der.",
+          "hint": "der"
+        },
+        {
+          "kind": "mc",
+          "q": "das Bett, Dativ →",
+          "qEn": "Neuter.",
+          "options": [
+            "das Bett",
+            "den Bett",
+            "dem Bett"
+          ],
+          "answer": 2,
+          "why": "Neuter dative is dem.",
+          "hint": "dem"
+        },
+        {
+          "kind": "mc",
+          "q": "ein Arzt, Akkusativ →",
+          "qEn": "Indefinite.",
+          "options": [
+            "einen Arzt",
+            "ein Arzt",
+            "einem Arzt"
+          ],
+          "answer": 0,
+          "why": "Masculine accusative einen.",
+          "hint": "einen"
+        },
+        {
+          "kind": "mc",
+          "q": "The subject of the sentence is…",
+          "qEn": "Wer?",
+          "options": [
+            "Akkusativ",
+            "Nominativ",
+            "Dativ"
+          ],
+          "answer": 1,
+          "why": "Wer? is nominative.",
+          "hint": "Nominativ"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie gibt ___ Arzt die Akte.",
+          "qEn": "The person.",
+          "options": [
+            "den",
+            "der",
+            "dem"
+          ],
+          "answer": 2,
+          "why": "The person is dative.",
+          "hint": "dem"
+        },
+        {
+          "kind": "mc",
+          "q": "Dative plural of die Tabletten →",
+          "qEn": "Plural.",
+          "options": [
+            "den Tabletten",
+            "die Tabletten",
+            "der Tabletten"
+          ],
+          "answer": 0,
+          "why": "den + -n.",
+          "hint": "plural"
+        },
+        {
+          "kind": "mc",
+          "q": "eine Ärztin, Dativ →",
+          "qEn": "Feminine indefinite.",
+          "options": [
+            "eine Ärztin",
+            "einer Ärztin",
+            "einem Ärztin"
+          ],
+          "answer": 1,
+          "why": "einer.",
+          "hint": "einer"
+        },
+        {
+          "kind": "mc",
+          "q": "Ich sehe ___ Patienten.",
+          "qEn": "sehen.",
+          "options": [
+            "dem",
+            "der",
+            "den"
+          ],
+          "answer": 2,
+          "why": "Accusative.",
+          "hint": "den"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Geschafft! You know the cases",
+      "rules": [
+        {
+          "c": "N",
+          "rule": "<b>Wer?</b> → Nominativ: der · die · das · die (ein · eine · ein)"
+        },
+        {
+          "c": "A",
+          "rule": "<b>Wen? / Was?</b> → Akkusativ: only the masculine changes: <b>der → den, ein → einen</b>"
+        },
+        {
+          "c": "D",
+          "rule": "<b>Wem?</b> → Dativ: <b>dem · der · dem · den + n</b> (einem · einer · einem)"
+        },
+        {
+          "c": "G",
+          "rule": "<b>Wessen?</b> → Genitiv: des (+s) · der · des (+s) · der. In speech, often von + Dativ"
+        },
+        {
+          "c": "D",
+          "rule": "Always Dativ: <b>aus, bei, mit, nach, seit, von, zu</b> + <b>helfen, danken, gehören, gefallen, wehtun</b>"
+        },
+        {
+          "c": "A",
+          "rule": "Weak nouns: <b>der Patient → den / dem / des Patienten</b>"
+        }
+      ],
+      "redemittel": [
+        {
+          "de": "Der Arzt gibt dem Patienten die Tablette.",
+          "en": "The doctor gives the patient the tablet."
+        },
+        {
+          "de": "Die Ärztin untersucht den Patienten.",
+          "en": "The doctor examines the patient."
+        },
+        {
+          "de": "Ich helfe Ihnen.",
+          "en": "I'll help you."
+        },
+        {
+          "de": "Wir bringen Sie mit dem Rollstuhl zum Röntgen.",
+          "en": "We'll take you to the X-ray by wheelchair."
+        },
+        {
+          "de": "Tut Ihnen der Bauch weh?",
+          "en": "Does your stomach hurt?"
+        }
+      ]
+    }
+  ],
+  "chapter": 16,
+  "chapters": [
+    16,
+    17
+  ]
+}

@@ -1,0 +1,1716 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "sind": {
+      "de": "sein → sind",
+      "pos": "verb",
+      "en": "are"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "habe": {
+      "de": "haben → habe",
+      "pos": "verb",
+      "en": "have"
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "liege": {
+      "de": "liegen → liege",
+      "pos": "verb",
+      "en": "lie"
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "verb",
+      "en": "to lie"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "verb",
+      "en": "to come"
+    },
+    "geht": {
+      "de": "gehen → geht",
+      "pos": "verb",
+      "en": "goes"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "misst": {
+      "de": "messen → misst",
+      "pos": "verb",
+      "en": "measures"
+    },
+    "nimmt": {
+      "de": "nehmen → nimmt",
+      "pos": "verb",
+      "en": "takes"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative)",
+      "article": "die",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "emoji": "🛏️"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "schmerzen": {
+      "de": "Schmerzen",
+      "pos": "noun",
+      "en": "pain",
+      "article": "die",
+      "plural": "die Schmerzen",
+      "emoji": "🤕"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "article": "die",
+      "plural": "die Stationen",
+      "emoji": "🏥"
+    },
+    "montag": {
+      "de": "Montag",
+      "pos": "noun",
+      "en": "Monday",
+      "article": "der",
+      "plural": "die Montage",
+      "emoji": "📅"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in + dem"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "an + dem"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "contraction",
+      "en": "zu + dem"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on; onto"
+    },
+    "da": {
+      "de": "da",
+      "pos": "adverb",
+      "en": "here"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not"
+    },
+    "ja": {
+      "de": "ja",
+      "pos": "particle",
+      "en": "yes"
+    },
+    "nein": {
+      "de": "nein",
+      "pos": "particle",
+      "en": "no"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "allergie": {
+      "de": "Allergie",
+      "pos": "noun",
+      "en": "allergy",
+      "article": "die",
+      "plural": "die Allergien",
+      "emoji": "⚠️"
+    },
+    "keine": {
+      "de": "keine",
+      "pos": "article",
+      "en": "no (feminine or plural)"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)"
+    },
+    "doch": {
+      "de": "doch",
+      "pos": "particle",
+      "en": "yes, contradicting a negative"
+    },
+    "könnten": {
+      "de": "Könnten Sie",
+      "pos": "phrase",
+      "en": "Could you (polite)"
+    }
+  },
+  "id": "a1-10-janein",
+  "level": "A1",
+  "unit": "Kapitel 10",
+  "chapter": 10,
+  "chapters": [
+    10
+  ],
+  "title": "Lernen Sie Deutsch?",
+  "subtitle": "Yes/no questions, and doch",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "A yes/no question puts the verb in position 1: Haben Sie Schmerzen?",
+        "Answer Ja or Nein. Doch answers a negative question when the fact is positive: Haben Sie keine Schmerzen? — Doch.",
+        "Doch does not answer a positive question. Haben Sie Schmerzen? — Ja. Not Doch.",
+        "A polite request keeps verb-first order: Könnten Sie bitte kommen?"
+      ],
+      "vocab": [
+        {
+          "de": "Schmerzen",
+          "article": "die",
+          "plural": "die Schmerzen",
+          "en": "pain",
+          "emoji": "🤕",
+          "glossaryKey": "schmerzen"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "emoji": "🤒",
+          "glossaryKey": "fieber"
+        },
+        {
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "emoji": "🛏️",
+          "glossaryKey": "bett"
+        },
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "🩺",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Allergie",
+          "article": "die",
+          "plural": "die Allergien",
+          "en": "allergy",
+          "emoji": "⚠️",
+          "glossaryKey": "allergie"
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        }
+      ],
+      "text": {
+        "title": "Haben Sie Schmerzen?",
+        "de": "Haben Sie Schmerzen? Ja, ich habe Schmerzen. Haben Sie Fieber? Nein. Liegen Sie im Bett? Ja, ich liege im Bett. Ist der Arzt da? Nein, der Arzt ist nicht da. Haben Sie keine Allergie? Doch, ich habe eine Allergie. Könnten Sie bitte kommen?",
+        "en": "Do you have pain? Yes, I have pain. Do you have a fever? No. Are you lying in bed? Yes, I am lying in bed. Is the doctor here? No, the doctor is not here. Do you have no allergy? Yes I do, I have an allergy. Could you please come?"
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Verb zuerst",
+      "practice": "choose",
+      "heroTitle": "The verb moves to position 1",
+      "heroImage": "stethoscope",
+      "story": [
+        "A statement has the verb in position 2: Sie haben Schmerzen. A yes/no question moves that verb to position 1: <b>Haben</b> Sie Schmerzen?",
+        "<b>Ja</b> and <b>Nein</b> answer a positive question. <b>Doch</b> contradicts a negative question. Haben Sie keine Schmerzen? — Doch means: I do have pain.",
+        "Polite requests use the same verb-first shape: <b>Könnten Sie bitte kommen?</b>"
+      ],
+      "questionRule": "Say the fact first, then choose Ja, Nein or Doch. Doch only contradicts a negative question.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "haben",
+              "r": "rest"
+            },
+            {
+              "t": "Schmerzen",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Haben",
+              "r": "subj"
+            },
+            {
+              "t": "Sie",
+              "r": "verb"
+            },
+            {
+              "t": "Schmerzen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Statement: verb in position 2.",
+          "enAfter": "Haben Sie Schmerzen?",
+          "callLabel": "Show the question"
+        },
+        {
+          "before": [
+            {
+              "t": "keine",
+              "r": "subj"
+            },
+            {
+              "t": "Schmerzen",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Doch",
+              "r": "subj"
+            }
+          ],
+          "enBefore": "The question was negative. The fact is positive.",
+          "enAfter": "Doch.",
+          "callLabel": "Show Doch"
+        },
+        {
+          "before": [
+            {
+              "t": "Könnten",
+              "r": "subj"
+            },
+            {
+              "t": "Sie",
+              "r": "rest"
+            },
+            {
+              "t": "bitte",
+              "r": "rest"
+            },
+            {
+              "t": "kommen",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Könnten",
+              "r": "subj"
+            },
+            {
+              "t": "Sie",
+              "r": "verb"
+            },
+            {
+              "t": "bitte",
+              "r": "rest"
+            },
+            {
+              "t": "kommen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Polite, still verb first.",
+          "enAfter": "Könnten Sie bitte kommen?",
+          "callLabel": "Show the request"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Verb zuerst",
+          "caption": "The verb that was in position 2 moves to position 1. Nothing else changes.",
+          "columns": [
+            "Aussage",
+            "Frage"
+          ],
+          "rows": [
+            {
+              "label": "Schmerzen",
+              "cells": [
+                "Sie haben Schmerzen.",
+                "Haben Sie Schmerzen?"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Fieber",
+              "cells": [
+                "Sie haben Fieber.",
+                "Haben Sie Fieber?"
+              ]
+            },
+            {
+              "label": "Bett",
+              "cells": [
+                "Sie liegen im Bett.",
+                "Liegen Sie im Bett?"
+              ]
+            },
+            {
+              "label": "Arzt",
+              "cells": [
+                "Der Arzt ist da.",
+                "Ist der Arzt da?"
+              ]
+            },
+            {
+              "label": "Allergie",
+              "cells": [
+                "Sie haben keine Allergie.",
+                "Haben Sie keine Allergie?"
+              ]
+            },
+            {
+              "label": "Bitte",
+              "cells": [
+                "Sie kommen bitte.",
+                "Könnten Sie bitte kommen?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ja, Nein, Doch",
+          "caption": "The fact is given. Only one answer fits.",
+          "columns": [
+            "Frage",
+            "Fakt",
+            "Antwort"
+          ],
+          "rows": [
+            {
+              "label": "positiv ja",
+              "cells": [
+                "Haben Sie Schmerzen?",
+                "Er hat Schmerzen.",
+                "Ja."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "positiv nein",
+              "cells": [
+                "Haben Sie Fieber?",
+                "Er hat kein Fieber.",
+                "Nein."
+              ]
+            },
+            {
+              "label": "negativ doch",
+              "cells": [
+                "Haben Sie keine Schmerzen?",
+                "Er hat Schmerzen.",
+                "Doch."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "negativ nein",
+              "cells": [
+                "Haben Sie keine Allergie?",
+                "Er hat keine Allergie.",
+                "Nein."
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Doch is not a second Ja",
+        "items": [
+          {
+            "de": "Haben Sie Schmerzen? — Ja.",
+            "en": "A positive question, and the fact is yes.",
+            "tone": "ok"
+          },
+          {
+            "de": "Haben Sie Schmerzen? — Doch.",
+            "en": "Doch does not answer a positive question.",
+            "tone": "stop"
+          },
+          {
+            "de": "Haben Sie keine Schmerzen? — Doch.",
+            "en": "The question is negative. Doch means he does have pain.",
+            "tone": "ok"
+          },
+          {
+            "de": "Haben Sie keine Schmerzen? — Ja.",
+            "en": "Ja would be unclear. The contradiction is Doch.",
+            "tone": "stop"
+          },
+          {
+            "de": "Könnten Sie bitte kommen?",
+            "en": "Polite request, verb first.",
+            "tone": "ok"
+          },
+          {
+            "de": "Sie könnten bitte kommen?",
+            "en": "The verb is not in position 1.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Positive question: Ja or Nein. Negative question plus a positive fact: Doch."
+      },
+      "tips": [
+        {
+          "title": "Doch",
+          "emoji": "✅",
+          "mnemonic": "negative question + positive fact = Doch",
+          "body": "Haben Sie keine Schmerzen? If the patient does have pain, the answer is Doch, ich habe Schmerzen.",
+          "examples": [
+            {
+              "de": "Doch, ich habe eine Allergie.",
+              "en": "contradicts keine Allergie"
+            },
+            {
+              "de": "Nein.",
+              "en": "agrees with the negative, or answers a positive question"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Ja, Nein or Doch?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Fact: he has pain. Haben Sie Schmerzen?",
+          "qEn": "Positive question.",
+          "options": [
+            "Ja.",
+            "Doch.",
+            "Nein."
+          ],
+          "answer": 0,
+          "why": "A positive question with a positive fact is Ja.",
+          "hint": "Ja."
+        },
+        {
+          "kind": "mc",
+          "q": "Fact: he has no fever. Haben Sie Fieber?",
+          "qEn": "Positive question.",
+          "options": [
+            "Ja.",
+            "Nein.",
+            "Doch."
+          ],
+          "answer": 1,
+          "why": "The fact contradicts the positive question, so Nein.",
+          "hint": "Nein."
+        },
+        {
+          "kind": "mc",
+          "q": "Fact: he has pain. Haben Sie keine Schmerzen?",
+          "qEn": "Negative question.",
+          "options": [
+            "Ja.",
+            "Nein.",
+            "Doch."
+          ],
+          "answer": 2,
+          "why": "Doch contradicts keine.",
+          "hint": "Doch."
+        },
+        {
+          "kind": "mc",
+          "q": "Make a polite request: come.",
+          "qEn": "Verb first.",
+          "options": [
+            "Könnten Sie bitte kommen?",
+            "Sie könnten bitte kommen?",
+            "Kommen könnten Sie bitte."
+          ],
+          "answer": 0,
+          "why": "The polite verb stands in position 1.",
+          "hint": "Verb first."
+        }
+      ]
+    },
+    {
+      "id": "gap-answer",
+      "label": "Lücken",
+      "title": "Answer from the fact",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The fact is in the English. Each chip is used once.",
+      "chips": [
+        {
+          "w": "Ja, ich habe Schmerzen.",
+          "hint": "Ja."
+        },
+        {
+          "w": "Nein.",
+          "hint": "Nein."
+        },
+        {
+          "w": "Ja, ich liege im Bett.",
+          "hint": "Ja."
+        },
+        {
+          "w": "Nein, der Arzt ist nicht da.",
+          "hint": "Nein."
+        },
+        {
+          "w": "Doch, ich habe eine Allergie.",
+          "hint": "Doch."
+        },
+        {
+          "w": "Könnten Sie bitte kommen?",
+          "hint": "Polite."
+        }
+      ],
+      "items": [
+        {
+          "before": "Fakt: Er hat Schmerzen. Haben Sie Schmerzen?",
+          "after": "",
+          "answer": "Ja, ich habe Schmerzen.",
+          "en": "yes",
+          "why": "Positive question, positive fact.",
+          "tip": "Ja",
+          "hint": "Ja."
+        },
+        {
+          "before": "Fakt: Er hat kein Fieber. Haben Sie Fieber?",
+          "after": "",
+          "answer": "Nein.",
+          "en": "no",
+          "why": "Positive question, negative fact.",
+          "tip": "Nein",
+          "hint": "Nein."
+        },
+        {
+          "before": "Fakt: Er liegt im Bett. Liegen Sie im Bett?",
+          "after": "",
+          "answer": "Ja, ich liege im Bett.",
+          "en": "yes, in bed",
+          "why": "Positive question, positive fact.",
+          "tip": "Ja",
+          "hint": "Ja."
+        },
+        {
+          "before": "Fakt: Der Arzt ist nicht da. Ist der Arzt da?",
+          "after": "",
+          "answer": "Nein, der Arzt ist nicht da.",
+          "en": "not here",
+          "why": "Positive question, negative fact.",
+          "tip": "Nein",
+          "hint": "Nein."
+        },
+        {
+          "before": "Fakt: Er hat eine Allergie. Haben Sie keine Allergie?",
+          "after": "",
+          "answer": "Doch, ich habe eine Allergie.",
+          "en": "contradiction",
+          "why": "Negative question, positive fact.",
+          "tip": "Doch",
+          "hint": "Doch."
+        },
+        {
+          "before": "Bitte höflich: kommen.",
+          "after": "",
+          "answer": "Könnten Sie bitte kommen?",
+          "en": "polite request",
+          "why": "Verb first.",
+          "tip": "Könnten",
+          "hint": "Polite."
+        }
+      ]
+    },
+    {
+      "id": "match-yn",
+      "label": "Match",
+      "title": "Which answer?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Use the fact.",
+      "items": [
+        {
+          "prompt": "Fact: pain. Haben Sie Schmerzen?",
+          "options": [
+            {
+              "emoji": "✅",
+              "label": "Ja.",
+              "caption": "positive question"
+            },
+            {
+              "emoji": "↩️",
+              "label": "Doch.",
+              "caption": "not for a positive question"
+            },
+            {
+              "emoji": "🚫",
+              "label": "Nein.",
+              "caption": "the fact is pain"
+            }
+          ],
+          "answer": 0,
+          "why": "Ja answers the positive question.",
+          "hint": "Ja."
+        },
+        {
+          "prompt": "Fact: no fever. Haben Sie Fieber?",
+          "options": [
+            {
+              "emoji": "🚫",
+              "label": "Nein.",
+              "caption": "he has no fever"
+            },
+            {
+              "emoji": "✅",
+              "label": "Ja.",
+              "caption": "the fact is negative"
+            },
+            {
+              "emoji": "↩️",
+              "label": "Doch.",
+              "caption": "the question is not negative"
+            }
+          ],
+          "answer": 0,
+          "why": "Nein.",
+          "hint": "Nein."
+        },
+        {
+          "prompt": "Fact: pain. Haben Sie keine Schmerzen?",
+          "options": [
+            {
+              "emoji": "↩️",
+              "label": "Doch.",
+              "caption": "contradicts keine"
+            },
+            {
+              "emoji": "✅",
+              "label": "Ja.",
+              "caption": "Ja is unclear here"
+            },
+            {
+              "emoji": "🚫",
+              "label": "Nein.",
+              "caption": "Nein would mean no pain"
+            }
+          ],
+          "answer": 0,
+          "why": "Doch means he does have pain.",
+          "hint": "Doch."
+        },
+        {
+          "prompt": "Polite: please come.",
+          "options": [
+            {
+              "emoji": "🙏",
+              "label": "Könnten Sie bitte kommen?",
+              "caption": "verb first"
+            },
+            {
+              "emoji": "❓",
+              "label": "Sie könnten bitte kommen?",
+              "caption": "verb not first"
+            },
+            {
+              "emoji": "❓",
+              "label": "Bitte Sie kommen könnten?",
+              "caption": "wrong order"
+            }
+          ],
+          "answer": 0,
+          "why": "The verb opens the request.",
+          "hint": "Verb first."
+        }
+      ]
+    },
+    {
+      "id": "picture-yn",
+      "label": "Picture",
+      "title": "Picture the question",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Which yes/no question fits the picture?",
+      "items": [
+        {
+          "id": "pain",
+          "de": "Schmerzen",
+          "article": "die",
+          "plural": "die Schmerzen",
+          "en": "Haben Sie Schmerzen?",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "Pain."
+        },
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "Liegen Sie im Bett?",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Bed."
+        },
+        {
+          "id": "doctor",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "Ist der Arzt da?",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "Doctor."
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "Nehmen Sie die Tablette?",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "Tablet."
+        }
+      ]
+    },
+    {
+      "id": "build-yn",
+      "label": "Build",
+      "title": "Build the question",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "The verb comes first.",
+      "items": [
+        {
+          "tiles": [
+            "Haben",
+            "Sie",
+            "Schmerzen"
+          ],
+          "answers": [
+            "Haben Sie Schmerzen"
+          ],
+          "punct": "?",
+          "modal": "Sie",
+          "inf": "Schmerzen",
+          "question": true,
+          "en": "Do you have pain?",
+          "hint": "Haben first.",
+          "feedback": {
+            "fallback": "Haben first."
+          }
+        },
+        {
+          "tiles": [
+            "Liegen",
+            "Sie",
+            "im",
+            "Bett"
+          ],
+          "answers": [
+            "Liegen Sie im Bett"
+          ],
+          "punct": "?",
+          "modal": "Sie",
+          "inf": "Bett",
+          "question": true,
+          "en": "Are you lying in bed?",
+          "hint": "Liegen first.",
+          "feedback": {
+            "fallback": "Liegen first."
+          }
+        },
+        {
+          "tiles": [
+            "Ist",
+            "der",
+            "Arzt",
+            "da"
+          ],
+          "answers": [
+            "Ist der Arzt da"
+          ],
+          "punct": "?",
+          "modal": "der",
+          "inf": "da",
+          "question": true,
+          "en": "Is the doctor here?",
+          "hint": "Ist first.",
+          "feedback": {
+            "fallback": "Ist first."
+          }
+        },
+        {
+          "tiles": [
+            "Könnten",
+            "Sie",
+            "bitte",
+            "kommen"
+          ],
+          "answers": [
+            "Könnten Sie bitte kommen"
+          ],
+          "punct": "?",
+          "modal": "Sie",
+          "inf": "kommen",
+          "question": true,
+          "en": "Could you please come?",
+          "hint": "Polite, verb first.",
+          "feedback": {
+            "fallback": "Polite, verb first."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-yn",
+      "label": "Umformen",
+      "title": "Turn the statement into a question",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Move the verb to position 1.",
+      "chips": [
+        {
+          "w": "Haben Sie Schmerzen?",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Haben Sie Fieber?",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Liegen Sie im Bett?",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Ist der Arzt da?",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Haben Sie keine Allergie?",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Könnten Sie bitte kommen?",
+          "hint": "Polite."
+        }
+      ],
+      "items": [
+        {
+          "before": "Sie haben Schmerzen.",
+          "after": "",
+          "answer": "Haben Sie Schmerzen?",
+          "en": "pain",
+          "why": "haben moves to the front.",
+          "tip": "Verb",
+          "hint": "Position 1."
+        },
+        {
+          "before": "Sie haben Fieber.",
+          "after": "",
+          "answer": "Haben Sie Fieber?",
+          "en": "fever",
+          "why": "haben moves to the front.",
+          "tip": "Verb",
+          "hint": "Position 1."
+        },
+        {
+          "before": "Sie liegen im Bett.",
+          "after": "",
+          "answer": "Liegen Sie im Bett?",
+          "en": "bed",
+          "why": "liegen moves to the front.",
+          "tip": "Verb",
+          "hint": "Position 1."
+        },
+        {
+          "before": "Der Arzt ist da.",
+          "after": "",
+          "answer": "Ist der Arzt da?",
+          "en": "doctor",
+          "why": "ist moves to the front.",
+          "tip": "Verb",
+          "hint": "Position 1."
+        },
+        {
+          "before": "Sie haben keine Allergie.",
+          "after": "",
+          "answer": "Haben Sie keine Allergie?",
+          "en": "allergy",
+          "why": "The negative stays. The verb moves.",
+          "tip": "Verb",
+          "hint": "Position 1."
+        },
+        {
+          "before": "Sie kommen bitte.",
+          "after": "",
+          "answer": "Könnten Sie bitte kommen?",
+          "en": "polite",
+          "why": "The polite form is still verb-first.",
+          "tip": "Bitte",
+          "hint": "Polite."
+        }
+      ]
+    },
+    {
+      "id": "error-yn",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie haben Schmerzen?"
+          ],
+          "options": [
+            "Haben Sie Schmerzen?",
+            "Haben Schmerzen Sie?",
+            "Sie Schmerzen haben?"
+          ],
+          "answer": 0,
+          "reveal": "The verb opens a yes/no question.",
+          "hint": "Position 1."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Haben Sie Schmerzen? — Doch. Fakt: er hat Schmerzen."
+          ],
+          "options": [
+            "Haben Sie Schmerzen? — Ja.",
+            "Haben Sie Schmerzen? — Nein.",
+            "Haben Sie Schmerzen? — Doch, nein."
+          ],
+          "answer": 0,
+          "reveal": "A positive question takes Ja, not Doch.",
+          "hint": "Ja."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Haben Sie keine Schmerzen? — Ja. Fakt: er hat Schmerzen."
+          ],
+          "options": [
+            "Haben Sie keine Schmerzen? — Doch.",
+            "Haben Sie keine Schmerzen? — Nein.",
+            "Haben Sie keine Schmerzen? — Ja, keine."
+          ],
+          "answer": 0,
+          "reveal": "Doch contradicts keine.",
+          "hint": "Doch."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie könnten bitte kommen?"
+          ],
+          "options": [
+            "Könnten Sie bitte kommen?",
+            "Bitte könnten kommen Sie?",
+            "Kommen Sie könnten bitte?"
+          ],
+          "answer": 0,
+          "reveal": "Könnten stands in position 1.",
+          "hint": "Verb first."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-yn",
+      "label": "Dialog",
+      "title": "Before the examination",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "Haben Sie Schmerzen?",
+          "hint": "Question."
+        },
+        {
+          "w": "Ja, ich habe Schmerzen.",
+          "hint": "Ja."
+        },
+        {
+          "w": "Haben Sie Fieber?",
+          "hint": "Question."
+        },
+        {
+          "w": "Nein.",
+          "hint": "Nein."
+        },
+        {
+          "w": "Haben Sie keine Allergie?",
+          "hint": "Negative."
+        },
+        {
+          "w": "Doch, ich habe eine Allergie.",
+          "hint": "Doch."
+        }
+      ],
+      "items": [
+        {
+          "before": "Pflegekraft, Schmerzen:",
+          "after": "",
+          "answer": "Haben Sie Schmerzen?",
+          "en": "ask about pain",
+          "why": "Verb first.",
+          "tip": "Haben",
+          "hint": "Question.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Patient, Fakt Schmerzen:",
+          "after": "",
+          "answer": "Ja, ich habe Schmerzen.",
+          "en": "he has pain",
+          "why": "Positive answer.",
+          "tip": "Ja",
+          "hint": "Ja.",
+          "who": "Patient"
+        },
+        {
+          "before": "Pflegekraft, Fieber:",
+          "after": "",
+          "answer": "Haben Sie Fieber?",
+          "en": "ask about fever",
+          "why": "Verb first.",
+          "tip": "Haben",
+          "hint": "Question.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Patient, Fakt kein Fieber:",
+          "after": "",
+          "answer": "Nein.",
+          "en": "no fever",
+          "why": "Nein.",
+          "tip": "Nein",
+          "hint": "Nein.",
+          "who": "Patient"
+        },
+        {
+          "before": "Pflegekraft, Fakt Allergie:",
+          "after": "",
+          "answer": "Haben Sie keine Allergie?",
+          "en": "negative question",
+          "why": "keine stays in the question.",
+          "tip": "keine",
+          "hint": "Negative.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Patient, Fakt Allergie:",
+          "after": "",
+          "answer": "Doch, ich habe eine Allergie.",
+          "en": "he does have one",
+          "why": "Doch.",
+          "tip": "Doch",
+          "hint": "Doch.",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-yn",
+      "label": "Lücken",
+      "title": "One word",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Ja, Nein and Doch appear once each. The other chips are questions.",
+      "chips": [
+        {
+          "w": "Ja.",
+          "hint": "Ja."
+        },
+        {
+          "w": "Nein.",
+          "hint": "Nein."
+        },
+        {
+          "w": "Doch.",
+          "hint": "Doch."
+        },
+        {
+          "w": "Ist",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Liegen",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Kommt",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Haben",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Könnten",
+          "hint": "Polite."
+        }
+      ],
+      "items": [
+        {
+          "before": "Fakt: Schmerzen. Haben Sie Schmerzen?",
+          "after": "",
+          "answer": "Ja.",
+          "en": "yes",
+          "why": "Positive question.",
+          "tip": "Ja",
+          "hint": "Ja."
+        },
+        {
+          "before": "Fakt: kein Fieber. Haben Sie Fieber?",
+          "after": "",
+          "answer": "Nein.",
+          "en": "no",
+          "why": "Positive question, negative fact.",
+          "tip": "Nein",
+          "hint": "Nein."
+        },
+        {
+          "before": "Fakt: Schmerzen. Haben Sie keine Schmerzen?",
+          "after": "",
+          "answer": "Doch.",
+          "en": "contradiction",
+          "why": "Negative question.",
+          "tip": "Doch",
+          "hint": "Doch."
+        },
+        {
+          "before": "",
+          "after": "der Arzt da?",
+          "answer": "Ist",
+          "en": "is the doctor here",
+          "why": "ist opens the question.",
+          "tip": "Verb",
+          "hint": "Position 1."
+        },
+        {
+          "before": "",
+          "after": "Sie im Bett?",
+          "answer": "Liegen",
+          "en": "are you in bed",
+          "why": "liegen opens the question.",
+          "tip": "Verb",
+          "hint": "Position 1."
+        },
+        {
+          "before": "",
+          "after": "der Arzt heute?",
+          "answer": "Kommt",
+          "en": "is the doctor coming",
+          "why": "kommt opens the question.",
+          "tip": "Verb",
+          "hint": "Position 1."
+        },
+        {
+          "before": "",
+          "after": "Sie die Akte?",
+          "answer": "Haben",
+          "en": "do you have the chart",
+          "why": "haben opens the question.",
+          "tip": "Verb",
+          "hint": "Position 1."
+        },
+        {
+          "before": "",
+          "after": "Sie bitte bleiben?",
+          "answer": "Könnten",
+          "en": "please stay",
+          "why": "Polite verb first.",
+          "tip": "Bitte",
+          "hint": "Polite."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Haben Sie Schmerzen?",
+        "paragraphs": [
+          "Haben Sie Schmerzen? Ja, ich habe Schmerzen. Haben Sie Fieber? Nein. Liegen Sie im Bett? Ja, ich liege im Bett. Ist der Arzt da? Nein, der Arzt ist nicht da. Haben Sie keine Allergie? Doch, ich habe eine Allergie. Könnten Sie bitte kommen?"
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Hat der Patient Schmerzen?",
+          "qEn": "The answer in the note.",
+          "options": [
+            "Ja.",
+            "Nein.",
+            "Doch."
+          ],
+          "answer": 0,
+          "why": "He says Ja, ich habe Schmerzen.",
+          "hint": "Ja."
+        },
+        {
+          "kind": "mc",
+          "q": "Hat er Fieber?",
+          "qEn": "The short answer.",
+          "options": [
+            "Ja.",
+            "Nein.",
+            "Doch."
+          ],
+          "answer": 1,
+          "why": "The note answers Haben Sie Fieber? with Nein.",
+          "hint": "Nein."
+        },
+        {
+          "kind": "mc",
+          "q": "Warum steht Doch im Text?",
+          "qEn": "The negative question.",
+          "options": [
+            "Er hat keine Allergie.",
+            "Er hat kein Fieber.",
+            "Er hat eine Allergie."
+          ],
+          "answer": 2,
+          "why": "Doch contradicts keine Allergie.",
+          "hint": "Allergy."
+        },
+        {
+          "kind": "mc",
+          "q": "Wie ist die Bitte?",
+          "qEn": "Polite.",
+          "options": [
+            "Könnten Sie bitte kommen?",
+            "Sie könnten bitte kommen?",
+            "Kommen Sie könnten?"
+          ],
+          "answer": 0,
+          "why": "Verb first.",
+          "hint": "Könnten."
+        }
+      ]
+    },
+    {
+      "id": "writing-yn",
+      "label": "Writing",
+      "title": "Write the questions",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four lines: two questions and two answers.",
+      "prompt": "Ask about pain and about an allergy. Answer Ja to the pain, and Doch to keine Allergie.",
+      "bullets": [
+        "Haben Sie Schmerzen",
+        "Ja",
+        "keine Allergie",
+        "Doch"
+      ],
+      "model": "Haben Sie Schmerzen? Ja, ich habe Schmerzen. Haben Sie keine Allergie? Doch, ich habe eine Allergie.",
+      "modelEn": "Do you have pain? Yes, I have pain. Do you have no allergy? Yes I do, I have an allergy.",
+      "hint": "Doch only after the negative question.",
+      "checklist": [
+        {
+          "id": "pain",
+          "label": "A question about pain",
+          "keywords": [
+            "Haben Sie Schmerzen"
+          ]
+        },
+        {
+          "id": "ja",
+          "label": "Ja",
+          "keywords": [
+            "Ja"
+          ]
+        },
+        {
+          "id": "neg",
+          "label": "A negative allergy question",
+          "keywords": [
+            "keine Allergie"
+          ]
+        },
+        {
+          "id": "doch",
+          "label": "Doch",
+          "keywords": [
+            "Doch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 10. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Statement: Sie haben Schmerzen. The question is…",
+          "qEn": "Verb first.",
+          "options": [
+            "Haben Sie Schmerzen?",
+            "Sie haben Schmerzen?",
+            "Haben Schmerzen Sie?"
+          ],
+          "answer": 0,
+          "why": "The verb opens the question.",
+          "hint": "Position 1."
+        },
+        {
+          "kind": "mc",
+          "q": "Fact: pain. Haben Sie Schmerzen?",
+          "qEn": "Positive.",
+          "options": [
+            "Doch.",
+            "Ja.",
+            "Nein."
+          ],
+          "answer": 1,
+          "why": "Ja, not Doch.",
+          "hint": "Ja."
+        },
+        {
+          "kind": "mc",
+          "q": "Fact: no fever. Haben Sie Fieber?",
+          "qEn": "Positive.",
+          "options": [
+            "Ja.",
+            "Doch.",
+            "Nein."
+          ],
+          "answer": 2,
+          "why": "Nein.",
+          "hint": "Nein."
+        },
+        {
+          "kind": "mc",
+          "q": "Fact: pain. Haben Sie keine Schmerzen?",
+          "qEn": "Negative.",
+          "options": [
+            "Doch.",
+            "Ja.",
+            "Nein."
+          ],
+          "answer": 0,
+          "why": "Doch contradicts keine.",
+          "hint": "Doch."
+        },
+        {
+          "kind": "mc",
+          "q": "Fact: no allergy. Haben Sie keine Allergie?",
+          "qEn": "Agrees with the negative.",
+          "options": [
+            "Doch.",
+            "Nein.",
+            "Ja."
+          ],
+          "answer": 1,
+          "why": "Nein agrees: he has no allergy.",
+          "hint": "Nein."
+        },
+        {
+          "kind": "mc",
+          "q": "Fact: he is in bed. Liegen Sie im Bett?",
+          "qEn": "Positive.",
+          "options": [
+            "Nein.",
+            "Doch.",
+            "Ja."
+          ],
+          "answer": 2,
+          "why": "Ja.",
+          "hint": "Ja."
+        },
+        {
+          "kind": "mc",
+          "q": "Fact: the doctor is away. Ist der Arzt da?",
+          "qEn": "Positive.",
+          "options": [
+            "Nein.",
+            "Ja.",
+            "Doch."
+          ],
+          "answer": 0,
+          "why": "Nein.",
+          "hint": "Nein."
+        },
+        {
+          "kind": "mc",
+          "q": "Polite: please come.",
+          "qEn": "Request.",
+          "options": [
+            "Sie könnten bitte kommen?",
+            "Könnten Sie bitte kommen?",
+            "Bitte Sie kommen könnten?"
+          ],
+          "answer": 1,
+          "why": "Verb first.",
+          "hint": "Könnten."
+        },
+        {
+          "kind": "mc",
+          "q": "Where is the verb in a yes/no question?",
+          "qEn": "Position.",
+          "options": [
+            "position 2",
+            "at the end",
+            "position 1"
+          ],
+          "answer": 2,
+          "why": "The verb moves from position 2 to position 1.",
+          "hint": "Position 1."
+        },
+        {
+          "kind": "mc",
+          "q": "Sie liegen im Bett. As a question.",
+          "qEn": "Move liegen.",
+          "options": [
+            "Liegen Sie im Bett?",
+            "Sie liegen im Bett?",
+            "Liegen im Bett Sie?"
+          ],
+          "answer": 0,
+          "why": "liegen opens it.",
+          "hint": "Position 1."
+        },
+        {
+          "kind": "mc",
+          "q": "Der Arzt ist da. As a question.",
+          "qEn": "Move ist.",
+          "options": [
+            "Da ist der Arzt?",
+            "Ist der Arzt da?",
+            "Der ist Arzt da?"
+          ],
+          "answer": 1,
+          "why": "ist opens it.",
+          "hint": "Position 1."
+        },
+        {
+          "kind": "mc",
+          "q": "Doch means…",
+          "qEn": "Function.",
+          "options": [
+            "a polite please",
+            "the same as Nein",
+            "the negative question is wrong"
+          ],
+          "answer": 2,
+          "why": "Doch contradicts a negative question.",
+          "hint": "Contradiction."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Verb zuerst, dann Ja, Nein oder Doch",
+      "redemittel": [
+        {
+          "de": "Haben Sie Schmerzen?",
+          "en": "Do you have pain?"
+        },
+        {
+          "de": "Ja, ich habe Schmerzen.",
+          "en": "Yes, I have pain."
+        },
+        {
+          "de": "Nein.",
+          "en": "No."
+        },
+        {
+          "de": "Doch, ich habe eine Allergie.",
+          "en": "Yes I do — I have an allergy."
+        },
+        {
+          "de": "Könnten Sie bitte kommen?",
+          "en": "Could you please come?"
+        }
+      ]
+    }
+  ]
+}

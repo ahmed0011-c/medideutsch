@@ -1,0 +1,1615 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "masculine accusative or plural dative"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "dative masculine or neuter"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "geht": {
+      "de": "gehen → geht",
+      "pos": "verb",
+      "en": "goes"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative)",
+      "article": "die",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "emoji": "🛏️"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "article": "der",
+      "plural": "die Tische",
+      "emoji": "🪑"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "medikament": {
+      "de": "Medikament",
+      "pos": "noun",
+      "en": "medication",
+      "article": "das",
+      "plural": "die Medikamente",
+      "emoji": "💊"
+    },
+    "für": {
+      "de": "für",
+      "pos": "preposition",
+      "en": "for"
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "around"
+    },
+    "durch": {
+      "de": "durch",
+      "pos": "preposition",
+      "en": "through"
+    },
+    "ohne": {
+      "de": "ohne",
+      "pos": "preposition",
+      "en": "without"
+    },
+    "gegen": {
+      "de": "gegen",
+      "pos": "preposition",
+      "en": "against"
+    },
+    "flur": {
+      "de": "Flur",
+      "pos": "noun",
+      "en": "corridor",
+      "article": "der",
+      "plural": "die Flure",
+      "emoji": "🚶"
+    },
+    "impfpass": {
+      "de": "Impfpass",
+      "pos": "noun",
+      "en": "vaccination card",
+      "article": "der",
+      "plural": "die Impfpässe",
+      "emoji": "📘"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "article": "die",
+      "plural": "die Tabletten",
+      "emoji": "💊"
+    },
+    "hilft": {
+      "de": "helfen → hilft",
+      "pos": "verb",
+      "en": "helps"
+    },
+    "schmerzen": {
+      "de": "Schmerzen",
+      "pos": "noun",
+      "en": "pain",
+      "article": "die",
+      "plural": "die Schmerzen",
+      "emoji": "🤕"
+    },
+    "pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "article": "das",
+      "plural": "die Pflaster",
+      "emoji": "🩹"
+    },
+    "bein": {
+      "de": "Bein",
+      "pos": "noun",
+      "en": "leg",
+      "article": "das",
+      "plural": "die Beine",
+      "emoji": "🦵"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "plural": "Wasser",
+      "emoji": "💧"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not"
+    },
+    "wen": {
+      "de": "wen",
+      "pos": "question",
+      "en": "whom"
+    }
+  },
+  "id": "a1-32-akkusativpraep",
+  "level": "A1",
+  "unit": "Kapitel 32",
+  "chapter": 32,
+  "chapters": [
+    32
+  ],
+  "title": "Für, um, durch, ohne, gegen",
+  "subtitle": "Accusative prepositions, FUDOG",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "für, um, durch, ohne and gegen always take the accusative. The mnemonic is FUDOG.",
+        "Only a masculine noun changes: für den Patienten, durch den Flur, ohne den Impfpass.",
+        "Feminine and neuter keep die and das: gegen die Schmerzen, für das Bein, um das Bett.",
+        "ohne often has no article with a mass noun: ohne Wasser. um here means around, not the clock."
+      ],
+      "vocab": [
+        {
+          "de": "Medikament",
+          "article": "das",
+          "plural": "die Medikamente",
+          "en": "medication",
+          "emoji": "💊",
+          "glossaryKey": "medikament"
+        },
+        {
+          "de": "Patienten",
+          "article": "die",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patienten"
+        },
+        {
+          "de": "Flur",
+          "article": "der",
+          "plural": "die Flure",
+          "en": "corridor",
+          "emoji": "🚶",
+          "glossaryKey": "flur"
+        },
+        {
+          "de": "Impfpass",
+          "article": "der",
+          "plural": "die Impfpässe",
+          "en": "vaccination card",
+          "emoji": "📘",
+          "glossaryKey": "impfpass"
+        },
+        {
+          "de": "Schmerzen",
+          "article": "die",
+          "plural": "die Schmerzen",
+          "en": "pain",
+          "emoji": "🤕",
+          "glossaryKey": "schmerzen"
+        },
+        {
+          "de": "Bein",
+          "article": "das",
+          "plural": "die Beine",
+          "en": "leg",
+          "emoji": "🦵",
+          "glossaryKey": "bein"
+        }
+      ],
+      "text": {
+        "title": "Für den Patienten",
+        "de": "Das Medikament ist für den Patienten. Die Pflegekraft geht um das Bett. Der Arzt geht durch den Flur. Der Patient kommt ohne den Impfpass. Die Tablette hilft gegen die Schmerzen. Das Pflaster ist für das Bein. Ohne Wasser geht es nicht. Für wen ist die Akte?",
+        "en": "The medication is for the patient. The nurse walks around the bed. The doctor walks through the corridor. The patient comes without the vaccination card. The tablet helps against the pain. The plaster is for the leg. It does not work without water. Who is the chart for?"
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "FUDOG",
+      "practice": "choose",
+      "heroTitle": "Five prepositions, always accusative",
+      "heroImage": "tablet",
+      "story": [
+        "<b>F</b>ür, <b>U</b>m, <b>D</b>urch, <b>O</b>hne, <b>G</b>egen. The same five in another order are DOGFU. Every one takes the accusative.",
+        "der → den: für <b>den</b> Patienten. die and das stay: gegen <b>die</b> Schmerzen, um <b>das</b> Bett.",
+        "<b>um</b> in this chapter means around. The clock um acht belongs to the time chapter."
+      ],
+      "questionRule": "Name FUDOG, then use den for a masculine noun. Leave die and das as they are.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "für",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "für",
+              "r": "subj"
+            },
+            {
+              "t": "den",
+              "r": "verb"
+            },
+            {
+              "t": "Patienten",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Masculine accusative.",
+          "enAfter": "für den Patienten",
+          "callLabel": "Show für"
+        },
+        {
+          "before": [
+            {
+              "t": "durch",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "durch",
+              "r": "subj"
+            },
+            {
+              "t": "den",
+              "r": "verb"
+            },
+            {
+              "t": "Flur",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Masculine accusative.",
+          "enAfter": "durch den Flur",
+          "callLabel": "Show durch"
+        },
+        {
+          "before": [
+            {
+              "t": "gegen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "gegen",
+              "r": "subj"
+            },
+            {
+              "t": "die",
+              "r": "verb"
+            },
+            {
+              "t": "Schmerzen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Plural stays die.",
+          "enAfter": "gegen die Schmerzen",
+          "callLabel": "Show gegen"
+        }
+      ],
+      "tables": [
+        {
+          "title": "FUDOG",
+          "caption": "den is the only article that changes.",
+          "columns": [
+            "Präposition",
+            "Maskulin",
+            "Feminin / Neutrum"
+          ],
+          "rows": [
+            {
+              "label": "für",
+              "cells": [
+                "für",
+                "für den Patienten",
+                "für das Bein"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "um",
+              "cells": [
+                "um",
+                "um den Tisch",
+                "um das Bett"
+              ]
+            },
+            {
+              "label": "durch",
+              "cells": [
+                "durch",
+                "durch den Flur",
+                "durch die Tür"
+              ]
+            },
+            {
+              "label": "ohne",
+              "cells": [
+                "ohne",
+                "ohne den Impfpass",
+                "ohne Wasser"
+              ]
+            },
+            {
+              "label": "gegen",
+              "cells": [
+                "gegen",
+                "gegen den Schmerz",
+                "gegen die Schmerzen"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "den, not dem",
+        "items": [
+          {
+            "de": "für den Patienten",
+            "en": "Accusative.",
+            "tone": "ok"
+          },
+          {
+            "de": "für dem Patienten",
+            "en": "für never takes the dative.",
+            "tone": "stop"
+          },
+          {
+            "de": "durch den Flur",
+            "en": "Accusative.",
+            "tone": "ok"
+          },
+          {
+            "de": "um das Bett",
+            "en": "Around the bed. das stays.",
+            "tone": "ok"
+          },
+          {
+            "de": "ohne Wasser",
+            "en": "No article with the mass noun.",
+            "tone": "ok"
+          },
+          {
+            "de": "gegen die Schmerzen",
+            "en": "die stays.",
+            "tone": "ok"
+          }
+        ],
+        "tip": "FUDOG = für, um, durch, ohne, gegen. Masculine accusative is den."
+      },
+      "tips": [
+        {
+          "title": "FUDOG",
+          "emoji": "🐕",
+          "mnemonic": "für um durch ohne gegen",
+          "body": "If the preposition is one of these five, do not reach for dem. Reach for den when the noun is masculine.",
+          "examples": [
+            {
+              "de": "Die Tablette hilft gegen die Schmerzen.",
+              "en": "die stays"
+            },
+            {
+              "de": "Ohne Wasser geht es nicht.",
+              "en": "no article"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which article?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The medication is for the patient.",
+          "qEn": "für.",
+          "options": [
+            "für den Patienten",
+            "für dem Patienten",
+            "für der Patienten"
+          ],
+          "answer": 0,
+          "why": "für takes den.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "Through the corridor.",
+          "qEn": "durch.",
+          "options": [
+            "durch dem Flur",
+            "durch den Flur",
+            "durch der Flur"
+          ],
+          "answer": 1,
+          "why": "durch takes den.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "Around the bed.",
+          "qEn": "um.",
+          "options": [
+            "um dem Bett",
+            "um den Bett",
+            "um das Bett"
+          ],
+          "answer": 2,
+          "why": "Bett is neuter, so das.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "Against the pain.",
+          "qEn": "gegen.",
+          "options": [
+            "gegen die Schmerzen",
+            "gegen den Schmerzen",
+            "gegen der Schmerzen"
+          ],
+          "answer": 0,
+          "why": "Plural die stays.",
+          "hint": "die."
+        }
+      ]
+    },
+    {
+      "id": "gap-fudog",
+      "label": "Lücken",
+      "title": "The preposition",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is one of FUDOG and fits only one sentence.",
+      "chips": [
+        {
+          "w": "für",
+          "hint": "für."
+        },
+        {
+          "w": "um",
+          "hint": "um."
+        },
+        {
+          "w": "durch",
+          "hint": "durch."
+        },
+        {
+          "w": "ohne",
+          "hint": "ohne."
+        },
+        {
+          "w": "gegen",
+          "hint": "gegen."
+        },
+        {
+          "w": "wen",
+          "hint": "wen."
+        }
+      ],
+      "items": [
+        {
+          "before": "Zweck für ihn, nicht das Fehlen: Das Medikament ist",
+          "after": "den Patienten, nicht gegen ihn.",
+          "answer": "für",
+          "en": "for",
+          "why": "für.",
+          "tip": "für",
+          "hint": "für."
+        },
+        {
+          "before": "Sie läuft im Kreis",
+          "after": "das Bett.",
+          "answer": "um",
+          "en": "around",
+          "why": "um.",
+          "tip": "um",
+          "hint": "um."
+        },
+        {
+          "before": "Nicht im Kreis. Von Zimmer 1 nach Zimmer 8 geht er",
+          "after": "den Flur.",
+          "answer": "durch",
+          "en": "through",
+          "why": "durch.",
+          "tip": "durch",
+          "hint": "durch."
+        },
+        {
+          "before": "Er hat ihn nicht dabei. Er kommt",
+          "after": "den Impfpass.",
+          "answer": "ohne",
+          "en": "without",
+          "why": "ohne.",
+          "tip": "ohne",
+          "hint": "ohne."
+        },
+        {
+          "before": "Die Tablette hilft",
+          "after": "die Schmerzen.",
+          "answer": "gegen",
+          "en": "against",
+          "why": "gegen.",
+          "tip": "gegen",
+          "hint": "gegen."
+        },
+        {
+          "before": "Die Akte ist für",
+          "after": "?",
+          "answer": "wen",
+          "en": "for whom",
+          "why": "wen.",
+          "tip": "wen",
+          "hint": "wen."
+        }
+      ]
+    },
+    {
+      "id": "match-fudog",
+      "label": "Match",
+      "title": "Which FUDOG word?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the phrase.",
+      "items": [
+        {
+          "prompt": "For the patient.",
+          "options": [
+            {
+              "emoji": "💊",
+              "label": "für den Patienten",
+              "caption": "den"
+            },
+            {
+              "emoji": "❌",
+              "label": "für dem Patienten",
+              "caption": "not dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "für der Patienten",
+              "caption": "not nominative"
+            }
+          ],
+          "answer": 0,
+          "why": "den.",
+          "hint": "für."
+        },
+        {
+          "prompt": "Through the corridor.",
+          "options": [
+            {
+              "emoji": "🚶",
+              "label": "durch den Flur",
+              "caption": "den"
+            },
+            {
+              "emoji": "❌",
+              "label": "durch dem Flur",
+              "caption": "not dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "durch das Flur",
+              "caption": "not neuter"
+            }
+          ],
+          "answer": 0,
+          "why": "den.",
+          "hint": "durch."
+        },
+        {
+          "prompt": "Around the bed.",
+          "options": [
+            {
+              "emoji": "🛏️",
+              "label": "um das Bett",
+              "caption": "das"
+            },
+            {
+              "emoji": "❌",
+              "label": "um dem Bett",
+              "caption": "not dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "um den Bett",
+              "caption": "Bett is not masculine"
+            }
+          ],
+          "answer": 0,
+          "why": "das.",
+          "hint": "um."
+        },
+        {
+          "prompt": "Without water.",
+          "options": [
+            {
+              "emoji": "💧",
+              "label": "ohne Wasser",
+              "caption": "no article"
+            },
+            {
+              "emoji": "❌",
+              "label": "ohne dem Wasser",
+              "caption": "not dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "ohne den Wasser",
+              "caption": "Wasser is not masculine here"
+            }
+          ],
+          "answer": 0,
+          "why": "No article.",
+          "hint": "ohne."
+        }
+      ]
+    },
+    {
+      "id": "picture-fudog",
+      "label": "Picture",
+      "title": "Picture FUDOG",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "The preposition takes the accusative.",
+      "items": [
+        {
+          "id": "meds",
+          "de": "Medikament",
+          "article": "das",
+          "plural": "die Medikamente",
+          "en": "für den Patienten",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "für"
+        },
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "um das Bett",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "um"
+        },
+        {
+          "id": "pain",
+          "de": "Schmerzen",
+          "article": "die",
+          "plural": "die Schmerzen",
+          "en": "gegen die Schmerzen",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "gegen"
+        },
+        {
+          "id": "card",
+          "de": "Impfpass",
+          "article": "der",
+          "plural": "die Impfpässe",
+          "en": "ohne den Impfpass",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "ohne"
+        }
+      ]
+    },
+    {
+      "id": "build-fudog",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "den for a masculine noun.",
+      "items": [
+        {
+          "tiles": [
+            "Das",
+            "Medikament",
+            "ist",
+            "für",
+            "ihn"
+          ],
+          "answers": [
+            "Das Medikament ist für ihn"
+          ],
+          "punct": ".",
+          "modal": "Medikament",
+          "inf": "ihn",
+          "question": false,
+          "en": "The medication is for him.",
+          "hint": "für.",
+          "feedback": {
+            "fallback": "für."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "geht",
+            "um",
+            "das",
+            "Bett"
+          ],
+          "answers": [
+            "Sie geht um das Bett"
+          ],
+          "punct": ".",
+          "modal": "geht",
+          "inf": "Bett",
+          "question": false,
+          "en": "She walks around the bed.",
+          "hint": "um.",
+          "feedback": {
+            "fallback": "um."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "geht",
+            "durch",
+            "den",
+            "Flur"
+          ],
+          "answers": [
+            "Er geht durch den Flur"
+          ],
+          "punct": ".",
+          "modal": "geht",
+          "inf": "Flur",
+          "question": false,
+          "en": "He walks through the corridor.",
+          "hint": "durch.",
+          "feedback": {
+            "fallback": "durch."
+          }
+        },
+        {
+          "tiles": [
+            "Ohne",
+            "Wasser",
+            "geht",
+            "es",
+            "nicht"
+          ],
+          "answers": [
+            "Ohne Wasser geht es nicht"
+          ],
+          "punct": ".",
+          "modal": "Wasser",
+          "inf": "nicht",
+          "question": false,
+          "en": "It does not work without water.",
+          "hint": "ohne.",
+          "feedback": {
+            "fallback": "ohne."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-fudog",
+      "label": "Umformen",
+      "title": "Add den, die or das",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the phrase.",
+      "chips": [
+        {
+          "w": "für den Patienten",
+          "hint": "den."
+        },
+        {
+          "w": "durch den Flur",
+          "hint": "den."
+        },
+        {
+          "w": "um das Bett",
+          "hint": "das."
+        },
+        {
+          "w": "gegen die Schmerzen",
+          "hint": "die."
+        },
+        {
+          "w": "für das Bein",
+          "hint": "das."
+        },
+        {
+          "w": "ohne den Impfpass",
+          "hint": "den."
+        }
+      ],
+      "items": [
+        {
+          "before": "für + Patient →",
+          "after": "",
+          "answer": "für den Patienten",
+          "en": "masculine",
+          "why": "den.",
+          "tip": "den",
+          "hint": "den."
+        },
+        {
+          "before": "durch + Flur →",
+          "after": "",
+          "answer": "durch den Flur",
+          "en": "masculine",
+          "why": "den.",
+          "tip": "den",
+          "hint": "den."
+        },
+        {
+          "before": "um + Bett →",
+          "after": "",
+          "answer": "um das Bett",
+          "en": "neuter",
+          "why": "das.",
+          "tip": "das",
+          "hint": "das."
+        },
+        {
+          "before": "gegen + Schmerzen →",
+          "after": "",
+          "answer": "gegen die Schmerzen",
+          "en": "plural",
+          "why": "die.",
+          "tip": "die",
+          "hint": "die."
+        },
+        {
+          "before": "für + Bein →",
+          "after": "",
+          "answer": "für das Bein",
+          "en": "neuter",
+          "why": "das.",
+          "tip": "das",
+          "hint": "das."
+        },
+        {
+          "before": "ohne + Impfpass →",
+          "after": "",
+          "answer": "ohne den Impfpass",
+          "en": "masculine",
+          "why": "den.",
+          "tip": "den",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "error-fudog",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Das Medikament ist für dem Patienten."
+          ],
+          "options": [
+            "Das Medikament ist für den Patienten.",
+            "Das Medikament ist für der Patienten.",
+            "Das Medikament ist für dem Patient."
+          ],
+          "answer": 0,
+          "reveal": "für takes den.",
+          "hint": "den."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er geht durch dem Flur."
+          ],
+          "options": [
+            "Er geht durch den Flur.",
+            "Er geht durch der Flur.",
+            "Er geht durch das Flur."
+          ],
+          "answer": 0,
+          "reveal": "durch takes den.",
+          "hint": "den."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie geht um dem Bett."
+          ],
+          "options": [
+            "Sie geht um das Bett.",
+            "Sie geht um den Bett.",
+            "Sie geht um der Bett."
+          ],
+          "answer": 0,
+          "reveal": "Bett is neuter.",
+          "hint": "das."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Tablette hilft gegen den Schmerzen."
+          ],
+          "options": [
+            "Die Tablette hilft gegen die Schmerzen.",
+            "Die Tablette hilft gegen der Schmerzen.",
+            "Die Tablette hilft gegen dem Schmerzen."
+          ],
+          "answer": 0,
+          "reveal": "Plural die stays.",
+          "hint": "die."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-fudog",
+      "label": "Dialog",
+      "title": "At the desk",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip fits only one line.",
+      "chips": [
+        {
+          "w": "für den Patienten",
+          "hint": "für."
+        },
+        {
+          "w": "um das Bett",
+          "hint": "um."
+        },
+        {
+          "w": "durch den Flur",
+          "hint": "durch."
+        },
+        {
+          "w": "ohne den Impfpass",
+          "hint": "ohne."
+        },
+        {
+          "w": "gegen die Schmerzen",
+          "hint": "gegen."
+        },
+        {
+          "w": "für das Bein",
+          "hint": "für."
+        }
+      ],
+      "items": [
+        {
+          "before": "Nur für ihn. Das Medikament ist",
+          "after": ".",
+          "answer": "für den Patienten",
+          "en": "for him",
+          "why": "den.",
+          "tip": "den",
+          "hint": "für.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Im Kreis, bitte. Gehen Sie",
+          "after": ".",
+          "answer": "um das Bett",
+          "en": "around",
+          "why": "das.",
+          "tip": "das",
+          "hint": "um.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Von Zimmer 1 nach Zimmer 8. Der Arzt geht",
+          "after": ".",
+          "answer": "durch den Flur",
+          "en": "through",
+          "why": "den.",
+          "tip": "den",
+          "hint": "durch.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Die Karte fehlt. Er kommt",
+          "after": ".",
+          "answer": "ohne den Impfpass",
+          "en": "without",
+          "why": "den.",
+          "tip": "den",
+          "hint": "ohne.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Nicht für den Husten. Die Tablette hilft",
+          "after": ".",
+          "answer": "gegen die Schmerzen",
+          "en": "against",
+          "why": "die.",
+          "tip": "die",
+          "hint": "gegen.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Nicht für den Arm. Das Pflaster ist",
+          "after": ".",
+          "answer": "für das Bein",
+          "en": "for the leg",
+          "why": "das.",
+          "tip": "das",
+          "hint": "für.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-fudog",
+      "label": "Lücken",
+      "title": "den, die or das",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Bekannt takes den, die or das. Unbekannt takes einen, eine or ein. Each chip fits only one sentence.",
+      "chips": [
+        {
+          "w": "den",
+          "hint": "den."
+        },
+        {
+          "w": "das",
+          "hint": "das."
+        },
+        {
+          "w": "die",
+          "hint": "die."
+        },
+        {
+          "w": "einen",
+          "hint": "einen."
+        },
+        {
+          "w": "eine",
+          "hint": "eine."
+        },
+        {
+          "w": "ein",
+          "hint": "ein."
+        },
+        {
+          "w": "durch den Flur",
+          "hint": "durch den Flur."
+        },
+        {
+          "w": "für das Bein",
+          "hint": "für das Bein."
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Arzt ist bekannt. Das Medikament ist für",
+          "after": "Arzt.",
+          "answer": "den",
+          "en": "known masculine",
+          "why": "den.",
+          "tip": "den",
+          "hint": "den."
+        },
+        {
+          "before": "Das Bett ist bekannt. Sie geht um",
+          "after": "Bett.",
+          "answer": "das",
+          "en": "known neuter",
+          "why": "das.",
+          "tip": "das",
+          "hint": "das."
+        },
+        {
+          "before": "Die Schmerzen sind bekannt. Die Tablette hilft gegen",
+          "after": "Schmerzen.",
+          "answer": "die",
+          "en": "known plural",
+          "why": "die.",
+          "tip": "die",
+          "hint": "die."
+        },
+        {
+          "before": "Der Impfpass ist unbekannt. Er kommt ohne",
+          "after": "Impfpass.",
+          "answer": "einen",
+          "en": "unknown masculine",
+          "why": "einen.",
+          "tip": "einen",
+          "hint": "einen."
+        },
+        {
+          "before": "Die Patientin ist unbekannt. Das Wasser ist für",
+          "after": "Patientin.",
+          "answer": "eine",
+          "en": "unknown feminine",
+          "why": "eine.",
+          "tip": "eine",
+          "hint": "eine."
+        },
+        {
+          "before": "Das Symptom ist unbekannt. Die Tablette hilft gegen",
+          "after": "Symptom.",
+          "answer": "ein",
+          "en": "unknown neuter",
+          "why": "ein.",
+          "tip": "ein",
+          "hint": "ein."
+        },
+        {
+          "before": "Der Weg ist lang. Er geht",
+          "after": ".",
+          "answer": "durch den Flur",
+          "en": "through the corridor",
+          "why": "den.",
+          "tip": "den",
+          "hint": "durch den Flur."
+        },
+        {
+          "before": "Das Pflaster ist klein. Es ist",
+          "after": ".",
+          "answer": "für das Bein",
+          "en": "for the leg",
+          "why": "das.",
+          "tip": "das",
+          "hint": "für das Bein."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Für den Patienten",
+        "paragraphs": [
+          "Das Medikament ist für den Patienten. Die Pflegekraft geht um das Bett. Der Arzt geht durch den Flur. Der Patient kommt ohne den Impfpass. Die Tablette hilft gegen die Schmerzen. Das Pflaster ist für das Bein. Ohne Wasser geht es nicht. Für wen ist die Akte?"
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Für wen ist das Medikament?",
+          "qEn": "Masculine.",
+          "options": [
+            "für den Patienten",
+            "für dem Patienten",
+            "für der Patienten"
+          ],
+          "answer": 0,
+          "why": "den.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "Wohin, um das Bett? The meaning of um.",
+          "qEn": "Around.",
+          "options": [
+            "at eight o'clock",
+            "around the bed",
+            "for the bed"
+          ],
+          "answer": 1,
+          "why": "um das Bett means around.",
+          "hint": "Around."
+        },
+        {
+          "kind": "mc",
+          "q": "Gegen wen oder was hilft die Tablette?",
+          "qEn": "Plural.",
+          "options": [
+            "gegen den Schmerzen",
+            "gegen dem Schmerzen",
+            "gegen die Schmerzen"
+          ],
+          "answer": 2,
+          "why": "die.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "Was fehlt dem Satz ohne Wasser?",
+          "qEn": "Article.",
+          "options": [
+            "kein Artikel",
+            "den",
+            "dem"
+          ],
+          "answer": 0,
+          "why": "Mass noun, no article.",
+          "hint": "None."
+        }
+      ]
+    },
+    {
+      "id": "writing-fudog",
+      "label": "Writing",
+      "title": "Write FUDOG",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four sentences.",
+      "prompt": "For the patient, around the bed, through the corridor, against the pain.",
+      "bullets": [
+        "für den",
+        "um das",
+        "durch den",
+        "gegen die"
+      ],
+      "model": "Das Medikament ist für den Patienten. Sie geht um das Bett. Er geht durch den Flur. Die Tablette hilft gegen die Schmerzen.",
+      "modelEn": "The medication is for the patient. She walks around the bed. He walks through the corridor. The tablet helps against the pain.",
+      "hint": "den for masculine, das and die stay.",
+      "checklist": [
+        {
+          "id": "f",
+          "label": "für den",
+          "keywords": [
+            "für den"
+          ]
+        },
+        {
+          "id": "u",
+          "label": "um das",
+          "keywords": [
+            "um das"
+          ]
+        },
+        {
+          "id": "d",
+          "label": "durch den",
+          "keywords": [
+            "durch den"
+          ]
+        },
+        {
+          "id": "g",
+          "label": "gegen die",
+          "keywords": [
+            "gegen die"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 32. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "für + Patient.",
+          "qEn": "den.",
+          "options": [
+            "für den Patienten",
+            "für dem Patienten",
+            "für der Patienten"
+          ],
+          "answer": 0,
+          "why": "den.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "durch + Flur.",
+          "qEn": "den.",
+          "options": [
+            "durch dem Flur",
+            "durch den Flur",
+            "durch der Flur"
+          ],
+          "answer": 1,
+          "why": "den.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "ohne + Impfpass.",
+          "qEn": "den.",
+          "options": [
+            "ohne dem Impfpass",
+            "ohne der Impfpass",
+            "ohne den Impfpass"
+          ],
+          "answer": 2,
+          "why": "den.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "um + Bett.",
+          "qEn": "das.",
+          "options": [
+            "um das Bett",
+            "um dem Bett",
+            "um den Bett"
+          ],
+          "answer": 0,
+          "why": "das.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "für + Bein.",
+          "qEn": "das.",
+          "options": [
+            "für dem Bein",
+            "für das Bein",
+            "für den Bein"
+          ],
+          "answer": 1,
+          "why": "das.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "gegen + Schmerzen.",
+          "qEn": "die.",
+          "options": [
+            "gegen den Schmerzen",
+            "gegen dem Schmerzen",
+            "gegen die Schmerzen"
+          ],
+          "answer": 2,
+          "why": "die.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "ohne + Wasser.",
+          "qEn": "No article.",
+          "options": [
+            "ohne Wasser",
+            "ohne dem Wasser",
+            "ohne den Wasser"
+          ],
+          "answer": 0,
+          "why": "No article.",
+          "hint": "ohne."
+        },
+        {
+          "kind": "mc",
+          "q": "für + eine Patientin.",
+          "qEn": "eine.",
+          "options": [
+            "für einer Patientin",
+            "für eine Patientin",
+            "für einem Patientin"
+          ],
+          "answer": 1,
+          "why": "Accusative feminine eine.",
+          "hint": "eine."
+        },
+        {
+          "kind": "mc",
+          "q": "um in this chapter means…",
+          "qEn": "Around.",
+          "options": [
+            "at eight o'clock",
+            "for",
+            "around"
+          ],
+          "answer": 2,
+          "why": "um das Bett.",
+          "hint": "Around."
+        },
+        {
+          "kind": "mc",
+          "q": "Which case do FUDOG take?",
+          "qEn": "Accusative.",
+          "options": [
+            "accusative",
+            "dative",
+            "nominative"
+          ],
+          "answer": 0,
+          "why": "Always accusative.",
+          "hint": "Accusative."
+        },
+        {
+          "kind": "mc",
+          "q": "DOGFU is…",
+          "qEn": "Same five.",
+          "options": [
+            "dative prepositions",
+            "durch ohne gegen für um",
+            "time prepositions"
+          ],
+          "answer": 1,
+          "why": "The same five, another order.",
+          "hint": "Same."
+        },
+        {
+          "kind": "mc",
+          "q": "für + wen.",
+          "qEn": "Question.",
+          "options": [
+            "Für wem ist die Akte?",
+            "Für wer ist die Akte?",
+            "Für wen ist die Akte?"
+          ],
+          "answer": 2,
+          "why": "wen is accusative.",
+          "hint": "wen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "FUDOG, immer Akkusativ",
+      "redemittel": [
+        {
+          "de": "Das Medikament ist für den Patienten.",
+          "en": "The medication is for the patient."
+        },
+        {
+          "de": "Sie geht um das Bett.",
+          "en": "She walks around the bed."
+        },
+        {
+          "de": "Er geht durch den Flur.",
+          "en": "He walks through the corridor."
+        },
+        {
+          "de": "Er kommt ohne den Impfpass.",
+          "en": "He comes without the vaccination card."
+        },
+        {
+          "de": "Die Tablette hilft gegen die Schmerzen.",
+          "en": "The tablet helps against the pain."
+        }
+      ]
+    }
+  ]
+}

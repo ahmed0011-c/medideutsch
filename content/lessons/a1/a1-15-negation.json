@@ -1,0 +1,1499 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "isst": {
+      "de": "essen → isst",
+      "pos": "verb",
+      "en": "eats"
+    },
+    "trinkt": {
+      "de": "trinken → trinkt",
+      "pos": "verb",
+      "en": "drinks"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "schmerzen": {
+      "de": "Schmerzen",
+      "pos": "noun",
+      "en": "pain",
+      "article": "die",
+      "plural": "die Schmerzen",
+      "emoji": "🤕"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "plural": "Wasser",
+      "emoji": "💧"
+    },
+    "keine": {
+      "de": "keine",
+      "pos": "article",
+      "en": "no (plural or feminine)"
+    },
+    "kein": {
+      "de": "kein",
+      "pos": "article",
+      "en": "no (masculine or neuter)"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not"
+    },
+    "nüchtern": {
+      "de": "nüchtern",
+      "pos": "adjective",
+      "en": "fasting, nil by mouth"
+    },
+    "nie": {
+      "de": "nie",
+      "pos": "adverb",
+      "en": "never"
+    },
+    "nichts": {
+      "de": "nichts",
+      "pos": "pronoun",
+      "en": "nothing"
+    },
+    "gegessen": {
+      "de": "Partizip von essen",
+      "pos": "participle",
+      "en": "eaten"
+    },
+    "niemand": {
+      "de": "niemand",
+      "pos": "pronoun",
+      "en": "nobody"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "mehr": {
+      "de": "mehr",
+      "pos": "adverb",
+      "en": "more; anymore"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    }
+  },
+  "id": "a1-15-negation",
+  "level": "A1",
+  "unit": "Kapitel 15",
+  "chapter": 15,
+  "chapters": [
+    15
+  ],
+  "title": "Kein, nicht, nie",
+  "subtitle": "Negation",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "kein negates a noun that would have ein or no article: keine Schmerzen, kein Fieber.",
+        "nicht negates a verb or an adjective: Er isst nicht. Er ist nicht nüchtern.",
+        "nie means never. nichts means nothing. niemand means nobody.",
+        "nicht mehr means not anymore: Er trinkt nicht mehr."
+      ],
+      "vocab": [
+        {
+          "de": "Schmerzen",
+          "article": "die",
+          "plural": "die Schmerzen",
+          "en": "pain",
+          "emoji": "🤕",
+          "glossaryKey": "schmerzen"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "emoji": "🤒",
+          "glossaryKey": "fieber"
+        },
+        {
+          "de": "Wasser",
+          "article": "das",
+          "plural": "Wasser",
+          "en": "water",
+          "emoji": "💧",
+          "glossaryKey": "wasser"
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        }
+      ],
+      "text": {
+        "title": "Keine Schmerzen",
+        "de": "Der Patient hat keine Schmerzen. Er hat kein Fieber. Er ist nicht nüchtern. Er isst nicht. Er trinkt nie Wasser. Er hat nichts gegessen. Niemand kommt heute. Er trinkt nicht mehr.",
+        "en": "The patient has no pain. He has no fever. He is not fasting. He does not eat. He never drinks water. He has eaten nothing. Nobody is coming today. He does not drink anymore."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "kein oder nicht",
+      "practice": "choose",
+      "heroTitle": "kein for the noun, nicht for the verb",
+      "heroImage": "tablet",
+      "story": [
+        "<b>kein</b> stands where ein would stand: keine Schmerzen, kein Fieber. It declines like ein.",
+        "<b>nicht</b> negates the verb at the end, or an adjective just before it: Er isst nicht. Er ist nicht nüchtern.",
+        "<b>nie</b>, <b>nichts</b> and <b>niemand</b> replace a positive word. <b>nicht mehr</b> means the action has stopped."
+      ],
+      "questionRule": "If the negated word is a noun with ein or no article, use kein. Otherwise use nicht, nie, nichts or niemand.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "Schmerzen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "keine",
+              "r": "subj"
+            },
+            {
+              "t": "Schmerzen",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "A noun.",
+          "enAfter": "keine Schmerzen",
+          "callLabel": "Show kein"
+        },
+        {
+          "before": [
+            {
+              "t": "isst",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "isst",
+              "r": "subj"
+            },
+            {
+              "t": "nicht",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "A verb.",
+          "enAfter": "Er isst nicht.",
+          "callLabel": "Show nicht"
+        },
+        {
+          "before": [
+            {
+              "t": "trinkt",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "trinkt",
+              "r": "subj"
+            },
+            {
+              "t": "nicht",
+              "r": "verb"
+            },
+            {
+              "t": "mehr",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Stopped.",
+          "enAfter": "Er trinkt nicht mehr.",
+          "callLabel": "Show nicht mehr"
+        }
+      ],
+      "tables": [
+        {
+          "title": "kein oder nicht",
+          "caption": "Look at the word you are negating.",
+          "columns": [
+            "Wort",
+            "Negation",
+            "Satz"
+          ],
+          "rows": [
+            {
+              "label": "Schmerzen",
+              "cells": [
+                "Nomen",
+                "keine",
+                "Er hat keine Schmerzen."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Fieber",
+              "cells": [
+                "Nomen",
+                "kein",
+                "Er hat kein Fieber."
+              ]
+            },
+            {
+              "label": "nüchtern",
+              "cells": [
+                "Adjektiv",
+                "nicht",
+                "Er ist nicht nüchtern."
+              ]
+            },
+            {
+              "label": "isst",
+              "cells": [
+                "Verb",
+                "nicht",
+                "Er isst nicht."
+              ]
+            },
+            {
+              "label": "Wasser",
+              "cells": [
+                "nie",
+                "nie",
+                "Er trinkt nie Wasser."
+              ]
+            },
+            {
+              "label": "gegessen",
+              "cells": [
+                "nichts",
+                "nichts",
+                "Er hat nichts gegessen."
+              ]
+            },
+            {
+              "label": "kommt",
+              "cells": [
+                "niemand",
+                "niemand",
+                "Niemand kommt heute."
+              ]
+            },
+            {
+              "label": "mehr",
+              "cells": [
+                "nicht mehr",
+                "nicht mehr",
+                "Er trinkt nicht mehr."
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "kein is not nicht",
+        "items": [
+          {
+            "de": "Er hat keine Schmerzen.",
+            "en": "The noun takes kein.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er hat nicht Schmerzen.",
+            "en": "Schmerzen would have had keine, not nicht.",
+            "tone": "stop"
+          },
+          {
+            "de": "Er isst nicht.",
+            "en": "The verb takes nicht at the end.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er isst kein.",
+            "en": "kein needs a noun.",
+            "tone": "stop"
+          },
+          {
+            "de": "Er ist nicht nüchtern.",
+            "en": "nicht before the adjective.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er trinkt nicht mehr.",
+            "en": "The drinking has stopped.",
+            "tone": "ok"
+          }
+        ],
+        "tip": "Noun: kein. Verb or adjective: nicht. Never: nie. Nothing: nichts. Nobody: niemand."
+      },
+      "tips": [
+        {
+          "title": "kein / nicht",
+          "emoji": "🚫",
+          "mnemonic": "noun = kein · verb = nicht",
+          "body": "keine Schmerzen, kein Fieber, kein Wasser. Er isst nicht. Er ist nicht nüchtern.",
+          "examples": [
+            {
+              "de": "Er hat nichts gegessen.",
+              "en": "nothing"
+            },
+            {
+              "de": "Niemand kommt heute.",
+              "en": "nobody"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "kein or nicht?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Negate Schmerzen.",
+          "qEn": "Noun.",
+          "options": [
+            "Er hat keine Schmerzen.",
+            "Er hat nicht Schmerzen.",
+            "Er hat kein Schmerzen."
+          ],
+          "answer": 0,
+          "why": "Plural noun: keine.",
+          "hint": "keine."
+        },
+        {
+          "kind": "mc",
+          "q": "Negate the verb essen.",
+          "qEn": "Verb.",
+          "options": [
+            "Er nicht isst.",
+            "Er isst nicht.",
+            "Er isst kein."
+          ],
+          "answer": 1,
+          "why": "nicht goes to the end.",
+          "hint": "nicht."
+        },
+        {
+          "kind": "mc",
+          "q": "Negate the adjective nüchtern.",
+          "qEn": "Adjective.",
+          "options": [
+            "Er ist kein nüchtern.",
+            "Er nicht ist nüchtern.",
+            "Er ist nicht nüchtern."
+          ],
+          "answer": 2,
+          "why": "nicht stands before the adjective.",
+          "hint": "nicht."
+        },
+        {
+          "kind": "mc",
+          "q": "He has stopped drinking.",
+          "qEn": "Anymore.",
+          "options": [
+            "Er trinkt nicht mehr.",
+            "Er trinkt kein mehr.",
+            "Er nicht trinkt mehr."
+          ],
+          "answer": 0,
+          "why": "nicht mehr at the end.",
+          "hint": "nicht mehr."
+        }
+      ]
+    },
+    {
+      "id": "gap-neg",
+      "label": "Lücken",
+      "title": "Choose the negation",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Heute is one moment. Nie is a habit. Each chip fits one sentence.",
+      "chips": [
+        {
+          "w": "keine",
+          "hint": "keine."
+        },
+        {
+          "w": "kein",
+          "hint": "kein."
+        },
+        {
+          "w": "nicht",
+          "hint": "nicht."
+        },
+        {
+          "w": "nicht.",
+          "hint": "End."
+        },
+        {
+          "w": "nie",
+          "hint": "nie."
+        },
+        {
+          "w": "nichts",
+          "hint": "nichts."
+        }
+      ],
+      "items": [
+        {
+          "before": "Heute, kein Nomen bleibt: Der Patient hat",
+          "after": "Schmerzen.",
+          "answer": "keine",
+          "en": "no pain",
+          "why": "Plural noun.",
+          "tip": "Nomen",
+          "hint": "keine."
+        },
+        {
+          "before": "Heute: Er hat",
+          "after": "Fieber.",
+          "answer": "kein",
+          "en": "no fever",
+          "why": "Neuter noun.",
+          "tip": "Nomen",
+          "hint": "kein."
+        },
+        {
+          "before": "Heute, einmal, nicht die Gewohnheit: Er ist",
+          "after": "nüchtern.",
+          "answer": "nicht",
+          "en": "not fasting",
+          "why": "Adjective.",
+          "tip": "Adjektiv",
+          "hint": "nicht."
+        },
+        {
+          "before": "Jetzt, nicht die Gewohnheit: Er isst",
+          "after": "",
+          "answer": "nicht.",
+          "en": "does not eat",
+          "why": "Verb. The chip includes the full stop so it stays unique.",
+          "tip": "Verb",
+          "hint": "End."
+        },
+        {
+          "before": "Gewohnheit, nicht nur heute: Er trinkt",
+          "after": "Wasser.",
+          "answer": "nie",
+          "en": "never",
+          "why": "nie before the noun.",
+          "tip": "nie",
+          "hint": "nie."
+        },
+        {
+          "before": "Heute, nicht nie: Er hat",
+          "after": "gegessen.",
+          "answer": "nichts",
+          "en": "nothing",
+          "why": "nichts.",
+          "tip": "nichts",
+          "hint": "nichts."
+        }
+      ]
+    },
+    {
+      "id": "match-neg",
+      "label": "Match",
+      "title": "Which negation?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Match the meaning.",
+      "items": [
+        {
+          "prompt": "No pain.",
+          "options": [
+            {
+              "emoji": "🚫",
+              "label": "keine Schmerzen",
+              "caption": "noun"
+            },
+            {
+              "emoji": "❌",
+              "label": "nicht Schmerzen",
+              "caption": "nicht does not replace ein"
+            },
+            {
+              "emoji": "❌",
+              "label": "kein Schmerzen",
+              "caption": "plural needs keine"
+            }
+          ],
+          "answer": 0,
+          "why": "keine.",
+          "hint": "Noun."
+        },
+        {
+          "prompt": "Does not eat.",
+          "options": [
+            {
+              "emoji": "🍽️",
+              "label": "Er isst nicht.",
+              "caption": "verb"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er isst kein.",
+              "caption": "kein needs a noun"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er nicht isst.",
+              "caption": "nicht is not in position 2"
+            }
+          ],
+          "answer": 0,
+          "why": "nicht at the end.",
+          "hint": "Verb."
+        },
+        {
+          "prompt": "Eaten nothing.",
+          "options": [
+            {
+              "emoji": "🍽️",
+              "label": "nichts gegessen",
+              "caption": "nothing"
+            },
+            {
+              "emoji": "❌",
+              "label": "nicht gegessen",
+              "caption": "that only negates the verb"
+            },
+            {
+              "emoji": "❌",
+              "label": "kein gegessen",
+              "caption": "kein needs a noun"
+            }
+          ],
+          "answer": 0,
+          "why": "nichts.",
+          "hint": "Nothing."
+        },
+        {
+          "prompt": "Nobody comes.",
+          "options": [
+            {
+              "emoji": "👤",
+              "label": "Niemand kommt.",
+              "caption": "nobody"
+            },
+            {
+              "emoji": "❌",
+              "label": "Nicht kommt.",
+              "caption": "nicht is not the subject"
+            },
+            {
+              "emoji": "❌",
+              "label": "Kein kommt.",
+              "caption": "kein needs a noun"
+            }
+          ],
+          "answer": 0,
+          "why": "niemand.",
+          "hint": "Nobody."
+        }
+      ]
+    },
+    {
+      "id": "picture-neg",
+      "label": "Picture",
+      "title": "Picture the ban",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Nil by mouth and no tablets.",
+      "items": [
+        {
+          "id": "water",
+          "de": "Wasser",
+          "article": "das",
+          "plural": "Wasser",
+          "en": "kein Wasser",
+          "image": {
+            "type": "svg",
+            "id": "hands"
+          },
+          "hint": "kein"
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "keine Tablette",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "keine"
+        },
+        {
+          "id": "fever",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "kein Fieber",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "kein"
+        },
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "nicht aufstehen",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "nicht"
+        }
+      ]
+    },
+    {
+      "id": "build-neg",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Put nicht at the end when it negates the verb.",
+      "items": [
+        {
+          "tiles": [
+            "Er",
+            "hat",
+            "keine",
+            "Schmerzen"
+          ],
+          "answers": [
+            "Er hat keine Schmerzen"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "Schmerzen",
+          "question": false,
+          "en": "He has no pain.",
+          "hint": "keine.",
+          "feedback": {
+            "fallback": "keine."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "hat",
+            "kein",
+            "Fieber"
+          ],
+          "answers": [
+            "Er hat kein Fieber"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "Fieber",
+          "question": false,
+          "en": "He has no fever.",
+          "hint": "kein.",
+          "feedback": {
+            "fallback": "kein."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "isst",
+            "nicht"
+          ],
+          "answers": [
+            "Er isst nicht"
+          ],
+          "punct": ".",
+          "modal": "isst",
+          "inf": "nicht",
+          "question": false,
+          "en": "He does not eat.",
+          "hint": "nicht at the end.",
+          "feedback": {
+            "fallback": "nicht at the end."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "trinkt",
+            "nicht",
+            "mehr"
+          ],
+          "answers": [
+            "Er trinkt nicht mehr"
+          ],
+          "punct": ".",
+          "modal": "trinkt",
+          "inf": "mehr",
+          "question": false,
+          "en": "He does not drink anymore.",
+          "hint": "nicht mehr.",
+          "feedback": {
+            "fallback": "nicht mehr."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-neg",
+      "label": "Umformen",
+      "title": "Make it negative",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Use kein for a noun and nicht for a verb or adjective.",
+      "chips": [
+        {
+          "w": "Er hat keine Schmerzen.",
+          "hint": "keine."
+        },
+        {
+          "w": "Er hat kein Fieber.",
+          "hint": "kein."
+        },
+        {
+          "w": "Er ist nicht nüchtern.",
+          "hint": "nicht."
+        },
+        {
+          "w": "Er isst nicht.",
+          "hint": "nicht."
+        },
+        {
+          "w": "Er trinkt nie Wasser.",
+          "hint": "nie."
+        },
+        {
+          "w": "Er trinkt nicht mehr.",
+          "hint": "nicht mehr."
+        }
+      ],
+      "items": [
+        {
+          "before": "Er hat Schmerzen.",
+          "after": "",
+          "answer": "Er hat keine Schmerzen.",
+          "en": "pain",
+          "why": "keine.",
+          "tip": "Nomen",
+          "hint": "keine."
+        },
+        {
+          "before": "Er hat Fieber.",
+          "after": "",
+          "answer": "Er hat kein Fieber.",
+          "en": "fever",
+          "why": "kein.",
+          "tip": "Nomen",
+          "hint": "kein."
+        },
+        {
+          "before": "Er ist nüchtern.",
+          "after": "",
+          "answer": "Er ist nicht nüchtern.",
+          "en": "fasting",
+          "why": "nicht before the adjective.",
+          "tip": "Adjektiv",
+          "hint": "nicht."
+        },
+        {
+          "before": "Er isst.",
+          "after": "",
+          "answer": "Er isst nicht.",
+          "en": "eat",
+          "why": "nicht at the end.",
+          "tip": "Verb",
+          "hint": "nicht."
+        },
+        {
+          "before": "Er trinkt Wasser.",
+          "after": "",
+          "answer": "Er trinkt nie Wasser.",
+          "en": "never",
+          "why": "nie.",
+          "tip": "nie",
+          "hint": "nie."
+        },
+        {
+          "before": "Er trinkt.",
+          "after": "",
+          "answer": "Er trinkt nicht mehr.",
+          "en": "anymore",
+          "why": "The habit has stopped.",
+          "tip": "mehr",
+          "hint": "nicht mehr."
+        }
+      ]
+    },
+    {
+      "id": "error-neg",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er hat nicht Schmerzen."
+          ],
+          "options": [
+            "Er hat keine Schmerzen.",
+            "Er hat kein Schmerzen.",
+            "Er nicht hat Schmerzen."
+          ],
+          "answer": 0,
+          "reveal": "Schmerzen takes keine.",
+          "hint": "keine."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er isst kein."
+          ],
+          "options": [
+            "Er isst nicht.",
+            "Er kein isst.",
+            "Er isst nicht kein."
+          ],
+          "answer": 0,
+          "reveal": "A verb takes nicht.",
+          "hint": "nicht."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er ist kein nüchtern."
+          ],
+          "options": [
+            "Er ist nicht nüchtern.",
+            "Er ist nüchtern nicht.",
+            "Er kein ist nüchtern."
+          ],
+          "answer": 0,
+          "reveal": "An adjective takes nicht.",
+          "hint": "nicht."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er hat nicht gegessen. Meaning: nothing."
+          ],
+          "options": [
+            "Er hat nichts gegessen.",
+            "Er hat kein gegessen.",
+            "Er nichts hat gegessen."
+          ],
+          "answer": 0,
+          "reveal": "Nothing is nichts.",
+          "hint": "nichts."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-neg",
+      "label": "Dialog",
+      "title": "Nil by mouth",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "Keine Schmerzen.",
+          "hint": "Noun."
+        },
+        {
+          "w": "Kein Fieber.",
+          "hint": "Noun."
+        },
+        {
+          "w": "Nicht nüchtern.",
+          "hint": "Adjective."
+        },
+        {
+          "w": "Er isst nicht.",
+          "hint": "Verb."
+        },
+        {
+          "w": "Er trinkt nie Wasser.",
+          "hint": "nie."
+        },
+        {
+          "w": "Niemand kommt heute.",
+          "hint": "Nobody."
+        }
+      ],
+      "items": [
+        {
+          "before": "Schmerzen?",
+          "after": "",
+          "answer": "Keine Schmerzen.",
+          "en": "no pain",
+          "why": "keine.",
+          "tip": "keine",
+          "hint": "Noun.",
+          "who": "Patient"
+        },
+        {
+          "before": "Fieber?",
+          "after": "",
+          "answer": "Kein Fieber.",
+          "en": "no fever",
+          "why": "kein.",
+          "tip": "kein",
+          "hint": "Noun.",
+          "who": "Patient"
+        },
+        {
+          "before": "Nüchtern?",
+          "after": "",
+          "answer": "Nicht nüchtern.",
+          "en": "not fasting",
+          "why": "nicht.",
+          "tip": "nicht",
+          "hint": "Adjective.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Essen?",
+          "after": "",
+          "answer": "Er isst nicht.",
+          "en": "does not eat",
+          "why": "nicht at the end.",
+          "tip": "nicht",
+          "hint": "Verb.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wasser?",
+          "after": "",
+          "answer": "Er trinkt nie Wasser.",
+          "en": "never",
+          "why": "nie.",
+          "tip": "nie",
+          "hint": "nie.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Besuch?",
+          "after": "",
+          "answer": "Niemand kommt heute.",
+          "en": "nobody",
+          "why": "niemand.",
+          "tip": "niemand",
+          "hint": "Nobody.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-neg",
+      "label": "Lücken",
+      "title": "One negation each",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the only chip. Kein is a noun, nicht is a verb or a definite noun.",
+      "chips": [
+        {
+          "w": "kein Wasser",
+          "hint": "kein."
+        },
+        {
+          "w": "keine Tablette",
+          "hint": "keine."
+        },
+        {
+          "w": "nicht der Arzt",
+          "hint": "nicht."
+        },
+        {
+          "w": "isst nicht",
+          "hint": "End."
+        },
+        {
+          "w": "nichts gegessen",
+          "hint": "Nothing."
+        },
+        {
+          "w": "Niemand",
+          "hint": "Subject."
+        },
+        {
+          "w": "nicht mehr",
+          "hint": "nicht mehr."
+        },
+        {
+          "w": "noch nie",
+          "hint": "noch nie."
+        }
+      ],
+      "items": [
+        {
+          "before": "Durst, nur das Getränk: Er hat",
+          "after": ".",
+          "answer": "kein Wasser",
+          "en": "no water",
+          "why": "Mass noun, kein.",
+          "tip": "Nomen",
+          "hint": "kein."
+        },
+        {
+          "before": "Das Medikament fehlt: Er hat",
+          "after": ".",
+          "answer": "keine Tablette",
+          "en": "no tablet",
+          "why": "Feminine noun, keine.",
+          "tip": "Nomen",
+          "hint": "keine."
+        },
+        {
+          "before": "Eine bekannte Person mit der: Das ist",
+          "after": ".",
+          "answer": "nicht der Arzt",
+          "en": "not the doctor",
+          "why": "A definite noun takes nicht, not kein.",
+          "tip": "bestimmt",
+          "hint": "nicht."
+        },
+        {
+          "before": "Das Verb, jetzt: Er",
+          "after": ".",
+          "answer": "isst nicht",
+          "en": "does not eat",
+          "why": "nicht at the end.",
+          "tip": "Verb",
+          "hint": "End."
+        },
+        {
+          "before": "Essen, kein Nomen: Er hat",
+          "after": ".",
+          "answer": "nichts gegessen",
+          "en": "nothing",
+          "why": "nichts.",
+          "tip": "nichts",
+          "hint": "Nothing."
+        },
+        {
+          "before": "Keine Person: ",
+          "after": "kommt heute.",
+          "answer": "Niemand",
+          "en": "nobody",
+          "why": "niemand is the subject.",
+          "tip": "niemand",
+          "hint": "Subject."
+        },
+        {
+          "before": "Er hört auf: Er trinkt",
+          "after": ".",
+          "answer": "nicht mehr",
+          "en": "anymore",
+          "why": "Stopped.",
+          "tip": "mehr",
+          "hint": "nicht mehr."
+        },
+        {
+          "before": "Bisher kein einziges Mal: Er war",
+          "after": "im Krankenhaus.",
+          "answer": "noch nie",
+          "en": "never yet",
+          "why": "noch nie.",
+          "tip": "nie",
+          "hint": "noch nie."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Keine Schmerzen",
+        "paragraphs": [
+          "Der Patient hat keine Schmerzen. Er hat kein Fieber. Er ist nicht nüchtern. Er isst nicht. Er trinkt nie Wasser. Er hat nichts gegessen. Niemand kommt heute. Er trinkt nicht mehr."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Was für Schmerzen hat er?",
+          "qEn": "Noun.",
+          "options": [
+            "keine",
+            "nicht",
+            "nichts"
+          ],
+          "answer": 0,
+          "why": "keine Schmerzen.",
+          "hint": "keine."
+        },
+        {
+          "kind": "mc",
+          "q": "Ist er nüchtern?",
+          "qEn": "Adjective.",
+          "options": [
+            "Ja, kein nüchtern.",
+            "Nein, nicht nüchtern.",
+            "Ja."
+          ],
+          "answer": 1,
+          "why": "nicht nüchtern.",
+          "hint": "nicht."
+        },
+        {
+          "kind": "mc",
+          "q": "Was hat er gegessen?",
+          "qEn": "Nothing.",
+          "options": [
+            "kein",
+            "nie",
+            "nichts"
+          ],
+          "answer": 2,
+          "why": "nichts gegessen.",
+          "hint": "nichts."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer kommt heute?",
+          "qEn": "Nobody.",
+          "options": [
+            "niemand",
+            "nicht",
+            "kein"
+          ],
+          "answer": 0,
+          "why": "Niemand kommt.",
+          "hint": "niemand."
+        }
+      ]
+    },
+    {
+      "id": "writing-neg",
+      "label": "Writing",
+      "title": "Write the bans",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four negative sentences.",
+      "prompt": "No pain, no fever, he does not eat, he does not drink anymore.",
+      "bullets": [
+        "keine Schmerzen",
+        "kein Fieber",
+        "isst nicht",
+        "nicht mehr"
+      ],
+      "model": "Der Patient hat keine Schmerzen. Er hat kein Fieber. Er isst nicht. Er trinkt nicht mehr.",
+      "modelEn": "The patient has no pain. He has no fever. He does not eat. He does not drink anymore.",
+      "hint": "kein with the noun. nicht at the end of the verb.",
+      "checklist": [
+        {
+          "id": "s",
+          "label": "keine Schmerzen",
+          "keywords": [
+            "keine Schmerzen"
+          ]
+        },
+        {
+          "id": "f",
+          "label": "kein Fieber",
+          "keywords": [
+            "kein Fieber"
+          ]
+        },
+        {
+          "id": "i",
+          "label": "isst nicht",
+          "keywords": [
+            "isst nicht"
+          ]
+        },
+        {
+          "id": "m",
+          "label": "nicht mehr",
+          "keywords": [
+            "nicht mehr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 15. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "No pain.",
+          "qEn": "Noun.",
+          "options": [
+            "Er hat keine Schmerzen.",
+            "Er hat nicht Schmerzen.",
+            "Er hat kein Schmerzen."
+          ],
+          "answer": 0,
+          "why": "keine.",
+          "hint": "keine."
+        },
+        {
+          "kind": "mc",
+          "q": "No fever.",
+          "qEn": "Noun.",
+          "options": [
+            "Er hat nicht Fieber.",
+            "Er hat kein Fieber.",
+            "Er hat keine Fieber."
+          ],
+          "answer": 1,
+          "why": "kein.",
+          "hint": "kein."
+        },
+        {
+          "kind": "mc",
+          "q": "No water.",
+          "qEn": "Noun.",
+          "options": [
+            "Er hat nicht Wasser.",
+            "Er hat keine Wasser.",
+            "Er hat kein Wasser."
+          ],
+          "answer": 2,
+          "why": "kein.",
+          "hint": "kein."
+        },
+        {
+          "kind": "mc",
+          "q": "Not fasting.",
+          "qEn": "Adjective.",
+          "options": [
+            "Er ist nicht nüchtern.",
+            "Er ist kein nüchtern.",
+            "Er nicht ist nüchtern."
+          ],
+          "answer": 0,
+          "why": "nicht.",
+          "hint": "nicht."
+        },
+        {
+          "kind": "mc",
+          "q": "Does not eat.",
+          "qEn": "Verb.",
+          "options": [
+            "Er nicht isst.",
+            "Er isst nicht.",
+            "Er isst kein."
+          ],
+          "answer": 1,
+          "why": "nicht at the end.",
+          "hint": "nicht."
+        },
+        {
+          "kind": "mc",
+          "q": "Never drinks water.",
+          "qEn": "nie.",
+          "options": [
+            "Er trinkt nicht nie Wasser.",
+            "Er trinkt kein nie Wasser.",
+            "Er trinkt nie Wasser."
+          ],
+          "answer": 2,
+          "why": "nie.",
+          "hint": "nie."
+        },
+        {
+          "kind": "mc",
+          "q": "Eaten nothing.",
+          "qEn": "nichts.",
+          "options": [
+            "Er hat nichts gegessen.",
+            "Er hat nicht gegessen.",
+            "Er hat kein gegessen."
+          ],
+          "answer": 0,
+          "why": "The meaning here is nothing.",
+          "hint": "nichts."
+        },
+        {
+          "kind": "mc",
+          "q": "Nobody comes.",
+          "qEn": "niemand.",
+          "options": [
+            "Nicht kommt heute.",
+            "Niemand kommt heute.",
+            "Kein kommt heute."
+          ],
+          "answer": 1,
+          "why": "niemand.",
+          "hint": "niemand."
+        },
+        {
+          "kind": "mc",
+          "q": "Does not drink anymore.",
+          "qEn": "nicht mehr.",
+          "options": [
+            "Er trinkt kein mehr.",
+            "Er nicht trinkt mehr.",
+            "Er trinkt nicht mehr."
+          ],
+          "answer": 2,
+          "why": "nicht mehr.",
+          "hint": "End."
+        },
+        {
+          "kind": "mc",
+          "q": "Not the doctor. The noun is definite.",
+          "qEn": "nicht.",
+          "options": [
+            "Das ist nicht der Arzt.",
+            "Das ist kein der Arzt.",
+            "Das ist der Arzt nicht der."
+          ],
+          "answer": 0,
+          "why": "Definite noun: nicht.",
+          "hint": "nicht."
+        },
+        {
+          "kind": "mc",
+          "q": "No tablet.",
+          "qEn": "Noun.",
+          "options": [
+            "nicht Tablette",
+            "keine Tablette",
+            "kein Tablette"
+          ],
+          "answer": 1,
+          "why": "Feminine: keine.",
+          "hint": "keine."
+        },
+        {
+          "kind": "mc",
+          "q": "Has never yet been in hospital.",
+          "qEn": "noch nie.",
+          "options": [
+            "Er war nicht nie im Krankenhaus.",
+            "Er war kein nie im Krankenhaus.",
+            "Er war noch nie im Krankenhaus."
+          ],
+          "answer": 2,
+          "why": "noch nie.",
+          "hint": "noch nie."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "kein, nicht, nie",
+      "redemittel": [
+        {
+          "de": "Der Patient hat keine Schmerzen.",
+          "en": "The patient has no pain."
+        },
+        {
+          "de": "Er hat kein Fieber.",
+          "en": "He has no fever."
+        },
+        {
+          "de": "Er ist nicht nüchtern.",
+          "en": "He is not fasting."
+        },
+        {
+          "de": "Er isst nicht.",
+          "en": "He does not eat."
+        },
+        {
+          "de": "Er trinkt nicht mehr.",
+          "en": "He does not drink anymore."
+        }
+      ]
+    }
+  ]
+}

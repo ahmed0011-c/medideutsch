@@ -1,0 +1,1932 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)"
+    },
+    "einen": {
+      "de": "einen",
+      "pos": "article",
+      "en": "a (masculine accusative)"
+    },
+    "einem": {
+      "de": "einem",
+      "pos": "article",
+      "en": "a (masculine or neuter dative)"
+    },
+    "einer": {
+      "de": "einer",
+      "pos": "article",
+      "en": "a (feminine dative)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in; into"
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "at; on (vertical)"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on (horizontal); onto"
+    },
+    "neben": {
+      "de": "neben",
+      "pos": "preposition",
+      "en": "next to"
+    },
+    "hinter": {
+      "de": "hinter",
+      "pos": "preposition",
+      "en": "behind"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "in front of"
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of; from"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from"
+    },
+    "bei": {
+      "de": "bei",
+      "pos": "preposition",
+      "en": "at (a person)"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "preposition",
+      "en": "to"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "to; after"
+    },
+    "im": {
+      "de": "im",
+      "pos": "preposition",
+      "en": "in the (in + dem)"
+    },
+    "ins": {
+      "de": "ins",
+      "pos": "preposition",
+      "en": "into the (in + das)"
+    },
+    "am": {
+      "de": "am",
+      "pos": "preposition",
+      "en": "at the (an + dem)"
+    },
+    "beim": {
+      "de": "beim",
+      "pos": "preposition",
+      "en": "at the (bei + dem)"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "preposition",
+      "en": "to the (zu + dem)"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "preposition",
+      "en": "from the (von + dem)"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or"
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "than"
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "conjunction",
+      "en": "as; like"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "adverb",
+      "en": "please"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "adverb",
+      "en": "not"
+    },
+    "dort": {
+      "de": "dort",
+      "pos": "adverb",
+      "en": "there"
+    },
+    "so": {
+      "de": "so",
+      "pos": "adverb",
+      "en": "so"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "adverb",
+      "en": "where"
+    },
+    "wohin": {
+      "de": "wohin",
+      "pos": "adverb",
+      "en": "where to"
+    },
+    "woher": {
+      "de": "woher",
+      "pos": "adverb",
+      "en": "where from"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "hause": {
+      "de": "Hause",
+      "pos": "noun",
+      "en": "home, in the phrases zu Hause, nach Hause, von zu Hause",
+      "note": "Fixed phrases: zu Hause (where), nach Hause (where to), von zu Hause (where from)."
+    },
+    "bringt": {
+      "de": "bringen → bringt",
+      "pos": "verb",
+      "en": "brings"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies; is lying"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "komme": {
+      "de": "kommen → komme",
+      "pos": "verb",
+      "en": "come (ich)"
+    },
+    "stehen": {
+      "de": "stehen → stehen",
+      "pos": "verb",
+      "en": "to stand"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "legen": {
+      "de": "legen → legen",
+      "pos": "verb",
+      "en": "to lay; to put"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "bin": {
+      "de": "sein → bin",
+      "pos": "verb",
+      "en": "am"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "geht": {
+      "de": "gehen → geht",
+      "pos": "verb",
+      "en": "goes"
+    },
+    "gehe": {
+      "de": "gehen → gehe",
+      "pos": "verb",
+      "en": "go (ich)"
+    },
+    "gibt": {
+      "de": "geben → gibt",
+      "pos": "verb",
+      "en": "gives"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "spricht": {
+      "de": "sprechen → spricht",
+      "pos": "verb",
+      "en": "speaks"
+    },
+    "prüft": {
+      "de": "prüfen → prüft",
+      "pos": "verb",
+      "en": "checks"
+    },
+    "trinkt": {
+      "de": "trinken → trinkt",
+      "pos": "verb",
+      "en": "drinks"
+    },
+    "arbeitet": {
+      "de": "arbeiten → arbeitet",
+      "pos": "verb",
+      "en": "works"
+    },
+    "kommen": {
+      "de": "kommen → kommen",
+      "pos": "verb",
+      "en": "to come; Sie-imperative of kommen"
+    },
+    "wird": {
+      "de": "werden → wird",
+      "pos": "verb",
+      "en": "becomes"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative or dative singular)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "op": {
+      "de": "OP",
+      "pos": "noun",
+      "en": "operating theatre",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die OPs"
+    },
+    "liege": {
+      "de": "Liege",
+      "pos": "noun",
+      "en": "examination couch",
+      "emoji": "🛏️",
+      "article": "die",
+      "plural": "die Liegen"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer"
+    },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "thermometer",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Thermometer"
+    },
+    "nachttisch": {
+      "de": "Nachttisch",
+      "pos": "noun",
+      "en": "bedside table",
+      "emoji": "🗄️",
+      "article": "der",
+      "plural": "die Nachttische"
+    },
+    "infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "infusion",
+      "emoji": "💧",
+      "article": "die",
+      "plural": "die Infusionen"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "emoji": "📟",
+      "article": "der",
+      "plural": "die Monitore"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "file",
+      "emoji": "📋",
+      "article": "die",
+      "plural": "die Akten"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "emoji": "🪵",
+      "article": "der",
+      "plural": "die Tische"
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Ärztinnen"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen"
+    },
+    "intensivstation": {
+      "de": "Intensivstation",
+      "pos": "noun",
+      "en": "intensive care unit",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Intensivstationen"
+    },
+    "schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "⚡",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "arm": {
+      "de": "Arm",
+      "pos": "noun",
+      "en": "arm",
+      "emoji": "💪",
+      "article": "der",
+      "plural": "die Arme"
+    },
+    "übelkeit": {
+      "de": "Übelkeit",
+      "pos": "noun",
+      "en": "nausea",
+      "emoji": "🤢",
+      "article": "die",
+      "plural": "Übelkeit"
+    },
+    "pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "emoji": "🩹",
+      "article": "das",
+      "plural": "die Pflaster"
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding",
+      "emoji": "📄",
+      "article": "der",
+      "plural": "die Befunde"
+    },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Verbände"
+    },
+    "kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Kolleginnen"
+    },
+    "tag": {
+      "de": "Tag",
+      "pos": "noun",
+      "en": "day",
+      "emoji": "📅",
+      "article": "der",
+      "plural": "die Tage"
+    },
+    "dosis": {
+      "de": "Dosis",
+      "pos": "noun",
+      "en": "dose",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Dosen"
+    },
+    "blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "en": "blood pressure",
+      "emoji": "❤️",
+      "article": "der",
+      "plural": "Blutdruck"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das",
+      "plural": "Wasser"
+    },
+    "saft": {
+      "de": "Saft",
+      "pos": "noun",
+      "en": "juice",
+      "emoji": "🧃",
+      "article": "der",
+      "plural": "die Säfte"
+    },
+    "starke": {
+      "de": "starke",
+      "pos": "adjective",
+      "en": "severe, strong (feminine or plural weak ending)"
+    },
+    "starken": {
+      "de": "starken",
+      "pos": "adjective",
+      "en": "severe, strong (accusative masculine ending)"
+    },
+    "stark": {
+      "de": "stark",
+      "pos": "adjective",
+      "en": "severe, strong (no ending after sein)"
+    },
+    "leicht": {
+      "de": "leicht",
+      "pos": "adjective",
+      "en": "mild; light"
+    },
+    "kleines": {
+      "de": "kleines",
+      "pos": "adjective",
+      "en": "small (neuter nominative or accusative ending)"
+    },
+    "neuen": {
+      "de": "neuen",
+      "pos": "adjective",
+      "en": "new (weak ending)"
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new (no ending after sein)"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "good (no ending after sein)"
+    },
+    "kleinen": {
+      "de": "kleinen",
+      "pos": "adjective",
+      "en": "small (weak ending)"
+    },
+    "dritten": {
+      "de": "dritten",
+      "pos": "adjective",
+      "en": "third (dative ending)"
+    },
+    "postoperativen": {
+      "de": "postoperativen",
+      "pos": "adjective",
+      "en": "postoperative (dative ending)"
+    },
+    "zweiten": {
+      "de": "zweiten",
+      "pos": "adjective",
+      "en": "second (dative ending)"
+    },
+    "stärker": {
+      "de": "stärker",
+      "pos": "adjective",
+      "en": "stronger"
+    },
+    "stärkere": {
+      "de": "stärkere",
+      "pos": "adjective",
+      "en": "stronger (attributive ending)"
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high"
+    },
+    "früher": {
+      "de": "früher",
+      "pos": "adverb",
+      "en": "earlier; sooner"
+    },
+    "besser": {
+      "de": "besser",
+      "pos": "adjective",
+      "en": "better"
+    },
+    "lieber": {
+      "de": "lieber",
+      "pos": "adverb",
+      "en": "preferably; rather"
+    }
+  },
+  "id": "a2-37-adjektive-dativ",
+  "level": "A2",
+  "unit": "Kapitel 37",
+  "chapter": 37,
+  "chapters": [
+    37
+  ],
+  "title": "Am ersten Mai",
+  "subtitle": "Adjective endings in the dative, and ordinals",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "In the dative every adjective ends in -en, with or without an article.",
+        "mit dem starken Schmerz, mit einem starken Schmerz, mit der neuen Pflegekraft, mit einer neuen Pflegekraft.",
+        "If the article already ends in -n or -m, the adjective is -en. Feminine dative der and einer do not end in -n or -m, and the adjective is still -en.",
+        "Ordinals decline: am dritten Tag, am ersten Mai, nach der zweiten Dosis."
+      ],
+      "vocab": [
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        },
+        {
+          "de": "Kollegin",
+          "article": "die",
+          "plural": "die Kolleginnen",
+          "en": "colleague",
+          "emoji": "👩‍⚕️",
+          "glossaryKey": "kollegin"
+        },
+        {
+          "de": "Tag",
+          "article": "der",
+          "plural": "die Tage",
+          "en": "day",
+          "emoji": "📅",
+          "glossaryKey": "tag"
+        },
+        {
+          "de": "Dosis",
+          "article": "die",
+          "plural": "die Dosen",
+          "en": "dose",
+          "emoji": "💊",
+          "glossaryKey": "dosis"
+        },
+        {
+          "de": "Verband",
+          "article": "der",
+          "plural": "die Verbände",
+          "en": "dressing",
+          "emoji": "🩹",
+          "glossaryKey": "verband"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        }
+      ],
+      "text": {
+        "title": "Am dritten Tag",
+        "de": "Die Ärztin spricht mit dem neuen Patienten. Die Pflegekraft kommt mit einer neuen Kollegin. Am dritten postoperativen Tag prüft sie den Verband. Nach der zweiten Dosis bleibt der Schmerz leicht. Der Patient liegt in dem kleinen Zimmer.",
+        "en": "The doctor speaks with the new patient. The nurse comes with a new colleague. On the third postoperative day she checks the dressing. After the second dose the pain stays mild. The patient is lying in the small room."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Dative: the adjective ends in -en",
+      "practice": "choose",
+      "heroTitle": "Nominative, accusative, dative",
+      "heroImage": "clipboard",
+      "story": [
+        "Mit <b>dem neuen Patienten</b> and mit <b>einer neuen Kollegin</b> are dative. Both adjectives end in -en.",
+        "<b>Am dritten Tag</b> is an + dem. The ordinal declines like an adjective."
+      ],
+      "questionRule": "Dative adjective = <b>-en</b>, always. Plural dative nouns also take -n where they can: den neuen Verbänden.",
+      "tables": [
+        {
+          "title": "Dativ",
+          "caption": "Every adjective in this table ends in -en.",
+          "columns": [
+            "Maskulin",
+            "Neutrum",
+            "Feminin",
+            "Plural"
+          ],
+          "rows": [
+            {
+              "label": "Dat der",
+              "cells": [
+                "dem starken Schmerz",
+                "dem kleinen Pflaster",
+                "der neuen Pflegekraft",
+                "den neuen Verbänden"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Dat ein",
+              "cells": [
+                "einem starken Schmerz",
+                "einem kleinen Pflaster",
+                "einer neuen Pflegekraft",
+                "keinen neuen Verbänden"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "ohne Artikel",
+              "cells": [
+                "mit starkem Schmerz",
+                "mit kleinem Pflaster",
+                "mit neuer Pflegekraft",
+                "mit neuen Verbänden"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ordinalzahlen",
+          "caption": "am = an + dem. The ordinal takes the dative ending.",
+          "columns": [
+            "Formel",
+            "Beispiel",
+            "Kasus"
+          ],
+          "rows": [
+            {
+              "label": "dritte",
+              "cells": [
+                "am dritten Tag",
+                "am dritten postoperativen Tag",
+                "Dativ"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "erste",
+              "cells": [
+                "am ersten Mai",
+                "am ersten Tag",
+                "Dativ"
+              ]
+            },
+            {
+              "label": "zweite",
+              "cells": [
+                "nach der zweiten Dosis",
+                "nach der zweiten Visite",
+                "Dativ"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Der ist nicht immer Nominativ",
+        "items": [
+          {
+            "de": "mit der neuen Pflegekraft",
+            "en": "Feminine dative. der looks like masculine nominative, but the adjective is -en.",
+            "tone": "ok"
+          },
+          {
+            "de": "mit der neue Pflegekraft",
+            "en": "Dative adjectives do not stay on -e.",
+            "tone": "stop"
+          },
+          {
+            "de": "mit neuen Verbänden",
+            "en": "No article, and the adjective is still -en. The noun adds -n.",
+            "tone": "ok"
+          },
+          {
+            "de": "mit neue Verbände",
+            "en": "Bare dative plural is not the base form.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "ohne Artikel in the masculine or neuter dative is -em, not -en: mit starkem Schmerz. The -en rule is for an article that is already there, and for every plural."
+      },
+      "tips": [
+        {
+          "title": "-n or -m, then -en",
+          "body": "den, dem, einen and einem already end in -n or -m, so the adjective is -en. In the dative, der and einer are the exceptions to that shortcut: they do not end in -n or -m, and the adjective is still -en. Without an article, masculine and neuter take -em (mit starkem Schmerz) and feminine takes -er (mit neuer Pflegekraft). Plural without an article is still -en.",
+          "mnemonic": "Dativ: Adjektiv auf -en. Ohne Artikel maskulin: -em.",
+          "emoji": "3️⃣"
+        }
+      ],
+      "quizTitle": "Choose the form",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "mit dem ___ Schmerz",
+          "qEn": "Dative masculine.",
+          "options": [
+            "starken",
+            "starker",
+            "starkem"
+          ],
+          "answer": 0,
+          "why": "The article dem is already there, so the adjective is -en.",
+          "hint": "dem starken"
+        },
+        {
+          "kind": "mc",
+          "q": "mit einer ___ Kollegin",
+          "qEn": "Dative feminine.",
+          "options": [
+            "neue",
+            "neuen",
+            "neuer"
+          ],
+          "answer": 1,
+          "why": "Dative adjective -en, even after einer.",
+          "hint": "einer neuen"
+        },
+        {
+          "kind": "mc",
+          "q": "am ___ Tag",
+          "qEn": "Ordinal.",
+          "options": [
+            "dritte",
+            "drittem",
+            "dritten"
+          ],
+          "answer": 2,
+          "why": "am dritten Tag.",
+          "hint": "ordinal"
+        },
+        {
+          "kind": "mc",
+          "q": "mit ___ Schmerz, no article.",
+          "qEn": "Bare dative masculine.",
+          "options": [
+            "starkem",
+            "starken",
+            "starker"
+          ],
+          "answer": 0,
+          "why": "Without an article, masculine dative is -em.",
+          "hint": "starkem"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "Gap",
+      "title": "Dative endings",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The article is already in the sentence. Add the adjective phrase.",
+      "chips": [
+        {
+          "w": "dem starken",
+          "hint": "Dat"
+        },
+        {
+          "w": "einem starken",
+          "hint": "Dat"
+        },
+        {
+          "w": "der neuen",
+          "hint": "Dat"
+        },
+        {
+          "w": "einer neuen",
+          "hint": "Dat"
+        },
+        {
+          "w": "den neuen",
+          "hint": "Plural"
+        },
+        {
+          "w": "dritten",
+          "hint": "Ordinal"
+        }
+      ],
+      "items": [
+        {
+          "before": "bekannt, der Schmerz: mit",
+          "after": "Schmerz",
+          "answer": "dem starken",
+          "en": "with the severe pain",
+          "why": "dem + -en.",
+          "tip": "-en",
+          "hint": "Dat"
+        },
+        {
+          "before": "unbekannt, ein Schmerz: mit",
+          "after": "Schmerz",
+          "answer": "einem starken",
+          "en": "with a severe pain",
+          "why": "einem + -en.",
+          "tip": "-en",
+          "hint": "Dat"
+        },
+        {
+          "before": "mit",
+          "after": "Pflegekraft",
+          "answer": "der neuen",
+          "en": "with the new nurse",
+          "why": "Feminine dative der + -en.",
+          "tip": "-en",
+          "hint": "Dat"
+        },
+        {
+          "before": "mit",
+          "after": "Kollegin",
+          "answer": "einer neuen",
+          "en": "with a new colleague",
+          "why": "einer + -en.",
+          "tip": "-en",
+          "hint": "Dat"
+        },
+        {
+          "before": "mit",
+          "after": "Verbänden",
+          "answer": "den neuen",
+          "en": "with the new dressings",
+          "why": "Dative plural den + -en, noun -n.",
+          "tip": "-en",
+          "hint": "Plural"
+        },
+        {
+          "before": "am",
+          "after": "Tag",
+          "answer": "dritten",
+          "en": "on the third day",
+          "why": "Ordinal in the dative.",
+          "tip": "-en",
+          "hint": "Ordinal"
+        }
+      ]
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "Match",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Which ending?",
+      "items": [
+        {
+          "prompt": "mit dem ___ Schmerz",
+          "options": [
+            {
+              "emoji": "🔤",
+              "label": "starken",
+              "caption": "article already -m"
+            },
+            {
+              "emoji": "🔤",
+              "label": "starker",
+              "caption": "nominative"
+            }
+          ],
+          "answer": 0,
+          "why": "dem starken.",
+          "hint": "Dat"
+        },
+        {
+          "prompt": "mit der ___ Pflegekraft",
+          "options": [
+            {
+              "emoji": "🔤",
+              "label": "neuen",
+              "caption": "dative, even after der"
+            },
+            {
+              "emoji": "🔤",
+              "label": "neue",
+              "caption": "that would be nominative"
+            }
+          ],
+          "answer": 0,
+          "why": "der neuen Pflegekraft.",
+          "hint": "Dat"
+        },
+        {
+          "prompt": "mit stark___ Schmerz, no article",
+          "options": [
+            {
+              "emoji": "🔤",
+              "label": "em",
+              "caption": "bare masculine dative"
+            },
+            {
+              "emoji": "🔤",
+              "label": "en",
+              "caption": "only with an article or in the plural"
+            }
+          ],
+          "answer": 0,
+          "why": "mit starkem Schmerz.",
+          "hint": "-em"
+        },
+        {
+          "prompt": "am ___ Mai",
+          "options": [
+            {
+              "emoji": "3️⃣",
+              "label": "ersten",
+              "caption": "ordinal dative"
+            },
+            {
+              "emoji": "3️⃣",
+              "label": "erste",
+              "caption": "base form"
+            }
+          ],
+          "answer": 0,
+          "why": "am ersten Mai.",
+          "hint": "ordinal"
+        }
+      ]
+    },
+    {
+      "id": "px-picture",
+      "label": "Picture",
+      "title": "Picture",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the noun and read the dative phrase.",
+      "items": [
+        {
+          "id": "plaster",
+          "de": "Verband",
+          "article": "der",
+          "plural": "die Verbände",
+          "en": "dressing",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "mit dem neuen Verband"
+        },
+        {
+          "id": "clip",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "file",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "mit der neuen Akte"
+        },
+        {
+          "id": "bed",
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "in dem kleinen Zimmer"
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "nach der zweiten Tablette"
+        }
+      ]
+    },
+    {
+      "id": "px-build",
+      "label": "Build",
+      "title": "Build",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Keep the dative ending.",
+      "items": [
+        {
+          "tiles": [
+            "Sie",
+            "spricht",
+            "mit",
+            "dem",
+            "Patienten"
+          ],
+          "answers": [
+            "Sie spricht mit dem Patienten"
+          ],
+          "punct": ".",
+          "modal": "spricht",
+          "inf": "Patienten",
+          "question": false,
+          "en": "She speaks with the patient.",
+          "hint": "mit + dative.",
+          "feedback": {
+            "fallback": "mit + dative."
+          }
+        },
+        {
+          "tiles": [
+            "Am",
+            "dritten",
+            "Tag",
+            "prüft",
+            "sie"
+          ],
+          "answers": [
+            "Am dritten Tag prüft sie"
+          ],
+          "punct": ".",
+          "modal": "dritten",
+          "inf": "sie",
+          "question": false,
+          "en": "She checks on the third day.",
+          "hint": "am dritten.",
+          "feedback": {
+            "fallback": "am dritten."
+          }
+        },
+        {
+          "tiles": [
+            "Nach",
+            "der",
+            "zweiten",
+            "Dosis",
+            "bleibt",
+            "er"
+          ],
+          "answers": [
+            "Nach der zweiten Dosis bleibt er"
+          ],
+          "punct": ".",
+          "modal": "der",
+          "inf": "er",
+          "question": false,
+          "en": "After the second dose he stays.",
+          "hint": "nach der zweiten.",
+          "feedback": {
+            "fallback": "nach der zweiten."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "liegt",
+            "in",
+            "dem",
+            "Zimmer"
+          ],
+          "answers": [
+            "Er liegt in dem Zimmer"
+          ],
+          "punct": ".",
+          "modal": "liegt",
+          "inf": "Zimmer",
+          "question": false,
+          "en": "He is lying in the room.",
+          "hint": "in dem.",
+          "feedback": {
+            "fallback": "in dem."
+          }
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Put the phrase into the dative.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the whole dative phrase.",
+      "chips": [
+        {
+          "w": "mit dem starken Schmerz",
+          "hint": "Dat"
+        },
+        {
+          "w": "mit einem starken Schmerz",
+          "hint": "Dat"
+        },
+        {
+          "w": "mit der neuen Pflegekraft",
+          "hint": "Dat"
+        },
+        {
+          "w": "mit einer neuen Kollegin",
+          "hint": "Dat"
+        },
+        {
+          "w": "am dritten Tag",
+          "hint": "Ordinal"
+        },
+        {
+          "w": "nach der zweiten Dosis",
+          "hint": "Dat"
+        }
+      ],
+      "items": [
+        {
+          "before": "der starke Schmerz + mit →",
+          "after": "",
+          "answer": "mit dem starken Schmerz",
+          "en": "with the severe pain",
+          "why": "dem starken.",
+          "tip": "Dat",
+          "hint": "Dat"
+        },
+        {
+          "before": "ein starker Schmerz + mit →",
+          "after": "",
+          "answer": "mit einem starken Schmerz",
+          "en": "with a severe pain",
+          "why": "einem starken.",
+          "tip": "Dat",
+          "hint": "Dat"
+        },
+        {
+          "before": "die neue Pflegekraft + mit →",
+          "after": "",
+          "answer": "mit der neuen Pflegekraft",
+          "en": "with the new nurse",
+          "why": "der neuen.",
+          "tip": "Dat",
+          "hint": "Dat"
+        },
+        {
+          "before": "eine neue Kollegin + mit →",
+          "after": "",
+          "answer": "mit einer neuen Kollegin",
+          "en": "with a new colleague",
+          "why": "einer neuen.",
+          "tip": "Dat",
+          "hint": "Dat"
+        },
+        {
+          "before": "der dritte Tag + am →",
+          "after": "",
+          "answer": "am dritten Tag",
+          "en": "on the third day",
+          "why": "Ordinal -en.",
+          "tip": "am",
+          "hint": "Ordinal"
+        },
+        {
+          "before": "die zweite Dosis + nach →",
+          "after": "",
+          "answer": "nach der zweiten Dosis",
+          "en": "after the second dose",
+          "why": "Feminine dative.",
+          "tip": "nach",
+          "hint": "Dat"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "mit dem starker Schmerz"
+          ],
+          "options": [
+            "mit dem starken Schmerz",
+            "mit dem starker Schmerz",
+            "mit dem starke Schmerz"
+          ],
+          "answer": 0,
+          "reveal": "mit dem starken Schmerz",
+          "hint": "After dem the adjective is -en."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "mit einer neue Kollegin"
+          ],
+          "options": [
+            "mit einer neuen Kollegin",
+            "mit einer neue Kollegin",
+            "mit einer neuer Kollegin"
+          ],
+          "answer": 0,
+          "reveal": "mit einer neuen Kollegin",
+          "hint": "Dative adjective -en."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "am dritte Tag"
+          ],
+          "options": [
+            "am dritten Tag",
+            "am dritte Tag",
+            "am drittem Tag"
+          ],
+          "answer": 0,
+          "reveal": "am dritten Tag",
+          "hint": "The ordinal takes -en."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "mit neue Verbände"
+          ],
+          "options": [
+            "mit neuen Verbänden",
+            "mit neue Verbände",
+            "mit neuer Verbände"
+          ],
+          "answer": 0,
+          "reveal": "mit neuen Verbänden",
+          "hint": "Bare plural dative is -en, and the noun takes -n."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "After the operation",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Complete the handover.",
+      "chips": [
+        {
+          "w": "dem neuen",
+          "hint": "Dat"
+        },
+        {
+          "w": "einer neuen",
+          "hint": "Dat"
+        },
+        {
+          "w": "dritten",
+          "hint": "Ordinal"
+        },
+        {
+          "w": "zweiten",
+          "hint": "Dat"
+        },
+        {
+          "w": "kleinen",
+          "hint": "Dat"
+        },
+        {
+          "w": "starken",
+          "hint": "Dat"
+        }
+      ],
+      "items": [
+        {
+          "before": "Die Ärztin spricht mit",
+          "after": "Patienten.",
+          "answer": "dem neuen",
+          "en": "the new patient",
+          "why": "Dative.",
+          "tip": "-en",
+          "hint": "Dat",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ich komme mit",
+          "after": "Kollegin.",
+          "answer": "einer neuen",
+          "en": "a new colleague",
+          "why": "Dative.",
+          "tip": "-en",
+          "hint": "Dat",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wir prüfen am",
+          "after": "Tag den Verband.",
+          "answer": "dritten",
+          "en": "the third day",
+          "why": "Ordinal.",
+          "tip": "-en",
+          "hint": "Ordinal",
+          "who": "Ärztin"
+        },
+        {
+          "before": "Nach der",
+          "after": "Dosis bleibt der Schmerz leicht.",
+          "answer": "zweiten",
+          "en": "the second dose",
+          "why": "Feminine dative.",
+          "tip": "-en",
+          "hint": "Dat",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Er liegt in dem",
+          "after": "Zimmer.",
+          "answer": "kleinen",
+          "en": "the small room",
+          "why": "Dative neuter.",
+          "tip": "-en",
+          "hint": "Dat",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Sie kommt mit dem",
+          "after": "Schmerz nicht zurecht.",
+          "answer": "starken",
+          "en": "the severe pain",
+          "why": "Dative.",
+          "tip": "-en",
+          "hint": "Dat",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "px-gap-2",
+      "label": "More datives",
+      "title": "Article or no article?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Watch -en and the bare -em.",
+      "chips": [
+        {
+          "w": "der zweiten",
+          "hint": "Dat"
+        },
+        {
+          "w": "neuen",
+          "hint": "Plural"
+        },
+        {
+          "w": "dem kleinen",
+          "hint": "Dat"
+        },
+        {
+          "w": "starkem",
+          "hint": "Dat"
+        },
+        {
+          "w": "einem kleinen",
+          "hint": "Dat"
+        },
+        {
+          "w": "ersten",
+          "hint": "Ordinal"
+        },
+        {
+          "w": "keinen neuen",
+          "hint": "Plural"
+        },
+        {
+          "w": "postoperativen",
+          "hint": "Dat"
+        }
+      ],
+      "items": [
+        {
+          "before": "nach",
+          "after": "Dosis",
+          "answer": "der zweiten",
+          "en": "after the second dose",
+          "why": "Feminine dative.",
+          "tip": "-en",
+          "hint": "Dat"
+        },
+        {
+          "before": "ohne Artikel, Plural: mit",
+          "after": "Verbänden",
+          "answer": "neuen",
+          "en": "with new dressings",
+          "why": "No article, plural -en.",
+          "tip": "-en",
+          "hint": "Plural"
+        },
+        {
+          "before": "in",
+          "after": "Zimmer",
+          "answer": "dem kleinen",
+          "en": "in the small room",
+          "why": "Neuter dative.",
+          "tip": "-en",
+          "hint": "Dat"
+        },
+        {
+          "before": "mit",
+          "after": "Schmerz",
+          "answer": "starkem",
+          "en": "with severe pain",
+          "why": "No article, masculine -em.",
+          "tip": "-em",
+          "hint": "Dat"
+        },
+        {
+          "before": "mit",
+          "after": "Pflaster",
+          "answer": "einem kleinen",
+          "en": "with a small plaster",
+          "why": "einem + -en.",
+          "tip": "-en",
+          "hint": "Dat"
+        },
+        {
+          "before": "am",
+          "after": "Mai",
+          "answer": "ersten",
+          "en": "on the first of May",
+          "why": "Ordinal.",
+          "tip": "-en",
+          "hint": "Ordinal"
+        },
+        {
+          "before": "Negation: mit",
+          "after": "Verbänden",
+          "answer": "keinen neuen",
+          "en": "with no new dressings",
+          "why": "Negative dative plural.",
+          "tip": "-en",
+          "hint": "Plural"
+        },
+        {
+          "before": "am dritten",
+          "after": "Tag",
+          "answer": "postoperativen",
+          "en": "postoperative",
+          "why": "Second adjective, also -en.",
+          "tip": "-en",
+          "hint": "Dat"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read and answer",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Am dritten Tag",
+        "paragraphs": [
+          "Die Ärztin spricht mit dem neuen Patienten. Die Pflegekraft kommt mit einer neuen Kollegin. Am dritten postoperativen Tag prüft sie den Verband. Nach der zweiten Dosis bleibt der Schmerz leicht. Der Patient liegt in dem kleinen Zimmer."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "q": "Mit wem spricht die Ärztin?",
+          "qEn": "Whom?",
+          "options": [
+            "mit dem neuen Patienten",
+            "mit den neuen Patienten",
+            "den neuen Patienten"
+          ],
+          "answer": 0,
+          "why": "sprechen mit + dative.",
+          "hint": "sprechen mit + dative."
+        },
+        {
+          "q": "Mit wem kommt die Pflegekraft?",
+          "qEn": "Whom?",
+          "options": [
+            "mit einer neuen Kollegin",
+            "mit eine neue Kollegin",
+            "eine neue Kollegin"
+          ],
+          "answer": 0,
+          "why": "mit + dative.",
+          "hint": "mit + dative."
+        },
+        {
+          "q": "Wann prüft sie den Verband?",
+          "qEn": "When?",
+          "options": [
+            "am dritten postoperativen Tag",
+            "am dritte Tag",
+            "den dritten Tag"
+          ],
+          "answer": 0,
+          "why": "am dritten.",
+          "hint": "am dritten."
+        },
+        {
+          "q": "Wie bleibt der Schmerz nach der zweiten Dosis?",
+          "qEn": "How?",
+          "options": [
+            "leicht",
+            "leichten",
+            "leichter"
+          ],
+          "answer": 0,
+          "why": "After bleibt there is no ending.",
+          "hint": "After bleibt there is no ending."
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "The third day",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write three dative phrases from the ward.",
+      "prompt": "Mention the new patient, the third day, and the second dose.",
+      "bullets": [
+        "Use dem neuen.",
+        "Use dritten.",
+        "Use zweiten."
+      ],
+      "model": "Die Ärztin spricht mit dem neuen Patienten. Am dritten Tag prüft sie den Verband. Nach der zweiten Dosis bleibt der Schmerz leicht.",
+      "modelEn": "The doctor speaks with the new patient. On the third day she checks the dressing. After the second dose the pain stays mild.",
+      "hint": "Dative adjectives end in -en. Ordinals do too.",
+      "checklist": [
+        {
+          "id": "neuen",
+          "label": "Uses dem neuen",
+          "keywords": [
+            "dem neuen"
+          ]
+        },
+        {
+          "id": "dritten",
+          "label": "Uses dritten",
+          "keywords": [
+            "dritten"
+          ]
+        },
+        {
+          "id": "zweiten",
+          "label": "Uses zweiten",
+          "keywords": [
+            "zweiten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "mit dem ___ Schmerz",
+          "qEn": "Article dem.",
+          "options": [
+            "starken",
+            "starker",
+            "starkem"
+          ],
+          "answer": 0,
+          "why": "Adjective -en.",
+          "hint": "-en"
+        },
+        {
+          "kind": "mc",
+          "q": "mit einer ___ Kollegin",
+          "qEn": "Feminine dative.",
+          "options": [
+            "neue",
+            "neuen",
+            "neuer"
+          ],
+          "answer": 1,
+          "why": "Still -en.",
+          "hint": "-en"
+        },
+        {
+          "kind": "mc",
+          "q": "no article, masculine dative",
+          "qEn": "Bare.",
+          "options": [
+            "starken",
+            "starker",
+            "starkem"
+          ],
+          "answer": 2,
+          "why": "mit starkem Schmerz.",
+          "hint": "-em"
+        },
+        {
+          "kind": "mc",
+          "q": "no article, plural dative",
+          "qEn": "Bare plural.",
+          "options": [
+            "neuen",
+            "neue",
+            "neuem"
+          ],
+          "answer": 0,
+          "why": "mit neuen Verbänden.",
+          "hint": "-en"
+        },
+        {
+          "kind": "mc",
+          "q": "am ___ Tag",
+          "qEn": "Ordinal.",
+          "options": [
+            "dritte",
+            "dritten",
+            "dritter"
+          ],
+          "answer": 1,
+          "why": "am dritten Tag.",
+          "hint": "ordinal"
+        },
+        {
+          "kind": "mc",
+          "q": "nach der ___ Dosis",
+          "qEn": "Feminine dative.",
+          "options": [
+            "zweite",
+            "zweitem",
+            "zweiten"
+          ],
+          "answer": 2,
+          "why": "nach der zweiten.",
+          "hint": "-en"
+        },
+        {
+          "kind": "mc",
+          "q": "den neuen Verbänden is…",
+          "qEn": "Case.",
+          "options": [
+            "Dativ plural",
+            "Akkusativ",
+            "Nominativ"
+          ],
+          "answer": 0,
+          "why": "den + -n is dative plural.",
+          "hint": "Dativ"
+        },
+        {
+          "kind": "mc",
+          "q": "der neuen Pflegekraft: der is…",
+          "qEn": "Looks like nominative.",
+          "options": [
+            "masculine nominative",
+            "feminine dative",
+            "neuter dative"
+          ],
+          "answer": 1,
+          "why": "The adjective -en shows the dative.",
+          "hint": "Dativ"
+        },
+        {
+          "kind": "mc",
+          "q": "Patient in the dative",
+          "qEn": "n-noun.",
+          "options": [
+            "dem neuen Patient",
+            "den neuen Patient",
+            "dem neuen Patienten"
+          ],
+          "answer": 2,
+          "why": "Both the adjective and Patient take -en.",
+          "hint": "Patienten"
+        },
+        {
+          "kind": "mc",
+          "q": "Two adjectives",
+          "qEn": "Both decline.",
+          "options": [
+            "dem starken neuen Schmerz",
+            "dem starker neuer Schmerz",
+            "dem starke neue Schmerz"
+          ],
+          "answer": 0,
+          "why": "Both take -en.",
+          "hint": "-en"
+        },
+        {
+          "kind": "mc",
+          "q": "am ersten Mai: ersten is…",
+          "qEn": "Ordinal.",
+          "options": [
+            "an adverb",
+            "a dative adjective",
+            "a noun"
+          ],
+          "answer": 1,
+          "why": "Ordinals decline.",
+          "hint": "ordinal"
+        },
+        {
+          "kind": "mc",
+          "q": "bleibt der Schmerz ___",
+          "qEn": "After a verb.",
+          "options": [
+            "leichten",
+            "leichter",
+            "leicht"
+          ],
+          "answer": 2,
+          "why": "No ending after bleiben.",
+          "hint": "predicative"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Am dritten Tag",
+      "redemittel": [
+        {
+          "de": "mit dem starken Schmerz",
+          "en": "with the severe pain"
+        },
+        {
+          "de": "mit einer neuen Kollegin",
+          "en": "with a new colleague"
+        },
+        {
+          "de": "am dritten Tag",
+          "en": "on the third day"
+        },
+        {
+          "de": "nach der zweiten Dosis",
+          "en": "after the second dose"
+        }
+      ]
+    }
+  ]
+}

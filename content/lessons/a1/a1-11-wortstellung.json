@@ -1,0 +1,1691 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "sind": {
+      "de": "sein → sind",
+      "pos": "verb",
+      "en": "are"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "habe": {
+      "de": "haben → habe",
+      "pos": "verb",
+      "en": "have"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "verb",
+      "en": "to lie"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "stehen": {
+      "de": "stehen",
+      "pos": "verb",
+      "en": "to stand"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "verb",
+      "en": "to come"
+    },
+    "geht": {
+      "de": "gehen → geht",
+      "pos": "verb",
+      "en": "goes"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "misst": {
+      "de": "messen → misst",
+      "pos": "verb",
+      "en": "measures"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "ärzte": {
+      "de": "Ärzte",
+      "pos": "noun",
+      "en": "doctors",
+      "article": "die",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "emoji": "🛏️"
+    },
+    "betten": {
+      "de": "Betten",
+      "pos": "noun",
+      "en": "beds",
+      "article": "die",
+      "plural": "die Betten",
+      "emoji": "🛏️"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "article": "der",
+      "plural": "die Tische",
+      "emoji": "🪑"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "article": "die",
+      "plural": "die Stationen",
+      "emoji": "🏥"
+    },
+    "montag": {
+      "de": "Montag",
+      "pos": "noun",
+      "en": "Monday",
+      "article": "der",
+      "plural": "die Montage",
+      "emoji": "📅"
+    },
+    "morgen": {
+      "de": "Morgen",
+      "pos": "noun",
+      "en": "morning",
+      "article": "der",
+      "plural": "die Morgen",
+      "emoji": "🌅"
+    },
+    "röntgen": {
+      "de": "Röntgen",
+      "pos": "noun",
+      "en": "X-ray",
+      "article": "das",
+      "plural": "die Röntgen",
+      "emoji": "🩻"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in + dem"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "an + dem"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "contraction",
+      "en": "zu + dem"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on; onto"
+    },
+    "seit": {
+      "de": "seit",
+      "pos": "preposition",
+      "en": "since"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "question",
+      "en": "where"
+    },
+    "warum": {
+      "de": "warum",
+      "pos": "question",
+      "en": "why"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "frei": {
+      "de": "frei",
+      "pos": "adjective",
+      "en": "free"
+    }
+  },
+  "id": "a1-11-wortstellung",
+  "level": "A1",
+  "unit": "Kapitel 11",
+  "chapter": 11,
+  "chapters": [
+    11
+  ],
+  "title": "Wo steht was?",
+  "subtitle": "Word order: verb position, time before place",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "In a statement the verb is in position 2. One idea fills position 1: Heute kommt der Arzt.",
+        "In a W-question the verb is also in position 2: Wo liegt der Patient?",
+        "In a yes/no question the verb is in position 1: Kommt der Arzt heute?",
+        "Neutral order puts time before place: Am Morgen liegt der Patient im Zimmer."
+      ],
+      "vocab": [
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "🩺",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "ward",
+          "emoji": "🏥",
+          "glossaryKey": "station"
+        },
+        {
+          "de": "Morgen",
+          "article": "der",
+          "plural": "die Morgen",
+          "en": "morning",
+          "emoji": "🌅",
+          "glossaryKey": "morgen"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "emoji": "🤒",
+          "glossaryKey": "fieber"
+        }
+      ],
+      "text": {
+        "title": "Heute kommt der Arzt",
+        "de": "Heute kommt der Arzt auf die Station. Seit Montag liegt der Patient im Zimmer. Am Morgen misst die Pflegekraft das Fieber. Am Morgen liegt der Patient im Zimmer. Heute geht der Patient zum Röntgen. Warum kommt der Arzt? Wo liegt der Patient? Kommt der Arzt heute?",
+        "en": "Today the doctor comes onto the ward. The patient has been lying in the room since Monday. In the morning the nurse takes the temperature. In the morning the patient lies in the room. Today the patient goes to X-ray. Why is the doctor coming? Where is the patient lying? Is the doctor coming today?"
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Position 2",
+      "practice": "choose",
+      "heroTitle": "The verb keeps its position",
+      "heroImage": "ward",
+      "story": [
+        "Count ideas, not little words. <b>Heute</b> is position 1. <b>kommt</b> is position 2. The subject follows.",
+        "A W-question does the same: <b>Wo</b> is position 1, <b>liegt</b> is position 2. A yes/no question has no position 1: the verb itself opens it.",
+        "When a sentence has both a time and a place, the neutral order is time first and place late: Am Morgen liegt der Patient <b>im Zimmer</b>."
+      ],
+      "questionRule": "In these exercises the time word starts the statement. Then the verb, the subject, and the place.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "Heute",
+              "r": "subj"
+            },
+            {
+              "t": "kommt",
+              "r": "rest"
+            },
+            {
+              "t": "der",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Heute",
+              "r": "subj"
+            },
+            {
+              "t": "kommt",
+              "r": "verb"
+            },
+            {
+              "t": "der",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Time in position 1.",
+          "enAfter": "Heute kommt der Arzt.",
+          "callLabel": "Show the statement"
+        },
+        {
+          "before": [
+            {
+              "t": "Wo",
+              "r": "subj"
+            },
+            {
+              "t": "liegt",
+              "r": "rest"
+            },
+            {
+              "t": "der",
+              "r": "rest"
+            },
+            {
+              "t": "Patient",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Wo",
+              "r": "subj"
+            },
+            {
+              "t": "liegt",
+              "r": "verb"
+            },
+            {
+              "t": "der",
+              "r": "rest"
+            },
+            {
+              "t": "Patient",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "W-question, verb still second.",
+          "enAfter": "Wo liegt der Patient?",
+          "callLabel": "Show the W-question"
+        },
+        {
+          "before": [
+            {
+              "t": "Kommt",
+              "r": "subj"
+            },
+            {
+              "t": "der",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "rest"
+            },
+            {
+              "t": "heute",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Kommt",
+              "r": "subj"
+            },
+            {
+              "t": "der",
+              "r": "verb"
+            },
+            {
+              "t": "Arzt",
+              "r": "rest"
+            },
+            {
+              "t": "heute",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Yes/no: verb first.",
+          "enAfter": "Kommt der Arzt heute?",
+          "callLabel": "Show the yes/no question"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Position 2",
+          "caption": "Statements and W-questions: verb in position 2. Yes/no questions: verb in position 1.",
+          "columns": [
+            "Position 1",
+            "Verb",
+            "Rest"
+          ],
+          "rows": [
+            {
+              "label": "heute",
+              "cells": [
+                "Heute",
+                "kommt",
+                "der Arzt auf die Station."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "seit",
+              "cells": [
+                "Seit Montag",
+                "liegt",
+                "der Patient im Zimmer."
+              ]
+            },
+            {
+              "label": "morgen",
+              "cells": [
+                "Am Morgen",
+                "misst",
+                "die Pflegekraft das Fieber."
+              ]
+            },
+            {
+              "label": "warum",
+              "cells": [
+                "Warum",
+                "kommt",
+                "der Arzt?"
+              ]
+            },
+            {
+              "label": "wo",
+              "cells": [
+                "Wo",
+                "liegt",
+                "der Patient?"
+              ]
+            },
+            {
+              "label": "ja/nein",
+              "cells": [
+                "—",
+                "Kommt",
+                "der Arzt heute?"
+              ],
+              "highlight": true
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Time before place",
+        "items": [
+          {
+            "de": "Am Morgen liegt der Patient im Zimmer.",
+            "en": "Time, verb, subject, place.",
+            "tone": "ok"
+          },
+          {
+            "de": "Am Morgen der Patient liegt im Zimmer.",
+            "en": "The verb is not in position 2.",
+            "tone": "stop"
+          },
+          {
+            "de": "Kommt der Arzt heute?",
+            "en": "Yes/no: verb first.",
+            "tone": "ok"
+          },
+          {
+            "de": "Der Arzt kommt heute?",
+            "en": "That is a statement with a question mark.",
+            "tone": "stop"
+          },
+          {
+            "de": "Wo liegt der Patient?",
+            "en": "W-question: verb second.",
+            "tone": "ok"
+          },
+          {
+            "de": "Wo der Patient liegt?",
+            "en": "The verb has slipped to the end.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Statement and W-question: verb second. Yes/no: verb first. Time before place."
+      },
+      "tips": [
+        {
+          "title": "Zeit, dann Ort",
+          "emoji": "🕒",
+          "mnemonic": "time · verb · subject · place",
+          "body": "Am Morgen is the time. im Zimmer is the place. The place comes after the subject in the neutral sentence.",
+          "examples": [
+            {
+              "de": "Heute geht der Patient zum Röntgen.",
+              "en": "time, verb, subject, place"
+            },
+            {
+              "de": "Seit Montag liegt er im Zimmer.",
+              "en": "seit Montag is one position"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Where is the verb?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Neutral statement. Start with the time.",
+          "qEn": "Time first.",
+          "options": [
+            "Heute kommt der Arzt auf die Station.",
+            "Der Arzt kommt heute auf die Station.",
+            "Heute der Arzt kommt auf die Station."
+          ],
+          "answer": 0,
+          "why": "The task wants Heute in position 1 and kommt in position 2.",
+          "hint": "Time first."
+        },
+        {
+          "kind": "mc",
+          "q": "Yes/no: is the doctor coming today?",
+          "qEn": "Verb first.",
+          "options": [
+            "Der Arzt kommt heute?",
+            "Kommt der Arzt heute?",
+            "Heute kommt der Arzt?"
+          ],
+          "answer": 1,
+          "why": "A yes/no question opens with the verb.",
+          "hint": "Position 1."
+        },
+        {
+          "kind": "mc",
+          "q": "W-question: where is the patient lying?",
+          "qEn": "Verb second.",
+          "options": [
+            "Wo der Patient liegt?",
+            "Liegt wo der Patient?",
+            "Wo liegt der Patient?"
+          ],
+          "answer": 2,
+          "why": "Wo is position 1. liegt is position 2.",
+          "hint": "Position 2."
+        },
+        {
+          "kind": "mc",
+          "q": "Time and place. Neutral order.",
+          "qEn": "Time before place.",
+          "options": [
+            "Am Morgen liegt der Patient im Zimmer.",
+            "Im Zimmer liegt der Patient am Morgen.",
+            "Am Morgen der Patient liegt im Zimmer."
+          ],
+          "answer": 0,
+          "why": "For this exercise the time starts, and the verb stays second.",
+          "hint": "Time first."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Lücken",
+      "title": "Put the verb in",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The infinitive is given. Use only that verb, in the position the sentence needs.",
+      "chips": [
+        {
+          "w": "kommt",
+          "hint": "After Heute."
+        },
+        {
+          "w": "liegt",
+          "hint": "After the time."
+        },
+        {
+          "w": "misst",
+          "hint": "After Am Morgen."
+        },
+        {
+          "w": "steht",
+          "hint": "After Wo."
+        },
+        {
+          "w": "bleibt",
+          "hint": "After Warum."
+        },
+        {
+          "w": "Geht",
+          "hint": "Verb first."
+        }
+      ],
+      "items": [
+        {
+          "before": "kommen: Heute",
+          "after": "der Arzt auf die Station.",
+          "answer": "kommt",
+          "en": "today the doctor comes",
+          "why": "Verb in position 2.",
+          "tip": "Position 2",
+          "hint": "After Heute."
+        },
+        {
+          "before": "liegen: Seit Montag",
+          "after": "der Patient im Zimmer.",
+          "answer": "liegt",
+          "en": "since Monday",
+          "why": "liegt in position 2.",
+          "tip": "Position 2",
+          "hint": "After the time."
+        },
+        {
+          "before": "messen: Am Morgen",
+          "after": "die Pflegekraft das Fieber.",
+          "answer": "misst",
+          "en": "in the morning",
+          "why": "misst in position 2.",
+          "tip": "Position 2",
+          "hint": "After Am Morgen."
+        },
+        {
+          "before": "stehen: Wo",
+          "after": "das Bett?",
+          "answer": "steht",
+          "en": "where",
+          "why": "W-question, verb second.",
+          "tip": "Position 2",
+          "hint": "After Wo."
+        },
+        {
+          "before": "bleiben: Warum",
+          "after": "er im Zimmer?",
+          "answer": "bleibt",
+          "en": "why",
+          "why": "W-question, verb second.",
+          "tip": "Position 2",
+          "hint": "After Warum."
+        },
+        {
+          "before": "gehen:",
+          "after": "der Patient heute zum Röntgen?",
+          "answer": "Geht",
+          "en": "yes/no",
+          "why": "Yes/no: verb first.",
+          "tip": "Position 1",
+          "hint": "Verb first."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "label": "Match",
+      "title": "Which order?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the sentence this task wants.",
+      "items": [
+        {
+          "prompt": "Statement, time first.",
+          "options": [
+            {
+              "emoji": "🕒",
+              "label": "Heute kommt der Arzt.",
+              "caption": "verb second"
+            },
+            {
+              "emoji": "❌",
+              "label": "Heute der Arzt kommt.",
+              "caption": "verb third"
+            },
+            {
+              "emoji": "❓",
+              "label": "Kommt heute der Arzt.",
+              "caption": "that is a question"
+            }
+          ],
+          "answer": 0,
+          "why": "Heute, then kommt.",
+          "hint": "Position 2."
+        },
+        {
+          "prompt": "Yes/no question.",
+          "options": [
+            {
+              "emoji": "❓",
+              "label": "Kommt der Arzt heute?",
+              "caption": "verb first"
+            },
+            {
+              "emoji": "🗣️",
+              "label": "Der Arzt kommt heute?",
+              "caption": "statement shape"
+            },
+            {
+              "emoji": "🕒",
+              "label": "Heute kommt der Arzt?",
+              "caption": "that is a W-less statement"
+            }
+          ],
+          "answer": 0,
+          "why": "The verb opens a yes/no question.",
+          "hint": "Position 1."
+        },
+        {
+          "prompt": "W-question.",
+          "options": [
+            {
+              "emoji": "📍",
+              "label": "Wo liegt der Patient?",
+              "caption": "verb second"
+            },
+            {
+              "emoji": "❌",
+              "label": "Wo der Patient liegt?",
+              "caption": "verb at the end"
+            },
+            {
+              "emoji": "❌",
+              "label": "Liegt der Patient wo?",
+              "caption": "wo is not in position 1"
+            }
+          ],
+          "answer": 0,
+          "why": "Wo, then liegt.",
+          "hint": "Position 2."
+        },
+        {
+          "prompt": "Time before place.",
+          "options": [
+            {
+              "emoji": "🛏️",
+              "label": "Am Morgen liegt der Patient im Zimmer.",
+              "caption": "neutral"
+            },
+            {
+              "emoji": "🛏️",
+              "label": "Im Zimmer liegt am Morgen der Patient.",
+              "caption": "place first"
+            },
+            {
+              "emoji": "❌",
+              "label": "Am Morgen der Patient liegt im Zimmer.",
+              "caption": "verb late"
+            }
+          ],
+          "answer": 0,
+          "why": "Time in position 1, place at the end.",
+          "hint": "Time first."
+        }
+      ]
+    },
+    {
+      "id": "picture-order",
+      "label": "Picture",
+      "title": "Picture the place",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "The place comes late in the sentence.",
+      "items": [
+        {
+          "id": "ward",
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "Heute kommt der Arzt auf die Station.",
+          "image": {
+            "type": "svg",
+            "id": "ward"
+          },
+          "hint": "Place late."
+        },
+        {
+          "id": "room",
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "Seit Montag liegt er im Zimmer.",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Place late."
+        },
+        {
+          "id": "fever",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "Am Morgen misst sie das Fieber.",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "Time first."
+        },
+        {
+          "id": "xray",
+          "de": "Röntgen",
+          "article": "das",
+          "plural": "die Röntgen",
+          "en": "Heute geht er zum Röntgen.",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "Place late."
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Time in position 1 when there is a time. Verb in position 2, except in a yes/no question.",
+      "items": [
+        {
+          "tiles": [
+            "Heute",
+            "kommt",
+            "der",
+            "Arzt"
+          ],
+          "answers": [
+            "Heute kommt der Arzt"
+          ],
+          "punct": ".",
+          "modal": "kommt",
+          "inf": "Arzt",
+          "question": false,
+          "en": "The doctor comes today.",
+          "hint": "Time first.",
+          "feedback": {
+            "fallback": "Time first."
+          }
+        },
+        {
+          "tiles": [
+            "Am",
+            "Morgen",
+            "liegt",
+            "er",
+            "im",
+            "Zimmer"
+          ],
+          "answers": [
+            "Am Morgen liegt er im Zimmer"
+          ],
+          "punct": ".",
+          "modal": "Morgen",
+          "inf": "Zimmer",
+          "question": false,
+          "en": "In the morning he is in the room.",
+          "hint": "Time, then place.",
+          "feedback": {
+            "fallback": "Time, then place."
+          }
+        },
+        {
+          "tiles": [
+            "Wo",
+            "liegt",
+            "der",
+            "Patient"
+          ],
+          "answers": [
+            "Wo liegt der Patient"
+          ],
+          "punct": "?",
+          "modal": "liegt",
+          "inf": "Patient",
+          "question": true,
+          "en": "Where is the patient lying?",
+          "hint": "Verb second.",
+          "feedback": {
+            "fallback": "Verb second."
+          }
+        },
+        {
+          "tiles": [
+            "Kommt",
+            "der",
+            "Arzt",
+            "heute"
+          ],
+          "answers": [
+            "Kommt der Arzt heute"
+          ],
+          "punct": "?",
+          "modal": "der",
+          "inf": "heute",
+          "question": true,
+          "en": "Is the doctor coming today?",
+          "hint": "Verb first.",
+          "feedback": {
+            "fallback": "Verb first."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Umformen",
+      "title": "Start with the time",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Rewrite so the time is in position 1.",
+      "chips": [
+        {
+          "w": "Heute kommt der Arzt.",
+          "hint": "Position 1."
+        },
+        {
+          "w": "Seit Montag liegt der Patient im Zimmer.",
+          "hint": "Time first."
+        },
+        {
+          "w": "Am Morgen misst die Pflegekraft das Fieber.",
+          "hint": "Time first."
+        },
+        {
+          "w": "Heute geht der Patient zum Röntgen.",
+          "hint": "Time first."
+        },
+        {
+          "w": "Wo liegt der Patient?",
+          "hint": "Position 2."
+        },
+        {
+          "w": "Kommt der Arzt heute?",
+          "hint": "Position 1."
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Arzt kommt heute.",
+          "after": "",
+          "answer": "Heute kommt der Arzt.",
+          "en": "time first",
+          "why": "heute moves to position 1. The verb stays second.",
+          "tip": "heute",
+          "hint": "Position 1."
+        },
+        {
+          "before": "Der Patient liegt seit Montag im Zimmer.",
+          "after": "",
+          "answer": "Seit Montag liegt der Patient im Zimmer.",
+          "en": "since Monday",
+          "why": "Seit Montag is one position.",
+          "tip": "seit",
+          "hint": "Time first."
+        },
+        {
+          "before": "Die Pflegekraft misst am Morgen das Fieber.",
+          "after": "",
+          "answer": "Am Morgen misst die Pflegekraft das Fieber.",
+          "en": "morning",
+          "why": "Am Morgen moves forward.",
+          "tip": "Morgen",
+          "hint": "Time first."
+        },
+        {
+          "before": "Der Patient geht heute zum Röntgen.",
+          "after": "",
+          "answer": "Heute geht der Patient zum Röntgen.",
+          "en": "today",
+          "why": "heute in position 1, place at the end.",
+          "tip": "heute",
+          "hint": "Time first."
+        },
+        {
+          "before": "Der Patient liegt im Zimmer. Frage mit wo.",
+          "after": "",
+          "answer": "Wo liegt der Patient?",
+          "en": "where",
+          "why": "Wo, then the verb.",
+          "tip": "Wo",
+          "hint": "Position 2."
+        },
+        {
+          "before": "Der Arzt kommt heute. Ja/Nein.",
+          "after": "",
+          "answer": "Kommt der Arzt heute?",
+          "en": "yes/no",
+          "why": "The verb opens the question.",
+          "tip": "Kommt",
+          "hint": "Position 1."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Heute der Arzt kommt auf die Station."
+          ],
+          "options": [
+            "Heute kommt der Arzt auf die Station.",
+            "Kommt heute der Arzt auf die Station.",
+            "Heute auf die Station kommt der Arzt."
+          ],
+          "answer": 0,
+          "reveal": "After Heute the verb must come.",
+          "hint": "Position 2."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Arzt kommt heute? als Ja/Nein-Frage."
+          ],
+          "options": [
+            "Kommt der Arzt heute?",
+            "Heute kommt der Arzt?",
+            "Der kommt Arzt heute?"
+          ],
+          "answer": 0,
+          "reveal": "A yes/no question opens with the verb.",
+          "hint": "Position 1."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wo der Patient liegt?"
+          ],
+          "options": [
+            "Wo liegt der Patient?",
+            "Wo der liegt Patient?",
+            "Liegt wo der Patient?"
+          ],
+          "answer": 0,
+          "reveal": "liegt is position 2.",
+          "hint": "Position 2."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Am Morgen der Patient liegt im Zimmer."
+          ],
+          "options": [
+            "Am Morgen liegt der Patient im Zimmer.",
+            "Im Zimmer am Morgen liegt der Patient.",
+            "Am Morgen im Zimmer liegt der Patient."
+          ],
+          "answer": 0,
+          "reveal": "The verb is position 2, the place comes after the subject.",
+          "hint": "Time, then verb."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-order",
+      "label": "Dialog",
+      "title": "Handover",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the only chip that fits.",
+      "chips": [
+        {
+          "w": "Heute",
+          "hint": "Time."
+        },
+        {
+          "w": "Seit Montag",
+          "hint": "Time."
+        },
+        {
+          "w": "Am Morgen",
+          "hint": "Time."
+        },
+        {
+          "w": "Wo",
+          "hint": "Question."
+        },
+        {
+          "w": "Warum",
+          "hint": "Question."
+        },
+        {
+          "w": "Kommt",
+          "hint": "Question."
+        }
+      ],
+      "items": [
+        {
+          "before": "Ein Tag, nicht Dauer, nicht Tageszeit:",
+          "after": "kommt der Arzt auf die Station.",
+          "answer": "Heute",
+          "en": "time first",
+          "why": "heute in position 1.",
+          "tip": "Zeit",
+          "hint": "Time.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Eine Dauer, nicht ein Tag:",
+          "after": "liegt der Patient im Zimmer.",
+          "answer": "Seit Montag",
+          "en": "since Monday",
+          "why": "One time phrase.",
+          "tip": "Zeit",
+          "hint": "Time.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Die Tageszeit, nicht ein Tag:",
+          "after": "misst Anna das Fieber.",
+          "answer": "Am Morgen",
+          "en": "morning",
+          "why": "Time first.",
+          "tip": "Zeit",
+          "hint": "Time.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ort, nicht Grund:",
+          "after": "liegt der Patient?",
+          "answer": "Wo",
+          "en": "where",
+          "why": "Verb second.",
+          "tip": "Wo",
+          "hint": "Question.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Grund, nicht Ort:",
+          "after": "kommt der Arzt?",
+          "answer": "Warum",
+          "en": "why",
+          "why": "Verb second.",
+          "tip": "Warum",
+          "hint": "Question.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Ja oder Nein, das Verb zuerst:",
+          "after": "der Patient heute zum Röntgen?",
+          "answer": "Kommt",
+          "en": "yes/no",
+          "why": "Verb first.",
+          "tip": "Verb",
+          "hint": "Question.",
+          "who": "Arzt"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-order",
+      "label": "Lücken",
+      "title": "Time or verb",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the only chip that fits.",
+      "chips": [
+        {
+          "w": "Heute",
+          "hint": "Time."
+        },
+        {
+          "w": "Seit Montag",
+          "hint": "Time."
+        },
+        {
+          "w": "Am Morgen",
+          "hint": "Time."
+        },
+        {
+          "w": "liegt",
+          "hint": "Position 2."
+        },
+        {
+          "w": "misst",
+          "hint": "Position 2."
+        },
+        {
+          "w": "kommt",
+          "hint": "Position 2."
+        },
+        {
+          "w": "Wo",
+          "hint": "Position 1 of the question."
+        },
+        {
+          "w": "Warum",
+          "hint": "Position 2."
+        }
+      ],
+      "items": [
+        {
+          "before": "Ein Tag, nicht Dauer:",
+          "after": "geht der Patient zum Röntgen.",
+          "answer": "Heute",
+          "en": "today",
+          "why": "Time in position 1.",
+          "tip": "Zeit",
+          "hint": "Time."
+        },
+        {
+          "before": "Eine Dauer, nicht ein Tag:",
+          "after": "ist der Patient im Zimmer.",
+          "answer": "Seit Montag",
+          "en": "since Monday",
+          "why": "Time phrase first.",
+          "tip": "Zeit",
+          "hint": "Time."
+        },
+        {
+          "before": "Die Tageszeit:",
+          "after": "steht das Bett im Zimmer.",
+          "answer": "Am Morgen",
+          "en": "morning",
+          "why": "Time, then verb.",
+          "tip": "Zeit",
+          "hint": "Time."
+        },
+        {
+          "before": "liegen: Der Patient",
+          "after": "im Zimmer.",
+          "answer": "liegt",
+          "en": "lies",
+          "why": "Verb in position 2 after the subject.",
+          "tip": "Verb",
+          "hint": "Position 2."
+        },
+        {
+          "before": "messen: Die Pflegekraft",
+          "after": "das Fieber.",
+          "answer": "misst",
+          "en": "measures",
+          "why": "Verb in position 2.",
+          "tip": "Verb",
+          "hint": "Position 2."
+        },
+        {
+          "before": "kommen: Der Arzt",
+          "after": "auf die Station.",
+          "answer": "kommt",
+          "en": "comes",
+          "why": "Verb in position 2.",
+          "tip": "Verb",
+          "hint": "Position 2."
+        },
+        {
+          "before": "Ort, nicht Grund:",
+          "after": "ist die Akte?",
+          "answer": "Wo",
+          "en": "where",
+          "why": "Wo, then the verb.",
+          "tip": "Wo",
+          "hint": "Position 1 of the question."
+        },
+        {
+          "before": "Grund, nicht Ort:",
+          "after": "bleibt er im Bett?",
+          "answer": "Warum",
+          "en": "why",
+          "why": "Warum, then the verb.",
+          "tip": "Warum",
+          "hint": "Position 2."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Heute kommt der Arzt",
+        "paragraphs": [
+          "Heute kommt der Arzt auf die Station. Seit Montag liegt der Patient im Zimmer. Am Morgen misst die Pflegekraft das Fieber. Am Morgen liegt der Patient im Zimmer. Heute geht der Patient zum Röntgen. Warum kommt der Arzt? Wo liegt der Patient? Kommt der Arzt heute?"
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Was steht in Position 1 im ersten Satz?",
+          "qEn": "The opener.",
+          "options": [
+            "Heute",
+            "kommt",
+            "der Arzt"
+          ],
+          "answer": 0,
+          "why": "Heute is the time in position 1.",
+          "hint": "Time."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo liegt der Patient?",
+          "qEn": "Place.",
+          "options": [
+            "auf die Station",
+            "im Zimmer",
+            "zum Röntgen"
+          ],
+          "answer": 1,
+          "why": "The note says im Zimmer.",
+          "hint": "Room."
+        },
+        {
+          "kind": "mc",
+          "q": "Welche Frage hat das Verb in Position 1?",
+          "qEn": "Yes/no.",
+          "options": [
+            "Warum kommt der Arzt?",
+            "Wo liegt der Patient?",
+            "Kommt der Arzt heute?"
+          ],
+          "answer": 2,
+          "why": "Only the yes/no question opens with the verb.",
+          "hint": "Kommt."
+        },
+        {
+          "kind": "mc",
+          "q": "Wohin geht der Patient heute?",
+          "qEn": "Direction at the end.",
+          "options": [
+            "zum Röntgen",
+            "am Morgen",
+            "seit Montag"
+          ],
+          "answer": 0,
+          "why": "The place or direction comes late.",
+          "hint": "X-ray."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "label": "Writing",
+      "title": "Write the handover",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four sentences. Start the statements with the time.",
+      "prompt": "The doctor comes onto the ward today. The patient has been in the room since Monday. In the morning he is in the room. Ask where he is lying.",
+      "bullets": [
+        "Heute kommt",
+        "Seit Montag",
+        "Am Morgen",
+        "Wo liegt"
+      ],
+      "model": "Heute kommt der Arzt auf die Station. Seit Montag liegt der Patient im Zimmer. Am Morgen liegt der Patient im Zimmer. Wo liegt der Patient?",
+      "modelEn": "Today the doctor comes onto the ward. The patient has been in the room since Monday. In the morning the patient is in the room. Where is the patient lying?",
+      "hint": "Time, verb, subject, place.",
+      "checklist": [
+        {
+          "id": "heute",
+          "label": "A sentence starting with Heute",
+          "keywords": [
+            "Heute kommt"
+          ]
+        },
+        {
+          "id": "seit",
+          "label": "A sentence starting with Seit Montag",
+          "keywords": [
+            "Seit Montag"
+          ]
+        },
+        {
+          "id": "morgen",
+          "label": "A sentence starting with Am Morgen",
+          "keywords": [
+            "Am Morgen"
+          ]
+        },
+        {
+          "id": "wo",
+          "label": "A where question",
+          "keywords": [
+            "Wo liegt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 11. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Neutral statement, time first.",
+          "qEn": "Heute.",
+          "options": [
+            "Heute kommt der Arzt auf die Station.",
+            "Der Arzt kommt heute auf die Station.",
+            "Heute der Arzt kommt auf die Station."
+          ],
+          "answer": 0,
+          "why": "Time in position 1, verb in position 2.",
+          "hint": "Time first."
+        },
+        {
+          "kind": "mc",
+          "q": "Since Monday, neutral order.",
+          "qEn": "Seit Montag.",
+          "options": [
+            "Im Zimmer liegt der Patient seit Montag.",
+            "Seit Montag liegt der Patient im Zimmer.",
+            "Seit Montag der Patient liegt im Zimmer."
+          ],
+          "answer": 1,
+          "why": "Time phrase first.",
+          "hint": "Time first."
+        },
+        {
+          "kind": "mc",
+          "q": "Morning and room.",
+          "qEn": "Am Morgen.",
+          "options": [
+            "Im Zimmer liegt der Patient am Morgen.",
+            "Am Morgen der Patient liegt im Zimmer.",
+            "Am Morgen liegt der Patient im Zimmer."
+          ],
+          "answer": 2,
+          "why": "Time, verb, subject, place.",
+          "hint": "Time first."
+        },
+        {
+          "kind": "mc",
+          "q": "Yes/no.",
+          "qEn": "Verb first.",
+          "options": [
+            "Kommt der Arzt heute?",
+            "Der Arzt kommt heute?",
+            "Heute kommt der Arzt?"
+          ],
+          "answer": 0,
+          "why": "The verb opens it.",
+          "hint": "Position 1."
+        },
+        {
+          "kind": "mc",
+          "q": "Where question.",
+          "qEn": "Wo.",
+          "options": [
+            "Wo der Patient liegt?",
+            "Wo liegt der Patient?",
+            "Liegt wo der Patient?"
+          ],
+          "answer": 1,
+          "why": "Verb in position 2.",
+          "hint": "Position 2."
+        },
+        {
+          "kind": "mc",
+          "q": "Why question.",
+          "qEn": "Warum.",
+          "options": [
+            "Warum der Arzt kommt?",
+            "Kommt warum der Arzt?",
+            "Warum kommt der Arzt?"
+          ],
+          "answer": 2,
+          "why": "Verb in position 2.",
+          "hint": "Position 2."
+        },
+        {
+          "kind": "mc",
+          "q": "Today he goes to X-ray. Time first.",
+          "qEn": "Heute.",
+          "options": [
+            "Heute geht der Patient zum Röntgen.",
+            "Zum Röntgen geht der Patient heute.",
+            "Heute der Patient geht zum Röntgen."
+          ],
+          "answer": 0,
+          "why": "Place at the end.",
+          "hint": "Time first."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse measures in the morning. Time first.",
+          "qEn": "Am Morgen.",
+          "options": [
+            "Das Fieber misst am Morgen die Pflegekraft.",
+            "Am Morgen misst die Pflegekraft das Fieber.",
+            "Am Morgen die Pflegekraft misst das Fieber."
+          ],
+          "answer": 1,
+          "why": "Verb second.",
+          "hint": "Time first."
+        },
+        {
+          "kind": "mc",
+          "q": "Position of the verb in a statement.",
+          "qEn": "Rule.",
+          "options": [
+            "position 1",
+            "the end",
+            "position 2"
+          ],
+          "answer": 2,
+          "why": "One part, then the verb.",
+          "hint": "Position 2."
+        },
+        {
+          "kind": "mc",
+          "q": "Position of the verb in a yes/no question.",
+          "qEn": "Rule.",
+          "options": [
+            "position 1",
+            "position 2",
+            "the end"
+          ],
+          "answer": 0,
+          "why": "The verb opens the question.",
+          "hint": "Position 1."
+        },
+        {
+          "kind": "mc",
+          "q": "Seit Montag is…",
+          "qEn": "One slot.",
+          "options": [
+            "two positions",
+            "one position",
+            "the verb"
+          ],
+          "answer": 1,
+          "why": "The whole time phrase is position 1.",
+          "hint": "One idea."
+        },
+        {
+          "kind": "mc",
+          "q": "Place in the neutral sentence.",
+          "qEn": "Late.",
+          "options": [
+            "in position 1",
+            "before the verb",
+            "after the subject"
+          ],
+          "answer": 2,
+          "why": "Time first, place late.",
+          "hint": "Late."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Zeit, Verb, Ort",
+      "redemittel": [
+        {
+          "de": "Heute kommt der Arzt auf die Station.",
+          "en": "Today the doctor comes onto the ward."
+        },
+        {
+          "de": "Seit Montag liegt der Patient im Zimmer.",
+          "en": "The patient has been in the room since Monday."
+        },
+        {
+          "de": "Am Morgen liegt der Patient im Zimmer.",
+          "en": "In the morning the patient is in the room."
+        },
+        {
+          "de": "Wo liegt der Patient?",
+          "en": "Where is the patient lying?"
+        },
+        {
+          "de": "Kommt der Arzt heute?",
+          "en": "Is the doctor coming today?"
+        }
+      ]
+    }
+  ]
+}

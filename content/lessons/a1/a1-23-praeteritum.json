@@ -1,0 +1,1531 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday"
+    },
+    "war": {
+      "de": "sein → war",
+      "pos": "verb",
+      "en": "was"
+    },
+    "hatte": {
+      "de": "haben → hatte",
+      "pos": "verb",
+      "en": "had"
+    },
+    "warst": {
+      "de": "sein → warst",
+      "pos": "verb",
+      "en": "were (du)"
+    },
+    "hattest": {
+      "de": "haben → hattest",
+      "pos": "verb",
+      "en": "had (du)"
+    },
+    "waren": {
+      "de": "sein → waren",
+      "pos": "verb",
+      "en": "were"
+    },
+    "hatten": {
+      "de": "haben → hatten",
+      "pos": "verb",
+      "en": "had (plural)"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we"
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal)"
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "they"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "krank": {
+      "de": "krank",
+      "pos": "adjective",
+      "en": "ill"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "article": "die",
+      "plural": "die Stationen",
+      "emoji": "🏥"
+    },
+    "viel": {
+      "de": "viel",
+      "pos": "adjective",
+      "en": "a lot of"
+    },
+    "arbeit": {
+      "de": "Arbeit",
+      "pos": "noun",
+      "en": "work",
+      "article": "die",
+      "plural": "die Arbeiten",
+      "emoji": "📋"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in + dem"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "ärzte": {
+      "de": "Ärzte",
+      "pos": "noun",
+      "en": "doctors",
+      "article": "die",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "da": {
+      "de": "da",
+      "pos": "adverb",
+      "en": "there"
+    },
+    "keine": {
+      "de": "keine",
+      "pos": "article",
+      "en": "no"
+    },
+    "zeit": {
+      "de": "Zeit",
+      "pos": "noun",
+      "en": "time",
+      "article": "die",
+      "plural": "die Zeiten",
+      "emoji": "⏱️"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    }
+  },
+  "id": "a1-23-praeteritum",
+  "level": "A1",
+  "unit": "Kapitel 23",
+  "chapter": 23,
+  "chapters": [
+    23
+  ],
+  "title": "Ich war, ich hatte",
+  "subtitle": "Past of sein and haben",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "sein in the past: war, warst, war, waren, wart, waren.",
+        "haben in the past: hatte, hattest, hatte, hatten, hattet, hatten.",
+        "In speech, sein and haben use this past, not the perfect: Ich war krank. Ich hatte Fieber.",
+        "The endings match: ich and er share war and hatte. wir, sie and Sie share waren and hatten."
+      ],
+      "vocab": [
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "emoji": "🤒",
+          "glossaryKey": "fieber"
+        },
+        {
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "ward",
+          "emoji": "🏥",
+          "glossaryKey": "station"
+        },
+        {
+          "de": "Arbeit",
+          "article": "die",
+          "plural": "die Arbeiten",
+          "en": "work",
+          "emoji": "📋",
+          "glossaryKey": "arbeit"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Zeit",
+          "article": "die",
+          "plural": "die Zeiten",
+          "en": "time",
+          "emoji": "⏱️",
+          "glossaryKey": "zeit"
+        }
+      ],
+      "text": {
+        "title": "Gestern war er krank",
+        "de": "Gestern war der Patient krank. Er hatte Fieber. Ich war auf der Station. Wir hatten viel Arbeit. Warst du im Zimmer? Du hattest die Akte. Die Ärzte waren da. Sie hatten keine Zeit.",
+        "en": "Yesterday the patient was ill. He had a fever. I was on the ward. We had a lot of work. Were you in the room? You had the chart. The doctors were there. They had no time."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "war und hatte",
+      "practice": "choose",
+      "heroTitle": "sein and haben look back",
+      "heroImage": "thermometer",
+      "story": [
+        "<b>war</b> and <b>hatte</b> are the past of sein and haben. They are normal in speech.",
+        "ich war, du warst, er war, wir waren, ihr wart, sie waren. ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten.",
+        "Gestern war der Patient krank. Er hatte Fieber. Not: Er war hatte Fieber."
+      ],
+      "questionRule": "Choose war for sein and hatte for haben. Then match the person.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "ist",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "war",
+              "r": "subj"
+            }
+          ],
+          "enBefore": "sein.",
+          "enAfter": "Er war krank.",
+          "callLabel": "Show war"
+        },
+        {
+          "before": [
+            {
+              "t": "hat",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "hatte",
+              "r": "subj"
+            }
+          ],
+          "enBefore": "haben.",
+          "enAfter": "Er hatte Fieber.",
+          "callLabel": "Show hatte"
+        },
+        {
+          "before": [
+            {
+              "t": "sind",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "waren",
+              "r": "subj"
+            }
+          ],
+          "enBefore": "plural.",
+          "enAfter": "Sie waren da.",
+          "callLabel": "Show waren"
+        }
+      ],
+      "tables": [
+        {
+          "title": "war und hatte",
+          "caption": "ich and er share a form. wir and sie share a form.",
+          "columns": [
+            "Person",
+            "sein",
+            "haben"
+          ],
+          "rows": [
+            {
+              "label": "ich",
+              "cells": [
+                "ich",
+                "war",
+                "hatte"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "du",
+              "cells": [
+                "du",
+                "warst",
+                "hattest"
+              ]
+            },
+            {
+              "label": "er",
+              "cells": [
+                "er / sie / es",
+                "war",
+                "hatte"
+              ]
+            },
+            {
+              "label": "wir",
+              "cells": [
+                "wir",
+                "waren",
+                "hatten"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "ihr",
+              "cells": [
+                "ihr",
+                "wart",
+                "hattet"
+              ]
+            },
+            {
+              "label": "sie",
+              "cells": [
+                "sie / Sie",
+                "waren",
+                "hatten"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Do not mix the two verbs",
+        "items": [
+          {
+            "de": "Er war krank.",
+            "en": "sein → war.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er hatte krank.",
+            "en": "krank needs sein.",
+            "tone": "stop"
+          },
+          {
+            "de": "Er hatte Fieber.",
+            "en": "haben → hatte.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er war Fieber.",
+            "en": "Fieber needs haben.",
+            "tone": "stop"
+          },
+          {
+            "de": "Du warst im Zimmer.",
+            "en": "du → warst.",
+            "tone": "ok"
+          },
+          {
+            "de": "Du war im Zimmer.",
+            "en": "du needs warst.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Place and adjective: war. A thing he possessed: hatte."
+      },
+      "tips": [
+        {
+          "title": "war / hatte",
+          "emoji": "⏪",
+          "mnemonic": "war warst war · hatte hattest hatte",
+          "body": "If you can say ist today, say war yesterday. If you can say hat today, say hatte yesterday.",
+          "examples": [
+            {
+              "de": "Ich war auf der Station.",
+              "en": "place"
+            },
+            {
+              "de": "Wir hatten viel Arbeit.",
+              "en": "a thing"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "war or hatte?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The patient was ill yesterday.",
+          "qEn": "sein.",
+          "options": [
+            "Er war krank.",
+            "Er hatte krank.",
+            "Er warst krank."
+          ],
+          "answer": 0,
+          "why": "krank takes sein.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "He had a fever.",
+          "qEn": "haben.",
+          "options": [
+            "Er war Fieber.",
+            "Er hatte Fieber.",
+            "Er hattest Fieber."
+          ],
+          "answer": 1,
+          "why": "Fieber takes haben. er → hatte.",
+          "hint": "hatte."
+        },
+        {
+          "kind": "mc",
+          "q": "Were you in the room? du.",
+          "qEn": "du.",
+          "options": [
+            "War du im Zimmer?",
+            "Wart du im Zimmer?",
+            "Warst du im Zimmer?"
+          ],
+          "answer": 2,
+          "why": "du → warst.",
+          "hint": "warst."
+        },
+        {
+          "kind": "mc",
+          "q": "They had no time.",
+          "qEn": "plural.",
+          "options": [
+            "Sie hatten keine Zeit.",
+            "Sie hatte keine Zeit.",
+            "Sie waren keine Zeit."
+          ],
+          "answer": 0,
+          "why": "sie → hatten. Zeit takes haben.",
+          "hint": "hatten."
+        }
+      ]
+    },
+    {
+      "id": "gap-past",
+      "label": "Lücken",
+      "title": "war or hatte",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "war",
+          "hint": "war."
+        },
+        {
+          "w": "hatte",
+          "hint": "hatte."
+        },
+        {
+          "w": "Warst",
+          "hint": "warst."
+        },
+        {
+          "w": "hattest",
+          "hint": "hattest."
+        },
+        {
+          "w": "waren",
+          "hint": "waren."
+        },
+        {
+          "w": "hatten",
+          "hint": "hatten."
+        }
+      ],
+      "items": [
+        {
+          "before": "Gestern",
+          "after": "der Patient krank.",
+          "answer": "war",
+          "en": "was ill",
+          "why": "sein, er.",
+          "tip": "sein",
+          "hint": "war."
+        },
+        {
+          "before": "Er",
+          "after": "Fieber.",
+          "answer": "hatte",
+          "en": "had a fever",
+          "why": "haben, er.",
+          "tip": "haben",
+          "hint": "hatte."
+        },
+        {
+          "before": "",
+          "after": "du im Zimmer?",
+          "answer": "Warst",
+          "en": "du, sein",
+          "why": "du → warst.",
+          "tip": "du",
+          "hint": "warst."
+        },
+        {
+          "before": "Du",
+          "after": "die Akte.",
+          "answer": "hattest",
+          "en": "du, haben",
+          "why": "du → hattest.",
+          "tip": "du",
+          "hint": "hattest."
+        },
+        {
+          "before": "Die Ärzte",
+          "after": "da.",
+          "answer": "waren",
+          "en": "plural sein",
+          "why": "sie → waren.",
+          "tip": "sie",
+          "hint": "waren."
+        },
+        {
+          "before": "Sie",
+          "after": "keine Zeit.",
+          "answer": "hatten",
+          "en": "plural haben",
+          "why": "sie → hatten.",
+          "tip": "sie",
+          "hint": "hatten."
+        }
+      ]
+    },
+    {
+      "id": "match-past",
+      "label": "Match",
+      "title": "sein or haben?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Yesterday.",
+      "items": [
+        {
+          "prompt": "He was ill.",
+          "options": [
+            {
+              "emoji": "🤒",
+              "label": "Er war krank.",
+              "caption": "sein"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er hatte krank.",
+              "caption": "haben does not take krank"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er warst krank.",
+              "caption": "warst is du"
+            }
+          ],
+          "answer": 0,
+          "why": "war.",
+          "hint": "sein."
+        },
+        {
+          "prompt": "He had a fever.",
+          "options": [
+            {
+              "emoji": "🌡️",
+              "label": "Er hatte Fieber.",
+              "caption": "haben"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er war Fieber.",
+              "caption": "sein does not take Fieber"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er hattest Fieber.",
+              "caption": "hattest is du"
+            }
+          ],
+          "answer": 0,
+          "why": "hatte.",
+          "hint": "haben."
+        },
+        {
+          "prompt": "You were in the room. du.",
+          "options": [
+            {
+              "emoji": "🚪",
+              "label": "Warst du im Zimmer?",
+              "caption": "du"
+            },
+            {
+              "emoji": "❌",
+              "label": "War du im Zimmer?",
+              "caption": "missing -st"
+            },
+            {
+              "emoji": "❌",
+              "label": "Wart du im Zimmer?",
+              "caption": "wart is ihr"
+            }
+          ],
+          "answer": 0,
+          "why": "warst.",
+          "hint": "du."
+        },
+        {
+          "prompt": "They had no time.",
+          "options": [
+            {
+              "emoji": "⏱️",
+              "label": "Sie hatten keine Zeit.",
+              "caption": "plural haben"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie hatte keine Zeit.",
+              "caption": "singular"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie waren keine Zeit.",
+              "caption": "Zeit needs haben"
+            }
+          ],
+          "answer": 0,
+          "why": "hatten.",
+          "hint": "plural."
+        }
+      ]
+    },
+    {
+      "id": "picture-past",
+      "label": "Picture",
+      "title": "Picture yesterday",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "sein or haben.",
+      "items": [
+        {
+          "id": "fever",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "Er hatte Fieber.",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "hatte"
+        },
+        {
+          "id": "ward",
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "Ich war auf der Station.",
+          "image": {
+            "type": "svg",
+            "id": "ward"
+          },
+          "hint": "war"
+        },
+        {
+          "id": "chart",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "Du hattest die Akte.",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "hattest"
+        },
+        {
+          "id": "room",
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "Warst du im Zimmer?",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "warst"
+        }
+      ]
+    },
+    {
+      "id": "build-past",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "war for a state or a place. hatte for a thing.",
+      "items": [
+        {
+          "tiles": [
+            "Er",
+            "war",
+            "gestern",
+            "krank"
+          ],
+          "answers": [
+            "Er war gestern krank"
+          ],
+          "punct": ".",
+          "modal": "war",
+          "inf": "krank",
+          "question": false,
+          "en": "He was ill yesterday.",
+          "hint": "war.",
+          "feedback": {
+            "fallback": "war."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "hatte",
+            "Fieber"
+          ],
+          "answers": [
+            "Er hatte Fieber"
+          ],
+          "punct": ".",
+          "modal": "hatte",
+          "inf": "Fieber",
+          "question": false,
+          "en": "He had a fever.",
+          "hint": "hatte.",
+          "feedback": {
+            "fallback": "hatte."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "hatten",
+            "viel",
+            "Arbeit"
+          ],
+          "answers": [
+            "Wir hatten viel Arbeit"
+          ],
+          "punct": ".",
+          "modal": "hatten",
+          "inf": "Arbeit",
+          "question": false,
+          "en": "We had a lot of work.",
+          "hint": "hatten.",
+          "feedback": {
+            "fallback": "hatten."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Ärzte",
+            "waren",
+            "da"
+          ],
+          "answers": [
+            "Die Ärzte waren da"
+          ],
+          "punct": ".",
+          "modal": "Ärzte",
+          "inf": "da",
+          "question": false,
+          "en": "The doctors were there.",
+          "hint": "waren.",
+          "feedback": {
+            "fallback": "waren."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-past",
+      "label": "Umformen",
+      "title": "Today to yesterday",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Change ist to war and hat to hatte, with the right person.",
+      "chips": [
+        {
+          "w": "Der Patient war krank.",
+          "hint": "war."
+        },
+        {
+          "w": "Er hatte Fieber.",
+          "hint": "hatte."
+        },
+        {
+          "w": "Ich war auf der Station.",
+          "hint": "war."
+        },
+        {
+          "w": "Wir hatten viel Arbeit.",
+          "hint": "hatten."
+        },
+        {
+          "w": "Du warst im Zimmer.",
+          "hint": "warst."
+        },
+        {
+          "w": "Du hattest die Akte.",
+          "hint": "hattest."
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Patient ist krank.",
+          "after": "",
+          "answer": "Der Patient war krank.",
+          "en": "er",
+          "why": "ist → war.",
+          "tip": "war",
+          "hint": "war."
+        },
+        {
+          "before": "Er hat Fieber.",
+          "after": "",
+          "answer": "Er hatte Fieber.",
+          "en": "er",
+          "why": "hat → hatte.",
+          "tip": "hatte",
+          "hint": "hatte."
+        },
+        {
+          "before": "Ich bin auf der Station.",
+          "after": "",
+          "answer": "Ich war auf der Station.",
+          "en": "ich",
+          "why": "bin → war.",
+          "tip": "war",
+          "hint": "war."
+        },
+        {
+          "before": "Wir haben viel Arbeit.",
+          "after": "",
+          "answer": "Wir hatten viel Arbeit.",
+          "en": "wir",
+          "why": "haben → hatten.",
+          "tip": "hatten",
+          "hint": "hatten."
+        },
+        {
+          "before": "Du bist im Zimmer.",
+          "after": "",
+          "answer": "Du warst im Zimmer.",
+          "en": "du",
+          "why": "bist → warst.",
+          "tip": "warst",
+          "hint": "warst."
+        },
+        {
+          "before": "Du hast die Akte.",
+          "after": "",
+          "answer": "Du hattest die Akte.",
+          "en": "du",
+          "why": "hast → hattest.",
+          "tip": "hattest",
+          "hint": "hattest."
+        }
+      ]
+    },
+    {
+      "id": "error-past",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er hatte krank."
+          ],
+          "options": [
+            "Er war krank.",
+            "Er warst krank.",
+            "Er hatten krank."
+          ],
+          "answer": 0,
+          "reveal": "krank takes sein.",
+          "hint": "war."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er war Fieber."
+          ],
+          "options": [
+            "Er hatte Fieber.",
+            "Er hattest Fieber.",
+            "Er hatten Fieber."
+          ],
+          "answer": 0,
+          "reveal": "Fieber takes haben.",
+          "hint": "hatte."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Du war im Zimmer."
+          ],
+          "options": [
+            "Du warst im Zimmer.",
+            "Du wart im Zimmer.",
+            "Du waren im Zimmer."
+          ],
+          "answer": 0,
+          "reveal": "du → warst.",
+          "hint": "warst."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie hatte keine Zeit. Meaning: the doctors."
+          ],
+          "options": [
+            "Sie hatten keine Zeit.",
+            "Sie war keine Zeit.",
+            "Sie hattest keine Zeit."
+          ],
+          "answer": 0,
+          "reveal": "sie plural → hatten.",
+          "hint": "hatten."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-past",
+      "label": "Dialog",
+      "title": "Yesterday's shift",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "war",
+          "hint": "war."
+        },
+        {
+          "w": "hatte",
+          "hint": "hatte."
+        },
+        {
+          "w": "Warst",
+          "hint": "warst."
+        },
+        {
+          "w": "hattest",
+          "hint": "hattest."
+        },
+        {
+          "w": "waren",
+          "hint": "waren."
+        },
+        {
+          "w": "hatten",
+          "hint": "hatten."
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Patient",
+          "after": "krank.",
+          "answer": "war",
+          "en": "was",
+          "why": "sein.",
+          "tip": "sein",
+          "hint": "war.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Er",
+          "after": "Fieber.",
+          "answer": "hatte",
+          "en": "had",
+          "why": "haben.",
+          "tip": "haben",
+          "hint": "hatte.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "",
+          "after": "du im Zimmer?",
+          "answer": "Warst",
+          "en": "du",
+          "why": "warst.",
+          "tip": "du",
+          "hint": "warst.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Du",
+          "after": "die Akte.",
+          "answer": "hattest",
+          "en": "you had",
+          "why": "du → hattest.",
+          "tip": "du",
+          "hint": "hattest.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Die Ärzte",
+          "after": "da.",
+          "answer": "waren",
+          "en": "were",
+          "why": "waren.",
+          "tip": "sie",
+          "hint": "waren.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Sie",
+          "after": "keine Zeit.",
+          "answer": "hatten",
+          "en": "had",
+          "why": "hatten.",
+          "tip": "sie",
+          "hint": "hatten.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-past",
+      "label": "Lücken",
+      "title": "ihr and Sie",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "war",
+          "hint": "war."
+        },
+        {
+          "w": "wart",
+          "hint": "wart."
+        },
+        {
+          "w": "hattet",
+          "hint": "hattet."
+        },
+        {
+          "w": "waren",
+          "hint": "waren."
+        },
+        {
+          "w": "hatten",
+          "hint": "hatten."
+        },
+        {
+          "w": "warst",
+          "hint": "warst."
+        },
+        {
+          "w": "Fieber",
+          "hint": "Fieber."
+        },
+        {
+          "w": "krank",
+          "hint": "krank."
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich",
+          "after": "gestern krank.",
+          "answer": "war",
+          "en": "I was",
+          "why": "ich → war.",
+          "tip": "ich",
+          "hint": "war."
+        },
+        {
+          "before": "Ihr",
+          "after": "im Zimmer.",
+          "answer": "wart",
+          "en": "you plural",
+          "why": "ihr → wart.",
+          "tip": "ihr",
+          "hint": "wart."
+        },
+        {
+          "before": "Ihr",
+          "after": "die Akte.",
+          "answer": "hattet",
+          "en": "you plural had",
+          "why": "ihr → hattet.",
+          "tip": "ihr",
+          "hint": "hattet."
+        },
+        {
+          "before": "Wir",
+          "after": "auf der Station.",
+          "answer": "waren",
+          "en": "we were",
+          "why": "wir → waren.",
+          "tip": "wir",
+          "hint": "waren."
+        },
+        {
+          "before": "Wir",
+          "after": "viel Arbeit.",
+          "answer": "hatten",
+          "en": "we had",
+          "why": "wir → hatten.",
+          "tip": "wir",
+          "hint": "hatten."
+        },
+        {
+          "before": "Du",
+          "after": "gestern da.",
+          "answer": "warst",
+          "en": "you were",
+          "why": "du → warst.",
+          "tip": "du",
+          "hint": "warst."
+        },
+        {
+          "before": "Hatten Sie",
+          "after": "?",
+          "answer": "Fieber",
+          "en": "formal question",
+          "why": "The chip is the noun so the verb stays.",
+          "tip": "haben",
+          "hint": "Fieber."
+        },
+        {
+          "before": "Waren Sie",
+          "after": "?",
+          "answer": "krank",
+          "en": "formal question",
+          "why": "sein.",
+          "tip": "sein",
+          "hint": "krank."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Gestern war er krank",
+        "paragraphs": [
+          "Gestern war der Patient krank. Er hatte Fieber. Ich war auf der Station. Wir hatten viel Arbeit. Warst du im Zimmer? Du hattest die Akte. Die Ärzte waren da. Sie hatten keine Zeit."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wie geht sein für er?",
+          "qEn": "er.",
+          "options": [
+            "war",
+            "warst",
+            "waren"
+          ],
+          "answer": 0,
+          "why": "er → war.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "Was hatte der Patient?",
+          "qEn": "haben.",
+          "options": [
+            "krank",
+            "Fieber",
+            "Zeit"
+          ],
+          "answer": 1,
+          "why": "Er hatte Fieber.",
+          "hint": "Fieber."
+        },
+        {
+          "kind": "mc",
+          "q": "Wie heißt du von sein?",
+          "qEn": "du.",
+          "options": [
+            "wart",
+            "war",
+            "warst"
+          ],
+          "answer": 2,
+          "why": "du → warst.",
+          "hint": "warst."
+        },
+        {
+          "kind": "mc",
+          "q": "Sie, die Ärzte, haben…",
+          "qEn": "plural.",
+          "options": [
+            "hatten",
+            "hatte",
+            "waren"
+          ],
+          "answer": 0,
+          "why": "hatten keine Zeit.",
+          "hint": "hatten."
+        }
+      ]
+    },
+    {
+      "id": "writing-past",
+      "label": "Writing",
+      "title": "Write yesterday",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four sentences in the past.",
+      "prompt": "The patient was ill. He had a fever. I was on the ward. We had a lot of work.",
+      "bullets": [
+        "war",
+        "hatte Fieber",
+        "auf der Station",
+        "hatten"
+      ],
+      "model": "Gestern war der Patient krank. Er hatte Fieber. Ich war auf der Station. Wir hatten viel Arbeit.",
+      "modelEn": "Yesterday the patient was ill. He had a fever. I was on the ward. We had a lot of work.",
+      "hint": "war for sein, hatte for haben.",
+      "checklist": [
+        {
+          "id": "w",
+          "label": "war",
+          "keywords": [
+            "war"
+          ]
+        },
+        {
+          "id": "f",
+          "label": "hatte Fieber",
+          "keywords": [
+            "hatte Fieber"
+          ]
+        },
+        {
+          "id": "s",
+          "label": "auf der Station",
+          "keywords": [
+            "auf der Station"
+          ]
+        },
+        {
+          "id": "h",
+          "label": "hatten",
+          "keywords": [
+            "hatten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 23. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "er + sein, yesterday.",
+          "qEn": "war.",
+          "options": [
+            "Er war krank.",
+            "Er hatte krank.",
+            "Er warst krank."
+          ],
+          "answer": 0,
+          "why": "war.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "er + haben, fever.",
+          "qEn": "hatte.",
+          "options": [
+            "Er war Fieber.",
+            "Er hatte Fieber.",
+            "Er hattest Fieber."
+          ],
+          "answer": 1,
+          "why": "hatte.",
+          "hint": "hatte."
+        },
+        {
+          "kind": "mc",
+          "q": "ich + sein.",
+          "qEn": "war.",
+          "options": [
+            "Ich hatte auf der Station.",
+            "Ich warst auf der Station.",
+            "Ich war auf der Station."
+          ],
+          "answer": 2,
+          "why": "ich → war.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "du + sein.",
+          "qEn": "warst.",
+          "options": [
+            "Du warst im Zimmer.",
+            "Du war im Zimmer.",
+            "Du wart im Zimmer."
+          ],
+          "answer": 0,
+          "why": "du → warst.",
+          "hint": "warst."
+        },
+        {
+          "kind": "mc",
+          "q": "du + haben.",
+          "qEn": "hattest.",
+          "options": [
+            "Du hatte die Akte.",
+            "Du hattest die Akte.",
+            "Du wart die Akte."
+          ],
+          "answer": 1,
+          "why": "du → hattest.",
+          "hint": "hattest."
+        },
+        {
+          "kind": "mc",
+          "q": "wir + sein.",
+          "qEn": "waren.",
+          "options": [
+            "Wir war da.",
+            "Wir hatten da.",
+            "Wir waren da."
+          ],
+          "answer": 2,
+          "why": "wir → waren.",
+          "hint": "waren."
+        },
+        {
+          "kind": "mc",
+          "q": "wir + haben.",
+          "qEn": "hatten.",
+          "options": [
+            "Wir hatten viel Arbeit.",
+            "Wir hatte viel Arbeit.",
+            "Wir waren viel Arbeit."
+          ],
+          "answer": 0,
+          "why": "wir → hatten.",
+          "hint": "hatten."
+        },
+        {
+          "kind": "mc",
+          "q": "sie plural + sein.",
+          "qEn": "waren.",
+          "options": [
+            "Die Ärzte war da.",
+            "Die Ärzte waren da.",
+            "Die Ärzte hatte da."
+          ],
+          "answer": 1,
+          "why": "waren.",
+          "hint": "waren."
+        },
+        {
+          "kind": "mc",
+          "q": "sie plural + haben.",
+          "qEn": "hatten.",
+          "options": [
+            "Sie hatte keine Zeit.",
+            "Sie waren keine Zeit.",
+            "Sie hatten keine Zeit."
+          ],
+          "answer": 2,
+          "why": "hatten.",
+          "hint": "hatten."
+        },
+        {
+          "kind": "mc",
+          "q": "ihr + sein.",
+          "qEn": "wart.",
+          "options": [
+            "Ihr wart im Zimmer.",
+            "Ihr warst im Zimmer.",
+            "Ihr war im Zimmer."
+          ],
+          "answer": 0,
+          "why": "ihr → wart.",
+          "hint": "wart."
+        },
+        {
+          "kind": "mc",
+          "q": "ihr + haben.",
+          "qEn": "hattet.",
+          "options": [
+            "Ihr hattest die Akte.",
+            "Ihr hattet die Akte.",
+            "Ihr hatte die Akte."
+          ],
+          "answer": 1,
+          "why": "ihr → hattet.",
+          "hint": "hattet."
+        },
+        {
+          "kind": "mc",
+          "q": "Sie formal + haben, question.",
+          "qEn": "hatten.",
+          "options": [
+            "Hattest Sie Fieber?",
+            "War Sie Fieber?",
+            "Hatten Sie Fieber?"
+          ],
+          "answer": 2,
+          "why": "Sie → hatten.",
+          "hint": "Hatten."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "war und hatte",
+      "redemittel": [
+        {
+          "de": "Gestern war der Patient krank.",
+          "en": "Yesterday the patient was ill."
+        },
+        {
+          "de": "Er hatte Fieber.",
+          "en": "He had a fever."
+        },
+        {
+          "de": "Ich war auf der Station.",
+          "en": "I was on the ward."
+        },
+        {
+          "de": "Wir hatten viel Arbeit.",
+          "en": "We had a lot of work."
+        },
+        {
+          "de": "Du hattest die Akte.",
+          "en": "You had the chart."
+        }
+      ]
+    }
+  ]
+}

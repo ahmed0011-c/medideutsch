@@ -1,0 +1,1595 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "habe": {
+      "de": "haben → habe",
+      "pos": "verb",
+      "en": "have"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "nimmt": {
+      "de": "nehmen → nimmt",
+      "pos": "verb",
+      "en": "takes"
+    },
+    "muss": {
+      "de": "müssen → muss",
+      "pos": "verb",
+      "en": "must"
+    },
+    "abnehmen": {
+      "de": "abnehmen",
+      "pos": "verb",
+      "en": "to draw blood"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative)",
+      "article": "die",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "blut": {
+      "de": "Blut",
+      "pos": "noun",
+      "en": "blood",
+      "article": "das",
+      "plural": "Blut",
+      "emoji": "🩸"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "früh": {
+      "de": "früh",
+      "pos": "adverb",
+      "en": "early"
+    },
+    "müde": {
+      "de": "müde",
+      "pos": "adjective",
+      "en": "tired"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "particle",
+      "en": "up (separable)"
+    },
+    "ab": {
+      "de": "ab",
+      "pos": "particle",
+      "en": "off (separable)"
+    },
+    "gemessen": {
+      "de": "Partizip von messen",
+      "pos": "participle",
+      "en": "measured"
+    },
+    "gefragt": {
+      "de": "Partizip von fragen",
+      "pos": "participle",
+      "en": "asked"
+    },
+    "untersuchen": {
+      "de": "untersuchen",
+      "pos": "verb",
+      "en": "to examine"
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "verb",
+      "en": "to lie"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    }
+  },
+  "id": "a1-12-satzklammer",
+  "level": "A1",
+  "unit": "Kapitel 12",
+  "chapter": 12,
+  "chapters": [
+    12
+  ],
+  "title": "Ich kaufe … ein",
+  "subtitle": "The verbal bracket",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "The finite verb stays in position 2. The other part goes to the end. That pair is the bracket.",
+        "Modals: Die Pflegekraft muss Blut abnehmen. Separable verbs: Der Patient steht früh auf.",
+        "Perfect: Sie hat Fieber gemessen. sein plus adjective: Der Patient ist heute müde.",
+        "Two verbs: Er bleibt heute liegen. Noun plus verb: Sie nimmt Blut ab."
+      ],
+      "vocab": [
+        {
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "nurse",
+          "emoji": "🧑‍⚕️",
+          "glossaryKey": "pflegekraft"
+        },
+        {
+          "de": "Blut",
+          "article": "das",
+          "plural": "Blut",
+          "en": "blood",
+          "emoji": "🩸",
+          "glossaryKey": "blut"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "emoji": "🤒",
+          "glossaryKey": "fieber"
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        },
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "🩺",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Patienten",
+          "article": "die",
+          "plural": "die Patienten",
+          "en": "patient (accusative)",
+          "emoji": "🤒",
+          "glossaryKey": "patienten"
+        }
+      ],
+      "text": {
+        "title": "Die Pflegekraft muss Blut abnehmen",
+        "de": "Die Pflegekraft muss Blut abnehmen. Der Patient steht früh auf. Sie hat Fieber gemessen. Der Patient ist heute müde. Er bleibt heute liegen. Sie nimmt Blut ab. Der Arzt muss den Patienten untersuchen. Die Pflegekraft hat den Arzt gefragt.",
+        "en": "The nurse has to draw blood. The patient gets up early. She has taken the temperature. The patient is tired today. He stays lying down today. She draws blood. The doctor has to examine the patient. The nurse has asked the doctor."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Satzklammer",
+      "practice": "choose",
+      "heroTitle": "Finite verb here, the rest at the end",
+      "heroImage": "syringe",
+      "story": [
+        "Position 2 takes the <b>finite</b> verb: muss, steht, hat, ist, bleibt, nimmt. The second part closes the sentence.",
+        "That second part can be an infinitive, a prefix, a participle or an adjective: abnehmen, auf, gemessen, müde, liegen.",
+        "Start these exercises with the subject. Do not put the second part next to the finite verb."
+      ],
+      "questionRule": "Subject, finite verb in position 2, other words, second part at the very end.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "muss",
+              "r": "subj"
+            },
+            {
+              "t": "Blut",
+              "r": "rest"
+            },
+            {
+              "t": "abnehmen",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Die",
+              "r": "subj"
+            },
+            {
+              "t": "Pflegekraft",
+              "r": "verb"
+            },
+            {
+              "t": "muss",
+              "r": "rest"
+            },
+            {
+              "t": "Blut",
+              "r": "rest"
+            },
+            {
+              "t": "abnehmen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "The infinitive waits.",
+          "enAfter": "Die Pflegekraft muss Blut abnehmen.",
+          "callLabel": "Show the modal"
+        },
+        {
+          "before": [
+            {
+              "t": "steht",
+              "r": "subj"
+            },
+            {
+              "t": "auf",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Der",
+              "r": "subj"
+            },
+            {
+              "t": "Patient",
+              "r": "verb"
+            },
+            {
+              "t": "steht",
+              "r": "rest"
+            },
+            {
+              "t": "früh",
+              "r": "rest"
+            },
+            {
+              "t": "auf",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "The prefix waits.",
+          "enAfter": "Der Patient steht früh auf.",
+          "callLabel": "Show the prefix"
+        },
+        {
+          "before": [
+            {
+              "t": "hat",
+              "r": "subj"
+            },
+            {
+              "t": "gemessen",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "hat",
+              "r": "verb"
+            },
+            {
+              "t": "Fieber",
+              "r": "rest"
+            },
+            {
+              "t": "gemessen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "The participle waits.",
+          "enAfter": "Sie hat Fieber gemessen.",
+          "callLabel": "Show the participle"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Satzklammer",
+          "caption": "The highlighted word is the end of the bracket.",
+          "columns": [
+            "Typ",
+            "Position 2",
+            "Ende"
+          ],
+          "rows": [
+            {
+              "label": "Modal",
+              "cells": [
+                "Modalverb",
+                "muss",
+                "Blut abnehmen"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "trennbar",
+              "cells": [
+                "trennbares Verb",
+                "steht",
+                "auf"
+              ]
+            },
+            {
+              "label": "Perfekt",
+              "cells": [
+                "Perfekt",
+                "hat",
+                "gemessen"
+              ]
+            },
+            {
+              "label": "Adjektiv",
+              "cells": [
+                "sein + Adjektiv",
+                "ist",
+                "müde"
+              ]
+            },
+            {
+              "label": "Verb",
+              "cells": [
+                "Verb + Verb",
+                "bleibt",
+                "liegen"
+              ]
+            },
+            {
+              "label": "Nomen",
+              "cells": [
+                "Nomen + Verb",
+                "nimmt",
+                "ab"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "The second part does not sit in the middle",
+        "items": [
+          {
+            "de": "Die Pflegekraft muss Blut abnehmen.",
+            "en": "muss in position 2, abnehmen at the end.",
+            "tone": "ok"
+          },
+          {
+            "de": "Die Pflegekraft muss abnehmen Blut.",
+            "en": "Blut is inside the bracket.",
+            "tone": "stop"
+          },
+          {
+            "de": "Der Patient steht früh auf.",
+            "en": "auf at the end.",
+            "tone": "ok"
+          },
+          {
+            "de": "Der Patient aufsteht früh.",
+            "en": "The prefix cannot stay on the finite verb.",
+            "tone": "stop"
+          },
+          {
+            "de": "Sie hat Fieber gemessen.",
+            "en": "Participle at the end.",
+            "tone": "ok"
+          },
+          {
+            "de": "Sie hat gemessen Fieber.",
+            "en": "Fieber belongs inside the bracket.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Finite verb in position 2. Prefix, infinitive, participle or adjective at the end."
+      },
+      "tips": [
+        {
+          "title": "The bracket",
+          "emoji": "📎",
+          "mnemonic": "position 2 … end",
+          "body": "Whatever is not the finite verb waits at the end: auf, ab, gemessen, müde, liegen, abnehmen, untersuchen.",
+          "examples": [
+            {
+              "de": "Er bleibt heute liegen.",
+              "en": "bleiben … liegen"
+            },
+            {
+              "de": "Der Arzt muss den Patienten untersuchen.",
+              "en": "müssen … untersuchen"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "What goes to the end?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The nurse has to draw blood. Subject first.",
+          "qEn": "Modal.",
+          "options": [
+            "Die Pflegekraft muss Blut abnehmen.",
+            "Die Pflegekraft muss abnehmen Blut.",
+            "Die Pflegekraft Blut muss abnehmen."
+          ],
+          "answer": 0,
+          "why": "abnehmen closes the bracket.",
+          "hint": "End."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient gets up early.",
+          "qEn": "Separable.",
+          "options": [
+            "Der Patient aufsteht früh.",
+            "Der Patient steht früh auf.",
+            "Der Patient steht auf früh."
+          ],
+          "answer": 1,
+          "why": "auf is the last word.",
+          "hint": "auf."
+        },
+        {
+          "kind": "mc",
+          "q": "She has taken the temperature.",
+          "qEn": "Perfect.",
+          "options": [
+            "Sie hat gemessen Fieber.",
+            "Sie gemessen hat Fieber.",
+            "Sie hat Fieber gemessen."
+          ],
+          "answer": 2,
+          "why": "gemessen is last.",
+          "hint": "Participle."
+        },
+        {
+          "kind": "mc",
+          "q": "He stays in bed today.",
+          "qEn": "Two verbs.",
+          "options": [
+            "Er bleibt heute liegen.",
+            "Er liegen bleibt heute.",
+            "Er bleibt liegen heute."
+          ],
+          "answer": 0,
+          "why": "liegen is last.",
+          "hint": "End."
+        }
+      ]
+    },
+    {
+      "id": "gap-bracket",
+      "label": "Lücken",
+      "title": "Close the bracket",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The chip is the part that stands at the end, or the finite verb.",
+      "chips": [
+        {
+          "w": "muss",
+          "hint": "Finite verb."
+        },
+        {
+          "w": "auf",
+          "hint": "Prefix."
+        },
+        {
+          "w": "gemessen",
+          "hint": "Participle."
+        },
+        {
+          "w": "müde",
+          "hint": "Adjective."
+        },
+        {
+          "w": "liegen",
+          "hint": "Second verb."
+        },
+        {
+          "w": "ab",
+          "hint": "Prefix."
+        }
+      ],
+      "items": [
+        {
+          "before": "Die Pflegekraft",
+          "after": "Blut abnehmen.",
+          "answer": "muss",
+          "en": "must",
+          "why": "muss is position 2. abnehmen is already at the end.",
+          "tip": "Position 2",
+          "hint": "Finite verb."
+        },
+        {
+          "before": "Der Patient steht früh",
+          "after": ".",
+          "answer": "auf",
+          "en": "gets up",
+          "why": "auf closes stehen auf.",
+          "tip": "Ende",
+          "hint": "Prefix."
+        },
+        {
+          "before": "Sie hat Fieber",
+          "after": ".",
+          "answer": "gemessen",
+          "en": "has measured",
+          "why": "Participle at the end.",
+          "tip": "Ende",
+          "hint": "Participle."
+        },
+        {
+          "before": "Der Patient ist heute",
+          "after": ".",
+          "answer": "müde",
+          "en": "tired",
+          "why": "The adjective closes sein.",
+          "tip": "Ende",
+          "hint": "Adjective."
+        },
+        {
+          "before": "Er bleibt heute",
+          "after": ".",
+          "answer": "liegen",
+          "en": "stays lying",
+          "why": "liegen at the end.",
+          "tip": "Ende",
+          "hint": "Second verb."
+        },
+        {
+          "before": "Sie nimmt Blut",
+          "after": ".",
+          "answer": "ab",
+          "en": "draws blood",
+          "why": "ab at the end.",
+          "tip": "Ende",
+          "hint": "Prefix."
+        }
+      ]
+    },
+    {
+      "id": "match-bracket",
+      "label": "Match",
+      "title": "Which ending?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the closed sentence.",
+      "items": [
+        {
+          "prompt": "Modal, draw blood.",
+          "options": [
+            {
+              "emoji": "🩸",
+              "label": "Sie muss Blut abnehmen.",
+              "caption": "infinitive last"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie muss abnehmen Blut.",
+              "caption": "Blut after the infinitive"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie abnehmen muss Blut.",
+              "caption": "muss not second"
+            }
+          ],
+          "answer": 0,
+          "why": "abnehmen is last.",
+          "hint": "End."
+        },
+        {
+          "prompt": "Gets up early.",
+          "options": [
+            {
+              "emoji": "🛏️",
+              "label": "Er steht früh auf.",
+              "caption": "auf last"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er aufsteht früh.",
+              "caption": "prefix stuck"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er steht auf früh.",
+              "caption": "früh after auf"
+            }
+          ],
+          "answer": 0,
+          "why": "auf is last.",
+          "hint": "Prefix."
+        },
+        {
+          "prompt": "Has measured the fever.",
+          "options": [
+            {
+              "emoji": "🤒",
+              "label": "Sie hat Fieber gemessen.",
+              "caption": "participle last"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie hat gemessen Fieber.",
+              "caption": "wrong place"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie gemessen hat Fieber.",
+              "caption": "hat not second"
+            }
+          ],
+          "answer": 0,
+          "why": "gemessen is last.",
+          "hint": "Participle."
+        },
+        {
+          "prompt": "Must examine the patient.",
+          "options": [
+            {
+              "emoji": "🩺",
+              "label": "Der Arzt muss den Patienten untersuchen.",
+              "caption": "infinitive last"
+            },
+            {
+              "emoji": "❌",
+              "label": "Der Arzt muss untersuchen den Patienten.",
+              "caption": "object after the infinitive"
+            },
+            {
+              "emoji": "❌",
+              "label": "Der Arzt untersuchen muss den Patienten.",
+              "caption": "muss not second"
+            }
+          ],
+          "answer": 0,
+          "why": "untersuchen is last.",
+          "hint": "End."
+        }
+      ]
+    },
+    {
+      "id": "picture-bracket",
+      "label": "Picture",
+      "title": "Picture the bracket",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "The second part belongs at the end of the sentence.",
+      "items": [
+        {
+          "id": "blood",
+          "de": "Blut",
+          "article": "das",
+          "plural": "Blut",
+          "en": "Sie muss Blut abnehmen.",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          },
+          "hint": "abnehmen last."
+        },
+        {
+          "id": "fever",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "Sie hat Fieber gemessen.",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "gemessen last."
+        },
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "Er bleibt heute liegen.",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "liegen last."
+        },
+        {
+          "id": "chart",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "Sie hat den Arzt gefragt.",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "gefragt last."
+        }
+      ]
+    },
+    {
+      "id": "build-bracket",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Start with the subject. Put the second part last.",
+      "items": [
+        {
+          "tiles": [
+            "Sie",
+            "muss",
+            "Blut",
+            "abnehmen"
+          ],
+          "answers": [
+            "Sie muss Blut abnehmen"
+          ],
+          "punct": ".",
+          "modal": "muss",
+          "inf": "abnehmen",
+          "question": false,
+          "en": "She has to draw blood.",
+          "hint": "abnehmen last.",
+          "feedback": {
+            "fallback": "abnehmen last."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "steht",
+            "früh",
+            "auf"
+          ],
+          "answers": [
+            "Er steht früh auf"
+          ],
+          "punct": ".",
+          "modal": "steht",
+          "inf": "auf",
+          "question": false,
+          "en": "He gets up early.",
+          "hint": "auf last.",
+          "feedback": {
+            "fallback": "auf last."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "hat",
+            "Fieber",
+            "gemessen"
+          ],
+          "answers": [
+            "Sie hat Fieber gemessen"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "gemessen",
+          "question": false,
+          "en": "She has taken the temperature.",
+          "hint": "gemessen last.",
+          "feedback": {
+            "fallback": "gemessen last."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "bleibt",
+            "heute",
+            "liegen"
+          ],
+          "answers": [
+            "Er bleibt heute liegen"
+          ],
+          "punct": ".",
+          "modal": "bleibt",
+          "inf": "liegen",
+          "question": false,
+          "en": "He stays lying down today.",
+          "hint": "liegen last.",
+          "feedback": {
+            "fallback": "liegen last."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-bracket",
+      "label": "Umformen",
+      "title": "Open the bracket",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Put the finite verb in position 2 and the other part at the end.",
+      "chips": [
+        {
+          "w": "Die Pflegekraft muss Blut abnehmen.",
+          "hint": "Bracket."
+        },
+        {
+          "w": "Der Patient steht früh auf.",
+          "hint": "Prefix."
+        },
+        {
+          "w": "Sie hat Fieber gemessen.",
+          "hint": "Participle."
+        },
+        {
+          "w": "Der Patient ist heute müde.",
+          "hint": "Adjective."
+        },
+        {
+          "w": "Er bleibt heute liegen.",
+          "hint": "End."
+        },
+        {
+          "w": "Der Arzt muss den Patienten untersuchen.",
+          "hint": "End."
+        }
+      ],
+      "items": [
+        {
+          "before": "Blut abnehmen — die Pflegekraft, muss.",
+          "after": "",
+          "answer": "Die Pflegekraft muss Blut abnehmen.",
+          "en": "modal",
+          "why": "muss second, abnehmen last.",
+          "tip": "muss",
+          "hint": "Bracket."
+        },
+        {
+          "before": "früh aufstehen — der Patient.",
+          "after": "",
+          "answer": "Der Patient steht früh auf.",
+          "en": "separable",
+          "why": "steht second, auf last.",
+          "tip": "auf",
+          "hint": "Prefix."
+        },
+        {
+          "before": "Fieber messen, Perfekt, sie.",
+          "after": "",
+          "answer": "Sie hat Fieber gemessen.",
+          "en": "perfect",
+          "why": "hat second, gemessen last.",
+          "tip": "hat",
+          "hint": "Participle."
+        },
+        {
+          "before": "müde sein, heute, der Patient.",
+          "after": "",
+          "answer": "Der Patient ist heute müde.",
+          "en": "adjective",
+          "why": "ist second, müde last.",
+          "tip": "ist",
+          "hint": "Adjective."
+        },
+        {
+          "before": "liegen bleiben, heute, er.",
+          "after": "",
+          "answer": "Er bleibt heute liegen.",
+          "en": "two verbs",
+          "why": "bleibt second, liegen last.",
+          "tip": "bleibt",
+          "hint": "End."
+        },
+        {
+          "before": "den Patienten untersuchen — der Arzt, muss.",
+          "after": "",
+          "answer": "Der Arzt muss den Patienten untersuchen.",
+          "en": "modal",
+          "why": "untersuchen last.",
+          "tip": "muss",
+          "hint": "End."
+        }
+      ]
+    },
+    {
+      "id": "error-bracket",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Pflegekraft muss abnehmen Blut."
+          ],
+          "options": [
+            "Die Pflegekraft muss Blut abnehmen.",
+            "Die Pflegekraft Blut muss abnehmen.",
+            "Die Pflegekraft abnehmen muss Blut."
+          ],
+          "answer": 0,
+          "reveal": "Blut stays inside. abnehmen is last.",
+          "hint": "End."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Patient aufsteht früh."
+          ],
+          "options": [
+            "Der Patient steht früh auf.",
+            "Der Patient früh steht auf.",
+            "Der Patient steht auf früh."
+          ],
+          "answer": 0,
+          "reveal": "steht in position 2, auf last.",
+          "hint": "Prefix."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie hat gemessen Fieber."
+          ],
+          "options": [
+            "Sie hat Fieber gemessen.",
+            "Sie Fieber hat gemessen.",
+            "Sie gemessen hat Fieber."
+          ],
+          "answer": 0,
+          "reveal": "gemessen is last.",
+          "hint": "Participle."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er bleibt liegen heute."
+          ],
+          "options": [
+            "Er bleibt heute liegen.",
+            "Er heute bleibt liegen.",
+            "Er liegen bleibt heute."
+          ],
+          "answer": 0,
+          "reveal": "heute is inside, liegen is last.",
+          "hint": "End."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-bracket",
+      "label": "Dialog",
+      "title": "On the ward",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip closes a different bracket.",
+      "chips": [
+        {
+          "w": "muss",
+          "hint": "Position 2."
+        },
+        {
+          "w": "auf",
+          "hint": "End."
+        },
+        {
+          "w": "müde",
+          "hint": "End."
+        },
+        {
+          "w": "liegen",
+          "hint": "End."
+        },
+        {
+          "w": "gemessen",
+          "hint": "End."
+        },
+        {
+          "w": "gefragt",
+          "hint": "End."
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich",
+          "after": "Blut abnehmen.",
+          "answer": "muss",
+          "en": "I have to",
+          "why": "muss in position 2.",
+          "tip": "Modal",
+          "hint": "Position 2.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Der Patient steht früh",
+          "after": ".",
+          "answer": "auf",
+          "en": "gets up",
+          "why": "auf last.",
+          "tip": "Prefix",
+          "hint": "End.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Er ist heute",
+          "after": ".",
+          "answer": "müde",
+          "en": "tired",
+          "why": "Adjective last.",
+          "tip": "sein",
+          "hint": "End.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Er bleibt heute",
+          "after": ".",
+          "answer": "liegen",
+          "en": "stays in bed",
+          "why": "liegen last.",
+          "tip": "Verb",
+          "hint": "End.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Haben Sie Fieber",
+          "after": "?",
+          "answer": "gemessen",
+          "en": "measured",
+          "why": "Participle last.",
+          "tip": "Perfekt",
+          "hint": "End.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Ich habe den Arzt",
+          "after": ".",
+          "answer": "gefragt",
+          "en": "asked",
+          "why": "Participle last.",
+          "tip": "Perfekt",
+          "hint": "End.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-bracket",
+      "label": "Lücken",
+      "title": "More endings",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each second part is used once.",
+      "chips": [
+        {
+          "w": "untersuchen",
+          "hint": "End."
+        },
+        {
+          "w": "gefragt",
+          "hint": "End."
+        },
+        {
+          "w": "geschlafen",
+          "hint": "End."
+        },
+        {
+          "w": "getrunken",
+          "hint": "End."
+        },
+        {
+          "w": "genommen",
+          "hint": "End."
+        },
+        {
+          "w": "gelesen",
+          "hint": "End."
+        },
+        {
+          "w": "an",
+          "hint": "End."
+        },
+        {
+          "w": "krank",
+          "hint": "End."
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Arzt muss den Patienten",
+          "after": ".",
+          "answer": "untersuchen",
+          "en": "examine",
+          "why": "Infinitive last.",
+          "tip": "Modal",
+          "hint": "End."
+        },
+        {
+          "before": "Die Pflegekraft hat den Arzt",
+          "after": ".",
+          "answer": "gefragt",
+          "en": "asked",
+          "why": "Participle last.",
+          "tip": "Perfekt",
+          "hint": "End."
+        },
+        {
+          "before": "schlafen: Der Patient hat gut",
+          "after": ".",
+          "answer": "geschlafen",
+          "en": "slept",
+          "why": "schlafen uses haben. Participle last.",
+          "tip": "Perfekt",
+          "hint": "End."
+        },
+        {
+          "before": "trinken, nicht nehmen: Er hat Wasser",
+          "after": ".",
+          "answer": "getrunken",
+          "en": "drunk",
+          "why": "Participle last.",
+          "tip": "Perfekt",
+          "hint": "End."
+        },
+        {
+          "before": "nehmen: Sie hat eine Tablette",
+          "after": ".",
+          "answer": "genommen",
+          "en": "taken",
+          "why": "Participle last.",
+          "tip": "Perfekt",
+          "hint": "End."
+        },
+        {
+          "before": "lesen: Wir haben den Befund",
+          "after": ".",
+          "answer": "gelesen",
+          "en": "read",
+          "why": "Participle last.",
+          "tip": "Perfekt",
+          "hint": "End."
+        },
+        {
+          "before": "Sie ruft den Arzt",
+          "after": ".",
+          "answer": "an",
+          "en": "calls",
+          "why": "an last.",
+          "tip": "Prefix",
+          "hint": "End."
+        },
+        {
+          "before": "Er ist noch",
+          "after": ".",
+          "answer": "krank",
+          "en": "ill",
+          "why": "Adjective last.",
+          "tip": "sein",
+          "hint": "End."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Die Pflegekraft muss Blut abnehmen",
+        "paragraphs": [
+          "Die Pflegekraft muss Blut abnehmen. Der Patient steht früh auf. Sie hat Fieber gemessen. Der Patient ist heute müde. Er bleibt heute liegen. Sie nimmt Blut ab. Der Arzt muss den Patienten untersuchen. Die Pflegekraft hat den Arzt gefragt."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Was muss die Pflegekraft?",
+          "qEn": "The infinitive at the end.",
+          "options": [
+            "Blut abnehmen",
+            "früh aufstehen",
+            "den Arzt fragen"
+          ],
+          "answer": 0,
+          "why": "muss … abnehmen.",
+          "hint": "Blood."
+        },
+        {
+          "kind": "mc",
+          "q": "Was steht am Ende von „steht früh …“?",
+          "qEn": "Prefix.",
+          "options": [
+            "früh",
+            "auf",
+            "steht"
+          ],
+          "answer": 1,
+          "why": "auf closes the bracket.",
+          "hint": "auf."
+        },
+        {
+          "kind": "mc",
+          "q": "Wie ist der Patient heute?",
+          "qEn": "Adjective.",
+          "options": [
+            "früh",
+            "gefragt",
+            "müde"
+          ],
+          "answer": 2,
+          "why": "ist … müde.",
+          "hint": "Tired."
+        },
+        {
+          "kind": "mc",
+          "q": "Wen muss der Arzt untersuchen?",
+          "qEn": "Object inside the bracket.",
+          "options": [
+            "den Patienten",
+            "die Pflegekraft",
+            "das Fieber"
+          ],
+          "answer": 0,
+          "why": "den Patienten sits before untersuchen.",
+          "hint": "The patient."
+        }
+      ]
+    },
+    {
+      "id": "writing-bracket",
+      "label": "Writing",
+      "title": "Write the note",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four sentences with a bracket.",
+      "prompt": "The nurse has to draw blood. The patient gets up early. She has taken the temperature. He is tired today.",
+      "bullets": [
+        "muss",
+        "auf",
+        "gemessen",
+        "müde"
+      ],
+      "model": "Die Pflegekraft muss Blut abnehmen. Der Patient steht früh auf. Sie hat Fieber gemessen. Der Patient ist heute müde.",
+      "modelEn": "The nurse has to draw blood. The patient gets up early. She has taken the temperature. The patient is tired today.",
+      "hint": "Finite verb in position 2. The other part at the end.",
+      "checklist": [
+        {
+          "id": "muss",
+          "label": "A modal bracket",
+          "keywords": [
+            "muss"
+          ]
+        },
+        {
+          "id": "auf",
+          "label": "auf at the end",
+          "keywords": [
+            "auf"
+          ]
+        },
+        {
+          "id": "gemessen",
+          "label": "gemessen at the end",
+          "keywords": [
+            "gemessen"
+          ]
+        },
+        {
+          "id": "müde",
+          "label": "müde at the end",
+          "keywords": [
+            "müde"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 12. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Draw blood, with muss. Subject first.",
+          "qEn": "Modal.",
+          "options": [
+            "Die Pflegekraft muss Blut abnehmen.",
+            "Die Pflegekraft muss abnehmen Blut.",
+            "Die Pflegekraft abnehmen muss Blut."
+          ],
+          "answer": 0,
+          "why": "Infinitive last.",
+          "hint": "End."
+        },
+        {
+          "kind": "mc",
+          "q": "Gets up early.",
+          "qEn": "Separable.",
+          "options": [
+            "Der Patient aufsteht früh.",
+            "Der Patient steht früh auf.",
+            "Der Patient steht auf früh."
+          ],
+          "answer": 1,
+          "why": "auf last.",
+          "hint": "Prefix."
+        },
+        {
+          "kind": "mc",
+          "q": "Has measured the fever.",
+          "qEn": "Perfect.",
+          "options": [
+            "Sie hat gemessen Fieber.",
+            "Sie gemessen hat Fieber.",
+            "Sie hat Fieber gemessen."
+          ],
+          "answer": 2,
+          "why": "Participle last.",
+          "hint": "End."
+        },
+        {
+          "kind": "mc",
+          "q": "Is tired today.",
+          "qEn": "sein + adjective.",
+          "options": [
+            "Der Patient ist heute müde.",
+            "Der Patient ist müde heute.",
+            "Der Patient müde ist heute."
+          ],
+          "answer": 0,
+          "why": "müde last.",
+          "hint": "End."
+        },
+        {
+          "kind": "mc",
+          "q": "Stays lying down today.",
+          "qEn": "Two verbs.",
+          "options": [
+            "Er bleibt liegen heute.",
+            "Er bleibt heute liegen.",
+            "Er liegen bleibt heute."
+          ],
+          "answer": 1,
+          "why": "liegen last.",
+          "hint": "End."
+        },
+        {
+          "kind": "mc",
+          "q": "Draws blood, no modal.",
+          "qEn": "Noun + verb.",
+          "options": [
+            "Sie nimmt ab Blut.",
+            "Sie abnimmt Blut.",
+            "Sie nimmt Blut ab."
+          ],
+          "answer": 2,
+          "why": "ab last.",
+          "hint": "Prefix."
+        },
+        {
+          "kind": "mc",
+          "q": "Must examine the patient.",
+          "qEn": "Modal.",
+          "options": [
+            "Der Arzt muss den Patienten untersuchen.",
+            "Der Arzt muss untersuchen den Patienten.",
+            "Der Arzt untersuchen muss den Patienten."
+          ],
+          "answer": 0,
+          "why": "Object inside, infinitive last.",
+          "hint": "End."
+        },
+        {
+          "kind": "mc",
+          "q": "Has asked the doctor.",
+          "qEn": "Perfect.",
+          "options": [
+            "Die Pflegekraft hat gefragt den Arzt.",
+            "Die Pflegekraft hat den Arzt gefragt.",
+            "Die Pflegekraft gefragt hat den Arzt."
+          ],
+          "answer": 1,
+          "why": "gefragt last.",
+          "hint": "End."
+        },
+        {
+          "kind": "mc",
+          "q": "What stands in position 2?",
+          "qEn": "Finite verb.",
+          "options": [
+            "the prefix",
+            "the participle",
+            "the finite verb"
+          ],
+          "answer": 2,
+          "why": "muss, steht, hat, ist, bleibt, nimmt.",
+          "hint": "Position 2."
+        },
+        {
+          "kind": "mc",
+          "q": "What stands at the end?",
+          "qEn": "Second part.",
+          "options": [
+            "prefix, infinitive, participle or adjective",
+            "the subject",
+            "the finite verb"
+          ],
+          "answer": 0,
+          "why": "The bracket closes there.",
+          "hint": "End."
+        },
+        {
+          "kind": "mc",
+          "q": "Calls the doctor.",
+          "qEn": "Separable.",
+          "options": [
+            "Sie anruft den Arzt.",
+            "Sie ruft den Arzt an.",
+            "Sie ruft an den Arzt."
+          ],
+          "answer": 1,
+          "why": "an last.",
+          "hint": "Prefix."
+        },
+        {
+          "kind": "mc",
+          "q": "Has slept well. schlafen takes haben.",
+          "qEn": "Perfect.",
+          "options": [
+            "Er hat geschlafen gut.",
+            "Er ist gut geschlafen.",
+            "Er hat gut geschlafen."
+          ],
+          "answer": 2,
+          "why": "haben, participle last. Not sein.",
+          "hint": "hat."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Zweite Position, Ende",
+      "redemittel": [
+        {
+          "de": "Die Pflegekraft muss Blut abnehmen.",
+          "en": "The nurse has to draw blood."
+        },
+        {
+          "de": "Der Patient steht früh auf.",
+          "en": "The patient gets up early."
+        },
+        {
+          "de": "Sie hat Fieber gemessen.",
+          "en": "She has taken the temperature."
+        },
+        {
+          "de": "Der Patient ist heute müde.",
+          "en": "The patient is tired today."
+        },
+        {
+          "de": "Er bleibt heute liegen.",
+          "en": "He stays lying down today."
+        }
+      ]
+    }
+  ]
+}

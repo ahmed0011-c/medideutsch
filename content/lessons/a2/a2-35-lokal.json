@@ -1,0 +1,2032 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)"
+    },
+    "einen": {
+      "de": "einen",
+      "pos": "article",
+      "en": "a (masculine accusative)"
+    },
+    "einem": {
+      "de": "einem",
+      "pos": "article",
+      "en": "a (masculine or neuter dative)"
+    },
+    "einer": {
+      "de": "einer",
+      "pos": "article",
+      "en": "a (feminine dative)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in; into"
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "at; on (vertical)"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on (horizontal); onto"
+    },
+    "neben": {
+      "de": "neben",
+      "pos": "preposition",
+      "en": "next to"
+    },
+    "hinter": {
+      "de": "hinter",
+      "pos": "preposition",
+      "en": "behind"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "in front of"
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of; from"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from"
+    },
+    "bei": {
+      "de": "bei",
+      "pos": "preposition",
+      "en": "at (a person)"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "preposition",
+      "en": "to"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "to; after"
+    },
+    "im": {
+      "de": "im",
+      "pos": "preposition",
+      "en": "in the (in + dem)"
+    },
+    "ins": {
+      "de": "ins",
+      "pos": "preposition",
+      "en": "into the (in + das)"
+    },
+    "am": {
+      "de": "am",
+      "pos": "preposition",
+      "en": "at the (an + dem)"
+    },
+    "beim": {
+      "de": "beim",
+      "pos": "preposition",
+      "en": "at the (bei + dem)"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "preposition",
+      "en": "to the (zu + dem)"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "preposition",
+      "en": "from the (von + dem)"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or"
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "than"
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "conjunction",
+      "en": "as; like"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "adverb",
+      "en": "please"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "adverb",
+      "en": "not"
+    },
+    "dort": {
+      "de": "dort",
+      "pos": "adverb",
+      "en": "there"
+    },
+    "so": {
+      "de": "so",
+      "pos": "adverb",
+      "en": "so"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "adverb",
+      "en": "where"
+    },
+    "wohin": {
+      "de": "wohin",
+      "pos": "adverb",
+      "en": "where to"
+    },
+    "woher": {
+      "de": "woher",
+      "pos": "adverb",
+      "en": "where from"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "hause": {
+      "de": "Hause",
+      "pos": "noun",
+      "en": "home, in the phrases zu Hause, nach Hause, von zu Hause",
+      "note": "Fixed phrases: zu Hause (where), nach Hause (where to), von zu Hause (where from)."
+    },
+    "bringt": {
+      "de": "bringen → bringt",
+      "pos": "verb",
+      "en": "brings"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies; is lying"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "komme": {
+      "de": "kommen → komme",
+      "pos": "verb",
+      "en": "come (ich)"
+    },
+    "stehen": {
+      "de": "stehen → stehen",
+      "pos": "verb",
+      "en": "to stand"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "legen": {
+      "de": "legen → legen",
+      "pos": "verb",
+      "en": "to lay; to put"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "bin": {
+      "de": "sein → bin",
+      "pos": "verb",
+      "en": "am"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "geht": {
+      "de": "gehen → geht",
+      "pos": "verb",
+      "en": "goes"
+    },
+    "gehe": {
+      "de": "gehen → gehe",
+      "pos": "verb",
+      "en": "go (ich)"
+    },
+    "gibt": {
+      "de": "geben → gibt",
+      "pos": "verb",
+      "en": "gives"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "spricht": {
+      "de": "sprechen → spricht",
+      "pos": "verb",
+      "en": "speaks"
+    },
+    "prüft": {
+      "de": "prüfen → prüft",
+      "pos": "verb",
+      "en": "checks"
+    },
+    "trinkt": {
+      "de": "trinken → trinkt",
+      "pos": "verb",
+      "en": "drinks"
+    },
+    "arbeitet": {
+      "de": "arbeiten → arbeitet",
+      "pos": "verb",
+      "en": "works"
+    },
+    "kommen": {
+      "de": "kommen → kommen",
+      "pos": "verb",
+      "en": "to come; Sie-imperative of kommen"
+    },
+    "wird": {
+      "de": "werden → wird",
+      "pos": "verb",
+      "en": "becomes"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative or dative singular)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "op": {
+      "de": "OP",
+      "pos": "noun",
+      "en": "operating theatre",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die OPs"
+    },
+    "liege": {
+      "de": "Liege",
+      "pos": "noun",
+      "en": "examination couch",
+      "emoji": "🛏️",
+      "article": "die",
+      "plural": "die Liegen"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer"
+    },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "thermometer",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Thermometer"
+    },
+    "nachttisch": {
+      "de": "Nachttisch",
+      "pos": "noun",
+      "en": "bedside table",
+      "emoji": "🗄️",
+      "article": "der",
+      "plural": "die Nachttische"
+    },
+    "infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "infusion",
+      "emoji": "💧",
+      "article": "die",
+      "plural": "die Infusionen"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "emoji": "📟",
+      "article": "der",
+      "plural": "die Monitore"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "file",
+      "emoji": "📋",
+      "article": "die",
+      "plural": "die Akten"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "emoji": "🪵",
+      "article": "der",
+      "plural": "die Tische"
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Ärztinnen"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen"
+    },
+    "intensivstation": {
+      "de": "Intensivstation",
+      "pos": "noun",
+      "en": "intensive care unit",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Intensivstationen"
+    },
+    "schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "⚡",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "arm": {
+      "de": "Arm",
+      "pos": "noun",
+      "en": "arm",
+      "emoji": "💪",
+      "article": "der",
+      "plural": "die Arme"
+    },
+    "übelkeit": {
+      "de": "Übelkeit",
+      "pos": "noun",
+      "en": "nausea",
+      "emoji": "🤢",
+      "article": "die",
+      "plural": "Übelkeit"
+    },
+    "pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "emoji": "🩹",
+      "article": "das",
+      "plural": "die Pflaster"
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding",
+      "emoji": "📄",
+      "article": "der",
+      "plural": "die Befunde"
+    },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Verbände"
+    },
+    "kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Kolleginnen"
+    },
+    "tag": {
+      "de": "Tag",
+      "pos": "noun",
+      "en": "day",
+      "emoji": "📅",
+      "article": "der",
+      "plural": "die Tage"
+    },
+    "dosis": {
+      "de": "Dosis",
+      "pos": "noun",
+      "en": "dose",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Dosen"
+    },
+    "blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "en": "blood pressure",
+      "emoji": "❤️",
+      "article": "der",
+      "plural": "Blutdruck"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das",
+      "plural": "Wasser"
+    },
+    "saft": {
+      "de": "Saft",
+      "pos": "noun",
+      "en": "juice",
+      "emoji": "🧃",
+      "article": "der",
+      "plural": "die Säfte"
+    },
+    "starke": {
+      "de": "starke",
+      "pos": "adjective",
+      "en": "severe, strong (feminine or plural weak ending)"
+    },
+    "starken": {
+      "de": "starken",
+      "pos": "adjective",
+      "en": "severe, strong (accusative masculine ending)"
+    },
+    "stark": {
+      "de": "stark",
+      "pos": "adjective",
+      "en": "severe, strong (no ending after sein)"
+    },
+    "leicht": {
+      "de": "leicht",
+      "pos": "adjective",
+      "en": "mild; light"
+    },
+    "kleines": {
+      "de": "kleines",
+      "pos": "adjective",
+      "en": "small (neuter nominative or accusative ending)"
+    },
+    "neuen": {
+      "de": "neuen",
+      "pos": "adjective",
+      "en": "new (weak ending)"
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new (no ending after sein)"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "good (no ending after sein)"
+    },
+    "kleinen": {
+      "de": "kleinen",
+      "pos": "adjective",
+      "en": "small (weak ending)"
+    },
+    "dritten": {
+      "de": "dritten",
+      "pos": "adjective",
+      "en": "third (dative ending)"
+    },
+    "postoperativen": {
+      "de": "postoperativen",
+      "pos": "adjective",
+      "en": "postoperative (dative ending)"
+    },
+    "zweiten": {
+      "de": "zweiten",
+      "pos": "adjective",
+      "en": "second (dative ending)"
+    },
+    "stärker": {
+      "de": "stärker",
+      "pos": "adjective",
+      "en": "stronger"
+    },
+    "stärkere": {
+      "de": "stärkere",
+      "pos": "adjective",
+      "en": "stronger (attributive ending)"
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high"
+    },
+    "früher": {
+      "de": "früher",
+      "pos": "adverb",
+      "en": "earlier; sooner"
+    },
+    "besser": {
+      "de": "besser",
+      "pos": "adjective",
+      "en": "better"
+    },
+    "lieber": {
+      "de": "lieber",
+      "pos": "adverb",
+      "en": "preferably; rather"
+    }
+  },
+  "id": "a2-35-lokal",
+  "level": "A2",
+  "unit": "Kapitel 35",
+  "chapter": 35,
+  "chapters": [
+    35
+  ],
+  "title": "Beim Bäcker, zum Friseur, auf den Sportplatz",
+  "subtitle": "Wo, wohin and woher: bei, zu, nach, aus and von on the ward",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "Wo?: in, an or auf + dative, and bei + dative for a person.",
+        "Wohin?: in, an or auf + accusative, nach for cities and countries without an article, zu + dative for a person.",
+        "Woher?: aus + dative for a room or place, von + dative for a person.",
+        "Fixed phrases: zu Hause, nach Hause, von zu Hause. The ward is not *nach Station."
+      ],
+      "vocab": [
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "👨‍⚕️",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "ward",
+          "emoji": "🏥",
+          "glossaryKey": "station"
+        },
+        {
+          "de": "Intensivstation",
+          "article": "die",
+          "plural": "die Intensivstationen",
+          "en": "intensive care unit",
+          "emoji": "🏥",
+          "glossaryKey": "intensivstation"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Hause",
+          "article": "das",
+          "plural": "—",
+          "en": "home, in zu Hause",
+          "emoji": "🏠",
+          "glossaryKey": "hause"
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        }
+      ],
+      "text": {
+        "title": "Beim Arzt",
+        "de": "Ich bin beim Arzt. Ich gehe zum Arzt. Ich komme vom Arzt. Der Patient kommt auf die Intensivstation. Dort liegt er auf der Intensivstation. Die Pflegekraft arbeitet auf der Station. Sie kommt aus dem Zimmer. Zu Hause bleibt der Patient. Die Pflegekraft geht nach Hause.",
+        "en": "I am at the doctor's. I am going to the doctor. I am coming from the doctor. The patient is going to intensive care. There he lies in intensive care. The nurse works on the ward. She comes out of the room. At home the patient stays. The nurse goes home."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Wo? Wohin? Woher?",
+      "practice": "choose",
+      "heroTitle": "Three questions, three prepositions",
+      "heroImage": "stethoscope",
+      "story": [
+        "Beim Arzt is <b>Wo?</b>. Zum Arzt is <b>Wohin?</b>. Vom Arzt is <b>Woher?</b>.",
+        "Zu Hause is the place. Nach Hause is the way home. Von zu Hause is the starting point."
+      ],
+      "questionRule": "People take <b>bei / zu / von</b>. Rooms take <b>in / aus</b>. A surface such as the ward takes <b>auf</b>.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "Wo?",
+              "r": "subj"
+            },
+            {
+              "t": "beim",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Ich",
+              "r": "subj"
+            },
+            {
+              "t": "bin",
+              "r": "verb"
+            },
+            {
+              "t": "beim",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Where? bei + dative.",
+          "enAfter": "Ich bin beim Arzt.",
+          "callLabel": "Show Wo?"
+        },
+        {
+          "before": [
+            {
+              "t": "Wohin?",
+              "r": "subj"
+            },
+            {
+              "t": "zum",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Ich",
+              "r": "subj"
+            },
+            {
+              "t": "gehe",
+              "r": "verb"
+            },
+            {
+              "t": "zum",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Where to? zu + dative.",
+          "enAfter": "Ich gehe zum Arzt.",
+          "callLabel": "Show Wohin?"
+        },
+        {
+          "before": [
+            {
+              "t": "Woher?",
+              "r": "subj"
+            },
+            {
+              "t": "vom",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Ich",
+              "r": "subj"
+            },
+            {
+              "t": "komme",
+              "r": "verb"
+            },
+            {
+              "t": "vom",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Where from? von + dative.",
+          "enAfter": "Ich komme vom Arzt.",
+          "callLabel": "Show Woher?"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Ort, Richtung, Herkunft",
+          "caption": "One row is one place, seen three ways.",
+          "columns": [
+            "Wo?",
+            "Wohin?",
+            "Woher?"
+          ],
+          "rows": [
+            {
+              "label": "Zimmer",
+              "cells": [
+                "im Zimmer",
+                "ins Zimmer",
+                "aus dem Zimmer"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Arzt",
+              "cells": [
+                "beim Arzt",
+                "zum Arzt",
+                "vom Arzt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Station",
+              "cells": [
+                "auf der Station",
+                "auf die Station",
+                "von der Station"
+              ]
+            },
+            {
+              "label": "Hause",
+              "cells": [
+                "zu Hause",
+                "nach Hause",
+                "von zu Hause"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Intensivstation",
+              "cells": [
+                "auf der Intensivstation",
+                "auf die Intensivstation",
+                "von der Intensivstation"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Ausnahmen",
+        "items": [
+          {
+            "de": "Ich gehe zum Arzt.",
+            "en": "A person takes zu, not nach.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich gehe nach Arzt.",
+            "en": "nach is not used for a person.",
+            "tone": "stop"
+          },
+          {
+            "de": "Sie geht nach Hause.",
+            "en": "Direction home is nach Hause.",
+            "tone": "ok"
+          },
+          {
+            "de": "Sie geht zu Hause.",
+            "en": "zu Hause answers Wo?, not Wohin?.",
+            "tone": "stop"
+          },
+          {
+            "de": "Er liegt auf der Station.",
+            "en": "The ward is a surface: auf, not in or nach.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er geht nach Station.",
+            "en": "nach is for cities and countries without an article, not for the ward.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "im Wald and im Park use in, like a room, not nach. nach Berlin, but in den Wald."
+      },
+      "tips": [
+        {
+          "title": "Person, room, home",
+          "body": "Person: bei / zu / von. Room: in and aus. Home is fixed: zu Hause, nach Hause, von zu Hause. bei + dem = beim, zu + dem = zum, von + dem = vom.",
+          "mnemonic": "beim Arzt, zum Arzt, vom Arzt.",
+          "emoji": "🩺"
+        }
+      ],
+      "quizTitle": "Choose the form",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Ich bin ___ Arzt.",
+          "qEn": "Where, a person.",
+          "options": [
+            "beim",
+            "zum",
+            "vom"
+          ],
+          "answer": 0,
+          "why": "Wo? + person = bei.",
+          "hint": "Wo?"
+        },
+        {
+          "kind": "mc",
+          "q": "Ich gehe ___ Arzt.",
+          "qEn": "Direction, a person.",
+          "options": [
+            "beim",
+            "zum",
+            "aus dem"
+          ],
+          "answer": 1,
+          "why": "Wohin? + person = zu.",
+          "hint": "Wohin?"
+        },
+        {
+          "kind": "mc",
+          "q": "Ich komme ___ Arzt.",
+          "qEn": "Origin, a person.",
+          "options": [
+            "zum",
+            "beim",
+            "vom"
+          ],
+          "answer": 2,
+          "why": "Woher? + person = von.",
+          "hint": "Woher?"
+        },
+        {
+          "kind": "mc",
+          "q": "Die Pflegekraft geht ___.",
+          "qEn": "Direction home.",
+          "options": [
+            "nach Hause",
+            "zu Hause",
+            "von zu Hause"
+          ],
+          "answer": 0,
+          "why": "Wohin? home = nach Hause.",
+          "hint": "nach Hause"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "Gap",
+      "title": "bei, zu or von?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Choose the preposition that matches the question.",
+      "chips": [
+        {
+          "w": "beim",
+          "hint": "Wo?"
+        },
+        {
+          "w": "zum",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "vom",
+          "hint": "Woher?"
+        },
+        {
+          "w": "nach",
+          "hint": "Hause"
+        },
+        {
+          "w": "zu",
+          "hint": "Hause"
+        },
+        {
+          "w": "aus",
+          "hint": "Zimmer"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wo? Ich bin",
+          "after": "Arzt.",
+          "answer": "beim",
+          "en": "at the doctor's",
+          "why": "bei + dem.",
+          "tip": "Wo?",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wohin? Ich gehe",
+          "after": "Arzt.",
+          "answer": "zum",
+          "en": "to the doctor",
+          "why": "zu + dem.",
+          "tip": "Wohin?",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Woher? Ich komme",
+          "after": "Arzt.",
+          "answer": "vom",
+          "en": "from the doctor",
+          "why": "von + dem.",
+          "tip": "Woher?",
+          "hint": "Woher?"
+        },
+        {
+          "before": "Wohin? Sie geht",
+          "after": "Hause.",
+          "answer": "nach",
+          "en": "home",
+          "why": "Direction home.",
+          "tip": "Wohin?",
+          "hint": "Hause"
+        },
+        {
+          "before": "Wo? Er bleibt",
+          "after": "Hause.",
+          "answer": "zu",
+          "en": "at home",
+          "why": "Place home.",
+          "tip": "Wo?",
+          "hint": "Hause"
+        },
+        {
+          "before": "Woher? Sie kommt",
+          "after": "dem Zimmer.",
+          "answer": "aus",
+          "en": "out of the room",
+          "why": "A room takes aus.",
+          "tip": "Woher?",
+          "hint": "Zimmer"
+        }
+      ]
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "Match",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Which question?",
+      "items": [
+        {
+          "prompt": "Ich bin beim Arzt.",
+          "options": [
+            {
+              "emoji": "📍",
+              "label": "Wo?",
+              "caption": "place"
+            },
+            {
+              "emoji": "➡️",
+              "label": "Wohin?",
+              "caption": "direction"
+            }
+          ],
+          "answer": 0,
+          "why": "beim answers where he is.",
+          "hint": "Wo?"
+        },
+        {
+          "prompt": "Ich gehe zum Arzt.",
+          "options": [
+            {
+              "emoji": "➡️",
+              "label": "Wohin?",
+              "caption": "direction"
+            },
+            {
+              "emoji": "↩️",
+              "label": "Woher?",
+              "caption": "origin"
+            }
+          ],
+          "answer": 0,
+          "why": "zum answers where he is going.",
+          "hint": "Wohin?"
+        },
+        {
+          "prompt": "Ich komme vom Arzt.",
+          "options": [
+            {
+              "emoji": "↩️",
+              "label": "Woher?",
+              "caption": "origin"
+            },
+            {
+              "emoji": "📍",
+              "label": "Wo?",
+              "caption": "place"
+            }
+          ],
+          "answer": 0,
+          "why": "vom answers where he comes from.",
+          "hint": "Woher?"
+        },
+        {
+          "prompt": "Er wird auf die Intensivstation gebracht.",
+          "options": [
+            {
+              "emoji": "➡️",
+              "label": "Wohin?",
+              "caption": "auf + accusative"
+            },
+            {
+              "emoji": "📍",
+              "label": "Wo?",
+              "caption": "auf + dative"
+            }
+          ],
+          "answer": 0,
+          "why": "auf die shows the direction.",
+          "hint": "Wohin?"
+        }
+      ]
+    },
+    {
+      "id": "px-picture",
+      "label": "Picture",
+      "title": "Picture",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the place.",
+      "items": [
+        {
+          "id": "doc",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "image": {
+            "type": "svg",
+            "id": "stethoscope"
+          },
+          "hint": "beim Arzt, zum Arzt, vom Arzt"
+        },
+        {
+          "id": "ward",
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "ward",
+          "image": {
+            "type": "svg",
+            "id": "ward"
+          },
+          "hint": "auf der Station, auf die Station"
+        },
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Zu Hause bleibt er im Bett."
+        },
+        {
+          "id": "icu",
+          "de": "Intensivstation",
+          "article": "die",
+          "plural": "die Intensivstationen",
+          "en": "intensive care",
+          "image": {
+            "type": "svg",
+            "id": "wheelchair"
+          },
+          "hint": "auf die Intensivstation"
+        }
+      ]
+    },
+    {
+      "id": "px-build",
+      "label": "Build",
+      "title": "Build",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Build the place sentence.",
+      "items": [
+        {
+          "tiles": [
+            "Ich",
+            "bin",
+            "heute",
+            "beim",
+            "Arzt"
+          ],
+          "answers": [
+            "Ich bin heute beim Arzt"
+          ],
+          "punct": ".",
+          "modal": "bin",
+          "inf": "Arzt",
+          "question": false,
+          "en": "I am at the doctor's today.",
+          "hint": "Wo? beim.",
+          "feedback": {
+            "fallback": "Wo? beim."
+          }
+        },
+        {
+          "tiles": [
+            "Ich",
+            "gehe",
+            "jetzt",
+            "zum",
+            "Arzt"
+          ],
+          "answers": [
+            "Ich gehe jetzt zum Arzt"
+          ],
+          "punct": ".",
+          "modal": "gehe",
+          "inf": "Arzt",
+          "question": false,
+          "en": "I am going to the doctor now.",
+          "hint": "Wohin? zum.",
+          "feedback": {
+            "fallback": "Wohin? zum."
+          }
+        },
+        {
+          "tiles": [
+            "Ich",
+            "komme",
+            "später",
+            "vom",
+            "Arzt"
+          ],
+          "answers": [
+            "Ich komme später vom Arzt"
+          ],
+          "punct": ".",
+          "modal": "komme",
+          "inf": "Arzt",
+          "question": false,
+          "en": "I am coming from the doctor later.",
+          "hint": "Woher? vom.",
+          "feedback": {
+            "fallback": "Woher? vom."
+          }
+        },
+        {
+          "tiles": [
+            "Der",
+            "Patient",
+            "kommt",
+            "auf",
+            "die",
+            "Intensivstation"
+          ],
+          "answers": [
+            "Der Patient kommt auf die Intensivstation"
+          ],
+          "punct": ".",
+          "modal": "Patient",
+          "inf": "Intensivstation",
+          "question": false,
+          "en": "The patient is going to intensive care.",
+          "hint": "Wohin? auf die.",
+          "feedback": {
+            "fallback": "Wohin? auf die."
+          }
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Change the question.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Rewrite the phrase for the new question.",
+      "chips": [
+        {
+          "w": "zum Arzt",
+          "hint": "zu"
+        },
+        {
+          "w": "vom Arzt",
+          "hint": "von"
+        },
+        {
+          "w": "nach Hause",
+          "hint": "nach"
+        },
+        {
+          "w": "von zu Hause",
+          "hint": "von"
+        },
+        {
+          "w": "auf die Station",
+          "hint": "auf"
+        },
+        {
+          "w": "aus dem Zimmer",
+          "hint": "aus"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wo: beim Arzt. Wohin:",
+          "after": ".",
+          "answer": "zum Arzt",
+          "en": "to the doctor",
+          "why": "zu instead of bei.",
+          "tip": "Wohin?",
+          "hint": "zu"
+        },
+        {
+          "before": "Wohin: zum Arzt. Woher:",
+          "after": ".",
+          "answer": "vom Arzt",
+          "en": "from the doctor",
+          "why": "von instead of zu.",
+          "tip": "Woher?",
+          "hint": "von"
+        },
+        {
+          "before": "Wo: zu Hause. Wohin:",
+          "after": ".",
+          "answer": "nach Hause",
+          "en": "home",
+          "why": "Direction is nach.",
+          "tip": "Wohin?",
+          "hint": "nach"
+        },
+        {
+          "before": "Wohin: nach Hause. Woher:",
+          "after": ".",
+          "answer": "von zu Hause",
+          "en": "from home",
+          "why": "Origin is von zu Hause.",
+          "tip": "Woher?",
+          "hint": "von"
+        },
+        {
+          "before": "Wo: auf der Station. Wohin:",
+          "after": ".",
+          "answer": "auf die Station",
+          "en": "onto the ward",
+          "why": "Dative der becomes accusative die.",
+          "tip": "Wohin?",
+          "hint": "auf"
+        },
+        {
+          "before": "Wohin: ins Zimmer. Woher:",
+          "after": ".",
+          "answer": "aus dem Zimmer",
+          "en": "out of the room",
+          "why": "A room takes aus.",
+          "tip": "Woher?",
+          "hint": "aus"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich gehe nach Arzt."
+          ],
+          "options": [
+            "Ich gehe zum Arzt.",
+            "Ich gehe nach Arzt.",
+            "Ich gehe aus Arzt."
+          ],
+          "answer": 0,
+          "reveal": "Ich gehe zum Arzt.",
+          "hint": "A person takes zu."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie geht zu Hause."
+          ],
+          "options": [
+            "Sie geht nach Hause.",
+            "Sie geht zu Hause.",
+            "Sie geht bei Hause."
+          ],
+          "answer": 0,
+          "reveal": "Sie geht nach Hause.",
+          "hint": "Direction home is nach Hause."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er liegt nach der Station."
+          ],
+          "options": [
+            "Er liegt auf der Station.",
+            "Er liegt nach der Station.",
+            "Er liegt zu der Station."
+          ],
+          "answer": 0,
+          "reveal": "Er liegt auf der Station.",
+          "hint": "The ward takes auf."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie kommt aus dem Arzt."
+          ],
+          "options": [
+            "Sie kommt vom Arzt.",
+            "Sie kommt aus dem Arzt.",
+            "Sie kommt beim Arzt."
+          ],
+          "answer": 0,
+          "reveal": "Sie kommt vom Arzt.",
+          "hint": "A person takes von, not aus."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "At the desk",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Complete the dialogue.",
+      "chips": [
+        {
+          "w": "beim",
+          "hint": "Wo?"
+        },
+        {
+          "w": "zum",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "vom",
+          "hint": "Woher?"
+        },
+        {
+          "w": "auf die",
+          "hint": "auf"
+        },
+        {
+          "w": "auf der",
+          "hint": "auf"
+        },
+        {
+          "w": "nach",
+          "hint": "nach"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wo sind Sie?",
+          "after": "Arzt.",
+          "answer": "beim",
+          "en": "at the doctor's",
+          "why": "Wo? + person.",
+          "tip": "Wo?",
+          "hint": "Wo?",
+          "who": "Anmeldung"
+        },
+        {
+          "before": "Wohin gehen Sie?",
+          "after": "Arzt.",
+          "answer": "zum",
+          "en": "to the doctor",
+          "why": "Wohin? + person.",
+          "tip": "Wohin?",
+          "hint": "Wohin?",
+          "who": "Anmeldung"
+        },
+        {
+          "before": "Woher kommen Sie?",
+          "after": "Arzt.",
+          "answer": "vom",
+          "en": "from the doctor",
+          "why": "Woher? + person.",
+          "tip": "Woher?",
+          "hint": "Woher?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Der Patient kommt",
+          "after": "Intensivstation.",
+          "answer": "auf die",
+          "en": "to intensive care",
+          "why": "Wohin? auf + accusative.",
+          "tip": "Wohin?",
+          "hint": "auf",
+          "who": "Ärztin"
+        },
+        {
+          "before": "Ich arbeite",
+          "after": "Station.",
+          "answer": "auf der",
+          "en": "on the ward",
+          "why": "Wo? auf + dative.",
+          "tip": "Wo?",
+          "hint": "auf",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Danach gehe ich",
+          "after": "Hause.",
+          "answer": "nach",
+          "en": "home",
+          "why": "Direction home.",
+          "tip": "Wohin?",
+          "hint": "nach",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "px-gap-2",
+      "label": "More gaps",
+      "title": "Room, ward, home",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "One chip for each gap.",
+      "chips": [
+        {
+          "w": "Zimmer",
+          "hint": "Wo?"
+        },
+        {
+          "w": "Labor",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "Anmeldung",
+          "hint": "Woher?"
+        },
+        {
+          "w": "Flur",
+          "hint": "Wo?"
+        },
+        {
+          "w": "zur Anmeldung",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "Station",
+          "hint": "Woher?"
+        },
+        {
+          "w": "Hause",
+          "hint": "Wo?"
+        },
+        {
+          "w": "Berlin",
+          "hint": "Wohin?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wo? im",
+          "after": ".",
+          "answer": "Zimmer",
+          "en": "in the room",
+          "why": "in + dative, contracted.",
+          "tip": "Zimmer",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wohin? ins",
+          "after": ".",
+          "answer": "Labor",
+          "en": "into the lab",
+          "why": "in + accusative.",
+          "tip": "Labor",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Woher? aus der",
+          "after": ".",
+          "answer": "Anmeldung",
+          "en": "from reception",
+          "why": "aus + dative.",
+          "tip": "Anmeldung",
+          "hint": "Woher?"
+        },
+        {
+          "before": "Wo? auf dem",
+          "after": ".",
+          "answer": "Flur",
+          "en": "in the corridor",
+          "why": "auf + dative.",
+          "tip": "Flur",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wohin?",
+          "after": ".",
+          "answer": "zur Anmeldung",
+          "en": "to reception",
+          "why": "zu + der = zur.",
+          "tip": "zur",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Woher? von der",
+          "after": ".",
+          "answer": "Station",
+          "en": "from the ward",
+          "why": "von + dative.",
+          "tip": "von",
+          "hint": "Woher?"
+        },
+        {
+          "before": "Wo? zu",
+          "after": ".",
+          "answer": "Hause",
+          "en": "at home",
+          "why": "Fixed phrase.",
+          "tip": "zu",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wohin? nach",
+          "after": ".",
+          "answer": "Berlin",
+          "en": "to Berlin",
+          "why": "A city without an article takes nach.",
+          "tip": "nach",
+          "hint": "Wohin?"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read and answer",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Beim Arzt",
+        "paragraphs": [
+          "Ich bin beim Arzt. Ich gehe zum Arzt. Ich komme vom Arzt. Der Patient kommt auf die Intensivstation. Dort liegt er auf der Intensivstation. Die Pflegekraft arbeitet auf der Station. Sie kommt aus dem Zimmer. Zu Hause bleibt der Patient. Die Pflegekraft geht nach Hause."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "q": "Wo ist die sprechende Person am Anfang?",
+          "qEn": "Where?",
+          "options": [
+            "beim Arzt",
+            "zum Arzt",
+            "vom Arzt"
+          ],
+          "answer": 0,
+          "why": "bin answers Wo?.",
+          "hint": "bin answers Wo?."
+        },
+        {
+          "q": "Wohin geht sie?",
+          "qEn": "Where to?",
+          "options": [
+            "zum Arzt",
+            "beim Arzt",
+            "aus dem Zimmer"
+          ],
+          "answer": 0,
+          "why": "gehe answers Wohin?.",
+          "hint": "gehe answers Wohin?."
+        },
+        {
+          "q": "Wohin kommt der Patient?",
+          "qEn": "Where is the patient going?",
+          "options": [
+            "auf die Intensivstation",
+            "auf der Intensivstation",
+            "zu Hause"
+          ],
+          "answer": 0,
+          "why": "kommt auf die is the direction.",
+          "hint": "kommt auf die is the direction."
+        },
+        {
+          "q": "Wohin geht die Pflegekraft am Ende?",
+          "qEn": "Where does she go?",
+          "options": [
+            "nach Hause",
+            "zu Hause",
+            "von zu Hause"
+          ],
+          "answer": 0,
+          "why": "geht nach Hause.",
+          "hint": "geht nach Hause."
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "Three answers",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write where you are, where you are going, and where you are coming from.",
+      "prompt": "Use the doctor for all three questions, then send the nurse home.",
+      "bullets": [
+        "Use beim.",
+        "Use zum.",
+        "Use nach Hause."
+      ],
+      "model": "Ich bin beim Arzt. Ich gehe zum Arzt. Ich komme vom Arzt. Danach gehe ich nach Hause.",
+      "modelEn": "I am at the doctor's. I am going to the doctor. I am coming from the doctor. After that I go home.",
+      "hint": "Person: bei, zu, von. Home: zu Hause, nach Hause.",
+      "checklist": [
+        {
+          "id": "beim",
+          "label": "Uses beim",
+          "keywords": [
+            "beim"
+          ]
+        },
+        {
+          "id": "zum",
+          "label": "Uses zum",
+          "keywords": [
+            "zum"
+          ]
+        },
+        {
+          "id": "hause",
+          "label": "Uses nach Hause",
+          "keywords": [
+            "nach Hause"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Wo? a person →",
+          "qEn": "Where.",
+          "options": [
+            "bei",
+            "zu",
+            "nach"
+          ],
+          "answer": 0,
+          "why": "bei + dative.",
+          "hint": "bei"
+        },
+        {
+          "kind": "mc",
+          "q": "Wohin? a person →",
+          "qEn": "Direction.",
+          "options": [
+            "bei",
+            "zu",
+            "aus"
+          ],
+          "answer": 1,
+          "why": "zu + dative.",
+          "hint": "zu"
+        },
+        {
+          "kind": "mc",
+          "q": "Woher? a person →",
+          "qEn": "Origin.",
+          "options": [
+            "aus",
+            "bei",
+            "von"
+          ],
+          "answer": 2,
+          "why": "von + dative.",
+          "hint": "von"
+        },
+        {
+          "kind": "mc",
+          "q": "Woher? a room →",
+          "qEn": "Origin.",
+          "options": [
+            "aus",
+            "von",
+            "bei"
+          ],
+          "answer": 0,
+          "why": "Rooms take aus.",
+          "hint": "aus"
+        },
+        {
+          "kind": "mc",
+          "q": "Wohin? a city without an article →",
+          "qEn": "Direction.",
+          "options": [
+            "zu",
+            "nach",
+            "bei"
+          ],
+          "answer": 1,
+          "why": "nach Berlin.",
+          "hint": "nach"
+        },
+        {
+          "kind": "mc",
+          "q": "The ward takes…",
+          "qEn": "Surface.",
+          "options": [
+            "nach",
+            "bei",
+            "auf"
+          ],
+          "answer": 2,
+          "why": "auf der Station, auf die Station.",
+          "hint": "auf"
+        },
+        {
+          "kind": "mc",
+          "q": "zu + dem =",
+          "qEn": "Contraction.",
+          "options": [
+            "zum",
+            "zur",
+            "vom"
+          ],
+          "answer": 0,
+          "why": "zu + dem = zum.",
+          "hint": "zum"
+        },
+        {
+          "kind": "mc",
+          "q": "von + dem =",
+          "qEn": "Contraction.",
+          "options": [
+            "zum",
+            "vom",
+            "beim"
+          ],
+          "answer": 1,
+          "why": "von + dem = vom.",
+          "hint": "vom"
+        },
+        {
+          "kind": "mc",
+          "q": "Where is home?",
+          "qEn": "Place.",
+          "options": [
+            "nach Hause",
+            "von zu Hause",
+            "zu Hause"
+          ],
+          "answer": 2,
+          "why": "zu Hause answers Wo?.",
+          "hint": "Wo?"
+        },
+        {
+          "kind": "mc",
+          "q": "Where to, home?",
+          "qEn": "Direction.",
+          "options": [
+            "nach Hause",
+            "zu Hause",
+            "beim Hause"
+          ],
+          "answer": 0,
+          "why": "nach Hause answers Wohin?.",
+          "hint": "Wohin?"
+        },
+        {
+          "kind": "mc",
+          "q": "Ich bin ___ Intensivstation. He is already there.",
+          "qEn": "Place.",
+          "options": [
+            "auf die",
+            "auf der",
+            "nach der"
+          ],
+          "answer": 1,
+          "why": "Wo? auf + dative.",
+          "hint": "Wo?"
+        },
+        {
+          "kind": "mc",
+          "q": "Er kommt ___ Intensivstation.",
+          "qEn": "Direction.",
+          "options": [
+            "auf der",
+            "zu der",
+            "auf die"
+          ],
+          "answer": 2,
+          "why": "Wohin? auf + accusative.",
+          "hint": "Wohin?"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Beim Arzt, zum Arzt, vom Arzt",
+      "redemittel": [
+        {
+          "de": "Ich bin beim Arzt.",
+          "en": "I am at the doctor's."
+        },
+        {
+          "de": "Ich gehe zum Arzt.",
+          "en": "I am going to the doctor."
+        },
+        {
+          "de": "Ich komme vom Arzt.",
+          "en": "I am coming from the doctor."
+        },
+        {
+          "de": "Er kommt auf die Intensivstation.",
+          "en": "He is going to intensive care."
+        }
+      ]
+    }
+  ]
+}

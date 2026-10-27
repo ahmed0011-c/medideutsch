@@ -1,0 +1,1558 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "sind": {
+      "de": "sein → sind",
+      "pos": "verb",
+      "en": "are"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "verb",
+      "en": "to lie"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "stehen": {
+      "de": "stehen",
+      "pos": "verb",
+      "en": "to stand"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "verb",
+      "en": "to come"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in + dem"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "article": "der",
+      "plural": "die Tische",
+      "emoji": "🪑"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "ärzte": {
+      "de": "Ärzte",
+      "pos": "noun",
+      "en": "doctors",
+      "article": "die",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "emoji": "🛏️"
+    },
+    "betten": {
+      "de": "Betten",
+      "pos": "noun",
+      "en": "beds",
+      "article": "die",
+      "plural": "die Betten",
+      "emoji": "🛏️"
+    },
+    "spritze": {
+      "de": "Spritze",
+      "pos": "noun",
+      "en": "syringe",
+      "article": "die",
+      "plural": "die Spritzen",
+      "emoji": "💉"
+    },
+    "spritzen": {
+      "de": "Spritzen",
+      "pos": "noun",
+      "en": "syringes",
+      "article": "die",
+      "plural": "die Spritzen",
+      "emoji": "💉"
+    },
+    "frei": {
+      "de": "frei",
+      "pos": "adjective",
+      "en": "free"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    }
+  },
+  "id": "a1-13-plural",
+  "level": "A1",
+  "unit": "Kapitel 13",
+  "chapter": 13,
+  "chapters": [
+    13
+  ],
+  "title": "Die Männer, die Frauen, die Babys",
+  "subtitle": "Noun plurals",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "Most feminine nouns and nouns in -e, -ung, -heit, -ion take -(e)n: die Spritze → die Spritzen.",
+        "Many masculine nouns take -e, often with an umlaut: der Arzt → die Ärzte.",
+        "Nouns in -er, -el, -en and diminutives in -chen often take no ending: das Zimmer → die Zimmer.",
+        "Loanwords, abbreviations and nouns in -a, -i, -o, -y often take -s: das Baby → die Babys, das EKG → die EKGs."
+      ],
+      "vocab": [
+        {
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "syringe",
+          "emoji": "💉",
+          "glossaryKey": "spritze"
+        },
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "🩺",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "emoji": "🛏️",
+          "glossaryKey": "bett"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Tisch",
+          "article": "der",
+          "plural": "die Tische",
+          "en": "table",
+          "emoji": "🪑",
+          "glossaryKey": "tisch"
+        },
+        {
+          "de": "Ärzte",
+          "article": "die",
+          "plural": "die Ärzte",
+          "en": "doctors",
+          "emoji": "🩺",
+          "glossaryKey": "ärzte"
+        }
+      ],
+      "text": {
+        "title": "Die Spritzen",
+        "de": "Die Spritze liegt auf dem Tisch. Die Spritzen liegen im Zimmer. Der Arzt kommt. Die Ärzte kommen. Das Bett steht im Zimmer. Die Betten stehen im Zimmer. Das Zimmer ist frei. Die Zimmer sind frei.",
+        "en": "The syringe is on the table. The syringes are in the room. The doctor is coming. The doctors are coming. The bed is in the room. The beds are in the room. The room is free. The rooms are free."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Pluralendungen",
+      "practice": "choose",
+      "heroTitle": "The plural ending belongs to the noun",
+      "heroImage": "syringe",
+      "story": [
+        "<b>-(e)n</b> is the most common ending: die Spritze → die Spritzen, die Tablette → die Tabletten, das Bett → die Betten, der Patient → die Patienten.",
+        "<b>-e</b> with umlaut: der Arzt → die Ärzte. <b>No ending</b>: das Zimmer → die Zimmer. <b>-s</b>: das Baby → die Babys.",
+        "A few words have no plural in ordinary ward speech: das Fieber, das Blut. A few have no singular: die Leute, die Eltern."
+      ],
+      "questionRule": "Say the singular article and noun, then the plural. Watch the umlaut.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "die",
+              "r": "subj"
+            },
+            {
+              "t": "Spritze",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "die",
+              "r": "subj"
+            },
+            {
+              "t": "Spritzen",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "-n",
+          "enAfter": "die Spritzen",
+          "callLabel": "Show -n"
+        },
+        {
+          "before": [
+            {
+              "t": "der",
+              "r": "subj"
+            },
+            {
+              "t": "Arzt",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "die",
+              "r": "subj"
+            },
+            {
+              "t": "Ärzte",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "-e and umlaut",
+          "enAfter": "die Ärzte",
+          "callLabel": "Show the umlaut"
+        },
+        {
+          "before": [
+            {
+              "t": "das",
+              "r": "subj"
+            },
+            {
+              "t": "Zimmer",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "die",
+              "r": "subj"
+            },
+            {
+              "t": "Zimmer",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "no ending",
+          "enAfter": "die Zimmer",
+          "callLabel": "Show no ending"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Pluralendungen",
+          "caption": "The plural article is die. The ending changes.",
+          "columns": [
+            "Endung",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            {
+              "label": "-n",
+              "cells": [
+                "-(e)n",
+                "die Spritze",
+                "die Spritzen"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "-en",
+              "cells": [
+                "-(e)n",
+                "der Patient",
+                "die Patienten"
+              ]
+            },
+            {
+              "label": "Bett",
+              "cells": [
+                "-(e)n",
+                "das Bett",
+                "die Betten"
+              ]
+            },
+            {
+              "label": "Umlaut",
+              "cells": [
+                "-e + Umlaut",
+                "der Arzt",
+                "die Ärzte"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Zimmer",
+              "cells": [
+                "keine Endung",
+                "das Zimmer",
+                "die Zimmer"
+              ]
+            },
+            {
+              "label": "-s",
+              "cells": [
+                "-s",
+                "das Baby",
+                "die Babys"
+              ]
+            },
+            {
+              "label": "EKG",
+              "cells": [
+                "-s",
+                "das EKG",
+                "die EKGs"
+              ]
+            },
+            {
+              "label": "-nen",
+              "cells": [
+                "-nen",
+                "die Ärztin",
+                "die Ärztinnen"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Umlaut and the empty ending",
+        "items": [
+          {
+            "de": "die Ärzte",
+            "en": "Arzt takes -e and ä.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Arzte",
+            "en": "The umlaut is missing.",
+            "tone": "stop"
+          },
+          {
+            "de": "die Zimmer",
+            "en": "No extra ending.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Zimmers",
+            "en": "Zimmer does not take -s.",
+            "tone": "stop"
+          },
+          {
+            "de": "die Spritzen",
+            "en": "-n after -e.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Praxen",
+            "en": "Praxis is irregular: die Praxen, not die Praxise.",
+            "tone": "ok"
+          }
+        ],
+        "tip": "-e nouns usually add -n. Arzt adds -e and an umlaut. Zimmer adds nothing."
+      },
+      "tips": [
+        {
+          "title": "Four patterns",
+          "emoji": "🔢",
+          "mnemonic": "-n · -e+Umlaut · no ending · -s",
+          "body": "Spritzen, Ärzte, Zimmer, Babys. If the singular already ends in -er, try no ending first.",
+          "examples": [
+            {
+              "de": "das Zimmer, die Zimmer",
+              "en": "no ending"
+            },
+            {
+              "de": "der Arzt, die Ärzte",
+              "en": "umlaut"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which plural?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "die Spritze",
+          "qEn": "-n",
+          "options": [
+            "die Spritzen",
+            "die Spritzes",
+            "die Spritze"
+          ],
+          "answer": 0,
+          "why": "Feminine nouns in -e add -n.",
+          "hint": "-n."
+        },
+        {
+          "kind": "mc",
+          "q": "der Arzt",
+          "qEn": "umlaut",
+          "options": [
+            "die Arzte",
+            "die Ärzte",
+            "die Arzt"
+          ],
+          "answer": 1,
+          "why": "-e plus ä.",
+          "hint": "Umlaut."
+        },
+        {
+          "kind": "mc",
+          "q": "das Zimmer",
+          "qEn": "no ending",
+          "options": [
+            "die Zimmers",
+            "die Zimmern",
+            "die Zimmer"
+          ],
+          "answer": 2,
+          "why": "Nouns in -er usually add nothing.",
+          "hint": "No ending."
+        },
+        {
+          "kind": "mc",
+          "q": "das Baby",
+          "qEn": "-s",
+          "options": [
+            "die Babys",
+            "die Babyen",
+            "die Babye"
+          ],
+          "answer": 0,
+          "why": "Nouns in -y take -s.",
+          "hint": "-s."
+        }
+      ]
+    },
+    {
+      "id": "gap-plural",
+      "label": "Lücken",
+      "title": "Write the plural",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is one plural.",
+      "chips": [
+        {
+          "w": "Spritzen",
+          "hint": "-n."
+        },
+        {
+          "w": "Ärzte",
+          "hint": "Umlaut."
+        },
+        {
+          "w": "Betten",
+          "hint": "-en."
+        },
+        {
+          "w": "Zimmer",
+          "hint": "No ending."
+        },
+        {
+          "w": "Tabletten",
+          "hint": "-n."
+        },
+        {
+          "w": "Babys",
+          "hint": "-s."
+        }
+      ],
+      "items": [
+        {
+          "before": "eine Spritze, viele",
+          "after": "",
+          "answer": "Spritzen",
+          "en": "syringes",
+          "why": "-n.",
+          "tip": "-n",
+          "hint": "-n."
+        },
+        {
+          "before": "ein Arzt, viele",
+          "after": "",
+          "answer": "Ärzte",
+          "en": "doctors",
+          "why": "Umlaut and -e.",
+          "tip": "ä",
+          "hint": "Umlaut."
+        },
+        {
+          "before": "ein Bett, viele",
+          "after": "",
+          "answer": "Betten",
+          "en": "beds",
+          "why": "-en.",
+          "tip": "-en",
+          "hint": "-en."
+        },
+        {
+          "before": "ein Zimmer, viele",
+          "after": "",
+          "answer": "Zimmer",
+          "en": "rooms",
+          "why": "No ending.",
+          "tip": "—",
+          "hint": "No ending."
+        },
+        {
+          "before": "eine Tablette, viele",
+          "after": "",
+          "answer": "Tabletten",
+          "en": "tablets",
+          "why": "-n.",
+          "tip": "-n",
+          "hint": "-n."
+        },
+        {
+          "before": "ein Baby, viele",
+          "after": "",
+          "answer": "Babys",
+          "en": "babies",
+          "why": "-s.",
+          "tip": "-s",
+          "hint": "-s."
+        }
+      ]
+    },
+    {
+      "id": "match-plural",
+      "label": "Match",
+      "title": "Which plural?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the plural form.",
+      "items": [
+        {
+          "prompt": "die Spritze",
+          "options": [
+            {
+              "emoji": "💉",
+              "label": "die Spritzen",
+              "caption": "-n"
+            },
+            {
+              "emoji": "❌",
+              "label": "die Spritzes",
+              "caption": "not -s"
+            },
+            {
+              "emoji": "❌",
+              "label": "die Spritze",
+              "caption": "that is singular"
+            }
+          ],
+          "answer": 0,
+          "why": "-n.",
+          "hint": "-n."
+        },
+        {
+          "prompt": "der Arzt",
+          "options": [
+            {
+              "emoji": "🩺",
+              "label": "die Ärzte",
+              "caption": "umlaut"
+            },
+            {
+              "emoji": "❌",
+              "label": "die Arzte",
+              "caption": "missing umlaut"
+            },
+            {
+              "emoji": "❌",
+              "label": "die Arztinnen",
+              "caption": "that is the women"
+            }
+          ],
+          "answer": 0,
+          "why": "Ärzte.",
+          "hint": "Umlaut."
+        },
+        {
+          "prompt": "das Zimmer",
+          "options": [
+            {
+              "emoji": "🚪",
+              "label": "die Zimmer",
+              "caption": "no ending"
+            },
+            {
+              "emoji": "❌",
+              "label": "die Zimmers",
+              "caption": "-s is wrong"
+            },
+            {
+              "emoji": "❌",
+              "label": "die Zimmern",
+              "caption": "extra -n"
+            }
+          ],
+          "answer": 0,
+          "why": "No ending.",
+          "hint": "—."
+        },
+        {
+          "prompt": "das EKG",
+          "options": [
+            {
+              "emoji": "📈",
+              "label": "die EKGs",
+              "caption": "-s"
+            },
+            {
+              "emoji": "❌",
+              "label": "die EKGen",
+              "caption": "not -en"
+            },
+            {
+              "emoji": "❌",
+              "label": "die EKGe",
+              "caption": "not -e"
+            }
+          ],
+          "answer": 0,
+          "why": "Abbreviations take -s.",
+          "hint": "-s."
+        }
+      ]
+    },
+    {
+      "id": "picture-plural",
+      "label": "Picture",
+      "title": "Picture the plural",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Name the plural of what you see.",
+      "items": [
+        {
+          "id": "syringe",
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "syringe",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          },
+          "hint": "-n"
+        },
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "-en"
+        },
+        {
+          "id": "doctor",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "umlaut"
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "-n"
+        }
+      ]
+    },
+    {
+      "id": "build-plural",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "The plural verb agrees: liegen, stehen, kommen, sind.",
+      "items": [
+        {
+          "tiles": [
+            "Die",
+            "Spritzen",
+            "liegen",
+            "im",
+            "Zimmer"
+          ],
+          "answers": [
+            "Die Spritzen liegen im Zimmer"
+          ],
+          "punct": ".",
+          "modal": "Spritzen",
+          "inf": "Zimmer",
+          "question": false,
+          "en": "The syringes are in the room.",
+          "hint": "Plural verb.",
+          "feedback": {
+            "fallback": "Plural verb."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Ärzte",
+            "kommen",
+            "heute"
+          ],
+          "answers": [
+            "Die Ärzte kommen heute"
+          ],
+          "punct": ".",
+          "modal": "Ärzte",
+          "inf": "heute",
+          "question": false,
+          "en": "The doctors are coming today.",
+          "hint": "Umlaut.",
+          "feedback": {
+            "fallback": "Umlaut."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Betten",
+            "stehen",
+            "bereit"
+          ],
+          "answers": [
+            "Die Betten stehen bereit"
+          ],
+          "punct": ".",
+          "modal": "Betten",
+          "inf": "bereit",
+          "question": false,
+          "en": "The beds are ready.",
+          "hint": "-en.",
+          "feedback": {
+            "fallback": "-en."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Zimmer",
+            "sind",
+            "frei"
+          ],
+          "answers": [
+            "Die Zimmer sind frei"
+          ],
+          "punct": ".",
+          "modal": "Zimmer",
+          "inf": "frei",
+          "question": false,
+          "en": "The rooms are free.",
+          "hint": "No ending.",
+          "feedback": {
+            "fallback": "No ending."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-plural",
+      "label": "Umformen",
+      "title": "Singular to plural",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the plural with die.",
+      "chips": [
+        {
+          "w": "die Spritzen",
+          "hint": "-n."
+        },
+        {
+          "w": "die Ärzte",
+          "hint": "Umlaut."
+        },
+        {
+          "w": "die Betten",
+          "hint": "-en."
+        },
+        {
+          "w": "die Zimmer",
+          "hint": "No ending."
+        },
+        {
+          "w": "die Babys",
+          "hint": "-s."
+        },
+        {
+          "w": "die Ärztinnen",
+          "hint": "-nen."
+        }
+      ],
+      "items": [
+        {
+          "before": "die Spritze →",
+          "after": "",
+          "answer": "die Spritzen",
+          "en": "-n",
+          "why": "Add -n.",
+          "tip": "-n",
+          "hint": "-n."
+        },
+        {
+          "before": "der Arzt →",
+          "after": "",
+          "answer": "die Ärzte",
+          "en": "umlaut",
+          "why": "ä and -e.",
+          "tip": "ä",
+          "hint": "Umlaut."
+        },
+        {
+          "before": "das Bett →",
+          "after": "",
+          "answer": "die Betten",
+          "en": "-en",
+          "why": "Add -en.",
+          "tip": "-en",
+          "hint": "-en."
+        },
+        {
+          "before": "das Zimmer →",
+          "after": "",
+          "answer": "die Zimmer",
+          "en": "no ending",
+          "why": "Only the article changes.",
+          "tip": "—",
+          "hint": "No ending."
+        },
+        {
+          "before": "das Baby →",
+          "after": "",
+          "answer": "die Babys",
+          "en": "-s",
+          "why": "Add -s.",
+          "tip": "-s",
+          "hint": "-s."
+        },
+        {
+          "before": "die Ärztin →",
+          "after": "",
+          "answer": "die Ärztinnen",
+          "en": "-nen",
+          "why": "-in becomes -innen.",
+          "tip": "-nen",
+          "hint": "-nen."
+        }
+      ]
+    },
+    {
+      "id": "error-plural",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Arzte kommen."
+          ],
+          "options": [
+            "Die Ärzte kommen.",
+            "Die Arzt kommen.",
+            "Die Arzts kommen."
+          ],
+          "answer": 0,
+          "reveal": "Arzt needs ä.",
+          "hint": "Umlaut."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Zimmers sind frei."
+          ],
+          "options": [
+            "Die Zimmer sind frei.",
+            "Die Zimmern sind frei.",
+            "Die Zimmere sind frei."
+          ],
+          "answer": 0,
+          "reveal": "No ending.",
+          "hint": "—."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Spritzes liegen da."
+          ],
+          "options": [
+            "Die Spritzen liegen da.",
+            "Die Spritze liegen da.",
+            "Die Spritz liegen da."
+          ],
+          "answer": 0,
+          "reveal": "-n, not -s.",
+          "hint": "-n."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Betts stehen da."
+          ],
+          "options": [
+            "Die Betten stehen da.",
+            "Die Bette stehen da.",
+            "Die Bettes stehen da."
+          ],
+          "answer": 0,
+          "reveal": "Bett takes -en.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-plural",
+      "label": "Dialog",
+      "title": "Counting",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "Spritzen",
+          "hint": "-n."
+        },
+        {
+          "w": "Ärzte",
+          "hint": "Umlaut."
+        },
+        {
+          "w": "Betten",
+          "hint": "-en."
+        },
+        {
+          "w": "Zimmer",
+          "hint": "No ending."
+        },
+        {
+          "w": "Babys",
+          "hint": "-s."
+        },
+        {
+          "w": "Ärztinnen",
+          "hint": "-nen."
+        }
+      ],
+      "items": [
+        {
+          "before": "Wie viele Spritzen? Viele",
+          "after": ".",
+          "answer": "Spritzen",
+          "en": "syringes",
+          "why": "-n.",
+          "tip": "-n",
+          "hint": "-n.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wie viele Ärzte? Viele",
+          "after": ".",
+          "answer": "Ärzte",
+          "en": "doctors",
+          "why": "Umlaut.",
+          "tip": "ä",
+          "hint": "Umlaut.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wie viele Betten? Viele",
+          "after": ".",
+          "answer": "Betten",
+          "en": "beds",
+          "why": "-en.",
+          "tip": "-en",
+          "hint": "-en.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Wie viele Zimmer? Viele",
+          "after": ".",
+          "answer": "Zimmer",
+          "en": "rooms",
+          "why": "No ending.",
+          "tip": "—",
+          "hint": "No ending.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Wie viele Babys? Viele",
+          "after": ".",
+          "answer": "Babys",
+          "en": "babies",
+          "why": "-s.",
+          "tip": "-s",
+          "hint": "-s.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wie viele Ärztinnen? Viele",
+          "after": ".",
+          "answer": "Ärztinnen",
+          "en": "women doctors",
+          "why": "-nen.",
+          "tip": "-nen",
+          "hint": "-nen.",
+          "who": "Arzt"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-plural",
+      "label": "Lücken",
+      "title": "More plurals",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "Patienten",
+          "hint": "-en."
+        },
+        {
+          "w": "Tabletten",
+          "hint": "-n."
+        },
+        {
+          "w": "Monitore",
+          "hint": "-e."
+        },
+        {
+          "w": "EKGs",
+          "hint": "-s."
+        },
+        {
+          "w": "Praxen",
+          "hint": "Irregular."
+        },
+        {
+          "w": "Bilder",
+          "hint": "-er."
+        },
+        {
+          "w": "das Fieber",
+          "hint": "No plural."
+        },
+        {
+          "w": "die Leute",
+          "hint": "No singular."
+        }
+      ],
+      "items": [
+        {
+          "before": "der Patient → die",
+          "after": "",
+          "answer": "Patienten",
+          "en": "-en",
+          "why": "Add -en.",
+          "tip": "-en",
+          "hint": "-en."
+        },
+        {
+          "before": "die Tablette → die",
+          "after": "",
+          "answer": "Tabletten",
+          "en": "-n",
+          "why": "Add -n.",
+          "tip": "-n",
+          "hint": "-n."
+        },
+        {
+          "before": "der Monitor → die",
+          "after": "",
+          "answer": "Monitore",
+          "en": "-e",
+          "why": "Add -e, no umlaut.",
+          "tip": "-e",
+          "hint": "-e."
+        },
+        {
+          "before": "das EKG → die",
+          "after": "",
+          "answer": "EKGs",
+          "en": "-s",
+          "why": "Abbreviation.",
+          "tip": "-s",
+          "hint": "-s."
+        },
+        {
+          "before": "die Praxis → die",
+          "after": "",
+          "answer": "Praxen",
+          "en": "irregular",
+          "why": "Not Praxise.",
+          "tip": "Ausnahme",
+          "hint": "Irregular."
+        },
+        {
+          "before": "das Bild → die",
+          "after": "",
+          "answer": "Bilder",
+          "en": "-er",
+          "why": "Short neuter nouns often take -er.",
+          "tip": "-er",
+          "hint": "-er."
+        },
+        {
+          "before": "kein Plural:",
+          "after": "",
+          "answer": "das Fieber",
+          "en": "no plural",
+          "why": "A mass or state word.",
+          "tip": "—",
+          "hint": "No plural."
+        },
+        {
+          "before": "kein Singular:",
+          "after": "",
+          "answer": "die Leute",
+          "en": "no singular",
+          "why": "Always plural.",
+          "tip": "—",
+          "hint": "No singular."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Die Spritzen",
+        "paragraphs": [
+          "Die Spritze liegt auf dem Tisch. Die Spritzen liegen im Zimmer. Der Arzt kommt. Die Ärzte kommen. Das Bett steht im Zimmer. Die Betten stehen im Zimmer. Das Zimmer ist frei. Die Zimmer sind frei."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wie heißt der Plural von Spritze?",
+          "qEn": "-n",
+          "options": [
+            "die Spritzen",
+            "die Spritzes",
+            "die Spritze"
+          ],
+          "answer": 0,
+          "why": "The note uses Spritzen.",
+          "hint": "-n."
+        },
+        {
+          "kind": "mc",
+          "q": "Wie heißt der Plural von Arzt?",
+          "qEn": "Umlaut.",
+          "options": [
+            "die Arzte",
+            "die Ärzte",
+            "die Arzt"
+          ],
+          "answer": 1,
+          "why": "Ärzte has ä.",
+          "hint": "Umlaut."
+        },
+        {
+          "kind": "mc",
+          "q": "Wie heißt der Plural von Zimmer?",
+          "qEn": "No ending.",
+          "options": [
+            "die Zimmers",
+            "die Zimmern",
+            "die Zimmer"
+          ],
+          "answer": 2,
+          "why": "The note says die Zimmer sind frei.",
+          "hint": "No ending."
+        },
+        {
+          "kind": "mc",
+          "q": "Wie heißt der Plural von Bett?",
+          "qEn": "-en",
+          "options": [
+            "die Betten",
+            "die Betts",
+            "die Bette"
+          ],
+          "answer": 0,
+          "why": "Betten.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "writing-plural",
+      "label": "Writing",
+      "title": "Write the list",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four short sentences with these plurals.",
+      "prompt": "Syringes, doctors, beds and rooms.",
+      "bullets": [
+        "Spritzen",
+        "Ärzte",
+        "Betten",
+        "Zimmer"
+      ],
+      "model": "Die Spritzen liegen im Zimmer. Die Ärzte kommen. Die Betten stehen im Zimmer. Die Zimmer sind frei.",
+      "modelEn": "The syringes are in the room. The doctors are coming. The beds are in the room. The rooms are free.",
+      "hint": "Check the umlaut in Ärzte and the empty ending in Zimmer.",
+      "checklist": [
+        {
+          "id": "sp",
+          "label": "Spritzen",
+          "keywords": [
+            "Spritzen"
+          ]
+        },
+        {
+          "id": "ar",
+          "label": "Ärzte",
+          "keywords": [
+            "Ärzte"
+          ]
+        },
+        {
+          "id": "be",
+          "label": "Betten",
+          "keywords": [
+            "Betten"
+          ]
+        },
+        {
+          "id": "zi",
+          "label": "Zimmer as a plural",
+          "keywords": [
+            "Die Zimmer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 13. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "die Spritze",
+          "qEn": "-n",
+          "options": [
+            "die Spritzen",
+            "die Spritzes",
+            "die Spritze"
+          ],
+          "answer": 0,
+          "why": "-n.",
+          "hint": "-n."
+        },
+        {
+          "kind": "mc",
+          "q": "die Tablette",
+          "qEn": "-n",
+          "options": [
+            "die Tablettes",
+            "die Tabletten",
+            "die Tablett"
+          ],
+          "answer": 1,
+          "why": "-n.",
+          "hint": "-n."
+        },
+        {
+          "kind": "mc",
+          "q": "der Patient",
+          "qEn": "-en",
+          "options": [
+            "die Patients",
+            "die Patiente",
+            "die Patienten"
+          ],
+          "answer": 2,
+          "why": "-en.",
+          "hint": "-en."
+        },
+        {
+          "kind": "mc",
+          "q": "das Bett",
+          "qEn": "-en",
+          "options": [
+            "die Betten",
+            "die Betts",
+            "die Bette"
+          ],
+          "answer": 0,
+          "why": "-en.",
+          "hint": "-en."
+        },
+        {
+          "kind": "mc",
+          "q": "der Arzt",
+          "qEn": "umlaut",
+          "options": [
+            "die Arzte",
+            "die Ärzte",
+            "die Arzt"
+          ],
+          "answer": 1,
+          "why": "ä plus -e.",
+          "hint": "Umlaut."
+        },
+        {
+          "kind": "mc",
+          "q": "das Zimmer",
+          "qEn": "no ending",
+          "options": [
+            "die Zimmers",
+            "die Zimmern",
+            "die Zimmer"
+          ],
+          "answer": 2,
+          "why": "No ending.",
+          "hint": "—."
+        },
+        {
+          "kind": "mc",
+          "q": "das Baby",
+          "qEn": "-s",
+          "options": [
+            "die Babys",
+            "die Babyen",
+            "die Babye"
+          ],
+          "answer": 0,
+          "why": "-s.",
+          "hint": "-s."
+        },
+        {
+          "kind": "mc",
+          "q": "das EKG",
+          "qEn": "-s",
+          "options": [
+            "die EKGen",
+            "die EKGs",
+            "die EKGe"
+          ],
+          "answer": 1,
+          "why": "Abbreviations take -s.",
+          "hint": "-s."
+        },
+        {
+          "kind": "mc",
+          "q": "die Ärztin",
+          "qEn": "-nen",
+          "options": [
+            "die Ärztins",
+            "die Ärztine",
+            "die Ärztinnen"
+          ],
+          "answer": 2,
+          "why": "-in → -innen.",
+          "hint": "-nen."
+        },
+        {
+          "kind": "mc",
+          "q": "die Praxis",
+          "qEn": "irregular",
+          "options": [
+            "die Praxen",
+            "die Praxise",
+            "die Praxis"
+          ],
+          "answer": 0,
+          "why": "Praxen.",
+          "hint": "Irregular."
+        },
+        {
+          "kind": "mc",
+          "q": "Which word has no ordinary plural here?",
+          "qEn": "Mass.",
+          "options": [
+            "die Spritze",
+            "das Fieber",
+            "der Arzt"
+          ],
+          "answer": 1,
+          "why": "Fieber stays singular.",
+          "hint": "No plural."
+        },
+        {
+          "kind": "mc",
+          "q": "Which word has no singular?",
+          "qEn": "Always plural.",
+          "options": [
+            "das Zimmer",
+            "das Baby",
+            "die Leute"
+          ],
+          "answer": 2,
+          "why": "Leute is plural only.",
+          "hint": "No singular."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "-n, Umlaut, keine Endung, -s",
+      "redemittel": [
+        {
+          "de": "Die Spritzen liegen im Zimmer.",
+          "en": "The syringes are in the room."
+        },
+        {
+          "de": "Die Ärzte kommen.",
+          "en": "The doctors are coming."
+        },
+        {
+          "de": "Die Betten stehen im Zimmer.",
+          "en": "The beds are in the room."
+        },
+        {
+          "de": "Die Zimmer sind frei.",
+          "en": "The rooms are free."
+        },
+        {
+          "de": "Das Fieber hat keinen Plural.",
+          "en": "Fever has no plural."
+        }
+      ]
+    }
+  ]
+}

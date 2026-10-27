@@ -1,0 +1,1482 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)"
+    },
+    "hier": {
+      "de": "hier",
+      "pos": "adverb",
+      "en": "here"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "bin": {
+      "de": "sein → bin",
+      "pos": "verb",
+      "en": "am"
+    },
+    "habe": {
+      "de": "haben → habe",
+      "pos": "verb",
+      "en": "have"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "article": "der",
+      "plural": "die Verbände",
+      "emoji": "🩹"
+    },
+    "spritze": {
+      "de": "Spritze",
+      "pos": "noun",
+      "en": "syringe",
+      "article": "die",
+      "plural": "die Spritzen",
+      "emoji": "💉"
+    },
+    "pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "article": "das",
+      "plural": "die Pflaster",
+      "emoji": "🩹"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "durst": {
+      "de": "Durst",
+      "pos": "noun",
+      "en": "thirst",
+      "article": "der",
+      "plural": "Durst",
+      "emoji": "💧"
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new"
+    },
+    "klein": {
+      "de": "klein",
+      "pos": "adjective",
+      "en": "small"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    }
+  },
+  "id": "a1-14-artikel",
+  "level": "A1",
+  "unit": "Kapitel 14",
+  "chapter": 14,
+  "chapters": [
+    14
+  ],
+  "title": "Der, das, die – ein, ein, eine",
+  "subtitle": "Definite, indefinite, and no article",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "The first mention of one countable thing takes ein or eine: Hier ist ein Verband.",
+        "The same thing, now known, takes der, die or das: Der Verband ist neu.",
+        "ein before a masculine or neuter noun, eine before a feminine noun.",
+        "No article with a profession or with Fieber in Ich habe Fieber: Ich bin Pflegekraft."
+      ],
+      "vocab": [
+        {
+          "de": "Verband",
+          "article": "der",
+          "plural": "die Verbände",
+          "en": "dressing",
+          "emoji": "🩹",
+          "glossaryKey": "verband"
+        },
+        {
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "syringe",
+          "emoji": "💉",
+          "glossaryKey": "spritze"
+        },
+        {
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "plaster",
+          "emoji": "🩹",
+          "glossaryKey": "pflaster"
+        },
+        {
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "nurse",
+          "emoji": "🧑‍⚕️",
+          "glossaryKey": "pflegekraft"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "emoji": "🤒",
+          "glossaryKey": "fieber"
+        },
+        {
+          "de": "Durst",
+          "article": "der",
+          "plural": "Durst",
+          "en": "thirst",
+          "emoji": "💧",
+          "glossaryKey": "durst"
+        }
+      ],
+      "text": {
+        "title": "Hier ist ein Verband",
+        "de": "Hier ist ein Verband. Der Verband ist neu. Hier ist eine Spritze. Die Spritze ist neu. Hier ist ein Pflaster. Das Pflaster ist klein. Ich bin Pflegekraft. Ich habe Fieber.",
+        "en": "Here is a dressing. The dressing is new. Here is a syringe. The syringe is new. Here is a plaster. The plaster is small. I am a nurse. I have a fever."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "ein, eine, der, die, das",
+      "practice": "choose",
+      "heroTitle": "New thing, then the known thing",
+      "heroImage": "plaster",
+      "story": [
+        "First you point at a new thing: <b>ein</b> Verband, <b>eine</b> Spritze, <b>ein</b> Pflaster.",
+        "Then the thing is known: <b>der</b> Verband, <b>die</b> Spritze, <b>das</b> Pflaster.",
+        "A profession and the sentence Ich habe Fieber take <b>no article</b>: Ich bin Pflegekraft. Ich habe Fieber."
+      ],
+      "questionRule": "New and countable: ein/eine. Already named: der/die/das. Profession and Fieber here: no article.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "ein",
+              "r": "subj"
+            },
+            {
+              "t": "Verband",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "der",
+              "r": "subj"
+            },
+            {
+              "t": "Verband",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "First mention, then known.",
+          "enAfter": "der Verband",
+          "callLabel": "Show the pair"
+        },
+        {
+          "before": [
+            {
+              "t": "eine",
+              "r": "subj"
+            },
+            {
+              "t": "Spritze",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "die",
+              "r": "subj"
+            },
+            {
+              "t": "Spritze",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Feminine.",
+          "enAfter": "die Spritze",
+          "callLabel": "Show eine"
+        },
+        {
+          "before": [
+            {
+              "t": "kein",
+              "r": "subj"
+            },
+            {
+              "t": "Artikel",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Ich",
+              "r": "subj"
+            },
+            {
+              "t": "bin",
+              "r": "verb"
+            },
+            {
+              "t": "Pflegekraft",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Profession.",
+          "enAfter": "Ich bin Pflegekraft.",
+          "callLabel": "Show no article"
+        }
+      ],
+      "tables": [
+        {
+          "title": "ein, eine, der, die, das",
+          "caption": "der is blue, die is red, das is green when the cell is only the article.",
+          "columns": [
+            "Neutrum",
+            "Maskulin",
+            "Feminin"
+          ],
+          "rows": [
+            {
+              "label": "neu",
+              "cells": [
+                "ein Pflaster",
+                "ein Verband",
+                "eine Spritze"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "bekannt",
+              "cells": [
+                "das Pflaster",
+                "der Verband",
+                "die Spritze"
+              ]
+            },
+            {
+              "label": "Artikel bekannt",
+              "cells": [
+                "das",
+                "der",
+                "die"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "No article in two ward sentences",
+        "items": [
+          {
+            "de": "Hier ist ein Verband.",
+            "en": "First mention.",
+            "tone": "ok"
+          },
+          {
+            "de": "Hier ist Verband.",
+            "en": "A countable new thing needs ein.",
+            "tone": "stop"
+          },
+          {
+            "de": "Der Verband ist neu.",
+            "en": "The dressing is now known.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich bin Pflegekraft.",
+            "en": "Profession: no article.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich bin eine Pflegekraft.",
+            "en": "Not the pattern this chapter practises.",
+            "tone": "stop"
+          },
+          {
+            "de": "Ich habe Fieber.",
+            "en": "No article.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich habe ein Fieber.",
+            "en": "Not the ward sentence.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "ein/eine the first time. der/die/das the next time. Ich bin Pflegekraft. Ich habe Fieber."
+      },
+      "tips": [
+        {
+          "title": "ein or eine",
+          "emoji": "1️⃣",
+          "mnemonic": "ein for der and das · eine for die",
+          "body": "der Verband → ein Verband. das Pflaster → ein Pflaster. die Spritze → eine Spritze.",
+          "examples": [
+            {
+              "de": "Hier ist eine Spritze. Die Spritze ist neu.",
+              "en": "new, then known"
+            },
+            {
+              "de": "Ich bin Pflegekraft.",
+              "en": "no article"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which article?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "You mention the dressing for the first time.",
+          "qEn": "New.",
+          "options": [
+            "Hier ist ein Verband.",
+            "Hier ist der Verband.",
+            "Hier ist eine Verband."
+          ],
+          "answer": 0,
+          "why": "First mention, masculine: ein.",
+          "hint": "ein."
+        },
+        {
+          "kind": "mc",
+          "q": "The syringe was just named. It is new.",
+          "qEn": "Known.",
+          "options": [
+            "Eine Spritze ist neu.",
+            "Die Spritze ist neu.",
+            "Ein Spritze ist neu."
+          ],
+          "answer": 1,
+          "why": "Known feminine: die.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "Profession.",
+          "qEn": "No article.",
+          "options": [
+            "Ich bin eine Pflegekraft.",
+            "Ich bin die Pflegekraft.",
+            "Ich bin Pflegekraft."
+          ],
+          "answer": 2,
+          "why": "This chapter uses no article for the profession.",
+          "hint": "No article."
+        },
+        {
+          "kind": "mc",
+          "q": "Fever, the ordinary sentence.",
+          "qEn": "No article.",
+          "options": [
+            "Ich habe Fieber.",
+            "Ich habe ein Fieber.",
+            "Ich habe das Fieber."
+          ],
+          "answer": 0,
+          "why": "Ich habe Fieber has no article.",
+          "hint": "No article."
+        }
+      ]
+    },
+    {
+      "id": "gap-art",
+      "label": "Lücken",
+      "title": "ein, eine or the known article",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "ein Verband",
+          "hint": "New."
+        },
+        {
+          "w": "Der Verband",
+          "hint": "Known."
+        },
+        {
+          "w": "eine Spritze",
+          "hint": "New."
+        },
+        {
+          "w": "Die Spritze",
+          "hint": "Known."
+        },
+        {
+          "w": "ein Pflaster",
+          "hint": "New."
+        },
+        {
+          "w": "Das Pflaster",
+          "hint": "Known."
+        }
+      ],
+      "items": [
+        {
+          "before": "Verband, erster Satz: Hier ist",
+          "after": ".",
+          "answer": "ein Verband",
+          "en": "first dressing",
+          "why": "New masculine.",
+          "tip": "ein",
+          "hint": "New."
+        },
+        {
+          "before": "Verband, bekannt:",
+          "after": "ist neu.",
+          "answer": "Der Verband",
+          "en": "known dressing",
+          "why": "Now der.",
+          "tip": "der",
+          "hint": "Known."
+        },
+        {
+          "before": "Spritze, erster Satz: Hier ist",
+          "after": ".",
+          "answer": "eine Spritze",
+          "en": "first syringe",
+          "why": "New feminine.",
+          "tip": "eine",
+          "hint": "New."
+        },
+        {
+          "before": "Spritze, bekannt:",
+          "after": "ist neu.",
+          "answer": "Die Spritze",
+          "en": "known syringe",
+          "why": "Now die.",
+          "tip": "die",
+          "hint": "Known."
+        },
+        {
+          "before": "Pflaster, erster Satz: Hier ist",
+          "after": ".",
+          "answer": "ein Pflaster",
+          "en": "first plaster",
+          "why": "New neuter.",
+          "tip": "ein",
+          "hint": "New."
+        },
+        {
+          "before": "Pflaster, bekannt:",
+          "after": "ist klein.",
+          "answer": "Das Pflaster",
+          "en": "known plaster",
+          "why": "Now das.",
+          "tip": "das",
+          "hint": "Known."
+        }
+      ]
+    },
+    {
+      "id": "match-art",
+      "label": "Match",
+      "title": "New or known?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the sentence.",
+      "items": [
+        {
+          "prompt": "First mention of a dressing.",
+          "options": [
+            {
+              "emoji": "🩹",
+              "label": "Hier ist ein Verband.",
+              "caption": "new"
+            },
+            {
+              "emoji": "✅",
+              "label": "Der Verband ist neu.",
+              "caption": "already known"
+            },
+            {
+              "emoji": "❌",
+              "label": "Hier ist eine Verband.",
+              "caption": "wrong ein-form"
+            }
+          ],
+          "answer": 0,
+          "why": "ein Verband.",
+          "hint": "New."
+        },
+        {
+          "prompt": "The syringe is already known.",
+          "options": [
+            {
+              "emoji": "✅",
+              "label": "Die Spritze ist neu.",
+              "caption": "known"
+            },
+            {
+              "emoji": "🆕",
+              "label": "Hier ist eine Spritze.",
+              "caption": "that would be the first mention"
+            },
+            {
+              "emoji": "❌",
+              "label": "Ein Spritze ist neu.",
+              "caption": "ein is not feminine"
+            }
+          ],
+          "answer": 0,
+          "why": "die Spritze.",
+          "hint": "Known."
+        },
+        {
+          "prompt": "Profession.",
+          "options": [
+            {
+              "emoji": "🧑‍⚕️",
+              "label": "Ich bin Pflegekraft.",
+              "caption": "no article"
+            },
+            {
+              "emoji": "❌",
+              "label": "Ich bin eine Pflegekraft.",
+              "caption": "not this pattern"
+            },
+            {
+              "emoji": "❌",
+              "label": "Ich bin der Pflegekraft.",
+              "caption": "wrong case and article"
+            }
+          ],
+          "answer": 0,
+          "why": "No article.",
+          "hint": "Beruf."
+        },
+        {
+          "prompt": "Fever.",
+          "options": [
+            {
+              "emoji": "🤒",
+              "label": "Ich habe Fieber.",
+              "caption": "no article"
+            },
+            {
+              "emoji": "❌",
+              "label": "Ich habe ein Fieber.",
+              "caption": "not the ward sentence"
+            },
+            {
+              "emoji": "❌",
+              "label": "Ich habe das Fieber.",
+              "caption": "not the first ordinary sentence"
+            }
+          ],
+          "answer": 0,
+          "why": "No article.",
+          "hint": "Fieber."
+        }
+      ]
+    },
+    {
+      "id": "picture-art",
+      "label": "Picture",
+      "title": "Picture the thing",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "First mention: ein or eine.",
+      "items": [
+        {
+          "id": "dressing",
+          "de": "Verband",
+          "article": "der",
+          "plural": "die Verbände",
+          "en": "a dressing",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "ein"
+        },
+        {
+          "id": "syringe",
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "a syringe",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          },
+          "hint": "eine"
+        },
+        {
+          "id": "plaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "a plaster",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "ein"
+        },
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "a bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "ein"
+        }
+      ]
+    },
+    {
+      "id": "build-art",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Keep the article with its noun.",
+      "items": [
+        {
+          "tiles": [
+            "Hier",
+            "ist",
+            "ein",
+            "Verband"
+          ],
+          "answers": [
+            "Hier ist ein Verband"
+          ],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "Verband",
+          "question": false,
+          "en": "Here is a dressing.",
+          "hint": "ein.",
+          "feedback": {
+            "fallback": "ein."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Spritze",
+            "ist",
+            "neu"
+          ],
+          "answers": [
+            "Die Spritze ist neu"
+          ],
+          "punct": ".",
+          "modal": "Spritze",
+          "inf": "neu",
+          "question": false,
+          "en": "The syringe is new.",
+          "hint": "die.",
+          "feedback": {
+            "fallback": "die."
+          }
+        },
+        {
+          "tiles": [
+            "Ich",
+            "bin",
+            "Pflegekraft"
+          ],
+          "answers": [
+            "Ich bin Pflegekraft"
+          ],
+          "punct": ".",
+          "modal": "bin",
+          "inf": "Pflegekraft",
+          "question": false,
+          "en": "I am a nurse.",
+          "hint": "No article.",
+          "feedback": {
+            "fallback": "No article."
+          }
+        },
+        {
+          "tiles": [
+            "Ich",
+            "habe",
+            "Fieber"
+          ],
+          "answers": [
+            "Ich habe Fieber"
+          ],
+          "punct": ".",
+          "modal": "habe",
+          "inf": "Fieber",
+          "question": false,
+          "en": "I have a fever.",
+          "hint": "No article.",
+          "feedback": {
+            "fallback": "No article."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-art",
+      "label": "Umformen",
+      "title": "From new to known",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The thing has just been named. Use der, die or das.",
+      "chips": [
+        {
+          "w": "Der Verband ist neu.",
+          "hint": "Known."
+        },
+        {
+          "w": "Die Spritze ist neu.",
+          "hint": "Known."
+        },
+        {
+          "w": "Das Pflaster ist klein.",
+          "hint": "Known."
+        },
+        {
+          "w": "Ich bin Pflegekraft.",
+          "hint": "No article."
+        },
+        {
+          "w": "Ich habe Fieber.",
+          "hint": "No article."
+        },
+        {
+          "w": "Hier ist ein Pflaster.",
+          "hint": "New."
+        }
+      ],
+      "items": [
+        {
+          "before": "Hier ist ein Verband. Danach:",
+          "after": "",
+          "answer": "Der Verband ist neu.",
+          "en": "known",
+          "why": "ein → der.",
+          "tip": "der",
+          "hint": "Known."
+        },
+        {
+          "before": "Hier ist eine Spritze. Danach:",
+          "after": "",
+          "answer": "Die Spritze ist neu.",
+          "en": "known",
+          "why": "eine → die.",
+          "tip": "die",
+          "hint": "Known."
+        },
+        {
+          "before": "Hier ist ein Pflaster. Danach:",
+          "after": "",
+          "answer": "Das Pflaster ist klein.",
+          "en": "known",
+          "why": "ein → das.",
+          "tip": "das",
+          "hint": "Known."
+        },
+        {
+          "before": "Beruf:",
+          "after": "",
+          "answer": "Ich bin Pflegekraft.",
+          "en": "profession",
+          "why": "No article.",
+          "tip": "—",
+          "hint": "No article."
+        },
+        {
+          "before": "Fieber:",
+          "after": "",
+          "answer": "Ich habe Fieber.",
+          "en": "fever",
+          "why": "No article.",
+          "tip": "—",
+          "hint": "No article."
+        },
+        {
+          "before": "Neues Pflaster, erster Satz:",
+          "after": "",
+          "answer": "Hier ist ein Pflaster.",
+          "en": "first",
+          "why": "ein, because it is new.",
+          "tip": "ein",
+          "hint": "New."
+        }
+      ]
+    },
+    {
+      "id": "error-art",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Hier ist eine Verband."
+          ],
+          "options": [
+            "Hier ist ein Verband.",
+            "Hier ist der Verband.",
+            "Hier ist ein die Verband."
+          ],
+          "answer": 0,
+          "reveal": "Verband is masculine, so ein.",
+          "hint": "ein."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ein Spritze ist neu."
+          ],
+          "options": [
+            "Die Spritze ist neu.",
+            "Eine Spritze ist neu.",
+            "Der Spritze ist neu."
+          ],
+          "answer": 0,
+          "reveal": "The syringe is already the topic, so die. ein is also the wrong form.",
+          "hint": "die."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich bin eine Pflegekraft."
+          ],
+          "options": [
+            "Ich bin Pflegekraft.",
+            "Ich bin der Pflegekraft.",
+            "Ich bin ein Pflegekraft."
+          ],
+          "answer": 0,
+          "reveal": "Profession: no article in this chapter.",
+          "hint": "No article."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich habe ein Fieber."
+          ],
+          "options": [
+            "Ich habe Fieber.",
+            "Ich habe das Fieber.",
+            "Ich habe eine Fieber."
+          ],
+          "answer": 0,
+          "reveal": "Ich habe Fieber.",
+          "hint": "No article."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-art",
+      "label": "Dialog",
+      "title": "On the trolley",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "Hier ist ein Verband.",
+          "hint": "New."
+        },
+        {
+          "w": "Der Verband ist neu.",
+          "hint": "Known."
+        },
+        {
+          "w": "Hier ist eine Spritze.",
+          "hint": "New."
+        },
+        {
+          "w": "Die Spritze ist neu.",
+          "hint": "Known."
+        },
+        {
+          "w": "Ich bin Pflegekraft.",
+          "hint": "Beruf."
+        },
+        {
+          "w": "Ich habe Fieber.",
+          "hint": "Fieber."
+        }
+      ],
+      "items": [
+        {
+          "before": "Neu, Verband:",
+          "after": "",
+          "answer": "Hier ist ein Verband.",
+          "en": "first",
+          "why": "ein.",
+          "tip": "ein",
+          "hint": "New.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Danach, Verband:",
+          "after": "",
+          "answer": "Der Verband ist neu.",
+          "en": "known",
+          "why": "der.",
+          "tip": "der",
+          "hint": "Known.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Neu, Spritze:",
+          "after": "",
+          "answer": "Hier ist eine Spritze.",
+          "en": "first",
+          "why": "eine.",
+          "tip": "eine",
+          "hint": "New.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Danach, Spritze:",
+          "after": "",
+          "answer": "Die Spritze ist neu.",
+          "en": "known",
+          "why": "die.",
+          "tip": "die",
+          "hint": "Known.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Beruf:",
+          "after": "",
+          "answer": "Ich bin Pflegekraft.",
+          "en": "job",
+          "why": "No article.",
+          "tip": "—",
+          "hint": "Beruf.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Symptom:",
+          "after": "",
+          "answer": "Ich habe Fieber.",
+          "en": "fever",
+          "why": "No article.",
+          "tip": "—",
+          "hint": "Fieber.",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-art",
+      "label": "Lücken",
+      "title": "Only the article, or nothing",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "For the profession and the fever the chip is a dash, meaning no article.",
+      "chips": [
+        {
+          "w": "ein",
+          "hint": "New."
+        },
+        {
+          "w": "eine",
+          "hint": "New."
+        },
+        {
+          "w": "der",
+          "hint": "Known."
+        },
+        {
+          "w": "die",
+          "hint": "Known."
+        },
+        {
+          "w": "das",
+          "hint": "Known."
+        },
+        {
+          "w": "Pflegekraft",
+          "hint": "No article."
+        },
+        {
+          "w": "Fieber",
+          "hint": "No article."
+        },
+        {
+          "w": "Durst",
+          "hint": "No article."
+        }
+      ],
+      "items": [
+        {
+          "before": "Hier ist",
+          "after": "Bett.",
+          "answer": "ein",
+          "en": "new bed",
+          "why": "Neuter, first mention.",
+          "tip": "ein",
+          "hint": "New."
+        },
+        {
+          "before": "Hier ist",
+          "after": "Tablette.",
+          "answer": "eine",
+          "en": "new tablet",
+          "why": "Feminine, first mention.",
+          "tip": "eine",
+          "hint": "New."
+        },
+        {
+          "before": "Bekannt:",
+          "after": "Verband ist neu.",
+          "answer": "der",
+          "en": "known dressing",
+          "why": "Masculine, known.",
+          "tip": "der",
+          "hint": "Known."
+        },
+        {
+          "before": "Bekannt:",
+          "after": "Tablette ist klein.",
+          "answer": "die",
+          "en": "known tablet",
+          "why": "Feminine, known.",
+          "tip": "die",
+          "hint": "Known."
+        },
+        {
+          "before": "Bekannt:",
+          "after": "Pflaster ist klein.",
+          "answer": "das",
+          "en": "known plaster",
+          "why": "Neuter, known.",
+          "tip": "das",
+          "hint": "Known."
+        },
+        {
+          "before": "Beruf, kein Artikel: Ich bin",
+          "after": ".",
+          "answer": "Pflegekraft",
+          "en": "profession",
+          "why": "No article is written.",
+          "tip": "—",
+          "hint": "No article."
+        },
+        {
+          "before": "Symptom Fieber, kein Artikel: Ich habe",
+          "after": ".",
+          "answer": "Fieber",
+          "en": "fever",
+          "why": "No article is written.",
+          "tip": "—",
+          "hint": "No article."
+        },
+        {
+          "before": "Symptom Durst, kein Artikel: Ich habe",
+          "after": ".",
+          "answer": "Durst",
+          "en": "thirst",
+          "why": "Same pattern as Fieber.",
+          "tip": "—",
+          "hint": "No article."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Hier ist ein Verband",
+        "paragraphs": [
+          "Hier ist ein Verband. Der Verband ist neu. Hier ist eine Spritze. Die Spritze ist neu. Hier ist ein Pflaster. Das Pflaster ist klein. Ich bin Pflegekraft. Ich habe Fieber."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wie kommt der Verband zum ersten Mal?",
+          "qEn": "New.",
+          "options": [
+            "ein Verband",
+            "der Verband",
+            "eine Verband"
+          ],
+          "answer": 0,
+          "why": "First mention.",
+          "hint": "ein."
+        },
+        {
+          "kind": "mc",
+          "q": "Welcher Artikel steht vor der bekannten Spritze?",
+          "qEn": "Known.",
+          "options": [
+            "eine",
+            "die",
+            "ein"
+          ],
+          "answer": 1,
+          "why": "Die Spritze ist neu.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "Welcher Artikel steht vor Pflegekraft?",
+          "qEn": "Profession.",
+          "options": [
+            "eine",
+            "die",
+            "kein Artikel"
+          ],
+          "answer": 2,
+          "why": "Ich bin Pflegekraft.",
+          "hint": "None."
+        },
+        {
+          "kind": "mc",
+          "q": "Welcher Artikel steht vor Fieber?",
+          "qEn": "Ordinary sentence.",
+          "options": [
+            "kein Artikel",
+            "ein",
+            "das"
+          ],
+          "answer": 0,
+          "why": "Ich habe Fieber.",
+          "hint": "None."
+        }
+      ]
+    },
+    {
+      "id": "writing-art",
+      "label": "Writing",
+      "title": "Write the labels",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four sentences.",
+      "prompt": "A new dressing, the known syringe, your profession, and fever.",
+      "bullets": [
+        "ein Verband",
+        "Die Spritze",
+        "Pflegekraft",
+        "Fieber"
+      ],
+      "model": "Hier ist ein Verband. Die Spritze ist neu. Ich bin Pflegekraft. Ich habe Fieber.",
+      "modelEn": "Here is a dressing. The syringe is new. I am a nurse. I have a fever.",
+      "hint": "ein the first time, die when it is known, no article for the profession and the fever.",
+      "checklist": [
+        {
+          "id": "v",
+          "label": "ein Verband",
+          "keywords": [
+            "ein Verband"
+          ]
+        },
+        {
+          "id": "s",
+          "label": "Die Spritze",
+          "keywords": [
+            "Die Spritze"
+          ]
+        },
+        {
+          "id": "p",
+          "label": "Pflegekraft without eine",
+          "keywords": [
+            "bin Pflegekraft"
+          ]
+        },
+        {
+          "id": "f",
+          "label": "Fieber without ein",
+          "keywords": [
+            "habe Fieber"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 14. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "First dressing.",
+          "qEn": "New.",
+          "options": [
+            "Hier ist ein Verband.",
+            "Hier ist der Verband.",
+            "Hier ist eine Verband."
+          ],
+          "answer": 0,
+          "why": "ein.",
+          "hint": "ein."
+        },
+        {
+          "kind": "mc",
+          "q": "Known dressing.",
+          "qEn": "Known.",
+          "options": [
+            "Ein Verband ist neu.",
+            "Der Verband ist neu.",
+            "Eine Verband ist neu."
+          ],
+          "answer": 1,
+          "why": "der.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "First syringe.",
+          "qEn": "New.",
+          "options": [
+            "Hier ist ein Spritze.",
+            "Hier ist die Spritze.",
+            "Hier ist eine Spritze."
+          ],
+          "answer": 2,
+          "why": "eine.",
+          "hint": "eine."
+        },
+        {
+          "kind": "mc",
+          "q": "Known syringe.",
+          "qEn": "Known.",
+          "options": [
+            "Die Spritze ist neu.",
+            "Eine Spritze ist neu.",
+            "Der Spritze ist neu."
+          ],
+          "answer": 0,
+          "why": "die.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "First plaster.",
+          "qEn": "New.",
+          "options": [
+            "Hier ist eine Pflaster.",
+            "Hier ist ein Pflaster.",
+            "Hier ist das Pflaster."
+          ],
+          "answer": 1,
+          "why": "ein.",
+          "hint": "ein."
+        },
+        {
+          "kind": "mc",
+          "q": "Known plaster.",
+          "qEn": "Known.",
+          "options": [
+            "Ein Pflaster ist klein.",
+            "Der Pflaster ist klein.",
+            "Das Pflaster ist klein."
+          ],
+          "answer": 2,
+          "why": "das.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "Profession.",
+          "qEn": "No article.",
+          "options": [
+            "Ich bin Pflegekraft.",
+            "Ich bin eine Pflegekraft.",
+            "Ich bin die Pflegekraft."
+          ],
+          "answer": 0,
+          "why": "No article.",
+          "hint": "Beruf."
+        },
+        {
+          "kind": "mc",
+          "q": "Fever.",
+          "qEn": "No article.",
+          "options": [
+            "Ich habe ein Fieber.",
+            "Ich habe Fieber.",
+            "Ich habe das Fieber."
+          ],
+          "answer": 1,
+          "why": "No article.",
+          "hint": "Fieber."
+        },
+        {
+          "kind": "mc",
+          "q": "ein goes with…",
+          "qEn": "Gender.",
+          "options": [
+            "only die",
+            "only the plural",
+            "der and das"
+          ],
+          "answer": 2,
+          "why": "ein Verband, ein Pflaster.",
+          "hint": "der and das."
+        },
+        {
+          "kind": "mc",
+          "q": "eine goes with…",
+          "qEn": "Gender.",
+          "options": [
+            "die",
+            "der",
+            "das"
+          ],
+          "answer": 0,
+          "why": "eine Spritze.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "First mention of one bed.",
+          "qEn": "New.",
+          "options": [
+            "Hier ist eine Bett.",
+            "Hier ist ein Bett.",
+            "Hier ist Bett."
+          ],
+          "answer": 1,
+          "why": "Neuter, ein.",
+          "hint": "ein."
+        },
+        {
+          "kind": "mc",
+          "q": "Thirst, same pattern as fever.",
+          "qEn": "No article.",
+          "options": [
+            "Ich habe einen Durst.",
+            "Ich habe der Durst.",
+            "Ich habe Durst."
+          ],
+          "answer": 2,
+          "why": "No article.",
+          "hint": "Durst."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "ein, dann der",
+      "redemittel": [
+        {
+          "de": "Hier ist ein Verband.",
+          "en": "Here is a dressing."
+        },
+        {
+          "de": "Der Verband ist neu.",
+          "en": "The dressing is new."
+        },
+        {
+          "de": "Hier ist eine Spritze.",
+          "en": "Here is a syringe."
+        },
+        {
+          "de": "Ich bin Pflegekraft.",
+          "en": "I am a nurse."
+        },
+        {
+          "de": "Ich habe Fieber.",
+          "en": "I have a fever."
+        }
+      ]
+    }
+  ]
+}

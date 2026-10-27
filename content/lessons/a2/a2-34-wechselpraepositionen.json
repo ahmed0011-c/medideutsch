@@ -1,0 +1,2051 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)"
+    },
+    "einen": {
+      "de": "einen",
+      "pos": "article",
+      "en": "a (masculine accusative)"
+    },
+    "einem": {
+      "de": "einem",
+      "pos": "article",
+      "en": "a (masculine or neuter dative)"
+    },
+    "einer": {
+      "de": "einer",
+      "pos": "article",
+      "en": "a (feminine dative)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in; into"
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "at; on (vertical)"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on (horizontal); onto"
+    },
+    "neben": {
+      "de": "neben",
+      "pos": "preposition",
+      "en": "next to"
+    },
+    "hinter": {
+      "de": "hinter",
+      "pos": "preposition",
+      "en": "behind"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "in front of"
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of; from"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from"
+    },
+    "bei": {
+      "de": "bei",
+      "pos": "preposition",
+      "en": "at (a person)"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "preposition",
+      "en": "to"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "to; after"
+    },
+    "im": {
+      "de": "im",
+      "pos": "preposition",
+      "en": "in the (in + dem)"
+    },
+    "ins": {
+      "de": "ins",
+      "pos": "preposition",
+      "en": "into the (in + das)"
+    },
+    "am": {
+      "de": "am",
+      "pos": "preposition",
+      "en": "at the (an + dem)"
+    },
+    "beim": {
+      "de": "beim",
+      "pos": "preposition",
+      "en": "at the (bei + dem)"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "preposition",
+      "en": "to the (zu + dem)"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "preposition",
+      "en": "from the (von + dem)"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or"
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "than"
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "conjunction",
+      "en": "as; like"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "adverb",
+      "en": "please"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "adverb",
+      "en": "not"
+    },
+    "dort": {
+      "de": "dort",
+      "pos": "adverb",
+      "en": "there"
+    },
+    "so": {
+      "de": "so",
+      "pos": "adverb",
+      "en": "so"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "adverb",
+      "en": "where"
+    },
+    "wohin": {
+      "de": "wohin",
+      "pos": "adverb",
+      "en": "where to"
+    },
+    "woher": {
+      "de": "woher",
+      "pos": "adverb",
+      "en": "where from"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "hause": {
+      "de": "Hause",
+      "pos": "noun",
+      "en": "home, in the phrases zu Hause, nach Hause, von zu Hause",
+      "note": "Fixed phrases: zu Hause (where), nach Hause (where to), von zu Hause (where from)."
+    },
+    "bringt": {
+      "de": "bringen → bringt",
+      "pos": "verb",
+      "en": "brings"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies; is lying"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "komme": {
+      "de": "kommen → komme",
+      "pos": "verb",
+      "en": "come (ich)"
+    },
+    "stehen": {
+      "de": "stehen → stehen",
+      "pos": "verb",
+      "en": "to stand"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "legen": {
+      "de": "legen → legen",
+      "pos": "verb",
+      "en": "to lay; to put"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "bin": {
+      "de": "sein → bin",
+      "pos": "verb",
+      "en": "am"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "geht": {
+      "de": "gehen → geht",
+      "pos": "verb",
+      "en": "goes"
+    },
+    "gehe": {
+      "de": "gehen → gehe",
+      "pos": "verb",
+      "en": "go (ich)"
+    },
+    "gibt": {
+      "de": "geben → gibt",
+      "pos": "verb",
+      "en": "gives"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "spricht": {
+      "de": "sprechen → spricht",
+      "pos": "verb",
+      "en": "speaks"
+    },
+    "prüft": {
+      "de": "prüfen → prüft",
+      "pos": "verb",
+      "en": "checks"
+    },
+    "trinkt": {
+      "de": "trinken → trinkt",
+      "pos": "verb",
+      "en": "drinks"
+    },
+    "arbeitet": {
+      "de": "arbeiten → arbeitet",
+      "pos": "verb",
+      "en": "works"
+    },
+    "kommen": {
+      "de": "kommen → kommen",
+      "pos": "verb",
+      "en": "to come; Sie-imperative of kommen"
+    },
+    "wird": {
+      "de": "werden → wird",
+      "pos": "verb",
+      "en": "becomes"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative or dative singular)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "op": {
+      "de": "OP",
+      "pos": "noun",
+      "en": "operating theatre",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die OPs"
+    },
+    "liege": {
+      "de": "Liege",
+      "pos": "noun",
+      "en": "examination couch",
+      "emoji": "🛏️",
+      "article": "die",
+      "plural": "die Liegen"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer"
+    },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "thermometer",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Thermometer"
+    },
+    "nachttisch": {
+      "de": "Nachttisch",
+      "pos": "noun",
+      "en": "bedside table",
+      "emoji": "🗄️",
+      "article": "der",
+      "plural": "die Nachttische"
+    },
+    "infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "infusion",
+      "emoji": "💧",
+      "article": "die",
+      "plural": "die Infusionen"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "emoji": "📟",
+      "article": "der",
+      "plural": "die Monitore"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "file",
+      "emoji": "📋",
+      "article": "die",
+      "plural": "die Akten"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "emoji": "🪵",
+      "article": "der",
+      "plural": "die Tische"
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Ärztinnen"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen"
+    },
+    "intensivstation": {
+      "de": "Intensivstation",
+      "pos": "noun",
+      "en": "intensive care unit",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Intensivstationen"
+    },
+    "schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "⚡",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "arm": {
+      "de": "Arm",
+      "pos": "noun",
+      "en": "arm",
+      "emoji": "💪",
+      "article": "der",
+      "plural": "die Arme"
+    },
+    "übelkeit": {
+      "de": "Übelkeit",
+      "pos": "noun",
+      "en": "nausea",
+      "emoji": "🤢",
+      "article": "die",
+      "plural": "Übelkeit"
+    },
+    "pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "emoji": "🩹",
+      "article": "das",
+      "plural": "die Pflaster"
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding",
+      "emoji": "📄",
+      "article": "der",
+      "plural": "die Befunde"
+    },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Verbände"
+    },
+    "kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Kolleginnen"
+    },
+    "tag": {
+      "de": "Tag",
+      "pos": "noun",
+      "en": "day",
+      "emoji": "📅",
+      "article": "der",
+      "plural": "die Tage"
+    },
+    "dosis": {
+      "de": "Dosis",
+      "pos": "noun",
+      "en": "dose",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Dosen"
+    },
+    "blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "en": "blood pressure",
+      "emoji": "❤️",
+      "article": "der",
+      "plural": "Blutdruck"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das",
+      "plural": "Wasser"
+    },
+    "saft": {
+      "de": "Saft",
+      "pos": "noun",
+      "en": "juice",
+      "emoji": "🧃",
+      "article": "der",
+      "plural": "die Säfte"
+    },
+    "starke": {
+      "de": "starke",
+      "pos": "adjective",
+      "en": "severe, strong (feminine or plural weak ending)"
+    },
+    "starken": {
+      "de": "starken",
+      "pos": "adjective",
+      "en": "severe, strong (accusative masculine ending)"
+    },
+    "stark": {
+      "de": "stark",
+      "pos": "adjective",
+      "en": "severe, strong (no ending after sein)"
+    },
+    "leicht": {
+      "de": "leicht",
+      "pos": "adjective",
+      "en": "mild; light"
+    },
+    "kleines": {
+      "de": "kleines",
+      "pos": "adjective",
+      "en": "small (neuter nominative or accusative ending)"
+    },
+    "neuen": {
+      "de": "neuen",
+      "pos": "adjective",
+      "en": "new (weak ending)"
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new (no ending after sein)"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "good (no ending after sein)"
+    },
+    "kleinen": {
+      "de": "kleinen",
+      "pos": "adjective",
+      "en": "small (weak ending)"
+    },
+    "dritten": {
+      "de": "dritten",
+      "pos": "adjective",
+      "en": "third (dative ending)"
+    },
+    "postoperativen": {
+      "de": "postoperativen",
+      "pos": "adjective",
+      "en": "postoperative (dative ending)"
+    },
+    "zweiten": {
+      "de": "zweiten",
+      "pos": "adjective",
+      "en": "second (dative ending)"
+    },
+    "stärker": {
+      "de": "stärker",
+      "pos": "adjective",
+      "en": "stronger"
+    },
+    "stärkere": {
+      "de": "stärkere",
+      "pos": "adjective",
+      "en": "stronger (attributive ending)"
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high"
+    },
+    "früher": {
+      "de": "früher",
+      "pos": "adverb",
+      "en": "earlier; sooner"
+    },
+    "besser": {
+      "de": "besser",
+      "pos": "adjective",
+      "en": "better"
+    },
+    "lieber": {
+      "de": "lieber",
+      "pos": "adverb",
+      "en": "preferably; rather"
+    }
+  },
+  "id": "a2-34-wechselpraepositionen",
+  "level": "A2",
+  "unit": "Kapitel 34",
+  "chapter": 34,
+  "chapters": [
+    34
+  ],
+  "title": "Im Kino oder ins Kino?",
+  "subtitle": "Two-way prepositions: Wo? takes the dative, Wohin? takes the accusative",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "Wo? means someone or something stays: dative. Wohin? means movement: accusative.",
+        "in, an, auf, vor, hinter, über, unter, neben and zwischen take both cases.",
+        "Contractions: in + dem = im, an + dem = am, in + das = ins, an + das = ans.",
+        "On the ward: im OP is a place. In den OP is the way there."
+      ],
+      "vocab": [
+        {
+          "de": "OP",
+          "article": "der",
+          "plural": "die OPs",
+          "en": "operating theatre",
+          "emoji": "🏥",
+          "glossaryKey": "op"
+        },
+        {
+          "de": "Liege",
+          "article": "die",
+          "plural": "die Liegen",
+          "en": "examination couch",
+          "emoji": "🛏️",
+          "glossaryKey": "liege"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Nachttisch",
+          "article": "der",
+          "plural": "die Nachttische",
+          "en": "bedside table",
+          "emoji": "🗄️",
+          "glossaryKey": "nachttisch"
+        },
+        {
+          "de": "Infusion",
+          "article": "die",
+          "plural": "die Infusionen",
+          "en": "infusion",
+          "emoji": "💧",
+          "glossaryKey": "infusion"
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        }
+      ],
+      "text": {
+        "title": "In den OP",
+        "de": "Die Pflegekraft bringt den Patienten in den OP. Im OP liegt der Patient auf der Liege. Die Ärztin kommt ins Zimmer. Das Thermometer liegt auf dem Nachttisch. Die Infusion steht neben dem Bett. Der Monitor steht hinter dem Bett. Bitte legen Sie die Akte auf den Tisch.",
+        "en": "The nurse takes the patient into theatre. In theatre the patient lies on the couch. The doctor comes into the room. The thermometer is on the bedside table. The infusion stands next to the bed. The monitor stands behind the bed. Please put the file on the table."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "practice": "choose",
+      "quizTitle": "Choose the form",
+      "title": "Wo? or Wohin?",
+      "heroTitle": "Place or direction",
+      "heroImage": "ward",
+      "story": [
+        "Wo? The patient is already there: <b>im OP</b>, <b>auf der Liege</b>.",
+        "Wohin? Someone moves him: <b>in den OP</b>, <b>auf die Liege</b>."
+      ],
+      "questionRule": "<b>Wo?</b> stays → dative. <b>Wohin?</b> goes → accusative. The hin in Wohin is the movement.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "Wo?",
+              "r": "subj"
+            },
+            {
+              "t": "im",
+              "r": "rest"
+            },
+            {
+              "t": "OP",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "sind",
+              "r": "verb"
+            },
+            {
+              "t": "im",
+              "r": "rest"
+            },
+            {
+              "t": "OP",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Where? Dative — he is already in theatre.",
+          "enAfter": "Sie sind im OP.",
+          "callLabel": "Show Wo?"
+        },
+        {
+          "before": [
+            {
+              "t": "Wohin?",
+              "r": "subj"
+            },
+            {
+              "t": "in",
+              "r": "rest"
+            },
+            {
+              "t": "den",
+              "r": "rest"
+            },
+            {
+              "t": "OP",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Wir",
+              "r": "subj"
+            },
+            {
+              "t": "bringen",
+              "r": "verb"
+            },
+            {
+              "t": "Sie",
+              "r": "rest"
+            },
+            {
+              "t": "in",
+              "r": "rest"
+            },
+            {
+              "t": "den",
+              "r": "rest"
+            },
+            {
+              "t": "OP",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Where to? Accusative — movement into theatre.",
+          "enAfter": "Wir bringen Sie in den OP.",
+          "callLabel": "Show Wohin?"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Wo? Dativ · Wohin? Akkusativ",
+          "caption": "Same preposition, two questions.",
+          "columns": [
+            "Frage",
+            "Kasus",
+            "Beispiel"
+          ],
+          "rows": [
+            {
+              "label": "Ort",
+              "cells": [
+                "Wo?",
+                "Dativ",
+                "Sie sind im OP."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Richtung",
+              "cells": [
+                "Wohin?",
+                "Akkusativ",
+                "Wir bringen Sie in den OP."
+              ]
+            },
+            {
+              "label": "Liege · Wo",
+              "cells": [
+                "Wo?",
+                "Dativ",
+                "Er liegt auf der Liege."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Liege · Wohin",
+              "cells": [
+                "Wohin?",
+                "Akkusativ",
+                "Legen Sie sich auf die Liege."
+              ]
+            },
+            {
+              "label": "Fenster · Wo",
+              "cells": [
+                "Wo?",
+                "Dativ",
+                "Sie steht am Fenster."
+              ]
+            },
+            {
+              "label": "Fenster · Wohin",
+              "cells": [
+                "Wohin?",
+                "Akkusativ",
+                "Sie geht ans Fenster."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kontraktionen",
+          "caption": "in and an contract with dem and das.",
+          "columns": [
+            "Teile",
+            "Kurz",
+            "Beispiel"
+          ],
+          "rows": [
+            {
+              "label": "in + dem",
+              "cells": [
+                "in dem",
+                "im",
+                "im Zimmer"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "an + dem",
+              "cells": [
+                "an dem",
+                "am",
+                "am Bett"
+              ]
+            },
+            {
+              "label": "in + das",
+              "cells": [
+                "in das",
+                "ins",
+                "ins Zimmer"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "an + das",
+              "cells": [
+                "an das",
+                "ans",
+                "ans Fenster"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Häufige Verwechslung",
+        "items": [
+          {
+            "de": "Sie sind im OP.",
+            "en": "Where? Dative. He is already there.",
+            "tone": "ok"
+          },
+          {
+            "de": "Sie sind in den OP.",
+            "en": "In den answers Wohin?, not Wo?.",
+            "tone": "stop"
+          },
+          {
+            "de": "Wir bringen Sie in den OP.",
+            "en": "Where to? Accusative.",
+            "tone": "ok"
+          },
+          {
+            "de": "Wir bringen Sie im OP.",
+            "en": "Im answers Wo?. It cannot show the way there.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "If you can add hin in your head (wohin), use the accusative."
+      },
+      "tips": [
+        {
+          "title": "Wo stays, wohin goes",
+          "body": "Wo? = dative, the person stays. Wohin? = accusative, the person moves. Nine prepositions do both: in, an, auf, vor, hinter, über, unter, neben, zwischen.",
+          "mnemonic": "Wo? bleibt. Wohin? geht.",
+          "emoji": "🚶"
+        }
+      ],
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Er liegt ___ Bett.",
+          "qEn": "Where, he stays.",
+          "options": [
+            "im",
+            "ins",
+            "in den"
+          ],
+          "answer": 0,
+          "why": "Wo? takes the dative: im Bett.",
+          "hint": "Wo? → Dativ"
+        },
+        {
+          "kind": "mc",
+          "q": "Wir gehen ___ Zimmer.",
+          "qEn": "Movement into the room.",
+          "options": [
+            "im",
+            "ins",
+            "am"
+          ],
+          "answer": 1,
+          "why": "Wohin? takes the accusative: ins Zimmer.",
+          "hint": "Wohin? → Akkusativ"
+        },
+        {
+          "kind": "mc",
+          "q": "in + das =",
+          "qEn": "Contraction.",
+          "options": [
+            "im",
+            "am",
+            "ins"
+          ],
+          "answer": 2,
+          "why": "in + das contracts to ins.",
+          "hint": "ins"
+        },
+        {
+          "kind": "mc",
+          "q": "Die Akte liegt ___ Tisch.",
+          "qEn": "It is already there.",
+          "options": [
+            "auf dem",
+            "auf den",
+            "auf die"
+          ],
+          "answer": 0,
+          "why": "Wo? + masculine or neuter dative: auf dem Tisch.",
+          "hint": "Wo?"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "Gap",
+      "title": "Wo or wohin?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Choose the preposition. Wo? is dative. Wohin? is accusative.",
+      "chips": [
+        {
+          "w": "im",
+          "hint": "Wo?"
+        },
+        {
+          "w": "ins",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "am",
+          "hint": "Wo?"
+        },
+        {
+          "w": "ans",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "auf dem",
+          "hint": "Wo?"
+        },
+        {
+          "w": "auf den",
+          "hint": "Wohin?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Patient liegt",
+          "after": "Zimmer.",
+          "answer": "im",
+          "en": "He is in the room.",
+          "why": "Wo? → im.",
+          "tip": "stays",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wir gehen",
+          "after": "Zimmer.",
+          "answer": "ins",
+          "en": "We go into the room.",
+          "why": "Wohin? → ins.",
+          "tip": "moves",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Das Thermometer liegt",
+          "after": "Nachttisch.",
+          "answer": "am",
+          "en": "It is at the table.",
+          "why": "Wo? an + dem = am. Nachttisch is masculine.",
+          "tip": "stays",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Sie geht",
+          "after": "Fenster.",
+          "answer": "ans",
+          "en": "She goes to the window.",
+          "why": "Wohin? an + das = ans.",
+          "tip": "moves",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Die Akte liegt",
+          "after": "Tisch.",
+          "answer": "auf dem",
+          "en": "It is on the table.",
+          "why": "Wo? masculine dative.",
+          "tip": "stays",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Legen Sie die Akte",
+          "after": "Tisch.",
+          "answer": "auf den",
+          "en": "Put it onto the table.",
+          "why": "Wohin? masculine accusative.",
+          "tip": "moves",
+          "hint": "Wohin?"
+        }
+      ]
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "Match",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Place or direction?",
+      "items": [
+        {
+          "prompt": "Der Patient liegt ___ Bett.",
+          "options": [
+            {
+              "emoji": "🛏️",
+              "label": "im",
+              "caption": "Wo? Dativ"
+            },
+            {
+              "emoji": "🚶",
+              "label": "ins",
+              "caption": "Wohin? Akkusativ"
+            }
+          ],
+          "answer": 0,
+          "why": "He is already in bed.",
+          "hint": "Wo?"
+        },
+        {
+          "prompt": "Wir bringen Sie ___ OP.",
+          "options": [
+            {
+              "emoji": "🚶",
+              "label": "in den",
+              "caption": "Wohin?"
+            },
+            {
+              "emoji": "🛏️",
+              "label": "im",
+              "caption": "Wo?"
+            }
+          ],
+          "answer": 0,
+          "why": "bringen shows movement.",
+          "hint": "Wohin?"
+        },
+        {
+          "prompt": "Die Infusion steht ___ Bett.",
+          "options": [
+            {
+              "emoji": "↔️",
+              "label": "neben dem",
+              "caption": "Wo?"
+            },
+            {
+              "emoji": "↔️",
+              "label": "neben das",
+              "caption": "Wohin?"
+            }
+          ],
+          "answer": 0,
+          "why": "steht means it is already there.",
+          "hint": "Wo?"
+        },
+        {
+          "prompt": "Sie legt die Akte ___ Liege.",
+          "options": [
+            {
+              "emoji": "📄",
+              "label": "auf die",
+              "caption": "Wohin?"
+            },
+            {
+              "emoji": "📄",
+              "label": "auf der",
+              "caption": "Wo?"
+            }
+          ],
+          "answer": 0,
+          "why": "legen is a movement.",
+          "hint": "Wohin?"
+        }
+      ]
+    },
+    {
+      "id": "px-picture",
+      "label": "Picture",
+      "title": "Picture",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the place, then read where it is.",
+      "items": [
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Wo? Der Patient liegt im Bett."
+        },
+        {
+          "id": "monitor",
+          "de": "Monitor",
+          "article": "der",
+          "plural": "die Monitore",
+          "en": "monitor",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          },
+          "hint": "Wo? Der Monitor steht hinter dem Bett."
+        },
+        {
+          "id": "infusion",
+          "de": "Infusion",
+          "article": "die",
+          "plural": "die Infusionen",
+          "en": "infusion",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          },
+          "hint": "Wo? Die Infusion steht neben dem Bett."
+        },
+        {
+          "id": "thermo",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "Wo? Es liegt auf dem Nachttisch."
+        }
+      ]
+    },
+    {
+      "id": "px-build",
+      "label": "Build",
+      "title": "Build",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Put the place or the direction in the sentence.",
+      "items": [
+        {
+          "tiles": [
+            "Wir",
+            "bringen",
+            "Sie",
+            "in",
+            "den",
+            "OP"
+          ],
+          "answers": [
+            "Wir bringen Sie in den OP"
+          ],
+          "punct": ".",
+          "modal": "bringen",
+          "inf": "OP",
+          "question": false,
+          "en": "We are taking you into theatre.",
+          "hint": "Wohin? in den OP.",
+          "feedback": {
+            "fallback": "Wohin? in den OP."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Akte",
+            "liegt",
+            "auf",
+            "dem",
+            "Tisch"
+          ],
+          "answers": [
+            "Die Akte liegt auf dem Tisch"
+          ],
+          "punct": ".",
+          "modal": "Akte",
+          "inf": "Tisch",
+          "question": false,
+          "en": "The file is on the table.",
+          "hint": "Wo? auf dem Tisch.",
+          "feedback": {
+            "fallback": "Wo? auf dem Tisch."
+          }
+        },
+        {
+          "tiles": [
+            "Der",
+            "Patient",
+            "liegt",
+            "im",
+            "Zimmer"
+          ],
+          "answers": [
+            "Der Patient liegt im Zimmer"
+          ],
+          "punct": ".",
+          "modal": "Patient",
+          "inf": "Zimmer",
+          "question": false,
+          "en": "The patient is in the room.",
+          "hint": "Wo? im Zimmer.",
+          "feedback": {
+            "fallback": "Wo? im Zimmer."
+          }
+        },
+        {
+          "tiles": [
+            "Bitte",
+            "kommen",
+            "Sie",
+            "auf",
+            "die",
+            "Station"
+          ],
+          "answers": [
+            "Bitte kommen Sie auf die Station"
+          ],
+          "punct": ".",
+          "modal": "kommen",
+          "inf": "Station",
+          "question": false,
+          "en": "Please come onto the ward.",
+          "hint": "Wohin? auf die Station.",
+          "feedback": {
+            "fallback": "Wohin? auf die Station."
+          }
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Change Wo? into Wohin?, or the other way.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Rewrite the place phrase.",
+      "chips": [
+        {
+          "w": "in den OP",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "im OP",
+          "hint": "Wo?"
+        },
+        {
+          "w": "auf die Liege",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "auf der Liege",
+          "hint": "Wo?"
+        },
+        {
+          "w": "ans Fenster",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "am Fenster",
+          "hint": "Wo?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wo: im OP. Wohin:",
+          "after": ".",
+          "answer": "in den OP",
+          "en": "into theatre",
+          "why": "Masculine accusative.",
+          "tip": "Richtung",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Wohin: in den OP. Wo:",
+          "after": ".",
+          "answer": "im OP",
+          "en": "in theatre",
+          "why": "Masculine dative.",
+          "tip": "Ort",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wo: auf der Liege. Wohin:",
+          "after": ".",
+          "answer": "auf die Liege",
+          "en": "onto the couch",
+          "why": "Feminine accusative.",
+          "tip": "Richtung",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Wohin: auf die Liege. Wo:",
+          "after": ".",
+          "answer": "auf der Liege",
+          "en": "on the couch",
+          "why": "Feminine dative.",
+          "tip": "Ort",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wo: am Fenster. Wohin:",
+          "after": ".",
+          "answer": "ans Fenster",
+          "en": "to the window",
+          "why": "an + das.",
+          "tip": "Richtung",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Wohin: ans Fenster. Wo:",
+          "after": ".",
+          "answer": "am Fenster",
+          "en": "at the window",
+          "why": "an + dem.",
+          "tip": "Ort",
+          "hint": "Wo?"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir bringen Sie im OP."
+          ],
+          "options": [
+            "Wir bringen Sie in den OP.",
+            "Wir bringen Sie im OP.",
+            "Wir bringen Sie am OP."
+          ],
+          "answer": 0,
+          "reveal": "Wir bringen Sie in den OP.",
+          "hint": "bringen answers Wohin?."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Patient liegt ins Bett."
+          ],
+          "options": [
+            "Der Patient liegt im Bett.",
+            "Der Patient liegt ins Bett.",
+            "Der Patient liegt in den Bett."
+          ],
+          "answer": 0,
+          "reveal": "Der Patient liegt im Bett.",
+          "hint": "liegen answers Wo?."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Akte liegt an das Fenster."
+          ],
+          "options": [
+            "Die Akte liegt am Fenster.",
+            "Die Akte liegt an das Fenster.",
+            "Die Akte liegt ans Fenster."
+          ],
+          "answer": 0,
+          "reveal": "Die Akte liegt am Fenster.",
+          "hint": "A thing that is already there takes the dative."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Legen Sie sich auf der Liege."
+          ],
+          "options": [
+            "Legen Sie sich auf die Liege.",
+            "Legen Sie sich auf der Liege.",
+            "Legen Sie sich im Liege."
+          ],
+          "answer": 0,
+          "reveal": "Legen Sie sich auf die Liege.",
+          "hint": "legen answers Wohin?."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "On the way to theatre",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Complete the dialogue.",
+      "chips": [
+        {
+          "w": "in",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "im",
+          "hint": "Wo?"
+        },
+        {
+          "w": "auf die",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "neben dem",
+          "hint": "Wo?"
+        },
+        {
+          "w": "hinter dem",
+          "hint": "Wo?"
+        },
+        {
+          "w": "ins",
+          "hint": "Wohin?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wir bringen Sie",
+          "after": "den OP.",
+          "answer": "in",
+          "en": "into theatre",
+          "why": "Wohin? + accusative.",
+          "tip": "Richtung",
+          "hint": "Wohin?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Bin ich schon",
+          "after": "OP?",
+          "answer": "im",
+          "en": "in theatre already",
+          "why": "Wo?.",
+          "tip": "Ort",
+          "hint": "Wo?",
+          "who": "Patient"
+        },
+        {
+          "before": "Bitte legen Sie sich",
+          "after": "Liege.",
+          "answer": "auf die",
+          "en": "onto the couch",
+          "why": "Wohin?.",
+          "tip": "Richtung",
+          "hint": "Wohin?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Die Infusion steht",
+          "after": "Bett.",
+          "answer": "neben dem",
+          "en": "next to the bed",
+          "why": "Wo?.",
+          "tip": "Ort",
+          "hint": "Wo?",
+          "who": "Ärztin"
+        },
+        {
+          "before": "Der Monitor steht",
+          "after": "Bett.",
+          "answer": "hinter dem",
+          "en": "behind the bed",
+          "why": "Wo?.",
+          "tip": "Ort",
+          "hint": "Wo?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ich komme jetzt",
+          "after": "Zimmer.",
+          "answer": "ins",
+          "en": "into the room",
+          "why": "Wohin?.",
+          "tip": "Richtung",
+          "hint": "Wohin?",
+          "who": "Ärztin"
+        }
+      ]
+    },
+    {
+      "id": "px-gap-2",
+      "label": "More gaps",
+      "title": "Article and preposition",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "One chip for each gap.",
+      "chips": [
+        {
+          "w": "vor dem",
+          "hint": "Wo?"
+        },
+        {
+          "w": "unter dem",
+          "hint": "Wo?"
+        },
+        {
+          "w": "zwischen dem",
+          "hint": "Wo?"
+        },
+        {
+          "w": "an die",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "an der",
+          "hint": "Wo?"
+        },
+        {
+          "w": "in das",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "in dem",
+          "hint": "Wo?"
+        },
+        {
+          "w": "auf den",
+          "hint": "Wohin?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wo, vor dem Zimmer:",
+          "after": "Zimmer.",
+          "answer": "vor dem",
+          "en": "in front of the room",
+          "why": "Dative.",
+          "tip": "Wo?",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wo, unter dem Bett:",
+          "after": "Bett.",
+          "answer": "unter dem",
+          "en": "under the bed",
+          "why": "Dative.",
+          "tip": "Wo?",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wo, zwischen Bett und Tür:",
+          "after": "Bett und der Tür.",
+          "answer": "zwischen dem",
+          "en": "between",
+          "why": "Dative.",
+          "tip": "Wo?",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wohin, an die Tür:",
+          "after": "Tür.",
+          "answer": "an die",
+          "en": "onto the door",
+          "why": "Feminine accusative.",
+          "tip": "Wohin?",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Wo, an der Tür:",
+          "after": "Tür.",
+          "answer": "an der",
+          "en": "at the door",
+          "why": "Feminine dative.",
+          "tip": "Wo?",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wohin, uncontracted:",
+          "after": "Zimmer.",
+          "answer": "in das",
+          "en": "into the room",
+          "why": "in + das, same as ins.",
+          "tip": "Wohin?",
+          "hint": "Wohin?"
+        },
+        {
+          "before": "Wo, uncontracted:",
+          "after": "Zimmer.",
+          "answer": "in dem",
+          "en": "in the room",
+          "why": "in + dem, same as im.",
+          "tip": "Wo?",
+          "hint": "Wo?"
+        },
+        {
+          "before": "Wohin, auf den Stuhl:",
+          "after": "Stuhl.",
+          "answer": "auf den",
+          "en": "onto the chair",
+          "why": "Masculine accusative.",
+          "tip": "Wohin?",
+          "hint": "Wohin?"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read and answer",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "In den OP",
+        "paragraphs": [
+          "Die Pflegekraft bringt den Patienten in den OP. Im OP liegt der Patient auf der Liege. Die Ärztin kommt ins Zimmer. Das Thermometer liegt auf dem Nachttisch. Die Infusion steht neben dem Bett. Der Monitor steht hinter dem Bett. Bitte legen Sie die Akte auf den Tisch."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "q": "Wohin bringt die Pflegekraft den Patienten?",
+          "qEn": "Where to?",
+          "options": [
+            "in den OP",
+            "im OP",
+            "am Bett"
+          ],
+          "answer": 0,
+          "why": "bringen answers Wohin?: in den OP.",
+          "hint": "bringen answers Wohin?: in den OP."
+        },
+        {
+          "q": "Wo liegt der Patient im OP?",
+          "qEn": "Where exactly?",
+          "options": [
+            "auf der Liege",
+            "auf die Liege",
+            "ins Zimmer"
+          ],
+          "answer": 0,
+          "why": "liegt answers Wo?: auf der Liege.",
+          "hint": "liegt answers Wo?: auf der Liege."
+        },
+        {
+          "q": "Wo liegt das Thermometer?",
+          "qEn": "Where is it?",
+          "options": [
+            "auf dem Nachttisch",
+            "auf den Nachttisch",
+            "ins Zimmer"
+          ],
+          "answer": 0,
+          "why": "liegt answers Wo?.",
+          "hint": "liegt answers Wo?."
+        },
+        {
+          "q": "Wo steht die Infusion?",
+          "qEn": "Where does it stand?",
+          "options": [
+            "neben dem Bett",
+            "neben das Bett",
+            "in den OP"
+          ],
+          "answer": 0,
+          "why": "steht answers Wo?.",
+          "hint": "steht answers Wo?."
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "Where is he, where is he going?",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four sentences: two with Wo? and two with Wohin?.",
+      "prompt": "Say where the patient is lying, where the file is, where you are taking him, and where he should lie down.",
+      "bullets": [
+        "Use im or auf dem for a place.",
+        "Use in den or auf die for a direction.",
+        "Use one contraction: im, am, ins or ans."
+      ],
+      "model": "Der Patient liegt im Zimmer auf dem Bett. Die Akte liegt auf dem Tisch. Wir bringen ihn in den OP. Im OP liegt er auf der Liege.",
+      "modelEn": "The patient is lying in the room on the bed. The file is on the table. We are taking him into theatre. In theatre he lies on the couch.",
+      "hint": "Wo? dative. Wohin? accusative.",
+      "checklist": [
+        {
+          "id": "im",
+          "label": "Uses a dative contraction or article",
+          "keywords": [
+            "im"
+          ]
+        },
+        {
+          "id": "in-den",
+          "label": "Uses in den",
+          "keywords": [
+            "in den"
+          ]
+        },
+        {
+          "id": "auf",
+          "label": "Uses auf",
+          "keywords": [
+            "auf dem"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Er liegt ___ Zimmer.",
+          "qEn": "He stays.",
+          "options": [
+            "im",
+            "ins",
+            "in den"
+          ],
+          "answer": 0,
+          "why": "Wo? → im.",
+          "hint": "Wo?"
+        },
+        {
+          "kind": "mc",
+          "q": "Wir gehen ___ Zimmer.",
+          "qEn": "Movement.",
+          "options": [
+            "im",
+            "ins",
+            "am"
+          ],
+          "answer": 1,
+          "why": "Wohin? → ins.",
+          "hint": "Wohin?"
+        },
+        {
+          "kind": "mc",
+          "q": "in + dem =",
+          "qEn": "Contraction.",
+          "options": [
+            "ins",
+            "ans",
+            "im"
+          ],
+          "answer": 2,
+          "why": "in + dem = im.",
+          "hint": "im"
+        },
+        {
+          "kind": "mc",
+          "q": "an + das =",
+          "qEn": "Contraction.",
+          "options": [
+            "ans",
+            "am",
+            "ins"
+          ],
+          "answer": 0,
+          "why": "an + das = ans.",
+          "hint": "ans"
+        },
+        {
+          "kind": "mc",
+          "q": "Die Akte liegt ___ Tisch.",
+          "qEn": "Already there.",
+          "options": [
+            "auf den",
+            "auf dem",
+            "auf die"
+          ],
+          "answer": 1,
+          "why": "Wo? masculine dative.",
+          "hint": "Wo?"
+        },
+        {
+          "kind": "mc",
+          "q": "Legen Sie die Akte ___ Tisch.",
+          "qEn": "Movement.",
+          "options": [
+            "auf dem",
+            "auf der",
+            "auf den"
+          ],
+          "answer": 2,
+          "why": "Wohin? masculine accusative.",
+          "hint": "Wohin?"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie steht ___ Fenster.",
+          "qEn": "Already there, das Fenster.",
+          "options": [
+            "am",
+            "ans",
+            "im"
+          ],
+          "answer": 0,
+          "why": "Wo? an + dem = am.",
+          "hint": "Wo?"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie geht ___ Fenster.",
+          "qEn": "Movement, das Fenster.",
+          "options": [
+            "am",
+            "ans",
+            "ins"
+          ],
+          "answer": 1,
+          "why": "Wohin? an + das = ans.",
+          "hint": "Wohin?"
+        },
+        {
+          "kind": "mc",
+          "q": "Die Infusion steht ___ Bett.",
+          "qEn": "Already there.",
+          "options": [
+            "neben das",
+            "neben den",
+            "neben dem"
+          ],
+          "answer": 2,
+          "why": "Wo? dative.",
+          "hint": "Wo?"
+        },
+        {
+          "kind": "mc",
+          "q": "Wir stellen die Infusion ___ Bett.",
+          "qEn": "Movement.",
+          "options": [
+            "neben das",
+            "neben dem",
+            "neben der"
+          ],
+          "answer": 0,
+          "why": "Wohin? accusative. Bett is neuter: das.",
+          "hint": "Wohin?"
+        },
+        {
+          "kind": "mc",
+          "q": "bringen answers…",
+          "qEn": "Verb of movement.",
+          "options": [
+            "Wo?",
+            "Wohin?",
+            "Woher?"
+          ],
+          "answer": 1,
+          "why": "bringen takes a direction.",
+          "hint": "Wohin?"
+        },
+        {
+          "kind": "mc",
+          "q": "liegen answers…",
+          "qEn": "No movement.",
+          "options": [
+            "Wohin?",
+            "Woher?",
+            "Wo?"
+          ],
+          "answer": 2,
+          "why": "liegen takes a place.",
+          "hint": "Wo?"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Im OP oder in den OP?",
+      "redemittel": [
+        {
+          "de": "Wir bringen Sie in den OP.",
+          "en": "We are taking you into theatre."
+        },
+        {
+          "de": "Sie sind im OP.",
+          "en": "You are in theatre."
+        },
+        {
+          "de": "Legen Sie sich bitte auf die Liege.",
+          "en": "Please lie down on the couch."
+        },
+        {
+          "de": "Die Akte liegt auf dem Tisch.",
+          "en": "The file is on the table."
+        }
+      ]
+    }
+  ]
+}

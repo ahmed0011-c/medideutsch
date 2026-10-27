@@ -1,0 +1,1823 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "sind": {
+      "de": "sein → sind",
+      "pos": "verb",
+      "en": "are"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in"
+    },
+    "neben": {
+      "de": "neben",
+      "pos": "preposition",
+      "en": "next to"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in + dem"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "contraction",
+      "en": "von + dem"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "an + dem"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "article": "der",
+      "plural": "die Tische",
+      "emoji": "🪑"
+    },
+    "anmeldung": {
+      "de": "Anmeldung",
+      "pos": "noun",
+      "en": "reception",
+      "article": "die",
+      "plural": "die Anmeldungen",
+      "emoji": "🗂️"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "article": "der",
+      "plural": "die Monitore",
+      "emoji": "📟"
+    },
+    "schmerzen": {
+      "de": "Schmerzen",
+      "pos": "noun",
+      "en": "pain",
+      "article": "die",
+      "plural": "die Schmerzen",
+      "emoji": "🤕"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "blut": {
+      "de": "Blut",
+      "pos": "noun",
+      "en": "blood",
+      "article": "das",
+      "plural": "Blut",
+      "emoji": "🩸"
+    },
+    "impfpass": {
+      "de": "Impfpass",
+      "pos": "noun",
+      "en": "vaccination card",
+      "article": "der",
+      "plural": "die Impfpässe",
+      "emoji": "📘"
+    },
+    "an": {
+      "de": "an",
+      "pos": "particle",
+      "en": "on (with sein)"
+    },
+    "weg": {
+      "de": "weg",
+      "pos": "particle",
+      "en": "gone (with sein)"
+    },
+    "ab": {
+      "de": "ab",
+      "pos": "particle",
+      "en": "off; away (separable)"
+    },
+    "dabei": {
+      "de": "dabei",
+      "pos": "adverb",
+      "en": "with one, on one's person"
+    },
+    "stehen": {
+      "de": "stehen",
+      "pos": "verb",
+      "en": "to stand"
+    },
+    "sitzen": {
+      "de": "sitzen",
+      "pos": "verb",
+      "en": "to sit"
+    },
+    "bleiben": {
+      "de": "bleiben",
+      "pos": "verb",
+      "en": "to stay"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "misst": {
+      "de": "messen → misst",
+      "pos": "verb",
+      "en": "measures"
+    },
+    "nimmt": {
+      "de": "nehmen → nimmt",
+      "pos": "verb",
+      "en": "takes"
+    },
+    "möchte": {
+      "de": "möchten → möchte",
+      "pos": "verb",
+      "en": "would like"
+    },
+    "kennenlernen": {
+      "de": "kennenlernen",
+      "pos": "verb",
+      "en": "to get to know"
+    }
+  },
+  "id": "a1-47-zusammengesetzte-verben",
+  "level": "A1",
+  "unit": "Kapitel 47",
+  "chapter": 47,
+  "chapters": [
+    47
+  ],
+  "title": "Ich bin dann mal weg",
+  "subtitle": "Compound verbs: one word or two, and where the second part goes",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "Some verbs are one word in the infinitive and split in the sentence: kennenlernen → ich lerne … kennen, abnehmen → sie nimmt … ab.",
+        "Some stay two words: spazieren gehen, stehen bleiben, sitzen bleiben, Fieber messen.",
+        "Blut abnehmen draws blood. Er nimmt ab means he is losing weight. Blut is the object and stays in the middle.",
+        "an, aus, auf, zu, da, weg and dabei sit at the end with sein or haben: Der Monitor ist an. Die Schmerzen sind weg."
+      ],
+      "vocab": [
+        {
+          "de": "Monitor",
+          "article": "der",
+          "plural": "die Monitore",
+          "en": "monitor",
+          "emoji": "📟",
+          "glossaryKey": "monitor"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "emoji": "🤒",
+          "glossaryKey": "fieber"
+        },
+        {
+          "de": "Blut",
+          "article": "das",
+          "plural": "Blut",
+          "en": "blood",
+          "emoji": "🩸",
+          "glossaryKey": "blut"
+        },
+        {
+          "de": "Impfpass",
+          "article": "der",
+          "plural": "die Impfpässe",
+          "en": "vaccination card",
+          "emoji": "📘",
+          "glossaryKey": "impfpass"
+        },
+        {
+          "de": "Schmerzen",
+          "article": "die",
+          "plural": "die Schmerzen",
+          "en": "pain",
+          "emoji": "🤕",
+          "glossaryKey": "schmerzen"
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        }
+      ],
+      "text": {
+        "title": "Der Monitor ist an",
+        "de": "Der Monitor ist an. Die Schmerzen sind weg. Der Patient bleibt stehen. Bitte bleiben Sie sitzen. Die Pflegekraft misst Fieber. Sie nimmt Blut ab. Der Patient möchte den Arzt kennenlernen. Haben Sie den Impfpass dabei?",
+        "en": "The monitor is on. The pain is gone. The patient stops. Please remain seated. The nurse takes a temperature. She draws blood. The patient would like to get to know the doctor. Do you have the vaccination card with you?"
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Ein Wort oder zwei",
+      "practice": "choose",
+      "heroTitle": "The second part goes to the end",
+      "heroImage": "monitor",
+      "story": [
+        "<b>kennenlernen</b> and <b>abnehmen</b> are one word in the infinitive. In the sentence the verb is in position 2 and the little part goes to the end: ich lerne den Patienten <b>kennen</b>, sie nimmt Blut <b>ab</b>.",
+        "<b>spazieren gehen</b>, <b>stehen bleiben</b> and <b>sitzen bleiben</b> are written as two words. <b>Fieber messen</b> is a noun plus a verb, also two words: sie misst Fieber.",
+        "With <b>sein</b> and <b>haben</b> the short word stays separate and goes to the end: Der Monitor ist <b>an</b>. Die Schmerzen sind <b>weg</b>. Haben Sie den Impfpass <b>dabei</b>?"
+      ],
+      "questionRule": "Position 2 is the finite verb. The second part — kennen, ab, stehen, spazieren, an, weg, dabei — stands at the <b>end</b>. With a modal, the whole infinitive stays together at the end: Sie möchte Blut abnehmen.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "kennenlernen",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Ich",
+              "r": "subj"
+            },
+            {
+              "t": "lerne",
+              "r": "verb"
+            },
+            {
+              "t": "den",
+              "r": "rest"
+            },
+            {
+              "t": "Patienten",
+              "r": "rest"
+            },
+            {
+              "t": "kennen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "One word in the infinitive.",
+          "enAfter": "Ich lerne den Patienten kennen.",
+          "callLabel": "Show kennenlernen"
+        },
+        {
+          "before": [
+            {
+              "t": "Blut",
+              "r": "subj"
+            },
+            {
+              "t": "abnehmen",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "nimmt",
+              "r": "verb"
+            },
+            {
+              "t": "Blut",
+              "r": "rest"
+            },
+            {
+              "t": "ab",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Noun in the middle, ab at the end.",
+          "enAfter": "Sie nimmt Blut ab.",
+          "callLabel": "Show abnehmen"
+        },
+        {
+          "before": [
+            {
+              "t": "an",
+              "r": "subj"
+            },
+            {
+              "t": "sein",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Der",
+              "r": "subj"
+            },
+            {
+              "t": "Monitor",
+              "r": "verb"
+            },
+            {
+              "t": "ist",
+              "r": "rest"
+            },
+            {
+              "t": "an",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "sein + a short word, always two words.",
+          "enAfter": "Der Monitor ist an.",
+          "callLabel": "Show an sein"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Ein Wort oder zwei",
+          "caption": "The infinitive on the left, the sentence on the right. The second part is at the end.",
+          "columns": [
+            "Infinitiv",
+            "Schreibung",
+            "Satz"
+          ],
+          "rows": [
+            {
+              "label": "kennenlernen",
+              "cells": [
+                "kennenlernen",
+                "ein Wort",
+                "Ich lerne den Patienten kennen."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "abnehmen",
+              "cells": [
+                "Blut abnehmen",
+                "Nomen + Verb",
+                "Sie nimmt Blut ab."
+              ]
+            },
+            {
+              "label": "messen",
+              "cells": [
+                "Fieber messen",
+                "Nomen + Verb",
+                "Sie misst Fieber."
+              ]
+            },
+            {
+              "label": "stehen",
+              "cells": [
+                "stehen bleiben",
+                "zwei Wörter",
+                "Er bleibt stehen."
+              ]
+            },
+            {
+              "label": "sitzen",
+              "cells": [
+                "sitzen bleiben",
+                "zwei Wörter",
+                "Bleiben Sie sitzen."
+              ]
+            },
+            {
+              "label": "spazieren",
+              "cells": [
+                "spazieren gehen",
+                "zwei Wörter",
+                "Er geht spazieren."
+              ]
+            },
+            {
+              "label": "an",
+              "cells": [
+                "an sein",
+                "zwei Wörter",
+                "Der Monitor ist an."
+              ]
+            },
+            {
+              "label": "weg",
+              "cells": [
+                "weg sein",
+                "zwei Wörter",
+                "Die Schmerzen sind weg."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "an, aus, auf, zu, da, weg",
+          "caption": "Spoken ward German. The short word is not glued to sein or haben.",
+          "columns": [
+            "Kurz",
+            "Bedeutung",
+            "Satz"
+          ],
+          "rows": [
+            {
+              "label": "an sein",
+              "cells": [
+                "an",
+                "on",
+                "Der Monitor ist an."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "aus sein",
+              "cells": [
+                "aus",
+                "off",
+                "Der Monitor ist aus."
+              ]
+            },
+            {
+              "label": "auf sein",
+              "cells": [
+                "auf",
+                "open",
+                "Die Tür ist auf."
+              ]
+            },
+            {
+              "label": "zu sein",
+              "cells": [
+                "zu",
+                "shut",
+                "Die Tür ist zu."
+              ]
+            },
+            {
+              "label": "da sein",
+              "cells": [
+                "da",
+                "here",
+                "Der Arzt ist da."
+              ]
+            },
+            {
+              "label": "weg sein",
+              "cells": [
+                "weg",
+                "gone",
+                "Die Schmerzen sind weg."
+              ]
+            },
+            {
+              "label": "dabeihaben",
+              "cells": [
+                "dabei",
+                "with one",
+                "Haben Sie den Impfpass dabei?"
+              ]
+            },
+            {
+              "label": "los sein",
+              "cells": [
+                "los",
+                "going on",
+                "Was ist los?"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Position and spelling",
+        "items": [
+          {
+            "de": "Ich lerne den Patienten kennen.",
+            "en": "kennenlernen splits.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich kennenlerne den Patienten.",
+            "en": "The finite verb cannot swallow kennen.",
+            "tone": "stop"
+          },
+          {
+            "de": "Sie nimmt Blut ab.",
+            "en": "Draws blood. Blut stays in the middle.",
+            "tone": "ok"
+          },
+          {
+            "de": "Sie abnimmt Blut.",
+            "en": "ab takes the end, not the front.",
+            "tone": "stop"
+          },
+          {
+            "de": "Er nimmt ab.",
+            "en": "No Blut: this means he is losing weight.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er bleibt stehen.",
+            "en": "stehen bleiben splits.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er stehenbleibt hier.",
+            "en": "The finite verb is bleibt, and stehen goes to the end.",
+            "tone": "stop"
+          },
+          {
+            "de": "Der Monitor ist an.",
+            "en": "an sein stays two words.",
+            "tone": "ok"
+          },
+          {
+            "de": "Der Monitor ist ansein.",
+            "en": "Do not glue an to sein.",
+            "tone": "stop"
+          },
+          {
+            "de": "Er geht spazieren.",
+            "en": "spazieren gehen stays two words.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er spazierengeht.",
+            "en": "spazieren does not attach to geht.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Finite verb in position 2. The second part at the end. With möchte, the infinitive stays whole: Sie möchte Blut abnehmen."
+      },
+      "tips": [
+        {
+          "title": "One word, two places",
+          "emoji": "✂️",
+          "mnemonic": "kennenlernen · abnehmen · mitkommen",
+          "body": "If the infinitive is one word, the sentence still splits it. Ich lerne kennen. Sie nimmt ab. Er kommt mit.",
+          "examples": [
+            {
+              "de": "Ich lerne den Patienten kennen.",
+              "en": "get to know"
+            },
+            {
+              "de": "Sie nimmt Blut ab.",
+              "en": "draw blood"
+            }
+          ]
+        },
+        {
+          "title": "Two words stay two words",
+          "emoji": "🚶",
+          "mnemonic": "spazieren gehen · stehen bleiben · Fieber messen · an sein",
+          "body": "A verb plus gehen or bleiben, a noun plus a verb, and a short word plus sein are written apart. On the ward, sitzen bleiben means remain seated.",
+          "examples": [
+            {
+              "de": "Er geht spazieren.",
+              "en": "go for a walk"
+            },
+            {
+              "de": "Die Schmerzen sind weg.",
+              "en": "the pain is gone"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Where does the second part go?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "kennenlernen in a main clause.",
+          "qEn": "Split it.",
+          "options": [
+            "Ich lerne den Patienten kennen.",
+            "Ich kennenlerne den Patienten.",
+            "Ich lerne kennen den Patienten."
+          ],
+          "answer": 0,
+          "why": "kennen goes to the end.",
+          "hint": "End position."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse draws blood.",
+          "qEn": "Blut is the object.",
+          "options": [
+            "Sie nimmt ab.",
+            "Sie nimmt Blut ab.",
+            "Sie abnimmt Blut."
+          ],
+          "answer": 1,
+          "why": "Blut stays in the middle. ab goes to the end.",
+          "hint": "Blood, not weight."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient stops and stands.",
+          "qEn": "stehen bleiben.",
+          "options": [
+            "Er stehenbleibt hier.",
+            "Er bleibt stehenbleiben.",
+            "Er bleibt stehen."
+          ],
+          "answer": 2,
+          "why": "bleibt in position 2, stehen at the end.",
+          "hint": "Two words."
+        },
+        {
+          "kind": "mc",
+          "q": "The monitor is switched on.",
+          "qEn": "an sein.",
+          "options": [
+            "Der Monitor ist an.",
+            "Der Monitor ist ansein.",
+            "Der Monitor an ist."
+          ],
+          "answer": 0,
+          "why": "an is a separate word at the end.",
+          "hint": "Two words."
+        }
+      ]
+    },
+    {
+      "id": "gap-end",
+      "label": "Lücken",
+      "title": "The second part",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Put the short part at the end. Each chip is used once.",
+      "chips": [
+        {
+          "w": "an",
+          "hint": "On or off?"
+        },
+        {
+          "w": "weg",
+          "hint": "Gone."
+        },
+        {
+          "w": "stehen",
+          "hint": "Two words."
+        },
+        {
+          "w": "sitzen",
+          "hint": "Two words."
+        },
+        {
+          "w": "ab",
+          "hint": "Blood."
+        },
+        {
+          "w": "dabei",
+          "hint": "With you?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Monitor ist",
+          "after": ".",
+          "answer": "an",
+          "en": "the monitor is on",
+          "why": "an sein: an at the end.",
+          "tip": "an",
+          "hint": "On or off?"
+        },
+        {
+          "before": "Die Schmerzen sind",
+          "after": ".",
+          "answer": "weg",
+          "en": "the pain is gone",
+          "why": "weg sein: weg at the end.",
+          "tip": "weg",
+          "hint": "Gone."
+        },
+        {
+          "before": "Der Patient bleibt",
+          "after": ".",
+          "answer": "stehen",
+          "en": "he stops",
+          "why": "stehen bleiben splits.",
+          "tip": "stehen",
+          "hint": "Two words."
+        },
+        {
+          "before": "Bitte bleiben Sie",
+          "after": ".",
+          "answer": "sitzen",
+          "en": "remain seated",
+          "why": "sitzen bleiben splits.",
+          "tip": "sitzen",
+          "hint": "Two words."
+        },
+        {
+          "before": "Sie nimmt Blut",
+          "after": ".",
+          "answer": "ab",
+          "en": "she draws blood",
+          "why": "abnehmen: ab at the end.",
+          "tip": "ab",
+          "hint": "Blood."
+        },
+        {
+          "before": "Haben Sie den Impfpass",
+          "after": "?",
+          "answer": "dabei",
+          "en": "with you",
+          "why": "dabeihaben: dabei at the end.",
+          "tip": "dabei",
+          "hint": "With you?"
+        }
+      ]
+    },
+    {
+      "id": "match-verbs",
+      "label": "Match",
+      "title": "One word or two?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the form that fits the situation.",
+      "items": [
+        {
+          "prompt": "Which infinitive is written as one word?",
+          "options": [
+            {
+              "emoji": "🧩",
+              "label": "kennenlernen",
+              "caption": "one word, then it splits"
+            },
+            {
+              "emoji": "🚶",
+              "label": "spazieren gehen",
+              "caption": "always two words"
+            },
+            {
+              "emoji": "🤒",
+              "label": "Fieber messen",
+              "caption": "noun + verb"
+            }
+          ],
+          "answer": 0,
+          "why": "kennenlernen is one word in the infinitive.",
+          "hint": "One word."
+        },
+        {
+          "prompt": "The nurse draws blood.",
+          "options": [
+            {
+              "emoji": "🩸",
+              "label": "Sie nimmt Blut ab.",
+              "caption": "Blut in the middle"
+            },
+            {
+              "emoji": "⚖️",
+              "label": "Sie nimmt ab.",
+              "caption": "losing weight"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie abnimmt Blut.",
+              "caption": "wrong order"
+            }
+          ],
+          "answer": 0,
+          "why": "Blut abnehmen is the blood draw.",
+          "hint": "Blut in the middle."
+        },
+        {
+          "prompt": "He goes for a walk.",
+          "options": [
+            {
+              "emoji": "🚶",
+              "label": "Er geht spazieren.",
+              "caption": "two words"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er spazierengeht.",
+              "caption": "not one word"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er geht spazierengehen.",
+              "caption": "the infinitive does not stay whole here"
+            }
+          ],
+          "answer": 0,
+          "why": "spazieren gehen splits like stehen bleiben.",
+          "hint": "geht … spazieren."
+        },
+        {
+          "prompt": "The cough of pain is over.",
+          "options": [
+            {
+              "emoji": "✅",
+              "label": "Die Schmerzen sind weg.",
+              "caption": "weg at the end"
+            },
+            {
+              "emoji": "❌",
+              "label": "Die Schmerzen sind wegsein.",
+              "caption": "do not glue it"
+            },
+            {
+              "emoji": "❌",
+              "label": "Die Schmerzen weg sind.",
+              "caption": "verb is not at the end"
+            }
+          ],
+          "answer": 0,
+          "why": "weg sein stays two words.",
+          "hint": "sind … weg."
+        }
+      ]
+    },
+    {
+      "id": "picture-verbs",
+      "label": "Picture",
+      "title": "Picture the verb",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the picture to the ward word in the compound verb.",
+      "items": [
+        {
+          "id": "monitor",
+          "de": "Monitor",
+          "article": "der",
+          "plural": "die Monitore",
+          "en": "monitor — der Monitor ist an",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          },
+          "hint": "an sein"
+        },
+        {
+          "id": "fieber",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever — Fieber messen",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "noun + messen"
+        },
+        {
+          "id": "blut",
+          "de": "Blut",
+          "article": "das",
+          "plural": "Blut",
+          "en": "blood — Blut abnehmen",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          },
+          "hint": "nimmt Blut ab"
+        },
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed — bleiben Sie sitzen",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "sitzen bleiben"
+        }
+      ]
+    },
+    {
+      "id": "build-verbs",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Finite verb in position 2. Second part at the end.",
+      "items": [
+        {
+          "tiles": [
+            "Der",
+            "Monitor",
+            "ist",
+            "an"
+          ],
+          "answers": [
+            "Der Monitor ist an"
+          ],
+          "punct": ".",
+          "modal": "Monitor",
+          "inf": "an",
+          "question": false,
+          "en": "The monitor is on.",
+          "hint": "an at the end.",
+          "feedback": {
+            "fallback": "an at the end."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Schmerzen",
+            "sind",
+            "weg"
+          ],
+          "answers": [
+            "Die Schmerzen sind weg"
+          ],
+          "punct": ".",
+          "modal": "Schmerzen",
+          "inf": "weg",
+          "question": false,
+          "en": "The pain is gone.",
+          "hint": "weg at the end.",
+          "feedback": {
+            "fallback": "weg at the end."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "bleibt",
+            "stehen"
+          ],
+          "answers": [
+            "Er bleibt stehen"
+          ],
+          "punct": ".",
+          "modal": "bleibt",
+          "inf": "stehen",
+          "question": false,
+          "en": "He stops.",
+          "hint": "stehen at the end.",
+          "feedback": {
+            "fallback": "stehen at the end."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "nimmt",
+            "Blut",
+            "ab"
+          ],
+          "answers": [
+            "Sie nimmt Blut ab"
+          ],
+          "punct": ".",
+          "modal": "nimmt",
+          "inf": "ab",
+          "question": false,
+          "en": "She draws blood.",
+          "hint": "ab at the end.",
+          "feedback": {
+            "fallback": "ab at the end."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-verbs",
+      "label": "Umformen",
+      "title": "Put the verb into the sentence",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The infinitive is given in the English hint. Write only the missing part.",
+      "chips": [
+        {
+          "w": "lerne",
+          "hint": "Split it."
+        },
+        {
+          "w": "ab",
+          "hint": "End."
+        },
+        {
+          "w": "stehen",
+          "hint": "Two words."
+        },
+        {
+          "w": "spazieren",
+          "hint": "Two words."
+        },
+        {
+          "w": "an",
+          "hint": "Two words."
+        },
+        {
+          "w": "weg",
+          "hint": "Two words."
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich",
+          "after": "den Patienten kennen.",
+          "answer": "lerne",
+          "en": "kennenlernen",
+          "why": "lerne in position 2, kennen at the end.",
+          "tip": "kennen",
+          "hint": "Split it."
+        },
+        {
+          "before": "Sie nimmt Blut",
+          "after": ".",
+          "answer": "ab",
+          "en": "Blut abnehmen",
+          "why": "ab at the end.",
+          "tip": "ab",
+          "hint": "End."
+        },
+        {
+          "before": "Er bleibt",
+          "after": ".",
+          "answer": "stehen",
+          "en": "stehen bleiben",
+          "why": "stehen at the end.",
+          "tip": "stehen",
+          "hint": "Two words."
+        },
+        {
+          "before": "Er geht",
+          "after": ".",
+          "answer": "spazieren",
+          "en": "spazieren gehen",
+          "why": "spazieren at the end.",
+          "tip": "spazieren",
+          "hint": "Two words."
+        },
+        {
+          "before": "Der Monitor ist",
+          "after": ".",
+          "answer": "an",
+          "en": "an sein",
+          "why": "an at the end.",
+          "tip": "an",
+          "hint": "Two words."
+        },
+        {
+          "before": "Die Schmerzen sind",
+          "after": ".",
+          "answer": "weg",
+          "en": "weg sein",
+          "why": "weg at the end.",
+          "tip": "weg",
+          "hint": "Two words."
+        }
+      ]
+    },
+    {
+      "id": "error-verbs",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich kennenlerne den Patienten."
+          ],
+          "options": [
+            "Ich lerne den Patienten kennen.",
+            "Ich kennen den Patienten lerne.",
+            "Ich lerne kennen den Patienten."
+          ],
+          "answer": 0,
+          "reveal": "kennenlernen splits: lerne … kennen.",
+          "hint": "End position."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie abnimmt Blut."
+          ],
+          "options": [
+            "Sie nimmt Blut ab.",
+            "Sie nimmt ab Blut.",
+            "Sie Blut abnimmt."
+          ],
+          "answer": 0,
+          "reveal": "nimmt in position 2, Blut in the middle, ab at the end.",
+          "hint": "Draw blood."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er stehenbleibt hier."
+          ],
+          "options": [
+            "Er bleibt stehen.",
+            "Er bleibt stehenbleiben.",
+            "Er stehen bleibt hier."
+          ],
+          "answer": 0,
+          "reveal": "bleibt … stehen.",
+          "hint": "Two places."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Monitor ist ansein."
+          ],
+          "options": [
+            "Der Monitor ist an.",
+            "Der Monitor an ist.",
+            "Der Monitor ist an sein."
+          ],
+          "answer": 0,
+          "reveal": "an sein stays two words.",
+          "hint": "Do not glue."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-verbs",
+      "label": "Dialog",
+      "title": "On the ward",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "an, aus, da, weg, dabei, los. Each chip is used once.",
+      "chips": [
+        {
+          "w": "an",
+          "hint": "On?"
+        },
+        {
+          "w": "aus",
+          "hint": "Off."
+        },
+        {
+          "w": "weg",
+          "hint": "Gone?"
+        },
+        {
+          "w": "da",
+          "hint": "Here."
+        },
+        {
+          "w": "dabei",
+          "hint": "With you?"
+        },
+        {
+          "w": "los",
+          "hint": "What is happening?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ist der Monitor",
+          "after": "?",
+          "answer": "an",
+          "en": "is it on",
+          "why": "an = on.",
+          "tip": "an",
+          "hint": "On?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Nein, der Monitor ist",
+          "after": ".",
+          "answer": "aus",
+          "en": "it is off",
+          "why": "aus = off.",
+          "tip": "aus",
+          "hint": "Off.",
+          "who": "Patient"
+        },
+        {
+          "before": "Sind die Schmerzen",
+          "after": "?",
+          "answer": "weg",
+          "en": "is the pain gone",
+          "why": "weg = gone.",
+          "tip": "weg",
+          "hint": "Gone?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ja, und der Arzt ist",
+          "after": ".",
+          "answer": "da",
+          "en": "the doctor is here",
+          "why": "da = here.",
+          "tip": "da",
+          "hint": "Here.",
+          "who": "Patient"
+        },
+        {
+          "before": "Haben Sie den Impfpass",
+          "after": "?",
+          "answer": "dabei",
+          "en": "with you",
+          "why": "dabei at the end.",
+          "tip": "dabei",
+          "hint": "With you?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Was ist",
+          "after": "?",
+          "answer": "los",
+          "en": "what is going on",
+          "why": "los sein.",
+          "tip": "los",
+          "hint": "What is happening?",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "gap-infinitives",
+      "label": "Lücken",
+      "title": "The infinitive at the end",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "With möchte the infinitive stays together.",
+      "chips": [
+        {
+          "w": "kennenlernen",
+          "hint": "One word."
+        },
+        {
+          "w": "spazieren gehen",
+          "hint": "Two words."
+        },
+        {
+          "w": "Blut abnehmen",
+          "hint": "Not weight loss."
+        },
+        {
+          "w": "Fieber messen",
+          "hint": "Two words."
+        },
+        {
+          "w": "stehen bleiben",
+          "hint": "Two words."
+        },
+        {
+          "w": "sitzen bleiben",
+          "hint": "Two words."
+        },
+        {
+          "w": "mitkommen",
+          "hint": "One word."
+        },
+        {
+          "w": "aufstehen",
+          "hint": "One word."
+        }
+      ],
+      "items": [
+        {
+          "before": "Sie möchte den Patienten",
+          "after": ".",
+          "answer": "kennenlernen",
+          "en": "get to know",
+          "why": "Modal: whole infinitive at the end.",
+          "tip": "ein Wort",
+          "hint": "One word."
+        },
+        {
+          "before": "Spaziergang: Er möchte",
+          "after": ".",
+          "answer": "spazieren gehen",
+          "en": "go for a walk",
+          "why": "Two-word infinitive at the end.",
+          "tip": "zwei Wörter",
+          "hint": "Two words."
+        },
+        {
+          "before": "Blut: Sie möchte",
+          "after": ".",
+          "answer": "Blut abnehmen",
+          "en": "draw blood",
+          "why": "Noun + verb, together after möchte.",
+          "tip": "Blut",
+          "hint": "Not weight loss."
+        },
+        {
+          "before": "Fieber: Sie möchte",
+          "after": ".",
+          "answer": "Fieber messen",
+          "en": "take a temperature",
+          "why": "Noun + verb.",
+          "tip": "Fieber",
+          "hint": "Two words."
+        },
+        {
+          "before": "Nicht weitergehen: Bitte",
+          "after": ".",
+          "answer": "stehen bleiben",
+          "en": "please stop",
+          "why": "Two-word infinitive.",
+          "tip": "stehen",
+          "hint": "Two words."
+        },
+        {
+          "before": "Sitzen, nicht aufstehen: Bitte",
+          "after": ".",
+          "answer": "sitzen bleiben",
+          "en": "please stay seated",
+          "why": "On the ward: remain seated.",
+          "tip": "sitzen",
+          "hint": "Two words."
+        },
+        {
+          "before": "Mit der Pflegekraft: Er möchte",
+          "after": ".",
+          "answer": "mitkommen",
+          "en": "come along",
+          "why": "mitkommen is one word after möchte.",
+          "tip": "mit",
+          "hint": "One word."
+        },
+        {
+          "before": "Aus dem Bett: Er möchte",
+          "after": ".",
+          "answer": "aufstehen",
+          "en": "get up",
+          "why": "aufstehen is one word after möchte.",
+          "tip": "auf",
+          "hint": "One word."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Der Monitor ist an",
+        "paragraphs": [
+          "Der Monitor ist an. Die Schmerzen sind weg. Der Patient bleibt stehen. Bitte bleiben Sie sitzen. Die Pflegekraft misst Fieber. Sie nimmt Blut ab. Der Patient möchte den Arzt kennenlernen. Haben Sie den Impfpass dabei?"
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Was ist an?",
+          "qEn": "The device.",
+          "options": [
+            "der Monitor",
+            "der Impfpass",
+            "das Fieber"
+          ],
+          "answer": 0,
+          "why": "an sein: the monitor is on.",
+          "hint": "an."
+        },
+        {
+          "kind": "mc",
+          "q": "Was ist weg?",
+          "qEn": "The symptom.",
+          "options": [
+            "das Blut",
+            "die Schmerzen",
+            "der Arzt"
+          ],
+          "answer": 1,
+          "why": "weg sein.",
+          "hint": "weg."
+        },
+        {
+          "kind": "mc",
+          "q": "Was nimmt die Pflegekraft ab?",
+          "qEn": "The object in the middle.",
+          "options": [
+            "Fieber",
+            "den Monitor",
+            "Blut"
+          ],
+          "answer": 2,
+          "why": "nimmt Blut ab.",
+          "hint": "Blut."
+        },
+        {
+          "kind": "mc",
+          "q": "Wen möchte der Patient kennenlernen?",
+          "qEn": "The person.",
+          "options": [
+            "den Arzt",
+            "den Monitor",
+            "den Impfpass"
+          ],
+          "answer": 0,
+          "why": "kennenlernen splits only when there is no modal. Here the infinitive stays whole.",
+          "hint": "The doctor."
+        }
+      ]
+    },
+    {
+      "id": "writing-verbs",
+      "label": "Writing",
+      "title": "Write the note",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four or five short sentences about the ward.",
+      "prompt": "The monitor is on, the pain is gone, the nurse draws blood, the patient stops, and he would like to get to know the doctor.",
+      "bullets": [
+        "an at the end",
+        "weg at the end",
+        "Blut abnehmen",
+        "kennenlernen"
+      ],
+      "model": "Der Monitor ist an. Die Schmerzen sind weg. Sie nimmt Blut ab. Der Patient bleibt stehen. Der Patient möchte den Arzt kennenlernen.",
+      "modelEn": "The monitor is on. The pain is gone. She draws blood. The patient stops. The patient would like to get to know the doctor.",
+      "hint": "Finite verb in position 2. The second part at the end. After möchte, keep the infinitive together.",
+      "checklist": [
+        {
+          "id": "an",
+          "label": "The monitor is on",
+          "keywords": [
+            "ist an"
+          ]
+        },
+        {
+          "id": "weg",
+          "label": "The pain is gone",
+          "keywords": [
+            "sind weg"
+          ]
+        },
+        {
+          "id": "blut",
+          "label": "Draws blood",
+          "keywords": [
+            "Blut ab"
+          ]
+        },
+        {
+          "id": "kennen",
+          "label": "Gets to know",
+          "keywords": [
+            "kennenlernen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 47. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "kennenlernen in a main clause.",
+          "qEn": "Split.",
+          "options": [
+            "Ich lerne den Patienten kennen.",
+            "Ich kennenlerne den Patienten.",
+            "Ich lerne kennen den Patienten."
+          ],
+          "answer": 0,
+          "why": "kennen at the end.",
+          "hint": "Split."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse draws blood.",
+          "qEn": "Blut abnehmen.",
+          "options": [
+            "Sie abnimmt Blut.",
+            "Sie nimmt Blut ab.",
+            "Sie nimmt ab Blut."
+          ],
+          "answer": 1,
+          "why": "Blut in the middle.",
+          "hint": "ab at the end."
+        },
+        {
+          "kind": "mc",
+          "q": "He is losing weight. No blood.",
+          "qEn": "abnehmen alone.",
+          "options": [
+            "Er nimmt Blut ab.",
+            "Er abnimmt.",
+            "Er nimmt ab."
+          ],
+          "answer": 2,
+          "why": "Without Blut, abnehmen means lose weight.",
+          "hint": "No Blut."
+        },
+        {
+          "kind": "mc",
+          "q": "Fieber messen.",
+          "qEn": "Noun + verb.",
+          "options": [
+            "Sie misst Fieber.",
+            "Sie fiebermisst.",
+            "Sie misst Fiebermessen."
+          ],
+          "answer": 0,
+          "why": "messen is not glued to Fieber.",
+          "hint": "Two words."
+        },
+        {
+          "kind": "mc",
+          "q": "stehen bleiben.",
+          "qEn": "Two words.",
+          "options": [
+            "Er stehenbleibt im Flur.",
+            "Er bleibt stehen.",
+            "Er bleibt stehenbleiben."
+          ],
+          "answer": 1,
+          "why": "bleibt … stehen.",
+          "hint": "Split."
+        },
+        {
+          "kind": "mc",
+          "q": "spazieren gehen.",
+          "qEn": "Two words.",
+          "options": [
+            "Er spazierengeht.",
+            "Er geht spazierengehen.",
+            "Er geht spazieren."
+          ],
+          "answer": 2,
+          "why": "geht … spazieren.",
+          "hint": "Split."
+        },
+        {
+          "kind": "mc",
+          "q": "The monitor is on.",
+          "qEn": "an sein.",
+          "options": [
+            "Der Monitor ist an.",
+            "Der Monitor ist ansein.",
+            "Der Monitor an ist."
+          ],
+          "answer": 0,
+          "why": "an at the end.",
+          "hint": "Two words."
+        },
+        {
+          "kind": "mc",
+          "q": "The pain is gone.",
+          "qEn": "weg sein.",
+          "options": [
+            "Die Schmerzen sind wegsein.",
+            "Die Schmerzen sind weg.",
+            "Die Schmerzen weg sind."
+          ],
+          "answer": 1,
+          "why": "weg at the end.",
+          "hint": "Two words."
+        },
+        {
+          "kind": "mc",
+          "q": "The vaccination card is with him.",
+          "qEn": "dabeihaben.",
+          "options": [
+            "Haben Sie den Impfpass dabeihaben?",
+            "Haben Sie dabei den Impfpass haben?",
+            "Haben Sie den Impfpass dabei?"
+          ],
+          "answer": 2,
+          "why": "dabei at the end.",
+          "hint": "dabei."
+        },
+        {
+          "kind": "mc",
+          "q": "Remain seated.",
+          "qEn": "sitzen bleiben.",
+          "options": [
+            "Bleiben Sie sitzen.",
+            "Sitzen Sie bleiben.",
+            "Bleiben Sie sitzenbleiben."
+          ],
+          "answer": 0,
+          "why": "bleiben … sitzen.",
+          "hint": "Split."
+        },
+        {
+          "kind": "mc",
+          "q": "She would like to draw blood.",
+          "qEn": "Modal.",
+          "options": [
+            "Sie möchte ab Blut nehmen.",
+            "Sie möchte Blut abnehmen.",
+            "Sie abnehmen möchte Blut."
+          ],
+          "answer": 1,
+          "why": "After möchte the infinitive stays together.",
+          "hint": "Infinitive at the end."
+        },
+        {
+          "kind": "mc",
+          "q": "The monitor is off.",
+          "qEn": "aus sein.",
+          "options": [
+            "Der Monitor ist aussein.",
+            "Der Monitor aus ist.",
+            "Der Monitor ist aus."
+          ],
+          "answer": 2,
+          "why": "aus at the end, same pattern as an.",
+          "hint": "Two words."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Zweiter Teil ans Ende",
+      "redemittel": [
+        {
+          "de": "Der Monitor ist an.",
+          "en": "The monitor is on."
+        },
+        {
+          "de": "Die Schmerzen sind weg.",
+          "en": "The pain is gone."
+        },
+        {
+          "de": "Sie nimmt Blut ab.",
+          "en": "She draws blood."
+        },
+        {
+          "de": "Bitte bleiben Sie sitzen.",
+          "en": "Please remain seated."
+        },
+        {
+          "de": "Der Patient möchte den Arzt kennenlernen.",
+          "en": "The patient would like to get to know the doctor."
+        }
+      ]
+    }
+  ]
+}

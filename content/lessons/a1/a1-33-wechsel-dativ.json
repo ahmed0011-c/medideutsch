@@ -1,0 +1,1651 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine, or feminine dative)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "dative masculine or neuter"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "plural dative, or masculine accusative"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "emoji": "🛏️"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "article": "der",
+      "plural": "die Tische",
+      "emoji": "🪑"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "question",
+      "en": "where"
+    },
+    "im": {
+      "de": "im",
+      "pos": "preposition",
+      "en": "in the (in + dem)"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in"
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "at, on (vertical)"
+    },
+    "am": {
+      "de": "am",
+      "pos": "preposition",
+      "en": "at the (an + dem)"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on (horizontal)"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "in front of"
+    },
+    "hinter": {
+      "de": "hinter",
+      "pos": "preposition",
+      "en": "behind"
+    },
+    "über": {
+      "de": "über",
+      "pos": "preposition",
+      "en": "above"
+    },
+    "unter": {
+      "de": "unter",
+      "pos": "preposition",
+      "en": "under"
+    },
+    "neben": {
+      "de": "neben",
+      "pos": "preposition",
+      "en": "next to"
+    },
+    "zwischen": {
+      "de": "zwischen",
+      "pos": "preposition",
+      "en": "between"
+    },
+    "infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "IV drip",
+      "article": "die",
+      "plural": "die Infusionen",
+      "emoji": "💧"
+    },
+    "brille": {
+      "de": "Brille",
+      "pos": "noun",
+      "en": "glasses",
+      "article": "die",
+      "plural": "die Brillen",
+      "emoji": "👓"
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "article": "der",
+      "plural": "die Monitore",
+      "emoji": "📟"
+    },
+    "pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "article": "das",
+      "plural": "die Pflaster",
+      "emoji": "🩹"
+    },
+    "arm": {
+      "de": "Arm",
+      "pos": "noun",
+      "en": "arm",
+      "article": "der",
+      "plural": "die Arme",
+      "emoji": "💪"
+    },
+    "karte": {
+      "de": "Karte",
+      "pos": "noun",
+      "en": "card",
+      "article": "die",
+      "plural": "die Karten",
+      "emoji": "💳"
+    },
+    "tasche": {
+      "de": "Tasche",
+      "pos": "noun",
+      "en": "pocket, bag",
+      "article": "die",
+      "plural": "die Taschen",
+      "emoji": "👜"
+    }
+  },
+  "id": "a1-33-wechsel-dativ",
+  "level": "A1",
+  "unit": "Kapitel 33",
+  "chapter": 33,
+  "chapters": [
+    33
+  ],
+  "title": "Wo? Im Zimmer",
+  "subtitle": "Two-way prepositions with the dative",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "in, an, auf, vor, hinter, über, unter, neben and zwischen take the dative when you answer Wo? The person or thing stays there.",
+        "Masculine and neuter dative is dem: im Zimmer means in dem Zimmer, auf dem Tisch, neben dem Bett.",
+        "Feminine dative is der: in der Tasche. Plural dative is den: auf den Betten.",
+        "ins Zimmer answers Wohin? That direction is the next chapter. Here nothing moves into a new place."
+      ],
+      "vocab": [
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "chart",
+          "emoji": "📋",
+          "glossaryKey": "akte"
+        },
+        {
+          "de": "Infusion",
+          "article": "die",
+          "plural": "die Infusionen",
+          "en": "IV drip",
+          "emoji": "💧",
+          "glossaryKey": "infusion"
+        },
+        {
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "emoji": "🛏️",
+          "glossaryKey": "bett"
+        },
+        {
+          "de": "Brille",
+          "article": "die",
+          "plural": "die Brillen",
+          "en": "glasses",
+          "emoji": "👓",
+          "glossaryKey": "brille"
+        },
+        {
+          "de": "Tasche",
+          "article": "die",
+          "plural": "die Taschen",
+          "en": "pocket",
+          "emoji": "👜",
+          "glossaryKey": "tasche"
+        }
+      ],
+      "text": {
+        "title": "Wo liegt die Akte?",
+        "de": "Der Patient liegt im Zimmer. Die Akte liegt auf dem Tisch. Die Infusion steht neben dem Bett. Die Brille liegt unter dem Bett. Der Monitor steht hinter dem Bett. Die Pflegekraft steht vor dem Zimmer. Das Pflaster liegt auf dem Arm. Die Karte liegt in der Tasche.",
+        "en": "The patient is lying in the room. The chart is on the table. The drip stands next to the bed. The glasses are under the bed. The monitor stands behind the bed. The nurse stands in front of the room. The plaster is on the arm. The card is in the pocket."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Wo? plus Dativ",
+      "practice": "choose",
+      "heroTitle": "Nine prepositions, dative for a place",
+      "heroImage": "bed",
+      "story": [
+        "Ask <b>Wo?</b> and use the dative. The chart is already on the table. It does not move.",
+        "in + dem = <b>im</b>. an + dem = <b>am</b>. Feminine stays der: in <b>der</b> Tasche. Plural is den: auf <b>den</b> Betten.",
+        "<b>ins</b> Zimmer and <b>auf den</b> Tisch answer Wohin? Save those for the next chapter."
+      ],
+      "questionRule": "Wo? means the dative: dem, der or den. im and am are the contractions.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "in",
+              "r": "subj"
+            },
+            {
+              "t": "dem",
+              "r": "rest"
+            },
+            {
+              "t": "Zimmer",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "im",
+              "r": "subj"
+            },
+            {
+              "t": "Zimmer",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "in plus dem.",
+          "enAfter": "im Zimmer",
+          "callLabel": "Show im"
+        },
+        {
+          "before": [
+            {
+              "t": "auf",
+              "r": "subj"
+            },
+            {
+              "t": "dem",
+              "r": "rest"
+            },
+            {
+              "t": "Tisch",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "auf",
+              "r": "subj"
+            },
+            {
+              "t": "dem",
+              "r": "verb"
+            },
+            {
+              "t": "Tisch",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Masculine dative.",
+          "enAfter": "auf dem Tisch",
+          "callLabel": "Show auf"
+        },
+        {
+          "before": [
+            {
+              "t": "in",
+              "r": "subj"
+            },
+            {
+              "t": "der",
+              "r": "rest"
+            },
+            {
+              "t": "Tasche",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "in",
+              "r": "subj"
+            },
+            {
+              "t": "der",
+              "r": "verb"
+            },
+            {
+              "t": "Tasche",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Feminine dative.",
+          "enAfter": "in der Tasche",
+          "callLabel": "Show der"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Wo?",
+          "caption": "Location takes the dative. Nothing moves.",
+          "columns": [
+            "Präposition",
+            "Maskulin / Neutrum",
+            "Feminin / Plural"
+          ],
+          "rows": [
+            {
+              "label": "in",
+              "cells": [
+                "in",
+                "im Zimmer",
+                "in der Tasche"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "an",
+              "cells": [
+                "an",
+                "am Bett",
+                "an der Wand"
+              ]
+            },
+            {
+              "label": "auf",
+              "cells": [
+                "auf",
+                "auf dem Tisch",
+                "auf den Betten"
+              ]
+            },
+            {
+              "label": "vor",
+              "cells": [
+                "vor",
+                "vor dem Zimmer",
+                "vor der Tür"
+              ]
+            },
+            {
+              "label": "hinter",
+              "cells": [
+                "hinter",
+                "hinter dem Bett",
+                "hinter der Tür"
+              ]
+            },
+            {
+              "label": "neben",
+              "cells": [
+                "neben",
+                "neben dem Bett",
+                "neben der Tür"
+              ]
+            },
+            {
+              "label": "unter",
+              "cells": [
+                "unter",
+                "unter dem Bett",
+                "unter der Decke"
+              ]
+            },
+            {
+              "label": "über",
+              "cells": [
+                "über",
+                "über dem Bett",
+                "über der Tür"
+              ]
+            },
+            {
+              "label": "zwischen",
+              "cells": [
+                "zwischen",
+                "zwischen dem Bett und dem Tisch",
+                "zwischen den Betten"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Wo, not Wohin",
+        "items": [
+          {
+            "de": "Der Patient liegt im Zimmer.",
+            "en": "Where. Dative.",
+            "tone": "ok"
+          },
+          {
+            "de": "Der Patient liegt ins Zimmer.",
+            "en": "ins is direction. The next chapter.",
+            "tone": "stop"
+          },
+          {
+            "de": "Die Akte liegt auf dem Tisch.",
+            "en": "Where. dem.",
+            "tone": "ok"
+          },
+          {
+            "de": "Die Akte liegt auf den Tisch.",
+            "en": "den would be direction here.",
+            "tone": "stop"
+          },
+          {
+            "de": "Die Karte liegt in der Tasche.",
+            "en": "Feminine dative is der.",
+            "tone": "ok"
+          },
+          {
+            "de": "Die Decke liegt auf den Betten.",
+            "en": "Plural dative is den.",
+            "tone": "ok"
+          }
+        ],
+        "tip": "Wo? stays. im and am hide dem. Feminine dative is der. Plural dative is den."
+      },
+      "tips": [
+        {
+          "title": "Wo bleibt",
+          "emoji": "📍",
+          "mnemonic": "Wo? dem / der / den",
+          "body": "If the person or the thing is already there, do not use ins or auf den. Use im, am, auf dem, in der or auf den only for a plural.",
+          "examples": [
+            {
+              "de": "Die Akte liegt auf dem Tisch.",
+              "en": "where"
+            },
+            {
+              "de": "Die Karte liegt in der Tasche.",
+              "en": "feminine dative"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which dative?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The patient is already in the room. Where?",
+          "qEn": "Wo.",
+          "options": [
+            "im Zimmer",
+            "ins Zimmer",
+            "in der Zimmer"
+          ],
+          "answer": 0,
+          "why": "in plus dem contracts to im.",
+          "hint": "im."
+        },
+        {
+          "kind": "mc",
+          "q": "The chart is already on the table. Where?",
+          "qEn": "Wo.",
+          "options": [
+            "auf den Tisch",
+            "auf dem Tisch",
+            "auf der Tisch"
+          ],
+          "answer": 1,
+          "why": "Tisch is masculine, so dem.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The card is already in the pocket. Where?",
+          "qEn": "Wo.",
+          "options": [
+            "in dem Tasche",
+            "in die Tasche",
+            "in der Tasche"
+          ],
+          "answer": 2,
+          "why": "Tasche is feminine, so der.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "The blanket is already on the beds. Where?",
+          "qEn": "Wo.",
+          "options": [
+            "auf den Betten",
+            "auf die Betten",
+            "auf dem Betten"
+          ],
+          "answer": 0,
+          "why": "Plural dative is den.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "gap-wo",
+      "label": "Lücken",
+      "title": "The place",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip fits only one sentence. The thing is already there.",
+      "chips": [
+        {
+          "w": "im",
+          "hint": "im."
+        },
+        {
+          "w": "auf",
+          "hint": "auf."
+        },
+        {
+          "w": "neben",
+          "hint": "neben."
+        },
+        {
+          "w": "unter",
+          "hint": "unter."
+        },
+        {
+          "w": "hinter",
+          "hint": "hinter."
+        },
+        {
+          "w": "vor",
+          "hint": "vor."
+        },
+        {
+          "w": "Arm",
+          "hint": "Arm."
+        },
+        {
+          "w": "Tasche",
+          "hint": "Tasche."
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Patient ist schon drin. Er liegt",
+          "after": "Zimmer.",
+          "answer": "im",
+          "en": "in the room",
+          "why": "im.",
+          "tip": "im",
+          "hint": "im."
+        },
+        {
+          "before": "Die Akte ist schon oben. Sie liegt",
+          "after": "dem Tisch.",
+          "answer": "auf",
+          "en": "on",
+          "why": "auf.",
+          "tip": "auf",
+          "hint": "auf."
+        },
+        {
+          "before": "Die Infusion ist schon daneben. Sie steht",
+          "after": "dem Bett.",
+          "answer": "neben",
+          "en": "next to",
+          "why": "neben.",
+          "tip": "neben",
+          "hint": "neben."
+        },
+        {
+          "before": "Die Brille ist schon unten. Sie liegt",
+          "after": "dem Bett.",
+          "answer": "unter",
+          "en": "under",
+          "why": "unter.",
+          "tip": "unter",
+          "hint": "unter."
+        },
+        {
+          "before": "Der Monitor ist schon dahinter. Er steht",
+          "after": "dem Bett.",
+          "answer": "hinter",
+          "en": "behind",
+          "why": "hinter.",
+          "tip": "hinter",
+          "hint": "hinter."
+        },
+        {
+          "before": "Die Pflegekraft ist schon davor. Sie steht",
+          "after": "dem Zimmer.",
+          "answer": "vor",
+          "en": "in front of",
+          "why": "vor.",
+          "tip": "vor",
+          "hint": "vor."
+        },
+        {
+          "before": "Das Pflaster ist schon auf dem",
+          "after": ".",
+          "answer": "Arm",
+          "en": "on the arm",
+          "why": "Arm.",
+          "tip": "Arm",
+          "hint": "Arm."
+        },
+        {
+          "before": "Die Karte ist schon drin. Sie liegt in der",
+          "after": ".",
+          "answer": "Tasche",
+          "en": "in the pocket",
+          "why": "Tasche.",
+          "tip": "Tasche",
+          "hint": "Tasche."
+        }
+      ]
+    },
+    {
+      "id": "match-wo",
+      "label": "Match",
+      "title": "Where is it?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the dative phrase. The thing stays.",
+      "items": [
+        {
+          "prompt": "The patient is already in the room.",
+          "options": [
+            {
+              "emoji": "🚪",
+              "label": "im Zimmer",
+              "caption": "in dem"
+            },
+            {
+              "emoji": "❌",
+              "label": "ins Zimmer",
+              "caption": "direction"
+            },
+            {
+              "emoji": "❌",
+              "label": "in der Zimmer",
+              "caption": "not feminine"
+            }
+          ],
+          "answer": 0,
+          "why": "im.",
+          "hint": "Wo."
+        },
+        {
+          "prompt": "The chart is already on the table.",
+          "options": [
+            {
+              "emoji": "📋",
+              "label": "auf dem Tisch",
+              "caption": "dem"
+            },
+            {
+              "emoji": "❌",
+              "label": "auf den Tisch",
+              "caption": "direction"
+            },
+            {
+              "emoji": "❌",
+              "label": "auf der Tisch",
+              "caption": "not feminine"
+            }
+          ],
+          "answer": 0,
+          "why": "dem.",
+          "hint": "Wo."
+        },
+        {
+          "prompt": "The card is already in the pocket.",
+          "options": [
+            {
+              "emoji": "👜",
+              "label": "in der Tasche",
+              "caption": "der"
+            },
+            {
+              "emoji": "❌",
+              "label": "in dem Tasche",
+              "caption": "not masculine"
+            },
+            {
+              "emoji": "❌",
+              "label": "in die Tasche",
+              "caption": "not accusative"
+            }
+          ],
+          "answer": 0,
+          "why": "der.",
+          "hint": "Wo."
+        },
+        {
+          "prompt": "The drip is already next to the bed.",
+          "options": [
+            {
+              "emoji": "💧",
+              "label": "neben dem Bett",
+              "caption": "dem"
+            },
+            {
+              "emoji": "❌",
+              "label": "neben das Bett",
+              "caption": "direction"
+            },
+            {
+              "emoji": "❌",
+              "label": "neben den Bett",
+              "caption": "not accusative"
+            }
+          ],
+          "answer": 0,
+          "why": "dem.",
+          "hint": "Wo."
+        }
+      ]
+    },
+    {
+      "id": "picture-wo",
+      "label": "Picture",
+      "title": "Picture the place",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Where is it? Dative.",
+      "items": [
+        {
+          "id": "room",
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "im Zimmer",
+          "image": {
+            "type": "svg",
+            "id": "ward"
+          },
+          "hint": "im"
+        },
+        {
+          "id": "chart",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "auf dem Tisch",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "auf"
+        },
+        {
+          "id": "drip",
+          "de": "Infusion",
+          "article": "die",
+          "plural": "die Infusionen",
+          "en": "neben dem Bett",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          },
+          "hint": "neben"
+        },
+        {
+          "id": "screen",
+          "de": "Monitor",
+          "article": "der",
+          "plural": "die Monitore",
+          "en": "hinter dem Bett",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          },
+          "hint": "hinter"
+        }
+      ]
+    },
+    {
+      "id": "build-wo",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Keep the place in the dative.",
+      "items": [
+        {
+          "tiles": [
+            "Der",
+            "Patient",
+            "liegt",
+            "im",
+            "Zimmer"
+          ],
+          "answers": [
+            "Der Patient liegt im Zimmer"
+          ],
+          "punct": ".",
+          "modal": "Patient",
+          "inf": "Zimmer",
+          "question": false,
+          "en": "The patient is lying in the room.",
+          "hint": "im.",
+          "feedback": {
+            "fallback": "im."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Akte",
+            "liegt",
+            "auf",
+            "dem",
+            "Tisch"
+          ],
+          "answers": [
+            "Die Akte liegt auf dem Tisch"
+          ],
+          "punct": ".",
+          "modal": "Akte",
+          "inf": "Tisch",
+          "question": false,
+          "en": "The chart is on the table.",
+          "hint": "dem.",
+          "feedback": {
+            "fallback": "dem."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Infusion",
+            "steht",
+            "neben",
+            "dem",
+            "Bett"
+          ],
+          "answers": [
+            "Die Infusion steht neben dem Bett"
+          ],
+          "punct": ".",
+          "modal": "Infusion",
+          "inf": "Bett",
+          "question": false,
+          "en": "The drip stands next to the bed.",
+          "hint": "neben.",
+          "feedback": {
+            "fallback": "neben."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Brille",
+            "liegt",
+            "unter",
+            "dem",
+            "Bett"
+          ],
+          "answers": [
+            "Die Brille liegt unter dem Bett"
+          ],
+          "punct": ".",
+          "modal": "Brille",
+          "inf": "Bett",
+          "question": false,
+          "en": "The glasses are under the bed.",
+          "hint": "unter.",
+          "feedback": {
+            "fallback": "unter."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-wo",
+      "label": "Umformen",
+      "title": "Write the Wo? phrase",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The prompt names the preposition and the noun. Only one chip matches it.",
+      "chips": [
+        {
+          "w": "im Zimmer",
+          "hint": "im Zimmer."
+        },
+        {
+          "w": "am Bett",
+          "hint": "am Bett."
+        },
+        {
+          "w": "auf dem Tisch",
+          "hint": "auf dem Tisch."
+        },
+        {
+          "w": "in der Tasche",
+          "hint": "in der Tasche."
+        },
+        {
+          "w": "auf den Betten",
+          "hint": "auf den Betten."
+        },
+        {
+          "w": "neben dem Bett",
+          "hint": "neben dem Bett."
+        }
+      ],
+      "items": [
+        {
+          "before": "Wo? in + Zimmer →",
+          "after": "",
+          "answer": "im Zimmer",
+          "en": "contraction",
+          "why": "im.",
+          "tip": "im",
+          "hint": "im Zimmer."
+        },
+        {
+          "before": "Wo? an + Bett →",
+          "after": "",
+          "answer": "am Bett",
+          "en": "contraction",
+          "why": "am.",
+          "tip": "am",
+          "hint": "am Bett."
+        },
+        {
+          "before": "Wo? auf + Tisch →",
+          "after": "",
+          "answer": "auf dem Tisch",
+          "en": "masculine",
+          "why": "dem.",
+          "tip": "dem",
+          "hint": "auf dem Tisch."
+        },
+        {
+          "before": "Wo? in + Tasche →",
+          "after": "",
+          "answer": "in der Tasche",
+          "en": "feminine",
+          "why": "der.",
+          "tip": "der",
+          "hint": "in der Tasche."
+        },
+        {
+          "before": "Wo? auf + Betten →",
+          "after": "",
+          "answer": "auf den Betten",
+          "en": "plural",
+          "why": "den.",
+          "tip": "den",
+          "hint": "auf den Betten."
+        },
+        {
+          "before": "Wo? neben + Bett →",
+          "after": "",
+          "answer": "neben dem Bett",
+          "en": "neuter",
+          "why": "dem.",
+          "tip": "dem",
+          "hint": "neben dem Bett."
+        }
+      ]
+    },
+    {
+      "id": "error-wo",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Patient liegt ins Zimmer."
+          ],
+          "options": [
+            "Der Patient liegt im Zimmer.",
+            "Der Patient liegt in der Zimmer.",
+            "Der Patient liegt in den Zimmer."
+          ],
+          "answer": 0,
+          "reveal": "Wo? uses im, not ins.",
+          "hint": "im."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Akte liegt auf den Tisch."
+          ],
+          "options": [
+            "Die Akte liegt auf dem Tisch.",
+            "Die Akte liegt auf der Tisch.",
+            "Die Akte liegt auf das Tisch."
+          ],
+          "answer": 0,
+          "reveal": "Tisch is masculine. Wo? uses dem.",
+          "hint": "dem."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Karte liegt in dem Tasche."
+          ],
+          "options": [
+            "Die Karte liegt in der Tasche.",
+            "Die Karte liegt in den Tasche.",
+            "Die Karte liegt im Tasche."
+          ],
+          "answer": 0,
+          "reveal": "Tasche is feminine. Wo? uses der.",
+          "hint": "der."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Decke liegt auf die Betten."
+          ],
+          "options": [
+            "Die Decke liegt auf den Betten.",
+            "Die Decke liegt auf dem Betten.",
+            "Die Decke liegt auf der Betten."
+          ],
+          "answer": 0,
+          "reveal": "Plural dative is den.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-wo",
+      "label": "Dialog",
+      "title": "On the ward",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each answer names a different place. Only one chip fits the clue.",
+      "chips": [
+        {
+          "w": "im Zimmer",
+          "hint": "im."
+        },
+        {
+          "w": "auf dem Tisch",
+          "hint": "auf."
+        },
+        {
+          "w": "neben dem Bett",
+          "hint": "neben."
+        },
+        {
+          "w": "unter dem Bett",
+          "hint": "unter."
+        },
+        {
+          "w": "hinter dem Bett",
+          "hint": "hinter."
+        },
+        {
+          "w": "in der Tasche",
+          "hint": "in der."
+        }
+      ],
+      "items": [
+        {
+          "before": "Schon drin, nicht unterwegs. Der Patient liegt",
+          "after": ".",
+          "answer": "im Zimmer",
+          "en": "in the room",
+          "why": "im.",
+          "tip": "im",
+          "hint": "im.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Schon oben, nicht unter dem Tisch. Die Akte liegt",
+          "after": ".",
+          "answer": "auf dem Tisch",
+          "en": "on the table",
+          "why": "dem.",
+          "tip": "dem",
+          "hint": "auf.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Schon daneben, nicht im Bett. Die Infusion steht",
+          "after": ".",
+          "answer": "neben dem Bett",
+          "en": "next to",
+          "why": "dem.",
+          "tip": "dem",
+          "hint": "neben.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Schon unten, nicht auf dem Tisch. Die Brille liegt",
+          "after": ".",
+          "answer": "unter dem Bett",
+          "en": "under",
+          "why": "dem.",
+          "tip": "dem",
+          "hint": "unter.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Schon dahinter, nicht davor. Der Monitor steht",
+          "after": ".",
+          "answer": "hinter dem Bett",
+          "en": "behind",
+          "why": "dem.",
+          "tip": "dem",
+          "hint": "hinter.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Schon in der Tasche, nicht auf dem Tisch. Die Karte liegt",
+          "after": ".",
+          "answer": "in der Tasche",
+          "en": "pocket",
+          "why": "der.",
+          "tip": "der",
+          "hint": "in der.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-wo",
+      "label": "Lücken",
+      "title": "am, der, den",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip fits only one sentence.",
+      "chips": [
+        {
+          "w": "am",
+          "hint": "am."
+        },
+        {
+          "w": "über",
+          "hint": "über."
+        },
+        {
+          "w": "zwischen",
+          "hint": "zwischen."
+        },
+        {
+          "w": "der",
+          "hint": "der."
+        },
+        {
+          "w": "den",
+          "hint": "den."
+        },
+        {
+          "w": "der Tür",
+          "hint": "der Tür."
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Stuhl ist schon am Möbel. Er steht",
+          "after": "Bett.",
+          "answer": "am",
+          "en": "an plus dem",
+          "why": "am.",
+          "tip": "am",
+          "hint": "am."
+        },
+        {
+          "before": "Die Decke ist schon darüber. Sie liegt",
+          "after": "dem Bett.",
+          "answer": "über",
+          "en": "above",
+          "why": "über.",
+          "tip": "über",
+          "hint": "über."
+        },
+        {
+          "before": "Der Stuhl ist schon dazwischen, nicht darüber. Er steht",
+          "after": "dem Bett und dem Tisch.",
+          "answer": "zwischen",
+          "en": "between",
+          "why": "zwischen.",
+          "tip": "zwischen",
+          "hint": "zwischen."
+        },
+        {
+          "before": "Die Station ist feminin. Die Akte liegt auf",
+          "after": "Station.",
+          "answer": "der",
+          "en": "feminine dative",
+          "why": "der.",
+          "tip": "der",
+          "hint": "der."
+        },
+        {
+          "before": "Die Betten sind Plural. Die Decke liegt auf",
+          "after": "Betten.",
+          "answer": "den",
+          "en": "plural dative",
+          "why": "den.",
+          "tip": "den",
+          "hint": "den."
+        },
+        {
+          "before": "Die Tür ist feminin. Die Pflegekraft steht neben",
+          "after": ".",
+          "answer": "der Tür",
+          "en": "next to the door",
+          "why": "der.",
+          "tip": "der",
+          "hint": "der Tür."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Wo liegt die Akte?",
+        "paragraphs": [
+          "Der Patient liegt im Zimmer. Die Akte liegt auf dem Tisch. Die Infusion steht neben dem Bett. Die Brille liegt unter dem Bett. Der Monitor steht hinter dem Bett. Die Pflegekraft steht vor dem Zimmer. Das Pflaster liegt auf dem Arm. Die Karte liegt in der Tasche."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wo liegt der Patient?",
+          "qEn": "Already there.",
+          "options": [
+            "im Zimmer",
+            "ins Zimmer",
+            "in der Zimmer"
+          ],
+          "answer": 0,
+          "why": "Wo? uses im.",
+          "hint": "im."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo liegt die Akte?",
+          "qEn": "Masculine dative.",
+          "options": [
+            "auf den Tisch",
+            "auf dem Tisch",
+            "auf der Tisch"
+          ],
+          "answer": 1,
+          "why": "dem.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo liegt die Karte?",
+          "qEn": "Feminine dative.",
+          "options": [
+            "in dem Tasche",
+            "in die Tasche",
+            "in der Tasche"
+          ],
+          "answer": 2,
+          "why": "der.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo steht die Infusion?",
+          "qEn": "Neuter dative.",
+          "options": [
+            "neben dem Bett",
+            "neben das Bett",
+            "neben den Bett"
+          ],
+          "answer": 0,
+          "why": "dem.",
+          "hint": "dem."
+        }
+      ]
+    },
+    {
+      "id": "writing-wo",
+      "label": "Writing",
+      "title": "Write four places",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four Wo? sentences.",
+      "prompt": "In the room, on the table, in the pocket, on the beds.",
+      "bullets": [
+        "im Zimmer",
+        "auf dem Tisch",
+        "in der Tasche",
+        "auf den Betten"
+      ],
+      "model": "Der Patient liegt im Zimmer. Die Akte liegt auf dem Tisch. Die Karte liegt in der Tasche. Die Decke liegt auf den Betten.",
+      "modelEn": "The patient is lying in the room. The chart is on the table. The card is in the pocket. The blanket is on the beds.",
+      "hint": "Wo? uses im, dem, der and den.",
+      "checklist": [
+        {
+          "id": "im",
+          "label": "im Zimmer",
+          "keywords": [
+            "im Zimmer"
+          ]
+        },
+        {
+          "id": "auf",
+          "label": "auf dem Tisch",
+          "keywords": [
+            "auf dem Tisch"
+          ]
+        },
+        {
+          "id": "in",
+          "label": "in der Tasche",
+          "keywords": [
+            "in der Tasche"
+          ]
+        },
+        {
+          "id": "den",
+          "label": "auf den Betten",
+          "keywords": [
+            "auf den Betten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 33. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Wo? in + Zimmer.",
+          "qEn": "im.",
+          "options": [
+            "im Zimmer",
+            "ins Zimmer",
+            "in der Zimmer"
+          ],
+          "answer": 0,
+          "why": "in dem contracts.",
+          "hint": "im."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? an + Bett.",
+          "qEn": "am.",
+          "options": [
+            "ans Bett",
+            "am Bett",
+            "an der Bett"
+          ],
+          "answer": 1,
+          "why": "an dem contracts.",
+          "hint": "am."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? auf + Tisch.",
+          "qEn": "dem.",
+          "options": [
+            "auf den Tisch",
+            "auf der Tisch",
+            "auf dem Tisch"
+          ],
+          "answer": 2,
+          "why": "Masculine dative.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? auf + Arm.",
+          "qEn": "dem.",
+          "options": [
+            "auf dem Arm",
+            "auf den Arm",
+            "auf der Arm"
+          ],
+          "answer": 0,
+          "why": "Arm is masculine.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? in + Tasche.",
+          "qEn": "der.",
+          "options": [
+            "in dem Tasche",
+            "in der Tasche",
+            "in die Tasche"
+          ],
+          "answer": 1,
+          "why": "Feminine dative.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? auf + Station.",
+          "qEn": "der.",
+          "options": [
+            "auf dem Station",
+            "auf die Station",
+            "auf der Station"
+          ],
+          "answer": 2,
+          "why": "Station is feminine.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? auf + Betten.",
+          "qEn": "den.",
+          "options": [
+            "auf den Betten",
+            "auf die Betten",
+            "auf dem Betten"
+          ],
+          "answer": 0,
+          "why": "Plural dative.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? zwischen + Betten.",
+          "qEn": "den.",
+          "options": [
+            "zwischen die Betten",
+            "zwischen den Betten",
+            "zwischen dem Betten"
+          ],
+          "answer": 1,
+          "why": "Plural dative.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? neben + Bett.",
+          "qEn": "dem.",
+          "options": [
+            "neben das Bett",
+            "neben den Bett",
+            "neben dem Bett"
+          ],
+          "answer": 2,
+          "why": "Neuter dative.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo? unter + Bett.",
+          "qEn": "dem.",
+          "options": [
+            "unter dem Bett",
+            "unter das Bett",
+            "unter den Bett"
+          ],
+          "answer": 0,
+          "why": "Neuter dative.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Which question takes the dative here?",
+          "qEn": "Where.",
+          "options": [
+            "Wohin?",
+            "Wo?",
+            "Wer?"
+          ],
+          "answer": 1,
+          "why": "Location, no movement.",
+          "hint": "Wo."
+        },
+        {
+          "kind": "mc",
+          "q": "ins Zimmer answers…",
+          "qEn": "Direction.",
+          "options": [
+            "Wo?",
+            "Wer?",
+            "Wohin?"
+          ],
+          "answer": 2,
+          "why": "Save ins for the next chapter.",
+          "hint": "Wohin."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Wo? immer Dativ",
+      "redemittel": [
+        {
+          "de": "Der Patient liegt im Zimmer.",
+          "en": "The patient is lying in the room."
+        },
+        {
+          "de": "Die Akte liegt auf dem Tisch.",
+          "en": "The chart is on the table."
+        },
+        {
+          "de": "Die Infusion steht neben dem Bett.",
+          "en": "The drip stands next to the bed."
+        },
+        {
+          "de": "Die Karte liegt in der Tasche.",
+          "en": "The card is in the pocket."
+        },
+        {
+          "de": "Die Decke liegt auf den Betten.",
+          "en": "The blanket is on the beds."
+        }
+      ]
+    }
+  ]
+}

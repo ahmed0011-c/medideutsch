@@ -1,0 +1,2504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MediDeutsch · A1 · Modalverben auf Station</title>
+<meta name="description" content="MediDeutsch demo lesson: German modal verbs in a hospital setting (A1).">
+<style>
+:root{
+  --teal:#0d9488; --teal-2:#14b8a6; --teal-50:#e6f7f5; --teal-100:#ccefeb;
+  --blue:#2563eb; --blue-50:#eaf1fe; --navy:#0f2a3d; --ink:#1e3a4c; --muted:#5b7486;
+  --bg:#f2f8fa; --card:#ffffff; --line:#dbe8ee;
+  --ok:#16a34a; --ok-50:#e9f8ee; --bad:#e11d48; --bad-50:#fdecef; --warn:#f59e0b; --warn-50:#fff6e5;
+  --der:#2563eb; --die:#e11d48; --das:#16a34a;
+  --radius:18px; --shadow:0 6px 24px rgba(15,42,61,.08), 0 1px 3px rgba(15,42,61,.06);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:"Inter","Segoe UI",system-ui,-apple-system,"Noto Sans",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;min-height:100vh;
+  background-image:radial-gradient(circle at 10% 0%,#dff4f1 0,transparent 40%),radial-gradient(circle at 100% 10%,#e3ecfd 0,transparent 35%);background-attachment:fixed}
+button{font:inherit;cursor:pointer}
+.emoji{font-family:"Noto Color Emoji","Apple Color Emoji","Segoe UI Emoji",sans-serif}
+
+/* Header */
+.topbar{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar-inner{max-width:1040px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;color:var(--navy);letter-spacing:-.02em;white-space:nowrap}
+.brand b{color:var(--teal)}
+.brand-logo{width:36px;height:36px;flex:none}
+.lesson-pill{display:flex;flex-direction:column;line-height:1.2;padding-left:16px;border-left:1px solid var(--line);min-width:0}
+.lesson-pill .lvl{font-size:12px;font-weight:700;color:var(--teal);text-transform:uppercase;letter-spacing:.06em}
+.lesson-pill .ttl{font-weight:600;color:var(--navy);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.score-pill{margin-left:auto;display:flex;align-items:center;gap:10px;background:var(--warn-50);border:1px solid #fde3b0;border-radius:999px;padding:6px 14px;font-weight:700;color:#92590a;white-space:nowrap}
+.score-pill .pts{font-variant-numeric:tabular-nums}
+.score-pill.bump{animation:bump .5s}
+@keyframes bump{30%{transform:scale(1.15)}}
+.mini-stars{letter-spacing:1px;font-size:14px}
+.mini-stars .off{filter:grayscale(1);opacity:.35}
+
+/* Progress */
+.progress-wrap{max-width:1040px;margin:0 auto;padding:14px 20px 0}
+.progress-track{height:8px;background:#dcebf0;border-radius:99px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--teal),var(--blue));border-radius:99px;transition:width .5s cubic-bezier(.4,1.4,.6,1)}
+.steps{display:flex;justify-content:space-between;margin-top:10px;gap:4px}
+.step-dot{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;background:none;border:0;padding:2px;color:var(--muted);font-size:12px;font-weight:600;min-width:0}
+.step-dot .n{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#fff;border:2px solid var(--line);font-size:13px;transition:.25s}
+.step-dot.done .n{background:var(--teal-50);border-color:var(--teal-2);color:var(--teal)}
+.step-dot.active .n{background:var(--teal);border-color:var(--teal);color:#fff;box-shadow:0 0 0 5px var(--teal-100)}
+.step-dot.active{color:var(--navy)}
+.step-dot .l{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+
+/* Stage */
+main{max-width:1040px;margin:0 auto;padding:18px 20px 110px}
+.step-view{animation:stepIn .45s ease both}
+@keyframes stepIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.step-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin:6px 0 14px}
+.step-head h1{margin:0;font-size:28px;letter-spacing:-.02em;color:var(--navy);line-height:1.2}
+.kicker{font-size:13px;font-weight:700;color:var(--teal);text-transform:uppercase;letter-spacing:.08em}
+.instructions{display:flex;gap:10px;align-items:flex-start;background:var(--blue-50);border:1px solid #d3e2fc;color:#1d3f8a;border-radius:14px;padding:10px 14px;margin-bottom:16px;font-size:15px}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px;margin-bottom:18px;border:1px solid rgba(219,232,238,.7)}
+.card h2{margin:0 0 10px;font-size:20px;color:var(--navy);letter-spacing:-.01em}
+.card h3{margin:0 0 8px;font-size:16px;color:var(--navy)}
+.muted{color:var(--muted)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+
+/* Buttons */
+.btn{border:0;border-radius:12px;padding:10px 18px;font-weight:700;display:inline-flex;align-items:center;gap:8px;transition:transform .12s,box-shadow .2s,background .2s}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:var(--teal);color:#fff;box-shadow:0 4px 12px rgba(13,148,136,.3)}
+.btn-primary:hover{background:#0b7f75}
+.btn-ghost{background:#fff;color:var(--navy);border:1px solid var(--line)}
+.btn-ghost:hover{background:#f6fafb}
+.btn-soft{background:var(--teal-50);color:var(--teal)}
+.btn-soft:hover{background:var(--teal-100)}
+.btn:disabled{opacity:.45;cursor:not-allowed;box-shadow:none}
+.icon-btn{border:0;background:var(--teal-50);color:var(--teal);width:34px;height:34px;border-radius:50%;display:inline-grid;place-items:center;font-size:16px;flex:none;transition:.15s}
+.icon-btn:hover{background:var(--teal-100);transform:scale(1.06)}
+
+/* Footer nav */
+.footer-nav{position:fixed;left:0;right:0;bottom:0;z-index:25;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+.footer-inner{max-width:1040px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:12px}
+.footer-inner .status{flex:1;text-align:center;color:var(--muted);font-weight:600;font-size:14px}
+
+/* Clickable words */
+.w{cursor:pointer;border-radius:5px;padding:0 1px;transition:background .15s,color .15s;border-bottom:1.5px dotted rgba(13,148,136,.45)}
+.w:hover{background:var(--teal-50);color:var(--teal)}
+.w.seen{border-bottom-color:transparent;background:rgba(20,184,166,.08)}
+.w.active{background:var(--teal);color:#fff}
+.hl-modals .w.modal{background:#fff1d6;color:#9a5b00;border-bottom:2px solid var(--warn);font-weight:700}
+
+/* Dialogue */
+.scene{display:flex;gap:14px;align-items:center;background:linear-gradient(135deg,#0f766e,#1d4ed8);color:#fff;border-radius:var(--radius);padding:16px 20px;margin-bottom:16px;box-shadow:var(--shadow)}
+.scene .bed{font-size:38px}
+.scene b{display:block;font-size:17px}
+.scene span{opacity:.9;font-size:14px}
+.dialog-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+.explore-meter{margin-left:auto;font-weight:700;color:var(--muted);font-size:14px;display:flex;align-items:center;gap:8px}
+.meter{width:110px;height:8px;border-radius:9px;background:#e4eef2;overflow:hidden}
+.meter i{display:block;height:100%;background:var(--warn);transition:width .3s}
+.chat{display:flex;flex-direction:column;gap:12px}
+.line{display:flex;gap:12px;align-items:flex-start;animation:stepIn .4s both}
+.line.P{flex-direction:row-reverse}
+.avatar{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-size:26px;background:#fff;box-shadow:var(--shadow);flex:none}
+.line.A .avatar{background:var(--teal-50)}
+.line.P .avatar{background:#eef2ff}
+.bubble{max-width:74%;background:#fff;border-radius:18px;padding:12px 16px;box-shadow:var(--shadow);border:1px solid var(--line);position:relative}
+.line.A .bubble{border-top-left-radius:6px}
+.line.P .bubble{border-top-right-radius:6px;background:#f6f8ff}
+.bubble .who{font-size:12px;font-weight:700;color:var(--muted);display:flex;align-items:center;gap:8px;margin-bottom:2px}
+.bubble .de{font-size:18px;line-height:1.7;color:var(--navy)}
+.bubble .en{font-size:14px;color:var(--muted);margin-top:4px;display:none;font-style:italic}
+.show-en .bubble .en{display:block}
+.bubble.speaking{box-shadow:0 0 0 3px var(--teal-2),var(--shadow)}
+.say{border:0;background:none;color:var(--teal);font-size:14px;padding:0 4px;border-radius:6px}
+.say:hover{background:var(--teal-50)}
+
+/* Popup */
+.pop{position:fixed;z-index:60;width:330px;background:#fff;border-radius:18px;box-shadow:0 18px 50px rgba(15,42,61,.25);border:1px solid var(--line);padding:16px;opacity:0;transform:translateY(6px) scale(.97);pointer-events:none;transition:opacity .18s,transform .18s}
+.pop.open{opacity:1;transform:none;pointer-events:auto}
+.pop-head{display:flex;gap:12px;align-items:center;margin-bottom:6px}
+.pop .pic{width:68px;height:68px;border-radius:16px;background:linear-gradient(135deg,var(--teal-50),var(--blue-50));display:grid;place-items:center;font-size:38px;flex:none}
+.pop .word{font-size:21px;font-weight:800;color:var(--navy);line-height:1.15;overflow-wrap:break-word}
+.pop .word .art{display:block;font-size:15px}
+.pop .art{font-weight:800}
+.art-der{color:var(--der)} .art-die{color:var(--die)} .art-das{color:var(--das)}
+.pop .pos{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--teal);background:var(--teal-50);border-radius:6px;padding:2px 7px;margin:6px 0}
+.pop .en{font-size:17px;font-weight:600;color:var(--ink);clear:none}
+.pop .pl{font-size:14px;color:var(--muted);margin-top:4px}
+.pop .note{clear:both;font-size:13.5px;background:var(--warn-50);border-radius:10px;padding:8px 10px;margin-top:10px;color:#7a4b06}
+.pop .actions{clear:both;display:flex;gap:8px;margin-top:12px}
+.pop .close{position:absolute;top:6px;right:8px;border:0;background:none;font-size:18px;color:var(--muted);display:none}
+.backdrop{position:fixed;inset:0;z-index:55;background:rgba(15,42,61,.25);display:none}
+
+/* Grammar */
+.oa-hero{display:grid;grid-template-columns:200px 1fr;gap:22px;align-items:center}
+.oa-hero svg{width:100%;height:auto}
+.oa-hero p{margin:0 0 10px;font-size:16px}
+.queue{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.queue .slot{flex:1;min-width:90px;text-align:center;border-radius:12px;padding:8px 6px;font-size:13px;font-weight:700;border:2px dashed var(--line);color:var(--muted)}
+.queue .slot.s2{border-color:var(--warn);background:var(--warn-50);color:#92590a}
+.queue .slot.end{border-color:var(--blue);background:var(--blue-50);color:var(--blue)}
+.bracket-stage{background:linear-gradient(180deg,#f8fcfd,#f1f8fa);border:1px solid var(--line);border-radius:16px;padding:26px 18px 18px;position:relative;overflow:hidden}
+.sentence{display:flex;justify-content:center;align-items:flex-start;gap:10px;flex-wrap:nowrap;position:relative;min-height:92px;padding-bottom:34px}
+.tok{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px}
+.tok .chip{padding:10px 16px;border-radius:12px;font-size:20px;font-weight:700;background:#fff;border:2px solid var(--line);color:var(--navy);white-space:nowrap;box-shadow:0 2px 6px rgba(15,42,61,.06)}
+.tok .pos-l{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.tok.subj .chip{border-color:#c7d2fe;background:#eef2ff}
+.tok.verb .chip{border-color:#93c5fd;background:var(--blue-50);color:var(--blue)}
+.tok.inf .chip{border-color:var(--blue);background:var(--blue);color:#fff}
+.tok.modal .chip{border-color:var(--warn);background:#fff3d6;color:#8a4b00}
+.tok.modal .chip::before{content:"👨‍⚕️";font-family:"Noto Color Emoji",sans-serif;margin-right:6px;font-size:.9em}
+.tok.enter .chip{animation:dropIn .6s cubic-bezier(.3,1.6,.5,1) both}
+@keyframes dropIn{from{transform:translateY(-60px) scale(.6);opacity:0}to{transform:none;opacity:1}}
+.bracket{position:absolute;bottom:4px;height:22px;border:3px solid var(--warn);border-top:0;border-radius:0 0 14px 14px;transform-origin:left;transform:scaleX(0);opacity:0;transition:transform .6s .25s ease,opacity .3s .25s}
+.bracket.on{transform:scaleX(1);opacity:1}
+.bracket span{position:absolute;left:50%;bottom:-24px;transform:translateX(-50%);font-size:12px;font-weight:800;color:#92590a;white-space:nowrap;background:#fff3d6;padding:1px 8px;border-radius:99px}
+.sent-en{text-align:center;color:var(--muted);font-style:italic;margin-top:16px;min-height:24px}
+.anim-controls{display:flex;gap:10px;justify-content:center;margin-top:12px;flex-wrap:wrap}
+.qrule{margin-top:14px;background:#fff;border-left:4px solid var(--warn);padding:10px 14px;border-radius:8px;font-size:15px}
+.meanings{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.mcard{border-radius:14px;padding:14px;border:1px solid var(--line);background:#fbfdfe;transition:transform .2s,box-shadow .2s}
+.mcard:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.mcard .top{display:flex;align-items:center;gap:8px}
+.mcard .em{font-size:24px}
+.mcard .mv{font-weight:800;font-size:18px;color:var(--navy)}
+.mcard .men{font-weight:600;color:var(--teal);font-size:14px}
+.mcard .use{font-size:13px;color:var(--muted);margin:2px 0 8px}
+.mcard .ex{font-size:15px;color:var(--navy);display:flex;gap:6px;align-items:flex-start}
+.mcard .exen{font-size:13px;color:var(--muted);font-style:italic}
+.warnbox{border-radius:16px;padding:16px 18px;background:linear-gradient(135deg,#fff7ed,#fff1f2);border:1px solid #fecdd3}
+.warnbox h3{color:#9f1239}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:10px 0}
+.vs .it{border-radius:12px;padding:12px;background:#fff;border:2px solid var(--line)}
+.vs .it.ok{border-color:#86efac}
+.vs .it.stop{border-color:#fda4af}
+.vs .it b{display:block;font-size:17px;color:var(--navy)}
+.conj-tabs{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+table.conj{width:100%;border-collapse:separate;border-spacing:0;font-size:16px;overflow:hidden;border-radius:14px;border:1px solid var(--line)}
+table.conj th,table.conj td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line)}
+table.conj thead th{background:var(--navy);color:#fff;font-size:15px}
+table.conj tbody tr:last-child td{border-bottom:0}
+table.conj td.p{color:var(--muted);font-weight:600;width:120px;background:#f8fbfc}
+table.conj tr.same td{background:#fffaf0}
+table.conj tr.same td.p{background:#fff3d6}
+.stem-sg{color:#c2410c;font-weight:800}
+.stem-pl{color:var(--teal);font-weight:700}
+.end{color:#7c3aed;font-weight:800}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;margin-top:10px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.tips{margin:12px 0 0;padding-left:20px;font-size:14.5px}
+.tips li{margin:3px 0}
+.conj-fade{animation:stepIn .35s both}
+
+/* Quiz / MC */
+.q{margin-bottom:16px}
+.q .qt{font-weight:700;color:var(--navy);margin-bottom:8px;font-size:16.5px}
+.q .qen{font-size:13.5px;color:var(--muted);margin:-6px 0 8px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{border:2px solid var(--line);background:#fff;border-radius:12px;padding:9px 14px;font-weight:600;color:var(--ink);transition:.15s}
+.opt:hover:not(:disabled){border-color:var(--teal-2);background:var(--teal-50)}
+.opt.right{border-color:var(--ok);background:var(--ok-50);color:#14532d}
+.opt.wrong{border-color:var(--bad);background:var(--bad-50);color:#9f1239;animation:shake .4s}
+.opt:disabled{cursor:default}
+.fb{margin-top:8px;font-size:14.5px;border-radius:10px;padding:8px 12px;animation:stepIn .3s both}
+.fb.ok{background:var(--ok-50);color:#14532d}
+.fb.bad{background:var(--bad-50);color:#9f1239}
+@keyframes shake{20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(3px)}}
+
+/* Chips & drag */
+.bank{display:flex;flex-wrap:wrap;gap:10px;padding:14px;border-radius:16px;background:#f6fafb;border:2px dashed var(--line);min-height:64px;align-items:center;justify-content:center}
+.dchip{touch-action:none;user-select:none;-webkit-user-select:none;padding:9px 16px;border-radius:12px;background:#fff;border:2px solid var(--teal-2);color:var(--teal);font-weight:800;font-size:17px;box-shadow:0 3px 0 var(--teal-100);cursor:grab;transition:transform .12s,box-shadow .12s,opacity .2s,background .15s}
+.dchip:hover{transform:translateY(-2px)}
+.dchip.selected{background:var(--teal);color:#fff;box-shadow:0 0 0 4px var(--teal-100)}
+.dchip.dragging{opacity:.3}
+.ghost{position:fixed;z-index:80;pointer-events:none;transform:translate(-50%,-50%) rotate(-3deg) scale(1.06);box-shadow:0 14px 30px rgba(15,42,61,.25)!important;opacity:.95}
+.gap-items{display:flex;flex-direction:column;gap:12px;margin-top:16px}
+.gitem{background:#fff;border-radius:16px;border:1px solid var(--line);padding:14px 16px;box-shadow:0 2px 8px rgba(15,42,61,.04);transition:border-color .2s}
+.gitem.solved{border-color:#86efac;background:#fbfffc}
+.gitem .row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:19px;color:var(--navy)}
+.gitem .num{width:28px;height:28px;border-radius:50%;background:var(--teal-50);color:var(--teal);font-weight:800;font-size:14px;display:grid;place-items:center;flex:none}
+.gitem .who{font-size:15px;opacity:.8}
+.gap{display:inline-flex;align-items:center;justify-content:center;min-width:110px;height:42px;border-radius:12px;border:2px dashed #9fb8c4;background:#f8fbfc;color:#9fb8c4;font-weight:800;padding:0 12px;transition:.2s}
+.gap.hover,.drop-hover{border-color:var(--teal)!important;background:var(--teal-50)!important;transform:scale(1.04)}
+.gap.armed{border-color:var(--teal-2);animation:pulse 1.2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 5px var(--teal-100)}}
+.gap.filled{border-style:solid;border-color:var(--ok);background:var(--ok-50);color:#15803d;animation:pop .35s}
+.gap.wrong{border-color:var(--bad);background:var(--bad-50);color:var(--bad);animation:shake .4s}
+@keyframes pop{50%{transform:scale(1.12)}}
+.gitem .en{font-size:14px;color:var(--muted);font-style:italic;margin:6px 0 0 38px}
+
+/* Builder */
+.bitem{margin-bottom:16px}
+.bitem .head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.bitem .head .en{color:var(--muted);font-style:italic}
+.answer-line{display:flex;flex-wrap:wrap;gap:8px;align-items:center;min-height:62px;padding:10px 14px;border-radius:14px;background:#fff;border:2px solid var(--line);margin-bottom:10px;position:relative;transition:border-color .2s,background .2s}
+.answer-line.empty::before{content:attr(data-ph);color:#a3b8c3;font-size:15px}
+.answer-line.ok{border-color:var(--ok);background:var(--ok-50)}
+.answer-line.bad{border-color:var(--bad);animation:shake .4s}
+.answer-line .punct{font-size:22px;font-weight:800;color:var(--navy);margin-left:-4px}
+.answer-line .dchip{background:var(--blue-50);border-color:#93c5fd;color:var(--blue);box-shadow:0 3px 0 #dbeafe}
+.answer-line.ok .dchip{background:#fff;border-color:#86efac;color:#15803d;box-shadow:none;cursor:default}
+.insert-mark{width:4px;height:36px;border-radius:4px;background:var(--teal);animation:pulse 1s infinite}
+.bactions{display:flex;gap:10px;align-items:center;margin-top:10px;flex-wrap:wrap}
+
+/* Picture match */
+.pics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+.pic-card{background:#fff;border-radius:18px;border:2px solid var(--line);padding:14px;display:flex;flex-direction:column;align-items:center;gap:10px;transition:.2s;box-shadow:0 2px 8px rgba(15,42,61,.04)}
+.pic-card .art-box{width:100%;aspect-ratio:16/8;max-height:140px;border-radius:14px;background:linear-gradient(135deg,#f0faf8,#eef4fe);display:grid;place-items:center}
+.pic-card .art-box svg{height:88%;width:auto;max-width:90%}
+.pic-card .slot{width:100%;min-height:46px;border-radius:12px;border:2px dashed #b6cbd5;display:flex;align-items:center;justify-content:center;color:#a3b8c3;font-size:14px;font-weight:600;transition:.2s}
+.pic-card.armed .slot{border-color:var(--teal-2);animation:pulse 1.2s infinite}
+.pic-card.matched{border-color:#86efac}
+.pic-card.matched .slot{border:0;background:var(--ok-50);color:#14532d;flex-direction:column;padding:6px 8px;font-size:13px;text-align:center}
+.pic-card.matched .slot > span{display:block}
+.pic-card.matched .slot b{font-size:17px;color:var(--navy)}
+.pic-card.wrong{animation:shake .4s;border-color:var(--bad)}
+.pic-card.matched .art-box{animation:pop .4s}
+
+/* Reading */
+.reading-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:18px;align-items:start}
+.paper{background:#fffdf8;border-radius:6px 18px 18px 18px;box-shadow:var(--shadow);padding:24px 26px;border:1px solid #efe6d2;position:relative;font-size:17px;line-height:1.75;color:#2b2b2b}
+.paper::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:linear-gradient(var(--teal),var(--blue));border-radius:6px 0 0 6px}
+.paper .lh{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;color:var(--teal);text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid #efe6d2;padding-bottom:10px;margin-bottom:12px}
+.paper h3{font-size:19px;margin:0 0 10px;color:var(--navy)}
+.paper p{margin:0 0 8px}
+.paper .sig{margin-top:14px;font-style:italic;color:#555;font-size:15px}
+.paper .stamp{position:absolute;right:18px;bottom:16px;transform:rotate(-12deg);border:2px solid rgba(13,148,136,.45);color:rgba(13,148,136,.6);font-weight:800;border-radius:8px;padding:2px 8px;font-size:12px;letter-spacing:.08em}
+
+/* Summary */
+.sum-hero{text-align:center;padding:30px 22px;background:linear-gradient(135deg,#0f766e,#1d4ed8);color:#fff;border-radius:var(--radius);box-shadow:var(--shadow);margin-bottom:18px;position:relative;overflow:hidden}
+.sum-hero h2{color:#fff;font-size:30px;margin:6px 0}
+.big-stars{font-size:54px;letter-spacing:8px;margin:6px 0}
+.big-stars span{display:inline-block;animation:starIn .6s cubic-bezier(.3,1.7,.5,1) both}
+.big-stars span.off{filter:grayscale(1) brightness(1.6);opacity:.4}
+@keyframes starIn{from{transform:scale(0) rotate(-90deg)}to{transform:none}}
+.score-big{font-size:20px;font-weight:700;opacity:.95}
+.breakdown{display:grid;gap:10px}
+.bd-row{display:grid;grid-template-columns:150px 1fr 70px;gap:10px;align-items:center;font-size:14.5px}
+.bd-row .bar{height:10px;border-radius:9px;background:#e4eef2;overflow:hidden}
+.bd-row .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--teal),var(--blue));border-radius:9px;transition:width .8s}
+.bd-row .v{text-align:right;font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
+.redemittel{display:grid;gap:8px}
+.rm{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:12px;background:#f8fbfc;border:1px solid var(--line)}
+.rm b{color:var(--navy);font-size:16.5px;display:block}
+.rm span{color:var(--muted);font-size:14px}
+.confetti{position:absolute;width:8px;height:14px;top:-20px;border-radius:2px;animation:fall linear forwards}
+@keyframes fall{to{transform:translateY(420px) rotate(720deg);opacity:0}}
+
+.toast{position:fixed;left:50%;bottom:86px;transform:translateX(-50%) translateY(20px);background:var(--navy);color:#fff;padding:10px 18px;border-radius:12px;font-weight:600;opacity:0;transition:.25s;z-index:90;pointer-events:none;font-size:14.5px}
+.toast.show{opacity:1;transform:translateX(-50%)}
+.plus{position:fixed;z-index:95;font-weight:800;color:#b45309;pointer-events:none;animation:floatUp 1s ease-out forwards;font-size:18px}
+@keyframes floatUp{to{transform:translateY(-50px);opacity:0}}
+
+/* Responsive */
+@media (min-width:821px){.bank.sticky{position:sticky;top:66px;z-index:6;background:rgba(246,250,251,.96);backdrop-filter:blur(6px)}}
+@media (max-width:820px){
+  .lesson-pill{display:none}
+  .step-dot .l{display:none}
+  .grid2,.reading-grid,.oa-hero{grid-template-columns:1fr}
+  .oa-hero svg{max-width:170px;margin:0 auto;display:block}
+  .meanings{grid-template-columns:1fr 1fr}
+  .pics{grid-template-columns:1fr 1fr}
+  .bubble{max-width:84%}
+  .step-head h1{font-size:23px}
+  .sentence{gap:6px}
+  .tok .chip{font-size:16px;padding:8px 10px}
+  .bd-row{grid-template-columns:110px 1fr 56px}
+}
+@media (max-width:560px){
+  main{padding:12px 12px 110px}
+  .meanings,.vs{grid-template-columns:1fr}
+  .card{padding:16px}
+  .pop{left:8px!important;right:8px;width:auto;bottom:8px;top:auto!important;border-radius:20px}
+  .pop .close{display:block}
+  .pop-head{padding-right:22px}
+  .brand{font-size:18px}
+  .score-pill{padding:5px 10px}
+  .mini-stars{display:none}
+  .footer-inner .status{font-size:12px}
+  .footer-inner .btn{padding:10px 14px}
+  .tok .chip{font-size:14px;padding:7px 8px}
+  .tok .pos-l{font-size:9px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-inner">
+  <div class="brand" id="brand">MediDeutsch</div>
+  <div class="lesson-pill"><span class="lvl" id="lvl"></span><span class="ttl" id="ttl"></span></div>
+  <div class="score-pill" id="scorePill" title="Points"><span class="emoji">⭐</span><span class="pts" id="pts">0</span><span class="mini-stars emoji" id="miniStars"></span></div>
+</div></header>
+<div class="progress-wrap"><div class="progress-track"><div class="progress-fill" id="progFill"></div></div><div class="steps" id="dots"></div></div>
+<main id="stage"></main>
+<nav class="footer-nav"><div class="footer-inner">
+  <button class="btn btn-ghost" id="back">← Back</button>
+  <div class="status" id="status"></div>
+  <button class="btn btn-primary" id="next">Next →</button>
+</div></nav>
+<div class="pop" id="pop" role="dialog" aria-live="polite"></div>
+<div class="toast" id="toast"></div>
+<noscript><p style="padding:20px">Please enable JavaScript to use this lesson.</p></noscript>
+<script>
+/* Lesson data: identical to lesson.json (embedded so the page works from file://) */
+window.LESSON = {
+ "schemaVersion": 1,
+ "id": "a1-modalverben-station",
+ "platform": "MediDeutsch",
+ "level": "A1",
+ "unit": "Lektion 4",
+ "title": "Modalverben auf Station",
+ "subtitle": "Modal verbs on the ward: müssen, können, dürfen, sollen, wollen, möchten",
+ "interfaceLanguage": "en",
+ "targetLanguage": "de-DE",
+ "scoring": {
+  "firstTry": 2,
+  "afterRetry": 1,
+  "wordExplorePoints": 10,
+  "stars": {
+   "3": 0.9,
+   "2": 0.7,
+   "1": 0.4
+  }
+ },
+ "glossary": {
+  "guten": {
+   "de": "gut → guten",
+   "pos": "adjective",
+   "en": "good (in greetings)",
+   "emoji": "👋",
+   "note": "Guten Morgen! = Good morning!"
+  },
+  "Morgen": {
+   "de": "Morgen",
+   "pos": "noun",
+   "article": "der",
+   "plural": "die Morgen",
+   "en": "morning",
+   "emoji": "🌅",
+   "note": "Guten Morgen! = Good morning! (Lowercase morgen = tomorrow.)"
+  },
+  "morgen": {
+   "de": "morgen",
+   "pos": "adverb",
+   "en": "tomorrow",
+   "emoji": "📅",
+   "note": "Lowercase morgen = tomorrow. Capital der Morgen = the morning."
+  },
+  "herr": {
+   "de": "Herr",
+   "pos": "noun",
+   "article": "der",
+   "plural": "die Herren",
+   "en": "Mr; gentleman",
+   "emoji": "👨",
+   "note": "Herr + surname = Mr … After für/zu/mit it becomes Herrn: für Herrn Yilmaz."
+  },
+  "herrn": {
+   "de": "Herrn (form of der Herr)",
+   "pos": "noun",
+   "article": "der",
+   "plural": "die Herren",
+   "en": "Mr (after für, zu, mit …)",
+   "emoji": "👨",
+   "note": "für Herrn Yilmaz = for Mr Yilmaz"
+  },
+  "yilmaz": {
+   "de": "Yilmaz",
+   "pos": "name",
+   "en": "Yilmaz – the patient's surname",
+   "emoji": "🧑🏽"
+  },
+  "wie": {
+   "de": "wie",
+   "pos": "question word",
+   "en": "how",
+   "emoji": "❓",
+   "note": "Wie geht es Ihnen? = How are you? (formal)"
+  },
+  "geht": {
+   "de": "gehen → es geht",
+   "pos": "verb",
+   "en": "goes; Wie geht es …? = How is … doing?",
+   "emoji": "🚶"
+  },
+  "es": {
+   "de": "es",
+   "pos": "pronoun",
+   "en": "it",
+   "emoji": "👉"
+  },
+  "ihnen": {
+   "de": "Ihnen",
+   "pos": "pronoun",
+   "en": "(to) you – formal",
+   "emoji": "🫵",
+   "note": "Ihnen is the dative of Sie. Capitalised when it means 'you'."
+  },
+  "heute": {
+   "de": "heute",
+   "pos": "adverb",
+   "en": "today",
+   "emoji": "📆",
+   "note": "heute Abend = this evening"
+  },
+  "nicht": {
+   "de": "nicht",
+   "pos": "particle",
+   "en": "not",
+   "emoji": "🚫"
+  },
+  "so": {
+   "de": "so",
+   "pos": "adverb",
+   "en": "so; that",
+   "emoji": "↔️",
+   "note": "Nicht so gut. = Not so good."
+  },
+  "gut": {
+   "de": "gut",
+   "pos": "adjective",
+   "en": "good; well",
+   "emoji": "👍"
+  },
+  "ich": {
+   "de": "ich",
+   "pos": "pronoun",
+   "en": "I",
+   "emoji": "🙋"
+  },
+  "habe": {
+   "de": "haben → ich habe",
+   "pos": "verb",
+   "en": "(I) have",
+   "emoji": "🤲",
+   "note": "Ich habe Schmerzen. = I am in pain."
+  },
+  "bauchschmerzen": {
+   "de": "Bauchschmerzen",
+   "pos": "noun",
+   "article": "die",
+   "plural": "(plural only)",
+   "en": "abdominal pain; stomach ache",
+   "emoji": "🤕",
+   "note": "der Bauch (belly) + die Schmerzen (pain)"
+  },
+  "und": {
+   "de": "und",
+   "pos": "conjunction",
+   "en": "and",
+   "emoji": "➕"
+  },
+  "will": {
+   "de": "wollen → ich/er will",
+   "pos": "modal verb",
+   "en": "want(s) to",
+   "emoji": "💪",
+   "note": "A strong wish. More polite: ich möchte."
+  },
+  "nach": {
+   "de": "nach",
+   "pos": "preposition",
+   "en": "to; after",
+   "emoji": "➡️",
+   "note": "nach Hause = (going) home · nach dem Essen = after the meal"
+  },
+  "hause": {
+   "de": "Hause",
+   "pos": "noun (fixed phrase)",
+   "en": "home – only in nach Hause / zu Hause",
+   "emoji": "🏠",
+   "note": "nach Hause gehen = go home · zu Hause sein = be at home"
+  },
+  "um": {
+   "de": "um",
+   "pos": "preposition",
+   "en": "at (with clock times)",
+   "emoji": "🕗",
+   "note": "um acht Uhr = at eight o'clock"
+  },
+  "acht": {
+   "de": "acht",
+   "pos": "number",
+   "en": "eight",
+   "emoji": "8️⃣"
+  },
+  "uhr": {
+   "de": "Uhr",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Uhren",
+   "en": "clock; o'clock",
+   "emoji": "🕗",
+   "note": "Wie viel Uhr ist es? = What time is it?"
+  },
+  "ist": {
+   "de": "sein → er/sie/es ist",
+   "pos": "verb",
+   "en": "is",
+   "emoji": "🟰"
+  },
+  "ihre": {
+   "de": "Ihre",
+   "pos": "possessive",
+   "en": "your (formal) · her · their",
+   "emoji": "🫵",
+   "note": "Capital Ihre = your (formal): Ihre Operation = your operation."
+  },
+  "operation": {
+   "de": "Operation",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Operationen",
+   "en": "operation; surgery",
+   "emoji": "🏥",
+   "note": "Short form on the ward: die OP"
+  },
+  "sie": {
+   "de": "Sie / sie",
+   "pos": "pronoun",
+   "en": "you (formal, capital Sie) · she · they",
+   "emoji": "🫵",
+   "note": "Always use Sie with patients and colleagues you don't know."
+  },
+  "müssen": {
+   "de": "müssen",
+   "pos": "modal verb",
+   "en": "must; have to",
+   "emoji": "❗",
+   "note": "Necessity: Sie müssen nüchtern bleiben."
+  },
+  "nüchtern": {
+   "de": "nüchtern",
+   "pos": "adjective",
+   "en": "fasting; nil by mouth (NPO)",
+   "emoji": "🍽️",
+   "note": "nüchtern bleiben = not eat (or drink) before surgery or blood tests. In daily life it also means 'sober'."
+  },
+  "bleiben": {
+   "de": "bleiben",
+   "pos": "verb",
+   "en": "to stay; to remain",
+   "emoji": "⏸️"
+  },
+  "darf": {
+   "de": "dürfen → ich/er darf",
+   "pos": "modal verb",
+   "en": "may; am/is allowed to",
+   "emoji": "✅",
+   "note": "Darf ich …? = May I …?"
+  },
+  "Abend": {
+   "de": "Abend",
+   "pos": "noun",
+   "article": "der",
+   "plural": "die Abende",
+   "en": "evening",
+   "emoji": "🌆",
+   "note": "heute Abend = this evening"
+  },
+  "noch": {
+   "de": "noch",
+   "pos": "adverb",
+   "en": "still; yet; (any)more",
+   "emoji": "⏳"
+  },
+  "etwas": {
+   "de": "etwas",
+   "pos": "pronoun",
+   "en": "something; a little",
+   "emoji": "✨"
+  },
+  "essen": {
+   "de": "essen",
+   "pos": "verb",
+   "en": "to eat",
+   "emoji": "🍽️",
+   "note": "das Essen = the meal · er isst = he eats"
+  },
+  "ja": {
+   "de": "ja",
+   "pos": "particle",
+   "en": "yes",
+   "emoji": "✔️"
+  },
+  "aber": {
+   "de": "aber",
+   "pos": "conjunction",
+   "en": "but",
+   "emoji": "↩️"
+  },
+  "nur": {
+   "de": "nur",
+   "pos": "adverb",
+   "en": "only",
+   "emoji": "☝️"
+  },
+  "bis": {
+   "de": "bis",
+   "pos": "preposition",
+   "en": "until",
+   "emoji": "⏱️",
+   "note": "bis 22 Uhr = until 10 pm"
+  },
+  "22": {
+   "de": "zweiundzwanzig",
+   "pos": "number",
+   "en": "twenty-two",
+   "emoji": "🕙",
+   "note": "22 Uhr = 10 pm (German uses the 24-hour clock)"
+  },
+  "danach": {
+   "de": "danach",
+   "pos": "adverb",
+   "en": "after that; afterwards",
+   "emoji": "⏭️"
+  },
+  "dürfen": {
+   "de": "dürfen",
+   "pos": "modal verb",
+   "en": "may; be allowed to",
+   "emoji": "✅",
+   "note": "nicht dürfen = must NOT (forbidden)!"
+  },
+  "nichts": {
+   "de": "nichts",
+   "pos": "pronoun",
+   "en": "nothing",
+   "emoji": "⭕"
+  },
+  "mehr": {
+   "de": "mehr",
+   "pos": "adverb",
+   "en": "more",
+   "emoji": "➕",
+   "note": "nichts mehr = nothing more / not anything anymore"
+  },
+  "kann": {
+   "de": "können → ich/er kann",
+   "pos": "modal verb",
+   "en": "can; am/is able to",
+   "emoji": "🙌",
+   "note": "Kann ich …? = Can I …?"
+  },
+  "eine": {
+   "de": "eine",
+   "pos": "article",
+   "en": "a; an (feminine)",
+   "emoji": "1️⃣",
+   "note": "eine Tablette – because it is DIE Tablette"
+  },
+  "schmerztablette": {
+   "de": "Schmerztablette",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Schmerztabletten",
+   "en": "painkiller (tablet)",
+   "emoji": "💊",
+   "note": "der Schmerz (pain) + die Tablette (tablet)"
+  },
+  "bekommen": {
+   "de": "bekommen",
+   "pos": "verb",
+   "en": "to get; to receive",
+   "emoji": "🎁",
+   "note": "False friend! bekommen ≠ 'become'."
+  },
+  "natürlich": {
+   "de": "natürlich",
+   "pos": "adverb",
+   "en": "of course",
+   "emoji": "😊"
+  },
+  "die": {
+   "de": "die",
+   "pos": "article",
+   "en": "the (feminine and all plurals)",
+   "emoji": "🔴"
+  },
+  "pflegerin": {
+   "de": "Pflegerin",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Pflegerinnen",
+   "en": "nurse (female)",
+   "emoji": "👩‍⚕️",
+   "note": "Male: der Pfleger. Neutral: die Pflegekraft."
+  },
+  "bringt": {
+   "de": "bringen → er/sie bringt",
+   "pos": "verb",
+   "en": "brings",
+   "emoji": "🤲"
+  },
+  "gleich": {
+   "de": "gleich",
+   "pos": "adverb",
+   "en": "in a moment; right away",
+   "emoji": "⏰"
+  },
+  "tablette": {
+   "de": "Tablette",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Tabletten",
+   "en": "tablet; pill",
+   "emoji": "💊",
+   "note": "eine Tablette nehmen = take a tablet"
+  },
+  "sollen": {
+   "de": "sollen",
+   "pos": "modal verb",
+   "en": "should; be supposed to",
+   "emoji": "📋",
+   "note": "An instruction from someone else (doctor, nurse)."
+  },
+  "sich": {
+   "de": "sich",
+   "pos": "reflexive pronoun",
+   "en": "yourself / himself / herself",
+   "emoji": "🪞"
+  },
+  "ausruhen": {
+   "de": "sich ausruhen",
+   "pos": "verb (separable)",
+   "en": "to rest",
+   "emoji": "🛌",
+   "note": "Ruhen Sie sich aus! = Get some rest!"
+  },
+  "möchte": {
+   "de": "möchten → ich/er möchte",
+   "pos": "modal verb",
+   "en": "would like (to)",
+   "emoji": "🙏",
+   "note": "A polite wish – perfect for patients and doctors."
+  },
+  "meine": {
+   "de": "meine",
+   "pos": "possessive",
+   "en": "my (feminine / plural)",
+   "emoji": "🙋"
+  },
+  "frau": {
+   "de": "Frau",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Frauen",
+   "en": "woman; wife; Mrs/Ms",
+   "emoji": "👩",
+   "note": "meine Frau = my wife · Frau Weber = Ms Weber"
+  },
+  "anrufen": {
+   "de": "anrufen",
+   "pos": "verb (separable)",
+   "en": "to call (on the phone)",
+   "emoji": "📞",
+   "note": "Ich rufe meine Frau an. = I'm calling my wife."
+  },
+  "mein": {
+   "de": "mein",
+   "pos": "possessive",
+   "en": "my (masculine / neuter)",
+   "emoji": "🙋"
+  },
+  "handy": {
+   "de": "Handy",
+   "pos": "noun",
+   "article": "das",
+   "plural": "die Handys",
+   "en": "mobile phone",
+   "emoji": "📱",
+   "note": "German 'Handy' = mobile phone, not 'handy'."
+  },
+  "benutzen": {
+   "de": "benutzen",
+   "pos": "verb",
+   "en": "to use",
+   "emoji": "🔧"
+  },
+  "das": {
+   "de": "das",
+   "pos": "article / pronoun",
+   "en": "the (neuter); that",
+   "emoji": "🟢",
+   "note": "Ja, das dürfen Sie. = Yes, you may (do that)."
+  },
+  "gute": {
+   "de": "gut → gute",
+   "pos": "adjective",
+   "en": "good",
+   "emoji": "👍"
+  },
+  "besserung": {
+   "de": "Besserung",
+   "pos": "noun",
+   "article": "die",
+   "plural": "(no plural)",
+   "en": "recovery; improvement",
+   "emoji": "💐",
+   "note": "Gute Besserung! = Get well soon!"
+  },
+  "entlassung": {
+   "de": "Entlassung",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Entlassungen",
+   "en": "discharge (from hospital)",
+   "emoji": "🚪",
+   "note": "der Entlassungsbrief = discharge letter"
+  },
+  "informationen": {
+   "de": "Information",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Informationen",
+   "en": "information",
+   "emoji": "ℹ️"
+  },
+  "für": {
+   "de": "für",
+   "pos": "preposition",
+   "en": "for",
+   "emoji": "🎯"
+  },
+  "lieber": {
+   "de": "lieber / liebe",
+   "pos": "adjective",
+   "en": "dear (in letters)",
+   "emoji": "✉️",
+   "note": "Lieber Herr Yilmaz, … · Liebe Frau Weber, …"
+  },
+  "war": {
+   "de": "sein → ich/er war",
+   "pos": "verb (past)",
+   "en": "was",
+   "emoji": "⏪"
+  },
+  "gehen": {
+   "de": "gehen",
+   "pos": "verb",
+   "en": "to go; to walk",
+   "emoji": "🚶"
+  },
+  "dreimal": {
+   "de": "dreimal",
+   "pos": "adverb",
+   "en": "three times",
+   "emoji": "3️⃣",
+   "note": "dreimal am Tag = three times a day"
+  },
+  "am": {
+   "de": "am (= an dem)",
+   "pos": "preposition",
+   "en": "on the; at the; per",
+   "emoji": "📍",
+   "note": "am Tag = per day · am Montag = on Monday"
+  },
+  "tag": {
+   "de": "Tag",
+   "pos": "noun",
+   "article": "der",
+   "plural": "die Tage",
+   "en": "day",
+   "emoji": "☀️"
+  },
+  "nehmen": {
+   "de": "nehmen",
+   "pos": "verb",
+   "en": "to take",
+   "emoji": "✋",
+   "note": "eine Tablette nehmen = take a tablet"
+  },
+  "morgens": {
+   "de": "morgens",
+   "pos": "adverb",
+   "en": "in the morning(s)",
+   "emoji": "🌅"
+  },
+  "mittags": {
+   "de": "mittags",
+   "pos": "adverb",
+   "en": "at midday; at lunchtime",
+   "emoji": "🕛"
+  },
+  "abends": {
+   "de": "abends",
+   "pos": "adverb",
+   "en": "in the evening(s)",
+   "emoji": "🌙"
+  },
+  "viel": {
+   "de": "viel",
+   "pos": "adverb",
+   "en": "a lot; much",
+   "emoji": "📈"
+  },
+  "wasser": {
+   "de": "Wasser",
+   "pos": "noun",
+   "article": "das",
+   "plural": "(no plural)",
+   "en": "water",
+   "emoji": "💧"
+  },
+  "trinken": {
+   "de": "trinken",
+   "pos": "verb",
+   "en": "to drink",
+   "emoji": "🥤"
+  },
+  "spazieren": {
+   "de": "spazieren gehen",
+   "pos": "verb",
+   "en": "to go for a walk",
+   "emoji": "🚶‍♂️"
+  },
+  "zwei": {
+   "de": "zwei",
+   "pos": "number",
+   "en": "two",
+   "emoji": "2️⃣"
+  },
+  "wochen": {
+   "de": "Woche",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Wochen",
+   "en": "week",
+   "emoji": "🗓️"
+  },
+  "lang": {
+   "de": "lang",
+   "pos": "adverb",
+   "en": "long; for (a period)",
+   "emoji": "📏",
+   "note": "zwei Wochen lang = for two weeks"
+  },
+  "keinen": {
+   "de": "kein → keinen",
+   "pos": "article",
+   "en": "no; not any",
+   "emoji": "🚫",
+   "note": "keinen Sport machen = do no sport"
+  },
+  "sport": {
+   "de": "Sport",
+   "pos": "noun",
+   "article": "der",
+   "plural": "(no plural)",
+   "en": "sport; exercise",
+   "emoji": "🏃"
+  },
+  "machen": {
+   "de": "machen",
+   "pos": "verb",
+   "en": "to do; to make",
+   "emoji": "🛠️"
+  },
+  "ab": {
+   "de": "ab",
+   "pos": "preposition",
+   "en": "from … (on)",
+   "emoji": "▶️",
+   "note": "ab morgen = from tomorrow on"
+  },
+  "duschen": {
+   "de": "duschen",
+   "pos": "verb",
+   "en": "to shower",
+   "emoji": "🚿"
+  },
+  "baden": {
+   "de": "baden",
+   "pos": "verb",
+   "en": "to have a bath",
+   "emoji": "🛁"
+  },
+  "montag": {
+   "de": "Montag",
+   "pos": "noun",
+   "article": "der",
+   "plural": "die Montage",
+   "en": "Monday",
+   "emoji": "📅"
+  },
+  "zu": {
+   "de": "zu",
+   "pos": "preposition",
+   "en": "to (a person or place)",
+   "emoji": "➡️"
+  },
+  "ihrem": {
+   "de": "Ihr → Ihrem",
+   "pos": "possessive",
+   "en": "your (formal)",
+   "emoji": "🫵",
+   "note": "zu Ihrem Hausarzt = to your GP"
+  },
+  "hausarzt": {
+   "de": "Hausarzt",
+   "pos": "noun",
+   "article": "der",
+   "plural": "die Hausärzte",
+   "en": "GP; family doctor",
+   "emoji": "👨‍⚕️",
+   "note": "Female: die Hausärztin"
+  },
+  "er": {
+   "de": "er",
+   "pos": "pronoun",
+   "en": "he",
+   "emoji": "👨"
+  },
+  "soll": {
+   "de": "sollen → ich/er soll",
+   "pos": "modal verb",
+   "en": "should; is supposed to",
+   "emoji": "📋"
+  },
+  "wunde": {
+   "de": "Wunde",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Wunden",
+   "en": "wound",
+   "emoji": "🩹"
+  },
+  "kontrollieren": {
+   "de": "kontrollieren",
+   "pos": "verb",
+   "en": "to check",
+   "emoji": "🔍"
+  },
+  "bei": {
+   "de": "bei",
+   "pos": "preposition",
+   "en": "with; in case of; at",
+   "emoji": "📍",
+   "note": "bei Fieber = in case of fever"
+  },
+  "fieber": {
+   "de": "Fieber",
+   "pos": "noun",
+   "article": "das",
+   "plural": "(no plural)",
+   "en": "fever",
+   "emoji": "🤒"
+  },
+  "oder": {
+   "de": "oder",
+   "pos": "conjunction",
+   "en": "or",
+   "emoji": "🔀"
+  },
+  "starken": {
+   "de": "stark → starke(n)",
+   "pos": "adjective",
+   "en": "strong; severe",
+   "emoji": "💥",
+   "note": "starke Schmerzen = severe pain"
+  },
+  "schmerzen": {
+   "de": "Schmerz",
+   "pos": "noun",
+   "article": "der",
+   "plural": "die Schmerzen",
+   "en": "pain",
+   "emoji": "😣",
+   "note": "Usually used in the plural: Ich habe Schmerzen."
+  },
+  "sofort": {
+   "de": "sofort",
+   "pos": "adverb",
+   "en": "immediately",
+   "emoji": "⚡"
+  },
+  "ins": {
+   "de": "ins (= in das)",
+   "pos": "preposition",
+   "en": "into the; to the",
+   "emoji": "📥"
+  },
+  "krankenhaus": {
+   "de": "Krankenhaus",
+   "pos": "noun",
+   "article": "das",
+   "plural": "die Krankenhäuser",
+   "en": "hospital",
+   "emoji": "🏥"
+  },
+  "kommen": {
+   "de": "kommen",
+   "pos": "verb",
+   "en": "to come",
+   "emoji": "🏃‍♂️"
+  },
+  "dr": {
+   "de": "Dr. (Doktor)",
+   "pos": "title",
+   "en": "Dr (doctor's title)",
+   "emoji": "🎓"
+  },
+  "anna": {
+   "de": "Anna",
+   "pos": "name",
+   "en": "Anna – the doctor's first name",
+   "emoji": "👩‍⚕️"
+  },
+  "weber": {
+   "de": "Weber",
+   "pos": "name",
+   "en": "Weber – the doctor's surname",
+   "emoji": "👩‍⚕️"
+  },
+  "station": {
+   "de": "Station",
+   "pos": "noun",
+   "article": "die",
+   "plural": "die Stationen",
+   "en": "ward",
+   "emoji": "🛏️",
+   "note": "auf Station = on the ward"
+  },
+  "3b": {
+   "de": "3B (drei B)",
+   "pos": "number",
+   "en": "ward number 3B",
+   "emoji": "🔢"
+  },
+  "chirurgie": {
+   "de": "Chirurgie",
+   "pos": "noun",
+   "article": "die",
+   "plural": "(no plural)",
+   "en": "surgery (the department)",
+   "emoji": "🩺",
+   "note": "der Chirurg / die Chirurgin = surgeon"
+  }
+ },
+ "steps": [
+  {
+   "id": "intro",
+   "type": "dialogue",
+   "label": "Ward round",
+   "title": "Visite: the day before surgery",
+   "instructions": "Tap any German word to see its meaning, article, plural and a picture. Press 🔊 to hear it.",
+   "scene": "Station 3B, 7:30. Dr. Weber visits Herr Yilmaz, who has his operation tomorrow.",
+   "speakers": {
+    "A": {
+     "name": "Dr. Weber",
+     "role": "Ärztin (doctor)",
+     "avatar": "👩‍⚕️"
+    },
+    "P": {
+     "name": "Herr Yilmaz",
+     "role": "Patient",
+     "avatar": "🧑🏽"
+    }
+   },
+   "lines": [
+    {
+     "who": "A",
+     "de": "Guten Morgen, Herr Yilmaz! Wie geht es Ihnen heute?",
+     "en": "Good morning, Mr Yilmaz! How are you today?"
+    },
+    {
+     "who": "P",
+     "de": "Nicht so gut. Ich habe Bauchschmerzen und will nach Hause.",
+     "en": "Not so good. I have stomach pain and I want to go home."
+    },
+    {
+     "who": "A",
+     "de": "[[Morgen|morgen]] um acht Uhr ist Ihre Operation. Sie müssen nüchtern bleiben.",
+     "en": "Your operation is tomorrow at eight. You must stay nil by mouth."
+    },
+    {
+     "who": "P",
+     "de": "Darf ich heute Abend noch etwas essen?",
+     "en": "May I still eat something this evening?"
+    },
+    {
+     "who": "A",
+     "de": "Ja, aber nur bis 22 Uhr. Danach dürfen Sie nichts mehr essen.",
+     "en": "Yes, but only until 10 pm. After that you must not eat anything."
+    },
+    {
+     "who": "P",
+     "de": "Kann ich eine Schmerztablette bekommen?",
+     "en": "Can I get a painkiller?"
+    },
+    {
+     "who": "A",
+     "de": "Natürlich. Die Pflegerin bringt Ihnen gleich eine Tablette. Sie sollen sich heute ausruhen.",
+     "en": "Of course. The nurse will bring you a tablet shortly. You should rest today."
+    },
+    {
+     "who": "P",
+     "de": "Ich möchte meine Frau anrufen. Darf ich mein Handy benutzen?",
+     "en": "I'd like to call my wife. May I use my phone?"
+    },
+    {
+     "who": "A",
+     "de": "Ja, das dürfen Sie. Gute Besserung, Herr Yilmaz!",
+     "en": "Yes, you may. Get well soon, Mr Yilmaz!"
+    }
+   ]
+  },
+  {
+   "id": "grammar",
+   "type": "grammar",
+   "label": "Grammar",
+   "title": "Meet the Oberarzt: modal verbs",
+   "story": [
+    "On a German ward round, the <b>Oberarzt</b> (senior physician) always walks in <b>position 2</b>. Nobody overtakes him.",
+    "When a modal verb joins a sentence, it behaves exactly like that: it takes <b>position 2</b> and is conjugated. The main verb loses its ending, turns into the <b>infinitive</b> and is sent <b>to the back of the queue</b>, to the very end of the sentence.",
+    "Together they form a bracket around the sentence, the <b>Satzklammer</b>."
+   ],
+   "animation": [
+    {
+     "before": [
+      {
+       "t": "Sie",
+       "r": "subj"
+      },
+      {
+       "t": "bleiben",
+       "r": "verb",
+       "inf": "bleiben"
+      },
+      {
+       "t": "nüchtern",
+       "r": "rest"
+      }
+     ],
+     "modal": "müssen",
+     "enBefore": "You stay nil by mouth.",
+     "enAfter": "You must stay nil by mouth."
+    },
+    {
+     "before": [
+      {
+       "t": "Der Patient",
+       "r": "subj"
+      },
+      {
+       "t": "isst",
+       "r": "verb",
+       "inf": "essen"
+      },
+      {
+       "t": "nichts",
+       "r": "rest"
+      }
+     ],
+     "modal": "darf",
+     "enBefore": "The patient eats nothing.",
+     "enAfter": "The patient must not eat anything."
+    },
+    {
+     "before": [
+      {
+       "t": "Ich",
+       "r": "subj"
+      },
+      {
+       "t": "trinke",
+       "r": "verb",
+       "inf": "trinken"
+      },
+      {
+       "t": "Wasser",
+       "r": "rest"
+      }
+     ],
+     "modal": "möchte",
+     "enBefore": "I drink water.",
+     "enAfter": "I would like to drink water."
+    }
+   ],
+   "questionRule": "Yes/no questions: the modal jumps to position 1, but the infinitive still waits at the end: <i>Darf ich etwas trinken?</i>",
+   "meanings": [
+    {
+     "modal": "müssen",
+     "emoji": "❗",
+     "en": "must, have to",
+     "use": "necessity, rules",
+     "de": "Sie müssen nüchtern bleiben.",
+     "deEn": "You must stay nil by mouth."
+    },
+    {
+     "modal": "können",
+     "emoji": "🙌",
+     "en": "can, be able to",
+     "use": "ability, possibility, polite requests",
+     "de": "Können Sie bitte tief einatmen?",
+     "deEn": "Can you breathe in deeply, please?"
+    },
+    {
+     "modal": "dürfen",
+     "emoji": "✅",
+     "en": "may, be allowed to",
+     "use": "permission (nicht dürfen = forbidden)",
+     "de": "Darf ich etwas trinken?",
+     "deEn": "May I drink something?"
+    },
+    {
+     "modal": "sollen",
+     "emoji": "📋",
+     "en": "should, be supposed to",
+     "use": "an instruction from someone else",
+     "de": "Sie sollen viel Wasser trinken.",
+     "deEn": "You're supposed to drink a lot of water."
+    },
+    {
+     "modal": "wollen",
+     "emoji": "💪",
+     "en": "want (to)",
+     "use": "a strong wish or plan",
+     "de": "Der Patient will nach Hause gehen.",
+     "deEn": "The patient wants to go home."
+    },
+    {
+     "modal": "möchten",
+     "emoji": "🙏",
+     "en": "would like (to)",
+     "use": "a polite wish",
+     "de": "Ich möchte meine Frau anrufen.",
+     "deEn": "I'd like to call my wife."
+    }
+   ],
+   "warning": {
+    "title": "Danger zone for doctors: müssen nicht ≠ nicht dürfen",
+    "items": [
+     {
+      "de": "Sie müssen nichts essen.",
+      "en": "You don't HAVE to eat anything. (optional)",
+      "tone": "ok"
+     },
+     {
+      "de": "Sie dürfen nichts essen.",
+      "en": "You must NOT eat anything. (forbidden!)",
+      "tone": "stop"
+     }
+    ],
+    "tip": "Before surgery, always say: <b>Sie dürfen nichts essen.</b>"
+   },
+   "conjugation": {
+    "persons": [
+     "ich",
+     "du",
+     "er/sie/es",
+     "wir",
+     "ihr",
+     "sie/Sie"
+    ],
+    "main": [
+     "müssen",
+     "können",
+     "dürfen"
+    ],
+    "extra": [
+     "sollen",
+     "wollen",
+     "möchten"
+    ],
+    "forms": {
+     "müssen": [
+      "muss",
+      "mus|st",
+      "muss",
+      "müss|en",
+      "müss|t",
+      "müss|en"
+     ],
+     "können": [
+      "kann",
+      "kann|st",
+      "kann",
+      "könn|en",
+      "könn|t",
+      "könn|en"
+     ],
+     "dürfen": [
+      "darf",
+      "darf|st",
+      "darf",
+      "dürf|en",
+      "dürf|t",
+      "dürf|en"
+     ],
+     "sollen": [
+      "soll",
+      "soll|st",
+      "soll",
+      "soll|en",
+      "soll|t",
+      "soll|en"
+     ],
+     "wollen": [
+      "will",
+      "will|st",
+      "will",
+      "woll|en",
+      "woll|t",
+      "woll|en"
+     ],
+     "möchten": [
+      "möcht|e",
+      "möcht|est",
+      "möcht|e",
+      "möcht|en",
+      "möcht|et",
+      "möcht|en"
+     ]
+    },
+    "tips": [
+     "ich = er/sie/es: no -t ending! (ich kann, er kann)",
+     "The singular often has a different vowel: dürfen → darf, können → kann, müssen → muss.",
+     "Plural forms look like the infinitive (wir/sie/Sie müssen)."
+    ]
+   },
+   "quiz": [
+    {
+     "q": "„Sie müssen nüchtern bleiben.“ Where is the infinitive?",
+     "options": [
+      "Position 1",
+      "Position 2",
+      "At the very end"
+     ],
+     "answer": 2,
+     "why": "The modal (müssen) is in position 2; the infinitive (bleiben) goes to the end."
+    },
+    {
+     "q": "„Sie dürfen nichts essen.“ means …",
+     "options": [
+      "You don't have to eat anything.",
+      "You must not eat anything.",
+      "You want to eat nothing."
+     ],
+     "answer": 1,
+     "why": "nicht/nichts + dürfen = forbidden. 'Don't have to' would be: Sie müssen nichts essen."
+    }
+   ]
+  },
+  {
+   "id": "gapfill",
+   "type": "gapfill",
+   "label": "Gap fill",
+   "title": "Fill the gap: which modal verb fits?",
+   "instructions": "Drag a verb into each gap, or tap a verb and then tap the gap.",
+   "chips": [
+    {
+     "w": "müssen",
+     "hint": "müssen is the wir/sie/Sie form (must)"
+    },
+    {
+     "w": "Können",
+     "hint": "Können (capital K) is the Sie/wir form of können, used at the start of a question"
+    },
+    {
+     "w": "Darf",
+     "hint": "Darf (capital D) is the ich/er/sie form of dürfen, used at the start of a question"
+    },
+    {
+     "w": "möchte",
+     "hint": "möchte is the ich/er/sie form of möchten (would like)"
+    },
+    {
+     "w": "sollst",
+     "hint": "sollst is the du form of sollen (supposed to)"
+    },
+    {
+     "w": "dürft",
+     "hint": "dürft is the ihr form, and there is no 'ihr' in these sentences"
+    },
+    {
+     "w": "wollt",
+     "hint": "wollt is the ihr form, and there is no 'ihr' in these sentences"
+    }
+   ],
+   "items": [
+    {
+     "who": "👩‍⚕️ → 🧑🏽",
+     "before": "Herr Yilmaz, Sie",
+     "after": "vor der Operation nüchtern bleiben.",
+     "answer": "müssen",
+     "en": "Mr Yilmaz, you must stay nil by mouth before the operation.",
+     "why": "A strict necessity, and the subject is Sie → müssen. The infinitive bleiben goes to the end.",
+     "tip": "Look at the subject (Sie) and think: is it a rule or a wish?"
+    },
+    {
+     "who": "👩‍⚕️ → 🧑🏽",
+     "before": "",
+     "after": "Sie bitte tief einatmen?",
+     "answer": "Können",
+     "en": "Can you breathe in deeply, please?",
+     "why": "A polite request in a question → Können Sie …? The modal starts the question.",
+     "tip": "It's a polite question to Sie, so the verb comes first."
+    },
+    {
+     "who": "🧑🏽 → 👩‍⚕️",
+     "before": "Ich habe Durst.",
+     "after": "ich etwas trinken?",
+     "answer": "Darf",
+     "en": "I'm thirsty. May I drink something?",
+     "why": "The patient asks for permission → dürfen. With ich: Darf ich …?",
+     "tip": "The patient asks for permission. Which form goes with ich?"
+    },
+    {
+     "who": "🧑🏽 → 👩‍⚕️",
+     "before": "Ich",
+     "after": "bitte meine Tochter anrufen.",
+     "answer": "möchte",
+     "en": "I would like to call my daughter, please.",
+     "why": "A polite wish with ich → möchte. The infinitive anrufen goes to the end.",
+     "tip": "A polite wish from ich."
+    },
+    {
+     "who": "👩 → 👧",
+     "before": "Die Ärztin sagt, du",
+     "after": "die Tablette nach dem Essen nehmen.",
+     "answer": "sollst",
+     "en": "The doctor says you're supposed to take the tablet after the meal.",
+     "why": "Someone else's instruction (the doctor's) → sollen. With du: du sollst.",
+     "tip": "Whose instruction is it? And the subject is du."
+    }
+   ]
+  },
+  {
+   "id": "builder",
+   "type": "builder",
+   "label": "Word order",
+   "title": "Sentence builder: send the verb to the back!",
+   "instructions": "Drag the tiles into the right order, or tap them one by one. Then press Check.",
+   "items": [
+    {
+     "tiles": [
+      "Sie",
+      "dürfen",
+      "heute",
+      "nicht",
+      "aufstehen"
+     ],
+     "answers": [
+      "Sie dürfen heute nicht aufstehen",
+      "Heute dürfen Sie nicht aufstehen"
+     ],
+     "punct": ".",
+     "modal": "dürfen",
+     "inf": "aufstehen",
+     "question": false,
+     "en": "You must not get up today."
+    },
+    {
+     "tiles": [
+      "Darf",
+      "ich",
+      "nach",
+      "Hause",
+      "gehen"
+     ],
+     "answers": [
+      "Darf ich nach Hause gehen"
+     ],
+     "punct": "?",
+     "modal": "Darf",
+     "inf": "gehen",
+     "question": true,
+     "en": "May I go home?"
+    },
+    {
+     "tiles": [
+      "Die",
+      "Ärztin",
+      "will",
+      "den",
+      "Bauch",
+      "untersuchen"
+     ],
+     "answers": [
+      "Die Ärztin will den Bauch untersuchen",
+      "Den Bauch will die Ärztin untersuchen"
+     ],
+     "punct": ".",
+     "modal": "will",
+     "inf": "untersuchen",
+     "question": false,
+     "en": "The doctor wants to examine the abdomen."
+    }
+   ]
+  },
+  {
+   "id": "pictures",
+   "type": "picturematch",
+   "label": "Vocabulary",
+   "title": "On the ward: what's what?",
+   "instructions": "Drag each word onto the matching picture, or tap a word and then a picture. Remember the article!",
+   "items": [
+    {
+     "id": "spritze",
+     "de": "Spritze",
+     "article": "die",
+     "plural": "die Spritzen",
+     "en": "syringe; injection",
+     "image": {
+      "type": "svg",
+      "id": "syringe"
+     }
+    },
+    {
+     "id": "blutdruck",
+     "de": "Blutdruckmessgerät",
+     "article": "das",
+     "plural": "die Blutdruckmessgeräte",
+     "en": "blood pressure monitor",
+     "image": {
+      "type": "svg",
+      "id": "bpmonitor"
+     }
+    },
+    {
+     "id": "tablette",
+     "de": "Tablette",
+     "article": "die",
+     "plural": "die Tabletten",
+     "en": "tablet; pill",
+     "image": {
+      "type": "svg",
+      "id": "tablet"
+     }
+    },
+    {
+     "id": "stethoskop",
+     "de": "Stethoskop",
+     "article": "das",
+     "plural": "die Stethoskope",
+     "en": "stethoscope",
+     "image": {
+      "type": "svg",
+      "id": "stethoscope"
+     }
+    },
+    {
+     "id": "infusion",
+     "de": "Infusion",
+     "article": "die",
+     "plural": "die Infusionen",
+     "en": "IV drip; infusion",
+     "image": {
+      "type": "svg",
+      "id": "infusion"
+     }
+    },
+    {
+     "id": "pflaster",
+     "de": "Pflaster",
+     "article": "das",
+     "plural": "die Pflaster",
+     "en": "plaster; band-aid",
+     "image": {
+      "type": "svg",
+      "id": "plaster"
+     }
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "type": "reading",
+   "label": "Reading",
+   "title": "Read the discharge note",
+   "instructions": "Herr Yilmaz goes home. Read Dr. Weber's note (tap words you don't know), then answer the questions.",
+   "document": {
+    "letterhead": "Klinikum Nord · Chirurgie · Station 3B",
+    "title": "Entlassung: Informationen für Herrn Yilmaz",
+    "paragraphs": [
+     "Lieber Herr Yilmaz,",
+     "Ihre Operation war gut. Sie dürfen heute nach Hause gehen.",
+     "Sie müssen dreimal am Tag eine Tablette nehmen: morgens, mittags und abends.",
+     "Sie sollen viel Wasser trinken und viel spazieren gehen.",
+     "Sie dürfen zwei Wochen lang keinen Sport machen.",
+     "Ab morgen dürfen Sie duschen, aber nicht baden.",
+     "Am Montag müssen Sie zu Ihrem Hausarzt gehen. Er soll die Wunde kontrollieren.",
+     "Bei Fieber oder starken Schmerzen müssen Sie sofort ins Krankenhaus kommen.",
+     "Gute Besserung!"
+    ],
+    "signature": "Dr. Anna Weber, Station 3B, Chirurgie"
+   },
+   "questions": [
+    {
+     "kind": "mc",
+     "q": "Wie oft muss Herr Yilmaz eine Tablette nehmen?",
+     "qEn": "How often does Mr Yilmaz have to take a tablet?",
+     "options": [
+      "einmal am Tag",
+      "zweimal am Tag",
+      "dreimal am Tag",
+      "nur abends"
+     ],
+     "answer": 2,
+     "why": "„Sie müssen dreimal am Tag eine Tablette nehmen: morgens, mittags und abends.“"
+    },
+    {
+     "kind": "tf",
+     "q": "Herr Yilmaz darf zwei Wochen lang Sport machen.",
+     "qEn": "Mr Yilmaz may do sport for two weeks.",
+     "options": [
+      "richtig",
+      "falsch"
+     ],
+     "answer": 1,
+     "why": "„Sie dürfen zwei Wochen lang keinen Sport machen.“ No sport for two weeks!"
+    },
+    {
+     "kind": "tf",
+     "q": "Ab morgen darf er duschen.",
+     "qEn": "From tomorrow he may shower.",
+     "options": [
+      "richtig",
+      "falsch"
+     ],
+     "answer": 0,
+     "why": "„Ab morgen dürfen Sie duschen, aber nicht baden.“"
+    },
+    {
+     "kind": "mc",
+     "q": "Was soll der Hausarzt machen?",
+     "qEn": "What is the GP supposed to do?",
+     "options": [
+      "Er soll eine Spritze geben.",
+      "Er soll die Wunde kontrollieren.",
+      "Er soll den Patienten operieren.",
+      "Er soll ein Pflaster kaufen."
+     ],
+     "answer": 1,
+     "why": "„Am Montag müssen Sie zu Ihrem Hausarzt gehen. Er soll die Wunde kontrollieren.“"
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "type": "summary",
+   "label": "Summary",
+   "title": "Geschafft! Lesson complete",
+   "redemittel": [
+    {
+     "de": "Sie müssen nüchtern bleiben.",
+     "en": "You must stay nil by mouth."
+    },
+    {
+     "de": "Sie dürfen nichts essen.",
+     "en": "You must not eat anything."
+    },
+    {
+     "de": "Können Sie bitte tief einatmen?",
+     "en": "Can you breathe in deeply, please?"
+    },
+    {
+     "de": "Darf ich etwas trinken?",
+     "en": "May I drink something?"
+    },
+    {
+     "de": "Sie sollen sich ausruhen.",
+     "en": "You should rest."
+    },
+    {
+     "de": "Ich möchte meine Frau anrufen.",
+     "en": "I'd like to call my wife."
+    },
+    {
+     "de": "Sie müssen dreimal am Tag eine Tablette nehmen.",
+     "en": "You have to take a tablet three times a day."
+    },
+    {
+     "de": "Gute Besserung!",
+     "en": "Get well soon!"
+    }
+   ]
+  }
+ ]
+};
+</script>
+<script>
+const SVG = {
+logo:`<svg class="brand-logo" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs><rect width="40" height="40" rx="11" fill="url(#lg)"/><path d="M9 12a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4h-8l-6 5v-5h0a4 4 0 0 1-4-4z" fill="#fff"/><path d="M18 11h4v4h4v4h-4v4h-4v-4h-4v-4h4z" fill="#0d9488"/></svg>`,
+oberarzt:`<svg viewBox="0 0 200 230" role="img" aria-label="Cartoon of the Oberarzt"><circle cx="100" cy="112" r="92" fill="#e6f7f5"/><path d="M42 228c0-52 26-78 58-78s58 26 58 78z" fill="#fff" stroke="#cfe3ea" stroke-width="3"/><path d="M86 151l14 30 14-30z" fill="#bfdbfe"/><path d="M97 160h6l3 30-6 7-6-7z" fill="#2563eb"/><path d="M84 150l16 34-12 22-16-48zM116 150l-16 34 12 22 16-48z" fill="#f1f5f9" stroke="#d6e4ea" stroke-width="2"/><rect x="90" y="128" width="20" height="24" rx="7" fill="#f2c49b"/><circle cx="100" cy="98" r="36" fill="#f6cfa8"/><path d="M64 96c-3-30 22-40 40-38 22 2 36 16 32 38-6-14-18-20-36-20-16 0-28 8-36 20z" fill="#8b95a5"/><circle cx="62" cy="102" r="6" fill="#f2c49b"/><circle cx="138" cy="102" r="6" fill="#f2c49b"/><circle cx="85" cy="99" r="10" fill="#fff" fill-opacity=".5" stroke="#0f2a3d" stroke-width="3"/><circle cx="115" cy="99" r="10" fill="#fff" fill-opacity=".5" stroke="#0f2a3d" stroke-width="3"/><path d="M95 99h10" stroke="#0f2a3d" stroke-width="3"/><circle cx="85" cy="100" r="2.6" fill="#0f2a3d"/><circle cx="115" cy="100" r="2.6" fill="#0f2a3d"/><path d="M90 113q10-6 20 0-10 4-20 0z" fill="#8b95a5"/><path d="M89 119q11 9 22 0" stroke="#0f2a3d" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M80 152c-5 22 2 38 13 44M120 152c5 22-2 38-13 44" stroke="#0d9488" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="100" cy="200" r="8" fill="#cbd5e1" stroke="#0f2a3d" stroke-width="2.5"/><rect x="122" y="176" width="28" height="17" rx="4" fill="#f59e0b"/><text x="136" y="189" font-size="11" font-weight="800" text-anchor="middle" fill="#fff" font-family="sans-serif">OA</text><g transform="translate(160 36)"><circle r="22" fill="#f59e0b" stroke="#fff" stroke-width="4"/><text y="8" font-size="22" font-weight="800" text-anchor="middle" fill="#fff" font-family="sans-serif">2</text></g></svg>`,
+syringe:`<svg viewBox="0 0 120 80" role="img" aria-label="syringe"><g transform="rotate(-18 60 40)"><rect x="6" y="32" width="7" height="16" rx="2" fill="#475569"/><rect x="13" y="38" width="34" height="4" fill="#94a3b8"/><rect x="31" y="28" width="52" height="24" rx="4" fill="#e0f2fe" stroke="#0f2a3d" stroke-width="2.5"/><rect x="51" y="31" width="30" height="18" rx="2" fill="#38bdf8" opacity=".8"/><rect x="46" y="30" width="5" height="20" rx="1" fill="#334155"/><path d="M58 28v6M64 28v4M70 28v6M76 28v4" stroke="#0f2a3d" stroke-width="1.6"/><rect x="27" y="23" width="5" height="34" rx="2" fill="#0f2a3d"/><rect x="83" y="35" width="8" height="10" rx="1.5" fill="#94a3b8" stroke="#0f2a3d" stroke-width="1.5"/><path d="M91 40h24" stroke="#64748b" stroke-width="2.2" stroke-linecap="round"/></g></svg>`,
+bpmonitor:`<svg viewBox="0 0 120 80" role="img" aria-label="blood pressure monitor"><rect x="6" y="14" width="46" height="36" rx="9" fill="#2563eb"/><rect x="11" y="21" width="36" height="9" rx="3" fill="#93c5fd"/><rect x="11" y="35" width="36" height="4" rx="2" fill="#1d4ed8"/><path d="M40 50c4 18 26 18 34 8" stroke="#0f2a3d" stroke-width="2.5" fill="none"/><path d="M18 50v10" stroke="#0f2a3d" stroke-width="2.5"/><ellipse cx="18" cy="68" rx="9" ry="7" fill="#0f2a3d"/><circle cx="86" cy="34" r="24" fill="#fff" stroke="#0f2a3d" stroke-width="3"/><circle cx="86" cy="34" r="19" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-dasharray="2 4"/><path d="M86 34l13-10" stroke="#e11d48" stroke-width="3" stroke-linecap="round"/><circle cx="86" cy="34" r="3.2" fill="#0f2a3d"/><text x="86" y="50" font-size="6.5" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-weight="700">mmHg</text></svg>`,
+tablet:`<svg viewBox="0 0 120 80" role="img" aria-label="tablets"><g transform="rotate(-30 44 40)"><rect x="18" y="28" width="52" height="24" rx="12" fill="#fff" stroke="#0f2a3d" stroke-width="2.5"/><path d="M44 28h14a12 12 0 0 1 0 24H44z" fill="#14b8a6" stroke="#0f2a3d" stroke-width="2.5"/><path d="M26 34q4-3 10-3" stroke="#fff" stroke-width="2" opacity=".9"/></g><circle cx="90" cy="46" r="18" fill="#fff" stroke="#0f2a3d" stroke-width="2.5"/><path d="M76 46h28" stroke="#0f2a3d" stroke-width="2"/><ellipse cx="84" cy="38" rx="5" ry="2.5" fill="#e0f2fe"/></svg>`,
+stethoscope:`<svg viewBox="0 0 120 80" role="img" aria-label="stethoscope"><circle cx="36" cy="8" r="4.5" fill="#0f2a3d"/><circle cx="64" cy="8" r="4.5" fill="#0f2a3d"/><path d="M36 11c-4 20 2 30 14 34M64 11c4 20-2 30-14 34" stroke="#64748b" stroke-width="3.2" fill="none" stroke-linecap="round"/><path d="M50 45c0 20 22 28 36 18 8-6 8-14 4-19" stroke="#0d9488" stroke-width="4.5" fill="none" stroke-linecap="round"/><circle cx="88" cy="34" r="11" fill="#cbd5e1" stroke="#0f2a3d" stroke-width="2.5"/><circle cx="88" cy="34" r="5.5" fill="#94a3b8"/></svg>`,
+infusion:`<svg viewBox="0 0 120 80" role="img" aria-label="IV drip"><path d="M64 4v74M50 77h28M46 6h32" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/><path d="M52 6v4" stroke="#94a3b8" stroke-width="2"/><rect x="40" y="10" width="24" height="32" rx="6" fill="#e0f2fe" stroke="#0f2a3d" stroke-width="2"/><rect x="43" y="20" width="18" height="19" rx="3" fill="#7dd3fc"/><path d="M46 15h12" stroke="#0f2a3d" stroke-width="1.5"/><rect x="48.5" y="44" width="7" height="11" rx="2" fill="#fff" stroke="#0f2a3d" stroke-width="1.5"/><path d="M52 42v2" stroke="#0f2a3d" stroke-width="1.5"/><circle cx="52" cy="50" r="1.7" fill="#38bdf8"/><path d="M52 55c0 14-16 10-22 18" stroke="#38bdf8" stroke-width="2.2" fill="none"/><rect x="22" y="70" width="11" height="5" rx="1.5" fill="#fbbf24" transform="rotate(-25 27 72)"/></svg>`,
+plaster:`<svg viewBox="0 0 120 80" role="img" aria-label="plaster"><g transform="rotate(-16 60 40)"><rect x="12" y="25" width="96" height="30" rx="15" fill="#f5c9a0" stroke="#b7794a" stroke-width="2"/><rect x="44" y="28" width="32" height="24" rx="4" fill="#fdebd9" stroke="#d9a479" stroke-width="1.5"/><g fill="#d9a479"><circle cx="24" cy="35" r="1.6"/><circle cx="31" cy="40" r="1.6"/><circle cx="24" cy="45" r="1.6"/><circle cx="37" cy="35" r="1.6"/><circle cx="37" cy="45" r="1.6"/><circle cx="83" cy="35" r="1.6"/><circle cx="89" cy="40" r="1.6"/><circle cx="83" cy="45" r="1.6"/><circle cx="96" cy="35" r="1.6"/><circle cx="96" cy="45" r="1.6"/></g></g></svg>`
+};
+
+(function () {
+'use strict';
+const L = window.LESSON;
+const G = L.glossary;
+const SC = L.scoring;
+const STEPS = L.steps;
+const byType = t => STEPS.find(s => s.type === t);
+
+/* ---------- helpers ---------- */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+function el(html) { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; }
+function seededShuffle(arr, seed) {
+  const a = arr.slice(); let s = seed * 9301 + 49297;
+  const rnd = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+function shuffleNotIdentity(arr, seed) {
+  let a = seededShuffle(arr, seed), k = 1;
+  while (a.every((v, i) => v === arr[i]) && k < 20) a = seededShuffle(arr, seed + k++);
+  return a;
+}
+function toast(msg) {
+  const t = $('#toast'); t.textContent = msg; t.classList.add('show');
+  clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('show'), 2200);
+}
+function floatPlus(n, anchor) {
+  if (!anchor) return;
+  const r = anchor.getBoundingClientRect();
+  const p = el(`<div class="plus">+${n} ⭐</div>`);
+  p.style.left = (r.left + r.width / 2 - 20) + 'px'; p.style.top = (r.top - 10) + 'px';
+  document.body.appendChild(p); setTimeout(() => p.remove(), 1000);
+}
+
+/* ---------- speech ---------- */
+let deVoice = null;
+function pickVoice() {
+  if (!('speechSynthesis' in window)) return;
+  const vs = speechSynthesis.getVoices();
+  deVoice = vs.find(v => v.lang === 'de-DE' && /google|natural|premium|enhanced/i.test(v.name)) || vs.find(v => v.lang === 'de-DE') || vs.find(v => /^de/i.test(v.lang)) || null;
+}
+if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+function speak(text, onend) {
+  if (!('speechSynthesis' in window)) { toast('🔇 Audio is not supported in this browser'); onend && onend(); return; }
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'de-DE'; u.rate = 0.88; if (deVoice) u.voice = deVoice;
+  if (onend) { u.onend = onend; u.onerror = onend; }
+  speechSynthesis.speak(u);
+}
+
+/* ---------- state & scoring ---------- */
+const fresh = () => ({ pts: {}, seen: {}, mc: {}, gap: { done: {}, tries: {} }, builder: { lines: {}, solved: {}, tries: {} }, match: { done: {}, tries: {} }, showEn: false, hl: false, anim: 0 });
+let S = fresh();
+let current = 0;
+
+const sections = [
+  { key: 'w:', label: 'Ward round', max: SC.wordExplorePoints },
+  { key: 'gq:', label: 'Grammar check', max: byType('grammar').quiz.length * SC.firstTry },
+  { key: 'gap:', label: 'Gap fill', max: byType('gapfill').items.length * SC.firstTry },
+  { key: 'b:', label: 'Word order', max: byType('builder').items.length * SC.firstTry },
+  { key: 'm:', label: 'Vocabulary', max: byType('picturematch').items.length * SC.firstTry },
+  { key: 'r:', label: 'Reading', max: byType('reading').questions.length * SC.firstTry }
+];
+const MAX = sections.reduce((a, s) => a + s.max, 0);
+const total = () => Object.values(S.pts).reduce((a, b) => a + b, 0);
+const sectionPts = k => Object.entries(S.pts).filter(([x]) => x.startsWith(k)).reduce((a, [, v]) => a + v, 0);
+function starsFor(ratio) { const st = SC.stars; return ratio >= st['3'] ? 3 : ratio >= st['2'] ? 2 : ratio >= st['1'] ? 1 : 0; }
+function award(key, n, anchor) {
+  if (key in S.pts) return;
+  S.pts[key] = n; updateScore(true); floatPlus(n, anchor);
+}
+function starHTML(n, cls = '') { return [0, 1, 2].map(i => `<span class="${i < n ? '' : 'off'} ${cls}">⭐</span>`).join(''); }
+function updateScore(bump) {
+  const t = total();
+  $('#pts').textContent = `${t} / ${MAX}`;
+  $('#miniStars').innerHTML = starHTML(starsFor(t / MAX));
+  if (bump) { const p = $('#scorePill'); p.classList.remove('bump'); void p.offsetWidth; p.classList.add('bump'); }
+  updateStatus();
+}
+
+/* ---------- tokenised clickable text ---------- */
+const TOKEN_RE = /\[\[[^\]]+\]\]|[A-Za-zÄÖÜäöüß0-9]+/g;
+function lookup(surface) { return G[surface] ? surface : (G[surface.toLowerCase()] ? surface.toLowerCase() : null); }
+function tokenize(text) {
+  let out = '', last = 0;
+  text.replace(TOKEN_RE, (m, idx) => {
+    out += esc(text.slice(last, idx));
+    let surface = m, key;
+    if (m.startsWith('[[')) { const [s, k] = m.slice(2, -2).split('|'); surface = s; key = k; } else key = lookup(m);
+    if (key) {
+      const e = G[key];
+      const cls = ['w', /modal/.test(e.pos) ? 'modal' : '', S.seen[key] ? 'seen' : ''].join(' ');
+      out += `<span class="${cls}" data-k="${esc(key)}" tabindex="0" role="button">${esc(surface)}</span>`;
+    } else out += esc(surface);
+    last = idx + m.length; return m;
+  });
+  return out + esc(text.slice(last));
+}
+const plain = t => t.replace(/\[\[([^|\]]+)\|[^\]]+\]\]/g, '$1');
+
+/* ---------- word popup ---------- */
+let popAnchor = null;
+function openPop(w) {
+  const key = w.dataset.k, e = G[key]; if (!e) return;
+  const pop = $('#pop');
+  $$('.w.active').forEach(x => x.classList.remove('active'));
+  w.classList.add('active'); popAnchor = w;
+  const surface = w.textContent;
+  const isNoun = !!e.article;
+  const head = isNoun ? `<span class="art art-${e.article}">${e.article}</span> ${esc(e.de.replace(/ \(.*\)$/, ''))}` : esc(/name|title|noun/.test(e.pos) ? surface : surface.toLowerCase());
+  const lemmaLine = !isNoun && e.de && e.de.toLowerCase() !== surface.toLowerCase() ? `<div class="pl">Dictionary form: <b>${esc(e.de)}</b></div>` : '';
+  const pl = isNoun && e.plural ? `<div class="pl">Plural: <b>${esc(e.plural)}</b></div>` : '';
+  const sayWord = isNoun ? `${e.article} ${e.de.replace(/ \(.*\)$/, '')}` : surface;
+  const sentenceHost = w.closest('[data-say]');
+  pop.innerHTML = `
+    <button class="close" aria-label="Close">✕</button>
+    <div class="pop-head"><div class="pic emoji">${esc(e.emoji || '🔤')}</div><div><div class="word">${head}</div><span class="pos">${esc(e.pos)}</span></div></div>
+    <div class="en">${esc(e.en)}</div>${pl}${lemmaLine}
+    ${e.note ? `<div class="note">💡 ${esc(e.note)}</div>` : ''}
+    <div class="actions"><button class="btn btn-soft" data-act="word">🔊 Word</button>${sentenceHost ? '<button class="btn btn-ghost" data-act="sent">🔊 Sentence</button>' : ''}</div>`;
+  pop.querySelector('[data-act="word"]').onclick = () => speak(sayWord);
+  const sb = pop.querySelector('[data-act="sent"]'); if (sb) sb.onclick = () => speak(sentenceHost.dataset.say);
+  pop.querySelector('.close').onclick = closePop;
+  // position
+  pop.style.left = '0px'; pop.style.top = '0px'; pop.classList.add('open');
+  const r = w.getBoundingClientRect(), pw = pop.offsetWidth, ph = pop.offsetHeight;
+  let left = Math.min(Math.max(10, r.left + r.width / 2 - pw / 2), window.innerWidth - pw - 10);
+  let top = r.bottom + 10;
+  if (top + ph > window.innerHeight - 80) top = Math.max(70, r.top - ph - 10);
+  pop.style.left = left + 'px'; pop.style.top = top + 'px';
+  // mark seen + points (dialogue only)
+  if (!S.seen[key]) { S.seen[key] = true; $$(`.w[data-k="${CSS.escape(key)}"]`).forEach(x => x.classList.add('seen')); }
+  if (w.closest('.chat')) {
+    const n = Object.keys(S.pts).filter(k => k.startsWith('w:')).length;
+    if (n < SC.wordExplorePoints) award('w:' + key, 1, w);
+    updateMeter();
+  }
+}
+function closePop() { $('#pop').classList.remove('open'); $$('.w.active').forEach(x => x.classList.remove('active')); popAnchor = null; }
+document.addEventListener('click', ev => {
+  const w = ev.target.closest('.w');
+  if (w) { ev.stopPropagation(); if (popAnchor === w) closePop(); else openPop(w); return; }
+  if (!ev.target.closest('#pop')) closePop();
+});
+document.addEventListener('keydown', ev => {
+  if (ev.key === 'Escape') { closePop(); clearSel(); }
+  if ((ev.key === 'Enter' || ev.key === ' ') && ev.target.classList && ev.target.classList.contains('w')) { ev.preventDefault(); openPop(ev.target); }
+});
+window.addEventListener('scroll', () => popAnchor && closePop(), { passive: true });
+
+/* ---------- drag & tap engine (pointer events: mouse + touch) ---------- */
+let sel = null; // {kind, value, el}
+function clearSel() { if (sel && sel.el) sel.el.classList.remove('selected'); sel = null; $$('.armed').forEach(x => x.classList.remove('armed')); }
+function select(kind, value, elm, armSelector) {
+  const same = sel && sel.el === elm; clearSel(); if (same) return;
+  sel = { kind, value, el: elm }; elm.classList.add('selected');
+  if (armSelector) $$(armSelector).forEach(x => x.classList.add('armed'));
+}
+function dropAt(x, y) { const e = document.elementFromPoint(x, y); return e && e.closest('[data-drop]'); }
+function draggable(elm, { onDrop, onTap, onMove }) {
+  elm.addEventListener('pointerdown', e => {
+    if (e.button !== 0) return;
+    e.preventDefault();
+    const sx = e.clientX, sy = e.clientY; let ghost = null, over = null, lastY = sy, raf = 0;
+    const edge = () => {
+      if (!ghost) return;
+      const zone = 80, hgt = window.innerHeight;
+      if (lastY < zone + 40) window.scrollBy(0, -Math.ceil((zone + 40 - lastY) / 6));
+      else if (lastY > hgt - zone - 30) window.scrollBy(0, Math.ceil((lastY - (hgt - zone - 30)) / 6));
+      raf = requestAnimationFrame(edge);
+    };
+    const move = ev => {
+      lastY = ev.clientY;
+      if (!ghost) {
+        if (Math.hypot(ev.clientX - sx, ev.clientY - sy) < 6) return;
+        clearSel(); closePop();
+        ghost = elm.cloneNode(true); ghost.classList.add('ghost'); ghost.classList.remove('selected');
+        document.body.appendChild(ghost); elm.classList.add('dragging');
+        raf = requestAnimationFrame(edge);
+      }
+      ghost.style.left = ev.clientX + 'px'; ghost.style.top = ev.clientY + 'px';
+      const t = dropAt(ev.clientX, ev.clientY);
+      if (t !== over) { over && over.classList.remove('drop-hover'); over = t; over && over.classList.add('drop-hover'); }
+      onMove && onMove(ev, t);
+    };
+    const up = ev => {
+      window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up); window.removeEventListener('pointercancel', up);
+      over && over.classList.remove('drop-hover'); cancelAnimationFrame(raf);
+      if (ghost) { ghost.remove(); elm.classList.remove('dragging'); if (ev.type !== 'pointercancel') onDrop(dropAt(ev.clientX, ev.clientY), ev); }
+      else if (ev.type !== 'pointercancel') onTap(ev);
+    };
+    window.addEventListener('pointermove', move); window.addEventListener('pointerup', up); window.addEventListener('pointercancel', up);
+  });
+}
+
+/* ---------- shared MC renderer ---------- */
+function renderMC(q, key, host) {
+  const st = S.mc[key] || (S.mc[key] = { wrong: [], solved: false });
+  const box = el(`<div class="q"><div class="qt">${esc(q.q)}</div>${q.qEn ? `<div class="qen">${esc(q.qEn)}</div>` : ''}<div class="opts"></div><div class="fbh"></div></div>`);
+  const opts = $('.opts', box), fbh = $('.fbh', box);
+  const showFb = (ok) => { fbh.innerHTML = ok ? `<div class="fb ok">✓ Richtig! ${esc(q.why)}</div>` : `<div class="fb bad">✗ Not quite. Try again!</div>`; };
+  q.options.forEach((o, i) => {
+    const b = el(`<button class="opt">${q.kind === 'tf' ? (i === 0 ? '✔ ' : '✘ ') : ''}${esc(o)}</button>`);
+    if (st.wrong.includes(i)) { b.classList.add('wrong'); b.disabled = true; b.style.animation = 'none'; }
+    if (st.solved && i === q.answer) b.classList.add('right');
+    if (st.solved) b.disabled = true;
+    b.onclick = () => {
+      if (st.solved) return;
+      if (i === q.answer) {
+        st.solved = true; b.classList.add('right'); $$('.opt', opts).forEach(x => x.disabled = true);
+        award(key, st.wrong.length ? SC.afterRetry : SC.firstTry, b); showFb(true);
+      } else { st.wrong.push(i); b.classList.add('wrong'); b.disabled = true; showFb(false); }
+      updateStatus();
+    };
+    opts.appendChild(b);
+  });
+  if (st.solved) showFb(true);
+  host.appendChild(box);
+}
+
+/* ---------- step renderers ---------- */
+const R = {};
+
+R.dialogue = (step) => {
+  const v = el(`<div></div>`);
+  v.appendChild(el(`<div class="scene"><div class="bed emoji">🛏️</div><div><b>${esc(step.title)}</b><span>${esc(step.scene)}</span></div></div>`));
+  v.appendChild(el(`<div class="instructions"><span class="emoji">👆</span><span>${esc(step.instructions)}</span></div>`));
+  const card = el(`<div class="card ${S.showEn ? 'show-en' : ''} ${S.hl ? 'hl-modals' : ''}"></div>`);
+  const tools = el(`<div class="dialog-tools">
+      <button class="btn btn-primary" id="playAll">▶ Play dialogue</button>
+      <button class="btn btn-ghost" id="tEn">${S.showEn ? '🙈 Hide' : '🇬🇧 Show'} English</button>
+      <button class="btn btn-ghost" id="tHl">🖍️ ${S.hl ? 'Hide' : 'Highlight'} modal verbs</button>
+      <div class="explore-meter">Words explored <span class="meter"><i id="meterFill"></i></span> <span id="meterTxt"></span></div></div>`);
+  card.appendChild(tools);
+  const chat = el(`<div class="chat"></div>`);
+  step.lines.forEach((ln, i) => {
+    const sp = step.speakers[ln.who];
+    const row = el(`<div class="line ${ln.who}" style="animation-delay:${i * 60}ms">
+      <div class="avatar emoji">${sp.avatar}</div>
+      <div class="bubble" data-say="${esc(plain(ln.de))}">
+        <div class="who">${esc(sp.name)} · <span>${esc(sp.role)}</span><button class="say" title="Listen">🔊</button></div>
+        <div class="de">${tokenize(ln.de)}</div><div class="en">${esc(ln.en)}</div></div></div>`);
+    $('.say', row).onclick = (e) => { e.stopPropagation(); speak(plain(ln.de)); };
+    chat.appendChild(row);
+  });
+  card.appendChild(chat);
+  v.appendChild(card);
+  $('#tEn', v).onclick = () => { S.showEn = !S.showEn; card.classList.toggle('show-en', S.showEn); $('#tEn', v).textContent = (S.showEn ? '🙈 Hide' : '🇬🇧 Show') + ' English'; };
+  $('#tHl', v).onclick = () => { S.hl = !S.hl; card.classList.toggle('hl-modals', S.hl); $('#tHl', v).textContent = `🖍️ ${S.hl ? 'Hide' : 'Highlight'} modal verbs`; };
+  $('#playAll', v).onclick = () => {
+    const bubbles = $$('.bubble', chat); let i = 0;
+    const next = () => {
+      bubbles.forEach(b => b.classList.remove('speaking'));
+      if (i >= bubbles.length) return;
+      const b = bubbles[i++]; b.classList.add('speaking'); b.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      speak(b.dataset.say, () => setTimeout(next, 250));
+    };
+    if (!('speechSynthesis' in window)) return toast('🔇 Audio is not supported in this browser');
+    next();
+  };
+  setTimeout(updateMeter);
+  return v;
+};
+function updateMeter() {
+  const n = Object.keys(S.pts).filter(k => k.startsWith('w:')).length, m = SC.wordExplorePoints;
+  const f = $('#meterFill'), t = $('#meterTxt'); if (!f) return;
+  f.style.width = Math.min(100, n / m * 100) + '%'; t.textContent = `${Math.min(n, m)}/${m} ⭐`;
+}
+
+R.grammar = (step) => {
+  const v = el(`<div></div>`);
+  // hero
+  v.appendChild(el(`<div class="card"><div class="oa-hero">${SVG.oberarzt}<div>
+      <h2>👨‍⚕️ The modal verb is the Oberarzt</h2>${step.story.map(p => `<p>${p}</p>`).join('')}
+      <div class="queue"><div class="slot">Pos 1<br>subject / time</div><div class="slot s2">Pos 2<br>👨‍⚕️ modal verb</div><div class="slot">… middle …</div><div class="slot end">END<br>infinitive</div></div>
+    </div></div></div>`));
+  // animation
+  const ac = el(`<div class="card"><h2>🎬 Watch the Oberarzt arrive</h2>
+      <div class="bracket-stage"><div class="sentence" id="sent"></div><div class="sent-en" id="sentEn"></div></div>
+      <div class="anim-controls"><button class="btn btn-primary" id="callOA">👨‍⚕️ Call the Oberarzt</button><button class="btn btn-ghost" id="nextEx">Next example ↻</button><button class="btn btn-soft" id="sayEx">🔊 Listen</button></div>
+      <div class="qrule">❓ ${step.questionRule}</div></div>`);
+  v.appendChild(ac);
+  // meanings
+  const mc = el(`<div class="card"><h2>🧰 Six modal verbs, six jobs</h2><div class="meanings"></div></div>`);
+  step.meanings.forEach(m => {
+    const c = el(`<div class="mcard"><div class="top"><span class="em emoji">${m.emoji}</span><span class="mv">${esc(m.modal)}</span></div>
+      <div class="men">${esc(m.en)}</div><div class="use">${esc(m.use)}</div>
+      <div class="ex" data-say="${esc(m.de)}"><button class="say" title="Listen">🔊</button><span>${tokenize(m.de)}</span></div><div class="exen">${esc(m.deEn)}</div></div>`);
+    $('.say', c).onclick = () => speak(m.de);
+    $('.meanings', mc).appendChild(c);
+  });
+  v.appendChild(mc);
+  // warning
+  const w = step.warning;
+  v.appendChild(el(`<div class="card warnbox"><h3>⚠️ ${esc(w.title)}</h3><div class="vs">${w.items.map(i => `<div class="it ${i.tone}"><b>${i.tone === 'ok' ? '🟢' : '⛔'} ${esc(i.de)}</b>${esc(i.en)}</div>`).join('')}</div><div>${w.tip}</div></div>`));
+  // conjugation
+  const cj = step.conjugation;
+  const cc = el(`<div class="card"><h2>📋 Conjugation table</h2><div class="conj-tabs"><button class="btn btn-primary" data-set="main">${cj.main.join(' · ')}</button><button class="btn btn-ghost" data-set="extra">${cj.extra.join(' · ')}</button></div><div id="conjHost"></div>
+      <div class="legend"><span><i style="background:#c2410c"></i>singular stem (often a new vowel!)</span><span><i style="background:#0d9488"></i>plural stem</span><span><i style="background:#7c3aed"></i>ending</span><span><i style="background:#fff3d6;border:1px solid #f59e0b"></i>ich = er/sie/es</span></div>
+      <ul class="tips">${cj.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul></div>`);
+  const drawConj = (set) => {
+    const verbs = cj[set];
+    const rows = cj.persons.map((p, pi) => `<tr class="${pi === 0 || pi === 2 ? 'same' : ''}"><td class="p">${p}</td>${verbs.map(vb => {
+      const [stem, end] = cj.forms[vb][pi].split('|');
+      return `<td data-say="${esc(p.split('/')[0] + ' ' + stem + (end || ''))}" style="cursor:pointer"><span class="${pi < 3 ? 'stem-sg' : 'stem-pl'}">${stem}</span>${end ? `<span class="end">${end}</span>` : ''}</td>`;
+    }).join('')}</tr>`).join('');
+    $('#conjHost', cc).innerHTML = `<table class="conj conj-fade"><thead><tr><th></th>${verbs.map(x => `<th>${x}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table>`;
+    $$('td[data-say]', cc).forEach(td => td.onclick = () => speak(td.dataset.say));
+    $$('.conj-tabs .btn', cc).forEach(b => b.className = 'btn ' + (b.dataset.set === set ? 'btn-primary' : 'btn-ghost'));
+  };
+  $$('.conj-tabs .btn', cc).forEach(b => b.onclick = () => drawConj(b.dataset.set));
+  drawConj('main');
+  v.appendChild(cc);
+  // quiz
+  const qc = el(`<div class="card"><h2>✅ Quick check</h2></div>`);
+  step.quiz.forEach((q, i) => renderMC(q, 'gq:' + i, qc));
+  v.appendChild(qc);
+  setTimeout(() => buildAnim(step, ac));
+  return v;
+};
+
+function buildAnim(step, ac) {
+  const ex = step.animation[S.anim % step.animation.length];
+  const sent = $('#sent', ac), en = $('#sentEn', ac), btn = $('#callOA', ac);
+  let mode = 'before';
+  const posLabel = { subj: 'Pos 1', verb: 'Pos 2 · verb', rest: '…' };
+  sent.innerHTML = '';
+  ex.before.forEach(t => {
+    const tk = el(`<div class="tok ${t.r}" data-r="${t.r}"><div class="chip">${esc(t.t)}</div><div class="pos-l">${posLabel[t.r]}</div></div>`);
+    sent.appendChild(tk);
+  });
+  sent.appendChild(el(`<div class="bracket"><span>Satzklammer · sentence bracket</span></div>`));
+  en.textContent = ex.enBefore;
+  btn.disabled = false; btn.textContent = '👨‍⚕️ Call the Oberarzt';
+  const text = () => mode === 'before' ? ex.before.map(t => t.t).join(' ') + '.' : [ex.before[0].t, ex.modal, ...ex.before.filter(t => t.r === 'rest').map(t => t.t), ex.before.find(t => t.r === 'verb').inf].join(' ') + '.';
+  btn.onclick = () => {
+    if (mode === 'after') return;
+    mode = 'after'; btn.disabled = true;
+    const toks = $$('.tok', sent);
+    const first = new Map(toks.map(t => [t, t.getBoundingClientRect().left]));
+    const subj = toks.find(t => t.dataset.r === 'subj'), verb = toks.find(t => t.dataset.r === 'verb'), rest = toks.filter(t => t.dataset.r === 'rest');
+    const modal = el(`<div class="tok modal enter" data-r="modal"><div class="chip">${esc(ex.modal)}</div><div class="pos-l">Pos 2 · modal</div></div>`);
+    const br = $('.bracket', sent);
+    sent.insertBefore(modal, br);
+    rest.forEach(r => { sent.insertBefore(r, br); $('.pos-l', r).textContent = 'middle'; });
+    sent.insertBefore(verb, br);
+    $('.chip', verb).textContent = ex.before.find(t => t.r === 'verb').inf;
+    verb.classList.remove('verb'); verb.classList.add('inf'); $('.pos-l', verb).textContent = 'END · infinitive';
+    subj.after(modal);
+    toks.forEach(t => {
+      const dx = first.get(t) - t.getBoundingClientRect().left;
+      t.style.transition = 'none'; t.style.transform = `translateX(${dx}px)`;
+    });
+    void sent.offsetWidth;
+    toks.forEach(t => { t.style.transition = 'transform .7s cubic-bezier(.5,1.4,.5,1)'; t.style.transform = ''; });
+    requestAnimationFrame(() => {
+      br.style.left = modal.offsetLeft + 'px';
+      br.style.width = (verb.offsetLeft + verb.offsetWidth - modal.offsetLeft) + 'px';
+      setTimeout(() => br.classList.add('on'), 450);
+    });
+    en.textContent = ex.enAfter;
+    setTimeout(() => speak(text()), 300);
+  };
+  $('#nextEx', ac).onclick = () => { S.anim++; buildAnim(step, ac); };
+  $('#sayEx', ac).onclick = () => speak(text());
+}
+
+R.gapfill = (step) => {
+  const st = S.gap;
+  const v = el(`<div></div>`);
+  v.appendChild(el(`<div class="instructions"><span class="emoji">✋</span><span>${esc(step.instructions)}</span></div>`));
+  const card = el(`<div class="card"><div class="bank sticky" id="gapBank" data-drop="bank"></div><div class="gap-items"></div></div>`);
+  const bank = $('#gapBank', card), list = $('.gap-items', card);
+  const usedAnswers = () => step.items.filter((it, i) => st.done[i]).map(it => it.answer);
+  const chipFor = (c) => {
+    const ch = el(`<div class="dchip" data-w="${esc(c.w)}">${esc(c.w)}</div>`);
+    draggable(ch, {
+      onTap: () => select('gap', c.w, ch, '.gap:not(.filled)'),
+      onDrop: (t) => { if (t && t.classList.contains('gap')) tryGap(+t.dataset.i, c.w); }
+    });
+    return ch;
+  };
+  seededShuffle(step.chips, 3).forEach(c => { if (!usedAnswers().includes(c.w)) bank.appendChild(chipFor(c)); });
+  step.items.forEach((it, i) => {
+    const done = st.done[i];
+    const row = el(`<div class="gitem ${done ? 'solved' : ''}" data-i="${i}">
+      <div class="row"><span class="num">${i + 1}</span><span class="who emoji">${it.who}</span>
+      ${it.before ? `<span>${esc(it.before)}</span>` : ''}<span class="gap ${done ? 'filled' : ''}" data-drop="gap" data-i="${i}">${done ? esc(it.answer) : '?'}</span><span>${esc(it.after)}</span></div>
+      <div class="fbh">${done ? `<div class="fb ok">✓ ${esc(it.why)}</div>` : ''}</div>
+      <div class="en">${done ? esc(it.en) : ''}</div></div>`);
+    $('.gap', row).addEventListener('click', () => { if (sel && sel.kind === 'gap') { const w = sel.value; clearSel(); tryGap(i, w); } else if (!st.done[i]) toast('Pick a verb first, then tap the gap'); });
+    list.appendChild(row);
+  });
+  function tryGap(i, w) {
+    if (st.done[i]) return;
+    const it = step.items[i], row = $(`.gitem[data-i="${i}"]`, list), gap = $('.gap', row), fbh = $('.fbh', row);
+    if (w === it.answer) {
+      st.done[i] = true;
+      gap.textContent = w; gap.classList.remove('wrong'); gap.classList.add('filled'); row.classList.add('solved');
+      fbh.innerHTML = `<div class="fb ok">✓ ${esc(it.why)}</div>`; $('.en', row).textContent = it.en;
+      const ch = $(`.dchip[data-w="${CSS.escape(w)}"]`, bank); ch && ch.remove();
+      award('gap:' + i, st.tries[i] ? SC.afterRetry : SC.firstTry, gap);
+      speak(`${it.before ? it.before + ' ' : ''}${w} ${it.after}`);
+      if (Object.keys(st.done).length === step.items.length) toast('🎉 All gaps filled. Super!');
+    } else {
+      st.tries[i] = (st.tries[i] || 0) + 1;
+      const chip = step.chips.find(c => c.w === w);
+      gap.classList.remove('wrong'); void gap.offsetWidth; gap.classList.add('wrong');
+      setTimeout(() => gap.classList.remove('wrong'), 600);
+      fbh.innerHTML = `<div class="fb bad">✗ „${esc(w)}“ doesn't fit: ${esc(chip.hint)}. <b>Tip:</b> ${esc(it.tip)}</div>`;
+    }
+    updateStatus();
+  }
+  v.appendChild(card);
+  return v;
+};
+
+R.builder = (step) => {
+  const st = S.builder;
+  const v = el(`<div></div>`);
+  v.appendChild(el(`<div class="instructions"><span class="emoji">🧩</span><span>${esc(step.instructions)}</span></div>`));
+  step.items.forEach((it, i) => {
+    if (!st.lines[i]) st.lines[i] = [];
+    const order = shuffleNotIdentity(it.tiles.map((_, k) => k), i + 7);
+    const card = el(`<div class="card bitem"><div class="head"><span class="num" style="width:28px;height:28px;border-radius:50%;background:#e6f7f5;color:#0d9488;font-weight:800;display:grid;place-items:center">${i + 1}</span><span class="en">“${esc(it.en)}”</span></div>
+      <div class="answer-line" data-drop="line" data-ph="Drop the words here …"></div>
+      <div class="bank" data-drop="bank"></div>
+      <div class="bactions"><button class="btn btn-primary chk">Check</button><button class="btn btn-ghost rst">↺ Reset</button><button class="btn btn-soft say2" style="display:none">🔊 Listen</button></div><div class="fbh"></div></div>`);
+    const line = $('.answer-line', card), bank = $('.bank', card), fbh = $('.fbh', card), chk = $('.chk', card);
+    const sentence = () => st.lines[i].map(k => it.tiles[k]).join(' ');
+    let mark = null;
+    const removeMark = () => { mark && mark.remove(); mark = null; };
+    const insertIndex = (x, y, exclude) => {
+      const chips = $$('.dchip', line).filter(c => c !== exclude);
+      for (let n = 0; n < chips.length; n++) {
+        const r = chips[n].getBoundingClientRect(), cy = r.top + r.height / 2, cx = r.left + r.width / 2;
+        if (y < r.top - 4) return n;
+        if (Math.abs(y - cy) <= r.height / 2 + 4 && x < cx) return n;
+      }
+      return chips.length;
+    };
+    const draw = () => {
+      line.innerHTML = ''; bank.innerHTML = '';
+      const solved = st.solved[i];
+      st.lines[i].forEach(k => line.appendChild(tile(k, true)));
+      if (st.lines[i].length) line.appendChild(el(`<span class="punct">${esc(it.punct)}</span>`));
+      line.classList.toggle('empty', !st.lines[i].length);
+      line.classList.toggle('ok', !!solved);
+      order.filter(k => !st.lines[i].includes(k)).forEach(k => bank.appendChild(tile(k, false)));
+      bank.style.display = solved ? 'none' : '';
+      chk.disabled = solved || st.lines[i].length !== it.tiles.length;
+      chk.style.display = solved ? 'none' : ''; $('.rst', card).style.display = solved ? 'none' : '';
+      $('.say2', card).style.display = solved ? '' : 'none';
+      if (solved) fbh.innerHTML = `<div class="fb ok">✓ Perfekt! „${esc(sentence() + it.punct)}“ The Oberarzt is in place and the infinitive is at the end.</div>`;
+      updateStatus();
+    };
+    const tile = (k, inLine) => {
+      const t = el(`<div class="dchip">${esc(it.tiles[k])}</div>`);
+      if (st.solved[i]) return t;
+      draggable(t, {
+        onTap: () => {
+          const a = st.lines[i];
+          if (inLine) a.splice(a.indexOf(k), 1); else a.push(k);
+          fbh.innerHTML = ''; line.classList.remove('bad'); draw();
+        },
+        onMove: (ev, tg) => {
+          if (tg === line) {
+            const idx = insertIndex(ev.clientX, ev.clientY, t);
+            const chips = $$('.dchip', line).filter(c => c !== t);
+            if (!mark) mark = el('<span class="insert-mark"></span>');
+            if (chips[idx]) line.insertBefore(mark, chips[idx]); else line.insertBefore(mark, $('.punct', line));
+          } else removeMark();
+        },
+        onDrop: (tg, ev) => {
+          removeMark();
+          const a = st.lines[i];
+          if (tg === line) {
+            const idx = insertIndex(ev.clientX, ev.clientY, t);
+            const pos = a.indexOf(k); if (pos > -1) a.splice(pos, 1);
+            a.splice(Math.min(idx, a.length), 0, k);
+          } else if (tg === bank && inLine) a.splice(a.indexOf(k), 1);
+          fbh.innerHTML = ''; line.classList.remove('bad'); draw();
+        }
+      });
+      return t;
+    };
+    chk.onclick = () => {
+      const s = sentence().toLowerCase();
+      if (it.answers.some(a => a.toLowerCase() === s)) {
+        st.solved[i] = true; award('b:' + i, st.tries[i] ? SC.afterRetry : SC.firstTry, chk); draw(); speak(sentence() + it.punct);
+      } else {
+        st.tries[i] = (st.tries[i] || 0) + 1;
+        const words = st.lines[i].map(k => it.tiles[k]);
+        let msg;
+        if (words[words.length - 1] !== it.inf) msg = `The infinitive „${it.inf}“ goes to the very end. Back of the queue!`;
+        else if (it.question && words[0] !== it.modal) msg = `In a yes/no question the modal verb („${it.modal}“) comes first.`;
+        else msg = `Remember: the modal („${it.modal}“) stands in position 2, after ONE sentence part (e.g. a subject like „Die Ärztin“ or a time like „Heute“).`;
+        line.classList.remove('bad'); void line.offsetWidth; line.classList.add('bad');
+        fbh.innerHTML = `<div class="fb bad">✗ Not yet. ${esc(msg)}</div>`;
+      }
+    };
+    $('.rst', card).onclick = () => { st.lines[i] = []; fbh.innerHTML = ''; line.classList.remove('bad'); draw(); };
+    $('.say2', card).onclick = () => speak(sentence() + it.punct);
+    draw();
+    v.appendChild(card);
+  });
+  return v;
+};
+
+R.picturematch = (step) => {
+  const st = S.match;
+  const v = el(`<div></div>`);
+  v.appendChild(el(`<div class="instructions"><span class="emoji">🖼️</span><span>${esc(step.instructions)} <b style="color:var(--der)">der</b> · <b style="color:var(--die)">die</b> · <b style="color:var(--das)">das</b></span></div>`));
+  const card = el(`<div class="card"><div class="bank sticky" data-drop="bank"></div><div class="pics"></div></div>`);
+  const bank = $('.bank', card), pics = $('.pics', card);
+  const label = it => `<span class="art-${it.article}">${it.article}</span> ${esc(it.de)}`;
+  seededShuffle(step.items, 11).forEach(it => {
+    if (st.done[it.id]) return;
+    const ch = el(`<div class="dchip" data-id="${it.id}">${label(it)}</div>`);
+    draggable(ch, {
+      onTap: () => select('pic', it.id, ch, '.pic-card:not(.matched)'),
+      onDrop: (t) => { const c = t && t.closest('.pic-card'); if (c) tryMatch(it.id, c.dataset.id); }
+    });
+    bank.appendChild(ch);
+  });
+  step.items.forEach(it => {
+    const done = st.done[it.id];
+    const c = el(`<div class="pic-card ${done ? 'matched' : ''}" data-drop="pic" data-id="${it.id}"><div class="art-box">${SVG[it.image.id]}</div><div class="slot"></div></div>`);
+    fillSlot(c, it, done);
+    c.addEventListener('click', (e) => {
+      if (e.target.closest('.say')) return;
+      if (sel && sel.kind === 'pic') { const id = sel.value; clearSel(); tryMatch(id, it.id); }
+      else if (!st.done[it.id]) toast('Pick a word first, then tap the picture');
+    });
+    pics.appendChild(c);
+  });
+  function fillSlot(c, it, done) {
+    const slot = $('.slot', c);
+    if (done) {
+      slot.innerHTML = `<b>${label(it)} <button class="say" title="Listen">🔊</button></b><span>${esc(it.en)} · Pl.: ${esc(it.plural)}</span>`;
+      $('.say', slot).onclick = () => speak(`${it.article} ${it.de}`);
+    } else slot.textContent = 'Drop the word here';
+  }
+  function tryMatch(id, target) {
+    const it = step.items.find(x => x.id === id), c = $(`.pic-card[data-id="${target}"]`, pics);
+    if (st.done[target]) return;
+    if (id === target) {
+      st.done[id] = true; c.classList.add('matched'); fillSlot(c, it, true);
+      const ch = $(`.dchip[data-id="${id}"]`, bank); ch && ch.remove();
+      award('m:' + id, st.tries[id] ? SC.afterRetry : SC.firstTry, c);
+      speak(`${it.article} ${it.de}`);
+      if (Object.keys(st.done).length === step.items.length) { bank.style.display = 'none'; toast('🎉 All items matched!'); }
+    } else {
+      st.tries[id] = (st.tries[id] || 0) + 1;
+      c.classList.remove('wrong'); void c.offsetWidth; c.classList.add('wrong'); setTimeout(() => c.classList.remove('wrong'), 500);
+      toast(`✗ That's not ${it.article} ${it.de}. Try another picture!`);
+    }
+    updateStatus();
+  }
+  if (Object.keys(st.done).length === step.items.length) bank.style.display = 'none';
+  v.appendChild(card);
+  return v;
+};
+
+R.reading = (step) => {
+  const d = step.document;
+  const v = el(`<div></div>`);
+  v.appendChild(el(`<div class="instructions"><span class="emoji">📄</span><span>${esc(step.instructions)}</span></div>`));
+  const g = el(`<div class="reading-grid"></div>`);
+  const paper = el(`<div class="paper"><div class="lh"><span class="emoji">🏥</span>${esc(d.letterhead)}<button class="say" style="margin-left:auto" title="Listen to the whole note">🔊 Listen</button></div>
+     <h3 data-say="${esc(d.title)}">${tokenize(d.title)}</h3>${d.paragraphs.map(p => `<p data-say="${esc(p)}">${tokenize(p)}</p>`).join('')}
+     <div class="sig" data-say="${esc(d.signature)}">${tokenize(d.signature)}</div><div class="stamp">ENTLASSEN</div></div>`);
+  $('.say', paper).onclick = () => speak([d.title, ...d.paragraphs].join(' '));
+  g.appendChild(paper);
+  const qc = el(`<div class="card"><h2>❓ Questions</h2></div>`);
+  step.questions.forEach((q, i) => renderMC(q, 'r:' + i, qc));
+  g.appendChild(qc);
+  v.appendChild(g);
+  return v;
+};
+
+R.summary = (step) => {
+  const t = total(), ratio = t / MAX, stars = starsFor(ratio);
+  const msg = ['Keep practising, you\'ll get there! 💪', 'Good start! Review the grammar and try again.', 'Sehr gut! Great work on the ward.', 'Ausgezeichnet! You\'re ready for the ward round. 🩺'][stars];
+  const v = el(`<div></div>`);
+  const hero = el(`<div class="sum-hero"><div class="kicker" style="color:#99f6e4">${esc(L.platform)} · ${esc(L.level)} · ${esc(L.title)}</div><h2>${esc(step.title)}</h2>
+     <div class="big-stars emoji">${[0, 1, 2].map(i => `<span class="${i < stars ? '' : 'off'}" style="animation-delay:${200 + i * 220}ms">⭐</span>`).join('')}</div>
+     <div class="score-big">${t} / ${MAX} points · ${Math.round(ratio * 100)}%</div><div style="margin-top:6px;opacity:.95">${msg}</div></div>`);
+  v.appendChild(hero);
+  if (stars >= 2) for (let i = 0; i < 40; i++) {
+    const c = el(`<i class="confetti"></i>`);
+    c.style.left = Math.random() * 100 + '%'; c.style.background = ['#fbbf24', '#34d399', '#60a5fa', '#f472b6', '#fff'][i % 5];
+    c.style.animationDuration = (1.6 + Math.random() * 1.6) + 's'; c.style.animationDelay = (Math.random() * .6) + 's';
+    hero.appendChild(c);
+  }
+  const grid = el(`<div class="grid2"></div>`);
+  const bd = el(`<div class="card"><h2>📊 Your results</h2><div class="breakdown">${sections.map(s => { const p = sectionPts(s.key); return `<div class="bd-row"><span>${s.label}</span><span class="bar"><i style="width:0" data-w="${(p / s.max * 100).toFixed(0)}%"></i></span><span class="v">${p}/${s.max}</span></div>`; }).join('')}</div>
+     <div style="display:flex;gap:10px;margin-top:18px;flex-wrap:wrap"><button class="btn btn-primary" id="restart">↺ Try the lesson again</button><button class="btn btn-ghost" id="review">📖 Review grammar</button></div></div>`);
+  const rm = el(`<div class="card"><h2>🗣️ Redemittel: key phrases for the ward</h2><div class="redemittel">${step.redemittel.map((r, i) => `<div class="rm"><button class="icon-btn" data-i="${i}" title="Listen">🔊</button><div><b>${esc(r.de)}</b><span>${esc(r.en)}</span></div></div>`).join('')}</div></div>`);
+  $$('.icon-btn', rm).forEach(b => b.onclick = () => speak(step.redemittel[+b.dataset.i].de));
+  grid.appendChild(bd); grid.appendChild(rm); v.appendChild(grid);
+  $('#restart', bd).onclick = () => { S = fresh(); updateScore(); go(0); };
+  $('#review', bd).onclick = () => go(STEPS.findIndex(s => s.type === 'grammar'));
+  setTimeout(() => $$('.bar i', bd).forEach(i => i.style.width = i.dataset.w), 80);
+  return v;
+};
+
+/* ---------- shell: progress, nav, routing ---------- */
+function progressInfo(i) {
+  const s = STEPS[i];
+  switch (s.type) {
+    case 'dialogue': { const n = Object.keys(S.pts).filter(k => k.startsWith('w:')).length; return `Explore words: ${Math.min(n, SC.wordExplorePoints)}/${SC.wordExplorePoints}`; }
+    case 'grammar': return `Quick check: ${s.quiz.filter((q, k) => S.mc['gq:' + k] && S.mc['gq:' + k].solved).length}/${s.quiz.length}`;
+    case 'gapfill': return `Solved: ${Object.keys(S.gap.done).length}/${s.items.length}`;
+    case 'builder': return `Solved: ${Object.keys(S.builder.solved).length}/${s.items.length}`;
+    case 'picturematch': return `Matched: ${Object.keys(S.match.done).length}/${s.items.length}`;
+    case 'reading': return `Answered: ${s.questions.filter((q, k) => S.mc['r:' + k] && S.mc['r:' + k].solved).length}/${s.questions.length}`;
+    default: return 'Well done!';
+  }
+}
+function updateStatus() { const st = $('#status'); if (st) st.textContent = `Step ${current + 1} of ${STEPS.length} · ${progressInfo(current)}`; }
+
+function render() {
+  closePop(); clearSel(); $('#toast').classList.remove('show');
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  const step = STEPS[current];
+  $('#progFill').style.width = ((current) / (STEPS.length - 1) * 100) + '%';
+  $$('.step-dot').forEach((d, i) => { d.classList.toggle('active', i === current); d.classList.toggle('done', i < current); });
+  const main = $('#stage'); main.innerHTML = '';
+  const view = el(`<section class="step-view"><div class="step-head"><div><div class="kicker">Step ${current + 1} · ${esc(step.label)}</div>${step.type === 'summary' ? '' : `<h1>${esc(step.type === 'dialogue' ? 'Listen & explore the ward round' : step.title)}</h1>`}</div></div></section>`);
+  view.appendChild(R[step.type](step));
+  main.appendChild(view);
+  $('#back').disabled = current === 0;
+  const nx = $('#next');
+  nx.textContent = current === STEPS.length - 1 ? '↺ Start over' : current === STEPS.length - 2 ? 'Finish ✓' : 'Next →';
+  updateStatus();
+  window.scrollTo(0, 0);
+}
+function go(i) {
+  current = Math.max(0, Math.min(STEPS.length - 1, i));
+  const h = '#step=' + (current + 1);
+  if (location.hash !== h) history.replaceState(null, '', h);
+  render();
+}
+function fromHash() { const m = /step=(\d+)/.exec(location.hash); return m ? (+m[1] - 1) : 0; }
+
+function init() {
+  document.title = `${L.platform} · ${L.level} · ${L.title}`;
+  $('#brand').innerHTML = `${SVG.logo}<span>Medi<b>Deutsch</b></span>`;
+  $('#lvl').textContent = `${L.level} · ${L.unit} · Grammar`;
+  $('#ttl').textContent = `${L.title}: ${L.subtitle.split(':')[0]}`;
+  const dots = $('#dots');
+  STEPS.forEach((s, i) => { const d = el(`<button class="step-dot" title="${esc(s.label)}"><span class="n">${i + 1}</span><span class="l">${esc(s.label)}</span></button>`); d.onclick = () => go(i); dots.appendChild(d); });
+  $('#back').onclick = () => go(current - 1);
+  $('#next').onclick = () => { if (current === STEPS.length - 1) { S = fresh(); updateScore(); go(0); } else go(current + 1); };
+  window.addEventListener('hashchange', () => { const i = fromHash(); if (i !== current) go(i); });
+  updateScore();
+  go(fromHash());
+}
+init();
+})();
+
+</script>
+</body>
+</html>

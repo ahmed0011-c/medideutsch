@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "_template",
+  "platform": "MediDeutsch",
+  "level": "A1",
+  "unit": "Kapitel 0",
+  "title": "Template",
+  "subtitle": "Copy this file, drop the underscore, and replace every German sentence.",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "chapter": 0,
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 4,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "3": 0.9, "2": 0.7, "1": 0.4 }
+  },
+  "glossary": {
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I" },
+    "bin": { "de": "sein → ich bin", "pos": "verb", "en": "am" },
+    "pflegekraft": { "de": "Pflegekraft", "pos": "noun", "article": "die", "plural": "die Pflegekräfte", "en": "nurse" },
+    "auf": { "de": "auf", "pos": "preposition", "en": "on" },
+    "station": { "de": "Station", "pos": "noun", "article": "die", "plural": "die Stationen", "en": "ward" },
+    "guten": { "de": "guten", "pos": "adjective", "en": "good" },
+    "morgen": { "de": "Morgen", "pos": "noun", "article": "der", "en": "morning" },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 15,
+      "learn": [
+        "One goal, written for a beginner.",
+        "A second goal, with the <b>form</b> you want them to notice.",
+        "A third goal, tied to a ward situation.",
+        "Practice rule for real lessons: at least 12 exercises and 60 items, including match, gap, choose, build, transform, Finde den Fehler, a picture task, a dialogue, a reading, writing with a model answer, and a Lernkontrolle of 10 or more at 80% to count as mastered. This skeleton is exempt."
+      ],
+      "vocab": [
+        { "de": "Pflegekraft", "article": "die", "plural": "die Pflegekräfte", "en": "nurse", "emoji": "🧑‍⚕️", "glossaryKey": "pflegekraft" },
+        { "de": "Station", "article": "die", "plural": "die Stationen", "en": "ward", "emoji": "🛏️", "glossaryKey": "station" },
+        { "de": "Morgen", "article": "der", "en": "morning", "emoji": "🌅", "glossaryKey": "morgen" }
+      ],
+      "text": {
+        "title": "Guten Morgen",
+        "de": "Guten Morgen. Ich bin Anna. Ich bin Pflegekraft auf Station.",
+        "en": "Good morning. I am Anna. I am a nurse on the ward."
+      }
+    },
+    {
+      "id": "done",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Geschafft",
+      "redemittel": [
+        { "de": "Ich bin Pflegekraft.", "en": "I am a nurse." }
+      ]
+    }
+  ]
+}

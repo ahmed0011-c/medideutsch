@@ -1,0 +1,1615 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "id": "a1-04-vokalwechsel",
+  "level": "A1",
+  "unit": "Kapitel 4",
+  "chapter": 4,
+  "chapters": [
+    4
+  ],
+  "title": "Er schläft, sie gibt, er nimmt",
+  "subtitle": "Vowel-changing verbs at the bedside",
+  "glossary": {
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🙋"
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal singular)",
+      "emoji": "👉",
+      "note": "Use du with colleagues you know well. With patients, use Sie."
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he; also the pronoun for der-nouns",
+      "emoji": "👨"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)",
+      "emoji": "🫵",
+      "note": "Capital Sie is formal you. Lowercase sie is she or they. A die-noun also takes sie."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)",
+      "emoji": "🔵",
+      "article": "der"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🔴"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🧑🏽",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient (female)",
+      "emoji": "👩",
+      "article": "die",
+      "plural": "die Patientinnen"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "Mr",
+      "emoji": "👨",
+      "article": "der",
+      "plural": "die Herren"
+    },
+    "yilmaz": {
+      "de": "Yilmaz",
+      "pos": "name",
+      "en": "the patient's surname",
+      "emoji": "🧑🏽"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten"
+    },
+    "schläft": {
+      "de": "schlafen → er/sie schläft",
+      "pos": "verb",
+      "en": "sleeps",
+      "emoji": "😴",
+      "note": "a → ä in du and er/sie/es."
+    },
+    "schlafen": {
+      "de": "schlafen",
+      "pos": "verb",
+      "en": "to sleep",
+      "emoji": "😴"
+    },
+    "isst": {
+      "de": "essen → du/er isst",
+      "pos": "verb",
+      "en": "eats",
+      "emoji": "🍽️",
+      "note": "e → i, and ss: du isst, er isst."
+    },
+    "essen": {
+      "de": "essen",
+      "pos": "verb",
+      "en": "to eat",
+      "emoji": "🍽️"
+    },
+    "gibt": {
+      "de": "geben → er/sie gibt",
+      "pos": "verb",
+      "en": "gives",
+      "emoji": "🎁",
+      "note": "e → i: du gibst, er gibt."
+    },
+    "geben": {
+      "de": "geben",
+      "pos": "verb",
+      "en": "to give",
+      "emoji": "🎁"
+    },
+    "nimmt": {
+      "de": "nehmen → er/sie nimmt",
+      "pos": "verb",
+      "en": "takes",
+      "emoji": "✋",
+      "note": "e → i, and an extra m: du nimmst, er nimmt."
+    },
+    "nehmen": {
+      "de": "nehmen",
+      "pos": "verb",
+      "en": "to take",
+      "emoji": "✋"
+    },
+    "sieht": {
+      "de": "sehen → er/sie sieht",
+      "pos": "verb",
+      "en": "sees",
+      "emoji": "👀",
+      "note": "e → ie: du siehst, er sieht."
+    },
+    "sehen": {
+      "de": "sehen",
+      "pos": "verb",
+      "en": "to see",
+      "emoji": "👀"
+    },
+    "spricht": {
+      "de": "sprechen → er/sie spricht",
+      "pos": "verb",
+      "en": "speaks",
+      "emoji": "🗣️",
+      "note": "e → i: du sprichst, er spricht."
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "🤝",
+      "note": "mit + dative: mit dem Patienten."
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)",
+      "emoji": "🟣"
+    },
+    "patienten": {
+      "de": "Patient → dem Patienten",
+      "pos": "noun",
+      "en": "patient (dative singular)",
+      "emoji": "🧑🏽",
+      "article": "der",
+      "note": "der Patient adds -en in every case except nominative singular."
+    },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "emoji": "🩹",
+      "article": "die",
+      "plural": "die Wunden"
+    },
+    "nichts": {
+      "de": "nichts",
+      "pos": "pronoun",
+      "en": "nothing",
+      "emoji": "⭕"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "📆"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)",
+      "emoji": "1️⃣"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on; auf Station = on the ward",
+      "emoji": "📍"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🛏️",
+      "article": "die",
+      "plural": "die Stationen",
+      "note": "auf Station = on the ward, often without an article."
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🤒",
+      "article": "das"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please",
+      "emoji": "🙏"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "the nurse's name",
+      "emoji": "🧑‍⚕️"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "schläfst": {
+      "de": "schlafen → du schläfst",
+      "pos": "verb",
+      "en": "sleep (du)",
+      "emoji": "😴"
+    },
+    "gibst": {
+      "de": "geben → du gibst",
+      "pos": "verb",
+      "en": "give (du)",
+      "emoji": "🎁"
+    },
+    "nimmst": {
+      "de": "nehmen → du nimmst",
+      "pos": "verb",
+      "en": "take (du)",
+      "emoji": "✋"
+    },
+    "siehst": {
+      "de": "sehen → du siehst",
+      "pos": "verb",
+      "en": "see (du)",
+      "emoji": "👀"
+    },
+    "liest": {
+      "de": "lesen → du/er liest",
+      "pos": "verb",
+      "en": "reads",
+      "emoji": "📄",
+      "note": "e → ie: du liest, er liest."
+    },
+    "lesen": {
+      "de": "lesen",
+      "pos": "verb",
+      "en": "to read",
+      "emoji": "📄"
+    },
+    "kurve": {
+      "de": "Kurve",
+      "pos": "noun",
+      "en": "chart",
+      "emoji": "📈",
+      "article": "die",
+      "plural": "die Kurven"
+    },
+    "nein": {
+      "de": "nein",
+      "pos": "particle",
+      "en": "no",
+      "emoji": "❌"
+    },
+    "mehr": {
+      "de": "mehr",
+      "pos": "adverb",
+      "en": "more; nicht mehr = no longer",
+      "emoji": "⏳"
+    },
+    "ja": {
+      "de": "ja",
+      "pos": "particle",
+      "en": "yes",
+      "emoji": "✔️"
+    },
+    "mir": {
+      "de": "mir",
+      "pos": "pronoun",
+      "en": "me (dative)",
+      "emoji": "🙋",
+      "note": "mit mir = with me."
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Ärztinnen"
+    },
+    "nacht": {
+      "de": "Nacht",
+      "pos": "noun",
+      "en": "night",
+      "emoji": "🌙",
+      "article": "die",
+      "plural": "die Nächte"
+    },
+    "kein": {
+      "de": "kein",
+      "pos": "article",
+      "en": "no; not a",
+      "emoji": "🚫"
+    },
+    "hat": {
+      "de": "haben → er/sie hat",
+      "pos": "verb",
+      "en": "has",
+      "emoji": "🤲"
+    },
+    "schlafe": {
+      "de": "schlafen → ich schlafe",
+      "pos": "verb",
+      "en": "sleep (ich)",
+      "emoji": "😴"
+    },
+    "nehme": {
+      "de": "nehmen → ich nehme",
+      "pos": "verb",
+      "en": "take (ich)",
+      "emoji": "✋"
+    },
+    "sehe": {
+      "de": "sehen → ich sehe",
+      "pos": "verb",
+      "en": "see (ich)",
+      "emoji": "👀"
+    },
+    "am": {
+      "de": "am (= an dem)",
+      "pos": "preposition",
+      "en": "at the; on the",
+      "emoji": "📍"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Betten",
+      "en": "bed",
+      "emoji": "🛏️"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 18,
+      "learn": [
+        "Some verbs change the vowel in <b>du</b> and <b>er/sie/es</b> only.",
+        "<b>a → ä</b>: schlafen → du schläfst, er schläft.",
+        "<b>e → i</b>: geben → du gibst, er gibt. essen → du isst. nehmen → du nimmst.",
+        "<b>e → ie</b>: sehen → du siehst, er sieht. lesen → du liest."
+      ],
+      "vocab": [
+        {
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "emoji": "💊",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "glossaryKey": "tablette"
+        },
+        {
+          "de": "Wunde",
+          "article": "die",
+          "plural": "die Wunden",
+          "en": "wound",
+          "emoji": "🩹",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "glossaryKey": "wunde"
+        },
+        {
+          "de": "Wasser",
+          "article": "das",
+          "en": "water",
+          "emoji": "💧",
+          "glossaryKey": "wasser"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "en": "fever",
+          "emoji": "🤒",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "glossaryKey": "fieber"
+        }
+      ],
+      "text": {
+        "title": "Am Bett",
+        "de": "Der Patient schläft. Er isst heute nichts. Die Pflegekraft gibt eine Tablette. Er nimmt die Tablette. Die Ärztin sieht die Wunde. Sie spricht mit dem Patienten. Anna liest die Kurve.",
+        "en": "The patient is sleeping. He eats nothing today. The nurse gives a tablet. He takes the tablet. The doctor sees the wound. She speaks with the patient. Anna reads the chart."
+      }
+    },
+    {
+      "id": "dialogue",
+      "type": "dialogue",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "instructions": "Find the vowel change in du and er/sie.",
+      "scene": "Anna speaks with Herr Yilmaz after a rest.",
+      "sceneTitle": "Nach dem Schlaf",
+      "speakers": {
+        "N": {
+          "name": "Anna",
+          "role": "Pflegekraft",
+          "avatar": "🧑‍⚕️"
+        },
+        "P": {
+          "name": "Herr Yilmaz",
+          "role": "Patient",
+          "avatar": "🧑🏽"
+        }
+      },
+      "lines": [
+        {
+          "who": "N",
+          "de": "Herr Yilmaz, Sie schlafen? Nein, der Patient schläft nicht mehr.",
+          "en": "Mr Yilmaz, are you asleep? No — the patient is not sleeping any more."
+        },
+        {
+          "who": "P",
+          "de": "Ich sehe die Tablette. Nehme ich sie?",
+          "en": "I see the tablet. Do I take it?"
+        },
+        {
+          "who": "N",
+          "de": "Ja. Du nimmst die Tablette, und du isst heute nichts.",
+          "en": "Yes. You take the tablet, and you eat nothing today."
+        },
+        {
+          "who": "P",
+          "de": "Die Ärztin sieht die Wunde und sie spricht mit mir.",
+          "en": "The doctor sees the wound and she speaks with me."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "The vowel changes in two persons only",
+      "story": [
+        "wir, ihr and sie/Sie keep the infinitive vowel. Only <b>du</b> and <b>er/sie/es</b> change.",
+        "Three patterns on the ward: <b>a → ä</b> (schläft), <b>e → i</b> (gibt, isst, nimmt, spricht), <b>e → ie</b> (sieht, liest)."
+      ],
+      "tables": [
+        {
+          "title": "du and er/sie/es",
+          "columns": [
+            "Infinitive",
+            "du",
+            "er/sie/es"
+          ],
+          "rows": [
+            {
+              "label": "schlafen",
+              "cells": [
+                "schläfst",
+                "schläft"
+              ]
+            },
+            {
+              "label": "essen",
+              "cells": [
+                "isst",
+                "isst"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "geben",
+              "cells": [
+                "gibst",
+                "gibt"
+              ]
+            },
+            {
+              "label": "nehmen",
+              "cells": [
+                "nimmst",
+                "nimmt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "sehen",
+              "cells": [
+                "siehst",
+                "sieht"
+              ]
+            },
+            {
+              "label": "lesen",
+              "cells": [
+                "liest",
+                "liest"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "ich does not change",
+        "items": [
+          {
+            "de": "ich schlafe, ich gebe, ich nehme, ich sehe",
+            "en": "ich keeps the infinitive vowel",
+            "tone": "ok"
+          },
+          {
+            "de": "ich schläfe / ich gibt",
+            "en": "not the ich form",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Change the vowel for du and er/sie/es. Leave ich, wir, ihr and Sie alone."
+      },
+      "quiz": [
+        {
+          "q": "Er ___ die Tablette.",
+          "options": [
+            "nehmt",
+            "nimmt",
+            "nimmst"
+          ],
+          "answer": 1,
+          "why": "er nimmt. du nimmst.",
+          "hint": "er/sie drops the st. The vowel is i, with mm."
+        },
+        {
+          "q": "Which persons change the vowel?",
+          "options": [
+            "only ich",
+            "du and er/sie/es",
+            "only wir"
+          ],
+          "answer": 1,
+          "why": "Only the du and er/sie/es forms.",
+          "hint": "Not the plural, and not ich."
+        }
+      ],
+      "practice": "choose"
+    },
+    {
+      "id": "gaps",
+      "type": "gapfill",
+      "label": "Gap fill",
+      "title": "Which vowel?",
+      "instructions": "Drag the changed form into the gap.",
+      "chips": [
+        {
+          "w": "schläft",
+          "hint": "er schläft (a → ä)"
+        },
+        {
+          "w": "isst",
+          "hint": "du/er isst (e → i, ss)"
+        },
+        {
+          "w": "gibt",
+          "hint": "er gibt"
+        },
+        {
+          "w": "nimmt",
+          "hint": "er nimmt"
+        },
+        {
+          "w": "sieht",
+          "hint": "er sieht (e → ie)"
+        },
+        {
+          "w": "nimmst",
+          "hint": "du nimmst — only with du"
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Patient",
+          "after": ".",
+          "answer": "schläft",
+          "en": "The patient is sleeping.",
+          "why": "er schläft.",
+          "tip": "a → ä.",
+          "hint": "schlafen, third person."
+        },
+        {
+          "before": "Er",
+          "after": "heute nichts.",
+          "answer": "isst",
+          "en": "He eats nothing today.",
+          "why": "essen → er isst.",
+          "tip": "e → i and ss.",
+          "hint": "He eats = er isst."
+        },
+        {
+          "before": "Die Pflegekraft",
+          "after": "eine Tablette.",
+          "answer": "gibt",
+          "en": "The nurse gives a tablet.",
+          "why": "sie gibt.",
+          "tip": "geben → gibt.",
+          "hint": "e → i, no -t added on top of gibt."
+        },
+        {
+          "before": "Er",
+          "after": "die Tablette.",
+          "answer": "nimmt",
+          "en": "He takes the tablet.",
+          "why": "er nimmt, not nimmst.",
+          "tip": "er, not du.",
+          "hint": "No -st. er nimmt."
+        },
+        {
+          "before": "Die Ärztin",
+          "after": "die Wunde.",
+          "answer": "sieht",
+          "en": "The doctor sees the wound.",
+          "why": "sehen → sieht.",
+          "tip": "e → ie.",
+          "hint": "sehen, er/sie sieht."
+        },
+        {
+          "before": "Du",
+          "after": "die Tablette.",
+          "answer": "nimmst",
+          "en": "You take the tablet.",
+          "why": "du nimmst.",
+          "tip": "du keeps -st.",
+          "hint": "du + i + mm + st."
+        }
+      ],
+      "practice": "gap"
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Night note",
+      "instructions": "Read and answer.",
+      "document": {
+        "letterhead": "Station 3B · Nacht",
+        "title": "Herr Yilmaz schläft",
+        "paragraphs": [
+          "Herr Yilmaz schläft. Er isst nichts und er nimmt die Tablette.",
+          "Die Ärztin sieht die Wunde. Sie spricht mit dem Patienten.",
+          "Anna liest die Kurve. Der Patient hat kein Fieber."
+        ],
+        "signature": "Anna",
+        "stamp": "NACHT"
+      },
+      "questions": [
+        {
+          "kind": "tf",
+          "q": "Herr Yilmaz isst eine Tablette. (isst = eats)",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "answer": 1,
+          "why": "Er isst nichts. Er nimmt die Tablette."
+        },
+        {
+          "q": "Wer sieht die Wunde?",
+          "options": [
+            "Anna",
+            "Die Ärztin",
+            "Herr Yilmaz"
+          ],
+          "answer": 1,
+          "why": "Die Ärztin sieht die Wunde."
+        }
+      ],
+      "practice": "reading"
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "Which vowel?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "The du and er forms often change the vowel.",
+      "items": [
+        {
+          "prompt": "essen → du",
+          "options": [
+            {
+              "emoji": "🍽️",
+              "label": "isst",
+              "caption": "e → i"
+            },
+            {
+              "emoji": "🍽️",
+              "label": "esst",
+              "caption": "no change"
+            }
+          ],
+          "answer": 0,
+          "why": "du isst, er isst.",
+          "hint": "e → i"
+        },
+        {
+          "prompt": "sehen → er",
+          "options": [
+            {
+              "emoji": "👁️",
+              "label": "sieht",
+              "caption": "e → ie"
+            },
+            {
+              "emoji": "👁️",
+              "label": "seht",
+              "caption": "no change"
+            }
+          ],
+          "answer": 0,
+          "why": "er sieht.",
+          "hint": "ie"
+        },
+        {
+          "prompt": "schlafen → du",
+          "options": [
+            {
+              "emoji": "😴",
+              "label": "schläfst",
+              "caption": "a → ä"
+            },
+            {
+              "emoji": "😴",
+              "label": "schlafst",
+              "caption": "no umlaut"
+            }
+          ],
+          "answer": 0,
+          "why": "du schläfst, with ä.",
+          "hint": "umlaut"
+        },
+        {
+          "prompt": "geben → er",
+          "options": [
+            {
+              "emoji": "🤲",
+              "label": "gibt",
+              "caption": "e → i"
+            },
+            {
+              "emoji": "🤲",
+              "label": "gebt",
+              "caption": "no change"
+            }
+          ],
+          "answer": 0,
+          "why": "er gibt.",
+          "hint": "e → i"
+        }
+      ]
+    },
+    {
+      "id": "px-picture",
+      "label": "Picture",
+      "title": "Picture task",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the word to the picture, then read the hint.",
+      "items": [
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Say what the patient does: isst, sieht, schläft, liest."
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "Say what the patient does: isst, sieht, schläft, liest."
+        },
+        {
+          "id": "thermo",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "Say what the patient does: isst, sieht, schläft, liest."
+        },
+        {
+          "id": "clip",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "file",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "Say what the patient does: isst, sieht, schläft, liest."
+        }
+      ]
+    },
+    {
+      "id": "px-build",
+      "label": "Build",
+      "title": "Build the changed form",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "The vowel change is already in the tile.",
+      "items": [
+        {
+          "tiles": [
+            "Der",
+            "Patient",
+            "isst",
+            "nichts"
+          ],
+          "answers": [
+            "Der Patient isst nichts"
+          ],
+          "punct": ".",
+          "modal": "Patient",
+          "inf": "nichts",
+          "question": false,
+          "en": "The patient eats nothing.",
+          "hint": "essen → er isst.",
+          "feedback": {
+            "fallback": "essen → er isst."
+          }
+        },
+        {
+          "tiles": [
+            "Du",
+            "siehst",
+            "den",
+            "Monitor"
+          ],
+          "answers": [
+            "Du siehst den Monitor"
+          ],
+          "punct": ".",
+          "modal": "siehst",
+          "inf": "Monitor",
+          "question": false,
+          "en": "You see the monitor.",
+          "hint": "sehen → du siehst.",
+          "feedback": {
+            "fallback": "sehen → du siehst."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "schläft",
+            "im",
+            "Bett"
+          ],
+          "answers": [
+            "Er schläft im Bett"
+          ],
+          "punct": ".",
+          "modal": "schläft",
+          "inf": "Bett",
+          "question": false,
+          "en": "He sleeps in bed.",
+          "hint": "schlafen → er schläft.",
+          "feedback": {
+            "fallback": "schlafen → er schläft."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "nimmt",
+            "die",
+            "Tablette"
+          ],
+          "answers": [
+            "Sie nimmt die Tablette"
+          ],
+          "punct": ".",
+          "modal": "nimmt",
+          "inf": "Tablette",
+          "question": false,
+          "en": "She takes the tablet.",
+          "hint": "nehmen → sie nimmt.",
+          "feedback": {
+            "fallback": "nehmen → sie nimmt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Change the form.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the form the brackets ask for.",
+      "chips": [
+        {
+          "w": "isst",
+          "hint": "isst"
+        },
+        {
+          "w": "sieht",
+          "hint": "sieht"
+        },
+        {
+          "w": "gibst",
+          "hint": "gibst"
+        },
+        {
+          "w": "nimmt",
+          "hint": "nimmt"
+        },
+        {
+          "w": "schläfst",
+          "hint": "ä"
+        },
+        {
+          "w": "liest",
+          "hint": "liest"
+        }
+      ],
+      "items": [
+        {
+          "before": "essen (du) →",
+          "after": "",
+          "answer": "isst",
+          "en": "you eat",
+          "why": "e becomes i, and -st is not added again.",
+          "tip": "du isst",
+          "hint": "isst"
+        },
+        {
+          "before": "sehen (er) →",
+          "after": "",
+          "answer": "sieht",
+          "en": "he sees",
+          "why": "e becomes ie.",
+          "tip": "er sieht",
+          "hint": "sieht"
+        },
+        {
+          "before": "geben (du) →",
+          "after": "",
+          "answer": "gibst",
+          "en": "you give",
+          "why": "e becomes i.",
+          "tip": "du gibst",
+          "hint": "gibst"
+        },
+        {
+          "before": "nehmen (er) →",
+          "after": "",
+          "answer": "nimmt",
+          "en": "he takes",
+          "why": "e becomes i.",
+          "tip": "er nimmt",
+          "hint": "nimmt"
+        },
+        {
+          "before": "schlafen (du) →",
+          "after": "",
+          "answer": "schläfst",
+          "en": "you sleep",
+          "why": "a becomes ä.",
+          "tip": "du schläfst",
+          "hint": "ä"
+        },
+        {
+          "before": "lesen (er) →",
+          "after": "",
+          "answer": "liest",
+          "en": "he reads",
+          "why": "e becomes ie.",
+          "tip": "er liest",
+          "hint": "liest"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Du esst wenig."
+          ],
+          "options": [
+            "Du isst wenig.",
+            "Du esst wenig.",
+            "Du isstst wenig."
+          ],
+          "answer": 0,
+          "reveal": "Du isst wenig.",
+          "hint": "essen → du isst."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er seht den Befund."
+          ],
+          "options": [
+            "Er sieht den Befund.",
+            "Er seht den Befund.",
+            "Er siehst den Befund."
+          ],
+          "answer": 0,
+          "reveal": "Er sieht den Befund.",
+          "hint": "sehen → er sieht."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Du gebst die Tablette."
+          ],
+          "options": [
+            "Du gibst die Tablette.",
+            "Du gebst die Tablette.",
+            "Du gibt die Tablette."
+          ],
+          "answer": 0,
+          "reveal": "Du gibst die Tablette.",
+          "hint": "geben → du gibst."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er nehmt die Tablette."
+          ],
+          "options": [
+            "Er nimmt die Tablette.",
+            "Er nehmt die Tablette.",
+            "Er nehmst die Tablette."
+          ],
+          "answer": 0,
+          "reveal": "Er nimmt die Tablette.",
+          "hint": "nehmen → er nimmt."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "Complete the dialogue.",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "One word in each gap. Notice who is speaking.",
+      "chips": [
+        {
+          "w": "isst",
+          "hint": "essen"
+        },
+        {
+          "w": "sehe",
+          "hint": "sehen"
+        },
+        {
+          "w": "schläft",
+          "hint": "schlafen"
+        },
+        {
+          "w": "gibt",
+          "hint": "geben"
+        },
+        {
+          "w": "liest",
+          "hint": "lesen"
+        },
+        {
+          "w": "hilfst",
+          "hint": "helfen"
+        }
+      ],
+      "items": [
+        {
+          "before": "Du",
+          "after": "heute wenig.",
+          "answer": "isst",
+          "en": "You eat little today.",
+          "why": "essen → isst.",
+          "tip": "i",
+          "hint": "essen",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ich",
+          "after": "den Monitor.",
+          "answer": "sehe",
+          "en": "I see the monitor.",
+          "why": "ich sehe, no change.",
+          "tip": "ich stays",
+          "hint": "sehen",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Er",
+          "after": "seit zehn.",
+          "answer": "schläft",
+          "en": "He has been sleeping since ten.",
+          "why": "a → ä.",
+          "tip": "umlaut",
+          "hint": "schlafen",
+          "who": "Kollegin"
+        },
+        {
+          "before": "Sie",
+          "after": "Wasser.",
+          "answer": "gibt",
+          "en": "She gives water.",
+          "why": "geben → gibt.",
+          "tip": "i",
+          "hint": "geben",
+          "who": "Ärztin"
+        },
+        {
+          "before": "Der Patient",
+          "after": "die Akte.",
+          "answer": "liest",
+          "en": "The patient reads the file.",
+          "why": "lesen → liest.",
+          "tip": "ie",
+          "hint": "lesen",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Du",
+          "after": "mir.",
+          "answer": "hilfst",
+          "en": "You help me.",
+          "why": "helfen → hilfst.",
+          "tip": "i",
+          "hint": "helfen",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "More practice",
+      "title": "Choose the form",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Fill every gap. Each chip is used once.",
+      "chips": [
+        {
+          "w": "isst",
+          "hint": "essen"
+        },
+        {
+          "w": "sieht",
+          "hint": "sehen"
+        },
+        {
+          "w": "gibt",
+          "hint": "geben"
+        },
+        {
+          "w": "nimmt",
+          "hint": "nehmen"
+        },
+        {
+          "w": "schläft",
+          "hint": "schlafen"
+        },
+        {
+          "w": "hilft",
+          "hint": "helfen"
+        },
+        {
+          "w": "liest",
+          "hint": "lesen"
+        },
+        {
+          "w": "spricht",
+          "hint": "sprechen"
+        }
+      ],
+      "items": [
+        {
+          "before": "du essen →",
+          "after": "",
+          "answer": "isst",
+          "en": "you eat",
+          "why": "e → i.",
+          "tip": "isst",
+          "hint": "essen"
+        },
+        {
+          "before": "er sehen →",
+          "after": "",
+          "answer": "sieht",
+          "en": "he sees",
+          "why": "e → ie.",
+          "tip": "sieht",
+          "hint": "sehen"
+        },
+        {
+          "before": "er geben →",
+          "after": "",
+          "answer": "gibt",
+          "en": "he gives",
+          "why": "e → i.",
+          "tip": "gibt",
+          "hint": "geben"
+        },
+        {
+          "before": "er nehmen →",
+          "after": "",
+          "answer": "nimmt",
+          "en": "he takes",
+          "why": "e → i.",
+          "tip": "nimmt",
+          "hint": "nehmen"
+        },
+        {
+          "before": "er schlafen →",
+          "after": "",
+          "answer": "schläft",
+          "en": "he sleeps",
+          "why": "a → ä.",
+          "tip": "schläft",
+          "hint": "schlafen"
+        },
+        {
+          "before": "er helfen →",
+          "after": "",
+          "answer": "hilft",
+          "en": "he helps",
+          "why": "e → i.",
+          "tip": "hilft",
+          "hint": "helfen"
+        },
+        {
+          "before": "er lesen →",
+          "after": "",
+          "answer": "liest",
+          "en": "he reads",
+          "why": "e → ie.",
+          "tip": "liest",
+          "hint": "lesen"
+        },
+        {
+          "before": "er sprechen →",
+          "after": "",
+          "answer": "spricht",
+          "en": "he speaks",
+          "why": "e → i.",
+          "tip": "spricht",
+          "hint": "sprechen"
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "A quiet patient",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write three or four sentences. Then compare the model.",
+      "prompt": "Write what he eats, what he sees, and that he sleeps.",
+      "bullets": [
+        "Use isst.",
+        "Use sieht.",
+        "Use schläft."
+      ],
+      "model": "Der Patient isst wenig. Er sieht den Monitor. Er schläft im Bett.",
+      "modelEn": "The patient eats little. He sees the monitor. He sleeps in bed.",
+      "hint": "du and er change the vowel; ich and wir do not.",
+      "checklist": [
+        {
+          "id": "isst",
+          "label": "Uses isst",
+          "keywords": [
+            "isst"
+          ]
+        },
+        {
+          "id": "sieht",
+          "label": "Uses sieht",
+          "keywords": [
+            "sieht"
+          ]
+        },
+        {
+          "id": "schlaeft",
+          "label": "Uses schläft",
+          "keywords": [
+            "schläft"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "type": "grammar",
+      "story": [
+        "This mixed test closes the lesson. 80% marks it as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "essen, du →",
+          "qEn": "e → i.",
+          "options": [
+            "du isst",
+            "du esst",
+            "du esse"
+          ],
+          "answer": 0,
+          "why": "The vowel changes and -st is already inside isst.",
+          "hint": "isst"
+        },
+        {
+          "kind": "mc",
+          "q": "sehen, er →",
+          "qEn": "e → ie.",
+          "options": [
+            "er seht",
+            "er sieht",
+            "er sehe"
+          ],
+          "answer": 1,
+          "why": "er sieht.",
+          "hint": "sieht"
+        },
+        {
+          "kind": "mc",
+          "q": "geben, ich →",
+          "qEn": "No change for ich.",
+          "options": [
+            "ich gibt",
+            "ich gibst",
+            "ich gebe"
+          ],
+          "answer": 2,
+          "why": "Ich keeps the infinitive vowel.",
+          "hint": "ich"
+        },
+        {
+          "kind": "mc",
+          "q": "nehmen, er →",
+          "qEn": "e → i.",
+          "options": [
+            "er nimmt",
+            "er nehmt",
+            "er nehme"
+          ],
+          "answer": 0,
+          "why": "er nimmt.",
+          "hint": "nimmt"
+        },
+        {
+          "kind": "mc",
+          "q": "schlafen, du →",
+          "qEn": "a → ä.",
+          "options": [
+            "du schlafst",
+            "du schläfst",
+            "du schläft"
+          ],
+          "answer": 1,
+          "why": "Umlaut plus -st.",
+          "hint": "ä"
+        },
+        {
+          "kind": "mc",
+          "q": "lesen, er →",
+          "qEn": "e → ie.",
+          "options": [
+            "er lest",
+            "er lese",
+            "er liest"
+          ],
+          "answer": 2,
+          "why": "er liest.",
+          "hint": "liest"
+        },
+        {
+          "kind": "mc",
+          "q": "sprechen, du →",
+          "qEn": "e → i.",
+          "options": [
+            "du sprichst",
+            "du sprechst",
+            "du spricht"
+          ],
+          "answer": 0,
+          "why": "du sprichst.",
+          "hint": "sprichst"
+        },
+        {
+          "kind": "mc",
+          "q": "helfen, er →",
+          "qEn": "e → i.",
+          "options": [
+            "er helft",
+            "er hilft",
+            "er helfe"
+          ],
+          "answer": 1,
+          "why": "er hilft.",
+          "hint": "hilft"
+        },
+        {
+          "kind": "mc",
+          "q": "wir sehen →",
+          "qEn": "No change.",
+          "options": [
+            "wir sieht",
+            "wir siehst",
+            "wir sehen"
+          ],
+          "answer": 2,
+          "why": "Wir uses the infinitive.",
+          "hint": "wir"
+        },
+        {
+          "kind": "mc",
+          "q": "sie (singular) geben →",
+          "qEn": "Same as er.",
+          "options": [
+            "sie gibt",
+            "sie gibst",
+            "sie gebe"
+          ],
+          "answer": 0,
+          "why": "sie gibt.",
+          "hint": "gibt"
+        },
+        {
+          "kind": "mc",
+          "q": "ich schlafen →",
+          "qEn": "No umlaut.",
+          "options": [
+            "ich schläfst",
+            "ich schlafe",
+            "ich schläft"
+          ],
+          "answer": 1,
+          "why": "Ich keeps a.",
+          "hint": "ich"
+        },
+        {
+          "kind": "mc",
+          "q": "ihr essen →",
+          "qEn": "Like er, but -t.",
+          "options": [
+            "ihr isst",
+            "ihr esse",
+            "ihr esst"
+          ],
+          "answer": 2,
+          "why": "Ihr does not take the du vowel here: ihr esst.",
+          "hint": "ihr"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Vokale gemerkt",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        {
+          "de": "Der Patient schläft.",
+          "en": "The patient is sleeping."
+        },
+        {
+          "de": "Er isst nichts.",
+          "en": "He is not eating anything."
+        },
+        {
+          "de": "Nehmen Sie die Tablette.",
+          "en": "Take the tablet."
+        },
+        {
+          "de": "Ich sehe die Wunde.",
+          "en": "I see the wound."
+        }
+      ]
+    }
+  ]
+}

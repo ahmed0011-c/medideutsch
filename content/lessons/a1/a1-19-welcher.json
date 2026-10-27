@@ -1,0 +1,1511 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "welcher": {
+      "de": "welcher",
+      "pos": "article",
+      "en": "which (masculine)"
+    },
+    "welches": {
+      "de": "welches",
+      "pos": "article",
+      "en": "which (neuter)"
+    },
+    "welche": {
+      "de": "welche",
+      "pos": "article",
+      "en": "which (feminine)"
+    },
+    "welchen": {
+      "de": "welchen",
+      "pos": "article",
+      "en": "which (masculine accusative)"
+    },
+    "welchem": {
+      "de": "welchem",
+      "pos": "article",
+      "en": "which (dative)"
+    },
+    "dieser": {
+      "de": "dieser",
+      "pos": "article",
+      "en": "this (masculine)"
+    },
+    "dieses": {
+      "de": "dieses",
+      "pos": "article",
+      "en": "this (neuter)"
+    },
+    "diese": {
+      "de": "diese",
+      "pos": "article",
+      "en": "this (feminine)"
+    },
+    "diesen": {
+      "de": "diesen",
+      "pos": "article",
+      "en": "this (masculine accusative)"
+    },
+    "diesem": {
+      "de": "diesem",
+      "pos": "article",
+      "en": "this (dative)"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative)",
+      "article": "die",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "untersucht": {
+      "de": "untersuchen → untersucht",
+      "pos": "verb",
+      "en": "examines"
+    },
+    "frei": {
+      "de": "frei",
+      "pos": "adjective",
+      "en": "free"
+    },
+    "hier": {
+      "de": "hier",
+      "pos": "adverb",
+      "en": "here"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    }
+  },
+  "id": "a1-19-welcher",
+  "level": "A1",
+  "unit": "Kapitel 19",
+  "chapter": 19,
+  "chapters": [
+    19
+  ],
+  "title": "Welcher? – Dieser",
+  "subtitle": "Question and pointing articles",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "welcher asks which. dieser points at this one. They take the endings of der, die, das.",
+        "Nominative: welcher Patient, welches Zimmer, welche Akte.",
+        "Accusative masculine: welchen Patienten, diesen Patienten.",
+        "Dative: in welchem Zimmer, in diesem Zimmer."
+      ],
+      "vocab": [
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "chart",
+          "emoji": "📋",
+          "glossaryKey": "akte"
+        },
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "🩺",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Patienten",
+          "article": "die",
+          "plural": "die Patienten",
+          "en": "patient (accusative)",
+          "emoji": "🤒",
+          "glossaryKey": "patienten"
+        }
+      ],
+      "text": {
+        "title": "Welcher Patient?",
+        "de": "Welcher Patient kommt? Dieser Patient kommt. Welches Zimmer ist frei? Dieses Zimmer ist frei. Welche Akte liegt hier? Diese Akte liegt hier. Der Arzt untersucht diesen Patienten. In welchem Zimmer liegt er?",
+        "en": "Which patient is coming? This patient is coming. Which room is free? This room is free. Which chart is here? This chart is here. The doctor examines this patient. In which room is he lying?"
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "welcher und dieser",
+      "practice": "choose",
+      "heroTitle": "The same endings as der",
+      "heroImage": "bed",
+      "story": [
+        "<b>der</b> Patient → <b>welcher</b> Patient → <b>dieser</b> Patient. <b>das</b> Zimmer → welches, dieses. <b>die</b> Akte → welche, diese.",
+        "Only the masculine accusative changes further: welchen Patienten, diesen Patienten.",
+        "After in for a place, the dative: in welchem Zimmer, in diesem Zimmer."
+      ],
+      "questionRule": "Copy the ending of der, die or das onto welch- and dies-.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "der",
+              "r": "subj"
+            },
+            {
+              "t": "Patient",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "welcher",
+              "r": "subj"
+            },
+            {
+              "t": "Patient",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Same ending.",
+          "enAfter": "welcher Patient",
+          "callLabel": "Show welcher"
+        },
+        {
+          "before": [
+            {
+              "t": "das",
+              "r": "subj"
+            },
+            {
+              "t": "Zimmer",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "dieses",
+              "r": "subj"
+            },
+            {
+              "t": "Zimmer",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Neuter.",
+          "enAfter": "dieses Zimmer",
+          "callLabel": "Show dieses"
+        },
+        {
+          "before": [
+            {
+              "t": "den",
+              "r": "subj"
+            },
+            {
+              "t": "Patienten",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "diesen",
+              "r": "subj"
+            },
+            {
+              "t": "Patienten",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Accusative.",
+          "enAfter": "diesen Patienten",
+          "callLabel": "Show diesen"
+        }
+      ],
+      "tables": [
+        {
+          "title": "welcher und dieser",
+          "caption": "Read across. The ending matches the definite article.",
+          "columns": [
+            "Artikel",
+            "Frage",
+            "Zeigen"
+          ],
+          "rows": [
+            {
+              "label": "m",
+              "cells": [
+                "der Patient",
+                "welcher Patient",
+                "dieser Patient"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "n",
+              "cells": [
+                "das Zimmer",
+                "welches Zimmer",
+                "dieses Zimmer"
+              ]
+            },
+            {
+              "label": "f",
+              "cells": [
+                "die Akte",
+                "welche Akte",
+                "diese Akte"
+              ]
+            },
+            {
+              "label": "Akk",
+              "cells": [
+                "den Patienten",
+                "welchen Patienten",
+                "diesen Patienten"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Dat",
+              "cells": [
+                "in dem Zimmer",
+                "in welchem Zimmer",
+                "in diesem Zimmer"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "The ending is not optional",
+        "items": [
+          {
+            "de": "welches Zimmer",
+            "en": "Neuter, -es.",
+            "tone": "ok"
+          },
+          {
+            "de": "welcher Zimmer",
+            "en": "Zimmer is not masculine.",
+            "tone": "stop"
+          },
+          {
+            "de": "welchen Patienten",
+            "en": "Accusative masculine.",
+            "tone": "ok"
+          },
+          {
+            "de": "welcher Patienten",
+            "en": "The accusative needs -en.",
+            "tone": "stop"
+          },
+          {
+            "de": "in diesem Zimmer",
+            "en": "Dative after in for a place.",
+            "tone": "ok"
+          },
+          {
+            "de": "in diesen Zimmer",
+            "en": "diesem, not diesen, for one room.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "der welcher dieser. das welches dieses. die welche diese. den welchen diesen."
+      },
+      "tips": [
+        {
+          "title": "Copy der",
+          "emoji": "👉",
+          "mnemonic": "der welcher dieser",
+          "body": "If you know the article, you know welcher and dieser. Add the same ending.",
+          "examples": [
+            {
+              "de": "Welche Akte liegt hier? Diese Akte.",
+              "en": "feminine"
+            },
+            {
+              "de": "In welchem Zimmer liegt er?",
+              "en": "dative"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which ending?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Which patient? Nominative.",
+          "qEn": "Masculine.",
+          "options": [
+            "welcher Patient",
+            "welches Patient",
+            "welchen Patient"
+          ],
+          "answer": 0,
+          "why": "der → welcher.",
+          "hint": "welcher."
+        },
+        {
+          "kind": "mc",
+          "q": "Which room?",
+          "qEn": "Neuter.",
+          "options": [
+            "welcher Zimmer",
+            "welches Zimmer",
+            "welche Zimmer"
+          ],
+          "answer": 1,
+          "why": "das → welches.",
+          "hint": "welches."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor examines this patient.",
+          "qEn": "Accusative.",
+          "options": [
+            "dieser Patienten",
+            "diesem Patienten",
+            "diesen Patienten"
+          ],
+          "answer": 2,
+          "why": "den → diesen.",
+          "hint": "diesen."
+        },
+        {
+          "kind": "mc",
+          "q": "In which room is he lying?",
+          "qEn": "Dative.",
+          "options": [
+            "in welchem Zimmer",
+            "in welchen Zimmer",
+            "in welcher Zimmer"
+          ],
+          "answer": 0,
+          "why": "dem → welchem.",
+          "hint": "welchem."
+        }
+      ]
+    },
+    {
+      "id": "gap-welch",
+      "label": "Lücken",
+      "title": "The ending",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Frage takes welcher. Zeigen takes dieser. Each chip fits one sentence.",
+      "chips": [
+        {
+          "w": "Welcher",
+          "hint": "welcher."
+        },
+        {
+          "w": "Dieser",
+          "hint": "dieser."
+        },
+        {
+          "w": "Welches",
+          "hint": "welches."
+        },
+        {
+          "w": "Dieses",
+          "hint": "dieses."
+        },
+        {
+          "w": "Welche",
+          "hint": "welche."
+        },
+        {
+          "w": "Diese",
+          "hint": "diese."
+        }
+      ],
+      "items": [
+        {
+          "before": "Frage:",
+          "after": "Patient kommt?",
+          "answer": "Welcher",
+          "en": "which patient",
+          "why": "Masculine nominative.",
+          "tip": "der",
+          "hint": "welcher."
+        },
+        {
+          "before": "Zeigen, kein Fragewort:",
+          "after": "Patient kommt.",
+          "answer": "Dieser",
+          "en": "this patient",
+          "why": "Points at him.",
+          "tip": "der",
+          "hint": "dieser."
+        },
+        {
+          "before": "Frage:",
+          "after": "Zimmer ist frei?",
+          "answer": "Welches",
+          "en": "which room",
+          "why": "Neuter.",
+          "tip": "das",
+          "hint": "welches."
+        },
+        {
+          "before": "Zeigen, kein Fragewort:",
+          "after": "Zimmer ist frei.",
+          "answer": "Dieses",
+          "en": "this room",
+          "why": "Neuter.",
+          "tip": "das",
+          "hint": "dieses."
+        },
+        {
+          "before": "Frage:",
+          "after": "Akte liegt hier?",
+          "answer": "Welche",
+          "en": "which chart",
+          "why": "Feminine.",
+          "tip": "die",
+          "hint": "welche."
+        },
+        {
+          "before": "Zeigen, kein Fragewort:",
+          "after": "Akte liegt hier.",
+          "answer": "Diese",
+          "en": "this chart",
+          "why": "Feminine.",
+          "tip": "die",
+          "hint": "diese."
+        }
+      ]
+    },
+    {
+      "id": "match-welch",
+      "label": "Match",
+      "title": "Question or pointing?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the form.",
+      "items": [
+        {
+          "prompt": "Which room?",
+          "options": [
+            {
+              "emoji": "🚪",
+              "label": "welches Zimmer",
+              "caption": "neuter"
+            },
+            {
+              "emoji": "❌",
+              "label": "welcher Zimmer",
+              "caption": "not masculine"
+            },
+            {
+              "emoji": "❌",
+              "label": "welche Zimmer",
+              "caption": "not feminine singular"
+            }
+          ],
+          "answer": 0,
+          "why": "welches.",
+          "hint": "das."
+        },
+        {
+          "prompt": "This chart.",
+          "options": [
+            {
+              "emoji": "📋",
+              "label": "diese Akte",
+              "caption": "feminine"
+            },
+            {
+              "emoji": "❌",
+              "label": "dieser Akte",
+              "caption": "not masculine"
+            },
+            {
+              "emoji": "❌",
+              "label": "dieses Akte",
+              "caption": "not neuter"
+            }
+          ],
+          "answer": 0,
+          "why": "diese.",
+          "hint": "die."
+        },
+        {
+          "prompt": "Examines this patient.",
+          "options": [
+            {
+              "emoji": "🩺",
+              "label": "diesen Patienten",
+              "caption": "accusative"
+            },
+            {
+              "emoji": "❌",
+              "label": "dieser Patienten",
+              "caption": "nominative ending"
+            },
+            {
+              "emoji": "❌",
+              "label": "diesem Patienten",
+              "caption": "that is dative"
+            }
+          ],
+          "answer": 0,
+          "why": "diesen.",
+          "hint": "den."
+        },
+        {
+          "prompt": "In this room.",
+          "options": [
+            {
+              "emoji": "🛏️",
+              "label": "in diesem Zimmer",
+              "caption": "dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "in diesen Zimmer",
+              "caption": "accusative ending"
+            },
+            {
+              "emoji": "❌",
+              "label": "in dieser Zimmer",
+              "caption": "feminine"
+            }
+          ],
+          "answer": 0,
+          "why": "diesem.",
+          "hint": "dem."
+        }
+      ]
+    },
+    {
+      "id": "picture-welch",
+      "label": "Picture",
+      "title": "Picture which one",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Point with dieser.",
+      "items": [
+        {
+          "id": "patient",
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "dieser Patient",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "dieser"
+        },
+        {
+          "id": "room",
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "dieses Zimmer",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "dieses"
+        },
+        {
+          "id": "chart",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "diese Akte",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "diese"
+        },
+        {
+          "id": "monitor",
+          "de": "Monitor",
+          "article": "der",
+          "plural": "die Monitore",
+          "en": "dieser Monitor",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          },
+          "hint": "dieser"
+        }
+      ]
+    },
+    {
+      "id": "build-welch",
+      "label": "Build",
+      "title": "Build the question",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "The question word comes first.",
+      "items": [
+        {
+          "tiles": [
+            "Welcher",
+            "Patient",
+            "kommt"
+          ],
+          "answers": [
+            "Welcher Patient kommt"
+          ],
+          "punct": "?",
+          "modal": "Patient",
+          "inf": "kommt",
+          "question": true,
+          "en": "Which patient is coming?",
+          "hint": "welcher.",
+          "feedback": {
+            "fallback": "welcher."
+          }
+        },
+        {
+          "tiles": [
+            "Welches",
+            "Zimmer",
+            "ist",
+            "frei"
+          ],
+          "answers": [
+            "Welches Zimmer ist frei"
+          ],
+          "punct": "?",
+          "modal": "Zimmer",
+          "inf": "frei",
+          "question": true,
+          "en": "Which room is free?",
+          "hint": "welches.",
+          "feedback": {
+            "fallback": "welches."
+          }
+        },
+        {
+          "tiles": [
+            "Welche",
+            "Akte",
+            "liegt",
+            "hier"
+          ],
+          "answers": [
+            "Welche Akte liegt hier"
+          ],
+          "punct": "?",
+          "modal": "Akte",
+          "inf": "hier",
+          "question": true,
+          "en": "Which chart is here?",
+          "hint": "welche.",
+          "feedback": {
+            "fallback": "welche."
+          }
+        },
+        {
+          "tiles": [
+            "In",
+            "welchem",
+            "Zimmer",
+            "liegt",
+            "er"
+          ],
+          "answers": [
+            "In welchem Zimmer liegt er"
+          ],
+          "punct": "?",
+          "modal": "welchem",
+          "inf": "er",
+          "question": true,
+          "en": "In which room is he lying?",
+          "hint": "dative.",
+          "feedback": {
+            "fallback": "dative."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-welch",
+      "label": "Umformen",
+      "title": "From der to welcher and dieser",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the question form, then the pointing form is in the next item.",
+      "chips": [
+        {
+          "w": "welcher Patient",
+          "hint": "welcher."
+        },
+        {
+          "w": "dieser Patient",
+          "hint": "dieser."
+        },
+        {
+          "w": "welches Zimmer",
+          "hint": "welches."
+        },
+        {
+          "w": "dieses Zimmer",
+          "hint": "dieses."
+        },
+        {
+          "w": "welchen Patienten",
+          "hint": "welchen."
+        },
+        {
+          "w": "in diesem Zimmer",
+          "hint": "diesem."
+        }
+      ],
+      "items": [
+        {
+          "before": "der Patient →",
+          "after": "",
+          "answer": "welcher Patient",
+          "en": "question",
+          "why": "der → welcher.",
+          "tip": "der",
+          "hint": "welcher."
+        },
+        {
+          "before": "der Patient, zeigen →",
+          "after": "",
+          "answer": "dieser Patient",
+          "en": "point",
+          "why": "der → dieser.",
+          "tip": "der",
+          "hint": "dieser."
+        },
+        {
+          "before": "das Zimmer →",
+          "after": "",
+          "answer": "welches Zimmer",
+          "en": "question",
+          "why": "das → welches.",
+          "tip": "das",
+          "hint": "welches."
+        },
+        {
+          "before": "das Zimmer, zeigen →",
+          "after": "",
+          "answer": "dieses Zimmer",
+          "en": "point",
+          "why": "das → dieses.",
+          "tip": "das",
+          "hint": "dieses."
+        },
+        {
+          "before": "den Patienten →",
+          "after": "",
+          "answer": "welchen Patienten",
+          "en": "accusative",
+          "why": "den → welchen.",
+          "tip": "den",
+          "hint": "welchen."
+        },
+        {
+          "before": "dem Zimmer, in →",
+          "after": "",
+          "answer": "in diesem Zimmer",
+          "en": "dative",
+          "why": "dem → diesem.",
+          "tip": "dem",
+          "hint": "diesem."
+        }
+      ]
+    },
+    {
+      "id": "error-welch",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Welcher Zimmer ist frei?"
+          ],
+          "options": [
+            "Welches Zimmer ist frei?",
+            "Welche Zimmer ist frei?",
+            "Welchen Zimmer ist frei?"
+          ],
+          "answer": 0,
+          "reveal": "Zimmer is neuter.",
+          "hint": "welches."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Arzt untersucht dieser Patienten."
+          ],
+          "options": [
+            "Der Arzt untersucht diesen Patienten.",
+            "Der Arzt untersucht diesem Patienten.",
+            "Der Arzt untersucht dieses Patienten."
+          ],
+          "answer": 0,
+          "reveal": "Accusative: diesen.",
+          "hint": "diesen."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "In welchen Zimmer liegt er?"
+          ],
+          "options": [
+            "In welchem Zimmer liegt er?",
+            "In dieser Zimmer liegt er?",
+            "In welchen Zimmern liegt er?"
+          ],
+          "answer": 0,
+          "reveal": "One room, dative: welchem.",
+          "hint": "welchem."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Welche Patient kommt?"
+          ],
+          "options": [
+            "Welcher Patient kommt?",
+            "Welches Patient kommt?",
+            "Welchen Patient kommt?"
+          ],
+          "answer": 0,
+          "reveal": "Patient is masculine.",
+          "hint": "welcher."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-welch",
+      "label": "Dialog",
+      "title": "Which one?",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Frage takes welcher. Zeigen takes dieser.",
+      "chips": [
+        {
+          "w": "Welcher",
+          "hint": "welcher."
+        },
+        {
+          "w": "Dieser",
+          "hint": "dieser."
+        },
+        {
+          "w": "Welches",
+          "hint": "welches."
+        },
+        {
+          "w": "Dieses",
+          "hint": "dieses."
+        },
+        {
+          "w": "Welche",
+          "hint": "welche."
+        },
+        {
+          "w": "diesen",
+          "hint": "diesen."
+        }
+      ],
+      "items": [
+        {
+          "before": "Frage:",
+          "after": "Patient kommt?",
+          "answer": "Welcher",
+          "en": "which",
+          "why": "Masculine.",
+          "tip": "der",
+          "hint": "welcher.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Zeigen:",
+          "after": "Patient kommt.",
+          "answer": "Dieser",
+          "en": "this one",
+          "why": "Point.",
+          "tip": "der",
+          "hint": "dieser.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Frage:",
+          "after": "Zimmer ist frei?",
+          "answer": "Welches",
+          "en": "which room",
+          "why": "Neuter.",
+          "tip": "das",
+          "hint": "welches.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Zeigen:",
+          "after": "Zimmer.",
+          "answer": "Dieses",
+          "en": "this room",
+          "why": "Point.",
+          "tip": "das",
+          "hint": "dieses.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Frage:",
+          "after": "Akte liegt hier?",
+          "answer": "Welche",
+          "en": "which chart",
+          "why": "Feminine.",
+          "tip": "die",
+          "hint": "welche.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Zeigen, Akkusativ: Der Arzt untersucht",
+          "after": "Patienten.",
+          "answer": "diesen",
+          "en": "this patient",
+          "why": "Accusative.",
+          "tip": "den",
+          "hint": "diesen.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-welch",
+      "label": "Lücken",
+      "title": "Dative and accusative",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Frage takes welcher. Zeigen takes dieser. The case is already in the sentence.",
+      "chips": [
+        {
+          "w": "welchen",
+          "hint": "welchen."
+        },
+        {
+          "w": "diesen",
+          "hint": "diesen."
+        },
+        {
+          "w": "welchem",
+          "hint": "welchem."
+        },
+        {
+          "w": "diesem",
+          "hint": "diesem."
+        },
+        {
+          "w": "welcher",
+          "hint": "welcher."
+        },
+        {
+          "w": "dieser",
+          "hint": "dieser."
+        },
+        {
+          "w": "Welche",
+          "hint": "welche."
+        },
+        {
+          "w": "Diese",
+          "hint": "diese."
+        }
+      ],
+      "items": [
+        {
+          "before": "Frage: Der Arzt untersucht",
+          "after": "Patienten?",
+          "answer": "welchen",
+          "en": "which, accusative",
+          "why": "den → welchen.",
+          "tip": "den",
+          "hint": "welchen."
+        },
+        {
+          "before": "Zeigen, kein Fragewort: Der Arzt untersucht",
+          "after": "Patienten.",
+          "answer": "diesen",
+          "en": "this, accusative",
+          "why": "den → diesen.",
+          "tip": "den",
+          "hint": "diesen."
+        },
+        {
+          "before": "Frage: In",
+          "after": "Zimmer liegt er?",
+          "answer": "welchem",
+          "en": "which, dative",
+          "why": "dem → welchem.",
+          "tip": "dem",
+          "hint": "welchem."
+        },
+        {
+          "before": "Zeigen, kein Fragewort: In",
+          "after": "Zimmer liegt er.",
+          "answer": "diesem",
+          "en": "this, dative",
+          "why": "dem → diesem.",
+          "tip": "dem",
+          "hint": "diesem."
+        },
+        {
+          "before": "Frage: Mit",
+          "after": "Pflegekraft spricht er?",
+          "answer": "welcher",
+          "en": "which, feminine dative",
+          "why": "der → welcher.",
+          "tip": "der",
+          "hint": "welcher."
+        },
+        {
+          "before": "Zeigen, kein Fragewort: Mit",
+          "after": "Pflegekraft spricht er.",
+          "answer": "dieser",
+          "en": "this, feminine dative",
+          "why": "der → dieser.",
+          "tip": "der",
+          "hint": "dieser."
+        },
+        {
+          "before": "Frage:",
+          "after": "Tabletten nimmt er?",
+          "answer": "Welche",
+          "en": "which tablets",
+          "why": "Plural, welche.",
+          "tip": "die",
+          "hint": "welche."
+        },
+        {
+          "before": "Zeigen, kein Fragewort:",
+          "after": "Tabletten nimmt er.",
+          "answer": "Diese",
+          "en": "these tablets",
+          "why": "Plural, diese.",
+          "tip": "die",
+          "hint": "diese."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Welcher Patient?",
+        "paragraphs": [
+          "Welcher Patient kommt? Dieser Patient kommt. Welches Zimmer ist frei? Dieses Zimmer ist frei. Welche Akte liegt hier? Diese Akte liegt hier. Der Arzt untersucht diesen Patienten. In welchem Zimmer liegt er?"
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Welcher Patient kommt?",
+          "qEn": "The answer in the note.",
+          "options": [
+            "Dieser Patient.",
+            "Dieses Patient.",
+            "Welches Patient."
+          ],
+          "answer": 0,
+          "why": "dieser Patient kommt.",
+          "hint": "dieser."
+        },
+        {
+          "kind": "mc",
+          "q": "Welches Zimmer ist frei?",
+          "qEn": "Neuter.",
+          "options": [
+            "Dieser Zimmer.",
+            "Dieses Zimmer.",
+            "Welcher Zimmer."
+          ],
+          "answer": 1,
+          "why": "dieses.",
+          "hint": "dieses."
+        },
+        {
+          "kind": "mc",
+          "q": "Wen untersucht der Arzt?",
+          "qEn": "Accusative.",
+          "options": [
+            "dieser Patienten",
+            "diesem Patienten",
+            "diesen Patienten"
+          ],
+          "answer": 2,
+          "why": "diesen.",
+          "hint": "diesen."
+        },
+        {
+          "kind": "mc",
+          "q": "Die letzte Frage steht im…",
+          "qEn": "Case.",
+          "options": [
+            "Dativ",
+            "Akkusativ",
+            "Nominativ"
+          ],
+          "answer": 0,
+          "why": "in welchem Zimmer.",
+          "hint": "Dative."
+        }
+      ]
+    },
+    {
+      "id": "writing-welch",
+      "label": "Writing",
+      "title": "Write the questions",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four lines.",
+      "prompt": "Which patient, this room, which chart, in which room.",
+      "bullets": [
+        "Welcher Patient",
+        "Dieses Zimmer",
+        "Welche Akte",
+        "welchem Zimmer"
+      ],
+      "model": "Welcher Patient kommt? Dieses Zimmer ist frei. Welche Akte liegt hier? In welchem Zimmer liegt er?",
+      "modelEn": "Which patient is coming? This room is free. Which chart is here? In which room is he lying?",
+      "hint": "Copy the ending from der, die, das.",
+      "checklist": [
+        {
+          "id": "p",
+          "label": "Welcher Patient",
+          "keywords": [
+            "Welcher Patient"
+          ]
+        },
+        {
+          "id": "z",
+          "label": "Dieses Zimmer",
+          "keywords": [
+            "Dieses Zimmer"
+          ]
+        },
+        {
+          "id": "a",
+          "label": "Welche Akte",
+          "keywords": [
+            "Welche Akte"
+          ]
+        },
+        {
+          "id": "d",
+          "label": "welchem Zimmer",
+          "keywords": [
+            "welchem Zimmer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 19. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Which patient, nominative.",
+          "qEn": "der.",
+          "options": [
+            "welcher Patient",
+            "welches Patient",
+            "welchen Patient"
+          ],
+          "answer": 0,
+          "why": "welcher.",
+          "hint": "welcher."
+        },
+        {
+          "kind": "mc",
+          "q": "This patient, nominative.",
+          "qEn": "der.",
+          "options": [
+            "dieses Patient",
+            "dieser Patient",
+            "diesen Patient"
+          ],
+          "answer": 1,
+          "why": "dieser.",
+          "hint": "dieser."
+        },
+        {
+          "kind": "mc",
+          "q": "Which room.",
+          "qEn": "das.",
+          "options": [
+            "welcher Zimmer",
+            "welche Zimmer",
+            "welches Zimmer"
+          ],
+          "answer": 2,
+          "why": "welches.",
+          "hint": "welches."
+        },
+        {
+          "kind": "mc",
+          "q": "This room.",
+          "qEn": "das.",
+          "options": [
+            "dieses Zimmer",
+            "dieser Zimmer",
+            "diesen Zimmer"
+          ],
+          "answer": 0,
+          "why": "dieses.",
+          "hint": "dieses."
+        },
+        {
+          "kind": "mc",
+          "q": "Which chart.",
+          "qEn": "die.",
+          "options": [
+            "welcher Akte",
+            "welche Akte",
+            "welches Akte"
+          ],
+          "answer": 1,
+          "why": "welche.",
+          "hint": "welche."
+        },
+        {
+          "kind": "mc",
+          "q": "This chart.",
+          "qEn": "die.",
+          "options": [
+            "dieser Akte",
+            "dieses Akte",
+            "diese Akte"
+          ],
+          "answer": 2,
+          "why": "diese.",
+          "hint": "diese."
+        },
+        {
+          "kind": "mc",
+          "q": "Which patient, accusative.",
+          "qEn": "den.",
+          "options": [
+            "welchen Patienten",
+            "welcher Patienten",
+            "welchem Patienten"
+          ],
+          "answer": 0,
+          "why": "welchen.",
+          "hint": "welchen."
+        },
+        {
+          "kind": "mc",
+          "q": "This patient, accusative.",
+          "qEn": "den.",
+          "options": [
+            "dieser Patienten",
+            "diesen Patienten",
+            "diesem Patienten"
+          ],
+          "answer": 1,
+          "why": "diesen.",
+          "hint": "diesen."
+        },
+        {
+          "kind": "mc",
+          "q": "In which room.",
+          "qEn": "dem.",
+          "options": [
+            "in welchen Zimmer",
+            "in welcher Zimmer",
+            "in welchem Zimmer"
+          ],
+          "answer": 2,
+          "why": "welchem.",
+          "hint": "welchem."
+        },
+        {
+          "kind": "mc",
+          "q": "In this room.",
+          "qEn": "dem.",
+          "options": [
+            "in diesem Zimmer",
+            "in diesen Zimmer",
+            "in dieser Zimmer"
+          ],
+          "answer": 0,
+          "why": "diesem.",
+          "hint": "diesem."
+        },
+        {
+          "kind": "mc",
+          "q": "With which nurse. Feminine dative.",
+          "qEn": "der.",
+          "options": [
+            "mit welchem Pflegekraft",
+            "mit welcher Pflegekraft",
+            "mit welchen Pflegekraft"
+          ],
+          "answer": 1,
+          "why": "welcher.",
+          "hint": "welcher."
+        },
+        {
+          "kind": "mc",
+          "q": "Which tablets. Plural.",
+          "qEn": "die.",
+          "options": [
+            "welcher Tabletten",
+            "welches Tabletten",
+            "welche Tabletten"
+          ],
+          "answer": 2,
+          "why": "welche.",
+          "hint": "welche."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "der welcher dieser",
+      "redemittel": [
+        {
+          "de": "Welcher Patient kommt?",
+          "en": "Which patient is coming?"
+        },
+        {
+          "de": "Dieser Patient kommt.",
+          "en": "This patient is coming."
+        },
+        {
+          "de": "Welches Zimmer ist frei?",
+          "en": "Which room is free?"
+        },
+        {
+          "de": "Welche Akte liegt hier?",
+          "en": "Which chart is here?"
+        },
+        {
+          "de": "In welchem Zimmer liegt er?",
+          "en": "In which room is he lying?"
+        }
+      ]
+    }
+  ]
+}

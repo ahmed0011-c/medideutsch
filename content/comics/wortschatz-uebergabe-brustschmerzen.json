@@ -1,0 +1,5745 @@
+{
+ "id": "wortschatz-uebergabe-brustschmerzen",
+ "title": "Übergabe am Morgen",
+ "subtitle": "Ein neuer Patient mit Brustschmerzen",
+ "level": "A2–B1",
+ "section": "Wortschatz",
+ "disclaimer": "Vereinfachter Lehrfall – keine klinische Leitlinie. Simplified teaching case, not clinical guidance.",
+ "characters": {
+  "lena": {
+   "name": "Dr. Lena Weber",
+   "role": "Stationsärztin",
+   "color": "#0d9488",
+   "pitch": 1.1,
+   "rate": 0.92
+  },
+  "tom": {
+   "name": "Tom",
+   "role": "Pfleger (Nachtdienst)",
+   "color": "#2563eb",
+   "pitch": 0.9,
+   "rate": 0.95
+  },
+  "becker": {
+   "name": "Herr Becker",
+   "role": "Patient, 67",
+   "color": "#b45309",
+   "pitch": 0.75,
+   "rate": 0.85
+  },
+  "anna": {
+   "name": "Anna Becker",
+   "role": "Tochter",
+   "color": "#db2777",
+   "pitch": 1.2,
+   "rate": 0.95
+  },
+  "oa": {
+   "name": "Dr. Krüger",
+   "role": "Oberarzt (Telefon)",
+   "color": "#7c3aed",
+   "pitch": 0.7,
+   "rate": 0.95
+  }
+ },
+ "caseColors": {
+  "Nom": "#d97706",
+  "Akk": "#be185d",
+  "Dat": "#7c3aed",
+  "Gen": "#0d9488"
+ },
+ "chapters": [
+  {
+   "n": 1,
+   "id": "ch1",
+   "emoji": "🔄",
+   "title": "Die Übergabe",
+   "time": "6:45",
+   "en": "Night-shift handover",
+   "summary": "Pfleger Tom übergibt der Stationsärztin einen neuen Patienten: Herrn Becker mit Brustschmerzen.",
+   "goals": [
+    "einen Patienten übergeben",
+    "Vitalwerte vorlesen (RR, Puls, Sättigung)",
+    "Abkürzungen: RR, EKG"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "ch2",
+   "emoji": "🗣️",
+   "title": "Erstkontakt & Anamnese",
+   "time": "6:50",
+   "en": "First contact & history taking",
+   "summary": "Dr. Weber stellt sich vor und fragt systematisch nach den Schmerzen (OPQRST) und der Vorgeschichte.",
+   "goals": [
+    "Schmerzen genau erfragen: seit wann, wo, wie, wie stark",
+    "nach Medikamenten, Allergien, Rauchen fragen",
+    "Familienanamnese"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "ch3",
+   "emoji": "🩺",
+   "title": "Körperliche Untersuchung",
+   "time": "7:00",
+   "en": "Physical examination & vital signs",
+   "summary": "Herz und Lunge abhören, Beine ansehen, Blutdruck an beiden Armen messen.",
+   "goals": [
+    "Anweisungen bei der Untersuchung",
+    "Befunde formulieren: rein, rhythmisch, frei",
+    "Blutdruck an beiden Armen"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "ch4",
+   "emoji": "📈",
+   "title": "EKG, Zugang & Blutabnahme",
+   "time": "7:05",
+   "en": "ECG, IV line & bloods",
+   "summary": "Tom schreibt ein EKG, legt einen Zugang und nimmt Blut ab. Das EKG zeigt etwas Neues.",
+   "goals": [
+    "ein EKG beschreiben",
+    "einen Zugang legen – mit dem Patienten sprechen",
+    "Laborwerte anfordern"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "ch5",
+   "emoji": "💊",
+   "title": "Medikamente & Allergie-Check",
+   "time": "7:15",
+   "en": "Medication & allergy check",
+   "summary": "ASS, Nitro und Morphin vorbereiten – vorher Allergien und Kontraindikationen prüfen.",
+   "goals": [
+    "Dosis und Applikationsweg nennen",
+    "Allergien und Kontraindikationen prüfen",
+    "dem Patienten Medikamente erklären"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "ch6",
+   "emoji": "📞",
+   "title": "Telefonat mit dem Oberarzt (SBAR)",
+   "time": "7:30",
+   "en": "Calling the consultant (SBAR)",
+   "summary": "Dr. Weber meldet den Patienten strukturiert: Situation, Hintergrund, Einschätzung, Empfehlung.",
+   "goals": [
+    "SBAR: strukturiert berichten",
+    "eine Verdachtsdiagnose formulieren",
+    "Anordnungen wiederholen (Closed Loop)"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "ch7",
+   "emoji": "🤝",
+   "title": "Gespräch mit Patient & Tochter",
+   "time": "7:50",
+   "en": "Talking to the patient & his daughter",
+   "summary": "Die Tochter kommt. Dr. Weber erklärt in einfachen Worten, was los ist – mit Empathie.",
+   "goals": [
+    "Schweigepflicht beachten",
+    "Fachbegriffe einfach erklären",
+    "Empathie zeigen"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "ch8",
+   "emoji": "📋",
+   "title": "Dokumentation & Verlegung",
+   "time": "8:10",
+   "en": "Documentation & transfer",
+   "summary": "Alles dokumentieren, den Verlegungsbericht schreiben und Herrn Becker an die Kardiologie übergeben.",
+   "goals": [
+    "dokumentieren",
+    "einen Patienten verlegen",
+    "sich verabschieden"
+   ]
+  }
+ ],
+ "panels": [
+  {
+   "ch": 1,
+   "scene": "station",
+   "chars": [
+    {
+     "c": "tom",
+     "x": 190,
+     "mood": "tired",
+     "prop": "coffee"
+    },
+    {
+     "c": "lena",
+     "x": 530,
+     "mood": "smile"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Guten Morgen, Tom! Wie war die Nacht?",
+     "en": "Good morning, Tom! How was the night?"
+    },
+    {
+     "who": "tom",
+     "de": "Morgen, Lena. Ziemlich ruhig – bis auf einen Neuzugang.",
+     "en": "Morning, Lena. Pretty quiet – except for one new admission."
+    }
+   ],
+   "caption": "Station 4B, Innere Medizin · 6:45 Uhr · Schichtwechsel",
+   "clock": "6:45",
+   "tip": "On many wards, nurses and doctors use <b>du</b> and first names with each other. With patients: always <b>Sie</b>.",
+   "id": "p1"
+  },
+  {
+   "ch": 1,
+   "scene": "station",
+   "chars": [
+    {
+     "c": "tom",
+     "x": 190,
+     "mood": "talk",
+     "prop": "clipboard"
+    },
+    {
+     "c": "lena",
+     "x": 530,
+     "mood": "neutral"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "tom",
+     "de": "Ich [[übergebe|übergeben]] dir Herrn Becker aus Zimmer 12. Er ist 67 Jahre alt und kam um drei Uhr über die Notaufnahme.",
+     "en": "I'm handing Mr Becker in room 12 over to you. He is 67 years old and came in through the emergency department at three o'clock."
+    },
+    {
+     "who": "lena",
+     "de": "Mit welchen Beschwerden?",
+     "en": "With what symptoms?"
+    },
+    {
+     "who": "tom",
+     "de": "Mit Brustschmerzen seit gestern Abend. Die Schmerzen [[strahlen|ausstrahlen]] in den linken Arm [[aus|ausstrahlen]].",
+     "en": "With chest pain since yesterday evening. The pain radiates into the left arm."
+    },
+    {
+     "who": "tom",
+     "de": "In der Notaufnahme waren das EKG und das erste Troponin unauffällig.",
+     "en": "In the emergency department, the ECG and the first troponin were normal."
+    }
+   ],
+   "clock": "6:46",
+   "tip": "<b>unauffällig</b> = normal, without pathological findings. Very common in reports.",
+   "id": "p2"
+  },
+  {
+   "ch": 1,
+   "scene": "monitor",
+   "chars": [],
+   "bubbles": [
+    {
+     "who": "tom",
+     "de": "Die Vitalwerte um 5:30 Uhr: RR 150 zu 90, Puls 96, Sättigung 94 Prozent unter Raumluft, Temperatur 36,8 Grad.",
+     "en": "Vital signs at 5:30: BP 150 over 90, pulse 96, saturation 94 percent on room air, temperature 36.8 degrees."
+    }
+   ],
+   "caption": "Die Vitalwerte von Herrn Becker (5:30 Uhr)",
+   "tip": "<b>RR</b> = Blutdruck (after Riva-Rocci). Say it like this: „150 zu 90“. <b>Sättigung</b> = oxygen saturation (SpO₂).",
+   "vitals": {
+    "time": "05:30",
+    "hf": "96",
+    "spo2": "94",
+    "rr": "150/90",
+    "temp": "36,8"
+   },
+   "id": "p3"
+  },
+  {
+   "ch": 1,
+   "scene": "station",
+   "chars": [
+    {
+     "c": "tom",
+     "x": 190,
+     "mood": "neutral",
+     "prop": "clipboard"
+    },
+    {
+     "c": "lena",
+     "x": 530,
+     "mood": "think"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Der Blutdruck ist etwas hoch. Hat er Vorerkrankungen oder Allergien?",
+     "en": "The blood pressure is a bit high. Does he have any pre-existing conditions or allergies?"
+    },
+    {
+     "who": "tom",
+     "de": "Laut Notaufnahme: Bluthochdruck und Diabetes Typ 2. Er raucht und ist allergisch gegen Penicillin.",
+     "en": "According to the ED: high blood pressure and type 2 diabetes. He smokes and is allergic to penicillin."
+    }
+   ],
+   "clock": "6:48",
+   "id": "p4"
+  },
+  {
+   "ch": 1,
+   "scene": "station",
+   "chars": [
+    {
+     "c": "tom",
+     "x": 190,
+     "mood": "serious",
+     "prop": "clipboard"
+    },
+    {
+     "c": "lena",
+     "x": 530,
+     "mood": "serious"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "tom",
+     "de": "Und noch etwas Wichtiges: Vor zehn Minuten hatte er wieder Schmerzen in der Brust.",
+     "en": "And one more important thing: ten minutes ago he had chest pain again."
+    },
+    {
+     "who": "lena",
+     "de": "Dann schauen wir sofort nach ihm. Komm bitte mit!",
+     "en": "Then let's check on him right away. Come with me, please!"
+    }
+   ],
+   "clock": "6:49",
+   "tip": "New or recurring chest pain = <b>immediately</b> see the patient. Handover can wait.",
+   "id": "p5"
+  },
+  {
+   "ch": 2,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "pain",
+     "prop": "chest"
+    },
+    {
+     "c": "lena",
+     "x": 540,
+     "mood": "smile"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Guten Morgen, Herr Becker. Ich bin Dr. Weber, die Stationsärztin. Wie geht es Ihnen?",
+     "en": "Good morning, Mr Becker. I'm Dr Weber, the ward doctor. How are you feeling?"
+    },
+    {
+     "who": "becker",
+     "de": "Nicht gut, Frau Doktor. Es [[drückt|drücken]] hier in der Brust.",
+     "en": "Not good, doctor. There's pressure here in my chest."
+    }
+   ],
+   "caption": "Zimmer 12 · 6:50 Uhr",
+   "tip": "Introduce yourself with <b>name + role</b>: „Ich bin Dr. Weber, die Stationsärztin.“",
+   "id": "p6"
+  },
+  {
+   "ch": 2,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "pain",
+     "prop": "chest"
+    },
+    {
+     "c": "lena",
+     "x": 540,
+     "mood": "neutral"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Zeigen Sie mir bitte genau, wo es [[wehtut|wehtun]].",
+     "en": "Please show me exactly where it hurts."
+    },
+    {
+     "who": "becker",
+     "de": "Hier, in der Mitte. Wie ein schwerer Stein auf der Brust.",
+     "en": "Here, in the middle. Like a heavy stone on my chest."
+    },
+    {
+     "who": "lena",
+     "de": "Ist der Schmerz eher drückend, brennend oder stechend?",
+     "en": "Is the pain more pressing, burning or stabbing?"
+    },
+    {
+     "who": "becker",
+     "de": "Drückend – wie ein Engegefühl.",
+     "en": "Pressing – like a feeling of tightness."
+    }
+   ],
+   "tip": "<b>OPQRST</b> for pain: Onset (Seit wann?), Provocation (Wobei?), Quality (drückend, brennend, stechend), Radiation (Strahlt es aus?), Severity (0–10), Time (Wie lange?).",
+   "id": "p7"
+  },
+  {
+   "ch": 2,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "worried"
+    },
+    {
+     "c": "lena",
+     "x": 540,
+     "mood": "neutral",
+     "prop": "clipboard"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Seit wann haben Sie die Schmerzen?",
+     "en": "Since when have you had the pain?"
+    },
+    {
+     "who": "becker",
+     "de": "Seit gestern Abend. Vor einer Viertelstunde sind sie wiedergekommen.",
+     "en": "Since yesterday evening. A quarter of an hour ago it came back."
+    },
+    {
+     "who": "lena",
+     "de": "Was haben Sie gemacht, als die Schmerzen [[angefangen|anfangen]] haben?",
+     "en": "What were you doing when the pain started?"
+    },
+    {
+     "who": "becker",
+     "de": "Nichts Besonderes. Ich habe auf dem Sofa gesessen und [[ferngesehen|fernsehen]].",
+     "en": "Nothing special. I was sitting on the sofa watching TV."
+    }
+   ],
+   "tip": "Pain <b>in Ruhe</b> (at rest) is a warning sign: think of an unstable angina / ACS.",
+   "id": "p8"
+  },
+  {
+   "ch": 2,
+   "scene": "scale",
+   "chars": [],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Wie stark sind die Schmerzen auf einer Skala von null bis zehn? Null heißt keine Schmerzen, zehn heißt die stärksten Schmerzen, die Sie sich vorstellen können.",
+     "en": "How bad is the pain on a scale from zero to ten? Zero means no pain, ten means the worst pain you can imagine."
+    },
+    {
+     "who": "becker",
+     "de": "Ungefähr sieben.",
+     "en": "About seven."
+    }
+   ],
+   "caption": "Die Schmerzskala (NRS 0–10)",
+   "tip": "<b>NRS</b> = Numerische Rating-Skala. Document it: „Schmerzen NRS 7/10“.",
+   "id": "p9"
+  },
+  {
+   "ch": 2,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "pain",
+     "prop": "chest"
+    },
+    {
+     "c": "lena",
+     "x": 540,
+     "mood": "serious"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "[[Strahlen|ausstrahlen]] die Schmerzen [[aus|ausstrahlen]]?",
+     "en": "Does the pain radiate?"
+    },
+    {
+     "who": "becker",
+     "de": "Ja, in den linken Arm. Und mir ist ein bisschen übel.",
+     "en": "Yes, into my left arm. And I feel a bit sick."
+    },
+    {
+     "who": "lena",
+     "de": "Hatten Sie auch Atemnot oder haben Sie stark [[geschwitzt|schwitzen]]?",
+     "en": "Were you also short of breath, or did you sweat a lot?"
+    },
+    {
+     "who": "becker",
+     "de": "Ja, gestern Abend war ich ganz nass [[geschwitzt|schwitzen]].",
+     "en": "Yes, last night I was drenched in sweat."
+    }
+   ],
+   "tip": "Typical <b>Begleitsymptome</b> (accompanying symptoms) of ACS: Übelkeit, Atemnot, Kaltschweißigkeit.",
+   "id": "p10"
+  },
+  {
+   "ch": 2,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "neutral"
+    },
+    {
+     "c": "lena",
+     "x": 540,
+     "mood": "neutral",
+     "prop": "clipboard"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Welche Medikamente nehmen Sie regelmäßig? Und haben Sie Allergien?",
+     "en": "Which medications do you take regularly? And do you have any allergies?"
+    },
+    {
+     "who": "becker",
+     "de": "Ramipril für den Blutdruck und Metformin für den Zucker. Gegen Penicillin bin ich allergisch – davon bekomme ich einen Ausschlag.",
+     "en": "Ramipril for my blood pressure and metformin for my sugar. I'm allergic to penicillin – it gives me a rash."
+    }
+   ],
+   "tip": "Always ask <b>what happens</b> with an allergy: „Was passiert dann?“ – rash, swelling, breathing problems?",
+   "id": "p11"
+  },
+  {
+   "ch": 2,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "worried"
+    },
+    {
+     "c": "lena",
+     "x": 540,
+     "mood": "think",
+     "prop": "clipboard"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Rauchen Sie?",
+     "en": "Do you smoke?"
+    },
+    {
+     "who": "becker",
+     "de": "Ja, seit 40 Jahren – ungefähr eine Schachtel am Tag.",
+     "en": "Yes, for 40 years – about a pack a day."
+    },
+    {
+     "who": "lena",
+     "de": "Gibt es Herzkrankheiten in Ihrer Familie?",
+     "en": "Is there any heart disease in your family?"
+    },
+    {
+     "who": "becker",
+     "de": "Mein Vater hatte mit 58 einen Herzinfarkt.",
+     "en": "My father had a heart attack at 58."
+    }
+   ],
+   "tip": "<b>Risikofaktoren</b>: Rauchen, Bluthochdruck, Diabetes, Cholesterin, positive Familienanamnese.",
+   "id": "p12"
+  },
+  {
+   "ch": 3,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "neutral"
+    },
+    {
+     "c": "lena",
+     "x": 540,
+     "mood": "calm",
+     "prop": "stetho"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Ich höre jetzt Ihr Herz und Ihre Lunge [[ab|abhören]]. Bitte [[machen|freimachen]] Sie den Oberkörper [[frei|freimachen]].",
+     "en": "I'm going to listen to your heart and lungs now. Please take off your top."
+    },
+    {
+     "who": "becker",
+     "de": "Soll ich mich aufsetzen?",
+     "en": "Should I sit up?"
+    },
+    {
+     "who": "lena",
+     "de": "Ja, bitte. Und jetzt tief [[ein-|einatmen]] und ausatmen.",
+     "en": "Yes, please. And now breathe in and out deeply."
+    }
+   ],
+   "caption": "7:00 Uhr · Körperliche Untersuchung",
+   "tip": "<b>ein- und ausatmen</b>: when two separable verbs share the second part, German writes the first one with a hyphen.",
+   "id": "p13"
+  },
+  {
+   "ch": 3,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 150,
+     "mood": "calm"
+    },
+    {
+     "c": "tom",
+     "x": 370,
+     "mood": "neutral"
+    },
+    {
+     "c": "lena",
+     "x": 580,
+     "mood": "talk",
+     "prop": "stetho"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Die Herztöne sind rein und rhythmisch. Die Lunge ist frei, keine Rasselgeräusche. Die Beine sind nicht [[geschwollen|schwellen]] – keine Ödeme.",
+     "en": "The heart sounds are clear and regular. The lungs are clear, no crackles. The legs are not swollen – no oedema."
+    },
+    {
+     "who": "lena",
+     "de": "Tom, miss bitte den Blutdruck an beiden Armen.",
+     "en": "Tom, please measure the blood pressure on both arms."
+    }
+   ],
+   "tip": "Typical findings phrases: <i>Herztöne rein, rhythmisch</i> · <i>Lunge frei</i> · <i>keine Ödeme</i>.",
+   "id": "p14"
+  },
+  {
+   "ch": 3,
+   "scene": "monitor",
+   "chars": [],
+   "bubbles": [
+    {
+     "who": "tom",
+     "de": "Rechts 148 zu 88, links 150 zu 90. Puls 92, Sättigung 95 Prozent, Temperatur 36,9 Grad.",
+     "en": "Right 148 over 88, left 150 over 90. Pulse 92, saturation 95 percent, temperature 36.9 degrees."
+    },
+    {
+     "who": "lena",
+     "de": "Gut, kein Seitenunterschied.",
+     "en": "Good, no difference between the sides."
+    }
+   ],
+   "caption": "Die Vitalwerte um 7:00 Uhr",
+   "tip": "A big BP difference between the arms can be a sign of an <b>Aortendissektion</b> – an important differential diagnosis of chest pain.",
+   "vitals": {
+    "time": "07:00",
+    "hf": "92",
+    "spo2": "95",
+    "rr": "150/90",
+    "rr2": "re 148/88",
+    "temp": "36,9"
+   },
+   "id": "p15"
+  },
+  {
+   "ch": 4,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 150,
+     "mood": "worried"
+    },
+    {
+     "c": "tom",
+     "x": 370,
+     "mood": "neutral"
+    },
+    {
+     "c": "lena",
+     "x": 580,
+     "mood": "talk"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Tom, schreib bitte sofort ein EKG und leg einen Zugang.",
+     "en": "Tom, please record an ECG right away and put in an IV line."
+    },
+    {
+     "who": "tom",
+     "de": "Mache ich. Soll ich auch [[Blut|blutabnehmen]] [[abnehmen|blutabnehmen]]?",
+     "en": "Will do. Shall I take blood as well?"
+    },
+    {
+     "who": "lena",
+     "de": "Ja, bitte: Troponin, Blutbild, Elektrolyte, Kreatinin und Gerinnung.",
+     "en": "Yes, please: troponin, full blood count, electrolytes, creatinine and coagulation."
+    }
+   ],
+   "caption": "7:05 Uhr",
+   "tip": "Ward jargon: <b>ein EKG schreiben</b> (record an ECG), <b>einen Zugang legen</b> (insert an IV cannula).",
+   "id": "p16"
+  },
+  {
+   "ch": 4,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "neutral"
+    },
+    {
+     "c": "tom",
+     "x": 540,
+     "mood": "talk",
+     "prop": "cables"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "tom",
+     "de": "Herr Becker, ich [[klebe|aufkleben]] Ihnen jetzt die Elektroden auf die Brust [[auf|aufkleben]]. Bitte liegen Sie ganz ruhig und sprechen Sie nicht.",
+     "en": "Mr Becker, I'm now sticking the electrodes on your chest. Please lie completely still and don't talk."
+    }
+   ],
+   "tip": "Tell the patient <b>what</b> you do <b>before</b> you do it.",
+   "id": "p17"
+  },
+  {
+   "ch": 4,
+   "scene": "ekg",
+   "chars": [],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Sinusrhythmus, Frequenz 92. Keine ST-Hebungen. Aber die T-Wellen in V2 bis V4 sind negativ – das ist neu.",
+     "en": "Sinus rhythm, rate 92. No ST elevation. But the T waves in V2 to V4 are inverted – that's new."
+    },
+    {
+     "who": "tom",
+     "de": "Im EKG aus der Notaufnahme waren sie noch positiv.",
+     "en": "In the ECG from the ED they were still upright."
+    }
+   ],
+   "caption": "Das EKG um 7:08 Uhr",
+   "tip": "Always <b>compare</b> with the previous ECG: „neu“ or „vorbekannt“?",
+   "id": "p18"
+  },
+  {
+   "ch": 4,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "worried"
+    },
+    {
+     "c": "tom",
+     "x": 540,
+     "mood": "smile",
+     "prop": "tourniquet"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "tom",
+     "de": "Jetzt kommt ein kleiner Pieks.",
+     "en": "Now a little prick."
+    },
+    {
+     "who": "tom",
+     "de": "Fertig! Der Zugang liegt: grün, 18 Gauge, am linken Unterarm.",
+     "en": "Done! The line is in: green, 18 gauge, in the left forearm."
+    }
+   ],
+   "tip": "Cannula colours: <b>rosa</b> 20 G, <b>grün</b> 18 G, <b>grau</b> 16 G. For possible emergencies: at least 18 G.",
+   "id": "p19"
+  },
+  {
+   "ch": 4,
+   "scene": "lab",
+   "chars": [],
+   "bubbles": [
+    {
+     "who": "tom",
+     "de": "Ich bringe die Röhrchen sofort ins Labor – als Notfall.",
+     "en": "I'll take the tubes to the lab right away – as an emergency."
+    },
+    {
+     "who": "lena",
+     "de": "Danke. Das Troponin kontrollieren wir in drei Stunden noch einmal.",
+     "en": "Thanks. We'll check the troponin again in three hours."
+    }
+   ],
+   "caption": "Die Blutröhrchen",
+   "tip": "<b>das Röhrchen</b> = blood tube. A single normal troponin does not rule out an ACS – it has to be <b>repeated</b>.",
+   "id": "p20"
+  },
+  {
+   "ch": 5,
+   "scene": "meds",
+   "chars": [],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Wir geben 250 mg ASS i.v. und zwei Hübe Nitro-Spray unter die Zunge.",
+     "en": "We'll give 250 mg aspirin IV and two puffs of nitro spray under the tongue."
+    },
+    {
+     "who": "tom",
+     "de": "Der RR ist hoch genug für Nitro. Und gegen ASS hat er keine Allergie.",
+     "en": "His BP is high enough for nitro. And he isn't allergic to aspirin."
+    },
+    {
+     "who": "lena",
+     "de": "Gut. Wenn die Schmerzen nicht besser werden, bekommt er Morphin als Schmerzmittel.",
+     "en": "Good. If the pain doesn't get better, he gets morphine as a painkiller."
+    }
+   ],
+   "caption": "7:15 Uhr · Medikamente vorbereiten",
+   "tip": "<b>ASS</b> = Acetylsalicylsäure (aspirin). <b>i.v.</b> = intravenös. Always check allergies before giving any drug!",
+   "id": "p21"
+  },
+  {
+   "ch": 5,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "neutral"
+    },
+    {
+     "c": "lena",
+     "x": 540,
+     "mood": "serious"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Herr Becker, noch eine wichtige Frage: Haben Sie in den letzten zwei Tagen ein Potenzmittel [[genommen|nehmen]], zum Beispiel Viagra?",
+     "en": "Mr Becker, one more important question: have you taken an erectile dysfunction drug in the last two days, for example Viagra?"
+    },
+    {
+     "who": "becker",
+     "de": "Nein, so etwas nehme ich nicht.",
+     "en": "No, I don't take anything like that."
+    },
+    {
+     "who": "lena",
+     "de": "Gut. Dann bekommen Sie gleich das Nitro-Spray.",
+     "en": "Good. Then you'll get the nitro spray in a moment."
+    }
+   ],
+   "tip": "<b>Kontraindikation</b>: Nitro + Potenzmittel (PDE-5-Hemmer) → dangerous drop in blood pressure. Ask neutrally and without judgement.",
+   "id": "p22"
+  },
+  {
+   "ch": 5,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 200,
+     "mood": "worried"
+    },
+    {
+     "c": "lena",
+     "x": 540,
+     "mood": "calm"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Sie bekommen jetzt ein Medikament über die Vene und ein Spray unter die Zunge. Bitte bleiben Sie im Bett und klingeln Sie, wenn die Schmerzen stärker werden.",
+     "en": "You're now getting a medicine through the vein and a spray under your tongue. Please stay in bed and ring the bell if the pain gets worse."
+    }
+   ],
+   "tip": "Explain in simple words: <i>über die Vene</i> instead of <i>i.v.</i>",
+   "id": "p23"
+  },
+  {
+   "ch": 5,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 150,
+     "mood": "relieved"
+    },
+    {
+     "c": "tom",
+     "x": 370,
+     "mood": "smile",
+     "prop": "clipboard"
+    },
+    {
+     "c": "lena",
+     "x": 580,
+     "mood": "smile"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "tom",
+     "de": "Nach dem Nitro-Spray sind die Schmerzen besser: jetzt drei von zehn. RR 130 zu 80.",
+     "en": "After the nitro spray the pain is better: now three out of ten. BP 130 over 80."
+    },
+    {
+     "who": "lena",
+     "de": "Sehr gut. [[Trag|eintragen]] bitte alles in die Kurve [[ein|eintragen]]: Uhrzeit, Medikamente, Dosis und Vitalwerte.",
+     "en": "Very good. Please enter everything in the chart: time, medication, dose and vital signs."
+    }
+   ],
+   "caption": "Zehn Minuten später",
+   "tip": "<b>die Kurve</b> = the patient's chart (paper or digital) with vital signs, medication and orders.",
+   "id": "p24"
+  },
+  {
+   "ch": 6,
+   "scene": "phone",
+   "chars": [
+    {
+     "c": "lena",
+     "x": 250,
+     "mood": "talk",
+     "prop": "phone"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Guten Morgen, Herr Dr. Krüger, hier ist Weber von der 4B. Ich [[rufe|anrufen]] wegen eines neuen Patienten mit Brustschmerzen [[an|anrufen]].",
+     "en": "Good morning, Dr Krüger, this is Weber from 4B. I'm calling about a new patient with chest pain."
+    },
+    {
+     "who": "oa",
+     "de": "Guten Morgen, Frau Weber. Ich höre.",
+     "en": "Good morning, Ms Weber. Go ahead."
+    },
+    {
+     "who": "lena",
+     "de": "Situation: Herr Becker, 67 Jahre, hat seit gestern Abend Brustschmerzen. Heute Morgen kamen sie in Ruhe wieder, mit Ausstrahlung in den linken Arm.",
+     "en": "Situation: Mr Becker, 67, has had chest pain since last night. This morning it came back at rest, radiating into the left arm."
+    }
+   ],
+   "caption": "7:30 Uhr · Stationszimmer · Telefonat mit dem Oberarzt",
+   "tip": "<b>SBAR</b> = Situation · Background (Hintergrund) · Assessment (Einschätzung) · Recommendation (Empfehlung).",
+   "sbar": "S",
+   "id": "p25"
+  },
+  {
+   "ch": 6,
+   "scene": "phone",
+   "chars": [
+    {
+     "c": "lena",
+     "x": 250,
+     "mood": "talk",
+     "prop": "phone"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Hintergrund: Er hat Bluthochdruck und Diabetes Typ 2 und raucht seit 40 Jahren. Sein Vater hatte einen Herzinfarkt. Er ist allergisch gegen Penicillin.",
+     "en": "Background: he has high blood pressure and type 2 diabetes and has smoked for 40 years. His father had a heart attack. He is allergic to penicillin."
+    }
+   ],
+   "tip": "<b>Hintergrund</b>: only what matters for <i>this</i> problem – risk factors, important medication, allergies.",
+   "sbar": "B",
+   "id": "p26"
+  },
+  {
+   "ch": 6,
+   "scene": "phone",
+   "chars": [
+    {
+     "c": "lena",
+     "x": 250,
+     "mood": "serious",
+     "prop": "phone"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Einschätzung: Im EKG gibt es neue T-Negativierungen in V2 bis V4, keine ST-Hebungen. Das erste Troponin war unauffällig, das zweite läuft. Nach ASS und Nitro ist er fast beschwerdefrei. Ich vermute ein akutes Koronarsyndrom ohne ST-Hebung.",
+     "en": "Assessment: the ECG shows new T-wave inversions in V2 to V4, no ST elevation. The first troponin was normal, the second is pending. After aspirin and nitro he is almost pain-free. I suspect an acute coronary syndrome without ST elevation."
+    }
+   ],
+   "tip": "State your <b>Verdachtsdiagnose</b> (working diagnosis) clearly: „Ich vermute …“ / „Ich denke an …“.",
+   "sbar": "A",
+   "id": "p27"
+  },
+  {
+   "ch": 6,
+   "scene": "phone",
+   "chars": [
+    {
+     "c": "lena",
+     "x": 250,
+     "mood": "talk",
+     "prop": "phone"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Empfehlung: Ich würde Heparin geben und ihn in der Kardiologie vorstellen. Können Sie bitte kommen und ihn sich ansehen?",
+     "en": "Recommendation: I would give heparin and refer him to cardiology. Could you please come and see him?"
+    },
+    {
+     "who": "oa",
+     "de": "Ja. Geben Sie bitte 5000 IE Heparin i.v. Ich [[melde|anmelden]] ihn in der Kardiologie [[an|anmelden]] – wahrscheinlich bekommt er heute noch einen Herzkatheter. Ich komme in zehn Minuten.",
+     "en": "Yes. Please give 5000 IU heparin IV. I'll refer him to cardiology – he'll probably have a cardiac catheter today. I'll be there in ten minutes."
+    },
+    {
+     "who": "lena",
+     "de": "Ich wiederhole: 5000 IE Heparin i.v., Sie [[melden|anmelden]] ihn in der Kardiologie [[an|anmelden]] und kommen in zehn Minuten.",
+     "en": "Let me repeat: 5000 IU heparin IV, you'll refer him to cardiology and come in ten minutes."
+    },
+    {
+     "who": "oa",
+     "de": "Richtig. Gute Übergabe – danke!",
+     "en": "Correct. Good report – thank you!"
+    }
+   ],
+   "tip": "<b>Closed Loop</b>: repeat every verbal order („Ich wiederhole …“) to avoid errors.",
+   "sbar": "R",
+   "id": "p28"
+  },
+  {
+   "ch": 7,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 150,
+     "mood": "neutral"
+    },
+    {
+     "c": "anna",
+     "x": 370,
+     "mood": "worried"
+    },
+    {
+     "c": "lena",
+     "x": 580,
+     "mood": "calm"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "anna",
+     "de": "Entschuldigung, ich bin Anna Becker, die Tochter. Mein Vater hat mich [[angerufen|anrufen]]. Was ist denn passiert?",
+     "en": "Excuse me, I'm Anna Becker, his daughter. My father called me. What happened?"
+    },
+    {
+     "who": "lena",
+     "de": "Guten Morgen, Frau Becker. Ich bin Dr. Weber, die Stationsärztin. Herr Becker, darf ich Ihrer Tochter von Ihren Befunden erzählen?",
+     "en": "Good morning, Ms Becker. I'm Dr Weber, the ward doctor. Mr Becker, may I tell your daughter about your results?"
+    },
+    {
+     "who": "becker",
+     "de": "Ja, natürlich.",
+     "en": "Yes, of course."
+    }
+   ],
+   "caption": "7:50 Uhr · Besuch in Zimmer 12",
+   "tip": "<b>Schweigepflicht</b> (confidentiality): ask the patient <b>before</b> you give relatives any information.",
+   "id": "p29"
+  },
+  {
+   "ch": 7,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 150,
+     "mood": "worried"
+    },
+    {
+     "c": "anna",
+     "x": 370,
+     "mood": "worried"
+    },
+    {
+     "c": "lena",
+     "x": 580,
+     "mood": "serious"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Ihr Vater hat wahrscheinlich eine Durchblutungsstörung am Herzen. Vermutlich ist ein Herzkranzgefäß [[verengt|verengen]].",
+     "en": "Your father probably has a problem with the blood supply to his heart. One of the coronary arteries is probably narrowed."
+    },
+    {
+     "who": "anna",
+     "de": "Ist das ein Herzinfarkt?",
+     "en": "Is it a heart attack?"
+    },
+    {
+     "who": "lena",
+     "de": "Das wissen wir noch nicht sicher. Dafür brauchen wir die zweite Blutprobe. Aber wir nehmen das sehr ernst.",
+     "en": "We don't know that for sure yet. For that we need the second blood test. But we're taking it very seriously."
+    }
+   ],
+   "tip": "Simple words for patients: <i>Herzkranzgefäß</i> instead of <i>Koronararterie</i>, <i>Durchblutungsstörung</i> instead of <i>Ischämie</i>.",
+   "id": "p30"
+  },
+  {
+   "ch": 7,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 150,
+     "mood": "worried"
+    },
+    {
+     "c": "anna",
+     "x": 370,
+     "mood": "sad"
+    },
+    {
+     "c": "lena",
+     "x": 580,
+     "mood": "neutral"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "anna",
+     "de": "Ich habe solche Angst um ihn.",
+     "en": "I'm so scared for him."
+    },
+    {
+     "who": "lena",
+     "de": "Das verstehe ich gut. Das ist eine schwierige Situation für Sie beide. Ihr Vater wird hier gut [[überwacht|überwachen]], und die Kardiologen kümmern sich heute noch um ihn.",
+     "en": "I understand that completely. This is a difficult situation for both of you. Your father is being monitored closely here, and the cardiologists will look after him today."
+    }
+   ],
+   "tip": "<b>Empathy phrases</b>: „Das verstehe ich gut.“ · „Das ist eine schwierige Situation.“ · „Sie können jederzeit fragen.“",
+   "id": "p31"
+  },
+  {
+   "ch": 7,
+   "scene": "cath",
+   "chars": [],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Wahrscheinlich bekommen Sie heute eine Herzkatheteruntersuchung. Dabei schieben die Ärzte einen dünnen Schlauch vom Handgelenk bis zum Herzen.",
+     "en": "You'll probably have a cardiac catheter examination today. The doctors push a thin tube from your wrist up to your heart."
+    },
+    {
+     "who": "lena",
+     "de": "So sehen sie, ob ein Gefäß [[verengt|verengen]] ist. Wenn ja, öffnen sie es direkt mit einem kleinen Gitterröhrchen, einem Stent.",
+     "en": "That way they can see if a vessel is narrowed. If so, they open it straight away with a small mesh tube, a stent."
+    },
+    {
+     "who": "becker",
+     "de": "Muss ich dafür [[operiert|operieren]] werden?",
+     "en": "Do I need an operation for that?"
+    },
+    {
+     "who": "lena",
+     "de": "Nein, das ist keine Operation. Sie bekommen nur eine örtliche Betäubung am Handgelenk.",
+     "en": "No, it's not an operation. You only get a local anaesthetic at the wrist."
+    }
+   ],
+   "caption": "Dr. Weber erklärt den Herzkatheter",
+   "tip": "Explain procedures in 3 steps: <b>what</b> happens · <b>why</b> · <b>what it feels like</b>.",
+   "id": "p32"
+  },
+  {
+   "ch": 7,
+   "scene": "room",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 150,
+     "mood": "calm"
+    },
+    {
+     "c": "anna",
+     "x": 370,
+     "mood": "relieved"
+    },
+    {
+     "c": "lena",
+     "x": 580,
+     "mood": "smile"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Bis dahin bleiben Sie bitte nüchtern: nichts essen, nur kleine Schlucke Wasser.",
+     "en": "Until then, please stay nil by mouth: nothing to eat, only small sips of water."
+    },
+    {
+     "who": "anna",
+     "de": "Darf ich bei ihm bleiben?",
+     "en": "May I stay with him?"
+    },
+    {
+     "who": "lena",
+     "de": "Ja, gern. Wenn die Schmerzen wiederkommen, klingeln Sie bitte sofort. Haben Sie noch Fragen?",
+     "en": "Yes, of course. If the pain comes back, please ring the bell straight away. Do you have any more questions?"
+    },
+    {
+     "who": "anna",
+     "de": "Im Moment nicht. Vielen Dank, dass Sie sich Zeit nehmen.",
+     "en": "Not at the moment. Thank you very much for taking the time."
+    }
+   ],
+   "tip": "Always end with an open question: <b>„Haben Sie noch Fragen?“</b>",
+   "id": "p33"
+  },
+  {
+   "ch": 8,
+   "scene": "desk",
+   "chars": [
+    {
+     "c": "lena",
+     "x": 170,
+     "mood": "talk"
+    },
+    {
+     "c": "tom",
+     "x": 580,
+     "mood": "neutral",
+     "prop": "clipboard"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Ich dokumentiere jetzt alles: Anamnese, Befund, EKG und die Medikamente mit Uhrzeit.",
+     "en": "I'm documenting everything now: history, findings, ECG and the medication with times."
+    },
+    {
+     "who": "tom",
+     "de": "Die Kardiologie hat [[angerufen|anrufen]]: Herr Becker kann um 8:30 Uhr auf die [[Chest Pain Unit|chest pain unit]]. Ich [[bereite|vorbereiten]] die Verlegung [[vor|vorbereiten]].",
+     "en": "Cardiology called: Mr Becker can go to the chest pain unit at 8:30. I'll prepare the transfer."
+    }
+   ],
+   "caption": "8:10 Uhr · Dokumentation",
+   "tip": "Not documented = not done. Write <b>what</b>, <b>when</b> and <b>who</b>.",
+   "id": "p34"
+  },
+  {
+   "ch": 8,
+   "scene": "corridor",
+   "chars": [
+    {
+     "c": "becker",
+     "x": 170,
+     "mood": "relieved"
+    },
+    {
+     "c": "tom",
+     "x": 420,
+     "mood": "smile"
+    },
+    {
+     "c": "lena",
+     "x": 610,
+     "mood": "smile",
+     "prop": "clipboard"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Hier sind der Verlegungsbericht, die Medikamentenliste und beide EKGs.",
+     "en": "Here are the transfer report, the medication list and both ECGs."
+    },
+    {
+     "who": "tom",
+     "de": "Danke. Wir fahren mit Monitor, und der Notfallkoffer kommt mit.",
+     "en": "Thanks. We'll go with a monitor, and the emergency kit comes along."
+    },
+    {
+     "who": "becker",
+     "de": "Vielen Dank für alles, Frau Doktor!",
+     "en": "Thank you very much for everything, doctor!"
+    },
+    {
+     "who": "lena",
+     "de": "Gern geschehen, Herr Becker. Alles Gute!",
+     "en": "You're welcome, Mr Becker. All the best!"
+    }
+   ],
+   "caption": "8:30 Uhr · Verlegung in die Kardiologie",
+   "tip": "Transfer with suspected ACS: <b>mit Monitor</b> and with staff who can handle an emergency.",
+   "id": "p35"
+  },
+  {
+   "ch": 8,
+   "scene": "station",
+   "chars": [
+    {
+     "c": "tom",
+     "x": 190,
+     "mood": "smile",
+     "prop": "jacket"
+    },
+    {
+     "c": "lena",
+     "x": 530,
+     "mood": "smile"
+    }
+   ],
+   "bubbles": [
+    {
+     "who": "lena",
+     "de": "Danke für die gute Übergabe, Tom. Und jetzt ab nach Hause – schlaf gut!",
+     "en": "Thanks for the good handover, Tom. And now off home – sleep well!"
+    },
+    {
+     "who": "tom",
+     "de": "Danke, Lena. Bis heute Abend!",
+     "en": "Thanks, Lena. See you tonight!"
+    }
+   ],
+   "caption": "8:40 Uhr: Endlich Feierabend für Tom",
+   "clock": "8:40",
+   "id": "p36"
+  }
+ ],
+ "glossary": {
+  "4b": {
+   "pos": "ward name",
+   "de": "4B (vier B)",
+   "en": "ward 4B",
+   "emoji": "🏥",
+   "note": "„von der 4B“ = from ward 4B"
+  },
+  "ab": {
+   "pos": "particle",
+   "de": "ab",
+   "en": "off; away",
+   "emoji": "🏃",
+   "note": "ab nach Hause! = off home!"
+  },
+  "abend": {
+   "pos": "noun",
+   "de": "Abend",
+   "en": "evening",
+   "emoji": "🌆",
+   "art": "der",
+   "pl": "die Abende",
+   "note": "gestern Abend = yesterday evening · heute Abend = tonight"
+  },
+  "aber": {
+   "pos": "conjunction",
+   "de": "aber",
+   "en": "but",
+   "emoji": "↩️"
+  },
+  "abwarten": {
+   "pos": "verb",
+   "de": "abwarten",
+   "en": "to wait for",
+   "emoji": "⏳",
+   "note": "die Blutwerte abwarten = wait for the blood results"
+  },
+  "akuten": {
+   "pos": "adjective",
+   "de": "akut → akuten",
+   "en": "acute",
+   "emoji": "⚡",
+   "note": "ein akutes Koronarsyndrom (ACS)"
+  },
+  "allergie": {
+   "pos": "noun",
+   "de": "Allergie",
+   "en": "allergy",
+   "emoji": "🚫",
+   "art": "die",
+   "pl": "die Allergien",
+   "note": "Hat er eine Allergie gegen …? = Is he allergic to …?"
+  },
+  "allergien": {
+   "pos": "noun",
+   "de": "Allergie",
+   "en": "allergies",
+   "emoji": "🚫",
+   "art": "die",
+   "pl": "die Allergien",
+   "note": "Allergien? = Any allergies? (very common short question)"
+  },
+  "allergisch": {
+   "pos": "adjective",
+   "de": "allergisch",
+   "en": "allergic",
+   "emoji": "🤧",
+   "note": "allergisch gegen + Akkusativ: allergisch gegen Penicillin"
+  },
+  "alles": {
+   "pos": "pronoun",
+   "de": "alles",
+   "en": "everything",
+   "emoji": "📦"
+  },
+  "als": {
+   "pos": "conjunction",
+   "de": "als",
+   "en": "as",
+   "emoji": "🟰",
+   "note": "Morphin als Schmerzmittel = morphine as a painkiller"
+  },
+  "alt": {
+   "pos": "adjective",
+   "de": "alt",
+   "en": "old",
+   "emoji": "🎂",
+   "note": "67 Jahre alt = 67 years old"
+  },
+  "an": {
+   "pos": "particle",
+   "de": "an",
+   "en": "(part of anrufen / anmelden)",
+   "emoji": "📞",
+   "note": "ich rufe … an (anrufen) · melden Sie ihn … an (anmelden)"
+  },
+  "arm": {
+   "pos": "noun",
+   "de": "Arm",
+   "en": "arm",
+   "emoji": "💪",
+   "art": "der",
+   "pl": "die Arme",
+   "note": "in den linken Arm = into the left arm"
+  },
+  "ass": {
+   "pos": "abbreviation",
+   "de": "ASS (Acetylsalicylsäure)",
+   "en": "aspirin (acetylsalicylic acid)",
+   "emoji": "💊",
+   "art": "die",
+   "note": "Spoken: „A-S-S“. Usually without article: 250 mg ASS i.v."
+  },
+  "auch": {
+   "pos": "adverb",
+   "de": "auch",
+   "en": "also; too",
+   "emoji": "➕"
+  },
+  "auf": {
+   "pos": "preposition",
+   "de": "auf",
+   "en": "on",
+   "emoji": "📍",
+   "note": "auf einer Skala von null bis zehn = on a scale from 0 to 10"
+  },
+  "aus": {
+   "pos": "preposition",
+   "de": "aus",
+   "en": "from; out of",
+   "emoji": "🚪",
+   "note": "Herr Becker aus Zimmer 12",
+   "gov": "Dat"
+  },
+  "ausstrahlen": {
+   "pos": "verb (separable)",
+   "de": "ausstrahlen",
+   "en": "to radiate (pain)",
+   "emoji": "📡",
+   "note": "Die Schmerzen strahlen in den linken Arm aus. Strahlen die Schmerzen aus?"
+  },
+  "becker": {
+   "pos": "name",
+   "de": "Becker",
+   "en": "Becker (the patient)",
+   "emoji": "🧓"
+  },
+  "bekommen": {
+   "pos": "verb",
+   "de": "bekommen",
+   "en": "to get; to receive",
+   "emoji": "🎁",
+   "note": "False friend: bekommen ≠ become!"
+  },
+  "bekommt": {
+   "pos": "verb",
+   "de": "bekommen → er bekommt",
+   "en": "gets; receives",
+   "emoji": "🎁",
+   "note": "False friend: bekommen ≠ become!"
+  },
+  "beschwerdefrei": {
+   "pos": "adjective",
+   "de": "beschwerdefrei",
+   "en": "symptom-free; pain-free",
+   "emoji": "😌",
+   "note": "fast beschwerdefrei = almost free of symptoms"
+  },
+  "beschwerden": {
+   "pos": "noun",
+   "de": "Beschwerden",
+   "en": "symptoms; complaints",
+   "emoji": "🗒️",
+   "art": "die",
+   "pl": "(plural only)",
+   "note": "Mit welchen Beschwerden kommt er? = What are his complaints?",
+   "plOnly": true
+  },
+  "besser": {
+   "pos": "adjective",
+   "de": "gut → besser",
+   "en": "better",
+   "emoji": "📈",
+   "note": "Die Schmerzen sind besser."
+  },
+  "bett": {
+   "pos": "noun",
+   "de": "Bett",
+   "en": "bed",
+   "emoji": "🛏️",
+   "art": "das",
+   "pl": "die Betten",
+   "note": "im Bett bleiben = stay in bed"
+  },
+  "bin": {
+   "pos": "verb",
+   "de": "sein → ich bin",
+   "en": "(I) am",
+   "emoji": "🙋"
+  },
+  "bis": {
+   "pos": "preposition",
+   "de": "bis",
+   "en": "until; to",
+   "emoji": "➡️",
+   "note": "von null bis zehn = from zero to ten · bis auf = except for · Bis heute Abend! = See you tonight!",
+   "gov": "Akk"
+  },
+  "bisschen": {
+   "pos": "adverb",
+   "de": "ein bisschen",
+   "en": "a little; a bit",
+   "emoji": "🤏"
+  },
+  "bitte": {
+   "pos": "particle",
+   "de": "bitte",
+   "en": "please",
+   "emoji": "🙏"
+  },
+  "bleiben": {
+   "pos": "verb",
+   "de": "bleiben",
+   "en": "to stay",
+   "emoji": "⏸️"
+  },
+  "blutabnehmen": {
+   "pos": "verb phrase",
+   "de": "Blut abnehmen",
+   "en": "to take blood",
+   "emoji": "🩸",
+   "note": "Soll ich Blut abnehmen? · Ich nehme Blut ab. · die Blutabnahme = blood sample"
+  },
+  "blutbild": {
+   "pos": "noun",
+   "de": "Blutbild",
+   "en": "full blood count (FBC/CBC)",
+   "emoji": "🔬",
+   "art": "das",
+   "pl": "die Blutbilder",
+   "note": "kleines / großes Blutbild = basic / full blood count"
+  },
+  "blutdruck": {
+   "pos": "noun",
+   "de": "Blutdruck",
+   "en": "blood pressure",
+   "emoji": "🩺",
+   "art": "der",
+   "pl": "kein Plural",
+   "note": "Abbreviation in charts: RR. „Der Blutdruck ist 150 zu 90.“"
+  },
+  "bluthochdruck": {
+   "pos": "noun",
+   "de": "Bluthochdruck",
+   "en": "high blood pressure; hypertension",
+   "emoji": "📈",
+   "art": "der",
+   "pl": "kein Plural",
+   "note": "Medical term: die Hypertonie (arterielle Hypertonie)"
+  },
+  "blutwerte": {
+   "pos": "noun",
+   "de": "Blutwert",
+   "en": "blood results; lab values",
+   "emoji": "🧪",
+   "art": "der",
+   "pl": "die Blutwerte",
+   "note": "Patient-friendly word for lab results"
+  },
+  "brust": {
+   "pos": "noun",
+   "de": "Brust",
+   "en": "chest; breast",
+   "emoji": "🫁",
+   "art": "die",
+   "pl": "die Brüste",
+   "note": "Schmerzen in der Brust = chest pain"
+  },
+  "brustschmerzen": {
+   "pos": "noun",
+   "de": "Brustschmerz",
+   "en": "chest pain",
+   "emoji": "💔",
+   "art": "der",
+   "pl": "die Brustschmerzen (meist Plural)",
+   "note": "Medical: thorakale Schmerzen · Leitsymptom bei ACS"
+  },
+  "danke": {
+   "pos": "particle",
+   "de": "danke",
+   "en": "thank you",
+   "emoji": "🙏",
+   "note": "Danke für + Akkusativ: Danke für die gute Übergabe."
+  },
+  "dann": {
+   "pos": "adverb",
+   "de": "dann",
+   "en": "then",
+   "emoji": "⏭️"
+  },
+  "das": {
+   "pos": "article / pronoun",
+   "de": "das",
+   "en": "the (neuter); that",
+   "emoji": "🟢",
+   "note": "Das wissen wir noch nicht. = We don't know that yet."
+  },
+  "dem": {
+   "pos": "article",
+   "de": "dem",
+   "en": "the (Dativ masc./neut.)",
+   "emoji": "🎁",
+   "note": "nach dem Nitro-Spray · mit dem Herzen",
+   "case": "Dat"
+  },
+  "den": {
+   "pos": "article",
+   "de": "den",
+   "en": "the (Akkusativ masc. / Dativ plural)",
+   "emoji": "🎯",
+   "note": "in den linken Arm (Akk) · den Oberarzt (Akk)",
+   "case": "Akk"
+  },
+  "der": {
+   "pos": "article",
+   "de": "der",
+   "en": "the (masc. Nom / fem. Dat & Gen)",
+   "emoji": "🔵",
+   "note": "in der Brust = Dativ fem. · der Blutdruck = Nominativ masc."
+  },
+  "des": {
+   "pos": "article",
+   "de": "des",
+   "en": "of the (Genitiv masc./neut.)",
+   "emoji": "🔗",
+   "note": "Ende des Nachtdienstes = end of the night shift",
+   "case": "Gen"
+  },
+  "diabetes": {
+   "pos": "noun",
+   "de": "Diabetes",
+   "en": "diabetes",
+   "emoji": "🍬",
+   "art": "der",
+   "pl": "kein Plural",
+   "note": "Diabetes Typ 2 = type 2 diabetes · Diabetes mellitus"
+  },
+  "die": {
+   "pos": "article",
+   "de": "die",
+   "en": "the (feminine & plural)",
+   "emoji": "🔴"
+  },
+  "dir": {
+   "pos": "pronoun",
+   "de": "du → dir",
+   "en": "(to) you – informal, Dativ",
+   "emoji": "🫵",
+   "note": "Ich übergebe dir … (Dativ)",
+   "case": "Dat"
+  },
+  "doktor": {
+   "pos": "noun",
+   "de": "Doktor",
+   "en": "doctor",
+   "emoji": "🎓",
+   "art": "der",
+   "pl": "die Doktoren",
+   "note": "Patients say: „Frau Doktor“ / „Herr Doktor“"
+  },
+  "dokumentiert": {
+   "pos": "verb",
+   "de": "dokumentieren → sie dokumentiert",
+   "en": "documents",
+   "emoji": "📝",
+   "note": "den Befund dokumentieren = document the findings"
+  },
+  "dosis": {
+   "pos": "noun",
+   "de": "Dosis",
+   "en": "dose",
+   "emoji": "⚖️",
+   "art": "die",
+   "pl": "die Dosen"
+  },
+  "dr.": {
+   "pos": "title",
+   "de": "Dr. (Doktor)",
+   "en": "Dr (title)",
+   "emoji": "🎓",
+   "note": "Introduce yourself: „Ich bin Dr. Weber.“"
+  },
+  "drei": {
+   "pos": "number",
+   "de": "drei",
+   "en": "three",
+   "emoji": "3️⃣"
+  },
+  "drücken": {
+   "pos": "verb",
+   "de": "drücken → es drückt",
+   "en": "to press; (pain) to feel like pressure",
+   "emoji": "🫷",
+   "note": "Es drückt in der Brust. = I feel pressure in my chest."
+  },
+  "ein": {
+   "pos": "article / particle",
+   "de": "ein",
+   "en": "a; an · (part of eintragen)",
+   "emoji": "1️⃣"
+  },
+  "einem": {
+   "pos": "article",
+   "de": "einem",
+   "en": "a; an (Dativ masc./neut.)",
+   "emoji": "🎁",
+   "note": "nach einem akuten Koronarsyndrom",
+   "case": "Dat"
+  },
+  "einen": {
+   "pos": "article",
+   "de": "einen",
+   "en": "a; an (Akkusativ masc.)",
+   "emoji": "🎯",
+   "note": "einen Zugang legen · einen Neuzugang",
+   "case": "Akk"
+  },
+  "einer": {
+   "pos": "article",
+   "de": "einer",
+   "en": "a; an (Dativ fem.)",
+   "emoji": "🎁",
+   "note": "vor einer Viertelstunde · auf einer Skala",
+   "case": "Dat"
+  },
+  "eines": {
+   "pos": "article",
+   "de": "eines",
+   "en": "of a (Genitiv masc./neut.)",
+   "emoji": "🔗",
+   "note": "wegen eines neuen Patienten (Genitiv)",
+   "case": "Gen"
+  },
+  "eintragen": {
+   "pos": "verb (separable)",
+   "de": "eintragen",
+   "en": "to enter; to record (in a chart)",
+   "emoji": "✍️",
+   "note": "Trag bitte alles in die Kurve ein! (du-imperative)"
+  },
+  "ekg": {
+   "pos": "noun",
+   "de": "EKG (Elektrokardiogramm)",
+   "en": "ECG",
+   "emoji": "📈",
+   "art": "das",
+   "pl": "die EKGs",
+   "note": "ein EKG schreiben = record an ECG · Zwölf-Kanal-EKG = 12-lead ECG"
+  },
+  "ekg-befund": {
+   "pos": "noun",
+   "de": "EKG-Befund",
+   "en": "ECG findings / report",
+   "emoji": "📋",
+   "art": "der",
+   "pl": "die EKG-Befunde",
+   "note": "der Befund = findings; result"
+  },
+  "elektrolyte": {
+   "pos": "noun",
+   "de": "Elektrolyt",
+   "en": "electrolytes",
+   "emoji": "🧂",
+   "art": "der/das",
+   "pl": "die Elektrolyte",
+   "note": "Natrium, Kalium …"
+  },
+  "ende": {
+   "pos": "noun",
+   "de": "Ende",
+   "en": "end",
+   "emoji": "🏁",
+   "art": "das",
+   "pl": "die Enden",
+   "note": "Ende des Nachtdienstes (Genitiv)"
+  },
+  "er": {
+   "pos": "pronoun",
+   "de": "er",
+   "en": "he",
+   "emoji": "👨"
+  },
+  "erste": {
+   "pos": "adjective",
+   "de": "erste",
+   "en": "first",
+   "emoji": "1️⃣",
+   "note": "das erste Troponin = the first troponin value"
+  },
+  "es": {
+   "pos": "pronoun",
+   "de": "es",
+   "en": "it",
+   "emoji": "👉",
+   "note": "Es drückt. · Wie geht es Ihnen?"
+  },
+  "etwas": {
+   "pos": "pronoun",
+   "de": "etwas",
+   "en": "something; a little",
+   "emoji": "✨",
+   "note": "etwas hoch = a bit high · etwas Wichtiges = something important"
+  },
+  "fast": {
+   "pos": "adverb",
+   "de": "fast",
+   "en": "almost",
+   "emoji": "🔜"
+  },
+  "frau": {
+   "pos": "noun",
+   "de": "Frau",
+   "en": "Mrs; Ms; woman",
+   "emoji": "👩",
+   "art": "die",
+   "pl": "die Frauen",
+   "note": "Frau Doktor = (polite address for a female doctor)"
+  },
+  "fünf": {
+   "pos": "number",
+   "de": "fünf",
+   "en": "five",
+   "emoji": "5️⃣"
+  },
+  "für": {
+   "pos": "preposition",
+   "de": "für",
+   "en": "for",
+   "emoji": "🎯",
+   "note": "hoch genug für Nitro · Danke für die Übergabe",
+   "gov": "Akk"
+  },
+  "geben": {
+   "pos": "verb",
+   "de": "geben",
+   "en": "to give (a drug)",
+   "emoji": "💉",
+   "note": "Wir geben 250 mg ASS i.v."
+  },
+  "gegen": {
+   "pos": "preposition",
+   "de": "gegen",
+   "en": "against; to (allergy)",
+   "emoji": "🛡️",
+   "note": "allergisch gegen Penicillin · keine Allergie gegen ASS",
+   "gov": "Akk"
+  },
+  "geht": {
+   "pos": "verb",
+   "de": "gehen → es geht",
+   "en": "goes",
+   "emoji": "🚶",
+   "note": "Wie geht es Ihnen? = How are you?"
+  },
+  "genug": {
+   "pos": "adverb",
+   "de": "genug",
+   "en": "enough",
+   "emoji": "✅",
+   "note": "hoch genug = high enough"
+  },
+  "gerinnung": {
+   "pos": "noun",
+   "de": "Gerinnung",
+   "en": "coagulation (clotting tests)",
+   "emoji": "🩸",
+   "art": "die",
+   "pl": "kein Plural",
+   "note": "INR, PTT … „Gerinnung abnehmen“"
+  },
+  "gestern": {
+   "pos": "adverb",
+   "de": "gestern",
+   "en": "yesterday",
+   "emoji": "⬅️",
+   "note": "seit gestern Abend = since yesterday evening"
+  },
+  "grad": {
+   "pos": "noun",
+   "de": "Grad",
+   "en": "degree(s)",
+   "emoji": "🌡️",
+   "art": "das",
+   "pl": "die Grad",
+   "note": "36,8 Grad (sechsunddreißig Komma acht)"
+  },
+  "gut": {
+   "pos": "adjective",
+   "de": "gut",
+   "en": "good; well",
+   "emoji": "👍"
+  },
+  "gute": {
+   "pos": "adjective",
+   "de": "gut → gute",
+   "en": "good",
+   "emoji": "👍"
+  },
+  "guten": {
+   "pos": "adjective",
+   "de": "gut → guten",
+   "en": "good (in greetings)",
+   "emoji": "👋",
+   "note": "Guten Morgen!"
+  },
+  "haben": {
+   "pos": "verb",
+   "de": "haben",
+   "en": "to have",
+   "emoji": "🤲"
+  },
+  "hat": {
+   "pos": "verb",
+   "de": "haben → er hat",
+   "en": "has",
+   "emoji": "🤲"
+  },
+  "hatte": {
+   "pos": "verb",
+   "de": "haben → er hatte",
+   "en": "had",
+   "emoji": "⏪"
+  },
+  "hause": {
+   "pos": "noun (fixed phrase)",
+   "de": "Hause",
+   "en": "home",
+   "emoji": "🏠",
+   "note": "nach Hause = (going) home"
+  },
+  "heparin": {
+   "pos": "noun",
+   "de": "Heparin",
+   "en": "heparin",
+   "emoji": "💉",
+   "art": "das",
+   "pl": "kein Plural",
+   "note": "5000 IE Heparin i.v. = 5000 units heparin IV"
+  },
+  "herr": {
+   "pos": "noun",
+   "de": "Herr",
+   "en": "Mr",
+   "emoji": "👨",
+   "art": "der",
+   "pl": "die Herren",
+   "note": "Herr Becker · Herr Dr. Krüger"
+  },
+  "herrn": {
+   "pos": "noun",
+   "de": "Herr → Herrn",
+   "en": "Mr (Akkusativ/Dativ)",
+   "emoji": "👨",
+   "art": "der",
+   "pl": "die Herren",
+   "note": "Weak noun: Ich übergebe dir Herrn Becker.",
+   "case": "Akk"
+  },
+  "herzen": {
+   "pos": "noun",
+   "de": "Herz → Herzen",
+   "en": "heart",
+   "emoji": "❤️",
+   "art": "das",
+   "pl": "die Herzen",
+   "note": "mit dem Herzen (Dativ: dem Herzen)"
+  },
+  "heute": {
+   "pos": "adverb",
+   "de": "heute",
+   "en": "today",
+   "emoji": "📆",
+   "note": "heute Abend = tonight"
+  },
+  "hier": {
+   "pos": "adverb",
+   "de": "hier",
+   "en": "here",
+   "emoji": "📍",
+   "note": "Hier ist Weber. = This is Weber (on the phone)."
+  },
+  "hoch": {
+   "pos": "adjective",
+   "de": "hoch",
+   "en": "high",
+   "emoji": "📈",
+   "note": "Der Blutdruck ist etwas hoch."
+  },
+  "hübe": {
+   "pos": "noun",
+   "de": "Hub",
+   "en": "puff (of a spray)",
+   "emoji": "💨",
+   "art": "der",
+   "pl": "die Hübe",
+   "note": "zwei Hübe Nitro-Spray = two puffs of nitro spray"
+  },
+  "i.v.": {
+   "pos": "abbreviation",
+   "de": "i.v. (intravenös)",
+   "en": "IV; intravenous",
+   "emoji": "💉",
+   "note": "Patient-friendly: „über die Vene“"
+  },
+  "ich": {
+   "pos": "pronoun",
+   "de": "ich",
+   "en": "I",
+   "emoji": "🙋"
+  },
+  "ie": {
+   "pos": "abbreviation",
+   "de": "IE (Internationale Einheiten)",
+   "en": "IU; international units",
+   "emoji": "🔢",
+   "note": "5000 IE Heparin"
+  },
+  "ihm": {
+   "pos": "pronoun",
+   "de": "er → ihm",
+   "en": "(to) him (Dativ)",
+   "emoji": "👨",
+   "note": "nach ihm schauen = check on him",
+   "gov": "Dat",
+   "case": "Dat"
+  },
+  "ihn": {
+   "pos": "pronoun",
+   "de": "er → ihn",
+   "en": "him (Akkusativ)",
+   "emoji": "👨",
+   "note": "Melden Sie ihn an.",
+   "case": "Akk"
+  },
+  "ihnen": {
+   "pos": "pronoun",
+   "de": "Sie → Ihnen",
+   "en": "(to) you – formal (Dativ)",
+   "emoji": "🫵",
+   "note": "Wie geht es Ihnen?",
+   "case": "Dat"
+  },
+  "im": {
+   "pos": "preposition",
+   "de": "im (= in dem)",
+   "en": "in the",
+   "emoji": "📥",
+   "note": "im Bett · im EKG",
+   "gov": "Dat"
+  },
+  "in": {
+   "pos": "preposition",
+   "de": "in",
+   "en": "in; into",
+   "emoji": "📥",
+   "note": "Wo? → Dativ: in der Brust · Wohin? → Akkusativ: in den Arm, in die Kurve",
+   "gov": "Wechsel"
+  },
+  "innere": {
+   "pos": "adjective",
+   "de": "Innere Medizin",
+   "en": "internal (medicine)",
+   "emoji": "🏥",
+   "note": "die Innere (Medizin) = internal medicine department"
+  },
+  "ist": {
+   "pos": "verb",
+   "de": "sein → ist",
+   "en": "is",
+   "emoji": "🟰"
+  },
+  "ja": {
+   "pos": "particle",
+   "de": "ja",
+   "en": "yes",
+   "emoji": "✔️"
+  },
+  "jahre": {
+   "pos": "noun",
+   "de": "Jahr",
+   "en": "year",
+   "emoji": "📅",
+   "art": "das",
+   "pl": "die Jahre",
+   "note": "67 Jahre alt"
+  },
+  "jahren": {
+   "pos": "noun",
+   "de": "Jahr",
+   "en": "years (Dativ plural)",
+   "emoji": "📅",
+   "art": "das",
+   "pl": "die Jahre",
+   "note": "seit 40 Jahren (Dativ plural + n)",
+   "case": "Dat"
+  },
+  "jetzt": {
+   "pos": "adverb",
+   "de": "jetzt",
+   "en": "now",
+   "emoji": "⏰"
+  },
+  "kam": {
+   "pos": "verb",
+   "de": "kommen → er kam",
+   "en": "came",
+   "emoji": "🚶",
+   "note": "kam über die Notaufnahme = came in via the ED"
+  },
+  "kardiologie": {
+   "pos": "noun",
+   "de": "Kardiologie",
+   "en": "cardiology (department)",
+   "emoji": "❤️",
+   "art": "die",
+   "pl": "kein Plural",
+   "note": "in der Kardiologie anmelden = refer to cardiology"
+  },
+  "keine": {
+   "pos": "article",
+   "de": "kein → keine",
+   "en": "no; not any",
+   "emoji": "🚫",
+   "note": "keine ST-Hebungen · keine Allergie"
+  },
+  "klingeln": {
+   "pos": "verb",
+   "de": "klingeln",
+   "en": "to ring (the call bell)",
+   "emoji": "🔔",
+   "note": "Klingeln Sie, wenn … = Ring the bell if …"
+  },
+  "klingt": {
+   "pos": "verb",
+   "de": "klingen → es klingt",
+   "en": "sounds",
+   "emoji": "👂",
+   "note": "Das klingt nach … = That sounds like …"
+  },
+  "komm": {
+   "pos": "verb",
+   "de": "kommen → komm! (du)",
+   "en": "come!",
+   "emoji": "👉",
+   "note": "Komm bitte mit! = Please come with me!"
+  },
+  "komme": {
+   "pos": "verb",
+   "de": "kommen → ich komme",
+   "en": "(I) come",
+   "emoji": "🏃",
+   "note": "Ich komme in zehn Minuten."
+  },
+  "koronarsyndrom": {
+   "pos": "noun",
+   "de": "Koronarsyndrom",
+   "en": "coronary syndrome",
+   "emoji": "❤️‍🩹",
+   "art": "das",
+   "pl": "die Koronarsyndrome",
+   "note": "akutes Koronarsyndrom (ACS)"
+  },
+  "krüger": {
+   "pos": "name",
+   "de": "Krüger",
+   "en": "Krüger (the senior physician)",
+   "emoji": "👨‍⚕️"
+  },
+  "kurve": {
+   "pos": "noun",
+   "de": "Kurve",
+   "en": "(patient) chart; also: curve",
+   "emoji": "📊",
+   "art": "die",
+   "pl": "die Kurven",
+   "note": "in die Kurve eintragen = enter in the chart"
+  },
+  "leg": {
+   "pos": "verb",
+   "de": "legen → leg! (du)",
+   "en": "put; place (imperative)",
+   "emoji": "🩹",
+   "note": "einen Zugang legen = insert an IV line"
+  },
+  "lena": {
+   "pos": "name",
+   "de": "Lena",
+   "en": "Lena (Dr. Weber's first name)",
+   "emoji": "👩‍⚕️"
+  },
+  "linken": {
+   "pos": "adjective",
+   "de": "links → linke(n)",
+   "en": "left",
+   "emoji": "⬅️",
+   "note": "in den linken Arm"
+  },
+  "läuft": {
+   "pos": "verb",
+   "de": "laufen → es läuft",
+   "en": "is running; is pending",
+   "emoji": "🔄",
+   "note": "Das Troponin läuft. = The troponin is being processed."
+  },
+  "mache": {
+   "pos": "verb",
+   "de": "machen → ich mache",
+   "en": "(I) do",
+   "emoji": "👍",
+   "note": "Mache ich! = Will do!"
+  },
+  "medikament": {
+   "pos": "noun",
+   "de": "Medikament",
+   "en": "medicine; drug",
+   "emoji": "💊",
+   "art": "das",
+   "pl": "die Medikamente"
+  },
+  "medikamente": {
+   "pos": "noun",
+   "de": "Medikament",
+   "en": "medicines; drugs",
+   "emoji": "💊",
+   "art": "das",
+   "pl": "die Medikamente",
+   "note": "Medikamente vorbereiten = prepare the drugs"
+  },
+  "medizin": {
+   "pos": "noun",
+   "de": "Medizin",
+   "en": "medicine",
+   "emoji": "⚕️",
+   "art": "die",
+   "pl": "kein Plural",
+   "note": "Innere Medizin = internal medicine"
+  },
+  "melden": {
+   "pos": "verb",
+   "de": "anmelden → melden Sie … an",
+   "en": "to register; to refer",
+   "emoji": "☎️",
+   "note": "jemanden in der Kardiologie anmelden = refer someone to cardiology"
+  },
+  "mg": {
+   "pos": "abbreviation",
+   "de": "mg (Milligramm)",
+   "en": "mg; milligrams",
+   "emoji": "⚖️",
+   "note": "250 mg ASS"
+  },
+  "minuten": {
+   "pos": "noun",
+   "de": "Minute",
+   "en": "minutes",
+   "emoji": "⏱️",
+   "art": "die",
+   "pl": "die Minuten",
+   "note": "vor zehn Minuten = ten minutes ago"
+  },
+  "mir": {
+   "pos": "pronoun",
+   "de": "ich → mir",
+   "en": "(to) me (Dativ)",
+   "emoji": "🙋",
+   "note": "Mir ist übel. = I feel sick.",
+   "case": "Dat"
+  },
+  "mit": {
+   "pos": "preposition / particle",
+   "de": "mit",
+   "en": "with · (part of mitkommen)",
+   "emoji": "🤝",
+   "note": "mit Brustschmerzen · Komm mit!",
+   "gov": "Dat"
+  },
+  "morgen": {
+   "pos": "noun",
+   "de": "Morgen",
+   "en": "morning",
+   "emoji": "🌅",
+   "art": "der",
+   "pl": "die Morgen",
+   "note": "Guten Morgen! / Morgen! (short)"
+  },
+  "morphin": {
+   "pos": "noun",
+   "de": "Morphin",
+   "en": "morphine",
+   "emoji": "💉",
+   "art": "das",
+   "pl": "kein Plural",
+   "note": "opioid painkiller"
+  },
+  "müssen": {
+   "pos": "modal verb",
+   "de": "müssen",
+   "en": "must; have to",
+   "emoji": "❗"
+  },
+  "nach": {
+   "pos": "preposition",
+   "de": "nach",
+   "en": "after; to · (part of nachschauen)",
+   "emoji": "⏭️",
+   "note": "nach dem Nitro-Spray · nach Hause · nach ihm schauen",
+   "gov": "Dat"
+  },
+  "nacht": {
+   "pos": "noun",
+   "de": "Nacht",
+   "en": "night",
+   "emoji": "🌙",
+   "art": "die",
+   "pl": "die Nächte",
+   "note": "Wie war die Nacht?"
+  },
+  "nachtdienstes": {
+   "pos": "noun",
+   "de": "Nachtdienst",
+   "en": "night shift",
+   "emoji": "🌙",
+   "art": "der",
+   "pl": "die Nachtdienste",
+   "note": "Ende des Nachtdienstes (Genitiv: -es)",
+   "case": "Gen"
+  },
+  "negativ": {
+   "pos": "adjective",
+   "de": "negativ",
+   "en": "negative",
+   "emoji": "➖",
+   "note": "T-Wellen negativ = inverted T waves"
+  },
+  "neu": {
+   "pos": "adjective",
+   "de": "neu",
+   "en": "new",
+   "emoji": "🆕"
+  },
+  "neue": {
+   "pos": "adjective",
+   "de": "neu → neue",
+   "en": "new",
+   "emoji": "🆕"
+  },
+  "neuen": {
+   "pos": "adjective",
+   "de": "neu → neuen",
+   "en": "new",
+   "emoji": "🆕",
+   "note": "wegen eines neuen Patienten"
+  },
+  "neuzugang": {
+   "pos": "noun",
+   "de": "Neuzugang",
+   "en": "new admission (patient)",
+   "emoji": "🆕",
+   "art": "der",
+   "pl": "die Neuzugänge",
+   "note": "Wir haben einen Neuzugang auf Zimmer 12."
+  },
+  "nicht": {
+   "pos": "particle",
+   "de": "nicht",
+   "en": "not",
+   "emoji": "🚫"
+  },
+  "nitro": {
+   "pos": "noun",
+   "de": "Nitro (Glyceroltrinitrat)",
+   "en": "nitro; GTN",
+   "emoji": "💨",
+   "art": "das",
+   "pl": "kein Plural",
+   "note": "Short for nitroglycerin (GTN)"
+  },
+  "nitro-spray": {
+   "pos": "noun",
+   "de": "Nitro-Spray",
+   "en": "nitro spray; GTN spray",
+   "emoji": "💨",
+   "art": "das",
+   "pl": "die Nitro-Sprays",
+   "note": "sublingual: unter die Zunge"
+  },
+  "noch": {
+   "pos": "adverb",
+   "de": "noch",
+   "en": "still; yet; another",
+   "emoji": "⏳",
+   "note": "noch etwas = one more thing · noch nicht = not yet"
+  },
+  "notaufnahme": {
+   "pos": "noun",
+   "de": "Notaufnahme",
+   "en": "emergency department (ED)",
+   "emoji": "🚑",
+   "art": "die",
+   "pl": "die Notaufnahmen",
+   "note": "über die Notaufnahme kommen = be admitted via the ED"
+  },
+  "null": {
+   "pos": "number",
+   "de": "null",
+   "en": "zero",
+   "emoji": "0️⃣"
+  },
+  "oberarzt": {
+   "pos": "noun",
+   "de": "Oberarzt",
+   "en": "senior physician; consultant",
+   "emoji": "👨‍⚕️",
+   "art": "der",
+   "pl": "die Oberärzte",
+   "note": "female: die Oberärztin · Abbreviation: OA"
+  },
+  "oder": {
+   "pos": "conjunction",
+   "de": "oder",
+   "en": "or",
+   "emoji": "🔀"
+  },
+  "patienten": {
+   "pos": "noun",
+   "de": "Patient → Patienten",
+   "en": "patient",
+   "emoji": "🛌",
+   "art": "der",
+   "pl": "die Patienten",
+   "note": "Weak noun: wegen eines neuen Patienten (Genitiv)"
+  },
+  "penicillin": {
+   "pos": "noun",
+   "de": "Penicillin",
+   "en": "penicillin",
+   "emoji": "💊",
+   "art": "das",
+   "pl": "kein Plural"
+  },
+  "prozent": {
+   "pos": "noun",
+   "de": "Prozent",
+   "en": "percent",
+   "emoji": "💯",
+   "art": "das",
+   "pl": "die Prozent",
+   "note": "94 Prozent"
+  },
+  "puls": {
+   "pos": "noun",
+   "de": "Puls",
+   "en": "pulse; heart rate",
+   "emoji": "💓",
+   "art": "der",
+   "pl": "die Pulse",
+   "note": "Puls 96 (pro Minute)"
+  },
+  "raucht": {
+   "pos": "verb",
+   "de": "rauchen → er raucht",
+   "en": "smokes",
+   "emoji": "🚬",
+   "note": "Er raucht seit 40 Jahren."
+  },
+  "raumluft": {
+   "pos": "noun",
+   "de": "Raumluft",
+   "en": "room air",
+   "emoji": "🌬️",
+   "art": "die",
+   "pl": "kein Plural",
+   "note": "unter Raumluft = without extra oxygen"
+  },
+  "rr": {
+   "pos": "abbreviation",
+   "de": "RR (Riva-Rocci) = Blutdruck",
+   "en": "BP; blood pressure",
+   "emoji": "🩺",
+   "art": "der",
+   "note": "RR 150 zu 90 – spoken „hundertfünfzig zu neunzig“"
+  },
+  "rufe": {
+   "pos": "verb",
+   "de": "anrufen → ich rufe … an",
+   "en": "(I) call",
+   "emoji": "📞",
+   "note": "Ich rufe wegen … an. = I'm calling about …"
+  },
+  "ruft": {
+   "pos": "verb",
+   "de": "anrufen → sie ruft … an",
+   "en": "calls",
+   "emoji": "📞"
+  },
+  "ruhig": {
+   "pos": "adjective",
+   "de": "ruhig",
+   "en": "quiet; calm",
+   "emoji": "😌"
+  },
+  "schauen": {
+   "pos": "verb",
+   "de": "schauen",
+   "en": "to look",
+   "emoji": "👀",
+   "note": "nach jemandem schauen = check on someone"
+  },
+  "schichtwechsel": {
+   "pos": "noun",
+   "de": "Schichtwechsel",
+   "en": "shift change",
+   "emoji": "🔄",
+   "art": "der",
+   "pl": "die Schichtwechsel"
+  },
+  "schlaf": {
+   "pos": "verb",
+   "de": "schlafen → schlaf! (du)",
+   "en": "sleep!",
+   "emoji": "😴",
+   "note": "Schlaf gut! = Sleep well!"
+  },
+  "schlimmes": {
+   "pos": "adjective",
+   "de": "schlimm → etwas Schlimmes",
+   "en": "something bad / serious",
+   "emoji": "😟"
+  },
+  "schmerzen": {
+   "pos": "noun",
+   "de": "Schmerz",
+   "en": "pain",
+   "emoji": "😣",
+   "art": "der",
+   "pl": "die Schmerzen",
+   "note": "Usually plural: Ich habe Schmerzen."
+  },
+  "schmerzmittel": {
+   "pos": "noun",
+   "de": "Schmerzmittel",
+   "en": "painkiller; analgesic",
+   "emoji": "💊",
+   "art": "das",
+   "pl": "die Schmerzmittel"
+  },
+  "schreib": {
+   "pos": "verb",
+   "de": "schreiben → schreib! (du)",
+   "en": "write! (here: record)",
+   "emoji": "📝",
+   "note": "ein EKG schreiben = record an ECG"
+  },
+  "sehr": {
+   "pos": "adverb",
+   "de": "sehr",
+   "en": "very",
+   "emoji": "👌"
+  },
+  "seit": {
+   "pos": "preposition",
+   "de": "seit",
+   "en": "since; for",
+   "emoji": "⏳",
+   "note": "Seit wann …? = Since when …? · seit 40 Jahren",
+   "gov": "Dat"
+  },
+  "sie": {
+   "pos": "pronoun",
+   "de": "Sie / sie",
+   "en": "you (formal) · she · they",
+   "emoji": "🫵",
+   "note": "Mit Patienten immer Sie!"
+  },
+  "sieben": {
+   "pos": "number",
+   "de": "sieben",
+   "en": "seven",
+   "emoji": "7️⃣"
+  },
+  "sind": {
+   "pos": "verb",
+   "de": "sein → sind",
+   "en": "are",
+   "emoji": "🟰"
+  },
+  "skala": {
+   "pos": "noun",
+   "de": "Skala",
+   "en": "scale",
+   "emoji": "📏",
+   "art": "die",
+   "pl": "die Skalen",
+   "note": "Schmerzskala von 0 bis 10 (NRS)"
+  },
+  "sofort": {
+   "pos": "adverb",
+   "de": "sofort",
+   "en": "immediately",
+   "emoji": "⚡"
+  },
+  "soll": {
+   "pos": "modal verb",
+   "de": "sollen → ich soll",
+   "en": "should; shall",
+   "emoji": "📋",
+   "note": "Soll ich …? = Shall I …?"
+  },
+  "spray": {
+   "pos": "noun",
+   "de": "Spray",
+   "en": "spray",
+   "emoji": "💨",
+   "art": "das",
+   "pl": "die Sprays"
+  },
+  "später": {
+   "pos": "adverb",
+   "de": "später",
+   "en": "later",
+   "emoji": "⏩",
+   "note": "fünf Minuten später"
+  },
+  "st-hebungen": {
+   "pos": "noun",
+   "de": "ST-Hebung",
+   "en": "ST elevation(s)",
+   "emoji": "📈",
+   "art": "die",
+   "pl": "die ST-Hebungen",
+   "note": "STEMI = ST-Hebungsinfarkt"
+  },
+  "stark": {
+   "pos": "adjective",
+   "de": "stark",
+   "en": "strong; severe",
+   "emoji": "💥",
+   "note": "Wie stark sind die Schmerzen?"
+  },
+  "station": {
+   "pos": "noun",
+   "de": "Station",
+   "en": "ward",
+   "emoji": "🏥",
+   "art": "die",
+   "pl": "die Stationen"
+  },
+  "stationszimmer": {
+   "pos": "noun",
+   "de": "Stationszimmer",
+   "en": "staff room on the ward; nurses' station",
+   "emoji": "🗂️",
+   "art": "das",
+   "pl": "die Stationszimmer"
+  },
+  "stationsärztin": {
+   "pos": "noun",
+   "de": "Stationsärztin",
+   "en": "ward doctor (female)",
+   "emoji": "👩‍⚕️",
+   "art": "die",
+   "pl": "die Stationsärztinnen",
+   "note": "male: der Stationsarzt"
+  },
+  "strahlen": {
+   "pos": "verb",
+   "de": "ausstrahlen → sie strahlen … aus",
+   "en": "radiate",
+   "emoji": "📡"
+  },
+  "stärker": {
+   "pos": "adjective",
+   "de": "stark → stärker",
+   "en": "stronger; worse",
+   "emoji": "📈",
+   "note": "wenn die Schmerzen stärker werden"
+  },
+  "sättigung": {
+   "pos": "noun",
+   "de": "Sättigung",
+   "en": "(oxygen) saturation; SpO₂",
+   "emoji": "🫁",
+   "art": "die",
+   "pl": "die Sättigungen",
+   "note": "Sättigung 94 % unter Raumluft"
+  },
+  "t-negativierungen": {
+   "pos": "noun",
+   "de": "T-Negativierung",
+   "en": "T-wave inversion(s)",
+   "emoji": "📉",
+   "art": "die",
+   "pl": "die T-Negativierungen"
+  },
+  "t-wellen": {
+   "pos": "noun",
+   "de": "T-Welle",
+   "en": "T wave(s)",
+   "emoji": "〰️",
+   "art": "die",
+   "pl": "die T-Wellen"
+  },
+  "temperatur": {
+   "pos": "noun",
+   "de": "Temperatur",
+   "en": "temperature",
+   "emoji": "🌡️",
+   "art": "die",
+   "pl": "die Temperaturen"
+  },
+  "tom": {
+   "pos": "name",
+   "de": "Tom",
+   "en": "Tom (the night nurse)",
+   "emoji": "🧑‍⚕️"
+  },
+  "troponin": {
+   "pos": "noun",
+   "de": "Troponin",
+   "en": "troponin",
+   "emoji": "🧪",
+   "art": "das",
+   "pl": "kein Plural",
+   "note": "Herzenzym-Marker; erstes / zweites Troponin"
+  },
+  "typ": {
+   "pos": "noun",
+   "de": "Typ",
+   "en": "type",
+   "emoji": "🔤",
+   "art": "der",
+   "pl": "die Typen",
+   "note": "Diabetes Typ 2"
+  },
+  "uhr": {
+   "pos": "noun",
+   "de": "Uhr",
+   "en": "o'clock; clock",
+   "emoji": "🕖",
+   "art": "die",
+   "pl": "die Uhren"
+  },
+  "uhrzeit": {
+   "pos": "noun",
+   "de": "Uhrzeit",
+   "en": "time (of day)",
+   "emoji": "🕖",
+   "art": "die",
+   "pl": "die Uhrzeiten"
+  },
+  "um": {
+   "pos": "preposition",
+   "de": "um",
+   "en": "at (clock time)",
+   "emoji": "🕛",
+   "note": "um drei Uhr",
+   "gov": "Akk"
+  },
+  "unauffällig": {
+   "pos": "adjective",
+   "de": "unauffällig",
+   "en": "normal; unremarkable",
+   "emoji": "✅",
+   "note": "Opposite: auffällig / pathologisch"
+  },
+  "und": {
+   "pos": "conjunction",
+   "de": "und",
+   "en": "and",
+   "emoji": "➕"
+  },
+  "ungefähr": {
+   "pos": "adverb",
+   "de": "ungefähr",
+   "en": "about; approximately",
+   "emoji": "≈"
+  },
+  "unter": {
+   "pos": "preposition",
+   "de": "unter",
+   "en": "under; on (room air)",
+   "emoji": "⬇️",
+   "note": "unter die Zunge (Wohin? Akk) · unter Raumluft (Dativ)",
+   "gov": "Wechsel"
+  },
+  "v2": {
+   "pos": "abbreviation",
+   "de": "V2",
+   "en": "chest lead V2",
+   "emoji": "📈",
+   "note": "Brustwandableitungen V1–V6"
+  },
+  "v4": {
+   "pos": "abbreviation",
+   "de": "V4",
+   "en": "chest lead V4",
+   "emoji": "📈"
+  },
+  "vene": {
+   "pos": "noun",
+   "de": "Vene",
+   "en": "vein",
+   "emoji": "🩸",
+   "art": "die",
+   "pl": "die Venen",
+   "note": "über die Vene = intravenously"
+  },
+  "viertelstunde": {
+   "pos": "noun",
+   "de": "Viertelstunde",
+   "en": "quarter of an hour",
+   "emoji": "🕒",
+   "art": "die",
+   "pl": "die Viertelstunden",
+   "note": "vor einer Viertelstunde = 15 minutes ago"
+  },
+  "vitalwerte": {
+   "pos": "noun",
+   "de": "Vitalwert",
+   "en": "vital signs",
+   "emoji": "📟",
+   "art": "der",
+   "pl": "die Vitalwerte",
+   "note": "Also: die Vitalparameter / Vitalzeichen"
+  },
+  "von": {
+   "pos": "preposition",
+   "de": "von",
+   "en": "from; of",
+   "emoji": "➡️",
+   "note": "von der 4B · von null bis zehn",
+   "gov": "Dat"
+  },
+  "vor": {
+   "pos": "preposition",
+   "de": "vor",
+   "en": "ago; before",
+   "emoji": "⏪",
+   "note": "vor zehn Minuten = ten minutes ago",
+   "gov": "Dat"
+  },
+  "vorbereiten": {
+   "pos": "verb (separable)",
+   "de": "vorbereiten",
+   "en": "to prepare",
+   "emoji": "🧰"
+  },
+  "vorerkrankungen": {
+   "pos": "noun",
+   "de": "Vorerkrankung",
+   "en": "pre-existing condition(s); past medical history",
+   "emoji": "📂",
+   "art": "die",
+   "pl": "die Vorerkrankungen",
+   "note": "Hat er Vorerkrankungen?"
+  },
+  "wann": {
+   "pos": "question word",
+   "de": "wann",
+   "en": "when",
+   "emoji": "🕑",
+   "note": "Seit wann …?"
+  },
+  "war": {
+   "pos": "verb",
+   "de": "sein → war",
+   "en": "was",
+   "emoji": "⏪"
+  },
+  "waren": {
+   "pos": "verb",
+   "de": "sein → waren",
+   "en": "were",
+   "emoji": "⏪"
+  },
+  "weber": {
+   "pos": "name",
+   "de": "Weber",
+   "en": "Weber (the ward doctor)",
+   "emoji": "👩‍⚕️"
+  },
+  "wegen": {
+   "pos": "preposition",
+   "de": "wegen",
+   "en": "because of; about",
+   "emoji": "❓",
+   "note": "Ich rufe wegen eines Patienten an.",
+   "gov": "Gen"
+  },
+  "welchen": {
+   "pos": "question word",
+   "de": "welche → welchen",
+   "en": "which; what",
+   "emoji": "❓",
+   "note": "Mit welchen Beschwerden? (Dativ plural)"
+  },
+  "wenn": {
+   "pos": "conjunction",
+   "de": "wenn",
+   "en": "if; when",
+   "emoji": "🔀",
+   "note": "Verb goes to the end: wenn die Schmerzen stärker werden"
+  },
+  "werden": {
+   "pos": "verb",
+   "de": "werden",
+   "en": "to become; get",
+   "emoji": "🔄"
+  },
+  "wichtiges": {
+   "pos": "adjective",
+   "de": "wichtig → etwas Wichtiges",
+   "en": "something important",
+   "emoji": "❗"
+  },
+  "wie": {
+   "pos": "question word",
+   "de": "wie",
+   "en": "how",
+   "emoji": "❓"
+  },
+  "wieder": {
+   "pos": "adverb",
+   "de": "wieder",
+   "en": "again",
+   "emoji": "🔁"
+  },
+  "wiedergekommen": {
+   "pos": "verb",
+   "de": "wiederkommen → sind wiedergekommen",
+   "en": "came back (Perfekt)",
+   "emoji": "🔁"
+  },
+  "wir": {
+   "pos": "pronoun",
+   "de": "wir",
+   "en": "we",
+   "emoji": "👥"
+  },
+  "wissen": {
+   "pos": "verb",
+   "de": "wissen",
+   "en": "to know",
+   "emoji": "🧠"
+  },
+  "zehn": {
+   "pos": "number",
+   "de": "zehn",
+   "en": "ten",
+   "emoji": "🔟"
+  },
+  "ziemlich": {
+   "pos": "adverb",
+   "de": "ziemlich",
+   "en": "quite; pretty",
+   "emoji": "〰️"
+  },
+  "zimmer": {
+   "pos": "noun",
+   "de": "Zimmer",
+   "en": "room",
+   "emoji": "🚪",
+   "art": "das",
+   "pl": "die Zimmer"
+  },
+  "zu": {
+   "pos": "preposition",
+   "de": "zu",
+   "en": "to; over",
+   "emoji": "➡️",
+   "note": "150 zu 90 = 150 over 90",
+   "gov": "Dat"
+  },
+  "zugang": {
+   "pos": "noun",
+   "de": "Zugang",
+   "en": "IV line; venous access",
+   "emoji": "🩹",
+   "art": "der",
+   "pl": "die Zugänge",
+   "note": "einen Zugang legen = insert an IV cannula"
+  },
+  "zunge": {
+   "pos": "noun",
+   "de": "Zunge",
+   "en": "tongue",
+   "emoji": "👅",
+   "art": "die",
+   "pl": "die Zungen",
+   "note": "unter die Zunge = sublingual"
+  },
+  "zwei": {
+   "pos": "number",
+   "de": "zwei",
+   "en": "two",
+   "emoji": "2️⃣"
+  },
+  "übel": {
+   "pos": "adjective",
+   "de": "übel",
+   "en": "sick; nauseous",
+   "emoji": "🤢",
+   "note": "Mir ist übel. = I feel sick. (Dativ: mir)"
+  },
+  "über": {
+   "pos": "preposition",
+   "de": "über",
+   "en": "via; through",
+   "emoji": "↗️",
+   "note": "über die Notaufnahme · über die Vene",
+   "gov": "Akk"
+  },
+  "übergabe": {
+   "pos": "noun",
+   "de": "Übergabe",
+   "en": "handover",
+   "emoji": "🔄",
+   "art": "die",
+   "pl": "die Übergaben",
+   "note": "Schichtübergabe = shift handover"
+  },
+  "übergeben": {
+   "pos": "verb",
+   "de": "übergeben → ich übergebe",
+   "en": "to hand over",
+   "emoji": "🤝",
+   "note": "Ich übergebe dir/Ihnen Herrn Becker."
+  },
+  "abhören": {
+   "pos": "verb (separable)",
+   "de": "abhören",
+   "en": "to listen to (with a stethoscope); auscultate",
+   "emoji": "🩺",
+   "note": "Ich höre Herz und Lunge ab."
+  },
+  "akutes": {
+   "pos": "adjective",
+   "de": "akut → akutes",
+   "en": "acute",
+   "emoji": "⚡",
+   "note": "ein akutes Koronarsyndrom (ACS)"
+  },
+  "am": {
+   "pos": "preposition",
+   "de": "am (= an dem)",
+   "en": "at the; on the",
+   "emoji": "📍",
+   "note": "am Herzen · am Handgelenk · am Tag",
+   "gov": "Dat"
+  },
+  "anamnese": {
+   "pos": "noun",
+   "de": "Anamnese",
+   "en": "(medical) history",
+   "emoji": "🗒️",
+   "art": "die",
+   "pl": "die Anamnesen",
+   "note": "die Anamnese erheben = take a history"
+  },
+  "anfangen": {
+   "pos": "verb (separable)",
+   "de": "anfangen → haben angefangen",
+   "en": "to start; to begin",
+   "emoji": "▶️",
+   "note": "Als die Schmerzen angefangen haben … (Perfekt)"
+  },
+  "angst": {
+   "pos": "noun",
+   "de": "Angst",
+   "en": "fear; anxiety",
+   "emoji": "😟",
+   "art": "die",
+   "pl": "die Ängste",
+   "note": "Angst haben um + Akk: Ich habe Angst um ihn."
+  },
+  "anmelden": {
+   "pos": "verb (separable)",
+   "de": "anmelden",
+   "en": "to register; to refer (a patient)",
+   "emoji": "☎️",
+   "note": "Ich melde ihn in der Kardiologie an."
+  },
+  "anna": {
+   "pos": "name",
+   "de": "Anna",
+   "en": "Anna (the daughter)",
+   "emoji": "👩"
+  },
+  "anrufen": {
+   "pos": "verb (separable)",
+   "de": "anrufen",
+   "en": "to call (on the phone)",
+   "emoji": "📞",
+   "note": "Ich rufe wegen … an. · Er hat mich angerufen."
+  },
+  "ansehen": {
+   "pos": "verb (separable)",
+   "de": "sich ansehen",
+   "en": "to have a look at",
+   "emoji": "👀",
+   "note": "Können Sie ihn sich ansehen?"
+  },
+  "armen": {
+   "pos": "noun",
+   "de": "Arm → Armen",
+   "en": "arms (Dativ plural)",
+   "emoji": "💪",
+   "art": "der",
+   "pl": "die Arme",
+   "note": "an beiden Armen (Dativ plural + n)",
+   "case": "Dat"
+  },
+  "atemnot": {
+   "pos": "noun",
+   "de": "Atemnot",
+   "en": "shortness of breath; dyspnoea",
+   "emoji": "😮‍💨",
+   "art": "die",
+   "pl": "kein Plural",
+   "note": "Medical: die Dyspnoe"
+  },
+  "aufkleben": {
+   "pos": "verb (separable)",
+   "de": "aufkleben",
+   "en": "to stick on",
+   "emoji": "🩹",
+   "note": "Ich klebe die Elektroden auf."
+  },
+  "aufsetzen": {
+   "pos": "verb (separable)",
+   "de": "sich aufsetzen",
+   "en": "to sit up",
+   "emoji": "🪑",
+   "note": "Soll ich mich aufsetzen?"
+  },
+  "ausatmen": {
+   "pos": "verb (separable)",
+   "de": "ausatmen",
+   "en": "to breathe out",
+   "emoji": "💨",
+   "note": "Tief ein- und ausatmen!"
+  },
+  "ausschlag": {
+   "pos": "noun",
+   "de": "Ausschlag",
+   "en": "rash",
+   "emoji": "🔴",
+   "art": "der",
+   "pl": "die Ausschläge",
+   "note": "Medical: das Exanthem"
+  },
+  "ausstrahlung": {
+   "pos": "noun",
+   "de": "Ausstrahlung",
+   "en": "radiation (of pain)",
+   "emoji": "📡",
+   "art": "die",
+   "pl": "die Ausstrahlungen",
+   "note": "mit Ausstrahlung in den linken Arm"
+  },
+  "befund": {
+   "pos": "noun",
+   "de": "Befund",
+   "en": "finding(s); result",
+   "emoji": "📋",
+   "art": "der",
+   "pl": "die Befunde",
+   "note": "unauffälliger Befund = normal finding"
+  },
+  "befunden": {
+   "pos": "noun",
+   "de": "Befund → Befunden",
+   "en": "results; findings (Dativ plural)",
+   "emoji": "📋",
+   "art": "der",
+   "pl": "die Befunde",
+   "note": "von Ihren Befunden (von + Dativ)",
+   "case": "Dat"
+  },
+  "bei": {
+   "pos": "preposition",
+   "de": "bei",
+   "en": "with; at",
+   "emoji": "📍",
+   "note": "bei ihm bleiben = stay with him",
+   "gov": "Dat"
+  },
+  "beide": {
+   "pos": "pronoun",
+   "de": "beide",
+   "en": "both",
+   "emoji": "👥",
+   "note": "für Sie beide"
+  },
+  "beiden": {
+   "pos": "pronoun",
+   "de": "beide → beiden",
+   "en": "both",
+   "emoji": "👥",
+   "note": "an beiden Armen (Dativ)",
+   "case": "Dat"
+  },
+  "beine": {
+   "pos": "noun",
+   "de": "Bein",
+   "en": "legs",
+   "emoji": "🦵",
+   "art": "das",
+   "pl": "die Beine"
+  },
+  "beispiel": {
+   "pos": "noun",
+   "de": "Beispiel",
+   "en": "example",
+   "emoji": "💡",
+   "art": "das",
+   "pl": "die Beispiele",
+   "note": "zum Beispiel (z. B.) = for example"
+  },
+  "bekomme": {
+   "pos": "verb",
+   "de": "bekommen → ich bekomme",
+   "en": "(I) get",
+   "emoji": "🎁",
+   "note": "False friend: bekommen ≠ become!"
+  },
+  "bereite": {
+   "pos": "verb (separable)",
+   "de": "vorbereiten → ich bereite … vor",
+   "en": "(I) prepare",
+   "emoji": "🧰"
+  },
+  "besonderes": {
+   "pos": "adjective",
+   "de": "besonders → nichts Besonderes",
+   "en": "(nothing) special",
+   "emoji": "✨"
+  },
+  "besuch": {
+   "pos": "noun",
+   "de": "Besuch",
+   "en": "visit; visitor(s)",
+   "emoji": "🚪",
+   "art": "der",
+   "pl": "die Besuche",
+   "note": "Besuchszeit = visiting hours"
+  },
+  "betäubung": {
+   "pos": "noun",
+   "de": "Betäubung",
+   "en": "anaesthesia",
+   "emoji": "💉",
+   "art": "die",
+   "pl": "die Betäubungen",
+   "note": "örtliche Betäubung = local anaesthetic"
+  },
+  "blutprobe": {
+   "pos": "noun",
+   "de": "Blutprobe",
+   "en": "blood sample; blood test",
+   "emoji": "🧪",
+   "art": "die",
+   "pl": "die Blutproben"
+  },
+  "blutröhrchen": {
+   "pos": "noun",
+   "de": "Blutröhrchen",
+   "en": "blood tube",
+   "emoji": "🧪",
+   "art": "das",
+   "pl": "die Blutröhrchen"
+  },
+  "brauchen": {
+   "pos": "verb",
+   "de": "brauchen",
+   "en": "to need",
+   "emoji": "🤲"
+  },
+  "brennend": {
+   "pos": "adjective",
+   "de": "brennend",
+   "en": "burning",
+   "emoji": "🔥",
+   "note": "Schmerzcharakter: brennend"
+  },
+  "bringe": {
+   "pos": "verb",
+   "de": "bringen → ich bringe",
+   "en": "(I) bring; take",
+   "emoji": "🏃",
+   "note": "ins Labor bringen"
+  },
+  "chest pain unit": {
+   "pos": "noun",
+   "de": "Chest Pain Unit (CPU)",
+   "en": "chest pain unit",
+   "emoji": "🏥",
+   "art": "die",
+   "pl": "die Chest Pain Units",
+   "note": "Spezialstation für Brustschmerz-Patienten (German hospitals use the English term)"
+  },
+  "dabei": {
+   "pos": "adverb",
+   "de": "dabei",
+   "en": "in doing so; during it",
+   "emoji": "➕"
+  },
+  "dafür": {
+   "pos": "adverb",
+   "de": "dafür",
+   "en": "for that",
+   "emoji": "🎯"
+  },
+  "dahin": {
+   "pos": "adverb",
+   "de": "bis dahin",
+   "en": "until then",
+   "emoji": "⏳"
+  },
+  "dank": {
+   "pos": "noun",
+   "de": "Dank",
+   "en": "thanks",
+   "emoji": "🙏",
+   "art": "der",
+   "pl": "kein Plural",
+   "note": "Vielen Dank! = Thank you very much!"
+  },
+  "darf": {
+   "pos": "modal verb",
+   "de": "dürfen → ich darf",
+   "en": "may; am allowed to",
+   "emoji": "🙋",
+   "note": "Darf ich …? = May I …?"
+  },
+  "dass": {
+   "pos": "conjunction",
+   "de": "dass",
+   "en": "that",
+   "emoji": "🔗",
+   "note": "Verb at the end: dass Sie sich Zeit nehmen"
+  },
+  "davon": {
+   "pos": "adverb",
+   "de": "davon",
+   "en": "from it; of it",
+   "emoji": "↩️",
+   "note": "Davon bekomme ich einen Ausschlag."
+  },
+  "denn": {
+   "pos": "particle",
+   "de": "denn",
+   "en": "(softens a question)",
+   "emoji": "❓",
+   "note": "Was ist denn passiert? – shows interest/concern"
+  },
+  "direkt": {
+   "pos": "adverb",
+   "de": "direkt",
+   "en": "directly; straight away",
+   "emoji": "➡️"
+  },
+  "dokumentation": {
+   "pos": "noun",
+   "de": "Dokumentation",
+   "en": "documentation",
+   "emoji": "📝",
+   "art": "die",
+   "pl": "die Dokumentationen"
+  },
+  "dokumentiere": {
+   "pos": "verb",
+   "de": "dokumentieren → ich dokumentiere",
+   "en": "(I) document",
+   "emoji": "📝"
+  },
+  "drückend": {
+   "pos": "adjective",
+   "de": "drückend",
+   "en": "pressing; pressure-like",
+   "emoji": "🫷",
+   "note": "typical for cardiac pain"
+  },
+  "durchblutungsstörung": {
+   "pos": "noun",
+   "de": "Durchblutungsstörung",
+   "en": "circulatory problem; reduced blood flow",
+   "emoji": "🩸",
+   "art": "die",
+   "pl": "die Durchblutungsstörungen",
+   "note": "patient-friendly for „Ischämie“"
+  },
+  "dünnen": {
+   "pos": "adjective",
+   "de": "dünn → dünnen",
+   "en": "thin",
+   "emoji": "➖",
+   "note": "einen dünnen Schlauch (Akk)",
+   "case": "Akk"
+  },
+  "eher": {
+   "pos": "adverb",
+   "de": "eher",
+   "en": "rather; more",
+   "emoji": "⚖️",
+   "note": "eher drückend oder stechend?"
+  },
+  "einatmen": {
+   "pos": "verb (separable)",
+   "de": "einatmen",
+   "en": "to breathe in",
+   "emoji": "🌬️",
+   "note": "Tief ein- und ausatmen!"
+  },
+  "eine": {
+   "pos": "article",
+   "de": "eine",
+   "en": "a; an (feminine)",
+   "emoji": "1️⃣"
+  },
+  "einmal": {
+   "pos": "adverb",
+   "de": "einmal / noch einmal",
+   "en": "once / once more",
+   "emoji": "🔁",
+   "note": "noch einmal = again"
+  },
+  "einschätzung": {
+   "pos": "noun",
+   "de": "Einschätzung",
+   "en": "assessment",
+   "emoji": "🧠",
+   "art": "die",
+   "pl": "die Einschätzungen",
+   "note": "SBAR: A = Assessment = Einschätzung"
+  },
+  "ekgs": {
+   "pos": "noun",
+   "de": "EKG → EKGs",
+   "en": "ECGs",
+   "emoji": "📈",
+   "art": "das",
+   "pl": "die EKGs",
+   "note": "beide EKGs"
+  },
+  "elektroden": {
+   "pos": "noun",
+   "de": "Elektrode",
+   "en": "electrodes",
+   "emoji": "🔌",
+   "art": "die",
+   "pl": "die Elektroden"
+  },
+  "empfehlung": {
+   "pos": "noun",
+   "de": "Empfehlung",
+   "en": "recommendation",
+   "emoji": "👉",
+   "art": "die",
+   "pl": "die Empfehlungen",
+   "note": "SBAR: R = Recommendation = Empfehlung"
+  },
+  "endlich": {
+   "pos": "adverb",
+   "de": "endlich",
+   "en": "finally; at last",
+   "emoji": "🎉"
+  },
+  "engegefühl": {
+   "pos": "noun",
+   "de": "Engegefühl",
+   "en": "feeling of tightness",
+   "emoji": "🫁",
+   "art": "das",
+   "pl": "die Engegefühle",
+   "note": "Medical: Angina pectoris = „Brustenge“"
+  },
+  "entschuldigung": {
+   "pos": "noun",
+   "de": "Entschuldigung",
+   "en": "excuse me; sorry",
+   "emoji": "🙇",
+   "art": "die",
+   "pl": "die Entschuldigungen"
+  },
+  "erklärt": {
+   "pos": "verb",
+   "de": "erklären → sie erklärt",
+   "en": "explains",
+   "emoji": "🗣️"
+  },
+  "ernst": {
+   "pos": "adjective",
+   "de": "ernst",
+   "en": "serious",
+   "emoji": "❗",
+   "note": "etwas ernst nehmen = take something seriously"
+  },
+  "erzählen": {
+   "pos": "verb",
+   "de": "erzählen",
+   "en": "to tell",
+   "emoji": "💬",
+   "note": "jemandem von etwas erzählen"
+  },
+  "essen": {
+   "pos": "verb",
+   "de": "essen",
+   "en": "to eat",
+   "emoji": "🍽️"
+  },
+  "fahren": {
+   "pos": "verb",
+   "de": "fahren",
+   "en": "to go; drive (here: transport)",
+   "emoji": "🚑"
+  },
+  "familie": {
+   "pos": "noun",
+   "de": "Familie",
+   "en": "family",
+   "emoji": "👨‍👩‍👧",
+   "art": "die",
+   "pl": "die Familien",
+   "note": "Familienanamnese = family history"
+  },
+  "feierabend": {
+   "pos": "noun",
+   "de": "Feierabend",
+   "en": "end of the working day",
+   "emoji": "🏠",
+   "art": "der",
+   "pl": "die Feierabende",
+   "note": "Feierabend! = Time to go home!"
+  },
+  "fernsehen": {
+   "pos": "verb (separable)",
+   "de": "fernsehen → ferngesehen",
+   "en": "to watch TV",
+   "emoji": "📺"
+  },
+  "fertig": {
+   "pos": "adjective",
+   "de": "fertig",
+   "en": "done; finished; ready",
+   "emoji": "✅"
+  },
+  "frage": {
+   "pos": "noun",
+   "de": "Frage",
+   "en": "question",
+   "emoji": "❓",
+   "art": "die",
+   "pl": "die Fragen"
+  },
+  "fragen": {
+   "pos": "noun",
+   "de": "Frage → Fragen",
+   "en": "questions",
+   "emoji": "❓",
+   "art": "die",
+   "pl": "die Fragen",
+   "note": "Haben Sie noch Fragen?"
+  },
+  "freimachen": {
+   "pos": "verb (separable)",
+   "de": "freimachen",
+   "en": "to uncover; to undress (a body part)",
+   "emoji": "👕",
+   "note": "den Oberkörper freimachen = take your top off"
+  },
+  "frequenz": {
+   "pos": "noun",
+   "de": "Frequenz",
+   "en": "rate; frequency",
+   "emoji": "💓",
+   "art": "die",
+   "pl": "die Frequenzen",
+   "note": "Herzfrequenz = heart rate"
+  },
+  "ganz": {
+   "pos": "adverb",
+   "de": "ganz",
+   "en": "completely; quite",
+   "emoji": "💯"
+  },
+  "gauge": {
+   "pos": "noun",
+   "de": "Gauge (G)",
+   "en": "gauge (cannula size)",
+   "emoji": "📏",
+   "art": "das",
+   "note": "18 G (achtzehn Gauge)"
+  },
+  "gefäß": {
+   "pos": "noun",
+   "de": "Gefäß",
+   "en": "vessel",
+   "emoji": "🩸",
+   "art": "das",
+   "pl": "die Gefäße",
+   "note": "Blutgefäß = blood vessel"
+  },
+  "gemacht": {
+   "pos": "verb",
+   "de": "machen → gemacht",
+   "en": "done; did (Perfekt)",
+   "emoji": "🛠️"
+  },
+  "genau": {
+   "pos": "adverb",
+   "de": "genau",
+   "en": "exactly",
+   "emoji": "🎯"
+  },
+  "gern": {
+   "pos": "adverb",
+   "de": "gern",
+   "en": "gladly",
+   "emoji": "😊",
+   "note": "Gern geschehen! = You're welcome!"
+  },
+  "geschehen": {
+   "pos": "verb",
+   "de": "geschehen",
+   "en": "to happen",
+   "emoji": "✨",
+   "note": "Gern geschehen! = You're welcome!"
+  },
+  "gesessen": {
+   "pos": "verb",
+   "de": "sitzen → gesessen",
+   "en": "sat (Perfekt)",
+   "emoji": "🛋️"
+  },
+  "gibt": {
+   "pos": "verb",
+   "de": "es gibt",
+   "en": "there is / there are",
+   "emoji": "📦",
+   "note": "Gibt es …? = Is there …?"
+  },
+  "gitterröhrchen": {
+   "pos": "noun",
+   "de": "Gitterröhrchen",
+   "en": "small mesh tube (= stent)",
+   "emoji": "🧩",
+   "art": "das",
+   "pl": "die Gitterröhrchen",
+   "note": "patient-friendly word for „Stent“"
+  },
+  "gleich": {
+   "pos": "adverb",
+   "de": "gleich",
+   "en": "in a moment; right away",
+   "emoji": "⏱️"
+  },
+  "grün": {
+   "pos": "adjective",
+   "de": "grün",
+   "en": "green",
+   "emoji": "🟢",
+   "note": "grüne Braunüle = 18 G"
+  },
+  "habe": {
+   "pos": "verb",
+   "de": "haben → ich habe",
+   "en": "(I) have",
+   "emoji": "🤲"
+  },
+  "handgelenk": {
+   "pos": "noun",
+   "de": "Handgelenk",
+   "en": "wrist",
+   "emoji": "✋",
+   "art": "das",
+   "pl": "die Handgelenke",
+   "note": "Herzkatheter über das Handgelenk (radial)"
+  },
+  "hatten": {
+   "pos": "verb",
+   "de": "haben → Sie hatten",
+   "en": "(you) had",
+   "emoji": "⏪"
+  },
+  "heißt": {
+   "pos": "verb",
+   "de": "heißen → es heißt",
+   "en": "means",
+   "emoji": "🟰",
+   "note": "Null heißt keine Schmerzen."
+  },
+  "herz": {
+   "pos": "noun",
+   "de": "Herz",
+   "en": "heart",
+   "emoji": "❤️",
+   "art": "das",
+   "pl": "die Herzen",
+   "note": "Dativ: dem Herzen (irregular)"
+  },
+  "herzinfarkt": {
+   "pos": "noun",
+   "de": "Herzinfarkt",
+   "en": "heart attack; myocardial infarction",
+   "emoji": "💔",
+   "art": "der",
+   "pl": "die Herzinfarkte",
+   "note": "Medical: der Myokardinfarkt"
+  },
+  "herzkatheter": {
+   "pos": "noun",
+   "de": "Herzkatheter",
+   "en": "cardiac catheter (examination)",
+   "emoji": "🩻",
+   "art": "der",
+   "pl": "die Herzkatheter",
+   "note": "„einen Herzkatheter bekommen“"
+  },
+  "herzkatheteruntersuchung": {
+   "pos": "noun",
+   "de": "Herzkatheteruntersuchung",
+   "en": "cardiac catheterisation; coronary angiography",
+   "emoji": "🩻",
+   "art": "die",
+   "pl": "die Herzkatheteruntersuchungen"
+  },
+  "herzkrankheiten": {
+   "pos": "noun",
+   "de": "Herzkrankheit",
+   "en": "heart disease(s)",
+   "emoji": "❤️‍🩹",
+   "art": "die",
+   "pl": "die Herzkrankheiten"
+  },
+  "herzkranzgefäß": {
+   "pos": "noun",
+   "de": "Herzkranzgefäß",
+   "en": "coronary artery",
+   "emoji": "❤️",
+   "art": "das",
+   "pl": "die Herzkranzgefäße",
+   "note": "patient-friendly for „Koronararterie“"
+  },
+  "herztöne": {
+   "pos": "noun",
+   "de": "Herzton",
+   "en": "heart sounds",
+   "emoji": "🔊",
+   "art": "der",
+   "pl": "die Herztöne",
+   "note": "Herztöne rein, rhythmisch"
+  },
+  "hintergrund": {
+   "pos": "noun",
+   "de": "Hintergrund",
+   "en": "background",
+   "emoji": "🗂️",
+   "art": "der",
+   "pl": "die Hintergründe",
+   "note": "SBAR: B = Background = Hintergrund"
+  },
+  "höre": {
+   "pos": "verb",
+   "de": "hören → ich höre",
+   "en": "(I) hear; listen",
+   "emoji": "👂",
+   "note": "Ich höre. = Go ahead (on the phone)."
+  },
+  "ihr": {
+   "pos": "pronoun",
+   "de": "Ihr / ihr",
+   "en": "your (formal); her",
+   "emoji": "🫵",
+   "note": "Ihr Herz · Ihr Vater"
+  },
+  "ihre": {
+   "pos": "pronoun",
+   "de": "Ihre",
+   "en": "your (formal)",
+   "emoji": "🫵",
+   "note": "Ihre Lunge (Akk)"
+  },
+  "ihren": {
+   "pos": "pronoun",
+   "de": "Ihren",
+   "en": "your (formal, Dativ plural)",
+   "emoji": "🫵",
+   "note": "von Ihren Befunden"
+  },
+  "ihrer": {
+   "pos": "pronoun",
+   "de": "Ihrer",
+   "en": "(to) your (formal, Dativ fem.)",
+   "emoji": "🫵",
+   "note": "Ihrer Tochter (Dativ)",
+   "case": "Dat"
+  },
+  "ins": {
+   "pos": "preposition",
+   "de": "ins (= in das)",
+   "en": "into the; to the",
+   "emoji": "➡️",
+   "note": "ins Labor (wohin? → Akk)",
+   "gov": "Akk"
+  },
+  "kamen": {
+   "pos": "verb",
+   "de": "kommen → sie kamen",
+   "en": "came",
+   "emoji": "🚶"
+  },
+  "kann": {
+   "pos": "modal verb",
+   "de": "können → er kann",
+   "en": "can",
+   "emoji": "💪"
+  },
+  "kardiologen": {
+   "pos": "noun",
+   "de": "Kardiologe → Kardiologen",
+   "en": "cardiologists",
+   "emoji": "👨‍⚕️",
+   "art": "der",
+   "pl": "die Kardiologen",
+   "note": "female: die Kardiologin"
+  },
+  "kein": {
+   "pos": "article",
+   "de": "kein",
+   "en": "no; not a",
+   "emoji": "🚫",
+   "note": "kein Seitenunterschied"
+  },
+  "kleine": {
+   "pos": "adjective",
+   "de": "klein → kleine",
+   "en": "small",
+   "emoji": "🤏"
+  },
+  "kleinen": {
+   "pos": "adjective",
+   "de": "klein → kleinen",
+   "en": "small",
+   "emoji": "🤏",
+   "note": "mit einem kleinen Gitterröhrchen (Dativ)",
+   "case": "Dat"
+  },
+  "kleiner": {
+   "pos": "adjective",
+   "de": "klein → kleiner",
+   "en": "small",
+   "emoji": "🤏",
+   "note": "ein kleiner Pieks"
+  },
+  "kommen": {
+   "pos": "verb",
+   "de": "kommen",
+   "en": "to come",
+   "emoji": "🚶"
+  },
+  "kommt": {
+   "pos": "verb",
+   "de": "kommen → es kommt",
+   "en": "comes",
+   "emoji": "🚶"
+  },
+  "kontrollieren": {
+   "pos": "verb",
+   "de": "kontrollieren",
+   "en": "to check; to repeat (a test)",
+   "emoji": "🔁"
+  },
+  "kreatinin": {
+   "pos": "noun",
+   "de": "Kreatinin",
+   "en": "creatinine",
+   "emoji": "🧪",
+   "art": "das",
+   "pl": "kein Plural",
+   "note": "kidney function"
+  },
+  "können": {
+   "pos": "modal verb",
+   "de": "können",
+   "en": "can; to be able to",
+   "emoji": "💪",
+   "note": "Können Sie …? = Could you …?"
+  },
+  "körperliche": {
+   "pos": "adjective",
+   "de": "körperlich → körperliche",
+   "en": "physical",
+   "emoji": "🩺",
+   "note": "die körperliche Untersuchung"
+  },
+  "kümmern": {
+   "pos": "verb",
+   "de": "sich kümmern um + Akk",
+   "en": "to take care of",
+   "emoji": "🤲",
+   "note": "Die Kardiologen kümmern sich um ihn."
+  },
+  "labor": {
+   "pos": "noun",
+   "de": "Labor",
+   "en": "laboratory",
+   "emoji": "🔬",
+   "art": "das",
+   "pl": "die Labore"
+  },
+  "laut": {
+   "pos": "preposition",
+   "de": "laut",
+   "en": "according to",
+   "emoji": "📄",
+   "note": "laut Notaufnahme = according to the ED"
+  },
+  "letzten": {
+   "pos": "adjective",
+   "de": "letzte → letzten",
+   "en": "last",
+   "emoji": "⏪",
+   "note": "in den letzten zwei Tagen"
+  },
+  "liegen": {
+   "pos": "verb",
+   "de": "liegen",
+   "en": "to lie",
+   "emoji": "🛌"
+  },
+  "liegt": {
+   "pos": "verb",
+   "de": "liegen → er liegt",
+   "en": "is in place; lies",
+   "emoji": "✅",
+   "note": "Der Zugang liegt. = The line is in."
+  },
+  "links": {
+   "pos": "adverb",
+   "de": "links",
+   "en": "(on the) left",
+   "emoji": "⬅️"
+  },
+  "lunge": {
+   "pos": "noun",
+   "de": "Lunge",
+   "en": "lung(s)",
+   "emoji": "🫁",
+   "art": "die",
+   "pl": "die Lungen",
+   "note": "Die Lunge ist frei. = The lungs are clear."
+  },
+  "machen": {
+   "pos": "verb",
+   "de": "machen",
+   "en": "to do; make",
+   "emoji": "🛠️"
+  },
+  "medikamentenliste": {
+   "pos": "noun",
+   "de": "Medikamentenliste",
+   "en": "medication list",
+   "emoji": "📃",
+   "art": "die",
+   "pl": "die Medikamentenlisten"
+  },
+  "mein": {
+   "pos": "pronoun",
+   "de": "mein",
+   "en": "my",
+   "emoji": "🙋"
+  },
+  "metformin": {
+   "pos": "noun",
+   "de": "Metformin",
+   "en": "metformin",
+   "emoji": "💊",
+   "art": "das",
+   "pl": "kein Plural",
+   "note": "for type 2 diabetes"
+  },
+  "mich": {
+   "pos": "pronoun",
+   "de": "ich → mich",
+   "en": "me (Akkusativ)",
+   "emoji": "🙋",
+   "note": "Er hat mich angerufen.",
+   "case": "Akk"
+  },
+  "miss": {
+   "pos": "verb",
+   "de": "messen → miss! (du)",
+   "en": "measure!",
+   "emoji": "📏",
+   "note": "Miss bitte den Blutdruck."
+  },
+  "mitte": {
+   "pos": "noun",
+   "de": "Mitte",
+   "en": "middle",
+   "emoji": "🎯",
+   "art": "die",
+   "pl": "die Mitten",
+   "note": "in der Mitte"
+  },
+  "moment": {
+   "pos": "noun",
+   "de": "Moment",
+   "en": "moment",
+   "emoji": "⏱️",
+   "art": "der",
+   "pl": "die Momente",
+   "note": "im Moment = at the moment"
+  },
+  "monitor": {
+   "pos": "noun",
+   "de": "Monitor",
+   "en": "monitor",
+   "emoji": "📟",
+   "art": "der",
+   "pl": "die Monitore",
+   "note": "mit Monitor transportieren"
+  },
+  "muss": {
+   "pos": "modal verb",
+   "de": "müssen → ich muss",
+   "en": "must; have to",
+   "emoji": "❗"
+  },
+  "nass": {
+   "pos": "adjective",
+   "de": "nass",
+   "en": "wet",
+   "emoji": "💦",
+   "note": "nass geschwitzt = drenched in sweat"
+  },
+  "natürlich": {
+   "pos": "adverb",
+   "de": "natürlich",
+   "en": "of course",
+   "emoji": "👍"
+  },
+  "nehme": {
+   "pos": "verb",
+   "de": "nehmen → ich nehme",
+   "en": "(I) take",
+   "emoji": "💊"
+  },
+  "nehmen": {
+   "pos": "verb",
+   "de": "nehmen",
+   "en": "to take",
+   "emoji": "💊",
+   "note": "Medikamente nehmen · sich Zeit nehmen"
+  },
+  "nein": {
+   "pos": "particle",
+   "de": "nein",
+   "en": "no",
+   "emoji": "❌"
+  },
+  "nichts": {
+   "pos": "pronoun",
+   "de": "nichts",
+   "en": "nothing",
+   "emoji": "🚫"
+  },
+  "notfall": {
+   "pos": "noun",
+   "de": "Notfall",
+   "en": "emergency",
+   "emoji": "🚨",
+   "art": "der",
+   "pl": "die Notfälle",
+   "note": "als Notfall = urgent (lab)"
+  },
+  "notfallkoffer": {
+   "pos": "noun",
+   "de": "Notfallkoffer",
+   "en": "emergency kit",
+   "emoji": "🧰",
+   "art": "der",
+   "pl": "die Notfallkoffer"
+  },
+  "nrs": {
+   "pos": "abbreviation",
+   "de": "NRS (Numerische Rating-Skala)",
+   "en": "numeric rating scale",
+   "emoji": "📏",
+   "art": "die",
+   "note": "Schmerzen NRS 7/10"
+  },
+  "nur": {
+   "pos": "adverb",
+   "de": "nur",
+   "en": "only",
+   "emoji": "☝️"
+  },
+  "nüchtern": {
+   "pos": "adjective",
+   "de": "nüchtern",
+   "en": "nil by mouth; fasting",
+   "emoji": "🚫🍽️",
+   "note": "nüchtern bleiben = not eat before a procedure"
+  },
+  "ob": {
+   "pos": "conjunction",
+   "de": "ob",
+   "en": "whether; if",
+   "emoji": "❔",
+   "note": "Verb at the end: ob ein Gefäß verengt ist"
+  },
+  "oberkörper": {
+   "pos": "noun",
+   "de": "Oberkörper",
+   "en": "upper body",
+   "emoji": "👕",
+   "art": "der",
+   "pl": "die Oberkörper",
+   "note": "den Oberkörper freimachen"
+  },
+  "ohne": {
+   "pos": "preposition",
+   "de": "ohne",
+   "en": "without",
+   "emoji": "🚫",
+   "note": "ohne ST-Hebung",
+   "gov": "Akk"
+  },
+  "operation": {
+   "pos": "noun",
+   "de": "Operation",
+   "en": "operation; surgery",
+   "emoji": "🏥",
+   "art": "die",
+   "pl": "die Operationen",
+   "note": "Short: die OP"
+  },
+  "operieren": {
+   "pos": "verb",
+   "de": "operieren → operiert werden",
+   "en": "to operate (on)",
+   "emoji": "🔪",
+   "note": "Passive: Muss ich operiert werden?"
+  },
+  "passiert": {
+   "pos": "verb",
+   "de": "passieren → ist passiert",
+   "en": "happened",
+   "emoji": "❓",
+   "note": "Was ist passiert?"
+  },
+  "pieks": {
+   "pos": "noun",
+   "de": "Pieks",
+   "en": "(small) prick; jab",
+   "emoji": "📌",
+   "art": "der",
+   "pl": "die Piekse",
+   "note": "Jetzt kommt ein kleiner Pieks. (colloquial)"
+  },
+  "positiv": {
+   "pos": "adjective",
+   "de": "positiv",
+   "en": "positive; upright (T wave)",
+   "emoji": "➕"
+  },
+  "potenzmittel": {
+   "pos": "noun",
+   "de": "Potenzmittel",
+   "en": "erectile dysfunction drug",
+   "emoji": "💊",
+   "art": "das",
+   "pl": "die Potenzmittel",
+   "note": "PDE-5-Hemmer (Sildenafil) – Kontraindikation für Nitro!"
+  },
+  "ramipril": {
+   "pos": "noun",
+   "de": "Ramipril",
+   "en": "ramipril (ACE inhibitor)",
+   "emoji": "💊",
+   "art": "das",
+   "pl": "kein Plural",
+   "note": "for high blood pressure"
+  },
+  "rasselgeräusche": {
+   "pos": "noun",
+   "de": "Rasselgeräusch",
+   "en": "crackles (lung sounds)",
+   "emoji": "🫁",
+   "art": "das",
+   "pl": "die Rasselgeräusche",
+   "note": "keine Rasselgeräusche = no crackles"
+  },
+  "rauchen": {
+   "pos": "verb",
+   "de": "rauchen",
+   "en": "to smoke",
+   "emoji": "🚬",
+   "note": "Rauchen Sie? · Raucher / Nichtraucher"
+  },
+  "rechts": {
+   "pos": "adverb",
+   "de": "rechts",
+   "en": "(on the) right",
+   "emoji": "➡️"
+  },
+  "regelmäßig": {
+   "pos": "adverb",
+   "de": "regelmäßig",
+   "en": "regularly",
+   "emoji": "🔁"
+  },
+  "rein": {
+   "pos": "adjective",
+   "de": "rein",
+   "en": "clear; pure",
+   "emoji": "✨",
+   "note": "Herztöne rein = clear heart sounds (no murmurs)"
+  },
+  "rhythmisch": {
+   "pos": "adjective",
+   "de": "rhythmisch",
+   "en": "regular; rhythmic",
+   "emoji": "🎵"
+  },
+  "richtig": {
+   "pos": "adjective",
+   "de": "richtig",
+   "en": "correct; right",
+   "emoji": "✅"
+  },
+  "ruhe": {
+   "pos": "noun",
+   "de": "Ruhe",
+   "en": "rest; quiet",
+   "emoji": "😌",
+   "art": "die",
+   "pl": "kein Plural",
+   "note": "in Ruhe = at rest"
+  },
+  "röhrchen": {
+   "pos": "noun",
+   "de": "Röhrchen",
+   "en": "(blood) tube",
+   "emoji": "🧪",
+   "art": "das",
+   "pl": "die Röhrchen"
+  },
+  "schachtel": {
+   "pos": "noun",
+   "de": "Schachtel",
+   "en": "pack; box",
+   "emoji": "📦",
+   "art": "die",
+   "pl": "die Schachteln",
+   "note": "eine Schachtel (Zigaretten) am Tag"
+  },
+  "schieben": {
+   "pos": "verb",
+   "de": "schieben",
+   "en": "to push",
+   "emoji": "👉"
+  },
+  "schlauch": {
+   "pos": "noun",
+   "de": "Schlauch",
+   "en": "tube; catheter",
+   "emoji": "➰",
+   "art": "der",
+   "pl": "die Schläuche"
+  },
+  "schlucke": {
+   "pos": "noun",
+   "de": "Schluck",
+   "en": "sips",
+   "emoji": "💧",
+   "art": "der",
+   "pl": "die Schlucke",
+   "note": "kleine Schlucke Wasser"
+  },
+  "schmerz": {
+   "pos": "noun",
+   "de": "Schmerz",
+   "en": "pain",
+   "emoji": "😣",
+   "art": "der",
+   "pl": "die Schmerzen",
+   "note": "Usually plural: Ich habe Schmerzen."
+  },
+  "schmerzskala": {
+   "pos": "noun",
+   "de": "Schmerzskala",
+   "en": "pain scale",
+   "emoji": "📏",
+   "art": "die",
+   "pl": "die Schmerzskalen"
+  },
+  "schwellen": {
+   "pos": "verb",
+   "de": "schwellen → geschwollen",
+   "en": "to swell → swollen",
+   "emoji": "🦶",
+   "note": "geschwollene Beine = swollen legs"
+  },
+  "schwerer": {
+   "pos": "adjective",
+   "de": "schwer → schwerer",
+   "en": "heavy",
+   "emoji": "🪨",
+   "note": "wie ein schwerer Stein"
+  },
+  "schwierige": {
+   "pos": "adjective",
+   "de": "schwierig → schwierige",
+   "en": "difficult",
+   "emoji": "😔"
+  },
+  "schwitzen": {
+   "pos": "verb",
+   "de": "schwitzen → geschwitzt",
+   "en": "to sweat",
+   "emoji": "💦"
+  },
+  "sehen": {
+   "pos": "verb",
+   "de": "sehen",
+   "en": "to see",
+   "emoji": "👀"
+  },
+  "sein": {
+   "pos": "pronoun",
+   "de": "sein",
+   "en": "his",
+   "emoji": "👨",
+   "note": "sein Vater"
+  },
+  "seitenunterschied": {
+   "pos": "noun",
+   "de": "Seitenunterschied",
+   "en": "difference between sides",
+   "emoji": "⚖️",
+   "art": "der",
+   "pl": "die Seitenunterschiede",
+   "note": "kein Seitenunterschied (RR re/li)"
+  },
+  "sich": {
+   "pos": "pronoun",
+   "de": "sich",
+   "en": "himself; yourself (reflexive)",
+   "emoji": "🔄",
+   "note": "sich Zeit nehmen · sich kümmern"
+  },
+  "sicher": {
+   "pos": "adverb",
+   "de": "sicher",
+   "en": "for sure; certainly",
+   "emoji": "✔️"
+  },
+  "sinusrhythmus": {
+   "pos": "noun",
+   "de": "Sinusrhythmus",
+   "en": "sinus rhythm",
+   "emoji": "📈",
+   "art": "der",
+   "pl": "die Sinusrhythmen"
+  },
+  "situation": {
+   "pos": "noun",
+   "de": "Situation",
+   "en": "situation",
+   "emoji": "📍",
+   "art": "die",
+   "pl": "die Situationen",
+   "note": "SBAR: S = Situation"
+  },
+  "so": {
+   "pos": "adverb",
+   "de": "so",
+   "en": "so; like that",
+   "emoji": "👉",
+   "note": "so etwas = something like that"
+  },
+  "sofa": {
+   "pos": "noun",
+   "de": "Sofa",
+   "en": "sofa",
+   "emoji": "🛋️",
+   "art": "das",
+   "pl": "die Sofas"
+  },
+  "solche": {
+   "pos": "pronoun",
+   "de": "solch → solche",
+   "en": "such",
+   "emoji": "❗",
+   "note": "Ich habe solche Angst!"
+  },
+  "sprechen": {
+   "pos": "verb",
+   "de": "sprechen",
+   "en": "to speak; to talk",
+   "emoji": "🗣️"
+  },
+  "st-hebung": {
+   "pos": "noun",
+   "de": "ST-Hebung",
+   "en": "ST elevation",
+   "emoji": "📈",
+   "art": "die",
+   "pl": "die ST-Hebungen",
+   "note": "ohne ST-Hebung (NSTE-ACS)"
+  },
+  "stechend": {
+   "pos": "adjective",
+   "de": "stechend",
+   "en": "stabbing; sharp",
+   "emoji": "🔪"
+  },
+  "stein": {
+   "pos": "noun",
+   "de": "Stein",
+   "en": "stone",
+   "emoji": "🪨",
+   "art": "der",
+   "pl": "die Steine"
+  },
+  "stent": {
+   "pos": "noun",
+   "de": "Stent",
+   "en": "stent",
+   "emoji": "🧩",
+   "art": "der",
+   "pl": "die Stents"
+  },
+  "stunden": {
+   "pos": "noun",
+   "de": "Stunde",
+   "en": "hours",
+   "emoji": "⏰",
+   "art": "die",
+   "pl": "die Stunden",
+   "note": "in drei Stunden"
+  },
+  "stärksten": {
+   "pos": "adjective",
+   "de": "stark → die stärksten",
+   "en": "the strongest; the worst",
+   "emoji": "💥"
+  },
+  "tag": {
+   "pos": "noun",
+   "de": "Tag",
+   "en": "day",
+   "emoji": "📅",
+   "art": "der",
+   "pl": "die Tage",
+   "note": "am Tag = per day"
+  },
+  "tagen": {
+   "pos": "noun",
+   "de": "Tag → Tagen",
+   "en": "days (Dativ plural)",
+   "emoji": "📅",
+   "art": "der",
+   "pl": "die Tage",
+   "note": "in den letzten zwei Tagen",
+   "case": "Dat"
+  },
+  "telefonat": {
+   "pos": "noun",
+   "de": "Telefonat",
+   "en": "phone call",
+   "emoji": "📞",
+   "art": "das",
+   "pl": "die Telefonate"
+  },
+  "tief": {
+   "pos": "adjective",
+   "de": "tief",
+   "en": "deep(ly)",
+   "emoji": "🌊"
+  },
+  "tochter": {
+   "pos": "noun",
+   "de": "Tochter",
+   "en": "daughter",
+   "emoji": "👩",
+   "art": "die",
+   "pl": "die Töchter"
+  },
+  "unterarm": {
+   "pos": "noun",
+   "de": "Unterarm",
+   "en": "forearm",
+   "emoji": "💪",
+   "art": "der",
+   "pl": "die Unterarme"
+  },
+  "untersuchung": {
+   "pos": "noun",
+   "de": "Untersuchung",
+   "en": "examination",
+   "emoji": "🩺",
+   "art": "die",
+   "pl": "die Untersuchungen"
+  },
+  "vater": {
+   "pos": "noun",
+   "de": "Vater",
+   "en": "father",
+   "emoji": "👴",
+   "art": "der",
+   "pl": "die Väter"
+  },
+  "verengen": {
+   "pos": "verb",
+   "de": "verengen → verengt",
+   "en": "to narrow → narrowed",
+   "emoji": "🔻",
+   "note": "Das Gefäß ist verengt. (Medical: Stenose)"
+  },
+  "verlegung": {
+   "pos": "noun",
+   "de": "Verlegung",
+   "en": "transfer (of a patient)",
+   "emoji": "🚑",
+   "art": "die",
+   "pl": "die Verlegungen"
+  },
+  "verlegungsbericht": {
+   "pos": "noun",
+   "de": "Verlegungsbericht",
+   "en": "transfer report",
+   "emoji": "📄",
+   "art": "der",
+   "pl": "die Verlegungsberichte"
+  },
+  "vermute": {
+   "pos": "verb",
+   "de": "vermuten → ich vermute",
+   "en": "(I) suspect",
+   "emoji": "🤔",
+   "note": "Ich vermute … = My working diagnosis is …"
+  },
+  "vermutlich": {
+   "pos": "adverb",
+   "de": "vermutlich",
+   "en": "probably; presumably",
+   "emoji": "🤔"
+  },
+  "verstehe": {
+   "pos": "verb",
+   "de": "verstehen → ich verstehe",
+   "en": "(I) understand",
+   "emoji": "🤝",
+   "note": "Das verstehe ich gut. (empathy)"
+  },
+  "viagra": {
+   "pos": "noun",
+   "de": "Viagra (Sildenafil)",
+   "en": "Viagra (sildenafil)",
+   "emoji": "💊",
+   "art": "das",
+   "pl": "kein Plural"
+  },
+  "vielen": {
+   "pos": "adjective",
+   "de": "viel → vielen",
+   "en": "many",
+   "emoji": "🙏",
+   "note": "Vielen Dank!"
+  },
+  "vom": {
+   "pos": "preposition",
+   "de": "vom (= von dem)",
+   "en": "from the",
+   "emoji": "➡️",
+   "note": "vom Handgelenk bis zum Herzen",
+   "gov": "Dat"
+  },
+  "vorstellen": {
+   "pos": "verb (separable)",
+   "de": "vorstellen / sich vorstellen",
+   "en": "to present (a patient) / to imagine",
+   "emoji": "💭",
+   "note": "in der Kardiologie vorstellen = present to cardiology · sich vorstellen können = to imagine"
+  },
+  "wahrscheinlich": {
+   "pos": "adverb",
+   "de": "wahrscheinlich",
+   "en": "probably",
+   "emoji": "🤔"
+  },
+  "was": {
+   "pos": "question word",
+   "de": "was",
+   "en": "what",
+   "emoji": "❓"
+  },
+  "wasser": {
+   "pos": "noun",
+   "de": "Wasser",
+   "en": "water",
+   "emoji": "💧",
+   "art": "das",
+   "pl": "kein Plural"
+  },
+  "wehtun": {
+   "pos": "verb (separable)",
+   "de": "wehtun → es tut weh",
+   "en": "to hurt",
+   "emoji": "🤕",
+   "note": "Wo tut es weh? = Where does it hurt?"
+  },
+  "welche": {
+   "pos": "question word",
+   "de": "welche",
+   "en": "which",
+   "emoji": "❓"
+  },
+  "wichtige": {
+   "pos": "adjective",
+   "de": "wichtig → wichtige",
+   "en": "important",
+   "emoji": "❗"
+  },
+  "wiederhole": {
+   "pos": "verb",
+   "de": "wiederholen → ich wiederhole",
+   "en": "(I) repeat",
+   "emoji": "🔁",
+   "note": "Closed Loop: „Ich wiederhole: …“"
+  },
+  "wiederkommen": {
+   "pos": "verb (separable)",
+   "de": "wiederkommen",
+   "en": "to come back",
+   "emoji": "🔁"
+  },
+  "wird": {
+   "pos": "verb",
+   "de": "werden → er wird",
+   "en": "is (being) – passive",
+   "emoji": "🔄",
+   "note": "Er wird überwacht. = He is (being) monitored."
+  },
+  "wo": {
+   "pos": "question word",
+   "de": "wo",
+   "en": "where",
+   "emoji": "📍"
+  },
+  "würde": {
+   "pos": "verb",
+   "de": "würde (Konjunktiv II)",
+   "en": "would",
+   "emoji": "🤔",
+   "note": "Ich würde … geben = polite suggestion"
+  },
+  "zeigen": {
+   "pos": "verb",
+   "de": "zeigen",
+   "en": "to show",
+   "emoji": "👉"
+  },
+  "zeit": {
+   "pos": "noun",
+   "de": "Zeit",
+   "en": "time",
+   "emoji": "⏰",
+   "art": "die",
+   "pl": "die Zeiten",
+   "note": "sich Zeit nehmen = take time"
+  },
+  "zucker": {
+   "pos": "noun",
+   "de": "Zucker",
+   "en": "sugar; (colloquial) diabetes",
+   "emoji": "🍬",
+   "art": "der",
+   "pl": "kein Plural",
+   "note": "„Zucker haben“ = to have diabetes (patient language)"
+  },
+  "zum": {
+   "pos": "preposition",
+   "de": "zum (= zu dem)",
+   "en": "to the",
+   "emoji": "➡️",
+   "note": "bis zum Herzen · zum Beispiel",
+   "gov": "Dat"
+  },
+  "zweite": {
+   "pos": "adjective",
+   "de": "zweite",
+   "en": "second",
+   "emoji": "2️⃣"
+  },
+  "ärzte": {
+   "pos": "noun",
+   "de": "Arzt → Ärzte",
+   "en": "doctors",
+   "emoji": "👨‍⚕️",
+   "art": "der",
+   "pl": "die Ärzte"
+  },
+  "ödeme": {
+   "pos": "noun",
+   "de": "Ödem",
+   "en": "oedema; swelling",
+   "emoji": "🦶",
+   "art": "das",
+   "pl": "die Ödeme",
+   "note": "Beinödeme = leg oedema"
+  },
+  "öffnen": {
+   "pos": "verb",
+   "de": "öffnen",
+   "en": "to open",
+   "emoji": "🔓"
+  },
+  "örtliche": {
+   "pos": "adjective",
+   "de": "örtlich → örtliche",
+   "en": "local",
+   "emoji": "📍",
+   "note": "örtliche Betäubung = local anaesthetic"
+  },
+  "überwachen": {
+   "pos": "verb",
+   "de": "überwachen → überwacht",
+   "en": "to monitor",
+   "emoji": "📟",
+   "note": "Er wird überwacht."
+  },
+  "frei": {
+   "pos": "adjective",
+   "de": "frei",
+   "en": "free; clear",
+   "emoji": "✅",
+   "note": "Die Lunge ist frei. = The lungs are clear. · den Oberkörper frei machen"
+  }
+ },
+ "vocab": [
+  {
+   "key": "übergabe",
+   "theme": "Kommunikation",
+   "ch": 1,
+   "example": "Danke für die gute Übergabe, Tom.",
+   "panel": "p36"
+  },
+  {
+   "key": "übergeben",
+   "theme": "Kommunikation",
+   "ch": 1,
+   "example": "Ich [[übergebe|übergeben]] dir Herrn Becker aus Zimmer 12.",
+   "panel": "p2"
+  },
+  {
+   "key": "neuzugang",
+   "theme": "Kommunikation",
+   "ch": 1,
+   "example": "Ziemlich ruhig – bis auf einen Neuzugang.",
+   "panel": "p1"
+  },
+  {
+   "key": "notaufnahme",
+   "theme": "Kommunikation",
+   "ch": 1,
+   "example": "… und kam um drei Uhr über die Notaufnahme.",
+   "panel": "p2"
+  },
+  {
+   "key": "vitalwerte",
+   "theme": "Untersuchung",
+   "ch": 1,
+   "example": "Die Vitalwerte um 5:30 Uhr",
+   "panel": "p3"
+  },
+  {
+   "key": "blutdruck",
+   "theme": "Untersuchung",
+   "ch": 1,
+   "example": "Der Blutdruck ist etwas hoch.",
+   "panel": "p4"
+  },
+  {
+   "key": "sättigung",
+   "theme": "Untersuchung",
+   "ch": 1,
+   "example": "Sättigung 94 Prozent unter Raumluft",
+   "panel": "p3"
+  },
+  {
+   "key": "vorerkrankungen",
+   "theme": "Symptome",
+   "ch": 1,
+   "example": "Hat er Vorerkrankungen oder Allergien?",
+   "panel": "p4"
+  },
+  {
+   "key": "brustschmerzen",
+   "theme": "Symptome",
+   "ch": 2,
+   "example": "Mit Brustschmerzen seit gestern Abend.",
+   "panel": "p2"
+  },
+  {
+   "key": "drücken",
+   "theme": "Symptome",
+   "ch": 2,
+   "example": "Es [[drückt|drücken]] hier in der Brust.",
+   "panel": "p6"
+  },
+  {
+   "key": "drückend",
+   "theme": "Symptome",
+   "ch": 2,
+   "example": "Ist der Schmerz eher drückend, brennend oder stechend?",
+   "panel": "p7"
+  },
+  {
+   "key": "engegefühl",
+   "theme": "Symptome",
+   "ch": 2,
+   "example": "Drückend – wie ein Engegefühl.",
+   "panel": "p7"
+  },
+  {
+   "key": "ausstrahlen",
+   "theme": "Symptome",
+   "ch": 2,
+   "example": "[[Strahlen|ausstrahlen]] die Schmerzen [[aus|ausstrahlen]]?",
+   "panel": "p10"
+  },
+  {
+   "key": "skala",
+   "theme": "Untersuchung",
+   "ch": 2,
+   "example": "Wie stark sind die Schmerzen auf einer Skala von null bis zehn?",
+   "panel": "p9"
+  },
+  {
+   "key": "übel",
+   "theme": "Symptome",
+   "ch": 2,
+   "example": "Und mir ist ein bisschen übel.",
+   "panel": "p10"
+  },
+  {
+   "key": "atemnot",
+   "theme": "Symptome",
+   "ch": 2,
+   "example": "Hatten Sie auch Atemnot …?",
+   "panel": "p10"
+  },
+  {
+   "key": "ausschlag",
+   "theme": "Symptome",
+   "ch": 2,
+   "example": "Gegen Penicillin bin ich allergisch – davon bekomme ich einen Ausschlag.",
+   "panel": "p11"
+  },
+  {
+   "key": "abhören",
+   "theme": "Untersuchung",
+   "ch": 3,
+   "example": "Ich höre jetzt Ihr Herz und Ihre Lunge [[ab|abhören]].",
+   "panel": "p13"
+  },
+  {
+   "key": "oberkörper",
+   "theme": "Untersuchung",
+   "ch": 3,
+   "example": "Bitte [[machen|freimachen]] Sie den Oberkörper [[frei|freimachen]].",
+   "panel": "p13"
+  },
+  {
+   "key": "herztöne",
+   "theme": "Untersuchung",
+   "ch": 3,
+   "example": "Die Herztöne sind rein und rhythmisch.",
+   "panel": "p14"
+  },
+  {
+   "key": "lunge",
+   "theme": "Untersuchung",
+   "ch": 3,
+   "example": "Die Lunge ist frei, keine Rasselgeräusche.",
+   "panel": "p14"
+  },
+  {
+   "key": "rasselgeräusche",
+   "theme": "Untersuchung",
+   "ch": 3,
+   "example": "Die Lunge ist frei, keine Rasselgeräusche.",
+   "panel": "p14"
+  },
+  {
+   "key": "ödeme",
+   "theme": "Untersuchung",
+   "ch": 3,
+   "example": "Die Beine sind nicht [[geschwollen|schwellen]] – keine Ödeme.",
+   "panel": "p14"
+  },
+  {
+   "key": "seitenunterschied",
+   "theme": "Untersuchung",
+   "ch": 3,
+   "example": "Gut, kein Seitenunterschied.",
+   "panel": "p15"
+  },
+  {
+   "key": "ekg",
+   "theme": "Untersuchung",
+   "ch": 4,
+   "example": "Tom, schreib bitte sofort ein EKG und leg einen Zugang.",
+   "panel": "p16"
+  },
+  {
+   "key": "zugang",
+   "theme": "Untersuchung",
+   "ch": 4,
+   "example": "Der Zugang liegt: grün, 18 Gauge, am linken Unterarm.",
+   "panel": "p19"
+  },
+  {
+   "key": "blutabnehmen",
+   "theme": "Untersuchung",
+   "ch": 4,
+   "example": "Soll ich auch [[Blut|blutabnehmen]] [[abnehmen|blutabnehmen]]?",
+   "panel": "p16"
+  },
+  {
+   "key": "troponin",
+   "theme": "Untersuchung",
+   "ch": 4,
+   "example": "Das Troponin kontrollieren wir in drei Stunden noch einmal.",
+   "panel": "p20"
+  },
+  {
+   "key": "elektroden",
+   "theme": "Untersuchung",
+   "ch": 4,
+   "example": "… ich [[klebe|aufkleben]] Ihnen jetzt die Elektroden auf die Brust [[auf|aufkleben]].",
+   "panel": "p17"
+  },
+  {
+   "key": "sinusrhythmus",
+   "theme": "Untersuchung",
+   "ch": 4,
+   "example": "Sinusrhythmus, Frequenz 92.",
+   "panel": "p18"
+  },
+  {
+   "key": "st-hebungen",
+   "theme": "Untersuchung",
+   "ch": 4,
+   "example": "Keine ST-Hebungen.",
+   "panel": "p18"
+  },
+  {
+   "key": "röhrchen",
+   "theme": "Untersuchung",
+   "ch": 4,
+   "example": "Ich bringe die Röhrchen sofort ins Labor – als Notfall.",
+   "panel": "p20"
+  },
+  {
+   "key": "ass",
+   "theme": "Medikamente",
+   "ch": 5,
+   "example": "Wir geben 250 mg ASS i.v.",
+   "panel": "p21"
+  },
+  {
+   "key": "i.v.",
+   "theme": "Medikamente",
+   "ch": 5,
+   "example": "Wir geben 250 mg ASS i.v.",
+   "panel": "p21"
+  },
+  {
+   "key": "nitro-spray",
+   "theme": "Medikamente",
+   "ch": 5,
+   "example": "Nach dem Nitro-Spray sind die Schmerzen besser.",
+   "panel": "p24"
+  },
+  {
+   "key": "schmerzmittel",
+   "theme": "Medikamente",
+   "ch": 5,
+   "example": "… bekommt er Morphin als Schmerzmittel.",
+   "panel": "p21"
+  },
+  {
+   "key": "allergie",
+   "theme": "Medikamente",
+   "ch": 5,
+   "example": "Und gegen ASS hat er keine Allergie.",
+   "panel": "p21"
+  },
+  {
+   "key": "potenzmittel",
+   "theme": "Medikamente",
+   "ch": 5,
+   "example": "Haben Sie in den letzten zwei Tagen ein Potenzmittel [[genommen|nehmen]]?",
+   "panel": "p22"
+  },
+  {
+   "key": "kurve",
+   "theme": "Kommunikation",
+   "ch": 5,
+   "example": "[[Trag|eintragen]] bitte alles in die Kurve [[ein|eintragen]].",
+   "panel": "p24"
+  },
+  {
+   "key": "eintragen",
+   "theme": "Kommunikation",
+   "ch": 5,
+   "example": "[[Trag|eintragen]] bitte alles in die Kurve [[ein|eintragen]].",
+   "panel": "p24"
+  },
+  {
+   "key": "oberarzt",
+   "theme": "Kommunikation",
+   "ch": 6,
+   "example": "Telefonat mit dem Oberarzt",
+   "panel": "p25"
+  },
+  {
+   "key": "situation",
+   "theme": "Kommunikation",
+   "ch": 6,
+   "example": "Situation: Herr Becker, 67 Jahre, hat seit gestern Abend Brustschmerzen.",
+   "panel": "p25"
+  },
+  {
+   "key": "hintergrund",
+   "theme": "Kommunikation",
+   "ch": 6,
+   "example": "Hintergrund: Er hat Bluthochdruck und Diabetes Typ 2 …",
+   "panel": "p26"
+  },
+  {
+   "key": "einschätzung",
+   "theme": "Kommunikation",
+   "ch": 6,
+   "example": "Einschätzung: Im EKG gibt es neue T-Negativierungen …",
+   "panel": "p27"
+  },
+  {
+   "key": "empfehlung",
+   "theme": "Kommunikation",
+   "ch": 6,
+   "example": "Empfehlung: Ich würde Heparin geben …",
+   "panel": "p28"
+  },
+  {
+   "key": "koronarsyndrom",
+   "theme": "Diagnose",
+   "ch": 6,
+   "example": "Ich vermute ein akutes Koronarsyndrom ohne ST-Hebung.",
+   "panel": "p27"
+  },
+  {
+   "key": "heparin",
+   "theme": "Medikamente",
+   "ch": 6,
+   "example": "Geben Sie bitte 5000 IE Heparin i.v.",
+   "panel": "p28"
+  },
+  {
+   "key": "herzkatheter",
+   "theme": "Diagnose",
+   "ch": 6,
+   "example": "… wahrscheinlich bekommt er heute noch einen Herzkatheter.",
+   "panel": "p28"
+  },
+  {
+   "key": "tochter",
+   "theme": "Kommunikation",
+   "ch": 7,
+   "example": "… ich bin Anna Becker, die Tochter.",
+   "panel": "p29"
+  },
+  {
+   "key": "herzinfarkt",
+   "theme": "Diagnose",
+   "ch": 7,
+   "example": "Ist das ein Herzinfarkt?",
+   "panel": "p30"
+  },
+  {
+   "key": "durchblutungsstörung",
+   "theme": "Diagnose",
+   "ch": 7,
+   "example": "Ihr Vater hat wahrscheinlich eine Durchblutungsstörung am Herzen.",
+   "panel": "p30"
+  },
+  {
+   "key": "herzkranzgefäß",
+   "theme": "Diagnose",
+   "ch": 7,
+   "example": "Vermutlich ist ein Herzkranzgefäß [[verengt|verengen]].",
+   "panel": "p30"
+  },
+  {
+   "key": "angst",
+   "theme": "Kommunikation",
+   "ch": 7,
+   "example": "Ich habe solche Angst um ihn.",
+   "panel": "p31"
+  },
+  {
+   "key": "stent",
+   "theme": "Diagnose",
+   "ch": 7,
+   "example": "… mit einem kleinen Gitterröhrchen, einem Stent.",
+   "panel": "p32"
+  },
+  {
+   "key": "betäubung",
+   "theme": "Medikamente",
+   "ch": 7,
+   "example": "Sie bekommen nur eine örtliche Betäubung am Handgelenk.",
+   "panel": "p32"
+  },
+  {
+   "key": "nüchtern",
+   "theme": "Kommunikation",
+   "ch": 7,
+   "example": "Bis dahin bleiben Sie bitte nüchtern.",
+   "panel": "p33"
+  },
+  {
+   "key": "dokumentation",
+   "theme": "Kommunikation",
+   "ch": 8,
+   "example": "8:10 Uhr · Dokumentation",
+   "panel": "p34"
+  },
+  {
+   "key": "verlegung",
+   "theme": "Kommunikation",
+   "ch": 8,
+   "example": "Ich [[bereite|vorbereiten]] die Verlegung [[vor|vorbereiten]].",
+   "panel": "p34"
+  },
+  {
+   "key": "verlegungsbericht",
+   "theme": "Kommunikation",
+   "ch": 8,
+   "example": "Hier sind der Verlegungsbericht, die Medikamentenliste und beide EKGs.",
+   "panel": "p35"
+  },
+  {
+   "key": "medikamentenliste",
+   "theme": "Kommunikation",
+   "ch": 8,
+   "example": "Hier sind der Verlegungsbericht, die Medikamentenliste und beide EKGs.",
+   "panel": "p35"
+  },
+  {
+   "key": "notfallkoffer",
+   "theme": "Kommunikation",
+   "ch": 8,
+   "example": "Wir fahren mit Monitor, und der Notfallkoffer kommt mit.",
+   "panel": "p35"
+  },
+  {
+   "key": "feierabend",
+   "theme": "Kommunikation",
+   "ch": 8,
+   "example": "Endlich Feierabend für Tom",
+   "panel": "p36"
+  }
+ ],
+ "redemittel": [
+  {
+   "ch": 1,
+   "group": "Die Übergabe",
+   "icon": "🔄",
+   "items": [
+    {
+     "de": "Ich [[übergebe|übergeben]] dir Herrn Becker aus Zimmer 12.",
+     "en": "I'm handing over Mr Becker from room 12 to you. (du – colleague)",
+     "panel": "p2"
+    },
+    {
+     "de": "Ich [[übergebe|übergeben]] Ihnen Herrn Becker, Zimmer 12.",
+     "en": "Formal version (Sie) – e.g. to a new doctor.",
+     "panel": null
+    },
+    {
+     "de": "Er ist 67 Jahre alt und kam um drei Uhr über die Notaufnahme.",
+     "en": "He is 67 and was admitted via the ED at three o'clock.",
+     "panel": "p2"
+    },
+    {
+     "de": "Hat er Vorerkrankungen oder Allergien?",
+     "en": "Does he have any past medical history or allergies?",
+     "panel": "p4"
+    }
+   ]
+  },
+  {
+   "ch": 2,
+   "group": "Erstkontakt & Anamnese",
+   "icon": "🗣️",
+   "items": [
+    {
+     "de": "Zeigen Sie mir bitte genau, wo es [[wehtut|wehtun]].",
+     "en": "Please show me exactly where it hurts.",
+     "panel": "p7"
+    },
+    {
+     "de": "Ist der Schmerz eher drückend, brennend oder stechend?",
+     "en": "Is the pain pressing, burning or stabbing?",
+     "panel": "p7"
+    },
+    {
+     "de": "Seit wann haben Sie die Schmerzen?",
+     "en": "Since when have you had the pain?",
+     "panel": "p8"
+    },
+    {
+     "de": "Wie stark sind die Schmerzen auf einer Skala von null bis zehn?",
+     "en": "How bad is the pain on a scale from 0 to 10?",
+     "panel": "p9"
+    },
+    {
+     "de": "[[Strahlen|ausstrahlen]] die Schmerzen [[aus|ausstrahlen]]?",
+     "en": "Does the pain radiate?",
+     "panel": "p10"
+    },
+    {
+     "de": "Welche Medikamente nehmen Sie regelmäßig?",
+     "en": "Which medications do you take regularly?",
+     "panel": "p11"
+    },
+    {
+     "de": "Gibt es Herzkrankheiten in Ihrer Familie?",
+     "en": "Is there any heart disease in your family?",
+     "panel": "p12"
+    }
+   ]
+  },
+  {
+   "ch": 3,
+   "group": "Körperliche Untersuchung",
+   "icon": "🩺",
+   "items": [
+    {
+     "de": "Bitte [[machen|freimachen]] Sie den Oberkörper [[frei|freimachen]].",
+     "en": "Please take your top off.",
+     "panel": "p13"
+    },
+    {
+     "de": "Und jetzt tief [[ein-|einatmen]] und ausatmen.",
+     "en": "Breathe in and out deeply, please.",
+     "panel": "p13"
+    },
+    {
+     "de": "Die Herztöne sind rein und rhythmisch.",
+     "en": "Heart sounds clear and regular.",
+     "panel": "p14"
+    }
+   ]
+  },
+  {
+   "ch": 4,
+   "group": "EKG, Zugang & Blutabnahme",
+   "icon": "📈",
+   "items": [
+    {
+     "de": "Jetzt kommt ein kleiner Pieks.",
+     "en": "Now a little prick.",
+     "panel": "p19"
+    },
+    {
+     "de": "Bitte liegen Sie ganz ruhig und sprechen Sie nicht.",
+     "en": "Please lie completely still and don't talk.",
+     "panel": "p17"
+    },
+    {
+     "de": "Ich bringe die Röhrchen sofort ins Labor – als Notfall.",
+     "en": "I'll take the tubes to the lab right away – as an emergency.",
+     "panel": "p20"
+    }
+   ]
+  },
+  {
+   "ch": 5,
+   "group": "Medikamente & Allergie-Check",
+   "icon": "💊",
+   "items": [
+    {
+     "de": "Sie bekommen jetzt ein Medikament über die Vene.",
+     "en": "You're now getting a medicine through the vein.",
+     "panel": "p23"
+    },
+    {
+     "de": "Haben Sie in den letzten zwei Tagen ein Potenzmittel [[genommen|nehmen]]?",
+     "en": "Have you taken an erectile dysfunction drug in the last two days?",
+     "panel": "p22"
+    },
+    {
+     "de": "… klingeln Sie, wenn die Schmerzen stärker werden.",
+     "en": "Please ring the bell if the pain gets worse.",
+     "panel": "p23"
+    }
+   ]
+  },
+  {
+   "ch": 6,
+   "group": "Telefonat mit dem Oberarzt (SBAR)",
+   "icon": "📞",
+   "items": [
+    {
+     "de": "Hier ist Weber von der 4B.",
+     "en": "This is Weber from ward 4B.",
+     "panel": "p25"
+    },
+    {
+     "de": "Ich [[rufe|anrufen]] wegen eines neuen Patienten mit Brustschmerzen [[an|anrufen]].",
+     "en": "I'm calling about a new patient with chest pain.",
+     "panel": "p25"
+    },
+    {
+     "de": "Ich vermute ein akutes Koronarsyndrom ohne ST-Hebung.",
+     "en": "I suspect an acute coronary syndrome without ST elevation.",
+     "panel": "p27"
+    },
+    {
+     "de": "Können Sie bitte kommen und ihn sich ansehen?",
+     "en": "Could you please come and see him?",
+     "panel": "p28"
+    },
+    {
+     "de": "Ich wiederhole: 5000 IE Heparin i.v.",
+     "en": "Let me repeat: 5000 IU heparin IV. (closed loop)",
+     "panel": "p28"
+    }
+   ]
+  },
+  {
+   "ch": 7,
+   "group": "Gespräch mit Patient & Tochter",
+   "icon": "🤝",
+   "items": [
+    {
+     "de": "Herr Becker, darf ich Ihrer Tochter von Ihren Befunden erzählen?",
+     "en": "Mr Becker, may I tell your daughter about your results?",
+     "panel": "p29"
+    },
+    {
+     "de": "Das wissen wir noch nicht sicher.",
+     "en": "We don't know that for sure yet.",
+     "panel": "p30"
+    },
+    {
+     "de": "Das verstehe ich gut. Das ist eine schwierige Situation für Sie beide.",
+     "en": "I understand that completely. This is a difficult situation for both of you.",
+     "panel": "p31"
+    },
+    {
+     "de": "Nein, das ist keine Operation.",
+     "en": "No, it's not an operation.",
+     "panel": "p32"
+    },
+    {
+     "de": "Haben Sie noch Fragen?",
+     "en": "Do you have any more questions?",
+     "panel": "p33"
+    }
+   ]
+  },
+  {
+   "ch": 8,
+   "group": "Dokumentation & Verlegung",
+   "icon": "📋",
+   "items": [
+    {
+     "de": "Ich dokumentiere jetzt alles …",
+     "en": "I'm documenting everything now.",
+     "panel": "p34"
+    },
+    {
+     "de": "Wir fahren mit Monitor, und der Notfallkoffer kommt mit.",
+     "en": "We'll go with a monitor, and the emergency kit comes along.",
+     "panel": "p35"
+    },
+    {
+     "de": "Gern geschehen, Herr Becker. Alles Gute!",
+     "en": "You're welcome. All the best!",
+     "panel": "p35"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "ch": 1,
+   "type": "pic",
+   "pic": "bp",
+   "q": "Was misst dieses Gerät?",
+   "en": "What does this device measure?",
+   "options": [
+    "der Blutdruck",
+    "der Puls",
+    "die Sättigung",
+    "die Temperatur"
+   ],
+   "answer": 0,
+   "explain": "Blutdruck – in der Kurve oft „RR“: RR 150 zu 90.",
+   "panel": "p3"
+  },
+  {
+   "ch": 1,
+   "type": "gap",
+   "q": "Ich ___ dir Herrn Becker aus Zimmer 12.",
+   "en": "I'm handing Mr Becker from room 12 over to you.",
+   "options": [
+    "übergebe",
+    "übernehme",
+    "überweise",
+    "gebe"
+   ],
+   "answer": 0,
+   "explain": "jemandem einen Patienten übergeben = hand a patient over.",
+   "panel": "p2"
+  },
+  {
+   "ch": 2,
+   "type": "gap",
+   "q": "Seit ___ haben Sie die Schmerzen?",
+   "en": "Since when have you had the pain?",
+   "options": [
+    "wo",
+    "wann",
+    "wie",
+    "was"
+   ],
+   "answer": 1,
+   "explain": "Seit wann …? fragt nach dem Beginn (Onset).",
+   "panel": "p8"
+  },
+  {
+   "ch": 2,
+   "type": "reply",
+   "ctx": [
+    {
+     "who": "becker",
+     "de": "Es drückt hier in der Brust. Es geht bis in den Arm."
+    }
+   ],
+   "q": "Was fragt Dr. Weber jetzt?",
+   "en": "What does Dr Weber ask next?",
+   "options": [
+    "Strahlen die Schmerzen aus?",
+    "Schlaf gut!",
+    "Bis heute Abend!",
+    "Mache ich!"
+   ],
+   "answer": 0,
+   "explain": "Typische Anamnese-Frage: Strahlen die Schmerzen aus?",
+   "panel": "p10"
+  },
+  {
+   "ch": 3,
+   "type": "gap",
+   "q": "Die Lunge ist ___, keine Rasselgeräusche.",
+   "en": "The lungs are clear, no crackles.",
+   "options": [
+    "leer",
+    "offen",
+    "frei",
+    "los"
+   ],
+   "answer": 2,
+   "explain": "Lunge frei = no abnormal breath sounds.",
+   "panel": "p14"
+  },
+  {
+   "ch": 4,
+   "type": "pic",
+   "pic": "ekg",
+   "q": "Wie heißt diese Untersuchung?",
+   "en": "What is this examination called?",
+   "options": [
+    "das Blutbild",
+    "das EKG",
+    "die Kurve",
+    "der Zugang"
+   ],
+   "answer": 1,
+   "explain": "das EKG – man „schreibt“ ein EKG.",
+   "panel": "p18"
+  },
+  {
+   "ch": 4,
+   "type": "gap",
+   "q": "Tom, schreib bitte sofort ein EKG und ___ einen Zugang.",
+   "en": "Tom, please record an ECG right away and put in an IV line.",
+   "options": [
+    "leg",
+    "nimm",
+    "mach",
+    "gib"
+   ],
+   "answer": 0,
+   "explain": "einen Zugang legen → du-Imperativ: Leg einen Zugang!",
+   "panel": "p16"
+  },
+  {
+   "ch": 5,
+   "type": "pic",
+   "pic": "spray",
+   "q": "Was ist das?",
+   "en": "What is this?",
+   "options": [
+    "das Heparin",
+    "das Troponin",
+    "das Nitro-Spray",
+    "das Blutbild"
+   ],
+   "answer": 2,
+   "explain": "das Nitro-Spray – zwei Hübe unter die Zunge.",
+   "panel": "p21"
+  },
+  {
+   "ch": 5,
+   "type": "mc",
+   "q": "Welche Frage ist vor dem Nitro-Spray besonders wichtig?",
+   "en": "Which question is especially important before giving nitro spray?",
+   "options": [
+    "Haben Sie Hunger?",
+    "Haben Sie ein Potenzmittel genommen?",
+    "Wann waren Sie beim Zahnarzt?",
+    "Haben Sie Kinder?"
+   ],
+   "answer": 1,
+   "explain": "Nitro + Potenzmittel (PDE-5-Hemmer) → gefährlicher Blutdruckabfall.",
+   "panel": "p22"
+  },
+  {
+   "ch": 6,
+   "type": "mc",
+   "q": "Wofür steht das B in SBAR?",
+   "en": "What does the B in SBAR stand for?",
+   "options": [
+    "Befund",
+    "Blutdruck",
+    "Hintergrund (Background)",
+    "Behandlung"
+   ],
+   "answer": 2,
+   "explain": "S = Situation, B = Hintergrund (Background), A = Einschätzung, R = Empfehlung.",
+   "panel": "p26"
+  },
+  {
+   "ch": 6,
+   "type": "reply",
+   "ctx": [
+    {
+     "who": "oa",
+     "de": "Krüger, guten Morgen."
+    }
+   ],
+   "q": "Wie beginnt Dr. Weber das Telefonat richtig?",
+   "en": "How does Dr Weber start the call correctly?",
+   "options": [
+    "Ich rufe wegen einem neuen Patient an.",
+    "Hier ist Weber von der 4B. Ich rufe wegen eines neuen Patienten mit Brustschmerzen an.",
+    "Mit welchen Beschwerden?",
+    "Ist es etwas Schlimmes?"
+   ],
+   "answer": 1,
+   "explain": "wegen + Genitiv: wegen eines neuen Patienten (n-Deklination: Patient → Patienten).",
+   "panel": "p25"
+  },
+  {
+   "ch": 7,
+   "type": "reply",
+   "ctx": [
+    {
+     "who": "anna",
+     "de": "Ich habe solche Angst um ihn."
+    }
+   ],
+   "q": "Welche Antwort zeigt Empathie?",
+   "en": "Which answer shows empathy?",
+   "options": [
+    "Keine Panik, das ist bestimmt nichts.",
+    "Dazu darf ich nichts sagen.",
+    "Das verstehe ich gut. Das ist eine schwierige Situation.",
+    "Fragen Sie bitte später noch einmal."
+   ],
+   "answer": 2,
+   "explain": "Gefühle anerkennen statt falsch beruhigen: „Das verstehe ich gut.“",
+   "panel": "p31"
+  },
+  {
+   "ch": 7,
+   "type": "gap",
+   "q": "Bis dahin bleiben Sie bitte ___: nichts essen, nur kleine Schlucke Wasser.",
+   "en": "Until then, please stay nil by mouth …",
+   "options": [
+    "nüchtern",
+    "müde",
+    "wach",
+    "satt"
+   ],
+   "answer": 0,
+   "explain": "nüchtern = nothing to eat before a procedure.",
+   "panel": "p33"
+  },
+  {
+   "ch": 8,
+   "type": "gap",
+   "q": "Hier sind der ___, die Medikamentenliste und beide EKGs.",
+   "en": "Here are the transfer report, the medication list and both ECGs.",
+   "options": [
+    "Beipackzettel",
+    "Verlegungsbericht",
+    "Einkaufszettel",
+    "Stundenplan"
+   ],
+   "answer": 1,
+   "explain": "der Verlegungsbericht begleitet den Patienten bei der Verlegung.",
+   "panel": "p35"
+  }
+ ],
+ "library": {
+  "grammatik": [
+   {
+    "title": "Modalverben auf Station",
+    "level": "A1",
+    "emoji": "🩺",
+    "status": "done",
+    "desc": "können, müssen, dürfen … im Klinikalltag"
+   },
+   {
+    "title": "Die Fälle im Krankenhaus",
+    "level": "A1–A2",
+    "emoji": "🎨",
+    "status": "done",
+    "desc": "Nominativ, Akkusativ, Dativ, Genitiv"
+   }
+  ],
+  "wortschatz": [
+   {
+    "title": "Übergabe am Morgen",
+    "level": "A2–B1",
+    "emoji": "💬",
+    "status": "current",
+    "desc": "Ein neuer Patient mit Brustschmerzen · Comic in 8 Seiten"
+   },
+   {
+    "title": "Das Aufnahmegespräch",
+    "level": "A2–B1",
+    "emoji": "📝",
+    "status": "soon",
+    "desc": "Anamnese von Kopf bis Fuß"
+   },
+   {
+    "title": "Die Visite",
+    "level": "B1",
+    "emoji": "👩‍⚕️",
+    "status": "soon",
+    "desc": "Mit Oberarzt und Patient am Bett"
+   },
+   {
+    "title": "Die Entlassung",
+    "level": "B1",
+    "emoji": "🏠",
+    "status": "soon",
+    "desc": "Arztbrief, Medikamente, Nachsorge"
+   }
+  ]
+ }
+}

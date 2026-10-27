@@ -1,0 +1,1827 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative, or plural dative)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative masculine or neuter)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we"
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal)"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "sind": {
+      "de": "sein → sind",
+      "pos": "verb",
+      "en": "are"
+    },
+    "bin": {
+      "de": "sein → bin",
+      "pos": "verb",
+      "en": "am"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "habe": {
+      "de": "haben → habe",
+      "pos": "verb",
+      "en": "have"
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "liege": {
+      "de": "liegen → liege",
+      "pos": "verb",
+      "en": "lie"
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "verb",
+      "en": "to lie"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "verb",
+      "en": "to come"
+    },
+    "geht": {
+      "de": "gehen → geht",
+      "pos": "verb",
+      "en": "goes"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "misst": {
+      "de": "messen → misst",
+      "pos": "verb",
+      "en": "measures"
+    },
+    "nimmt": {
+      "de": "nehmen → nimmt",
+      "pos": "verb",
+      "en": "takes"
+    },
+    "gibt": {
+      "de": "geben → gibt",
+      "pos": "verb",
+      "en": "gives"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patients; patient (accusative)",
+      "article": "die",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "emoji": "🛏️"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "article": "der",
+      "plural": "die Tische",
+      "emoji": "🪑"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "schmerzen": {
+      "de": "Schmerzen",
+      "pos": "noun",
+      "en": "pain",
+      "article": "die",
+      "plural": "die Schmerzen",
+      "emoji": "🤕"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "article": "die",
+      "plural": "die Tabletten",
+      "emoji": "💊"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "plural": "Wasser",
+      "emoji": "💧"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "article": "die",
+      "plural": "die Stationen",
+      "emoji": "🏥"
+    },
+    "montag": {
+      "de": "Montag",
+      "pos": "noun",
+      "en": "Monday",
+      "article": "der",
+      "plural": "die Montage",
+      "emoji": "📅"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "jetzt": {
+      "de": "jetzt",
+      "pos": "adverb",
+      "en": "now"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in + dem"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "an + dem"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "contraction",
+      "en": "zu + dem"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in"
+    },
+    "seit": {
+      "de": "seit",
+      "pos": "preposition",
+      "en": "since"
+    },
+    "da": {
+      "de": "da",
+      "pos": "adverb",
+      "en": "here; there"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not"
+    },
+    "ja": {
+      "de": "ja",
+      "pos": "particle",
+      "en": "yes"
+    },
+    "nein": {
+      "de": "nein",
+      "pos": "particle",
+      "en": "no"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "question",
+      "en": "where"
+    },
+    "was": {
+      "de": "was",
+      "pos": "question",
+      "en": "what"
+    },
+    "wer": {
+      "de": "wer",
+      "pos": "question",
+      "en": "who"
+    },
+    "wohin": {
+      "de": "wohin",
+      "pos": "question",
+      "en": "where to"
+    },
+    "woher": {
+      "de": "woher",
+      "pos": "question",
+      "en": "where from"
+    },
+    "wann": {
+      "de": "wann",
+      "pos": "question",
+      "en": "when"
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "question",
+      "en": "how"
+    },
+    "warum": {
+      "de": "warum",
+      "pos": "question",
+      "en": "why"
+    },
+    "wen": {
+      "de": "wen",
+      "pos": "question",
+      "en": "whom"
+    },
+    "röntgen": {
+      "de": "Röntgen",
+      "pos": "noun",
+      "en": "X-ray department",
+      "article": "das",
+      "plural": "die Röntgen",
+      "emoji": "🩻"
+    }
+  },
+  "id": "a1-09-fragewort",
+  "level": "A1",
+  "unit": "Kapitel 9",
+  "chapter": 9,
+  "chapters": [
+    9
+  ],
+  "title": "Wer? Wie? Wo? Was?",
+  "subtitle": "Questions with a question word",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "A W-question starts with the question word: Wer, Was, Wo, Woher, Wohin, Wann, Wie, Warum.",
+        "The verb stays in position 2. The subject comes next: Wo ist der Patient?",
+        "Wo asks for a place. Wohin asks for a direction. Woher asks for the origin.",
+        "Seit wann asks when something started. Wen asks for a person in the accusative."
+      ],
+      "vocab": [
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        },
+        {
+          "de": "Schmerzen",
+          "article": "die",
+          "plural": "die Schmerzen",
+          "en": "pain",
+          "emoji": "🤕",
+          "glossaryKey": "schmerzen"
+        },
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "🩺",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "emoji": "🤒",
+          "glossaryKey": "fieber"
+        },
+        {
+          "de": "Röntgen",
+          "article": "das",
+          "plural": "die Röntgen",
+          "en": "X-ray",
+          "emoji": "🩻",
+          "glossaryKey": "röntgen"
+        }
+      ],
+      "text": {
+        "title": "Wo ist der Patient?",
+        "de": "Wo ist der Patient? Der Patient ist im Zimmer. Was hat der Patient? Der Patient hat Schmerzen. Seit wann hat er Schmerzen? Seit Montag. Wer kommt heute? Der Arzt kommt. Wohin geht der Patient? Der Patient geht zum Röntgen.",
+        "en": "Where is the patient? The patient is in the room. What does the patient have? The patient has pain. Since when has he had pain? Since Monday. Who is coming today? The doctor is coming. Where is the patient going? The patient is going to X-ray."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Fragewort, Verb, Subjekt",
+      "practice": "choose",
+      "heroTitle": "The question word takes position 1",
+      "heroImage": "clipboard",
+      "story": [
+        "Every question word here starts with <b>w-</b>. It stands in position 1. The verb stands in position 2. The subject follows.",
+        "<b>Wo</b> is a place: Wo liegt der Patient? <b>Wohin</b> is a direction: Wohin geht er? <b>Woher</b> is the origin: Woher kommt er?",
+        "<b>Wer</b> asks for a person as the subject. <b>Wen</b> asks for a person as the object: Wen untersucht der Arzt?"
+      ],
+      "questionRule": "Position 1 is the W-word. Position 2 is the verb. Do not put the verb first in a W-question.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "Wo",
+              "r": "subj"
+            },
+            {
+              "t": "ist",
+              "r": "rest"
+            },
+            {
+              "t": "der",
+              "r": "rest"
+            },
+            {
+              "t": "Patient",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Wo",
+              "r": "subj"
+            },
+            {
+              "t": "ist",
+              "r": "verb"
+            },
+            {
+              "t": "der",
+              "r": "rest"
+            },
+            {
+              "t": "Patient",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "W-word, then the verb.",
+          "enAfter": "Wo ist der Patient?",
+          "callLabel": "Show Wo"
+        },
+        {
+          "before": [
+            {
+              "t": "Wohin",
+              "r": "subj"
+            },
+            {
+              "t": "geht",
+              "r": "rest"
+            },
+            {
+              "t": "er",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Wohin",
+              "r": "subj"
+            },
+            {
+              "t": "geht",
+              "r": "verb"
+            },
+            {
+              "t": "er",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Direction, not place.",
+          "enAfter": "Wohin geht er?",
+          "callLabel": "Show Wohin"
+        },
+        {
+          "before": [
+            {
+              "t": "Seit",
+              "r": "subj"
+            },
+            {
+              "t": "wann",
+              "r": "rest"
+            },
+            {
+              "t": "hat",
+              "r": "rest"
+            },
+            {
+              "t": "er",
+              "r": "rest"
+            },
+            {
+              "t": "Schmerzen",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Seit",
+              "r": "subj"
+            },
+            {
+              "t": "wann",
+              "r": "verb"
+            },
+            {
+              "t": "hat",
+              "r": "rest"
+            },
+            {
+              "t": "er",
+              "r": "rest"
+            },
+            {
+              "t": "Schmerzen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "seit wann is one question.",
+          "enAfter": "Seit wann hat er Schmerzen?",
+          "callLabel": "Show seit wann"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Fragewort, Verb, Subjekt",
+          "caption": "Read each row as position 1, position 2, then the subject.",
+          "columns": [
+            "Position 1",
+            "Position 2",
+            "Subjekt"
+          ],
+          "rows": [
+            {
+              "label": "Wo",
+              "cells": [
+                "Wo",
+                "ist",
+                "der Patient?"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Was",
+              "cells": [
+                "Was",
+                "hat",
+                "der Patient?"
+              ]
+            },
+            {
+              "label": "Wer",
+              "cells": [
+                "Wer",
+                "kommt",
+                "heute?"
+              ]
+            },
+            {
+              "label": "Wohin",
+              "cells": [
+                "Wohin",
+                "geht",
+                "der Patient?"
+              ]
+            },
+            {
+              "label": "Woher",
+              "cells": [
+                "Woher",
+                "kommt",
+                "der Patient?"
+              ]
+            },
+            {
+              "label": "Warum",
+              "cells": [
+                "Warum",
+                "bleibt",
+                "er im Bett?"
+              ]
+            },
+            {
+              "label": "Wie",
+              "cells": [
+                "Wie",
+                "misst",
+                "die Pflegekraft das Fieber?"
+              ]
+            },
+            {
+              "label": "Wen",
+              "cells": [
+                "Wen",
+                "untersucht",
+                "der Arzt?"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Wo, wohin, woher",
+        "items": [
+          {
+            "de": "Wo ist der Patient?",
+            "en": "A place. The verb is in position 2.",
+            "tone": "ok"
+          },
+          {
+            "de": "Wo ist der Patient ist?",
+            "en": "The verb appears twice.",
+            "tone": "stop"
+          },
+          {
+            "de": "Wohin geht der Patient?",
+            "en": "A direction.",
+            "tone": "ok"
+          },
+          {
+            "de": "Wo geht der Patient zum Röntgen?",
+            "en": "A direction needs wohin.",
+            "tone": "stop"
+          },
+          {
+            "de": "Seit wann hat er Schmerzen?",
+            "en": "seit wann is one question.",
+            "tone": "ok"
+          },
+          {
+            "de": "Wann seit hat er Schmerzen?",
+            "en": "seit stays with wann.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "W-word, then the verb, then the subject."
+      },
+      "tips": [
+        {
+          "title": "Three place questions",
+          "emoji": "📍",
+          "mnemonic": "wo · wohin · woher",
+          "body": "Wo is the bed he is in. Wohin is the department he is going to. Woher is the place he came from.",
+          "examples": [
+            {
+              "de": "Wo liegt er? Im Zimmer.",
+              "en": "place"
+            },
+            {
+              "de": "Wohin geht er? Zum Röntgen.",
+              "en": "direction"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which question word?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The patient is in the room. Ask where.",
+          "qEn": "Place.",
+          "options": [
+            "Wo ist der Patient?",
+            "Wohin ist der Patient?",
+            "Wo ist der Patient ist?"
+          ],
+          "answer": 0,
+          "why": "Wo asks for a place. The verb comes once, in position 2.",
+          "hint": "Place."
+        },
+        {
+          "kind": "mc",
+          "q": "He is going to X-ray. Ask for the direction.",
+          "qEn": "Direction.",
+          "options": [
+            "Wo geht der Patient?",
+            "Wohin geht der Patient?",
+            "Woher geht der Patient?"
+          ],
+          "answer": 1,
+          "why": "A destination takes wohin.",
+          "hint": "Direction."
+        },
+        {
+          "kind": "mc",
+          "q": "The pain started on Monday. Ask since when.",
+          "qEn": "Starting point.",
+          "options": [
+            "Wann seit hat er Schmerzen?",
+            "Wo hat er Schmerzen seit?",
+            "Seit wann hat er Schmerzen?"
+          ],
+          "answer": 2,
+          "why": "seit wann stays together in position 1.",
+          "hint": "seit wann."
+        },
+        {
+          "kind": "mc",
+          "q": "Ask which person the doctor examines.",
+          "qEn": "Object.",
+          "options": [
+            "Wen untersucht der Arzt?",
+            "Wer untersucht der Arzt?",
+            "Was untersucht der Arzt den?"
+          ],
+          "answer": 0,
+          "why": "Wen is the person as object. Wer would be the subject.",
+          "hint": "Wen."
+        }
+      ]
+    },
+    {
+      "id": "gap-w",
+      "label": "Lücken",
+      "title": "Choose the question word",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The German label names the only job of the chip. Each chip fits one sentence.",
+      "chips": [
+        {
+          "w": "Wo",
+          "hint": "Place."
+        },
+        {
+          "w": "Was",
+          "hint": "What?"
+        },
+        {
+          "w": "Wer",
+          "hint": "Who?"
+        },
+        {
+          "w": "Wohin",
+          "hint": "Where to?"
+        },
+        {
+          "w": "Woher",
+          "hint": "Where from?"
+        },
+        {
+          "w": "Warum",
+          "hint": "Why?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ort, nicht Person:",
+          "after": "ist der Patient?",
+          "answer": "Wo",
+          "en": "place",
+          "why": "He is in the room.",
+          "tip": "Ort",
+          "hint": "Place."
+        },
+        {
+          "before": "Sache, nicht Person:",
+          "after": "hat der Patient?",
+          "answer": "Was",
+          "en": "thing",
+          "why": "He has pain.",
+          "tip": "Sache",
+          "hint": "What?"
+        },
+        {
+          "before": "Person, nicht Herkunft:",
+          "after": "kommt heute?",
+          "answer": "Wer",
+          "en": "person",
+          "why": "The doctor comes.",
+          "tip": "Person",
+          "hint": "Who?"
+        },
+        {
+          "before": "Richtung, nicht Ort:",
+          "after": "geht der Patient?",
+          "answer": "Wohin",
+          "en": "direction",
+          "why": "He goes to X-ray.",
+          "tip": "Richtung",
+          "hint": "Where to?"
+        },
+        {
+          "before": "Herkunft, nicht Richtung:",
+          "after": "kommt der Patient?",
+          "answer": "Woher",
+          "en": "origin",
+          "why": "He comes from the ward.",
+          "tip": "Herkunft",
+          "hint": "Where from?"
+        },
+        {
+          "before": "Grund:",
+          "after": "bleibt er im Bett?",
+          "answer": "Warum",
+          "en": "reason",
+          "why": "Because he has a fever.",
+          "tip": "Grund",
+          "hint": "Why?"
+        }
+      ]
+    },
+    {
+      "id": "match-w",
+      "label": "Match",
+      "title": "Which question?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Match the answer to the question.",
+      "items": [
+        {
+          "prompt": "Im Zimmer.",
+          "options": [
+            {
+              "emoji": "📍",
+              "label": "Wo liegt der Patient?",
+              "caption": "place"
+            },
+            {
+              "emoji": "➡️",
+              "label": "Wohin geht er?",
+              "caption": "direction"
+            },
+            {
+              "emoji": "🔙",
+              "label": "Woher kommt er?",
+              "caption": "origin"
+            }
+          ],
+          "answer": 0,
+          "why": "Im Zimmer answers wo.",
+          "hint": "Place."
+        },
+        {
+          "prompt": "Zum Röntgen.",
+          "options": [
+            {
+              "emoji": "➡️",
+              "label": "Wohin geht der Patient?",
+              "caption": "direction"
+            },
+            {
+              "emoji": "📍",
+              "label": "Wo ist das Röntgen?",
+              "caption": "place"
+            },
+            {
+              "emoji": "🔙",
+              "label": "Woher kommt das Röntgen?",
+              "caption": "origin"
+            }
+          ],
+          "answer": 0,
+          "why": "zum answers wohin.",
+          "hint": "Direction."
+        },
+        {
+          "prompt": "Seit Montag.",
+          "options": [
+            {
+              "emoji": "📅",
+              "label": "Seit wann hat er Schmerzen?",
+              "caption": "start"
+            },
+            {
+              "emoji": "⏰",
+              "label": "Wie spät ist es?",
+              "caption": "clock"
+            },
+            {
+              "emoji": "❓",
+              "label": "Wer ist Montag?",
+              "caption": "not a person"
+            }
+          ],
+          "answer": 0,
+          "why": "seit Montag answers seit wann.",
+          "hint": "Start."
+        },
+        {
+          "prompt": "Der Arzt.",
+          "options": [
+            {
+              "emoji": "🩺",
+              "label": "Wer kommt heute?",
+              "caption": "subject"
+            },
+            {
+              "emoji": "🩺",
+              "label": "Wen kommt heute?",
+              "caption": "wen is not the subject"
+            },
+            {
+              "emoji": "📦",
+              "label": "Was kommt heute?",
+              "caption": "not a thing"
+            }
+          ],
+          "answer": 0,
+          "why": "A person as subject is wer.",
+          "hint": "Wer."
+        }
+      ]
+    },
+    {
+      "id": "picture-w",
+      "label": "Picture",
+      "title": "Picture the question",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the picture to the question you would ask.",
+      "items": [
+        {
+          "id": "room",
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "Where is the room?",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Wo?"
+        },
+        {
+          "id": "fever",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "What does he have?",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "Was?"
+        },
+        {
+          "id": "doctor",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "Who is coming?",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "Wer?"
+        },
+        {
+          "id": "chart",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "Where is the chart?",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "Wo?"
+        }
+      ]
+    },
+    {
+      "id": "build-w",
+      "label": "Build",
+      "title": "Build the question",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Question word, then the verb.",
+      "items": [
+        {
+          "tiles": [
+            "Wo",
+            "ist",
+            "der",
+            "Patient"
+          ],
+          "answers": [
+            "Wo ist der Patient"
+          ],
+          "punct": "?",
+          "modal": "ist",
+          "inf": "Patient",
+          "question": true,
+          "en": "Where is the patient?",
+          "hint": "Verb in position 2.",
+          "feedback": {
+            "fallback": "Verb in position 2."
+          }
+        },
+        {
+          "tiles": [
+            "Was",
+            "hat",
+            "er"
+          ],
+          "answers": [
+            "Was hat er"
+          ],
+          "punct": "?",
+          "modal": "hat",
+          "inf": "er",
+          "question": true,
+          "en": "What does he have?",
+          "hint": "Was, then hat.",
+          "feedback": {
+            "fallback": "Was, then hat."
+          }
+        },
+        {
+          "tiles": [
+            "Wer",
+            "kommt",
+            "heute"
+          ],
+          "answers": [
+            "Wer kommt heute"
+          ],
+          "punct": "?",
+          "modal": "kommt",
+          "inf": "heute",
+          "question": true,
+          "en": "Who is coming today?",
+          "hint": "Wer is the subject.",
+          "feedback": {
+            "fallback": "Wer is the subject."
+          }
+        },
+        {
+          "tiles": [
+            "Wohin",
+            "geht",
+            "Anna"
+          ],
+          "answers": [
+            "Wohin geht Anna"
+          ],
+          "punct": "?",
+          "modal": "geht",
+          "inf": "Anna",
+          "question": true,
+          "en": "Where is Anna going?",
+          "hint": "Direction.",
+          "feedback": {
+            "fallback": "Direction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-w",
+      "label": "Umformen",
+      "title": "Turn the answer into a question",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names the fact. Ask only about that fact.",
+      "chips": [
+        {
+          "w": "Wo",
+          "hint": "Where?"
+        },
+        {
+          "w": "Was",
+          "hint": "What?"
+        },
+        {
+          "w": "Wer",
+          "hint": "Who?"
+        },
+        {
+          "w": "Wohin",
+          "hint": "Where to?"
+        },
+        {
+          "w": "Woher",
+          "hint": "Where from?"
+        },
+        {
+          "w": "Warum",
+          "hint": "Why?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ort: Er ist im Zimmer.",
+          "after": "ist er?",
+          "answer": "Wo",
+          "en": "place",
+          "why": "A place takes wo.",
+          "tip": "Ort",
+          "hint": "Where?"
+        },
+        {
+          "before": "Sache: Er hat Schmerzen.",
+          "after": "hat er?",
+          "answer": "Was",
+          "en": "thing",
+          "why": "A thing takes was.",
+          "tip": "Sache",
+          "hint": "What?"
+        },
+        {
+          "before": "Person: Der Arzt kommt.",
+          "after": "kommt?",
+          "answer": "Wer",
+          "en": "person",
+          "why": "A person as subject takes wer.",
+          "tip": "Person",
+          "hint": "Who?"
+        },
+        {
+          "before": "Richtung: Er geht zum Röntgen.",
+          "after": "geht er?",
+          "answer": "Wohin",
+          "en": "direction",
+          "why": "A destination takes wohin.",
+          "tip": "Richtung",
+          "hint": "Where to?"
+        },
+        {
+          "before": "Herkunft: Er kommt aus dem Zimmer.",
+          "after": "kommt er?",
+          "answer": "Woher",
+          "en": "origin",
+          "why": "aus answers woher.",
+          "tip": "Herkunft",
+          "hint": "Where from?"
+        },
+        {
+          "before": "Grund: Er bleibt im Bett.",
+          "after": "bleibt er im Bett?",
+          "answer": "Warum",
+          "en": "reason",
+          "why": "A reason takes warum.",
+          "tip": "Grund",
+          "hint": "Why?"
+        }
+      ]
+    },
+    {
+      "id": "error-w",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wo ist der Patient ist?"
+          ],
+          "options": [
+            "Wo ist der Patient?",
+            "Ist wo der Patient?",
+            "Wo der Patient ist?"
+          ],
+          "answer": 0,
+          "reveal": "One verb, in position 2.",
+          "hint": "Position 2."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wo geht der Patient zum Röntgen?"
+          ],
+          "options": [
+            "Wohin geht der Patient?",
+            "Woher geht der Patient zum Röntgen?",
+            "Wo geht zum Röntgen der Patient?"
+          ],
+          "answer": 0,
+          "reveal": "zum Röntgen is a direction.",
+          "hint": "Wohin."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wer untersucht der Arzt?"
+          ],
+          "options": [
+            "Wen untersucht der Arzt?",
+            "Was untersucht der Arzt den?",
+            "Wer den Arzt untersucht?"
+          ],
+          "answer": 0,
+          "reveal": "The doctor is the subject, so the patient is wen.",
+          "hint": "Object."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wann seit hat er Schmerzen?"
+          ],
+          "options": [
+            "Seit wann hat er Schmerzen?",
+            "Seit hat er wann Schmerzen?",
+            "Wo seit hat er Schmerzen?"
+          ],
+          "answer": 0,
+          "reveal": "seit wann is one phrase in position 1.",
+          "hint": "seit wann."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-w",
+      "label": "Dialog",
+      "title": "Admission",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the only job of the chip.",
+      "chips": [
+        {
+          "w": "Wie",
+          "hint": "How?"
+        },
+        {
+          "w": "Woher",
+          "hint": "Where from?"
+        },
+        {
+          "w": "Wo",
+          "hint": "Where?"
+        },
+        {
+          "w": "Seit",
+          "hint": "Since?"
+        },
+        {
+          "w": "Wer",
+          "hint": "Who?"
+        },
+        {
+          "w": "Wohin",
+          "hint": "Where to?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Name:",
+          "after": "heißen Sie?",
+          "answer": "Wie",
+          "en": "name",
+          "why": "Wie asks for the name.",
+          "tip": "Name",
+          "hint": "How?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Herkunft, nicht Ort:",
+          "after": "kommen Sie?",
+          "answer": "Woher",
+          "en": "origin",
+          "why": "From home, from another ward.",
+          "tip": "Herkunft",
+          "hint": "Where from?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ort am Körper:",
+          "after": "haben Sie Schmerzen?",
+          "answer": "Wo",
+          "en": "place on the body",
+          "why": "In the belly, in the back.",
+          "tip": "Ort",
+          "hint": "Where?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Beginn:",
+          "after": "wann haben Sie Schmerzen?",
+          "answer": "Seit",
+          "en": "start",
+          "why": "seit wann.",
+          "tip": "Beginn",
+          "hint": "Since?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Person, nicht Ort:",
+          "after": "ist Ihr Arzt?",
+          "answer": "Wer",
+          "en": "person",
+          "why": "The GP.",
+          "tip": "Person",
+          "hint": "Who?",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Richtung, nicht Ort:",
+          "after": "gehen Sie jetzt?",
+          "answer": "Wohin",
+          "en": "direction",
+          "why": "To the room.",
+          "tip": "Richtung",
+          "hint": "Where to?",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-w",
+      "label": "Lücken",
+      "title": "More questions",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the only job of the chip.",
+      "chips": [
+        {
+          "w": "Wie",
+          "hint": "How?"
+        },
+        {
+          "w": "Wann",
+          "hint": "When?"
+        },
+        {
+          "w": "Wie viel",
+          "hint": "How much?"
+        },
+        {
+          "w": "Seit wann",
+          "hint": "Since when?"
+        },
+        {
+          "w": "Warum",
+          "hint": "Why?"
+        },
+        {
+          "w": "Wo",
+          "hint": "Where?"
+        },
+        {
+          "w": "Wen",
+          "hint": "Whom?"
+        },
+        {
+          "w": "Was",
+          "hint": "What?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Art und Weise, nicht die Uhrzeit:",
+          "after": "misst die Pflegekraft das Fieber?",
+          "answer": "Wie",
+          "en": "manner",
+          "why": "With a thermometer.",
+          "tip": "Art",
+          "hint": "How?"
+        },
+        {
+          "before": "Uhrzeit oder Tag, nicht der Grund:",
+          "after": "kommt der Arzt?",
+          "answer": "Wann",
+          "en": "time",
+          "why": "Today, on Monday.",
+          "tip": "Zeit",
+          "hint": "When?"
+        },
+        {
+          "before": "Menge:",
+          "after": "Wasser trinkt er?",
+          "answer": "Wie viel",
+          "en": "amount",
+          "why": "wie viel is one question.",
+          "tip": "Menge",
+          "hint": "How much?"
+        },
+        {
+          "before": "Beginn, nicht nur der Tag:",
+          "after": "hat er Fieber?",
+          "answer": "Seit wann",
+          "en": "start of the fever",
+          "why": "seit wann is the whole chip.",
+          "tip": "Beginn",
+          "hint": "Since when?"
+        },
+        {
+          "before": "Grund:",
+          "after": "bleibt er im Bett?",
+          "answer": "Warum",
+          "en": "reason",
+          "why": "Because of the fever.",
+          "tip": "Grund",
+          "hint": "Why?"
+        },
+        {
+          "before": "Ort:",
+          "after": "liegt die Akte?",
+          "answer": "Wo",
+          "en": "place",
+          "why": "On the table.",
+          "tip": "Ort",
+          "hint": "Where?"
+        },
+        {
+          "before": "Person als Objekt, nicht die Sache:",
+          "after": "untersucht der Arzt?",
+          "answer": "Wen",
+          "en": "object",
+          "why": "The patient.",
+          "tip": "Person",
+          "hint": "Whom?"
+        },
+        {
+          "before": "Sache, nicht die Zeit:",
+          "after": "hat er heute?",
+          "answer": "Was",
+          "en": "thing",
+          "why": "Pain.",
+          "tip": "Sache",
+          "hint": "What?"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Wo ist der Patient?",
+        "paragraphs": [
+          "Wo ist der Patient? Der Patient ist im Zimmer. Was hat der Patient? Der Patient hat Schmerzen. Seit wann hat er Schmerzen? Seit Montag. Wer kommt heute? Der Arzt kommt. Wohin geht der Patient? Der Patient geht zum Röntgen."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wo ist der Patient?",
+          "qEn": "Place.",
+          "options": [
+            "im Zimmer",
+            "zum Röntgen",
+            "seit Montag"
+          ],
+          "answer": 0,
+          "why": "The note answers wo with im Zimmer.",
+          "hint": "Place."
+        },
+        {
+          "kind": "mc",
+          "q": "Seit wann hat er Schmerzen?",
+          "qEn": "Start.",
+          "options": [
+            "heute",
+            "seit Montag",
+            "im Zimmer"
+          ],
+          "answer": 1,
+          "why": "seit wann → seit Montag.",
+          "hint": "Monday."
+        },
+        {
+          "kind": "mc",
+          "q": "Wohin geht der Patient?",
+          "qEn": "Direction.",
+          "options": [
+            "im Zimmer",
+            "der Arzt",
+            "zum Röntgen"
+          ],
+          "answer": 2,
+          "why": "zum answers wohin.",
+          "hint": "X-ray."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer kommt heute?",
+          "qEn": "Person.",
+          "options": [
+            "der Arzt",
+            "der Patient",
+            "das Röntgen"
+          ],
+          "answer": 0,
+          "why": "Wer asks for the person.",
+          "hint": "The doctor."
+        }
+      ]
+    },
+    {
+      "id": "writing-w",
+      "label": "Writing",
+      "title": "Write the questions",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four questions from an admission.",
+      "prompt": "Ask where the patient is, what he has, since when, and where he is going.",
+      "bullets": [
+        "Wo",
+        "Was",
+        "Seit wann",
+        "Wohin"
+      ],
+      "model": "Wo ist der Patient? Was hat der Patient? Seit wann hat er Schmerzen? Wohin geht der Patient?",
+      "modelEn": "Where is the patient? What does the patient have? Since when has he had pain? Where is the patient going?",
+      "hint": "Question word, then the verb.",
+      "checklist": [
+        {
+          "id": "wo",
+          "label": "A where question",
+          "keywords": [
+            "Wo"
+          ]
+        },
+        {
+          "id": "was",
+          "label": "A what question",
+          "keywords": [
+            "Was"
+          ]
+        },
+        {
+          "id": "seit",
+          "label": "A since-when question",
+          "keywords": [
+            "Seit wann"
+          ]
+        },
+        {
+          "id": "wohin",
+          "label": "A direction question",
+          "keywords": [
+            "Wohin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 9. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Place: the patient is in the room.",
+          "qEn": "Wo.",
+          "options": [
+            "Wo ist der Patient?",
+            "Wohin ist der Patient?",
+            "Wo ist der Patient ist?"
+          ],
+          "answer": 0,
+          "why": "Verb once, in position 2.",
+          "hint": "Wo."
+        },
+        {
+          "kind": "mc",
+          "q": "Direction: he goes to X-ray.",
+          "qEn": "Wohin.",
+          "options": [
+            "Wo geht der Patient?",
+            "Wohin geht der Patient?",
+            "Woher geht der Patient?"
+          ],
+          "answer": 1,
+          "why": "zum needs wohin.",
+          "hint": "Direction."
+        },
+        {
+          "kind": "mc",
+          "q": "Origin: he comes from the room.",
+          "qEn": "Woher.",
+          "options": [
+            "Wohin kommt der Patient?",
+            "Wo kommt der Patient her aus?",
+            "Woher kommt der Patient?"
+          ],
+          "answer": 2,
+          "why": "aus answers woher.",
+          "hint": "Origin."
+        },
+        {
+          "kind": "mc",
+          "q": "Start of the pain.",
+          "qEn": "seit wann.",
+          "options": [
+            "Seit wann hat er Schmerzen?",
+            "Wann seit hat er Schmerzen?",
+            "Wo hat er seit Schmerzen?"
+          ],
+          "answer": 0,
+          "why": "seit wann stays together.",
+          "hint": "seit wann."
+        },
+        {
+          "kind": "mc",
+          "q": "The person who comes.",
+          "qEn": "Wer.",
+          "options": [
+            "Wen kommt heute?",
+            "Wer kommt heute?",
+            "Was kommt der Arzt?"
+          ],
+          "answer": 1,
+          "why": "The subject is wer.",
+          "hint": "Wer."
+        },
+        {
+          "kind": "mc",
+          "q": "The person the doctor examines.",
+          "qEn": "Wen.",
+          "options": [
+            "Wer untersucht der Arzt?",
+            "Was untersucht wen?",
+            "Wen untersucht der Arzt?"
+          ],
+          "answer": 2,
+          "why": "The object is wen.",
+          "hint": "Wen."
+        },
+        {
+          "kind": "mc",
+          "q": "The thing he has.",
+          "qEn": "Was.",
+          "options": [
+            "Was hat der Patient?",
+            "Wer hat der Patient?",
+            "Wo hat der Patient Schmerzen ist?"
+          ],
+          "answer": 0,
+          "why": "A thing is was.",
+          "hint": "Was."
+        },
+        {
+          "kind": "mc",
+          "q": "The reason he stays in bed.",
+          "qEn": "Warum.",
+          "options": [
+            "Wann bleibt er warum?",
+            "Warum bleibt er im Bett?",
+            "Wo bleibt er warum im Bett?"
+          ],
+          "answer": 1,
+          "why": "A reason is warum.",
+          "hint": "Warum."
+        },
+        {
+          "kind": "mc",
+          "q": "The manner of measuring.",
+          "qEn": "Wie.",
+          "options": [
+            "Was misst wie die Pflegekraft?",
+            "Wo misst das Fieber die Pflegekraft wie?",
+            "Wie misst die Pflegekraft das Fieber?"
+          ],
+          "answer": 2,
+          "why": "Manner is wie.",
+          "hint": "Wie."
+        },
+        {
+          "kind": "mc",
+          "q": "Clock or day.",
+          "qEn": "Wann.",
+          "options": [
+            "Wann kommt der Arzt?",
+            "Wer kommt wann der Arzt?",
+            "Was kommt wann?"
+          ],
+          "answer": 0,
+          "why": "Time is wann.",
+          "hint": "Wann."
+        },
+        {
+          "kind": "mc",
+          "q": "Amount of water.",
+          "qEn": "wie viel.",
+          "options": [
+            "Was viel Wasser trinkt er?",
+            "Wie viel Wasser trinkt er?",
+            "Wo viel trinkt er Wasser?"
+          ],
+          "answer": 1,
+          "why": "Amount is wie viel.",
+          "hint": "wie viel."
+        },
+        {
+          "kind": "mc",
+          "q": "Verb position in a W-question.",
+          "qEn": "Position 2.",
+          "options": [
+            "The verb is in position 1.",
+            "The verb is at the end.",
+            "The verb is in position 2."
+          ],
+          "answer": 2,
+          "why": "Only a yes/no question puts the verb first.",
+          "hint": "Position 2."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "W-Wort, dann das Verb",
+      "redemittel": [
+        {
+          "de": "Wo ist der Patient?",
+          "en": "Where is the patient?"
+        },
+        {
+          "de": "Was hat der Patient?",
+          "en": "What does the patient have?"
+        },
+        {
+          "de": "Seit wann hat er Schmerzen?",
+          "en": "Since when has he had pain?"
+        },
+        {
+          "de": "Wohin geht der Patient?",
+          "en": "Where is the patient going?"
+        },
+        {
+          "de": "Wer kommt heute?",
+          "en": "Who is coming today?"
+        }
+      ]
+    }
+  ]
+}

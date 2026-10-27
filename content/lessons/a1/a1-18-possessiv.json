@@ -1,0 +1,1532 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; you (formal)"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative or dative)",
+      "article": "die",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "mein": {
+      "de": "mein",
+      "pos": "article",
+      "en": "my (masculine or neuter)"
+    },
+    "meine": {
+      "de": "meine",
+      "pos": "article",
+      "en": "my (feminine)"
+    },
+    "meinen": {
+      "de": "meinen",
+      "pos": "article",
+      "en": "my (masculine accusative)"
+    },
+    "meinem": {
+      "de": "meinem",
+      "pos": "article",
+      "en": "my (masculine dative)"
+    },
+    "ihr": {
+      "de": "ihr / Ihr",
+      "pos": "article",
+      "en": "her; their; your (formal)"
+    },
+    "ihre": {
+      "de": "Ihre",
+      "pos": "article",
+      "en": "your (formal, feminine)"
+    },
+    "unser": {
+      "de": "unser",
+      "pos": "article",
+      "en": "our (masculine or neuter)"
+    },
+    "eure": {
+      "de": "eure",
+      "pos": "article",
+      "en": "your (ihr, feminine)"
+    },
+    "untersucht": {
+      "de": "untersuchen → untersucht",
+      "pos": "verb",
+      "en": "examines"
+    },
+    "helfe": {
+      "de": "helfen → helfe",
+      "pos": "verb",
+      "en": "help"
+    },
+    "hausarzt": {
+      "de": "Hausarzt",
+      "pos": "noun",
+      "en": "GP",
+      "article": "der",
+      "plural": "die Hausärzte",
+      "emoji": "🩺"
+    },
+    "karte": {
+      "de": "Karte",
+      "pos": "noun",
+      "en": "card",
+      "article": "die",
+      "plural": "die Karten",
+      "emoji": "💳"
+    },
+    "team": {
+      "de": "Team",
+      "pos": "noun",
+      "en": "team",
+      "article": "das",
+      "plural": "die Teams",
+      "emoji": "👥"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "article": "die",
+      "plural": "die Stationen",
+      "emoji": "🏥"
+    },
+    "dabei": {
+      "de": "dabei",
+      "pos": "adverb",
+      "en": "with you"
+    }
+  },
+  "id": "a1-18-possessiv",
+  "level": "A1",
+  "unit": "Kapitel 18",
+  "chapter": 18,
+  "chapters": [
+    18
+  ],
+  "title": "Mein, dein, unser",
+  "subtitle": "Possessive articles",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "ich → mein, du → dein, er → sein, sie → ihr, wir → unser, ihr → euer, sie → ihr, Sie → Ihr.",
+        "The ending follows ein: mein Zimmer, meine Akte, meinen Patienten, meinem Patienten.",
+        "helfen takes the dative: Ich helfe meinem Patienten. untersuchen takes the accusative: meinen Patienten.",
+        "Before an ending, euer loses an e: eure Station, not euere Station. Ihr is capital for formal you."
+      ],
+      "vocab": [
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        },
+        {
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "chart",
+          "emoji": "📋",
+          "glossaryKey": "akte"
+        },
+        {
+          "de": "Hausarzt",
+          "article": "der",
+          "plural": "die Hausärzte",
+          "en": "GP",
+          "emoji": "🩺",
+          "glossaryKey": "hausarzt"
+        },
+        {
+          "de": "Karte",
+          "article": "die",
+          "plural": "die Karten",
+          "en": "card",
+          "emoji": "💳",
+          "glossaryKey": "karte"
+        },
+        {
+          "de": "Team",
+          "article": "das",
+          "plural": "die Teams",
+          "en": "team",
+          "emoji": "👥",
+          "glossaryKey": "team"
+        },
+        {
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "ward",
+          "emoji": "🏥",
+          "glossaryKey": "station"
+        }
+      ],
+      "text": {
+        "title": "Mein Zimmer",
+        "de": "Das ist mein Zimmer. Das ist meine Akte. Der Arzt untersucht meinen Patienten. Ich helfe meinem Patienten. Das ist Ihr Hausarzt. Haben Sie Ihre Karte dabei? Das ist unser Team. Das ist eure Station.",
+        "en": "This is my room. This is my chart. The doctor examines my patient. I help my patient. This is your GP. Do you have your card with you? This is our team. This is your ward."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "mein, mein, meine",
+      "practice": "choose",
+      "heroTitle": "The person gives the stem, ein gives the ending",
+      "heroImage": "clipboard",
+      "story": [
+        "The stem follows the owner: <b>mein, dein, sein, ihr, unser, euer, ihr, Ihr</b>.",
+        "The ending follows <b>ein</b>. Nominative: mein Zimmer, meine Akte. Accusative masculine: meinen Patienten. Dative masculine: meinem Patienten.",
+        "<b>euer</b> drops one e when an ending is added: eure Station. Formal <b>Ihr</b> is written with a capital."
+      ],
+      "questionRule": "Name the owner first, then the case. untersuchen = accusative. helfen = dative.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "ich",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "mein",
+              "r": "subj"
+            },
+            {
+              "t": "Zimmer",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "ich → mein.",
+          "enAfter": "mein Zimmer",
+          "callLabel": "Show mein"
+        },
+        {
+          "before": [
+            {
+              "t": "untersuchen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "meinen",
+              "r": "subj"
+            },
+            {
+              "t": "Patienten",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Accusative masculine.",
+          "enAfter": "meinen Patienten",
+          "callLabel": "Show meinen"
+        },
+        {
+          "before": [
+            {
+              "t": "helfen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "meinem",
+              "r": "subj"
+            },
+            {
+              "t": "Patienten",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Dative masculine.",
+          "enAfter": "meinem Patienten",
+          "callLabel": "Show meinem"
+        }
+      ],
+      "tables": [
+        {
+          "title": "mein, mein, meine",
+          "caption": "Same endings as ein. The capital Ihr is formal you.",
+          "columns": [
+            "Nominativ",
+            "Akkusativ m.",
+            "Dativ m."
+          ],
+          "rows": [
+            {
+              "label": "ich",
+              "cells": [
+                "mein Zimmer",
+                "meinen Patienten",
+                "meinem Patienten"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Sie",
+              "cells": [
+                "Ihr Hausarzt",
+                "Ihren Patienten",
+                "Ihrem Patienten"
+              ]
+            },
+            {
+              "label": "wir",
+              "cells": [
+                "unser Team",
+                "unseren Patienten",
+                "unserem Patienten"
+              ]
+            },
+            {
+              "label": "ihr",
+              "cells": [
+                "eure Station",
+                "euren Patienten",
+                "eurem Patienten"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "euer and the capital",
+        "items": [
+          {
+            "de": "eure Station",
+            "en": "euer drops one e.",
+            "tone": "ok"
+          },
+          {
+            "de": "euere Station",
+            "en": "One e too many.",
+            "tone": "stop"
+          },
+          {
+            "de": "Das ist Ihr Hausarzt.",
+            "en": "Formal you, capital.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich helfe meinem Patienten.",
+            "en": "helfen + dative.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich helfe meinen Patienten.",
+            "en": "meinen would be accusative. helfen needs meinem.",
+            "tone": "stop"
+          },
+          {
+            "de": "Der Arzt untersucht meinen Patienten.",
+            "en": "untersuchen + accusative.",
+            "tone": "ok"
+          }
+        ],
+        "tip": "Stem from the person, ending from ein. eure, not euere. helfen → meinem."
+      },
+      "tips": [
+        {
+          "title": "Owner, then ending",
+          "emoji": "📁",
+          "mnemonic": "mein Zimmer · meine Akte · meinen · meinem",
+          "body": "Zimmer is neuter, so no ending in the nominative. Akte is feminine, so -e. The patient is masculine: -en in the accusative, -em in the dative.",
+          "examples": [
+            {
+              "de": "Haben Sie Ihre Karte dabei?",
+              "en": "formal, feminine"
+            },
+            {
+              "de": "Das ist eure Station.",
+              "en": "ihr-group, feminine"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which possessive?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "My room. Nominative.",
+          "qEn": "Neuter.",
+          "options": [
+            "mein Zimmer",
+            "meine Zimmer",
+            "meinen Zimmer"
+          ],
+          "answer": 0,
+          "why": "das Zimmer takes no ending here.",
+          "hint": "mein."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor examines my patient.",
+          "qEn": "Accusative.",
+          "options": [
+            "meinem Patienten",
+            "meinen Patienten",
+            "mein Patienten"
+          ],
+          "answer": 1,
+          "why": "untersuchen takes the accusative.",
+          "hint": "meinen."
+        },
+        {
+          "kind": "mc",
+          "q": "I help my patient.",
+          "qEn": "Dative.",
+          "options": [
+            "meinen Patienten",
+            "meine Patienten",
+            "meinem Patienten"
+          ],
+          "answer": 2,
+          "why": "helfen takes the dative.",
+          "hint": "meinem."
+        },
+        {
+          "kind": "mc",
+          "q": "Your ward, talking to ihr.",
+          "qEn": "Feminine.",
+          "options": [
+            "eure Station",
+            "euere Station",
+            "euer Station"
+          ],
+          "answer": 0,
+          "why": "Drop one e, then add -e.",
+          "hint": "eure."
+        }
+      ]
+    },
+    {
+      "id": "gap-poss",
+      "label": "Lücken",
+      "title": "The possessive",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The owner is named. Each chip fits one sentence.",
+      "chips": [
+        {
+          "w": "mein",
+          "hint": "No ending."
+        },
+        {
+          "w": "meine",
+          "hint": "-e."
+        },
+        {
+          "w": "meinen",
+          "hint": "meinen."
+        },
+        {
+          "w": "meinem",
+          "hint": "meinem."
+        },
+        {
+          "w": "Ihr",
+          "hint": "Ihr."
+        },
+        {
+          "w": "eure",
+          "hint": "eure."
+        }
+      ],
+      "items": [
+        {
+          "before": "ich, nicht Sie: Das ist",
+          "after": "Zimmer.",
+          "answer": "mein",
+          "en": "my room",
+          "why": "Neuter nominative.",
+          "tip": "mein",
+          "hint": "No ending."
+        },
+        {
+          "before": "ich, nicht ihr: Das ist",
+          "after": "Akte.",
+          "answer": "meine",
+          "en": "my chart",
+          "why": "Feminine nominative.",
+          "tip": "meine",
+          "hint": "-e."
+        },
+        {
+          "before": "Akkusativ, untersuchen: Der Arzt untersucht",
+          "after": "Patienten.",
+          "answer": "meinen",
+          "en": "examines",
+          "why": "Accusative.",
+          "tip": "Akk.",
+          "hint": "meinen."
+        },
+        {
+          "before": "Dativ, helfen: Ich helfe",
+          "after": "Patienten.",
+          "answer": "meinem",
+          "en": "help",
+          "why": "Dative.",
+          "tip": "Dat.",
+          "hint": "meinem."
+        },
+        {
+          "before": "Sie, formell, nicht ich: Das ist",
+          "after": "Hausarzt.",
+          "answer": "Ihr",
+          "en": "formal your",
+          "why": "Capital Ihr.",
+          "tip": "Sie",
+          "hint": "Ihr."
+        },
+        {
+          "before": "ihr, die Gruppe, nicht ich: Das ist",
+          "after": "Station.",
+          "answer": "eure",
+          "en": "your ward",
+          "why": "euer drops an e.",
+          "tip": "ihr",
+          "hint": "eure."
+        }
+      ]
+    },
+    {
+      "id": "match-poss",
+      "label": "Match",
+      "title": "Which form?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Owner and case.",
+      "items": [
+        {
+          "prompt": "My chart.",
+          "options": [
+            {
+              "emoji": "📋",
+              "label": "meine Akte",
+              "caption": "feminine"
+            },
+            {
+              "emoji": "❌",
+              "label": "mein Akte",
+              "caption": "missing -e"
+            },
+            {
+              "emoji": "❌",
+              "label": "meinen Akte",
+              "caption": "not accusative masculine"
+            }
+          ],
+          "answer": 0,
+          "why": "meine.",
+          "hint": "-e."
+        },
+        {
+          "prompt": "I help my patient.",
+          "options": [
+            {
+              "emoji": "🤝",
+              "label": "meinem Patienten",
+              "caption": "dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "meinen Patienten",
+              "caption": "that is accusative"
+            },
+            {
+              "emoji": "❌",
+              "label": "mein Patienten",
+              "caption": "ending missing"
+            }
+          ],
+          "answer": 0,
+          "why": "helfen → meinem.",
+          "hint": "Dative."
+        },
+        {
+          "prompt": "Formal: your GP.",
+          "options": [
+            {
+              "emoji": "🩺",
+              "label": "Ihr Hausarzt",
+              "caption": "capital"
+            },
+            {
+              "emoji": "❌",
+              "label": "ihr Hausarzt",
+              "caption": "that reads as her GP"
+            },
+            {
+              "emoji": "❌",
+              "label": "Ihre Hausarzt",
+              "caption": "Hausarzt is not feminine"
+            }
+          ],
+          "answer": 0,
+          "why": "Capital Ihr.",
+          "hint": "Sie."
+        },
+        {
+          "prompt": "ihr-group, the ward.",
+          "options": [
+            {
+              "emoji": "🏥",
+              "label": "eure Station",
+              "caption": "one e dropped"
+            },
+            {
+              "emoji": "❌",
+              "label": "euere Station",
+              "caption": "one e too many"
+            },
+            {
+              "emoji": "❌",
+              "label": "euer Station",
+              "caption": "Station is feminine"
+            }
+          ],
+          "answer": 0,
+          "why": "eure.",
+          "hint": "Drop e."
+        }
+      ]
+    },
+    {
+      "id": "picture-poss",
+      "label": "Picture",
+      "title": "Picture the owner",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Whose is it?",
+      "items": [
+        {
+          "id": "room",
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "mein Zimmer",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "mein"
+        },
+        {
+          "id": "chart",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "meine Akte",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "meine"
+        },
+        {
+          "id": "doctor",
+          "de": "Hausarzt",
+          "article": "der",
+          "plural": "die Hausärzte",
+          "en": "Ihr Hausarzt",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "Ihr"
+        },
+        {
+          "id": "ward",
+          "de": "Station",
+          "article": "die",
+          "plural": "die Stationen",
+          "en": "eure Station",
+          "image": {
+            "type": "svg",
+            "id": "ward"
+          },
+          "hint": "eure"
+        }
+      ]
+    },
+    {
+      "id": "build-poss",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Keep the ending with the case.",
+      "items": [
+        {
+          "tiles": [
+            "Das",
+            "ist",
+            "mein",
+            "Zimmer"
+          ],
+          "answers": [
+            "Das ist mein Zimmer"
+          ],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "Zimmer",
+          "question": false,
+          "en": "This is my room.",
+          "hint": "mein.",
+          "feedback": {
+            "fallback": "mein."
+          }
+        },
+        {
+          "tiles": [
+            "Das",
+            "ist",
+            "meine",
+            "Akte"
+          ],
+          "answers": [
+            "Das ist meine Akte"
+          ],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "Akte",
+          "question": false,
+          "en": "This is my chart.",
+          "hint": "meine.",
+          "feedback": {
+            "fallback": "meine."
+          }
+        },
+        {
+          "tiles": [
+            "Ich",
+            "helfe",
+            "meinem",
+            "Patienten"
+          ],
+          "answers": [
+            "Ich helfe meinem Patienten"
+          ],
+          "punct": ".",
+          "modal": "helfe",
+          "inf": "Patienten",
+          "question": false,
+          "en": "I help my patient.",
+          "hint": "dative.",
+          "feedback": {
+            "fallback": "dative."
+          }
+        },
+        {
+          "tiles": [
+            "Das",
+            "ist",
+            "eure",
+            "Station"
+          ],
+          "answers": [
+            "Das ist eure Station"
+          ],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "Station",
+          "question": false,
+          "en": "This is your ward.",
+          "hint": "eure.",
+          "feedback": {
+            "fallback": "eure."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-poss",
+      "label": "Umformen",
+      "title": "Add the possessive",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the whole phrase.",
+      "chips": [
+        {
+          "w": "mein Zimmer",
+          "hint": "mein."
+        },
+        {
+          "w": "meine Akte",
+          "hint": "meine."
+        },
+        {
+          "w": "meinen Patienten",
+          "hint": "meinen."
+        },
+        {
+          "w": "meinem Patienten",
+          "hint": "meinem."
+        },
+        {
+          "w": "Ihr Hausarzt",
+          "hint": "Ihr."
+        },
+        {
+          "w": "unser Team",
+          "hint": "unser."
+        }
+      ],
+      "items": [
+        {
+          "before": "ich + Zimmer, Nominativ.",
+          "after": "",
+          "answer": "mein Zimmer",
+          "en": "my room",
+          "why": "No ending.",
+          "tip": "mein",
+          "hint": "mein."
+        },
+        {
+          "before": "ich + Akte, Nominativ.",
+          "after": "",
+          "answer": "meine Akte",
+          "en": "my chart",
+          "why": "-e.",
+          "tip": "meine",
+          "hint": "meine."
+        },
+        {
+          "before": "ich + Patient, Akkusativ, untersuchen.",
+          "after": "",
+          "answer": "meinen Patienten",
+          "en": "accusative",
+          "why": "meinen.",
+          "tip": "Akk.",
+          "hint": "meinen."
+        },
+        {
+          "before": "ich + Patient, Dativ, helfen.",
+          "after": "",
+          "answer": "meinem Patienten",
+          "en": "dative",
+          "why": "meinem.",
+          "tip": "Dat.",
+          "hint": "meinem."
+        },
+        {
+          "before": "Sie + Hausarzt, Nominativ.",
+          "after": "",
+          "answer": "Ihr Hausarzt",
+          "en": "formal",
+          "why": "Capital.",
+          "tip": "Sie",
+          "hint": "Ihr."
+        },
+        {
+          "before": "wir + Team, Nominativ.",
+          "after": "",
+          "answer": "unser Team",
+          "en": "our",
+          "why": "Neuter, no ending.",
+          "tip": "wir",
+          "hint": "unser."
+        }
+      ]
+    },
+    {
+      "id": "error-poss",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Das ist mein Akte."
+          ],
+          "options": [
+            "Das ist meine Akte.",
+            "Das ist meinen Akte.",
+            "Das ist meinem Akte."
+          ],
+          "answer": 0,
+          "reveal": "Akte is feminine.",
+          "hint": "meine."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich helfe meinen Patienten."
+          ],
+          "options": [
+            "Ich helfe meinem Patienten.",
+            "Ich helfe mein Patienten.",
+            "Ich helfe meine Patienten."
+          ],
+          "answer": 0,
+          "reveal": "helfen takes the dative.",
+          "hint": "meinem."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Das ist euere Station."
+          ],
+          "options": [
+            "Das ist eure Station.",
+            "Das ist euer Station.",
+            "Das ist eueren Station."
+          ],
+          "answer": 0,
+          "reveal": "Drop one e.",
+          "hint": "eure."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Arzt untersucht meinem Patienten."
+          ],
+          "options": [
+            "Der Arzt untersucht meinen Patienten.",
+            "Der Arzt untersucht mein Patienten.",
+            "Der Arzt untersucht meine Patienten."
+          ],
+          "answer": 0,
+          "reveal": "untersuchen takes the accusative.",
+          "hint": "meinen."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-poss",
+      "label": "Dialog",
+      "title": "At the desk",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "Mein Zimmer.",
+          "hint": "mein."
+        },
+        {
+          "w": "Meine Akte.",
+          "hint": "meine."
+        },
+        {
+          "w": "Ihr Hausarzt.",
+          "hint": "Ihr."
+        },
+        {
+          "w": "Ihre Karte.",
+          "hint": "Ihre."
+        },
+        {
+          "w": "Unser Team.",
+          "hint": "unser."
+        },
+        {
+          "w": "Eure Station.",
+          "hint": "eure."
+        }
+      ],
+      "items": [
+        {
+          "before": "Zimmer?",
+          "after": "",
+          "answer": "Mein Zimmer.",
+          "en": "mine",
+          "why": "mein.",
+          "tip": "mein",
+          "hint": "mein.",
+          "who": "Patient"
+        },
+        {
+          "before": "Akte?",
+          "after": "",
+          "answer": "Meine Akte.",
+          "en": "mine",
+          "why": "meine.",
+          "tip": "meine",
+          "hint": "meine.",
+          "who": "Patient"
+        },
+        {
+          "before": "Hausarzt, Sie.",
+          "after": "",
+          "answer": "Ihr Hausarzt.",
+          "en": "formal",
+          "why": "Capital.",
+          "tip": "Sie",
+          "hint": "Ihr.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Karte?",
+          "after": "",
+          "answer": "Ihre Karte.",
+          "en": "formal feminine",
+          "why": "Ihre.",
+          "tip": "Sie",
+          "hint": "Ihre.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Team?",
+          "after": "",
+          "answer": "Unser Team.",
+          "en": "ours",
+          "why": "unser.",
+          "tip": "wir",
+          "hint": "unser.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Station, ihr.",
+          "after": "",
+          "answer": "Eure Station.",
+          "en": "your",
+          "why": "eure.",
+          "tip": "ihr",
+          "hint": "eure.",
+          "who": "Arzt"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-poss",
+      "label": "Lücken",
+      "title": "More owners",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The owner is named. Each chip fits one sentence.",
+      "chips": [
+        {
+          "w": "seine",
+          "hint": "seine."
+        },
+        {
+          "w": "ihre",
+          "hint": "ihre."
+        },
+        {
+          "w": "deine",
+          "hint": "deine."
+        },
+        {
+          "w": "unserem",
+          "hint": "unserem."
+        },
+        {
+          "w": "Ihren",
+          "hint": "Ihren."
+        },
+        {
+          "w": "euer",
+          "hint": "euer."
+        },
+        {
+          "w": "Ihre",
+          "hint": "Ihre."
+        },
+        {
+          "w": "unser",
+          "hint": "unser."
+        }
+      ],
+      "items": [
+        {
+          "before": "Die Akte gehört ihm. Er sucht",
+          "after": "Akte.",
+          "answer": "seine",
+          "en": "his chart",
+          "why": "er → sein, feminine -e.",
+          "tip": "sein",
+          "hint": "seine."
+        },
+        {
+          "before": "Die Akte gehört ihr. Sie sucht",
+          "after": "Akte.",
+          "answer": "ihre",
+          "en": "her chart",
+          "why": "sie → ihr, feminine -e.",
+          "tip": "ihr",
+          "hint": "ihre."
+        },
+        {
+          "before": "Die Akte gehört dir. Du suchst",
+          "after": "Akte.",
+          "answer": "deine",
+          "en": "your chart",
+          "why": "du → dein.",
+          "tip": "dein",
+          "hint": "deine."
+        },
+        {
+          "before": "wir, nicht Sie. Wir helfen",
+          "after": "Patienten.",
+          "answer": "unserem",
+          "en": "our patient, dative",
+          "why": "helfen → dative.",
+          "tip": "Dat.",
+          "hint": "unserem."
+        },
+        {
+          "before": "Sie, formell. Sie untersuchen",
+          "after": "Patienten.",
+          "answer": "Ihren",
+          "en": "formal accusative",
+          "why": "untersuchen → accusative, capital.",
+          "tip": "Akk.",
+          "hint": "Ihren."
+        },
+        {
+          "before": "ihr, nicht wir. Das ist",
+          "after": "Team.",
+          "answer": "euer",
+          "en": "your team, neuter",
+          "why": "No ending, so the e stays.",
+          "tip": "euer",
+          "hint": "euer."
+        },
+        {
+          "before": "Sie, formell, die eigene Karte. Haben Sie",
+          "after": "Karte dabei?",
+          "answer": "Ihre",
+          "en": "formal card",
+          "why": "Feminine, capital.",
+          "tip": "Sie",
+          "hint": "Ihre."
+        },
+        {
+          "before": "wir, nicht ihr. Das ist",
+          "after": "Zimmer.",
+          "answer": "unser",
+          "en": "our room",
+          "why": "Neuter nominative.",
+          "tip": "wir",
+          "hint": "unser."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Mein Zimmer",
+        "paragraphs": [
+          "Das ist mein Zimmer. Das ist meine Akte. Der Arzt untersucht meinen Patienten. Ich helfe meinem Patienten. Das ist Ihr Hausarzt. Haben Sie Ihre Karte dabei? Das ist unser Team. Das ist eure Station."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wessen Zimmer?",
+          "qEn": "Nominative.",
+          "options": [
+            "mein Zimmer",
+            "meine Zimmer",
+            "meinem Zimmer"
+          ],
+          "answer": 0,
+          "why": "Neuter, no ending.",
+          "hint": "mein."
+        },
+        {
+          "kind": "mc",
+          "q": "Wen untersucht der Arzt?",
+          "qEn": "Accusative.",
+          "options": [
+            "meinem Patienten",
+            "meinen Patienten",
+            "mein Patienten"
+          ],
+          "answer": 1,
+          "why": "untersuchen → accusative.",
+          "hint": "meinen."
+        },
+        {
+          "kind": "mc",
+          "q": "Wem helfe ich?",
+          "qEn": "Dative.",
+          "options": [
+            "meinen Patienten",
+            "meine Patienten",
+            "meinem Patienten"
+          ],
+          "answer": 2,
+          "why": "helfen → dative.",
+          "hint": "meinem."
+        },
+        {
+          "kind": "mc",
+          "q": "Wie heißt die Station für ihr?",
+          "qEn": "Drop an e.",
+          "options": [
+            "eure Station",
+            "euere Station",
+            "euer Station"
+          ],
+          "answer": 0,
+          "why": "eure.",
+          "hint": "eure."
+        }
+      ]
+    },
+    {
+      "id": "writing-poss",
+      "label": "Writing",
+      "title": "Write the file",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four phrases in sentences.",
+      "prompt": "My room, my chart, I help my patient, your ward for ihr.",
+      "bullets": [
+        "mein Zimmer",
+        "meine Akte",
+        "meinem Patienten",
+        "eure Station"
+      ],
+      "model": "Das ist mein Zimmer. Das ist meine Akte. Ich helfe meinem Patienten. Das ist eure Station.",
+      "modelEn": "This is my room. This is my chart. I help my patient. This is your ward.",
+      "hint": "helfen takes meinem. eure, not euere.",
+      "checklist": [
+        {
+          "id": "z",
+          "label": "mein Zimmer",
+          "keywords": [
+            "mein Zimmer"
+          ]
+        },
+        {
+          "id": "a",
+          "label": "meine Akte",
+          "keywords": [
+            "meine Akte"
+          ]
+        },
+        {
+          "id": "p",
+          "label": "meinem Patienten",
+          "keywords": [
+            "meinem Patienten"
+          ]
+        },
+        {
+          "id": "s",
+          "label": "eure Station",
+          "keywords": [
+            "eure Station"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 18. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "My room.",
+          "qEn": "Nominative.",
+          "options": [
+            "mein Zimmer",
+            "meine Zimmer",
+            "meinen Zimmer"
+          ],
+          "answer": 0,
+          "why": "Neuter.",
+          "hint": "mein."
+        },
+        {
+          "kind": "mc",
+          "q": "My chart.",
+          "qEn": "Nominative.",
+          "options": [
+            "mein Akte",
+            "meine Akte",
+            "meinem Akte"
+          ],
+          "answer": 1,
+          "why": "Feminine.",
+          "hint": "meine."
+        },
+        {
+          "kind": "mc",
+          "q": "examines my patient.",
+          "qEn": "Accusative.",
+          "options": [
+            "meinem Patienten",
+            "mein Patienten",
+            "meinen Patienten"
+          ],
+          "answer": 2,
+          "why": "untersuchen.",
+          "hint": "meinen."
+        },
+        {
+          "kind": "mc",
+          "q": "I help my patient.",
+          "qEn": "Dative.",
+          "options": [
+            "meinem Patienten",
+            "meinen Patienten",
+            "meine Patienten"
+          ],
+          "answer": 0,
+          "why": "helfen.",
+          "hint": "meinem."
+        },
+        {
+          "kind": "mc",
+          "q": "Formal GP.",
+          "qEn": "Sie.",
+          "options": [
+            "ihr Hausarzt",
+            "Ihr Hausarzt",
+            "Ihre Hausarzt"
+          ],
+          "answer": 1,
+          "why": "Capital, masculine.",
+          "hint": "Ihr."
+        },
+        {
+          "kind": "mc",
+          "q": "Formal card.",
+          "qEn": "Sie.",
+          "options": [
+            "Ihr Karte",
+            "ihre Karte",
+            "Ihre Karte"
+          ],
+          "answer": 2,
+          "why": "Capital, feminine.",
+          "hint": "Ihre."
+        },
+        {
+          "kind": "mc",
+          "q": "Our team.",
+          "qEn": "wir.",
+          "options": [
+            "unser Team",
+            "unsere Team",
+            "unserem Team"
+          ],
+          "answer": 0,
+          "why": "Neuter nominative.",
+          "hint": "unser."
+        },
+        {
+          "kind": "mc",
+          "q": "Your ward, ihr.",
+          "qEn": "euer.",
+          "options": [
+            "euere Station",
+            "eure Station",
+            "euer Station"
+          ],
+          "answer": 1,
+          "why": "Drop one e.",
+          "hint": "eure."
+        },
+        {
+          "kind": "mc",
+          "q": "Your team, ihr, neuter nominative.",
+          "qEn": "No ending.",
+          "options": [
+            "eure Team",
+            "euere Team",
+            "euer Team"
+          ],
+          "answer": 2,
+          "why": "No ending, so euer.",
+          "hint": "euer."
+        },
+        {
+          "kind": "mc",
+          "q": "His chart.",
+          "qEn": "er.",
+          "options": [
+            "seine Akte",
+            "sein Akte",
+            "ihr Akte"
+          ],
+          "answer": 0,
+          "why": "er → sein.",
+          "hint": "seine."
+        },
+        {
+          "kind": "mc",
+          "q": "Her chart.",
+          "qEn": "sie.",
+          "options": [
+            "sein Akte",
+            "ihre Akte",
+            "Ihr Akte"
+          ],
+          "answer": 1,
+          "why": "sie → ihr.",
+          "hint": "ihre."
+        },
+        {
+          "kind": "mc",
+          "q": "We help our patient.",
+          "qEn": "Dative.",
+          "options": [
+            "unseren Patienten",
+            "unser Patienten",
+            "unserem Patienten"
+          ],
+          "answer": 2,
+          "why": "helfen → dative.",
+          "hint": "unserem."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "mein, meine, meinen, meinem",
+      "redemittel": [
+        {
+          "de": "Das ist mein Zimmer.",
+          "en": "This is my room."
+        },
+        {
+          "de": "Das ist meine Akte.",
+          "en": "This is my chart."
+        },
+        {
+          "de": "Der Arzt untersucht meinen Patienten.",
+          "en": "The doctor examines my patient."
+        },
+        {
+          "de": "Ich helfe meinem Patienten.",
+          "en": "I help my patient."
+        },
+        {
+          "de": "Das ist eure Station.",
+          "en": "This is your ward."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1580 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "habe": {
+      "de": "haben → habe",
+      "pos": "verb",
+      "en": "have"
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; you (formal)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "article": "die",
+      "plural": "die Tabletten",
+      "emoji": "💊"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative)",
+      "article": "die",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "result",
+      "article": "der",
+      "plural": "die Befunde",
+      "emoji": "📄"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "plural": "Wasser",
+      "emoji": "💧"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adverb",
+      "en": "well"
+    },
+    "etwas": {
+      "de": "etwas",
+      "pos": "pronoun",
+      "en": "something"
+    },
+    "gemessen": {
+      "de": "Partizip von messen",
+      "pos": "participle",
+      "en": "measured"
+    },
+    "genommen": {
+      "de": "Partizip von nehmen",
+      "pos": "participle",
+      "en": "taken"
+    },
+    "untersucht": {
+      "de": "Partizip von untersuchen",
+      "pos": "participle",
+      "en": "examined"
+    },
+    "gelesen": {
+      "de": "Partizip von lesen",
+      "pos": "participle",
+      "en": "read"
+    },
+    "gefragt": {
+      "de": "Partizip von fragen",
+      "pos": "participle",
+      "en": "asked"
+    },
+    "geschlafen": {
+      "de": "Partizip von schlafen",
+      "pos": "participle",
+      "en": "slept"
+    },
+    "gegessen": {
+      "de": "Partizip von essen",
+      "pos": "participle",
+      "en": "eaten"
+    },
+    "getrunken": {
+      "de": "Partizip von trinken",
+      "pos": "participle",
+      "en": "drunk"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    }
+  },
+  "id": "a1-24-perfekt",
+  "level": "A1",
+  "unit": "Kapitel 24",
+  "chapter": 24,
+  "chapters": [
+    24
+  ],
+  "title": "Was hast du gestern gemacht?",
+  "subtitle": "Perfect with haben",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "The spoken past of most verbs is the perfect: haben in position 2, the participle at the end.",
+        "Sie hat Fieber gemessen. Wir haben den Befund gelesen. Ich habe Wasser getrunken.",
+        "schlafen, essen, trinken, lesen, fragen, nehmen and messen use haben.",
+        "Movement such as gehen uses sein. That is a later chapter. Do not say Er hat gegangen."
+      ],
+      "vocab": [
+        {
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "nurse",
+          "emoji": "🧑‍⚕️",
+          "glossaryKey": "pflegekraft"
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "emoji": "🤒",
+          "glossaryKey": "fieber"
+        },
+        {
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "emoji": "💊",
+          "glossaryKey": "tablette"
+        },
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "🩺",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Befund",
+          "article": "der",
+          "plural": "die Befunde",
+          "en": "result",
+          "emoji": "📄",
+          "glossaryKey": "befund"
+        },
+        {
+          "de": "Wasser",
+          "article": "das",
+          "plural": "Wasser",
+          "en": "water",
+          "emoji": "💧",
+          "glossaryKey": "wasser"
+        }
+      ],
+      "text": {
+        "title": "Gestern hat sie gemessen",
+        "de": "Gestern hat die Pflegekraft Fieber gemessen. Sie hat die Tablette genommen. Der Arzt hat den Patienten untersucht. Wir haben den Befund gelesen. Ich habe den Arzt gefragt. Sie hat gut geschlafen. Haben Sie etwas gegessen? Ich habe Wasser getrunken.",
+        "en": "Yesterday the nurse took the temperature. She took the tablet. The doctor examined the patient. We read the result. I asked the doctor. She slept well. Have you eaten something? I drank water."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "haben … Partizip",
+      "practice": "choose",
+      "heroTitle": "haben in position 2, participle at the end",
+      "heroImage": "clipboard",
+      "story": [
+        "The perfect with <b>haben</b> is the normal spoken past. <b>hat</b> or <b>habe</b> stands in position 2. The participle closes the sentence.",
+        "Gestern hat die Pflegekraft Fieber <b>gemessen</b>. Not: Sie hat gemessen Fieber.",
+        "gehen, kommen and fahren take <b>sein</b>. This chapter does not practise them. Er hat gegangen is wrong."
+      ],
+      "questionRule": "Subject, haben in position 2, the object in the middle, the participle last.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "messen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "hat",
+              "r": "verb"
+            },
+            {
+              "t": "Fieber",
+              "r": "rest"
+            },
+            {
+              "t": "gemessen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Participle last.",
+          "enAfter": "Sie hat Fieber gemessen.",
+          "callLabel": "Show gemessen"
+        },
+        {
+          "before": [
+            {
+              "t": "nehmen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "hat",
+              "r": "verb"
+            },
+            {
+              "t": "die",
+              "r": "rest"
+            },
+            {
+              "t": "Tablette",
+              "r": "rest"
+            },
+            {
+              "t": "genommen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "genommen last.",
+          "enAfter": "Sie hat die Tablette genommen.",
+          "callLabel": "Show genommen"
+        },
+        {
+          "before": [
+            {
+              "t": "schlafen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "hat",
+              "r": "verb"
+            },
+            {
+              "t": "gut",
+              "r": "rest"
+            },
+            {
+              "t": "geschlafen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "haben, not sein.",
+          "enAfter": "Sie hat gut geschlafen.",
+          "callLabel": "Show geschlafen"
+        }
+      ],
+      "tables": [
+        {
+          "title": "haben … Partizip",
+          "caption": "These verbs take haben. The participle is last.",
+          "columns": [
+            "Infinitiv",
+            "Partizip",
+            "Satz"
+          ],
+          "rows": [
+            {
+              "label": "messen",
+              "cells": [
+                "messen",
+                "gemessen",
+                "Sie hat Fieber gemessen."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "nehmen",
+              "cells": [
+                "nehmen",
+                "genommen",
+                "Sie hat die Tablette genommen."
+              ]
+            },
+            {
+              "label": "untersuchen",
+              "cells": [
+                "untersuchen",
+                "untersucht",
+                "Der Arzt hat den Patienten untersucht."
+              ]
+            },
+            {
+              "label": "lesen",
+              "cells": [
+                "lesen",
+                "gelesen",
+                "Wir haben den Befund gelesen."
+              ]
+            },
+            {
+              "label": "fragen",
+              "cells": [
+                "fragen",
+                "gefragt",
+                "Ich habe den Arzt gefragt."
+              ]
+            },
+            {
+              "label": "schlafen",
+              "cells": [
+                "schlafen",
+                "geschlafen",
+                "Sie hat gut geschlafen."
+              ]
+            },
+            {
+              "label": "essen",
+              "cells": [
+                "essen",
+                "gegessen",
+                "Haben Sie etwas gegessen?"
+              ]
+            },
+            {
+              "label": "trinken",
+              "cells": [
+                "trinken",
+                "getrunken",
+                "Ich habe Wasser getrunken."
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "The participle stays at the end",
+        "items": [
+          {
+            "de": "Sie hat Fieber gemessen.",
+            "en": "Object inside, participle last.",
+            "tone": "ok"
+          },
+          {
+            "de": "Sie hat gemessen Fieber.",
+            "en": "Fieber is not after the participle.",
+            "tone": "stop"
+          },
+          {
+            "de": "Sie hat gut geschlafen.",
+            "en": "schlafen takes haben.",
+            "tone": "ok"
+          },
+          {
+            "de": "Sie ist gut geschlafen.",
+            "en": "Not sein.",
+            "tone": "stop"
+          },
+          {
+            "de": "Ich habe Wasser getrunken.",
+            "en": "haben.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er hat ins Zimmer gegangen.",
+            "en": "gehen takes sein, and that is a later chapter.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "habe or hat in position 2. Participle at the end. These eight verbs take haben."
+      },
+      "tips": [
+        {
+          "title": "The bracket again",
+          "emoji": "📎",
+          "mnemonic": "hat … gemessen",
+          "body": "If you know the bracket from chapter 12, the perfect is the same shape. haben is the finite verb. The participle is the end.",
+          "examples": [
+            {
+              "de": "Wir haben den Befund gelesen.",
+              "en": "object inside"
+            },
+            {
+              "de": "Ich habe den Arzt gefragt.",
+              "en": "gefragt last"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Where is the participle?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "She took the temperature.",
+          "qEn": "messen.",
+          "options": [
+            "Sie hat Fieber gemessen.",
+            "Sie hat gemessen Fieber.",
+            "Sie ist Fieber gemessen."
+          ],
+          "answer": 0,
+          "why": "Participle last, haben.",
+          "hint": "gemessen."
+        },
+        {
+          "kind": "mc",
+          "q": "She slept well.",
+          "qEn": "schlafen.",
+          "options": [
+            "Sie ist gut geschlafen.",
+            "Sie hat gut geschlafen.",
+            "Sie hat geschlafen gut."
+          ],
+          "answer": 1,
+          "why": "haben, participle last.",
+          "hint": "geschlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "I drank water.",
+          "qEn": "trinken.",
+          "options": [
+            "Ich habe getrunken Wasser.",
+            "Ich bin Wasser getrunken.",
+            "Ich habe Wasser getrunken."
+          ],
+          "answer": 2,
+          "why": "haben.",
+          "hint": "getrunken."
+        },
+        {
+          "kind": "mc",
+          "q": "He went into the room. Not this chapter's auxiliary.",
+          "qEn": "sein later.",
+          "options": [
+            "Er ist ins Zimmer gegangen.",
+            "Er hat ins Zimmer gegangen.",
+            "Er hat gegangen ins Zimmer."
+          ],
+          "answer": 0,
+          "why": "gehen takes sein.",
+          "hint": "sein."
+        }
+      ]
+    },
+    {
+      "id": "gap-perf",
+      "label": "Lücken",
+      "title": "The participle",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "gemessen",
+          "hint": "gemessen."
+        },
+        {
+          "w": "genommen",
+          "hint": "genommen."
+        },
+        {
+          "w": "untersucht",
+          "hint": "untersucht."
+        },
+        {
+          "w": "gelesen",
+          "hint": "gelesen."
+        },
+        {
+          "w": "gefragt",
+          "hint": "gefragt."
+        },
+        {
+          "w": "geschlafen",
+          "hint": "geschlafen."
+        }
+      ],
+      "items": [
+        {
+          "before": "messen: Sie hat Fieber",
+          "after": ".",
+          "answer": "gemessen",
+          "en": "measured",
+          "why": "Last.",
+          "tip": "Ende",
+          "hint": "gemessen."
+        },
+        {
+          "before": "nehmen: Sie hat die Tablette",
+          "after": ".",
+          "answer": "genommen",
+          "en": "taken",
+          "why": "Last.",
+          "tip": "Ende",
+          "hint": "genommen."
+        },
+        {
+          "before": "Körper, nicht eine Frage: Der Arzt hat den Patienten",
+          "after": ".",
+          "answer": "untersucht",
+          "en": "examined",
+          "why": "Last.",
+          "tip": "Ende",
+          "hint": "untersucht."
+        },
+        {
+          "before": "lesen: Wir haben den Befund",
+          "after": ".",
+          "answer": "gelesen",
+          "en": "read",
+          "why": "Last.",
+          "tip": "Ende",
+          "hint": "gelesen."
+        },
+        {
+          "before": "Eine Frage: Ich habe den Arzt",
+          "after": ".",
+          "answer": "gefragt",
+          "en": "asked",
+          "why": "Last.",
+          "tip": "Ende",
+          "hint": "gefragt."
+        },
+        {
+          "before": "schlafen: Sie hat gut",
+          "after": ".",
+          "answer": "geschlafen",
+          "en": "slept",
+          "why": "haben.",
+          "tip": "haben",
+          "hint": "geschlafen."
+        }
+      ]
+    },
+    {
+      "id": "match-perf",
+      "label": "Match",
+      "title": "Which perfect?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "haben, participle last.",
+      "items": [
+        {
+          "prompt": "Measured the fever.",
+          "options": [
+            {
+              "emoji": "🤒",
+              "label": "Sie hat Fieber gemessen.",
+              "caption": "last"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie hat gemessen Fieber.",
+              "caption": "wrong order"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie ist Fieber gemessen.",
+              "caption": "wrong auxiliary"
+            }
+          ],
+          "answer": 0,
+          "why": "gemessen last.",
+          "hint": "haben."
+        },
+        {
+          "prompt": "Slept well.",
+          "options": [
+            {
+              "emoji": "😴",
+              "label": "Sie hat gut geschlafen.",
+              "caption": "haben"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie ist gut geschlafen.",
+              "caption": "not sein"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie hat geschlafen gut.",
+              "caption": "gut inside"
+            }
+          ],
+          "answer": 0,
+          "why": "geschlafen.",
+          "hint": "haben."
+        },
+        {
+          "prompt": "Drank water.",
+          "options": [
+            {
+              "emoji": "💧",
+              "label": "Ich habe Wasser getrunken.",
+              "caption": "last"
+            },
+            {
+              "emoji": "❌",
+              "label": "Ich bin Wasser getrunken.",
+              "caption": "not sein"
+            },
+            {
+              "emoji": "❌",
+              "label": "Ich habe getrunken Wasser.",
+              "caption": "wrong order"
+            }
+          ],
+          "answer": 0,
+          "why": "getrunken.",
+          "hint": "haben."
+        },
+        {
+          "prompt": "Went into the room.",
+          "options": [
+            {
+              "emoji": "🚶",
+              "label": "Er ist ins Zimmer gegangen.",
+              "caption": "sein, later"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er hat ins Zimmer gegangen.",
+              "caption": "wrong auxiliary"
+            },
+            {
+              "emoji": "❌",
+              "label": "Er ist gegangen ins Zimmer.",
+              "caption": "place after the participle"
+            }
+          ],
+          "answer": 0,
+          "why": "sein for gehen.",
+          "hint": "Later."
+        }
+      ]
+    },
+    {
+      "id": "picture-perf",
+      "label": "Picture",
+      "title": "Picture the perfect",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "haben plus the participle.",
+      "items": [
+        {
+          "id": "fever",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "Sie hat Fieber gemessen.",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "gemessen"
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "Sie hat die Tablette genommen.",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "genommen"
+        },
+        {
+          "id": "chart",
+          "de": "Befund",
+          "article": "der",
+          "plural": "die Befunde",
+          "en": "Wir haben den Befund gelesen.",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "gelesen"
+        },
+        {
+          "id": "water",
+          "de": "Wasser",
+          "article": "das",
+          "plural": "Wasser",
+          "en": "Ich habe Wasser getrunken.",
+          "image": {
+            "type": "svg",
+            "id": "hands"
+          },
+          "hint": "getrunken"
+        }
+      ]
+    },
+    {
+      "id": "build-perf",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Participle last.",
+      "items": [
+        {
+          "tiles": [
+            "Sie",
+            "hat",
+            "Fieber",
+            "gemessen"
+          ],
+          "answers": [
+            "Sie hat Fieber gemessen"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "gemessen",
+          "question": false,
+          "en": "She took the temperature.",
+          "hint": "gemessen last.",
+          "feedback": {
+            "fallback": "gemessen last."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "hat",
+            "gut",
+            "geschlafen"
+          ],
+          "answers": [
+            "Sie hat gut geschlafen"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "geschlafen",
+          "question": false,
+          "en": "She slept well.",
+          "hint": "geschlafen last.",
+          "feedback": {
+            "fallback": "geschlafen last."
+          }
+        },
+        {
+          "tiles": [
+            "Ich",
+            "habe",
+            "Wasser",
+            "getrunken"
+          ],
+          "answers": [
+            "Ich habe Wasser getrunken"
+          ],
+          "punct": ".",
+          "modal": "habe",
+          "inf": "getrunken",
+          "question": false,
+          "en": "I drank water.",
+          "hint": "getrunken last.",
+          "feedback": {
+            "fallback": "getrunken last."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "haben",
+            "den",
+            "Befund",
+            "gelesen"
+          ],
+          "answers": [
+            "Wir haben den Befund gelesen"
+          ],
+          "punct": ".",
+          "modal": "haben",
+          "inf": "gelesen",
+          "question": false,
+          "en": "We read the result.",
+          "hint": "gelesen last.",
+          "feedback": {
+            "fallback": "gelesen last."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-perf",
+      "label": "Umformen",
+      "title": "Present to perfect",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Use haben and the participle.",
+      "chips": [
+        {
+          "w": "Sie hat Fieber gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "w": "Sie hat die Tablette genommen.",
+          "hint": "genommen."
+        },
+        {
+          "w": "Der Arzt hat den Patienten untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "w": "Wir haben den Befund gelesen.",
+          "hint": "gelesen."
+        },
+        {
+          "w": "Ich habe den Arzt gefragt.",
+          "hint": "gefragt."
+        },
+        {
+          "w": "Ich habe Wasser getrunken.",
+          "hint": "getrunken."
+        }
+      ],
+      "items": [
+        {
+          "before": "Sie misst Fieber.",
+          "after": "",
+          "answer": "Sie hat Fieber gemessen.",
+          "en": "messen",
+          "why": "hat … gemessen.",
+          "tip": "hat",
+          "hint": "gemessen."
+        },
+        {
+          "before": "Sie nimmt die Tablette.",
+          "after": "",
+          "answer": "Sie hat die Tablette genommen.",
+          "en": "nehmen",
+          "why": "hat … genommen.",
+          "tip": "hat",
+          "hint": "genommen."
+        },
+        {
+          "before": "Der Arzt untersucht den Patienten.",
+          "after": "",
+          "answer": "Der Arzt hat den Patienten untersucht.",
+          "en": "untersuchen",
+          "why": "hat … untersucht.",
+          "tip": "hat",
+          "hint": "untersucht."
+        },
+        {
+          "before": "Wir lesen den Befund.",
+          "after": "",
+          "answer": "Wir haben den Befund gelesen.",
+          "en": "lesen",
+          "why": "haben … gelesen.",
+          "tip": "haben",
+          "hint": "gelesen."
+        },
+        {
+          "before": "Ich frage den Arzt.",
+          "after": "",
+          "answer": "Ich habe den Arzt gefragt.",
+          "en": "fragen",
+          "why": "habe … gefragt.",
+          "tip": "habe",
+          "hint": "gefragt."
+        },
+        {
+          "before": "Ich trinke Wasser.",
+          "after": "",
+          "answer": "Ich habe Wasser getrunken.",
+          "en": "trinken",
+          "why": "habe … getrunken.",
+          "tip": "habe",
+          "hint": "getrunken."
+        }
+      ]
+    },
+    {
+      "id": "error-perf",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie hat gemessen Fieber."
+          ],
+          "options": [
+            "Sie hat Fieber gemessen.",
+            "Sie ist Fieber gemessen.",
+            "Sie hat Fieber messen."
+          ],
+          "answer": 0,
+          "reveal": "Participle last.",
+          "hint": "gemessen."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie ist gut geschlafen."
+          ],
+          "options": [
+            "Sie hat gut geschlafen.",
+            "Sie hat geschlafen gut.",
+            "Sie ist geschlafen gut."
+          ],
+          "answer": 0,
+          "reveal": "schlafen takes haben.",
+          "hint": "hat."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich habe getrunken Wasser."
+          ],
+          "options": [
+            "Ich habe Wasser getrunken.",
+            "Ich bin Wasser getrunken.",
+            "Ich habe Wasser trinken."
+          ],
+          "answer": 0,
+          "reveal": "Wasser inside.",
+          "hint": "getrunken."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er hat ins Zimmer gegangen."
+          ],
+          "options": [
+            "Er ist ins Zimmer gegangen.",
+            "Er hat gegangen ins Zimmer.",
+            "Er ist gegangen ins Zimmer."
+          ],
+          "answer": 0,
+          "reveal": "gehen takes sein.",
+          "hint": "ist."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-perf",
+      "label": "Dialog",
+      "title": "After the shift",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "gemessen",
+          "hint": "gemessen."
+        },
+        {
+          "w": "genommen",
+          "hint": "genommen."
+        },
+        {
+          "w": "untersucht",
+          "hint": "untersucht."
+        },
+        {
+          "w": "geschlafen",
+          "hint": "geschlafen."
+        },
+        {
+          "w": "gegessen",
+          "hint": "gegessen."
+        },
+        {
+          "w": "getrunken",
+          "hint": "getrunken."
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich habe Fieber",
+          "after": ".",
+          "answer": "gemessen",
+          "en": "measured",
+          "why": "last.",
+          "tip": "Ende",
+          "hint": "gemessen.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Sie hat die Tablette",
+          "after": ".",
+          "answer": "genommen",
+          "en": "taken",
+          "why": "last.",
+          "tip": "Ende",
+          "hint": "genommen.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Der Arzt hat ihn",
+          "after": ".",
+          "answer": "untersucht",
+          "en": "examined",
+          "why": "last.",
+          "tip": "Ende",
+          "hint": "untersucht.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "schlafen: Haben Sie gut",
+          "after": "?",
+          "answer": "geschlafen",
+          "en": "slept",
+          "why": "haben.",
+          "tip": "haben",
+          "hint": "geschlafen.",
+          "who": "Arzt"
+        },
+        {
+          "before": "essen: Haben Sie etwas",
+          "after": "?",
+          "answer": "gegessen",
+          "en": "eaten",
+          "why": "haben.",
+          "tip": "haben",
+          "hint": "gegessen.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Ich habe Wasser",
+          "after": ".",
+          "answer": "getrunken",
+          "en": "drunk",
+          "why": "haben.",
+          "tip": "haben",
+          "hint": "getrunken.",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-perf",
+      "label": "Lücken",
+      "title": "haben in position 2",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The chip is the finite form of haben.",
+      "chips": [
+        {
+          "w": "hat",
+          "hint": "hat."
+        },
+        {
+          "w": "habe",
+          "hint": "habe."
+        },
+        {
+          "w": "haben",
+          "hint": "haben."
+        },
+        {
+          "w": "hast",
+          "hint": "hast."
+        },
+        {
+          "w": "habt",
+          "hint": "habt."
+        },
+        {
+          "w": "Hat",
+          "hint": "Hat."
+        },
+        {
+          "w": "Haben",
+          "hint": "Haben."
+        },
+        {
+          "w": "gearbeitet",
+          "hint": "gearbeitet."
+        }
+      ],
+      "items": [
+        {
+          "before": "Gestern",
+          "after": "die Pflegekraft Fieber gemessen.",
+          "answer": "hat",
+          "en": "she",
+          "why": "eine Person → hat.",
+          "tip": "hat",
+          "hint": "hat."
+        },
+        {
+          "before": "Gestern",
+          "after": "ich den Arzt gefragt.",
+          "answer": "habe",
+          "en": "I",
+          "why": "ich → habe.",
+          "tip": "habe",
+          "hint": "habe."
+        },
+        {
+          "before": "Gestern",
+          "after": "wir den Befund gelesen.",
+          "answer": "haben",
+          "en": "we",
+          "why": "wir → haben.",
+          "tip": "haben",
+          "hint": "haben."
+        },
+        {
+          "before": "Gestern",
+          "after": "du Wasser getrunken.",
+          "answer": "hast",
+          "en": "you",
+          "why": "du → hast.",
+          "tip": "hast",
+          "hint": "hast."
+        },
+        {
+          "before": "Gestern",
+          "after": "ihr gut geschlafen.",
+          "answer": "habt",
+          "en": "you plural",
+          "why": "ihr → habt.",
+          "tip": "habt",
+          "hint": "habt."
+        },
+        {
+          "before": "",
+          "after": "der Arzt den Patienten untersucht?",
+          "answer": "Hat",
+          "en": "question",
+          "why": "Verb first.",
+          "tip": "Hat",
+          "hint": "Hat."
+        },
+        {
+          "before": "",
+          "after": "Sie etwas gegessen?",
+          "answer": "Haben",
+          "en": "formal",
+          "why": "Sie → haben.",
+          "tip": "Haben",
+          "hint": "Haben."
+        },
+        {
+          "before": "Sie hat heute",
+          "after": ".",
+          "answer": "gearbeitet",
+          "en": "worked",
+          "why": "gearbeitet last. arbeiten takes haben.",
+          "tip": "Ende",
+          "hint": "gearbeitet."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Gestern hat sie gemessen",
+        "paragraphs": [
+          "Gestern hat die Pflegekraft Fieber gemessen. Sie hat die Tablette genommen. Der Arzt hat den Patienten untersucht. Wir haben den Befund gelesen. Ich habe den Arzt gefragt. Sie hat gut geschlafen. Haben Sie etwas gegessen? Ich habe Wasser getrunken."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Was hat die Pflegekraft gemessen?",
+          "qEn": "Object.",
+          "options": [
+            "Fieber",
+            "Wasser",
+            "den Befund"
+          ],
+          "answer": 0,
+          "why": "Fieber gemessen.",
+          "hint": "Fieber."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer hat den Patienten untersucht?",
+          "qEn": "Subject.",
+          "options": [
+            "die Pflegekraft",
+            "der Arzt",
+            "ich"
+          ],
+          "answer": 1,
+          "why": "Der Arzt hat … untersucht.",
+          "hint": "The doctor."
+        },
+        {
+          "kind": "mc",
+          "q": "Womit schläft sie in diesem Text? Auxiliary.",
+          "qEn": "haben.",
+          "options": [
+            "ist",
+            "war",
+            "hat"
+          ],
+          "answer": 2,
+          "why": "Sie hat gut geschlafen.",
+          "hint": "hat."
+        },
+        {
+          "kind": "mc",
+          "q": "Was habe ich getrunken?",
+          "qEn": "Object.",
+          "options": [
+            "Wasser",
+            "die Tablette",
+            "den Befund"
+          ],
+          "answer": 0,
+          "why": "Wasser getrunken.",
+          "hint": "Water."
+        }
+      ]
+    },
+    {
+      "id": "writing-perf",
+      "label": "Writing",
+      "title": "Write yesterday",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four perfect sentences with haben.",
+      "prompt": "Measured the fever, took the tablet, slept well, drank water.",
+      "bullets": [
+        "gemessen",
+        "genommen",
+        "geschlafen",
+        "getrunken"
+      ],
+      "model": "Sie hat Fieber gemessen. Sie hat die Tablette genommen. Sie hat gut geschlafen. Ich habe Wasser getrunken.",
+      "modelEn": "She took the temperature. She took the tablet. She slept well. I drank water.",
+      "hint": "haben in position 2. Participle last.",
+      "checklist": [
+        {
+          "id": "g",
+          "label": "gemessen",
+          "keywords": [
+            "gemessen"
+          ]
+        },
+        {
+          "id": "n",
+          "label": "genommen",
+          "keywords": [
+            "genommen"
+          ]
+        },
+        {
+          "id": "s",
+          "label": "geschlafen",
+          "keywords": [
+            "geschlafen"
+          ]
+        },
+        {
+          "id": "t",
+          "label": "getrunken",
+          "keywords": [
+            "getrunken"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 24. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Measured the fever.",
+          "qEn": "messen.",
+          "options": [
+            "Sie hat Fieber gemessen.",
+            "Sie hat gemessen Fieber.",
+            "Sie ist Fieber gemessen."
+          ],
+          "answer": 0,
+          "why": "Last.",
+          "hint": "gemessen."
+        },
+        {
+          "kind": "mc",
+          "q": "Took the tablet.",
+          "qEn": "nehmen.",
+          "options": [
+            "Sie hat genommen die Tablette.",
+            "Sie hat die Tablette genommen.",
+            "Sie ist die Tablette genommen."
+          ],
+          "answer": 1,
+          "why": "Last.",
+          "hint": "genommen."
+        },
+        {
+          "kind": "mc",
+          "q": "Examined the patient.",
+          "qEn": "untersuchen.",
+          "options": [
+            "Der Arzt hat untersucht den Patienten.",
+            "Der Arzt ist den Patienten untersucht.",
+            "Der Arzt hat den Patienten untersucht."
+          ],
+          "answer": 2,
+          "why": "Last.",
+          "hint": "untersucht."
+        },
+        {
+          "kind": "mc",
+          "q": "Read the result.",
+          "qEn": "lesen.",
+          "options": [
+            "Wir haben den Befund gelesen.",
+            "Wir haben gelesen den Befund.",
+            "Wir sind den Befund gelesen."
+          ],
+          "answer": 0,
+          "why": "Last.",
+          "hint": "gelesen."
+        },
+        {
+          "kind": "mc",
+          "q": "Asked the doctor.",
+          "qEn": "fragen.",
+          "options": [
+            "Ich habe gefragt den Arzt.",
+            "Ich habe den Arzt gefragt.",
+            "Ich bin den Arzt gefragt."
+          ],
+          "answer": 1,
+          "why": "Last.",
+          "hint": "gefragt."
+        },
+        {
+          "kind": "mc",
+          "q": "Slept well.",
+          "qEn": "schlafen.",
+          "options": [
+            "Sie ist gut geschlafen.",
+            "Sie hat geschlafen gut.",
+            "Sie hat gut geschlafen."
+          ],
+          "answer": 2,
+          "why": "haben.",
+          "hint": "hat."
+        },
+        {
+          "kind": "mc",
+          "q": "Eaten something.",
+          "qEn": "essen.",
+          "options": [
+            "Haben Sie etwas gegessen?",
+            "Sind Sie etwas gegessen?",
+            "Haben Sie gegessen etwas?"
+          ],
+          "answer": 0,
+          "why": "haben.",
+          "hint": "gegessen."
+        },
+        {
+          "kind": "mc",
+          "q": "Drank water.",
+          "qEn": "trinken.",
+          "options": [
+            "Ich bin Wasser getrunken.",
+            "Ich habe Wasser getrunken.",
+            "Ich habe getrunken Wasser."
+          ],
+          "answer": 1,
+          "why": "haben.",
+          "hint": "getrunken."
+        },
+        {
+          "kind": "mc",
+          "q": "du, drank water.",
+          "qEn": "hast.",
+          "options": [
+            "Du hat Wasser getrunken.",
+            "Du hast getrunken Wasser.",
+            "Du hast Wasser getrunken."
+          ],
+          "answer": 2,
+          "why": "du → hast.",
+          "hint": "hast."
+        },
+        {
+          "kind": "mc",
+          "q": "ihr, slept.",
+          "qEn": "habt.",
+          "options": [
+            "Ihr habt gut geschlafen.",
+            "Ihr haben gut geschlafen.",
+            "Ihr seid gut geschlafen."
+          ],
+          "answer": 0,
+          "why": "ihr → habt.",
+          "hint": "habt."
+        },
+        {
+          "kind": "mc",
+          "q": "Went into the room.",
+          "qEn": "sein.",
+          "options": [
+            "Er hat ins Zimmer gegangen.",
+            "Er ist ins Zimmer gegangen.",
+            "Er hat gegangen ins Zimmer."
+          ],
+          "answer": 1,
+          "why": "gehen takes sein.",
+          "hint": "ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Where is the participle?",
+          "qEn": "End.",
+          "options": [
+            "in position 2",
+            "before haben",
+            "at the end"
+          ],
+          "answer": 2,
+          "why": "haben is position 2.",
+          "hint": "End."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "hat … Partizip",
+      "redemittel": [
+        {
+          "de": "Sie hat Fieber gemessen.",
+          "en": "She took the temperature."
+        },
+        {
+          "de": "Sie hat die Tablette genommen.",
+          "en": "She took the tablet."
+        },
+        {
+          "de": "Sie hat gut geschlafen.",
+          "en": "She slept well."
+        },
+        {
+          "de": "Ich habe Wasser getrunken.",
+          "en": "I drank water."
+        },
+        {
+          "de": "Wir haben den Befund gelesen.",
+          "en": "We read the result."
+        }
+      ]
+    }
+  ]
+}

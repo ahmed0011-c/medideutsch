@@ -1,0 +1,1638 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative or plural dative)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "article": "die",
+      "plural": "die Visiten",
+      "emoji": "🩺"
+    },
+    "montag": {
+      "de": "Montag",
+      "pos": "noun",
+      "en": "Monday",
+      "article": "der",
+      "plural": "die Montage",
+      "emoji": "📅"
+    },
+    "nimmt": {
+      "de": "nehmen → nimmt",
+      "pos": "verb",
+      "en": "takes"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "article": "die",
+      "plural": "die Tabletten",
+      "emoji": "💊"
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (clock time)"
+    },
+    "acht": {
+      "de": "acht",
+      "pos": "number",
+      "en": "eight"
+    },
+    "uhr": {
+      "de": "Uhr",
+      "pos": "noun",
+      "en": "o'clock",
+      "article": "die",
+      "plural": "die Uhren",
+      "emoji": "🕐"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in + dem"
+    },
+    "winter": {
+      "de": "Winter",
+      "pos": "noun",
+      "en": "winter",
+      "article": "der",
+      "plural": "die Winter",
+      "emoji": "❄️"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in"
+    },
+    "nacht": {
+      "de": "Nacht",
+      "pos": "noun",
+      "en": "night",
+      "article": "die",
+      "plural": "die Nächte",
+      "emoji": "🌙"
+    },
+    "misst": {
+      "de": "messen → misst",
+      "pos": "verb",
+      "en": "measures"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "after"
+    },
+    "essen": {
+      "de": "Essen",
+      "pos": "noun",
+      "en": "meal",
+      "article": "das",
+      "plural": "die Essen",
+      "emoji": "🍽️"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "before"
+    },
+    "trinkt": {
+      "de": "trinken → trinkt",
+      "pos": "verb",
+      "en": "drinks"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "plural": "Wasser",
+      "emoji": "💧"
+    },
+    "seit": {
+      "de": "seit",
+      "pos": "preposition",
+      "en": "since"
+    },
+    "husten": {
+      "de": "Husten",
+      "pos": "noun",
+      "en": "cough",
+      "article": "der",
+      "plural": "Husten",
+      "emoji": "😷"
+    },
+    "ab": {
+      "de": "ab",
+      "pos": "preposition",
+      "en": "from (a starting point)"
+    },
+    "freitag": {
+      "de": "Freitag",
+      "pos": "noun",
+      "en": "Friday",
+      "article": "der",
+      "plural": "die Freitage",
+      "emoji": "📅"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "preposition",
+      "en": "to; at"
+    },
+    "hause": {
+      "de": "zu Hause",
+      "pos": "adverb",
+      "en": "at home"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "an + dem; on a day"
+    }
+  },
+  "id": "a1-30-temporal",
+  "level": "A1",
+  "unit": "Kapitel 30",
+  "chapter": 30,
+  "chapters": [
+    30
+  ],
+  "title": "Im, am, um, von … bis",
+  "subtitle": "Prepositions of time",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "am for days and parts of the day: am Montag, am Morgen. The night is the exception: in der Nacht.",
+        "um for the clock: um acht Uhr. im for months and seasons: im Winter.",
+        "nach and vor take the dative: nach dem Essen, vor dem Essen.",
+        "seit looks back to a start that still holds. ab looks forward to a start. von … bis is the span."
+      ],
+      "vocab": [
+        {
+          "de": "Visite",
+          "article": "die",
+          "plural": "die Visiten",
+          "en": "ward round",
+          "emoji": "🩺",
+          "glossaryKey": "visite"
+        },
+        {
+          "de": "Montag",
+          "article": "der",
+          "plural": "die Montage",
+          "en": "Monday",
+          "emoji": "📅",
+          "glossaryKey": "montag"
+        },
+        {
+          "de": "Nacht",
+          "article": "die",
+          "plural": "die Nächte",
+          "en": "night",
+          "emoji": "🌙",
+          "glossaryKey": "nacht"
+        },
+        {
+          "de": "Essen",
+          "article": "das",
+          "plural": "die Essen",
+          "en": "meal",
+          "emoji": "🍽️",
+          "glossaryKey": "essen"
+        },
+        {
+          "de": "Husten",
+          "article": "der",
+          "plural": "Husten",
+          "en": "cough",
+          "emoji": "😷",
+          "glossaryKey": "husten"
+        },
+        {
+          "de": "Winter",
+          "article": "der",
+          "plural": "die Winter",
+          "en": "winter",
+          "emoji": "❄️",
+          "glossaryKey": "winter"
+        }
+      ],
+      "text": {
+        "title": "Am Montag",
+        "de": "Die Visite ist am Montag. Er nimmt die Tablette um acht Uhr. Im Winter bleibt er im Zimmer. In der Nacht misst die Pflegekraft das Fieber. Nach dem Essen nimmt er die Tablette. Vor dem Essen trinkt er Wasser. Seit Montag hat er Husten. Ab Freitag ist er zu Hause.",
+        "en": "The ward round is on Monday. He takes the tablet at eight o'clock. In winter he stays in the room. At night the nurse takes the temperature. After the meal he takes the tablet. Before the meal he drinks water. He has had a cough since Monday. From Friday he is at home."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "am, um, im",
+      "practice": "choose",
+      "heroTitle": "The time word chooses the preposition",
+      "heroImage": "calendar",
+      "story": [
+        "<b>am</b> Montag, <b>am</b> Morgen, but <b>in der</b> Nacht. <b>um</b> acht Uhr. <b>im</b> Winter, <b>im</b> Mai.",
+        "<b>vor</b> and <b>nach</b> take the dative: vor dem Essen, nach dem Essen.",
+        "<b>seit</b> Montag means it started then and is still true. <b>ab</b> Freitag means it will start then. <b>von</b> Montag <b>bis</b> Freitag is the whole span."
+      ],
+      "questionRule": "Day or part of the day: am. Clock: um. Month or season: im. Night: in der.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "Montag",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "am",
+              "r": "subj"
+            },
+            {
+              "t": "Montag",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "A day.",
+          "enAfter": "am Montag",
+          "callLabel": "Show am"
+        },
+        {
+          "before": [
+            {
+              "t": "acht",
+              "r": "subj"
+            },
+            {
+              "t": "Uhr",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "um",
+              "r": "subj"
+            },
+            {
+              "t": "acht",
+              "r": "verb"
+            },
+            {
+              "t": "Uhr",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "A clock time.",
+          "enAfter": "um acht Uhr",
+          "callLabel": "Show um"
+        },
+        {
+          "before": [
+            {
+              "t": "Nacht",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "in",
+              "r": "subj"
+            },
+            {
+              "t": "der",
+              "r": "verb"
+            },
+            {
+              "t": "Nacht",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "The exception.",
+          "enAfter": "in der Nacht",
+          "callLabel": "Show in der"
+        }
+      ],
+      "tables": [
+        {
+          "title": "am, um, im",
+          "caption": "One time idea, one preposition.",
+          "columns": [
+            "Zeit",
+            "Präposition",
+            "Beispiel"
+          ],
+          "rows": [
+            {
+              "label": "Tag",
+              "cells": [
+                "Tag, Tageszeit",
+                "am",
+                "am Montag, am Morgen"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Nacht",
+              "cells": [
+                "Nacht",
+                "in der",
+                "in der Nacht"
+              ]
+            },
+            {
+              "label": "Uhr",
+              "cells": [
+                "Uhrzeit",
+                "um",
+                "um acht Uhr"
+              ]
+            },
+            {
+              "label": "Saison",
+              "cells": [
+                "Monat, Jahreszeit",
+                "im",
+                "im Winter, im Mai"
+              ]
+            },
+            {
+              "label": "nach",
+              "cells": [
+                "danach",
+                "nach + Dativ",
+                "nach dem Essen"
+              ]
+            },
+            {
+              "label": "vor",
+              "cells": [
+                "davor",
+                "vor + Dativ",
+                "vor dem Essen"
+              ]
+            },
+            {
+              "label": "seit",
+              "cells": [
+                "Beginn, noch jetzt",
+                "seit",
+                "seit Montag"
+              ]
+            },
+            {
+              "label": "ab",
+              "cells": [
+                "Beginn in der Zukunft",
+                "ab",
+                "ab Freitag"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Nacht is not am",
+        "items": [
+          {
+            "de": "am Montag",
+            "en": "A day.",
+            "tone": "ok"
+          },
+          {
+            "de": "in der Nacht",
+            "en": "Not am Nacht.",
+            "tone": "ok"
+          },
+          {
+            "de": "am Nacht",
+            "en": "Nacht takes in der.",
+            "tone": "stop"
+          },
+          {
+            "de": "um acht Uhr",
+            "en": "A clock time.",
+            "tone": "ok"
+          },
+          {
+            "de": "am acht Uhr",
+            "en": "The clock takes um.",
+            "tone": "stop"
+          },
+          {
+            "de": "nach dem Essen",
+            "en": "Dative dem.",
+            "tone": "ok"
+          },
+          {
+            "de": "seit Montag",
+            "en": "It still holds.",
+            "tone": "ok"
+          }
+        ],
+        "tip": "am Tag, in der Nacht, um Uhr, im Monat. nach and vor plus dative."
+      },
+      "tips": [
+        {
+          "title": "Four clocks",
+          "emoji": "🕐",
+          "mnemonic": "am · um · im · in der Nacht",
+          "body": "am Montag, um acht Uhr, im Winter, in der Nacht. seit looks back. ab looks forward.",
+          "examples": [
+            {
+              "de": "Nach dem Essen nimmt er die Tablette.",
+              "en": "after, dative"
+            },
+            {
+              "de": "Ab Freitag ist er zu Hause.",
+              "en": "future start"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which preposition?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Monday.",
+          "qEn": "Day.",
+          "options": [
+            "am Montag",
+            "im Montag",
+            "um Montag"
+          ],
+          "answer": 0,
+          "why": "Days take am.",
+          "hint": "am."
+        },
+        {
+          "kind": "mc",
+          "q": "Eight o'clock.",
+          "qEn": "Clock.",
+          "options": [
+            "am acht Uhr",
+            "um acht Uhr",
+            "im acht Uhr"
+          ],
+          "answer": 1,
+          "why": "The clock takes um.",
+          "hint": "um."
+        },
+        {
+          "kind": "mc",
+          "q": "At night.",
+          "qEn": "Exception.",
+          "options": [
+            "am Nacht",
+            "im Nacht",
+            "in der Nacht"
+          ],
+          "answer": 2,
+          "why": "Nacht takes in der.",
+          "hint": "in der."
+        },
+        {
+          "kind": "mc",
+          "q": "After the meal.",
+          "qEn": "Dative.",
+          "options": [
+            "nach dem Essen",
+            "nach das Essen",
+            "nach den Essen"
+          ],
+          "answer": 0,
+          "why": "nach takes the dative.",
+          "hint": "dem."
+        }
+      ]
+    },
+    {
+      "id": "gap-time",
+      "label": "Lücken",
+      "title": "The preposition",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label blocks vor, nach and the wrong preposition. Each chip fits one sentence.",
+      "chips": [
+        {
+          "w": "am",
+          "hint": "am."
+        },
+        {
+          "w": "um",
+          "hint": "um."
+        },
+        {
+          "w": "Im",
+          "hint": "im."
+        },
+        {
+          "w": "In",
+          "hint": "in."
+        },
+        {
+          "w": "Nach",
+          "hint": "nach."
+        },
+        {
+          "w": "Vor",
+          "hint": "vor."
+        }
+      ],
+      "items": [
+        {
+          "before": "Genau an diesem Wochentag, nicht davor und nicht danach: Die Visite ist",
+          "after": "Montag.",
+          "answer": "am",
+          "en": "day",
+          "why": "Days take am.",
+          "tip": "Tag",
+          "hint": "am."
+        },
+        {
+          "before": "Punkt, nicht vorher und nicht nachher: Er nimmt die Tablette",
+          "after": "acht Uhr.",
+          "answer": "um",
+          "en": "clock",
+          "why": "Clock takes um.",
+          "tip": "Uhr",
+          "hint": "um."
+        },
+        {
+          "before": "Die Jahreszeit, Kontraktion, nicht davor und nicht danach:",
+          "after": "Winter bleibt er im Zimmer.",
+          "answer": "Im",
+          "en": "season",
+          "why": "Seasons take im.",
+          "tip": "Jahreszeit",
+          "hint": "im."
+        },
+        {
+          "before": "Während der Nacht, nicht vorher und nicht nachher:",
+          "after": "der Nacht misst sie das Fieber.",
+          "answer": "In",
+          "en": "night",
+          "why": "Nacht takes in der.",
+          "tip": "Nacht",
+          "hint": "in."
+        },
+        {
+          "before": "Später als das Essen:",
+          "after": "dem Essen nimmt er die Tablette.",
+          "answer": "Nach",
+          "en": "after",
+          "why": "Dative follows.",
+          "tip": "danach",
+          "hint": "nach."
+        },
+        {
+          "before": "Früher als das Essen:",
+          "after": "dem Essen trinkt er Wasser.",
+          "answer": "Vor",
+          "en": "before",
+          "why": "Dative follows.",
+          "tip": "davor",
+          "hint": "vor."
+        }
+      ]
+    },
+    {
+      "id": "match-time",
+      "label": "Match",
+      "title": "Which time word?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the phrase.",
+      "items": [
+        {
+          "prompt": "Monday.",
+          "options": [
+            {
+              "emoji": "📅",
+              "label": "am Montag",
+              "caption": "day"
+            },
+            {
+              "emoji": "❌",
+              "label": "um Montag",
+              "caption": "not a clock"
+            },
+            {
+              "emoji": "❌",
+              "label": "im Montag",
+              "caption": "not a month"
+            }
+          ],
+          "answer": 0,
+          "why": "am.",
+          "hint": "Day."
+        },
+        {
+          "prompt": "Eight o'clock.",
+          "options": [
+            {
+              "emoji": "🕐",
+              "label": "um acht Uhr",
+              "caption": "clock"
+            },
+            {
+              "emoji": "❌",
+              "label": "am acht Uhr",
+              "caption": "not a day"
+            },
+            {
+              "emoji": "❌",
+              "label": "im acht Uhr",
+              "caption": "not a month"
+            }
+          ],
+          "answer": 0,
+          "why": "um.",
+          "hint": "Clock."
+        },
+        {
+          "prompt": "Night.",
+          "options": [
+            {
+              "emoji": "🌙",
+              "label": "in der Nacht",
+              "caption": "exception"
+            },
+            {
+              "emoji": "❌",
+              "label": "am Nacht",
+              "caption": "wrong"
+            },
+            {
+              "emoji": "❌",
+              "label": "um Nacht",
+              "caption": "not a clock"
+            }
+          ],
+          "answer": 0,
+          "why": "in der.",
+          "hint": "Night."
+        },
+        {
+          "prompt": "Since Monday, still true.",
+          "options": [
+            {
+              "emoji": "📅",
+              "label": "seit Montag",
+              "caption": "still"
+            },
+            {
+              "emoji": "❌",
+              "label": "ab Montag",
+              "caption": "that is a future start"
+            },
+            {
+              "emoji": "❌",
+              "label": "um Montag",
+              "caption": "not a clock"
+            }
+          ],
+          "answer": 0,
+          "why": "seit.",
+          "hint": "Still."
+        }
+      ]
+    },
+    {
+      "id": "picture-time",
+      "label": "Picture",
+      "title": "Picture the time",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Name the time phrase.",
+      "items": [
+        {
+          "id": "monday",
+          "de": "Montag",
+          "article": "der",
+          "plural": "die Montage",
+          "en": "am Montag",
+          "image": {
+            "type": "svg",
+            "id": "calendar"
+          },
+          "hint": "am"
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "um acht Uhr",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "um"
+        },
+        {
+          "id": "fever",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "in der Nacht",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "in der"
+        },
+        {
+          "id": "bed",
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "im Winter",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "im"
+        }
+      ]
+    },
+    {
+      "id": "build-time",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "The preposition belongs to the time word.",
+      "items": [
+        {
+          "tiles": [
+            "Die",
+            "Visite",
+            "ist",
+            "am",
+            "Montag"
+          ],
+          "answers": [
+            "Die Visite ist am Montag"
+          ],
+          "punct": ".",
+          "modal": "Visite",
+          "inf": "Montag",
+          "question": false,
+          "en": "The round is on Monday.",
+          "hint": "am.",
+          "feedback": {
+            "fallback": "am."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "nimmt",
+            "sie",
+            "um",
+            "acht",
+            "Uhr"
+          ],
+          "answers": [
+            "Er nimmt sie um acht Uhr"
+          ],
+          "punct": ".",
+          "modal": "nimmt",
+          "inf": "Uhr",
+          "question": false,
+          "en": "He takes it at eight.",
+          "hint": "um. sie is the tablet.",
+          "feedback": {
+            "fallback": "um. sie is the tablet."
+          }
+        },
+        {
+          "tiles": [
+            "In",
+            "der",
+            "Nacht",
+            "misst",
+            "sie",
+            "Fieber"
+          ],
+          "answers": [
+            "In der Nacht misst sie Fieber"
+          ],
+          "punct": ".",
+          "modal": "der",
+          "inf": "Fieber",
+          "question": false,
+          "en": "At night she takes the temperature.",
+          "hint": "in der.",
+          "feedback": {
+            "fallback": "in der."
+          }
+        },
+        {
+          "tiles": [
+            "Ab",
+            "Freitag",
+            "ist",
+            "er",
+            "zu",
+            "Hause"
+          ],
+          "answers": [
+            "Ab Freitag ist er zu Hause"
+          ],
+          "punct": ".",
+          "modal": "Freitag",
+          "inf": "Hause",
+          "question": false,
+          "en": "From Friday he is at home.",
+          "hint": "ab.",
+          "feedback": {
+            "fallback": "ab."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-time",
+      "label": "Umformen",
+      "title": "Add the preposition",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the time phrase.",
+      "chips": [
+        {
+          "w": "am Montag",
+          "hint": "am."
+        },
+        {
+          "w": "um acht Uhr",
+          "hint": "um."
+        },
+        {
+          "w": "im Winter",
+          "hint": "im."
+        },
+        {
+          "w": "in der Nacht",
+          "hint": "in der."
+        },
+        {
+          "w": "nach dem Essen",
+          "hint": "dem."
+        },
+        {
+          "w": "ab Freitag",
+          "hint": "ab."
+        }
+      ],
+      "items": [
+        {
+          "before": "Montag →",
+          "after": "",
+          "answer": "am Montag",
+          "en": "day",
+          "why": "am.",
+          "tip": "Tag",
+          "hint": "am."
+        },
+        {
+          "before": "acht Uhr →",
+          "after": "",
+          "answer": "um acht Uhr",
+          "en": "clock",
+          "why": "um.",
+          "tip": "Uhr",
+          "hint": "um."
+        },
+        {
+          "before": "Winter →",
+          "after": "",
+          "answer": "im Winter",
+          "en": "season",
+          "why": "im.",
+          "tip": "Jahreszeit",
+          "hint": "im."
+        },
+        {
+          "before": "Nacht →",
+          "after": "",
+          "answer": "in der Nacht",
+          "en": "night",
+          "why": "in der.",
+          "tip": "Nacht",
+          "hint": "in der."
+        },
+        {
+          "before": "Essen, danach →",
+          "after": "",
+          "answer": "nach dem Essen",
+          "en": "after",
+          "why": "dative.",
+          "tip": "nach",
+          "hint": "dem."
+        },
+        {
+          "before": "Freitag, future start →",
+          "after": "",
+          "answer": "ab Freitag",
+          "en": "from",
+          "why": "ab.",
+          "tip": "ab",
+          "hint": "ab."
+        }
+      ]
+    },
+    {
+      "id": "error-time",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Visite ist um Montag."
+          ],
+          "options": [
+            "Die Visite ist am Montag.",
+            "Die Visite ist im Montag.",
+            "Die Visite ist in Montag."
+          ],
+          "answer": 0,
+          "reveal": "A day takes am.",
+          "hint": "am."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er nimmt sie am acht Uhr."
+          ],
+          "options": [
+            "Er nimmt sie um acht Uhr.",
+            "Er nimmt sie im acht Uhr.",
+            "Er nimmt sie in acht Uhr."
+          ],
+          "answer": 0,
+          "reveal": "The clock takes um.",
+          "hint": "um."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie misst am Nacht das Fieber."
+          ],
+          "options": [
+            "Sie misst in der Nacht das Fieber.",
+            "Sie misst im Nacht das Fieber.",
+            "Sie misst um Nacht das Fieber."
+          ],
+          "answer": 0,
+          "reveal": "Nacht takes in der.",
+          "hint": "in der."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Nach das Essen nimmt er sie."
+          ],
+          "options": [
+            "Nach dem Essen nimmt er sie.",
+            "Nach den Essen nimmt er sie.",
+            "Nach der Essen nimmt er sie."
+          ],
+          "answer": 0,
+          "reveal": "Essen is neuter dative: dem.",
+          "hint": "dem."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-time",
+      "label": "Dialog",
+      "title": "Medication times",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the only time phrase that fits.",
+      "chips": [
+        {
+          "w": "am Montag",
+          "hint": "am."
+        },
+        {
+          "w": "um acht Uhr",
+          "hint": "um."
+        },
+        {
+          "w": "in der Nacht",
+          "hint": "in der."
+        },
+        {
+          "w": "nach dem Essen",
+          "hint": "dem."
+        },
+        {
+          "w": "vor dem Essen",
+          "hint": "dem."
+        },
+        {
+          "w": "seit Montag",
+          "hint": "seit."
+        }
+      ],
+      "items": [
+        {
+          "before": "Ein Wochentag, nicht die Uhr: Die Visite ist",
+          "after": ".",
+          "answer": "am Montag",
+          "en": "day",
+          "why": "am.",
+          "tip": "Tag",
+          "hint": "am.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Die Uhr, nicht der Tag: Er nimmt die Tablette",
+          "after": ".",
+          "answer": "um acht Uhr",
+          "en": "clock",
+          "why": "um.",
+          "tip": "Uhr",
+          "hint": "um.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Nur die Nachtschicht: Bitte messen Sie das Fieber",
+          "after": ".",
+          "answer": "in der Nacht",
+          "en": "night",
+          "why": "in der.",
+          "tip": "Nacht",
+          "hint": "in der.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Später als das Essen: Er nimmt die Tablette",
+          "after": ".",
+          "answer": "nach dem Essen",
+          "en": "after",
+          "why": "dative.",
+          "tip": "nach",
+          "hint": "dem.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Früher als das Essen: Er trinkt Wasser",
+          "after": ".",
+          "answer": "vor dem Essen",
+          "en": "before",
+          "why": "dative.",
+          "tip": "vor",
+          "hint": "dem.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Seit wann, es dauert noch an: Er hat Husten",
+          "after": ".",
+          "answer": "seit Montag",
+          "en": "since",
+          "why": "still true.",
+          "tip": "seit",
+          "hint": "seit.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-time",
+      "label": "Lücken",
+      "title": "seit, ab, von, bis",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the only time phrase that fits.",
+      "chips": [
+        {
+          "w": "seit Montag",
+          "hint": "seit."
+        },
+        {
+          "w": "ab Freitag",
+          "hint": "ab."
+        },
+        {
+          "w": "von Montag bis Freitag",
+          "hint": "von bis."
+        },
+        {
+          "w": "zwischen acht und zehn",
+          "hint": "zwischen."
+        },
+        {
+          "w": "im Mai",
+          "hint": "im."
+        },
+        {
+          "w": "am Morgen",
+          "hint": "am."
+        },
+        {
+          "w": "in der Nacht",
+          "hint": "in der."
+        },
+        {
+          "w": "vor der Visite",
+          "hint": "der."
+        }
+      ],
+      "items": [
+        {
+          "before": "Seit wann, und es ist noch so: Er hat Husten",
+          "after": ".",
+          "answer": "seit Montag",
+          "en": "still",
+          "why": "seit.",
+          "tip": "seit",
+          "hint": "seit."
+        },
+        {
+          "before": "Zukunft, ein Starttag, noch nicht heute: Er ist zu Hause",
+          "after": ".",
+          "answer": "ab Freitag",
+          "en": "future",
+          "why": "ab.",
+          "tip": "ab",
+          "hint": "ab."
+        },
+        {
+          "before": "Eine Spanne von Tagen, nicht eine Uhrzeit: Die Visite ist",
+          "after": ".",
+          "answer": "von Montag bis Freitag",
+          "en": "span",
+          "why": "von … bis.",
+          "tip": "bis",
+          "hint": "von bis."
+        },
+        {
+          "before": "Zwischen zwei Uhrzeiten: Er nimmt die Tablette",
+          "after": ".",
+          "answer": "zwischen acht und zehn",
+          "en": "between",
+          "why": "zwischen.",
+          "tip": "zwischen",
+          "hint": "zwischen."
+        },
+        {
+          "before": "Ein Monat, nicht ein Start: Er bleibt",
+          "after": "im Zimmer.",
+          "answer": "im Mai",
+          "en": "month",
+          "why": "Months take im.",
+          "tip": "Monat",
+          "hint": "im."
+        },
+        {
+          "before": "Die Tageszeit, nicht die Nacht: Die Visite ist",
+          "after": ".",
+          "answer": "am Morgen",
+          "en": "part of the day",
+          "why": "am, not the night.",
+          "tip": "Morgen",
+          "hint": "am."
+        },
+        {
+          "before": "Nie am Tag, nur die Nachtschicht: Sie misst das Fieber",
+          "after": ".",
+          "answer": "in der Nacht",
+          "en": "night again, unique phrase",
+          "why": "in der.",
+          "tip": "Nacht",
+          "hint": "in der."
+        },
+        {
+          "before": "Früher als die Visite: Er trinkt Wasser",
+          "after": ".",
+          "answer": "vor der Visite",
+          "en": "before, feminine dative",
+          "why": "der Visite is feminine dative.",
+          "tip": "vor",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Am Montag",
+        "paragraphs": [
+          "Die Visite ist am Montag. Er nimmt die Tablette um acht Uhr. Im Winter bleibt er im Zimmer. In der Nacht misst die Pflegekraft das Fieber. Nach dem Essen nimmt er die Tablette. Vor dem Essen trinkt er Wasser. Seit Montag hat er Husten. Ab Freitag ist er zu Hause."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wann ist die Visite?",
+          "qEn": "Day.",
+          "options": [
+            "am Montag",
+            "um Montag",
+            "im Montag"
+          ],
+          "answer": 0,
+          "why": "am.",
+          "hint": "am."
+        },
+        {
+          "kind": "mc",
+          "q": "Wann nimmt er die Tablette? Clock.",
+          "qEn": "Clock.",
+          "options": [
+            "am acht Uhr",
+            "um acht Uhr",
+            "im acht Uhr"
+          ],
+          "answer": 1,
+          "why": "um.",
+          "hint": "um."
+        },
+        {
+          "kind": "mc",
+          "q": "Wann misst sie das Fieber in diesem Text?",
+          "qEn": "Night.",
+          "options": [
+            "am Nacht",
+            "um Nacht",
+            "in der Nacht"
+          ],
+          "answer": 2,
+          "why": "in der Nacht.",
+          "hint": "Night."
+        },
+        {
+          "kind": "mc",
+          "q": "Seit wann hat er Husten?",
+          "qEn": "Still.",
+          "options": [
+            "seit Montag",
+            "ab Freitag",
+            "um Montag"
+          ],
+          "answer": 0,
+          "why": "seit.",
+          "hint": "seit."
+        }
+      ]
+    },
+    {
+      "id": "writing-time",
+      "label": "Writing",
+      "title": "Write the times",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four time phrases in sentences.",
+      "prompt": "On Monday, at eight, at night, after the meal.",
+      "bullets": [
+        "am Montag",
+        "um acht",
+        "in der Nacht",
+        "nach dem Essen"
+      ],
+      "model": "Die Visite ist am Montag. Er nimmt die Tablette um acht Uhr. In der Nacht misst sie das Fieber. Nach dem Essen nimmt er die Tablette.",
+      "modelEn": "The round is on Monday. He takes the tablet at eight. At night she takes the temperature. After the meal he takes the tablet.",
+      "hint": "am for the day, um for the clock, in der for the night, nach plus dative.",
+      "checklist": [
+        {
+          "id": "a",
+          "label": "am Montag",
+          "keywords": [
+            "am Montag"
+          ]
+        },
+        {
+          "id": "u",
+          "label": "um acht",
+          "keywords": [
+            "um acht"
+          ]
+        },
+        {
+          "id": "n",
+          "label": "in der Nacht",
+          "keywords": [
+            "in der Nacht"
+          ]
+        },
+        {
+          "id": "e",
+          "label": "nach dem Essen",
+          "keywords": [
+            "nach dem Essen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 30. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Monday.",
+          "qEn": "Day.",
+          "options": [
+            "am Montag",
+            "um Montag",
+            "im Montag"
+          ],
+          "answer": 0,
+          "why": "am.",
+          "hint": "am."
+        },
+        {
+          "kind": "mc",
+          "q": "Morning.",
+          "qEn": "Part of the day.",
+          "options": [
+            "in der Morgen",
+            "am Morgen",
+            "um Morgen"
+          ],
+          "answer": 1,
+          "why": "am.",
+          "hint": "am."
+        },
+        {
+          "kind": "mc",
+          "q": "Night.",
+          "qEn": "Exception.",
+          "options": [
+            "am Nacht",
+            "im Nacht",
+            "in der Nacht"
+          ],
+          "answer": 2,
+          "why": "in der.",
+          "hint": "in der."
+        },
+        {
+          "kind": "mc",
+          "q": "Eight o'clock.",
+          "qEn": "Clock.",
+          "options": [
+            "um acht Uhr",
+            "am acht Uhr",
+            "im acht Uhr"
+          ],
+          "answer": 0,
+          "why": "um.",
+          "hint": "um."
+        },
+        {
+          "kind": "mc",
+          "q": "Winter.",
+          "qEn": "Season.",
+          "options": [
+            "am Winter",
+            "im Winter",
+            "um Winter"
+          ],
+          "answer": 1,
+          "why": "im.",
+          "hint": "im."
+        },
+        {
+          "kind": "mc",
+          "q": "May.",
+          "qEn": "Month.",
+          "options": [
+            "am Mai",
+            "um Mai",
+            "im Mai"
+          ],
+          "answer": 2,
+          "why": "im.",
+          "hint": "im."
+        },
+        {
+          "kind": "mc",
+          "q": "After the meal.",
+          "qEn": "Dative.",
+          "options": [
+            "nach dem Essen",
+            "nach das Essen",
+            "nach den Essen"
+          ],
+          "answer": 0,
+          "why": "dem.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Before the round. Visite is feminine.",
+          "qEn": "Dative.",
+          "options": [
+            "vor die Visite",
+            "vor der Visite",
+            "vor dem Visite"
+          ],
+          "answer": 1,
+          "why": "der.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Cough since Monday, still true.",
+          "qEn": "seit.",
+          "options": [
+            "ab Montag",
+            "um Montag",
+            "seit Montag"
+          ],
+          "answer": 2,
+          "why": "seit.",
+          "hint": "seit."
+        },
+        {
+          "kind": "mc",
+          "q": "At home from Friday.",
+          "qEn": "ab.",
+          "options": [
+            "ab Freitag",
+            "seit Freitag",
+            "um Freitag"
+          ],
+          "answer": 0,
+          "why": "Future start is ab.",
+          "hint": "ab."
+        },
+        {
+          "kind": "mc",
+          "q": "Monday to Friday.",
+          "qEn": "Span.",
+          "options": [
+            "seit Montag bis Freitag",
+            "von Montag bis Freitag",
+            "am Montag bis Freitag"
+          ],
+          "answer": 1,
+          "why": "von … bis.",
+          "hint": "von bis."
+        },
+        {
+          "kind": "mc",
+          "q": "Between eight and ten.",
+          "qEn": "zwischen.",
+          "options": [
+            "um acht und zehn",
+            "am acht und zehn",
+            "zwischen acht und zehn"
+          ],
+          "answer": 2,
+          "why": "zwischen.",
+          "hint": "zwischen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "am, um, im, in der Nacht",
+      "redemittel": [
+        {
+          "de": "Die Visite ist am Montag.",
+          "en": "The ward round is on Monday."
+        },
+        {
+          "de": "Er nimmt die Tablette um acht Uhr.",
+          "en": "He takes the tablet at eight."
+        },
+        {
+          "de": "In der Nacht misst sie das Fieber.",
+          "en": "At night she takes the temperature."
+        },
+        {
+          "de": "Nach dem Essen nimmt er die Tablette.",
+          "en": "After the meal he takes the tablet."
+        },
+        {
+          "de": "Seit Montag hat er Husten.",
+          "en": "He has had a cough since Monday."
+        }
+      ]
+    }
+  ]
+}

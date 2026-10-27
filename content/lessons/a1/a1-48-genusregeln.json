@@ -1,0 +1,1828 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "sind": {
+      "de": "sein → sind",
+      "pos": "verb",
+      "en": "are"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in"
+    },
+    "neben": {
+      "de": "neben",
+      "pos": "preposition",
+      "en": "next to"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in + dem"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "contraction",
+      "en": "von + dem"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "an + dem"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "article": "der",
+      "plural": "die Tische",
+      "emoji": "🪑"
+    },
+    "anmeldung": {
+      "de": "Anmeldung",
+      "pos": "noun",
+      "en": "reception",
+      "article": "die",
+      "plural": "die Anmeldungen",
+      "emoji": "🗂️"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "untersuchung": {
+      "de": "Untersuchung",
+      "pos": "noun",
+      "en": "examination",
+      "article": "die",
+      "plural": "die Untersuchungen",
+      "emoji": "🔎"
+    },
+    "krankheit": {
+      "de": "Krankheit",
+      "pos": "noun",
+      "en": "illness",
+      "article": "die",
+      "plural": "die Krankheiten",
+      "emoji": "🤒"
+    },
+    "operation": {
+      "de": "Operation",
+      "pos": "noun",
+      "en": "operation",
+      "article": "die",
+      "plural": "die Operationen",
+      "emoji": "🏥"
+    },
+    "medikament": {
+      "de": "Medikament",
+      "pos": "noun",
+      "en": "medication",
+      "article": "das",
+      "plural": "die Medikamente",
+      "emoji": "💊"
+    },
+    "röhrchen": {
+      "de": "Röhrchen",
+      "pos": "noun",
+      "en": "small tube",
+      "article": "das",
+      "plural": "die Röhrchen",
+      "emoji": "🧪"
+    },
+    "labor": {
+      "de": "Labor",
+      "pos": "noun",
+      "en": "laboratory",
+      "article": "das",
+      "plural": "die Labore",
+      "emoji": "🔬"
+    },
+    "pfleger": {
+      "de": "Pfleger",
+      "pos": "noun",
+      "en": "nurse (male)",
+      "article": "der",
+      "plural": "die Pfleger",
+      "emoji": "🧑‍⚕️"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🤒"
+    },
+    "auge": {
+      "de": "Auge",
+      "pos": "noun",
+      "en": "eye",
+      "article": "das",
+      "plural": "die Augen",
+      "emoji": "👁️"
+    },
+    "name": {
+      "de": "Name",
+      "pos": "noun",
+      "en": "name",
+      "article": "der",
+      "plural": "die Namen",
+      "emoji": "🏷️"
+    },
+    "montag": {
+      "de": "Montag",
+      "pos": "noun",
+      "en": "Monday",
+      "article": "der",
+      "plural": "die Montage",
+      "emoji": "📅"
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new"
+    },
+    "wichtig": {
+      "de": "wichtig",
+      "pos": "adjective",
+      "en": "important"
+    },
+    "rot": {
+      "de": "rot",
+      "pos": "adjective",
+      "en": "red"
+    },
+    "misst": {
+      "de": "messen → misst",
+      "pos": "verb",
+      "en": "measures"
+    }
+  },
+  "id": "a1-48-genusregeln",
+  "level": "A1",
+  "unit": "Kapitel 48",
+  "chapter": 48,
+  "chapters": [
+    48
+  ],
+  "title": "Der, die oder das?",
+  "subtitle": "Gender patterns for hospital nouns",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "die: -ung, -heit, -keit, -ion, -tät, -in, and most nouns in -e. die Untersuchung, die Krankheit, die Operation, die Tablette.",
+        "das: -chen, -lein, -ment, -um. das Röhrchen, das Medikament, das Zentrum.",
+        "der: -er for a person or a device, -ling, -ismus, days, months, male persons. der Pfleger, der Montag, der Januar.",
+        "Learn the exceptions as a short list: das Auge, der Name, die Woche. In a compound, the last noun still decides."
+      ],
+      "vocab": [
+        {
+          "de": "Untersuchung",
+          "article": "die",
+          "plural": "die Untersuchungen",
+          "en": "examination",
+          "emoji": "🔎",
+          "glossaryKey": "untersuchung"
+        },
+        {
+          "de": "Medikament",
+          "article": "das",
+          "plural": "die Medikamente",
+          "en": "medication",
+          "emoji": "💊",
+          "glossaryKey": "medikament"
+        },
+        {
+          "de": "Röhrchen",
+          "article": "das",
+          "plural": "die Röhrchen",
+          "en": "small tube",
+          "emoji": "🧪",
+          "glossaryKey": "röhrchen"
+        },
+        {
+          "de": "Montag",
+          "article": "der",
+          "plural": "die Montage",
+          "en": "Monday",
+          "emoji": "📅",
+          "glossaryKey": "montag"
+        },
+        {
+          "de": "Pfleger",
+          "article": "der",
+          "plural": "die Pfleger",
+          "en": "nurse",
+          "emoji": "🧑‍⚕️",
+          "glossaryKey": "pfleger"
+        },
+        {
+          "de": "Auge",
+          "article": "das",
+          "plural": "die Augen",
+          "en": "eye",
+          "emoji": "👁️",
+          "glossaryKey": "auge"
+        }
+      ],
+      "text": {
+        "title": "Die Untersuchung",
+        "de": "Die Untersuchung ist am Montag. Die Krankheit ist neu. Die Operation ist wichtig. Das Medikament liegt auf dem Tisch. Das Röhrchen kommt aus dem Labor. Der Pfleger misst Fieber. Das Auge ist rot. Der Name steht in der Akte.",
+        "en": "The examination is on Monday. The illness is new. The operation is important. The medication is on the table. The little tube comes from the lab. The nurse takes a temperature. The eye is red. The name is in the chart."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Endungen",
+      "practice": "choose",
+      "heroTitle": "The ending often names the article",
+      "heroImage": "clipboard",
+      "story": [
+        "In the table, <b>der</b> is blue, <b>die</b> is red and <b>das</b> is green, the same colours as the articles everywhere in MediDeutsch.",
+        "Feminine endings: <b>-ung, -heit, -keit, -ion, -tät, -in</b>, and most words in <b>-e</b>. Neuter endings: <b>-chen, -lein, -ment, -um</b>. Masculine: <b>-er</b> for a person or a machine, <b>-ling, -ismus</b>, plus days and months.",
+        "Three exceptions to keep: <b>das Auge</b>, <b>der Name</b>, <b>die Woche</b>. And a compound still takes the article of its last noun: die Untersuchung, but der Untersuchungsraum."
+      ],
+      "questionRule": "Look at the ending first. If the word is a compound, look at the <b>last</b> noun, not at -ung in the middle.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "-ung",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "die",
+              "r": "subj"
+            },
+            {
+              "t": "Untersuchung",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Feminine ending.",
+          "enAfter": "die Untersuchung.",
+          "callLabel": "Show die"
+        },
+        {
+          "before": [
+            {
+              "t": "-chen",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "das",
+              "r": "subj"
+            },
+            {
+              "t": "Röhrchen",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Neuter ending.",
+          "enAfter": "das Röhrchen.",
+          "callLabel": "Show das"
+        },
+        {
+          "before": [
+            {
+              "t": "Montag",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "der",
+              "r": "subj"
+            },
+            {
+              "t": "Montag",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Days are masculine.",
+          "enAfter": "der Montag.",
+          "callLabel": "Show der"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Endungen",
+          "caption": "der is blue, die is red, das is green. One ending, one article, one hospital noun.",
+          "columns": [
+            "Artikel",
+            "Beispiel"
+          ],
+          "rows": [
+            {
+              "label": "-ung",
+              "cells": [
+                "die",
+                "die Untersuchung"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "-heit",
+              "cells": [
+                "die",
+                "die Krankheit"
+              ]
+            },
+            {
+              "label": "-keit",
+              "cells": [
+                "die",
+                "die Möglichkeit"
+              ]
+            },
+            {
+              "label": "-ion",
+              "cells": [
+                "die",
+                "die Operation"
+              ]
+            },
+            {
+              "label": "-tät",
+              "cells": [
+                "die",
+                "die Qualität"
+              ]
+            },
+            {
+              "label": "-in",
+              "cells": [
+                "die",
+                "die Patientin"
+              ]
+            },
+            {
+              "label": "-e",
+              "cells": [
+                "die",
+                "die Tablette"
+              ]
+            },
+            {
+              "label": "-chen",
+              "cells": [
+                "das",
+                "das Röhrchen"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "-lein",
+              "cells": [
+                "das",
+                "das Kindlein"
+              ]
+            },
+            {
+              "label": "-ment",
+              "cells": [
+                "das",
+                "das Medikament"
+              ]
+            },
+            {
+              "label": "-um",
+              "cells": [
+                "das",
+                "das Zentrum"
+              ]
+            },
+            {
+              "label": "-er",
+              "cells": [
+                "der",
+                "der Pfleger"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "-ling",
+              "cells": [
+                "der",
+                "der Säugling"
+              ]
+            },
+            {
+              "label": "-ismus",
+              "cells": [
+                "der",
+                "der Organismus"
+              ]
+            },
+            {
+              "label": "Tage",
+              "cells": [
+                "der",
+                "der Montag"
+              ]
+            },
+            {
+              "label": "Monate",
+              "cells": [
+                "der",
+                "der Januar"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ausnahmen",
+          "caption": "These three do not follow the ending. Learn them as a set.",
+          "columns": [
+            "Artikel",
+            "Warum nicht die Regel"
+          ],
+          "rows": [
+            {
+              "label": "Auge",
+              "cells": [
+                "das",
+                "ends in -e, but das Auge"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Name",
+              "cells": [
+                "der",
+                "ends in -e, but der Name"
+              ]
+            },
+            {
+              "label": "Woche",
+              "cells": [
+                "die",
+                "a time word, but not a day or a month"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kompositum",
+          "caption": "The ending of the last noun wins, even when an earlier block looks feminine.",
+          "columns": [
+            "Artikel",
+            "Wort"
+          ],
+          "rows": [
+            {
+              "label": "Untersuchung",
+              "cells": [
+                "die",
+                "die Untersuchung"
+              ]
+            },
+            {
+              "label": "Untersuchungsraum",
+              "cells": [
+                "der",
+                "der Untersuchungsraum"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Station",
+              "cells": [
+                "die",
+                "die Station"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Endings, then the exceptions",
+        "items": [
+          {
+            "de": "die Untersuchung",
+            "en": "-ung is feminine.",
+            "tone": "ok"
+          },
+          {
+            "de": "der Untersuchung",
+            "en": "-ung is not masculine.",
+            "tone": "stop"
+          },
+          {
+            "de": "das Medikament",
+            "en": "-ment is neuter.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Medikament",
+            "en": "-ment is not feminine.",
+            "tone": "stop"
+          },
+          {
+            "de": "das Auge",
+            "en": "Exception. It ends in -e and is still das.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Auge",
+            "en": "Do not trust -e here.",
+            "tone": "stop"
+          },
+          {
+            "de": "der Name",
+            "en": "Exception. It ends in -e and is der.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Name",
+            "en": "Name is not feminine.",
+            "tone": "stop"
+          },
+          {
+            "de": "der Montag",
+            "en": "Days are masculine.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Woche",
+            "en": "Woche is the exception among time words.",
+            "tone": "ok"
+          }
+        ],
+        "tip": "Feminine endings first, then -chen and -ment, then days and -er. Auge, Name, Woche sit outside the song."
+      },
+      "tips": [
+        {
+          "title": "die",
+          "emoji": "🔴",
+          "mnemonic": "-ung -heit -keit -ion -tät -in -e",
+          "body": "If you can hear one of these endings, try die. Tablette, Spritze and Akte end in -e and are feminine. Most -e nouns are.",
+          "examples": [
+            {
+              "de": "die Operation, die Krankheit",
+              "en": "-ion, -heit"
+            },
+            {
+              "de": "die Patientin, die Tablette",
+              "en": "-in, -e"
+            }
+          ]
+        },
+        {
+          "title": "das und der",
+          "emoji": "🟢",
+          "mnemonic": "-chen -ment -um · -er -ling Tage Monate",
+          "body": "das Röhrchen, das Medikament, das Zentrum. der Pfleger, der Säugling, der Montag, der Januar. Male persons are der: der Arzt, der Patient.",
+          "examples": [
+            {
+              "de": "das Auge, der Name, die Woche",
+              "en": "the three exceptions"
+            },
+            {
+              "de": "der Untersuchungsraum",
+              "en": "Raum decides, not -ung"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which article does the ending want?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "-ung, as in Untersuchung.",
+          "qEn": "Feminine ending.",
+          "options": [
+            "die",
+            "der",
+            "das"
+          ],
+          "answer": 0,
+          "why": "-ung is die.",
+          "hint": "Feminine."
+        },
+        {
+          "kind": "mc",
+          "q": "-ment, as in Medikament.",
+          "qEn": "Neuter ending.",
+          "options": [
+            "die",
+            "das",
+            "der"
+          ],
+          "answer": 1,
+          "why": "-ment is das.",
+          "hint": "Neuter."
+        },
+        {
+          "kind": "mc",
+          "q": "A day of the week.",
+          "qEn": "Montag.",
+          "options": [
+            "die",
+            "das",
+            "der"
+          ],
+          "answer": 2,
+          "why": "Days are masculine.",
+          "hint": "der Montag."
+        },
+        {
+          "kind": "mc",
+          "q": "Auge ends in -e. Which article?",
+          "qEn": "Exception.",
+          "options": [
+            "das",
+            "die",
+            "der"
+          ],
+          "answer": 0,
+          "why": "das Auge is the exception.",
+          "hint": "Not die."
+        }
+      ]
+    },
+    {
+      "id": "gap-articles",
+      "label": "Lücken",
+      "title": "Article and noun",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is the article plus the noun. Use each one once.",
+      "chips": [
+        {
+          "w": "die Untersuchung",
+          "hint": "Feminine."
+        },
+        {
+          "w": "die Krankheit",
+          "hint": "Feminine."
+        },
+        {
+          "w": "die Operation",
+          "hint": "Feminine."
+        },
+        {
+          "w": "das Medikament",
+          "hint": "Neuter."
+        },
+        {
+          "w": "das Röhrchen",
+          "hint": "Neuter."
+        },
+        {
+          "w": "der Montag",
+          "hint": "A day."
+        }
+      ],
+      "items": [
+        {
+          "before": "Am Montag ist",
+          "after": ".",
+          "answer": "die Untersuchung",
+          "en": "the examination",
+          "why": "-ung → die.",
+          "tip": "-ung",
+          "hint": "Feminine."
+        },
+        {
+          "before": "Neu ist",
+          "after": ".",
+          "answer": "die Krankheit",
+          "en": "the illness",
+          "why": "-heit → die.",
+          "tip": "-heit",
+          "hint": "Feminine."
+        },
+        {
+          "before": "Wichtig ist",
+          "after": ".",
+          "answer": "die Operation",
+          "en": "the operation",
+          "why": "-ion → die.",
+          "tip": "-ion",
+          "hint": "Feminine."
+        },
+        {
+          "before": "Auf dem Tisch liegt",
+          "after": ".",
+          "answer": "das Medikament",
+          "en": "the medication",
+          "why": "-ment → das.",
+          "tip": "-ment",
+          "hint": "Neuter."
+        },
+        {
+          "before": "Aus dem Labor kommt",
+          "after": ".",
+          "answer": "das Röhrchen",
+          "en": "the little tube",
+          "why": "-chen → das.",
+          "tip": "-chen",
+          "hint": "Neuter."
+        },
+        {
+          "before": "Heute ist",
+          "after": ".",
+          "answer": "der Montag",
+          "en": "Monday",
+          "why": "Days are der.",
+          "tip": "Tag",
+          "hint": "A day."
+        }
+      ]
+    },
+    {
+      "id": "match-gender",
+      "label": "Match",
+      "title": "Which group?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the article the ending wants.",
+      "items": [
+        {
+          "prompt": "-ung, -heit, -ion, -tät",
+          "options": [
+            {
+              "emoji": "🔴",
+              "label": "die",
+              "caption": "feminine endings"
+            },
+            {
+              "emoji": "🟢",
+              "label": "das",
+              "caption": "neuter endings"
+            },
+            {
+              "emoji": "🔵",
+              "label": "der",
+              "caption": "masculine endings"
+            }
+          ],
+          "answer": 0,
+          "why": "These endings are feminine.",
+          "hint": "die."
+        },
+        {
+          "prompt": "-chen, -ment, -um",
+          "options": [
+            {
+              "emoji": "🟢",
+              "label": "das",
+              "caption": "neuter endings"
+            },
+            {
+              "emoji": "🔴",
+              "label": "die",
+              "caption": "feminine endings"
+            },
+            {
+              "emoji": "🔵",
+              "label": "der",
+              "caption": "masculine endings"
+            }
+          ],
+          "answer": 0,
+          "why": "These endings are neuter.",
+          "hint": "das."
+        },
+        {
+          "prompt": "Days, months, and -er for a person.",
+          "options": [
+            {
+              "emoji": "🔵",
+              "label": "der",
+              "caption": "der Montag, der Pfleger"
+            },
+            {
+              "emoji": "🔴",
+              "label": "die",
+              "caption": "not the day"
+            },
+            {
+              "emoji": "🟢",
+              "label": "das",
+              "caption": "not the person"
+            }
+          ],
+          "answer": 0,
+          "why": "Days, months and -er persons are masculine.",
+          "hint": "der."
+        },
+        {
+          "prompt": "The eye. It ends in -e.",
+          "options": [
+            {
+              "emoji": "👁️",
+              "label": "das Auge",
+              "caption": "exception"
+            },
+            {
+              "emoji": "🔴",
+              "label": "die Auge",
+              "caption": "the -e rule fails"
+            },
+            {
+              "emoji": "🔵",
+              "label": "der Auge",
+              "caption": "not masculine"
+            }
+          ],
+          "answer": 0,
+          "why": "das Auge is an exception.",
+          "hint": "Memorise it."
+        }
+      ]
+    },
+    {
+      "id": "picture-gender",
+      "label": "Picture",
+      "title": "Picture the gender",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the picture. The article follows the ending, or the exception.",
+      "items": [
+        {
+          "id": "montag",
+          "de": "Montag",
+          "article": "der",
+          "plural": "die Montage",
+          "en": "Monday — days are der",
+          "image": {
+            "type": "svg",
+            "id": "calendar"
+          },
+          "hint": "A day."
+        },
+        {
+          "id": "roehrchen",
+          "de": "Röhrchen",
+          "article": "das",
+          "plural": "die Röhrchen",
+          "en": "little tube — -chen is das",
+          "image": {
+            "type": "svg",
+            "id": "vial"
+          },
+          "hint": "-chen."
+        },
+        {
+          "id": "tablette",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet — most -e nouns are die",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "-e."
+        },
+        {
+          "id": "arzt",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor — a male person is der",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "Person."
+        }
+      ]
+    },
+    {
+      "id": "build-gender",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Keep the article with its noun.",
+      "items": [
+        {
+          "tiles": [
+            "Die",
+            "Untersuchung",
+            "ist",
+            "wichtig"
+          ],
+          "answers": [
+            "Die Untersuchung ist wichtig"
+          ],
+          "punct": ".",
+          "modal": "Untersuchung",
+          "inf": "wichtig",
+          "question": false,
+          "en": "The examination is important.",
+          "hint": "-ung → die.",
+          "feedback": {
+            "fallback": "-ung → die."
+          }
+        },
+        {
+          "tiles": [
+            "Das",
+            "Medikament",
+            "liegt",
+            "hier"
+          ],
+          "answers": [
+            "Das Medikament liegt hier"
+          ],
+          "punct": ".",
+          "modal": "Medikament",
+          "inf": "hier",
+          "question": false,
+          "en": "The medication is here.",
+          "hint": "-ment → das.",
+          "feedback": {
+            "fallback": "-ment → das."
+          }
+        },
+        {
+          "tiles": [
+            "Das",
+            "Röhrchen",
+            "kommt",
+            "heute"
+          ],
+          "answers": [
+            "Das Röhrchen kommt heute"
+          ],
+          "punct": ".",
+          "modal": "Röhrchen",
+          "inf": "heute",
+          "question": false,
+          "en": "The little tube comes today.",
+          "hint": "-chen → das.",
+          "feedback": {
+            "fallback": "-chen → das."
+          }
+        },
+        {
+          "tiles": [
+            "Der",
+            "Pfleger",
+            "misst",
+            "Fieber"
+          ],
+          "answers": [
+            "Der Pfleger misst Fieber"
+          ],
+          "punct": ".",
+          "modal": "Pfleger",
+          "inf": "Fieber",
+          "question": false,
+          "en": "The nurse takes a temperature.",
+          "hint": "-er → der.",
+          "feedback": {
+            "fallback": "-er → der."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-gender",
+      "label": "Umformen",
+      "title": "Add the article",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The ending tells you the article. Write the article and the noun.",
+      "chips": [
+        {
+          "w": "die Untersuchung",
+          "hint": "Feminine."
+        },
+        {
+          "w": "das Medikament",
+          "hint": "Neuter."
+        },
+        {
+          "w": "das Röhrchen",
+          "hint": "Neuter."
+        },
+        {
+          "w": "der Pfleger",
+          "hint": "Masculine."
+        },
+        {
+          "w": "der Montag",
+          "hint": "Masculine."
+        },
+        {
+          "w": "die Patientin",
+          "hint": "Feminine."
+        }
+      ],
+      "items": [
+        {
+          "before": "Endung -ung:",
+          "after": "",
+          "answer": "die Untersuchung",
+          "en": "examination",
+          "why": "-ung → die.",
+          "tip": "-ung",
+          "hint": "Feminine."
+        },
+        {
+          "before": "Endung -ment:",
+          "after": "",
+          "answer": "das Medikament",
+          "en": "medication",
+          "why": "-ment → das.",
+          "tip": "-ment",
+          "hint": "Neuter."
+        },
+        {
+          "before": "Endung -chen:",
+          "after": "",
+          "answer": "das Röhrchen",
+          "en": "little tube",
+          "why": "-chen → das.",
+          "tip": "-chen",
+          "hint": "Neuter."
+        },
+        {
+          "before": "Person -er:",
+          "after": "",
+          "answer": "der Pfleger",
+          "en": "nurse",
+          "why": "-er for a person → der.",
+          "tip": "-er",
+          "hint": "Masculine."
+        },
+        {
+          "before": "Tag:",
+          "after": "",
+          "answer": "der Montag",
+          "en": "Monday",
+          "why": "Days are der.",
+          "tip": "Tag",
+          "hint": "Masculine."
+        },
+        {
+          "before": "Endung -in:",
+          "after": "",
+          "answer": "die Patientin",
+          "en": "female patient",
+          "why": "-in → die.",
+          "tip": "-in",
+          "hint": "Feminine."
+        }
+      ]
+    },
+    {
+      "id": "error-gender",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Untersuchung ist am Montag."
+          ],
+          "options": [
+            "Die Untersuchung ist am Montag.",
+            "Das Untersuchung ist am Montag.",
+            "Der Untersuchungen ist am Montag."
+          ],
+          "answer": 0,
+          "reveal": "-ung → die.",
+          "hint": "Feminine ending."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Medikament liegt hier."
+          ],
+          "options": [
+            "Das Medikament liegt hier.",
+            "Der Medikament liegt hier.",
+            "Die Medikamente liegt hier."
+          ],
+          "answer": 0,
+          "reveal": "-ment → das.",
+          "hint": "Neuter ending."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Auge ist rot."
+          ],
+          "options": [
+            "Das Auge ist rot.",
+            "Der Auge ist rot.",
+            "Die Augen ist rot."
+          ],
+          "answer": 0,
+          "reveal": "Auge is the exception: das.",
+          "hint": "Exception."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Das Montag ist frei."
+          ],
+          "options": [
+            "Der Montag ist frei.",
+            "Die Montag ist frei.",
+            "Das Montage ist frei."
+          ],
+          "answer": 0,
+          "reveal": "Days are der.",
+          "hint": "der Montag."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-gender",
+      "label": "Dialog",
+      "title": "Which article?",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Each chip is used once.",
+      "chips": [
+        {
+          "w": "die Untersuchung",
+          "hint": "Feminine."
+        },
+        {
+          "w": "das Medikament",
+          "hint": "Neuter."
+        },
+        {
+          "w": "der Montag",
+          "hint": "A day."
+        },
+        {
+          "w": "das Auge",
+          "hint": "Exception."
+        },
+        {
+          "w": "der Name",
+          "hint": "Exception."
+        },
+        {
+          "w": "die Krankheit",
+          "hint": "Feminine."
+        }
+      ],
+      "items": [
+        {
+          "before": "Wann ist",
+          "after": "?",
+          "answer": "die Untersuchung",
+          "en": "when is the examination",
+          "why": "-ung → die.",
+          "tip": "-ung",
+          "hint": "Feminine.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Hier ist",
+          "after": ".",
+          "answer": "das Medikament",
+          "en": "here is the medication",
+          "why": "-ment → das.",
+          "tip": "-ment",
+          "hint": "Neuter.",
+          "who": "Pfleger"
+        },
+        {
+          "before": "Heute ist",
+          "after": ".",
+          "answer": "der Montag",
+          "en": "today is Monday",
+          "why": "Days are der.",
+          "tip": "Tag",
+          "hint": "A day.",
+          "who": "Patient"
+        },
+        {
+          "before": "Rot ist",
+          "after": ".",
+          "answer": "das Auge",
+          "en": "the eye is red",
+          "why": "Exception: das Auge.",
+          "tip": "Auge",
+          "hint": "Exception.",
+          "who": "Pfleger"
+        },
+        {
+          "before": "In der Akte steht",
+          "after": ".",
+          "answer": "der Name",
+          "en": "the name is in the chart",
+          "why": "Exception: der Name.",
+          "tip": "Name",
+          "hint": "Exception.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Neu ist",
+          "after": ".",
+          "answer": "die Krankheit",
+          "en": "the illness is new",
+          "why": "-heit → die.",
+          "tip": "-heit",
+          "hint": "Feminine.",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "gap-more",
+      "label": "Lücken",
+      "title": "More endings",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Same rule, new nouns.",
+      "chips": [
+        {
+          "w": "die Station",
+          "hint": "Feminine."
+        },
+        {
+          "w": "die Qualität",
+          "hint": "Feminine."
+        },
+        {
+          "w": "die Patientin",
+          "hint": "Feminine."
+        },
+        {
+          "w": "das Zentrum",
+          "hint": "Neuter."
+        },
+        {
+          "w": "das Instrument",
+          "hint": "Neuter."
+        },
+        {
+          "w": "der Pfleger",
+          "hint": "Masculine."
+        },
+        {
+          "w": "der Januar",
+          "hint": "Masculine."
+        },
+        {
+          "w": "der Säugling",
+          "hint": "Masculine."
+        }
+      ],
+      "items": [
+        {
+          "before": "Station, Endung -ion: Das ist",
+          "after": ".",
+          "answer": "die Station",
+          "en": "the ward",
+          "why": "-ion → die. Station ends in -ion.",
+          "tip": "-ion",
+          "hint": "Feminine."
+        },
+        {
+          "before": "Qualität, Endung -tät: Das ist",
+          "after": ".",
+          "answer": "die Qualität",
+          "en": "the quality",
+          "why": "-tät → die.",
+          "tip": "-tät",
+          "hint": "Feminine."
+        },
+        {
+          "before": "Patientin, Endung -in: Das ist",
+          "after": ".",
+          "answer": "die Patientin",
+          "en": "the female patient",
+          "why": "-in → die.",
+          "tip": "-in",
+          "hint": "Feminine."
+        },
+        {
+          "before": "Zentrum, Endung -um: Das ist",
+          "after": ".",
+          "answer": "das Zentrum",
+          "en": "the centre",
+          "why": "-um → das.",
+          "tip": "-um",
+          "hint": "Neuter."
+        },
+        {
+          "before": "Instrument, Endung -ment: Das ist",
+          "after": ".",
+          "answer": "das Instrument",
+          "en": "the instrument",
+          "why": "-ment → das.",
+          "tip": "-ment",
+          "hint": "Neuter."
+        },
+        {
+          "before": "Pfleger, männliche Person: Das ist",
+          "after": ".",
+          "answer": "der Pfleger",
+          "en": "the nurse",
+          "why": "-er person → der.",
+          "tip": "-er",
+          "hint": "Masculine."
+        },
+        {
+          "before": "Januar, Monat: Das ist",
+          "after": ".",
+          "answer": "der Januar",
+          "en": "January",
+          "why": "Months are der.",
+          "tip": "Monat",
+          "hint": "Masculine."
+        },
+        {
+          "before": "Säugling, Endung -ling: Das ist",
+          "after": ".",
+          "answer": "der Säugling",
+          "en": "the infant",
+          "why": "-ling → der.",
+          "tip": "-ling",
+          "hint": "Masculine."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Die Untersuchung",
+        "paragraphs": [
+          "Die Untersuchung ist am Montag. Die Krankheit ist neu. Die Operation ist wichtig. Das Medikament liegt auf dem Tisch. Das Röhrchen kommt aus dem Labor. Der Pfleger misst Fieber. Das Auge ist rot. Der Name steht in der Akte."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wann ist die Untersuchung?",
+          "qEn": "The day.",
+          "options": [
+            "am Montag",
+            "am Auge",
+            "am Medikament"
+          ],
+          "answer": 0,
+          "why": "Days are der. The note says Monday.",
+          "hint": "Montag."
+        },
+        {
+          "kind": "mc",
+          "q": "Was endet auf -ment?",
+          "qEn": "Neuter.",
+          "options": [
+            "die Krankheit",
+            "das Medikament",
+            "der Name"
+          ],
+          "answer": 1,
+          "why": "-ment → das.",
+          "hint": "-ment."
+        },
+        {
+          "kind": "mc",
+          "q": "Was endet auf -chen?",
+          "qEn": "Neuter.",
+          "options": [
+            "die Operation",
+            "der Pfleger",
+            "das Röhrchen"
+          ],
+          "answer": 2,
+          "why": "-chen → das.",
+          "hint": "-chen."
+        },
+        {
+          "kind": "mc",
+          "q": "Welches Wort ist eine Ausnahme zu -e?",
+          "qEn": "Not die.",
+          "options": [
+            "das Auge",
+            "die Krankheit",
+            "die Operation"
+          ],
+          "answer": 0,
+          "why": "Auge ends in -e and is das.",
+          "hint": "Exception."
+        }
+      ]
+    },
+    {
+      "id": "writing-gender",
+      "label": "Writing",
+      "title": "Write the note",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four short sentences. Use the article the ending wants.",
+      "prompt": "The examination is on Monday, the medication is on the table, and the little tube comes from the lab.",
+      "bullets": [
+        "a noun in -ung",
+        "a noun in -ment",
+        "a noun in -chen",
+        "a day of the week"
+      ],
+      "model": "Die Untersuchung ist am Montag. Das Medikament liegt auf dem Tisch. Das Röhrchen kommt aus dem Labor.",
+      "modelEn": "The examination is on Monday. The medication is on the table. The little tube comes from the lab.",
+      "hint": "Say the ending aloud, then choose der, die or das.",
+      "checklist": [
+        {
+          "id": "ung",
+          "label": "A noun in -ung",
+          "keywords": [
+            "Untersuchung"
+          ]
+        },
+        {
+          "id": "ment",
+          "label": "A noun in -ment",
+          "keywords": [
+            "Medikament"
+          ]
+        },
+        {
+          "id": "chen",
+          "label": "A noun in -chen",
+          "keywords": [
+            "Röhrchen"
+          ]
+        },
+        {
+          "id": "tag",
+          "label": "A day",
+          "keywords": [
+            "Montag"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 48. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "-ung",
+          "qEn": "Untersuchung.",
+          "options": [
+            "die Untersuchung",
+            "der Untersuchung",
+            "das Untersuchung"
+          ],
+          "answer": 0,
+          "why": "-ung → die.",
+          "hint": "Feminine."
+        },
+        {
+          "kind": "mc",
+          "q": "-heit",
+          "qEn": "Krankheit.",
+          "options": [
+            "das Krankheit",
+            "die Krankheit",
+            "der Krankheit"
+          ],
+          "answer": 1,
+          "why": "-heit → die.",
+          "hint": "Feminine."
+        },
+        {
+          "kind": "mc",
+          "q": "-ion",
+          "qEn": "Operation.",
+          "options": [
+            "das Operation",
+            "der Operation",
+            "die Operation"
+          ],
+          "answer": 2,
+          "why": "-ion → die.",
+          "hint": "Feminine."
+        },
+        {
+          "kind": "mc",
+          "q": "-ment",
+          "qEn": "Medikament.",
+          "options": [
+            "das Medikament",
+            "die Medikament",
+            "der Medikament"
+          ],
+          "answer": 0,
+          "why": "-ment → das.",
+          "hint": "Neuter."
+        },
+        {
+          "kind": "mc",
+          "q": "-chen",
+          "qEn": "Röhrchen.",
+          "options": [
+            "die Röhrchen",
+            "das Röhrchen",
+            "der Röhrchen"
+          ],
+          "answer": 1,
+          "why": "-chen → das.",
+          "hint": "Neuter."
+        },
+        {
+          "kind": "mc",
+          "q": "-um",
+          "qEn": "Zentrum.",
+          "options": [
+            "die Zentrum",
+            "der Zentrum",
+            "das Zentrum"
+          ],
+          "answer": 2,
+          "why": "-um → das.",
+          "hint": "Neuter."
+        },
+        {
+          "kind": "mc",
+          "q": "A day.",
+          "qEn": "Montag.",
+          "options": [
+            "der Montag",
+            "die Montag",
+            "das Montag"
+          ],
+          "answer": 0,
+          "why": "Days are masculine.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "A person in -er.",
+          "qEn": "Pfleger.",
+          "options": [
+            "die Pfleger",
+            "der Pfleger",
+            "das Pfleger"
+          ],
+          "answer": 1,
+          "why": "-er for a person is der.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "The eye.",
+          "qEn": "Exception.",
+          "options": [
+            "die Auge",
+            "der Auge",
+            "das Auge"
+          ],
+          "answer": 2,
+          "why": "das Auge, even though it ends in -e.",
+          "hint": "Exception."
+        },
+        {
+          "kind": "mc",
+          "q": "The name.",
+          "qEn": "Exception.",
+          "options": [
+            "der Name",
+            "die Name",
+            "das Name"
+          ],
+          "answer": 0,
+          "why": "der Name, even though it ends in -e.",
+          "hint": "Exception."
+        },
+        {
+          "kind": "mc",
+          "q": "-in",
+          "qEn": "Patientin.",
+          "options": [
+            "der Patientin",
+            "die Patientin",
+            "das Patientin"
+          ],
+          "answer": 1,
+          "why": "-in → die.",
+          "hint": "Feminine."
+        },
+        {
+          "kind": "mc",
+          "q": "Untersuchung + Raum.",
+          "qEn": "Last noun.",
+          "options": [
+            "die Untersuchungsraum",
+            "das Untersuchungsraum",
+            "der Untersuchungsraum"
+          ],
+          "answer": 2,
+          "why": "Raum is der. The -ung is not the last noun.",
+          "hint": "Last noun Raum."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "der, die, das",
+      "redemittel": [
+        {
+          "de": "Die Untersuchung ist am Montag.",
+          "en": "The examination is on Monday."
+        },
+        {
+          "de": "Die Krankheit ist neu.",
+          "en": "The illness is new."
+        },
+        {
+          "de": "Das Medikament liegt auf dem Tisch.",
+          "en": "The medication is on the table."
+        },
+        {
+          "de": "Das Röhrchen kommt aus dem Labor.",
+          "en": "The little tube comes from the lab."
+        },
+        {
+          "de": "Das Auge ist rot.",
+          "en": "The eye is red."
+        }
+      ]
+    }
+  ]
+}

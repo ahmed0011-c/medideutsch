@@ -1,0 +1,1569 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "id": "a1-02-praesens",
+  "level": "A1",
+  "unit": "Kapitel 2",
+  "chapter": 2,
+  "chapters": [
+    2
+  ],
+  "title": "Ich arbeite, du arbeitest",
+  "subtitle": "Present tense on the early shift",
+  "glossary": {
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🙋"
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal singular)",
+      "emoji": "👉",
+      "note": "Use du with colleagues you know well. With patients, use Sie."
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he; also the pronoun for der-nouns",
+      "emoji": "👨"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)",
+      "emoji": "🫵",
+      "note": "Capital Sie is formal you. Lowercase sie is she or they. A die-noun also takes sie."
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "ihr": {
+      "de": "ihr",
+      "pos": "pronoun",
+      "en": "you (informal plural)",
+      "emoji": "👥"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on; auf Station = on the ward",
+      "emoji": "📍"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🛏️",
+      "article": "die",
+      "plural": "die Stationen",
+      "note": "auf Station = on the ward, often without an article."
+    },
+    "3b": {
+      "de": "3B",
+      "pos": "name",
+      "en": "ward 3B",
+      "emoji": "🔢"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🧑🏽",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient (female)",
+      "emoji": "👩",
+      "article": "die",
+      "plural": "die Patientinnen"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Ärztinnen"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "📆"
+    },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing; bandage",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Verbände"
+    },
+    "werte": {
+      "de": "Wert",
+      "pos": "noun",
+      "en": "value; reading",
+      "emoji": "📊",
+      "article": "der",
+      "plural": "die Werte",
+      "note": "die Werte = the readings (pulse, blood pressure, temperature)."
+    },
+    "frühdienst": {
+      "de": "Frühdienst",
+      "pos": "noun",
+      "en": "early shift",
+      "emoji": "🌅",
+      "article": "der"
+    },
+    "kontrolliert": {
+      "de": "kontrollieren → er/sie kontrolliert",
+      "pos": "verb",
+      "en": "checks",
+      "emoji": "🔍"
+    },
+    "kontrollieren": {
+      "de": "kontrollieren",
+      "pos": "verb",
+      "en": "to check",
+      "emoji": "🔍"
+    },
+    "dokumentieren": {
+      "de": "dokumentieren",
+      "pos": "verb",
+      "en": "to document",
+      "emoji": "📝"
+    },
+    "dokumentiert": {
+      "de": "dokumentieren → er/sie dokumentiert",
+      "pos": "verb",
+      "en": "documents",
+      "emoji": "📝"
+    },
+    "fragt": {
+      "de": "fragen → er/sie fragt",
+      "pos": "verb",
+      "en": "asks",
+      "emoji": "❓"
+    },
+    "fragen": {
+      "de": "fragen",
+      "pos": "verb",
+      "en": "to ask",
+      "emoji": "❓"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "after; for (asking for)",
+      "emoji": "➡️"
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "😣",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "ruhig": {
+      "de": "ruhig",
+      "pos": "adjective",
+      "en": "calm; quietly",
+      "emoji": "😌"
+    },
+    "atmen": {
+      "de": "atmen",
+      "pos": "verb",
+      "en": "to breathe",
+      "emoji": "💨"
+    },
+    "atmet": {
+      "de": "atmen → er/sie atmet",
+      "pos": "verb",
+      "en": "breathes",
+      "emoji": "💨"
+    },
+    "heißt": {
+      "de": "heißen → du/er heißt",
+      "pos": "verb",
+      "en": "is called",
+      "emoji": "🏷️",
+      "note": "Stem heiß- ends in ß, so du heißt (no extra s)."
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "question word",
+      "en": "how; what (in Wie heißt …?)",
+      "emoji": "❓"
+    },
+    "weber": {
+      "de": "Weber",
+      "pos": "name",
+      "en": "the doctor's surname",
+      "emoji": "👩‍⚕️"
+    },
+    "dr": {
+      "de": "Dr.",
+      "pos": "title",
+      "en": "Dr",
+      "emoji": "🎓"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "the nurse's name",
+      "emoji": "🧑‍⚕️"
+    },
+    "herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "Mr",
+      "emoji": "👨",
+      "article": "der",
+      "plural": "die Herren"
+    },
+    "yilmaz": {
+      "de": "Yilmaz",
+      "pos": "name",
+      "en": "the patient's surname",
+      "emoji": "🧑🏽"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🔴"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)",
+      "emoji": "🔵",
+      "article": "der"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)",
+      "emoji": "🔵"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "ist": {
+      "de": "sein → er/sie/es ist",
+      "pos": "verb",
+      "en": "is",
+      "emoji": "🟰"
+    },
+    "bin": {
+      "de": "sein → ich bin",
+      "pos": "verb",
+      "en": "am",
+      "emoji": "🟰"
+    },
+    "sind": {
+      "de": "sein → wir/sie/Sie sind",
+      "pos": "verb",
+      "en": "are",
+      "emoji": "🟰"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please",
+      "emoji": "🙏"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das"
+    },
+    "trinkt": {
+      "de": "trinken → trinkt",
+      "pos": "verb",
+      "en": "drink! (ihr) or drinks",
+      "emoji": "🥤"
+    },
+    "trinken": {
+      "de": "trinken",
+      "pos": "verb",
+      "en": "to drink",
+      "emoji": "🥤"
+    },
+    "arbeite": {
+      "de": "arbeiten → ich arbeite",
+      "pos": "verb",
+      "en": "work (ich)",
+      "emoji": "🩺",
+      "note": "Stem arbeit- ends in t, so an extra e: du arbeitest, er arbeitet."
+    },
+    "arbeitest": {
+      "de": "arbeiten → du arbeitest",
+      "pos": "verb",
+      "en": "work (du)",
+      "emoji": "🩺"
+    },
+    "arbeitet": {
+      "de": "arbeiten → er/sie arbeitet",
+      "pos": "verb",
+      "en": "works",
+      "emoji": "🩺"
+    },
+    "arbeiten": {
+      "de": "arbeiten",
+      "pos": "verb",
+      "en": "to work",
+      "emoji": "🩺"
+    },
+    "wartet": {
+      "de": "warten → er/sie wartet",
+      "pos": "verb",
+      "en": "waits",
+      "emoji": "⏳"
+    },
+    "warten": {
+      "de": "warten",
+      "pos": "verb",
+      "en": "to wait",
+      "emoji": "⏳"
+    },
+    "endung": {
+      "de": "Endung",
+      "pos": "noun",
+      "en": "ending",
+      "emoji": "🧩",
+      "article": "die",
+      "plural": "die Endungen"
+    },
+    "kontrolliere": {
+      "de": "kontrollieren → ich kontrolliere",
+      "pos": "verb",
+      "en": "check (ich)",
+      "emoji": "🔍"
+    },
+    "ja": {
+      "de": "ja",
+      "pos": "particle",
+      "en": "yes",
+      "emoji": "✔️"
+    },
+    "auch": {
+      "de": "auch",
+      "pos": "adverb",
+      "en": "also; too",
+      "emoji": "➕"
+    },
+    "hier": {
+      "de": "hier",
+      "pos": "adverb",
+      "en": "here",
+      "emoji": "📍"
+    },
+    "im": {
+      "de": "im (= in dem)",
+      "pos": "preposition",
+      "en": "in the",
+      "emoji": "📥"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 18,
+      "learn": [
+        "Present endings: <b>-e, -st, -t, -en, -t, -en</b>.",
+        "A stem ending in <b>-t</b> or <b>-d</b> takes an extra <b>e</b>: du arbeitest, er arbeitet.",
+        "A stem ending in <b>-s, -ss, -ß, -z</b> uses <b>du + -t</b>: du heißt.",
+        "In a statement the verb is in <b>position 2</b>."
+      ],
+      "vocab": [
+        {
+          "de": "Verband",
+          "article": "der",
+          "plural": "die Verbände",
+          "en": "dressing",
+          "emoji": "🩹",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "glossaryKey": "verband"
+        },
+        {
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "nurse",
+          "emoji": "🧑‍⚕️",
+          "glossaryKey": "pflegekraft"
+        },
+        {
+          "de": "Frühdienst",
+          "article": "der",
+          "en": "early shift",
+          "emoji": "🌅",
+          "glossaryKey": "frühdienst"
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🚪",
+          "glossaryKey": "zimmer"
+        }
+      ],
+      "text": {
+        "title": "Frühdienst",
+        "de": "Ich arbeite auf Station 3B. Du arbeitest heute im Frühdienst. Die Pflegekraft kontrolliert den Verband. Der Patient wartet im Zimmer. Wir dokumentieren die Werte. Ihr fragt nach Schmerzen. Die Patientin atmet ruhig. Die Ärztin heißt Dr. Weber.",
+        "en": "I work on ward 3B. You are on the early shift today. The nurse checks the dressing. The patient waits in the room. We document the readings. You (all) ask about pain. The patient breathes calmly. The doctor is called Dr Weber."
+      }
+    },
+    {
+      "id": "dialogue",
+      "type": "dialogue",
+      "label": "Dialogue",
+      "title": "Who does what this morning?",
+      "instructions": "Tap the verb endings. They tell you the person.",
+      "scene": "7:15 on ward 3B. Anna and Dr. Weber plan the early shift.",
+      "sceneTitle": "Dienstbeginn",
+      "speakers": {
+        "N": {
+          "name": "Anna",
+          "role": "Pflegekraft",
+          "avatar": "🧑‍⚕️"
+        },
+        "A": {
+          "name": "Dr. Weber",
+          "role": "Ärztin",
+          "avatar": "👩‍⚕️"
+        }
+      },
+      "lines": [
+        {
+          "who": "N",
+          "de": "Ich arbeite heute im Frühdienst. Arbeitest du auch hier?",
+          "en": "I am on the early shift today. Are you working here too?"
+        },
+        {
+          "who": "A",
+          "de": "Ja. Ich kontrolliere den Verband. Die Patientin wartet im Zimmer.",
+          "en": "Yes. I check the dressing. The patient is waiting in the room."
+        },
+        {
+          "who": "N",
+          "de": "Wir dokumentieren die Werte. Herr Yilmaz atmet ruhig.",
+          "en": "We document the readings. Mr Yilmaz is breathing calmly."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Endings in the present",
+      "story": [
+        "Take the stem and add an ending. <b>ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en</b>.",
+        "If the stem ends in <b>-t</b> or <b>-d</b>, put an <b>e</b> before -st and -t, so you can hear the ending: du <b>arbeitest</b>, er <b>arbeitet</b>.",
+        "If the stem ends in <b>-s, -ss, -ß</b> or <b>-z</b>, du only adds <b>-t</b>: du <b>heißt</b>."
+      ],
+      "tables": [
+        {
+          "title": "arbeiten",
+          "caption": "Extra e because the stem ends in t.",
+          "columns": [
+            "Person",
+            "Form"
+          ],
+          "rows": [
+            {
+              "label": "ich",
+              "cells": [
+                "arbeite"
+              ]
+            },
+            {
+              "label": "du",
+              "cells": [
+                "arbeitest"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "er/sie/es",
+              "cells": [
+                "arbeitet"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "wir / sie / Sie",
+              "cells": [
+                "arbeiten"
+              ]
+            },
+            {
+              "label": "ihr",
+              "cells": [
+                "arbeitet"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "du heißt, not du heißtst",
+        "items": [
+          {
+            "de": "du heißt",
+            "en": "stem already ends in ß",
+            "tone": "ok"
+          },
+          {
+            "de": "du heißtst",
+            "en": "one s too many",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Say the form aloud. If the stem already hisses (s, ß, z), do not add another s."
+      },
+      "quiz": [
+        {
+          "q": "Die Pflegekraft ___ den Verband.",
+          "options": [
+            "kontrolliere",
+            "kontrollierst",
+            "kontrolliert"
+          ],
+          "answer": 2,
+          "why": "er/sie takes -t: kontrolliert.",
+          "hint": "She is er/sie/es, so the ending is -t."
+        },
+        {
+          "q": "Why arbeitest and not arbeitst?",
+          "options": [
+            "Because du always has two e",
+            "Because the stem ends in t",
+            "Because it is a question"
+          ],
+          "answer": 1,
+          "why": "Stems in -t/-d need an extra e before -st and -t.",
+          "hint": "Look at the last letter of the stem arbeit-."
+        }
+      ],
+      "practice": "choose"
+    },
+    {
+      "id": "gaps",
+      "type": "gapfill",
+      "label": "Gap fill",
+      "title": "Put the verb in the gap",
+      "instructions": "Drag the form that matches the person.",
+      "chips": [
+        {
+          "w": "arbeite",
+          "hint": "ich + -e"
+        },
+        {
+          "w": "arbeitest",
+          "hint": "du + extra e + st"
+        },
+        {
+          "w": "kontrolliert",
+          "hint": "er/sie + -t"
+        },
+        {
+          "w": "dokumentieren",
+          "hint": "wir + -en"
+        },
+        {
+          "w": "heißt",
+          "hint": "du/er of heißen: no extra s"
+        },
+        {
+          "w": "wartet",
+          "hint": "er/sie of warten, extra e because of t"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich",
+          "after": "auf Station 3B.",
+          "answer": "arbeite",
+          "en": "I work on ward 3B.",
+          "why": "ich → -e.",
+          "tip": "ich ends in -e.",
+          "hint": "The speaker: stem + e."
+        },
+        {
+          "before": "Du",
+          "after": "heute im Frühdienst.",
+          "answer": "arbeitest",
+          "en": "You work the early shift today.",
+          "why": "du → -est after a t-stem.",
+          "tip": "du, and the stem ends in t.",
+          "hint": "du needs -st, plus an e after t."
+        },
+        {
+          "before": "Die Pflegekraft",
+          "after": "den Verband.",
+          "answer": "kontrolliert",
+          "en": "The nurse checks the dressing.",
+          "why": "sie → -t.",
+          "tip": "Third person singular.",
+          "hint": "One nurse: ending -t."
+        },
+        {
+          "before": "Wir",
+          "after": "die Werte.",
+          "answer": "dokumentieren",
+          "en": "We document the readings.",
+          "why": "wir → -en.",
+          "tip": "wir looks like the infinitive.",
+          "hint": "wir uses the infinitive form."
+        },
+        {
+          "before": "Wie",
+          "after": "du?",
+          "answer": "heißt",
+          "en": "What is your name?",
+          "why": "heißen: du heißt.",
+          "tip": "The stem ends in ß.",
+          "hint": "No extra s after ß."
+        },
+        {
+          "before": "Der Patient",
+          "after": "im Zimmer.",
+          "answer": "wartet",
+          "en": "The patient waits in the room.",
+          "why": "warten: er wartet.",
+          "tip": "Stem wart- ends in t.",
+          "hint": "Extra e, then -t."
+        }
+      ],
+      "practice": "gap"
+    },
+    {
+      "id": "builder",
+      "type": "builder",
+      "label": "Word order",
+      "title": "Verb in position 2",
+      "instructions": "Tap a tile, then tap the line. Or drag. The verb is in position 2.",
+      "items": [
+        {
+          "tiles": [
+            "Die",
+            "Pflegekraft",
+            "kontrolliert",
+            "den",
+            "Verband"
+          ],
+          "answers": [
+            "Die Pflegekraft kontrolliert den Verband"
+          ],
+          "punct": ".",
+          "modal": "kontrolliert",
+          "inf": "Verband",
+          "question": false,
+          "en": "The nurse checks the dressing.",
+          "hint": "One element before the verb: Die Pflegekraft. Then kontrolliert.",
+          "feedback": {
+            "end": "Verband is the last word here. The verb kontrolliert stays in position 2, not at the end.",
+            "fallback": "In a statement the conjugated verb is in position 2, after one phrase."
+          }
+        }
+      ],
+      "practice": "build"
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The early shift",
+      "instructions": "Read, then answer.",
+      "document": {
+        "letterhead": "Station 3B · Frühdienst",
+        "title": "Heute auf Station",
+        "paragraphs": [
+          "Anna arbeitet im Frühdienst. Sie kontrolliert den Verband.",
+          "Herr Yilmaz wartet im Zimmer. Er atmet ruhig.",
+          "Dr. Weber dokumentiert die Werte. Die Patientin fragt nach Wasser."
+        ],
+        "signature": "Anna, Pflegekraft",
+        "stamp": "DIENST"
+      },
+      "questions": [
+        {
+          "q": "Wer kontrolliert den Verband?",
+          "options": [
+            "Dr. Weber",
+            "Anna",
+            "Herr Yilmaz"
+          ],
+          "answer": 1,
+          "why": "Anna kontrolliert den Verband."
+        },
+        {
+          "kind": "tf",
+          "q": "Herr Yilmaz atmet nicht ruhig.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "answer": 1,
+          "why": "Er atmet ruhig."
+        }
+      ],
+      "practice": "reading"
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "Which ending?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Match the person to the present ending.",
+      "items": [
+        {
+          "prompt": "ich komme. Which ending?",
+          "options": [
+            {
+              "emoji": "1",
+              "label": "-e",
+              "caption": "ich"
+            },
+            {
+              "emoji": "2",
+              "label": "-st",
+              "caption": "du"
+            },
+            {
+              "emoji": "3",
+              "label": "-t",
+              "caption": "er"
+            }
+          ],
+          "answer": 0,
+          "why": "Ich takes -e.",
+          "hint": "ich → -e"
+        },
+        {
+          "prompt": "du kommst. Which ending?",
+          "options": [
+            {
+              "emoji": "2",
+              "label": "-st",
+              "caption": "du"
+            },
+            {
+              "emoji": "1",
+              "label": "-e",
+              "caption": "ich"
+            }
+          ],
+          "answer": 0,
+          "why": "Du takes -st.",
+          "hint": "du → -st"
+        },
+        {
+          "prompt": "er kommt. Which ending?",
+          "options": [
+            {
+              "emoji": "3",
+              "label": "-t",
+              "caption": "er/sie/es"
+            },
+            {
+              "emoji": "4",
+              "label": "-en",
+              "caption": "wir"
+            }
+          ],
+          "answer": 0,
+          "why": "Er, sie and es take -t.",
+          "hint": "er → -t"
+        },
+        {
+          "prompt": "wir kommen. Which ending?",
+          "options": [
+            {
+              "emoji": "4",
+              "label": "-en",
+              "caption": "wir"
+            },
+            {
+              "emoji": "3",
+              "label": "-t",
+              "caption": "er"
+            }
+          ],
+          "answer": 0,
+          "why": "Wir takes -en.",
+          "hint": "wir → -en"
+        }
+      ]
+    },
+    {
+      "id": "px-picture",
+      "label": "Picture",
+      "title": "Picture task",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the word to the picture, then read the hint.",
+      "items": [
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Present tense: say what this thing does on the early shift."
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "Present tense: say what this thing does on the early shift."
+        },
+        {
+          "id": "thermo",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "Present tense: say what this thing does on the early shift."
+        },
+        {
+          "id": "clip",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "file",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "Present tense: say what this thing does on the early shift."
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Change the form.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the form the brackets ask for.",
+      "chips": [
+        {
+          "w": "komme",
+          "hint": "ich"
+        },
+        {
+          "w": "kommst",
+          "hint": "du"
+        },
+        {
+          "w": "kommt",
+          "hint": "er"
+        },
+        {
+          "w": "arbeitest",
+          "hint": "t-stem"
+        },
+        {
+          "w": "arbeitet",
+          "hint": "t-stem"
+        },
+        {
+          "w": "messen",
+          "hint": "wir"
+        }
+      ],
+      "items": [
+        {
+          "before": "kommen (ich) →",
+          "after": "",
+          "answer": "komme",
+          "en": "I come.",
+          "why": "ich + -e.",
+          "tip": "Drop -en, add -e.",
+          "hint": "ich"
+        },
+        {
+          "before": "kommen (du) →",
+          "after": "",
+          "answer": "kommst",
+          "en": "You come.",
+          "why": "du + -st.",
+          "tip": "komm + st.",
+          "hint": "du"
+        },
+        {
+          "before": "kommen (er) →",
+          "after": "",
+          "answer": "kommt",
+          "en": "He comes.",
+          "why": "er + -t.",
+          "tip": "komm + t.",
+          "hint": "er"
+        },
+        {
+          "before": "arbeiten (du) →",
+          "after": "",
+          "answer": "arbeitest",
+          "en": "You work.",
+          "why": "A stem in t needs e.",
+          "tip": "arbeit + est.",
+          "hint": "t-stem"
+        },
+        {
+          "before": "arbeiten (er) →",
+          "after": "",
+          "answer": "arbeitet",
+          "en": "He works.",
+          "why": "er also needs e.",
+          "tip": "arbeit + et.",
+          "hint": "t-stem"
+        },
+        {
+          "before": "messen (wir) →",
+          "after": "",
+          "answer": "messen",
+          "en": "We measure.",
+          "why": "Wir uses the infinitive form.",
+          "tip": "wir = -en.",
+          "hint": "wir"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Du kommt um acht."
+          ],
+          "options": [
+            "Du kommst um acht.",
+            "Du kommt um acht.",
+            "Du kommen um acht."
+          ],
+          "answer": 0,
+          "reveal": "Du kommst um acht.",
+          "hint": "Du takes -st."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er kommen jetzt."
+          ],
+          "options": [
+            "Er kommt jetzt.",
+            "Er kommen jetzt.",
+            "Er kommst jetzt."
+          ],
+          "answer": 0,
+          "reveal": "Er kommt jetzt.",
+          "hint": "Er takes -t."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir arbeitet heute."
+          ],
+          "options": [
+            "Wir arbeiten heute.",
+            "Wir arbeitet heute.",
+            "Wir arbeitest heute."
+          ],
+          "answer": 0,
+          "reveal": "Wir arbeiten heute.",
+          "hint": "Wir takes -en."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ihr kommen zu spät."
+          ],
+          "options": [
+            "Ihr kommt zu spät.",
+            "Ihr kommen zu spät.",
+            "Ihr kommst zu spät."
+          ],
+          "answer": 0,
+          "reveal": "Ihr kommt zu spät.",
+          "hint": "Ihr takes -t."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "Complete the dialogue.",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "One word in each gap. Notice who is speaking.",
+      "chips": [
+        {
+          "w": "komme",
+          "hint": "ich"
+        },
+        {
+          "w": "misst",
+          "hint": "du"
+        },
+        {
+          "w": "trinkt",
+          "hint": "er"
+        },
+        {
+          "w": "dokumentieren",
+          "hint": "wir"
+        },
+        {
+          "w": "arbeitet",
+          "hint": "ihr"
+        },
+        {
+          "w": "atmen",
+          "hint": "sie"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich",
+          "after": "um sieben.",
+          "answer": "komme",
+          "en": "I come at seven.",
+          "why": "ich → komme.",
+          "tip": "-e",
+          "hint": "ich",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Du",
+          "after": "den Puls.",
+          "answer": "misst",
+          "en": "You measure the pulse.",
+          "why": "du misst.",
+          "tip": "messen",
+          "hint": "du",
+          "who": "Kollegin"
+        },
+        {
+          "before": "Er",
+          "after": "Wasser.",
+          "answer": "trinkt",
+          "en": "He drinks water.",
+          "why": "er → trinkt.",
+          "tip": "-t",
+          "hint": "er",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wir",
+          "after": "den Befund.",
+          "answer": "dokumentieren",
+          "en": "We document the finding.",
+          "why": "wir → -en.",
+          "tip": "-en",
+          "hint": "wir",
+          "who": "Team"
+        },
+        {
+          "before": "Ihr",
+          "after": "auf Station.",
+          "answer": "arbeitet",
+          "en": "You work on the ward.",
+          "why": "ihr → arbeitet.",
+          "tip": "-t plus e",
+          "hint": "ihr",
+          "who": "Leitung"
+        },
+        {
+          "before": "Die Patienten",
+          "after": "ruhig.",
+          "answer": "atmen",
+          "en": "The patients breathe calmly.",
+          "why": "Plural → atmen.",
+          "tip": "-en",
+          "hint": "sie",
+          "who": "Ärztin"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "More practice",
+      "title": "Choose the form",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Fill every gap. Each chip is used once.",
+      "chips": [
+        {
+          "w": "dokumentiere",
+          "hint": "ich"
+        },
+        {
+          "w": "dokumentierst",
+          "hint": "du"
+        },
+        {
+          "w": "dokumentiert",
+          "hint": "sie"
+        },
+        {
+          "w": "dokumentieren",
+          "hint": "wir"
+        },
+        {
+          "w": "arbeitest",
+          "hint": "du"
+        },
+        {
+          "w": "arbeitet",
+          "hint": "er"
+        },
+        {
+          "w": "kommt",
+          "hint": "ihr"
+        },
+        {
+          "w": "trinke",
+          "hint": "ich"
+        },
+        {
+          "w": "trinkst",
+          "hint": "du"
+        },
+        {
+          "w": "fragt",
+          "hint": "er"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich ___ den Befund.",
+          "after": "",
+          "answer": "dokumentiere",
+          "en": "I document.",
+          "why": "ich → -e.",
+          "tip": "ich",
+          "hint": "ich"
+        },
+        {
+          "before": "Du ___ laut.",
+          "after": "",
+          "answer": "dokumentierst",
+          "en": "You document aloud.",
+          "why": "du → -st.",
+          "tip": "du",
+          "hint": "du"
+        },
+        {
+          "before": "Sie ___ den Puls.",
+          "after": "",
+          "answer": "dokumentiert",
+          "en": "She documents.",
+          "why": "sie → -t.",
+          "tip": "sie",
+          "hint": "sie"
+        },
+        {
+          "before": "Wir ___ zusammen.",
+          "after": "",
+          "answer": "dokumentieren",
+          "en": "We document.",
+          "why": "wir → -en.",
+          "tip": "wir",
+          "hint": "wir"
+        },
+        {
+          "before": "Du ___ heute.",
+          "after": "",
+          "answer": "arbeitest",
+          "en": "You work today.",
+          "why": "Extra e.",
+          "tip": "t-stem",
+          "hint": "du"
+        },
+        {
+          "before": "Er ___ nachts.",
+          "after": "",
+          "answer": "arbeitet",
+          "en": "He works at night.",
+          "why": "Extra e.",
+          "tip": "t-stem",
+          "hint": "er"
+        },
+        {
+          "before": "Ihr ___ um acht.",
+          "after": "",
+          "answer": "kommt",
+          "en": "You arrive at eight.",
+          "why": "ihr → -t.",
+          "tip": "ihr",
+          "hint": "ihr"
+        },
+        {
+          "before": "Ich ___ Wasser.",
+          "after": "",
+          "answer": "trinke",
+          "en": "I drink water.",
+          "why": "ich → -e.",
+          "tip": "ich",
+          "hint": "ich"
+        },
+        {
+          "before": "Du ___ Wasser.",
+          "after": "",
+          "answer": "trinkst",
+          "en": "You drink water.",
+          "why": "du → -st.",
+          "tip": "du",
+          "hint": "du"
+        },
+        {
+          "before": "Er ___ die Frage.",
+          "after": "",
+          "answer": "fragt",
+          "en": "He asks.",
+          "why": "er → -t.",
+          "tip": "fragen",
+          "hint": "er"
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "Your morning",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write three or four sentences. Then compare the model.",
+      "prompt": "Say what you do, what a patient does, and what the team does.",
+      "bullets": [
+        "Use ich.",
+        "Use der Patient and a verb in -t.",
+        "Use wir."
+      ],
+      "model": "Ich komme um sieben. Der Patient trinkt Wasser. Wir dokumentieren den Befund.",
+      "modelEn": "I come at seven. The patient drinks water. We document the finding.",
+      "hint": "Match the ending to the person.",
+      "checklist": [
+        {
+          "id": "ich",
+          "label": "A sentence with ich",
+          "keywords": [
+            "Ich"
+          ]
+        },
+        {
+          "id": "trinkt",
+          "label": "A third-person verb",
+          "keywords": [
+            "trinkt"
+          ]
+        },
+        {
+          "id": "wir",
+          "label": "A sentence with wir",
+          "keywords": [
+            "Wir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "type": "grammar",
+      "story": [
+        "This mixed test closes the lesson. 80% marks it as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "ich kommen →",
+          "qEn": "First person.",
+          "options": [
+            "ich komme",
+            "ich kommst",
+            "ich kommt"
+          ],
+          "answer": 0,
+          "why": "Ich takes -e.",
+          "hint": "-e"
+        },
+        {
+          "kind": "mc",
+          "q": "du kommen →",
+          "qEn": "Second person.",
+          "options": [
+            "du kommt",
+            "du kommst",
+            "du kommen"
+          ],
+          "answer": 1,
+          "why": "Du takes -st.",
+          "hint": "-st"
+        },
+        {
+          "kind": "mc",
+          "q": "er arbeiten →",
+          "qEn": "Stem in t.",
+          "options": [
+            "er arbeitt",
+            "er arbeiten",
+            "er arbeitet"
+          ],
+          "answer": 2,
+          "why": "Add e before t.",
+          "hint": "extra e"
+        },
+        {
+          "kind": "mc",
+          "q": "wir dokumentieren →",
+          "qEn": "We.",
+          "options": [
+            "wir dokumentieren",
+            "wir dokumentiert",
+            "wir dokumentiere"
+          ],
+          "answer": 0,
+          "why": "Wir keeps -en.",
+          "hint": "-en"
+        },
+        {
+          "kind": "mc",
+          "q": "ihr kommen →",
+          "qEn": "Informal plural.",
+          "options": [
+            "ihr kommen",
+            "ihr kommt",
+            "ihr kommst"
+          ],
+          "answer": 1,
+          "why": "Ihr takes -t.",
+          "hint": "-t"
+        },
+        {
+          "kind": "mc",
+          "q": "sie (plural) atmen →",
+          "qEn": "They.",
+          "options": [
+            "sie atmet",
+            "sie atmest",
+            "sie atmen"
+          ],
+          "answer": 2,
+          "why": "Plural sie takes -en.",
+          "hint": "plural"
+        },
+        {
+          "kind": "mc",
+          "q": "Die Pflegekraft misst den Puls. Where is misst?",
+          "qEn": "A statement.",
+          "options": [
+            "position 2",
+            "at the end",
+            "position 1"
+          ],
+          "answer": 0,
+          "why": "The verb is the second idea.",
+          "hint": "position 2"
+        },
+        {
+          "kind": "mc",
+          "q": "du arbeiten →",
+          "qEn": "Stem in t.",
+          "options": [
+            "du arbeitet",
+            "du arbeitest",
+            "du arbeitst"
+          ],
+          "answer": 1,
+          "why": "Add e before st.",
+          "hint": "extra e"
+        },
+        {
+          "kind": "mc",
+          "q": "es kommen →",
+          "qEn": "Neuter singular.",
+          "options": [
+            "es kommen",
+            "es kommst",
+            "es kommt"
+          ],
+          "answer": 2,
+          "why": "Es takes -t.",
+          "hint": "-t"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie (formal) kommen →",
+          "qEn": "Formal you.",
+          "options": [
+            "Sie kommen",
+            "Sie kommt",
+            "Sie kommst"
+          ],
+          "answer": 0,
+          "why": "Formal Sie takes -en.",
+          "hint": "formal"
+        },
+        {
+          "kind": "mc",
+          "q": "Ich ___ den Puls. (messen)",
+          "qEn": "ich of messen.",
+          "options": [
+            "misst",
+            "messe",
+            "messen"
+          ],
+          "answer": 1,
+          "why": "Ich messe.",
+          "hint": "ich"
+        },
+        {
+          "kind": "mc",
+          "q": "Der Patient ___ Wasser.",
+          "qEn": "trinken.",
+          "options": [
+            "trinkst",
+            "trinken",
+            "trinkt"
+          ],
+          "answer": 2,
+          "why": "Er trinkt.",
+          "hint": "-t"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Schicht geschafft",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        {
+          "de": "Ich arbeite auf Station 3B.",
+          "en": "I work on ward 3B."
+        },
+        {
+          "de": "Du arbeitest im Frühdienst.",
+          "en": "You are on the early shift."
+        },
+        {
+          "de": "Wie heißt du?",
+          "en": "What is your name?"
+        },
+        {
+          "de": "Der Patient wartet im Zimmer.",
+          "en": "The patient is waiting in the room."
+        }
+      ]
+    }
+  ]
+}

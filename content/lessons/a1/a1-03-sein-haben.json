@@ -1,0 +1,1562 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "id": "a1-03-sein-haben",
+  "level": "A1",
+  "unit": "Kapitel 3",
+  "chapter": 3,
+  "chapters": [
+    3
+  ],
+  "title": "Ich bin, du hast, er möchte",
+  "subtitle": "sein, haben and möchten at the nurses' station",
+  "glossary": {
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🙋"
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal singular)",
+      "emoji": "👉",
+      "note": "Use du with colleagues you know well. With patients, use Sie."
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he; also the pronoun for der-nouns",
+      "emoji": "👨"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)",
+      "emoji": "🫵",
+      "note": "Capital Sie is formal you. Lowercase sie is she or they. A die-noun also takes sie."
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "ihr": {
+      "de": "ihr",
+      "pos": "pronoun",
+      "en": "you (informal plural)",
+      "emoji": "👥"
+    },
+    "bin": {
+      "de": "sein → ich bin",
+      "pos": "verb",
+      "en": "am",
+      "emoji": "🟰"
+    },
+    "bist": {
+      "de": "sein → du bist",
+      "pos": "verb",
+      "en": "are (du)",
+      "emoji": "🟰"
+    },
+    "ist": {
+      "de": "sein → er/sie/es ist",
+      "pos": "verb",
+      "en": "is",
+      "emoji": "🟰"
+    },
+    "sind": {
+      "de": "sein → wir/sie/Sie sind",
+      "pos": "verb",
+      "en": "are",
+      "emoji": "🟰"
+    },
+    "seid": {
+      "de": "sein → ihr seid",
+      "pos": "verb",
+      "en": "are (ihr)",
+      "emoji": "🟰"
+    },
+    "habe": {
+      "de": "haben → ich habe",
+      "pos": "verb",
+      "en": "have (ich)",
+      "emoji": "🤲"
+    },
+    "hast": {
+      "de": "haben → du hast",
+      "pos": "verb",
+      "en": "have (du)",
+      "emoji": "🤲"
+    },
+    "hat": {
+      "de": "haben → er/sie hat",
+      "pos": "verb",
+      "en": "has",
+      "emoji": "🤲"
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have; we/they have",
+      "emoji": "🤲"
+    },
+    "möchte": {
+      "de": "möchten → ich/er möchte",
+      "pos": "verb",
+      "en": "would like",
+      "emoji": "🙏"
+    },
+    "möchtest": {
+      "de": "möchten → du möchtest",
+      "pos": "verb",
+      "en": "would like (du)",
+      "emoji": "🙏"
+    },
+    "möchten": {
+      "de": "möchten",
+      "pos": "verb",
+      "en": "would like (wir/sie/Sie)",
+      "emoji": "🙏"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🧑🏽",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient (female)",
+      "emoji": "👩",
+      "article": "die",
+      "plural": "die Patientinnen"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🤒",
+      "article": "das"
+    },
+    "durst": {
+      "de": "Durst",
+      "pos": "noun",
+      "en": "thirst",
+      "emoji": "🥤",
+      "article": "der",
+      "note": "Ich habe Durst. = I am thirsty."
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das"
+    },
+    "tee": {
+      "de": "Tee",
+      "pos": "noun",
+      "en": "tea",
+      "emoji": "🍵",
+      "article": "der"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🛏️",
+      "article": "die",
+      "plural": "die Stationen",
+      "note": "auf Station = on the ward, often without an article."
+    },
+    "3b": {
+      "de": "3B",
+      "pos": "name",
+      "en": "ward 3B",
+      "emoji": "🔢"
+    },
+    "herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "Mr",
+      "emoji": "👨",
+      "article": "der",
+      "plural": "die Herren"
+    },
+    "yilmaz": {
+      "de": "Yilmaz",
+      "pos": "name",
+      "en": "the patient's surname",
+      "emoji": "🧑🏽"
+    },
+    "weber": {
+      "de": "Weber",
+      "pos": "name",
+      "en": "the doctor's surname",
+      "emoji": "👩‍⚕️"
+    },
+    "dr": {
+      "de": "Dr.",
+      "pos": "title",
+      "en": "Dr",
+      "emoji": "🎓"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "the nurse's name",
+      "emoji": "🧑‍⚕️"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "📆"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🔴"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)",
+      "emoji": "🔵",
+      "article": "der"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)",
+      "emoji": "1️⃣"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)",
+      "emoji": "1️⃣"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer"
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "😣",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "emoji": "🚶",
+      "article": "die",
+      "plural": "die Visiten"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please",
+      "emoji": "🙏"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on; auf Station = on the ward",
+      "emoji": "📍"
+    },
+    "habt": {
+      "de": "haben → ihr habt",
+      "pos": "verb",
+      "en": "have (ihr)",
+      "emoji": "🤲"
+    },
+    "möchte2": {
+      "de": "möchten → ich/er möchte",
+      "pos": "verb",
+      "en": "would like",
+      "emoji": "🙏"
+    },
+    "sein": {
+      "de": "sein",
+      "pos": "verb",
+      "en": "to be",
+      "emoji": "🟰",
+      "note": "Irregular: bin, bist, ist, sind, seid, sind."
+    },
+    "guten": {
+      "de": "gut → guten",
+      "pos": "adjective",
+      "en": "good (in greetings)",
+      "emoji": "👋"
+    },
+    "tag": {
+      "de": "Tag",
+      "pos": "noun",
+      "en": "day",
+      "emoji": "☀️",
+      "article": "der",
+      "plural": "die Tage",
+      "note": "Guten Tag = good day."
+    },
+    "ja": {
+      "de": "ja",
+      "pos": "particle",
+      "en": "yes",
+      "emoji": "✔️"
+    },
+    "auch": {
+      "de": "auch",
+      "pos": "adverb",
+      "en": "also; too",
+      "emoji": "➕"
+    },
+    "möchtet": {
+      "de": "möchten → ihr möchtet",
+      "pos": "verb",
+      "en": "would like (ihr)",
+      "emoji": "🙏"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 16,
+      "learn": [
+        "<b>sein</b> is irregular: bin, bist, ist, sind, seid, sind.",
+        "<b>haben</b> is irregular: habe, hast, hat, haben, habt, haben.",
+        "<b>möchten</b> means would like: möchte, möchtest, möchte, möchten.",
+        "Ich <b>bin</b> Pflegekraft. Ich <b>habe</b> Durst. Ich <b>möchte</b> Wasser."
+      ],
+      "vocab": [
+        {
+          "de": "Fieber",
+          "article": "das",
+          "en": "fever",
+          "emoji": "🤒",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "glossaryKey": "fieber"
+        },
+        {
+          "de": "Wasser",
+          "article": "das",
+          "en": "water",
+          "emoji": "💧",
+          "glossaryKey": "wasser"
+        },
+        {
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "emoji": "💊",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "glossaryKey": "tablette"
+        },
+        {
+          "de": "Visite",
+          "article": "die",
+          "plural": "die Visiten",
+          "en": "ward round",
+          "emoji": "🚶",
+          "glossaryKey": "visite"
+        }
+      ],
+      "text": {
+        "title": "Auf Station",
+        "de": "Ich bin Pflegekraft. Du bist Patient. Herr Yilmaz ist auf Station 3B. Er hat Fieber. Wir haben Visite. Ich habe Durst. Ich möchte Wasser. Die Patientin möchte eine Tablette.",
+        "en": "I am a nurse. You are a patient. Mr Yilmaz is on ward 3B. He has a fever. We have a ward round. I am thirsty. I would like water. The patient would like a tablet."
+      }
+    },
+    {
+      "id": "dialogue",
+      "type": "dialogue",
+      "label": "Dialogue",
+      "title": "At the nurses' station",
+      "instructions": "Listen for bin, hast and möchte.",
+      "scene": "Anna brings water. Herr Yilmaz has a fever.",
+      "sceneTitle": "Am Stützpunkt",
+      "speakers": {
+        "N": {
+          "name": "Anna",
+          "role": "Pflegekraft",
+          "avatar": "🧑‍⚕️"
+        },
+        "P": {
+          "name": "Herr Yilmaz",
+          "role": "Patient",
+          "avatar": "🧑🏽"
+        }
+      },
+      "lines": [
+        {
+          "who": "N",
+          "de": "Guten Tag. Ich bin Anna. Sie sind Herr Yilmaz?",
+          "en": "Good day. I am Anna. You are Mr Yilmaz?"
+        },
+        {
+          "who": "P",
+          "de": "Ja. Ich habe Fieber und ich habe Durst.",
+          "en": "Yes. I have a fever and I am thirsty."
+        },
+        {
+          "who": "N",
+          "de": "Möchten Sie Wasser? Wir haben auch Tee.",
+          "en": "Would you like water? We also have tea."
+        },
+        {
+          "who": "P",
+          "de": "Ich möchte Wasser, bitte.",
+          "en": "I would like water, please."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Three irregular verbs",
+      "story": [
+        "You cannot build <b>sein</b> and <b>haben</b> with the regular endings. Learn the six forms.",
+        "<b>möchten</b> is the polite wish. ich/er/sie/es <b>möchte</b>, du <b>möchtest</b>, wir/sie/Sie <b>möchten</b>."
+      ],
+      "tables": [
+        {
+          "title": "sein · haben · möchten",
+          "columns": [
+            "",
+            "sein",
+            "haben",
+            "möchten"
+          ],
+          "rows": [
+            {
+              "label": "ich",
+              "cells": [
+                "bin",
+                "habe",
+                "möchte"
+              ]
+            },
+            {
+              "label": "du",
+              "cells": [
+                "bist",
+                "hast",
+                "möchtest"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "er/sie/es",
+              "cells": [
+                "ist",
+                "hat",
+                "möchte"
+              ]
+            },
+            {
+              "label": "wir",
+              "cells": [
+                "sind",
+                "haben",
+                "möchten"
+              ]
+            },
+            {
+              "label": "ihr",
+              "cells": [
+                "seid",
+                "habt",
+                "möchtet"
+              ]
+            },
+            {
+              "label": "sie/Sie",
+              "cells": [
+                "sind",
+                "haben",
+                "möchten"
+              ]
+            }
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "title": "haben for states",
+          "emoji": "🤒",
+          "body": "German says Ich habe Fieber, Ich habe Durst, Ich habe Schmerzen — not Ich bin Durst."
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Herr Yilmaz ___ Fieber.",
+          "options": [
+            "ist",
+            "hat",
+            "möchte"
+          ],
+          "answer": 1,
+          "why": "Fieber, Durst and Schmerzen use haben.",
+          "hint": "Illness and thirst use haben, not sein."
+        },
+        {
+          "q": "Polite: ___ Sie Wasser?",
+          "options": [
+            "Bist",
+            "Hast",
+            "Möchten"
+          ],
+          "answer": 2,
+          "why": "A wish is möchten. Sie → Möchten Sie …?",
+          "hint": "Would you like…?"
+        }
+      ],
+      "practice": "choose"
+    },
+    {
+      "id": "gaps",
+      "type": "gapfill",
+      "label": "Gap fill",
+      "title": "bin, hat or möchte?",
+      "instructions": "Choose the form. A hint costs 1 point.",
+      "chips": [
+        {
+          "w": "bin",
+          "hint": "sein, ich"
+        },
+        {
+          "w": "bist",
+          "hint": "sein, du"
+        },
+        {
+          "w": "hat",
+          "hint": "haben, er/sie"
+        },
+        {
+          "w": "haben",
+          "hint": "haben, wir/sie/Sie"
+        },
+        {
+          "w": "möchte",
+          "hint": "möchten, ich/er"
+        },
+        {
+          "w": "Möchten",
+          "hint": "möchten at the start of a Sie-question"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich",
+          "after": "Pflegekraft.",
+          "answer": "bin",
+          "en": "I am a nurse.",
+          "why": "Profession and role use sein.",
+          "tip": "sein, ich.",
+          "hint": "I am = ich bin."
+        },
+        {
+          "before": "Du",
+          "after": "Patient.",
+          "answer": "bist",
+          "en": "You are a patient.",
+          "why": "du + sein = bist.",
+          "tip": "du of sein.",
+          "hint": "du bist, not du bistst."
+        },
+        {
+          "before": "Er",
+          "after": "Fieber.",
+          "answer": "hat",
+          "en": "He has a fever.",
+          "why": "Fieber uses haben.",
+          "tip": "haben, not sein.",
+          "hint": "er hat Fieber."
+        },
+        {
+          "before": "Wir",
+          "after": "Visite.",
+          "answer": "haben",
+          "en": "We have a ward round.",
+          "why": "wir haben.",
+          "tip": "wir of haben is haben.",
+          "hint": "Plural haben looks like the infinitive."
+        },
+        {
+          "before": "Ich",
+          "after": "Wasser.",
+          "answer": "möchte",
+          "en": "I would like water.",
+          "why": "A wish: ich möchte.",
+          "tip": "Polite wish.",
+          "hint": "ich möchte, no -t."
+        },
+        {
+          "before": "",
+          "after": "Sie Tee?",
+          "answer": "Möchten",
+          "en": "Would you like tea?",
+          "why": "Yes/no question: the verb is first.",
+          "tip": "Sie-question, verb first.",
+          "hint": "Capital letter because the verb starts the question."
+        }
+      ],
+      "practice": "gap"
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "A short chart note",
+      "instructions": "Read the note and answer.",
+      "document": {
+        "letterhead": "Station 3B",
+        "title": "Herr Yilmaz heute",
+        "paragraphs": [
+          "Herr Yilmaz ist Patient. Er hat Fieber und er hat Durst.",
+          "Anna ist Pflegekraft. Sie hat eine Tablette.",
+          "Er möchte Wasser. Wir haben Visite auf Station 3B."
+        ],
+        "signature": "Anna",
+        "stamp": "KURVE"
+      },
+      "questions": [
+        {
+          "q": "Was hat Herr Yilmaz?",
+          "options": [
+            "eine Tablette",
+            "Fieber und Durst",
+            "Visite"
+          ],
+          "answer": 1,
+          "why": "Er hat Fieber und er hat Durst."
+        },
+        {
+          "kind": "tf",
+          "q": "Er möchte Tee.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "answer": 1,
+          "why": "Er möchte Wasser."
+        }
+      ],
+      "practice": "reading"
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "sein or haben?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the verb that fits.",
+      "items": [
+        {
+          "prompt": "Name and job.",
+          "options": [
+            {
+              "emoji": "🟰",
+              "label": "sein",
+              "caption": "who you are"
+            },
+            {
+              "emoji": "🤲",
+              "label": "haben",
+              "caption": "what you have"
+            }
+          ],
+          "answer": 0,
+          "why": "Ich bin Pflegekraft uses sein.",
+          "hint": "identity → sein"
+        },
+        {
+          "prompt": "Fever, pain, time.",
+          "options": [
+            {
+              "emoji": "🤲",
+              "label": "haben",
+              "caption": "possession or state you have"
+            },
+            {
+              "emoji": "🟰",
+              "label": "sein",
+              "caption": "identity"
+            }
+          ],
+          "answer": 0,
+          "why": "Fieber and Schmerzen take haben.",
+          "hint": "haben"
+        },
+        {
+          "prompt": "Er ___ müde.",
+          "options": [
+            {
+              "emoji": "🟰",
+              "label": "ist",
+              "caption": "sein"
+            },
+            {
+              "emoji": "🤲",
+              "label": "hat",
+              "caption": "haben"
+            }
+          ],
+          "answer": 0,
+          "why": "Müde describes him: sein.",
+          "hint": "adjective → sein"
+        },
+        {
+          "prompt": "Wir ___ Zeit.",
+          "options": [
+            {
+              "emoji": "🤲",
+              "label": "haben",
+              "caption": "we have time"
+            },
+            {
+              "emoji": "🟰",
+              "label": "sind",
+              "caption": "we are"
+            }
+          ],
+          "answer": 0,
+          "why": "Zeit takes haben.",
+          "hint": "haben"
+        }
+      ]
+    },
+    {
+      "id": "px-picture",
+      "label": "Picture",
+      "title": "Picture task",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the word to the picture, then read the hint.",
+      "items": [
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Say what the thing is, or what the patient has."
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "Say what the thing is, or what the patient has."
+        },
+        {
+          "id": "thermo",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "Say what the thing is, or what the patient has."
+        },
+        {
+          "id": "clip",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "file",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "Say what the thing is, or what the patient has."
+        }
+      ]
+    },
+    {
+      "id": "px-build",
+      "label": "Build",
+      "title": "Build with sein or haben",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Keep the verb in position 2.",
+      "items": [
+        {
+          "tiles": [
+            "Ich",
+            "bin",
+            "Pflegekraft"
+          ],
+          "answers": [
+            "Ich bin Pflegekraft"
+          ],
+          "punct": ".",
+          "modal": "bin",
+          "inf": "Pflegekraft",
+          "question": false,
+          "en": "I am a nurse.",
+          "hint": "sein: ich bin.",
+          "feedback": {
+            "fallback": "sein: ich bin."
+          }
+        },
+        {
+          "tiles": [
+            "Du",
+            "hast",
+            "Fieber"
+          ],
+          "answers": [
+            "Du hast Fieber"
+          ],
+          "punct": ".",
+          "modal": "hast",
+          "inf": "Fieber",
+          "question": false,
+          "en": "You have a fever.",
+          "hint": "haben: du hast.",
+          "feedback": {
+            "fallback": "haben: du hast."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "ist",
+            "müde"
+          ],
+          "answers": [
+            "Er ist müde"
+          ],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "müde",
+          "question": false,
+          "en": "He is tired.",
+          "hint": "sein: er ist.",
+          "feedback": {
+            "fallback": "sein: er ist."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "haben",
+            "Zeit"
+          ],
+          "answers": [
+            "Wir haben Zeit"
+          ],
+          "punct": ".",
+          "modal": "haben",
+          "inf": "Zeit",
+          "question": false,
+          "en": "We have time.",
+          "hint": "haben: wir haben.",
+          "feedback": {
+            "fallback": "haben: wir haben."
+          }
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Change the form.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the form the brackets ask for.",
+      "chips": [
+        {
+          "w": "bin",
+          "hint": "ich"
+        },
+        {
+          "w": "bist",
+          "hint": "du"
+        },
+        {
+          "w": "ist",
+          "hint": "er"
+        },
+        {
+          "w": "habe",
+          "hint": "ich"
+        },
+        {
+          "w": "hast",
+          "hint": "du"
+        },
+        {
+          "w": "hat",
+          "hint": "er"
+        }
+      ],
+      "items": [
+        {
+          "before": "sein (ich) →",
+          "after": "",
+          "answer": "bin",
+          "en": "am",
+          "why": "ich bin.",
+          "tip": "No ending pattern: learn bin.",
+          "hint": "ich"
+        },
+        {
+          "before": "sein (du) →",
+          "after": "",
+          "answer": "bist",
+          "en": "are",
+          "why": "du bist.",
+          "tip": "Learn bist.",
+          "hint": "du"
+        },
+        {
+          "before": "sein (er) →",
+          "after": "",
+          "answer": "ist",
+          "en": "is",
+          "why": "er ist.",
+          "tip": "Learn ist.",
+          "hint": "er"
+        },
+        {
+          "before": "haben (ich) →",
+          "after": "",
+          "answer": "habe",
+          "en": "have",
+          "why": "ich habe.",
+          "tip": "ich habe.",
+          "hint": "ich"
+        },
+        {
+          "before": "haben (du) →",
+          "after": "",
+          "answer": "hast",
+          "en": "have",
+          "why": "du hast.",
+          "tip": "du hast, not habst.",
+          "hint": "du"
+        },
+        {
+          "before": "haben (er) →",
+          "after": "",
+          "answer": "hat",
+          "en": "has",
+          "why": "er hat.",
+          "tip": "er hat.",
+          "hint": "er"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich hat Fieber."
+          ],
+          "options": [
+            "Ich habe Fieber.",
+            "Ich hat Fieber.",
+            "Ich hast Fieber."
+          ],
+          "answer": 0,
+          "reveal": "Ich habe Fieber.",
+          "hint": "ich → habe."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Du ist müde."
+          ],
+          "options": [
+            "Du bist müde.",
+            "Du ist müde.",
+            "Du bin müde."
+          ],
+          "answer": 0,
+          "reveal": "Du bist müde.",
+          "hint": "du → bist."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir ist bereit."
+          ],
+          "options": [
+            "Wir sind bereit.",
+            "Wir ist bereit.",
+            "Wir seid bereit."
+          ],
+          "answer": 0,
+          "reveal": "Wir sind bereit.",
+          "hint": "wir → sind."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er haben Zeit."
+          ],
+          "options": [
+            "Er hat Zeit.",
+            "Er haben Zeit.",
+            "Er hast Zeit."
+          ],
+          "answer": 0,
+          "reveal": "Er hat Zeit.",
+          "hint": "er → hat."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "Complete the dialogue.",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "One word in each gap. Notice who is speaking.",
+      "chips": [
+        {
+          "w": "bin",
+          "hint": "sein"
+        },
+        {
+          "w": "haben",
+          "hint": "haben"
+        },
+        {
+          "w": "ist",
+          "hint": "sein"
+        },
+        {
+          "w": "sind",
+          "hint": "sein"
+        },
+        {
+          "w": "bist",
+          "hint": "sein"
+        },
+        {
+          "w": "hat",
+          "hint": "haben"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich",
+          "after": "Pflegekraft.",
+          "answer": "bin",
+          "en": "I am a nurse.",
+          "why": "sein.",
+          "tip": "bin",
+          "hint": "sein",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Sie",
+          "after": "Schmerzen.",
+          "answer": "haben",
+          "en": "You have pain.",
+          "why": "Formal haben.",
+          "tip": "haben",
+          "hint": "haben",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Er",
+          "after": "ruhig.",
+          "answer": "ist",
+          "en": "He is calm.",
+          "why": "sein.",
+          "tip": "ist",
+          "hint": "sein",
+          "who": "Ärztin"
+        },
+        {
+          "before": "Wir",
+          "after": "auf Station.",
+          "answer": "sind",
+          "en": "We are on the ward.",
+          "why": "sein.",
+          "tip": "sind",
+          "hint": "sein",
+          "who": "Team"
+        },
+        {
+          "before": "Du",
+          "after": "pünktlich.",
+          "answer": "bist",
+          "en": "You are on time.",
+          "why": "sein.",
+          "tip": "bist",
+          "hint": "sein",
+          "who": "Kollegin"
+        },
+        {
+          "before": "Der Patient",
+          "after": "Fieber.",
+          "answer": "hat",
+          "en": "The patient has a fever.",
+          "why": "haben.",
+          "tip": "hat",
+          "hint": "haben",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "More practice",
+      "title": "Choose the form",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Fill every gap. Each chip is used once.",
+      "chips": [
+        {
+          "w": "bin",
+          "hint": "sein"
+        },
+        {
+          "w": "bist",
+          "hint": "sein"
+        },
+        {
+          "w": "ist",
+          "hint": "sein"
+        },
+        {
+          "w": "sind",
+          "hint": "sein"
+        },
+        {
+          "w": "seid",
+          "hint": "sein"
+        },
+        {
+          "w": "habe",
+          "hint": "haben"
+        },
+        {
+          "w": "hast",
+          "hint": "haben"
+        },
+        {
+          "w": "hat",
+          "hint": "haben"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich ___ Anna.",
+          "after": "",
+          "answer": "bin",
+          "en": "I am Anna.",
+          "why": "sein.",
+          "tip": "ich bin",
+          "hint": "sein"
+        },
+        {
+          "before": "Du ___ Arzt.",
+          "after": "",
+          "answer": "bist",
+          "en": "You are a doctor.",
+          "why": "sein.",
+          "tip": "du bist",
+          "hint": "sein"
+        },
+        {
+          "before": "Sie ___ müde.",
+          "after": "",
+          "answer": "ist",
+          "en": "She is tired.",
+          "why": "sein.",
+          "tip": "sie ist",
+          "hint": "sein"
+        },
+        {
+          "before": "Wir ___ bereit.",
+          "after": "",
+          "answer": "sind",
+          "en": "We are ready.",
+          "why": "sein.",
+          "tip": "wir sind",
+          "hint": "sein"
+        },
+        {
+          "before": "Ihr ___ leise.",
+          "after": "",
+          "answer": "seid",
+          "en": "You are quiet.",
+          "why": "sein.",
+          "tip": "ihr seid",
+          "hint": "sein"
+        },
+        {
+          "before": "Ich ___ Zeit.",
+          "after": "",
+          "answer": "habe",
+          "en": "I have time.",
+          "why": "haben.",
+          "tip": "ich habe",
+          "hint": "haben"
+        },
+        {
+          "before": "Du ___ Durst.",
+          "after": "",
+          "answer": "hast",
+          "en": "You are thirsty.",
+          "why": "haben.",
+          "tip": "du hast",
+          "hint": "haben"
+        },
+        {
+          "before": "Er ___ Fieber.",
+          "after": "",
+          "answer": "hat",
+          "en": "He has a fever.",
+          "why": "haben.",
+          "tip": "er hat",
+          "hint": "haben"
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "At the nurses' station",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write three or four sentences. Then compare the model.",
+      "prompt": "Say who you are and what the patient has.",
+      "bullets": [
+        "Use ich bin.",
+        "Use hat or haben.",
+        "Use ist."
+      ],
+      "model": "Ich bin Pflegekraft. Der Patient hat Fieber. Er ist müde.",
+      "modelEn": "I am a nurse. The patient has a fever. He is tired.",
+      "hint": "sein for who or how, haben for what someone has.",
+      "checklist": [
+        {
+          "id": "bin",
+          "label": "Uses bin",
+          "keywords": [
+            "bin"
+          ]
+        },
+        {
+          "id": "hat",
+          "label": "Uses hat",
+          "keywords": [
+            "hat"
+          ]
+        },
+        {
+          "id": "ist",
+          "label": "Uses ist",
+          "keywords": [
+            "ist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "type": "grammar",
+      "story": [
+        "This mixed test closes the lesson. 80% marks it as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "ich sein →",
+          "qEn": "Identity.",
+          "options": [
+            "ich bin",
+            "ich ist",
+            "ich habe"
+          ],
+          "answer": 0,
+          "why": "Learn bin.",
+          "hint": "bin"
+        },
+        {
+          "kind": "mc",
+          "q": "du sein →",
+          "qEn": "Informal.",
+          "options": [
+            "du ist",
+            "du bist",
+            "du bin"
+          ],
+          "answer": 1,
+          "why": "Learn bist.",
+          "hint": "bist"
+        },
+        {
+          "kind": "mc",
+          "q": "er haben →",
+          "qEn": "He has.",
+          "options": [
+            "er hast",
+            "er haben",
+            "er hat"
+          ],
+          "answer": 2,
+          "why": "Learn hat.",
+          "hint": "hat"
+        },
+        {
+          "kind": "mc",
+          "q": "wir sein →",
+          "qEn": "We are.",
+          "options": [
+            "wir sind",
+            "wir seid",
+            "wir ist"
+          ],
+          "answer": 0,
+          "why": "Learn sind.",
+          "hint": "sind"
+        },
+        {
+          "kind": "mc",
+          "q": "ihr haben →",
+          "qEn": "You have.",
+          "options": [
+            "ihr hat",
+            "ihr habt",
+            "ihr haben"
+          ],
+          "answer": 1,
+          "why": "Learn habt.",
+          "hint": "habt"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie (formal) sein →",
+          "qEn": "Formal are.",
+          "options": [
+            "Sie ist",
+            "Sie seid",
+            "Sie sind"
+          ],
+          "answer": 2,
+          "why": "Formal Sie uses sind.",
+          "hint": "sind"
+        },
+        {
+          "kind": "mc",
+          "q": "Fever takes…",
+          "qEn": "What he has.",
+          "options": [
+            "haben",
+            "sein",
+            "möchten"
+          ],
+          "answer": 0,
+          "why": "Er hat Fieber.",
+          "hint": "haben"
+        },
+        {
+          "kind": "mc",
+          "q": "Müde takes…",
+          "qEn": "How he is.",
+          "options": [
+            "haben",
+            "sein",
+            "kommen"
+          ],
+          "answer": 1,
+          "why": "Er ist müde.",
+          "hint": "sein"
+        },
+        {
+          "kind": "mc",
+          "q": "du haben →",
+          "qEn": "You have.",
+          "options": [
+            "du hat",
+            "du habst",
+            "du hast"
+          ],
+          "answer": 2,
+          "why": "hast, with s.",
+          "hint": "hast"
+        },
+        {
+          "kind": "mc",
+          "q": "es sein →",
+          "qEn": "It is.",
+          "options": [
+            "es ist",
+            "es bist",
+            "es sind"
+          ],
+          "answer": 0,
+          "why": "Es ist.",
+          "hint": "ist"
+        },
+        {
+          "kind": "mc",
+          "q": "ich haben →",
+          "qEn": "I have.",
+          "options": [
+            "ich hat",
+            "ich habe",
+            "ich bin"
+          ],
+          "answer": 1,
+          "why": "Ich habe.",
+          "hint": "habe"
+        },
+        {
+          "kind": "mc",
+          "q": "Die Patienten ___ Durst.",
+          "qEn": "They have.",
+          "options": [
+            "hat",
+            "sind",
+            "haben"
+          ],
+          "answer": 2,
+          "why": "Plural haben.",
+          "hint": "haben"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Gemerkt",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        {
+          "de": "Ich bin Pflegekraft.",
+          "en": "I am a nurse."
+        },
+        {
+          "de": "Ich habe Fieber.",
+          "en": "I have a fever."
+        },
+        {
+          "de": "Ich habe Durst.",
+          "en": "I am thirsty."
+        },
+        {
+          "de": "Ich möchte Wasser, bitte.",
+          "en": "I would like water, please."
+        },
+        {
+          "de": "Möchten Sie Tee?",
+          "en": "Would you like tea?"
+        }
+      ]
+    }
+  ]
+}

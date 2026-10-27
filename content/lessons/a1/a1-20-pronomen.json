@@ -1,0 +1,1536 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "helfe": {
+      "de": "helfen → helfe",
+      "pos": "verb",
+      "en": "help"
+    },
+    "helfen": {
+      "de": "helfen",
+      "pos": "verb",
+      "en": "to help"
+    },
+    "untersucht": {
+      "de": "untersuchen → untersucht",
+      "pos": "verb",
+      "en": "examines"
+    },
+    "gibt": {
+      "de": "geben → gibt",
+      "pos": "verb",
+      "en": "gives"
+    },
+    "gebe": {
+      "de": "geben → gebe",
+      "pos": "verb",
+      "en": "give"
+    },
+    "sieht": {
+      "de": "sehen → sieht",
+      "pos": "verb",
+      "en": "sees"
+    },
+    "ihnen": {
+      "de": "Ihnen",
+      "pos": "pronoun",
+      "en": "you (formal dative)"
+    },
+    "ihm": {
+      "de": "ihm",
+      "pos": "pronoun",
+      "en": "him (dative)"
+    },
+    "ihr": {
+      "de": "ihr",
+      "pos": "pronoun",
+      "en": "her (dative)"
+    },
+    "mich": {
+      "de": "mich",
+      "pos": "pronoun",
+      "en": "me (accusative)"
+    },
+    "mir": {
+      "de": "mir",
+      "pos": "pronoun",
+      "en": "me (dative)"
+    },
+    "euch": {
+      "de": "euch",
+      "pos": "pronoun",
+      "en": "you (plural dative or accusative)"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative)",
+      "article": "die",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "article": "die",
+      "plural": "die Tabletten",
+      "emoji": "💊"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "karte": {
+      "de": "Karte",
+      "pos": "noun",
+      "en": "card",
+      "article": "die",
+      "plural": "die Karten",
+      "emoji": "💳"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    }
+  },
+  "id": "a1-20-pronomen",
+  "level": "A1",
+  "unit": "Kapitel 20",
+  "chapter": 20,
+  "chapters": [
+    20
+  ],
+  "title": "Nur mit dir – nie ohne dich",
+  "subtitle": "Personal pronouns in the accusative and dative",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "Accusative: mich, dich, ihn, sie, es, uns, euch, sie, Sie.",
+        "Dative: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen.",
+        "helfen and geben take the dative for the person: Ich helfe Ihnen. Sie gibt ihm die Tablette.",
+        "untersuchen and sehen take the accusative: Der Arzt untersucht ihn. Sie sieht mich."
+      ],
+      "vocab": [
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor",
+          "emoji": "🩺",
+          "glossaryKey": "arzt"
+        },
+        {
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "nurse",
+          "emoji": "🧑‍⚕️",
+          "glossaryKey": "pflegekraft"
+        },
+        {
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "emoji": "💊",
+          "glossaryKey": "tablette"
+        },
+        {
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "chart",
+          "emoji": "📋",
+          "glossaryKey": "akte"
+        },
+        {
+          "de": "Karte",
+          "article": "die",
+          "plural": "die Karten",
+          "en": "card",
+          "emoji": "💳",
+          "glossaryKey": "karte"
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🤒",
+          "glossaryKey": "patient"
+        }
+      ],
+      "text": {
+        "title": "Ich helfe Ihnen",
+        "de": "Ich helfe Ihnen. Der Arzt untersucht den Patienten. Die Pflegekraft gibt ihm die Tablette. Der Patient gibt ihr die Akte. Die Pflegekraft sieht mich. Wir helfen euch. Ich gebe Ihnen die Karte. Sie gibt mir die Karte.",
+        "en": "I help you. The doctor examines the patient. The nurse gives him the tablet. The patient gives her the chart. The nurse sees me. We help you. I give you the card. She gives me the card."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "mich oder mir",
+      "practice": "choose",
+      "heroTitle": "The verb chooses the case",
+      "heroImage": "hands",
+      "story": [
+        "Replace the person with a pronoun. The case stays. <b>den Patienten</b> → <b>ihn</b>. <b>dem Patienten</b> → <b>ihm</b>.",
+        "<b>helfen</b> and the person after <b>geben</b> are dative: mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen.",
+        "<b>sehen</b> and <b>untersuchen</b> are accusative: mich, dich, ihn, sie, uns, euch, sie, Sie."
+      ],
+      "questionRule": "Ask which verb it is. helfen and geben → dative. sehen and untersuchen → accusative.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "den",
+              "r": "subj"
+            },
+            {
+              "t": "Patienten",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "ihn",
+              "r": "subj"
+            }
+          ],
+          "enBefore": "Accusative.",
+          "enAfter": "Der Arzt untersucht ihn.",
+          "callLabel": "Show ihn"
+        },
+        {
+          "before": [
+            {
+              "t": "dem",
+              "r": "subj"
+            },
+            {
+              "t": "Patienten",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "ihm",
+              "r": "subj"
+            }
+          ],
+          "enBefore": "Dative.",
+          "enAfter": "Sie gibt ihm die Tablette.",
+          "callLabel": "Show ihm"
+        },
+        {
+          "before": [
+            {
+              "t": "Ihnen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "Ich",
+              "r": "subj"
+            },
+            {
+              "t": "helfe",
+              "r": "verb"
+            },
+            {
+              "t": "Ihnen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Formal dative.",
+          "enAfter": "Ich helfe Ihnen.",
+          "callLabel": "Show Ihnen"
+        }
+      ],
+      "tables": [
+        {
+          "title": "mich oder mir",
+          "caption": "Formal you stays Sie in the accusative and becomes Ihnen in the dative.",
+          "columns": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+          ],
+          "rows": [
+            {
+              "label": "ich",
+              "cells": [
+                "ich",
+                "mich",
+                "mir"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "du",
+              "cells": [
+                "du",
+                "dich",
+                "dir"
+              ]
+            },
+            {
+              "label": "er",
+              "cells": [
+                "er",
+                "ihn",
+                "ihm"
+              ]
+            },
+            {
+              "label": "sie",
+              "cells": [
+                "sie",
+                "sie",
+                "ihr"
+              ]
+            },
+            {
+              "label": "wir",
+              "cells": [
+                "wir",
+                "uns",
+                "uns"
+              ]
+            },
+            {
+              "label": "ihr",
+              "cells": [
+                "ihr",
+                "euch",
+                "euch"
+              ]
+            },
+            {
+              "label": "Sie",
+              "cells": [
+                "Sie",
+                "Sie",
+                "Ihnen"
+              ],
+              "highlight": true
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "mir is not mich",
+        "items": [
+          {
+            "de": "Ich helfe Ihnen.",
+            "en": "helfen + dative.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich helfe Sie.",
+            "en": "Sie is accusative. helfen needs Ihnen.",
+            "tone": "stop"
+          },
+          {
+            "de": "Die Pflegekraft sieht mich.",
+            "en": "sehen + accusative.",
+            "tone": "ok"
+          },
+          {
+            "de": "Die Pflegekraft sieht mir.",
+            "en": "mir is dative.",
+            "tone": "stop"
+          },
+          {
+            "de": "Sie gibt ihm die Tablette.",
+            "en": "The person after geben is dative.",
+            "tone": "ok"
+          },
+          {
+            "de": "Sie gibt ihn die Tablette.",
+            "en": "ihn cannot be the receiver.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "helfen and geben → mir, ihm, ihr, Ihnen. sehen and untersuchen → mich, ihn, sie, Sie."
+      },
+      "tips": [
+        {
+          "title": "Two columns",
+          "emoji": "🫱",
+          "mnemonic": "mich/mir · ihn/ihm · Sie/Ihnen",
+          "body": "If you can ask Wen?, use the accusative column. If you can ask Wem?, use the dative column.",
+          "examples": [
+            {
+              "de": "Wir helfen euch.",
+              "en": "wem? dative"
+            },
+            {
+              "de": "Sie sieht mich.",
+              "en": "wen? accusative"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Accusative or dative?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "I help you. Formal.",
+          "qEn": "helfen.",
+          "options": [
+            "Ich helfe Ihnen.",
+            "Ich helfe Sie.",
+            "Ich helfe mich."
+          ],
+          "answer": 0,
+          "why": "helfen → dative Ihnen.",
+          "hint": "Ihnen."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse sees me.",
+          "qEn": "sehen.",
+          "options": [
+            "Sie sieht mir.",
+            "Sie sieht mich.",
+            "Sie sieht ich."
+          ],
+          "answer": 1,
+          "why": "sehen → accusative mich.",
+          "hint": "mich."
+        },
+        {
+          "kind": "mc",
+          "q": "She gives him the tablet.",
+          "qEn": "geben.",
+          "options": [
+            "Sie gibt ihn die Tablette.",
+            "Sie gibt er die Tablette.",
+            "Sie gibt ihm die Tablette."
+          ],
+          "answer": 2,
+          "why": "The receiver is dative.",
+          "hint": "ihm."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor examines him.",
+          "qEn": "untersuchen.",
+          "options": [
+            "Der Arzt untersucht ihn.",
+            "Der Arzt untersucht ihm.",
+            "Der Arzt untersucht er."
+          ],
+          "answer": 0,
+          "why": "untersuchen → accusative.",
+          "hint": "ihn."
+        }
+      ]
+    },
+    {
+      "id": "gap-pron",
+      "label": "Lücken",
+      "title": "The pronoun",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The person is named. The verb decides the case. Each chip fits one sentence.",
+      "chips": [
+        {
+          "w": "Ihnen",
+          "hint": "Ihnen."
+        },
+        {
+          "w": "ihn",
+          "hint": "ihn."
+        },
+        {
+          "w": "ihm",
+          "hint": "ihm."
+        },
+        {
+          "w": "ihr",
+          "hint": "ihr."
+        },
+        {
+          "w": "mich",
+          "hint": "mich."
+        },
+        {
+          "w": "mir",
+          "hint": "mir."
+        }
+      ],
+      "items": [
+        {
+          "before": "Sie, formell. Ich helfe",
+          "after": ".",
+          "answer": "Ihnen",
+          "en": "formal dative",
+          "why": "helfen → Ihnen.",
+          "tip": "Dat.",
+          "hint": "Ihnen."
+        },
+        {
+          "before": "Der Patient, maskulin. Der Arzt untersucht",
+          "after": ".",
+          "answer": "ihn",
+          "en": "him, accusative",
+          "why": "den Patienten → ihn.",
+          "tip": "Akk.",
+          "hint": "ihn."
+        },
+        {
+          "before": "Der Patient bekommt sie. Sie gibt",
+          "after": "die Tablette.",
+          "answer": "ihm",
+          "en": "him, dative",
+          "why": "The receiver.",
+          "tip": "Dat.",
+          "hint": "ihm."
+        },
+        {
+          "before": "Die Pflegekraft bekommt sie. Der Patient gibt",
+          "after": "die Akte.",
+          "answer": "ihr",
+          "en": "her, dative",
+          "why": "der Pflegekraft → ihr.",
+          "tip": "Dat.",
+          "hint": "ihr."
+        },
+        {
+          "before": "Die Pflegekraft bin ich. Sie sieht",
+          "after": ".",
+          "answer": "mich",
+          "en": "me, accusative",
+          "why": "sehen → mich.",
+          "tip": "Akk.",
+          "hint": "mich."
+        },
+        {
+          "before": "Ich bin der Empfänger. Sie gibt",
+          "after": "die Karte.",
+          "answer": "mir",
+          "en": "me, dative",
+          "why": "geben → mir.",
+          "tip": "Dat.",
+          "hint": "mir."
+        }
+      ]
+    },
+    {
+      "id": "match-pron",
+      "label": "Match",
+      "title": "Which pronoun?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "The verb is given.",
+      "items": [
+        {
+          "prompt": "helfen, formal you.",
+          "options": [
+            {
+              "emoji": "🤝",
+              "label": "Ihnen",
+              "caption": "dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie",
+              "caption": "accusative"
+            },
+            {
+              "emoji": "❌",
+              "label": "mich",
+              "caption": "that is me"
+            }
+          ],
+          "answer": 0,
+          "why": "Ihnen.",
+          "hint": "Dative."
+        },
+        {
+          "prompt": "sehen, me.",
+          "options": [
+            {
+              "emoji": "👁️",
+              "label": "mich",
+              "caption": "accusative"
+            },
+            {
+              "emoji": "❌",
+              "label": "mir",
+              "caption": "dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "ich",
+              "caption": "nominative"
+            }
+          ],
+          "answer": 0,
+          "why": "mich.",
+          "hint": "Accusative."
+        },
+        {
+          "prompt": "geben, him.",
+          "options": [
+            {
+              "emoji": "💊",
+              "label": "ihm",
+              "caption": "dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "ihn",
+              "caption": "accusative"
+            },
+            {
+              "emoji": "❌",
+              "label": "er",
+              "caption": "nominative"
+            }
+          ],
+          "answer": 0,
+          "why": "ihm.",
+          "hint": "Dative."
+        },
+        {
+          "prompt": "untersuchen, her.",
+          "options": [
+            {
+              "emoji": "🩺",
+              "label": "sie",
+              "caption": "accusative"
+            },
+            {
+              "emoji": "❌",
+              "label": "ihr",
+              "caption": "dative"
+            },
+            {
+              "emoji": "❌",
+              "label": "Sie",
+              "caption": "that capital is formal you"
+            }
+          ],
+          "answer": 0,
+          "why": "sie.",
+          "hint": "Accusative."
+        }
+      ]
+    },
+    {
+      "id": "picture-pron",
+      "label": "Picture",
+      "title": "Picture the person",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Replace the person with a pronoun in the right case.",
+      "items": [
+        {
+          "id": "doctor",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "Der Arzt untersucht ihn.",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "ihn"
+        },
+        {
+          "id": "nurse",
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "Ich helfe ihr.",
+          "image": {
+            "type": "svg",
+            "id": "hands"
+          },
+          "hint": "ihr"
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "Sie gibt ihm die Tablette.",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "ihm"
+        },
+        {
+          "id": "chart",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "Sie gibt mir die Akte.",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "mir"
+        }
+      ]
+    },
+    {
+      "id": "build-pron",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "The pronoun follows the verb.",
+      "items": [
+        {
+          "tiles": [
+            "Ich",
+            "helfe",
+            "Ihnen"
+          ],
+          "answers": [
+            "Ich helfe Ihnen"
+          ],
+          "punct": ".",
+          "modal": "helfe",
+          "inf": "Ihnen",
+          "question": false,
+          "en": "I help you.",
+          "hint": "dative.",
+          "feedback": {
+            "fallback": "dative."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "sieht",
+            "mich"
+          ],
+          "answers": [
+            "Sie sieht mich"
+          ],
+          "punct": ".",
+          "modal": "sieht",
+          "inf": "mich",
+          "question": false,
+          "en": "She sees me.",
+          "hint": "accusative.",
+          "feedback": {
+            "fallback": "accusative."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "gibt",
+            "ihm",
+            "die",
+            "Tablette"
+          ],
+          "answers": [
+            "Sie gibt ihm die Tablette"
+          ],
+          "punct": ".",
+          "modal": "gibt",
+          "inf": "Tablette",
+          "question": false,
+          "en": "She gives him the tablet.",
+          "hint": "dative.",
+          "feedback": {
+            "fallback": "dative."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "helfen",
+            "euch"
+          ],
+          "answers": [
+            "Wir helfen euch"
+          ],
+          "punct": ".",
+          "modal": "helfen",
+          "inf": "euch",
+          "question": false,
+          "en": "We help you.",
+          "hint": "dative.",
+          "feedback": {
+            "fallback": "dative."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-pron",
+      "label": "Umformen",
+      "title": "Replace the noun",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Keep the case.",
+      "chips": [
+        {
+          "w": "Ich helfe ihm.",
+          "hint": "ihm."
+        },
+        {
+          "w": "Ich helfe ihr.",
+          "hint": "ihr."
+        },
+        {
+          "w": "Der Arzt untersucht ihn.",
+          "hint": "ihn."
+        },
+        {
+          "w": "Der Arzt untersucht sie.",
+          "hint": "sie."
+        },
+        {
+          "w": "Sie sieht mich.",
+          "hint": "mich."
+        },
+        {
+          "w": "Ich gebe Ihnen die Karte.",
+          "hint": "Ihnen."
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich helfe dem Patienten.",
+          "after": "",
+          "answer": "Ich helfe ihm.",
+          "en": "dative",
+          "why": "dem Patienten → ihm.",
+          "tip": "ihm",
+          "hint": "ihm."
+        },
+        {
+          "before": "Ich helfe der Pflegekraft.",
+          "after": "",
+          "answer": "Ich helfe ihr.",
+          "en": "dative",
+          "why": "der Pflegekraft → ihr.",
+          "tip": "ihr",
+          "hint": "ihr."
+        },
+        {
+          "before": "Der Arzt untersucht den Patienten.",
+          "after": "",
+          "answer": "Der Arzt untersucht ihn.",
+          "en": "accusative",
+          "why": "den Patienten → ihn.",
+          "tip": "ihn",
+          "hint": "ihn."
+        },
+        {
+          "before": "Der Arzt untersucht die Patientin.",
+          "after": "",
+          "answer": "Der Arzt untersucht sie.",
+          "en": "accusative",
+          "why": "die Patientin → sie.",
+          "tip": "sie",
+          "hint": "sie."
+        },
+        {
+          "before": "Sie sieht mich. The noun was Anna.",
+          "after": "",
+          "answer": "Sie sieht mich.",
+          "en": "me",
+          "why": "Anna → mich, accusative.",
+          "tip": "mich",
+          "hint": "mich."
+        },
+        {
+          "before": "Formal: I give you the card.",
+          "after": "",
+          "answer": "Ich gebe Ihnen die Karte.",
+          "en": "formal",
+          "why": "Receiver is dative.",
+          "tip": "Ihnen",
+          "hint": "Ihnen."
+        }
+      ]
+    },
+    {
+      "id": "error-pron",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich helfe Sie."
+          ],
+          "options": [
+            "Ich helfe Ihnen.",
+            "Ich helfe Sie mir.",
+            "Ich helfe euch Sie."
+          ],
+          "answer": 0,
+          "reveal": "helfen needs the dative.",
+          "hint": "Ihnen."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie sieht mir."
+          ],
+          "options": [
+            "Sie sieht mich.",
+            "Sie sieht ich.",
+            "Sie sieht mir mich."
+          ],
+          "answer": 0,
+          "reveal": "sehen needs the accusative.",
+          "hint": "mich."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie gibt ihn die Tablette."
+          ],
+          "options": [
+            "Sie gibt ihm die Tablette.",
+            "Sie gibt er die Tablette.",
+            "Sie gibt ihn die Tablette ihm."
+          ],
+          "answer": 0,
+          "reveal": "The receiver is ihm.",
+          "hint": "ihm."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Arzt untersucht ihm."
+          ],
+          "options": [
+            "Der Arzt untersucht ihn.",
+            "Der Arzt untersucht er.",
+            "Der Arzt untersucht mir."
+          ],
+          "answer": 0,
+          "reveal": "untersuchen needs ihn.",
+          "hint": "ihn."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-pron",
+      "label": "Dialog",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The person is named. The verb decides the case.",
+      "chips": [
+        {
+          "w": "Ihnen",
+          "hint": "Ihnen."
+        },
+        {
+          "w": "Sie",
+          "hint": "Sie."
+        },
+        {
+          "w": "ihm",
+          "hint": "ihm."
+        },
+        {
+          "w": "mich",
+          "hint": "mich."
+        },
+        {
+          "w": "euch",
+          "hint": "euch."
+        },
+        {
+          "w": "mir",
+          "hint": "mir."
+        }
+      ],
+      "items": [
+        {
+          "before": "Sie, formell. Ich helfe",
+          "after": ".",
+          "answer": "Ihnen",
+          "en": "formal dative",
+          "why": "helfen → Ihnen.",
+          "tip": "Dat.",
+          "hint": "Ihnen.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Sie, formell. Der Arzt untersucht",
+          "after": ".",
+          "answer": "Sie",
+          "en": "formal accusative",
+          "why": "Accusative formal stays Sie.",
+          "tip": "Akk.",
+          "hint": "Sie.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Der Patient bekommt sie. Die Pflegekraft gibt",
+          "after": "die Tablette.",
+          "answer": "ihm",
+          "en": "him",
+          "why": "Receiver.",
+          "tip": "Dat.",
+          "hint": "ihm.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Die Pflegekraft bin ich. Sehen Sie",
+          "after": "?",
+          "answer": "mich",
+          "en": "me",
+          "why": "sehen → mich.",
+          "tip": "Akk.",
+          "hint": "mich.",
+          "who": "Patient"
+        },
+        {
+          "before": "ihr, die Gruppe. Wir helfen",
+          "after": ".",
+          "answer": "euch",
+          "en": "you plural",
+          "why": "helfen → euch.",
+          "tip": "Dat.",
+          "hint": "euch.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ich bin der Empfänger. Sie gibt",
+          "after": "die Karte.",
+          "answer": "mir",
+          "en": "me",
+          "why": "geben → mir.",
+          "tip": "Dat.",
+          "hint": "mir.",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-pron",
+      "label": "Lücken",
+      "title": "More pronouns",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The person is named. The verb decides the case.",
+      "chips": [
+        {
+          "w": "dich",
+          "hint": "dich."
+        },
+        {
+          "w": "dir",
+          "hint": "dir."
+        },
+        {
+          "w": "uns",
+          "hint": "uns."
+        },
+        {
+          "w": "ihnen",
+          "hint": "ihnen."
+        },
+        {
+          "w": "ihr",
+          "hint": "ihr."
+        },
+        {
+          "w": "sie",
+          "hint": "sie."
+        },
+        {
+          "w": "Ihnen",
+          "hint": "Ihnen."
+        },
+        {
+          "w": "ihn",
+          "hint": "ihn."
+        }
+      ],
+      "items": [
+        {
+          "before": "du. Ich sehe",
+          "after": ".",
+          "answer": "dich",
+          "en": "you, accusative",
+          "why": "du → dich.",
+          "tip": "Akk.",
+          "hint": "dich."
+        },
+        {
+          "before": "du. Ich helfe",
+          "after": ".",
+          "answer": "dir",
+          "en": "you, dative",
+          "why": "du → dir.",
+          "tip": "Dat.",
+          "hint": "dir."
+        },
+        {
+          "before": "wir. Der Arzt untersucht",
+          "after": ".",
+          "answer": "uns",
+          "en": "us, accusative",
+          "why": "wir → uns with untersuchen.",
+          "tip": "Akk.",
+          "hint": "uns."
+        },
+        {
+          "before": "sie, Plural. Er hilft",
+          "after": ".",
+          "answer": "ihnen",
+          "en": "them, dative",
+          "why": "sie plural → ihnen.",
+          "tip": "Dat.",
+          "hint": "ihnen."
+        },
+        {
+          "before": "die Pflegekraft. Sie gibt",
+          "after": "die Akte.",
+          "answer": "ihr",
+          "en": "her",
+          "why": "dative feminine.",
+          "tip": "Dat.",
+          "hint": "ihr."
+        },
+        {
+          "before": "die Patientin. Wir sehen",
+          "after": ".",
+          "answer": "sie",
+          "en": "her, accusative",
+          "why": "sehen → sie.",
+          "tip": "Akk.",
+          "hint": "sie."
+        },
+        {
+          "before": "Sie, formell. Ich gebe",
+          "after": "die Akte.",
+          "answer": "Ihnen",
+          "en": "formal receiver",
+          "why": "Capital Ihnen.",
+          "tip": "Dat.",
+          "hint": "Ihnen."
+        },
+        {
+          "before": "der Patient. Sie sieht",
+          "after": ".",
+          "answer": "ihn",
+          "en": "him, accusative",
+          "why": "sehen → ihn.",
+          "tip": "Akk.",
+          "hint": "ihn."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Ich helfe Ihnen",
+        "paragraphs": [
+          "Ich helfe Ihnen. Der Arzt untersucht den Patienten. Die Pflegekraft gibt ihm die Tablette. Der Patient gibt ihr die Akte. Die Pflegekraft sieht mich. Wir helfen euch. Ich gebe Ihnen die Karte. Sie gibt mir die Karte."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Ich helfe … formal.",
+          "qEn": "Dative.",
+          "options": [
+            "Ihnen",
+            "Sie",
+            "mich"
+          ],
+          "answer": 0,
+          "why": "helfen → Ihnen.",
+          "hint": "Ihnen."
+        },
+        {
+          "kind": "mc",
+          "q": "Sie gibt … die Tablette. The patient is masculine.",
+          "qEn": "Dative.",
+          "options": [
+            "ihn",
+            "ihm",
+            "er"
+          ],
+          "answer": 1,
+          "why": "Receiver.",
+          "hint": "ihm."
+        },
+        {
+          "kind": "mc",
+          "q": "Die Pflegekraft sieht …",
+          "qEn": "Accusative.",
+          "options": [
+            "mir",
+            "ich",
+            "mich"
+          ],
+          "answer": 2,
+          "why": "sehen → mich.",
+          "hint": "mich."
+        },
+        {
+          "kind": "mc",
+          "q": "Sie gibt … die Karte. The speaker receives it.",
+          "qEn": "Dative.",
+          "options": [
+            "mir",
+            "mich",
+            "mein"
+          ],
+          "answer": 0,
+          "why": "geben → mir.",
+          "hint": "mir."
+        }
+      ]
+    },
+    {
+      "id": "writing-pron",
+      "label": "Writing",
+      "title": "Write the pronouns",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four sentences.",
+      "prompt": "I help you (formal). She sees me. She gives him the tablet. She gives me the card.",
+      "bullets": [
+        "Ihnen",
+        "mich",
+        "ihm",
+        "mir"
+      ],
+      "model": "Ich helfe Ihnen. Die Pflegekraft sieht mich. Sie gibt ihm die Tablette. Sie gibt mir die Karte.",
+      "modelEn": "I help you. The nurse sees me. She gives him the tablet. She gives me the card.",
+      "hint": "helfen and geben take the dative. sehen takes the accusative.",
+      "checklist": [
+        {
+          "id": "ih",
+          "label": "Ihnen",
+          "keywords": [
+            "Ihnen"
+          ]
+        },
+        {
+          "id": "mi",
+          "label": "mich",
+          "keywords": [
+            "mich"
+          ]
+        },
+        {
+          "id": "hm",
+          "label": "ihm",
+          "keywords": [
+            "ihm"
+          ]
+        },
+        {
+          "id": "mr",
+          "label": "mir",
+          "keywords": [
+            "mir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 20. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "I help you, formal.",
+          "qEn": "helfen.",
+          "options": [
+            "Ich helfe Ihnen.",
+            "Ich helfe Sie.",
+            "Ich helfe mich."
+          ],
+          "answer": 0,
+          "why": "Dative.",
+          "hint": "Ihnen."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor examines you, formal.",
+          "qEn": "untersuchen.",
+          "options": [
+            "Der Arzt untersucht Ihnen.",
+            "Der Arzt untersucht Sie.",
+            "Der Arzt untersucht dir."
+          ],
+          "answer": 1,
+          "why": "Accusative Sie.",
+          "hint": "Sie."
+        },
+        {
+          "kind": "mc",
+          "q": "She sees me.",
+          "qEn": "sehen.",
+          "options": [
+            "Sie sieht mir.",
+            "Sie sieht ich.",
+            "Sie sieht mich."
+          ],
+          "answer": 2,
+          "why": "Accusative.",
+          "hint": "mich."
+        },
+        {
+          "kind": "mc",
+          "q": "She gives me the card.",
+          "qEn": "geben.",
+          "options": [
+            "Sie gibt mir die Karte.",
+            "Sie gibt mich die Karte.",
+            "Sie gibt ich die Karte."
+          ],
+          "answer": 0,
+          "why": "Dative.",
+          "hint": "mir."
+        },
+        {
+          "kind": "mc",
+          "q": "She gives him the tablet.",
+          "qEn": "geben.",
+          "options": [
+            "Sie gibt ihn die Tablette.",
+            "Sie gibt ihm die Tablette.",
+            "Sie gibt er die Tablette."
+          ],
+          "answer": 1,
+          "why": "Dative.",
+          "hint": "ihm."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor examines him.",
+          "qEn": "untersuchen.",
+          "options": [
+            "Der Arzt untersucht ihm.",
+            "Der Arzt untersucht er.",
+            "Der Arzt untersucht ihn."
+          ],
+          "answer": 2,
+          "why": "Accusative.",
+          "hint": "ihn."
+        },
+        {
+          "kind": "mc",
+          "q": "He gives her the chart.",
+          "qEn": "geben.",
+          "options": [
+            "Er gibt ihr die Akte.",
+            "Er gibt sie die Akte.",
+            "Er gibt sie der Akte."
+          ],
+          "answer": 0,
+          "why": "Dative ihr.",
+          "hint": "ihr."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor examines her.",
+          "qEn": "untersuchen.",
+          "options": [
+            "Der Arzt untersucht ihr.",
+            "Der Arzt untersucht sie.",
+            "Der Arzt untersucht ihm."
+          ],
+          "answer": 1,
+          "why": "Accusative sie.",
+          "hint": "sie."
+        },
+        {
+          "kind": "mc",
+          "q": "We help you, plural.",
+          "qEn": "helfen.",
+          "options": [
+            "Wir helfen ihr.",
+            "Wir helfen Sie.",
+            "Wir helfen euch."
+          ],
+          "answer": 2,
+          "why": "Dative euch.",
+          "hint": "euch."
+        },
+        {
+          "kind": "mc",
+          "q": "I see you, informal.",
+          "qEn": "sehen.",
+          "options": [
+            "Ich sehe dich.",
+            "Ich sehe dir.",
+            "Ich sehe du."
+          ],
+          "answer": 0,
+          "why": "Accusative dich.",
+          "hint": "dich."
+        },
+        {
+          "kind": "mc",
+          "q": "I help you, informal.",
+          "qEn": "helfen.",
+          "options": [
+            "Ich helfe dich.",
+            "Ich helfe dir.",
+            "Ich helfe du."
+          ],
+          "answer": 1,
+          "why": "Dative dir.",
+          "hint": "dir."
+        },
+        {
+          "kind": "mc",
+          "q": "He helps them.",
+          "qEn": "helfen.",
+          "options": [
+            "Er hilft sie.",
+            "Er hilft ihr sie.",
+            "Er hilft ihnen."
+          ],
+          "answer": 2,
+          "why": "Dative ihnen.",
+          "hint": "ihnen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "mich und mir",
+      "redemittel": [
+        {
+          "de": "Ich helfe Ihnen.",
+          "en": "I help you."
+        },
+        {
+          "de": "Der Arzt untersucht ihn.",
+          "en": "The doctor examines him."
+        },
+        {
+          "de": "Sie gibt ihm die Tablette.",
+          "en": "She gives him the tablet."
+        },
+        {
+          "de": "Die Pflegekraft sieht mich.",
+          "en": "The nurse sees me."
+        },
+        {
+          "de": "Sie gibt mir die Karte.",
+          "en": "She gives me the card."
+        }
+      ]
+    }
+  ]
+}

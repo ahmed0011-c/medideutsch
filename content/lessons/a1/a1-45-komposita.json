@@ -1,0 +1,1784 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "sind": {
+      "de": "sein → sind",
+      "pos": "verb",
+      "en": "are"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in"
+    },
+    "neben": {
+      "de": "neben",
+      "pos": "preposition",
+      "en": "next to"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in + dem"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "contraction",
+      "en": "von + dem"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "an + dem"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🤒"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "plural": "die Ärzte",
+      "emoji": "🩺"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "emoji": "🚪"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "article": "die",
+      "plural": "die Akten",
+      "emoji": "📋"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "article": "der",
+      "plural": "die Tische",
+      "emoji": "🪑"
+    },
+    "anmeldung": {
+      "de": "Anmeldung",
+      "pos": "noun",
+      "en": "reception",
+      "article": "die",
+      "plural": "die Anmeldungen",
+      "emoji": "🗂️"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "🧑‍⚕️"
+    },
+    "blutdruckmessgerät": {
+      "de": "Blutdruckmessgerät",
+      "pos": "noun",
+      "en": "blood pressure monitor",
+      "article": "das",
+      "plural": "die Blutdruckmessgeräte",
+      "emoji": "🩺"
+    },
+    "bauchschmerzen": {
+      "de": "Bauchschmerzen",
+      "pos": "noun",
+      "en": "abdominal pain",
+      "article": "die",
+      "plural": "die Bauchschmerzen",
+      "emoji": "🤕"
+    },
+    "notaufnahme": {
+      "de": "Notaufnahme",
+      "pos": "noun",
+      "en": "emergency department",
+      "article": "die",
+      "plural": "die Notaufnahmen",
+      "emoji": "🚨"
+    },
+    "krankenhausbett": {
+      "de": "Krankenhausbett",
+      "pos": "noun",
+      "en": "hospital bed",
+      "article": "das",
+      "plural": "die Krankenhausbetten",
+      "emoji": "🛏️"
+    },
+    "schmerztablette": {
+      "de": "Schmerztablette",
+      "pos": "noun",
+      "en": "pain tablet",
+      "article": "die",
+      "plural": "die Schmerztabletten",
+      "emoji": "💊"
+    },
+    "untersuchungsraum": {
+      "de": "Untersuchungsraum",
+      "pos": "noun",
+      "en": "examination room",
+      "article": "der",
+      "plural": "die Untersuchungsräume",
+      "emoji": "🚪"
+    },
+    "patientenakte": {
+      "de": "Patientenakte",
+      "pos": "noun",
+      "en": "patient chart",
+      "article": "die",
+      "plural": "die Patientenakten",
+      "emoji": "📋"
+    },
+    "kinderarzt": {
+      "de": "Kinderarzt",
+      "pos": "noun",
+      "en": "paediatrician",
+      "article": "der",
+      "plural": "die Kinderärzte",
+      "emoji": "🩺"
+    },
+    "arztkinder": {
+      "de": "Arztkinder",
+      "pos": "noun",
+      "en": "the doctor's children",
+      "article": "die",
+      "plural": "die Arztkinder",
+      "emoji": "👧"
+    },
+    "offen": {
+      "de": "offen",
+      "pos": "adjective",
+      "en": "open"
+    }
+  },
+  "id": "a1-45-komposita",
+  "level": "A1",
+  "unit": "Kapitel 45",
+  "chapter": 45,
+  "chapters": [
+    45
+  ],
+  "title": "Kinderarzt oder Arztkinder?",
+  "subtitle": "Compounds: the last word decides the article",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "A compound is blocks pushed together. The last noun is the base: it gives the article and the plural.",
+        "The first block only specifies. Stress sits on the first block: KINDERarzt, not kinderARZT.",
+        "Sometimes a linking letter stands between the blocks: Untersuchungsraum (-s-), Patientenakte (-en-).",
+        "der Kinderarzt is the doctor. die Arztkinder are the doctor's children. The order changes the meaning."
+      ],
+      "vocab": [
+        {
+          "de": "Blutdruckmessgerät",
+          "article": "das",
+          "plural": "die Blutdruckmessgeräte",
+          "en": "blood pressure monitor",
+          "emoji": "🩺",
+          "glossaryKey": "blutdruckmessgerät"
+        },
+        {
+          "de": "Notaufnahme",
+          "article": "die",
+          "plural": "die Notaufnahmen",
+          "en": "emergency department",
+          "emoji": "🚨",
+          "glossaryKey": "notaufnahme"
+        },
+        {
+          "de": "Krankenhausbett",
+          "article": "das",
+          "plural": "die Krankenhausbetten",
+          "en": "hospital bed",
+          "emoji": "🛏️",
+          "glossaryKey": "krankenhausbett"
+        },
+        {
+          "de": "Schmerztablette",
+          "article": "die",
+          "plural": "die Schmerztabletten",
+          "en": "pain tablet",
+          "emoji": "💊",
+          "glossaryKey": "schmerztablette"
+        },
+        {
+          "de": "Untersuchungsraum",
+          "article": "der",
+          "plural": "die Untersuchungsräume",
+          "en": "examination room",
+          "emoji": "🚪",
+          "glossaryKey": "untersuchungsraum"
+        },
+        {
+          "de": "Patientenakte",
+          "article": "die",
+          "plural": "die Patientenakten",
+          "en": "patient chart",
+          "emoji": "📋",
+          "glossaryKey": "patientenakte"
+        }
+      ],
+      "text": {
+        "title": "Kinderarzt oder Arztkinder?",
+        "de": "Das Blutdruckmessgerät liegt auf dem Tisch. Der Patient hat Bauchschmerzen. Die Notaufnahme ist offen. Das Krankenhausbett steht im Zimmer. Die Schmerztablette liegt neben der Akte. Der Untersuchungsraum ist neben der Anmeldung. Die Patientenakte kommt vom Arzt. Der Kinderarzt kommt aus dem Zimmer.",
+        "en": "The blood pressure monitor is on the table. The patient has abdominal pain. The emergency department is open. The hospital bed is in the room. The pain tablet is next to the chart. The examination room is next to reception. The patient chart comes from the doctor. The paediatrician comes out of the room."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Bausteine",
+      "practice": "choose",
+      "heroTitle": "Read the compound from the end",
+      "heroImage": "bpmonitor",
+      "story": [
+        "Push two nouns together and you have a new word. <b>Kinder + Arzt = der Kinderarzt</b>. <b>Arzt + Kinder = die Arztkinder</b>.",
+        "The <b>last</b> noun decides the article and the plural. Gerät is das, so das Blutdruckmessgerät. Aufnahme is die, so die Notaufnahme.",
+        "A small linking letter can sit in the joint. After -ung comes <b>-s-</b>: der Untersuchungsraum. Patient takes <b>-en-</b>: die Patientenakte."
+      ],
+      "questionRule": "Say the compound as blocks, then name the article from the <b>last</b> block. The stress stays on the first block.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "Kinder",
+              "r": "subj"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "Arzt",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "der",
+              "r": "subj"
+            },
+            {
+              "t": "Kinderarzt",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Two blocks.",
+          "enAfter": "der Kinderarzt. Arzt decides.",
+          "callLabel": "Show Kinderarzt"
+        },
+        {
+          "before": [
+            {
+              "t": "Untersuchung",
+              "r": "subj"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "s",
+              "r": "rest"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "Raum",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "der",
+              "r": "subj"
+            },
+            {
+              "t": "Untersuchungsraum",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Fugen-s after -ung.",
+          "enAfter": "der Untersuchungsraum.",
+          "callLabel": "Show -s-"
+        },
+        {
+          "before": [
+            {
+              "t": "Patient",
+              "r": "subj"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "en",
+              "r": "rest"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "Akte",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "die",
+              "r": "subj"
+            },
+            {
+              "t": "Patientenakte",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "Fugen-en with Patient.",
+          "enAfter": "die Patientenakte.",
+          "callLabel": "Show -en-"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Bausteine",
+          "caption": "Read each row from left to right. The highlighted rows need a linking letter.",
+          "columns": [
+            "Teil 1",
+            "Fuge",
+            "Teil 2",
+            "Kompositum"
+          ],
+          "rows": [
+            {
+              "label": "Kinderarzt",
+              "cells": [
+                "Kinder",
+                "—",
+                "Arzt",
+                "der Kinderarzt"
+              ]
+            },
+            {
+              "label": "Notaufnahme",
+              "cells": [
+                "Not",
+                "—",
+                "Aufnahme",
+                "die Notaufnahme"
+              ]
+            },
+            {
+              "label": "Schmerztablette",
+              "cells": [
+                "Schmerz",
+                "—",
+                "Tablette",
+                "die Schmerztablette"
+              ]
+            },
+            {
+              "label": "Krankenhausbett",
+              "cells": [
+                "Krankenhaus",
+                "—",
+                "Bett",
+                "das Krankenhausbett"
+              ]
+            },
+            {
+              "label": "Bauchschmerzen",
+              "cells": [
+                "Bauch",
+                "—",
+                "Schmerzen",
+                "die Bauchschmerzen"
+              ]
+            },
+            {
+              "label": "Blutdruckmessgerät",
+              "cells": [
+                "Blutdruck",
+                "—",
+                "Messgerät",
+                "das Blutdruckmessgerät"
+              ]
+            },
+            {
+              "label": "Untersuchungsraum",
+              "cells": [
+                "Untersuchung",
+                "s",
+                "Raum",
+                "der Untersuchungsraum"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Patientenakte",
+              "cells": [
+                "Patient",
+                "en",
+                "Akte",
+                "die Patientenakte"
+              ],
+              "highlight": true
+            }
+          ]
+        },
+        {
+          "title": "Artikel vom letzten Wort",
+          "caption": "Cover the first block. The article you see is the article of the whole compound.",
+          "columns": [
+            "Letztes Wort",
+            "Artikel",
+            "Kompositum"
+          ],
+          "rows": [
+            {
+              "label": "Gerät",
+              "cells": [
+                "das Gerät",
+                "das",
+                "das Blutdruckmessgerät"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Aufnahme",
+              "cells": [
+                "die Aufnahme",
+                "die",
+                "die Notaufnahme"
+              ]
+            },
+            {
+              "label": "Bett",
+              "cells": [
+                "das Bett",
+                "das",
+                "das Krankenhausbett"
+              ]
+            },
+            {
+              "label": "Tablette",
+              "cells": [
+                "die Tablette",
+                "die",
+                "die Schmerztablette"
+              ]
+            },
+            {
+              "label": "Raum",
+              "cells": [
+                "der Raum",
+                "der",
+                "der Untersuchungsraum"
+              ]
+            },
+            {
+              "label": "Akte",
+              "cells": [
+                "die Akte",
+                "die",
+                "die Patientenakte"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "The joint and the article",
+        "items": [
+          {
+            "de": "das Blutdruckmessgerät",
+            "en": "Gerät is neuter, so the compound is neuter.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Blutdruckmessgerät",
+            "en": "The first block does not decide.",
+            "tone": "stop"
+          },
+          {
+            "de": "der Untersuchungsraum",
+            "en": "Untersuchung + s + Raum.",
+            "tone": "ok"
+          },
+          {
+            "de": "der Untersuchungraum",
+            "en": "After -ung the linking -s- is missing.",
+            "tone": "stop"
+          },
+          {
+            "de": "die Patientenakte",
+            "en": "Patient + en + Akte.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Patientakte",
+            "en": "Patient needs -en- before Akte.",
+            "tone": "stop"
+          },
+          {
+            "de": "der Kinderarzt",
+            "en": "The doctor for children.",
+            "tone": "ok"
+          },
+          {
+            "de": "die Kinderarzt",
+            "en": "Arzt is masculine. die Arztkinder is a different word.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Last noun = article. -s- after -ung. -en- with Patient."
+      },
+      "tips": [
+        {
+          "title": "From the end",
+          "emoji": "🧱",
+          "mnemonic": "last noun = article + plural",
+          "body": "Cover the front of the word. Blutdruckmessgerät ends in Gerät, and Gerät is das. The plural is die Blutdruckmessgeräte.",
+          "examples": [
+            {
+              "de": "das Krankenhausbett, die Krankenhausbetten",
+              "en": "Bett decides"
+            },
+            {
+              "de": "die Notaufnahme, die Notaufnahmen",
+              "en": "Aufnahme decides"
+            }
+          ]
+        },
+        {
+          "title": "The joint",
+          "emoji": "🔗",
+          "mnemonic": "-s- after -ung · -en- with Patient",
+          "body": "Not every compound needs a linking letter. Notaufnahme, Schmerztablette and Bauchschmerzen join directly.",
+          "examples": [
+            {
+              "de": "der Untersuchungsraum",
+              "en": "Untersuchung + s + Raum"
+            },
+            {
+              "de": "die Patientenakte",
+              "en": "Patient + en + Akte"
+            }
+          ]
+        }
+      ],
+      "quizTitle": "Which block decides?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Which block decides the article?",
+          "qEn": "The base.",
+          "options": [
+            "the last noun",
+            "the first noun",
+            "the linking letter"
+          ],
+          "answer": 0,
+          "why": "The last noun is the base.",
+          "hint": "Read from the end."
+        },
+        {
+          "kind": "mc",
+          "q": "Kinder + Arzt =",
+          "qEn": "The doctor.",
+          "options": [
+            "die Kinderarzt",
+            "der Kinderarzt",
+            "das Kinderarzt"
+          ],
+          "answer": 1,
+          "why": "Arzt is der.",
+          "hint": "Last word: Arzt."
+        },
+        {
+          "kind": "mc",
+          "q": "Untersuchung + Raum needs which joint?",
+          "qEn": "After -ung.",
+          "options": [
+            "Untersuchungraum",
+            "Untersuchungsenraum",
+            "Untersuchungsraum"
+          ],
+          "answer": 2,
+          "why": "-s- after -ung.",
+          "hint": "Fugen-s."
+        },
+        {
+          "kind": "mc",
+          "q": "Patient + Akte =",
+          "qEn": "The chart.",
+          "options": [
+            "die Patientenakte",
+            "die Patientakte",
+            "der Patientenakte"
+          ],
+          "answer": 0,
+          "why": "Patient takes -en-, and Akte is die.",
+          "hint": "-en- and Akte."
+        }
+      ]
+    },
+    {
+      "id": "gap-compounds",
+      "label": "Lücken",
+      "title": "Build the compound",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Each chip is used once. The article in the sentence already matches the last noun.",
+      "chips": [
+        {
+          "w": "Blutdruckmessgerät",
+          "hint": "Last noun?"
+        },
+        {
+          "w": "Bauchschmerzen",
+          "hint": "Last noun?"
+        },
+        {
+          "w": "Notaufnahme",
+          "hint": "Last noun?"
+        },
+        {
+          "w": "Krankenhausbett",
+          "hint": "Last noun?"
+        },
+        {
+          "w": "Schmerztablette",
+          "hint": "Last noun?"
+        },
+        {
+          "w": "Untersuchungsraum",
+          "hint": "-s-"
+        }
+      ],
+      "items": [
+        {
+          "before": "Auf dem Tisch liegt das",
+          "after": ".",
+          "answer": "Blutdruckmessgerät",
+          "en": "the monitor",
+          "why": "Gerät → das.",
+          "tip": "Gerät",
+          "hint": "Last noun?"
+        },
+        {
+          "before": "Der Patient hat",
+          "after": ".",
+          "answer": "Bauchschmerzen",
+          "en": "abdominal pain",
+          "why": "Schmerzen → die, even when Bauch comes first.",
+          "tip": "Schmerzen",
+          "hint": "Last noun?"
+        },
+        {
+          "before": "Die",
+          "after": "ist offen.",
+          "answer": "Notaufnahme",
+          "en": "emergency department",
+          "why": "Aufnahme → die. No linking letter.",
+          "tip": "Aufnahme",
+          "hint": "Last noun?"
+        },
+        {
+          "before": "Das",
+          "after": "steht im Zimmer.",
+          "answer": "Krankenhausbett",
+          "en": "the bed",
+          "why": "Bett → das.",
+          "tip": "Bett",
+          "hint": "Last noun?"
+        },
+        {
+          "before": "Neben der Akte liegt die",
+          "after": ".",
+          "answer": "Schmerztablette",
+          "en": "the tablet",
+          "why": "Tablette → die.",
+          "tip": "Tablette",
+          "hint": "Last noun?"
+        },
+        {
+          "before": "Der",
+          "after": "ist neben der Anmeldung.",
+          "answer": "Untersuchungsraum",
+          "en": "the examination room",
+          "why": "Raum → der, with Fugen-s.",
+          "tip": "Raum",
+          "hint": "-s-"
+        }
+      ]
+    },
+    {
+      "id": "match-blocks",
+      "label": "Match",
+      "title": "Which compound?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Choose the compound that matches the blocks.",
+      "items": [
+        {
+          "prompt": "Which block gives Blutdruckmessgerät its article?",
+          "options": [
+            {
+              "emoji": "🧱",
+              "label": "Gerät, the last noun",
+              "caption": "das"
+            },
+            {
+              "emoji": "1️⃣",
+              "label": "Blut, the first noun",
+              "caption": "das Blut"
+            },
+            {
+              "emoji": "🔗",
+              "label": "a linking -s-",
+              "caption": "this word has none"
+            }
+          ],
+          "answer": 0,
+          "why": "The last noun decides.",
+          "hint": "From the end."
+        },
+        {
+          "prompt": "Kinder + Arzt, the doctor.",
+          "options": [
+            {
+              "emoji": "🩺",
+              "label": "der Kinderarzt",
+              "caption": "Arzt decides"
+            },
+            {
+              "emoji": "👧",
+              "label": "die Arztkinder",
+              "caption": "Kinder decides"
+            },
+            {
+              "emoji": "❌",
+              "label": "die Kinderarzt",
+              "caption": "wrong article"
+            }
+          ],
+          "answer": 0,
+          "why": "The doctor is der Kinderarzt.",
+          "hint": "Last word Arzt."
+        },
+        {
+          "prompt": "Untersuchung and Raum.",
+          "options": [
+            {
+              "emoji": "🚪",
+              "label": "der Untersuchungsraum",
+              "caption": "Fugen-s"
+            },
+            {
+              "emoji": "✏️",
+              "label": "der Untersuchungraum",
+              "caption": "the -s- is missing"
+            },
+            {
+              "emoji": "📋",
+              "label": "die Untersuchungakte",
+              "caption": "wrong second noun"
+            }
+          ],
+          "answer": 0,
+          "why": "After -ung comes -s-.",
+          "hint": "Fugen-s."
+        },
+        {
+          "prompt": "Patient and Akte.",
+          "options": [
+            {
+              "emoji": "📋",
+              "label": "die Patientenakte",
+              "caption": "Fugen-en"
+            },
+            {
+              "emoji": "✏️",
+              "label": "die Patientakte",
+              "caption": "the -en- is missing"
+            },
+            {
+              "emoji": "🩺",
+              "label": "der Patientarzt",
+              "caption": "wrong second noun"
+            }
+          ],
+          "answer": 0,
+          "why": "Patient takes -en-.",
+          "hint": "Fugen-en."
+        }
+      ]
+    },
+    {
+      "id": "picture-compounds",
+      "label": "Picture",
+      "title": "Picture the compound",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the picture to the compound. The article comes from the last noun.",
+      "items": [
+        {
+          "id": "monitor",
+          "de": "Blutdruckmessgerät",
+          "article": "das",
+          "plural": "die Blutdruckmessgeräte",
+          "en": "blood pressure monitor",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          },
+          "hint": "Ends in Gerät."
+        },
+        {
+          "id": "bed",
+          "de": "Krankenhausbett",
+          "article": "das",
+          "plural": "die Krankenhausbetten",
+          "en": "hospital bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Ends in Bett."
+        },
+        {
+          "id": "tablet",
+          "de": "Schmerztablette",
+          "article": "die",
+          "plural": "die Schmerztabletten",
+          "en": "pain tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "Ends in Tablette."
+        },
+        {
+          "id": "chart",
+          "de": "Patientenakte",
+          "article": "die",
+          "plural": "die Patientenakten",
+          "en": "patient chart",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "Ends in Akte, with -en-."
+        }
+      ]
+    },
+    {
+      "id": "build-compounds",
+      "label": "Build",
+      "title": "Build the sentence",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "The verb stays in position 2.",
+      "items": [
+        {
+          "tiles": [
+            "Der",
+            "Kinderarzt",
+            "kommt",
+            "jetzt"
+          ],
+          "answers": [
+            "Der Kinderarzt kommt jetzt"
+          ],
+          "punct": ".",
+          "modal": "Kinderarzt",
+          "inf": "jetzt",
+          "question": false,
+          "en": "The paediatrician is coming now.",
+          "hint": "Arzt decides: der.",
+          "feedback": {
+            "fallback": "Arzt decides: der."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Notaufnahme",
+            "ist",
+            "offen"
+          ],
+          "answers": [
+            "Die Notaufnahme ist offen"
+          ],
+          "punct": ".",
+          "modal": "Notaufnahme",
+          "inf": "offen",
+          "question": false,
+          "en": "The emergency department is open.",
+          "hint": "Aufnahme decides: die.",
+          "feedback": {
+            "fallback": "Aufnahme decides: die."
+          }
+        },
+        {
+          "tiles": [
+            "Das",
+            "Krankenhausbett",
+            "steht",
+            "bereit"
+          ],
+          "answers": [
+            "Das Krankenhausbett steht bereit"
+          ],
+          "punct": ".",
+          "modal": "Krankenhausbett",
+          "inf": "bereit",
+          "question": false,
+          "en": "The hospital bed is ready.",
+          "hint": "Bett decides: das.",
+          "feedback": {
+            "fallback": "Bett decides: das."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Schmerztablette",
+            "liegt",
+            "hier"
+          ],
+          "answers": [
+            "Die Schmerztablette liegt hier"
+          ],
+          "punct": ".",
+          "modal": "Schmerztablette",
+          "inf": "hier",
+          "question": false,
+          "en": "The pain tablet is here.",
+          "hint": "Tablette decides: die.",
+          "feedback": {
+            "fallback": "Tablette decides: die."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-compounds",
+      "label": "Umformen",
+      "title": "Join the blocks",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the compound, including the linking letter when it is needed.",
+      "chips": [
+        {
+          "w": "Blutdruckmessgerät",
+          "hint": "No fuge."
+        },
+        {
+          "w": "Notaufnahme",
+          "hint": "No fuge."
+        },
+        {
+          "w": "Krankenhausbett",
+          "hint": "No fuge."
+        },
+        {
+          "w": "Untersuchungsraum",
+          "hint": "Fugen-s."
+        },
+        {
+          "w": "Patientenakte",
+          "hint": "Fugen-en."
+        },
+        {
+          "w": "Kinderarzt",
+          "hint": "No fuge."
+        }
+      ],
+      "items": [
+        {
+          "before": "Blutdruck + Messgerät =",
+          "after": "",
+          "answer": "Blutdruckmessgerät",
+          "en": "no linking letter",
+          "why": "The blocks join directly.",
+          "tip": "Gerät",
+          "hint": "No fuge."
+        },
+        {
+          "before": "Not + Aufnahme =",
+          "after": "",
+          "answer": "Notaufnahme",
+          "en": "no linking letter",
+          "why": "Not and Aufnahme join directly.",
+          "tip": "Aufnahme",
+          "hint": "No fuge."
+        },
+        {
+          "before": "Krankenhaus + Bett =",
+          "after": "",
+          "answer": "Krankenhausbett",
+          "en": "no linking letter",
+          "why": "Bett is the last noun.",
+          "tip": "Bett",
+          "hint": "No fuge."
+        },
+        {
+          "before": "Untersuchung + Raum =",
+          "after": "",
+          "answer": "Untersuchungsraum",
+          "en": "add -s-",
+          "why": "After -ung comes -s-.",
+          "tip": "-s-",
+          "hint": "Fugen-s."
+        },
+        {
+          "before": "Patient + Akte =",
+          "after": "",
+          "answer": "Patientenakte",
+          "en": "add -en-",
+          "why": "Patient takes -en-.",
+          "tip": "-en-",
+          "hint": "Fugen-en."
+        },
+        {
+          "before": "Kinder + Arzt =",
+          "after": "",
+          "answer": "Kinderarzt",
+          "en": "the doctor",
+          "why": "Kinder already ends in -er. No extra letter.",
+          "tip": "Arzt",
+          "hint": "No fuge."
+        }
+      ]
+    },
+    {
+      "id": "error-compounds",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Blutdruckmessgerät liegt hier."
+          ],
+          "options": [
+            "Das Blutdruckmessgerät liegt hier.",
+            "Der Blutdruckmessgerät liegt hier.",
+            "Die Blutdruckmessgeräte liegt hier."
+          ],
+          "answer": 0,
+          "reveal": "Gerät is das, so the compound is das.",
+          "hint": "Last noun."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Notaufnahme ist offen."
+          ],
+          "options": [
+            "Die Notaufnahme ist offen.",
+            "Das Notaufnahme ist offen.",
+            "Der Notaufnahmeraum ist offen."
+          ],
+          "answer": 0,
+          "reveal": "Aufnahme is die.",
+          "hint": "Last noun."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Untersuchungraum ist frei."
+          ],
+          "options": [
+            "Der Untersuchungsraum ist frei.",
+            "Die Untersuchungsraum ist frei.",
+            "Der Untersuchungsenraum ist frei."
+          ],
+          "answer": 0,
+          "reveal": "After -ung comes -s-.",
+          "hint": "Fugen-s."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Patientakte liegt da."
+          ],
+          "options": [
+            "Die Patientenakte liegt da.",
+            "Der Patientenakte liegt da.",
+            "Die Patientenaktes liegt da."
+          ],
+          "answer": 0,
+          "reveal": "Patient takes -en- before Akte.",
+          "hint": "Fugen-en."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-compounds",
+      "label": "Dialog",
+      "title": "At reception",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Complete the dialogue. Each chip is used once.",
+      "chips": [
+        {
+          "w": "Untersuchungsraum",
+          "hint": "Fugen-s."
+        },
+        {
+          "w": "Bauchschmerzen",
+          "hint": "Last noun."
+        },
+        {
+          "w": "Kinderarzt",
+          "hint": "The doctor."
+        },
+        {
+          "w": "Arztkinder",
+          "hint": "Order matters."
+        },
+        {
+          "w": "Patientenakte",
+          "hint": "Fugen-en."
+        },
+        {
+          "w": "vom Arzt",
+          "hint": "From whom?"
+        }
+      ],
+      "items": [
+        {
+          "before": "Wo ist der",
+          "after": "?",
+          "answer": "Untersuchungsraum",
+          "en": "where is the room",
+          "why": "Raum → der, with -s-.",
+          "tip": "Raum",
+          "hint": "Fugen-s.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ich habe",
+          "after": ".",
+          "answer": "Bauchschmerzen",
+          "en": "I have abdominal pain",
+          "why": "Schmerzen decides the article, die.",
+          "tip": "Schmerzen",
+          "hint": "Last noun.",
+          "who": "Patient"
+        },
+        {
+          "before": "Bitte zum",
+          "after": ".",
+          "answer": "Kinderarzt",
+          "en": "to the paediatrician",
+          "why": "zum already includes dem. The noun is Kinderarzt.",
+          "tip": "Arzt",
+          "hint": "The doctor.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Nicht die",
+          "after": ".",
+          "answer": "Arztkinder",
+          "en": "not the doctor's children",
+          "why": "Kinder is the last noun, so die.",
+          "tip": "Kinder",
+          "hint": "Order matters.",
+          "who": "Patient"
+        },
+        {
+          "before": "Hier ist die",
+          "after": ".",
+          "answer": "Patientenakte",
+          "en": "here is the chart",
+          "why": "Akte → die, with -en-.",
+          "tip": "Akte",
+          "hint": "Fugen-en.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Die Tablette ist",
+          "after": ".",
+          "answer": "vom Arzt",
+          "en": "from the doctor",
+          "why": "von + dem = vom.",
+          "tip": "von",
+          "hint": "From whom?",
+          "who": "Patient"
+        }
+      ]
+    },
+    {
+      "id": "gap-articles",
+      "label": "Lücken",
+      "title": "Article and compound",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Now the article travels with the compound.",
+      "chips": [
+        {
+          "w": "der Kinderarzt",
+          "hint": "Last noun Arzt."
+        },
+        {
+          "w": "die Notaufnahme",
+          "hint": "Last noun Aufnahme."
+        },
+        {
+          "w": "das Krankenhausbett",
+          "hint": "Last noun Bett."
+        },
+        {
+          "w": "die Schmerztablette",
+          "hint": "Last noun Tablette."
+        },
+        {
+          "w": "der Untersuchungsraum",
+          "hint": "Last noun Raum."
+        },
+        {
+          "w": "die Patientenakte",
+          "hint": "Last noun Akte."
+        },
+        {
+          "w": "die Bauchschmerzen",
+          "hint": "Plural."
+        },
+        {
+          "w": "das Blutdruckmessgerät",
+          "hint": "Last noun Gerät."
+        }
+      ],
+      "items": [
+        {
+          "before": "Heute kommt",
+          "after": ".",
+          "answer": "der Kinderarzt",
+          "en": "the paediatrician",
+          "why": "Arzt → der.",
+          "tip": "der",
+          "hint": "Last noun Arzt."
+        },
+        {
+          "before": "Bitte gehen Sie in",
+          "after": ".",
+          "answer": "die Notaufnahme",
+          "en": "into the emergency department",
+          "why": "Aufnahme → die. in + die.",
+          "tip": "die",
+          "hint": "Last noun Aufnahme."
+        },
+        {
+          "before": "Hier steht",
+          "after": ".",
+          "answer": "das Krankenhausbett",
+          "en": "the bed",
+          "why": "Bett → das.",
+          "tip": "das",
+          "hint": "Last noun Bett."
+        },
+        {
+          "before": "Bitte nehmen Sie",
+          "after": ".",
+          "answer": "die Schmerztablette",
+          "en": "the tablet",
+          "why": "Tablette → die.",
+          "tip": "die",
+          "hint": "Last noun Tablette."
+        },
+        {
+          "before": "Raum: Das ist",
+          "after": ".",
+          "answer": "der Untersuchungsraum",
+          "en": "the examination room",
+          "why": "Raum → der.",
+          "tip": "der",
+          "hint": "Last noun Raum."
+        },
+        {
+          "before": "Akte: Das ist",
+          "after": ".",
+          "answer": "die Patientenakte",
+          "en": "the chart",
+          "why": "Akte → die.",
+          "tip": "die",
+          "hint": "Last noun Akte."
+        },
+        {
+          "before": "Das sind",
+          "after": ".",
+          "answer": "die Bauchschmerzen",
+          "en": "the pain",
+          "why": "Schmerzen → die.",
+          "tip": "die",
+          "hint": "Plural."
+        },
+        {
+          "before": "Gerät: Das ist",
+          "after": ".",
+          "answer": "das Blutdruckmessgerät",
+          "en": "the monitor",
+          "why": "Gerät → das.",
+          "tip": "das",
+          "hint": "Last noun Gerät."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the note",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Kinderarzt oder Arztkinder?",
+        "paragraphs": [
+          "Das Blutdruckmessgerät liegt auf dem Tisch. Der Patient hat Bauchschmerzen. Die Notaufnahme ist offen. Das Krankenhausbett steht im Zimmer. Die Schmerztablette liegt neben der Akte. Der Untersuchungsraum ist neben der Anmeldung. Die Patientenakte kommt vom Arzt. Der Kinderarzt kommt aus dem Zimmer."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Was liegt auf dem Tisch?",
+          "qEn": "The thing on the table.",
+          "options": [
+            "das Blutdruckmessgerät",
+            "die Schmerztablette",
+            "die Patientenakte"
+          ],
+          "answer": 0,
+          "why": "Gerät is the last noun.",
+          "hint": "Ends in Gerät."
+        },
+        {
+          "kind": "mc",
+          "q": "Was hat der Patient?",
+          "qEn": "The symptom.",
+          "options": [
+            "ein Krankenhausbett",
+            "Bauchschmerzen",
+            "einen Kinderarzt"
+          ],
+          "answer": 1,
+          "why": "Bauch + Schmerzen.",
+          "hint": "The pain."
+        },
+        {
+          "kind": "mc",
+          "q": "Was ist offen?",
+          "qEn": "Which place.",
+          "options": [
+            "das Krankenhausbett",
+            "der Untersuchungsraum",
+            "die Notaufnahme"
+          ],
+          "answer": 2,
+          "why": "The note says the emergency department is open.",
+          "hint": "offen."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer kommt aus dem Zimmer?",
+          "qEn": "The person.",
+          "options": [
+            "der Kinderarzt",
+            "die Arztkinder",
+            "die Patientenakte"
+          ],
+          "answer": 0,
+          "why": "Arzt is the last noun.",
+          "hint": "The doctor."
+        }
+      ]
+    },
+    {
+      "id": "writing-compounds",
+      "label": "Writing",
+      "title": "Write the note",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write four short sentences. Use four compounds.",
+      "prompt": "Name the monitor on the table, the patient's pain, the open emergency department, and the examination room.",
+      "bullets": [
+        "A compound ending in Gerät",
+        "A compound ending in Schmerzen",
+        "A compound ending in Aufnahme",
+        "A compound with Fugen-s"
+      ],
+      "model": "Das Blutdruckmessgerät liegt auf dem Tisch. Der Patient hat Bauchschmerzen. Die Notaufnahme ist offen. Der Untersuchungsraum ist neben der Anmeldung.",
+      "modelEn": "The blood pressure monitor is on the table. The patient has abdominal pain. The emergency department is open. The examination room is next to reception.",
+      "hint": "Read each compound from the end before you choose der, die or das.",
+      "checklist": [
+        {
+          "id": "gerät",
+          "label": "A compound ending in Gerät",
+          "keywords": [
+            "Blutdruckmessgerät"
+          ]
+        },
+        {
+          "id": "schmerz",
+          "label": "Abdominal pain",
+          "keywords": [
+            "Bauchschmerzen"
+          ]
+        },
+        {
+          "id": "not",
+          "label": "The emergency department",
+          "keywords": [
+            "Notaufnahme"
+          ]
+        },
+        {
+          "id": "raum",
+          "label": "The examination room with -s-",
+          "keywords": [
+            "Untersuchungsraum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test for chapter 45. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Blutdruckmessgerät takes which article?",
+          "qEn": "Last noun Gerät.",
+          "options": [
+            "das",
+            "die",
+            "der"
+          ],
+          "answer": 0,
+          "why": "Gerät is das.",
+          "hint": "From the end."
+        },
+        {
+          "kind": "mc",
+          "q": "Notaufnahme takes which article?",
+          "qEn": "Last noun Aufnahme.",
+          "options": [
+            "das",
+            "die",
+            "der"
+          ],
+          "answer": 1,
+          "why": "Aufnahme is die.",
+          "hint": "From the end."
+        },
+        {
+          "kind": "mc",
+          "q": "Krankenhausbett takes which article?",
+          "qEn": "Last noun Bett.",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 2,
+          "why": "Bett is das.",
+          "hint": "From the end."
+        },
+        {
+          "kind": "mc",
+          "q": "Kinderarzt takes which article?",
+          "qEn": "Last noun Arzt.",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "answer": 0,
+          "why": "Arzt is der.",
+          "hint": "From the end."
+        },
+        {
+          "kind": "mc",
+          "q": "Schmerztablette takes which article?",
+          "qEn": "Last noun Tablette.",
+          "options": [
+            "das",
+            "die",
+            "der"
+          ],
+          "answer": 1,
+          "why": "Tablette is die.",
+          "hint": "From the end."
+        },
+        {
+          "kind": "mc",
+          "q": "Untersuchung + Raum is written…",
+          "qEn": "The joint.",
+          "options": [
+            "Untersuchungraum",
+            "Untersuchungsenraum",
+            "Untersuchungsraum"
+          ],
+          "answer": 2,
+          "why": "-s- after -ung.",
+          "hint": "Fugen-s."
+        },
+        {
+          "kind": "mc",
+          "q": "Patient + Akte is written…",
+          "qEn": "The joint.",
+          "options": [
+            "Patientenakte",
+            "Patientakte",
+            "Patientensakte"
+          ],
+          "answer": 0,
+          "why": "-en- with Patient.",
+          "hint": "Fugen-en."
+        },
+        {
+          "kind": "mc",
+          "q": "Which part decides the article?",
+          "qEn": "The rule.",
+          "options": [
+            "the first noun",
+            "the last noun",
+            "the linking letter"
+          ],
+          "answer": 1,
+          "why": "The last noun is the base.",
+          "hint": "From the end."
+        },
+        {
+          "kind": "mc",
+          "q": "Where is the stress?",
+          "qEn": "Pronunciation.",
+          "options": [
+            "on the last block",
+            "on the article",
+            "on the first block"
+          ],
+          "answer": 2,
+          "why": "KINDERarzt, BLUTdruckmessgerät.",
+          "hint": "The first block."
+        },
+        {
+          "kind": "mc",
+          "q": "Bauchschmerzen takes which article?",
+          "qEn": "Last noun Schmerzen.",
+          "options": [
+            "die",
+            "der",
+            "das"
+          ],
+          "answer": 0,
+          "why": "Schmerzen is plural, die.",
+          "hint": "Plural."
+        },
+        {
+          "kind": "mc",
+          "q": "Which word is the doctor for children?",
+          "qEn": "Order.",
+          "options": [
+            "die Arztkinder",
+            "der Kinderarzt",
+            "die Kinderarzt"
+          ],
+          "answer": 1,
+          "why": "Arzt at the end means the doctor.",
+          "hint": "Last word Arzt."
+        },
+        {
+          "kind": "mc",
+          "q": "Patientenakte takes which article?",
+          "qEn": "Last noun Akte.",
+          "options": [
+            "der",
+            "das",
+            "die"
+          ],
+          "answer": 2,
+          "why": "Akte is die.",
+          "hint": "From the end."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Letztes Wort, Artikel",
+      "redemittel": [
+        {
+          "de": "Das Blutdruckmessgerät liegt auf dem Tisch.",
+          "en": "The blood pressure monitor is on the table."
+        },
+        {
+          "de": "Der Patient hat Bauchschmerzen.",
+          "en": "The patient has abdominal pain."
+        },
+        {
+          "de": "Die Notaufnahme ist offen.",
+          "en": "The emergency department is open."
+        },
+        {
+          "de": "Der Untersuchungsraum ist neben der Anmeldung.",
+          "en": "The examination room is next to reception."
+        },
+        {
+          "de": "Der Kinderarzt kommt aus dem Zimmer.",
+          "en": "The paediatrician comes out of the room."
+        }
+      ]
+    }
+  ]
+}

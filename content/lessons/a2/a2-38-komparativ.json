@@ -1,0 +1,2071 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine or neuter dative)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine or neuter)"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)"
+    },
+    "einen": {
+      "de": "einen",
+      "pos": "article",
+      "en": "a (masculine accusative)"
+    },
+    "einem": {
+      "de": "einem",
+      "pos": "article",
+      "en": "a (masculine or neuter dative)"
+    },
+    "einer": {
+      "de": "einer",
+      "pos": "article",
+      "en": "a (feminine dative)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he"
+    },
+    "sie": {
+      "de": "sie / Sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in; into"
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "at; on (vertical)"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on (horizontal); onto"
+    },
+    "neben": {
+      "de": "neben",
+      "pos": "preposition",
+      "en": "next to"
+    },
+    "hinter": {
+      "de": "hinter",
+      "pos": "preposition",
+      "en": "behind"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "in front of"
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of; from"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from"
+    },
+    "bei": {
+      "de": "bei",
+      "pos": "preposition",
+      "en": "at (a person)"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "preposition",
+      "en": "to"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "to; after"
+    },
+    "im": {
+      "de": "im",
+      "pos": "preposition",
+      "en": "in the (in + dem)"
+    },
+    "ins": {
+      "de": "ins",
+      "pos": "preposition",
+      "en": "into the (in + das)"
+    },
+    "am": {
+      "de": "am",
+      "pos": "preposition",
+      "en": "at the (an + dem)"
+    },
+    "beim": {
+      "de": "beim",
+      "pos": "preposition",
+      "en": "at the (bei + dem)"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "preposition",
+      "en": "to the (zu + dem)"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "preposition",
+      "en": "from the (von + dem)"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or"
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "than"
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "conjunction",
+      "en": "as; like"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "adverb",
+      "en": "please"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "adverb",
+      "en": "not"
+    },
+    "dort": {
+      "de": "dort",
+      "pos": "adverb",
+      "en": "there"
+    },
+    "so": {
+      "de": "so",
+      "pos": "adverb",
+      "en": "so"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "adverb",
+      "en": "where"
+    },
+    "wohin": {
+      "de": "wohin",
+      "pos": "adverb",
+      "en": "where to"
+    },
+    "woher": {
+      "de": "woher",
+      "pos": "adverb",
+      "en": "where from"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "hause": {
+      "de": "Hause",
+      "pos": "noun",
+      "en": "home, in the phrases zu Hause, nach Hause, von zu Hause",
+      "note": "Fixed phrases: zu Hause (where), nach Hause (where to), von zu Hause (where from)."
+    },
+    "bringt": {
+      "de": "bringen → bringt",
+      "pos": "verb",
+      "en": "brings"
+    },
+    "liegt": {
+      "de": "liegen → liegt",
+      "pos": "verb",
+      "en": "lies; is lying"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "verb",
+      "en": "comes"
+    },
+    "komme": {
+      "de": "kommen → komme",
+      "pos": "verb",
+      "en": "come (ich)"
+    },
+    "stehen": {
+      "de": "stehen → stehen",
+      "pos": "verb",
+      "en": "to stand"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "verb",
+      "en": "stands"
+    },
+    "legen": {
+      "de": "legen → legen",
+      "pos": "verb",
+      "en": "to lay; to put"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "verb",
+      "en": "is"
+    },
+    "bin": {
+      "de": "sein → bin",
+      "pos": "verb",
+      "en": "am"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "verb",
+      "en": "has"
+    },
+    "geht": {
+      "de": "gehen → geht",
+      "pos": "verb",
+      "en": "goes"
+    },
+    "gehe": {
+      "de": "gehen → gehe",
+      "pos": "verb",
+      "en": "go (ich)"
+    },
+    "gibt": {
+      "de": "geben → gibt",
+      "pos": "verb",
+      "en": "gives"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "verb",
+      "en": "stays"
+    },
+    "spricht": {
+      "de": "sprechen → spricht",
+      "pos": "verb",
+      "en": "speaks"
+    },
+    "prüft": {
+      "de": "prüfen → prüft",
+      "pos": "verb",
+      "en": "checks"
+    },
+    "trinkt": {
+      "de": "trinken → trinkt",
+      "pos": "verb",
+      "en": "drinks"
+    },
+    "arbeitet": {
+      "de": "arbeiten → arbeitet",
+      "pos": "verb",
+      "en": "works"
+    },
+    "kommen": {
+      "de": "kommen → kommen",
+      "pos": "verb",
+      "en": "to come; Sie-imperative of kommen"
+    },
+    "wird": {
+      "de": "werden → wird",
+      "pos": "verb",
+      "en": "becomes"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "patienten": {
+      "de": "Patienten",
+      "pos": "noun",
+      "en": "patient (accusative or dative singular)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "op": {
+      "de": "OP",
+      "pos": "noun",
+      "en": "operating theatre",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die OPs"
+    },
+    "liege": {
+      "de": "Liege",
+      "pos": "noun",
+      "en": "examination couch",
+      "emoji": "🛏️",
+      "article": "die",
+      "plural": "die Liegen"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer"
+    },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "thermometer",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Thermometer"
+    },
+    "nachttisch": {
+      "de": "Nachttisch",
+      "pos": "noun",
+      "en": "bedside table",
+      "emoji": "🗄️",
+      "article": "der",
+      "plural": "die Nachttische"
+    },
+    "infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "infusion",
+      "emoji": "💧",
+      "article": "die",
+      "plural": "die Infusionen"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "emoji": "📟",
+      "article": "der",
+      "plural": "die Monitore"
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "file",
+      "emoji": "📋",
+      "article": "die",
+      "plural": "die Akten"
+    },
+    "tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "emoji": "🪵",
+      "article": "der",
+      "plural": "die Tische"
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Ärztinnen"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen"
+    },
+    "intensivstation": {
+      "de": "Intensivstation",
+      "pos": "noun",
+      "en": "intensive care unit",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Intensivstationen"
+    },
+    "schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "⚡",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "arm": {
+      "de": "Arm",
+      "pos": "noun",
+      "en": "arm",
+      "emoji": "💪",
+      "article": "der",
+      "plural": "die Arme"
+    },
+    "übelkeit": {
+      "de": "Übelkeit",
+      "pos": "noun",
+      "en": "nausea",
+      "emoji": "🤢",
+      "article": "die",
+      "plural": "Übelkeit"
+    },
+    "pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "emoji": "🩹",
+      "article": "das",
+      "plural": "die Pflaster"
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding",
+      "emoji": "📄",
+      "article": "der",
+      "plural": "die Befunde"
+    },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Verbände"
+    },
+    "kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Kolleginnen"
+    },
+    "tag": {
+      "de": "Tag",
+      "pos": "noun",
+      "en": "day",
+      "emoji": "📅",
+      "article": "der",
+      "plural": "die Tage"
+    },
+    "dosis": {
+      "de": "Dosis",
+      "pos": "noun",
+      "en": "dose",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Dosen"
+    },
+    "blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "en": "blood pressure",
+      "emoji": "❤️",
+      "article": "der",
+      "plural": "Blutdruck"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das",
+      "plural": "Wasser"
+    },
+    "saft": {
+      "de": "Saft",
+      "pos": "noun",
+      "en": "juice",
+      "emoji": "🧃",
+      "article": "der",
+      "plural": "die Säfte"
+    },
+    "starke": {
+      "de": "starke",
+      "pos": "adjective",
+      "en": "severe, strong (feminine or plural weak ending)"
+    },
+    "starken": {
+      "de": "starken",
+      "pos": "adjective",
+      "en": "severe, strong (accusative masculine ending)"
+    },
+    "stark": {
+      "de": "stark",
+      "pos": "adjective",
+      "en": "severe, strong (no ending after sein)"
+    },
+    "leicht": {
+      "de": "leicht",
+      "pos": "adjective",
+      "en": "mild; light"
+    },
+    "kleines": {
+      "de": "kleines",
+      "pos": "adjective",
+      "en": "small (neuter nominative or accusative ending)"
+    },
+    "neuen": {
+      "de": "neuen",
+      "pos": "adjective",
+      "en": "new (weak ending)"
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new (no ending after sein)"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "good (no ending after sein)"
+    },
+    "kleinen": {
+      "de": "kleinen",
+      "pos": "adjective",
+      "en": "small (weak ending)"
+    },
+    "dritten": {
+      "de": "dritten",
+      "pos": "adjective",
+      "en": "third (dative ending)"
+    },
+    "postoperativen": {
+      "de": "postoperativen",
+      "pos": "adjective",
+      "en": "postoperative (dative ending)"
+    },
+    "zweiten": {
+      "de": "zweiten",
+      "pos": "adjective",
+      "en": "second (dative ending)"
+    },
+    "stärker": {
+      "de": "stärker",
+      "pos": "adjective",
+      "en": "stronger"
+    },
+    "stärkere": {
+      "de": "stärkere",
+      "pos": "adjective",
+      "en": "stronger (attributive ending)"
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high"
+    },
+    "früher": {
+      "de": "früher",
+      "pos": "adverb",
+      "en": "earlier; sooner"
+    },
+    "besser": {
+      "de": "besser",
+      "pos": "adjective",
+      "en": "better"
+    },
+    "lieber": {
+      "de": "lieber",
+      "pos": "adverb",
+      "en": "preferably; rather"
+    }
+  },
+  "id": "a2-38-komparativ",
+  "level": "A2",
+  "unit": "Kapitel 38",
+  "chapter": 38,
+  "chapters": [
+    38
+  ],
+  "title": "Schneller als …",
+  "subtitle": "The comparative, so … wie and als",
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 40,
+      "learn": [
+        "The comparative is the adjective plus -er. Many short adjectives take an umlaut: alt → älter, stark → stärker.",
+        "Irregular: gut → besser, viel → mehr, gern → lieber. hoch → höher, groß → größer, teuer → teurer.",
+        "Equality is (genau)so … wie. Inequality is the comparative plus als.",
+        "In front of a noun the comparative still takes an adjective ending: der stärkere Schmerz."
+      ],
+      "vocab": [
+        {
+          "de": "Schmerz",
+          "article": "der",
+          "plural": "die Schmerzen",
+          "en": "pain",
+          "emoji": "⚡",
+          "glossaryKey": "schmerz"
+        },
+        {
+          "de": "Blutdruck",
+          "article": "der",
+          "plural": "Blutdruck",
+          "en": "blood pressure",
+          "emoji": "❤️",
+          "glossaryKey": "blutdruck"
+        },
+        {
+          "de": "Wasser",
+          "article": "das",
+          "plural": "Wasser",
+          "en": "water",
+          "emoji": "💧",
+          "glossaryKey": "wasser"
+        },
+        {
+          "de": "Saft",
+          "article": "der",
+          "plural": "die Säfte",
+          "en": "juice",
+          "emoji": "🧃",
+          "glossaryKey": "saft"
+        },
+        {
+          "de": "Arm",
+          "article": "der",
+          "plural": "die Arme",
+          "en": "arm",
+          "emoji": "💪",
+          "glossaryKey": "arm"
+        },
+        {
+          "de": "Tag",
+          "article": "der",
+          "plural": "die Tage",
+          "en": "day",
+          "emoji": "📅",
+          "glossaryKey": "tag"
+        }
+      ],
+      "text": {
+        "title": "Stärker als gestern",
+        "de": "Der Schmerz ist heute stärker als gestern. Der Blutdruck ist so hoch wie gestern. Bitte kommen Sie früher. Der stärkere Schmerz bleibt im Arm. Wasser ist besser als Saft. Der Patient trinkt lieber Wasser.",
+        "en": "The pain is stronger today than yesterday. The blood pressure is as high as yesterday. Please come sooner. The stronger pain stays in the arm. Water is better than juice. The patient prefers water."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Comparative and comparison",
+      "practice": "choose",
+      "heroTitle": "stärker als, so hoch wie",
+      "heroImage": "thermometer",
+      "story": [
+        "<b>Der Schmerz ist heute stärker als gestern.</b> That is an inequality: comparative + als.",
+        "<b>Der Blutdruck ist so hoch wie gestern.</b> That is equality: so … wie. No comparative."
+      ],
+      "questionRule": "Do not guess the irregulars. <b>gut → besser</b>, <b>viel → mehr</b>, <b>gern → lieber</b>, <b>hoch → höher</b>, <b>groß → größer</b>.",
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "stark",
+              "r": "subj"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "er",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Der",
+              "r": "subj"
+            },
+            {
+              "t": "Schmerz",
+              "r": "rest"
+            },
+            {
+              "t": "ist",
+              "r": "verb"
+            },
+            {
+              "t": "stärker",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Adjective plus -er, with an umlaut.",
+          "enAfter": "Der Schmerz ist stärker.",
+          "callLabel": "Show the comparative"
+        },
+        {
+          "before": [
+            {
+              "t": "so",
+              "r": "subj"
+            },
+            {
+              "t": "hoch",
+              "r": "rest"
+            },
+            {
+              "t": "wie",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "so",
+              "r": "subj"
+            },
+            {
+              "t": "hoch",
+              "r": "rest"
+            },
+            {
+              "t": "wie",
+              "r": "verb"
+            },
+            {
+              "t": "gestern",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "Equality uses the base adjective.",
+          "enAfter": "so hoch wie gestern.",
+          "callLabel": "Show so … wie"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Komparativ",
+          "caption": "Learn the irregular row. Do not build it with -er.",
+          "columns": [
+            "Grundform",
+            "Komparativ",
+            "Beispiel"
+          ],
+          "rows": [
+            {
+              "label": "stark",
+              "cells": [
+                "stark",
+                "stärker",
+                "Der Schmerz ist stärker."
+              ]
+            },
+            {
+              "label": "alt",
+              "cells": [
+                "alt",
+                "älter",
+                "Der Patient ist älter."
+              ]
+            },
+            {
+              "label": "krank",
+              "cells": [
+                "krank",
+                "kränker",
+                "Er ist heute kränker."
+              ]
+            },
+            {
+              "label": "groß",
+              "cells": [
+                "groß",
+                "größer",
+                "Die Wunde ist größer."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "hoch",
+              "cells": [
+                "hoch",
+                "höher",
+                "Der Blutdruck ist höher."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "nah",
+              "cells": [
+                "nah",
+                "näher",
+                "Das Labor ist näher."
+              ]
+            },
+            {
+              "label": "teuer",
+              "cells": [
+                "teuer",
+                "teurer",
+                "Das Zimmer ist teurer."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "gut",
+              "cells": [
+                "gut",
+                "besser",
+                "Der Befund ist besser."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "viel",
+              "cells": [
+                "viel",
+                "mehr",
+                "Er trinkt mehr Wasser."
+              ]
+            },
+            {
+              "label": "gern",
+              "cells": [
+                "gern",
+                "lieber",
+                "Er trinkt lieber Wasser."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "wie oder als",
+          "caption": "so … wie keeps the base form. als needs the comparative.",
+          "columns": [
+            "Bedeutung",
+            "Form",
+            "Beispiel"
+          ],
+          "rows": [
+            {
+              "label": "gleich",
+              "cells": [
+                "Gleichheit",
+                "(genau)so … wie",
+                "so hoch wie gestern"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "ungleich",
+              "cells": [
+                "Unterschied",
+                "Komparativ + als",
+                "stärker als gestern"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Attribut",
+              "cells": [
+                "vor dem Nomen",
+                "Komparativ + Endung",
+                "der stärkere Schmerz"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Nicht raten",
+        "items": [
+          {
+            "de": "stärker als gestern",
+            "en": "Inequality takes als.",
+            "tone": "ok"
+          },
+          {
+            "de": "stärker wie gestern",
+            "en": "wie does not follow a comparative.",
+            "tone": "stop"
+          },
+          {
+            "de": "so hoch wie gestern",
+            "en": "Equality keeps the base form.",
+            "tone": "ok"
+          },
+          {
+            "de": "so höher wie gestern",
+            "en": "so … wie does not take a comparative.",
+            "tone": "stop"
+          },
+          {
+            "de": "besser, mehr, lieber, höher, größer, teurer",
+            "en": "These are the forms to memorise.",
+            "tone": "ok"
+          },
+          {
+            "de": "guter, vieler, gerner, hocher, großer, teuerer",
+            "en": "None of these is the comparative.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "groß loses ß and adds -er: größer. hoch drops c: höher. teuer drops an e: teurer. nah takes an umlaut: näher."
+      },
+      "tips": [
+        {
+          "title": "wie for equal, als for more",
+          "body": "If the two sides are the same, use so + adjective + wie. If one side is more, use the comparative + als. In front of a noun, add the usual ending after the comparative: der stärkere Schmerz, einen stärkeren Schmerz.",
+          "mnemonic": "so … wie. Komparativ + als.",
+          "emoji": "⚖️"
+        }
+      ],
+      "quizTitle": "Choose the form",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "stark →",
+          "qEn": "Umlaut plus -er.",
+          "options": [
+            "stärker",
+            "starker",
+            "mehr stark"
+          ],
+          "answer": 0,
+          "why": "stark → stärker.",
+          "hint": "stärker"
+        },
+        {
+          "kind": "mc",
+          "q": "gut →",
+          "qEn": "Irregular.",
+          "options": [
+            "guter",
+            "besser",
+            "mehr gut"
+          ],
+          "answer": 1,
+          "why": "gut → besser.",
+          "hint": "besser"
+        },
+        {
+          "kind": "mc",
+          "q": "Inequality.",
+          "qEn": "One side is more.",
+          "options": [
+            "wie",
+            "und",
+            "als"
+          ],
+          "answer": 2,
+          "why": "Comparative + als.",
+          "hint": "als"
+        },
+        {
+          "kind": "mc",
+          "q": "Equality.",
+          "qEn": "The same degree.",
+          "options": [
+            "so hoch wie",
+            "höher als",
+            "so höher wie"
+          ],
+          "answer": 0,
+          "why": "so + base + wie.",
+          "hint": "wie"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "Gap",
+      "title": "Form the comparative",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Write the comparative, not the base form.",
+      "chips": [
+        {
+          "w": "stärker",
+          "hint": "stark"
+        },
+        {
+          "w": "besser",
+          "hint": "gut"
+        },
+        {
+          "w": "höher",
+          "hint": "hoch"
+        },
+        {
+          "w": "früher",
+          "hint": "früh"
+        },
+        {
+          "w": "lieber",
+          "hint": "gern"
+        },
+        {
+          "w": "mehr",
+          "hint": "viel"
+        }
+      ],
+      "items": [
+        {
+          "before": "stark →",
+          "after": "",
+          "answer": "stärker",
+          "en": "stronger",
+          "why": "Umlaut + -er.",
+          "tip": "ä",
+          "hint": "stark"
+        },
+        {
+          "before": "gut →",
+          "after": "",
+          "answer": "besser",
+          "en": "better",
+          "why": "Irregular.",
+          "tip": "besser",
+          "hint": "gut"
+        },
+        {
+          "before": "hoch →",
+          "after": "",
+          "answer": "höher",
+          "en": "higher",
+          "why": "c drops.",
+          "tip": "höher",
+          "hint": "hoch"
+        },
+        {
+          "before": "früh →",
+          "after": "",
+          "answer": "früher",
+          "en": "sooner",
+          "why": "Regular -er.",
+          "tip": "-er",
+          "hint": "früh"
+        },
+        {
+          "before": "gern →",
+          "after": "",
+          "answer": "lieber",
+          "en": "preferably",
+          "why": "Irregular.",
+          "tip": "lieber",
+          "hint": "gern"
+        },
+        {
+          "before": "viel →",
+          "after": "",
+          "answer": "mehr",
+          "en": "more",
+          "why": "Irregular.",
+          "tip": "mehr",
+          "hint": "viel"
+        }
+      ]
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "Match",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "wie or als?",
+      "items": [
+        {
+          "prompt": "The pain is worse than yesterday.",
+          "options": [
+            {
+              "emoji": "📈",
+              "label": "stärker als",
+              "caption": "inequality"
+            },
+            {
+              "emoji": "🟰",
+              "label": "so stark wie",
+              "caption": "equality"
+            }
+          ],
+          "answer": 0,
+          "why": "Than = als, with the comparative.",
+          "hint": "als"
+        },
+        {
+          "prompt": "The blood pressure is unchanged.",
+          "options": [
+            {
+              "emoji": "🟰",
+              "label": "so hoch wie",
+              "caption": "equality"
+            },
+            {
+              "emoji": "📈",
+              "label": "höher als",
+              "caption": "inequality"
+            }
+          ],
+          "answer": 0,
+          "why": "The same degree uses wie.",
+          "hint": "wie"
+        },
+        {
+          "prompt": "He likes water more than juice.",
+          "options": [
+            {
+              "emoji": "🥤",
+              "label": "lieber … als",
+              "caption": "gern → lieber"
+            },
+            {
+              "emoji": "🥤",
+              "label": "gerner … wie",
+              "caption": "not a German form"
+            }
+          ],
+          "answer": 0,
+          "why": "gern → lieber, then als.",
+          "hint": "lieber"
+        },
+        {
+          "prompt": "In front of the noun.",
+          "options": [
+            {
+              "emoji": "🔤",
+              "label": "der stärkere Schmerz",
+              "caption": "ending after the comparative"
+            },
+            {
+              "emoji": "🔤",
+              "label": "der stärker Schmerz",
+              "caption": "the ending is missing"
+            }
+          ],
+          "answer": 0,
+          "why": "The comparative still declines.",
+          "hint": "ending"
+        }
+      ]
+    },
+    {
+      "id": "px-picture",
+      "label": "Picture",
+      "title": "Picture",
+      "practice": "picture",
+      "type": "picturematch",
+      "instructions": "Match the reading, then compare it.",
+      "items": [
+        {
+          "id": "thermo",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "Fieber",
+          "en": "fever",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "Das Fieber ist höher als gestern."
+        },
+        {
+          "id": "bp",
+          "de": "Blutdruck",
+          "article": "der",
+          "plural": "Blutdruck",
+          "en": "blood pressure",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          },
+          "hint": "so hoch wie gestern"
+        },
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "Er nimmt lieber eine Tablette."
+        },
+        {
+          "id": "bed",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Er bleibt lieber im Bett."
+        }
+      ]
+    },
+    {
+      "id": "px-build",
+      "label": "Build",
+      "title": "Build",
+      "practice": "build",
+      "type": "builder",
+      "instructions": "Build the comparison.",
+      "items": [
+        {
+          "tiles": [
+            "Der",
+            "Schmerz",
+            "ist",
+            "heute",
+            "stärker"
+          ],
+          "answers": [
+            "Der Schmerz ist heute stärker"
+          ],
+          "punct": ".",
+          "modal": "Schmerz",
+          "inf": "stärker",
+          "question": false,
+          "en": "The pain is stronger today.",
+          "hint": "Comparative of stark.",
+          "feedback": {
+            "fallback": "Comparative of stark."
+          }
+        },
+        {
+          "tiles": [
+            "Der",
+            "Blutdruck",
+            "bleibt",
+            "so",
+            "hoch"
+          ],
+          "answers": [
+            "Der Blutdruck bleibt so hoch"
+          ],
+          "punct": ".",
+          "modal": "Blutdruck",
+          "inf": "hoch",
+          "question": false,
+          "en": "The blood pressure stays this high.",
+          "hint": "so + base form.",
+          "feedback": {
+            "fallback": "so + base form."
+          }
+        },
+        {
+          "tiles": [
+            "Bitte",
+            "kommen",
+            "Sie",
+            "früher"
+          ],
+          "answers": [
+            "Bitte kommen Sie früher"
+          ],
+          "punct": ".",
+          "modal": "kommen",
+          "inf": "früher",
+          "question": false,
+          "en": "Please come sooner.",
+          "hint": "früher.",
+          "feedback": {
+            "fallback": "früher."
+          }
+        },
+        {
+          "tiles": [
+            "Wasser",
+            "ist",
+            "besser",
+            "als",
+            "Saft"
+          ],
+          "answers": [
+            "Wasser ist besser als Saft"
+          ],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "Saft",
+          "question": false,
+          "en": "Water is better than juice.",
+          "hint": "besser als.",
+          "feedback": {
+            "fallback": "besser als."
+          }
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Make a comparison.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the whole comparison.",
+      "chips": [
+        {
+          "w": "so hoch wie gestern",
+          "hint": "wie"
+        },
+        {
+          "w": "stärker als gestern",
+          "hint": "als"
+        },
+        {
+          "w": "besser als gestern",
+          "hint": "gut"
+        },
+        {
+          "w": "lieber Wasser als Saft",
+          "hint": "gern"
+        },
+        {
+          "w": "der stärkere Schmerz",
+          "hint": "Attribut"
+        },
+        {
+          "w": "einen stärkeren Schmerz",
+          "hint": "Attribut"
+        }
+      ],
+      "items": [
+        {
+          "before": "gleich: der Blutdruck, gestern →",
+          "after": "",
+          "answer": "so hoch wie gestern",
+          "en": "as high as yesterday",
+          "why": "so … wie.",
+          "tip": "wie",
+          "hint": "wie"
+        },
+        {
+          "before": "ungleich: der Schmerz, gestern →",
+          "after": "",
+          "answer": "stärker als gestern",
+          "en": "stronger than yesterday",
+          "why": "als.",
+          "tip": "als",
+          "hint": "als"
+        },
+        {
+          "before": "gut, ungleich →",
+          "after": "",
+          "answer": "besser als gestern",
+          "en": "better than yesterday",
+          "why": "gut → besser.",
+          "tip": "besser",
+          "hint": "gut"
+        },
+        {
+          "before": "gern, Wasser, Saft →",
+          "after": "",
+          "answer": "lieber Wasser als Saft",
+          "en": "water rather than juice",
+          "why": "gern → lieber.",
+          "tip": "lieber",
+          "hint": "gern"
+        },
+        {
+          "before": "vor dem Nomen: der Schmerz →",
+          "after": "",
+          "answer": "der stärkere Schmerz",
+          "en": "the stronger pain",
+          "why": "Ending after the comparative.",
+          "tip": "-e",
+          "hint": "Attribut"
+        },
+        {
+          "before": "Akkusativ vor dem Nomen →",
+          "after": "",
+          "answer": "einen stärkeren Schmerz",
+          "en": "a stronger pain",
+          "why": "Accusative -en after the comparative.",
+          "tip": "-en",
+          "hint": "Attribut"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Schmerz ist stärker wie gestern."
+          ],
+          "options": [
+            "Der Schmerz ist stärker als gestern.",
+            "Der Schmerz ist stärker wie gestern.",
+            "Der Schmerz ist stark wie gestern."
+          ],
+          "answer": 0,
+          "reveal": "Der Schmerz ist stärker als gestern.",
+          "hint": "A comparative takes als."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Befund ist guter."
+          ],
+          "options": [
+            "Der Befund ist besser.",
+            "Der Befund ist guter.",
+            "Der Befund ist mehr gut."
+          ],
+          "answer": 0,
+          "reveal": "Der Befund ist besser.",
+          "hint": "gut → besser."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Blutdruck ist hoher."
+          ],
+          "options": [
+            "Der Blutdruck ist höher.",
+            "Der Blutdruck ist hoher.",
+            "Der Blutdruck ist hocher."
+          ],
+          "answer": 0,
+          "reveal": "Der Blutdruck ist höher.",
+          "hint": "hoch → höher."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Wunde ist großer."
+          ],
+          "options": [
+            "Die Wunde ist größer.",
+            "Die Wunde ist großer.",
+            "Die Wunde ist mehr groß."
+          ],
+          "answer": 0,
+          "reveal": "Die Wunde ist größer.",
+          "hint": "groß → größer, with ss."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "This morning's pain",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Complete the comparison.",
+      "chips": [
+        {
+          "w": "stärker",
+          "hint": "als"
+        },
+        {
+          "w": "wie",
+          "hint": "wie"
+        },
+        {
+          "w": "früher",
+          "hint": "früh"
+        },
+        {
+          "w": "lieber",
+          "hint": "gern"
+        },
+        {
+          "w": "besser",
+          "hint": "gut"
+        },
+        {
+          "w": "der stärkere",
+          "hint": "Attribut"
+        }
+      ],
+      "items": [
+        {
+          "before": "Der Schmerz ist heute",
+          "after": "als gestern.",
+          "answer": "stärker",
+          "en": "stronger",
+          "why": "Comparative.",
+          "tip": "als",
+          "hint": "als",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Der Blutdruck ist so hoch",
+          "after": "gestern.",
+          "answer": "wie",
+          "en": "as yesterday",
+          "why": "Equality.",
+          "tip": "wie",
+          "hint": "wie",
+          "who": "Ärztin"
+        },
+        {
+          "before": "Bitte kommen Sie",
+          "after": ".",
+          "answer": "früher",
+          "en": "sooner",
+          "why": "Comparative of früh.",
+          "tip": "-er",
+          "hint": "früh",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Ich trinke",
+          "after": "Wasser.",
+          "answer": "lieber",
+          "en": "preferably water",
+          "why": "gern → lieber.",
+          "tip": "lieber",
+          "hint": "gern",
+          "who": "Patient"
+        },
+        {
+          "before": "Wasser ist",
+          "after": "als Saft.",
+          "answer": "besser",
+          "en": "better",
+          "why": "gut → besser.",
+          "tip": "besser",
+          "hint": "gut",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Das ist",
+          "after": "Schmerz.",
+          "answer": "der stärkere",
+          "en": "the stronger pain",
+          "why": "Attributive ending.",
+          "tip": "-e",
+          "hint": "Attribut",
+          "who": "Ärztin"
+        }
+      ]
+    },
+    {
+      "id": "px-gap-2",
+      "label": "More comparatives",
+      "title": "Regular, umlaut, irregular",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "One comparative in each gap.",
+      "chips": [
+        {
+          "w": "älter",
+          "hint": "alt"
+        },
+        {
+          "w": "kränker",
+          "hint": "krank"
+        },
+        {
+          "w": "größer",
+          "hint": "groß"
+        },
+        {
+          "w": "näher",
+          "hint": "nah"
+        },
+        {
+          "w": "teurer",
+          "hint": "teuer"
+        },
+        {
+          "w": "mehr Wasser",
+          "hint": "viel"
+        },
+        {
+          "w": "so ruhig wie",
+          "hint": "wie"
+        },
+        {
+          "w": "früher als",
+          "hint": "als"
+        }
+      ],
+      "items": [
+        {
+          "before": "alt →",
+          "after": "",
+          "answer": "älter",
+          "en": "older",
+          "why": "Umlaut.",
+          "tip": "ä",
+          "hint": "alt"
+        },
+        {
+          "before": "krank →",
+          "after": "",
+          "answer": "kränker",
+          "en": "more ill",
+          "why": "Umlaut.",
+          "tip": "ä",
+          "hint": "krank"
+        },
+        {
+          "before": "groß →",
+          "after": "",
+          "answer": "größer",
+          "en": "bigger",
+          "why": "ß becomes ss.",
+          "tip": "ss",
+          "hint": "groß"
+        },
+        {
+          "before": "nah →",
+          "after": "",
+          "answer": "näher",
+          "en": "nearer",
+          "why": "Umlaut, h stays.",
+          "tip": "ä",
+          "hint": "nah"
+        },
+        {
+          "before": "teuer →",
+          "after": "",
+          "answer": "teurer",
+          "en": "more expensive",
+          "why": "An e drops.",
+          "tip": "e",
+          "hint": "teuer"
+        },
+        {
+          "before": "viel →",
+          "after": "",
+          "answer": "mehr Wasser",
+          "en": "more water",
+          "why": "Irregular, with the noun.",
+          "tip": "mehr",
+          "hint": "viel"
+        },
+        {
+          "before": "gleich, ruhig →",
+          "after": "",
+          "answer": "so ruhig wie",
+          "en": "as calm as",
+          "why": "so … wie.",
+          "tip": "wie",
+          "hint": "wie"
+        },
+        {
+          "before": "ungleich, früh →",
+          "after": "",
+          "answer": "früher als",
+          "en": "sooner than",
+          "why": "Comparative + als.",
+          "tip": "als",
+          "hint": "als"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read and answer",
+      "practice": "reading",
+      "instructions": "Read the note, then answer.",
+      "document": {
+        "letterhead": "Station 4 · MediDeutsch",
+        "title": "Stärker als gestern",
+        "paragraphs": [
+          "Der Schmerz ist heute stärker als gestern. Der Blutdruck ist so hoch wie gestern. Bitte kommen Sie früher. Der stärkere Schmerz bleibt im Arm. Wasser ist besser als Saft. Der Patient trinkt lieber Wasser."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "q": "Wie ist der Schmerz heute?",
+          "qEn": "Compared with yesterday.",
+          "options": [
+            "stärker als gestern",
+            "so stark wie gestern",
+            "stark wie gestern"
+          ],
+          "answer": 0,
+          "why": "Comparative + als.",
+          "hint": "Comparative + als."
+        },
+        {
+          "q": "Wie ist der Blutdruck?",
+          "qEn": "Compared with yesterday.",
+          "options": [
+            "so hoch wie gestern",
+            "höher wie gestern",
+            "hoher als gestern"
+          ],
+          "answer": 0,
+          "why": "Equality: so … wie.",
+          "hint": "Equality: so … wie."
+        },
+        {
+          "q": "Was soll die Person tun?",
+          "qEn": "The request.",
+          "options": [
+            "früher kommen",
+            "früh kommen",
+            "mehr früh kommen"
+          ],
+          "answer": 0,
+          "why": "Bitte kommen Sie früher.",
+          "hint": "Bitte kommen Sie früher."
+        },
+        {
+          "q": "Was trinkt der Patient lieber?",
+          "qEn": "Preference.",
+          "options": [
+            "Wasser",
+            "Saft",
+            "nichts"
+          ],
+          "answer": 0,
+          "why": "lieber Wasser.",
+          "hint": "lieber Wasser."
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "Today and yesterday",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Compare today with yesterday, then say what the patient prefers.",
+      "prompt": "Use one als sentence, one wie sentence, and lieber.",
+      "bullets": [
+        "Use stärker als.",
+        "Use so hoch wie.",
+        "Use lieber."
+      ],
+      "model": "Der Schmerz ist heute stärker als gestern. Der Blutdruck ist so hoch wie gestern. Der Patient trinkt lieber Wasser.",
+      "modelEn": "The pain is stronger today than yesterday. The blood pressure is as high as yesterday. The patient prefers water.",
+      "hint": "als after a comparative. wie after so.",
+      "checklist": [
+        {
+          "id": "als",
+          "label": "Uses stärker als",
+          "keywords": [
+            "stärker als"
+          ]
+        },
+        {
+          "id": "wie",
+          "label": "Uses so hoch wie",
+          "keywords": [
+            "so hoch wie"
+          ]
+        },
+        {
+          "id": "lieber",
+          "label": "Uses lieber",
+          "keywords": [
+            "lieber"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "story": [
+        "Mixed test. Eighty per cent marks the lesson as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "stark →",
+          "qEn": "Umlaut.",
+          "options": [
+            "stärker",
+            "starker",
+            "mehr stark"
+          ],
+          "answer": 0,
+          "why": "stärker.",
+          "hint": "ä"
+        },
+        {
+          "kind": "mc",
+          "q": "gut →",
+          "qEn": "Irregular.",
+          "options": [
+            "guter",
+            "besser",
+            "mehr gut"
+          ],
+          "answer": 1,
+          "why": "besser.",
+          "hint": "besser"
+        },
+        {
+          "kind": "mc",
+          "q": "viel →",
+          "qEn": "Irregular.",
+          "options": [
+            "vieler",
+            "mehrer",
+            "mehr"
+          ],
+          "answer": 2,
+          "why": "mehr.",
+          "hint": "mehr"
+        },
+        {
+          "kind": "mc",
+          "q": "gern →",
+          "qEn": "Irregular.",
+          "options": [
+            "lieber",
+            "gerner",
+            "gernster"
+          ],
+          "answer": 0,
+          "why": "lieber.",
+          "hint": "lieber"
+        },
+        {
+          "kind": "mc",
+          "q": "hoch →",
+          "qEn": "c drops.",
+          "options": [
+            "hoher",
+            "höher",
+            "hocher"
+          ],
+          "answer": 1,
+          "why": "höher.",
+          "hint": "höher"
+        },
+        {
+          "kind": "mc",
+          "q": "groß →",
+          "qEn": "ß becomes ss.",
+          "options": [
+            "großer",
+            "grösser",
+            "größer"
+          ],
+          "answer": 2,
+          "why": "größer.",
+          "hint": "größer"
+        },
+        {
+          "kind": "mc",
+          "q": "teuer →",
+          "qEn": "e drops.",
+          "options": [
+            "teurer",
+            "teuerer",
+            "mehr teuer"
+          ],
+          "answer": 0,
+          "why": "teuer → teurer.",
+          "hint": "teurer"
+        },
+        {
+          "kind": "mc",
+          "q": "Equality.",
+          "qEn": "Same degree.",
+          "options": [
+            "Komparativ + wie",
+            "so … wie",
+            "als + base"
+          ],
+          "answer": 1,
+          "why": "so hoch wie.",
+          "hint": "wie"
+        },
+        {
+          "kind": "mc",
+          "q": "Inequality.",
+          "qEn": "One side is more.",
+          "options": [
+            "so … als",
+            "base + wie",
+            "Komparativ + als"
+          ],
+          "answer": 2,
+          "why": "stärker als.",
+          "hint": "als"
+        },
+        {
+          "kind": "mc",
+          "q": "Before a noun.",
+          "qEn": "Still an ending.",
+          "options": [
+            "der stärkere Schmerz",
+            "der stärker Schmerz",
+            "der starkere Schmerz"
+          ],
+          "answer": 0,
+          "why": "Ending after -er.",
+          "hint": "-e"
+        },
+        {
+          "kind": "mc",
+          "q": "nah →",
+          "qEn": "Umlaut.",
+          "options": [
+            "naher",
+            "näher",
+            "nähere"
+          ],
+          "answer": 1,
+          "why": "näher.",
+          "hint": "näher"
+        },
+        {
+          "kind": "mc",
+          "q": "alt →",
+          "qEn": "Umlaut.",
+          "options": [
+            "alter",
+            "mehr alt",
+            "älter"
+          ],
+          "answer": 2,
+          "why": "älter.",
+          "hint": "älter"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Stärker als gestern",
+      "redemittel": [
+        {
+          "de": "Der Schmerz ist heute stärker als gestern.",
+          "en": "The pain is stronger today than yesterday."
+        },
+        {
+          "de": "Der Blutdruck ist so hoch wie gestern.",
+          "en": "The blood pressure is as high as yesterday."
+        },
+        {
+          "de": "Bitte kommen Sie früher.",
+          "en": "Please come sooner."
+        },
+        {
+          "de": "Er trinkt lieber Wasser als Saft.",
+          "en": "He prefers water to juice."
+        }
+      ]
+    }
+  ]
+}

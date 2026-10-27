@@ -1,0 +1,2259 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-modalverben-station",
+  "platform": "MediDeutsch",
+  "level": "A1",
+  "unit": "Kapitel 5–6",
+  "title": "Modalverben auf Station",
+  "subtitle": "Modal verbs on the ward: müssen, können, dürfen, sollen, wollen, möchten",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 10,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "glossary": {
+    "22": {
+      "de": "zweiundzwanzig",
+      "pos": "number",
+      "en": "twenty-two",
+      "emoji": "🕙",
+      "note": "22 Uhr = 10 pm (German uses the 24-hour clock)"
+    },
+    "guten": {
+      "de": "gut → guten",
+      "pos": "adjective",
+      "en": "good (in greetings)",
+      "emoji": "👋",
+      "note": "Guten Morgen! = Good morning!"
+    },
+    "Morgen": {
+      "de": "Morgen",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Morgen",
+      "en": "morning",
+      "emoji": "🌅",
+      "note": "Guten Morgen! = Good morning! (Lowercase morgen = tomorrow.)"
+    },
+    "morgen": {
+      "de": "morgen",
+      "pos": "adverb",
+      "en": "tomorrow",
+      "emoji": "📅",
+      "note": "Lowercase morgen = tomorrow. Capital der Morgen = the morning."
+    },
+    "herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Herren",
+      "en": "Mr; gentleman",
+      "emoji": "👨",
+      "note": "Herr + surname = Mr … After für/zu/mit it becomes Herrn: für Herrn Yilmaz."
+    },
+    "herrn": {
+      "de": "Herrn (form of der Herr)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Herren",
+      "en": "Mr (after für, zu, mit …)",
+      "emoji": "👨",
+      "note": "für Herrn Yilmaz = for Mr Yilmaz"
+    },
+    "yilmaz": {
+      "de": "Yilmaz",
+      "pos": "name",
+      "en": "Yilmaz – the patient's surname",
+      "emoji": "🧑🏽"
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "question word",
+      "en": "how",
+      "emoji": "❓",
+      "note": "Wie geht es Ihnen? = How are you? (formal)"
+    },
+    "geht": {
+      "de": "gehen → es geht",
+      "pos": "verb",
+      "en": "goes; Wie geht es …? = How is … doing?",
+      "emoji": "🚶"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it",
+      "emoji": "👉"
+    },
+    "ihnen": {
+      "de": "Ihnen",
+      "pos": "pronoun",
+      "en": "(to) you – formal",
+      "emoji": "🫵",
+      "note": "Ihnen is the dative of Sie. Capitalised when it means 'you'."
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "📆",
+      "note": "heute Abend = this evening"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫"
+    },
+    "so": {
+      "de": "so",
+      "pos": "adverb",
+      "en": "so; that",
+      "emoji": "↔️",
+      "note": "Nicht so gut. = Not so good."
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "good; well",
+      "emoji": "👍"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🙋"
+    },
+    "habe": {
+      "de": "haben → ich habe",
+      "pos": "verb",
+      "en": "(I) have",
+      "emoji": "🤲",
+      "note": "Ich habe Schmerzen. = I am in pain."
+    },
+    "bauchschmerzen": {
+      "de": "Bauchschmerzen",
+      "pos": "noun",
+      "article": "die",
+      "plural": "(plural only)",
+      "en": "abdominal pain; stomach ache",
+      "emoji": "🤕",
+      "note": "der Bauch (belly) + die Schmerzen (pain)"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "will": {
+      "de": "wollen → ich/er will",
+      "pos": "modal verb",
+      "en": "want(s) to",
+      "emoji": "💪",
+      "note": "A strong wish. More polite: ich möchte."
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "to; after",
+      "emoji": "➡️",
+      "note": "nach Hause = (going) home · nach dem Essen = after the meal"
+    },
+    "hause": {
+      "de": "Hause",
+      "pos": "noun (fixed phrase)",
+      "en": "home – only in nach Hause / zu Hause",
+      "emoji": "🏠",
+      "note": "nach Hause gehen = go home · zu Hause sein = be at home"
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (with clock times)",
+      "emoji": "🕗",
+      "note": "um acht Uhr = at eight o'clock"
+    },
+    "acht": {
+      "de": "acht",
+      "pos": "number",
+      "en": "eight",
+      "emoji": "8️⃣"
+    },
+    "uhr": {
+      "de": "Uhr",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Uhren",
+      "en": "clock; o'clock",
+      "emoji": "🕗",
+      "note": "Wie viel Uhr ist es? = What time is it?"
+    },
+    "ist": {
+      "de": "sein → er/sie/es ist",
+      "pos": "verb",
+      "en": "is",
+      "emoji": "🟰"
+    },
+    "ihre": {
+      "de": "Ihre",
+      "pos": "possessive",
+      "en": "your (formal) · her · their",
+      "emoji": "🫵",
+      "note": "Capital Ihre = your (formal): Ihre Operation = your operation."
+    },
+    "operation": {
+      "de": "Operation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Operationen",
+      "en": "operation; surgery",
+      "emoji": "🏥",
+      "note": "Short form on the ward: die OP"
+    },
+    "sie": {
+      "de": "Sie / sie",
+      "pos": "pronoun",
+      "en": "you (formal, capital Sie) · she · they",
+      "emoji": "🫵",
+      "note": "Always use Sie with patients and colleagues you don't know."
+    },
+    "müssen": {
+      "de": "müssen",
+      "pos": "modal verb",
+      "en": "must; have to",
+      "emoji": "❗",
+      "note": "Necessity: Sie müssen nüchtern bleiben."
+    },
+    "nüchtern": {
+      "de": "nüchtern",
+      "pos": "adjective",
+      "en": "fasting; nil by mouth (NPO)",
+      "emoji": "🍽️",
+      "note": "nüchtern bleiben = not eat (or drink) before surgery or blood tests. In daily life it also means 'sober'."
+    },
+    "bleiben": {
+      "de": "bleiben",
+      "pos": "verb",
+      "en": "to stay; to remain",
+      "emoji": "⏸️"
+    },
+    "darf": {
+      "de": "dürfen → ich/er darf",
+      "pos": "modal verb",
+      "en": "may; am/is allowed to",
+      "emoji": "✅",
+      "note": "Darf ich …? = May I …?"
+    },
+    "Abend": {
+      "de": "Abend",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Abende",
+      "en": "evening",
+      "emoji": "🌆",
+      "note": "heute Abend = this evening"
+    },
+    "noch": {
+      "de": "noch",
+      "pos": "adverb",
+      "en": "still; yet; (any)more",
+      "emoji": "⏳"
+    },
+    "etwas": {
+      "de": "etwas",
+      "pos": "pronoun",
+      "en": "something; a little",
+      "emoji": "✨"
+    },
+    "essen": {
+      "de": "essen",
+      "pos": "verb",
+      "en": "to eat",
+      "emoji": "🍽️",
+      "note": "das Essen = the meal · er isst = he eats"
+    },
+    "ja": {
+      "de": "ja",
+      "pos": "particle",
+      "en": "yes",
+      "emoji": "✔️"
+    },
+    "aber": {
+      "de": "aber",
+      "pos": "conjunction",
+      "en": "but",
+      "emoji": "↩️"
+    },
+    "nur": {
+      "de": "nur",
+      "pos": "adverb",
+      "en": "only",
+      "emoji": "☝️"
+    },
+    "bis": {
+      "de": "bis",
+      "pos": "preposition",
+      "en": "until",
+      "emoji": "⏱️",
+      "note": "bis 22 Uhr = until 10 pm"
+    },
+    "danach": {
+      "de": "danach",
+      "pos": "adverb",
+      "en": "after that; afterwards",
+      "emoji": "⏭️"
+    },
+    "dürfen": {
+      "de": "dürfen",
+      "pos": "modal verb",
+      "en": "may; be allowed to",
+      "emoji": "✅",
+      "note": "nicht dürfen = must NOT (forbidden)!"
+    },
+    "nichts": {
+      "de": "nichts",
+      "pos": "pronoun",
+      "en": "nothing",
+      "emoji": "⭕"
+    },
+    "mehr": {
+      "de": "mehr",
+      "pos": "adverb",
+      "en": "more",
+      "emoji": "➕",
+      "note": "nichts mehr = nothing more / not anything anymore"
+    },
+    "kann": {
+      "de": "können → ich/er kann",
+      "pos": "modal verb",
+      "en": "can; am/is able to",
+      "emoji": "🙌",
+      "note": "Kann ich …? = Can I …?"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a; an (feminine)",
+      "emoji": "1️⃣",
+      "note": "eine Tablette – because it is DIE Tablette"
+    },
+    "schmerztablette": {
+      "de": "Schmerztablette",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Schmerztabletten",
+      "en": "painkiller (tablet)",
+      "emoji": "💊",
+      "note": "der Schmerz (pain) + die Tablette (tablet)"
+    },
+    "bekommen": {
+      "de": "bekommen",
+      "pos": "verb",
+      "en": "to get; to receive",
+      "emoji": "🎁",
+      "note": "False friend! bekommen ≠ 'become'."
+    },
+    "natürlich": {
+      "de": "natürlich",
+      "pos": "adverb",
+      "en": "of course",
+      "emoji": "😊"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine and all plurals)",
+      "emoji": "🔴"
+    },
+    "pflegerin": {
+      "de": "Pflegerin",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Pflegerinnen",
+      "en": "nurse (female)",
+      "emoji": "👩‍⚕️",
+      "note": "Male: der Pfleger. Neutral: die Pflegekraft."
+    },
+    "bringt": {
+      "de": "bringen → er/sie bringt",
+      "pos": "verb",
+      "en": "brings",
+      "emoji": "🤲"
+    },
+    "gleich": {
+      "de": "gleich",
+      "pos": "adverb",
+      "en": "in a moment; right away",
+      "emoji": "⏰"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Tabletten",
+      "en": "tablet; pill",
+      "emoji": "💊",
+      "note": "eine Tablette nehmen = take a tablet"
+    },
+    "sollen": {
+      "de": "sollen",
+      "pos": "modal verb",
+      "en": "should; be supposed to",
+      "emoji": "📋",
+      "note": "An instruction from someone else (doctor, nurse)."
+    },
+    "sich": {
+      "de": "sich",
+      "pos": "reflexive pronoun",
+      "en": "yourself / himself / herself",
+      "emoji": "🪞"
+    },
+    "ausruhen": {
+      "de": "sich ausruhen",
+      "pos": "verb (separable)",
+      "en": "to rest",
+      "emoji": "🛌",
+      "note": "Ruhen Sie sich aus! = Get some rest!"
+    },
+    "möchte": {
+      "de": "möchten → ich/er möchte",
+      "pos": "modal verb",
+      "en": "would like (to)",
+      "emoji": "🙏",
+      "note": "A polite wish – perfect for patients and doctors."
+    },
+    "meine": {
+      "de": "meine",
+      "pos": "possessive",
+      "en": "my (feminine / plural)",
+      "emoji": "🙋"
+    },
+    "frau": {
+      "de": "Frau",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Frauen",
+      "en": "woman; wife; Mrs/Ms",
+      "emoji": "👩",
+      "note": "meine Frau = my wife · Frau Weber = Ms Weber"
+    },
+    "anrufen": {
+      "de": "anrufen",
+      "pos": "verb (separable)",
+      "en": "to call (on the phone)",
+      "emoji": "📞",
+      "note": "Ich rufe meine Frau an. = I'm calling my wife."
+    },
+    "mein": {
+      "de": "mein",
+      "pos": "possessive",
+      "en": "my (masculine / neuter)",
+      "emoji": "🙋"
+    },
+    "handy": {
+      "de": "Handy",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Handys",
+      "en": "mobile phone",
+      "emoji": "📱",
+      "note": "German 'Handy' = mobile phone, not 'handy'."
+    },
+    "benutzen": {
+      "de": "benutzen",
+      "pos": "verb",
+      "en": "to use",
+      "emoji": "🔧"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article / pronoun",
+      "en": "the (neuter); that",
+      "emoji": "🟢",
+      "note": "Ja, das dürfen Sie. = Yes, you may (do that)."
+    },
+    "gute": {
+      "de": "gut → gute",
+      "pos": "adjective",
+      "en": "good",
+      "emoji": "👍"
+    },
+    "besserung": {
+      "de": "Besserung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "(no plural)",
+      "en": "recovery; improvement",
+      "emoji": "💐",
+      "note": "Gute Besserung! = Get well soon!"
+    },
+    "entlassung": {
+      "de": "Entlassung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Entlassungen",
+      "en": "discharge (from hospital)",
+      "emoji": "🚪",
+      "note": "der Entlassungsbrief = discharge letter"
+    },
+    "informationen": {
+      "de": "Information",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Informationen",
+      "en": "information",
+      "emoji": "ℹ️"
+    },
+    "für": {
+      "de": "für",
+      "pos": "preposition",
+      "en": "for",
+      "emoji": "🎯"
+    },
+    "lieber": {
+      "de": "lieber / liebe",
+      "pos": "adjective",
+      "en": "dear (in letters)",
+      "emoji": "✉️",
+      "note": "Lieber Herr Yilmaz, … · Liebe Frau Weber, …"
+    },
+    "war": {
+      "de": "sein → ich/er war",
+      "pos": "verb (past)",
+      "en": "was",
+      "emoji": "⏪"
+    },
+    "gehen": {
+      "de": "gehen",
+      "pos": "verb",
+      "en": "to go; to walk",
+      "emoji": "🚶"
+    },
+    "dreimal": {
+      "de": "dreimal",
+      "pos": "adverb",
+      "en": "three times",
+      "emoji": "3️⃣",
+      "note": "dreimal am Tag = three times a day"
+    },
+    "am": {
+      "de": "am (= an dem)",
+      "pos": "preposition",
+      "en": "on the; at the; per",
+      "emoji": "📍",
+      "note": "am Tag = per day · am Montag = on Monday"
+    },
+    "tag": {
+      "de": "Tag",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Tage",
+      "en": "day",
+      "emoji": "☀️"
+    },
+    "nehmen": {
+      "de": "nehmen",
+      "pos": "verb",
+      "en": "to take",
+      "emoji": "✋",
+      "note": "eine Tablette nehmen = take a tablet"
+    },
+    "morgens": {
+      "de": "morgens",
+      "pos": "adverb",
+      "en": "in the morning(s)",
+      "emoji": "🌅"
+    },
+    "mittags": {
+      "de": "mittags",
+      "pos": "adverb",
+      "en": "at midday; at lunchtime",
+      "emoji": "🕛"
+    },
+    "abends": {
+      "de": "abends",
+      "pos": "adverb",
+      "en": "in the evening(s)",
+      "emoji": "🌙"
+    },
+    "viel": {
+      "de": "viel",
+      "pos": "adverb",
+      "en": "a lot; much",
+      "emoji": "📈"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "article": "das",
+      "plural": "(no plural)",
+      "en": "water",
+      "emoji": "💧"
+    },
+    "trinken": {
+      "de": "trinken",
+      "pos": "verb",
+      "en": "to drink",
+      "emoji": "🥤"
+    },
+    "spazieren": {
+      "de": "spazieren gehen",
+      "pos": "verb",
+      "en": "to go for a walk",
+      "emoji": "🚶‍♂️"
+    },
+    "zwei": {
+      "de": "zwei",
+      "pos": "number",
+      "en": "two",
+      "emoji": "2️⃣"
+    },
+    "wochen": {
+      "de": "Woche",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Wochen",
+      "en": "week",
+      "emoji": "🗓️"
+    },
+    "lang": {
+      "de": "lang",
+      "pos": "adverb",
+      "en": "long; for (a period)",
+      "emoji": "📏",
+      "note": "zwei Wochen lang = for two weeks"
+    },
+    "keinen": {
+      "de": "kein → keinen",
+      "pos": "article",
+      "en": "no; not any",
+      "emoji": "🚫",
+      "note": "keinen Sport machen = do no sport"
+    },
+    "sport": {
+      "de": "Sport",
+      "pos": "noun",
+      "article": "der",
+      "plural": "(no plural)",
+      "en": "sport; exercise",
+      "emoji": "🏃"
+    },
+    "machen": {
+      "de": "machen",
+      "pos": "verb",
+      "en": "to do; to make",
+      "emoji": "🛠️"
+    },
+    "ab": {
+      "de": "ab",
+      "pos": "preposition",
+      "en": "from … (on)",
+      "emoji": "▶️",
+      "note": "ab morgen = from tomorrow on"
+    },
+    "duschen": {
+      "de": "duschen",
+      "pos": "verb",
+      "en": "to shower",
+      "emoji": "🚿"
+    },
+    "baden": {
+      "de": "baden",
+      "pos": "verb",
+      "en": "to have a bath",
+      "emoji": "🛁"
+    },
+    "montag": {
+      "de": "Montag",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Montage",
+      "en": "Monday",
+      "emoji": "📅"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "preposition",
+      "en": "to (a person or place)",
+      "emoji": "➡️"
+    },
+    "ihrem": {
+      "de": "Ihr → Ihrem",
+      "pos": "possessive",
+      "en": "your (formal)",
+      "emoji": "🫵",
+      "note": "zu Ihrem Hausarzt = to your GP"
+    },
+    "hausarzt": {
+      "de": "Hausarzt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Hausärzte",
+      "en": "GP; family doctor",
+      "emoji": "👨‍⚕️",
+      "note": "Female: die Hausärztin"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "soll": {
+      "de": "sollen → ich/er soll",
+      "pos": "modal verb",
+      "en": "should; is supposed to",
+      "emoji": "📋"
+    },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Wunden",
+      "en": "wound",
+      "emoji": "🩹"
+    },
+    "kontrollieren": {
+      "de": "kontrollieren",
+      "pos": "verb",
+      "en": "to check",
+      "emoji": "🔍"
+    },
+    "bei": {
+      "de": "bei",
+      "pos": "preposition",
+      "en": "with; in case of; at",
+      "emoji": "📍",
+      "note": "bei Fieber = in case of fever"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "article": "das",
+      "plural": "(no plural)",
+      "en": "fever",
+      "emoji": "🤒"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or",
+      "emoji": "🔀"
+    },
+    "starken": {
+      "de": "stark → starke(n)",
+      "pos": "adjective",
+      "en": "strong; severe",
+      "emoji": "💥",
+      "note": "starke Schmerzen = severe pain"
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "en": "pain",
+      "emoji": "😣",
+      "note": "Usually used in the plural: Ich habe Schmerzen."
+    },
+    "sofort": {
+      "de": "sofort",
+      "pos": "adverb",
+      "en": "immediately",
+      "emoji": "⚡"
+    },
+    "ins": {
+      "de": "ins (= in das)",
+      "pos": "preposition",
+      "en": "into the; to the",
+      "emoji": "📥"
+    },
+    "krankenhaus": {
+      "de": "Krankenhaus",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Krankenhäuser",
+      "en": "hospital",
+      "emoji": "🏥"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "verb",
+      "en": "to come",
+      "emoji": "🏃‍♂️"
+    },
+    "dr": {
+      "de": "Dr. (Doktor)",
+      "pos": "title",
+      "en": "Dr (doctor's title)",
+      "emoji": "🎓"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna – the doctor's first name",
+      "emoji": "👩‍⚕️"
+    },
+    "weber": {
+      "de": "Weber",
+      "pos": "name",
+      "en": "Weber – the doctor's surname",
+      "emoji": "👩‍⚕️"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Stationen",
+      "en": "ward",
+      "emoji": "🛏️",
+      "note": "auf Station = on the ward"
+    },
+    "3b": {
+      "de": "3B (drei B)",
+      "pos": "number",
+      "en": "ward number 3B",
+      "emoji": "🔢"
+    },
+    "chirurgie": {
+      "de": "Chirurgie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "(no plural)",
+      "en": "surgery (the department)",
+      "emoji": "🩺",
+      "note": "der Chirurg / die Chirurgin = surgeon"
+    },
+    "hat": {
+      "de": "haben → er/sie hat",
+      "pos": "verb",
+      "en": "has",
+      "emoji": "🤲"
+    },
+    "muss": {
+      "de": "müssen → er muss",
+      "pos": "verb",
+      "en": "must (er)",
+      "emoji": "❗",
+      "note": "ich/er muss, no -t."
+    },
+    "spritze": {
+      "de": "Spritze",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Spritzen",
+      "en": "syringe; injection",
+      "emoji": "💉"
+    },
+    "stethoskop": {
+      "de": "Stethoskop",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Stethoskope",
+      "en": "stethoscope",
+      "emoji": "🩺"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Überblick",
+      "title": "Lesson intro",
+      "minutes": 25,
+      "learn": [
+        "The six modal verbs: <b>müssen, können, dürfen, sollen, wollen, möchten</b>.",
+        "In a statement the modal is in <b>position 2</b>. The infinitive goes to the <b>end</b>.",
+        "In a yes/no question the modal comes <b>first</b>: Darf ich …?",
+        "<b>nicht dürfen</b> means forbidden. <b>nicht müssen</b> means you don't have to."
+      ],
+      "vocab": [
+        {
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "emoji": "💊",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "glossaryKey": "tablette"
+        },
+        {
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "syringe",
+          "emoji": "💉",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          },
+          "glossaryKey": "spritze"
+        },
+        {
+          "de": "Stethoskop",
+          "article": "das",
+          "plural": "die Stethoskope",
+          "en": "stethoscope",
+          "emoji": "🩺",
+          "image": {
+            "type": "svg",
+            "id": "stethoscope"
+          },
+          "glossaryKey": "stethoskop"
+        },
+        {
+          "de": "Operation",
+          "article": "die",
+          "plural": "die Operationen",
+          "en": "operation",
+          "emoji": "🏥",
+          "glossaryKey": "operation"
+        }
+      ],
+      "text": {
+        "title": "Die Operation",
+        "de": "Herr Yilmaz hat Bauchschmerzen. [[Morgen|morgen]] um acht Uhr ist die Operation. Er muss nüchtern bleiben. Er darf heute Abend noch etwas essen, aber nur bis 22 Uhr. Danach darf er nichts mehr essen. Die Pflegerin bringt eine Tablette, und er soll sich ausruhen.",
+        "en": "Mr Yilmaz has abdominal pain. The operation is tomorrow at eight. He must stay nil by mouth. He may still eat something this evening, but only until 10 pm. After that he must not eat anything. The nurse brings a tablet, and he should rest."
+      }
+    },
+    {
+      "id": "intro",
+      "type": "dialogue",
+      "label": "Ward round",
+      "title": "Listen & explore the ward round",
+      "instructions": "Tap any German word to see its meaning, article, plural and a picture. Press 🔊 to hear it.",
+      "scene": "Station 3B, 7:30. Dr. Weber visits Herr Yilmaz, who has his operation tomorrow.",
+      "speakers": {
+        "A": {
+          "name": "Dr. Weber",
+          "role": "Ärztin (doctor)",
+          "avatar": "👩‍⚕️"
+        },
+        "P": {
+          "name": "Herr Yilmaz",
+          "role": "Patient",
+          "avatar": "🧑🏽"
+        }
+      },
+      "lines": [
+        {
+          "who": "A",
+          "de": "Guten Morgen, Herr Yilmaz! Wie geht es Ihnen heute?",
+          "en": "Good morning, Mr Yilmaz! How are you today?"
+        },
+        {
+          "who": "P",
+          "de": "Nicht so gut. Ich habe Bauchschmerzen und will nach Hause.",
+          "en": "Not so good. I have stomach pain and I want to go home."
+        },
+        {
+          "who": "A",
+          "de": "[[Morgen|morgen]] um acht Uhr ist Ihre Operation. Sie müssen nüchtern bleiben.",
+          "en": "Your operation is tomorrow at eight. You must stay nil by mouth."
+        },
+        {
+          "who": "P",
+          "de": "Darf ich heute Abend noch etwas essen?",
+          "en": "May I still eat something this evening?"
+        },
+        {
+          "who": "A",
+          "de": "Ja, aber nur bis 22 Uhr. Danach dürfen Sie nichts mehr essen.",
+          "en": "Yes, but only until 10 pm. After that you must not eat anything."
+        },
+        {
+          "who": "P",
+          "de": "Kann ich eine Schmerztablette bekommen?",
+          "en": "Can I get a painkiller?"
+        },
+        {
+          "who": "A",
+          "de": "Natürlich. Die Pflegerin bringt Ihnen gleich eine Tablette. Sie sollen sich heute ausruhen.",
+          "en": "Of course. The nurse will bring you a tablet shortly. You should rest today."
+        },
+        {
+          "who": "P",
+          "de": "Ich möchte meine Frau anrufen. Darf ich mein Handy benutzen?",
+          "en": "I'd like to call my wife. May I use my phone?"
+        },
+        {
+          "who": "A",
+          "de": "Ja, das dürfen Sie. Gute Besserung, Herr Yilmaz!",
+          "en": "Yes, you may. Get well soon, Mr Yilmaz!"
+        }
+      ],
+      "sceneTitle": "Visite: the day before surgery",
+      "highlight": {
+        "button": "Highlight the modal verbs",
+        "posIncludes": "modal"
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Meet the Oberarzt: modal verbs",
+      "story": [
+        "On a German ward round, the <b>Oberarzt</b> (senior physician) always walks in <b>position 2</b>. Nobody overtakes him.",
+        "When a modal verb joins a sentence, it behaves exactly like that: it takes <b>position 2</b> and is conjugated. The main verb loses its ending, turns into the <b>infinitive</b> and is sent <b>to the back of the queue</b>, to the very end of the sentence.",
+        "Together they form a bracket around the sentence, the <b>Satzklammer</b>."
+      ],
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "bleiben",
+              "r": "verb",
+              "inf": "bleiben"
+            },
+            {
+              "t": "nüchtern",
+              "r": "rest"
+            }
+          ],
+          "modal": "müssen",
+          "enBefore": "You stay nil by mouth.",
+          "enAfter": "You must stay nil by mouth."
+        },
+        {
+          "before": [
+            {
+              "t": "Der Patient",
+              "r": "subj"
+            },
+            {
+              "t": "isst",
+              "r": "verb",
+              "inf": "essen"
+            },
+            {
+              "t": "nichts",
+              "r": "rest"
+            }
+          ],
+          "modal": "darf",
+          "enBefore": "The patient eats nothing.",
+          "enAfter": "The patient must not eat anything."
+        },
+        {
+          "before": [
+            {
+              "t": "Ich",
+              "r": "subj"
+            },
+            {
+              "t": "trinke",
+              "r": "verb",
+              "inf": "trinken"
+            },
+            {
+              "t": "Wasser",
+              "r": "rest"
+            }
+          ],
+          "modal": "möchte",
+          "enBefore": "I drink water.",
+          "enAfter": "I would like to drink water."
+        }
+      ],
+      "questionRule": "Yes/no questions: the modal jumps to position 1, but the infinitive still waits at the end: <i>Darf ich etwas trinken?</i>",
+      "meanings": [
+        {
+          "modal": "müssen",
+          "emoji": "❗",
+          "en": "must, have to",
+          "use": "necessity, rules",
+          "de": "Sie müssen nüchtern bleiben.",
+          "deEn": "You must stay nil by mouth."
+        },
+        {
+          "modal": "können",
+          "emoji": "🙌",
+          "en": "can, be able to",
+          "use": "ability, possibility, polite requests",
+          "de": "Können Sie bitte tief einatmen?",
+          "deEn": "Can you breathe in deeply, please?"
+        },
+        {
+          "modal": "dürfen",
+          "emoji": "✅",
+          "en": "may, be allowed to",
+          "use": "permission (nicht dürfen = forbidden)",
+          "de": "Darf ich etwas trinken?",
+          "deEn": "May I drink something?"
+        },
+        {
+          "modal": "sollen",
+          "emoji": "📋",
+          "en": "should, be supposed to",
+          "use": "an instruction from someone else",
+          "de": "Sie sollen viel Wasser trinken.",
+          "deEn": "You're supposed to drink a lot of water."
+        },
+        {
+          "modal": "wollen",
+          "emoji": "💪",
+          "en": "want (to)",
+          "use": "a strong wish or plan",
+          "de": "Der Patient will nach Hause gehen.",
+          "deEn": "The patient wants to go home."
+        },
+        {
+          "modal": "möchten",
+          "emoji": "🙏",
+          "en": "would like (to)",
+          "use": "a polite wish",
+          "de": "Ich möchte meine Frau anrufen.",
+          "deEn": "I'd like to call my wife."
+        }
+      ],
+      "warning": {
+        "title": "Danger zone for doctors: müssen nicht ≠ nicht dürfen",
+        "items": [
+          {
+            "de": "Sie müssen nichts essen.",
+            "en": "You don't HAVE to eat anything. (optional)",
+            "tone": "ok"
+          },
+          {
+            "de": "Sie dürfen nichts essen.",
+            "en": "You must NOT eat anything. (forbidden!)",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Before surgery, always say: <b>Sie dürfen nichts essen.</b>"
+      },
+      "conjugation": {
+        "persons": [
+          "ich",
+          "du",
+          "er/sie/es",
+          "wir",
+          "ihr",
+          "sie/Sie"
+        ],
+        "main": [
+          "müssen",
+          "können",
+          "dürfen"
+        ],
+        "extra": [
+          "sollen",
+          "wollen",
+          "möchten"
+        ],
+        "forms": {
+          "müssen": [
+            "muss",
+            "mus|st",
+            "muss",
+            "müss|en",
+            "müss|t",
+            "müss|en"
+          ],
+          "können": [
+            "kann",
+            "kann|st",
+            "kann",
+            "könn|en",
+            "könn|t",
+            "könn|en"
+          ],
+          "dürfen": [
+            "darf",
+            "darf|st",
+            "darf",
+            "dürf|en",
+            "dürf|t",
+            "dürf|en"
+          ],
+          "sollen": [
+            "soll",
+            "soll|st",
+            "soll",
+            "soll|en",
+            "soll|t",
+            "soll|en"
+          ],
+          "wollen": [
+            "will",
+            "will|st",
+            "will",
+            "woll|en",
+            "woll|t",
+            "woll|en"
+          ],
+          "möchten": [
+            "möcht|e",
+            "möcht|est",
+            "möcht|e",
+            "möcht|en",
+            "möcht|et",
+            "möcht|en"
+          ]
+        },
+        "tips": [
+          "ich = er/sie/es: no -t ending! (ich kann, er kann)",
+          "The singular often has a different vowel: dürfen → darf, können → kann, müssen → muss.",
+          "Plural forms look like the infinitive (wir/sie/Sie müssen)."
+        ]
+      },
+      "quiz": [
+        {
+          "q": "„Sie müssen nüchtern bleiben.“ Where is the infinitive?",
+          "options": [
+            "Position 1",
+            "Position 2",
+            "At the very end"
+          ],
+          "answer": 2,
+          "why": "The modal (müssen) is in position 2; the infinitive (bleiben) goes to the end."
+        },
+        {
+          "q": "„Sie dürfen nichts essen.“ means …",
+          "options": [
+            "You don't have to eat anything.",
+            "You must not eat anything.",
+            "You want to eat nothing."
+          ],
+          "answer": 1,
+          "why": "nicht/nichts + dürfen = forbidden. 'Don't have to' would be: Sie müssen nichts essen."
+        }
+      ],
+      "practice": "choose"
+    },
+    {
+      "id": "gapfill",
+      "type": "gapfill",
+      "label": "Gap fill",
+      "title": "Fill the gap: which modal verb fits?",
+      "instructions": "Drag a verb into each gap, or tap a verb and then tap the gap.",
+      "chips": [
+        {
+          "w": "müssen",
+          "hint": "müssen is the wir/sie/Sie form (must)"
+        },
+        {
+          "w": "Können",
+          "hint": "Können (capital K) is the Sie/wir form of können, used at the start of a question"
+        },
+        {
+          "w": "Darf",
+          "hint": "Darf (capital D) is the ich/er/sie form of dürfen, used at the start of a question"
+        },
+        {
+          "w": "möchte",
+          "hint": "möchte is the ich/er/sie form of möchten (would like)"
+        },
+        {
+          "w": "sollst",
+          "hint": "sollst is the du form of sollen (supposed to)"
+        },
+        {
+          "w": "dürft",
+          "hint": "dürft is the ihr form, and there is no 'ihr' in these sentences"
+        },
+        {
+          "w": "wollt",
+          "hint": "wollt is the ihr form, and there is no 'ihr' in these sentences"
+        }
+      ],
+      "items": [
+        {
+          "who": "👩‍⚕️ → 🧑🏽",
+          "before": "Herr Yilmaz, Sie",
+          "after": "vor der Operation nüchtern bleiben.",
+          "answer": "müssen",
+          "en": "Mr Yilmaz, you must stay nil by mouth before the operation.",
+          "why": "A strict necessity, and the subject is Sie → müssen. The infinitive bleiben goes to the end.",
+          "tip": "Look at the subject (Sie) and think: is it a rule or a wish?",
+          "hint": "Look at the subject (Sie) and think: is it a rule or a wish?"
+        },
+        {
+          "who": "👩‍⚕️ → 🧑🏽",
+          "before": "",
+          "after": "Sie bitte tief einatmen?",
+          "answer": "Können",
+          "en": "Can you breathe in deeply, please?",
+          "why": "A polite request in a question → Können Sie …? The modal starts the question.",
+          "tip": "It's a polite question to Sie, so the verb comes first.",
+          "hint": "It's a polite question to Sie, so the verb comes first."
+        },
+        {
+          "who": "🧑🏽 → 👩‍⚕️",
+          "before": "Ich habe Durst.",
+          "after": "ich etwas trinken?",
+          "answer": "Darf",
+          "en": "I'm thirsty. May I drink something?",
+          "why": "The patient asks for permission → dürfen. With ich: Darf ich …?",
+          "tip": "The patient asks for permission. Which form goes with ich?",
+          "hint": "The patient asks for permission. Which form goes with ich?"
+        },
+        {
+          "who": "🧑🏽 → 👩‍⚕️",
+          "before": "Ich",
+          "after": "bitte meine Tochter anrufen.",
+          "answer": "möchte",
+          "en": "I would like to call my daughter, please.",
+          "why": "A polite wish with ich → möchte. The infinitive anrufen goes to the end.",
+          "tip": "A polite wish from ich.",
+          "hint": "A polite wish from ich."
+        },
+        {
+          "who": "👩 → 👧",
+          "before": "Die Ärztin sagt, du",
+          "after": "die Tablette nach dem Essen nehmen.",
+          "answer": "sollst",
+          "en": "The doctor says you're supposed to take the tablet after the meal.",
+          "why": "Someone else's instruction (the doctor's) → sollen. With du: du sollst.",
+          "tip": "Whose instruction is it? And the subject is du.",
+          "hint": "Whose instruction is it? And the subject is du."
+        }
+      ],
+      "practice": "gap"
+    },
+    {
+      "id": "builder",
+      "type": "builder",
+      "label": "Word order",
+      "title": "Sentence builder: send the verb to the back!",
+      "instructions": "Drag the tiles into the right order, or tap them one by one. Then press Check.",
+      "items": [
+        {
+          "tiles": [
+            "Sie",
+            "dürfen",
+            "heute",
+            "nicht",
+            "aufstehen"
+          ],
+          "answers": [
+            "Sie dürfen heute nicht aufstehen",
+            "Heute dürfen Sie nicht aufstehen"
+          ],
+          "punct": ".",
+          "modal": "dürfen",
+          "inf": "aufstehen",
+          "question": false,
+          "en": "You must not get up today.",
+          "hint": "The modal is in position 2 (or first in a yes/no question). The infinitive is last."
+        },
+        {
+          "tiles": [
+            "Darf",
+            "ich",
+            "nach",
+            "Hause",
+            "gehen"
+          ],
+          "answers": [
+            "Darf ich nach Hause gehen"
+          ],
+          "punct": "?",
+          "modal": "Darf",
+          "inf": "gehen",
+          "question": true,
+          "en": "May I go home?",
+          "hint": "The modal is in position 2 (or first in a yes/no question). The infinitive is last."
+        },
+        {
+          "tiles": [
+            "Die",
+            "Ärztin",
+            "will",
+            "den",
+            "Bauch",
+            "untersuchen"
+          ],
+          "answers": [
+            "Die Ärztin will den Bauch untersuchen",
+            "Den Bauch will die Ärztin untersuchen"
+          ],
+          "punct": ".",
+          "modal": "will",
+          "inf": "untersuchen",
+          "question": false,
+          "en": "The doctor wants to examine the abdomen.",
+          "hint": "The modal is in position 2 (or first in a yes/no question). The infinitive is last."
+        }
+      ],
+      "practice": "build"
+    },
+    {
+      "id": "pictures",
+      "type": "picturematch",
+      "label": "Vocabulary",
+      "title": "On the ward: what's what?",
+      "instructions": "Drag each word onto the matching picture, or tap a word and then a picture. Remember the article!",
+      "items": [
+        {
+          "id": "spritze",
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "syringe; injection",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          }
+        },
+        {
+          "id": "blutdruck",
+          "de": "Blutdruckmessgerät",
+          "article": "das",
+          "plural": "die Blutdruckmessgeräte",
+          "en": "blood pressure monitor",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          }
+        },
+        {
+          "id": "tablette",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet; pill",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          }
+        },
+        {
+          "id": "stethoskop",
+          "de": "Stethoskop",
+          "article": "das",
+          "plural": "die Stethoskope",
+          "en": "stethoscope",
+          "image": {
+            "type": "svg",
+            "id": "stethoscope"
+          }
+        },
+        {
+          "id": "infusion",
+          "de": "Infusion",
+          "article": "die",
+          "plural": "die Infusionen",
+          "en": "IV drip; infusion",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          }
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "plaster; band-aid",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          }
+        }
+      ],
+      "practice": "picture"
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Read the discharge note",
+      "instructions": "Herr Yilmaz goes home. Read Dr. Weber's note (tap words you don't know), then answer the questions.",
+      "document": {
+        "letterhead": "Klinikum Nord · Chirurgie · Station 3B",
+        "title": "Entlassung: Informationen für Herrn Yilmaz",
+        "paragraphs": [
+          "Lieber Herr Yilmaz,",
+          "Ihre Operation war gut. Sie dürfen heute nach Hause gehen.",
+          "Sie müssen dreimal am Tag eine Tablette nehmen: morgens, mittags und abends.",
+          "Sie sollen viel Wasser trinken und viel spazieren gehen.",
+          "Sie dürfen zwei Wochen lang keinen Sport machen.",
+          "Ab morgen dürfen Sie duschen, aber nicht baden.",
+          "Am Montag müssen Sie zu Ihrem Hausarzt gehen. Er soll die Wunde kontrollieren.",
+          "Bei Fieber oder starken Schmerzen müssen Sie sofort ins Krankenhaus kommen.",
+          "Gute Besserung!"
+        ],
+        "signature": "Dr. Anna Weber, Station 3B, Chirurgie"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wie oft muss Herr Yilmaz eine Tablette nehmen?",
+          "qEn": "How often does Mr Yilmaz have to take a tablet?",
+          "options": [
+            "einmal am Tag",
+            "zweimal am Tag",
+            "dreimal am Tag",
+            "nur abends"
+          ],
+          "answer": 2,
+          "why": "„Sie müssen dreimal am Tag eine Tablette nehmen: morgens, mittags und abends.“"
+        },
+        {
+          "kind": "tf",
+          "q": "Herr Yilmaz darf zwei Wochen lang Sport machen.",
+          "qEn": "Mr Yilmaz may do sport for two weeks.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "answer": 1,
+          "why": "„Sie dürfen zwei Wochen lang keinen Sport machen.“ No sport for two weeks!"
+        },
+        {
+          "kind": "tf",
+          "q": "Ab morgen darf er duschen.",
+          "qEn": "From tomorrow he may shower.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "answer": 0,
+          "why": "„Ab morgen dürfen Sie duschen, aber nicht baden.“"
+        },
+        {
+          "kind": "mc",
+          "q": "Was soll der Hausarzt machen?",
+          "qEn": "What is the GP supposed to do?",
+          "options": [
+            "Er soll eine Spritze geben.",
+            "Er soll die Wunde kontrollieren.",
+            "Er soll den Patienten operieren.",
+            "Er soll ein Pflaster kaufen."
+          ],
+          "answer": 1,
+          "why": "„Am Montag müssen Sie zu Ihrem Hausarzt gehen. Er soll die Wunde kontrollieren.“"
+        }
+      ],
+      "practice": "reading"
+    },
+    {
+      "id": "px-match",
+      "label": "Match",
+      "title": "Which modal?",
+      "practice": "match",
+      "type": "compare",
+      "instructions": "Match the situation to the modal.",
+      "items": [
+        {
+          "prompt": "A rule before surgery.",
+          "options": [
+            {
+              "emoji": "📋",
+              "label": "müssen",
+              "caption": "a rule"
+            },
+            {
+              "emoji": "🎁",
+              "label": "möchten",
+              "caption": "a wish"
+            }
+          ],
+          "answer": 0,
+          "why": "Nüchtern bleiben is müssen.",
+          "hint": "rule"
+        },
+        {
+          "prompt": "The patient wants tea.",
+          "options": [
+            {
+              "emoji": "🎁",
+              "label": "möchten",
+              "caption": "a wish"
+            },
+            {
+              "emoji": "🚫",
+              "label": "dürfen",
+              "caption": "permission"
+            }
+          ],
+          "answer": 0,
+          "why": "A wish is möchten.",
+          "hint": "wish"
+        },
+        {
+          "prompt": "Is it allowed?",
+          "options": [
+            {
+              "emoji": "🚫",
+              "label": "dürfen",
+              "caption": "permission"
+            },
+            {
+              "emoji": "💪",
+              "label": "können",
+              "caption": "ability"
+            }
+          ],
+          "answer": 0,
+          "why": "Permission is dürfen.",
+          "hint": "permission"
+        },
+        {
+          "prompt": "She is able to walk.",
+          "options": [
+            {
+              "emoji": "💪",
+              "label": "können",
+              "caption": "ability"
+            },
+            {
+              "emoji": "📋",
+              "label": "sollen",
+              "caption": "what someone expects"
+            }
+          ],
+          "answer": 0,
+          "why": "Ability is können.",
+          "hint": "ability"
+        }
+      ]
+    },
+    {
+      "id": "px-transform",
+      "label": "Rewrite",
+      "title": "Change the form.",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the form the brackets ask for.",
+      "chips": [
+        {
+          "w": "Ich muss den Puls messen",
+          "hint": "müssen"
+        },
+        {
+          "w": "Du kannst heute kommen",
+          "hint": "können"
+        },
+        {
+          "w": "Sie darf heute nicht essen",
+          "hint": "dürfen"
+        },
+        {
+          "w": "Wir müssen den Befund dokumentieren",
+          "hint": "müssen"
+        },
+        {
+          "w": "Er soll im Bett bleiben",
+          "hint": "sollen"
+        },
+        {
+          "w": "Ich möchte Wasser trinken",
+          "hint": "möchten"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich messe den Puls. → müssen:",
+          "after": ".",
+          "answer": "Ich muss den Puls messen",
+          "en": "I must measure the pulse.",
+          "why": "Modal in position 2, infinitive at the end.",
+          "tip": "end",
+          "hint": "müssen"
+        },
+        {
+          "before": "Du kommst heute. → können:",
+          "after": ".",
+          "answer": "Du kannst heute kommen",
+          "en": "You can come today.",
+          "why": "kannst + infinitive.",
+          "tip": "end",
+          "hint": "können"
+        },
+        {
+          "before": "Sie isst heute nicht. → dürfen:",
+          "after": ".",
+          "answer": "Sie darf heute nicht essen",
+          "en": "She may not eat today.",
+          "why": "darf + nicht + infinitive.",
+          "tip": "end",
+          "hint": "dürfen"
+        },
+        {
+          "before": "Wir dokumentieren den Befund. → müssen:",
+          "after": ".",
+          "answer": "Wir müssen den Befund dokumentieren",
+          "en": "We have to document the finding.",
+          "why": "müssen + infinitive.",
+          "tip": "end",
+          "hint": "müssen"
+        },
+        {
+          "before": "Er bleibt im Bett. → sollen:",
+          "after": ".",
+          "answer": "Er soll im Bett bleiben",
+          "en": "He is supposed to stay in bed.",
+          "why": "soll + bleiben.",
+          "tip": "end",
+          "hint": "sollen"
+        },
+        {
+          "before": "Ich trinke Wasser. → möchten:",
+          "after": ".",
+          "answer": "Ich möchte Wasser trinken",
+          "en": "I would like to drink water.",
+          "why": "möchte + infinitive.",
+          "tip": "end",
+          "hint": "möchten"
+        }
+      ]
+    },
+    {
+      "id": "px-error",
+      "label": "Fehler",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "type": "riddle",
+      "instructions": "Read the wrong sentence. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich muss messen den Puls."
+          ],
+          "options": [
+            "Ich muss den Puls messen.",
+            "Ich muss messen den Puls.",
+            "Ich messen den Puls muss."
+          ],
+          "answer": 0,
+          "reveal": "Ich muss den Puls messen.",
+          "hint": "The infinitive goes to the end."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Du kannst kommen heute."
+          ],
+          "options": [
+            "Du kannst heute kommen.",
+            "Du kannst kommen heute.",
+            "Du kommen kannst heute."
+          ],
+          "answer": 0,
+          "reveal": "Du kannst heute kommen.",
+          "hint": "kommen is last."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie darf nicht essen heute."
+          ],
+          "options": [
+            "Sie darf heute nicht essen.",
+            "Sie darf nicht essen heute.",
+            "Sie essen darf heute nicht."
+          ],
+          "answer": 0,
+          "reveal": "Sie darf heute nicht essen.",
+          "hint": "essen is last."
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir müssen dokumentieren den Befund."
+          ],
+          "options": [
+            "Wir müssen den Befund dokumentieren.",
+            "Wir müssen dokumentieren den Befund.",
+            "Wir dokumentieren müssen den Befund."
+          ],
+          "answer": 0,
+          "reveal": "Wir müssen den Befund dokumentieren.",
+          "hint": "dokumentieren is last."
+        }
+      ]
+    },
+    {
+      "id": "px-dialogue",
+      "label": "Dialogue",
+      "title": "Complete the dialogue.",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "One word in each gap. Notice who is speaking.",
+      "chips": [
+        {
+          "w": "muss",
+          "hint": "müssen"
+        },
+        {
+          "w": "dürfen",
+          "hint": "dürfen"
+        },
+        {
+          "w": "kann",
+          "hint": "können"
+        },
+        {
+          "w": "Soll",
+          "hint": "sollen"
+        },
+        {
+          "w": "möchte",
+          "hint": "möchten"
+        },
+        {
+          "w": "müssen",
+          "hint": "müssen"
+        }
+      ],
+      "items": [
+        {
+          "before": "Ich",
+          "after": "den Puls messen.",
+          "answer": "muss",
+          "en": "I have to measure the pulse.",
+          "why": "Rule.",
+          "tip": "müssen",
+          "hint": "müssen",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Sie",
+          "after": "Wasser trinken.",
+          "answer": "dürfen",
+          "en": "You may drink water.",
+          "why": "Permission, formal.",
+          "tip": "dürfen",
+          "hint": "dürfen",
+          "who": "Ärztin"
+        },
+        {
+          "before": "Er",
+          "after": "aufstehen.",
+          "answer": "kann",
+          "en": "He can get up.",
+          "why": "Ability.",
+          "tip": "können",
+          "hint": "können",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "",
+          "after": "ich die Akte holen?",
+          "answer": "Soll",
+          "en": "Should I fetch the file?",
+          "why": "sollen for a request.",
+          "tip": "sollen",
+          "hint": "sollen",
+          "who": "Kollegin"
+        },
+        {
+          "before": "Der Patient",
+          "after": "Tee trinken.",
+          "answer": "möchte",
+          "en": "He would like to drink tea.",
+          "why": "A wish.",
+          "tip": "möchten",
+          "hint": "möchten",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Wir",
+          "after": "den Befund dokumentieren.",
+          "answer": "müssen",
+          "en": "We have to document it.",
+          "why": "A duty.",
+          "tip": "müssen",
+          "hint": "müssen",
+          "who": "Team"
+        }
+      ]
+    },
+    {
+      "id": "px-gap",
+      "label": "More practice",
+      "title": "Choose the form",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Fill every gap. Each chip is used once.",
+      "chips": [
+        {
+          "w": "muss",
+          "hint": "müssen"
+        },
+        {
+          "w": "musst",
+          "hint": "müssen"
+        },
+        {
+          "w": "müssen",
+          "hint": "müssen"
+        },
+        {
+          "w": "müsst",
+          "hint": "müssen"
+        },
+        {
+          "w": "kann",
+          "hint": "können"
+        },
+        {
+          "w": "kannst",
+          "hint": "können"
+        },
+        {
+          "w": "können",
+          "hint": "können"
+        },
+        {
+          "w": "könnt",
+          "hint": "können"
+        }
+      ],
+      "items": [
+        {
+          "before": "ich müssen →",
+          "after": "",
+          "answer": "muss",
+          "en": "must",
+          "why": "ich muss.",
+          "tip": "muss",
+          "hint": "müssen"
+        },
+        {
+          "before": "du müssen →",
+          "after": "",
+          "answer": "musst",
+          "en": "must",
+          "why": "du musst.",
+          "tip": "musst",
+          "hint": "müssen"
+        },
+        {
+          "before": "wir müssen →",
+          "after": "",
+          "answer": "müssen",
+          "en": "must",
+          "why": "wir müssen.",
+          "tip": "müssen",
+          "hint": "müssen"
+        },
+        {
+          "before": "ihr müssen →",
+          "after": "",
+          "answer": "müsst",
+          "en": "must",
+          "why": "ihr müsst.",
+          "tip": "müsst",
+          "hint": "müssen"
+        },
+        {
+          "before": "ich können →",
+          "after": "",
+          "answer": "kann",
+          "en": "can",
+          "why": "ich kann.",
+          "tip": "kann",
+          "hint": "können"
+        },
+        {
+          "before": "du können →",
+          "after": "",
+          "answer": "kannst",
+          "en": "can",
+          "why": "du kannst.",
+          "tip": "kannst",
+          "hint": "können"
+        },
+        {
+          "before": "wir können →",
+          "after": "",
+          "answer": "können",
+          "en": "can",
+          "why": "wir können.",
+          "tip": "können",
+          "hint": "können"
+        },
+        {
+          "before": "ihr können →",
+          "after": "",
+          "answer": "könnt",
+          "en": "can",
+          "why": "ihr könnt.",
+          "tip": "könnt",
+          "hint": "können"
+        }
+      ]
+    },
+    {
+      "id": "px-writing",
+      "label": "Writing",
+      "title": "Before the operation",
+      "practice": "writing",
+      "type": "writing",
+      "instructions": "Write three or four sentences. Then compare the model.",
+      "prompt": "Write a rule, a permission, and a wish. Put the infinitive at the end.",
+      "bullets": [
+        "Use müssen.",
+        "Use dürfen.",
+        "Use möchten."
+      ],
+      "model": "Sie müssen nüchtern bleiben. Sie dürfen Wasser trinken. Der Patient möchte schlafen.",
+      "modelEn": "You have to stay nil by mouth. You may drink water. The patient would like to sleep.",
+      "hint": "Modal in position 2, infinitive at the end.",
+      "checklist": [
+        {
+          "id": "muessen",
+          "label": "Uses müssen",
+          "keywords": [
+            "müssen"
+          ]
+        },
+        {
+          "id": "duerfen",
+          "label": "Uses dürfen",
+          "keywords": [
+            "dürfen"
+          ]
+        },
+        {
+          "id": "moechten",
+          "label": "Uses möchte",
+          "keywords": [
+            "möchte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "px-lernkontrolle",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "type": "grammar",
+      "story": [
+        "This mixed test closes the lesson. 80% marks it as mastered."
+      ],
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Where does the infinitive go?",
+          "qEn": "Modal sentence.",
+          "options": [
+            "at the end",
+            "in position 2",
+            "before the modal"
+          ],
+          "answer": 0,
+          "why": "The modal is in position 2.",
+          "hint": "end"
+        },
+        {
+          "kind": "mc",
+          "q": "A rule takes…",
+          "qEn": "Obligation.",
+          "options": [
+            "möchten",
+            "müssen",
+            "können"
+          ],
+          "answer": 1,
+          "why": "müssen is the rule.",
+          "hint": "müssen"
+        },
+        {
+          "kind": "mc",
+          "q": "Permission takes…",
+          "qEn": "May.",
+          "options": [
+            "müssen",
+            "sollen",
+            "dürfen"
+          ],
+          "answer": 2,
+          "why": "dürfen is permission.",
+          "hint": "dürfen"
+        },
+        {
+          "kind": "mc",
+          "q": "A wish takes…",
+          "qEn": "Would like.",
+          "options": [
+            "möchten",
+            "müssen",
+            "sollen"
+          ],
+          "answer": 0,
+          "why": "möchten is the wish.",
+          "hint": "möchten"
+        },
+        {
+          "kind": "mc",
+          "q": "ich können →",
+          "qEn": "Ability.",
+          "options": [
+            "ich kannst",
+            "ich kann",
+            "ich können"
+          ],
+          "answer": 1,
+          "why": "ich kann.",
+          "hint": "kann"
+        },
+        {
+          "kind": "mc",
+          "q": "du müssen →",
+          "qEn": "Obligation.",
+          "options": [
+            "du muss",
+            "du müssen",
+            "du musst"
+          ],
+          "answer": 2,
+          "why": "du musst.",
+          "hint": "musst"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie (formal) dürfen →",
+          "qEn": "Formal.",
+          "options": [
+            "Sie dürfen",
+            "Sie darfst",
+            "Sie darf"
+          ],
+          "answer": 0,
+          "why": "Formal Sie uses dürfen.",
+          "hint": "dürfen"
+        },
+        {
+          "kind": "mc",
+          "q": "Ability takes…",
+          "qEn": "Can.",
+          "options": [
+            "dürfen",
+            "können",
+            "sollen"
+          ],
+          "answer": 1,
+          "why": "können is ability.",
+          "hint": "können"
+        },
+        {
+          "kind": "mc",
+          "q": "What someone expects takes…",
+          "qEn": "Supposed to.",
+          "options": [
+            "möchten",
+            "dürfen",
+            "sollen"
+          ],
+          "answer": 2,
+          "why": "sollen is the expectation.",
+          "hint": "sollen"
+        },
+        {
+          "kind": "mc",
+          "q": "nicht sits…",
+          "qEn": "Negation.",
+          "options": [
+            "before the infinitive",
+            "after the infinitive",
+            "before the modal"
+          ],
+          "answer": 0,
+          "why": "Sie darf heute nicht essen.",
+          "hint": "nicht"
+        },
+        {
+          "kind": "mc",
+          "q": "ihr können →",
+          "qEn": "Informal plural.",
+          "options": [
+            "ihr kann",
+            "ihr könnt",
+            "ihr kannst"
+          ],
+          "answer": 1,
+          "why": "ihr könnt.",
+          "hint": "könnt"
+        },
+        {
+          "kind": "mc",
+          "q": "Er ___ Wasser trinken. (wish)",
+          "qEn": "Wish.",
+          "options": [
+            "muss",
+            "darf",
+            "möchte"
+          ],
+          "answer": 2,
+          "why": "A wish is möchte.",
+          "hint": "möchte"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Geschafft! Lesson complete",
+      "redemittel": [
+        {
+          "de": "Sie müssen nüchtern bleiben.",
+          "en": "You must stay nil by mouth."
+        },
+        {
+          "de": "Sie dürfen nichts essen.",
+          "en": "You must not eat anything."
+        },
+        {
+          "de": "Können Sie bitte tief einatmen?",
+          "en": "Can you breathe in deeply, please?"
+        },
+        {
+          "de": "Darf ich etwas trinken?",
+          "en": "May I drink something?"
+        },
+        {
+          "de": "Sie sollen sich ausruhen.",
+          "en": "You should rest."
+        },
+        {
+          "de": "Ich möchte meine Frau anrufen.",
+          "en": "I'd like to call my wife."
+        },
+        {
+          "de": "Sie müssen dreimal am Tag eine Tablette nehmen.",
+          "en": "You have to take a tablet three times a day."
+        },
+        {
+          "de": "Gute Besserung!",
+          "en": "Get well soon!"
+        }
+      ],
+      "messages": [
+        "Keep practising, you'll get there! 💪",
+        "Good start! Review the grammar and try again.",
+        "Sehr gut! Great work on the ward.",
+        "Ausgezeichnet! You're ready for the ward round. 🩺"
+      ],
+      "reviewStepType": "grammar"
+    }
+  ],
+  "chapter": 5,
+  "chapters": [
+    5,
+    6
+  ]
+}
