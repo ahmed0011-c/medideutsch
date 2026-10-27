@@ -1,0 +1,1096 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-64-n-deklination",
+  "level": "B1",
+  "unit": "Kapitel 64",
+  "chapter": 64,
+  "chapters": [64],
+  "title": "Kennen Sie den Herrn?",
+  "subtitle": "N-declension",
+  "glossary": {
+    "kennen": {
+      "de": "kennen → sie kennen",
+      "pos": "form",
+      "en": "know",
+      "emoji": "👋",
+      "note": "Accusative. Kennen Sie den Herrn? She is kennt. Formal Sie and they share kennen."
+    },
+    "sie": {
+      "de": "Sie",
+      "pos": "pronoun",
+      "en": "formal you",
+      "emoji": "👋",
+      "note": "Kennen Sie den Herrn? Formal you. They is the same form. She is kennt."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine, or dative plural)",
+      "emoji": "🌹",
+      "note": "den Herrn, den Patienten, den Kollegen. den Patienten is also several people in the dative."
+    },
+    "herrn": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "gentleman",
+      "emoji": "🎩",
+      "article": "der",
+      "plural": "die Herren",
+      "note": "Usual singular: den Herrn, dem Herrn, des Herrn. Not den Herr. Plural die Herren. A singular Herren is rare and is not this chart."
+    },
+    "herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "gentleman",
+      "emoji": "🎩",
+      "article": "der",
+      "plural": "die Herren",
+      "note": "Nominative der Herr. No -n. Oblique singular Herrn. Plural die Herren."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative, or feminine dative and genitive)",
+      "emoji": "🔵",
+      "note": "Der Patient, der Herr, der Kollege are nominative. der is also feminine dative and genitive, and genitive plural: der Patienten, der Herren."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative singular. No -en. der Patient liegt hier."
+    },
+    "liegt": { "de": "liegen → er liegt", "pos": "form", "en": "lies", "emoji": "🛏️", "note": "Der Patient liegt hier. Singular." },
+    "hier": { "de": "hier", "pos": "adverb", "en": "here", "emoji": "📍" },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "helfen": {
+      "de": "helfen → wir helfen",
+      "pos": "form",
+      "en": "help",
+      "emoji": "🤝",
+      "note": "Dative, chapter 22. One man: Wir helfen dem Patienten. Several people: Wir helfen den Patienten."
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative masculine or neuter)",
+      "emoji": "🟢",
+      "note": "One man: dem Patienten, dem Herrn, dem Kollegen."
+    },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "den, dem and des Patienten. den Patienten is also dative plural. Not den Patient. Not des Patientens."
+    },
+    "danken": {
+      "de": "danken → wir danken",
+      "pos": "form",
+      "en": "thank",
+      "emoji": "🙏",
+      "note": "Dative, chapter 22. Wir danken dem Herrn. Not den Herrn."
+    },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten",
+      "note": "Das Bett des Patienten. Spoken: das Bett vom Patienten. auf dem Bett is location, chapter 62."
+    },
+    "des": {
+      "de": "des",
+      "pos": "article",
+      "en": "the (genitive masculine or neuter)",
+      "emoji": "🔗",
+      "note": "des Patienten, des Herrn, des Kollegen. Chapter 63. No extra -s on these nouns."
+    },
+    "ist": { "de": "sein → er ist", "pos": "form", "en": "is", "emoji": "✅" },
+    "frei": { "de": "frei", "pos": "adjective", "en": "free", "emoji": "🛏️", "note": "Das Bett des Patienten ist frei." },
+    "kollege": {
+      "de": "Kollege",
+      "pos": "noun",
+      "en": "colleague (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Kollegen",
+      "note": "Nominative keeps -e. der Kollege. The other cases add only -n."
+    },
+    "kennt": {
+      "de": "kennen → er kennt",
+      "pos": "form",
+      "en": "knows",
+      "emoji": "👋",
+      "note": "Der Kollege kennt den Herrn. Accusative. Formal Sie kennen, not kennt."
+    },
+    "kollegen": {
+      "de": "Kollege",
+      "pos": "noun",
+      "en": "colleague (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Kollegen",
+      "note": "Ends in -e, so only -n: den, dem and des Kollegen. Not den Kollege."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴", "note": "Die Patienten. Die Herren." },
+    "warten": { "de": "warten → sie warten", "pos": "form", "en": "wait", "emoji": "⏳", "note": "Die Patienten warten." },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "The -en names",
+      "learn": [
+        "Some masculine nouns add -(e)n in every case except the nominative singular. der Patient. Then den, dem and des Patienten.",
+        "den Patienten is one man in the accusative, and several people in the dative. One man in the dative is dem Patienten. helfen and danken take dem.",
+        "Herr takes only -n: den Herrn, dem Herrn, des Herrn. The usual plural is die Herren. Kennen Sie den Herrn?",
+        "Kollege ends in -e, so only -n: den Kollegen. Name adds an extra -s in the genitive only: des Namens. Patient, Herr and Kollege do not take that -s."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Herr", "article": "der", "plural": "die Herren", "en": "gentleman", "emoji": "🎩", "glossaryKey": "herr" },
+        { "de": "Kollege", "article": "der", "plural": "die Kollegen", "en": "colleague (male)", "emoji": "👨‍⚕️", "glossaryKey": "kollege" }
+      ],
+      "text": {
+        "title": "Kennen Sie den Herrn?",
+        "de": "Kennen Sie den Herrn? Der Patient liegt hier. Wir helfen dem Patienten. Wir danken dem Herrn. Das Bett des Patienten ist frei. Der Kollege kennt den Herrn. Wir kennen den Kollegen. Die Patienten warten.",
+        "en": "Do you know the gentleman? The patient is lying here. We are helping the patient. We thank the gentleman. The patient's bed is free. The colleague knows the gentleman. We know the colleague. The patients are waiting."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "-(e)n except the nominative",
+      "practice": "choose",
+      "heroTitle": "Kennen Sie den Herrn?",
+      "heroImage": "bed",
+      "story": [
+        "Some masculine nouns, mostly people, add <b>-(e)n</b> in every case except the <b>nominative singular</b>. <b>der Patient</b> stays without -en. Then <b>den Patienten, dem Patienten, des Patienten</b>.",
+        "<b>den Patienten</b> has two jobs. One man, accusative: <b>kennen</b> takes den. Several people, dative: <b>Wir helfen den Patienten.</b> One man in the dative is <b>dem Patienten</b>. <b>helfen</b> and <b>danken</b> take the dative, chapter 22.",
+        "<b>Herr</b> takes only <b>-n</b> in the singular: <b>den Herrn, dem Herrn, des Herrn</b>. <b>Kennen Sie den Herrn?</b> The usual plural is <b>die Herren</b>. Dative plural <b>den Herren</b>. Genitive plural <b>der Herren</b>. <b>den Herr</b> is missing -n. A singular <b>Herren</b> is rare and is not this chart.",
+        "<b>Kollege</b> ends in <b>-e</b>, so the ending is only <b>-n</b>: <b>den Kollegen, dem Kollegen, des Kollegen</b>. Not den Kollege. <b>Junge → Jungen</b> is the same -e pattern, and this chart does not drill it. <b>Patientin</b> and <b>Kollegin</b> do not add -en.",
+        "<b>Name</b> adds <b>-n</b> in the other cases and an extra <b>-s</b> only in the genitive: <b>des Namens</b>. <b>den Namen</b> and <b>dem Namen</b> stay correct. Patient, Herr and Kollege do <b>not</b> take that extra -s. Not des Patientens. <b>des Patienten</b> is the genitive from chapter 63. <b>das Bett vom Patienten</b> stays spoken German.",
+        "<b>Arzt</b> is not this pattern. <b>den Arzt, dem Arzt, des Arztes</b>, and dative plural <b>den Ärzten</b>, stay correct. Adjective nouns such as der Jugendliche are chapter 65."
+      ],
+      "questionRule": "Add -(e)n in every case except the nominative singular. Herr takes -n: den Herrn. Plural die Herren. Kollege ends in -e: den Kollegen. den Patienten is one man in the accusative and several people in the dative.",
+      "tables": [
+        {
+          "title": "der Patient",
+          "caption": "No -en in the nominative singular. -(e)n everywhere else. den Patienten is also the dative plural.",
+          "columns": ["Kasus", "Singular", "Plural"],
+          "rows": [
+            { "label": "N", "cells": ["der Patient", "die Patienten"], "highlight": true },
+            { "label": "A", "cells": ["den Patienten", "die Patienten"], "highlight": true },
+            { "label": "D", "cells": ["dem Patienten", "den Patienten"] },
+            { "label": "G", "cells": ["des Patienten", "der Patienten"] }
+          ]
+        },
+        {
+          "title": "Herr und Kollege",
+          "caption": "Herr takes -n in the singular and -en in the plural. Kollege already ends in -e, so only -n.",
+          "columns": ["Kasus", "Herr", "Kollege"],
+          "rows": [
+            { "label": "N", "cells": ["der Herr", "der Kollege"], "highlight": true },
+            { "label": "A", "cells": ["den Herrn", "den Kollegen"], "highlight": true },
+            { "label": "D", "cells": ["dem Herrn", "dem Kollegen"] },
+            { "label": "G", "cells": ["des Herrn", "des Kollegen"] },
+            { "label": "Pl", "cells": ["die Herren", "die Kollegen"] },
+            { "label": "Pl D", "cells": ["den Herren", "den Kollegen"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Only a missing ending or an extra -s. den Patienten for several people, die Herren, der Herren, dem Kollegen, des Patienten and den Arzt stay correct in their own patterns.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "Herr", "cells": ["den Herr", "den Herrn"] },
+            { "label": "Patient", "cells": ["dem Patient", "dem Patienten"] },
+            { "label": "Kollege", "cells": ["den Kollege", "den Kollegen"] },
+            { "label": "extra", "cells": ["des Patientens", "des Patienten"] },
+            { "label": "Name", "cells": ["des Namen", "des Namens"] },
+            { "label": "Plural", "cells": ["die Herr", "die Herren"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four n-declension traps",
+        "items": [
+          { "de": "Kennen Sie den Herrn?", "en": "den Herrn.", "tone": "ok" },
+          { "de": "Kennen Sie den Herr?", "en": "Missing -n.", "tone": "stop" },
+          { "de": "Wir helfen dem Patienten.", "en": "dem Patienten.", "tone": "ok" },
+          { "de": "Wir helfen dem Patient.", "en": "Missing -en.", "tone": "stop" },
+          { "de": "Wir kennen den Kollegen.", "en": "den Kollegen.", "tone": "ok" },
+          { "de": "Wir kennen den Kollege.", "en": "Missing -n.", "tone": "stop" },
+          { "de": "des Namens", "en": "Name takes -s here.", "tone": "ok" },
+          { "de": "des Namen", "en": "Missing -s.", "tone": "stop" }
+        ],
+        "tip": "-(e)n except the nominative singular. Herrn, not Herr. Kollegen, not Kollege. des Namens."
+      },
+      "tips": [
+        {
+          "title": "Nominative singular stays short",
+          "body": "der Patient, der Herr, der Kollege. Every other case adds -(e)n. den Patienten is also several people.",
+          "mnemonic": "den Herrn. dem Patienten. den Kollegen. die Herren.",
+          "emoji": "🎩"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "den Herrn", "emoji": "🎩", "en": "the gentleman, accusative", "use": "one man", "de": "Kennen Sie den Herrn?", "deEn": "Do you know the gentleman?" },
+        { "modal": "dem Patienten", "emoji": "🤝", "en": "the patient, dative", "use": "one man", "de": "Wir helfen dem Patienten.", "deEn": "We help the patient." },
+        { "modal": "den Kollegen", "emoji": "👨‍⚕️", "en": "the colleague, accusative", "use": "one man", "de": "Wir kennen den Kollegen.", "deEn": "We know the colleague." },
+        { "modal": "die Patienten", "emoji": "🏥", "en": "the patients", "use": "nominative plural", "de": "Die Patienten warten.", "deEn": "The patients are waiting." }
+      ],
+      "quizTitle": "Which form?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "One gentleman, accusative.",
+          "qEn": "den Herrn.",
+          "options": ["Kennen Sie den Herrn?", "Kennen Sie den Herr?", "Kennen Sie die Herren?"],
+          "answer": 0,
+          "why": "den Herrn. den Herr is missing -n. die Herren is several gentlemen and stays correct.",
+          "hint": "Herrn."
+        },
+        {
+          "kind": "mc",
+          "q": "Help one man.",
+          "qEn": "dem Patienten.",
+          "options": ["Wir helfen dem Patienten.", "Wir helfen dem Patient.", "Wir helfen den Patienten."],
+          "answer": 0,
+          "why": "One man, dative: dem Patienten. dem Patient is missing -en. den Patienten is several people and stays correct.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "One patient is here. Nominative.",
+          "qEn": "der Patient.",
+          "options": ["Der Patient liegt hier.", "Den Patienten liegt hier.", "Der Patienten liegt hier."],
+          "answer": 0,
+          "why": "Nominative singular: der Patient, no -en. liegt is singular.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "One colleague, accusative.",
+          "qEn": "den Kollegen.",
+          "options": ["Wir kennen den Kollegen.", "Wir kennen den Kollege.", "Wir kennen den Kollegeen."],
+          "answer": 0,
+          "why": "Kollege ends in -e, so only -n: den Kollegen. Not den Kollege. Not Kollegeen.",
+          "hint": "Kollegen."
+        },
+        {
+          "kind": "mc",
+          "q": "Genitive, one patient.",
+          "qEn": "des Patienten.",
+          "options": ["des Patienten", "des Patient", "des Patientens"],
+          "answer": 0,
+          "why": "des Patienten. Not des Patient. Not des Patientens. Chapter 63. No extra -s.",
+          "hint": "Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "Several patients are waiting. Nominative.",
+          "qEn": "die Patienten.",
+          "options": ["Die Patienten warten.", "Die Patient warten.", "Den Patienten warten."],
+          "answer": 0,
+          "why": "die shows the plural. The noun looks like the singular oblique. den is not the subject.",
+          "hint": "die."
+        }
+      ]
+    },
+    {
+      "id": "gap-sort",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names one man or several people, and the case. Add -(e)n except in the nominative singular. Herr takes -n. Kollege takes -n.",
+      "chips": [
+        { "w": "Kennen Sie den Herrn", "hint": "Herrn." },
+        { "w": "Wir helfen dem Patienten", "hint": "dem." },
+        { "w": "Der Patient liegt hier", "hint": "der." },
+        { "w": "Wir kennen den Kollegen", "hint": "Kollegen." },
+        { "w": "des Patienten", "hint": "no extra -s." },
+        { "w": "Die Patienten warten", "hint": "die." },
+        { "w": "Kennen Sie den Herr", "hint": "-n." },
+        { "w": "Wir helfen dem Patient", "hint": "-en." },
+        { "w": "Den Patienten liegt hier", "hint": "der." },
+        { "w": "Wir kennen den Kollege", "hint": "-n." },
+        { "w": "des Patientens", "hint": "no extra -s." },
+        { "w": "Die Patient warten", "hint": "-en." }
+      ],
+      "items": [
+        {
+          "before": "Do you know the gentleman, one man:",
+          "after": "?",
+          "answer": "Kennen Sie den Herrn",
+          "en": "Do you know the gentleman?",
+          "why": "den Herrn. den Herr is missing -n. die Herren stays the plural.",
+          "tip": "Herrn.",
+          "hint": "Herrn."
+        },
+        {
+          "before": "We help one man:",
+          "after": ".",
+          "answer": "Wir helfen dem Patienten",
+          "en": "We help one patient.",
+          "why": "dem Patienten. dem Patient is missing -en. den Patienten is several people and stays correct.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "One patient is here, nominative:",
+          "after": ".",
+          "answer": "Der Patient liegt hier",
+          "en": "The patient is lying here.",
+          "why": "der Patient. No -en in the nominative singular.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "We know one colleague:",
+          "after": ".",
+          "answer": "Wir kennen den Kollegen",
+          "en": "We know one colleague.",
+          "why": "den Kollegen. Kollege ends in -e, so only -n.",
+          "tip": "Kollegen.",
+          "hint": "Kollegen."
+        },
+        {
+          "before": "The patient's bed, genitive:",
+          "after": ".",
+          "answer": "des Patienten",
+          "en": "the patient's.",
+          "why": "des Patienten. Not des Patient. Not des Patientens. vom Patienten stays spoken German.",
+          "tip": "Patienten.",
+          "hint": "Patienten."
+        },
+        {
+          "before": "Several patients are waiting:",
+          "after": ".",
+          "answer": "Die Patienten warten",
+          "en": "The patients are waiting.",
+          "why": "die Patienten. The noun looks like the singular oblique. die shows the plural.",
+          "tip": "die.",
+          "hint": "die."
+        }
+      ]
+    },
+    {
+      "id": "match-sort",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names one man or several people, and the case. One piece is the chart form. One is another real case or number. One is not the form.",
+      "items": [
+        {
+          "prompt": "Accusative, one gentleman",
+          "options": [
+            { "emoji": "🎩", "label": "den Herrn", "caption": "one man" },
+            { "emoji": "🚫", "label": "den Herr", "caption": "missing -n" },
+            { "emoji": "🎩", "label": "den Herren", "caption": "plural dative, or a rare singular" }
+          ],
+          "answer": 0,
+          "why": "den Herrn. den Herr is missing -n. die Herren is the plural and stays correct. A singular den Herren is rare and is not this chart.",
+          "hint": "Herrn."
+        },
+        {
+          "prompt": "Dative, one patient",
+          "options": [
+            { "emoji": "🤝", "label": "dem Patienten", "caption": "one man" },
+            { "emoji": "🚫", "label": "dem Patient", "caption": "missing -en" },
+            { "emoji": "👥", "label": "den Patienten", "caption": "several people" }
+          ],
+          "answer": 0,
+          "why": "dem Patienten. dem Patient is missing -en. den Patienten is several people and stays correct.",
+          "hint": "dem."
+        },
+        {
+          "prompt": "Nominative, one patient",
+          "options": [
+            { "emoji": "🏥", "label": "der Patient", "caption": "no -en" },
+            { "emoji": "🚫", "label": "der Patienten", "caption": "not the singular" },
+            { "emoji": "🌹", "label": "den Patienten", "caption": "accusative, or several" }
+          ],
+          "answer": 0,
+          "why": "der Patient. No -en. den Patienten stays the accusative, and the dative plural.",
+          "hint": "der."
+        },
+        {
+          "prompt": "Accusative, one colleague",
+          "options": [
+            { "emoji": "👨‍⚕️", "label": "den Kollegen", "caption": "only -n" },
+            { "emoji": "🚫", "label": "den Kollege", "caption": "missing -n" },
+            { "emoji": "🤝", "label": "dem Kollegen", "caption": "dative stays correct" }
+          ],
+          "answer": 0,
+          "why": "den Kollegen. Kollege ends in -e, so only -n. dem Kollegen stays the dative.",
+          "hint": "Kollegen."
+        },
+        {
+          "prompt": "Genitive, one patient",
+          "options": [
+            { "emoji": "🔗", "label": "des Patienten", "caption": "no extra -s" },
+            { "emoji": "🚫", "label": "des Patient", "caption": "missing -en" },
+            { "emoji": "🚫", "label": "des Patientens", "caption": "extra -s" }
+          ],
+          "answer": 0,
+          "why": "des Patienten. Not des Patient. Not des Patientens.",
+          "hint": "Patienten."
+        },
+        {
+          "prompt": "Nominative, several patients",
+          "options": [
+            { "emoji": "👥", "label": "die Patienten", "caption": "plural subject" },
+            { "emoji": "🚫", "label": "die Patient", "caption": "missing -en" },
+            { "emoji": "🌹", "label": "den Patienten", "caption": "other real case" }
+          ],
+          "answer": 0,
+          "why": "die Patienten. die Patient is missing -en. den Patienten stays the other case.",
+          "hint": "die."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the patient's bed",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the patient's plaster",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the patient's thermometer",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the colleague's chart",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-sort",
+      "type": "builder",
+      "label": "Build",
+      "title": "The ending on the name",
+      "practice": "build",
+      "instructions": "Build the line. In the question, Kennen comes first. In a statement the person can stand first. helfen and danken take dem. kennen takes den.",
+      "items": [
+        {
+          "tiles": ["Kennen", "Sie", "den", "Herrn"],
+          "answers": ["Kennen Sie den Herrn"],
+          "punct": "?",
+          "modal": "Kennen",
+          "inf": "Herrn",
+          "question": true,
+          "en": "Do you know the gentleman?",
+          "hint": "Kennen first. Herrn last.",
+          "feedback": {
+            "end": "Herrn closes the question.",
+            "first": "Kennen comes first in the question.",
+            "fallback": "Kennen Sie den Herrn?"
+          }
+        },
+        {
+          "tiles": ["Wir", "helfen", "dem", "Patienten"],
+          "answers": ["Wir helfen dem Patienten", "Dem Patienten helfen wir"],
+          "punct": ".",
+          "modal": "helfen",
+          "inf": "Patienten",
+          "question": false,
+          "en": "We help one patient.",
+          "hint": "Wir helfen dem Patienten. Or dem Patienten first.",
+          "feedback": {
+            "end": "Patienten closes Wir helfen dem Patienten.",
+            "fallback": "Wir helfen dem Patienten. Or: Dem Patienten helfen wir."
+          }
+        },
+        {
+          "tiles": ["Wir", "kennen", "den", "Kollegen"],
+          "answers": ["Wir kennen den Kollegen", "Den Kollegen kennen wir"],
+          "punct": ".",
+          "modal": "kennen",
+          "inf": "Kollegen",
+          "question": false,
+          "en": "We know one colleague.",
+          "hint": "Wir kennen den Kollegen. Or den Kollegen first.",
+          "feedback": {
+            "end": "Kollegen closes Wir kennen den Kollegen.",
+            "fallback": "Wir kennen den Kollegen. Or: Den Kollegen kennen wir."
+          }
+        },
+        {
+          "tiles": ["Wir", "danken", "dem", "Herrn"],
+          "answers": ["Wir danken dem Herrn", "Dem Herrn danken wir"],
+          "punct": ".",
+          "modal": "danken",
+          "inf": "Herrn",
+          "question": false,
+          "en": "We thank the gentleman.",
+          "hint": "Wir danken dem Herrn. Or dem Herrn first.",
+          "feedback": {
+            "end": "Herrn closes Wir danken dem Herrn.",
+            "fallback": "Wir danken dem Herrn. Or: Dem Herrn danken wir."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-sort",
+      "label": "Rewrite",
+      "title": "Into the chart form",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names the case and one man or several people. Give the chart form. The other number and the other case stay correct German.",
+      "chips": [
+        { "w": "Kennen Sie den Herrn", "hint": "Herrn." },
+        { "w": "Wir helfen dem Patienten", "hint": "dem." },
+        { "w": "Der Patient liegt hier", "hint": "der." },
+        { "w": "Wir kennen den Kollegen", "hint": "Kollegen." },
+        { "w": "des Patienten", "hint": "no extra -s." },
+        { "w": "Die Patienten warten", "hint": "die." },
+        { "w": "Kennen Sie den Herr", "hint": "-n." },
+        { "w": "Wir helfen dem Patient", "hint": "-en." },
+        { "w": "Den Patienten liegt hier", "hint": "der." },
+        { "w": "Wir kennen den Kollege", "hint": "-n." },
+        { "w": "des Patientens", "hint": "no extra -s." },
+        { "w": "Die Patient warten", "hint": "-en." }
+      ],
+      "items": [
+        {
+          "before": "One gentleman, accusative. Plural die Herren stays correct. Line:",
+          "after": "?",
+          "answer": "Kennen Sie den Herrn",
+          "en": "Do you know the gentleman?",
+          "why": "den Herrn. den Herr is missing -n. Kennen Sie die Herren? stays the plural.",
+          "tip": "Herrn.",
+          "hint": "Herrn."
+        },
+        {
+          "before": "Help one man. Several people: den Patienten. Line:",
+          "after": ".",
+          "answer": "Wir helfen dem Patienten",
+          "en": "We help one patient.",
+          "why": "dem Patienten. Wir helfen den Patienten stays correct for several people.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "One patient, nominative. Accusative den Patienten stays correct. Line:",
+          "after": ".",
+          "answer": "Der Patient liegt hier",
+          "en": "The patient is lying here.",
+          "why": "der Patient. No -en. Wir kennen den Patienten stays the accusative.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "One colleague, accusative. Dative dem Kollegen stays correct. Line:",
+          "after": ".",
+          "answer": "Wir kennen den Kollegen",
+          "en": "We know one colleague.",
+          "why": "den Kollegen. Only -n. dem Kollegen stays the dative.",
+          "tip": "Kollegen.",
+          "hint": "Kollegen."
+        },
+        {
+          "before": "One patient, genitive. vom Patienten stays spoken German. Line:",
+          "after": ".",
+          "answer": "des Patienten",
+          "en": "the patient's.",
+          "why": "des Patienten. No extra -s. das Bett vom Patienten stays correct speech.",
+          "tip": "Patienten.",
+          "hint": "Patienten."
+        },
+        {
+          "before": "Several patients, nominative. Dative plural den Patienten stays correct. Line:",
+          "after": ".",
+          "answer": "Die Patienten warten",
+          "en": "The patients are waiting.",
+          "why": "die Patienten. Den Patienten helfen wir stays correct for several people.",
+          "tip": "die.",
+          "hint": "die."
+        }
+      ]
+    },
+    {
+      "id": "error-sort",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the chart form. Choose the correction. Plural, the other case, and die Herren stay correct German.",
+      "items": [
+        {
+          "clues": ["One gentleman.", "Accusative.", "Kennen Sie den Herr?"],
+          "options": ["Kennen Sie den Herrn?", "Kennen Sie den Herr?", "Kennen Sie die Herren?"],
+          "answer": 0,
+          "reveal": "Kennen Sie den Herrn?",
+          "hint": "Herrn."
+        },
+        {
+          "clues": ["Help one man.", "Dative.", "Wir helfen dem Patient."],
+          "options": ["Wir helfen dem Patienten.", "Wir helfen dem Patient.", "Wir helfen den Patienten."],
+          "answer": 0,
+          "reveal": "Wir helfen dem Patienten.",
+          "hint": "dem."
+        },
+        {
+          "clues": ["One patient.", "Nominative.", "Den Patienten liegt hier."],
+          "options": ["Der Patient liegt hier.", "Den Patienten liegt hier.", "Wir kennen den Patienten."],
+          "answer": 0,
+          "reveal": "Der Patient liegt hier.",
+          "hint": "der."
+        },
+        {
+          "clues": ["One colleague.", "Accusative.", "Wir kennen den Kollege."],
+          "options": ["Wir kennen den Kollegen.", "Wir kennen den Kollege.", "Der Kollege kennt den Herrn."],
+          "answer": 0,
+          "reveal": "Wir kennen den Kollegen.",
+          "hint": "Kollegen."
+        },
+        {
+          "clues": ["One patient.", "Genitive.", "des Patientens"],
+          "options": ["des Patienten", "des Patientens", "des Patient"],
+          "answer": 0,
+          "reveal": "des Patienten",
+          "hint": "Patienten."
+        },
+        {
+          "clues": ["Several patients.", "Nominative.", "Die Patient warten."],
+          "options": ["Die Patienten warten.", "Die Patient warten.", "Den Patienten helfen wir."],
+          "answer": 0,
+          "reveal": "Die Patienten warten.",
+          "hint": "die."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor names one man or several people. Give the chart form. The other number stays correct.",
+      "chips": [
+        { "w": "Kennen Sie den Herrn", "hint": "Herrn." },
+        { "w": "Wir helfen dem Patienten", "hint": "dem." },
+        { "w": "Der Patient liegt hier", "hint": "der." },
+        { "w": "Wir kennen den Kollegen", "hint": "Kollegen." },
+        { "w": "des Patienten", "hint": "no extra -s." },
+        { "w": "Die Patienten warten", "hint": "die." },
+        { "w": "Kennen Sie den Herr", "hint": "-n." },
+        { "w": "Wir helfen dem Patient", "hint": "-en." },
+        { "w": "Den Patienten liegt hier", "hint": "der." },
+        { "w": "Wir kennen den Kollege", "hint": "-n." },
+        { "w": "des Patientens", "hint": "no extra -s." },
+        { "w": "Die Patient warten", "hint": "-en." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, do you know the gentleman:",
+          "after": "?",
+          "answer": "Kennen Sie den Herrn",
+          "en": "Do you know the gentleman?",
+          "why": "den Herrn.",
+          "tip": "Herrn.",
+          "hint": "Herrn."
+        },
+        {
+          "before": "Doctor, we help one man:",
+          "after": ".",
+          "answer": "Wir helfen dem Patienten",
+          "en": "We help one patient.",
+          "why": "dem Patienten. Several people stay den Patienten.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "Nurse, one patient, nominative:",
+          "after": ".",
+          "answer": "Der Patient liegt hier",
+          "en": "The patient is lying here.",
+          "why": "der Patient.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Doctor, we know one colleague:",
+          "after": ".",
+          "answer": "Wir kennen den Kollegen",
+          "en": "We know one colleague.",
+          "why": "den Kollegen.",
+          "tip": "Kollegen.",
+          "hint": "Kollegen."
+        },
+        {
+          "before": "Nurse, the patient's bed, genitive:",
+          "after": ".",
+          "answer": "des Patienten",
+          "en": "the patient's.",
+          "why": "des Patienten. No extra -s.",
+          "tip": "Patienten.",
+          "hint": "Patienten."
+        },
+        {
+          "before": "Doctor, several patients are waiting:",
+          "after": ".",
+          "answer": "Die Patienten warten",
+          "en": "The patients are waiting.",
+          "why": "die Patienten.",
+          "tip": "die.",
+          "hint": "die."
+        }
+      ]
+    },
+    {
+      "id": "gap-cases",
+      "label": "Gap",
+      "title": "Herrn, Kollegen, Namens",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Herr takes -n in the singular. Kollege takes -n. Patient takes -en. Name adds -s only in the genitive. A rare singular Herren is not the chart.",
+      "chips": [
+        { "w": "den Herrn", "hint": "accusative." },
+        { "w": "dem Herrn", "hint": "dative." },
+        { "w": "des Herrn", "hint": "genitive." },
+        { "w": "den Kollegen", "hint": "only -n." },
+        { "w": "dem Patienten", "hint": "-en." },
+        { "w": "des Namens", "hint": "extra -s." },
+        { "w": "den Herr", "hint": "-n." },
+        { "w": "dem Herr", "hint": "-n." },
+        { "w": "des Herr", "hint": "-n." },
+        { "w": "den Kollege", "hint": "-n." },
+        { "w": "dem Patient", "hint": "-en." },
+        { "w": "des Namen", "hint": "-s." }
+      ],
+      "items": [
+        {
+          "before": "Accusative, one gentleman:",
+          "after": ".",
+          "answer": "den Herrn",
+          "en": "the gentleman.",
+          "why": "den Herrn. den Herr is missing -n. die Herren stays the plural.",
+          "tip": "Herrn.",
+          "hint": "Herrn."
+        },
+        {
+          "before": "Dative, one gentleman:",
+          "after": ".",
+          "answer": "dem Herrn",
+          "en": "the gentleman.",
+          "why": "dem Herrn. dem Herr is missing -n. den Herren is several gentlemen and stays correct.",
+          "tip": "Herrn.",
+          "hint": "Herrn."
+        },
+        {
+          "before": "Genitive, one gentleman:",
+          "after": ".",
+          "answer": "des Herrn",
+          "en": "the gentleman's.",
+          "why": "des Herrn. des Herr is missing -n. der Herren is several gentlemen and stays correct. No extra -s.",
+          "tip": "Herrn.",
+          "hint": "Herrn."
+        },
+        {
+          "before": "Accusative, one colleague:",
+          "after": ".",
+          "answer": "den Kollegen",
+          "en": "the colleague.",
+          "why": "den Kollegen. Only -n. dem Kollegen stays the dative.",
+          "tip": "Kollegen.",
+          "hint": "Kollegen."
+        },
+        {
+          "before": "Dative, one patient:",
+          "after": ".",
+          "answer": "dem Patienten",
+          "en": "the patient.",
+          "why": "dem Patienten. dem Patient is missing -en. den Patienten is several people and stays correct.",
+          "tip": "Patienten.",
+          "hint": "Patienten."
+        },
+        {
+          "before": "Genitive of Name:",
+          "after": ".",
+          "answer": "des Namens",
+          "en": "of the name.",
+          "why": "des Namens. Name adds -n in the other cases and -s only in the genitive. den Namen and dem Namen stay correct. Patient, Herr and Kollege do not add that -s.",
+          "tip": "Namens.",
+          "hint": "Namens."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. Plural and the other case stay correct when the note itself uses one man.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Herr",
+        "paragraphs": [
+          "Kennen Sie den Herrn? Der Patient liegt hier.",
+          "Wir helfen dem Patienten. Wir danken dem Herrn. Das Bett des Patienten ist frei.",
+          "Der Kollege kennt den Herrn. Wir kennen den Kollegen. Die Patienten warten."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The gentleman, from the note.",
+          "qEn": "den Herrn.",
+          "options": ["den Herrn", "den Herr", "die Herren"],
+          "answer": 0,
+          "why": "Kennen Sie den Herrn? die Herren is several gentlemen and stays correct.",
+          "hint": "Herrn."
+        },
+        {
+          "kind": "mc",
+          "q": "The one patient we help, from the note.",
+          "qEn": "dem Patienten.",
+          "options": ["dem Patienten", "dem Patient", "den Patienten"],
+          "answer": 0,
+          "why": "Wir helfen dem Patienten. den Patienten is several people and stays correct.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The colleague we know, from the note.",
+          "qEn": "den Kollegen.",
+          "options": ["den Kollegen", "den Kollege", "der Kollege"],
+          "answer": 0,
+          "why": "Wir kennen den Kollegen. der Kollege is the subject in the note and stays correct.",
+          "hint": "Kollegen."
+        },
+        {
+          "kind": "mc",
+          "q": "Several patients, from the note.",
+          "qEn": "die Patienten.",
+          "options": ["die Patienten", "die Patient", "den Patient"],
+          "answer": 0,
+          "why": "Die Patienten warten. die Patient and den Patient are missing the ending.",
+          "hint": "die."
+        }
+      ]
+    },
+    {
+      "id": "writing-sort",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Do you know the gentleman? We help the patient. The colleague knows the gentleman. The patients are waiting.",
+      "prompt": "Do you know the gentleman? We help the patient. The colleague knows the gentleman. The patients are waiting.",
+      "bullets": ["den Herrn", "dem Patienten", "kennt den Herrn", "die Patienten"],
+      "model": "Kennen Sie den Herrn? Wir helfen dem Patienten. Der Kollege kennt den Herrn. Die Patienten warten.",
+      "modelEn": "Do you know the gentleman? We help the patient. The colleague knows the gentleman. The patients are waiting.",
+      "hint": "Kennen Sie den Herrn. helfen dem Patienten. Kollege kennt den Herrn. Die Patienten warten.",
+      "checklist": [
+        { "id": "h", "label": "den Herrn", "keywords": ["kennen sie den herrn"] },
+        { "id": "p", "label": "dem Patienten", "keywords": ["helfen dem patienten"] },
+        { "id": "k", "label": "kennt den Herrn", "keywords": ["kollege kennt den herrn"] },
+        { "id": "w", "label": "die Patienten", "keywords": ["die patienten warten"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Kennen Sie den Herrn?",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Add -(e)n in every case except the nominative singular. den Herrn for one gentleman. die Herren for several. den Kollegen. den Patienten is also the dative plural. des Namens takes the extra -s. Patient, Herr and Kollege do not.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "One gentleman, accusative.",
+          "qEn": "den Herrn.",
+          "options": ["Kennen Sie den Herrn?", "Kennen Sie den Herr?", "Kennen Sie die Herren?"],
+          "answer": 0,
+          "why": "den Herrn. den Herr is missing -n. die Herren stays the plural.",
+          "hint": "Herrn."
+        },
+        {
+          "kind": "mc",
+          "q": "Help one man.",
+          "qEn": "dem Patienten.",
+          "options": ["Wir helfen dem Patienten.", "Wir helfen dem Patient.", "Wir helfen den Patienten."],
+          "answer": 0,
+          "why": "dem Patienten. dem Patient is missing -en. den Patienten is several people and stays correct.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "One patient is here. Nominative.",
+          "qEn": "der Patient.",
+          "options": ["Der Patient liegt hier.", "Den Patienten liegt hier.", "Der Patienten liegt hier."],
+          "answer": 0,
+          "why": "der Patient. No -en. liegt is singular.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "One colleague, accusative.",
+          "qEn": "den Kollegen.",
+          "options": ["Wir kennen den Kollegen.", "Wir kennen den Kollege.", "Wir kennen den Kollegeen."],
+          "answer": 0,
+          "why": "den Kollegen. Only -n. Not Kollegeen.",
+          "hint": "Kollegen."
+        },
+        {
+          "kind": "mc",
+          "q": "Accusative, one gentleman.",
+          "qEn": "den Herrn.",
+          "options": ["den Herrn", "den Herr", "die Herren"],
+          "answer": 0,
+          "why": "den Herrn. den Herr is missing -n. die Herren stays the plural.",
+          "hint": "Herrn."
+        },
+        {
+          "kind": "mc",
+          "q": "Dative, one gentleman.",
+          "qEn": "dem Herrn.",
+          "options": ["dem Herrn", "dem Herr", "den Herren"],
+          "answer": 0,
+          "why": "dem Herrn. dem Herr is missing -n. den Herren is several gentlemen and stays correct.",
+          "hint": "Herrn."
+        },
+        {
+          "kind": "mc",
+          "q": "Genitive, one gentleman.",
+          "qEn": "des Herrn.",
+          "options": ["des Herrn", "des Herr", "der Herren"],
+          "answer": 0,
+          "why": "des Herrn. des Herr is missing -n. der Herren is several gentlemen and stays correct. No extra -s.",
+          "hint": "Herrn."
+        },
+        {
+          "kind": "mc",
+          "q": "Accusative, one colleague.",
+          "qEn": "den Kollegen.",
+          "options": ["den Kollegen", "den Kollege", "dem Kollegen"],
+          "answer": 0,
+          "why": "den Kollegen. Only -n. dem Kollegen stays the dative.",
+          "hint": "Kollegen."
+        },
+        {
+          "kind": "mc",
+          "q": "Genitive, one patient.",
+          "qEn": "des Patienten.",
+          "options": ["des Patienten", "des Patient", "des Patientens"],
+          "answer": 0,
+          "why": "des Patienten. Not des Patient. Not des Patientens.",
+          "hint": "Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "Genitive of Name.",
+          "qEn": "des Namens.",
+          "options": ["des Namens", "des Namen", "des Name"],
+          "answer": 0,
+          "why": "des Namens. den Namen and dem Namen stay correct. Patient, Herr and Kollege do not add this -s.",
+          "hint": "Namens."
+        },
+        {
+          "kind": "mc",
+          "q": "Several patients are waiting.",
+          "qEn": "die Patienten.",
+          "options": ["Die Patienten warten.", "Die Patient warten.", "Den Patienten warten."],
+          "answer": 0,
+          "why": "die Patienten. den is not the subject. den Patienten stays the other case.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "Nominative plural of Herr.",
+          "qEn": "die Herren.",
+          "options": ["die Herren", "die Herr", "den Herren"],
+          "answer": 0,
+          "why": "die Herren. die Herr is not the plural. den Herren is the dative plural and stays correct.",
+          "hint": "Herren."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Kennen Sie den Herrn?",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Kennen Sie den Herrn?", "en": "Do you know the gentleman?" },
+        { "de": "Wir helfen dem Patienten.", "en": "We help the patient." },
+        { "de": "Der Kollege kennt den Herrn.", "en": "The colleague knows the gentleman." },
+        { "de": "Die Patienten warten.", "en": "The patients are waiting." }
+      ],
+      "messages": [
+        "Add -(e)n in every case except the nominative singular. den Herrn for one gentleman. die Herren for several. den Kollegen.",
+        "dem Patienten for one man. den Patienten is also several people. des Patienten, no extra -s. des Namens is the extra -s. den Arzt stays a different pattern.",
+        "Sehr gut. Kennen Sie den Herrn? Wir helfen dem Patienten. Der Kollege kennt den Herrn.",
+        "Ausgezeichnet. You can mark one patient, one gentleman, and one colleague on the chart."
+      ]
+    }
+  ]
+}

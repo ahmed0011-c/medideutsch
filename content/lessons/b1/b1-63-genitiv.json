@@ -1,0 +1,1103 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-63-genitiv",
+  "level": "B1",
+  "unit": "Kapitel 63",
+  "chapter": 63,
+  "chapters": [63],
+  "title": "Das Auto seines Vaters",
+  "subtitle": "Genitive",
+  "glossary": {
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
+    "auto": {
+      "de": "Auto",
+      "pos": "noun",
+      "en": "car",
+      "emoji": "🚗",
+      "article": "das",
+      "plural": "die Autos",
+      "note": "The head noun. Das Auto seines Vaters. The genitive follows."
+    },
+    "seines": {
+      "de": "sein → seines",
+      "pos": "determiner",
+      "en": "his (genitive masculine or neuter)",
+      "emoji": "👨",
+      "note": "seines Vaters, seines Arztes. Feminine or plural: seiner. Not seiner Vaters."
+    },
+    "vaters": {
+      "de": "Vater",
+      "pos": "noun",
+      "en": "father",
+      "emoji": "👨",
+      "article": "der",
+      "plural": "die Väter",
+      "note": "Genitive seines Vaters. Vater ends in -er, so only -s. Not des Vateres."
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten",
+      "note": "Das Bett des Patienten. Spoken: das Bett vom Patienten. auf dem Bett is dative, chapter 62."
+    },
+    "des": { "de": "des", "pos": "article", "en": "the (genitive masculine or neuter)", "emoji": "🔗", "note": "des Patienten, des Arztes, des Fiebers. Not for a feminine noun." },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Genitive des Patienten. Not des Patient. Not des Patientens. den and dem Patienten stay the other cases. Chapter 64 sorts the full -en family."
+    },
+    "ist": { "de": "sein → er ist", "pos": "form", "en": "is", "emoji": "✅" },
+    "frei": { "de": "frei", "pos": "adjective", "en": "free", "emoji": "🛏️", "note": "Das Bett des Patienten ist frei." },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative, or feminine dative and genitive)",
+      "emoji": "🔵",
+      "note": "Der Brief is nominative. der Station and der Patientin are feminine genitive. Same article as feminine dative. No -s on the noun."
+    },
+    "brief": {
+      "de": "Brief",
+      "pos": "noun",
+      "en": "letter",
+      "emoji": "✉️",
+      "article": "der",
+      "plural": "die Briefe",
+      "note": "Der Brief des Arztes. The letter is the head. des Briefes and des Briefs are both correct when Brief itself is genitive."
+    },
+    "arztes": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "Genitive des Arztes. Not des Arzt. Not der Arztes."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "Genitive des Arztes."
+    },
+    "liegt": { "de": "liegen → er liegt", "pos": "form", "en": "lies", "emoji": "✉️", "note": "Der Brief des Arztes liegt hier." },
+    "hier": { "de": "hier", "pos": "adverb", "en": "here", "emoji": "📍" },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "warten": { "de": "warten → wir warten", "pos": "form", "en": "wait", "emoji": "⏳", "note": "Wir warten wegen des Fiebers." },
+    "wegen": {
+      "de": "wegen",
+      "pos": "preposition",
+      "en": "because of",
+      "emoji": "🌡️",
+      "note": "Genitive: wegen des Fiebers. Feminine: wegen der. Chapter 77 has the full set. Everyday dative is heard and is not the written line."
+    },
+    "fiebers": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "wegen des Fiebers. Fieber ends in -er, so only -s. Not des Fieber. Not des Fieberes."
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "wegen des Fiebers."
+    },
+    "steht": { "de": "stehen → er steht", "pos": "form", "en": "stands", "emoji": "🚗", "note": "Das Auto seines Vaters steht hier." },
+    "annas": {
+      "de": "Anna → Annas",
+      "pos": "name",
+      "en": "Anna's",
+      "emoji": "🧑‍⚕️",
+      "note": "Annas Bett. The -s stands on the name, before the thing. No apostrophe. das Bett von Anna stays correct."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "tür": {
+      "de": "Tür",
+      "pos": "noun",
+      "en": "door",
+      "emoji": "🚪",
+      "article": "die",
+      "plural": "die Türen",
+      "note": "Die Tür der Station. Tür is the head. Station is the genitive."
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen",
+      "note": "Feminine genitive der Station. No -s. Not des Station."
+    },
+    "offen": { "de": "offen", "pos": "adjective", "en": "open", "emoji": "🚪", "note": "Die Tür der Station ist offen." }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Whose is it?",
+      "learn": [
+        "Wessen? The genitive. Masculine and neuter: des plus -(e)s. Feminine and plural: der, and the noun takes no extra -s.",
+        "The genitive follows the noun. Das Bett des Patienten. Der Brief des Arztes. Das Auto seines Vaters. Spoken German keeps von: das Bett vom Patienten.",
+        "A name takes -s and stands first. Annas Bett. No apostrophe. seines for his plus a masculine or neuter noun. seiner for a feminine noun.",
+        "wegen des Fiebers is the written line. wegen is one genitive preposition. The set während, trotz, innerhalb and außerhalb is chapter 77."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🏥", "glossaryKey": "patienten" },
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor (male)", "emoji": "👨‍⚕️", "glossaryKey": "arzt" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "image": { "type": "svg", "id": "thermometer" }, "glossaryKey": "fieber" },
+        { "de": "Auto", "article": "das", "plural": "die Autos", "en": "car", "emoji": "🚗", "glossaryKey": "auto" },
+        { "de": "Vater", "article": "der", "plural": "die Väter", "en": "father", "emoji": "👨", "glossaryKey": "vaters" }
+      ],
+      "text": {
+        "title": "Das Auto seines Vaters",
+        "de": "Das Bett des Patienten ist frei. Der Brief des Arztes liegt hier. Wir warten wegen des Fiebers. Das Auto seines Vaters steht hier. Annas Bett ist frei. Die Tür der Station ist offen.",
+        "en": "The patient's bed is free. The doctor's letter is here. We are waiting because of the fever. His father's car is here. Anna's bed is free. The door of the ward is open."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Wessen?",
+      "practice": "choose",
+      "heroTitle": "Das Auto seines Vaters",
+      "heroImage": "bed",
+      "story": [
+        "<b>Wessen?</b> Whose? That is the <b>genitive</b>. You already read it in the cases chapter: <b>das Bett des Patienten</b>. On the ward people often say <b>von + dative</b>: <b>das Bett vom Patienten</b>. Both stay correct. The chart uses the genitive.",
+        "Masculine and neuter take <b>des</b> and an ending. <b>des Patienten. des Arztes. des Fiebers. seines Vaters.</b> Nouns in <b>-e, -er, -el, -en</b> take only <b>-s</b>: Vater, Fieber. A short noun often takes <b>-es</b>: <b>des Arztes</b>. <b>des Briefes</b> and <b>des Briefs</b> are both correct when Brief itself is genitive. This chart does not choose between them.",
+        "Feminine and plural take <b>der</b> and <b>no -s</b> on the noun. <b>Die Tür der Station. Das Bett der Patientin.</b> der is also feminine dative, and nominative masculine: <b>Der Brief</b>. The noun ending shows the job.",
+        "<b>Patient</b> adds <b>-en</b> in the genitive: <b>des Patienten</b>. Not des Patient. Not des Patientens. <b>den Patienten</b> and <b>dem Patienten</b> stay the other cases. Herr, Kollege and the full -en table are chapter 64.",
+        "A name takes <b>-s</b> and stands <b>before</b> the thing. <b>Annas Bett.</b> No apostrophe. <b>das Bett von Anna</b> stays correct. <b>seines</b> is his plus a masculine or neuter noun: <b>Das Auto seines Vaters. Der Brief seines Arztes.</b> <b>seiner</b> is feminine: <b>Das Bett seiner Patientin.</b>",
+        "The genitive <b>follows</b> the noun. <b>Das Auto seines Vaters</b>, not the old order as the model. <b>wegen des Fiebers</b> is because of the fever. <b>des Fiebers wegen</b> is the same words, also correct. The set während, trotz, innerhalb and außerhalb is chapter 77. Everyday wegen plus the dative is heard and is not the written line."
+      ],
+      "questionRule": "des plus -(e)s for masculine and neuter. der and no -s for feminine and plural. Names take -s and stand first. No apostrophe. seines for his plus masculine or neuter. The genitive follows the noun.",
+      "tables": [
+        {
+          "title": "Wessen?",
+          "caption": "des for masculine and neuter. der for feminine and plural.",
+          "columns": ["Artikel", "Beispiel"],
+          "rows": [
+            { "label": "maskulin", "cells": ["des", "das Bett des Patienten"], "highlight": true },
+            { "label": "neutrum", "cells": ["des", "wegen des Fiebers"], "highlight": true },
+            { "label": "feminin", "cells": ["der", "die Tür der Station"] },
+            { "label": "Plural", "cells": ["der", "die Zimmer der Patienten"] },
+            { "label": "sein", "cells": ["seines", "das Auto seines Vaters"] },
+            { "label": "Name", "cells": ["-s", "Annas Bett"] }
+          ]
+        },
+        {
+          "title": "Die Endung",
+          "caption": "-es or -s on masculine and neuter. Nothing extra on feminine and plural. Names take -s.",
+          "columns": ["Muster", "Form"],
+          "rows": [
+            { "label": "-en", "cells": ["Patient", "des Patienten"], "highlight": true },
+            { "label": "-es", "cells": ["Arzt", "des Arztes"], "highlight": true },
+            { "label": "-s", "cells": ["Fieber, Vater", "des Fiebers, seines Vaters"] },
+            { "label": "kein -s", "cells": ["Station", "der Station"] },
+            { "label": "Name", "cells": ["Anna", "Annas Bett"] },
+            { "label": "seiner", "cells": ["Patientin", "das Bett seiner Patientin"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "A missing ending, an extra ending, or the wrong article. vom, von Anna, des Briefs and the everyday dative after wegen stay correct in their own patterns.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "Patient", "cells": ["des Patient", "des Patienten"] },
+            { "label": "extra", "cells": ["des Patientens", "des Patienten"] },
+            { "label": "Arzt", "cells": ["des Arzt", "des Arztes"] },
+            { "label": "Artikel", "cells": ["der Arztes", "des Arztes"] },
+            { "label": "Fieber", "cells": ["des Fieber", "des Fiebers"] },
+            { "label": "Vater", "cells": ["des Vateres", "des Vaters"] },
+            { "label": "Name", "cells": ["Anna's Bett", "Annas Bett"] },
+            { "label": "Station", "cells": ["des Station", "der Station"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four genitive traps",
+        "items": [
+          { "de": "Das Bett des Patienten.", "en": "des Patienten.", "tone": "ok" },
+          { "de": "Das Bett des Patient.", "en": "Missing -en.", "tone": "stop" },
+          { "de": "Der Brief des Arztes.", "en": "des Arztes.", "tone": "ok" },
+          { "de": "Der Brief des Arzt.", "en": "Missing -es.", "tone": "stop" },
+          { "de": "Wegen des Fiebers.", "en": "des Fiebers.", "tone": "ok" },
+          { "de": "Wegen des Fieber.", "en": "Missing -s.", "tone": "stop" },
+          { "de": "Annas Bett.", "en": "-s, no apostrophe.", "tone": "ok" },
+          { "de": "Anna's Bett.", "en": "The apostrophe is English.", "tone": "stop" }
+        ],
+        "tip": "des plus the ending. der and no -s. Annas, not Anna's."
+      },
+      "tips": [
+        {
+          "title": "The genitive follows",
+          "body": "das Bett des Patienten. Der Brief des Arztes. Das Auto seines Vaters. A name stands first: Annas Bett.",
+          "mnemonic": "des Patienten. des Arztes. des Fiebers. Annas Bett.",
+          "emoji": "🔗"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "des Patienten", "emoji": "🛏️", "en": "the patient's bed", "use": "genitive masculine", "de": "Das Bett des Patienten ist frei.", "deEn": "The patient's bed is free." },
+        { "modal": "des Arztes", "emoji": "✉️", "en": "the doctor's letter", "use": "genitive masculine", "de": "Der Brief des Arztes liegt hier.", "deEn": "The doctor's letter is here." },
+        { "modal": "des Fiebers", "emoji": "🌡️", "en": "because of the fever", "use": "wegen plus genitive", "de": "Wir warten wegen des Fiebers.", "deEn": "We are waiting because of the fever." },
+        { "modal": "seines Vaters", "emoji": "🚗", "en": "his father's car", "use": "seines plus -s", "de": "Das Auto seines Vaters steht hier.", "deEn": "His father's car is here." }
+      ],
+      "quizTitle": "Which genitive?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The patient's bed. One man.",
+          "qEn": "des Patienten.",
+          "options": ["Das Bett des Patienten.", "Das Bett des Patient.", "Das Bett des Patientens."],
+          "answer": 0,
+          "why": "des Patienten. Not des Patient. Not des Patientens. den and dem Patienten stay the other cases. vom Patienten stays spoken German.",
+          "hint": "Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor's letter.",
+          "qEn": "des Arztes.",
+          "options": ["Der Brief des Arztes.", "Der Brief des Arzt.", "Der Brief der Arztes."],
+          "answer": 0,
+          "why": "des Arztes. des Arzt is missing -es. der Arztes uses the feminine article.",
+          "hint": "Arztes."
+        },
+        {
+          "kind": "mc",
+          "q": "Because of the fever. The written line.",
+          "qEn": "wegen des Fiebers.",
+          "options": ["Wegen des Fiebers.", "Wegen des Fieber.", "Wegen das Fieber."],
+          "answer": 0,
+          "why": "wegen plus des Fiebers. Not des Fieber. Not das. The other genitive prepositions are chapter 77.",
+          "hint": "Fiebers."
+        },
+        {
+          "kind": "mc",
+          "q": "His father's car.",
+          "qEn": "seines Vaters.",
+          "options": ["Das Auto seines Vaters.", "Das Auto seines Vater.", "Das Auto seiner Vaters."],
+          "answer": 0,
+          "why": "seines Vaters. Only -s. seiner is feminine or plural.",
+          "hint": "Vaters."
+        },
+        {
+          "kind": "mc",
+          "q": "Anna's bed. The genitive.",
+          "qEn": "Annas.",
+          "options": ["Annas Bett.", "Anna's Bett.", "Das Bett von Anna."],
+          "answer": 0,
+          "why": "Annas Bett. No apostrophe. das Bett von Anna stays correct everyday German.",
+          "hint": "Annas."
+        },
+        {
+          "kind": "mc",
+          "q": "The door of the ward.",
+          "qEn": "der Station.",
+          "options": ["Die Tür der Station.", "Die Tür des Station.", "Die Tür der Stations."],
+          "answer": 0,
+          "why": "Feminine genitive: der Station. No -s. des is masculine or neuter.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "gap-sort",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names whose it is. Masculine and neuter: des plus the ending. Feminine: der, no -s. A name takes -s and stands first.",
+      "chips": [
+        { "w": "Das Bett des Patienten", "hint": "des Patienten." },
+        { "w": "Der Brief des Arztes", "hint": "des Arztes." },
+        { "w": "Wegen des Fiebers", "hint": "des Fiebers." },
+        { "w": "Das Auto seines Vaters", "hint": "seines Vaters." },
+        { "w": "Annas Bett", "hint": "Annas." },
+        { "w": "Die Tür der Station", "hint": "der Station." },
+        { "w": "Das Bett des Patient", "hint": "-en." },
+        { "w": "Der Brief des Arzt", "hint": "-es." },
+        { "w": "Wegen des Fieber", "hint": "-s." },
+        { "w": "Das Auto seines Vater", "hint": "-s." },
+        { "w": "Anna's Bett", "hint": "no apostrophe." },
+        { "w": "Die Tür des Station", "hint": "der." }
+      ],
+      "items": [
+        {
+          "before": "The patient's bed, one man:",
+          "after": ".",
+          "answer": "Das Bett des Patienten",
+          "en": "The patient's bed.",
+          "why": "des Patienten. Not des Patient.",
+          "tip": "Patienten.",
+          "hint": "Patienten."
+        },
+        {
+          "before": "The doctor's letter:",
+          "after": ".",
+          "answer": "Der Brief des Arztes",
+          "en": "The doctor's letter.",
+          "why": "des Arztes. Not des Arzt.",
+          "tip": "Arztes.",
+          "hint": "Arztes."
+        },
+        {
+          "before": "Because of the fever, on the chart:",
+          "after": ".",
+          "answer": "Wegen des Fiebers",
+          "en": "Because of the fever.",
+          "why": "des Fiebers. Not des Fieber.",
+          "tip": "Fiebers.",
+          "hint": "Fiebers."
+        },
+        {
+          "before": "His father's car:",
+          "after": ".",
+          "answer": "Das Auto seines Vaters",
+          "en": "His father's car.",
+          "why": "seines Vaters. The genitive follows Auto.",
+          "tip": "Vaters.",
+          "hint": "Vaters."
+        },
+        {
+          "before": "Anna's bed, the genitive:",
+          "after": ".",
+          "answer": "Annas Bett",
+          "en": "Anna's bed.",
+          "why": "Annas, no apostrophe. The name stands first.",
+          "tip": "Annas.",
+          "hint": "Annas."
+        },
+        {
+          "before": "The door of the ward:",
+          "after": ".",
+          "answer": "Die Tür der Station",
+          "en": "The door of the ward.",
+          "why": "der Station. Feminine, no -s. Not des.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "match-sort",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names the noun. One label is its genitive. One is another real article or a short form. One is not the form.",
+      "items": [
+        {
+          "prompt": "Genitive article, masculine or neuter",
+          "options": [
+            { "emoji": "🔗", "label": "des", "caption": "genitive masculine or neuter" },
+            { "emoji": "🔵", "label": "der", "caption": "feminine genitive, or nominative der" },
+            { "emoji": "🌹", "label": "den", "caption": "accusative, or dative plural" }
+          ],
+          "answer": 0,
+          "why": "des. der is feminine genitive, and also nominative Der Brief. den is not the genitive.",
+          "hint": "des."
+        },
+        {
+          "prompt": "Genitive article, feminine",
+          "options": [
+            { "emoji": "🔴", "label": "der", "caption": "feminine genitive" },
+            { "emoji": "🔗", "label": "des", "caption": "masculine or neuter" },
+            { "emoji": "🔴", "label": "die", "caption": "nominative feminine" }
+          ],
+          "answer": 0,
+          "why": "der Station. des is masculine or neuter. die Tür is nominative.",
+          "hint": "der."
+        },
+        {
+          "prompt": "One male patient",
+          "options": [
+            { "emoji": "🏥", "label": "des Patienten", "caption": "-en" },
+            { "emoji": "🚫", "label": "des Patient", "caption": "missing -en" },
+            { "emoji": "🚫", "label": "des Patientens", "caption": "extra -s" }
+          ],
+          "answer": 0,
+          "why": "des Patienten. Not des Patient. Not des Patientens.",
+          "hint": "Patienten."
+        },
+        {
+          "prompt": "The doctor",
+          "options": [
+            { "emoji": "👨‍⚕️", "label": "des Arztes", "caption": "-es" },
+            { "emoji": "🚫", "label": "des Arzt", "caption": "missing -es" },
+            { "emoji": "🚫", "label": "der Arztes", "caption": "wrong article" }
+          ],
+          "answer": 0,
+          "why": "des Arztes. Not des Arzt. der is not this masculine genitive.",
+          "hint": "Arztes."
+        },
+        {
+          "prompt": "The fever",
+          "options": [
+            { "emoji": "🌡️", "label": "des Fiebers", "caption": "-s" },
+            { "emoji": "🚫", "label": "des Fieber", "caption": "missing -s" },
+            { "emoji": "🚫", "label": "des Fieberes", "caption": "extra e" }
+          ],
+          "answer": 0,
+          "why": "des Fiebers. Fieber ends in -er, so only -s.",
+          "hint": "Fiebers."
+        },
+        {
+          "prompt": "Anna",
+          "options": [
+            { "emoji": "🧑‍⚕️", "label": "Annas", "caption": "-s, name first" },
+            { "emoji": "🚫", "label": "Anna's", "caption": "English apostrophe" },
+            { "emoji": "🚫", "label": "Anna", "caption": "missing -s" }
+          ],
+          "answer": 0,
+          "why": "Annas. No apostrophe. von Anna stays correct everyday German.",
+          "hint": "Annas."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the patient's bed",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster in the doctor's letter",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer for the fever",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart of the ward",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-sort",
+      "type": "builder",
+      "label": "Build",
+      "title": "The genitive follows",
+      "practice": "build",
+      "instructions": "Build the genitive. The noun that is owned comes first, then des or seines. A name with -s comes first. wegen can follow des Fiebers.",
+      "items": [
+        {
+          "tiles": ["Das", "Bett", "des", "Patienten"],
+          "answers": ["Das Bett des Patienten"],
+          "punct": ".",
+          "modal": "des",
+          "inf": "Patienten",
+          "question": false,
+          "en": "The patient's bed.",
+          "hint": "Bett first. des Patienten last.",
+          "feedback": {
+            "end": "Patienten closes the genitive: Das Bett des Patienten.",
+            "fallback": "Das Bett des Patienten. The genitive follows the bed."
+          }
+        },
+        {
+          "tiles": ["Das", "Auto", "seines", "Vaters"],
+          "answers": ["Das Auto seines Vaters"],
+          "punct": ".",
+          "modal": "seines",
+          "inf": "Vaters",
+          "question": false,
+          "en": "His father's car.",
+          "hint": "Auto first. seines Vaters last.",
+          "feedback": {
+            "end": "Vaters closes the line.",
+            "fallback": "Das Auto seines Vaters."
+          }
+        },
+        {
+          "tiles": ["Annas", "Bett"],
+          "answers": ["Annas Bett"],
+          "punct": ".",
+          "modal": "Annas",
+          "inf": "Bett",
+          "question": false,
+          "en": "Anna's bed.",
+          "hint": "Annas first.",
+          "feedback": {
+            "end": "Bett closes the name: Annas Bett.",
+            "fallback": "Annas Bett. The name stands first."
+          }
+        },
+        {
+          "tiles": ["wegen", "des", "Fiebers"],
+          "answers": ["wegen des Fiebers", "des Fiebers wegen"],
+          "punct": ".",
+          "modal": "wegen",
+          "inf": "Fiebers",
+          "question": false,
+          "en": "Because of the fever.",
+          "hint": "wegen des Fiebers, or des Fiebers wegen.",
+          "feedback": {
+            "end": "Fiebers closes wegen des Fiebers.",
+            "fallback": "wegen des Fiebers. Or: des Fiebers wegen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-sort",
+      "label": "Rewrite",
+      "title": "Into the genitive",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names the genitive. A spoken von line stays correct German. Give the genitive the chart uses.",
+      "chips": [
+        { "w": "Das Bett des Patienten", "hint": "des Patienten." },
+        { "w": "Der Brief des Arztes", "hint": "des Arztes." },
+        { "w": "Wegen des Fiebers", "hint": "des Fiebers." },
+        { "w": "Das Auto seines Vaters", "hint": "seines Vaters." },
+        { "w": "Annas Bett", "hint": "Annas." },
+        { "w": "Die Tür der Station", "hint": "der Station." },
+        { "w": "Das Bett des Patient", "hint": "-en." },
+        { "w": "Der Brief des Arzt", "hint": "-es." },
+        { "w": "Wegen des Fieber", "hint": "-s." },
+        { "w": "Das Auto seines Vater", "hint": "-s." },
+        { "w": "Anna's Bett", "hint": "no apostrophe." },
+        { "w": "Die Tür des Station", "hint": "der." }
+      ],
+      "items": [
+        {
+          "before": "The patient's bed. Spoken: das Bett vom Patienten. Line:",
+          "after": ".",
+          "answer": "Das Bett des Patienten",
+          "en": "The patient's bed.",
+          "why": "des Patienten. vom Patienten is von dem and stays correct speech.",
+          "tip": "Patienten.",
+          "hint": "Patienten."
+        },
+        {
+          "before": "The doctor's letter. Spoken: der Brief vom Arzt. Line:",
+          "after": ".",
+          "answer": "Der Brief des Arztes",
+          "en": "The doctor's letter.",
+          "why": "des Arztes. vom Arzt stays correct speech.",
+          "tip": "Arztes.",
+          "hint": "Arztes."
+        },
+        {
+          "before": "Because of the fever, the written genitive. Line:",
+          "after": ".",
+          "answer": "Wegen des Fiebers",
+          "en": "Because of the fever.",
+          "why": "des Fiebers. Not des Fieber.",
+          "tip": "Fiebers.",
+          "hint": "Fiebers."
+        },
+        {
+          "before": "His father's car. The genitive follows. Line:",
+          "after": ".",
+          "answer": "Das Auto seines Vaters",
+          "en": "His father's car.",
+          "why": "seines Vaters. Only -s.",
+          "tip": "Vaters.",
+          "hint": "Vaters."
+        },
+        {
+          "before": "Anna's bed, no apostrophe. Line:",
+          "after": ".",
+          "answer": "Annas Bett",
+          "en": "Anna's bed.",
+          "why": "Annas Bett. das Bett von Anna stays correct.",
+          "tip": "Annas.",
+          "hint": "Annas."
+        },
+        {
+          "before": "The door of the ward. Feminine. Line:",
+          "after": ".",
+          "answer": "Die Tür der Station",
+          "en": "The door of the ward.",
+          "why": "der Station. No -s.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "error-sort",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the genitive in the clues. Choose the correction. A spoken von line stays correct German.",
+      "items": [
+        {
+          "clues": ["One male patient.", "Genitive.", "Das Bett des Patient."],
+          "options": ["Das Bett des Patienten.", "Das Bett des Patient.", "Das Bett vom Patienten."],
+          "answer": 0,
+          "reveal": "Das Bett des Patienten.",
+          "hint": "Patienten."
+        },
+        {
+          "clues": ["The doctor.", "-es.", "Der Brief des Arzt."],
+          "options": ["Der Brief des Arztes.", "Der Brief des Arzt.", "Der Brief der Arztes."],
+          "answer": 0,
+          "reveal": "Der Brief des Arztes.",
+          "hint": "Arztes."
+        },
+        {
+          "clues": ["Because of the fever.", "-s.", "Wegen des Fieber."],
+          "options": ["Wegen des Fiebers.", "Wegen des Fieber.", "Wegen das Fieber."],
+          "answer": 0,
+          "reveal": "Wegen des Fiebers.",
+          "hint": "Fiebers."
+        },
+        {
+          "clues": ["His father.", "seines.", "Das Auto seines Vater."],
+          "options": ["Das Auto seines Vaters.", "Das Auto seines Vater.", "Das Auto seiner Vaters."],
+          "answer": 0,
+          "reveal": "Das Auto seines Vaters.",
+          "hint": "Vaters."
+        },
+        {
+          "clues": ["Anna's bed.", "No apostrophe.", "Anna's Bett."],
+          "options": ["Annas Bett.", "Anna's Bett.", "Das Bett von Anna."],
+          "answer": 0,
+          "reveal": "Annas Bett.",
+          "hint": "Annas."
+        },
+        {
+          "clues": ["The ward.", "Feminine.", "Die Tür des Station."],
+          "options": ["Die Tür der Station.", "Die Tür des Station.", "Die Tür der Stations."],
+          "answer": 0,
+          "reveal": "Die Tür der Station.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse reads whose it is. Give the genitive. von stays correct when someone says it aloud.",
+      "chips": [
+        { "w": "Das Bett des Patienten", "hint": "des Patienten." },
+        { "w": "Der Brief des Arztes", "hint": "des Arztes." },
+        { "w": "Wegen des Fiebers", "hint": "des Fiebers." },
+        { "w": "Das Auto seines Vaters", "hint": "seines Vaters." },
+        { "w": "Annas Bett", "hint": "Annas." },
+        { "w": "Die Tür der Station", "hint": "der Station." },
+        { "w": "Das Bett des Patient", "hint": "-en." },
+        { "w": "Der Brief des Arzt", "hint": "-es." },
+        { "w": "Wegen des Fieber", "hint": "-s." },
+        { "w": "Das Auto seines Vater", "hint": "-s." },
+        { "w": "Anna's Bett", "hint": "no apostrophe." },
+        { "w": "Die Tür des Station", "hint": "der." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, the patient's bed:",
+          "after": ".",
+          "answer": "Das Bett des Patienten",
+          "en": "The patient's bed.",
+          "why": "des Patienten.",
+          "tip": "Patienten.",
+          "hint": "Patienten."
+        },
+        {
+          "before": "Nurse, the doctor's letter:",
+          "after": ".",
+          "answer": "Der Brief des Arztes",
+          "en": "The doctor's letter.",
+          "why": "des Arztes.",
+          "tip": "Arztes.",
+          "hint": "Arztes."
+        },
+        {
+          "before": "Doctor, because of the fever:",
+          "after": ".",
+          "answer": "Wegen des Fiebers",
+          "en": "Because of the fever.",
+          "why": "des Fiebers.",
+          "tip": "Fiebers.",
+          "hint": "Fiebers."
+        },
+        {
+          "before": "Nurse, his father's car:",
+          "after": ".",
+          "answer": "Das Auto seines Vaters",
+          "en": "His father's car.",
+          "why": "seines Vaters.",
+          "tip": "Vaters.",
+          "hint": "Vaters."
+        },
+        {
+          "before": "Nurse, Anna's bed:",
+          "after": ".",
+          "answer": "Annas Bett",
+          "en": "Anna's bed.",
+          "why": "Annas, no apostrophe.",
+          "tip": "Annas.",
+          "hint": "Annas."
+        },
+        {
+          "before": "Nurse, the door of the ward:",
+          "after": ".",
+          "answer": "Die Tür der Station",
+          "en": "The door of the ward.",
+          "why": "der Station.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "gap-agree",
+      "label": "Gap",
+      "title": "seines, seiner, der",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "seines with a masculine or neuter noun. seiner with a feminine noun. Plural and feminine der take no extra -s. Vater and Fieber take only -s.",
+      "chips": [
+        { "w": "Der Brief seines Arztes", "hint": "seines." },
+        { "w": "Das Bett seiner Patientin", "hint": "seiner." },
+        { "w": "Die Zimmer der Patienten", "hint": "der, plural." },
+        { "w": "Wegen der Operation", "hint": "der, feminine." },
+        { "w": "des Vaters", "hint": "only -s." },
+        { "w": "Das Bett der Patientin", "hint": "der, no -s." },
+        { "w": "Der Brief seiner Arztes", "hint": "seines." },
+        { "w": "Das Bett seines Patientin", "hint": "seiner." },
+        { "w": "Die Zimmer der Patientens", "hint": "no extra -s." },
+        { "w": "Wegen des Operation", "hint": "der." },
+        { "w": "des Vateres", "hint": "only -s." },
+        { "w": "Das Bett des Patientin", "hint": "der." }
+      ],
+      "items": [
+        {
+          "before": "His doctor's letter:",
+          "after": ".",
+          "answer": "Der Brief seines Arztes",
+          "en": "His doctor's letter.",
+          "why": "seines Arztes. seiner does not match a masculine noun.",
+          "tip": "seines.",
+          "hint": "seines."
+        },
+        {
+          "before": "His female patient's bed:",
+          "after": ".",
+          "answer": "Das Bett seiner Patientin",
+          "en": "His female patient's bed.",
+          "why": "seiner Patientin. Feminine, no -s. Not seines.",
+          "tip": "seiner.",
+          "hint": "seiner."
+        },
+        {
+          "before": "The rooms of several patients:",
+          "after": ".",
+          "answer": "Die Zimmer der Patienten",
+          "en": "The rooms of the patients.",
+          "why": "der Patienten. Plural genitive, no extra -s. des Patienten is one man and stays correct.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Because of the operation. Feminine:",
+          "after": ".",
+          "answer": "Wegen der Operation",
+          "en": "Because of the operation.",
+          "why": "der Operation. Feminine, no -s. Not des.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Vater, the genitive ending:",
+          "after": ".",
+          "answer": "des Vaters",
+          "en": "of the father.",
+          "why": "des Vaters. Vater ends in -er, so only -s. Not des Vateres.",
+          "tip": "Vaters.",
+          "hint": "Vaters."
+        },
+        {
+          "before": "One woman's bed:",
+          "after": ".",
+          "answer": "Das Bett der Patientin",
+          "en": "The female patient's bed.",
+          "why": "der Patientin. Feminine, no -s. Not des.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. Spoken von stays correct German when the note itself uses the genitive.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Brief",
+        "paragraphs": [
+          "Das Bett des Patienten ist frei. Der Brief des Arztes liegt hier.",
+          "Wir warten wegen des Fiebers. Das Auto seines Vaters steht hier.",
+          "Annas Bett ist frei. Die Tür der Station ist offen."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The patient's bed, from the note.",
+          "qEn": "des Patienten.",
+          "options": ["des Patienten", "des Patient", "des Patientens"],
+          "answer": 0,
+          "why": "Das Bett des Patienten ist frei.",
+          "hint": "Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor's letter, from the note.",
+          "qEn": "des Arztes.",
+          "options": ["des Arztes", "des Arzt", "der Arztes"],
+          "answer": 0,
+          "why": "Der Brief des Arztes liegt hier.",
+          "hint": "Arztes."
+        },
+        {
+          "kind": "mc",
+          "q": "The fever, from the note.",
+          "qEn": "des Fiebers.",
+          "options": ["des Fiebers", "des Fieber", "des Fieberes"],
+          "answer": 0,
+          "why": "Wir warten wegen des Fiebers. Only -s.",
+          "hint": "Fiebers."
+        },
+        {
+          "kind": "mc",
+          "q": "The ward, from the note.",
+          "qEn": "der Station.",
+          "options": ["der Station", "des Station", "der Stations"],
+          "answer": 0,
+          "why": "Die Tür der Station ist offen. No -s.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "writing-sort",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. The patient's bed is free. The doctor's letter is here. We are waiting because of the fever. Anna's bed is free.",
+      "prompt": "The patient's bed is free. The doctor's letter is here. We are waiting because of the fever. Anna's bed is free.",
+      "bullets": ["Bett des Patienten", "Brief des Arztes", "wegen des Fiebers", "Annas Bett"],
+      "model": "Das Bett des Patienten ist frei. Der Brief des Arztes liegt hier. Wir warten wegen des Fiebers. Annas Bett ist frei.",
+      "modelEn": "The patient's bed is free. The doctor's letter is here. We are waiting because of the fever. Anna's bed is free.",
+      "hint": "Bett des Patienten. Brief des Arztes. wegen des Fiebers. Annas Bett.",
+      "checklist": [
+        { "id": "p", "label": "Bett des Patienten", "keywords": ["bett des patienten"] },
+        { "id": "a", "label": "Brief des Arztes", "keywords": ["brief des arztes"] },
+        { "id": "f", "label": "wegen des Fiebers", "keywords": ["wegen des fiebers"] },
+        { "id": "n", "label": "Annas Bett", "keywords": ["annas bett"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Das Auto seines Vaters",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "des plus the ending for masculine and neuter. der and no -s for feminine and plural. seines for his plus masculine or neuter. seiner for feminine. Names take -s and stand first.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The patient's bed. One man.",
+          "qEn": "des Patienten.",
+          "options": ["Das Bett des Patienten.", "Das Bett des Patient.", "Das Bett des Patientens."],
+          "answer": 0,
+          "why": "des Patienten. Not des Patient. Not des Patientens.",
+          "hint": "Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor's letter.",
+          "qEn": "des Arztes.",
+          "options": ["Der Brief des Arztes.", "Der Brief des Arzt.", "Der Brief der Arztes."],
+          "answer": 0,
+          "why": "des Arztes. Not des Arzt. Not der Arztes.",
+          "hint": "Arztes."
+        },
+        {
+          "kind": "mc",
+          "q": "Because of the fever.",
+          "qEn": "des Fiebers.",
+          "options": ["Wegen des Fiebers.", "Wegen des Fieber.", "Wegen das Fieber."],
+          "answer": 0,
+          "why": "des Fiebers. Not des Fieber. Not das.",
+          "hint": "Fiebers."
+        },
+        {
+          "kind": "mc",
+          "q": "His father's car.",
+          "qEn": "seines Vaters.",
+          "options": ["Das Auto seines Vaters.", "Das Auto seines Vater.", "Das Auto seiner Vaters."],
+          "answer": 0,
+          "why": "seines Vaters. Only -s. Not seiner.",
+          "hint": "Vaters."
+        },
+        {
+          "kind": "mc",
+          "q": "Anna's bed. The genitive.",
+          "qEn": "Annas.",
+          "options": ["Annas Bett.", "Anna's Bett.", "Das Bett von Anna."],
+          "answer": 0,
+          "why": "Annas Bett. No apostrophe. das Bett von Anna stays correct.",
+          "hint": "Annas."
+        },
+        {
+          "kind": "mc",
+          "q": "The door of the ward.",
+          "qEn": "der Station.",
+          "options": ["Die Tür der Station.", "Die Tür des Station.", "Die Tür der Stations."],
+          "answer": 0,
+          "why": "der Station. Feminine, no -s.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "His doctor's letter.",
+          "qEn": "seines Arztes.",
+          "options": ["Der Brief seines Arztes.", "Der Brief seiner Arztes.", "Der Brief seines Arzt."],
+          "answer": 0,
+          "why": "seines Arztes. seiner does not match Arzt. Not seines Arzt.",
+          "hint": "seines."
+        },
+        {
+          "kind": "mc",
+          "q": "His female patient's bed.",
+          "qEn": "seiner Patientin.",
+          "options": ["Das Bett seiner Patientin.", "Das Bett seines Patientin.", "Das Bett seiner Patientins."],
+          "answer": 0,
+          "why": "seiner Patientin. Feminine, no -s. Not seines.",
+          "hint": "seiner."
+        },
+        {
+          "kind": "mc",
+          "q": "The rooms of several patients.",
+          "qEn": "der Patienten.",
+          "options": ["Die Zimmer der Patienten.", "Die Zimmer der Patientens.", "Die Zimmer des Patienten."],
+          "answer": 0,
+          "why": "der Patienten is the plural. No extra -s. des Patienten is one man and stays correct.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Because of the operation. Feminine.",
+          "qEn": "der Operation.",
+          "options": ["Wegen der Operation.", "Wegen des Operation.", "Wegen der Operations."],
+          "answer": 0,
+          "why": "der Operation. Feminine, no -s. Not des.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Vater, genitive. It ends in -er.",
+          "qEn": "only -s.",
+          "options": ["des Vaters", "des Vateres", "des Vater"],
+          "answer": 0,
+          "why": "des Vaters. Not des Vateres. Not des Vater.",
+          "hint": "Vaters."
+        },
+        {
+          "kind": "mc",
+          "q": "One woman's bed.",
+          "qEn": "der Patientin.",
+          "options": ["Das Bett der Patientin.", "Das Bett des Patientin.", "Das Bett der Patientins."],
+          "answer": 0,
+          "why": "der Patientin. Feminine, no -s. Not des.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Das Auto seines Vaters",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Das Bett des Patienten ist frei.", "en": "The patient's bed is free." },
+        { "de": "Der Brief des Arztes liegt hier.", "en": "The doctor's letter is here." },
+        { "de": "Wir warten wegen des Fiebers.", "en": "We are waiting because of the fever." },
+        { "de": "Das Auto seines Vaters steht hier.", "en": "His father's car is here." }
+      ],
+      "messages": [
+        "des plus -(e)s for masculine and neuter. der and no -s for feminine and plural. The genitive follows the noun.",
+        "des Patienten. des Arztes. des Fiebers. seines Vaters. Annas Bett, no apostrophe. vom and von Anna stay correct speech.",
+        "Sehr gut. Das Bett des Patienten ist frei. Der Brief des Arztes liegt hier. Wir warten wegen des Fiebers.",
+        "Ausgezeichnet. You can read whose bed, whose letter, and whose car on the chart."
+      ]
+    }
+  ]
+}

@@ -156,6 +156,11 @@ describe("catalog", () => {
     expect(byNumber.get(60)).toBe("b1-60-werden-verwendungen");
     expect(byNumber.get(61)).toBe("b1-61-lassen");
     expect(byNumber.get(62)).toBe("b1-62-lage-richtung");
+    expect(byNumber.get(63)).toBe("b1-63-genitiv");
+    expect(byNumber.get(64)).toBe("b1-64-n-deklination");
+    expect(byNumber.get(65)).toBe("b1-65-adjektive-personen");
+    expect(byNumber.get(66)).toBe("b1-66-adjektive-neutrum");
+    expect(byNumber.get(67)).toBe("b1-67-indirekte-fragen");
     expect(byNumber.get(41)).toBe("a2-41-konnektoren-pos1");
     expect(byNumber.get(42)).toBe("a2-42-weil-dass-wenn");
     expect(byNumber.get(43)).toBe("a2-43-da-dahin-daher");

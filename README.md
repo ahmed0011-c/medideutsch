@@ -72,8 +72,13 @@ npm run build
 | 60 | Uses of werden (plan, passive, guess) |
 | 61 | lassen (let him sleep, have the blood taken) |
 | 62 | Position and direction (sitzen/setzen, liegen/legen, hängen) |
+| 63 | Genitive (des Patienten, des Arztes, wegen des Fiebers) |
+| 64 | N-declension (der Patient, den Herrn, dem Patienten) |
+| 65 | Adjectives as people (der Jugendliche, ein Kranker) |
+| 66 | Neuter adjective nouns (das Gute, etwas Neues, nichts Schlimmes) |
+| 67 | Indirect questions (Wissen Sie, ob …?, wo der Schmerz ist) |
 
-The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29, 34–38, 40–44 and 46, and B1 chapters 39, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 and 62. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
+The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29, 34–38, 40–44 and 46, and B1 chapters 39, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66 and 67. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
 
 **Wortbank** keeps the words you star from a grammar popup or a comic popup. They stay grouped by the lesson you saved them in. Open Wortbank in the header to filter, mark a word Schwer, review it, or open a separable verb.
 

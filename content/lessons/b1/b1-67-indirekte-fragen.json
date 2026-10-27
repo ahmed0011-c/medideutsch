@@ -1,0 +1,1068 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-67-indirekte-fragen",
+  "level": "B1",
+  "unit": "Kapitel 67",
+  "chapter": 67,
+  "chapters": [67],
+  "title": "Wissen Sie, ob …?",
+  "subtitle": "Indirect questions",
+  "glossary": {
+    "wissen": {
+      "de": "wissen → sie wissen",
+      "pos": "form",
+      "en": "know",
+      "emoji": "❓",
+      "note": "Wissen Sie. Formal Sie. She is weiß, not wissen. The question mark stays, because the main clause is the question."
+    },
+    "sie": {
+      "de": "Sie",
+      "pos": "pronoun",
+      "en": "you (formal)",
+      "emoji": "🧑‍⚕️",
+      "note": "Formal you in Wissen Sie. They is the same form. She is weiß."
+    },
+    "ob": {
+      "de": "ob",
+      "pos": "conjunction",
+      "en": "whether",
+      "emoji": "❓",
+      "note": "Whether. Comma before the clause. The verb goes to the end: ob der Schmerz neu ist. Not wenn, a condition, chapter 42. Not dass, a fact, chapter 42."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine nominative)", "emoji": "🔵", "note": "der Schmerz. der Patient, the subject of heißt. Nominative." },
+    "schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "🤕",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "note": "der Schmerz neu ist. Singular on this chart. weil er Schmerzen hat stays correct, plural, chapter 42."
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new",
+      "emoji": "🆕",
+      "note": "Predicative, no ending, chapter 36. ob der Schmerz neu ist. Not der Schmerz neue ist."
+    },
+    "ist": { "de": "sein → er ist", "pos": "form", "en": "is", "emoji": "🩺", "note": "The verb goes last in the clause: ob der Schmerz neu ist. Ist der Schmerz neu? stays the direct yes/no question." },
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🧑‍⚕️" },
+    "frage": {
+      "de": "fragen → ich frage",
+      "pos": "form",
+      "en": "ask",
+      "emoji": "❓",
+      "note": "Ich frage is a statement, so the sentence takes a period. Ich frage, ob der Schmerz neu ist."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥", "note": "ob er Fieber hat. was er hat." },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "ob er Fieber hat. No article, as in chapter 42. Er sagt, dass er Fieber hat stays a fact."
+    },
+    "hat": { "de": "haben → er hat", "pos": "form", "en": "has", "emoji": "🌡️", "note": "was er hat. ob er Fieber hat. The verb is last. Was hat er? stays the direct question." },
+    "wo": {
+      "de": "wo",
+      "pos": "adverb",
+      "en": "where",
+      "emoji": "📍",
+      "note": "Lowercase inside the clause. wo der Schmerz ist. Wo ist der Schmerz? stays the direct question, verb in position 2."
+    },
+    "wann": {
+      "de": "wann",
+      "pos": "adverb",
+      "en": "when",
+      "emoji": "🕐",
+      "note": "Lowercase inside the clause. wann die Visite ist. Wann ist die Visite? stays the direct question."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine)", "emoji": "🔴", "note": "die Visite." },
+    "visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "emoji": "🩺",
+      "article": "die",
+      "plural": "die Visiten",
+      "note": "wann die Visite ist. The ward round."
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "adverb",
+      "en": "how, what",
+      "emoji": "🏷️",
+      "note": "wie der Patient heißt. The verb is last. Wie heißt der Patient? stays the direct question."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "der Patient is nominative, the subject of heißt. den Patienten stays the other case, chapter 64."
+    },
+    "heißt": { "de": "heißen → er heißt", "pos": "form", "en": "is called", "emoji": "🏷️", "note": "wie der Patient heißt. ß. Wie heißt der Patient? stays the direct question." },
+    "was": {
+      "de": "was",
+      "pos": "pronoun",
+      "en": "what",
+      "emoji": "❓",
+      "note": "was er hat. The verb is last. Was hat er? stays the direct question."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Ask inside the sentence",
+      "learn": [
+        "ob and the W-words wo, wann, wie and was open a subordinate clause, like dass and wenn. Put a comma before the clause. The finite verb goes to the end.",
+        "ob means whether. It is not wenn, which is a condition, and not dass, which reports a fact.",
+        "The direct question stays correct, with the verb in position 2, or first in a yes/no question. The indirect clause moves that verb to the end.",
+        "Wissen Sie, ob …? keeps the question mark, because the main clause is the question. Ich frage, ob … takes a period, because Ich frage is a statement."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Schmerz", "article": "der", "plural": "die Schmerzen", "en": "pain", "emoji": "🤕", "glossaryKey": "schmerz" },
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "glossaryKey": "fieber" },
+        { "de": "Visite", "article": "die", "plural": "die Visiten", "en": "ward round", "emoji": "🩺", "glossaryKey": "visite" }
+      ],
+      "text": {
+        "title": "Wissen Sie, ob …?",
+        "de": "Wissen Sie, ob der Schmerz neu ist? Ich frage, ob der Schmerz neu ist. Ich frage, ob er Fieber hat. Wissen Sie, wo der Schmerz ist? Ich frage, wann die Visite ist. Wissen Sie, wie der Patient heißt? Ich frage, was er hat.",
+        "en": "Do you know whether the pain is new? I ask whether the pain is new. I ask whether he has a fever. Do you know where the pain is? I ask when the round is. Do you know what the patient is called? I ask what he has."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "ob or a W-word",
+      "practice": "choose",
+      "heroTitle": "Wissen Sie, ob …?",
+      "heroImage": "bed",
+      "story": [
+        "An indirect question is a subordinate clause, like <b>dass</b> and <b>wenn</b> in chapter 42. <b>ob</b> means whether. <b>wo, wann, wie, was</b> ask where, when, how and what. Comma before the clause. The finite verb goes to the end. <b>ob der Schmerz neu ist. wo der Schmerz ist.</b>",
+        "Two shapes. The main clause can be a question, so the sentence keeps <b>?</b>: <b>Wissen Sie, ob der Schmerz neu ist? Wissen Sie, wo der Schmerz ist?</b> Or the main clause is a statement, so the sentence ends with a period: <b>Ich frage, ob der Schmerz neu ist. Ich frage, was er hat.</b> The question mark on <b>Ich frage, ob der Schmerz neu ist?</b> is the trap. Ich frage is a statement.",
+        "The direct question stays correct. Chapter 10: <b>Ist der Schmerz neu?</b> The verb is first. Chapter 9: <b>Wo ist der Schmerz? Wann ist die Visite? Wie heißt der Patient? Was hat er?</b> The W-word is in position 1 and the verb is in position 2. Inside the clause the verb leaves that place.",
+        "<b>dass</b> reports a fact: <b>Er sagt, dass er Fieber hat.</b> <b>wenn</b> is a condition: <b>Wir rufen den Arzt, wenn er Fieber hat.</b> <b>Wenn er aufsteht</b> stays that condition, and the verb is one word. Whether is <b>ob</b>, not dass and not wenn. <b>denn</b> keeps the verb in position 2: <b>Er bleibt im Bett, denn er hat Schmerzen.</b> denn is not this chapter.",
+        "<b>Ich weiß nicht, ob der Schmerz neu ist.</b> stays correct. Fronted: <b>Ob der Schmerz neu ist, weiß ich nicht.</b> The verb of the ob-clause is still last, and the main verb follows. <b>ob er aufsteht</b> is one word at the end. <b>er steht auf</b> stays the main clause. Not ob er steht auf.",
+        "<b>warum, woher, wohin</b> work the same way: the verb goes last. This chapter does not drill them. Direction wohin is chapter 62. The infinitive with <b>zu</b> is chapter 68. <b>der Patient</b> with heißt is nominative. <b>neu</b> has no ending. <b>weil er Schmerzen hat</b> stays correct, plural, chapter 42."
+      ],
+      "questionRule": "After ob and a W-word the verb goes to the end. Wissen Sie, ob …? keeps the question mark. Ich frage, ob … takes a period. Ist der Schmerz neu? and Wo ist der Schmerz? stay direct questions.",
+      "tables": [
+        {
+          "title": "Verb am Ende",
+          "caption": "ob and the W-word open the clause. Comma in the full sentence. The verb is at the end.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "ob", "cells": ["ob der Schmerz neu ist"], "highlight": true },
+            { "label": "wo", "cells": ["wo der Schmerz ist"], "highlight": true },
+            { "label": "wann", "cells": ["wann die Visite ist"] },
+            { "label": "wie", "cells": ["wie der Patient heißt"] },
+            { "label": "was", "cells": ["was er hat"] }
+          ]
+        },
+        {
+          "title": "Direkt und indirekt",
+          "caption": "Both columns are correct German. The direct question keeps its verb in position 2, or first in a yes/no question. The indirect clause moves that verb to the end.",
+          "columns": ["Direkt", "Indirekt"],
+          "rows": [
+            { "label": "ob", "cells": ["Ist der Schmerz neu?", "ob der Schmerz neu ist"], "highlight": true },
+            { "label": "wo", "cells": ["Wo ist der Schmerz?", "wo der Schmerz ist"], "highlight": true },
+            { "label": "wann", "cells": ["Wann ist die Visite?", "wann die Visite ist"] },
+            { "label": "wie", "cells": ["Wie heißt der Patient?", "wie der Patient heißt"] },
+            { "label": "was", "cells": ["Was hat er?", "was er hat"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Ist der Schmerz neu?, Wo ist der Schmerz?, dass, wenn, denn, and er steht auf stay correct in their own patterns.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "ob", "cells": ["Wissen Sie, ob der Schmerz ist neu", "Wissen Sie, ob der Schmerz neu ist"] },
+            { "label": "wo", "cells": ["Wissen Sie, wo ist der Schmerz?", "Wissen Sie, wo der Schmerz ist?"] },
+            { "label": "Punkt", "cells": ["Ich frage, ob der Schmerz neu ist?", "Ich frage, ob der Schmerz neu ist."] },
+            { "label": "wie", "cells": ["wie heißt der Patient", "wie der Patient heißt"] },
+            { "label": "auf", "cells": ["ob er steht auf", "ob er aufsteht"] },
+            { "label": "Komma", "cells": ["Wissen Sie ob er kommt?", "Wissen Sie, ob er kommt?"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four indirect traps",
+        "items": [
+          { "de": "Wissen Sie, ob der Schmerz neu ist?", "en": "ist is last. The main clause is the question.", "tone": "ok" },
+          { "de": "Wissen Sie, ob der Schmerz ist neu?", "en": "ist has left the end.", "tone": "stop" },
+          { "de": "Ich frage, ob der Schmerz neu ist.", "en": "A statement takes a period.", "tone": "ok" },
+          { "de": "Ich frage, ob der Schmerz neu ist?", "en": "Ich frage is not a question.", "tone": "stop" },
+          { "de": "Wissen Sie, wo der Schmerz ist?", "en": "ist is last.", "tone": "ok" },
+          { "de": "Wissen Sie, wo ist der Schmerz?", "en": "The verb left position 2.", "tone": "stop" },
+          { "de": "Ich frage, was er hat.", "en": "hat is last.", "tone": "ok" },
+          { "de": "Ich frage, was hat er.", "en": "hat has left the end.", "tone": "stop" }
+        ],
+        "tip": "Verb at the end. Wissen Sie keeps ?. Ich frage takes a period."
+      },
+      "tips": [
+        {
+          "title": "The verb leaves its question place",
+          "body": "Wo ist der Schmerz? stays the direct question. Wissen Sie, wo der Schmerz ist? moves ist to the end.",
+          "mnemonic": "ob der Schmerz neu ist. wo der Schmerz ist. was er hat.",
+          "emoji": "❓"
+        }
+      ],
+      "meaningsTitle": "Four ward clauses",
+      "meanings": [
+        { "modal": "ob … neu ist", "emoji": "🤕", "en": "whether the pain is new", "use": "whether", "de": "ob der Schmerz neu ist", "deEn": "whether the pain is new" },
+        { "modal": "wo … ist", "emoji": "📍", "en": "where the pain is", "use": "where", "de": "wo der Schmerz ist", "deEn": "where the pain is" },
+        { "modal": "wann … ist", "emoji": "🕐", "en": "when the round is", "use": "when", "de": "wann die Visite ist", "deEn": "when the round is" },
+        { "modal": "was er hat", "emoji": "❓", "en": "what he has", "use": "what", "de": "was er hat", "deEn": "what he has" }
+      ],
+      "quizTitle": "Which sentence?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Whether the pain is new. The main clause is the question.",
+          "qEn": "Wissen Sie, ob …?",
+          "options": ["Wissen Sie, ob der Schmerz neu ist?", "Wissen Sie, ob der Schmerz ist neu?", "Ist der Schmerz neu?"],
+          "answer": 0,
+          "why": "ist is last: ob der Schmerz neu ist. Wissen Sie keeps the question mark. Ist der Schmerz neu? stays the direct yes/no question, chapter 10.",
+          "hint": "neu ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Whether the pain is new. A statement, no question mark.",
+          "qEn": "Ich frage, ob ….",
+          "options": ["Ich frage, ob der Schmerz neu ist.", "Ich frage, ob der Schmerz neu ist?", "Wissen Sie, ob der Schmerz neu ist?"],
+          "answer": 0,
+          "why": "Ich frage is a statement, so the sentence takes a period. The question mark is the trap. Wissen Sie, ob …? stays correct, because that main clause is the question.",
+          "hint": "a period."
+        },
+        {
+          "kind": "mc",
+          "q": "Where the pain is.",
+          "qEn": "wo der Schmerz ist.",
+          "options": ["Wissen Sie, wo der Schmerz ist?", "Wissen Sie, wo ist der Schmerz?", "Wo ist der Schmerz?"],
+          "answer": 0,
+          "why": "wo der Schmerz ist. The verb leaves position 2. Wo ist der Schmerz? stays the direct question, chapter 9.",
+          "hint": "Schmerz ist."
+        },
+        {
+          "kind": "mc",
+          "q": "When the round is.",
+          "qEn": "wann die Visite ist.",
+          "options": ["Ich frage, wann die Visite ist.", "Ich frage, wann ist die Visite.", "Wann ist die Visite?"],
+          "answer": 0,
+          "why": "wann die Visite ist. Ich frage takes a period. Wann ist die Visite? stays the direct question.",
+          "hint": "Visite ist."
+        },
+        {
+          "kind": "mc",
+          "q": "What the patient is called.",
+          "qEn": "wie der Patient heißt.",
+          "options": ["Wissen Sie, wie der Patient heißt?", "Wissen Sie, wie heißt der Patient?", "Wie heißt der Patient?"],
+          "answer": 0,
+          "why": "wie der Patient heißt. der Patient is the subject. Wie heißt der Patient? stays the direct question.",
+          "hint": "Patient heißt."
+        },
+        {
+          "kind": "mc",
+          "q": "What he has. A statement.",
+          "qEn": "was er hat.",
+          "options": ["Ich frage, was er hat.", "Ich frage, was hat er.", "Was hat er?"],
+          "answer": 0,
+          "why": "was er hat. The verb is last. Was hat er? stays the direct question.",
+          "hint": "er hat."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "ob and the W-word take the verb to the end. Wissen Sie keeps the question mark. Ich frage takes a period. A direct question stays correct in its own pattern, so it is not a chip here.",
+      "chips": [
+        { "w": "Wissen Sie, ob der Schmerz neu ist", "hint": "neu ist." },
+        { "w": "Ich frage, ob der Schmerz neu ist", "hint": "a period." },
+        { "w": "Wissen Sie, wo der Schmerz ist", "hint": "Schmerz ist." },
+        { "w": "Ich frage, wann die Visite ist", "hint": "Visite ist." },
+        { "w": "Wissen Sie, wie der Patient heißt", "hint": "Patient heißt." },
+        { "w": "Ich frage, was er hat", "hint": "er hat." },
+        { "w": "Wissen Sie, ob der Schmerz ist neu", "hint": "neu ist." },
+        { "w": "Ich frage, ob ist der Schmerz neu", "hint": "neu ist." },
+        { "w": "Wissen Sie, wo ist der Schmerz", "hint": "Schmerz ist." },
+        { "w": "Ich frage, wann ist die Visite", "hint": "Visite ist." },
+        { "w": "Wissen Sie, wie heißt der Patient", "hint": "Patient heißt." },
+        { "w": "Ich frage, was hat er", "hint": "er hat." }
+      ],
+      "items": [
+        {
+          "before": "Do you know whether the pain is new:",
+          "after": "?",
+          "answer": "Wissen Sie, ob der Schmerz neu ist",
+          "en": "Do you know whether the pain is new?",
+          "why": "ob der Schmerz neu ist. ist is last. Ist der Schmerz neu? stays the direct question.",
+          "tip": "neu ist.",
+          "hint": "neu ist."
+        },
+        {
+          "before": "Whether the pain is new, as a statement:",
+          "after": ".",
+          "answer": "Ich frage, ob der Schmerz neu ist",
+          "en": "I ask whether the pain is new.",
+          "why": "Ich frage takes a period. The question mark on that statement is the trap. Wissen Sie, ob …? stays a question.",
+          "tip": "a period.",
+          "hint": "a period."
+        },
+        {
+          "before": "Do you know where the pain is:",
+          "after": "?",
+          "answer": "Wissen Sie, wo der Schmerz ist",
+          "en": "Do you know where the pain is?",
+          "why": "wo der Schmerz ist. Wo ist der Schmerz? stays the direct question.",
+          "tip": "Schmerz ist.",
+          "hint": "Schmerz ist."
+        },
+        {
+          "before": "When the round is, as a statement:",
+          "after": ".",
+          "answer": "Ich frage, wann die Visite ist",
+          "en": "I ask when the round is.",
+          "why": "wann die Visite ist. Wann ist die Visite? stays the direct question.",
+          "tip": "Visite ist.",
+          "hint": "Visite ist."
+        },
+        {
+          "before": "Do you know what the patient is called:",
+          "after": "?",
+          "answer": "Wissen Sie, wie der Patient heißt",
+          "en": "Do you know what the patient is called?",
+          "why": "wie der Patient heißt. der Patient is the subject. Wie heißt der Patient? stays the direct question.",
+          "tip": "Patient heißt.",
+          "hint": "Patient heißt."
+        },
+        {
+          "before": "What he has, as a statement:",
+          "after": ".",
+          "answer": "Ich frage, was er hat",
+          "en": "I ask what he has.",
+          "why": "was er hat. Was hat er? stays the direct question.",
+          "tip": "er hat.",
+          "hint": "er hat."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names the clause. One piece has the verb last. One moves the verb. A direct question, or dass after sagt, stays correct German.",
+      "items": [
+        {
+          "prompt": "Whether, verb last",
+          "options": [
+            { "emoji": "❓", "label": "ob der Schmerz neu ist", "caption": "verb last" },
+            { "emoji": "🚫", "label": "ob der Schmerz ist neu", "caption": "ist not last" },
+            { "emoji": "🚫", "label": "ob ist der Schmerz neu", "caption": "verb first" }
+          ],
+          "answer": 0,
+          "why": "ob der Schmerz neu ist. Both other lines move ist.",
+          "hint": "neu ist."
+        },
+        {
+          "prompt": "Where the pain is",
+          "options": [
+            { "emoji": "📍", "label": "wo der Schmerz ist", "caption": "verb last" },
+            { "emoji": "🚫", "label": "wo ist der Schmerz", "caption": "verb in position 2" },
+            { "emoji": "❓", "label": "Wo ist der Schmerz?", "caption": "direct question" }
+          ],
+          "answer": 0,
+          "why": "wo der Schmerz ist. Wo ist der Schmerz? stays the direct question.",
+          "hint": "Schmerz ist."
+        },
+        {
+          "prompt": "When the round is",
+          "options": [
+            { "emoji": "🕐", "label": "wann die Visite ist", "caption": "verb last" },
+            { "emoji": "🚫", "label": "wann ist die Visite", "caption": "verb in position 2" },
+            { "emoji": "❓", "label": "Wann ist die Visite?", "caption": "direct question" }
+          ],
+          "answer": 0,
+          "why": "wann die Visite ist. Wann ist die Visite? stays the direct question.",
+          "hint": "Visite ist."
+        },
+        {
+          "prompt": "What the patient is called",
+          "options": [
+            { "emoji": "🏷️", "label": "wie der Patient heißt", "caption": "verb last" },
+            { "emoji": "🚫", "label": "wie heißt der Patient", "caption": "verb in position 2" },
+            { "emoji": "❓", "label": "Wie heißt der Patient?", "caption": "direct question" }
+          ],
+          "answer": 0,
+          "why": "wie der Patient heißt. Wie heißt der Patient? stays the direct question. der Patient is the subject.",
+          "hint": "Patient heißt."
+        },
+        {
+          "prompt": "What he has",
+          "options": [
+            { "emoji": "❓", "label": "was er hat", "caption": "verb last" },
+            { "emoji": "🚫", "label": "was hat er", "caption": "verb in position 2" },
+            { "emoji": "❓", "label": "Was hat er?", "caption": "direct question" }
+          ],
+          "answer": 0,
+          "why": "was er hat. Was hat er? stays the direct question.",
+          "hint": "er hat."
+        },
+        {
+          "prompt": "Whether he has a fever, a statement",
+          "options": [
+            { "emoji": "🌡️", "label": "Ich frage, ob er Fieber hat.", "caption": "period" },
+            { "emoji": "🚫", "label": "Ich frage, ob er Fieber hat?", "caption": "question mark" },
+            { "emoji": "💬", "label": "Er sagt, dass er Fieber hat.", "caption": "a fact" }
+          ],
+          "answer": 0,
+          "why": "Ich frage takes a period. Er sagt, dass er Fieber hat stays correct after sagt. Whether is ob, not dass.",
+          "hint": "a period."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, where the pain is",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, whether it is new",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, whether he has a fever",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, when the round is",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Verb at the end",
+      "practice": "build",
+      "instructions": "Build the line. In the question, Wissen comes first. Ich frage is a statement. The comma stays on Sie or frage. The verb of the clause is last.",
+      "items": [
+        {
+          "tiles": ["Wissen", "Sie,", "ob", "er", "kommt"],
+          "answers": ["Wissen Sie, ob er kommt"],
+          "punct": "?",
+          "modal": "Wissen",
+          "inf": "kommt",
+          "question": true,
+          "en": "Do you know whether he is coming?",
+          "hint": "Wissen first. kommt last.",
+          "feedback": {
+            "end": "kommt closes the question.",
+            "first": "Wissen comes first in the question.",
+            "fallback": "Wissen Sie, ob er kommt?"
+          }
+        },
+        {
+          "tiles": ["Ich", "frage,", "ob", "er", "kommt"],
+          "answers": ["Ich frage, ob er kommt"],
+          "punct": ".",
+          "modal": "frage",
+          "inf": "kommt",
+          "question": false,
+          "en": "I ask whether he is coming.",
+          "hint": "Ich frage, ob er kommt.",
+          "feedback": {
+            "end": "kommt closes Ich frage, ob er kommt.",
+            "fallback": "Ich frage, ob er kommt."
+          }
+        },
+        {
+          "tiles": ["Wissen", "Sie,", "wo", "er", "liegt"],
+          "answers": ["Wissen Sie, wo er liegt"],
+          "punct": "?",
+          "modal": "Wissen",
+          "inf": "liegt",
+          "question": true,
+          "en": "Do you know where he is lying?",
+          "hint": "Wissen first. liegt last.",
+          "feedback": {
+            "end": "liegt closes the question.",
+            "first": "Wissen comes first in the question.",
+            "fallback": "Wissen Sie, wo er liegt?"
+          }
+        },
+        {
+          "tiles": ["Ich", "frage,", "was", "er", "hat"],
+          "answers": ["Ich frage, was er hat"],
+          "punct": ".",
+          "modal": "frage",
+          "inf": "hat",
+          "question": false,
+          "en": "I ask what he has.",
+          "hint": "Ich frage, was er hat.",
+          "feedback": {
+            "end": "hat closes Ich frage, was er hat.",
+            "fallback": "Ich frage, was er hat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the clause",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names the direct question or the other main clause. That pattern stays correct. Give the indirect line. Wissen Sie keeps the question mark. Ich frage takes a period.",
+      "chips": [
+        { "w": "Wissen Sie, ob der Schmerz neu ist", "hint": "neu ist." },
+        { "w": "Ich frage, ob der Schmerz neu ist", "hint": "a period." },
+        { "w": "Wissen Sie, wo der Schmerz ist", "hint": "Schmerz ist." },
+        { "w": "Ich frage, wann die Visite ist", "hint": "Visite ist." },
+        { "w": "Wissen Sie, wie der Patient heißt", "hint": "Patient heißt." },
+        { "w": "Ich frage, was er hat", "hint": "er hat." },
+        { "w": "Wissen Sie, ob der Schmerz ist neu", "hint": "neu ist." },
+        { "w": "Ich frage, ob ist der Schmerz neu", "hint": "neu ist." },
+        { "w": "Wissen Sie, wo ist der Schmerz", "hint": "Schmerz ist." },
+        { "w": "Ich frage, wann ist die Visite", "hint": "Visite ist." },
+        { "w": "Wissen Sie, wie heißt der Patient", "hint": "Patient heißt." },
+        { "w": "Ich frage, was hat er", "hint": "er hat." }
+      ],
+      "items": [
+        {
+          "before": "Direct Ist der Schmerz neu? stays correct. Whether, as a question:",
+          "after": "?",
+          "answer": "Wissen Sie, ob der Schmerz neu ist",
+          "en": "Do you know whether the pain is new?",
+          "why": "ob der Schmerz neu ist. Ist der Schmerz neu? stays the direct question.",
+          "tip": "neu ist.",
+          "hint": "neu ist."
+        },
+        {
+          "before": "Wissen Sie keeps the question mark. Whether, as a statement:",
+          "after": ".",
+          "answer": "Ich frage, ob der Schmerz neu ist",
+          "en": "I ask whether the pain is new.",
+          "why": "Ich frage takes a period. Wissen Sie, ob der Schmerz neu ist? stays correct.",
+          "tip": "a period.",
+          "hint": "a period."
+        },
+        {
+          "before": "Direct Wo ist der Schmerz? stays correct. Where, as a question:",
+          "after": "?",
+          "answer": "Wissen Sie, wo der Schmerz ist",
+          "en": "Do you know where the pain is?",
+          "why": "wo der Schmerz ist. Wo ist der Schmerz? stays the direct question.",
+          "tip": "Schmerz ist.",
+          "hint": "Schmerz ist."
+        },
+        {
+          "before": "Direct Wann ist die Visite? stays correct. When, as a statement:",
+          "after": ".",
+          "answer": "Ich frage, wann die Visite ist",
+          "en": "I ask when the round is.",
+          "why": "wann die Visite ist. Wann ist die Visite? stays the direct question.",
+          "tip": "Visite ist.",
+          "hint": "Visite ist."
+        },
+        {
+          "before": "Direct Wie heißt der Patient? stays correct. The name, as a question:",
+          "after": "?",
+          "answer": "Wissen Sie, wie der Patient heißt",
+          "en": "Do you know what the patient is called?",
+          "why": "wie der Patient heißt. Wie heißt der Patient? stays the direct question.",
+          "tip": "Patient heißt.",
+          "hint": "Patient heißt."
+        },
+        {
+          "before": "Direct Was hat er? stays correct. What he has, as a statement:",
+          "after": ".",
+          "answer": "Ich frage, was er hat",
+          "en": "I ask what he has.",
+          "why": "was er hat. Was hat er? stays the direct question.",
+          "tip": "er hat.",
+          "hint": "er hat."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the indirect form. Choose the correction. A direct question stays correct. Wissen Sie keeps the question mark. Ich frage takes a period. dass and wenn stay correct in their own patterns.",
+      "items": [
+        {
+          "clues": ["Whether the pain is new.", "The main clause is the question.", "Wissen Sie, ob der Schmerz ist neu?"],
+          "options": ["Wissen Sie, ob der Schmerz neu ist?", "Wissen Sie, ob der Schmerz ist neu?", "Ist der Schmerz neu?"],
+          "answer": 0,
+          "reveal": "Wissen Sie, ob der Schmerz neu ist?",
+          "hint": "neu ist."
+        },
+        {
+          "clues": ["Whether the pain is new.", "A statement.", "Ich frage, ob der Schmerz neu ist?"],
+          "options": ["Ich frage, ob der Schmerz neu ist.", "Ich frage, ob der Schmerz neu ist?", "Wissen Sie, ob der Schmerz neu ist?"],
+          "answer": 0,
+          "reveal": "Ich frage, ob der Schmerz neu ist.",
+          "hint": "a period."
+        },
+        {
+          "clues": ["Where the pain is.", "Verb last.", "Wissen Sie, wo ist der Schmerz?"],
+          "options": ["Wissen Sie, wo der Schmerz ist?", "Wissen Sie, wo ist der Schmerz?", "Wo ist der Schmerz?"],
+          "answer": 0,
+          "reveal": "Wissen Sie, wo der Schmerz ist?",
+          "hint": "Schmerz ist."
+        },
+        {
+          "clues": ["When the round is.", "A statement.", "Ich frage, wann ist die Visite."],
+          "options": ["Ich frage, wann die Visite ist.", "Ich frage, wann ist die Visite.", "Wann ist die Visite?"],
+          "answer": 0,
+          "reveal": "Ich frage, wann die Visite ist.",
+          "hint": "Visite ist."
+        },
+        {
+          "clues": ["What the patient is called.", "Verb last.", "Wissen Sie, wie heißt der Patient?"],
+          "options": ["Wissen Sie, wie der Patient heißt?", "Wissen Sie, wie heißt der Patient?", "Wie heißt der Patient?"],
+          "answer": 0,
+          "reveal": "Wissen Sie, wie der Patient heißt?",
+          "hint": "Patient heißt."
+        },
+        {
+          "clues": ["What he has.", "A statement.", "Ich frage, was hat er."],
+          "options": ["Ich frage, was er hat.", "Ich frage, was hat er.", "Was hat er?"],
+          "answer": 0,
+          "reveal": "Ich frage, was er hat.",
+          "hint": "er hat."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor asks inside the sentence. The verb goes last. Wissen Sie keeps the question mark. Ich frage takes a period.",
+      "chips": [
+        { "w": "Wissen Sie, ob der Schmerz neu ist", "hint": "neu ist." },
+        { "w": "Ich frage, ob der Schmerz neu ist", "hint": "a period." },
+        { "w": "Wissen Sie, wo der Schmerz ist", "hint": "Schmerz ist." },
+        { "w": "Ich frage, wann die Visite ist", "hint": "Visite ist." },
+        { "w": "Wissen Sie, wie der Patient heißt", "hint": "Patient heißt." },
+        { "w": "Ich frage, was er hat", "hint": "er hat." },
+        { "w": "Wissen Sie, ob der Schmerz ist neu", "hint": "neu ist." },
+        { "w": "Ich frage, ob ist der Schmerz neu", "hint": "neu ist." },
+        { "w": "Wissen Sie, wo ist der Schmerz", "hint": "Schmerz ist." },
+        { "w": "Ich frage, wann ist die Visite", "hint": "Visite ist." },
+        { "w": "Wissen Sie, wie heißt der Patient", "hint": "Patient heißt." },
+        { "w": "Ich frage, was hat er", "hint": "er hat." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, do you know whether the pain is new:",
+          "after": "?",
+          "answer": "Wissen Sie, ob der Schmerz neu ist",
+          "en": "Do you know whether the pain is new?",
+          "why": "ob der Schmerz neu ist.",
+          "tip": "neu ist.",
+          "hint": "neu ist."
+        },
+        {
+          "before": "Doctor, whether the pain is new, as a statement:",
+          "after": ".",
+          "answer": "Ich frage, ob der Schmerz neu ist",
+          "en": "I ask whether the pain is new.",
+          "why": "Ich frage takes a period.",
+          "tip": "a period.",
+          "hint": "a period."
+        },
+        {
+          "before": "Nurse, do you know where the pain is:",
+          "after": "?",
+          "answer": "Wissen Sie, wo der Schmerz ist",
+          "en": "Do you know where the pain is?",
+          "why": "wo der Schmerz ist.",
+          "tip": "Schmerz ist.",
+          "hint": "Schmerz ist."
+        },
+        {
+          "before": "Doctor, when the round is, as a statement:",
+          "after": ".",
+          "answer": "Ich frage, wann die Visite ist",
+          "en": "I ask when the round is.",
+          "why": "wann die Visite ist.",
+          "tip": "Visite ist.",
+          "hint": "Visite ist."
+        },
+        {
+          "before": "Nurse, do you know what the patient is called:",
+          "after": "?",
+          "answer": "Wissen Sie, wie der Patient heißt",
+          "en": "Do you know what the patient is called?",
+          "why": "wie der Patient heißt.",
+          "tip": "Patient heißt.",
+          "hint": "Patient heißt."
+        },
+        {
+          "before": "Doctor, what he has, as a statement:",
+          "after": ".",
+          "answer": "Ich frage, was er hat",
+          "en": "I ask what he has.",
+          "why": "was er hat.",
+          "tip": "er hat.",
+          "hint": "er hat."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The clause",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The clause only. ob and the W-word take the verb to the end. A direct question is not a chip here. dass stays correct after sagt.",
+      "chips": [
+        { "w": "ob der Schmerz neu ist", "hint": "neu ist." },
+        { "w": "ob er Fieber hat", "hint": "Fieber hat." },
+        { "w": "wo der Schmerz ist", "hint": "Schmerz ist." },
+        { "w": "wann die Visite ist", "hint": "Visite ist." },
+        { "w": "wie der Patient heißt", "hint": "Patient heißt." },
+        { "w": "was er hat", "hint": "er hat." },
+        { "w": "ob der Schmerz ist neu", "hint": "neu ist." },
+        { "w": "ob er hat Fieber", "hint": "Fieber hat." },
+        { "w": "wo ist der Schmerz", "hint": "Schmerz ist." },
+        { "w": "wann ist die Visite", "hint": "Visite ist." },
+        { "w": "wie heißt der Patient", "hint": "Patient heißt." },
+        { "w": "was hat er", "hint": "er hat." }
+      ],
+      "items": [
+        {
+          "before": "Whether the pain is new:",
+          "after": ".",
+          "answer": "ob der Schmerz neu ist",
+          "en": "whether the pain is new.",
+          "why": "ob der Schmerz neu ist. Not ob der Schmerz ist neu.",
+          "tip": "neu ist.",
+          "hint": "neu ist."
+        },
+        {
+          "before": "Whether he has a fever:",
+          "after": ".",
+          "answer": "ob er Fieber hat",
+          "en": "whether he has a fever.",
+          "why": "ob er Fieber hat. Er sagt, dass er Fieber hat stays a fact.",
+          "tip": "Fieber hat.",
+          "hint": "Fieber hat."
+        },
+        {
+          "before": "Where the pain is:",
+          "after": ".",
+          "answer": "wo der Schmerz ist",
+          "en": "where the pain is.",
+          "why": "wo der Schmerz ist. Wo ist der Schmerz? stays the direct question.",
+          "tip": "Schmerz ist.",
+          "hint": "Schmerz ist."
+        },
+        {
+          "before": "When the round is:",
+          "after": ".",
+          "answer": "wann die Visite ist",
+          "en": "when the round is.",
+          "why": "wann die Visite ist. Wann ist die Visite? stays the direct question.",
+          "tip": "Visite ist.",
+          "hint": "Visite ist."
+        },
+        {
+          "before": "What the patient is called:",
+          "after": ".",
+          "answer": "wie der Patient heißt",
+          "en": "what the patient is called.",
+          "why": "wie der Patient heißt. Wie heißt der Patient? stays the direct question.",
+          "tip": "Patient heißt.",
+          "hint": "Patient heißt."
+        },
+        {
+          "before": "What he has:",
+          "after": ".",
+          "answer": "was er hat",
+          "en": "what he has.",
+          "why": "was er hat. Was hat er? stays the direct question.",
+          "tip": "er hat.",
+          "hint": "er hat."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. A direct question stays correct when the note is not using it. dass stays correct after sagt.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Schmerz",
+        "paragraphs": [
+          "Wissen Sie, ob der Schmerz neu ist? Ich frage, ob der Schmerz neu ist. Ich frage, ob er Fieber hat.",
+          "Wissen Sie, wo der Schmerz ist? Ich frage, wann die Visite ist. Wissen Sie, wie der Patient heißt? Ich frage, was er hat."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Whether the pain is new, from the note.",
+          "qEn": "ob der Schmerz neu ist.",
+          "options": ["ob der Schmerz neu ist", "ob der Schmerz ist neu", "ob ist der Schmerz neu"],
+          "answer": 0,
+          "why": "The note says ob der Schmerz neu ist. Both other lines move ist.",
+          "hint": "neu ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Where the pain is, from the note.",
+          "qEn": "wo der Schmerz ist.",
+          "options": ["wo der Schmerz ist", "wo ist der Schmerz", "Wo ist der Schmerz?"],
+          "answer": 0,
+          "why": "wo der Schmerz ist. Wo ist der Schmerz? stays the direct question.",
+          "hint": "Schmerz ist."
+        },
+        {
+          "kind": "mc",
+          "q": "When the round is, from the note.",
+          "qEn": "wann die Visite ist.",
+          "options": ["wann die Visite ist", "wann ist die Visite", "Wann ist die Visite?"],
+          "answer": 0,
+          "why": "wann die Visite ist. Wann ist die Visite? stays the direct question.",
+          "hint": "Visite ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Whether he has a fever, from the note.",
+          "qEn": "ob er Fieber hat.",
+          "options": ["ob er Fieber hat", "ob er hat Fieber", "dass er Fieber hat"],
+          "answer": 0,
+          "why": "The note uses ob er Fieber hat. dass er Fieber hat stays correct after sagt.",
+          "hint": "Fieber hat."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. I ask whether the pain is new. I ask where the pain is. I ask when the round is. I ask what he has.",
+      "prompt": "I ask whether the pain is new. I ask where the pain is. I ask when the round is. I ask what he has.",
+      "bullets": ["ob der Schmerz neu ist", "wo der Schmerz ist", "wann die Visite ist", "was er hat"],
+      "model": "Ich frage, ob der Schmerz neu ist. Ich frage, wo der Schmerz ist. Ich frage, wann die Visite ist. Ich frage, was er hat.",
+      "modelEn": "I ask whether the pain is new. I ask where the pain is. I ask when the round is. I ask what he has.",
+      "hint": "Ich frage. Verb at the end. A period.",
+      "checklist": [
+        { "id": "ob", "label": "ob der Schmerz neu ist", "keywords": ["ob der schmerz neu ist"] },
+        { "id": "wo", "label": "wo der Schmerz ist", "keywords": ["wo der schmerz ist"] },
+        { "id": "wann", "label": "wann die Visite ist", "keywords": ["wann die visite ist"] },
+        { "id": "was", "label": "was er hat", "keywords": ["was er hat"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Wissen Sie, ob …?",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "After ob and a W-word the verb goes to the end. Wissen Sie, ob …? keeps the question mark. Ich frage, ob … takes a period. Direct questions, dass, and wenn stay correct in their own patterns.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Whether the pain is new. The main clause is the question.",
+          "qEn": "Wissen Sie, ob …?",
+          "options": ["Wissen Sie, ob der Schmerz neu ist?", "Wissen Sie, ob der Schmerz ist neu?", "Ist der Schmerz neu?"],
+          "answer": 0,
+          "why": "ist is last. Ist der Schmerz neu? stays the direct question.",
+          "hint": "neu ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Whether the pain is new. A statement, no question mark.",
+          "qEn": "Ich frage, ob ….",
+          "options": ["Ich frage, ob der Schmerz neu ist.", "Ich frage, ob der Schmerz neu ist?", "Wissen Sie, ob der Schmerz neu ist?"],
+          "answer": 0,
+          "why": "Ich frage takes a period. Wissen Sie, ob …? stays a question.",
+          "hint": "a period."
+        },
+        {
+          "kind": "mc",
+          "q": "Where the pain is.",
+          "qEn": "wo der Schmerz ist.",
+          "options": ["Wissen Sie, wo der Schmerz ist?", "Wissen Sie, wo ist der Schmerz?", "Wo ist der Schmerz?"],
+          "answer": 0,
+          "why": "wo der Schmerz ist. Wo ist der Schmerz? stays the direct question.",
+          "hint": "Schmerz ist."
+        },
+        {
+          "kind": "mc",
+          "q": "When the round is.",
+          "qEn": "wann die Visite ist.",
+          "options": ["Ich frage, wann die Visite ist.", "Ich frage, wann ist die Visite.", "Wann ist die Visite?"],
+          "answer": 0,
+          "why": "wann die Visite ist. Wann ist die Visite? stays the direct question.",
+          "hint": "Visite ist."
+        },
+        {
+          "kind": "mc",
+          "q": "What the patient is called.",
+          "qEn": "wie der Patient heißt.",
+          "options": ["Wissen Sie, wie der Patient heißt?", "Wissen Sie, wie heißt der Patient?", "Wie heißt der Patient?"],
+          "answer": 0,
+          "why": "wie der Patient heißt. Wie heißt der Patient? stays the direct question.",
+          "hint": "Patient heißt."
+        },
+        {
+          "kind": "mc",
+          "q": "What he has. A statement.",
+          "qEn": "was er hat.",
+          "options": ["Ich frage, was er hat.", "Ich frage, was hat er.", "Was hat er?"],
+          "answer": 0,
+          "why": "was er hat. Was hat er? stays the direct question.",
+          "hint": "er hat."
+        },
+        {
+          "kind": "mc",
+          "q": "Whether the pain is new. The clause.",
+          "qEn": "ob der Schmerz neu ist.",
+          "options": ["ob der Schmerz neu ist", "ob der Schmerz ist neu", "Ist der Schmerz neu?"],
+          "answer": 0,
+          "why": "ob der Schmerz neu ist. Ist der Schmerz neu? stays the direct question.",
+          "hint": "neu ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Where the pain is. The clause.",
+          "qEn": "wo der Schmerz ist.",
+          "options": ["wo der Schmerz ist", "wo ist der Schmerz", "Wo ist der Schmerz?"],
+          "answer": 0,
+          "why": "wo der Schmerz ist. Wo ist der Schmerz? stays the direct question.",
+          "hint": "Schmerz ist."
+        },
+        {
+          "kind": "mc",
+          "q": "When the round is. The clause.",
+          "qEn": "wann die Visite ist.",
+          "options": ["wann die Visite ist", "wann ist die Visite", "Wann ist die Visite?"],
+          "answer": 0,
+          "why": "wann die Visite ist. Wann ist die Visite? stays the direct question.",
+          "hint": "Visite ist."
+        },
+        {
+          "kind": "mc",
+          "q": "What the patient is called. The clause.",
+          "qEn": "wie der Patient heißt.",
+          "options": ["wie der Patient heißt", "wie heißt der Patient", "Wie heißt der Patient?"],
+          "answer": 0,
+          "why": "wie der Patient heißt. Wie heißt der Patient? stays the direct question.",
+          "hint": "Patient heißt."
+        },
+        {
+          "kind": "mc",
+          "q": "What he has. The clause.",
+          "qEn": "was er hat.",
+          "options": ["was er hat", "was hat er", "Was hat er?"],
+          "answer": 0,
+          "why": "was er hat. Was hat er? stays the direct question.",
+          "hint": "er hat."
+        },
+        {
+          "kind": "mc",
+          "q": "Whether he gets up.",
+          "qEn": "ob er aufsteht.",
+          "options": ["ob er aufsteht", "ob er steht auf", "Wenn er aufsteht"],
+          "answer": 0,
+          "why": "The prefix stays on the verb at the end: ob er aufsteht. Wenn er aufsteht stays a condition, chapter 42. er steht auf stays the main clause.",
+          "hint": "aufsteht."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Wissen Sie, ob …?",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Ich frage, ob der Schmerz neu ist.", "en": "I ask whether the pain is new." },
+        { "de": "Ich frage, wo der Schmerz ist.", "en": "I ask where the pain is." },
+        { "de": "Ich frage, wann die Visite ist.", "en": "I ask when the round is." },
+        { "de": "Ich frage, was er hat.", "en": "I ask what he has." }
+      ],
+      "messages": [
+        "ob and wo, wann, wie, was take the verb to the end. Comma before the clause. Wissen Sie, ob …? keeps the question mark. Ich frage takes a period.",
+        "Ist der Schmerz neu? and Wo ist der Schmerz? stay direct questions. dass and wenn stay correct for a fact and a condition. denn stays in position 2. ob er aufsteht is one word.",
+        "Sehr gut. Ich frage, ob der Schmerz neu ist. Ich frage, wo der Schmerz ist.",
+        "Ausgezeichnet. You can ask whether the pain is new, where it is, when the round is, and what he has, with the verb at the end."
+      ]
+    }
+  ]
+}

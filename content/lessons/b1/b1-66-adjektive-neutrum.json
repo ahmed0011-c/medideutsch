@@ -1,0 +1,1069 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-66-adjektive-neutrum",
+  "level": "B1",
+  "unit": "Kapitel 66",
+  "chapter": 66,
+  "chapters": [66],
+  "title": "Alles Gute!",
+  "subtitle": "Neuter adjective nouns",
+  "glossary": {
+    "alles": {
+      "de": "alles",
+      "pos": "pronoun",
+      "en": "everything, all the",
+      "emoji": "🎁",
+      "note": "alles Gute. The ending is -e, as after das. Not alles Gutes. Dative allem Guten."
+    },
+    "gute": {
+      "de": "Gute",
+      "pos": "noun",
+      "en": "the good, a good thing",
+      "emoji": "🎁",
+      "article": "das",
+      "note": "das Gute, alles Gute. Not das Gutes. Dative dem Guten and allem Guten. After sein: gut, no ending."
+    },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢", "note": "das Gute. The article shows the neuter, so the ending is -e. Like das kleine Pflaster." },
+    "bleibt": { "de": "bleiben → es bleibt", "pos": "form", "en": "stays", "emoji": "📍", "note": "Das Gute bleibt hier." },
+    "hier": { "de": "hier", "pos": "adverb", "en": "here", "emoji": "📍" },
+    "es": { "de": "es", "pos": "pronoun", "en": "it", "emoji": "🟢", "note": "Es gibt nichts Neues. Mit etwas Kaltem geht es." },
+    "gibt": { "de": "geben → es gibt", "pos": "form", "en": "there is", "emoji": "📋", "note": "Es gibt plus the accusative. Es gibt nichts Neues. Es gibt etwas Neues." },
+    "nichts": {
+      "de": "nichts",
+      "pos": "pronoun",
+      "en": "nothing",
+      "emoji": "📋",
+      "note": "nichts shows no ending, so the neuter word takes -es: nichts Neues, nichts Schlimmes. Dative nichts Neuem."
+    },
+    "neues": {
+      "de": "Neue",
+      "pos": "noun",
+      "en": "something new",
+      "emoji": "🆕",
+      "article": "das",
+      "note": "etwas Neues, nichts Neues. The -es is the ending after etwas and nichts, like ein kleines Pflaster. das Neue stays correct after das. Not nichts Neue."
+    },
+    "sehen": { "de": "sehen → wir sehen", "pos": "form", "en": "see", "emoji": "👀", "note": "Accusative. Wir sehen nichts Schlimmes. Wir sehen nichts Neues." },
+    "schlimmes": {
+      "de": "Schlimme",
+      "pos": "noun",
+      "en": "something serious",
+      "emoji": "🩺",
+      "article": "das",
+      "note": "nichts Schlimmes. das Schlimme stays the form after das. Not nichts Schlimme. After sein: schlimm, no ending."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine nominative)", "emoji": "🔵", "note": "Der Patient. Nominative, no -en. Chapter 64." },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative der Patient. No -en. The n-declension is chapter 64."
+    },
+    "trinkt": { "de": "trinken → er trinkt", "pos": "form", "en": "drinks", "emoji": "🥤", "note": "Der Patient trinkt etwas Kaltes." },
+    "etwas": {
+      "de": "etwas",
+      "pos": "pronoun",
+      "en": "something",
+      "emoji": "🥤",
+      "note": "etwas shows no ending, so the neuter word takes -es: etwas Neues, etwas Kaltes. Dative etwas Kaltem."
+    },
+    "kaltes": {
+      "de": "Kalte",
+      "pos": "noun",
+      "en": "something cold",
+      "emoji": "🥤",
+      "article": "das",
+      "note": "etwas Kaltes. Nominative and accusative -es. Dative etwas Kaltem. etwas Kaltes zu trinken: zu is chapter 68."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "wünschen": {
+      "de": "wünschen → wir wünschen",
+      "pos": "form",
+      "en": "wish",
+      "emoji": "🎁",
+      "note": "Dative person, accusative thing. Wir wünschen dem Patienten alles Gute."
+    },
+    "dem": { "de": "dem", "pos": "article", "en": "the (dative masculine or neuter)", "emoji": "🟢", "note": "dem Patienten, one man. dem Guten, dative of the thing." },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "dem Patienten is one man in the dative. Chapter 64. den Patienten stays the accusative, and the dative plural."
+    },
+    "bringen": { "de": "bringen → wir bringen", "pos": "form", "en": "bring", "emoji": "🥤", "note": "Wir bringen etwas Kaltes zu trinken." },
+    "zu": {
+      "de": "zu",
+      "pos": "particle",
+      "en": "to (with an infinitive)",
+      "emoji": "➡️",
+      "note": "etwas Kaltes zu trinken. The infinitive with zu is chapter 68. This chapter is the ending on Kaltes."
+    },
+    "trinken": { "de": "trinken", "pos": "infinitive", "en": "to drink", "emoji": "🥤", "note": "zu trinken. Chapter 68. Der Patient trinkt is the finite verb." },
+    "mit": { "de": "mit", "pos": "preposition", "en": "with", "emoji": "🥤", "note": "mit plus the dative. Mit etwas Kaltem. The ending is -em." },
+    "kaltem": {
+      "de": "Kalte",
+      "pos": "noun",
+      "en": "something cold",
+      "emoji": "🥤",
+      "article": "das",
+      "note": "Dative etwas Kaltem. Like mit kleinem Pflaster. etwas Kaltes stays nominative and accusative."
+    },
+    "geht": { "de": "gehen → es geht", "pos": "form", "en": "goes, is all right", "emoji": "✅", "note": "Mit etwas Kaltem geht es." },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "A thing, not a person",
+      "learn": [
+        "A neuter adjective can be the thing. It takes a capital. das and alles already show the neuter, so the ending is -e: das Gute, alles Gute.",
+        "etwas and nichts show no ending, so the word takes -es: etwas Neues, nichts Neues, nichts Schlimmes, etwas Kaltes. Like ein kleines Pflaster.",
+        "Dative after dem and allem is -en: dem Guten, allem Guten. Dative after etwas and nichts is -em: etwas Kaltem.",
+        "After sein there is no ending: Das ist gut. People such as der Kranke stay chapter 65. zu trinken is chapter 68."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Gute", "article": "das", "en": "the good", "emoji": "🎁", "glossaryKey": "gute" },
+        { "de": "Neue", "article": "das", "en": "something new", "emoji": "🆕", "glossaryKey": "neues" },
+        { "de": "Schlimme", "article": "das", "en": "something serious", "emoji": "🩺", "glossaryKey": "schlimmes" },
+        { "de": "Kalte", "article": "das", "en": "something cold", "emoji": "🥤", "glossaryKey": "kaltes" }
+      ],
+      "text": {
+        "title": "Alles Gute!",
+        "de": "Alles Gute! Das Gute bleibt hier. Es gibt nichts Neues. Wir sehen nichts Schlimmes. Der Patient trinkt etwas Kaltes. Wir wünschen dem Patienten alles Gute. Wir bringen etwas Kaltes zu trinken. Mit etwas Kaltem geht es.",
+        "en": "All the best! The good thing stays here. There is nothing new. We see nothing serious. The patient drinks something cold. We wish the patient all the best. We bring something cold to drink. With something cold it is all right."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "-e or -es",
+      "practice": "choose",
+      "heroTitle": "Alles Gute!",
+      "heroImage": "bed",
+      "story": [
+        "Chapter 65 made the adjective a person: <b>der Kranke, ein Kranker</b>. Here the adjective is a <b>thing</b>, and it is neuter. It takes a capital. <b>das Gute. etwas Neues. nichts Schlimmes.</b>",
+        "Chapter 36: <b>das kleine Pflaster</b> ends in <b>-e</b>, because das already shows the neuter. <b>ein kleines Pflaster</b> ends in <b>-es</b>, because ein shows nothing. The same split: <b>das Gute, alles Gute</b>. Then <b>etwas Neues, nichts Neues, nichts Schlimmes, etwas Kaltes</b>.",
+        "<b>alles Gutes</b> and <b>das Gutes</b> put -es where the article already did the work. <b>nichts Neue</b> and <b>etwas Kalte</b> are missing -s. <b>das Neue</b> stays correct after das. <b>viel Gutes</b> is the chart line. <b>vieles Gute</b> stays correct too.",
+        "Dative, chapter 37. <b>dem kleinen Pflaster</b> → <b>dem Guten, allem Guten</b>. <b>mit kleinem Pflaster</b> → <b>etwas Kaltem, nichts Neuem</b>. Genitive of this adjective is <b>des Guten</b>.",
+        "After sein the word is an ordinary adjective. <b>Das ist gut. Das ist neu. Das ist schlimm.</b> No ending, no capital noun. <b>Wir wünschen dem Patienten alles Gute.</b> dem Patienten is the person, chapter 64. alles Gute is the thing.",
+        "<b>etwas Kaltes zu trinken</b> is the ward phrase. The infinitive with <b>zu</b> is chapter 68. This chapter is the ending on Kaltes. A person does not take -es: <b>ein Kranker</b> stays chapter 65. Not ein Krankes."
+      ],
+      "questionRule": "das and alles take -e: das Gute, alles Gute. etwas and nichts take -es: etwas Neues, nichts Schlimmes. Dative dem Guten and allem Guten, or etwas Kaltem. After sein there is no ending.",
+      "tables": [
+        {
+          "title": "-e oder -es",
+          "caption": "das and alles already show the neuter. etwas, nichts and viel do not. vieles Gute stays correct.",
+          "columns": ["Endung", "Beispiel"],
+          "rows": [
+            { "label": "das", "cells": ["-e", "das Gute"], "highlight": true },
+            { "label": "alles", "cells": ["-e", "alles Gute"], "highlight": true },
+            { "label": "etwas", "cells": ["-es", "etwas Neues"] },
+            { "label": "nichts", "cells": ["-es", "nichts Schlimmes"] },
+            { "label": "viel", "cells": ["-es", "viel Gutes"] }
+          ]
+        },
+        {
+          "title": "Dativ und Genitiv",
+          "caption": "dem and allem take -en. etwas and nichts take -em. Nominative etwas Kaltes stays correct. Genitive des Guten.",
+          "columns": ["Form"],
+          "rows": [
+            { "label": "das", "cells": ["dem Guten"], "highlight": true },
+            { "label": "alles", "cells": ["allem Guten"], "highlight": true },
+            { "label": "etwas", "cells": ["etwas Kaltem"] },
+            { "label": "nichts", "cells": ["nichts Neuem"] },
+            { "label": "Genitiv", "cells": ["des Guten"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Only an extra -s or a missing ending. das Neue, etwas Neues, dem Patienten, ein Kranker and Das ist gut stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "alles", "cells": ["alles Gutes", "alles Gute"] },
+            { "label": "das", "cells": ["das Gutes", "das Gute"] },
+            { "label": "Neues", "cells": ["nichts Neue", "nichts Neues"] },
+            { "label": "Schlimmes", "cells": ["nichts Schlimme", "nichts Schlimmes"] },
+            { "label": "Kaltes", "cells": ["etwas Kalte", "etwas Kaltes"] },
+            { "label": "Dativ", "cells": ["allem Gute", "allem Guten"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four neuter traps",
+        "items": [
+          { "de": "Alles Gute!", "en": "-e after alles.", "tone": "ok" },
+          { "de": "Alles Gutes!", "en": "The -s is extra.", "tone": "stop" },
+          { "de": "Es gibt nichts Neues.", "en": "-es after nichts.", "tone": "ok" },
+          { "de": "Es gibt nichts Neue.", "en": "Missing -s.", "tone": "stop" },
+          { "de": "nichts Schlimmes", "en": "-es.", "tone": "ok" },
+          { "de": "nichts Schlimme", "en": "Missing -s.", "tone": "stop" },
+          { "de": "Mit etwas Kaltem.", "en": "Dative -em.", "tone": "ok" },
+          { "de": "Mit etwas Kaltes.", "en": "-es is not the dative.", "tone": "stop" }
+        ],
+        "tip": "das and alles: -e. etwas and nichts: -es. Dative after etwas: -em."
+      },
+      "tips": [
+        {
+          "title": "The signal sits in one place",
+          "body": "alles Gute, das Gute. etwas Neues, nichts Schlimmes. The ending sits where the little word has none.",
+          "mnemonic": "alles Gute. etwas Neues. nichts Schlimmes. etwas Kaltem.",
+          "emoji": "🎁"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "alles Gute", "emoji": "🎁", "en": "all the best", "use": "after alles", "de": "Alles Gute!", "deEn": "All the best!" },
+        { "modal": "nichts Neues", "emoji": "🆕", "en": "nothing new", "use": "after nichts", "de": "Es gibt nichts Neues.", "deEn": "There is nothing new." },
+        { "modal": "nichts Schlimmes", "emoji": "🩺", "en": "nothing serious", "use": "after nichts", "de": "Wir sehen nichts Schlimmes.", "deEn": "We see nothing serious." },
+        { "modal": "etwas Kaltes", "emoji": "🥤", "en": "something cold", "use": "after etwas", "de": "Wir geben etwas Kaltes.", "deEn": "We give something cold." }
+      ],
+      "quizTitle": "Which form?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "All the best.",
+          "qEn": "alles Gute.",
+          "options": ["Wir wünschen alles Gute.", "Wir wünschen alles Gutes.", "Das Gute bleibt hier."],
+          "answer": 0,
+          "why": "alles Gute. alles Gutes puts -es on as well. Das Gute bleibt hier stays correct after das.",
+          "hint": "Gute."
+        },
+        {
+          "kind": "mc",
+          "q": "The good thing, after das.",
+          "qEn": "das Gute.",
+          "options": ["Das Gute bleibt hier.", "Das Gutes bleibt hier.", "Das ist gut."],
+          "answer": 0,
+          "why": "das Gute. Like das kleine Pflaster, the ending is -e. Das Gutes adds -es. Das ist gut stays correct after sein, with no ending.",
+          "hint": "Gute."
+        },
+        {
+          "kind": "mc",
+          "q": "There is nothing new.",
+          "qEn": "nichts Neues.",
+          "options": ["Es gibt nichts Neues.", "Es gibt nichts Neue.", "Es gibt etwas Neues."],
+          "answer": 0,
+          "why": "nichts Neues. The -es is the neuter ending, like ein kleines Pflaster. nichts Neue is missing -s. etwas Neues stays correct.",
+          "hint": "Neues."
+        },
+        {
+          "kind": "mc",
+          "q": "We see nothing serious.",
+          "qEn": "nichts Schlimmes.",
+          "options": ["Wir sehen nichts Schlimmes.", "Wir sehen nichts Schlimme.", "Wir sehen nichts Neues."],
+          "answer": 0,
+          "why": "nichts Schlimmes. nichts Schlimme is missing -s. nichts Neues stays correct with the same ending.",
+          "hint": "Schlimmes."
+        },
+        {
+          "kind": "mc",
+          "q": "We give something cold.",
+          "qEn": "etwas Kaltes.",
+          "options": ["Wir geben etwas Kaltes.", "Wir geben etwas Kalte.", "Mit etwas Kaltem geht es."],
+          "answer": 0,
+          "why": "etwas Kaltes. Accusative -es. etwas Kalte is missing -s. Mit etwas Kaltem is dative and stays correct.",
+          "hint": "Kaltes."
+        },
+        {
+          "kind": "mc",
+          "q": "With something cold. Dative.",
+          "qEn": "etwas Kaltem.",
+          "options": ["Mit etwas Kaltem geht es.", "Mit etwas Kaltes geht es.", "Wir geben etwas Kaltes."],
+          "answer": 0,
+          "why": "etwas Kaltem. Dative -em, like mit kleinem Pflaster. etwas Kaltes stays nominative and accusative.",
+          "hint": "Kaltem."
+        }
+      ]
+    },
+    {
+      "id": "gap-sort",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "das and alles take -e. etwas and nichts take -es in the nominative and accusative. mit takes the dative -em.",
+      "chips": [
+        { "w": "Wir wünschen alles Gute", "hint": "-e." },
+        { "w": "Das Gute bleibt hier", "hint": "-e." },
+        { "w": "Es gibt nichts Neues", "hint": "-es." },
+        { "w": "Wir sehen nichts Schlimmes", "hint": "-es." },
+        { "w": "Wir geben etwas Kaltes", "hint": "-es." },
+        { "w": "Mit etwas Kaltem geht es", "hint": "-em." },
+        { "w": "Wir wünschen alles Gutes", "hint": "-e." },
+        { "w": "Das Gutes bleibt hier", "hint": "-e." },
+        { "w": "Es gibt nichts Neue", "hint": "-es." },
+        { "w": "Wir sehen nichts Schlimme", "hint": "-es." },
+        { "w": "Wir geben etwas Kalte", "hint": "-es." },
+        { "w": "Mit etwas Kaltes geht es", "hint": "-em." }
+      ],
+      "items": [
+        {
+          "before": "The wish, after alles:",
+          "after": ".",
+          "answer": "Wir wünschen alles Gute",
+          "en": "We wish all the best.",
+          "why": "alles Gute. Not alles Gutes. Das Gute stays correct after das. dem Patienten stays the person.",
+          "tip": "Gute.",
+          "hint": "Gute."
+        },
+        {
+          "before": "The good thing, after das:",
+          "after": ".",
+          "answer": "Das Gute bleibt hier",
+          "en": "The good thing stays here.",
+          "why": "das Gute. Not das Gutes. Das ist gut stays correct after sein.",
+          "tip": "Gute.",
+          "hint": "Gute."
+        },
+        {
+          "before": "There is nothing new:",
+          "after": ".",
+          "answer": "Es gibt nichts Neues",
+          "en": "There is nothing new.",
+          "why": "nichts Neues. Not nichts Neue. etwas Neues stays correct. das Neue stays correct after das.",
+          "tip": "Neues.",
+          "hint": "Neues."
+        },
+        {
+          "before": "We see nothing serious:",
+          "after": ".",
+          "answer": "Wir sehen nichts Schlimmes",
+          "en": "We see nothing serious.",
+          "why": "nichts Schlimmes. Not nichts Schlimme. nichts Neues stays correct.",
+          "tip": "Schlimmes.",
+          "hint": "Schlimmes."
+        },
+        {
+          "before": "We give something cold:",
+          "after": ".",
+          "answer": "Wir geben etwas Kaltes",
+          "en": "We give something cold.",
+          "why": "etwas Kaltes. Not etwas Kalte. Mit etwas Kaltem stays the dative. zu trinken is chapter 68.",
+          "tip": "Kaltes.",
+          "hint": "Kaltes."
+        },
+        {
+          "before": "With something cold, dative:",
+          "after": ".",
+          "answer": "Mit etwas Kaltem geht es",
+          "en": "With something cold it is all right.",
+          "why": "etwas Kaltem. Dative -em. etwas Kaltes stays nominative and accusative.",
+          "tip": "Kaltem.",
+          "hint": "Kaltem."
+        }
+      ]
+    },
+    {
+      "id": "match-sort",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names the little word and the case. One piece is the chart form. One is another real ending. One is not the form.",
+      "items": [
+        {
+          "prompt": "After alles",
+          "options": [
+            { "emoji": "🎁", "label": "alles Gute", "caption": "-e" },
+            { "emoji": "🚫", "label": "alles Gutes", "caption": "extra -s" },
+            { "emoji": "🟢", "label": "das Gute", "caption": "after das" }
+          ],
+          "answer": 0,
+          "why": "alles Gute. das Gute stays correct after das.",
+          "hint": "Gute."
+        },
+        {
+          "prompt": "After das",
+          "options": [
+            { "emoji": "🟢", "label": "das Gute", "caption": "-e" },
+            { "emoji": "🚫", "label": "das Gutes", "caption": "extra -s" },
+            { "emoji": "🎁", "label": "alles Gute", "caption": "after alles" }
+          ],
+          "answer": 0,
+          "why": "das Gute. alles Gute stays correct.",
+          "hint": "Gute."
+        },
+        {
+          "prompt": "Nothing new",
+          "options": [
+            { "emoji": "🆕", "label": "nichts Neues", "caption": "-es" },
+            { "emoji": "🚫", "label": "nichts Neue", "caption": "missing -s" },
+            { "emoji": "🆕", "label": "etwas Neues", "caption": "after etwas" }
+          ],
+          "answer": 0,
+          "why": "nichts Neues. etwas Neues stays correct. das Neue stays correct after das.",
+          "hint": "Neues."
+        },
+        {
+          "prompt": "Nothing serious",
+          "options": [
+            { "emoji": "🩺", "label": "nichts Schlimmes", "caption": "-es" },
+            { "emoji": "🚫", "label": "nichts Schlimme", "caption": "missing -s" },
+            { "emoji": "🆕", "label": "nichts Neues", "caption": "same ending" }
+          ],
+          "answer": 0,
+          "why": "nichts Schlimmes. nichts Neues stays correct.",
+          "hint": "Schlimmes."
+        },
+        {
+          "prompt": "Something cold, accusative",
+          "options": [
+            { "emoji": "🥤", "label": "etwas Kaltes", "caption": "-es" },
+            { "emoji": "🚫", "label": "etwas Kalte", "caption": "missing -s" },
+            { "emoji": "🥤", "label": "etwas Kaltem", "caption": "dative" }
+          ],
+          "answer": 0,
+          "why": "etwas Kaltes. etwas Kaltem is dative and stays correct.",
+          "hint": "Kaltes."
+        },
+        {
+          "prompt": "Something cold, dative",
+          "options": [
+            { "emoji": "🥤", "label": "etwas Kaltem", "caption": "-em" },
+            { "emoji": "🚫", "label": "etwas Kalte", "caption": "missing ending" },
+            { "emoji": "🥤", "label": "etwas Kaltes", "caption": "accusative stays correct" }
+          ],
+          "answer": 0,
+          "why": "etwas Kaltem. etwas Kaltes stays nominative and accusative.",
+          "hint": "Kaltem."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, all the best",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, nothing serious",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, nothing new",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart for something cold",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-sort",
+      "type": "builder",
+      "label": "Build",
+      "title": "The ending on the thing",
+      "practice": "build",
+      "instructions": "Build the line. A thing can stand first. mit etwas Kaltem can follow es geht. The capital stays on the adjective.",
+      "items": [
+        {
+          "tiles": ["Alles", "Gute"],
+          "answers": ["Alles Gute"],
+          "punct": "!",
+          "modal": "Alles",
+          "inf": "Gute",
+          "question": false,
+          "en": "All the best.",
+          "hint": "Alles first. Gute last.",
+          "feedback": {
+            "end": "Gute closes Alles Gute.",
+            "fallback": "Alles Gute!"
+          }
+        },
+        {
+          "tiles": ["Es", "gibt", "nichts", "Neues"],
+          "answers": ["Es gibt nichts Neues", "Nichts Neues gibt es"],
+          "punct": ".",
+          "modal": "gibt",
+          "inf": "Neues",
+          "question": false,
+          "en": "There is nothing new.",
+          "hint": "Es gibt nichts Neues. Or nichts Neues first.",
+          "feedback": {
+            "end": "Neues closes Es gibt nichts Neues.",
+            "fallback": "Es gibt nichts Neues. Or: Nichts Neues gibt es."
+          }
+        },
+        {
+          "tiles": ["Wir", "geben", "etwas", "Kaltes"],
+          "answers": ["Wir geben etwas Kaltes", "Etwas Kaltes geben wir"],
+          "punct": ".",
+          "modal": "geben",
+          "inf": "Kaltes",
+          "question": false,
+          "en": "We give something cold.",
+          "hint": "Wir geben etwas Kaltes. Or etwas Kaltes first.",
+          "feedback": {
+            "end": "Kaltes closes Wir geben etwas Kaltes.",
+            "fallback": "Wir geben etwas Kaltes. Or: Etwas Kaltes geben wir."
+          }
+        },
+        {
+          "tiles": ["Mit", "etwas", "Kaltem", "geht", "es"],
+          "answers": ["Mit etwas Kaltem geht es", "Es geht mit etwas Kaltem"],
+          "punct": ".",
+          "modal": "geht",
+          "inf": "es",
+          "question": false,
+          "en": "With something cold it is all right.",
+          "hint": "Mit etwas Kaltem geht es. Or es geht first.",
+          "feedback": {
+            "end": "es closes Mit etwas Kaltem geht es.",
+            "fallback": "Mit etwas Kaltem geht es. Or: Es geht mit etwas Kaltem."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-sort",
+      "label": "Rewrite",
+      "title": "Into the chart form",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names das, alles, etwas or nichts. Give the chart form. The other little word and a bare adjective after ist stay correct German.",
+      "chips": [
+        { "w": "Wir wünschen alles Gute", "hint": "-e." },
+        { "w": "Das Gute bleibt hier", "hint": "-e." },
+        { "w": "Es gibt nichts Neues", "hint": "-es." },
+        { "w": "Wir sehen nichts Schlimmes", "hint": "-es." },
+        { "w": "Wir geben etwas Kaltes", "hint": "-es." },
+        { "w": "Mit etwas Kaltem geht es", "hint": "-em." },
+        { "w": "Wir wünschen alles Gutes", "hint": "-e." },
+        { "w": "Das Gutes bleibt hier", "hint": "-e." },
+        { "w": "Es gibt nichts Neue", "hint": "-es." },
+        { "w": "Wir sehen nichts Schlimme", "hint": "-es." },
+        { "w": "Wir geben etwas Kalte", "hint": "-es." },
+        { "w": "Mit etwas Kaltes geht es", "hint": "-em." }
+      ],
+      "items": [
+        {
+          "before": "All the best. After das: das Gute. Line:",
+          "after": ".",
+          "answer": "Wir wünschen alles Gute",
+          "en": "We wish all the best.",
+          "why": "alles Gute. Das Gute bleibt hier stays correct. dem Patienten stays the person we wish it to.",
+          "tip": "Gute.",
+          "hint": "Gute."
+        },
+        {
+          "before": "The good thing after das. After sein: gut. Line:",
+          "after": ".",
+          "answer": "Das Gute bleibt hier",
+          "en": "The good thing stays here.",
+          "why": "das Gute. Das ist gut stays correct, with no ending.",
+          "tip": "Gute.",
+          "hint": "Gute."
+        },
+        {
+          "before": "Nothing new. etwas Neues stays correct. Line:",
+          "after": ".",
+          "answer": "Es gibt nichts Neues",
+          "en": "There is nothing new.",
+          "why": "nichts Neues. Es gibt etwas Neues stays correct.",
+          "tip": "Neues.",
+          "hint": "Neues."
+        },
+        {
+          "before": "Nothing serious. nichts Neues stays correct. Line:",
+          "after": ".",
+          "answer": "Wir sehen nichts Schlimmes",
+          "en": "We see nothing serious.",
+          "why": "nichts Schlimmes. Wir sehen nichts Neues stays correct.",
+          "tip": "Schlimmes.",
+          "hint": "Schlimmes."
+        },
+        {
+          "before": "Something cold, accusative. Dative: etwas Kaltem. Line:",
+          "after": ".",
+          "answer": "Wir geben etwas Kaltes",
+          "en": "We give something cold.",
+          "why": "etwas Kaltes. Mit etwas Kaltem geht es stays the dative.",
+          "tip": "Kaltes.",
+          "hint": "Kaltes."
+        },
+        {
+          "before": "Something cold, dative. Accusative etwas Kaltes stays correct. Line:",
+          "after": ".",
+          "answer": "Mit etwas Kaltem geht es",
+          "en": "With something cold it is all right.",
+          "why": "etwas Kaltem. Wir geben etwas Kaltes stays the accusative.",
+          "tip": "Kaltem.",
+          "hint": "Kaltem."
+        }
+      ]
+    },
+    {
+      "id": "error-sort",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the chart form. Choose the correction. The other little word, the dative, and a bare adjective after ist stay correct German.",
+      "items": [
+        {
+          "clues": ["All the best.", "After alles.", "Wir wünschen alles Gutes."],
+          "options": ["Wir wünschen alles Gute.", "Wir wünschen alles Gutes.", "Das Gute bleibt hier."],
+          "answer": 0,
+          "reveal": "Wir wünschen alles Gute.",
+          "hint": "Gute."
+        },
+        {
+          "clues": ["The good thing.", "After das.", "Das Gutes bleibt hier."],
+          "options": ["Das Gute bleibt hier.", "Das Gutes bleibt hier.", "Das ist gut."],
+          "answer": 0,
+          "reveal": "Das Gute bleibt hier.",
+          "hint": "Gute."
+        },
+        {
+          "clues": ["Nothing new.", "-es.", "Es gibt nichts Neue."],
+          "options": ["Es gibt nichts Neues.", "Es gibt nichts Neue.", "Es gibt etwas Neues."],
+          "answer": 0,
+          "reveal": "Es gibt nichts Neues.",
+          "hint": "Neues."
+        },
+        {
+          "clues": ["Nothing serious.", "-es.", "Wir sehen nichts Schlimme."],
+          "options": ["Wir sehen nichts Schlimmes.", "Wir sehen nichts Schlimme.", "Wir sehen nichts Neues."],
+          "answer": 0,
+          "reveal": "Wir sehen nichts Schlimmes.",
+          "hint": "Schlimmes."
+        },
+        {
+          "clues": ["Something cold.", "Accusative.", "Wir geben etwas Kalte."],
+          "options": ["Wir geben etwas Kaltes.", "Wir geben etwas Kalte.", "Mit etwas Kaltem geht es."],
+          "answer": 0,
+          "reveal": "Wir geben etwas Kaltes.",
+          "hint": "Kaltes."
+        },
+        {
+          "clues": ["Something cold.", "Dative.", "Mit etwas Kaltes geht es."],
+          "options": ["Mit etwas Kaltem geht es.", "Mit etwas Kaltes geht es.", "Wir geben etwas Kaltes."],
+          "answer": 0,
+          "reveal": "Mit etwas Kaltem geht es.",
+          "hint": "Kaltem."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor names a thing. das and alles take -e. etwas and nichts take -es. mit takes -em.",
+      "chips": [
+        { "w": "Wir wünschen alles Gute", "hint": "-e." },
+        { "w": "Das Gute bleibt hier", "hint": "-e." },
+        { "w": "Es gibt nichts Neues", "hint": "-es." },
+        { "w": "Wir sehen nichts Schlimmes", "hint": "-es." },
+        { "w": "Wir geben etwas Kaltes", "hint": "-es." },
+        { "w": "Mit etwas Kaltem geht es", "hint": "-em." },
+        { "w": "Wir wünschen alles Gutes", "hint": "-e." },
+        { "w": "Das Gutes bleibt hier", "hint": "-e." },
+        { "w": "Es gibt nichts Neue", "hint": "-es." },
+        { "w": "Wir sehen nichts Schlimme", "hint": "-es." },
+        { "w": "Wir geben etwas Kalte", "hint": "-es." },
+        { "w": "Mit etwas Kaltes geht es", "hint": "-em." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, all the best:",
+          "after": ".",
+          "answer": "Wir wünschen alles Gute",
+          "en": "We wish all the best.",
+          "why": "alles Gute.",
+          "tip": "Gute.",
+          "hint": "Gute."
+        },
+        {
+          "before": "Doctor, the good thing stays:",
+          "after": ".",
+          "answer": "Das Gute bleibt hier",
+          "en": "The good thing stays here.",
+          "why": "das Gute.",
+          "tip": "Gute.",
+          "hint": "Gute."
+        },
+        {
+          "before": "Nurse, there is nothing new:",
+          "after": ".",
+          "answer": "Es gibt nichts Neues",
+          "en": "There is nothing new.",
+          "why": "nichts Neues.",
+          "tip": "Neues.",
+          "hint": "Neues."
+        },
+        {
+          "before": "Doctor, we see nothing serious:",
+          "after": ".",
+          "answer": "Wir sehen nichts Schlimmes",
+          "en": "We see nothing serious.",
+          "why": "nichts Schlimmes.",
+          "tip": "Schlimmes.",
+          "hint": "Schlimmes."
+        },
+        {
+          "before": "Nurse, we give something cold:",
+          "after": ".",
+          "answer": "Wir geben etwas Kaltes",
+          "en": "We give something cold.",
+          "why": "etwas Kaltes.",
+          "tip": "Kaltes.",
+          "hint": "Kaltes."
+        },
+        {
+          "before": "Doctor, with something cold:",
+          "after": ".",
+          "answer": "Mit etwas Kaltem geht es",
+          "en": "With something cold it is all right.",
+          "why": "etwas Kaltem.",
+          "tip": "Kaltem.",
+          "hint": "Kaltem."
+        }
+      ]
+    },
+    {
+      "id": "gap-cases",
+      "label": "Gap",
+      "title": "Gute, Neues, Kaltem",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "das and alles take -e. etwas and nichts take -es. The dative after allem is -en. A bare adjective after ist is not this noun.",
+      "chips": [
+        { "w": "alles Gute", "hint": "-e." },
+        { "w": "das Gute", "hint": "-e." },
+        { "w": "nichts Neues", "hint": "-es." },
+        { "w": "nichts Schlimmes", "hint": "-es." },
+        { "w": "etwas Kaltes", "hint": "-es." },
+        { "w": "allem Guten", "hint": "-en." },
+        { "w": "alles Gutes", "hint": "-e." },
+        { "w": "das Gutes", "hint": "-e." },
+        { "w": "nichts Neue", "hint": "-es." },
+        { "w": "nichts Schlimme", "hint": "-es." },
+        { "w": "etwas Kalte", "hint": "-es." },
+        { "w": "allem Gute", "hint": "-en." }
+      ],
+      "items": [
+        {
+          "before": "After alles:",
+          "after": ".",
+          "answer": "alles Gute",
+          "en": "all the best.",
+          "why": "alles Gute. Not alles Gutes. das Gute stays correct after das.",
+          "tip": "Gute.",
+          "hint": "Gute."
+        },
+        {
+          "before": "After das:",
+          "after": ".",
+          "answer": "das Gute",
+          "en": "the good thing.",
+          "why": "das Gute. Not das Gutes. alles Gute stays correct. Das ist gut stays the predicative.",
+          "tip": "Gute.",
+          "hint": "Gute."
+        },
+        {
+          "before": "Nothing new:",
+          "after": ".",
+          "answer": "nichts Neues",
+          "en": "nothing new.",
+          "why": "nichts Neues. Not nichts Neue. etwas Neues stays correct.",
+          "tip": "Neues.",
+          "hint": "Neues."
+        },
+        {
+          "before": "Nothing serious:",
+          "after": ".",
+          "answer": "nichts Schlimmes",
+          "en": "nothing serious.",
+          "why": "nichts Schlimmes. Not nichts Schlimme. Das ist schlimm stays the predicative and means something else.",
+          "tip": "Schlimmes.",
+          "hint": "Schlimmes."
+        },
+        {
+          "before": "Something cold, accusative:",
+          "after": ".",
+          "answer": "etwas Kaltes",
+          "en": "something cold.",
+          "why": "etwas Kaltes. Not etwas Kalte. etwas Kaltem stays the dative.",
+          "tip": "Kaltes.",
+          "hint": "Kaltes."
+        },
+        {
+          "before": "After allem, dative:",
+          "after": ".",
+          "answer": "allem Guten",
+          "en": "all the good, dative.",
+          "why": "allem Guten. Dative -en, like dem kleinen. dem Guten stays correct. alles Gute stays nominative. Not allem Gute.",
+          "tip": "Guten.",
+          "hint": "Guten."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. The other little word and the dative stay correct when the note shows both.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Alles Gute",
+        "paragraphs": [
+          "Alles Gute! Das Gute bleibt hier. Es gibt nichts Neues.",
+          "Wir sehen nichts Schlimmes. Der Patient trinkt etwas Kaltes. Wir wünschen dem Patienten alles Gute.",
+          "Wir bringen etwas Kaltes zu trinken. Mit etwas Kaltem geht es."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The wish, from the note.",
+          "qEn": "alles Gute.",
+          "options": ["alles Gute", "alles Gutes", "das Gute"],
+          "answer": 0,
+          "why": "Alles Gute! Das Gute bleibt hier is also in the note and stays correct.",
+          "hint": "Gute."
+        },
+        {
+          "kind": "mc",
+          "q": "Nothing new, from the note.",
+          "qEn": "nichts Neues.",
+          "options": ["nichts Neues", "nichts Neue", "etwas Neues"],
+          "answer": 0,
+          "why": "Es gibt nichts Neues. etwas Neues stays the same ending.",
+          "hint": "Neues."
+        },
+        {
+          "kind": "mc",
+          "q": "Nothing serious, from the note.",
+          "qEn": "nichts Schlimmes.",
+          "options": ["nichts Schlimmes", "nichts Schlimme", "nichts Neues"],
+          "answer": 0,
+          "why": "Wir sehen nichts Schlimmes. nichts Neues is also in the note and stays correct.",
+          "hint": "Schlimmes."
+        },
+        {
+          "kind": "mc",
+          "q": "Something cold to drink, from the note.",
+          "qEn": "etwas Kaltes.",
+          "options": ["etwas Kaltes", "etwas Kalte", "etwas Kaltem"],
+          "answer": 0,
+          "why": "etwas Kaltes zu trinken. Mit etwas Kaltem is the dative in the note and stays correct. zu is chapter 68.",
+          "hint": "Kaltes."
+        }
+      ]
+    },
+    {
+      "id": "writing-sort",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. All the best. There is nothing new. We see nothing serious. We give something cold.",
+      "prompt": "All the best. There is nothing new. We see nothing serious. We give something cold.",
+      "bullets": ["alles Gute", "nichts Neues", "nichts Schlimmes", "etwas Kaltes"],
+      "model": "Alles Gute! Es gibt nichts Neues. Wir sehen nichts Schlimmes. Wir geben etwas Kaltes.",
+      "modelEn": "All the best! There is nothing new. We see nothing serious. We give something cold.",
+      "hint": "Alles Gute. nichts Neues. nichts Schlimmes. etwas Kaltes.",
+      "checklist": [
+        { "id": "g", "label": "alles Gute", "keywords": ["alles gute"] },
+        { "id": "n", "label": "nichts Neues", "keywords": ["nichts neues"] },
+        { "id": "s", "label": "nichts Schlimmes", "keywords": ["nichts schlimmes"] },
+        { "id": "k", "label": "etwas Kaltes", "keywords": ["etwas kaltes"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Alles Gute!",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "das and alles take -e. etwas and nichts take -es. Dative dem Guten, allem Guten, etwas Kaltem. After sein there is no ending. People stay chapter 65.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "All the best.",
+          "qEn": "alles Gute.",
+          "options": ["Wir wünschen alles Gute.", "Wir wünschen alles Gutes.", "Das Gute bleibt hier."],
+          "answer": 0,
+          "why": "alles Gute. Das Gute stays correct after das.",
+          "hint": "Gute."
+        },
+        {
+          "kind": "mc",
+          "q": "The good thing, after das.",
+          "qEn": "das Gute.",
+          "options": ["Das Gute bleibt hier.", "Das Gutes bleibt hier.", "Das ist gut."],
+          "answer": 0,
+          "why": "das Gute. Das ist gut stays correct after sein.",
+          "hint": "Gute."
+        },
+        {
+          "kind": "mc",
+          "q": "There is nothing new.",
+          "qEn": "nichts Neues.",
+          "options": ["Es gibt nichts Neues.", "Es gibt nichts Neue.", "Es gibt etwas Neues."],
+          "answer": 0,
+          "why": "nichts Neues. etwas Neues stays correct.",
+          "hint": "Neues."
+        },
+        {
+          "kind": "mc",
+          "q": "We see nothing serious.",
+          "qEn": "nichts Schlimmes.",
+          "options": ["Wir sehen nichts Schlimmes.", "Wir sehen nichts Schlimme.", "Wir sehen nichts Neues."],
+          "answer": 0,
+          "why": "nichts Schlimmes. nichts Neues stays correct.",
+          "hint": "Schlimmes."
+        },
+        {
+          "kind": "mc",
+          "q": "We give something cold.",
+          "qEn": "etwas Kaltes.",
+          "options": ["Wir geben etwas Kaltes.", "Wir geben etwas Kalte.", "Mit etwas Kaltem geht es."],
+          "answer": 0,
+          "why": "etwas Kaltes. Mit etwas Kaltem stays the dative.",
+          "hint": "Kaltes."
+        },
+        {
+          "kind": "mc",
+          "q": "With something cold. Dative.",
+          "qEn": "etwas Kaltem.",
+          "options": ["Mit etwas Kaltem geht es.", "Mit etwas Kaltes geht es.", "Wir geben etwas Kaltes."],
+          "answer": 0,
+          "why": "etwas Kaltem. etwas Kaltes stays the accusative.",
+          "hint": "Kaltem."
+        },
+        {
+          "kind": "mc",
+          "q": "After alles.",
+          "qEn": "alles Gute.",
+          "options": ["alles Gute", "alles Gutes", "das Gute"],
+          "answer": 0,
+          "why": "alles Gute. das Gute stays correct.",
+          "hint": "Gute."
+        },
+        {
+          "kind": "mc",
+          "q": "After etwas. Something new.",
+          "qEn": "etwas Neues.",
+          "options": ["etwas Neues", "etwas Neue", "nichts Neues"],
+          "answer": 0,
+          "why": "etwas Neues. nichts Neues stays correct.",
+          "hint": "Neues."
+        },
+        {
+          "kind": "mc",
+          "q": "After nichts. Nothing serious.",
+          "qEn": "nichts Schlimmes.",
+          "options": ["nichts Schlimmes", "nichts Schlimme", "nichts Neues"],
+          "answer": 0,
+          "why": "nichts Schlimmes. nichts Neues stays correct.",
+          "hint": "Schlimmes."
+        },
+        {
+          "kind": "mc",
+          "q": "Dative after dem.",
+          "qEn": "dem Guten.",
+          "options": ["dem Guten", "dem Gute", "dem Gutes"],
+          "answer": 0,
+          "why": "dem Guten. Dative -en. Not dem Gute. Not dem Gutes.",
+          "hint": "Guten."
+        },
+        {
+          "kind": "mc",
+          "q": "Dative after allem.",
+          "qEn": "allem Guten.",
+          "options": ["allem Guten", "allem Gute", "alles Gute"],
+          "answer": 0,
+          "why": "allem Guten. alles Gute stays nominative.",
+          "hint": "Guten."
+        },
+        {
+          "kind": "mc",
+          "q": "Something cold, dative.",
+          "qEn": "etwas Kaltem.",
+          "options": ["etwas Kaltem", "etwas Kaltes", "etwas Kalte"],
+          "answer": 0,
+          "why": "etwas Kaltem. etwas Kaltes stays nominative and accusative.",
+          "hint": "Kaltem."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Alles Gute!",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Alles Gute!", "en": "All the best!" },
+        { "de": "Es gibt nichts Neues.", "en": "There is nothing new." },
+        { "de": "Wir sehen nichts Schlimmes.", "en": "We see nothing serious." },
+        { "de": "Wir geben etwas Kaltes.", "en": "We give something cold." }
+      ],
+      "messages": [
+        "das and alles take -e: das Gute, alles Gute. etwas and nichts take -es: etwas Neues, nichts Neues, nichts Schlimmes, etwas Kaltes.",
+        "Dative dem Guten and allem Guten. Dative etwas Kaltem. Das ist gut stays a bare adjective. dem Patienten stays the person. ein Kranker stays chapter 65.",
+        "Sehr gut. Alles Gute! Es gibt nichts Neues. Wir sehen nichts Schlimmes.",
+        "Ausgezeichnet. You can wish all the best and name nothing new, nothing serious, and something cold."
+      ]
+    }
+  ]
+}

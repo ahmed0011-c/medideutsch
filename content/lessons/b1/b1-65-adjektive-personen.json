@@ -1,0 +1,1085 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-65-adjektive-personen",
+  "level": "B1",
+  "unit": "Kapitel 65",
+  "chapter": 65,
+  "chapters": [65],
+  "title": "Der Jugendliche – ein Jugendlicher",
+  "subtitle": "Adjectives as people",
+  "glossary": {
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative, or feminine dative and genitive)",
+      "emoji": "🔵",
+      "note": "der Jugendliche, der Kranke, der Angehörige, der Verletzte. der already shows -r, so the adjective ending is -e. der Kranken is feminine dative or genitive."
+    },
+    "jugendliche": {
+      "de": "Jugendliche",
+      "pos": "noun",
+      "en": "young person",
+      "emoji": "🧒",
+      "article": "der",
+      "plural": "die Jugendlichen",
+      "note": "After der: der Jugendliche. One young woman is die Jugendliche, the same -e. Plural die Jugendlichen. Not der Jugendlicher."
+    },
+    "wartet": { "de": "warten → er wartet", "pos": "form", "en": "waits", "emoji": "⏳", "note": "Der Jugendliche wartet. Die Kranke wartet. Singular." },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine nominative)",
+      "emoji": "🟢",
+      "note": "ein shows no masculine ending, so the adjective takes -er: ein Jugendlicher, ein Kranker, ein Verletzter, ein Angehöriger."
+    },
+    "jugendlicher": {
+      "de": "Jugendliche",
+      "pos": "noun",
+      "en": "young person",
+      "emoji": "🧒",
+      "article": "der",
+      "plural": "die Jugendlichen",
+      "note": "ein Jugendlicher. The -er is the ein ending, as in ein starker Schmerz. Not ein Jugendliche."
+    },
+    "kranke": {
+      "de": "Kranke",
+      "pos": "noun",
+      "en": "sick person",
+      "emoji": "🤒",
+      "note": "der Kranke is one man. die Kranke is one woman. Same ending -e. ein Kranker is the man after ein. After sein the word stays krank, with no ending."
+    },
+    "liegt": { "de": "liegen → er liegt", "pos": "form", "en": "lies", "emoji": "🛏️", "note": "Der Kranke liegt hier. Ein Kranker liegt hier." },
+    "hier": { "de": "hier", "pos": "adverb", "en": "here", "emoji": "📍" },
+    "kranker": {
+      "de": "Kranke",
+      "pos": "noun",
+      "en": "sick person",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Kranken",
+      "note": "ein Kranker. Nominative masculine after ein. der Kranke stays the form after der. Not ein Kranke."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "kennen": {
+      "de": "kennen → wir kennen",
+      "pos": "form",
+      "en": "know",
+      "emoji": "👋",
+      "note": "Accusative. Wir kennen den Kranken. einen Kranken stays correct for a sick man."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine, or dative plural)",
+      "emoji": "🌹",
+      "note": "den Kranken is one man in the accusative, and several people in the dative."
+    },
+    "kranken": {
+      "de": "Kranke",
+      "pos": "noun",
+      "en": "sick person",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Kranken",
+      "note": "den Kranken, dem Kranken, des Kranken, die Kranken. No extra -s. Not des Krankens. den Kranken is also dative plural."
+    },
+    "helfen": {
+      "de": "helfen → wir helfen",
+      "pos": "form",
+      "en": "help",
+      "emoji": "🤝",
+      "note": "Dative, chapter 22. One man: Wir helfen dem Kranken. Several people: Wir helfen den Kranken."
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative masculine or neuter)",
+      "emoji": "🟢",
+      "note": "One man: dem Kranken. A sick man: einem Kranken."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴", "note": "die Kranke is one woman. die Kranken is plural." },
+    "warten": { "de": "warten → sie warten", "pos": "form", "en": "wait", "emoji": "⏳", "note": "Die Kranken warten. Plural." },
+    "angehörige": {
+      "de": "Angehörige",
+      "pos": "noun",
+      "en": "relative",
+      "emoji": "👨‍👩‍👦",
+      "article": "der",
+      "plural": "die Angehörigen",
+      "note": "der Angehörige. ein Angehöriger. One woman: die Angehörige, eine Angehörige. The -er belongs to ein, not to a noun like Kollege."
+    },
+    "kommt": { "de": "kommen → er kommt", "pos": "form", "en": "comes", "emoji": "🚶", "note": "Der Angehörige kommt." },
+    "verletzte": {
+      "de": "Verletzte",
+      "pos": "noun",
+      "en": "injured person",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Verletzten",
+      "note": "der Verletzte. ein Verletzter. den Verletzten. One woman: die Verletzte."
+    },
+    "verletzter": {
+      "de": "Verletzte",
+      "pos": "noun",
+      "en": "injured person",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Verletzten",
+      "note": "ein Verletzter. Not ein Verletzte. der Verletzte stays the form after der."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "People named by an adjective",
+      "learn": [
+        "An adjective can be the person. It takes a capital, and the same endings as chapters 36 and 37.",
+        "After der the ending is -e: der Jugendliche, der Kranke. After ein the masculine nominative is -er: ein Jugendlicher, ein Kranker.",
+        "Accusative and dative masculine take -en: den Kranken, dem Kranken. den Kranken is also several people in the dative.",
+        "Feminine nominative is -e: die Kranke, eine Kranke. Plural: die Kranken. Neuter things such as Alles Gute are chapter 66."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Jugendliche", "article": "der", "plural": "die Jugendlichen", "en": "young person", "emoji": "🧒", "glossaryKey": "jugendliche" },
+        { "de": "Kranke", "article": "der", "plural": "die Kranken", "en": "sick person", "emoji": "🤒", "glossaryKey": "kranke" },
+        { "de": "Angehörige", "article": "der", "plural": "die Angehörigen", "en": "relative", "emoji": "👨‍👩‍👦", "glossaryKey": "angehörige" },
+        { "de": "Verletzte", "article": "der", "plural": "die Verletzten", "en": "injured person", "emoji": "🩹", "glossaryKey": "verletzte" }
+      ],
+      "text": {
+        "title": "Der Jugendliche – ein Jugendlicher",
+        "de": "Der Jugendliche wartet. Ein Jugendlicher wartet. Der Kranke liegt hier. Ein Kranker liegt hier. Wir kennen den Kranken. Wir helfen dem Kranken. Die Kranke wartet. Die Kranken warten. Der Angehörige kommt. Der Verletzte liegt hier. Ein Verletzter liegt hier.",
+        "en": "The young man is waiting. A young man is waiting. The sick man is lying here. A sick man is lying here. We know the sick man. We are helping the sick man. The sick woman is waiting. The sick people are waiting. The relative is coming. The injured man is lying here. An injured man is lying here."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "The ending moves",
+      "practice": "choose",
+      "heroTitle": "Der Jugendliche – ein Jugendlicher",
+      "heroImage": "bed",
+      "story": [
+        "Chapters 36 and 37 put the ending on an adjective before a noun. <b>der starke Schmerz. ein starker Schmerz. den starken Schmerz. dem starken Schmerz.</b> Here the noun is gone. The adjective is the person, and it takes a capital. <b>der Kranke. ein Kranker. den Kranken. dem Kranken.</b>",
+        "After <b>der</b> the article already shows <b>-r</b>, so the ending is <b>-e</b>. <b>der Jugendliche. der Kranke. der Angehörige. der Verletzte.</b> <b>der Jugendlicher</b> puts -er in both places.",
+        "After <b>ein</b> the article shows nothing masculine, so the ending is <b>-er</b>. <b>ein Jugendlicher. ein Kranker. ein Angehöriger. ein Verletzter.</b> <b>ein Kranke</b> is missing -r. The full phrase stays correct too: <b>ein kranker Patient. der kranke Patient.</b>",
+        "Accusative masculine is <b>-en</b>, chapter 36. <b>Wir kennen den Kranken. Wir kennen einen Kranken.</b> Dative is <b>-en</b> as well, chapter 37. <b>Wir helfen dem Kranken. einem Kranken.</b> One woman in the dative: <b>der Kranken, einer Kranken.</b> Genitive: <b>des Kranken</b>, with no extra -s. Not des Krankens.",
+        "<b>den Kranken</b> has two jobs. One man, accusative. Several people, dative plural. <b>die Kranke</b> is one woman. <b>eine Kranke</b> is the same -e. <b>die Kranken</b> is plural. After sein there is no ending and no capital noun: <b>Der Patient ist krank.</b>",
+        "<b>Patient</b> is an n-noun, chapter 64: <b>der Patient, den Patienten</b>. That pattern stays correct, and it is not this one. <b>Kollege</b> never takes -er. <b>kränker</b> is the comparative, chapter 38. Neuter things such as <b>Alles Gute</b> and <b>etwas Neues</b> are chapter 66."
+      ],
+      "questionRule": "After der the ending is -e. After ein the masculine nominative is -er. Accusative and dative take -en. die Kranke is one woman. die Kranken is plural. den Kranken is also several people.",
+      "tables": [
+        {
+          "title": "der oder ein",
+          "caption": "der already has -r, so the person ends in -e. ein has no masculine ending, so the person ends in -er. Plural uses die.",
+          "columns": ["Person", "nach der", "nach ein"],
+          "rows": [
+            { "label": "jung", "cells": ["der Jugendliche", "ein Jugendlicher"], "highlight": true },
+            { "label": "krank", "cells": ["der Kranke", "ein Kranker"], "highlight": true },
+            { "label": "Angehörige", "cells": ["der Angehörige", "ein Angehöriger"] },
+            { "label": "verletzt", "cells": ["der Verletzte", "ein Verletzter"] },
+            { "label": "Frau", "cells": ["die Kranke", "eine Kranke"] },
+            { "label": "Plural", "cells": ["die Kranken", "—"] }
+          ]
+        },
+        {
+          "title": "der Kranke",
+          "caption": "Same endings as the adjective. des Kranken has no extra -s. den Kranken is also the dative plural.",
+          "columns": ["Kasus", "der", "ein"],
+          "rows": [
+            { "label": "N", "cells": ["der Kranke", "ein Kranker"], "highlight": true },
+            { "label": "A", "cells": ["den Kranken", "einen Kranken"], "highlight": true },
+            { "label": "D", "cells": ["dem Kranken", "einem Kranken"] },
+            { "label": "G", "cells": ["des Kranken", "eines Kranken"] },
+            { "label": "Frau", "cells": ["die Kranke", "eine Kranke"] },
+            { "label": "Frau D", "cells": ["der Kranken", "einer Kranken"] },
+            { "label": "Pl", "cells": ["die Kranken", "—"] },
+            { "label": "Pl D", "cells": ["den Kranken", "—"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Only a doubled ending or a missing ending. ein Jugendlicher, der Kranke, einen Kranken, eine Kranke, den Kranken for several people, der Patient and ist krank stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "der", "cells": ["der Jugendlicher", "der Jugendliche"] },
+            { "label": "ein", "cells": ["ein Kranke", "ein Kranker"] },
+            { "label": "A", "cells": ["den Kranke", "den Kranken"] },
+            { "label": "D", "cells": ["dem Kranke", "dem Kranken"] },
+            { "label": "Frau", "cells": ["die Kranker", "die Kranke"] },
+            { "label": "Genitiv", "cells": ["des Krankens", "des Kranken"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four ending traps",
+        "items": [
+          { "de": "Der Jugendliche wartet.", "en": "-e after der.", "tone": "ok" },
+          { "de": "Der Jugendlicher wartet.", "en": "-er is already on der.", "tone": "stop" },
+          { "de": "Ein Kranker liegt hier.", "en": "-er after ein.", "tone": "ok" },
+          { "de": "Ein Kranke liegt hier.", "en": "Missing -r.", "tone": "stop" },
+          { "de": "Wir helfen dem Kranken.", "en": "-en in the dative.", "tone": "ok" },
+          { "de": "Wir helfen dem Kranke.", "en": "Missing -n.", "tone": "stop" },
+          { "de": "Ein Verletzter liegt hier.", "en": "-er after ein.", "tone": "ok" },
+          { "de": "Ein Verletzte liegt hier.", "en": "Missing -r.", "tone": "stop" }
+        ],
+        "tip": "der plus -e. ein plus -er. Accusative and dative -en."
+      },
+      "tips": [
+        {
+          "title": "The article keeps the signal",
+          "body": "der Jugendliche, ein Jugendlicher. der Kranke, ein Kranker. The ending sits where the article has none.",
+          "mnemonic": "der Jugendliche. ein Jugendlicher. dem Kranken. die Kranken.",
+          "emoji": "🧒"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "der Jugendliche", "emoji": "🧒", "en": "the young man", "use": "after der", "de": "Der Jugendliche wartet.", "deEn": "The young man is waiting." },
+        { "modal": "ein Kranker", "emoji": "🤒", "en": "a sick man", "use": "after ein", "de": "Ein Kranker liegt hier.", "deEn": "A sick man is lying here." },
+        { "modal": "dem Kranken", "emoji": "🤝", "en": "the sick man, dative", "use": "one man", "de": "Wir helfen dem Kranken.", "deEn": "We help the sick man." },
+        { "modal": "die Kranken", "emoji": "🏥", "en": "the sick people", "use": "plural", "de": "Die Kranken warten.", "deEn": "The sick people are waiting." }
+      ],
+      "quizTitle": "Which form?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The young man, after der.",
+          "qEn": "der Jugendliche.",
+          "options": ["Der Jugendliche wartet.", "Der Jugendlicher wartet.", "Ein Jugendlicher wartet."],
+          "answer": 0,
+          "why": "After der the ending is -e. der Jugendlicher puts -er on both. Ein Jugendlicher stays correct after ein.",
+          "hint": "Jugendliche."
+        },
+        {
+          "kind": "mc",
+          "q": "A sick man, after ein.",
+          "qEn": "ein Kranker.",
+          "options": ["Ein Kranker liegt hier.", "Ein Kranke liegt hier.", "Der Kranke liegt hier."],
+          "answer": 0,
+          "why": "ein shows no masculine ending, so Kranker takes -er. Ein Kranke is missing -r. Der Kranke stays correct after der.",
+          "hint": "Kranker."
+        },
+        {
+          "kind": "mc",
+          "q": "We know the sick man. Accusative.",
+          "qEn": "den Kranken.",
+          "options": ["Wir kennen den Kranken.", "Wir kennen den Kranke.", "Wir kennen einen Kranken."],
+          "answer": 0,
+          "why": "Accusative masculine is -en: den Kranken. den Kranke is missing -n. einen Kranken stays correct for a sick man.",
+          "hint": "Kranken."
+        },
+        {
+          "kind": "mc",
+          "q": "Help one sick man.",
+          "qEn": "dem Kranken.",
+          "options": ["Wir helfen dem Kranken.", "Wir helfen dem Kranke.", "Wir helfen den Kranken."],
+          "answer": 0,
+          "why": "One man, dative: dem Kranken. dem Kranke is missing -n. den Kranken is several people and stays correct.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "One sick woman.",
+          "qEn": "die Kranke.",
+          "options": ["Die Kranke wartet.", "Die Kranker wartet.", "Eine Kranke wartet."],
+          "answer": 0,
+          "why": "Feminine nominative is -e after die and after eine. Die Kranker is not feminine. Eine Kranke stays correct.",
+          "hint": "Kranke."
+        },
+        {
+          "kind": "mc",
+          "q": "Several sick people.",
+          "qEn": "die Kranken.",
+          "options": ["Die Kranken warten.", "Die Kranke warten.", "Den Kranken helfen wir."],
+          "answer": 0,
+          "why": "Plural nominative: die Kranken. die Kranke is one woman. Den Kranken helfen wir is several people in the dative and stays correct.",
+          "hint": "Kranken."
+        }
+      ]
+    },
+    {
+      "id": "gap-sort",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names der or ein, and one person or several. After der use -e. After ein use -er for a man. Accusative and dative use -en.",
+      "chips": [
+        { "w": "Der Jugendliche wartet", "hint": "-e after der." },
+        { "w": "Ein Kranker liegt hier", "hint": "-er after ein." },
+        { "w": "Wir kennen den Kranken", "hint": "-en." },
+        { "w": "Wir helfen dem Kranken", "hint": "dem." },
+        { "w": "Die Kranke wartet", "hint": "one woman." },
+        { "w": "Die Kranken warten", "hint": "plural." },
+        { "w": "Der Jugendlicher wartet", "hint": "-e." },
+        { "w": "Ein Kranke liegt hier", "hint": "-er." },
+        { "w": "Wir kennen den Kranke", "hint": "-en." },
+        { "w": "Wir helfen dem Kranke", "hint": "-en." },
+        { "w": "Die Kranker wartet", "hint": "-e." },
+        { "w": "Die Kranke warten", "hint": "plural -en." }
+      ],
+      "items": [
+        {
+          "before": "The young man, after der:",
+          "after": ".",
+          "answer": "Der Jugendliche wartet",
+          "en": "The young man is waiting.",
+          "why": "der Jugendliche. der Jugendlicher doubles -er. Ein Jugendlicher stays correct after ein.",
+          "tip": "Jugendliche.",
+          "hint": "Jugendliche."
+        },
+        {
+          "before": "A sick man, after ein:",
+          "after": ".",
+          "answer": "Ein Kranker liegt hier",
+          "en": "A sick man is lying here.",
+          "why": "ein Kranker. Ein Kranke is missing -r. Der Kranke stays correct after der.",
+          "tip": "Kranker.",
+          "hint": "Kranker."
+        },
+        {
+          "before": "We know the sick man:",
+          "after": ".",
+          "answer": "Wir kennen den Kranken",
+          "en": "We know the sick man.",
+          "why": "den Kranken. den Kranke is missing -n. einen Kranken stays correct.",
+          "tip": "Kranken.",
+          "hint": "Kranken."
+        },
+        {
+          "before": "We help one sick man:",
+          "after": ".",
+          "answer": "Wir helfen dem Kranken",
+          "en": "We help one sick man.",
+          "why": "dem Kranken. dem Kranke is missing -n. den Kranken is several people and stays correct.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "One sick woman:",
+          "after": ".",
+          "answer": "Die Kranke wartet",
+          "en": "The sick woman is waiting.",
+          "why": "die Kranke. Feminine -e. Eine Kranke stays correct. die Kranken is plural.",
+          "tip": "Kranke.",
+          "hint": "Kranke."
+        },
+        {
+          "before": "Several sick people are waiting:",
+          "after": ".",
+          "answer": "Die Kranken warten",
+          "en": "The sick people are waiting.",
+          "why": "die Kranken. die Kranke is one woman. Den Kranken helfen wir stays correct for several people.",
+          "tip": "Kranken.",
+          "hint": "Kranken."
+        }
+      ]
+    },
+    {
+      "id": "match-sort",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names der or ein, and one person or several. One piece is the chart form. One is the other article or case. One is not the form.",
+      "items": [
+        {
+          "prompt": "The young man, after der",
+          "options": [
+            { "emoji": "🧒", "label": "der Jugendliche", "caption": "-e" },
+            { "emoji": "🚫", "label": "der Jugendlicher", "caption": "doubled -er" },
+            { "emoji": "🧒", "label": "ein Jugendlicher", "caption": "after ein" }
+          ],
+          "answer": 0,
+          "why": "der Jugendliche. ein Jugendlicher stays correct after ein.",
+          "hint": "Jugendliche."
+        },
+        {
+          "prompt": "A sick man, after ein",
+          "options": [
+            { "emoji": "🤒", "label": "ein Kranker", "caption": "-er" },
+            { "emoji": "🚫", "label": "ein Kranke", "caption": "missing -r" },
+            { "emoji": "🤒", "label": "der Kranke", "caption": "after der" }
+          ],
+          "answer": 0,
+          "why": "ein Kranker. der Kranke stays correct after der.",
+          "hint": "Kranker."
+        },
+        {
+          "prompt": "The sick man, accusative",
+          "options": [
+            { "emoji": "🌹", "label": "den Kranken", "caption": "-en" },
+            { "emoji": "🚫", "label": "den Kranke", "caption": "missing -n" },
+            { "emoji": "🟢", "label": "einen Kranken", "caption": "a sick man" }
+          ],
+          "answer": 0,
+          "why": "den Kranken. einen Kranken stays correct.",
+          "hint": "Kranken."
+        },
+        {
+          "prompt": "One sick man, dative",
+          "options": [
+            { "emoji": "🤝", "label": "dem Kranken", "caption": "one man" },
+            { "emoji": "🚫", "label": "dem Kranke", "caption": "missing -n" },
+            { "emoji": "👥", "label": "den Kranken", "caption": "several people" }
+          ],
+          "answer": 0,
+          "why": "dem Kranken. den Kranken is several people and stays correct.",
+          "hint": "dem."
+        },
+        {
+          "prompt": "One sick woman",
+          "options": [
+            { "emoji": "🤒", "label": "die Kranke", "caption": "-e" },
+            { "emoji": "🚫", "label": "die Kranker", "caption": "not feminine" },
+            { "emoji": "🤒", "label": "eine Kranke", "caption": "after eine" }
+          ],
+          "answer": 0,
+          "why": "die Kranke. eine Kranke stays correct.",
+          "hint": "Kranke."
+        },
+        {
+          "prompt": "Several sick people",
+          "options": [
+            { "emoji": "👥", "label": "die Kranken", "caption": "plural" },
+            { "emoji": "🚫", "label": "die Kranker", "caption": "not plural" },
+            { "emoji": "🤒", "label": "die Kranke", "caption": "one woman" }
+          ],
+          "answer": 0,
+          "why": "die Kranken. die Kranker is not plural. die Kranke is one woman and stays correct. den Kranken stays the other case.",
+          "hint": "Kranken."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the young man's bed",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the injured man's plaster",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the sick man's thermometer",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the relative's chart",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-sort",
+      "type": "builder",
+      "label": "Build",
+      "title": "Capital, and the ending",
+      "practice": "build",
+      "instructions": "Build the line. hier can stand first. The sick man can stand first after helfen. der takes -e. ein takes -er.",
+      "items": [
+        {
+          "tiles": ["Der", "Jugendliche", "wartet"],
+          "answers": ["Der Jugendliche wartet"],
+          "punct": ".",
+          "modal": "Der",
+          "inf": "wartet",
+          "question": false,
+          "en": "The young man is waiting.",
+          "hint": "Der Jugendliche first.",
+          "feedback": {
+            "end": "wartet closes Der Jugendliche wartet.",
+            "fallback": "Der Jugendliche wartet."
+          }
+        },
+        {
+          "tiles": ["Ein", "Kranker", "liegt", "hier"],
+          "answers": ["Ein Kranker liegt hier", "Hier liegt ein Kranker"],
+          "punct": ".",
+          "modal": "liegt",
+          "inf": "hier",
+          "question": false,
+          "en": "A sick man is lying here.",
+          "hint": "Ein Kranker liegt hier. Or hier first.",
+          "feedback": {
+            "end": "hier closes Ein Kranker liegt hier.",
+            "fallback": "Ein Kranker liegt hier. Or: Hier liegt ein Kranker."
+          }
+        },
+        {
+          "tiles": ["Wir", "helfen", "dem", "Kranken"],
+          "answers": ["Wir helfen dem Kranken", "Dem Kranken helfen wir"],
+          "punct": ".",
+          "modal": "helfen",
+          "inf": "Kranken",
+          "question": false,
+          "en": "We help one sick man.",
+          "hint": "Wir helfen dem Kranken. Or dem Kranken first.",
+          "feedback": {
+            "end": "Kranken closes Wir helfen dem Kranken.",
+            "fallback": "Wir helfen dem Kranken. Or: Dem Kranken helfen wir."
+          }
+        },
+        {
+          "tiles": ["Ein", "Verletzter", "liegt", "hier"],
+          "answers": ["Ein Verletzter liegt hier", "Hier liegt ein Verletzter"],
+          "punct": ".",
+          "modal": "liegt",
+          "inf": "hier",
+          "question": false,
+          "en": "An injured man is lying here.",
+          "hint": "Ein Verletzter liegt hier. Or hier first.",
+          "feedback": {
+            "end": "hier closes Ein Verletzter liegt hier.",
+            "fallback": "Ein Verletzter liegt hier. Or: Hier liegt ein Verletzter."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-sort",
+      "label": "Rewrite",
+      "title": "Into the chart form",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names the article and the person. Give the chart form. The other article and the other case stay correct German.",
+      "chips": [
+        { "w": "Der Jugendliche wartet", "hint": "-e after der." },
+        { "w": "Ein Kranker liegt hier", "hint": "-er after ein." },
+        { "w": "Wir kennen den Kranken", "hint": "-en." },
+        { "w": "Wir helfen dem Kranken", "hint": "dem." },
+        { "w": "Die Kranke wartet", "hint": "one woman." },
+        { "w": "Die Kranken warten", "hint": "plural." },
+        { "w": "Der Jugendlicher wartet", "hint": "-e." },
+        { "w": "Ein Kranke liegt hier", "hint": "-er." },
+        { "w": "Wir kennen den Kranke", "hint": "-en." },
+        { "w": "Wir helfen dem Kranke", "hint": "-en." },
+        { "w": "Die Kranker wartet", "hint": "-e." },
+        { "w": "Die Kranke warten", "hint": "plural -en." }
+      ],
+      "items": [
+        {
+          "before": "The young man after der. After ein: ein Jugendlicher. Line:",
+          "after": ".",
+          "answer": "Der Jugendliche wartet",
+          "en": "The young man is waiting.",
+          "why": "der Jugendliche. Ein Jugendlicher wartet stays correct.",
+          "tip": "Jugendliche.",
+          "hint": "Jugendliche."
+        },
+        {
+          "before": "A sick man after ein. After der: der Kranke. Line:",
+          "after": ".",
+          "answer": "Ein Kranker liegt hier",
+          "en": "A sick man is lying here.",
+          "why": "ein Kranker. Der Kranke liegt hier stays correct. ein kranker Patient stays correct too.",
+          "tip": "Kranker.",
+          "hint": "Kranker."
+        },
+        {
+          "before": "The sick man, accusative. A sick man: einen Kranken. Line:",
+          "after": ".",
+          "answer": "Wir kennen den Kranken",
+          "en": "We know the sick man.",
+          "why": "den Kranken. Wir kennen einen Kranken stays correct.",
+          "tip": "Kranken.",
+          "hint": "Kranken."
+        },
+        {
+          "before": "Help one sick man. Several people: den Kranken. Line:",
+          "after": ".",
+          "answer": "Wir helfen dem Kranken",
+          "en": "We help one sick man.",
+          "why": "dem Kranken. Wir helfen den Kranken stays correct for several people.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "One sick woman. After eine the ending is still -e. Line:",
+          "after": ".",
+          "answer": "Die Kranke wartet",
+          "en": "The sick woman is waiting.",
+          "why": "die Kranke. Eine Kranke wartet stays correct.",
+          "tip": "Kranke.",
+          "hint": "Kranke."
+        },
+        {
+          "before": "Several sick people. One woman is die Kranke. Line:",
+          "after": ".",
+          "answer": "Die Kranken warten",
+          "en": "The sick people are waiting.",
+          "why": "die Kranken. Den Kranken helfen wir stays correct for several people.",
+          "tip": "Kranken.",
+          "hint": "Kranken."
+        }
+      ]
+    },
+    {
+      "id": "error-sort",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the chart form. Choose the correction. The other article, the other case, and the plural stay correct German.",
+      "items": [
+        {
+          "clues": ["The young man.", "After der.", "Der Jugendlicher wartet."],
+          "options": ["Der Jugendliche wartet.", "Der Jugendlicher wartet.", "Ein Jugendlicher wartet."],
+          "answer": 0,
+          "reveal": "Der Jugendliche wartet.",
+          "hint": "Jugendliche."
+        },
+        {
+          "clues": ["A sick man.", "After ein.", "Ein Kranke liegt hier."],
+          "options": ["Ein Kranker liegt hier.", "Ein Kranke liegt hier.", "Der Kranke liegt hier."],
+          "answer": 0,
+          "reveal": "Ein Kranker liegt hier.",
+          "hint": "Kranker."
+        },
+        {
+          "clues": ["The sick man.", "Accusative.", "Wir kennen den Kranke."],
+          "options": ["Wir kennen den Kranken.", "Wir kennen den Kranke.", "Wir kennen einen Kranken."],
+          "answer": 0,
+          "reveal": "Wir kennen den Kranken.",
+          "hint": "Kranken."
+        },
+        {
+          "clues": ["Help one man.", "Dative.", "Wir helfen dem Kranke."],
+          "options": ["Wir helfen dem Kranken.", "Wir helfen dem Kranke.", "Wir helfen den Kranken."],
+          "answer": 0,
+          "reveal": "Wir helfen dem Kranken.",
+          "hint": "dem."
+        },
+        {
+          "clues": ["One sick woman.", "Feminine.", "Die Kranker wartet."],
+          "options": ["Die Kranke wartet.", "Die Kranker wartet.", "Eine Kranke wartet."],
+          "answer": 0,
+          "reveal": "Die Kranke wartet.",
+          "hint": "Kranke."
+        },
+        {
+          "clues": ["Several sick people.", "Plural.", "Die Kranke warten."],
+          "options": ["Die Kranken warten.", "Die Kranke warten.", "Den Kranken helfen wir."],
+          "answer": 0,
+          "reveal": "Die Kranken warten.",
+          "hint": "Kranken."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor names one person or several. Give the chart form. The other article stays correct.",
+      "chips": [
+        { "w": "Der Jugendliche wartet", "hint": "-e after der." },
+        { "w": "Ein Kranker liegt hier", "hint": "-er after ein." },
+        { "w": "Wir kennen den Kranken", "hint": "-en." },
+        { "w": "Wir helfen dem Kranken", "hint": "dem." },
+        { "w": "Die Kranke wartet", "hint": "one woman." },
+        { "w": "Die Kranken warten", "hint": "plural." },
+        { "w": "Der Jugendlicher wartet", "hint": "-e." },
+        { "w": "Ein Kranke liegt hier", "hint": "-er." },
+        { "w": "Wir kennen den Kranke", "hint": "-en." },
+        { "w": "Wir helfen dem Kranke", "hint": "-en." },
+        { "w": "Die Kranker wartet", "hint": "-e." },
+        { "w": "Die Kranke warten", "hint": "plural -en." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, the young man is waiting:",
+          "after": ".",
+          "answer": "Der Jugendliche wartet",
+          "en": "The young man is waiting.",
+          "why": "der Jugendliche.",
+          "tip": "Jugendliche.",
+          "hint": "Jugendliche."
+        },
+        {
+          "before": "Doctor, a sick man is lying here:",
+          "after": ".",
+          "answer": "Ein Kranker liegt hier",
+          "en": "A sick man is lying here.",
+          "why": "ein Kranker.",
+          "tip": "Kranker.",
+          "hint": "Kranker."
+        },
+        {
+          "before": "Nurse, we know the sick man:",
+          "after": ".",
+          "answer": "Wir kennen den Kranken",
+          "en": "We know the sick man.",
+          "why": "den Kranken.",
+          "tip": "Kranken.",
+          "hint": "Kranken."
+        },
+        {
+          "before": "Doctor, we help one sick man:",
+          "after": ".",
+          "answer": "Wir helfen dem Kranken",
+          "en": "We help one sick man.",
+          "why": "dem Kranken. Several people stay den Kranken.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "Nurse, one sick woman:",
+          "after": ".",
+          "answer": "Die Kranke wartet",
+          "en": "The sick woman is waiting.",
+          "why": "die Kranke.",
+          "tip": "Kranke.",
+          "hint": "Kranke."
+        },
+        {
+          "before": "Doctor, several sick people:",
+          "after": ".",
+          "answer": "Die Kranken warten",
+          "en": "The sick people are waiting.",
+          "why": "die Kranken.",
+          "tip": "Kranken.",
+          "hint": "Kranken."
+        }
+      ]
+    },
+    {
+      "id": "gap-cases",
+      "label": "Gap",
+      "title": "Jugendlicher, Verletzter, Angehöriger",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "ein takes -er for one man. der takes -e. Accusative and dative take -en. A woman keeps eine and -e.",
+      "chips": [
+        { "w": "ein Jugendlicher", "hint": "-er." },
+        { "w": "der Jugendliche", "hint": "-e." },
+        { "w": "den Kranken", "hint": "-en." },
+        { "w": "dem Kranken", "hint": "dative." },
+        { "w": "ein Verletzter", "hint": "-er." },
+        { "w": "ein Angehöriger", "hint": "-er." },
+        { "w": "ein Jugendliche", "hint": "-er." },
+        { "w": "der Jugendlicher", "hint": "-e." },
+        { "w": "den Kranke", "hint": "-en." },
+        { "w": "dem Kranke", "hint": "-en." },
+        { "w": "ein Verletzte", "hint": "-er." },
+        { "w": "ein Angehörige", "hint": "-er." }
+      ],
+      "items": [
+        {
+          "before": "A young man, nominative:",
+          "after": ".",
+          "answer": "ein Jugendlicher",
+          "en": "a young man.",
+          "why": "ein Jugendlicher. ein Jugendliche is missing -r. der Jugendliche stays correct after der.",
+          "tip": "Jugendlicher.",
+          "hint": "Jugendlicher."
+        },
+        {
+          "before": "The young man, nominative:",
+          "after": ".",
+          "answer": "der Jugendliche",
+          "en": "the young man.",
+          "why": "der Jugendliche. der Jugendlicher doubles -er. ein Jugendlicher stays correct after ein.",
+          "tip": "Jugendliche.",
+          "hint": "Jugendliche."
+        },
+        {
+          "before": "Accusative, the sick man:",
+          "after": ".",
+          "answer": "den Kranken",
+          "en": "the sick man.",
+          "why": "den Kranken. den Kranke is missing -n. einen Kranken stays correct. The same den Kranken is also several people in the dative.",
+          "tip": "Kranken.",
+          "hint": "Kranken."
+        },
+        {
+          "before": "Dative, one sick man:",
+          "after": ".",
+          "answer": "dem Kranken",
+          "en": "the sick man.",
+          "why": "dem Kranken. dem Kranke is missing -n. einem Kranken stays correct. den Kranken is several people and stays correct.",
+          "tip": "Kranken.",
+          "hint": "Kranken."
+        },
+        {
+          "before": "An injured man, nominative:",
+          "after": ".",
+          "answer": "ein Verletzter",
+          "en": "an injured man.",
+          "why": "ein Verletzter. ein Verletzte is missing -r. der Verletzte stays correct after der.",
+          "tip": "Verletzter.",
+          "hint": "Verletzter."
+        },
+        {
+          "before": "A male relative, nominative:",
+          "after": ".",
+          "answer": "ein Angehöriger",
+          "en": "a male relative.",
+          "why": "ein Angehöriger. The -er is the ein ending. der Angehörige stays correct. eine Angehörige is the woman and stays correct. Kollege does not take -er.",
+          "tip": "Angehöriger.",
+          "hint": "Angehöriger."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. The other article and the other number stay correct when the note shows both.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Kranke",
+        "paragraphs": [
+          "Der Jugendliche wartet. Ein Jugendlicher wartet.",
+          "Der Kranke liegt hier. Ein Kranker liegt hier. Wir kennen den Kranken. Wir helfen dem Kranken.",
+          "Die Kranke wartet. Die Kranken warten. Der Angehörige kommt. Der Verletzte liegt hier. Ein Verletzter liegt hier."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The young man after der, from the note.",
+          "qEn": "der Jugendliche.",
+          "options": ["der Jugendliche", "der Jugendlicher", "ein Jugendlicher"],
+          "answer": 0,
+          "why": "Der Jugendliche wartet. Ein Jugendlicher wartet is also in the note and stays correct.",
+          "hint": "Jugendliche."
+        },
+        {
+          "kind": "mc",
+          "q": "A sick man after ein, from the note.",
+          "qEn": "ein Kranker.",
+          "options": ["ein Kranker", "ein Kranke", "der Kranke"],
+          "answer": 0,
+          "why": "Ein Kranker liegt hier. Der Kranke liegt hier is also in the note and stays correct.",
+          "hint": "Kranker."
+        },
+        {
+          "kind": "mc",
+          "q": "The one sick man we help, from the note.",
+          "qEn": "dem Kranken.",
+          "options": ["dem Kranken", "dem Kranke", "den Kranken"],
+          "answer": 0,
+          "why": "Wir helfen dem Kranken. den Kranken is in Wir kennen den Kranken, and it is also several people.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Several sick people, from the note.",
+          "qEn": "die Kranken.",
+          "options": ["die Kranken", "die Kranke", "den Kranke"],
+          "answer": 0,
+          "why": "Die Kranken warten. Die Kranke wartet is one woman and stays correct.",
+          "hint": "Kranken."
+        }
+      ]
+    },
+    {
+      "id": "writing-sort",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. The young man is waiting. A sick man is lying here. We help the sick man. The sick people are waiting.",
+      "prompt": "The young man is waiting. A sick man is lying here. We help the sick man. The sick people are waiting.",
+      "bullets": ["der Jugendliche", "ein Kranker", "dem Kranken", "die Kranken"],
+      "model": "Der Jugendliche wartet. Ein Kranker liegt hier. Wir helfen dem Kranken. Die Kranken warten.",
+      "modelEn": "The young man is waiting. A sick man is lying here. We help the sick man. The sick people are waiting.",
+      "hint": "Der Jugendliche wartet. Ein Kranker liegt hier. helfen dem Kranken. Die Kranken warten.",
+      "checklist": [
+        { "id": "j", "label": "der Jugendliche", "keywords": ["der jugendliche wartet"] },
+        { "id": "k", "label": "ein Kranker", "keywords": ["ein kranker liegt"] },
+        { "id": "d", "label": "dem Kranken", "keywords": ["helfen dem kranken"] },
+        { "id": "p", "label": "die Kranken", "keywords": ["die kranken warten"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Der Jugendliche – ein Jugendlicher",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "After der the ending is -e. After ein a man takes -er. Accusative and dative take -en. die Kranke is one woman. die Kranken is plural. ein Verletzter and ein Angehöriger follow ein Kranker.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The young man, after der.",
+          "qEn": "der Jugendliche.",
+          "options": ["Der Jugendliche wartet.", "Der Jugendlicher wartet.", "Ein Jugendlicher wartet."],
+          "answer": 0,
+          "why": "der Jugendliche. Ein Jugendlicher stays correct after ein.",
+          "hint": "Jugendliche."
+        },
+        {
+          "kind": "mc",
+          "q": "A sick man, after ein.",
+          "qEn": "ein Kranker.",
+          "options": ["Ein Kranker liegt hier.", "Ein Kranke liegt hier.", "Der Kranke liegt hier."],
+          "answer": 0,
+          "why": "ein Kranker. Der Kranke stays correct after der.",
+          "hint": "Kranker."
+        },
+        {
+          "kind": "mc",
+          "q": "We know the sick man.",
+          "qEn": "den Kranken.",
+          "options": ["Wir kennen den Kranken.", "Wir kennen den Kranke.", "Wir kennen einen Kranken."],
+          "answer": 0,
+          "why": "den Kranken. einen Kranken stays correct.",
+          "hint": "Kranken."
+        },
+        {
+          "kind": "mc",
+          "q": "Help one sick man.",
+          "qEn": "dem Kranken.",
+          "options": ["Wir helfen dem Kranken.", "Wir helfen dem Kranke.", "Wir helfen den Kranken."],
+          "answer": 0,
+          "why": "dem Kranken. den Kranken is several people and stays correct.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Nominative after der, young man.",
+          "qEn": "der Jugendliche.",
+          "options": ["der Jugendliche", "der Jugendlicher", "ein Jugendlicher"],
+          "answer": 0,
+          "why": "der Jugendliche. ein Jugendlicher stays correct after ein.",
+          "hint": "Jugendliche."
+        },
+        {
+          "kind": "mc",
+          "q": "Nominative after ein, sick man.",
+          "qEn": "ein Kranker.",
+          "options": ["ein Kranker", "ein Kranke", "der Kranke"],
+          "answer": 0,
+          "why": "ein Kranker. der Kranke stays correct after der.",
+          "hint": "Kranker."
+        },
+        {
+          "kind": "mc",
+          "q": "Accusative, the sick man.",
+          "qEn": "den Kranken.",
+          "options": ["den Kranken", "den Kranke", "einen Kranken"],
+          "answer": 0,
+          "why": "den Kranken. einen Kranken stays correct. The same den Kranken is also dative plural.",
+          "hint": "Kranken."
+        },
+        {
+          "kind": "mc",
+          "q": "Dative, one sick man.",
+          "qEn": "dem Kranken.",
+          "options": ["dem Kranken", "dem Kranke", "den Kranken"],
+          "answer": 0,
+          "why": "dem Kranken. den Kranken is several people and stays correct.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "One sick woman.",
+          "qEn": "die Kranke.",
+          "options": ["die Kranke", "die Kranker", "eine Kranke"],
+          "answer": 0,
+          "why": "die Kranke. eine Kranke stays correct.",
+          "hint": "Kranke."
+        },
+        {
+          "kind": "mc",
+          "q": "An injured man, after ein.",
+          "qEn": "ein Verletzter.",
+          "options": ["ein Verletzter", "ein Verletzte", "der Verletzte"],
+          "answer": 0,
+          "why": "ein Verletzter. der Verletzte stays correct after der.",
+          "hint": "Verletzter."
+        },
+        {
+          "kind": "mc",
+          "q": "A male relative, after ein.",
+          "qEn": "ein Angehöriger.",
+          "options": ["ein Angehöriger", "ein Angehörige", "der Angehörige"],
+          "answer": 0,
+          "why": "ein Angehöriger. der Angehörige stays correct. eine Angehörige is the woman and stays correct.",
+          "hint": "Angehöriger."
+        },
+        {
+          "kind": "mc",
+          "q": "Several sick people.",
+          "qEn": "die Kranken.",
+          "options": ["Die Kranken warten.", "Die Kranke warten.", "Den Kranken helfen wir."],
+          "answer": 0,
+          "why": "die Kranken. die Kranke is one woman. Den Kranken helfen wir stays correct for several people.",
+          "hint": "Kranken."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Der Jugendliche – ein Jugendlicher",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Der Jugendliche wartet.", "en": "The young man is waiting." },
+        { "de": "Ein Kranker liegt hier.", "en": "A sick man is lying here." },
+        { "de": "Wir helfen dem Kranken.", "en": "We help the sick man." },
+        { "de": "Die Kranken warten.", "en": "The sick people are waiting." }
+      ],
+      "messages": [
+        "After der the ending is -e: der Jugendliche, der Kranke. After ein a man takes -er: ein Jugendlicher, ein Kranker, ein Verletzter, ein Angehöriger.",
+        "den Kranken and dem Kranken. den Kranken is also several people. die Kranke is one woman. die Kranken is plural. des Kranken has no extra -s. Der Patient ist krank stays predicative.",
+        "Sehr gut. Der Jugendliche wartet. Ein Kranker liegt hier. Wir helfen dem Kranken.",
+        "Ausgezeichnet. You can name a young man, a sick man, a relative, and an injured man on the ward."
+      ]
+    }
+  ]
+}
