@@ -1,0 +1,1120 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-51-reflexiv-dativ",
+  "level": "B1",
+  "unit": "Kapitel 51",
+  "chapter": 51,
+  "chapters": [51],
+  "title": "Ich wasche mir die Hände",
+  "subtitle": "Reflexive pronouns in the dative",
+  "glossary": {
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🙋" },
+    "wasche": {
+      "de": "waschen → ich wasche",
+      "pos": "form",
+      "en": "wash",
+      "emoji": "🧼",
+      "note": "Whole person: ich wasche mich. With a thing: ich wasche mir die Hände."
+    },
+    "mir": {
+      "de": "mir",
+      "pos": "pronoun",
+      "en": "myself (dative); to me",
+      "emoji": "🤲",
+      "note": "Dative. The thing stays accusative: mir die Hände, mir das Gesicht, mir den Befund, mir Sorgen, mir den Arm. Not mich."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴", "note": "Accusative plural: die Hände." },
+    "hände": {
+      "de": "Hand",
+      "pos": "noun",
+      "en": "hand",
+      "emoji": "🤲",
+      "article": "die",
+      "plural": "die Hände",
+      "note": "Accusative plural die Hände. Not den Händen."
+    },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢", "note": "Accusative neuter stays das: das Gesicht." },
+    "gesicht": {
+      "de": "Gesicht",
+      "pos": "noun",
+      "en": "face",
+      "emoji": "🙂",
+      "article": "das",
+      "plural": "die Gesichter",
+      "note": "Accusative: das Gesicht. Not den Gesicht."
+    },
+    "du": { "de": "du", "pos": "pronoun", "en": "you (informal singular)", "emoji": "🧑" },
+    "wäschst": {
+      "de": "waschen → du wäschst",
+      "pos": "form",
+      "en": "wash (du)",
+      "emoji": "🧼",
+      "note": "du wäschst, with ä. ihr wascht has no umlaut."
+    },
+    "dir": {
+      "de": "dir",
+      "pos": "pronoun",
+      "en": "yourself (dative); to you",
+      "emoji": "🤲",
+      "note": "Dative of du. Du wäschst dir die Hände. Not dich, when a thing is accusative."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she; they; formal you",
+      "emoji": "👩",
+      "note": "She is tut and wäscht: Sie tut sich weh. Formal you and they use the plural verb: Sie waschen sich die Hände."
+    },
+    "tut": {
+      "de": "wehtun → sie tut … weh",
+      "pos": "form",
+      "en": "hurts",
+      "emoji": "🤕",
+      "note": "weh is the prefix and goes to the end. Dative: sie tut sich weh. ich tue mir weh. du tust dir weh."
+    },
+    "sich": {
+      "de": "sich",
+      "pos": "pronoun",
+      "en": "himself, herself, themselves, yourself (formal)",
+      "emoji": "🔁",
+      "note": "Accusative and dative look the same. Sie tut sich weh. Er hat sich den Arm gebrochen."
+    },
+    "weh": {
+      "de": "weh",
+      "pos": "prefix",
+      "en": "hurt (separable prefix of wehtun)",
+      "emoji": "🤕",
+      "note": "Goes to the end: tut sich weh. Not weh tut sich."
+    },
+    "sehe": {
+      "de": "ansehen → ich sehe … an",
+      "pos": "form",
+      "en": "look at",
+      "emoji": "👁️",
+      "note": "Dative pronoun, then the accusative thing, an at the end. du siehst."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)",
+      "emoji": "🔵",
+      "note": "den Befund. den Arm. The thing is accusative. The person is dative."
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding; report",
+      "emoji": "📋",
+      "article": "der",
+      "plural": "die Befunde",
+      "note": "Accusative: den Befund."
+    },
+    "an": {
+      "de": "an",
+      "pos": "prefix",
+      "en": "separable prefix of ansehen",
+      "emoji": "👁️",
+      "note": "Goes to the end: sehe mir den Befund an."
+    },
+    "mache": {
+      "de": "machen → ich mache",
+      "pos": "form",
+      "en": "make",
+      "emoji": "😟",
+      "note": "sich Sorgen machen takes mir: ich mache mir Sorgen."
+    },
+    "sorgen": {
+      "de": "Sorge",
+      "pos": "noun",
+      "en": "worry",
+      "emoji": "😟",
+      "article": "die",
+      "plural": "die Sorgen",
+      "note": "The idiom is plural: sich Sorgen machen. No article."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "👨" },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "⏪",
+      "note": "Perfekt. The dative pronoun stands before the participle: hat sich den Arm gebrochen."
+    },
+    "arm": {
+      "de": "Arm",
+      "pos": "noun",
+      "en": "arm",
+      "emoji": "💪",
+      "article": "der",
+      "plural": "die Arme",
+      "note": "Accusative: den Arm. Not dem Arm."
+    },
+    "gebrochen": {
+      "de": "gebrochen",
+      "pos": "participle",
+      "en": "broken",
+      "emoji": "💪",
+      "note": "brechen → gebrochen. Not gebrecht. The person is dative: sich den Arm."
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "wäscht": {
+      "de": "waschen → sie wäscht",
+      "pos": "form",
+      "en": "washes (she)",
+      "emoji": "🧼",
+      "note": "She wäscht. Formal Sie waschen."
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (masculine dative)",
+      "emoji": "🔵",
+      "note": "dem Patienten, when the nurse washes his hands. Not reflexive."
+    },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Dative singular: dem Patienten. His hands, washed by the nurse."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "My hands, her pain",
+      "learn": [
+        "When a second thing is accusative, the reflexive person is dative. Ich wasche mir die Hände. Ich wasche mir das Gesicht. Not mich die Hände.",
+        "You can see the case on ich and du: mir, not mich. dir, not dich. sich, uns and euch look the same in both cases. Sie tut sich weh.",
+        "The dative pronoun stands just after the verb. Then the accusative thing. A prefix goes to the end: Ich sehe mir den Befund an. Sie tut sich weh.",
+        "Chapter 29 stays for the whole person, with no second thing: Ich wasche mich. Ich fühle mich besser. The nurse washing his hands is not reflexive: dem Patienten."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Hand", "article": "die", "plural": "die Hände", "en": "hand", "emoji": "🤲", "image": { "type": "svg", "id": "hands" }, "glossaryKey": "hände" },
+        { "de": "Gesicht", "article": "das", "plural": "die Gesichter", "en": "face", "emoji": "🙂", "glossaryKey": "gesicht" },
+        { "de": "Arm", "article": "der", "plural": "die Arme", "en": "arm", "emoji": "💪", "glossaryKey": "arm" },
+        { "de": "Befund", "article": "der", "plural": "die Befunde", "en": "finding; report", "emoji": "📋", "glossaryKey": "befund" }
+      ],
+      "text": {
+        "title": "Ich wasche mir die Hände",
+        "de": "Ich wasche mir die Hände. Ich wasche mir das Gesicht. Du wäschst dir die Hände. Sie tut sich weh. Ich sehe mir den Befund an. Ich mache mir Sorgen. Er hat sich den Arm gebrochen.",
+        "en": "I wash my hands. I wash my face. You wash your hands. She hurts herself. I look at the report. I am worried. He has broken his arm."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "mir, not mich",
+      "practice": "choose",
+      "heroTitle": "Ich wasche mir die Hände",
+      "heroImage": "hands",
+      "story": [
+        "Chapter 29 put the whole person in the accusative: <b>Ich wasche mich. Ich fühle mich besser.</b> Those sentences have no second noun. They stay accusative.",
+        "A second thing is accusative, so the person is dative. <b>Ich wasche mir die Hände. Ich wasche mir das Gesicht.</b> die Hände is accusative plural. das Gesicht stays das. Not mich die Hände, and not den Gesicht.",
+        "ich and du show the case. Dative <b>mir, dir</b>. Accusative <b>mich, dich</b>. <b>Du wäschst dir die Hände.</b> du takes wäschst, with ä. ihr takes wascht, with no umlaut: Ihr wascht euch die Hände. wir: Wir waschen uns die Hände. sich, uns and euch do not change their spelling.",
+        "Some verbs take that dative even when the thing is not a body part. <b>Ich sehe mir den Befund an.</b> mir, then den Befund, and <b>an</b> at the end. <b>Ich mache mir Sorgen.</b> Sorgen is plural, with no article. <b>Sie tut sich weh.</b> weh tun takes the dative, and <b>weh</b> goes to the end. For ich that is tue mir weh. Not tue mich weh.",
+        "A broken arm is already done, so the Perfekt: <b>Er hat sich den Arm gebrochen.</b> sich is dative, den Arm is accusative, gebrochen is the participle. Not dem Arm, and not gebrecht. The pronoun stands before the participle, as in chapter 29: Ich habe mir die Hände gewaschen.",
+        "If the nurse washes his hands, the person is not reflexive. <b>Die Pflegekraft wäscht dem Patienten die Hände.</b> dem Patienten is dative singular. sich would be her own hands. Dressing the whole person stays accusative, as in chapter 29: zieht den Patienten an."
+      ],
+      "questionRule": "A second accusative thing takes mir or dir, not mich or dich. sich does not change. Prefix at the end. den Arm, not dem Arm.",
+      "tables": [
+        {
+          "title": "mir oder mich",
+          "caption": "The dative column is for a second accusative thing. sich, uns and euch keep the same spelling.",
+          "columns": ["Akkusativ", "Dativ"],
+          "rows": [
+            { "label": "ich", "cells": ["mich", "mir"], "highlight": true },
+            { "label": "du", "cells": ["dich", "dir"], "highlight": true },
+            { "label": "er / sie", "cells": ["sich", "sich"] },
+            { "label": "wir", "cells": ["uns", "uns"] },
+            { "label": "ihr", "cells": ["euch", "euch"] },
+            { "label": "sie / Sie", "cells": ["sich", "sich"] }
+          ]
+        },
+        {
+          "title": "Dativ plus die Sache",
+          "caption": "Pronoun after the verb. Thing next. Prefix or participle at the end.",
+          "columns": ["Verb", "Satz"],
+          "rows": [
+            { "label": "waschen", "cells": ["mir die Hände", "Ich wasche mir die Hände."], "highlight": true },
+            { "label": "ansehen", "cells": ["mir den Befund an", "Ich sehe mir den Befund an."], "highlight": true },
+            { "label": "Sorgen", "cells": ["mir Sorgen", "Ich mache mir Sorgen."] },
+            { "label": "wehtun", "cells": ["sich weh", "Sie tut sich weh."], "highlight": true },
+            { "label": "brechen", "cells": ["sich den Arm", "Er hat sich den Arm gebrochen."] },
+            { "label": "Pflegekraft", "cells": ["dem Patienten", "Sie wäscht dem Patienten die Hände."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "mich and dich do not take a second accusative thing. The arm is den, not dem.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "Hände", "cells": ["mich die Hände", "mir die Hände"] },
+            { "label": "weh", "cells": ["mich weh", "mir weh"] },
+            { "label": "Sorgen", "cells": ["mich Sorgen", "mir Sorgen"] },
+            { "label": "Arm", "cells": ["dem Arm", "den Arm"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four dative traps",
+        "items": [
+          { "de": "Ich wasche mir die Hände.", "en": "The hands are accusative, so mir.", "tone": "ok" },
+          { "de": "Ich wasche mich die Hände.", "en": "Not mich with a second thing.", "tone": "stop" },
+          { "de": "Sie tut sich weh.", "en": "weh tun takes the dative. weh is last.", "tone": "ok" },
+          { "de": "Sie tut mich weh.", "en": "mich is the wrong case.", "tone": "stop" },
+          { "de": "Ich sehe mir den Befund an.", "en": "mir, then den Befund, an at the end.", "tone": "ok" },
+          { "de": "Ich sehe mich den Befund an.", "en": "Not mich.", "tone": "stop" },
+          { "de": "Er hat sich den Arm gebrochen.", "en": "den Arm. gebrochen.", "tone": "ok" },
+          { "de": "Er hat sich dem Arm gebrochen.", "en": "The arm is accusative, not dative.", "tone": "stop" }
+        ],
+        "tip": "No second noun: mich. A thing in the sentence: mir or dir. sich stays sich. Prefix last."
+      },
+      "quizTitle": "mir or mich?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "die Hände, ich. Which pronoun?",
+          "qEn": "The hands are accusative.",
+          "options": ["mir", "mich", "dir"],
+          "answer": 0,
+          "why": "mir die Hände.",
+          "hint": "mir."
+        },
+        {
+          "kind": "mc",
+          "q": "Whole person, no body part. ich, waschen.",
+          "qEn": "Chapter 29. Accusative.",
+          "options": ["mich", "mir", "dich"],
+          "answer": 0,
+          "why": "mich. No second noun.",
+          "hint": "mich."
+        },
+        {
+          "kind": "mc",
+          "q": "die Hände, du. Which pronoun?",
+          "qEn": "Dative of du.",
+          "options": ["dir", "dich", "mir"],
+          "answer": 0,
+          "why": "dir die Hände.",
+          "hint": "dir."
+        },
+        {
+          "kind": "mc",
+          "q": "weh tun, sie (she). Which pronoun?",
+          "qEn": "Dative. sich does not change.",
+          "options": ["sich", "mich", "mir"],
+          "answer": 0,
+          "why": "sich. mir would be me.",
+          "hint": "sich."
+        },
+        {
+          "kind": "mc",
+          "q": "den Befund, ich, ansehen.",
+          "qEn": "mir, an at the end.",
+          "options": ["sehe mir den Befund an", "sehe mich den Befund an", "sehe mir den Befund"],
+          "answer": 0,
+          "why": "mir den Befund an.",
+          "hint": "an."
+        },
+        {
+          "kind": "mc",
+          "q": "Sorgen, ich.",
+          "qEn": "Plural Sorgen. Dative mir.",
+          "options": ["mache mir Sorgen", "mache mich Sorgen", "mache Sorgen mir"],
+          "answer": 0,
+          "why": "mir Sorgen.",
+          "hint": "Sorgen."
+        }
+      ]
+    },
+    {
+      "id": "gap-dativ",
+      "label": "Gap",
+      "title": "Which pronoun?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the person and the thing. ich takes mir, du takes dir. A second thing is not mich or dich. The nurse uses dem Patienten.",
+      "chips": [
+        { "w": "mir", "hint": "ich, dative." },
+        { "w": "dir", "hint": "du, dative." },
+        { "w": "sich", "hint": "sie, dative." },
+        { "w": "uns", "hint": "wir." },
+        { "w": "euch", "hint": "ihr." },
+        { "w": "dem Patienten", "hint": "his hands, not hers." },
+        { "w": "mich", "hint": "whole person only." },
+        { "w": "dich", "hint": "not with die Hände." },
+        { "w": "den Patienten", "hint": "not the accusative here." }
+      ],
+      "items": [
+        {
+          "before": "Hände, ich: Ich wasche",
+          "after": "die Hände.",
+          "answer": "mir",
+          "en": "I wash my hands.",
+          "why": "Ich wasche mir die Hände.",
+          "tip": "mir.",
+          "hint": "mir."
+        },
+        {
+          "before": "Hände, du: Du wäschst",
+          "after": "die Hände.",
+          "answer": "dir",
+          "en": "You wash your hands.",
+          "why": "Du wäschst dir die Hände.",
+          "tip": "dir.",
+          "hint": "dir."
+        },
+        {
+          "before": "weh, sie: Sie tut",
+          "after": "weh.",
+          "answer": "sich",
+          "en": "She hurts herself.",
+          "why": "Sie tut sich weh.",
+          "tip": "sich.",
+          "hint": "sich."
+        },
+        {
+          "before": "Hände, wir: Wir waschen",
+          "after": "die Hände.",
+          "answer": "uns",
+          "en": "We wash our hands.",
+          "why": "Wir waschen uns die Hände.",
+          "tip": "uns.",
+          "hint": "uns."
+        },
+        {
+          "before": "Hände, ihr: Ihr wascht",
+          "after": "die Hände.",
+          "answer": "euch",
+          "en": "You wash your hands.",
+          "why": "Ihr wascht euch die Hände.",
+          "tip": "euch.",
+          "hint": "euch."
+        },
+        {
+          "before": "seine Hände, Pflegekraft: Die Pflegekraft wäscht",
+          "after": "die Hände.",
+          "answer": "dem Patienten",
+          "en": "The nurse washes the patient's hands.",
+          "why": "dem Patienten. sich would be her own hands.",
+          "tip": "dem.",
+          "hint": "dem."
+        }
+      ]
+    },
+    {
+      "id": "match-dativ",
+      "type": "compare",
+      "label": "Match",
+      "title": "Dative or accusative?",
+      "practice": "match",
+      "instructions": "Match the sentence. A second thing takes the dative. The whole person, with no second thing, stays accusative.",
+      "items": [
+        {
+          "prompt": "I wash my hands. die Hände.",
+          "options": [
+            { "emoji": "🤲", "label": "Ich wasche mir die Hände.", "caption": "mir." },
+            { "emoji": "🚫", "label": "Ich wasche mich die Hände.", "caption": "Not mich." },
+            { "emoji": "🚫", "label": "Ich wasche mir den Händen.", "caption": "Not den Händen." }
+          ],
+          "answer": 0,
+          "why": "mir die Hände.",
+          "hint": "mir."
+        },
+        {
+          "prompt": "You wash your hands. du.",
+          "options": [
+            { "emoji": "🧼", "label": "Du wäschst dir die Hände.", "caption": "dir. wäschst." },
+            { "emoji": "🚫", "label": "Du wäschst dich die Hände.", "caption": "Not dich." },
+            { "emoji": "🚫", "label": "Du wascht dir die Hände.", "caption": "du is wäschst." }
+          ],
+          "answer": 0,
+          "why": "wäschst dir.",
+          "hint": "dir."
+        },
+        {
+          "prompt": "She hurts herself. weh tun.",
+          "options": [
+            { "emoji": "🤕", "label": "Sie tut sich weh.", "caption": "sich. weh last." },
+            { "emoji": "🚫", "label": "Sie tut mich weh.", "caption": "Not mich." },
+            { "emoji": "🚫", "label": "Sie weh tut sich.", "caption": "weh is last." }
+          ],
+          "answer": 0,
+          "why": "tut sich weh.",
+          "hint": "weh."
+        },
+        {
+          "prompt": "I look at the report. ansehen.",
+          "options": [
+            { "emoji": "👁️", "label": "Ich sehe mir den Befund an.", "caption": "an last." },
+            { "emoji": "🚫", "label": "Ich sehe mich den Befund an.", "caption": "Not mich." },
+            { "emoji": "🚫", "label": "Ich sehe mir an den Befund.", "caption": "an is last." }
+          ],
+          "answer": 0,
+          "why": "mir den Befund an.",
+          "hint": "an."
+        },
+        {
+          "prompt": "I am worried. Sorgen.",
+          "options": [
+            { "emoji": "😟", "label": "Ich mache mir Sorgen.", "caption": "Plural Sorgen." },
+            { "emoji": "🚫", "label": "Ich mache mich Sorgen.", "caption": "Not mich." },
+            { "emoji": "🚫", "label": "Ich mache Sorgen mir.", "caption": "mir before Sorgen." }
+          ],
+          "answer": 0,
+          "why": "mir Sorgen.",
+          "hint": "Sorgen."
+        },
+        {
+          "prompt": "He has broken his arm. den Arm.",
+          "options": [
+            { "emoji": "💪", "label": "Er hat sich den Arm gebrochen.", "caption": "den Arm." },
+            { "emoji": "🚫", "label": "Er hat sich dem Arm gebrochen.", "caption": "Not dem Arm." },
+            { "emoji": "🚫", "label": "Er hat sich den Arm gebrecht.", "caption": "gebrochen." }
+          ],
+          "answer": 0,
+          "why": "den Arm gebrochen.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "Hand disinfection, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "haende",
+          "de": "Hände",
+          "article": "die",
+          "plural": "die Hände",
+          "en": "the hands she washes",
+          "image": { "type": "svg", "id": "hands" },
+          "hint": "die"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the arm he broke",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer on the trolley",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart with the report she looks at",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-dativ",
+      "type": "builder",
+      "label": "Build",
+      "title": "Pronoun, then the thing",
+      "practice": "build",
+      "instructions": "Build the statement. The dative pronoun follows the verb. A prefix or participle stays at the end. A fronted thing or time is also fine.",
+      "items": [
+        {
+          "tiles": ["Ich", "wasche", "mir", "die", "Hände"],
+          "answers": ["Ich wasche mir die Hände", "Die Hände wasche ich mir"],
+          "punct": ".",
+          "modal": "wasche",
+          "inf": "Hände",
+          "question": false,
+          "en": "I wash my hands.",
+          "hint": "mir die Hände.",
+          "feedback": {
+            "end": "The plain line ends with Hände: Ich wasche mir die Hände.",
+            "fallback": "wasche is position 2. Ich wasche mir die Hände. Or: Die Hände wasche ich mir."
+          }
+        },
+        {
+          "tiles": ["Ich", "sehe", "mir", "den", "Befund", "an"],
+          "answers": ["Ich sehe mir den Befund an", "Den Befund sehe ich mir an"],
+          "punct": ".",
+          "modal": "sehe",
+          "inf": "an",
+          "question": false,
+          "en": "I look at the report.",
+          "hint": "an at the end.",
+          "feedback": {
+            "end": "an ends the line: Ich sehe mir den Befund an.",
+            "fallback": "mir stands before den Befund. an is last. Ich sehe mir den Befund an."
+          }
+        },
+        {
+          "tiles": ["Sie", "tut", "sich", "heute", "weh"],
+          "answers": ["Sie tut sich heute weh", "Heute tut sie sich weh"],
+          "punct": ".",
+          "modal": "tut",
+          "inf": "weh",
+          "question": false,
+          "en": "She hurts herself today.",
+          "hint": "weh at the end.",
+          "feedback": {
+            "end": "weh ends the line: Sie tut sich heute weh.",
+            "fallback": "tut is position 2. Sie tut sich heute weh. Or: Heute tut sie sich weh."
+          }
+        },
+        {
+          "tiles": ["Er", "hat", "sich", "den", "Arm", "gebrochen"],
+          "answers": ["Er hat sich den Arm gebrochen", "Den Arm hat er sich gebrochen"],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "gebrochen",
+          "question": false,
+          "en": "He has broken his arm.",
+          "hint": "den Arm gebrochen.",
+          "feedback": {
+            "end": "gebrochen ends the line: Er hat sich den Arm gebrochen.",
+            "fallback": "sich stands before den Arm. Er hat sich den Arm gebrochen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-dativ",
+      "label": "Rewrite",
+      "title": "One dative line",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished line. The label names the verb and the person.",
+      "chips": [
+        { "w": "Ich wasche mir die Hände", "hint": "waschen, ich." },
+        { "w": "Du wäschst dir die Hände", "hint": "waschen, du." },
+        { "w": "Sie tut sich weh", "hint": "wehtun, sie." },
+        { "w": "Ich sehe mir den Befund an", "hint": "ansehen." },
+        { "w": "Ich mache mir Sorgen", "hint": "Sorgen." },
+        { "w": "Er hat sich den Arm gebrochen", "hint": "brechen." },
+        { "w": "Ich wasche mich die Hände", "hint": "not mich." },
+        { "w": "Sie tut mich weh", "hint": "not mich." },
+        { "w": "Ich sehe mich den Befund an", "hint": "not mich." },
+        { "w": "Er hat sich den Arm gebrecht", "hint": "not gebrecht." }
+      ],
+      "items": [
+        {
+          "before": "waschen, ich:",
+          "after": ".",
+          "answer": "Ich wasche mir die Hände",
+          "en": "I wash my hands.",
+          "why": "mir die Hände.",
+          "tip": "mir.",
+          "hint": "mir."
+        },
+        {
+          "before": "waschen, du:",
+          "after": ".",
+          "answer": "Du wäschst dir die Hände",
+          "en": "You wash your hands.",
+          "why": "wäschst dir.",
+          "tip": "dir.",
+          "hint": "dir."
+        },
+        {
+          "before": "wehtun, sie:",
+          "after": ".",
+          "answer": "Sie tut sich weh",
+          "en": "She hurts herself.",
+          "why": "tut sich weh.",
+          "tip": "weh.",
+          "hint": "weh."
+        },
+        {
+          "before": "ansehen, ich:",
+          "after": ".",
+          "answer": "Ich sehe mir den Befund an",
+          "en": "I look at the report.",
+          "why": "mir den Befund an.",
+          "tip": "an.",
+          "hint": "an."
+        },
+        {
+          "before": "Sorgen, ich:",
+          "after": ".",
+          "answer": "Ich mache mir Sorgen",
+          "en": "I am worried.",
+          "why": "mir Sorgen.",
+          "tip": "Sorgen.",
+          "hint": "Sorgen."
+        },
+        {
+          "before": "Arm, er:",
+          "after": ".",
+          "answer": "Er hat sich den Arm gebrochen",
+          "en": "He has broken his arm.",
+          "why": "den Arm gebrochen.",
+          "tip": "den.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "error-dativ",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line uses mich or dich with a thing, the wrong case on the arm, or a false participle. Choose the correction.",
+      "items": [
+        {
+          "clues": ["My hands.", "The hands are accusative.", "Ich wasche mich die Hände."],
+          "options": ["Ich wasche mir die Hände.", "Ich wasche mich die Hände.", "Ich wasche mir den Händen."],
+          "answer": 0,
+          "reveal": "Ich wasche mir die Hände.",
+          "hint": "mir."
+        },
+        {
+          "clues": ["Your hands. du.", "dir, not dich.", "Du wäschst dich die Hände."],
+          "options": ["Du wäschst dir die Hände.", "Du wäschst dich die Hände.", "Du wascht dir die Hände."],
+          "answer": 0,
+          "reveal": "Du wäschst dir die Hände.",
+          "hint": "dir."
+        },
+        {
+          "clues": ["She hurts herself.", "weh is last.", "Sie tut mich weh."],
+          "options": ["Sie tut sich weh.", "Sie tut mich weh.", "Sie weh tut sich."],
+          "answer": 0,
+          "reveal": "Sie tut sich weh.",
+          "hint": "sich."
+        },
+        {
+          "clues": ["The report.", "an is last.", "Ich sehe mich den Befund an."],
+          "options": ["Ich sehe mir den Befund an.", "Ich sehe mich den Befund an.", "Ich sehe mir an den Befund."],
+          "answer": 0,
+          "reveal": "Ich sehe mir den Befund an.",
+          "hint": "an."
+        },
+        {
+          "clues": ["Worried.", "Sorgen is plural.", "Ich mache mich Sorgen."],
+          "options": ["Ich mache mir Sorgen.", "Ich mache mich Sorgen.", "Ich mache Sorgen mir."],
+          "answer": 0,
+          "reveal": "Ich mache mir Sorgen.",
+          "hint": "mir."
+        },
+        {
+          "clues": ["His arm.", "den Arm, not dem Arm.", "Er hat sich dem Arm gebrochen."],
+          "options": ["Er hat sich den Arm gebrochen.", "Er hat sich dem Arm gebrochen.", "Er hat sich den Arm gebrecht."],
+          "answer": 0,
+          "reveal": "Er hat sich den Arm gebrochen.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-dativ",
+      "label": "Dialogue",
+      "title": "At the basin",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the speaker. Formal Sie uses waschen and sich. ihr uses euch and wascht.",
+      "chips": [
+        { "w": "mir", "hint": "ich." },
+        { "w": "dir", "hint": "du." },
+        { "w": "sich", "hint": "sie." },
+        { "w": "uns", "hint": "wir." },
+        { "w": "euch", "hint": "ihr." },
+        { "w": "Sie waschen sich die Hände", "hint": "formal Sie." },
+        { "w": "mich", "hint": "not with die Hände." },
+        { "w": "dich", "hint": "not with die Hände." }
+      ],
+      "items": [
+        {
+          "who": "Pflegekraft",
+          "before": "ich, Hände: Ich wasche",
+          "after": "die Hände.",
+          "answer": "mir",
+          "en": "I wash my hands.",
+          "why": "mir.",
+          "tip": "mir.",
+          "hint": "mir."
+        },
+        {
+          "who": "Patient",
+          "before": "du, Hände: Du wäschst",
+          "after": "die Hände.",
+          "answer": "dir",
+          "en": "You wash your hands.",
+          "why": "dir.",
+          "tip": "dir.",
+          "hint": "dir."
+        },
+        {
+          "who": "Patientin",
+          "before": "sie, weh: Sie tut",
+          "after": "weh.",
+          "answer": "sich",
+          "en": "She hurts herself.",
+          "why": "sich.",
+          "tip": "sich.",
+          "hint": "sich."
+        },
+        {
+          "who": "Team",
+          "before": "wir, Hände: Wir waschen",
+          "after": "die Hände.",
+          "answer": "uns",
+          "en": "We wash our hands.",
+          "why": "uns.",
+          "tip": "uns.",
+          "hint": "uns."
+        },
+        {
+          "who": "Team",
+          "before": "ihr, Hände: Ihr wascht",
+          "after": "die Hände.",
+          "answer": "euch",
+          "en": "You wash your hands.",
+          "why": "euch. wascht.",
+          "tip": "euch.",
+          "hint": "euch."
+        },
+        {
+          "who": "Anna",
+          "before": "Sie, formal:",
+          "after": ".",
+          "answer": "Sie waschen sich die Hände",
+          "en": "You wash your hands.",
+          "why": "Formal Sie waschen sich. Not wäscht.",
+          "tip": "waschen.",
+          "hint": "waschen."
+        }
+      ]
+    },
+    {
+      "id": "gap-weitere",
+      "label": "Sentences",
+      "title": "dir, den Arm, das Gesicht",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "du of sehen is siehst. du of tun is tust. das Gesicht stays das. The broken arm uses habe mir and gebrochen.",
+      "chips": [
+        { "w": "Du siehst dir den Befund an", "hint": "ansehen, du." },
+        { "w": "Du tust dir weh", "hint": "wehtun, du." },
+        { "w": "Ich tue mir weh", "hint": "wehtun, ich." },
+        { "w": "Sie macht sich Sorgen", "hint": "Sorgen, sie." },
+        { "w": "Ich habe mir den Arm gebrochen", "hint": "brechen, ich." },
+        { "w": "Sie wäscht sich das Gesicht", "hint": "Gesicht, sie." },
+        { "w": "Du siehst dich den Befund an", "hint": "not dich." },
+        { "w": "Du tust dich weh", "hint": "not dich." },
+        { "w": "Ich tue mich weh", "hint": "not mich." },
+        { "w": "Sie wäscht sich den Gesicht", "hint": "das Gesicht." }
+      ],
+      "items": [
+        {
+          "before": "ansehen, du:",
+          "after": ".",
+          "answer": "Du siehst dir den Befund an",
+          "en": "You look at the report.",
+          "why": "siehst dir den Befund an.",
+          "tip": "siehst.",
+          "hint": "siehst."
+        },
+        {
+          "before": "wehtun, du:",
+          "after": ".",
+          "answer": "Du tust dir weh",
+          "en": "You hurt yourself.",
+          "why": "tust dir weh.",
+          "tip": "dir.",
+          "hint": "dir."
+        },
+        {
+          "before": "wehtun, ich:",
+          "after": ".",
+          "answer": "Ich tue mir weh",
+          "en": "I hurt myself.",
+          "why": "tue mir weh.",
+          "tip": "mir.",
+          "hint": "mir."
+        },
+        {
+          "before": "Sorgen, sie:",
+          "after": ".",
+          "answer": "Sie macht sich Sorgen",
+          "en": "She is worried.",
+          "why": "macht sich Sorgen.",
+          "tip": "sich.",
+          "hint": "sich."
+        },
+        {
+          "before": "Arm, ich:",
+          "after": ".",
+          "answer": "Ich habe mir den Arm gebrochen",
+          "en": "I have broken my arm.",
+          "why": "habe mir den Arm gebrochen.",
+          "tip": "mir.",
+          "hint": "gebrochen."
+        },
+        {
+          "before": "Gesicht, sie:",
+          "after": ".",
+          "answer": "Sie wäscht sich das Gesicht",
+          "en": "She washes her face.",
+          "why": "das Gesicht. sich.",
+          "tip": "das.",
+          "hint": "das."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The care note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Pflege",
+        "title": "Die Hände",
+        "paragraphs": [
+          "Ich wasche mir die Hände. Ich wasche mir das Gesicht. Du wäschst dir die Hände. Sie tut sich weh.",
+          "Ich sehe mir den Befund an. Ich mache mir Sorgen. Er hat sich den Arm gebrochen. Die Pflegekraft wäscht dem Patienten die Hände."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Ich wasche mir die …",
+          "qEn": "The first sentence.",
+          "options": ["Hände", "Sorgen", "Arm"],
+          "answer": 0,
+          "why": "Ich wasche mir die Hände.",
+          "hint": "Hände."
+        },
+        {
+          "kind": "mc",
+          "q": "Sie tut sich …",
+          "qEn": "She hurts herself.",
+          "options": ["weh", "an", "Sorgen"],
+          "answer": 0,
+          "why": "Sie tut sich weh.",
+          "hint": "weh."
+        },
+        {
+          "kind": "mc",
+          "q": "Was sehe ich mir an?",
+          "qEn": "The report.",
+          "options": ["den Befund", "die Hände", "den Arm"],
+          "answer": 0,
+          "why": "Ich sehe mir den Befund an.",
+          "hint": "Befund."
+        },
+        {
+          "kind": "mc",
+          "q": "Wem wäscht die Pflegekraft die Hände?",
+          "qEn": "Not her own hands.",
+          "options": ["dem Patienten", "sich", "mir"],
+          "answer": 0,
+          "why": "dem Patienten.",
+          "hint": "Patienten."
+        }
+      ]
+    },
+    {
+      "id": "writing-pflege",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four care lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Use mir or sich, not mich.",
+      "prompt": "I wash my hands. She hurts herself. I look at the report. He has broken his arm.",
+      "bullets": ["wasche mir die Hände", "tut sich weh", "sehe mir den Befund an", "hat sich den Arm gebrochen"],
+      "model": "Ich wasche mir die Hände. Sie tut sich weh. Ich sehe mir den Befund an. Er hat sich den Arm gebrochen.",
+      "modelEn": "I wash my hands. She hurts herself. I look at the report. He has broken his arm.",
+      "hint": "wasche mir die Hände. tut sich weh. sehe mir den Befund an. hat sich den Arm gebrochen.",
+      "checklist": [
+        { "id": "h", "label": "wasche mir die Hände", "keywords": ["wasche mir die hände"] },
+        { "id": "w", "label": "tut sich weh", "keywords": ["tut sich weh"] },
+        { "id": "b", "label": "sehe mir den Befund an", "keywords": ["sehe mir den befund an"] },
+        { "id": "a", "label": "hat sich den Arm gebrochen", "keywords": ["hat sich den arm gebrochen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Ich wasche mir die Hände",
+      "heroImage": "plaster",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Thing in the sentence: mir or dir. Whole person alone: mich. sich does not change. den Arm. Prefix last. Formal Sie waschen.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "die Hände, ich.",
+          "qEn": "Dative.",
+          "options": ["mir", "mich", "dir"],
+          "answer": 0,
+          "why": "mir.",
+          "hint": "mir."
+        },
+        {
+          "kind": "mc",
+          "q": "die Hände, du.",
+          "qEn": "Dative of du.",
+          "options": ["dir", "dich", "mir"],
+          "answer": 0,
+          "why": "dir.",
+          "hint": "dir."
+        },
+        {
+          "kind": "mc",
+          "q": "Whole person, no second noun. ich, waschen.",
+          "qEn": "Accusative, chapter 29.",
+          "options": ["mich", "mir", "dich"],
+          "answer": 0,
+          "why": "mich.",
+          "hint": "mich."
+        },
+        {
+          "kind": "mc",
+          "q": "She hurts herself. weh tun.",
+          "qEn": "Dative sich. weh last.",
+          "options": ["Sie tut sich weh.", "Sie tut mich weh.", "Sie weh tut sich."],
+          "answer": 0,
+          "why": "tut sich weh.",
+          "hint": "weh."
+        },
+        {
+          "kind": "mc",
+          "q": "I look at the report. ansehen.",
+          "qEn": "an at the end.",
+          "options": ["Ich sehe mir den Befund an.", "Ich sehe mich den Befund an.", "Ich sehe mir den Befund."],
+          "answer": 0,
+          "why": "mir den Befund an.",
+          "hint": "an."
+        },
+        {
+          "kind": "mc",
+          "q": "I am worried. Sorgen.",
+          "qEn": "Plural. Dative mir.",
+          "options": ["Ich mache mir Sorgen.", "Ich mache mich Sorgen.", "Ich mache Sorgen mir."],
+          "answer": 0,
+          "why": "mir Sorgen.",
+          "hint": "Sorgen."
+        },
+        {
+          "kind": "mc",
+          "q": "He has broken his arm.",
+          "qEn": "den Arm. gebrochen.",
+          "options": ["Er hat sich den Arm gebrochen.", "Er hat sich dem Arm gebrochen.", "Er hat sich den Arm gebrecht."],
+          "answer": 0,
+          "why": "den Arm gebrochen.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "You look at the report. du, sehen.",
+          "qEn": "siehst. dir.",
+          "options": ["Du siehst dir den Befund an.", "Du siehst dich den Befund an.", "Du sieht dir den Befund an."],
+          "answer": 0,
+          "why": "siehst dir an.",
+          "hint": "siehst."
+        },
+        {
+          "kind": "mc",
+          "q": "You wash your hands. ihr.",
+          "qEn": "wascht, no umlaut. euch.",
+          "options": ["Ihr wascht euch die Hände.", "Ihr wäscht euch die Hände.", "Ihr wascht sich die Hände."],
+          "answer": 0,
+          "why": "wascht euch.",
+          "hint": "euch."
+        },
+        {
+          "kind": "mc",
+          "q": "We wash our hands. wir.",
+          "qEn": "uns.",
+          "options": ["Wir waschen uns die Hände.", "Wir waschen sich die Hände.", "Wir waschen uns den Händen."],
+          "answer": 0,
+          "why": "uns die Hände.",
+          "hint": "uns."
+        },
+        {
+          "kind": "mc",
+          "q": "Formal Sie, not she. Wash your hands.",
+          "qEn": "waschen, not wäscht.",
+          "options": ["Sie waschen sich die Hände.", "Sie wäscht sich die Hände.", "Sie waschen mich die Hände."],
+          "answer": 0,
+          "why": "Formal Sie waschen. wäscht is she.",
+          "hint": "waschen."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse washes the patient's hands. Not her own.",
+          "qEn": "Dative dem Patienten.",
+          "options": ["Sie wäscht dem Patienten die Hände.", "Sie wäscht den Patienten die Hände.", "Sie wäscht dem Patient die Hände."],
+          "answer": 0,
+          "why": "dem Patienten. The hands stay die Hände.",
+          "hint": "dem."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Ich wasche mir die Hände",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Ich wasche mir die Hände.", "en": "I wash my hands." },
+        { "de": "Sie tut sich weh.", "en": "She hurts herself." },
+        { "de": "Ich sehe mir den Befund an.", "en": "I look at the report." },
+        { "de": "Er hat sich den Arm gebrochen.", "en": "He has broken his arm." }
+      ],
+      "messages": [
+        "A second accusative thing takes the dative: mir, dir. sich, uns and euch do not change.",
+        "mir die Hände. tut sich weh. sehe mir den Befund an. den Arm gebrochen. dem Patienten for his hands.",
+        "Sehr gut. Ich wasche mir die Hände.",
+        "Ausgezeichnet. You can keep mich for the whole person and mir for the thing."
+      ]
+    }
+  ]
+}

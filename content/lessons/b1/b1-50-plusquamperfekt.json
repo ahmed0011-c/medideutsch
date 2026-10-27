@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-50-plusquamperfekt",
+  "level": "B1",
+  "unit": "Kapitel 50",
+  "chapter": 50,
+  "chapters": [50],
+  "title": "Ich hatte zu lange geschlafen",
+  "subtitle": "Past perfect",
+  "glossary": {
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🙋" },
+    "hatte": {
+      "de": "haben → er hatte",
+      "pos": "form",
+      "en": "had",
+      "emoji": "⏪",
+      "note": "Plusquamperfekt of a haben verb. ich and er share hatte. du hattest, wir hatten, ihr hattet. hatte Fieber, with no participle, is still the state from chapter 23."
+    },
+    "zu": { "de": "zu", "pos": "adverb", "en": "too", "emoji": "⏱️", "note": "zu lange = too long. Not the preposition zu." },
+    "lange": { "de": "lange", "pos": "adverb", "en": "long", "emoji": "⏱️", "note": "zu lange stays two words." },
+    "geschlafen": {
+      "de": "geschlafen",
+      "pos": "participle",
+      "en": "slept",
+      "emoji": "😴",
+      "note": "schlafen takes hatte. Not war geschlafen, and not geschlaft. einschlafen would take war."
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "before",
+      "emoji": "⏮️",
+      "note": "Time vor takes the dative: vor der Operation, like vor der Visite. The conjunction bevor is a later chapter."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine, or feminine dative)", "emoji": "🔵", "note": "vor der Operation. der Patient." },
+    "operation": {
+      "de": "Operation",
+      "pos": "noun",
+      "en": "operation",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Operationen",
+      "note": "Dative: vor der Operation."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "schon": { "de": "schon", "pos": "adverb", "en": "already", "emoji": "✅", "note": "Marks the earlier event: hatte schon gegessen." },
+    "gegessen": {
+      "de": "gegessen",
+      "pos": "participle",
+      "en": "eaten",
+      "emoji": "🍽️",
+      "note": "essen takes hatte. Not geesst."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "👨" },
+    "war": {
+      "de": "sein → er war",
+      "pos": "form",
+      "en": "was; had (with a sein verb)",
+      "emoji": "⏪",
+      "note": "Plusquamperfekt of a sein verb. ich and er share war. du warst, wir waren, ihr wart. war müde, with no participle, is still the state from chapter 23."
+    },
+    "gekommen": {
+      "de": "gekommen",
+      "pos": "participle",
+      "en": "come",
+      "emoji": "🚶",
+      "note": "kommen takes war. Not hatte gekommen, and not gekommt."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
+    "fieber": { "de": "Fieber", "pos": "noun", "en": "fever", "emoji": "🌡️", "article": "das" },
+    "gemessen": {
+      "de": "gemessen",
+      "pos": "participle",
+      "en": "measured",
+      "emoji": "🌡️",
+      "note": "messen takes hatte. gemessen, not gemesst."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "the nurse's name", "emoji": "🧑‍⚕️" },
+    "den": { "de": "den", "pos": "article", "en": "the (masculine accusative)", "emoji": "🔵", "note": "den Befund. schreiben takes the accusative." },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding; report",
+      "emoji": "📋",
+      "article": "der",
+      "plural": "die Befunde",
+      "note": "Accusative: den Befund."
+    },
+    "geschrieben": {
+      "de": "geschrieben",
+      "pos": "participle",
+      "en": "written",
+      "emoji": "✍️",
+      "note": "schreiben takes hatte. Not geschriebt."
+    },
+    "im": { "de": "im (= in dem)", "pos": "preposition", "en": "in the", "emoji": "📥", "note": "im Bett is location with bleiben." },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "geblieben": {
+      "de": "geblieben",
+      "pos": "participle",
+      "en": "stayed",
+      "emoji": "⏸️",
+      "note": "bleiben takes war. im Bett is location. Not hatte geblieben."
+    },
+    "dann": {
+      "de": "dann",
+      "pos": "adverb",
+      "en": "then",
+      "emoji": "⏭️",
+      "note": "Position 1. Here it introduces the later event: Dann kam der Arzt. Not denn."
+    },
+    "kam": {
+      "de": "kommen → er kam",
+      "pos": "form",
+      "en": "came",
+      "emoji": "🚶",
+      "note": "Präteritum of the later event, as in chapter 49. The earlier arrival is war gekommen."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Before the operation",
+      "learn": [
+        "The Plusquamperfekt is the event before another past event. Ich hatte zu lange geschlafen. Vor der Operation hatte der Patient schon gegessen. Then the later event: Dann kam der Arzt.",
+        "The participle is the same as in the Perfekt, and so is the choice of haben or sein. The auxiliary stands in the Präteritum: hat becomes hatte, ist becomes war. schlafen, essen, messen and schreiben take hatte. kommen and bleiben take war.",
+        "hatte or war is in position 2. The participle stays at the end. Vor der Operation is position 1, so hatte follows it. vor takes the dative: vor der Operation.",
+        "A spoken progress note still uses the Perfekt for a finished action. A state is still hatte or war with no participle. A modal stays konnte. The conjunction bevor comes in a later chapter. This chapter uses the preposition vor."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🤒", "glossaryKey": "patient" },
+        { "de": "Operation", "article": "die", "plural": "die Operationen", "en": "operation", "emoji": "🏥", "glossaryKey": "operation" },
+        { "de": "Befund", "article": "der", "plural": "die Befunde", "en": "finding; report", "emoji": "📋", "glossaryKey": "befund" },
+        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "image": { "type": "svg", "id": "bed" }, "glossaryKey": "bett" }
+      ],
+      "text": {
+        "title": "Ich hatte zu lange geschlafen",
+        "de": "Ich hatte zu lange geschlafen. Vor der Operation hatte der Patient schon gegessen. Er war schon gekommen. Die Pflegekraft hatte das Fieber schon gemessen. Anna hatte den Befund schon geschrieben. Der Patient war im Bett geblieben. Dann kam der Arzt.",
+        "en": "I had slept too long. Before the operation the patient had already eaten. He had already come. The nurse had already measured the fever. Anna had already written the report. The patient had stayed in bed. Then the doctor came."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "hatte or war",
+      "practice": "choose",
+      "heroTitle": "Ich hatte zu lange geschlafen",
+      "heroImage": "clipboard",
+      "story": [
+        "The Plusquamperfekt marks what happened <b>before</b> another past event. <b>Ich hatte zu lange geschlafen. Vor der Operation hatte der Patient schon gegessen. Er war schon gekommen. Dann kam der Arzt.</b> kam is the later event. The sleeping, the meal and the arrival are earlier.",
+        "Build it like the Perfekt. The participle does not change: geschlafen, gegessen, gemessen, geschrieben, gekommen, geblieben. A <b>haben</b> verb takes <b>hatte</b>. A <b>sein</b> verb takes <b>war</b>. schlafen, essen, messen, schreiben, trinken, geben and untersuchen take hatte. kommen, gehen, bleiben and aufstehen take war. untersuchen has no extra ge-: untersucht.",
+        "The auxiliary is in <b>position 2</b>. The participle stays at the <b>end</b>. <b>Vor der Operation</b> is one time phrase in position 1, so the verb inverts: Vor der Operation <b>hatte</b> er schon gegessen. vor takes the dative, as in vor der Visite: vor <b>der</b> Operation. Not vor die Operation. The conjunction bevor, which sends its verb to the end, comes in a later chapter.",
+        "ich and er share hatte and war. du adds -st: <b>hattest, warst</b>. wir, sie and Sie: <b>hatten, waren</b>. ihr adds -t: <b>hattet, wart</b>. Movement into the room is <b>ins Zimmer</b>: Er war ins Zimmer gegangen. Location is <b>im Bett</b>: Er war im Bett geblieben.",
+        "Three pasts stay put. A spoken progress note still uses the Perfekt: hat gemessen, ist gekommen, hat gegessen. Those sentences are correct there. A state still has no participle: hatte Fieber, war müde. A modal stays konnte. aß and schlief are the narrative past of that event itself. Before the operation, the earlier meal is hatte gegessen.",
+        "schon sits in the Mittelfeld: hatte schon gegessen, war schon gekommen. zu lange stays two words: hatte zu lange geschlafen."
+      ],
+      "questionRule": "Earlier event: hatte or war, participle at the end. kommen, gehen, bleiben and aufstehen take war. The later event stays Präteritum.",
+      "tables": [
+        {
+          "title": "hatte oder war",
+          "caption": "Same participle as the Perfekt. hat becomes hatte. ist becomes war.",
+          "columns": ["Partizip", "Plusquamperfekt"],
+          "rows": [
+            { "label": "schlafen", "cells": ["geschlafen", "hatte geschlafen"], "highlight": true },
+            { "label": "essen", "cells": ["gegessen", "hatte gegessen"], "highlight": true },
+            { "label": "messen", "cells": ["gemessen", "hatte gemessen"] },
+            { "label": "schreiben", "cells": ["geschrieben", "hatte geschrieben"] },
+            { "label": "kommen", "cells": ["gekommen", "war gekommen"], "highlight": true },
+            { "label": "bleiben", "cells": ["geblieben", "war geblieben"], "highlight": true },
+            { "label": "gehen", "cells": ["gegangen", "war gegangen"] },
+            { "label": "aufstehen", "cells": ["aufgestanden", "war aufgestanden"] }
+          ]
+        },
+        {
+          "title": "Personen",
+          "caption": "The ending sits on hatte or war. ich and er share the form.",
+          "columns": ["ich / er", "du", "wir", "ihr"],
+          "rows": [
+            { "label": "haben-Verb", "cells": ["hatte", "hattest", "hatten", "hattet"], "highlight": true },
+            { "label": "sein-Verb", "cells": ["war", "warst", "waren", "wart"], "highlight": true }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Wrong auxiliary, or a participle that does not exist.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "kommen", "cells": ["hatte gekommen", "war gekommen"] },
+            { "label": "schlafen", "cells": ["war geschlafen", "hatte geschlafen"] },
+            { "label": "essen", "cells": ["hatte geesst", "hatte gegessen"] },
+            { "label": "messen", "cells": ["hatte gemesst", "hatte gemessen"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Earlier, not the later event",
+        "items": [
+          { "de": "Ich hatte zu lange geschlafen.", "en": "schlafen takes hatte.", "tone": "ok" },
+          { "de": "Ich war zu lange geschlafen.", "en": "schlafen does not take war.", "tone": "stop" },
+          { "de": "Er war schon gekommen.", "en": "kommen takes war.", "tone": "ok" },
+          { "de": "Er hatte schon gekommen.", "en": "kommen does not take hatte.", "tone": "stop" },
+          { "de": "Vor der Operation hatte er schon gegessen.", "en": "vor + dative. hatte is position 2.", "tone": "ok" },
+          { "de": "Vor die Operation hatte er schon gegessen.", "en": "Time vor takes der, not die.", "tone": "stop" },
+          { "de": "Dann kam der Arzt.", "en": "The later event stays kam.", "tone": "ok" },
+          { "de": "Dann kommte der Arzt.", "en": "kommte is not a past.", "tone": "stop" }
+        ],
+        "tip": "hat becomes hatte. ist becomes war. The participle stays at the end. kommen, gehen, bleiben and aufstehen take war."
+      },
+      "quizTitle": "Earlier or later?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Earlier. ich, schlafen.",
+          "qEn": "haben verb. hatte.",
+          "options": ["hatte geschlafen", "war geschlafen", "hatte geschlaft"],
+          "answer": 0,
+          "why": "hatte geschlafen.",
+          "hint": "hatte."
+        },
+        {
+          "kind": "mc",
+          "q": "Earlier. er, essen.",
+          "qEn": "Participle gegessen.",
+          "options": ["hatte gegessen", "hatte geesst", "hatte essen"],
+          "answer": 0,
+          "why": "hatte gegessen.",
+          "hint": "gegessen."
+        },
+        {
+          "kind": "mc",
+          "q": "Earlier. er, kommen.",
+          "qEn": "sein verb. war.",
+          "options": ["war gekommen", "hatte gekommen", "war gekommt"],
+          "answer": 0,
+          "why": "war gekommen.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "Earlier. sie, messen.",
+          "qEn": "gemessen, not gemesst.",
+          "options": ["hatte gemessen", "hatte gemesst", "hatte messen"],
+          "answer": 0,
+          "why": "hatte gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "kind": "mc",
+          "q": "Earlier. sie, schreiben.",
+          "qEn": "geschrieben.",
+          "options": ["hatte geschrieben", "hatte geschriebt", "hatte schreiben"],
+          "answer": 0,
+          "why": "hatte geschrieben.",
+          "hint": "geschrieben."
+        },
+        {
+          "kind": "mc",
+          "q": "The later event. The doctor came.",
+          "qEn": "This one stays Präteritum.",
+          "options": ["Dann kam der Arzt.", "Dann kommte der Arzt.", "Dann gekommt der Arzt."],
+          "answer": 0,
+          "why": "kam. An earlier arrival would be war gekommen.",
+          "hint": "kam."
+        }
+      ]
+    },
+    {
+      "id": "gap-plusquam",
+      "label": "Gap",
+      "title": "hatte or war",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the verb. haben verbs take hatte. kommen and bleiben take war. The participle stays at the end.",
+      "chips": [
+        { "w": "hatte zu lange geschlafen", "hint": "schlafen." },
+        { "w": "hatte schon gegessen", "hint": "essen." },
+        { "w": "war schon gekommen", "hint": "kommen." },
+        { "w": "hatte das Fieber gemessen", "hint": "messen." },
+        { "w": "hatte den Befund geschrieben", "hint": "schreiben." },
+        { "w": "war im Bett geblieben", "hint": "bleiben." },
+        { "w": "war zu lange geschlafen", "hint": "schlafen takes hatte." },
+        { "w": "hatte schon gekommen", "hint": "kommen takes war." },
+        { "w": "hatte schon geesst", "hint": "not a participle." },
+        { "w": "hatte im Bett geblieben", "hint": "bleiben takes war." }
+      ],
+      "items": [
+        {
+          "before": "schlafen, ich: Ich",
+          "after": ".",
+          "answer": "hatte zu lange geschlafen",
+          "en": "I had slept too long.",
+          "why": "Ich hatte zu lange geschlafen.",
+          "tip": "hatte.",
+          "hint": "hatte."
+        },
+        {
+          "before": "essen, er: Der Patient",
+          "after": ".",
+          "answer": "hatte schon gegessen",
+          "en": "The patient had already eaten.",
+          "why": "Der Patient hatte schon gegessen.",
+          "tip": "gegessen.",
+          "hint": "gegessen."
+        },
+        {
+          "before": "kommen, er: Er",
+          "after": ".",
+          "answer": "war schon gekommen",
+          "en": "He had already come.",
+          "why": "Er war schon gekommen.",
+          "tip": "war.",
+          "hint": "war."
+        },
+        {
+          "before": "messen, sie: Die Pflegekraft",
+          "after": ".",
+          "answer": "hatte das Fieber gemessen",
+          "en": "The nurse had measured the fever.",
+          "why": "Die Pflegekraft hatte das Fieber gemessen.",
+          "tip": "gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "before": "schreiben, sie: Anna",
+          "after": ".",
+          "answer": "hatte den Befund geschrieben",
+          "en": "Anna had written the report.",
+          "why": "Anna hatte den Befund geschrieben.",
+          "tip": "den.",
+          "hint": "geschrieben."
+        },
+        {
+          "before": "bleiben, er: Der Patient",
+          "after": ".",
+          "answer": "war im Bett geblieben",
+          "en": "The patient had stayed in bed.",
+          "why": "Der Patient war im Bett geblieben.",
+          "tip": "im Bett.",
+          "hint": "war."
+        }
+      ]
+    },
+    {
+      "id": "match-plusquam",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which earlier form?",
+      "practice": "match",
+      "instructions": "Match the earlier event. The last card is the later event, so it stays in the Präteritum.",
+      "items": [
+        {
+          "prompt": "I had slept too long. schlafen.",
+          "options": [
+            { "emoji": "😴", "label": "Ich hatte zu lange geschlafen.", "caption": "hatte." },
+            { "emoji": "🚫", "label": "Ich war zu lange geschlafen.", "caption": "Not war." },
+            { "emoji": "🚫", "label": "Ich hatte zu lange geschlaft.", "caption": "Not geschlaft." }
+          ],
+          "answer": 0,
+          "why": "hatte geschlafen.",
+          "hint": "hatte."
+        },
+        {
+          "prompt": "He had already eaten. essen.",
+          "options": [
+            { "emoji": "🍽️", "label": "Er hatte schon gegessen.", "caption": "gegessen." },
+            { "emoji": "🚫", "label": "Er hatte schon geesst.", "caption": "Not geesst." },
+            { "emoji": "🚫", "label": "Er hatte schon essen.", "caption": "Not the infinitive." }
+          ],
+          "answer": 0,
+          "why": "hatte gegessen.",
+          "hint": "gegessen."
+        },
+        {
+          "prompt": "He had already come. kommen.",
+          "options": [
+            { "emoji": "🚶", "label": "Er war schon gekommen.", "caption": "war." },
+            { "emoji": "🚫", "label": "Er hatte schon gekommen.", "caption": "Not hatte." },
+            { "emoji": "🚫", "label": "Er war schon gekommt.", "caption": "Not gekommt." }
+          ],
+          "answer": 0,
+          "why": "war gekommen.",
+          "hint": "war."
+        },
+        {
+          "prompt": "She had measured the fever. messen.",
+          "options": [
+            { "emoji": "🌡️", "label": "Sie hatte das Fieber gemessen.", "caption": "gemessen." },
+            { "emoji": "🚫", "label": "Sie hatte das Fieber gemesst.", "caption": "Not gemesst." },
+            { "emoji": "🚫", "label": "Sie hatte das Fieber messen.", "caption": "Not the infinitive." }
+          ],
+          "answer": 0,
+          "why": "hatte gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "prompt": "Anna had written the report. schreiben.",
+          "options": [
+            { "emoji": "✍️", "label": "Anna hatte den Befund geschrieben.", "caption": "den Befund." },
+            { "emoji": "🚫", "label": "Anna hatte den Befund geschriebt.", "caption": "Not geschriebt." },
+            { "emoji": "🚫", "label": "Anna hatte den Befund schreiben.", "caption": "Not the infinitive." }
+          ],
+          "answer": 0,
+          "why": "hatte geschrieben.",
+          "hint": "geschrieben."
+        },
+        {
+          "prompt": "Then the doctor came. This is the later event.",
+          "options": [
+            { "emoji": "👨‍⚕️", "label": "Dann kam der Arzt.", "caption": "Präteritum." },
+            { "emoji": "🚫", "label": "Dann kommte der Arzt.", "caption": "Not kommte." },
+            { "emoji": "🚫", "label": "Dann gekommt der Arzt.", "caption": "Not gekommt." }
+          ],
+          "answer": 0,
+          "why": "Dann kam der Arzt.",
+          "hint": "kam."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed he had stayed in",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the trolley",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer for the fever she had measured",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart with the report she had written",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-plusquam",
+      "type": "builder",
+      "label": "Build",
+      "title": "Participle at the end",
+      "practice": "build",
+      "instructions": "Build the statement. hatte or war is in position 2. The participle stays at the end. A fronted time or object is also fine.",
+      "items": [
+        {
+          "tiles": ["Ich", "hatte", "zu", "lange", "geschlafen"],
+          "answers": ["Ich hatte zu lange geschlafen", "Zu lange hatte ich geschlafen"],
+          "punct": ".",
+          "modal": "hatte",
+          "inf": "geschlafen",
+          "question": false,
+          "en": "I had slept too long.",
+          "hint": "hatte … geschlafen.",
+          "feedback": {
+            "end": "The participle ends the line: Ich hatte zu lange geschlafen.",
+            "fallback": "hatte is position 2. Ich hatte zu lange geschlafen. Or: Zu lange hatte ich geschlafen."
+          }
+        },
+        {
+          "tiles": ["Der", "Patient", "hatte", "schon", "gegessen"],
+          "answers": ["Der Patient hatte schon gegessen", "Schon hatte der Patient gegessen"],
+          "punct": ".",
+          "modal": "hatte",
+          "inf": "gegessen",
+          "question": false,
+          "en": "The patient had already eaten.",
+          "hint": "hatte … gegessen.",
+          "feedback": {
+            "end": "The participle ends the line: Der Patient hatte schon gegessen.",
+            "fallback": "hatte is position 2. Der Patient hatte schon gegessen. Or: Schon hatte der Patient gegessen."
+          }
+        },
+        {
+          "tiles": ["Er", "war", "schon", "gekommen"],
+          "answers": ["Er war schon gekommen", "Schon war er gekommen"],
+          "punct": ".",
+          "modal": "war",
+          "inf": "gekommen",
+          "question": false,
+          "en": "He had already come.",
+          "hint": "war … gekommen.",
+          "feedback": {
+            "end": "The participle ends the line: Er war schon gekommen.",
+            "fallback": "war is position 2. Er war schon gekommen. Or: Schon war er gekommen."
+          }
+        },
+        {
+          "tiles": ["Anna", "hatte", "den", "Befund", "geschrieben"],
+          "answers": ["Anna hatte den Befund geschrieben", "Den Befund hatte Anna geschrieben"],
+          "punct": ".",
+          "modal": "hatte",
+          "inf": "geschrieben",
+          "question": false,
+          "en": "Anna had written the report.",
+          "hint": "hatte … geschrieben.",
+          "feedback": {
+            "end": "The participle ends the line: Anna hatte den Befund geschrieben.",
+            "fallback": "hatte is position 2. Anna hatte den Befund geschrieben. Or: Den Befund hatte Anna geschrieben."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-plusquam",
+      "label": "Rewrite",
+      "title": "One earlier line",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished earlier line. The label names the verb.",
+      "chips": [
+        { "w": "Ich hatte zu lange geschlafen", "hint": "schlafen." },
+        { "w": "Er hatte schon gegessen", "hint": "essen." },
+        { "w": "Er war schon gekommen", "hint": "kommen." },
+        { "w": "Sie hatte das Fieber gemessen", "hint": "messen." },
+        { "w": "Anna hatte ihn geschrieben", "hint": "schreiben. ihn = den Befund." },
+        { "w": "Er war im Bett geblieben", "hint": "bleiben." },
+        { "w": "Ich war zu lange geschlafen", "hint": "not war." },
+        { "w": "Er hatte schon gekommen", "hint": "not hatte." },
+        { "w": "Sie hatte das Fieber gemesst", "hint": "not gemesst." },
+        { "w": "Er hatte im Bett geblieben", "hint": "not hatte." }
+      ],
+      "items": [
+        {
+          "before": "schlafen:",
+          "after": ".",
+          "answer": "Ich hatte zu lange geschlafen",
+          "en": "I had slept too long.",
+          "why": "hatte zu lange geschlafen.",
+          "tip": "hatte.",
+          "hint": "hatte."
+        },
+        {
+          "before": "essen:",
+          "after": ".",
+          "answer": "Er hatte schon gegessen",
+          "en": "He had already eaten.",
+          "why": "hatte schon gegessen.",
+          "tip": "gegessen.",
+          "hint": "gegessen."
+        },
+        {
+          "before": "kommen:",
+          "after": ".",
+          "answer": "Er war schon gekommen",
+          "en": "He had already come.",
+          "why": "war schon gekommen.",
+          "tip": "war.",
+          "hint": "war."
+        },
+        {
+          "before": "messen:",
+          "after": ".",
+          "answer": "Sie hatte das Fieber gemessen",
+          "en": "She had measured the fever.",
+          "why": "hatte das Fieber gemessen.",
+          "tip": "gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "before": "schreiben, den Befund:",
+          "after": ".",
+          "answer": "Anna hatte ihn geschrieben",
+          "en": "Anna had written it.",
+          "why": "ihn is den Befund. hatte geschrieben.",
+          "tip": "ihn.",
+          "hint": "geschrieben."
+        },
+        {
+          "before": "bleiben:",
+          "after": ".",
+          "answer": "Er war im Bett geblieben",
+          "en": "He had stayed in bed.",
+          "why": "war im Bett geblieben.",
+          "tip": "im.",
+          "hint": "war."
+        }
+      ]
+    },
+    {
+      "id": "error-plusquam",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line uses the wrong auxiliary, a false participle, or the infinitive. Choose the correction.",
+      "items": [
+        {
+          "clues": ["The earlier event.", "schlafen takes hatte.", "Ich war zu lange geschlafen."],
+          "options": ["Ich hatte zu lange geschlafen.", "Ich war zu lange geschlafen.", "Ich hatte zu lange geschlaft."],
+          "answer": 0,
+          "reveal": "Ich hatte zu lange geschlafen.",
+          "hint": "hatte."
+        },
+        {
+          "clues": ["The earlier meal.", "The participle is gegessen.", "Er hatte schon geesst."],
+          "options": ["Er hatte schon gegessen.", "Er hatte schon geesst.", "Er hatte schon essen."],
+          "answer": 0,
+          "reveal": "Er hatte schon gegessen.",
+          "hint": "gegessen."
+        },
+        {
+          "clues": ["He had already come.", "kommen takes war.", "Er hatte schon gekommen."],
+          "options": ["Er war schon gekommen.", "Er hatte schon gekommen.", "Er war schon gekommt."],
+          "answer": 0,
+          "reveal": "Er war schon gekommen.",
+          "hint": "war."
+        },
+        {
+          "clues": ["The fever, earlier.", "messen → gemessen.", "Sie hatte Fieber gemesst."],
+          "options": ["Sie hatte Fieber gemessen.", "Sie hatte Fieber gemesst.", "Sie hatte Fieber messen."],
+          "answer": 0,
+          "reveal": "Sie hatte Fieber gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "clues": ["The report, earlier.", "schreiben → geschrieben.", "Anna hatte den Befund geschriebt."],
+          "options": ["Anna hatte den Befund geschrieben.", "Anna hatte den Befund geschriebt.", "Anna hatte den Befund schreiben."],
+          "answer": 0,
+          "reveal": "Anna hatte den Befund geschrieben.",
+          "hint": "geschrieben."
+        },
+        {
+          "clues": ["He had stayed in bed.", "bleiben takes war.", "Er hatte im Bett geblieben."],
+          "options": ["Er war im Bett geblieben.", "Er hatte im Bett geblieben.", "Er war im Bett gebleibte."],
+          "answer": 0,
+          "reveal": "Er war im Bett geblieben.",
+          "hint": "war."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-plusquam",
+      "label": "Dialogue",
+      "title": "Who had already done it?",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the person. du adds -st. wir adds -en. ihr adds -t. kommen and bleiben take war or waren.",
+      "chips": [
+        { "w": "hatte", "hint": "ich." },
+        { "w": "hattest", "hint": "du, haben." },
+        { "w": "war", "hint": "er, sein." },
+        { "w": "hatten", "hint": "wir, haben." },
+        { "w": "hattet", "hint": "ihr, haben." },
+        { "w": "waren", "hint": "plural, sein." },
+        { "w": "warst", "hint": "du, sein. Not this gap." },
+        { "w": "wart", "hint": "ihr, sein. Not this gap." }
+      ],
+      "items": [
+        {
+          "who": "Pflegekraft",
+          "before": "ich, schlafen: Ich",
+          "after": "zu lange geschlafen.",
+          "answer": "hatte",
+          "en": "I had slept too long.",
+          "why": "Ich hatte zu lange geschlafen.",
+          "tip": "hatte.",
+          "hint": "hatte."
+        },
+        {
+          "who": "Patient",
+          "before": "du, essen: Du",
+          "after": "schon gegessen.",
+          "answer": "hattest",
+          "en": "You had already eaten.",
+          "why": "Du hattest schon gegessen.",
+          "tip": "-st.",
+          "hint": "hattest."
+        },
+        {
+          "who": "Arzt",
+          "before": "er, kommen: Er",
+          "after": "schon gekommen.",
+          "answer": "war",
+          "en": "He had already come.",
+          "why": "Er war schon gekommen.",
+          "tip": "war.",
+          "hint": "war."
+        },
+        {
+          "who": "Team",
+          "before": "wir, messen: Wir",
+          "after": "das Fieber schon gemessen.",
+          "answer": "hatten",
+          "en": "We had already measured the fever.",
+          "why": "Wir hatten das Fieber schon gemessen.",
+          "tip": "-en.",
+          "hint": "hatten."
+        },
+        {
+          "who": "Anna",
+          "before": "ihr, schreiben: Ihr",
+          "after": "den Befund schon geschrieben.",
+          "answer": "hattet",
+          "en": "You had already written the report.",
+          "why": "Ihr hattet den Befund schon geschrieben.",
+          "tip": "-t.",
+          "hint": "hattet."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "sie, bleiben: Die Patienten",
+          "after": "im Bett geblieben.",
+          "answer": "waren",
+          "en": "The patients had stayed in bed.",
+          "why": "Die Patienten waren im Bett geblieben.",
+          "tip": "waren.",
+          "hint": "waren."
+        }
+      ]
+    },
+    {
+      "id": "gap-weitere",
+      "label": "Sentences",
+      "title": "More verbs and du",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "gehen and aufstehen take war. geben, trinken and untersuchen take hatte. untersuchen has no extra ge-. Into the room is ins Zimmer. du adds -st: warst.",
+      "chips": [
+        { "w": "Er war ins Zimmer gegangen", "hint": "gehen. Movement." },
+        { "w": "Er hatte Wasser getrunken", "hint": "trinken." },
+        { "w": "hatte eine Tablette gegeben", "hint": "geben." },
+        { "w": "Er war schon aufgestanden", "hint": "aufstehen." },
+        { "w": "hatte den Patienten untersucht", "hint": "untersuchen. No extra ge-." },
+        { "w": "Du warst schon gekommen", "hint": "du, kommen." },
+        { "w": "Er hatte ins Zimmer gegangen", "hint": "gehen takes war." },
+        { "w": "Er hatte Wasser getrinkt", "hint": "not getrinkt." },
+        { "w": "Er hatte schon aufgestanden", "hint": "aufstehen takes war." },
+        { "w": "hatte den Patienten geuntersucht", "hint": "no extra ge-." }
+      ],
+      "items": [
+        {
+          "before": "gehen, ins Zimmer:",
+          "after": ".",
+          "answer": "Er war ins Zimmer gegangen",
+          "en": "He had gone into the room.",
+          "why": "war gegangen. ins Zimmer.",
+          "tip": "ins.",
+          "hint": "gegangen."
+        },
+        {
+          "before": "trinken, Wasser:",
+          "after": ".",
+          "answer": "Er hatte Wasser getrunken",
+          "en": "He had drunk water.",
+          "why": "hatte getrunken.",
+          "tip": "getrunken.",
+          "hint": "getrunken."
+        },
+        {
+          "before": "geben, eine Tablette: Sie",
+          "after": ".",
+          "answer": "hatte eine Tablette gegeben",
+          "en": "She had given a tablet.",
+          "why": "Sie hatte eine Tablette gegeben.",
+          "tip": "eine.",
+          "hint": "gegeben."
+        },
+        {
+          "before": "aufstehen:",
+          "after": ".",
+          "answer": "Er war schon aufgestanden",
+          "en": "He had already got up.",
+          "why": "war aufgestanden.",
+          "tip": "war.",
+          "hint": "aufgestanden."
+        },
+        {
+          "before": "untersuchen, den Patienten: Der Arzt",
+          "after": ".",
+          "answer": "hatte den Patienten untersucht",
+          "en": "The doctor had examined the patient.",
+          "why": "Der Arzt hatte den Patienten untersucht. No extra ge-.",
+          "tip": "untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "before": "du, kommen:",
+          "after": ".",
+          "answer": "Du warst schon gekommen",
+          "en": "You had already come.",
+          "why": "Du warst schon gekommen.",
+          "tip": "warst.",
+          "hint": "warst."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The earlier events",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Fallbericht",
+        "title": "Vor der Operation",
+        "paragraphs": [
+          "Ich hatte zu lange geschlafen. Vor der Operation hatte der Patient schon gegessen. Er war schon gekommen.",
+          "Die Pflegekraft hatte das Fieber schon gemessen. Anna hatte den Befund schon geschrieben. Der Patient war im Bett geblieben. Dann kam der Arzt."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Ich hatte zu lange …",
+          "qEn": "The first sentence.",
+          "options": ["geschlafen", "gegessen", "geschrieben"],
+          "answer": 0,
+          "why": "Ich hatte zu lange geschlafen.",
+          "hint": "geschlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer hatte schon gegessen?",
+          "qEn": "Before the operation.",
+          "options": ["Der Patient", "Der Arzt", "Anna"],
+          "answer": 0,
+          "why": "Der Patient hatte schon gegessen.",
+          "hint": "Patient."
+        },
+        {
+          "kind": "mc",
+          "q": "Was hatte die Pflegekraft schon gemessen?",
+          "qEn": "The fever.",
+          "options": ["das Fieber", "den Befund", "das Bett"],
+          "answer": 0,
+          "why": "Die Pflegekraft hatte das Fieber schon gemessen.",
+          "hint": "Fieber."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer kam dann?",
+          "qEn": "The later event.",
+          "options": ["Der Arzt", "Anna", "Die Pflegekraft"],
+          "answer": 0,
+          "why": "Dann kam der Arzt.",
+          "hint": "Arzt."
+        }
+      ]
+    },
+    {
+      "id": "writing-bericht",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four earlier lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Three are Plusquamperfekt. The last is the later event: Dann kam der Arzt.",
+      "prompt": "I had slept too long. Before the operation the patient had already eaten. He had already come. Then the doctor came.",
+      "bullets": ["hatte zu lange geschlafen", "Vor der Operation hatte der Patient schon gegessen", "war schon gekommen", "Dann kam der Arzt"],
+      "model": "Ich hatte zu lange geschlafen. Vor der Operation hatte der Patient schon gegessen. Er war schon gekommen. Dann kam der Arzt.",
+      "modelEn": "I had slept too long. Before the operation the patient had already eaten. He had already come. Then the doctor came.",
+      "hint": "hatte zu lange geschlafen. Vor der Operation hatte der Patient schon gegessen. war schon gekommen. Dann kam der Arzt.",
+      "checklist": [
+        { "id": "s", "label": "hatte zu lange geschlafen", "keywords": ["hatte zu lange geschlafen"] },
+        { "id": "e", "label": "Vor der Operation hatte der Patient schon gegessen", "keywords": ["vor der operation hatte der patient schon gegessen"] },
+        { "id": "k", "label": "war schon gekommen", "keywords": ["war schon gekommen"] },
+        { "id": "d", "label": "Dann kam der Arzt", "keywords": ["dann kam der arzt"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Ich hatte zu lange geschlafen",
+      "heroImage": "thermometer",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Earlier: hatte or war plus the participle. kommen, gehen, bleiben and aufstehen take war. du -st. Plural waren or hatten. The later event stays kam.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Earlier. ich, schlafen.",
+          "qEn": "hatte.",
+          "options": ["hatte geschlafen", "war geschlafen", "hatte geschlaft"],
+          "answer": 0,
+          "why": "hatte geschlafen.",
+          "hint": "hatte."
+        },
+        {
+          "kind": "mc",
+          "q": "Earlier. er, essen.",
+          "qEn": "gegessen.",
+          "options": ["hatte gegessen", "hatte geesst", "hatte essen"],
+          "answer": 0,
+          "why": "hatte gegessen.",
+          "hint": "gegessen."
+        },
+        {
+          "kind": "mc",
+          "q": "Earlier. er, kommen.",
+          "qEn": "war.",
+          "options": ["war gekommen", "hatte gekommen", "war gekommt"],
+          "answer": 0,
+          "why": "war gekommen.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "Earlier. sie, messen.",
+          "qEn": "gemessen.",
+          "options": ["hatte gemessen", "hatte gemesst", "hatte messen"],
+          "answer": 0,
+          "why": "hatte gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "kind": "mc",
+          "q": "Anna had written the report. schreiben.",
+          "qEn": "Accusative den Befund.",
+          "options": ["Anna hatte den Befund geschrieben.", "Anna hatte den Befund geschriebt.", "Anna hatte den Befund schreiben."],
+          "answer": 0,
+          "why": "hatte den Befund geschrieben.",
+          "hint": "geschrieben."
+        },
+        {
+          "kind": "mc",
+          "q": "He had stayed in bed. bleiben.",
+          "qEn": "Location: im Bett.",
+          "options": ["Er war im Bett geblieben.", "Er hatte im Bett geblieben.", "Er war im Bett gebleibte."],
+          "answer": 0,
+          "why": "war im Bett geblieben.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "Before the operation he had eaten. vor + dative, verb in position 2.",
+          "qEn": "vor der Operation.",
+          "options": ["Vor der Operation hatte er gegessen.", "Vor der Operation er hatte gegessen.", "Vor die Operation hatte er gegessen."],
+          "answer": 0,
+          "why": "Vor der Operation hatte er gegessen.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "You had slept. du, schlafen.",
+          "qEn": "du adds -st.",
+          "options": ["Du hattest geschlafen.", "Du hatte geschlafen.", "Du hattest geschlaft."],
+          "answer": 0,
+          "why": "hattest.",
+          "hint": "hattest."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctors had already come. Plural, kommen.",
+          "qEn": "waren.",
+          "options": ["Die Ärzte waren schon gekommen.", "Die Ärzte hatten schon gekommen.", "Die Ärzte war schon gekommen."],
+          "answer": 0,
+          "why": "waren schon gekommen.",
+          "hint": "waren."
+        },
+        {
+          "kind": "mc",
+          "q": "He had gone into the room. gehen.",
+          "qEn": "Movement: ins Zimmer.",
+          "options": ["Er war ins Zimmer gegangen.", "Er hatte ins Zimmer gegangen.", "Er war ins Zimmer gegeht."],
+          "answer": 0,
+          "why": "war ins Zimmer gegangen.",
+          "hint": "gegangen."
+        },
+        {
+          "kind": "mc",
+          "q": "The later event. The doctor came.",
+          "qEn": "Präteritum.",
+          "options": ["Dann kam der Arzt.", "Dann kommte der Arzt.", "Dann gekommt der Arzt."],
+          "answer": 0,
+          "why": "kam. The spoken note still uses ist gekommen for a finished arrival.",
+          "hint": "kam."
+        },
+        {
+          "kind": "mc",
+          "q": "He had already got up. aufstehen.",
+          "qEn": "sein verb.",
+          "options": ["Er war schon aufgestanden.", "Er hatte schon aufgestanden.", "Er war schon aufstehen."],
+          "answer": 0,
+          "why": "war aufgestanden. The spoken note still says ist aufgestanden.",
+          "hint": "aufgestanden."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Ich hatte zu lange geschlafen",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Ich hatte zu lange geschlafen.", "en": "I had slept too long." },
+        { "de": "Vor der Operation hatte der Patient schon gegessen.", "en": "Before the operation the patient had already eaten." },
+        { "de": "Er war schon gekommen.", "en": "He had already come." },
+        { "de": "Dann kam der Arzt.", "en": "Then the doctor came." }
+      ],
+      "messages": [
+        "The earlier event takes hatte or war plus the participle. The later event stays in the Präteritum.",
+        "hatte geschlafen, hatte gegessen, war gekommen, war geblieben. vor der Operation. du hattest, du warst.",
+        "Sehr gut. Ich hatte zu lange geschlafen.",
+        "Ausgezeichnet. You can mark what happened before another past event."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1035 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-49-praeteritum",
+  "level": "B1",
+  "unit": "Kapitel 49",
+  "chapter": 49,
+  "chapters": [49],
+  "title": "Er kam, sah und sagte",
+  "subtitle": "Simple past",
+  "glossary": {
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "👨" },
+    "kam": {
+      "de": "kommen → er kam",
+      "pos": "form",
+      "en": "came",
+      "emoji": "🚶",
+      "note": "Strong. ich and er share kam. du kamst, wir kamen, ihr kamt. Not kommte."
+    },
+    "sah": {
+      "de": "sehen → er sah",
+      "pos": "form",
+      "en": "saw",
+      "emoji": "👁️",
+      "note": "Strong. Not sehte and not sahte."
+    },
+    "und": { "de": "und", "pos": "conjunction", "en": "and", "emoji": "➕", "note": "Position 0. The verb stays in position 2." },
+    "sagte": {
+      "de": "sagen → er sagte",
+      "pos": "form",
+      "en": "said",
+      "emoji": "💬",
+      "note": "Weak: stem plus -te. Not sagete. du sagtest, wir sagten."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🔵" },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "um": { "de": "um", "pos": "preposition", "en": "at (clock time)", "emoji": "🕗", "note": "um acht. Clock time takes um." },
+    "acht": { "de": "acht", "pos": "numeral", "en": "eight", "emoji": "🕗" },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
+    "fieber": { "de": "Fieber", "pos": "noun", "en": "fever", "emoji": "🌡️", "article": "das" },
+    "nichts": { "de": "nichts", "pos": "pronoun", "en": "nothing", "emoji": "🚫" },
+    "blieb": {
+      "de": "bleiben → er blieb",
+      "pos": "form",
+      "en": "stayed",
+      "emoji": "⏸️",
+      "note": "Strong. im Bett is location. Not bleibte."
+    },
+    "im": { "de": "im (= in dem)", "pos": "preposition", "en": "in the", "emoji": "📥" },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "the nurse's name", "emoji": "🧑‍⚕️" },
+    "schrieb": {
+      "de": "schreiben → sie schrieb",
+      "pos": "form",
+      "en": "wrote",
+      "emoji": "✍️",
+      "note": "Strong. Not schreibte."
+    },
+    "den": { "de": "den", "pos": "article", "en": "the (masculine accusative)", "emoji": "🔵", "note": "den Befund. schreiben takes the accusative." },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding; report",
+      "emoji": "📋",
+      "article": "der",
+      "plural": "die Befunde",
+      "note": "Accusative: den Befund."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "wartete": {
+      "de": "warten → sie wartete",
+      "pos": "form",
+      "en": "waited",
+      "emoji": "⏳",
+      "note": "warten ends in t, so -ete: wartete. Not wartte."
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🗣️",
+      "article": "die",
+      "plural": "die Übergaben"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "The case history",
+      "learn": [
+        "A written case history tells the story in the Präteritum. Er kam, sah und sagte. ich and er share that form.",
+        "Weak verbs add -te: sagen → sagte, machen → machte. A stem in -t or -d adds -ete: warten → wartete. Not sagete, and not wartte.",
+        "Strong verbs change the vowel and add no -te: kommen → kam, sehen → sah, gehen → ging, geben → gab, bleiben → blieb, schreiben → schrieb, trinken → trank, messen → maß.",
+        "Chapter 23 still has war and hatte for a state. Chapter 28 still uses the Perfekt for a finished action in a spoken progress note. Chapter 27 still has konnte. käme and ginge are not this past."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🤒", "glossaryKey": "patient" },
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor (male)", "emoji": "👨‍⚕️", "glossaryKey": "arzt" },
+        { "de": "Befund", "article": "der", "plural": "die Befunde", "en": "finding; report", "emoji": "📋", "glossaryKey": "befund" },
+        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "image": { "type": "svg", "id": "bed" }, "glossaryKey": "bett" }
+      ],
+      "text": {
+        "title": "Er kam, sah und sagte",
+        "de": "Der Patient kam um acht. Der Arzt sah das Fieber. Der Patient sagte nichts und blieb im Bett. Anna schrieb den Befund. Die Pflegekraft wartete.",
+        "en": "The patient came at eight. The doctor saw the fever. The patient said nothing and stayed in bed. Anna wrote the report. The nurse waited."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "kam, sah, sagte",
+      "practice": "choose",
+      "heroTitle": "Er kam, sah und sagte",
+      "heroImage": "clipboard",
+      "story": [
+        "The case history is a written story, so the verbs stand in the <b>Präteritum</b>. <b>Er kam, sah und sagte.</b> On the ward: <b>Der Patient kam um acht. Der Arzt sah das Fieber. Der Patient sagte nichts.</b>",
+        "Weak verbs add <b>-te</b>. sagen → <b>sagte</b>, machen → machte. ich and er share it. du adds -st: sagtest. wir, sie and Sie add -en: sagten. ihr adds -t: sagtet. A stem in -t or -d needs an extra e: warten → <b>wartete</b>. Not wartte. sagen does not take that e: not sagete.",
+        "Strong verbs change the vowel and take <b>no -te</b>. kommen → <b>kam</b>, sehen → <b>sah</b>, gehen → <b>ging</b>, geben → <b>gab</b>, bleiben → <b>blieb</b>, schreiben → <b>schrieb</b>, trinken → <b>trank</b>, sprechen → sprach, messen → <b>maß</b>. du still adds -st: kamst. wir adds -en: kamen. ihr adds -t: kamt.",
+        "Two known pasts stay put. A state is still <b>war</b> and <b>hatte</b>, as in chapter 23. A modal is still <b>konnte</b>, as in chapter 27. <b>käme</b> and <b>ginge</b> are not this narrative past, just as könnte is not the past of können.",
+        "A spoken progress note, as in chapter 28, still uses the Perfekt for a finished action: hat gemessen, ist geblieben, ist gekommen. This chapter is the written story, so the same events are <b>maß</b>, <b>blieb</b> and <b>kam</b>. blieb takes <b>im Bett</b>, location. ging takes <b>ins Zimmer</b>, movement.",
+        "schreiben takes the accusative: <b>Anna schrieb den Befund.</b> geben takes the accusative: Er gab eine Tablette. Clock time takes um: <b>um acht</b>."
+      ],
+      "questionRule": "Case history. Weak: -te, or -ete after t or d. Strong: a new vowel, no -te. ich and er share the form.",
+      "tables": [
+        {
+          "title": "Personen",
+          "caption": "ich and er share the form. du adds -st. wir adds -en. ihr adds -t.",
+          "columns": ["ich / er", "du", "wir", "ihr"],
+          "rows": [
+            { "label": "kommen", "cells": ["kam", "kamst", "kamen", "kamt"], "highlight": true },
+            { "label": "sagen", "cells": ["sagte", "sagtest", "sagten", "sagtet"], "highlight": true },
+            { "label": "warten", "cells": ["wartete", "wartetest", "warteten", "wartetet"] }
+          ]
+        },
+        {
+          "title": "Stark oder schwach",
+          "caption": "Strong verbs change the vowel. Weak verbs add -te.",
+          "columns": ["Typ", "Form"],
+          "rows": [
+            { "label": "kommen", "cells": ["stark", "kam"], "highlight": true },
+            { "label": "sehen", "cells": ["stark", "sah"], "highlight": true },
+            { "label": "bleiben", "cells": ["stark", "blieb"] },
+            { "label": "schreiben", "cells": ["stark", "schrieb"] },
+            { "label": "sagen", "cells": ["schwach", "sagte"], "highlight": true },
+            { "label": "warten", "cells": ["schwach, -ete", "wartete"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "No -te on a strong verb. No extra e on sagen. warten keeps the e.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "kommen", "cells": ["kommte", "kam"] },
+            { "label": "sehen", "cells": ["sehte", "sah"] },
+            { "label": "sagen", "cells": ["sagete", "sagte"] },
+            { "label": "warten", "cells": ["wartte", "wartete"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four narrative-past traps",
+        "items": [
+          { "de": "Der Patient kam um acht.", "en": "kommen → kam.", "tone": "ok" },
+          { "de": "Der Patient kommte um acht.", "en": "kommte adds -te to a strong verb.", "tone": "stop" },
+          { "de": "Der Arzt sah das Fieber.", "en": "sehen → sah.", "tone": "ok" },
+          { "de": "Der Arzt sehte das Fieber.", "en": "sehte is not the past.", "tone": "stop" },
+          { "de": "Er sagte nichts.", "en": "sagen → sagte.", "tone": "ok" },
+          { "de": "Er sagete nichts.", "en": "sagen does not take -ete.", "tone": "stop" },
+          { "de": "Die Pflegekraft wartete.", "en": "warten ends in t, so -ete.", "tone": "ok" },
+          { "de": "Die Pflegekraft wartte.", "en": "wartte drops the e.", "tone": "stop" }
+        ],
+        "tip": "Strong: kam, sah, blieb, schrieb. Weak: sagte. Stem in t: wartete."
+      },
+      "quizTitle": "Which past?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Case history. er, kommen.",
+          "qEn": "Strong. No -te.",
+          "options": ["kam", "kommte", "kammte"],
+          "answer": 0,
+          "why": "kam.",
+          "hint": "kam."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. er, sehen.",
+          "qEn": "Strong. The vowel is a.",
+          "options": ["sah", "sehte", "sahte"],
+          "answer": 0,
+          "why": "sah.",
+          "hint": "sah."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. er, sagen.",
+          "qEn": "Weak -te. No extra e.",
+          "options": ["sagte", "sagete", "sagtete"],
+          "answer": 0,
+          "why": "sagte.",
+          "hint": "-te."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. sie, warten.",
+          "qEn": "Stem in t, so -ete.",
+          "options": ["wartete", "wartte", "wartetete"],
+          "answer": 0,
+          "why": "wartete.",
+          "hint": "-ete."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. er, bleiben.",
+          "qEn": "Strong. Location stays im Bett.",
+          "options": ["blieb", "bleibte", "bliebte"],
+          "answer": 0,
+          "why": "blieb.",
+          "hint": "blieb."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. sie, schreiben.",
+          "qEn": "Strong. No -te.",
+          "options": ["schrieb", "schreibte", "schriebte"],
+          "answer": 0,
+          "why": "schrieb.",
+          "hint": "schrieb."
+        }
+      ]
+    },
+    {
+      "id": "gap-praeteritum",
+      "label": "Gap",
+      "title": "Which past?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the verb. Strong verbs change the vowel. sagen takes -te. warten takes -ete.",
+      "chips": [
+        { "w": "kam", "hint": "kommen." },
+        { "w": "sah", "hint": "sehen." },
+        { "w": "sagte", "hint": "sagen." },
+        { "w": "blieb", "hint": "bleiben." },
+        { "w": "schrieb", "hint": "schreiben." },
+        { "w": "wartete", "hint": "warten, -ete." },
+        { "w": "kommte", "hint": "not a strong past." },
+        { "w": "sehte", "hint": "not sehen." },
+        { "w": "sagete", "hint": "no extra e." },
+        { "w": "wartte", "hint": "the e is missing." }
+      ],
+      "items": [
+        {
+          "before": "Fallbericht, kommen: Der Patient",
+          "after": "um acht.",
+          "answer": "kam",
+          "en": "The patient came at eight.",
+          "why": "Der Patient kam um acht.",
+          "tip": "kam.",
+          "hint": "kam."
+        },
+        {
+          "before": "Fallbericht, sehen: Der Arzt",
+          "after": "das Fieber.",
+          "answer": "sah",
+          "en": "The doctor saw the fever.",
+          "why": "Der Arzt sah das Fieber.",
+          "tip": "sah.",
+          "hint": "sah."
+        },
+        {
+          "before": "Fallbericht, sagen: Der Patient",
+          "after": "nichts.",
+          "answer": "sagte",
+          "en": "The patient said nothing.",
+          "why": "Der Patient sagte nichts.",
+          "tip": "-te.",
+          "hint": "sagte."
+        },
+        {
+          "before": "Fallbericht, bleiben: Der Patient",
+          "after": "im Bett.",
+          "answer": "blieb",
+          "en": "The patient stayed in bed.",
+          "why": "Der Patient blieb im Bett.",
+          "tip": "im Bett.",
+          "hint": "blieb."
+        },
+        {
+          "before": "Fallbericht, schreiben: Anna",
+          "after": "den Befund.",
+          "answer": "schrieb",
+          "en": "Anna wrote the report.",
+          "why": "Anna schrieb den Befund.",
+          "tip": "den Befund.",
+          "hint": "schrieb."
+        },
+        {
+          "before": "Fallbericht, warten: Die Pflegekraft",
+          "after": ".",
+          "answer": "wartete",
+          "en": "The nurse waited.",
+          "why": "Die Pflegekraft wartete.",
+          "tip": "-ete.",
+          "hint": "wartete."
+        }
+      ]
+    },
+    {
+      "id": "match-praeteritum",
+      "type": "compare",
+      "label": "Match",
+      "title": "Strong or weak",
+      "practice": "match",
+      "instructions": "Match the case-history form. A strong verb does not take -te.",
+      "items": [
+        {
+          "prompt": "The patient came at eight. kommen.",
+          "options": [
+            { "emoji": "🚶", "label": "Der Patient kam um acht.", "caption": "Strong." },
+            { "emoji": "🚫", "label": "Der Patient kommte um acht.", "caption": "No -te." },
+            { "emoji": "🚫", "label": "Der Patient kammte um acht.", "caption": "Not kammte." }
+          ],
+          "answer": 0,
+          "why": "kam.",
+          "hint": "kam."
+        },
+        {
+          "prompt": "The doctor saw the fever. sehen.",
+          "options": [
+            { "emoji": "👁️", "label": "Der Arzt sah das Fieber.", "caption": "Vowel a." },
+            { "emoji": "🚫", "label": "Der Arzt sehte das Fieber.", "caption": "Not sehte." },
+            { "emoji": "🚫", "label": "Der Arzt sahte das Fieber.", "caption": "No -te on sah." }
+          ],
+          "answer": 0,
+          "why": "sah.",
+          "hint": "sah."
+        },
+        {
+          "prompt": "The patient said nothing. sagen.",
+          "options": [
+            { "emoji": "💬", "label": "Der Patient sagte nichts.", "caption": "Weak -te." },
+            { "emoji": "🚫", "label": "Der Patient sagete nichts.", "caption": "No extra e." },
+            { "emoji": "🚫", "label": "Der Patient sagtete nichts.", "caption": "One -te only." }
+          ],
+          "answer": 0,
+          "why": "sagte.",
+          "hint": "-te."
+        },
+        {
+          "prompt": "The patient stayed in bed. bleiben.",
+          "options": [
+            { "emoji": "🛏️", "label": "Der Patient blieb im Bett.", "caption": "Strong. Location." },
+            { "emoji": "🚫", "label": "Der Patient bleibte im Bett.", "caption": "No -te." },
+            { "emoji": "🚫", "label": "Der Patient bliebte im Bett.", "caption": "No extra -te." }
+          ],
+          "answer": 0,
+          "why": "blieb im Bett.",
+          "hint": "blieb."
+        },
+        {
+          "prompt": "Anna wrote the report. schreiben.",
+          "options": [
+            { "emoji": "✍️", "label": "Anna schrieb den Befund.", "caption": "Strong. Accusative den." },
+            { "emoji": "🚫", "label": "Anna schreibte den Befund.", "caption": "No -te." },
+            { "emoji": "🚫", "label": "Anna schriebte den Befund.", "caption": "No extra -te." }
+          ],
+          "answer": 0,
+          "why": "schrieb den Befund.",
+          "hint": "schrieb."
+        },
+        {
+          "prompt": "The nurse waited. warten.",
+          "options": [
+            { "emoji": "⏳", "label": "Die Pflegekraft wartete.", "caption": "-ete after t." },
+            { "emoji": "🚫", "label": "Die Pflegekraft wartte.", "caption": "The e is missing." },
+            { "emoji": "🚫", "label": "Die Pflegekraft wartetete.", "caption": "One e only." }
+          ],
+          "answer": 0,
+          "why": "wartete.",
+          "hint": "-ete."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed he stayed in",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster on the trolley",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer for the fever he saw",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart with the report",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-praeteritum",
+      "type": "builder",
+      "label": "Build",
+      "title": "One narrative line",
+      "practice": "build",
+      "instructions": "Build the statement. The verb stays in position 2. A fronted time, place or object is also fine.",
+      "items": [
+        {
+          "tiles": ["Der", "Patient", "kam", "um", "acht"],
+          "answers": ["Der Patient kam um acht", "Um acht kam der Patient"],
+          "punct": ".",
+          "modal": "kam",
+          "inf": "acht",
+          "question": false,
+          "en": "The patient came at eight.",
+          "hint": "kam.",
+          "feedback": {
+            "end": "The plain line ends with acht: Der Patient kam um acht.",
+            "fallback": "kam is position 2. Der Patient kam um acht."
+          }
+        },
+        {
+          "tiles": ["Der", "Arzt", "sah", "das", "Fieber"],
+          "answers": ["Der Arzt sah das Fieber", "Das Fieber sah der Arzt"],
+          "punct": ".",
+          "modal": "sah",
+          "inf": "Fieber",
+          "question": false,
+          "en": "The doctor saw the fever.",
+          "hint": "sah.",
+          "feedback": {
+            "end": "The plain line ends with Fieber: Der Arzt sah das Fieber.",
+            "fallback": "sah is position 2. Der Arzt sah das Fieber."
+          }
+        },
+        {
+          "tiles": ["Er", "blieb", "im", "Bett"],
+          "answers": ["Er blieb im Bett", "Im Bett blieb er"],
+          "punct": ".",
+          "modal": "blieb",
+          "inf": "Bett",
+          "question": false,
+          "en": "He stayed in bed.",
+          "hint": "blieb.",
+          "feedback": {
+            "end": "The plain line ends with Bett: Er blieb im Bett.",
+            "fallback": "blieb is position 2. Er blieb im Bett."
+          }
+        },
+        {
+          "tiles": ["Anna", "schrieb", "den", "Befund"],
+          "answers": ["Anna schrieb den Befund", "Den Befund schrieb Anna"],
+          "punct": ".",
+          "modal": "schrieb",
+          "inf": "Befund",
+          "question": false,
+          "en": "Anna wrote the report.",
+          "hint": "schrieb.",
+          "feedback": {
+            "end": "The plain line ends with Befund: Anna schrieb den Befund.",
+            "fallback": "schrieb is position 2. Anna schrieb den Befund."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-praeteritum",
+      "label": "Rewrite",
+      "title": "One line",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished case-history line.",
+      "chips": [
+        { "w": "Der Patient kam um acht", "hint": "kommen." },
+        { "w": "Der Arzt sah das Fieber", "hint": "sehen." },
+        { "w": "Der Patient sagte nichts", "hint": "sagen." },
+        { "w": "Der Patient blieb im Bett", "hint": "bleiben." },
+        { "w": "Anna schrieb den Befund", "hint": "schreiben." },
+        { "w": "Die Pflegekraft wartete", "hint": "warten." }
+      ],
+      "items": [
+        {
+          "before": "kommen:",
+          "after": ".",
+          "answer": "Der Patient kam um acht",
+          "en": "The patient came at eight.",
+          "why": "kam um acht.",
+          "tip": "kam.",
+          "hint": "kam."
+        },
+        {
+          "before": "sehen:",
+          "after": ".",
+          "answer": "Der Arzt sah das Fieber",
+          "en": "The doctor saw the fever.",
+          "why": "sah das Fieber.",
+          "tip": "sah.",
+          "hint": "sah."
+        },
+        {
+          "before": "sagen:",
+          "after": ".",
+          "answer": "Der Patient sagte nichts",
+          "en": "The patient said nothing.",
+          "why": "sagte nichts.",
+          "tip": "-te.",
+          "hint": "sagte."
+        },
+        {
+          "before": "bleiben:",
+          "after": ".",
+          "answer": "Der Patient blieb im Bett",
+          "en": "The patient stayed in bed.",
+          "why": "blieb im Bett.",
+          "tip": "im.",
+          "hint": "blieb."
+        },
+        {
+          "before": "schreiben:",
+          "after": ".",
+          "answer": "Anna schrieb den Befund",
+          "en": "Anna wrote the report.",
+          "why": "schrieb den Befund.",
+          "tip": "den.",
+          "hint": "schrieb."
+        },
+        {
+          "before": "warten:",
+          "after": ".",
+          "answer": "Die Pflegekraft wartete",
+          "en": "The nurse waited.",
+          "why": "wartete.",
+          "tip": "-ete.",
+          "hint": "wartete."
+        }
+      ]
+    },
+    {
+      "id": "error-praeteritum",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line puts -te on a strong verb, drops the e of wartete, or adds an e to sagte. Choose the correction.",
+      "items": [
+        {
+          "clues": ["Case history.", "kommen, no -te.", "Der Patient kommte um acht."],
+          "options": ["Der Patient kam um acht.", "Der Patient kommte um acht.", "Der Patient kammte um acht."],
+          "answer": 0,
+          "reveal": "Der Patient kam um acht.",
+          "hint": "kam."
+        },
+        {
+          "clues": ["Case history.", "sehen, vowel a.", "Der Arzt sehte das Fieber."],
+          "options": ["Der Arzt sah das Fieber.", "Der Arzt sehte das Fieber.", "Der Arzt sahte das Fieber."],
+          "answer": 0,
+          "reveal": "Der Arzt sah das Fieber.",
+          "hint": "sah."
+        },
+        {
+          "clues": ["Case history.", "sagen takes one -te.", "Der Patient sagete nichts."],
+          "options": ["Der Patient sagte nichts.", "Der Patient sagete nichts.", "Der Patient sagtete nichts."],
+          "answer": 0,
+          "reveal": "Der Patient sagte nichts.",
+          "hint": "sagte."
+        },
+        {
+          "clues": ["Case history.", "bleiben, location im Bett.", "Der Patient bleibte im Bett."],
+          "options": ["Der Patient blieb im Bett.", "Der Patient bleibte im Bett.", "Der Patient bliebte im Bett."],
+          "answer": 0,
+          "reveal": "Der Patient blieb im Bett.",
+          "hint": "blieb."
+        },
+        {
+          "clues": ["Case history.", "schreiben, accusative den.", "Anna schreibte den Befund."],
+          "options": ["Anna schrieb den Befund.", "Anna schreibte den Befund.", "Anna schriebte den Befund."],
+          "answer": 0,
+          "reveal": "Anna schrieb den Befund.",
+          "hint": "schrieb."
+        },
+        {
+          "clues": ["Case history.", "warten ends in t.", "Die Pflegekraft wartte."],
+          "options": ["Die Pflegekraft wartete.", "Die Pflegekraft wartte.", "Die Pflegekraft wartetete."],
+          "answer": 0,
+          "reveal": "Die Pflegekraft wartete.",
+          "hint": "wartete."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-bericht",
+      "label": "Dialogue",
+      "title": "Reading the report",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the speaker and the verb. Keep the case-history form.",
+      "chips": [
+        { "w": "kam", "hint": "kommen." },
+        { "w": "sah", "hint": "sehen." },
+        { "w": "sagte", "hint": "sagen." },
+        { "w": "blieb", "hint": "bleiben." },
+        { "w": "schrieb", "hint": "schreiben." },
+        { "w": "wartete", "hint": "warten." }
+      ],
+      "items": [
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, kommen: Der Patient",
+          "after": "um acht.",
+          "answer": "kam",
+          "en": "The patient came at eight.",
+          "why": "kam.",
+          "tip": "kam.",
+          "hint": "kam."
+        },
+        {
+          "who": "Arzt",
+          "before": "Arzt, sehen: Der Arzt",
+          "after": "das Fieber.",
+          "answer": "sah",
+          "en": "The doctor saw the fever.",
+          "why": "sah.",
+          "tip": "sah.",
+          "hint": "sah."
+        },
+        {
+          "who": "Patient",
+          "before": "Patient, sagen: Der Patient",
+          "after": "nichts.",
+          "answer": "sagte",
+          "en": "The patient said nothing.",
+          "why": "sagte.",
+          "tip": "-te.",
+          "hint": "sagte."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "Pflegekraft, bleiben: Der Patient",
+          "after": "im Bett.",
+          "answer": "blieb",
+          "en": "The patient stayed in bed.",
+          "why": "blieb im Bett.",
+          "tip": "im.",
+          "hint": "blieb."
+        },
+        {
+          "who": "Anna",
+          "before": "Anna, schreiben: Anna",
+          "after": "den Befund.",
+          "answer": "schrieb",
+          "en": "Anna wrote the report.",
+          "why": "schrieb den Befund.",
+          "tip": "den.",
+          "hint": "schrieb."
+        },
+        {
+          "who": "Arzt",
+          "before": "Arzt, warten: Die Pflegekraft",
+          "after": ".",
+          "answer": "wartete",
+          "en": "The nurse waited.",
+          "why": "wartete.",
+          "tip": "-ete.",
+          "hint": "wartete."
+        }
+      ]
+    },
+    {
+      "id": "gap-personen",
+      "label": "Sentences",
+      "title": "Person and vowel",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "du adds -st. wir adds -en. gehen, geben, trinken and messen are strong. Into the room is ins Zimmer.",
+      "chips": [
+        { "w": "Wir kamen", "hint": "wir, kommen." },
+        { "w": "Du kamst", "hint": "du, kommen." },
+        { "w": "Er ging ins Zimmer", "hint": "gehen. Movement." },
+        { "w": "Er gab eine Tablette", "hint": "geben." },
+        { "w": "Er trank Wasser", "hint": "trinken." },
+        { "w": "Die Pflegekraft maß das Fieber", "hint": "messen." },
+        { "w": "Wir kommten", "hint": "not the plural." },
+        { "w": "Du kam", "hint": "du needs -st." },
+        { "w": "Er gehte ins Zimmer", "hint": "not gehen." },
+        { "w": "Er trinkte Wasser", "hint": "not trinken." }
+      ],
+      "items": [
+        {
+          "before": "wir, kommen:",
+          "after": "um acht.",
+          "answer": "Wir kamen",
+          "en": "We came at eight.",
+          "why": "Wir kamen um acht.",
+          "tip": "-en.",
+          "hint": "kamen."
+        },
+        {
+          "before": "du, kommen:",
+          "after": "um acht.",
+          "answer": "Du kamst",
+          "en": "You came at eight.",
+          "why": "Du kamst um acht.",
+          "tip": "-st.",
+          "hint": "kamst."
+        },
+        {
+          "before": "gehen, ins Zimmer:",
+          "after": ".",
+          "answer": "Er ging ins Zimmer",
+          "en": "He went into the room.",
+          "why": "ging. ins Zimmer.",
+          "tip": "ins.",
+          "hint": "ging."
+        },
+        {
+          "before": "geben, Tablette:",
+          "after": ".",
+          "answer": "Er gab eine Tablette",
+          "en": "He gave a tablet.",
+          "why": "gab eine Tablette.",
+          "tip": "gab.",
+          "hint": "gab."
+        },
+        {
+          "before": "trinken, Wasser:",
+          "after": ".",
+          "answer": "Er trank Wasser",
+          "en": "He drank water.",
+          "why": "trank Wasser.",
+          "tip": "trank.",
+          "hint": "trank."
+        },
+        {
+          "before": "messen, Fieber:",
+          "after": ".",
+          "answer": "Die Pflegekraft maß das Fieber",
+          "en": "The nurse measured the fever.",
+          "why": "maß das Fieber.",
+          "tip": "maß.",
+          "hint": "maß."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The case history",
+      "practice": "reading",
+      "instructions": "Read the case history. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Übergabe",
+        "title": "Die Übergabe",
+        "paragraphs": [
+          "Der Patient kam um acht. Der Arzt sah das Fieber.",
+          "Der Patient sagte nichts und blieb im Bett. Die Pflegekraft wartete. Anna schrieb den Befund."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wer kam um acht?",
+          "qEn": "The patient.",
+          "options": ["Der Patient", "Der Arzt", "Anna"],
+          "answer": 0,
+          "why": "Der Patient kam um acht.",
+          "hint": "Patient."
+        },
+        {
+          "kind": "mc",
+          "q": "Was sah der Arzt?",
+          "qEn": "The fever.",
+          "options": ["das Fieber", "den Befund", "das Bett"],
+          "answer": 0,
+          "why": "Der Arzt sah das Fieber.",
+          "hint": "Fieber."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer schrieb den Befund?",
+          "qEn": "Anna.",
+          "options": ["Anna", "Der Patient", "Die Pflegekraft"],
+          "answer": 0,
+          "why": "Anna schrieb den Befund.",
+          "hint": "Anna."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer wartete?",
+          "qEn": "The nurse.",
+          "options": ["Die Pflegekraft", "Der Arzt", "Anna"],
+          "answer": 0,
+          "why": "Die Pflegekraft wartete.",
+          "hint": "Pflegekraft."
+        }
+      ]
+    },
+    {
+      "id": "writing-bericht",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four lines of the report",
+      "practice": "writing",
+      "instructions": "Write four lines of the case history. Use kam, sah, sagte and schrieb.",
+      "prompt": "The patient came at eight. The doctor saw the fever. The patient said nothing and stayed in bed. Anna wrote the report.",
+      "bullets": ["kam um acht", "sah das Fieber", "sagte nichts", "schrieb den Befund"],
+      "model": "Der Patient kam um acht. Der Arzt sah das Fieber. Der Patient sagte nichts und blieb im Bett. Anna schrieb den Befund.",
+      "modelEn": "The patient came at eight. The doctor saw the fever. The patient said nothing and stayed in bed. Anna wrote the report.",
+      "hint": "kam um acht. sah das Fieber. sagte nichts. schrieb den Befund.",
+      "checklist": [
+        { "id": "k", "label": "kam um acht", "keywords": ["patient kam um acht"] },
+        { "id": "s", "label": "sah das Fieber", "keywords": ["sah das fieber"] },
+        { "id": "g", "label": "sagte nichts", "keywords": ["sagte nichts"] },
+        { "id": "b", "label": "schrieb den Befund", "keywords": ["schrieb den befund"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Der Patient kam um acht",
+      "heroImage": "thermometer",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Case history. Strong verbs change the vowel. Weak verbs add -te, or -ete after t. du adds -st. wir adds -en.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Case history. er, kommen.",
+          "qEn": "Strong.",
+          "options": ["kam", "kommte", "kammte"],
+          "answer": 0,
+          "why": "kam.",
+          "hint": "kam."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. er, sehen.",
+          "qEn": "Strong.",
+          "options": ["sah", "sehte", "sahte"],
+          "answer": 0,
+          "why": "sah.",
+          "hint": "sah."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. er, sagen.",
+          "qEn": "Weak -te.",
+          "options": ["sagte", "sagete", "sagtete"],
+          "answer": 0,
+          "why": "sagte.",
+          "hint": "-te."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. sie, warten.",
+          "qEn": "-ete.",
+          "options": ["wartete", "wartte", "wartetete"],
+          "answer": 0,
+          "why": "wartete.",
+          "hint": "-ete."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. er, bleiben. He stayed in bed.",
+          "qEn": "Location: im Bett.",
+          "options": ["Der Patient blieb im Bett.", "Der Patient bleibte im Bett.", "Der Patient bliebte im Bett."],
+          "answer": 0,
+          "why": "blieb im Bett.",
+          "hint": "blieb."
+        },
+        {
+          "kind": "mc",
+          "q": "Case history. sie, schreiben.",
+          "qEn": "Accusative den Befund.",
+          "options": ["Anna schrieb den Befund.", "Anna schreibte den Befund.", "Anna schriebte den Befund."],
+          "answer": 0,
+          "why": "schrieb den Befund.",
+          "hint": "schrieb."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctors came at eight. wir-form, plural.",
+          "qEn": "Plural -en.",
+          "options": ["Die Ärzte kamen um acht.", "Die Ärzte kommten um acht.", "Die Ärzte kam um acht."],
+          "answer": 0,
+          "why": "kamen.",
+          "hint": "kamen."
+        },
+        {
+          "kind": "mc",
+          "q": "You came at eight. du.",
+          "qEn": "du adds -st.",
+          "options": ["Du kamst um acht.", "Du kam um acht.", "Du kammst um acht."],
+          "answer": 0,
+          "why": "kamst.",
+          "hint": "-st."
+        },
+        {
+          "kind": "mc",
+          "q": "He went into the room. gehen.",
+          "qEn": "Movement: ins Zimmer.",
+          "options": ["Er ging ins Zimmer.", "Er gehte ins Zimmer.", "Er gang ins Zimmer."],
+          "answer": 0,
+          "why": "ging ins Zimmer.",
+          "hint": "ging."
+        },
+        {
+          "kind": "mc",
+          "q": "He gave a tablet. geben.",
+          "qEn": "Strong. eine Tablette.",
+          "options": ["Er gab eine Tablette.", "Er gebte eine Tablette.", "Er gabe eine Tablette."],
+          "answer": 0,
+          "why": "gab eine Tablette.",
+          "hint": "gab."
+        },
+        {
+          "kind": "mc",
+          "q": "He drank water. trinken.",
+          "qEn": "Strong.",
+          "options": ["Er trank Wasser.", "Er trinkte Wasser.", "Er getrank Wasser."],
+          "answer": 0,
+          "why": "trank.",
+          "hint": "trank."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse measured the fever. messen. Case history.",
+          "qEn": "Strong. maß.",
+          "options": ["Die Pflegekraft maß das Fieber.", "Die Pflegekraft messte das Fieber.", "Die Pflegekraft gemess das Fieber."],
+          "answer": 0,
+          "why": "maß. The spoken progress note still uses hat gemessen.",
+          "hint": "maß."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Er kam, sah und sagte",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Der Patient kam um acht.", "en": "The patient came at eight." },
+        { "de": "Der Arzt sah das Fieber.", "en": "The doctor saw the fever." },
+        { "de": "Der Patient sagte nichts.", "en": "The patient said nothing." },
+        { "de": "Anna schrieb den Befund.", "en": "Anna wrote the report." }
+      ],
+      "messages": [
+        "A case history uses the Präteritum. Weak verbs add -te. Strong verbs change the vowel.",
+        "kam, sah, blieb, schrieb, ging, gab, trank, maß. sagte and wartete. du -st, wir -en.",
+        "Sehr gut. Er kam, sah und sagte.",
+        "Ausgezeichnet. You can write a short case history."
+      ]
+    }
+  ]
+}

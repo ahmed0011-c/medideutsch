@@ -57,8 +57,13 @@ npm run build
 | 43 | Place adverbs (da, dahin, daher) |
 | 44 | Particles (denn, mal, doch) |
 | 46 | Word formation (-chen, -lein, -er, -in, -ung) |
+| 39 | Superlative (der kleinste, am schnellsten) |
+| 49 | Simple past (kam, sah, sagte) |
+| 50 | Past perfect (hatte geschlafen, war gekommen) |
+| 51 | Dative reflexive (mir die Hände, sich weh) |
+| 52 | Separable and inseparable verbs (kaufe ein, untersucht) |
 
-The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29, 34–38, 40–44 and 46. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
+The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29, 34–38, 40–44 and 46, and B1 chapters 39, 49, 50, 51 and 52. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
 
 **Wortbank** keeps the words you star from a grammar popup or a comic popup. They stay grouped by the lesson you saved them in. Open Wortbank in the header to filter, mark a word Schwer, review it, or open a separable verb.
 

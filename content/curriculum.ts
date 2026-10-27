@@ -53,6 +53,7 @@ const LESSON: Partial<Record<number, string>> = {
   36: "a2-36-adjektive",
   37: "a2-37-adjektive-dativ",
   38: "a2-38-komparativ",
+  39: "b1-39-superlativ",
   40: "a2-40-aduso",
   41: "a2-41-konnektoren-pos1",
   42: "a2-42-weil-dass-wenn",
@@ -62,6 +63,10 @@ const LESSON: Partial<Record<number, string>> = {
   46: "a2-46-wortbildung",
   47: "a1-47-zusammengesetzte-verben",
   48: "a1-48-genusregeln",
+  49: "b1-49-praeteritum",
+  50: "b1-50-plusquamperfekt",
+  51: "b1-51-reflexiv-dativ",
+  52: "b1-52-trennbar-untrennbar",
 };
 
 type Seed = [number, "A1" | "A2" | "B1", string, string, string, string];

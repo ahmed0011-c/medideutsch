@@ -1,0 +1,1170 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-52-trennbar-untrennbar",
+  "level": "B1",
+  "unit": "Kapitel 52",
+  "chapter": 52,
+  "chapters": [52],
+  "title": "Kaufe ich ein oder bestelle ich Pizza?",
+  "subtitle": "Separable and inseparable verbs",
+  "glossary": {
+    "kaufe": {
+      "de": "einkaufen → ich kaufe … ein",
+      "pos": "form",
+      "en": "shop; do the shopping",
+      "emoji": "🛒",
+      "note": "Separable. ein goes to the end: ich kaufe ein. Not einkaufe. Simple kaufen, as in ich kaufe eine Pizza, is a different verb."
+    },
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🙋" },
+    "ein": {
+      "de": "ein",
+      "pos": "prefix",
+      "en": "separable prefix of einkaufen and einnehmen",
+      "emoji": "🔚",
+      "note": "Stressed. Finite verb in position 2, ein at the end: kaufe ein, nimmt die Tablette ein. The infinitive stays one word: einnehmen."
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or",
+      "emoji": "🔀",
+      "note": "Position 0, as in chapter 40. It does not send the verb to the end. Two questions have no comma: Kaufe ich ein oder bestelle ich Pizza?"
+    },
+    "bestelle": {
+      "de": "bestellen → ich bestelle",
+      "pos": "form",
+      "en": "order",
+      "emoji": "🍕",
+      "note": "Inseparable be-. Never stellt … be. Question: Bestelle ich Pizza? Participle bestellt, with no ge-."
+    },
+    "pizza": {
+      "de": "Pizza",
+      "pos": "noun",
+      "en": "pizza",
+      "emoji": "🍕",
+      "article": "die",
+      "plural": "die Pizzen",
+      "note": "Bestelle ich Pizza? No article, as with Wasser."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🔵" },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative: der Patient steht auf."
+    },
+    "steht": {
+      "de": "aufstehen → er steht … auf",
+      "pos": "form",
+      "en": "gets up",
+      "emoji": "🛏️",
+      "note": "Separable. er steht auf. du stehst auf. ihr steht auf. wir stehen auf. Er steht im Zimmer, with no auf, means he is standing."
+    },
+    "heute": { "de": "heute", "pos": "adverb", "en": "today", "emoji": "📅" },
+    "auf": {
+      "de": "auf",
+      "pos": "prefix",
+      "en": "separable prefix of aufstehen",
+      "emoji": "🔚",
+      "note": "Stressed. Goes to the end: steht auf. The infinitive with muss stays one word: muss aufstehen."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "untersucht": {
+      "de": "untersuchen → er untersucht",
+      "pos": "form",
+      "en": "examines",
+      "emoji": "🩺",
+      "note": "Inseparable. Stays together: untersucht den Patienten. Not sucht … unter. Participle untersucht, with no ge-. She untersucht. Formal Sie untersuchen."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (masculine accusative)",
+      "emoji": "🔵",
+      "note": "den Patienten, one man, after untersuchen. den Befund. den Arzt."
+    },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Accusative singular: den Patienten. One man. dem Patienten was the dative in chapter 51."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🧑‍⚕️",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "erklärt": {
+      "de": "erklären → sie erklärt",
+      "pos": "form",
+      "en": "explains",
+      "emoji": "💬",
+      "note": "Inseparable er-. Stays together: erklärt den Befund. Participle erklärt, with no ge-."
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding; report",
+      "emoji": "📋",
+      "article": "der",
+      "plural": "die Befunde",
+      "note": "Accusative: den Befund."
+    },
+    "verstehe": {
+      "de": "verstehen → ich verstehe",
+      "pos": "form",
+      "en": "understand",
+      "emoji": "💡",
+      "note": "Inseparable ver-. Participle verstanden, with no ge-. Perfekt: hat verstanden."
+    },
+    "bekommt": {
+      "de": "bekommen → er bekommt",
+      "pos": "form",
+      "en": "gets; receives",
+      "emoji": "💊",
+      "note": "Inseparable be-. Never kommt … be. Participle bekommen looks like the infinitive. No extra ge-."
+    },
+    "eine": { "de": "eine", "pos": "article", "en": "a (feminine)", "emoji": "🔴", "note": "eine Tablette." },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten",
+      "note": "Accusative: eine Tablette. Er nimmt die Tablette ein."
+    },
+    "ruft": {
+      "de": "anrufen → er ruft … an",
+      "pos": "form",
+      "en": "phones",
+      "emoji": "📞",
+      "note": "Separable. an is last: ruft die Station an. Not ruft an die Station. Participle angerufen."
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen"
+    },
+    "an": {
+      "de": "an",
+      "pos": "prefix",
+      "en": "separable prefix of anrufen",
+      "emoji": "🔚",
+      "note": "Stressed. Goes to the end, after the object: ruft die Station an."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "👨" },
+    "muss": {
+      "de": "müssen → er muss",
+      "pos": "modal",
+      "en": "must",
+      "emoji": "⛔",
+      "note": "The infinitive stays one word at the end: Er muss aufstehen. Not muss stehen auf."
+    },
+    "aufstehen": {
+      "de": "aufstehen",
+      "pos": "verb",
+      "en": "to get up",
+      "emoji": "🛏️",
+      "note": "Separable auf. Finite: steht … auf. With muss the infinitive stays aufstehen. Perfekt with sein: ist aufgestanden."
+    },
+    "besprechung": {
+      "de": "Besprechung",
+      "pos": "noun",
+      "en": "meeting",
+      "emoji": "🗣️",
+      "article": "die",
+      "plural": "die Besprechungen"
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is; has (with sein)",
+      "emoji": "🟦",
+      "note": "aufstehen takes sein: ist aufgestanden. Not hat aufgestanden."
+    },
+    "aufgestanden": {
+      "de": "aufgestanden",
+      "pos": "participle",
+      "en": "got up",
+      "emoji": "🛏️",
+      "note": "auf + ge + standen. With sein: ist aufgestanden. Not geaufstanden, and not hat aufgestanden."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "One meeting, two patterns",
+      "learn": [
+        "A stressed prefix splits. The finite verb stays in position 2 and the prefix goes to the end: Der Patient steht auf. Ich kaufe ein. Der Arzt ruft die Station an.",
+        "be-, er- and ver- never split, and untersuchen stays together too: Der Arzt untersucht den Patienten. Ich bestelle Pizza. Not every verb with unter- works this way.",
+        "With muss the infinitive stays one word at the end: Er muss aufstehen. A separable participle inserts ge-: ist aufgestanden. An inseparable participle has no ge-: hat untersucht.",
+        "oder does not move the verb. The title is two questions: Kaufe ich ein oder bestelle ich Pizza?"
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🤒", "glossaryKey": "patient" },
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor (male)", "emoji": "👨‍⚕️", "glossaryKey": "arzt" },
+        { "de": "Befund", "article": "der", "plural": "die Befunde", "en": "finding; report", "emoji": "📋", "image": { "type": "svg", "id": "clipboard" }, "glossaryKey": "befund" },
+        { "de": "Pizza", "article": "die", "plural": "die Pizzen", "en": "pizza", "emoji": "🍕", "glossaryKey": "pizza" },
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "image": { "type": "svg", "id": "tablet" }, "glossaryKey": "tablette" }
+      ],
+      "text": {
+        "title": "Kaufe ich ein oder bestelle ich Pizza?",
+        "de": "Kaufe ich ein oder bestelle ich Pizza? Der Patient steht heute auf. Der Arzt untersucht den Patienten. Die Pflegekraft erklärt den Befund. Ich verstehe den Arzt. Der Patient bekommt eine Tablette. Der Arzt ruft die Station an. Er muss aufstehen.",
+        "en": "Do I go shopping or do I order pizza? The patient gets up today. The doctor examines the patient. The nurse explains the report. I understand the doctor. The patient gets a tablet. The doctor phones the ward. He has to get up."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Split, or stay together",
+      "practice": "choose",
+      "heroTitle": "Kaufe ich ein oder bestelle ich Pizza?",
+      "heroImage": "bed",
+      "story": [
+        "Chapter 7 still holds for a stressed prefix. In a main clause the finite verb is in position 2 and the prefix is last. <b>Der Patient steht auf. Ich kaufe ein. Der Arzt ruft die Station an. Er nimmt die Tablette ein.</b> The infinitive is one word: aufstehen, einnehmen. A yes/no question starts with the verb: <b>Kaufe ich ein?</b>",
+        "With a modal, that infinitive stays one word at the end. <b>Er muss aufstehen.</b> Not Er muss stehen auf. The Sie-imperative from chapter 7 still splits: Stehen Sie auf.",
+        "The new point is the prefix that never splits. <b>be-, er- and ver-</b> stay on the verb: <b>Ich bestelle Pizza. Der Patient bekommt eine Tablette. Die Pflegekraft erklärt den Befund. Ich verstehe den Arzt.</b> <b>untersuchen</b> stays together too: <b>Der Arzt untersucht den Patienten.</b> One man is accusative, den Patienten. Not every verb with unter- behaves like untersuchen. This meeting only sorts untersuchen.",
+        "Participles. A separable verb keeps the prefix and inserts <b>ge-</b>: aufgestanden, eingekauft, angerufen, eingenommen. <b>aufstehen</b> takes sein, as in chapter 25: <b>Der Patient ist aufgestanden.</b> Not hat aufgestanden. einkaufen, anrufen, einnehmen, untersuchen, bestellen, erklären, verstehen and bekommen take haben. An inseparable participle has <b>no ge-</b>: untersucht, bestellt, erklärt, verstanden. bekommen looks like the infinitive, as in chapter 26.",
+        "Do not mix the neighbour verb. <b>Ich kaufe eine Pizza</b> is simple kaufen, and it is correct German. Shopping here is einkaufen, so ein is required: Ich kaufe ein. <b>Er steht im Zimmer</b> means he is standing. Getting up needs auf at the end. Chapter 47 still has two-word verbs such as spazieren gehen. They are not this pattern.",
+        "<b>oder</b> is position 0, as in chapter 40. It does not send the verb to the end. The title is two questions, so there is no comma and each verb comes first: <b>Kaufe ich ein oder bestelle ich Pizza?</b> A statement takes the comma from chapter 40, and each verb stays in position 2: Ich kaufe ein, oder ich bestelle Pizza."
+      ],
+      "questionRule": "Stressed auf, ein and an go to the end. be-, er-, ver- and untersuchen stay together. muss plus one-word infinitive. aufstehen takes ist aufgestanden.",
+      "tables": [
+        {
+          "title": "Trennt sich",
+          "caption": "Prefix last. The participle inserts ge-. Only aufstehen takes sein.",
+          "columns": ["Präsens", "Perfekt"],
+          "rows": [
+            { "label": "aufstehen", "cells": ["steht … auf", "ist aufgestanden"], "highlight": true },
+            { "label": "einkaufen", "cells": ["kaufe … ein", "hat eingekauft"], "highlight": true },
+            { "label": "anrufen", "cells": ["ruft … an", "hat angerufen"] },
+            { "label": "einnehmen", "cells": ["nimmt … ein", "hat eingenommen"] }
+          ]
+        },
+        {
+          "title": "Bleibt zusammen",
+          "caption": "be-, er-, ver- and untersuchen. The participle has no ge-.",
+          "columns": ["Präsens", "Perfekt"],
+          "rows": [
+            { "label": "untersuchen", "cells": ["untersucht", "hat untersucht"], "highlight": true },
+            { "label": "bestellen", "cells": ["bestellt", "hat bestellt"], "highlight": true },
+            { "label": "erklären", "cells": ["erklärt", "hat erklärt"] },
+            { "label": "verstehen", "cells": ["versteht", "hat verstanden"] },
+            { "label": "bekommen", "cells": ["bekommt", "hat bekommen"] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "The finite prefix does not stay stuck, and be- is not a separable prefix.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "aufstehen", "cells": ["aufsteht", "steht … auf"] },
+            { "label": "untersuchen", "cells": ["sucht … unter", "untersucht"] },
+            { "label": "bestellen", "cells": ["stellt … be", "bestellt"] },
+            { "label": "muss", "cells": ["muss stehen auf", "muss aufstehen"] },
+            { "label": "Perfekt", "cells": ["hat aufgestanden", "ist aufgestanden"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four split traps",
+        "items": [
+          { "de": "Der Patient steht auf.", "en": "auf is last.", "tone": "ok" },
+          { "de": "Der Patient aufsteht.", "en": "The finite verb does not keep auf.", "tone": "stop" },
+          { "de": "Der Arzt untersucht den Patienten.", "en": "untersuchen stays together.", "tone": "ok" },
+          { "de": "Der Arzt sucht den Patienten unter.", "en": "Not an unter-split.", "tone": "stop" },
+          { "de": "Er muss aufstehen.", "en": "The infinitive is one word.", "tone": "ok" },
+          { "de": "Er muss stehen auf.", "en": "Not stehen auf after muss.", "tone": "stop" },
+          { "de": "Der Patient ist aufgestanden.", "en": "sein, and ge- inside the prefix.", "tone": "ok" },
+          { "de": "Der Patient hat aufgestanden.", "en": "aufstehen does not take haben.", "tone": "stop" }
+        ],
+        "tip": "Prefix last when it splits. No split for bestellen, erklären, verstehen, bekommen or untersuchen. ist aufgestanden."
+      },
+      "tips": [
+        {
+          "title": "Where ge- sits",
+          "body": "Separable: auf-ge-standen, ein-ge-kauft. Inseparable: untersucht, verstanden, bekommen. No ge- in front.",
+          "mnemonic": "steht auf, but untersucht.",
+          "emoji": "✂️"
+        }
+      ],
+      "quizTitle": "Split or together?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "einkaufen, statement, ich.",
+          "qEn": "ein at the end.",
+          "options": ["Ich kaufe ein.", "Ich einkaufe.", "Ich ein kaufe."],
+          "answer": 0,
+          "why": "kaufe … ein.",
+          "hint": "ein."
+        },
+        {
+          "kind": "mc",
+          "q": "aufstehen, statement. He gets up.",
+          "qEn": "auf at the end.",
+          "options": ["Der Patient steht auf.", "Der Patient aufsteht.", "Der Patient steht aufstehen."],
+          "answer": 0,
+          "why": "steht … auf.",
+          "hint": "auf."
+        },
+        {
+          "kind": "mc",
+          "q": "untersuchen, one man.",
+          "qEn": "The verb stays together.",
+          "options": ["Der Arzt untersucht den Patienten.", "Der Arzt sucht den Patienten unter.", "Er geuntersucht den Patienten."],
+          "answer": 0,
+          "why": "untersucht den Patienten.",
+          "hint": "untersucht."
+        },
+        {
+          "kind": "mc",
+          "q": "Question. bestellen stays together.",
+          "qEn": "Verb first. No be at the end.",
+          "options": ["Bestelle ich Pizza?", "Stelle ich Pizza be?", "Bestelle ich Pizza be?"],
+          "answer": 0,
+          "why": "Bestelle ich Pizza?",
+          "hint": "Bestelle."
+        },
+        {
+          "kind": "mc",
+          "q": "With muss. aufstehen.",
+          "qEn": "One-word infinitive.",
+          "options": ["Er muss aufstehen.", "Er muss stehen auf.", "Er muss auf steht."],
+          "answer": 0,
+          "why": "muss aufstehen.",
+          "hint": "aufstehen."
+        },
+        {
+          "kind": "mc",
+          "q": "anrufen. an is last.",
+          "qEn": "The ward is in the middle.",
+          "options": ["Der Arzt ruft die Station an.", "Der Arzt ruft an die Station.", "Der Arzt anruft die Station."],
+          "answer": 0,
+          "why": "ruft die Station an.",
+          "hint": "an."
+        }
+      ]
+    },
+    {
+      "id": "gap-praesens",
+      "label": "Gap",
+      "title": "The finite line",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label says statement or question, and which verb. A question starts with the verb. ein, auf and an end the separable line. untersuchen, bestellen and aufstehen after muss stay together.",
+      "chips": [
+        { "w": "Ich kaufe ein", "hint": "ein at the end." },
+        { "w": "Der Patient steht auf", "hint": "auf at the end." },
+        { "w": "Der Arzt untersucht den Patienten", "hint": "stays together." },
+        { "w": "Bestelle ich Pizza", "hint": "question. no be." },
+        { "w": "Er muss aufstehen", "hint": "one word." },
+        { "w": "Der Patient ist aufgestanden", "hint": "sein." },
+        { "w": "Ich einkaufe", "hint": "prefix stuck." },
+        { "w": "Der Patient aufsteht", "hint": "prefix stuck." },
+        { "w": "Der Arzt sucht den Patienten unter", "hint": "not a split." },
+        { "w": "Er geuntersucht den Patienten", "hint": "no ge- there." },
+        { "w": "Stelle ich Pizza be", "hint": "be is not a prefix." },
+        { "w": "Er muss stehen auf", "hint": "not after muss." },
+        { "w": "Der Patient hat aufgestanden", "hint": "not haben." }
+      ],
+      "items": [
+        {
+          "before": "einkaufen, statement, ich:",
+          "after": ".",
+          "answer": "Ich kaufe ein",
+          "en": "I go shopping.",
+          "why": "kaufe … ein.",
+          "tip": "ein.",
+          "hint": "ein."
+        },
+        {
+          "before": "aufstehen, statement, er:",
+          "after": ".",
+          "answer": "Der Patient steht auf",
+          "en": "The patient gets up.",
+          "why": "steht … auf.",
+          "tip": "auf.",
+          "hint": "auf."
+        },
+        {
+          "before": "untersuchen, one man:",
+          "after": ".",
+          "answer": "Der Arzt untersucht den Patienten",
+          "en": "The doctor examines the patient.",
+          "why": "untersucht stays together. den Patienten.",
+          "tip": "untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "before": "bestellen, question:",
+          "after": "?",
+          "answer": "Bestelle ich Pizza",
+          "en": "Do I order pizza?",
+          "why": "Verb first. bestellen does not leave be.",
+          "tip": "Bestelle.",
+          "hint": "Bestelle."
+        },
+        {
+          "before": "muss, aufstehen:",
+          "after": ".",
+          "answer": "Er muss aufstehen",
+          "en": "He has to get up.",
+          "why": "The infinitive stays aufstehen.",
+          "tip": "aufstehen.",
+          "hint": "aufstehen."
+        },
+        {
+          "before": "aufstehen, Perfekt:",
+          "after": ".",
+          "answer": "Der Patient ist aufgestanden",
+          "en": "The patient has got up.",
+          "why": "ist aufgestanden. sein.",
+          "tip": "ist.",
+          "hint": "ist."
+        }
+      ]
+    },
+    {
+      "id": "match-verb",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which pattern?",
+      "practice": "match",
+      "instructions": "Match the sentence. Separable prefixes end the line. Inseparable verbs stay one word. A question starts with the verb.",
+      "items": [
+        {
+          "prompt": "Shopping. einkaufen, statement, ich.",
+          "options": [
+            { "emoji": "🛒", "label": "Ich kaufe ein.", "caption": "ein last." },
+            { "emoji": "🚫", "label": "Ich einkaufe.", "caption": "Not stuck." },
+            { "emoji": "🚫", "label": "Ich ein kaufe.", "caption": "Not ein kaufe." }
+          ],
+          "answer": 0,
+          "why": "kaufe … ein.",
+          "hint": "ein."
+        },
+        {
+          "prompt": "He gets up. aufstehen, statement.",
+          "options": [
+            { "emoji": "🛏️", "label": "Der Patient steht auf.", "caption": "auf last." },
+            { "emoji": "🚫", "label": "Der Patient aufsteht.", "caption": "Not aufsteht." },
+            { "emoji": "🚫", "label": "Der Patient steht aufstehen.", "caption": "Not both." }
+          ],
+          "answer": 0,
+          "why": "steht … auf.",
+          "hint": "auf."
+        },
+        {
+          "prompt": "The doctor examines one man.",
+          "options": [
+            { "emoji": "🩺", "label": "Der Arzt untersucht den Patienten.", "caption": "one word." },
+            { "emoji": "🚫", "label": "Der Arzt sucht den Patienten unter.", "caption": "Not unter." },
+            { "emoji": "🚫", "label": "Er geuntersucht den Patienten.", "caption": "No ge-." }
+          ],
+          "answer": 0,
+          "why": "untersucht den Patienten.",
+          "hint": "untersucht."
+        },
+        {
+          "prompt": "Question. bestellen, Pizza.",
+          "options": [
+            { "emoji": "🍕", "label": "Bestelle ich Pizza?", "caption": "verb first." },
+            { "emoji": "🚫", "label": "Stelle ich Pizza be?", "caption": "Not be." },
+            { "emoji": "🚫", "label": "Bestelle ich Pizza be?", "caption": "No leftover be." }
+          ],
+          "answer": 0,
+          "why": "Bestelle ich Pizza?",
+          "hint": "Bestelle."
+        },
+        {
+          "prompt": "With a modal. aufstehen.",
+          "options": [
+            { "emoji": "🛏️", "label": "Er muss aufstehen.", "caption": "one word." },
+            { "emoji": "🚫", "label": "Er muss stehen auf.", "caption": "Not stehen auf." },
+            { "emoji": "🚫", "label": "Er muss auf steht.", "caption": "Not auf steht." }
+          ],
+          "answer": 0,
+          "why": "muss aufstehen.",
+          "hint": "aufstehen."
+        },
+        {
+          "prompt": "He phones the ward. anrufen.",
+          "options": [
+            { "emoji": "📞", "label": "Der Arzt ruft die Station an.", "caption": "an last." },
+            { "emoji": "🚫", "label": "Der Arzt ruft an die Station.", "caption": "an is last." },
+            { "emoji": "🚫", "label": "Der Arzt anruft die Station.", "caption": "Not anruft." }
+          ],
+          "answer": 0,
+          "why": "ruft die Station an.",
+          "hint": "an."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed he gets up from",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster after the examination",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer on the ward",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart the nurse explains",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-verb",
+      "type": "builder",
+      "label": "Build",
+      "title": "Prefix last, or one word",
+      "practice": "build",
+      "instructions": "Build the statement. A separable prefix stays at the end. untersuchen and bestellen stay one word. A fronted time or object is also fine.",
+      "items": [
+        {
+          "tiles": ["Der", "Patient", "steht", "heute", "auf"],
+          "answers": ["Der Patient steht heute auf", "Heute steht der Patient auf"],
+          "punct": ".",
+          "modal": "steht",
+          "inf": "auf",
+          "question": false,
+          "en": "The patient gets up today.",
+          "hint": "auf at the end.",
+          "feedback": {
+            "end": "auf ends the plain line: Der Patient steht heute auf.",
+            "fallback": "steht is position 2. Der Patient steht heute auf. Or: Heute steht der Patient auf."
+          }
+        },
+        {
+          "tiles": ["Ich", "kaufe", "heute", "ein"],
+          "answers": ["Ich kaufe heute ein", "Heute kaufe ich ein"],
+          "punct": ".",
+          "modal": "kaufe",
+          "inf": "ein",
+          "question": false,
+          "en": "I go shopping today.",
+          "hint": "ein at the end.",
+          "feedback": {
+            "end": "ein ends the plain line: Ich kaufe heute ein.",
+            "fallback": "kaufe is position 2. Ich kaufe heute ein. Or: Heute kaufe ich ein."
+          }
+        },
+        {
+          "tiles": ["Der", "Arzt", "untersucht", "den", "Patienten"],
+          "answers": ["Der Arzt untersucht den Patienten", "Den Patienten untersucht der Arzt"],
+          "punct": ".",
+          "modal": "untersucht",
+          "inf": "Patienten",
+          "question": false,
+          "en": "The doctor examines one man.",
+          "hint": "untersucht stays together.",
+          "feedback": {
+            "end": "The plain line ends with Patienten: Der Arzt untersucht den Patienten.",
+            "fallback": "untersucht is position 2 and stays one word. Der Arzt untersucht den Patienten."
+          }
+        },
+        {
+          "tiles": ["Ich", "bestelle", "Pizza"],
+          "answers": ["Ich bestelle Pizza", "Pizza bestelle ich"],
+          "punct": ".",
+          "modal": "bestelle",
+          "inf": "Pizza",
+          "question": false,
+          "en": "I order pizza.",
+          "hint": "bestelle stays together.",
+          "feedback": {
+            "end": "The plain line ends with Pizza: Ich bestelle Pizza.",
+            "fallback": "bestelle is position 2. Ich bestelle Pizza. Or: Pizza bestelle ich."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-verb",
+      "label": "Rewrite",
+      "title": "One correct line",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Choose the finished line. The label names the verb and the person. du of aufstehen is stehst. She untersucht. wir bestellen.",
+      "chips": [
+        { "w": "Ich kaufe ein", "hint": "einkaufen, ich." },
+        { "w": "Du stehst auf", "hint": "aufstehen, du." },
+        { "w": "Sie untersucht den Patienten", "hint": "she. one man." },
+        { "w": "Wir bestellen Pizza", "hint": "wir." },
+        { "w": "Sie erklärt den Befund", "hint": "erklären, she." },
+        { "w": "Ich habe den Arzt verstanden", "hint": "Perfekt. no ge-." },
+        { "w": "Ich einkaufe", "hint": "prefix stuck." },
+        { "w": "Du steht auf", "hint": "du is stehst." },
+        { "w": "Du aufstehst", "hint": "prefix stuck." },
+        { "w": "Sie sucht den Patienten unter", "hint": "not a split." },
+        { "w": "Wir stellen Pizza be", "hint": "be is not a prefix." },
+        { "w": "Sie klärt den Befund er", "hint": "er- stays." },
+        { "w": "Ich habe den Arzt geverstanden", "hint": "no ge-." },
+        { "w": "Ich bin den Arzt verstanden", "hint": "not sein." }
+      ],
+      "items": [
+        {
+          "before": "einkaufen, statement, ich:",
+          "after": ".",
+          "answer": "Ich kaufe ein",
+          "en": "I go shopping.",
+          "why": "kaufe … ein.",
+          "tip": "ein.",
+          "hint": "ein."
+        },
+        {
+          "before": "aufstehen, du:",
+          "after": ".",
+          "answer": "Du stehst auf",
+          "en": "You get up.",
+          "why": "du stehst auf.",
+          "tip": "stehst.",
+          "hint": "stehst."
+        },
+        {
+          "before": "untersuchen, she, one man:",
+          "after": ".",
+          "answer": "Sie untersucht den Patienten",
+          "en": "She examines the patient.",
+          "why": "She untersucht. den Patienten.",
+          "tip": "untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "before": "bestellen, wir:",
+          "after": ".",
+          "answer": "Wir bestellen Pizza",
+          "en": "We order pizza.",
+          "why": "wir bestellen. No be at the end.",
+          "tip": "bestellen.",
+          "hint": "bestellen."
+        },
+        {
+          "before": "erklären, she:",
+          "after": ".",
+          "answer": "Sie erklärt den Befund",
+          "en": "She explains the report.",
+          "why": "erklärt stays together.",
+          "tip": "erklärt.",
+          "hint": "erklärt."
+        },
+        {
+          "before": "verstehen, Perfekt, ich:",
+          "after": ".",
+          "answer": "Ich habe den Arzt verstanden",
+          "en": "I have understood the doctor.",
+          "why": "hat verstanden. No ge-. haben.",
+          "tip": "verstanden.",
+          "hint": "verstanden."
+        }
+      ]
+    },
+    {
+      "id": "error-verb",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line sticks a prefix on, splits a verb that stays together, or uses the wrong auxiliary. Choose the correction.",
+      "items": [
+        {
+          "clues": ["Shopping.", "ein at the end.", "Ich einkaufe."],
+          "options": ["Ich kaufe ein.", "Ich einkaufe.", "Ich ein kaufe."],
+          "answer": 0,
+          "reveal": "Ich kaufe ein.",
+          "hint": "ein."
+        },
+        {
+          "clues": ["He gets up.", "auf at the end.", "Der Patient aufsteht."],
+          "options": ["Der Patient steht auf.", "Der Patient aufsteht.", "Der Patient steht aufstehen."],
+          "answer": 0,
+          "reveal": "Der Patient steht auf.",
+          "hint": "auf."
+        },
+        {
+          "clues": ["One man.", "untersuchen stays together.", "Der Arzt sucht den Patienten unter."],
+          "options": ["Der Arzt untersucht den Patienten.", "Der Arzt sucht den Patienten unter.", "Er geuntersucht den Patienten."],
+          "answer": 0,
+          "reveal": "Der Arzt untersucht den Patienten.",
+          "hint": "untersucht."
+        },
+        {
+          "clues": ["A question.", "bestellen stays together.", "Stelle ich Pizza be?"],
+          "options": ["Bestelle ich Pizza?", "Stelle ich Pizza be?", "Bestelle ich Pizza be?"],
+          "answer": 0,
+          "reveal": "Bestelle ich Pizza?",
+          "hint": "Bestelle."
+        },
+        {
+          "clues": ["With muss.", "The infinitive is one word.", "Er muss stehen auf."],
+          "options": ["Er muss aufstehen.", "Er muss stehen auf.", "Er muss auf steht."],
+          "answer": 0,
+          "reveal": "Er muss aufstehen.",
+          "hint": "aufstehen."
+        },
+        {
+          "clues": ["Perfekt of aufstehen.", "sein, not haben.", "Der Patient hat aufgestanden."],
+          "options": ["Der Patient ist aufgestanden.", "Der Patient hat aufgestanden.", "Der Patient ist geaufstanden."],
+          "answer": 0,
+          "reveal": "Der Patient ist aufgestanden.",
+          "hint": "ist."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-meeting",
+      "label": "Dialogue",
+      "title": "The team meeting",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Anna sorts the two questions. The doctor phones. The nurse gives a tablet and the patient takes it. ein and an end the separable line.",
+      "chips": [
+        { "w": "Kaufe ich ein", "hint": "question. ein last." },
+        { "w": "Bestelle ich Pizza", "hint": "question. no be." },
+        { "w": "Kaufe ich ein oder", "hint": "two questions." },
+        { "w": "Der Arzt ruft die Station an", "hint": "an last." },
+        { "w": "Der Patient bekommt eine Tablette", "hint": "stays together." },
+        { "w": "Er nimmt die Tablette ein", "hint": "ein last." },
+        { "w": "Einkaufe ich", "hint": "prefix stuck." },
+        { "w": "Stelle ich Pizza be", "hint": "be is not a prefix." },
+        { "w": "Einkaufe ich oder", "hint": "prefix stuck." },
+        { "w": "Kaufe ein ich oder", "hint": "ein is last." },
+        { "w": "Der Arzt ruft an die Station", "hint": "an is last." },
+        { "w": "Der Arzt anruft die Station", "hint": "not anruft." },
+        { "w": "Er kommt eine Tablette be", "hint": "not a split." },
+        { "w": "Er einnimmt die Tablette", "hint": "prefix stuck." },
+        { "w": "Er nimmt ein die Tablette", "hint": "ein is last." }
+      ],
+      "items": [
+        {
+          "who": "Anna",
+          "before": "einkaufen, Frage:",
+          "after": "?",
+          "answer": "Kaufe ich ein",
+          "en": "Do I go shopping?",
+          "why": "Kaufe ich ein?",
+          "tip": "ein.",
+          "hint": "ein."
+        },
+        {
+          "who": "Arzt",
+          "before": "bestellen, Frage:",
+          "after": "?",
+          "answer": "Bestelle ich Pizza",
+          "en": "Do I order pizza?",
+          "why": "Bestelle ich Pizza?",
+          "tip": "Bestelle.",
+          "hint": "Bestelle."
+        },
+        {
+          "who": "Anna",
+          "before": "Zwei Fragen:",
+          "after": "bestelle ich Pizza?",
+          "answer": "Kaufe ich ein oder",
+          "en": "Do I go shopping or do I order pizza?",
+          "why": "oder is position 0. Each question starts with the verb.",
+          "tip": "oder.",
+          "hint": "oder."
+        },
+        {
+          "who": "Arzt",
+          "before": "anrufen, Aussage:",
+          "after": ".",
+          "answer": "Der Arzt ruft die Station an",
+          "en": "The doctor phones the ward.",
+          "why": "ruft die Station an.",
+          "tip": "an.",
+          "hint": "an."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "bekommen, Aussage:",
+          "after": ".",
+          "answer": "Der Patient bekommt eine Tablette",
+          "en": "The patient gets a tablet.",
+          "why": "bekommt stays together.",
+          "tip": "bekommt.",
+          "hint": "bekommt."
+        },
+        {
+          "who": "Pflegekraft",
+          "before": "einnehmen, Aussage:",
+          "after": ".",
+          "answer": "Er nimmt die Tablette ein",
+          "en": "He takes the tablet.",
+          "why": "nimmt die Tablette ein.",
+          "tip": "ein.",
+          "hint": "ein."
+        }
+      ]
+    },
+    {
+      "id": "gap-perfekt",
+      "label": "Sentences",
+      "title": "Participle and person",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Inseparable participles have no ge-. bekommen looks like the infinitive. einkaufen takes haben and inserts ge-: eingekauft. du of aufstehen is stehst.",
+      "chips": [
+        { "w": "Er hat den Patienten untersucht", "hint": "no ge-." },
+        { "w": "Sie hat den Befund erklärt", "hint": "no ge-." },
+        { "w": "Ich habe den Arzt verstanden", "hint": "verstanden." },
+        { "w": "Er hat eine Tablette bekommen", "hint": "like the infinitive." },
+        { "w": "Du stehst auf", "hint": "du stehst." },
+        { "w": "Ich habe eingekauft", "hint": "ein-ge-kauft." },
+        { "w": "Er hat den Patienten geuntersucht", "hint": "no ge-." },
+        { "w": "Sie hat den Befund geerklärt", "hint": "no ge-." },
+        { "w": "Ich habe den Arzt geverstanden", "hint": "no ge-." },
+        { "w": "Er hat eine Tablette gebekommen", "hint": "no extra ge-." },
+        { "w": "Er ist eine Tablette bekommen", "hint": "not sein." },
+        { "w": "Du steht auf", "hint": "du is stehst." },
+        { "w": "Du aufstehst", "hint": "prefix stuck." },
+        { "w": "Ich habe geeingekauft", "hint": "ge- goes inside." },
+        { "w": "Ich bin eingekauft", "hint": "not sein." }
+      ],
+      "items": [
+        {
+          "before": "untersuchen, Perfekt, er:",
+          "after": ".",
+          "answer": "Er hat den Patienten untersucht",
+          "en": "He has examined the patient.",
+          "why": "hat untersucht. No ge-.",
+          "tip": "untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "before": "erklären, Perfekt, she:",
+          "after": ".",
+          "answer": "Sie hat den Befund erklärt",
+          "en": "She has explained the report.",
+          "why": "hat erklärt. No ge-.",
+          "tip": "erklärt.",
+          "hint": "erklärt."
+        },
+        {
+          "before": "verstehen, Perfekt, ich:",
+          "after": ".",
+          "answer": "Ich habe den Arzt verstanden",
+          "en": "I have understood the doctor.",
+          "why": "hat verstanden. haben.",
+          "tip": "verstanden.",
+          "hint": "verstanden."
+        },
+        {
+          "before": "bekommen, Perfekt, er:",
+          "after": ".",
+          "answer": "Er hat eine Tablette bekommen",
+          "en": "He has got a tablet.",
+          "why": "hat bekommen. The participle looks like the infinitive.",
+          "tip": "bekommen.",
+          "hint": "bekommen."
+        },
+        {
+          "before": "aufstehen, du:",
+          "after": ".",
+          "answer": "Du stehst auf",
+          "en": "You get up.",
+          "why": "du stehst auf.",
+          "tip": "stehst.",
+          "hint": "stehst."
+        },
+        {
+          "before": "einkaufen, Perfekt, ich:",
+          "after": ".",
+          "answer": "Ich habe eingekauft",
+          "en": "I have done the shopping.",
+          "why": "hat eingekauft. haben. ge- sits inside.",
+          "tip": "eingekauft.",
+          "hint": "eingekauft."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The meeting note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Besprechung",
+        "title": "Die Besprechung",
+        "paragraphs": [
+          "Kaufe ich ein oder bestelle ich Pizza? Der Patient steht auf. Er muss aufstehen. Der Patient ist aufgestanden.",
+          "Der Arzt untersucht den Patienten. Die Pflegekraft erklärt den Befund. Ich verstehe den Arzt. Der Patient bekommt eine Tablette. Der Arzt ruft die Station an."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Kaufe ich …",
+          "qEn": "The first question.",
+          "options": ["ein", "be", "unter"],
+          "answer": 0,
+          "why": "Kaufe ich ein?",
+          "hint": "ein."
+        },
+        {
+          "kind": "mc",
+          "q": "Der Patient …",
+          "qEn": "The Perfekt of aufstehen.",
+          "options": ["ist aufgestanden", "hat aufgestanden", "ist geaufstanden"],
+          "answer": 0,
+          "why": "Der Patient ist aufgestanden.",
+          "hint": "ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Was macht der Arzt mit dem einen Patienten?",
+          "qEn": "The verb stays together.",
+          "options": ["Er untersucht ihn.", "Er sucht ihn unter.", "Er geuntersucht ihn."],
+          "answer": 0,
+          "why": "Der Arzt untersucht den Patienten.",
+          "hint": "untersucht."
+        },
+        {
+          "kind": "mc",
+          "q": "Was bekommt der Patient?",
+          "qEn": "Not the pizza in the question.",
+          "options": ["eine Tablette", "eine Pizza", "den Befund"],
+          "answer": 0,
+          "why": "Der Patient bekommt eine Tablette.",
+          "hint": "Tablette."
+        }
+      ]
+    },
+    {
+      "id": "writing-meeting",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four meeting lines",
+      "practice": "writing",
+      "instructions": "Write four lines. Put ein and auf at the end. Leave untersuchen together. Leave the infinitive after muss as one word.",
+      "prompt": "I go shopping. The patient gets up. The doctor examines the patient. He has to get up.",
+      "bullets": ["kaufe ein", "steht auf", "untersucht den Patienten", "muss aufstehen"],
+      "model": "Ich kaufe ein. Der Patient steht auf. Der Arzt untersucht den Patienten. Er muss aufstehen.",
+      "modelEn": "I go shopping. The patient gets up. The doctor examines the patient. He has to get up.",
+      "hint": "kaufe ein. steht auf. untersucht den Patienten. muss aufstehen.",
+      "checklist": [
+        { "id": "k", "label": "kaufe ein", "keywords": ["kaufe ein"] },
+        { "id": "a", "label": "steht auf", "keywords": ["steht auf"] },
+        { "id": "u", "label": "untersucht den Patienten", "keywords": ["untersucht den patienten"] },
+        { "id": "m", "label": "muss aufstehen", "keywords": ["muss aufstehen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Kaufe ich ein oder bestelle ich Pizza?",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "auf, ein and an end the line. bestellen, erklären, verstehen, bekommen and untersuchen stay together. muss aufstehen. ist aufgestanden. No ge- on an inseparable participle. ihr steht auf.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "einkaufen, statement, ich.",
+          "qEn": "ein at the end.",
+          "options": ["Ich kaufe ein.", "Ich einkaufe.", "Ich ein kaufe."],
+          "answer": 0,
+          "why": "kaufe … ein.",
+          "hint": "ein."
+        },
+        {
+          "kind": "mc",
+          "q": "aufstehen, statement. He gets up.",
+          "qEn": "auf at the end.",
+          "options": ["Der Patient steht auf.", "Der Patient aufsteht.", "Der Patient steht aufstehen."],
+          "answer": 0,
+          "why": "steht … auf.",
+          "hint": "auf."
+        },
+        {
+          "kind": "mc",
+          "q": "untersuchen, one man.",
+          "qEn": "Stays together.",
+          "options": ["Der Arzt untersucht den Patienten.", "Der Arzt sucht den Patienten unter.", "Er geuntersucht den Patienten."],
+          "answer": 0,
+          "why": "untersucht den Patienten.",
+          "hint": "untersucht."
+        },
+        {
+          "kind": "mc",
+          "q": "Question. bestellen.",
+          "qEn": "Verb first. No be.",
+          "options": ["Bestelle ich Pizza?", "Stelle ich Pizza be?", "Bestelle ich Pizza be?"],
+          "answer": 0,
+          "why": "Bestelle ich Pizza?",
+          "hint": "Bestelle."
+        },
+        {
+          "kind": "mc",
+          "q": "With muss.",
+          "qEn": "One-word infinitive.",
+          "options": ["Er muss aufstehen.", "Er muss stehen auf.", "Er muss auf steht."],
+          "answer": 0,
+          "why": "muss aufstehen.",
+          "hint": "aufstehen."
+        },
+        {
+          "kind": "mc",
+          "q": "anrufen. an is last.",
+          "qEn": "The ward is in the middle.",
+          "options": ["Der Arzt ruft die Station an.", "Der Arzt ruft an die Station.", "Der Arzt anruft die Station."],
+          "answer": 0,
+          "why": "ruft die Station an.",
+          "hint": "an."
+        },
+        {
+          "kind": "mc",
+          "q": "Perfekt. aufstehen.",
+          "qEn": "sein.",
+          "options": ["Der Patient ist aufgestanden.", "Der Patient hat aufgestanden.", "Der Patient ist geaufstanden."],
+          "answer": 0,
+          "why": "ist aufgestanden.",
+          "hint": "ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Perfekt. untersuchen, one man.",
+          "qEn": "No ge-.",
+          "options": ["Er hat den Patienten untersucht.", "Er hat den Patienten geuntersucht.", "Er hat den Patienten untersuchen."],
+          "answer": 0,
+          "why": "hat untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "kind": "mc",
+          "q": "Perfekt. bekommen.",
+          "qEn": "The participle looks like the infinitive.",
+          "options": ["Er hat eine Tablette bekommen.", "Er hat eine Tablette gebekommen.", "Er ist eine Tablette bekommen."],
+          "answer": 0,
+          "why": "hat bekommen.",
+          "hint": "bekommen."
+        },
+        {
+          "kind": "mc",
+          "q": "erklären, she, statement.",
+          "qEn": "er- stays.",
+          "options": ["Sie erklärt den Befund.", "Sie klärt den Befund er.", "Sie geerklärt den Befund."],
+          "answer": 0,
+          "why": "erklärt den Befund.",
+          "hint": "erklärt."
+        },
+        {
+          "kind": "mc",
+          "q": "Perfekt. verstehen, ich.",
+          "qEn": "No ge-. haben.",
+          "options": ["Ich habe den Arzt verstanden.", "Ich habe den Arzt geverstanden.", "Ich bin den Arzt verstanden."],
+          "answer": 0,
+          "why": "hat verstanden.",
+          "hint": "verstanden."
+        },
+        {
+          "kind": "mc",
+          "q": "aufstehen, ihr.",
+          "qEn": "ihr steht. Not stehen.",
+          "options": ["Ihr steht auf.", "Ihr stehen auf.", "Ihr aufsteht."],
+          "answer": 0,
+          "why": "ihr steht auf.",
+          "hint": "steht."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Kaufe ich ein oder bestelle ich Pizza?",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Kaufe ich ein oder bestelle ich Pizza?", "en": "Do I go shopping or do I order pizza?" },
+        { "de": "Der Patient steht auf.", "en": "The patient gets up." },
+        { "de": "Der Arzt untersucht den Patienten.", "en": "The doctor examines the patient." },
+        { "de": "Er muss aufstehen.", "en": "He has to get up." }
+      ],
+      "messages": [
+        "auf, ein and an go to the end. be-, er-, ver- and untersuchen stay together.",
+        "muss aufstehen. ist aufgestanden. hat untersucht. hat eingekauft. hat bekommen.",
+        "Sehr gut. Kaufe ich ein oder bestelle ich Pizza?",
+        "Ausgezeichnet. You can split aufstehen and keep untersuchen in one word."
+      ]
+    }
+  ]
+}
