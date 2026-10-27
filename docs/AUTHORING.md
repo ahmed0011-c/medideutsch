@@ -6,7 +6,7 @@ The course map in `content/curriculum.ts` lists all 80 chapters of the grammar s
 - A2: 21, 22, 25–29, 34–38, 40–44, 46
 - B1: 39, 49–80
 
-Played in this repo: 1, 2, 3, 4, 5–6 (one lesson), 7, 8, 9, 10, 11, 12, 13, 14, 15, 16–17 (one lesson), 18, 19, 20, 23, 24, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40, 45, 47, 48. The whole A1 path is playable. Everything else is a “coming soon” card. The card already has the grammar topic and a one-line ward situation. Use that situation; do not paste textbook exercises.
+Played in this repo: 1, 2, 3, 4, 5–6 (one lesson), 7, 8, 9, 10, 11, 12, 13, 14, 15, 16–17 (one lesson), 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40, 45, 47, 48. The whole A1 path is playable. A2 starts at chapters 21, 22 and 25–29; chapters 41–44 and 46 are still coming soon, and so is every B1 card. The card already has the grammar topic and a one-line ward situation. Use that situation; do not paste textbook exercises.
 
 ## Checklist for the next chapter
 

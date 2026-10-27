@@ -1,0 +1,964 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "a2-22-dativverben",
+  "level": "A2",
+  "unit": "Kapitel 22",
+  "chapter": 22,
+  "chapters": [22],
+  "title": "Ich helfe dir, du dankst mir",
+  "subtitle": "helfen, danken and gehören take the person in the dative",
+  "glossary": {
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten"
+    },
+    "wem": { "de": "wem", "pos": "pronoun", "en": "to whom (dative)", "emoji": "🏥" },
+    "helfe": { "de": "helfe", "pos": "form", "en": "help (ich)", "emoji": "🏥" },
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🏥" },
+    "dem": { "de": "dem", "pos": "article", "en": "the (dative masculine or neuter)", "emoji": "🏥" },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male). Patienten is the dative singular and the plural.",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "One man: dem Patienten. Several people: den Patienten."
+    },
+    "du": { "de": "du", "pos": "pronoun", "en": "you (informal singular)", "emoji": "🏥" },
+    "hilfst": { "de": "hilfst", "pos": "form", "en": "help (du). The vowel changes: hilfst, not helfst.", "emoji": "🏥" },
+    "mir": { "de": "mir", "pos": "pronoun", "en": "me (dative). Not mich.", "emoji": "🏥" },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🏥" },
+    "pflegekraft": { "de": "Pflegekraft", "pos": "noun", "en": "nurse", "emoji": "🏥", "article": "die", "plural": "die Pflegekräfte" },
+    "dankt": { "de": "dankt", "pos": "form", "en": "thanks (er/sie/es or ihr)", "emoji": "🏥" },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine); also feminine dative", "emoji": "🏥" },
+    "patientin": { "de": "Patientin", "pos": "noun", "en": "patient (female)", "emoji": "🏥", "article": "die", "plural": "die Patientinnen" },
+    "befund": { "de": "Befund", "pos": "noun", "en": "finding, report", "emoji": "🏥", "article": "der", "plural": "die Befunde" },
+    "gehört": { "de": "gehört", "pos": "form", "en": "belongs (er/sie/es or ihr). Present of gehören.", "emoji": "🏥" },
+    "hausarzt": { "de": "Hausarzt", "pos": "noun", "en": "GP, family doctor", "emoji": "🏥", "article": "der", "plural": "die Hausärzte" },
+    "person": { "de": "Person", "pos": "noun", "en": "person", "emoji": "🏥", "article": "die", "plural": "die Personen" },
+    "steht": { "de": "steht", "pos": "form", "en": "stands; here: belongs to a case", "emoji": "🏥" },
+    "im": { "de": "im", "pos": "contraction", "en": "in the", "emoji": "🏥" },
+    "dativ": { "de": "Dativ", "pos": "noun", "en": "dative", "emoji": "🏥", "article": "der" },
+    "verben": { "de": "Verb", "pos": "noun", "en": "verb", "emoji": "🏥", "article": "das", "plural": "die Verben" },
+    "heißen": { "de": "heißen", "pos": "verb", "en": "to be called", "emoji": "🏥" },
+    "helfen": { "de": "helfen", "pos": "verb", "en": "to help. The person is dative.", "emoji": "🏥", "note": "du hilfst, er hilft. No accusative thing." },
+    "danken": { "de": "danken", "pos": "verb", "en": "to thank. The person is dative.", "emoji": "🏥", "note": "Ich danke dir, not dich." },
+    "und": { "de": "und", "pos": "conjunction", "en": "and", "emoji": "🏥" },
+    "gehören": { "de": "gehören", "pos": "pattern", "en": "to belong to. The owner is dative. The thing is the subject.", "emoji": "🏥" },
+    "hilfe": { "de": "Hilfe", "pos": "noun", "en": "help", "emoji": "🏥", "article": "die" },
+    "in": { "de": "in", "pos": "preposition", "en": "in", "emoji": "🏥" },
+    "nacht": { "de": "Nacht", "pos": "noun", "en": "night", "emoji": "🏥", "article": "die", "plural": "die Nächte" },
+    "tablette": { "de": "Tablette", "pos": "noun", "en": "tablet", "emoji": "🏥", "article": "die", "plural": "die Tabletten" },
+    "hilft": { "de": "hilft", "pos": "form", "en": "helps (er/sie/es). The vowel changes.", "emoji": "🏥" },
+    "kind": { "de": "Kind", "pos": "noun", "en": "child", "emoji": "🏥", "article": "das", "plural": "die Kinder" },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🏥" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Help, thanks, and what belongs to whom",
+      "learn": [
+        "helfen, danken and gehören take the person in the dative: Wem?",
+        "There is no accusative thing. Ich helfe dem Patienten, not den Patienten.",
+        "With gehören the thing is the subject. Die Tablette gehört dem Patienten."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🧑🏽", "glossaryKey": "patient" },
+        { "de": "Patientin", "article": "die", "plural": "die Patientinnen", "en": "patient (female)", "emoji": "👩🏽", "glossaryKey": "patientin" },
+        { "de": "Pflegekraft", "article": "die", "plural": "die Pflegekräfte", "en": "nurse", "emoji": "🩺", "glossaryKey": "pflegekraft" },
+        { "de": "Hausarzt", "article": "der", "plural": "die Hausärzte", "en": "GP", "emoji": "👨‍⚕️", "glossaryKey": "hausarzt" },
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tablette" },
+        { "de": "Befund", "article": "der", "plural": "die Befunde", "en": "finding, report", "emoji": "📄", "glossaryKey": "befund" }
+      ],
+      "text": {
+        "title": "Wem helfe ich?",
+        "de": "Ich helfe dem Patienten. Du hilfst mir. Die Pflegekraft dankt der Patientin. Der Befund gehört dem Hausarzt. Die Person steht im Dativ. Die Verben heißen helfen, danken und gehören.",
+        "en": "I help the patient. You help me. The nurse thanks the female patient. The report belongs to the GP. The person is in the dative. The verbs are called helfen, danken and gehören."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Only the person",
+      "practice": "choose",
+      "heroTitle": "helfen, danken, gehören",
+      "heroImage": "hands",
+      "story": [
+        "<b>helfen, danken</b> and <b>gehören</b> take one object. That object is a person, and the person is dative. Ask <b>Wem?</b>",
+        "<b>Ich helfe dem Patienten. Du hilfst mir.</b> The vowel changes: <b>du hilfst</b>, <b>er hilft</b>. Not helfst.",
+        "<b>Ich danke der Patientin.</b> Feminine dative is <b>der</b>, not die. The pronoun is <b>dir</b>, not dich.",
+        "<b>Die Tablette gehört dem Patienten.</b> The tablet is the subject. The owner is dative. <b>gehört</b> here is the present of gehören.",
+        "Last chapter, <b>geben</b> had a thing as well. These three verbs do not."
+      ],
+      "questionRule": "Wem? for the person. No accusative thing. Feminine dative is der. du hilfst, not du helfst. dir and mir, not dich and mich.",
+      "tables": [
+        {
+          "title": "Dativ der Person",
+          "caption": "The person you help, thank, or the owner. Feminine dative is der. One man: dem Patienten.",
+          "columns": ["Maskulin", "Neutrum", "Feminin", "Plural"],
+          "rows": [
+            {
+              "label": "bestimmt",
+              "cells": ["dem Patienten", "dem Kind", "der Patientin", "den Patienten"],
+              "highlight": true
+            },
+            {
+              "label": "mein",
+              "cells": ["meinem Sohn", "meinem Kind", "meiner Kollegin", "meinen Kindern"]
+            }
+          ]
+        },
+        {
+          "title": "Dativpronomen",
+          "caption": "mir and dir are dative. mich and dich are accusative, so they do not fit these verbs. Ihnen is formal.",
+          "columns": ["Wem?"],
+          "rows": [
+            { "label": "ich", "cells": ["mir"] },
+            { "label": "du", "cells": ["dir"] },
+            { "label": "er / es", "cells": ["ihm"] },
+            { "label": "sie (she)", "cells": ["ihr"] },
+            { "label": "wir", "cells": ["uns"] },
+            { "label": "ihr (you all)", "cells": ["euch"] },
+            { "label": "sie (they)", "cells": ["ihnen"] },
+            { "label": "Sie", "cells": ["Ihnen"], "highlight": true }
+          ]
+        },
+        {
+          "title": "Präsens",
+          "caption": "du hilfst and er hilft change the vowel. danken and gehören do not. ihr helft, ihr dankt, ihr gehört.",
+          "columns": ["ich", "du", "er/sie/es", "wir"],
+          "rows": [
+            { "label": "helfen", "cells": ["helfe", "hilfst", "hilft", "helfen"], "highlight": true },
+            { "label": "danken", "cells": ["danke", "dankst", "dankt", "danken"] },
+            { "label": "gehören", "cells": ["gehöre", "gehörst", "gehört", "gehören"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Dative, not accusative",
+        "items": [
+          { "de": "Ich helfe dem Patienten.", "en": "One male patient: dem.", "tone": "ok" },
+          { "de": "Ich helfe den Patienten.", "en": "den is not the dative singular. One man needs dem.", "tone": "stop" },
+          { "de": "Die Pflegekraft dankt der Patientin.", "en": "Feminine dative stays der.", "tone": "ok" },
+          { "de": "Die Pflegekraft dankt die Patientin.", "en": "die is not the dative.", "tone": "stop" },
+          { "de": "Ich danke dir.", "en": "dir is dative.", "tone": "ok" },
+          { "de": "Ich danke dich.", "en": "dich is accusative. danken does not take it.", "tone": "stop" }
+        ],
+        "tip": "Ask Wem? If the answer is die Patientin, the article in the sentence is der."
+      },
+      "quizTitle": "Recognise the dative person",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "In „Ich helfe dem Patienten“: what is dem Patienten?",
+          "qEn": "The person is dative.",
+          "options": ["The person, dative (Wem?)", "The thing, accusative (Was?)", "The subject (Wer?)"],
+          "answer": 0,
+          "why": "helfen takes the person in the dative.",
+          "hint": "Wem?"
+        },
+        {
+          "kind": "mc",
+          "q": "Which sentence helps one male patient?",
+          "qEn": "dem Patienten, not den Patienten.",
+          "options": ["Ich helfe dem Patienten.", "Ich helfe den Patienten.", "Ich helfe der Patienten."],
+          "answer": 0,
+          "why": "One man takes dem.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse thanks the female patient. Which form is the feminine dative?",
+          "qEn": "Feminine dative is der.",
+          "options": ["der Patientin", "die Patientin", "dem Patientin"],
+          "answer": 0,
+          "why": "Feminine dative is der.",
+          "hint": "der, not die."
+        },
+        {
+          "kind": "mc",
+          "q": "Du ___ dem Patienten. Which form of helfen?",
+          "qEn": "du hilfst, with an i.",
+          "options": ["hilfst", "helfst", "hilft"],
+          "answer": 0,
+          "why": "du hilfst. The vowel changes.",
+          "hint": "hilfst."
+        },
+        {
+          "kind": "mc",
+          "q": "Die Tablette gehört … One male patient owns it. Which phrase is the owner?",
+          "qEn": "The owner is dative.",
+          "options": ["dem Patienten", "den Patienten", "der Patient"],
+          "answer": 0,
+          "why": "The owner is dem Patienten. The tablet is the subject.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Which question asks for the person you help?",
+          "qEn": "Wem asks for the dative person.",
+          "options": ["Wem hilfst du?", "Was hilfst du?", "Wer ist die Tablette?"],
+          "answer": 0,
+          "why": "Wem asks for the dative person.",
+          "hint": "Wem."
+        }
+      ]
+    },
+    {
+      "id": "gap-objects",
+      "label": "Gap",
+      "title": "Put the person in",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Use the label. Only one phrase fits.",
+      "chips": [
+        { "w": "dem Patienten", "hint": "One man: dem Patienten." },
+        { "w": "der Patientin", "hint": "Feminine dative: der Patientin." },
+        { "w": "mir", "hint": "Dative of ich: mir, not mich." },
+        { "w": "dir", "hint": "Dative of du: dir, not dich." },
+        { "w": "dem Hausarzt", "hint": "The owner: dem Hausarzt." },
+        { "w": "meinem Sohn", "hint": "Possessive dative: meinem." }
+      ],
+      "items": [
+        {
+          "before": "Wem, der Patient, ein Mann: Ich helfe",
+          "after": ".",
+          "answer": "dem Patienten",
+          "en": "I help the patient.",
+          "why": "One man: dem Patienten.",
+          "tip": "One man: dem Patienten.",
+          "hint": "One man: dem Patienten."
+        },
+        {
+          "before": "Wem, die Patientin: Die Pflegekraft dankt",
+          "after": ".",
+          "answer": "der Patientin",
+          "en": "The nurse thanks the female patient.",
+          "why": "Feminine dative: der Patientin.",
+          "tip": "Feminine dative: der Patientin.",
+          "hint": "Feminine dative: der Patientin."
+        },
+        {
+          "before": "Wem, ich: Du hilfst",
+          "after": ".",
+          "answer": "mir",
+          "en": "You help me.",
+          "why": "Dative of ich is mir.",
+          "tip": "mir, not mich.",
+          "hint": "mir, not mich."
+        },
+        {
+          "before": "Wem, du: Ich danke",
+          "after": ".",
+          "answer": "dir",
+          "en": "I thank you.",
+          "why": "Dative of du is dir.",
+          "tip": "dir, not dich.",
+          "hint": "dir, not dich."
+        },
+        {
+          "before": "Wem, der Hausarzt, der Besitzer: Der Befund gehört",
+          "after": ".",
+          "answer": "dem Hausarzt",
+          "en": "The report belongs to the GP.",
+          "why": "The owner is dative: dem Hausarzt.",
+          "tip": "dem Hausarzt.",
+          "hint": "dem Hausarzt."
+        },
+        {
+          "before": "Wem, mein Sohn: Ich helfe",
+          "after": ".",
+          "answer": "meinem Sohn",
+          "en": "I help my son.",
+          "why": "Possessive dative masculine: meinem.",
+          "tip": "meinem Sohn.",
+          "hint": "meinem Sohn."
+        }
+      ]
+    },
+    {
+      "id": "match-objects",
+      "type": "compare",
+      "label": "Match",
+      "title": "Wem?",
+      "practice": "match",
+      "instructions": "Choose the dative person. Accusative pronouns do not fit.",
+      "items": [
+        {
+          "prompt": "Ich helfe dem Patienten. Wem? One man.",
+          "options": [
+            { "emoji": "✅", "label": "dem Patienten", "caption": "Dative singular." },
+            { "emoji": "↩️", "label": "den Patienten", "caption": "Not the dative singular." }
+          ],
+          "answer": 0,
+          "why": "One man: dem Patienten.",
+          "hint": "dem Patienten"
+        },
+        {
+          "prompt": "Die Pflegekraft dankt der Patientin. Wem?",
+          "options": [
+            { "emoji": "✅", "label": "der Patientin", "caption": "Feminine dative." },
+            { "emoji": "↩️", "label": "die Patientin", "caption": "die is not dative." }
+          ],
+          "answer": 0,
+          "why": "Feminine dative is der.",
+          "hint": "der Patientin"
+        },
+        {
+          "prompt": "Du hilfst mir. Wem?",
+          "options": [
+            { "emoji": "✅", "label": "mir", "caption": "Dative of ich." },
+            { "emoji": "↩️", "label": "mich", "caption": "mich is accusative." }
+          ],
+          "answer": 0,
+          "why": "mir, not mich.",
+          "hint": "mir"
+        },
+        {
+          "prompt": "Ich danke dir. Wem?",
+          "options": [
+            { "emoji": "✅", "label": "dir", "caption": "Dative of du." },
+            { "emoji": "↩️", "label": "dich", "caption": "dich is accusative." }
+          ],
+          "answer": 0,
+          "why": "dir, not dich.",
+          "hint": "dir"
+        },
+        {
+          "prompt": "Der Befund gehört dem Hausarzt. Wem?",
+          "options": [
+            { "emoji": "✅", "label": "dem Hausarzt", "caption": "The owner is dative." },
+            { "emoji": "↩️", "label": "den Hausarzt", "caption": "den is accusative." }
+          ],
+          "answer": 0,
+          "why": "The GP owns it: dem Hausarzt.",
+          "hint": "dem Hausarzt"
+        },
+        {
+          "prompt": "Die Tablette gehört dem Patienten. Wem?",
+          "options": [
+            { "emoji": "✅", "label": "dem Patienten", "caption": "The owner." },
+            { "emoji": "↩️", "label": "die Tablette", "caption": "That is the subject, not Wem." }
+          ],
+          "answer": 0,
+          "why": "The tablet is the subject. The owner is dem Patienten.",
+          "hint": "dem Patienten"
+        }
+      ]
+    },
+    {
+      "id": "picture-objects",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "What belongs to someone",
+      "practice": "picture",
+      "instructions": "These things belong to someone: a tablet, a chart, a plaster, a syringe.",
+      "items": [
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "the tablet that belongs to the patient",
+          "image": { "type": "svg", "id": "tablet" },
+          "hint": "die"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart that belongs to the patient",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster that belongs to the patient",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "spritze",
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "the syringe that belongs to the ward",
+          "image": { "type": "svg", "id": "syringe" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-objects",
+      "type": "builder",
+      "label": "Build",
+      "title": "Person in the dative",
+      "practice": "build",
+      "instructions": "Build the sentence. The person is dative. There is no accusative thing.",
+      "items": [
+        {
+          "tiles": ["Ich", "helfe", "dem", "Patienten"],
+          "answers": ["Ich helfe dem Patienten"],
+          "punct": ".",
+          "modal": "helfe",
+          "inf": "Patienten",
+          "question": false,
+          "en": "I help the patient.",
+          "hint": "dem Patienten.",
+          "feedback": { "end": "The person comes last: Patienten.", "fallback": "dem Patienten." }
+        },
+        {
+          "tiles": ["Die", "Pflegekraft", "dankt", "der", "Patientin"],
+          "answers": ["Die Pflegekraft dankt der Patientin"],
+          "punct": ".",
+          "modal": "dankt",
+          "inf": "Patientin",
+          "question": false,
+          "en": "The nurse thanks the female patient.",
+          "hint": "der Patientin is dative.",
+          "feedback": { "end": "The person comes last: Patientin.", "fallback": "der Patientin is dative." }
+        },
+        {
+          "tiles": ["Der", "Befund", "gehört", "dem", "Hausarzt"],
+          "answers": ["Der Befund gehört dem Hausarzt"],
+          "punct": ".",
+          "modal": "gehört",
+          "inf": "Hausarzt",
+          "question": false,
+          "en": "The report belongs to the GP.",
+          "hint": "The owner is dem Hausarzt.",
+          "feedback": { "end": "The owner comes last: Hausarzt.", "fallback": "The owner is dem Hausarzt." }
+        },
+        {
+          "tiles": ["Du", "hilfst", "mir"],
+          "answers": ["Du hilfst mir"],
+          "punct": ".",
+          "modal": "hilfst",
+          "inf": "mir",
+          "question": false,
+          "en": "You help me.",
+          "hint": "hilfst, then mir.",
+          "feedback": { "end": "The person comes last: mir.", "fallback": "hilfst, then mir." }
+        }
+      ]
+    },
+    {
+      "id": "transform-objects",
+      "label": "Rewrite",
+      "title": "Replace the pronoun",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The pronoun is dative. Write the person as a noun in the dative.",
+      "chips": [
+        { "w": "Ich helfe dem Patienten", "hint": "dem Patienten." },
+        { "w": "Die Pflegekraft dankt der Patientin", "hint": "der Patientin." },
+        { "w": "Ich helfe meinem Sohn", "hint": "meinem Sohn." },
+        { "w": "Der Befund gehört dem Hausarzt", "hint": "dem Hausarzt." },
+        { "w": "Die Akte gehört der Station", "hint": "der Station is feminine dative." },
+        { "w": "Der Patient dankt dem Arzt", "hint": "dem Arzt." }
+      ],
+      "items": [
+        {
+          "before": "Der Patient, er: Ich helfe ihm. →",
+          "after": ".",
+          "answer": "Ich helfe dem Patienten",
+          "en": "I help the patient.",
+          "why": "ihm becomes dem Patienten.",
+          "tip": "dem Patienten.",
+          "hint": "dem Patienten."
+        },
+        {
+          "before": "Die Patientin, sie: Die Pflegekraft dankt ihr. →",
+          "after": ".",
+          "answer": "Die Pflegekraft dankt der Patientin",
+          "en": "The nurse thanks the female patient.",
+          "why": "ihr becomes der Patientin.",
+          "tip": "der Patientin.",
+          "hint": "der Patientin."
+        },
+        {
+          "before": "Mein Sohn, er: Ich helfe ihm. →",
+          "after": ".",
+          "answer": "Ich helfe meinem Sohn",
+          "en": "I help my son.",
+          "why": "Mein Sohn in the dative is meinem Sohn.",
+          "tip": "meinem Sohn.",
+          "hint": "meinem Sohn."
+        },
+        {
+          "before": "Der Hausarzt, er: Der Befund gehört ihm. →",
+          "after": ".",
+          "answer": "Der Befund gehört dem Hausarzt",
+          "en": "The report belongs to the GP.",
+          "why": "The owner is dem Hausarzt.",
+          "tip": "dem Hausarzt.",
+          "hint": "dem Hausarzt."
+        },
+        {
+          "before": "Die Station, sie: Die Akte gehört ihr. →",
+          "after": ".",
+          "answer": "Die Akte gehört der Station",
+          "en": "The chart belongs to the ward.",
+          "why": "Station is feminine, so the dative is der Station.",
+          "tip": "der Station.",
+          "hint": "der Station."
+        },
+        {
+          "before": "Der Arzt, er: Der Patient dankt ihm. →",
+          "after": ".",
+          "answer": "Der Patient dankt dem Arzt",
+          "en": "The patient thanks the doctor.",
+          "why": "ihm becomes dem Arzt.",
+          "tip": "dem Arzt.",
+          "hint": "dem Arzt."
+        }
+      ]
+    },
+    {
+      "id": "error-objects",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is wrong. Choose the corrected sentence.",
+      "items": [
+        {
+          "clues": ["One male patient. The person is dative.", "den is not the dative singular.", "Ich helfe den Patienten."],
+          "options": ["Ich helfe dem Patienten.", "Ich helfe den Patienten.", "Ich helfe der Patienten."],
+          "answer": 0,
+          "reveal": "Ich helfe dem Patienten.",
+          "hint": "dem, not den, for one man."
+        },
+        {
+          "clues": ["The person is dative. Feminine dative is der.", "die is not the dative.", "Die Pflegekraft dankt die Patientin."],
+          "options": ["Die Pflegekraft dankt der Patientin.", "Die Pflegekraft dankt die Patientin.", "Die Pflegekraft dankt dem Patientin."],
+          "answer": 0,
+          "reveal": "Die Pflegekraft dankt der Patientin.",
+          "hint": "Feminine dative is der."
+        },
+        {
+          "clues": ["helfen changes its vowel for du.", "Not helfst.", "Du helfst mir."],
+          "options": ["Du hilfst mir.", "Du helfst mir.", "Du hilft mir."],
+          "answer": 0,
+          "reveal": "Du hilfst mir.",
+          "hint": "du hilfst."
+        },
+        {
+          "clues": ["danken takes the dative pronoun.", "dich is accusative.", "Ich danke dich."],
+          "options": ["Ich danke dir.", "Ich danke dich.", "Ich danke du."],
+          "answer": 0,
+          "reveal": "Ich danke dir.",
+          "hint": "dir, not dich."
+        },
+        {
+          "clues": ["The owner is dative. Hausarzt adds no -en.", "den is accusative.", "Der Befund gehört den Hausarzt."],
+          "options": ["Der Befund gehört dem Hausarzt.", "Der Befund gehört den Hausarzt.", "Der Befund gehört der Hausarzt."],
+          "answer": 0,
+          "reveal": "Der Befund gehört dem Hausarzt.",
+          "hint": "dem Hausarzt."
+        },
+        {
+          "clues": ["One male patient adds -en in the dative.", "Not dem Patient.", "Die Tablette gehört dem Patient."],
+          "options": ["Die Tablette gehört dem Patienten.", "Die Tablette gehört dem Patient.", "Die Tablette gehört den Patient."],
+          "answer": 0,
+          "reveal": "Die Tablette gehört dem Patienten.",
+          "hint": "dem Patienten."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-objects",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Complete what each person says.",
+      "chips": [
+        { "w": "dem Patienten", "hint": "dem Patienten." },
+        { "w": "dir", "hint": "dir." },
+        { "w": "der Patientin", "hint": "der Patientin." },
+        { "w": "mir", "hint": "mir." },
+        { "w": "dem Hausarzt", "hint": "dem Hausarzt." },
+        { "w": "ihr", "hint": "ihr, dative of sie." }
+      ],
+      "items": [
+        {
+          "before": "Pflegekraft, Wem, der Patient: Ich helfe",
+          "after": ".",
+          "answer": "dem Patienten",
+          "en": "I help the patient.",
+          "why": "dem Patienten.",
+          "tip": "dem Patienten.",
+          "hint": "dem Patienten.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Patient, Wem, du: Ich danke",
+          "after": ".",
+          "answer": "dir",
+          "en": "I thank you.",
+          "why": "dir.",
+          "tip": "dir.",
+          "hint": "dir.",
+          "who": "Patient"
+        },
+        {
+          "before": "Arzt, Wem, die Patientin: Ich helfe",
+          "after": ".",
+          "answer": "der Patientin",
+          "en": "I help the female patient.",
+          "why": "der Patientin.",
+          "tip": "der Patientin.",
+          "hint": "der Patientin.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Patient, Wem, ich: Du hilfst",
+          "after": ".",
+          "answer": "mir",
+          "en": "You help me.",
+          "why": "mir.",
+          "tip": "mir.",
+          "hint": "mir.",
+          "who": "Patient"
+        },
+        {
+          "before": "Arzt, Wem, der Hausarzt: Der Befund gehört",
+          "after": ".",
+          "answer": "dem Hausarzt",
+          "en": "The report belongs to the GP.",
+          "why": "dem Hausarzt.",
+          "tip": "dem Hausarzt.",
+          "hint": "dem Hausarzt.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Pflegekraft, Wem, sie, die Patientin: Die Akte gehört",
+          "after": ".",
+          "answer": "ihr",
+          "en": "The chart belongs to her.",
+          "why": "ihr is the dative of sie.",
+          "tip": "ihr.",
+          "hint": "ihr.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-objects",
+      "label": "More gaps",
+      "title": "Plural, possessive, pronouns",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names who receives the help, the thanks, or the thing.",
+      "chips": [
+        { "w": "den Patienten", "hint": "Dative plural: den Patienten." },
+        { "w": "meiner Kollegin", "hint": "Feminine possessive dative: meiner." },
+        { "w": "ihm", "hint": "Dative of er: ihm." },
+        { "w": "ihnen", "hint": "Dative of sie (they): ihnen." },
+        { "w": "Ihnen", "hint": "Formal dative: Ihnen." },
+        { "w": "euch", "hint": "Dative of ihr (you all): euch." }
+      ],
+      "items": [
+        {
+          "before": "Wem, mehrere Patienten, Plural: Wir helfen",
+          "after": ".",
+          "answer": "den Patienten",
+          "en": "We help the patients.",
+          "why": "Dative plural: den Patienten.",
+          "tip": "Dative plural: den Patienten.",
+          "hint": "Dative plural: den Patienten."
+        },
+        {
+          "before": "Wem, meine Kollegin: Ich danke",
+          "after": ".",
+          "answer": "meiner Kollegin",
+          "en": "I thank my colleague.",
+          "why": "Feminine possessive dative: meiner.",
+          "tip": "meiner Kollegin.",
+          "hint": "meiner Kollegin."
+        },
+        {
+          "before": "Wem, er, der Arzt: Der Patient dankt",
+          "after": ".",
+          "answer": "ihm",
+          "en": "The patient thanks him.",
+          "why": "Dative of er is ihm.",
+          "tip": "ihm.",
+          "hint": "ihm."
+        },
+        {
+          "before": "Wem, sie, die Ärzte, Plural: Der Patient dankt",
+          "after": ".",
+          "answer": "ihnen",
+          "en": "The patient thanks them.",
+          "why": "Dative of sie (they) is ihnen.",
+          "tip": "ihnen, lowercase.",
+          "hint": "ihnen, lowercase."
+        },
+        {
+          "before": "Wem, Sie, höflich: Ich danke",
+          "after": ".",
+          "answer": "Ihnen",
+          "en": "I thank you (formal).",
+          "why": "Formal dative is Ihnen.",
+          "tip": "Ihnen, with a capital.",
+          "hint": "Ihnen, with a capital."
+        },
+        {
+          "before": "Wem, ihr, mehrere Personen: Ich danke",
+          "after": ".",
+          "answer": "euch",
+          "en": "I thank you all.",
+          "why": "Dative of ihr (you all) is euch.",
+          "tip": "euch.",
+          "hint": "euch."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Night shift",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer Wem?",
+      "document": {
+        "letterhead": "Station 4 · Nacht",
+        "title": "Hilfe in der Nacht",
+        "paragraphs": [
+          "Ich helfe dem Patienten. Du hilfst mir. Die Pflegekraft dankt der Patientin.",
+          "Der Befund gehört dem Hausarzt. Die Tablette gehört dem Patienten. Die Pflegekraft hilft dem Kind."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wem helfe ich?",
+          "qEn": "dem Patienten.",
+          "options": ["dem Patienten", "der Tablette", "den Arzt"],
+          "answer": 0,
+          "why": "dem Patienten.",
+          "hint": "Wem."
+        },
+        {
+          "kind": "mc",
+          "q": "Wem dankt die Pflegekraft?",
+          "qEn": "der Patientin.",
+          "options": ["der Patientin", "die Patientin", "dem Patientin"],
+          "answer": 0,
+          "why": "der Patientin.",
+          "hint": "Wem."
+        },
+        {
+          "kind": "mc",
+          "q": "Wem gehört der Befund?",
+          "qEn": "dem Hausarzt.",
+          "options": ["dem Hausarzt", "den Befund", "der Station"],
+          "answer": 0,
+          "why": "dem Hausarzt.",
+          "hint": "Wem."
+        },
+        {
+          "kind": "mc",
+          "q": "Wem hilft die Pflegekraft?",
+          "qEn": "dem Kind.",
+          "options": ["dem Kind", "das Kind", "den Kind"],
+          "answer": 0,
+          "why": "dem Kind. Neuter dative is dem.",
+          "hint": "dem Kind."
+        }
+      ]
+    },
+    {
+      "id": "writing-objects",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Write four dative sentences",
+      "practice": "writing",
+      "instructions": "Write four sentences. The person is dative. No accusative thing.",
+      "prompt": "I help the patient. You help me. The nurse thanks the female patient. The report belongs to the GP.",
+      "bullets": ["dem Patienten", "mir", "der Patientin", "dem Hausarzt"],
+      "model": "Ich helfe dem Patienten. Du hilfst mir. Die Pflegekraft dankt der Patientin. Der Befund gehört dem Hausarzt.",
+      "modelEn": "I help the patient. You help me. The nurse thanks the female patient. The report belongs to the GP.",
+      "hint": "dem or der for the person. mir for me. du hilfst.",
+      "checklist": [
+        { "id": "p", "label": "dem Patienten", "keywords": ["dem Patienten"] },
+        { "id": "m", "label": "mir", "keywords": ["mir"] },
+        { "id": "f", "label": "der Patientin", "keywords": ["der Patientin"] },
+        { "id": "h", "label": "dem Hausarzt", "keywords": ["dem Hausarzt"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Wem?",
+      "heroImage": "stethoscope",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Wem for the person. No accusative thing with helfen, danken or gehören.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Wem, in „Ich helfe dem Patienten“?",
+          "qEn": "The person.",
+          "options": ["dem Patienten", "die Tablette", "ich"],
+          "answer": 0,
+          "why": "The person is dem Patienten.",
+          "hint": "dem Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "Which sentence helps one male patient?",
+          "qEn": "dem.",
+          "options": ["Ich helfe dem Patienten.", "Ich helfe den Patienten.", "Ich helfe der Patienten."],
+          "answer": 0,
+          "why": "One man: dem Patienten.",
+          "hint": "dem Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "Feminine dative of die Patientin?",
+          "qEn": "der.",
+          "options": ["der Patientin", "die Patientin", "dem Patientin"],
+          "answer": 0,
+          "why": "Feminine dative is der.",
+          "hint": "der Patientin."
+        },
+        {
+          "kind": "mc",
+          "q": "du + helfen?",
+          "qEn": "The vowel changes.",
+          "options": ["hilfst", "helfst", "hilft"],
+          "answer": 0,
+          "why": "du hilfst.",
+          "hint": "hilfst."
+        },
+        {
+          "kind": "mc",
+          "q": "Ich danke you, informal. Which pronoun?",
+          "qEn": "dir, not dich.",
+          "options": ["dir", "dich", "du"],
+          "answer": 0,
+          "why": "dir is dative.",
+          "hint": "dir."
+        },
+        {
+          "kind": "mc",
+          "q": "Du hilfst me. Which pronoun?",
+          "qEn": "mir, not mich.",
+          "options": ["mir", "mich", "ich"],
+          "answer": 0,
+          "why": "mir is dative.",
+          "hint": "mir."
+        },
+        {
+          "kind": "mc",
+          "q": "The GP owns the report. Der Befund gehört …",
+          "qEn": "dem Hausarzt.",
+          "options": ["dem Hausarzt", "den Hausarzt", "der Hausarzt"],
+          "answer": 0,
+          "why": "The owner is dative.",
+          "hint": "dem Hausarzt."
+        },
+        {
+          "kind": "mc",
+          "q": "Which question asks for the person?",
+          "qEn": "Wem.",
+          "options": ["Wem?", "Was?", "Wo?"],
+          "answer": 0,
+          "why": "Wem asks for the dative.",
+          "hint": "Wem."
+        },
+        {
+          "kind": "mc",
+          "q": "What is the subject in „Die Tablette gehört dem Patienten“?",
+          "qEn": "The thing is the subject.",
+          "options": ["Die Tablette", "dem Patienten", "der Arzt"],
+          "answer": 0,
+          "why": "Die Tablette is nominative. dem Patienten is the owner.",
+          "hint": "Die Tablette."
+        },
+        {
+          "kind": "mc",
+          "q": "Several patients, dative. Wir helfen …",
+          "qEn": "Dative plural.",
+          "options": ["den Patienten", "dem Patienten", "die Patienten"],
+          "answer": 0,
+          "why": "Dative plural is den Patienten.",
+          "hint": "den Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "Formal thank you. Ich danke …",
+          "qEn": "Ihnen.",
+          "options": ["Ihnen", "dich", "Sie"],
+          "answer": 0,
+          "why": "Formal dative is Ihnen.",
+          "hint": "Ihnen."
+        },
+        {
+          "kind": "mc",
+          "q": "Which sentence has a dative person and an accusative thing? That pattern was the last chapter.",
+          "qEn": "geben has two objects. helfen and gehören do not.",
+          "options": ["Ich gebe dem Patienten die Tablette.", "Ich helfe dem Patienten.", "Der Befund gehört dem Hausarzt."],
+          "answer": 0,
+          "why": "geben takes a person and a thing. helfen and gehören do not.",
+          "hint": "geben."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Wem? Only the person",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Ich helfe dem Patienten.", "en": "I help the patient." },
+        { "de": "Du hilfst mir.", "en": "You help me." },
+        { "de": "Die Pflegekraft dankt der Patientin.", "en": "The nurse thanks the female patient." },
+        { "de": "Der Befund gehört dem Hausarzt.", "en": "The report belongs to the GP." }
+      ],
+      "rules": [
+        { "c": "D", "rule": "The person: Wem? dem Patienten, der Patientin, mir, dir, Ihnen." },
+        { "c": "N", "rule": "With gehören the thing is the subject: Die Tablette gehört dem Patienten." }
+      ],
+      "messages": [
+        "Look again at Wem. mir and dir, not mich and dich.",
+        "The person is dative. Check du hilfst and der Patientin.",
+        "Sehr gut. helfen, danken, gehören.",
+        "Ausgezeichnet. You can help, thank, and say what belongs to whom."
+      ]
+    }
+  ]
+}

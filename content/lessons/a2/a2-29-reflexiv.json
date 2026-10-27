@@ -1,0 +1,955 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "a2-29-reflexiv",
+  "level": "A2",
+  "unit": "Kapitel 29",
+  "chapter": 29,
+  "chapters": [29],
+  "title": "Sie wäscht sich",
+  "subtitle": "Reflexive verbs in daily care",
+  "glossary": {
+    "sie": { "de": "sie", "pos": "pronoun", "en": "she. Sie wäscht = she. Formal you and they use waschen: Sie waschen sich.", "emoji": "🏥" },
+    "wäscht": { "de": "wäscht", "pos": "form", "en": "washes. waschen → sie wäscht. du wäschst.", "emoji": "🏥" },
+    "sich": { "de": "sich", "pos": "pronoun", "en": "himself, herself, themselves, yourself (formal). Accusative and dative look the same.", "emoji": "🏥" },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🏥" },
+    "patientin": { "de": "Patientin", "pos": "noun", "en": "patient (female)", "emoji": "🏥", "article": "die", "plural": "die Patientinnen" },
+    "hände": {
+      "de": "Hand",
+      "pos": "noun",
+      "en": "hand. Hände is the plural.",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Hände",
+      "note": "Accusative plural: die Hände."
+    },
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🏥" },
+    "wasche": { "de": "wasche", "pos": "form", "en": "wash (ich). Ich wasche mich. With the hands: Ich wasche mir die Hände.", "emoji": "🏥" },
+    "mir": { "de": "mir", "pos": "pronoun", "en": "to me (dative). Ich wasche mir die Hände.", "emoji": "🏥" },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🏥" },
+    "patient": { "de": "Patient", "pos": "noun", "en": "patient (male)", "emoji": "🏥", "article": "der", "plural": "die Patienten" },
+    "ruht": { "de": "ruht", "pos": "form", "en": "rests. ausruhen → er ruht sich aus.", "emoji": "🏥" },
+    "aus": { "de": "aus", "pos": "prefix", "en": "separable prefix of ausruhen. It goes to the end.", "emoji": "🏥" },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "zieht": { "de": "zieht", "pos": "form", "en": "dresses; puts on. anziehen → er zieht sich an.", "emoji": "🏥" },
+    "an": { "de": "an", "pos": "prefix", "en": "separable prefix of anziehen. It goes to the end.", "emoji": "🏥" },
+    "fühle": { "de": "fühle", "pos": "form", "en": "feel (ich). Ich fühle mich besser. Accusative, not mir.", "emoji": "🏥" },
+    "mich": { "de": "mich", "pos": "pronoun", "en": "me (accusative). Ich wasche mich. Ich fühle mich besser.", "emoji": "🏥" },
+    "besser": { "de": "besser", "pos": "adverb", "en": "better", "emoji": "🏥" },
+    "pflege": { "de": "Pflege", "pos": "noun", "en": "care, nursing", "emoji": "🏥", "article": "die" },
+    "am": { "de": "am", "pos": "contraction", "en": "in the; on the. am Morgen = in the morning.", "emoji": "🏥" },
+    "morgen": { "de": "Morgen", "pos": "noun", "en": "morning", "emoji": "🏥", "article": "der", "plural": "die Morgen" },
+    "und": { "de": "und", "pos": "conjunction", "en": "and. The same subject is not repeated.", "emoji": "🏥" },
+    "pflegekraft": { "de": "Pflegekraft", "pos": "noun", "en": "nurse", "emoji": "🏥", "article": "die", "plural": "die Pflegekräfte" },
+    "den": { "de": "den", "pos": "article", "en": "the (accusative masculine)", "emoji": "🏥" },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male). Patienten is accusative singular here.",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Accusative singular: den Patienten."
+    },
+    "fühlt": { "de": "fühlt", "pos": "form", "en": "feels. er fühlt sich besser.", "emoji": "🏥" },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🏥" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Daily care with sich",
+      "learn": [
+        "When the subject and the object are the same person, use a reflexive pronoun. Die Patientin wäscht sich. Accusative: mich, dich, sich, uns, euch, sich.",
+        "A body part is accusative, so the person is dative. Ich wasche mir die Hände. Sie wäscht sich die Hände. sich does not change.",
+        "ausruhen and anziehen are separable. The pronoun follows the verb, and the prefix goes last: ruht sich aus, zieht sich an.",
+        "sich fühlen takes the accusative: Ich fühle mich besser. Not mir. The nurse dresses him with no sich: zieht den Patienten an."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patientin", "article": "die", "plural": "die Patientinnen", "en": "patient (female)", "emoji": "👩🏽", "glossaryKey": "patientin" },
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🧑🏽", "glossaryKey": "patient" },
+        { "de": "Hände", "article": "die", "plural": "die Hände", "en": "hands", "emoji": "🤲", "glossaryKey": "hände" },
+        { "de": "Pflegekraft", "article": "die", "plural": "die Pflegekräfte", "en": "nurse", "emoji": "🩺", "glossaryKey": "pflegekraft" },
+        { "de": "Pflege", "article": "die", "en": "care", "emoji": "🏥", "glossaryKey": "pflege" },
+        { "de": "Morgen", "article": "der", "plural": "die Morgen", "en": "morning", "emoji": "🌅", "glossaryKey": "morgen" }
+      ],
+      "text": {
+        "title": "Sie wäscht sich",
+        "de": "Die Patientin wäscht sich. Sie wäscht sich die Hände. Ich wasche mir die Hände. Der Patient ruht sich aus. Er zieht sich an. Ich fühle mich besser.",
+        "en": "The female patient washes herself. She washes her hands. I wash my hands. The male patient rests. He gets dressed. I feel better."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "mich or mir",
+      "practice": "choose",
+      "heroTitle": "wäscht sich, wasche mir",
+      "heroImage": "hands",
+      "story": [
+        "<b>Sich</b> points back to the subject. Accusative: ich <b>mich</b>, du <b>dich</b>, er/sie <b>sich</b>, wir <b>uns</b>, ihr <b>euch</b>, sie/Sie <b>sich</b>. Die Patientin wäscht sich.",
+        "waschen changes the vowel for du and sie: ich wasche, du <b>wäschst</b>, sie <b>wäscht</b>, ihr wascht. She is <b>wäscht</b>. Formal you and they are <b>waschen</b>: Sie waschen sich.",
+        "A body part is the accusative thing, as in chapter 21, so the person is dative: mir, dir, sich, uns, euch, sich. <b>Ich wasche mir die Hände. Sie wäscht sich die Hände.</b> Not mich die Hände.",
+        "The nurse washing his hands is the same pattern, with a noun: <b>Die Pflegekraft wäscht dem Patienten die Hände.</b> Dressing the whole person is accusative and not reflexive: <b>Die Pflegekraft zieht den Patienten an.</b>",
+        "Separable verbs park the prefix at the end. <b>Der Patient ruht sich aus. Er zieht sich an.</b> sich anziehen means he dresses himself. A named piece of clothing can be the accusative instead: Sie ziehen den Kittel an.",
+        "<b>Sich fühlen</b> takes the accusative. <b>Ich fühle mich besser.</b> Not mir. In the Perfekt, haben is the auxiliary and sich stands before the participle: Sie hat sich gewaschen. Er hat sich ausgeruht. Ich habe mir die Hände gewaschen."
+      ],
+      "questionRule": "Whole person or sich fühlen: accusative. Body part: dative plus die Hände. Prefix at the end. She wäscht, Sie waschen.",
+      "tables": [
+        {
+          "title": "mich oder mir",
+          "caption": "Body part: dative column. Whole person, and sich fühlen: accusative column.",
+          "columns": ["Person", "Akkusativ", "Dativ"],
+          "rows": [
+            { "label": "ich", "cells": ["ich", "mich", "mir"], "highlight": true },
+            { "label": "du", "cells": ["du", "dich", "dir"], "highlight": true },
+            { "label": "er / sie", "cells": ["er / sie", "sich", "sich"] },
+            { "label": "wir", "cells": ["wir", "uns", "uns"] },
+            { "label": "ihr", "cells": ["ihr", "euch", "euch"] },
+            { "label": "sie / Sie", "cells": ["sie / Sie", "sich", "sich"] }
+          ]
+        },
+        {
+          "title": "waschen, ausruhen, anziehen",
+          "caption": "sich follows the verb. aus and an go to the end.",
+          "columns": ["Infinitiv", "Satz"],
+          "rows": [
+            { "label": "waschen", "cells": ["waschen", "Die Patientin wäscht sich."], "highlight": true },
+            { "label": "Hände", "cells": ["sich die Hände waschen", "Ich wasche mir die Hände."], "highlight": true },
+            { "label": "ausruhen", "cells": ["sich ausruhen", "Der Patient ruht sich aus."] },
+            { "label": "anziehen", "cells": ["sich anziehen", "Er zieht sich an."] },
+            { "label": "fühlen", "cells": ["sich fühlen", "Ich fühle mich besser."] },
+            { "label": "Pflegekraft", "cells": ["jemanden anziehen", "Die Pflegekraft zieht den Patienten an."] }
+          ]
+        },
+        {
+          "title": "Perfekt mit haben",
+          "caption": "sich stands before the participle. ausruhen and anziehen keep the prefix inside it.",
+          "columns": ["Infinitiv", "Perfekt"],
+          "rows": [
+            { "label": "waschen", "cells": ["waschen", "Sie hat sich gewaschen."] },
+            { "label": "Hände", "cells": ["die Hände waschen", "Ich habe mir die Hände gewaschen."], "highlight": true },
+            { "label": "ausruhen", "cells": ["ausruhen", "Er hat sich ausgeruht."], "highlight": true },
+            { "label": "anziehen", "cells": ["anziehen", "Er hat sich angezogen."] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four care traps",
+        "items": [
+          { "de": "Die Patientin wäscht sich.", "en": "She washes herself: sich.", "tone": "ok" },
+          { "de": "Die Patientin wäscht mich.", "en": "mich would mean she washes me.", "tone": "stop" },
+          { "de": "Ich wasche mir die Hände.", "en": "The hands are accusative, so mir.", "tone": "ok" },
+          { "de": "Ich wasche mich die Hände.", "en": "Not the accusative with a body part.", "tone": "stop" },
+          { "de": "Der Patient ruht sich aus.", "en": "sich before aus.", "tone": "ok" },
+          { "de": "Der Patient ruht aus sich.", "en": "aus does not come before sich.", "tone": "stop" },
+          { "de": "Ich fühle mich besser.", "en": "sich fühlen takes the accusative.", "tone": "ok" },
+          { "de": "Ich fühle mir besser.", "en": "Not mir.", "tone": "stop" }
+        ],
+        "tip": "No body part and no second noun: accusative. die Hände in the sentence: dative. Prefix last."
+      },
+      "quizTitle": "Which pronoun and which order?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "waschen, sie (she), whole person → ?",
+          "qEn": "Accusative.",
+          "options": ["wäscht sich", "wäscht mich", "waschen sich"],
+          "answer": 0,
+          "why": "wäscht sich.",
+          "hint": "sich."
+        },
+        {
+          "kind": "mc",
+          "q": "Hände, ich → ?",
+          "qEn": "Dative plus the hands.",
+          "options": ["wasche mir die Hände", "wasche mich die Hände", "wasche dir die Hände"],
+          "answer": 0,
+          "why": "mir die Hände.",
+          "hint": "mir."
+        },
+        {
+          "kind": "mc",
+          "q": "ausruhen, er → ?",
+          "qEn": "Prefix last.",
+          "options": ["ruht sich aus", "ruht aus sich", "ruht sich an"],
+          "answer": 0,
+          "why": "ruht sich aus.",
+          "hint": "sich aus."
+        },
+        {
+          "kind": "mc",
+          "q": "anziehen, er, himself → ?",
+          "qEn": "Reflexive.",
+          "options": ["zieht sich an", "zieht den Patienten an", "zieht an sich"],
+          "answer": 0,
+          "why": "zieht sich an.",
+          "hint": "sich an."
+        },
+        {
+          "kind": "mc",
+          "q": "fühlen, ich → ?",
+          "qEn": "Accusative.",
+          "options": ["fühle mich besser", "fühle mir besser", "fühlt sich besser"],
+          "answer": 0,
+          "why": "fühle mich besser.",
+          "hint": "mich."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse dresses him. → ?",
+          "qEn": "No sich. Accusative person.",
+          "options": ["zieht den Patienten an", "zieht sich den Patienten an", "zieht dem Patienten an"],
+          "answer": 0,
+          "why": "den Patienten.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "gap-reflexiv",
+      "label": "Gap",
+      "title": "mich, mir, or den",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the verb and the person. A body part needs the dative.",
+      "chips": [
+        { "w": "sich", "hint": "sie wäscht sich." },
+        { "w": "mir", "hint": "ich, die Hände." },
+        { "w": "mich", "hint": "ich fühle mich." },
+        { "w": "dich", "hint": "du, accusative." },
+        { "w": "dir", "hint": "du, die Hände." },
+        { "w": "den", "hint": "den Patienten." }
+      ],
+      "items": [
+        {
+          "before": "waschen, sie: Die Patientin wäscht",
+          "after": ".",
+          "answer": "sich",
+          "en": "The female patient washes herself.",
+          "why": "sich.",
+          "tip": "sich, not mich.",
+          "hint": "sich."
+        },
+        {
+          "before": "Hände, ich: Ich wasche",
+          "after": "die Hände.",
+          "answer": "mir",
+          "en": "I wash my hands.",
+          "why": "mir. The hands are accusative.",
+          "tip": "mir, not mich.",
+          "hint": "mir."
+        },
+        {
+          "before": "fühlen, ich: Ich fühle",
+          "after": "besser.",
+          "answer": "mich",
+          "en": "I feel better.",
+          "why": "mich.",
+          "tip": "mich, not mir.",
+          "hint": "mich."
+        },
+        {
+          "before": "waschen, du: Du wäschst",
+          "after": ".",
+          "answer": "dich",
+          "en": "You wash yourself.",
+          "why": "dich.",
+          "tip": "dich.",
+          "hint": "dich."
+        },
+        {
+          "before": "Hände, du: Du wäschst",
+          "after": "die Hände.",
+          "answer": "dir",
+          "en": "You wash your hands.",
+          "why": "dir die Hände.",
+          "tip": "dir, not dich.",
+          "hint": "dir."
+        },
+        {
+          "before": "anziehen, Pflegekraft: Die Pflegekraft zieht",
+          "after": "Patienten an.",
+          "answer": "den",
+          "en": "The nurse dresses the male patient.",
+          "why": "den Patienten. No sich.",
+          "tip": "den.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "match-reflexiv",
+      "type": "compare",
+      "label": "Match",
+      "title": "Pronoun or word order",
+      "practice": "match",
+      "instructions": "Choose the real care sentence. The other form uses the wrong case or the wrong order.",
+      "items": [
+        {
+          "prompt": "Whole person, ich. Which pronoun?",
+          "options": [
+            { "emoji": "✅", "label": "mich", "caption": "Accusative." },
+            { "emoji": "↩️", "label": "mir", "caption": "That is the dative." }
+          ],
+          "answer": 0,
+          "why": "mich.",
+          "hint": "mich"
+        },
+        {
+          "prompt": "Hände, ich. Which pronoun?",
+          "options": [
+            { "emoji": "✅", "label": "mir", "caption": "Dative, the hands are accusative." },
+            { "emoji": "↩️", "label": "mich", "caption": "Not with die Hände." }
+          ],
+          "answer": 0,
+          "why": "mir.",
+          "hint": "mir"
+        },
+        {
+          "prompt": "ausruhen, er. Which order?",
+          "options": [
+            { "emoji": "✅", "label": "ruht sich aus", "caption": "aus goes last." },
+            { "emoji": "↩️", "label": "ruht aus sich", "caption": "Not this order." }
+          ],
+          "answer": 0,
+          "why": "ruht sich aus.",
+          "hint": "sich aus"
+        },
+        {
+          "prompt": "anziehen, he dresses himself. Which sentence?",
+          "options": [
+            { "emoji": "✅", "label": "zieht sich an", "caption": "Reflexive." },
+            { "emoji": "↩️", "label": "zieht den Patienten an", "caption": "That is the nurse dressing him." }
+          ],
+          "answer": 0,
+          "why": "zieht sich an.",
+          "hint": "sich an"
+        },
+        {
+          "prompt": "fühlen, ich. Which pronoun?",
+          "options": [
+            { "emoji": "✅", "label": "mich", "caption": "sich fühlen is accusative." },
+            { "emoji": "↩️", "label": "mir", "caption": "Not the dative." }
+          ],
+          "answer": 0,
+          "why": "mich.",
+          "hint": "mich"
+        },
+        {
+          "prompt": "waschen, she. Which verb?",
+          "options": [
+            { "emoji": "✅", "label": "wäscht sich", "caption": "sie wäscht." },
+            { "emoji": "↩️", "label": "waschen sich", "caption": "That is they or formal Sie." }
+          ],
+          "answer": 0,
+          "why": "wäscht sich.",
+          "hint": "wäscht"
+        }
+      ]
+    },
+    {
+      "id": "picture-care",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "Morning care",
+      "practice": "picture",
+      "instructions": "Hands, a hospital bed, a chart, a thermometer.",
+      "items": [
+        {
+          "id": "haende",
+          "de": "Hände",
+          "article": "die",
+          "plural": "die Hände",
+          "en": "the hands she washes",
+          "image": { "type": "svg", "id": "hands" },
+          "hint": "die"
+        },
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed where he rests",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart for morning care",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer from the round",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        }
+      ]
+    },
+    {
+      "id": "build-reflexiv",
+      "type": "builder",
+      "label": "Build",
+      "title": "Pronoun after the verb",
+      "practice": "build",
+      "instructions": "Build the sentence. sich or mir follows the verb. aus and an go last.",
+      "items": [
+        {
+          "tiles": ["Die", "Patientin", "wäscht", "sich"],
+          "answers": ["Die Patientin wäscht sich"],
+          "punct": ".",
+          "modal": "wäscht",
+          "inf": "sich",
+          "question": false,
+          "en": "The female patient washes herself.",
+          "hint": "sich last.",
+          "feedback": { "end": "sich follows the verb: Die Patientin wäscht sich.", "fallback": "wäscht sich." }
+        },
+        {
+          "tiles": ["Ich", "wasche", "mir", "die", "Hände"],
+          "answers": ["Ich wasche mir die Hände"],
+          "punct": ".",
+          "modal": "wasche",
+          "inf": "Hände",
+          "question": false,
+          "en": "I wash my hands.",
+          "hint": "die Hände last.",
+          "feedback": { "end": "die Hände comes last.", "fallback": "wasche mir die Hände." }
+        },
+        {
+          "tiles": ["Der", "Patient", "ruht", "sich", "aus"],
+          "answers": ["Der Patient ruht sich aus"],
+          "punct": ".",
+          "modal": "ruht",
+          "inf": "aus",
+          "question": false,
+          "en": "The male patient rests.",
+          "hint": "aus last.",
+          "feedback": { "end": "aus goes to the end: ruht sich aus.", "fallback": "ruht sich aus." }
+        },
+        {
+          "tiles": ["Er", "zieht", "sich", "an"],
+          "answers": ["Er zieht sich an"],
+          "punct": ".",
+          "modal": "zieht",
+          "inf": "an",
+          "question": false,
+          "en": "He gets dressed.",
+          "hint": "an last.",
+          "feedback": { "end": "an goes to the end: zieht sich an.", "fallback": "zieht sich an." }
+        }
+      ]
+    },
+    {
+      "id": "transform-reflexiv",
+      "label": "Rewrite",
+      "title": "Infinitive to the sentence",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the present. Put the pronoun after the verb and a prefix at the end.",
+      "chips": [
+        { "w": "Die Patientin wäscht sich", "hint": "waschen, sie." },
+        { "w": "Ich wasche mir die Hände", "hint": "Hände, ich." },
+        { "w": "Der Patient ruht sich aus", "hint": "ausruhen." },
+        { "w": "Er zieht sich an", "hint": "himself." },
+        { "w": "Ich fühle mich besser", "hint": "fühlen." },
+        { "w": "Die Pflegekraft zieht den Patienten an", "hint": "no sich." }
+      ],
+      "items": [
+        {
+          "before": "waschen, sie:",
+          "after": ".",
+          "answer": "Die Patientin wäscht sich",
+          "en": "The female patient washes herself.",
+          "why": "wäscht sich.",
+          "tip": "sich.",
+          "hint": "sich."
+        },
+        {
+          "before": "Hände, ich:",
+          "after": ".",
+          "answer": "Ich wasche mir die Hände",
+          "en": "I wash my hands.",
+          "why": "mir die Hände.",
+          "tip": "mir.",
+          "hint": "mir."
+        },
+        {
+          "before": "ausruhen, er:",
+          "after": ".",
+          "answer": "Der Patient ruht sich aus",
+          "en": "The male patient rests.",
+          "why": "ruht sich aus.",
+          "tip": "sich aus.",
+          "hint": "aus."
+        },
+        {
+          "before": "anziehen, er, himself:",
+          "after": ".",
+          "answer": "Er zieht sich an",
+          "en": "He gets dressed.",
+          "why": "zieht sich an.",
+          "tip": "sich an.",
+          "hint": "an."
+        },
+        {
+          "before": "fühlen, ich:",
+          "after": ".",
+          "answer": "Ich fühle mich besser",
+          "en": "I feel better.",
+          "why": "mich.",
+          "tip": "mich.",
+          "hint": "mich."
+        },
+        {
+          "before": "anziehen, Pflegekraft, him:",
+          "after": ".",
+          "answer": "Die Pflegekraft zieht den Patienten an",
+          "en": "The nurse dresses the male patient.",
+          "why": "den Patienten. No sich.",
+          "tip": "den.",
+          "hint": "den."
+        }
+      ]
+    },
+    {
+      "id": "error-reflexiv",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line uses the wrong pronoun or the wrong order. Choose the correction.",
+      "items": [
+        {
+          "clues": ["She washes herself.", "Accusative sich.", "Die Patientin wäscht mich."],
+          "options": ["Die Patientin wäscht sich.", "Die Patientin wäscht mich.", "Die Patientin wäscht mir."],
+          "answer": 0,
+          "reveal": "Die Patientin wäscht sich.",
+          "hint": "sich."
+        },
+        {
+          "clues": ["The hands are the thing.", "ich needs the dative.", "Ich wasche mich die Hände."],
+          "options": ["Ich wasche mir die Hände.", "Ich wasche mich die Hände.", "Ich wasche dir die Hände."],
+          "answer": 0,
+          "reveal": "Ich wasche mir die Hände.",
+          "hint": "mir."
+        },
+        {
+          "clues": ["ausruhen is separable.", "sich comes before aus.", "Der Patient ruht aus sich."],
+          "options": ["Der Patient ruht sich aus.", "Der Patient ruht aus sich.", "Der Patient ruht sich."],
+          "answer": 0,
+          "reveal": "Der Patient ruht sich aus.",
+          "hint": "sich aus."
+        },
+        {
+          "clues": ["He dresses himself.", "an goes last.", "Er zieht an sich."],
+          "options": ["Er zieht sich an.", "Er zieht an sich.", "Er zieht den Patienten an."],
+          "answer": 0,
+          "reveal": "Er zieht sich an.",
+          "hint": "sich an."
+        },
+        {
+          "clues": ["sich fühlen is accusative.", "Not mir.", "Ich fühle mir besser."],
+          "options": ["Ich fühle mich besser.", "Ich fühle mir besser.", "Ich fühle sich besser."],
+          "answer": 0,
+          "reveal": "Ich fühle mich besser.",
+          "hint": "mich."
+        },
+        {
+          "clues": ["The nurse washes his hands.", "The patient is dative.", "Die Pflegekraft wäscht den Patienten die Hände."],
+          "options": ["Die Pflegekraft wäscht dem Patienten die Hände.", "Die Pflegekraft wäscht den Patienten die Hände.", "Die Pflegekraft wäscht sich die Hände."],
+          "answer": 0,
+          "reveal": "Die Pflegekraft wäscht dem Patienten die Hände.",
+          "hint": "dem."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-reflexiv",
+      "label": "Dialogue",
+      "title": "At the bathroom door",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The label names the verb and the person. Add the reflexive pronoun or den.",
+      "chips": [
+        { "w": "mich", "hint": "ich, accusative." },
+        { "w": "mir", "hint": "ich, die Hände." },
+        { "w": "dich", "hint": "du, accusative." },
+        { "w": "dir", "hint": "du, die Hände." },
+        { "w": "sich", "hint": "er." },
+        { "w": "den", "hint": "den Patienten." }
+      ],
+      "items": [
+        {
+          "before": "Patientin, waschen: Ich wasche",
+          "after": ".",
+          "answer": "mich",
+          "en": "I wash myself.",
+          "why": "mich.",
+          "tip": "mich.",
+          "hint": "mich.",
+          "who": "Patientin"
+        },
+        {
+          "before": "Patientin, Hände: Ich wasche",
+          "after": "die Hände.",
+          "answer": "mir",
+          "en": "I wash my hands.",
+          "why": "mir.",
+          "tip": "mir.",
+          "hint": "mir.",
+          "who": "Patientin"
+        },
+        {
+          "before": "Pflegekraft, ausruhen: Du ruhst",
+          "after": "aus.",
+          "answer": "dich",
+          "en": "You rest.",
+          "why": "dich.",
+          "tip": "dich.",
+          "hint": "dich.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Pflegekraft, Hände: Du wäschst",
+          "after": "die Hände.",
+          "answer": "dir",
+          "en": "You wash your hands.",
+          "why": "dir.",
+          "tip": "dir.",
+          "hint": "dir.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Pflegekraft, fühlen: Er fühlt",
+          "after": "besser.",
+          "answer": "sich",
+          "en": "He feels better.",
+          "why": "sich.",
+          "tip": "sich.",
+          "hint": "sich.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Pflegekraft, anziehen: Ich ziehe",
+          "after": "Patienten an.",
+          "answer": "den",
+          "en": "I dress the male patient.",
+          "why": "den Patienten.",
+          "tip": "den.",
+          "hint": "den.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-personen",
+      "label": "Persons",
+      "title": "wir, ihr, Sie, and the Perfekt",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Plural and formal Sie share sich. In the Perfekt the pronoun stands before the participle.",
+      "chips": [
+        { "w": "uns", "hint": "wir." },
+        { "w": "euch", "hint": "ihr." },
+        { "w": "sich", "hint": "sie or Sie." },
+        { "w": "mich", "hint": "ich, accusative." },
+        { "w": "mir", "hint": "ich, die Hände." },
+        { "w": "dich", "hint": "du." }
+      ],
+      "items": [
+        {
+          "before": "ausruhen, wir: Wir ruhen",
+          "after": "aus.",
+          "answer": "uns",
+          "en": "We rest.",
+          "why": "uns.",
+          "tip": "uns.",
+          "hint": "uns."
+        },
+        {
+          "before": "anziehen, ihr: Ihr zieht",
+          "after": "an.",
+          "answer": "euch",
+          "en": "You (plural) get dressed.",
+          "why": "euch.",
+          "tip": "euch.",
+          "hint": "euch."
+        },
+        {
+          "before": "waschen, sie, Plural: Sie waschen",
+          "after": ".",
+          "answer": "sich",
+          "en": "They wash themselves. Formal Sie uses the same form.",
+          "why": "sich. The verb is waschen, not wäscht.",
+          "tip": "sich.",
+          "hint": "sich."
+        },
+        {
+          "before": "Perfekt, ich: Ich habe",
+          "after": "gewaschen.",
+          "answer": "mich",
+          "en": "I washed myself.",
+          "why": "habe mich gewaschen.",
+          "tip": "mich.",
+          "hint": "mich."
+        },
+        {
+          "before": "Perfekt, Hände, ich: Ich habe",
+          "after": "die Hände gewaschen.",
+          "answer": "mir",
+          "en": "I washed my hands.",
+          "why": "habe mir die Hände gewaschen.",
+          "tip": "mir.",
+          "hint": "mir."
+        },
+        {
+          "before": "Perfekt, fühlen, du: Du hast",
+          "after": "besser gefühlt.",
+          "answer": "dich",
+          "en": "You felt better.",
+          "why": "hast dich besser gefühlt.",
+          "tip": "dich.",
+          "hint": "dich."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Morning care",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Morgen",
+        "title": "Die Pflege am Morgen",
+        "paragraphs": [
+          "Die Patientin wäscht sich die Hände. Der Patient ruht sich aus.",
+          "Die Pflegekraft zieht den Patienten an. Er fühlt sich besser."
+        ],
+        "signature": "Anna",
+        "stamp": "Pflege"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Was wäscht die Patientin?",
+          "qEn": "die Hände.",
+          "options": ["die Hände", "den Patienten", "das Bett"],
+          "answer": 0,
+          "why": "die Hände.",
+          "hint": "Hände."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer ruht sich aus?",
+          "qEn": "Der Patient.",
+          "options": ["Der Patient", "Die Patientin", "Die Pflegekraft"],
+          "answer": 0,
+          "why": "Der Patient.",
+          "hint": "ruht."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer zieht den Patienten an?",
+          "qEn": "Die Pflegekraft.",
+          "options": ["Die Pflegekraft", "Der Patient", "Die Patientin"],
+          "answer": 0,
+          "why": "Die Pflegekraft.",
+          "hint": "Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "Wie fühlt er sich?",
+          "qEn": "besser.",
+          "options": ["besser", "müde", "krank"],
+          "answer": 0,
+          "why": "besser.",
+          "hint": "fühlt."
+        }
+      ]
+    },
+    {
+      "id": "writing-reflexiv",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four care sentences",
+      "practice": "writing",
+      "instructions": "Write four sentences. The pronoun follows the verb. aus and an go last.",
+      "prompt": "The female patient washes herself. I wash my hands. The male patient rests. He gets dressed.",
+      "bullets": ["wäscht sich", "mir die Hände", "ruht sich aus", "zieht sich an"],
+      "model": "Die Patientin wäscht sich. Ich wasche mir die Hände. Der Patient ruht sich aus. Er zieht sich an.",
+      "modelEn": "The female patient washes herself. I wash my hands. The male patient rests. He gets dressed.",
+      "hint": "wäscht sich, mir die Hände, ruht sich aus, zieht sich an.",
+      "checklist": [
+        { "id": "w", "label": "wäscht sich", "keywords": ["wäscht sich"] },
+        { "id": "h", "label": "mir die Hände", "keywords": ["mir die Hände"] },
+        { "id": "r", "label": "ruht sich aus", "keywords": ["ruht sich aus"] },
+        { "id": "z", "label": "zieht sich an", "keywords": ["zieht sich an"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Sie wäscht sich",
+      "heroImage": "bed",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Accusative for the whole person and for fühlen. Dative plus die Hände. Prefix last.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "waschen, sie (she) → ?",
+          "qEn": "Whole person.",
+          "options": ["wäscht sich", "waschen sich", "wäscht mir"],
+          "answer": 0,
+          "why": "wäscht sich.",
+          "hint": "sich."
+        },
+        {
+          "kind": "mc",
+          "q": "Hände, ich → ?",
+          "qEn": "Dative.",
+          "options": ["wasche mir die Hände", "wasche mich die Hände", "wasche dir die Hände"],
+          "answer": 0,
+          "why": "mir die Hände.",
+          "hint": "mir."
+        },
+        {
+          "kind": "mc",
+          "q": "waschen, ich, whole person → ?",
+          "qEn": "Accusative.",
+          "options": ["wasche mich", "wasche mir", "wascht mich"],
+          "answer": 0,
+          "why": "wasche mich.",
+          "hint": "mich."
+        },
+        {
+          "kind": "mc",
+          "q": "waschen, du, whole person → ?",
+          "qEn": "Accusative.",
+          "options": ["wäschst dich", "wäschst dir", "wäscht dich"],
+          "answer": 0,
+          "why": "wäschst dich.",
+          "hint": "dich."
+        },
+        {
+          "kind": "mc",
+          "q": "Hände, du → ?",
+          "qEn": "Dative.",
+          "options": ["wäschst dir die Hände", "wäschst dich die Hände", "wäschst mir die Hände"],
+          "answer": 0,
+          "why": "dir die Hände.",
+          "hint": "dir."
+        },
+        {
+          "kind": "mc",
+          "q": "ausruhen, er → ?",
+          "qEn": "Prefix last.",
+          "options": ["ruht sich aus", "ruht aus sich", "ruht sich an"],
+          "answer": 0,
+          "why": "ruht sich aus.",
+          "hint": "aus."
+        },
+        {
+          "kind": "mc",
+          "q": "anziehen, he himself → ?",
+          "qEn": "Reflexive.",
+          "options": ["zieht sich an", "zieht den Patienten an", "zieht an sich"],
+          "answer": 0,
+          "why": "zieht sich an.",
+          "hint": "an."
+        },
+        {
+          "kind": "mc",
+          "q": "fühlen, ich → ?",
+          "qEn": "Accusative.",
+          "options": ["fühle mich besser", "fühle mir besser", "fühlt mich besser"],
+          "answer": 0,
+          "why": "fühle mich besser.",
+          "hint": "mich."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse dresses him. → ?",
+          "qEn": "No sich.",
+          "options": ["zieht den Patienten an", "zieht sich an", "zieht dem Patienten an"],
+          "answer": 0,
+          "why": "den Patienten.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "waschen, Sie (formal) → ?",
+          "qEn": "Same form as they.",
+          "options": ["waschen sich", "wäscht sich", "wascht sich"],
+          "answer": 0,
+          "why": "waschen sich.",
+          "hint": "waschen."
+        },
+        {
+          "kind": "mc",
+          "q": "ausruhen, Perfekt, er → ?",
+          "qEn": "haben, sich before the participle.",
+          "options": ["hat sich ausgeruht", "hat ausgeruht sich", "ist sich ausgeruht"],
+          "answer": 0,
+          "why": "hat sich ausgeruht.",
+          "hint": "ausgeruht."
+        },
+        {
+          "kind": "mc",
+          "q": "anziehen, wir → ?",
+          "qEn": "uns.",
+          "options": ["ziehen uns an", "zieht euch an", "ziehen sich an"],
+          "answer": 0,
+          "why": "ziehen uns an.",
+          "hint": "uns."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Sie wäscht sich",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Die Patientin wäscht sich.", "en": "The female patient washes herself." },
+        { "de": "Ich wasche mir die Hände.", "en": "I wash my hands." },
+        { "de": "Der Patient ruht sich aus.", "en": "The male patient rests." },
+        { "de": "Er zieht sich an.", "en": "He gets dressed." }
+      ],
+      "messages": [
+        "Look again at mich and mir.",
+        "A body part takes the dative. aus and an go last.",
+        "Sehr gut. Sie wäscht sich.",
+        "Ausgezeichnet. You can talk about morning care."
+      ]
+    }
+  ]
+}

@@ -120,6 +120,13 @@ describe("catalog", () => {
     expect(byNumber.get(18)).toBe("a1-18-possessiv");
     expect(byNumber.get(19)).toBe("a1-19-welcher");
     expect(byNumber.get(20)).toBe("a1-20-pronomen");
+    expect(byNumber.get(21)).toBe("a2-21-dativ-akkusativ");
+    expect(byNumber.get(22)).toBe("a2-22-dativverben");
+    expect(byNumber.get(25)).toBe("a2-25-perfekt-sein");
+    expect(byNumber.get(26)).toBe("a2-26-partizipien");
+    expect(byNumber.get(27)).toBe("a2-27-modal-praeteritum");
+    expect(byNumber.get(28)).toBe("a2-28-tempuswahl");
+    expect(byNumber.get(29)).toBe("a2-29-reflexiv");
     expect(byNumber.get(23)).toBe("a1-23-praeteritum");
     expect(byNumber.get(24)).toBe("a1-24-perfekt");
     expect(byNumber.get(30)).toBe("a1-30-temporal");

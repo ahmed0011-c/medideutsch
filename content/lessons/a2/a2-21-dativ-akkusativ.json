@@ -1,0 +1,1615 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
+  },
+  "id": "a2-21-dativ-akkusativ",
+  "level": "A2",
+  "unit": "Kapitel 21",
+  "chapter": 21,
+  "chapters": [
+    21
+  ],
+  "title": "Ich kaufe meinem Sohn einen Ball",
+  "subtitle": "One person in the dative, one thing in the accusative",
+  "glossary": {
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der"
+    },
+    "wem": {
+      "de": "wem",
+      "pos": "pronoun",
+      "en": "to whom (dative)",
+      "emoji": "🏥"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "🏥"
+    },
+    "was": {
+      "de": "was",
+      "pos": "pronoun",
+      "en": "what (accusative)",
+      "emoji": "🏥"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine); also feminine dative",
+      "emoji": "🏥"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "🏥",
+      "article": "der"
+    },
+    "gibt": {
+      "de": "gibt",
+      "pos": "form",
+      "en": "gives",
+      "emoji": "🏥"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative masculine or neuter)",
+      "emoji": "🏥"
+    },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male). Patienten is the dative singular and the plural.",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "One man: dem Patienten. Several people: den Patienten."
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🏥"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "🏥",
+      "article": "die"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🏥",
+      "article": "die"
+    },
+    "zeigt": {
+      "de": "zeigt",
+      "pos": "form",
+      "en": "shows",
+      "emoji": "🏥"
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient (female)",
+      "emoji": "🏥",
+      "article": "die"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🏥"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🏥",
+      "article": "das"
+    },
+    "tochter": {
+      "de": "Tochter",
+      "pos": "noun",
+      "en": "daughter",
+      "emoji": "🏥",
+      "article": "die"
+    },
+    "kauft": {
+      "de": "kauft",
+      "pos": "form",
+      "en": "buys",
+      "emoji": "🏥"
+    },
+    "sohn": {
+      "de": "Sohn",
+      "pos": "noun",
+      "en": "son",
+      "emoji": "🏥",
+      "article": "der"
+    },
+    "einen": {
+      "de": "einen",
+      "pos": "article",
+      "en": "a (masculine accusative)",
+      "emoji": "🏥"
+    },
+    "ball": {
+      "de": "Ball",
+      "pos": "noun",
+      "en": "ball",
+      "emoji": "🏥",
+      "article": "der"
+    },
+    "person": {
+      "de": "Person",
+      "pos": "noun",
+      "en": "person",
+      "emoji": "🏥",
+      "article": "die"
+    },
+    "steht": {
+      "de": "steht",
+      "pos": "form",
+      "en": "stands; here: belongs to",
+      "emoji": "🏥"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in the",
+      "emoji": "🏥"
+    },
+    "dativ": {
+      "de": "Dativ",
+      "pos": "noun",
+      "en": "dative",
+      "emoji": "🏥",
+      "article": "der"
+    },
+    "sache": {
+      "de": "Sache",
+      "pos": "noun",
+      "en": "thing",
+      "emoji": "🏥",
+      "article": "die"
+    },
+    "akkusativ": {
+      "de": "Akkusativ",
+      "pos": "noun",
+      "en": "accusative",
+      "emoji": "🏥",
+      "article": "der"
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🏥",
+      "article": "die"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "on the; in the",
+      "emoji": "🏥"
+    },
+    "abend": {
+      "de": "Abend",
+      "pos": "noun",
+      "en": "evening",
+      "emoji": "🏥",
+      "article": "der"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna",
+      "emoji": "🏥"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die"
+    },
+    "schickt": {
+      "de": "schickt",
+      "pos": "form",
+      "en": "sends",
+      "emoji": "🏥"
+    },
+    "hausarzt": {
+      "de": "Hausarzt",
+      "pos": "noun",
+      "en": "GP, family doctor",
+      "emoji": "🏥",
+      "article": "der"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine, or dative plural)",
+      "emoji": "🏥"
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding, report",
+      "emoji": "🏥",
+      "article": "der"
+    },
+    "reicht": {
+      "de": "reicht",
+      "pos": "form",
+      "en": "hands, passes",
+      "emoji": "🏥"
+    },
+    "glas": {
+      "de": "Glas",
+      "pos": "noun",
+      "en": "glass",
+      "emoji": "🏥",
+      "article": "das"
+    }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Two objects on the ward",
+      "learn": [
+        "The person who receives something is dative: Wem?",
+        "The thing that is given, shown or sent is accusative: Was?",
+        "When both are nouns, say the person first and the thing second."
+      ],
+      "minutes": 25,
+      "vocab": [
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient (male)",
+          "emoji": "🧑🏽",
+          "glossaryKey": "patient"
+        },
+        {
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "emoji": "💊",
+          "glossaryKey": "tablette"
+        },
+        {
+          "de": "Befund",
+          "article": "der",
+          "plural": "die Befunde",
+          "en": "finding, report",
+          "emoji": "📄",
+          "glossaryKey": "befund"
+        },
+        {
+          "de": "Glas",
+          "article": "das",
+          "plural": "die Gläser",
+          "en": "glass",
+          "emoji": "🥛",
+          "glossaryKey": "glas"
+        },
+        {
+          "de": "Sohn",
+          "article": "der",
+          "plural": "die Söhne",
+          "en": "son",
+          "emoji": "👦",
+          "glossaryKey": "sohn"
+        },
+        {
+          "de": "Hausarzt",
+          "article": "der",
+          "plural": "die Hausärzte",
+          "en": "GP",
+          "emoji": "🩺",
+          "glossaryKey": "hausarzt"
+        }
+      ],
+      "text": {
+        "title": "Wem und was?",
+        "de": "Der Arzt gibt dem Patienten die Tablette. Die Pflegekraft zeigt der Patientin das Zimmer. Die Tochter kauft dem Sohn einen Ball. Die Person steht im Dativ. Die Sache steht im Akkusativ.",
+        "en": "The doctor gives the patient the tablet. The nurse shows the patient the room. The daughter buys the son a ball. The person is in the dative. The thing is in the accusative."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "Wem and was",
+      "practice": "choose",
+      "heroTitle": "geben, zeigen, erklären",
+      "heroImage": "tablet",
+      "story": [
+        "Some verbs take two objects. <b>geben, zeigen, erklären, bringen, reichen, schicken, kaufen</b> are the ones on this ward.",
+        "The person is dative. <b>Der Arzt gibt dem Patienten die Tablette.</b> Ask <b>Wem?</b>",
+        "The thing is accusative. Ask <b>Was?</b> Feminine dative is <b>der</b>, not die: <b>der Patientin</b>.",
+        "Say the person before the thing when both are nouns. <b>helfen</b> is different: only the person, no thing. That is the next chapter."
+      ],
+      "questionRule": "Wem? for the person. Was? for the thing. Masculine dative dem, feminine dative der, neuter dative dem. Masculine accusative den or einen.",
+      "tables": [
+        {
+          "title": "Dativ der Person",
+          "caption": "The receiver. Feminine dative is der.",
+          "columns": [
+            "Maskulin",
+            "Neutrum",
+            "Feminin",
+            "Plural"
+          ],
+          "rows": [
+            {
+              "label": "bestimmt",
+              "cells": [
+                "dem Patienten",
+                "dem Kind",
+                "der Patientin",
+                "den Patienten"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "mein",
+              "cells": [
+                "meinem Sohn",
+                "meinem Kind",
+                "meiner Tochter",
+                "meinen Kindern"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Akkusativ der Sache",
+          "caption": "The thing. There is no plural ein; use die or keine.",
+          "columns": [
+            "Maskulin",
+            "Neutrum",
+            "Feminin",
+            "Plural"
+          ],
+          "rows": [
+            {
+              "label": "bestimmt",
+              "cells": [
+                "den Befund",
+                "das Glas",
+                "die Tablette",
+                "die Tabletten"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "ein / kein",
+              "cells": [
+                "einen Ball",
+                "ein Glas",
+                "eine Zeitschrift",
+                "keine Tabletten"
+              ]
+            }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Two endings that look alike",
+        "items": [
+          {
+            "de": "Der Arzt gibt dem Patienten die Tablette.",
+            "en": "One male patient receives it: dem.",
+            "tone": "ok"
+          },
+          {
+            "de": "Der Arzt gibt den Patienten die Tablette.",
+            "en": "den Patienten is not the dative singular. The receiver needs dem.",
+            "tone": "stop"
+          },
+          {
+            "de": "Die Pflegekraft zeigt der Patientin das Zimmer.",
+            "en": "Feminine dative stays der.",
+            "tone": "ok"
+          },
+          {
+            "de": "Die Pflegekraft zeigt dem Patientin das Zimmer.",
+            "en": "dem is not the feminine dative.",
+            "tone": "stop"
+          }
+        ],
+        "tip": "Ask Wem? first. If the answer is die Patientin, the article in the sentence is der."
+      },
+      "quizTitle": "Recognise the two objects",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "In „Der Arzt gibt dem Patienten die Tablette“: what is dem Patienten?",
+          "qEn": "The receiver is dative.",
+          "options": [
+            "The person, dative (Wem?)",
+            "The thing, accusative (Was?)",
+            "The subject (Wer?)"
+          ],
+          "answer": 0,
+          "why": "The receiver is dative.",
+          "hint": "Wem?"
+        },
+        {
+          "kind": "mc",
+          "q": "In the same sentence, what is die Tablette?",
+          "qEn": "The thing that is given is accusative.",
+          "options": [
+            "The thing, accusative (Was?)",
+            "The person, dative (Wem?)",
+            "The subject (Wer?)"
+          ],
+          "answer": 0,
+          "why": "The thing that is given is accusative.",
+          "hint": "Was?"
+        },
+        {
+          "kind": "mc",
+          "q": "Which sentence gives the tablet to the patient?",
+          "qEn": "dem Patienten, not den Patienten.",
+          "options": [
+            "Der Arzt gibt dem Patienten die Tablette.",
+            "Der Arzt gibt den Patienten die Tablette.",
+            "Der Arzt gibt der Tablette den Patienten."
+          ],
+          "answer": 0,
+          "why": "dem Patienten, not den Patienten.",
+          "hint": "Wem? dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The nurse shows the room to the female patient. Which form is the feminine dative?",
+          "qEn": "Feminine dative is der.",
+          "options": [
+            "der Patientin",
+            "die Patientin",
+            "dem Patientin"
+          ],
+          "answer": 0,
+          "why": "Feminine dative is der.",
+          "hint": "der, not die."
+        },
+        {
+          "kind": "mc",
+          "q": "Die Tochter kauft dem Sohn … Ball. Which form is the masculine thing?",
+          "qEn": "Masculine accusative ein takes -en.",
+          "options": [
+            "einen Ball",
+            "ein Ball",
+            "einem Ball"
+          ],
+          "answer": 0,
+          "why": "Masculine accusative ein takes -en.",
+          "hint": "einen."
+        },
+        {
+          "kind": "mc",
+          "q": "Which question asks for the person who receives the tablet?",
+          "qEn": "Wem asks for the dative person.",
+          "options": [
+            "Wem gibt der Arzt die Tablette?",
+            "Was gibt der Arzt dem Patienten?",
+            "Wer ist die Tablette?"
+          ],
+          "answer": 0,
+          "why": "Wem asks for the dative person.",
+          "hint": "Wem."
+        }
+      ]
+    },
+    {
+      "id": "gap-objects",
+      "label": "Gap",
+      "title": "Put the person or the thing in",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Use the label. Only one phrase fits.",
+      "chips": [
+        {
+          "w": "dem Patienten",
+          "hint": "Masculine dative: dem Patienten."
+        },
+        {
+          "w": "der Patientin",
+          "hint": "Feminine dative: der Patientin."
+        },
+        {
+          "w": "meinem Sohn",
+          "hint": "Possessive dative masculine: meinem."
+        },
+        {
+          "w": "die Tablette",
+          "hint": "Feminine accusative: die."
+        },
+        {
+          "w": "ein Glas",
+          "hint": "Neuter accusative ein has no ending."
+        },
+        {
+          "w": "den Befund",
+          "hint": "Masculine accusative: den Befund."
+        }
+      ],
+      "items": [
+        {
+          "before": "Wem, der Patient, bekannt: Der Arzt gibt",
+          "after": "die Tablette.",
+          "answer": "dem Patienten",
+          "en": "The doctor gives the patient the tablet.",
+          "why": "Masculine dative: dem Patienten.",
+          "tip": "Masculine dative: dem Patienten.",
+          "hint": "Masculine dative: dem Patienten."
+        },
+        {
+          "before": "Wem, die Patientin, bekannt: Die Pflegekraft zeigt",
+          "after": "das Zimmer.",
+          "answer": "der Patientin",
+          "en": "The nurse shows the patient the room.",
+          "why": "Feminine dative: der Patientin.",
+          "tip": "Feminine dative: der Patientin.",
+          "hint": "Feminine dative: der Patientin."
+        },
+        {
+          "before": "Wem, mein Sohn: Ich kaufe",
+          "after": "einen Ball.",
+          "answer": "meinem Sohn",
+          "en": "I buy my son a ball.",
+          "why": "Possessive dative masculine: meinem.",
+          "tip": "Possessive dative masculine: meinem.",
+          "hint": "Possessive dative masculine: meinem."
+        },
+        {
+          "before": "Was, die Tablette, bekannt: Der Arzt erklärt dem Patienten",
+          "after": ".",
+          "answer": "die Tablette",
+          "en": "The doctor explains the tablet to the patient.",
+          "why": "Feminine accusative: die.",
+          "tip": "Feminine accusative: die.",
+          "hint": "Feminine accusative: die."
+        },
+        {
+          "before": "Was, ein Glas, unbekannt, Neutrum: Die Pflegekraft reicht dem Patienten",
+          "after": ".",
+          "answer": "ein Glas",
+          "en": "The nurse hands the patient a glass.",
+          "why": "Neuter accusative ein has no ending.",
+          "tip": "Neuter accusative ein has no ending.",
+          "hint": "Neuter accusative ein has no ending."
+        },
+        {
+          "before": "Was, der Befund, bekannt, Maskulinum: Die Station schickt dem Hausarzt",
+          "after": ".",
+          "answer": "den Befund",
+          "en": "The ward sends the GP the report.",
+          "why": "Masculine accusative: den Befund.",
+          "tip": "Masculine accusative: den Befund.",
+          "hint": "Masculine accusative: den Befund."
+        }
+      ]
+    },
+    {
+      "id": "match-objects",
+      "type": "compare",
+      "label": "Match",
+      "title": "Wem or was?",
+      "practice": "match",
+      "instructions": "Choose the phrase that answers the question in the prompt.",
+      "items": [
+        {
+          "prompt": "Der Arzt gibt dem Patienten die Tablette. Wem?",
+          "options": [
+            {
+              "emoji": "✅",
+              "label": "dem Patienten",
+              "caption": "This phrase answers the question."
+            },
+            {
+              "emoji": "↩️",
+              "label": "die Tablette",
+              "caption": "This phrase answers the other question."
+            }
+          ],
+          "answer": 0,
+          "why": "The person is dem Patienten.",
+          "hint": "dem Patienten"
+        },
+        {
+          "prompt": "Der Arzt gibt dem Patienten die Tablette. Was?",
+          "options": [
+            {
+              "emoji": "✅",
+              "label": "die Tablette",
+              "caption": "This phrase answers the question."
+            },
+            {
+              "emoji": "↩️",
+              "label": "dem Patienten",
+              "caption": "This phrase answers the other question."
+            }
+          ],
+          "answer": 0,
+          "why": "The thing is die Tablette.",
+          "hint": "die Tablette"
+        },
+        {
+          "prompt": "Die Pflegekraft zeigt der Patientin das Zimmer. Wem?",
+          "options": [
+            {
+              "emoji": "✅",
+              "label": "der Patientin",
+              "caption": "This phrase answers the question."
+            },
+            {
+              "emoji": "↩️",
+              "label": "das Zimmer",
+              "caption": "This phrase answers the other question."
+            }
+          ],
+          "answer": 0,
+          "why": "Feminine dative: der Patientin.",
+          "hint": "der Patientin"
+        },
+        {
+          "prompt": "Die Tochter kauft dem Sohn einen Ball. Was?",
+          "options": [
+            {
+              "emoji": "✅",
+              "label": "einen Ball",
+              "caption": "This phrase answers the question."
+            },
+            {
+              "emoji": "↩️",
+              "label": "dem Sohn",
+              "caption": "This phrase answers the other question."
+            }
+          ],
+          "answer": 0,
+          "why": "The thing is einen Ball.",
+          "hint": "einen Ball"
+        },
+        {
+          "prompt": "Die Station schickt dem Hausarzt den Befund. Wem?",
+          "options": [
+            {
+              "emoji": "✅",
+              "label": "dem Hausarzt",
+              "caption": "This phrase answers the question."
+            },
+            {
+              "emoji": "↩️",
+              "label": "den Befund",
+              "caption": "This phrase answers the other question."
+            }
+          ],
+          "answer": 0,
+          "why": "The GP receives it: dem Hausarzt.",
+          "hint": "dem Hausarzt"
+        },
+        {
+          "prompt": "Die Pflegekraft reicht dem Patienten das Glas. Was?",
+          "options": [
+            {
+              "emoji": "✅",
+              "label": "das Glas",
+              "caption": "This phrase answers the question."
+            },
+            {
+              "emoji": "↩️",
+              "label": "dem Patienten",
+              "caption": "This phrase answers the other question."
+            }
+          ],
+          "answer": 0,
+          "why": "The thing is das Glas.",
+          "hint": "das Glas"
+        }
+      ]
+    },
+    {
+      "id": "picture-objects",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "The thing that is given",
+      "practice": "picture",
+      "instructions": "These are accusative things: a tablet, a chart, a plaster, a syringe.",
+      "items": [
+        {
+          "id": "tablet",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "the thing the doctor gives",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart that is handed over",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster that is given",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "das"
+        },
+        {
+          "id": "spritze",
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "the syringe that is given",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-objects",
+      "type": "builder",
+      "label": "Build",
+      "title": "Person, then thing",
+      "practice": "build",
+      "instructions": "Build the sentence. The dative person comes before the accusative thing.",
+      "items": [
+        {
+          "tiles": [
+            "Der",
+            "Arzt",
+            "gibt",
+            "dem",
+            "Patienten",
+            "die",
+            "Tablette"
+          ],
+          "answers": [
+            "Der Arzt gibt dem Patienten die Tablette"
+          ],
+          "punct": ".",
+          "modal": "gibt",
+          "inf": "Tablette",
+          "question": false,
+          "en": "The doctor gives the patient the tablet.",
+          "hint": "Person, then thing.",
+          "feedback": {
+            "end": "The thing comes last: Tablette.",
+            "fallback": "Person, then thing."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Pflegekraft",
+            "zeigt",
+            "der",
+            "Patientin",
+            "das",
+            "Zimmer"
+          ],
+          "answers": [
+            "Die Pflegekraft zeigt der Patientin das Zimmer"
+          ],
+          "punct": ".",
+          "modal": "zeigt",
+          "inf": "Zimmer",
+          "question": false,
+          "en": "The nurse shows the patient the room.",
+          "hint": "der Patientin is dative.",
+          "feedback": {
+            "end": "The thing comes last: Zimmer.",
+            "fallback": "der Patientin is dative."
+          }
+        },
+        {
+          "tiles": [
+            "Ich",
+            "kaufe",
+            "meinem",
+            "Sohn",
+            "einen",
+            "Ball"
+          ],
+          "answers": [
+            "Ich kaufe meinem Sohn einen Ball"
+          ],
+          "punct": ".",
+          "modal": "kaufe",
+          "inf": "Ball",
+          "question": false,
+          "en": "I buy my son a ball.",
+          "hint": "meinem, then einen.",
+          "feedback": {
+            "end": "The thing comes last: Ball.",
+            "fallback": "meinem, then einen."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Station",
+            "schickt",
+            "dem",
+            "Hausarzt",
+            "den",
+            "Befund"
+          ],
+          "answers": [
+            "Die Station schickt dem Hausarzt den Befund"
+          ],
+          "punct": ".",
+          "modal": "schickt",
+          "inf": "Befund",
+          "question": false,
+          "en": "The ward sends the GP the report.",
+          "hint": "dem Hausarzt, then den Befund.",
+          "feedback": {
+            "end": "The thing comes last: Befund.",
+            "fallback": "dem Hausarzt, then den Befund."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-objects",
+      "label": "Rewrite",
+      "title": "Two sentences, one gift",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Join them. Name the person in the dative, then the thing.",
+      "chips": [
+        {
+          "w": "Der Arzt gibt dem Patienten die Tablette",
+          "hint": "dem Patienten before die Tablette."
+        },
+        {
+          "w": "Die Pflegekraft zeigt der Patientin das Zimmer",
+          "hint": "der Patientin before das Zimmer."
+        },
+        {
+          "w": "Ich kaufe meinem Sohn einen Ball",
+          "hint": "meinem Sohn before einen Ball."
+        },
+        {
+          "w": "Die Station schickt dem Hausarzt den Befund",
+          "hint": "dem Hausarzt before den Befund."
+        },
+        {
+          "w": "Die Pflegekraft reicht dem Patienten ein Glas",
+          "hint": "ein Glas stays accusative."
+        },
+        {
+          "w": "Der Arzt erklärt dem Patienten die Tablette",
+          "hint": "dem Patienten, then die Tablette."
+        }
+      ],
+      "items": [
+        {
+          "before": "Zwei Sätze. Der Patient bekommt die Tablette. Der Arzt gibt sie. →",
+          "after": ".",
+          "answer": "Der Arzt gibt dem Patienten die Tablette",
+          "en": "The doctor gives the patient the tablet.",
+          "why": "dem Patienten before die Tablette.",
+          "tip": "dem Patienten before die Tablette.",
+          "hint": "dem Patienten before die Tablette."
+        },
+        {
+          "before": "Zwei Sätze. Die Patientin sieht das Zimmer. Die Pflegekraft zeigt es. →",
+          "after": ".",
+          "answer": "Die Pflegekraft zeigt der Patientin das Zimmer",
+          "en": "The nurse shows the patient the room.",
+          "why": "der Patientin before das Zimmer.",
+          "tip": "der Patientin before das Zimmer.",
+          "hint": "der Patientin before das Zimmer."
+        },
+        {
+          "before": "Zwei Sätze. Mein Sohn bekommt einen Ball. Ich kaufe ihn. →",
+          "after": ".",
+          "answer": "Ich kaufe meinem Sohn einen Ball",
+          "en": "I buy my son a ball.",
+          "why": "meinem Sohn before einen Ball.",
+          "tip": "meinem Sohn before einen Ball.",
+          "hint": "meinem Sohn before einen Ball."
+        },
+        {
+          "before": "Zwei Sätze. Der Hausarzt bekommt den Befund. Die Station schickt ihn. →",
+          "after": ".",
+          "answer": "Die Station schickt dem Hausarzt den Befund",
+          "en": "The ward sends the GP the report.",
+          "why": "dem Hausarzt before den Befund.",
+          "tip": "dem Hausarzt before den Befund.",
+          "hint": "dem Hausarzt before den Befund."
+        },
+        {
+          "before": "Zwei Sätze. Der Patient bekommt ein Glas. Die Pflegekraft reicht es. →",
+          "after": ".",
+          "answer": "Die Pflegekraft reicht dem Patienten ein Glas",
+          "en": "The nurse hands the patient a glass.",
+          "why": "ein Glas stays accusative.",
+          "tip": "ein Glas stays accusative.",
+          "hint": "ein Glas stays accusative."
+        },
+        {
+          "before": "Zwei Sätze. Der Patient hört die Erklärung. Der Arzt erklärt die Tablette. →",
+          "after": ".",
+          "answer": "Der Arzt erklärt dem Patienten die Tablette",
+          "en": "The doctor explains the tablet to the patient.",
+          "why": "dem Patienten, then die Tablette.",
+          "tip": "dem Patienten, then die Tablette.",
+          "hint": "dem Patienten, then die Tablette."
+        }
+      ]
+    },
+    {
+      "id": "error-objects",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is wrong. Choose the corrected sentence.",
+      "items": [
+        {
+          "clues": [
+            "The receiver is dative. The thing is accusative.",
+            "Noun then noun: person, then thing.",
+            "Der Arzt gibt den Patienten die Tablette."
+          ],
+          "options": [
+            "Der Arzt gibt dem Patienten die Tablette.",
+            "Der Arzt gibt den Patienten die Tablette.",
+            "Der Arzt gibt dem Patienten der Tablette."
+          ],
+          "answer": 0,
+          "reveal": "Der Arzt gibt dem Patienten die Tablette.",
+          "hint": "dem, not den, for one male patient."
+        },
+        {
+          "clues": [
+            "The receiver is dative. The thing is accusative.",
+            "Noun then noun: person, then thing.",
+            "Die Pflegekraft zeigt dem Patientin das Zimmer."
+          ],
+          "options": [
+            "Die Pflegekraft zeigt der Patientin das Zimmer.",
+            "Die Pflegekraft zeigt dem Patientin das Zimmer.",
+            "Die Pflegekraft zeigt die Patientin das Zimmer."
+          ],
+          "answer": 0,
+          "reveal": "Die Pflegekraft zeigt der Patientin das Zimmer.",
+          "hint": "Feminine dative is der."
+        },
+        {
+          "clues": [
+            "The receiver is dative. The thing is accusative.",
+            "Noun then noun: person, then thing.",
+            "Die Tochter kauft dem Sohn ein Ball."
+          ],
+          "options": [
+            "Die Tochter kauft dem Sohn einen Ball.",
+            "Die Tochter kauft dem Sohn ein Ball.",
+            "Die Tochter kauft dem Sohn einem Ball."
+          ],
+          "answer": 0,
+          "reveal": "Die Tochter kauft dem Sohn einen Ball.",
+          "hint": "Masculine accusative: einen."
+        },
+        {
+          "clues": [
+            "The receiver is dative. The thing is accusative.",
+            "Noun then noun: person, then thing.",
+            "Der Arzt erklärt dem Patienten dem Tablette."
+          ],
+          "options": [
+            "Der Arzt erklärt dem Patienten die Tablette.",
+            "Der Arzt erklärt dem Patienten dem Tablette.",
+            "Der Arzt erklärt dem Patienten den Tablette."
+          ],
+          "answer": 0,
+          "reveal": "Der Arzt erklärt dem Patienten die Tablette.",
+          "hint": "The tablet is accusative: die."
+        },
+        {
+          "clues": [
+            "The receiver is dative. The thing is accusative.",
+            "Noun then noun: person, then thing.",
+            "Die Station schickt den Hausarzt den Befund."
+          ],
+          "options": [
+            "Die Station schickt dem Hausarzt den Befund.",
+            "Die Station schickt den Hausarzt den Befund.",
+            "Die Station schickt dem Hausarzt dem Befund."
+          ],
+          "answer": 0,
+          "reveal": "Die Station schickt dem Hausarzt den Befund.",
+          "hint": "The GP is the receiver: dem."
+        },
+        {
+          "clues": [
+            "The receiver is dative. The thing is accusative.",
+            "Noun then noun: person, then thing.",
+            "Die Pflegekraft reicht dem Patienten das Befund."
+          ],
+          "options": [
+            "Die Pflegekraft reicht dem Patienten den Befund.",
+            "Die Pflegekraft reicht dem Patienten das Befund.",
+            "Die Pflegekraft reicht dem Patienten die Befund."
+          ],
+          "answer": 0,
+          "reveal": "Die Pflegekraft reicht dem Patienten den Befund.",
+          "hint": "Befund is masculine: den Befund."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-objects",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "Complete what each person says.",
+      "chips": [
+        {
+          "w": "dem Patienten",
+          "hint": "dem Patienten."
+        },
+        {
+          "w": "die Tablette",
+          "hint": "die Tablette."
+        },
+        {
+          "w": "der Patientin",
+          "hint": "der Patientin."
+        },
+        {
+          "w": "meinem Sohn",
+          "hint": "meinem Sohn."
+        },
+        {
+          "w": "den Befund",
+          "hint": "den Befund."
+        },
+        {
+          "w": "ein Glas",
+          "hint": "ein Glas."
+        }
+      ],
+      "items": [
+        {
+          "before": "Pflegekraft, Wem: Ich gebe",
+          "after": "die Tablette.",
+          "answer": "dem Patienten",
+          "en": "I give the patient the tablet.",
+          "why": "dem Patienten.",
+          "tip": "dem Patienten.",
+          "hint": "dem Patienten.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Patient, Was: Geben Sie mir bitte",
+          "after": ".",
+          "answer": "die Tablette",
+          "en": "Please give me the tablet.",
+          "why": "die Tablette.",
+          "tip": "die Tablette.",
+          "hint": "die Tablette.",
+          "who": "Patient"
+        },
+        {
+          "before": "Arzt, Wem: Ich zeige",
+          "after": "das Zimmer.",
+          "answer": "der Patientin",
+          "en": "I show the patient the room.",
+          "why": "der Patientin.",
+          "tip": "der Patientin.",
+          "hint": "der Patientin.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Vater, Wem: Ich kaufe",
+          "after": "einen Ball.",
+          "answer": "meinem Sohn",
+          "en": "I buy my son a ball.",
+          "why": "meinem Sohn.",
+          "tip": "meinem Sohn.",
+          "hint": "meinem Sohn.",
+          "who": "Vater"
+        },
+        {
+          "before": "Station, Was: Wir schicken dem Hausarzt",
+          "after": ".",
+          "answer": "den Befund",
+          "en": "We send the GP the report.",
+          "why": "den Befund.",
+          "tip": "den Befund.",
+          "hint": "den Befund.",
+          "who": "Station"
+        },
+        {
+          "before": "Pflegekraft, Was, unbekannt: Ich reiche dem Patienten",
+          "after": ".",
+          "answer": "ein Glas",
+          "en": "I hand the patient a glass.",
+          "why": "ein Glas.",
+          "tip": "ein Glas.",
+          "hint": "ein Glas.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more-objects",
+      "label": "More gaps",
+      "title": "Plural, possessive, a new thing",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the case and the noun.",
+      "chips": [
+        {
+          "w": "den Patienten",
+          "hint": "Dative plural: den Patienten."
+        },
+        {
+          "w": "meiner Tochter",
+          "hint": "Feminine possessive dative: meiner."
+        },
+        {
+          "w": "dem Kind",
+          "hint": "Neuter dative: dem Kind."
+        },
+        {
+          "w": "eine Zeitschrift",
+          "hint": "Feminine accusative: eine."
+        },
+        {
+          "w": "das Zimmer",
+          "hint": "Neuter accusative: das."
+        },
+        {
+          "w": "die Tabletten",
+          "hint": "Plural accusative: die."
+        }
+      ],
+      "items": [
+        {
+          "before": "Wem, mehrere Patienten, Plural: Der Arzt gibt",
+          "after": "die Tabletten.",
+          "answer": "den Patienten",
+          "en": "The doctor gives the patients the tablets.",
+          "why": "Dative plural: den Patienten.",
+          "tip": "Dative plural: den Patienten.",
+          "hint": "Dative plural: den Patienten."
+        },
+        {
+          "before": "Wem, meine Tochter: Ich gebe",
+          "after": "die Akte.",
+          "answer": "meiner Tochter",
+          "en": "I give my daughter the chart.",
+          "why": "Feminine possessive dative: meiner.",
+          "tip": "Feminine possessive dative: meiner.",
+          "hint": "Feminine possessive dative: meiner."
+        },
+        {
+          "before": "Wem, das Kind, bekannt: Die Pflegekraft gibt",
+          "after": "das Glas.",
+          "answer": "dem Kind",
+          "en": "The nurse gives the child the glass.",
+          "why": "Neuter dative: dem Kind.",
+          "tip": "Neuter dative: dem Kind.",
+          "hint": "Neuter dative: dem Kind."
+        },
+        {
+          "before": "Was, eine Zeitschrift, unbekannt: Ich bringe dem Patienten",
+          "after": ".",
+          "answer": "eine Zeitschrift",
+          "en": "I bring the patient a magazine.",
+          "why": "Feminine accusative: eine.",
+          "tip": "Feminine accusative: eine.",
+          "hint": "Feminine accusative: eine."
+        },
+        {
+          "before": "Was, das Zimmer, bekannt: Die Pflegekraft zeigt der Patientin",
+          "after": ".",
+          "answer": "das Zimmer",
+          "en": "The nurse shows the patient the room.",
+          "why": "Neuter accusative: das.",
+          "tip": "Neuter accusative: das.",
+          "hint": "Neuter accusative: das."
+        },
+        {
+          "before": "Was, die Tabletten, bekannt, Plural: Der Arzt gibt dem Patienten",
+          "after": ".",
+          "answer": "die Tabletten",
+          "en": "The doctor gives the patient the tablets.",
+          "why": "Plural accusative: die.",
+          "tip": "Plural accusative: die.",
+          "hint": "Plural accusative: die."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Evening handover",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer Wem? or Was?",
+      "document": {
+        "letterhead": "Station 4 · Abend",
+        "title": "Übergabe am Abend",
+        "paragraphs": [
+          "Der Arzt gibt dem Patienten die Tablette. Die Pflegekraft zeigt der Patientin das Zimmer. Die Tochter kauft dem Sohn einen Ball.",
+          "Die Station schickt dem Hausarzt den Befund. Die Pflegekraft reicht dem Patienten das Glas."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Wem gibt der Arzt die Tablette?",
+          "qEn": "dem Patienten.",
+          "options": [
+            "dem Patienten",
+            "der Tablette",
+            "den Arzt"
+          ],
+          "answer": 0,
+          "why": "dem Patienten.",
+          "hint": "Wem."
+        },
+        {
+          "kind": "mc",
+          "q": "Was zeigt die Pflegekraft der Patientin?",
+          "qEn": "das Zimmer.",
+          "options": [
+            "das Zimmer",
+            "der Patientin",
+            "dem Zimmer"
+          ],
+          "answer": 0,
+          "why": "das Zimmer.",
+          "hint": "Was."
+        },
+        {
+          "kind": "mc",
+          "q": "Was kauft die Tochter dem Sohn?",
+          "qEn": "einen Ball.",
+          "options": [
+            "einen Ball",
+            "dem Sohn",
+            "ein Ball"
+          ],
+          "answer": 0,
+          "why": "einen Ball.",
+          "hint": "Was."
+        },
+        {
+          "kind": "mc",
+          "q": "Wem schickt die Station den Befund?",
+          "qEn": "dem Hausarzt.",
+          "options": [
+            "dem Hausarzt",
+            "den Befund",
+            "der Station"
+          ],
+          "answer": 0,
+          "why": "dem Hausarzt.",
+          "hint": "Wem."
+        }
+      ]
+    },
+    {
+      "id": "writing-objects",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Write four gifts",
+      "practice": "writing",
+      "instructions": "Write four sentences. Person first, then thing.",
+      "prompt": "The doctor gives the patient the tablet. The nurse shows the female patient the room. I buy my son a ball. The ward sends the GP the report.",
+      "bullets": [
+        "dem Patienten",
+        "der Patientin",
+        "meinem Sohn",
+        "dem Hausarzt"
+      ],
+      "model": "Der Arzt gibt dem Patienten die Tablette. Die Pflegekraft zeigt der Patientin das Zimmer. Ich kaufe meinem Sohn einen Ball. Die Station schickt dem Hausarzt den Befund.",
+      "modelEn": "The doctor gives the patient the tablet. The nurse shows the patient the room. I buy my son a ball. The ward sends the GP the report.",
+      "hint": "dem or der for the person, then the thing.",
+      "checklist": [
+        {
+          "id": "p",
+          "label": "dem Patienten",
+          "keywords": [
+            "dem Patienten"
+          ]
+        },
+        {
+          "id": "f",
+          "label": "der Patientin",
+          "keywords": [
+            "der Patientin"
+          ]
+        },
+        {
+          "id": "s",
+          "label": "meinem Sohn",
+          "keywords": [
+            "meinem Sohn"
+          ]
+        },
+        {
+          "id": "h",
+          "label": "dem Hausarzt",
+          "keywords": [
+            "dem Hausarzt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Both objects",
+      "heroImage": "clipboard",
+      "story": [
+        "Twelve questions. Eighty percent mastered means at least ten correct."
+      ],
+      "questionRule": "Wem for the person, Was for the thing.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Wem, in „Der Arzt gibt dem Patienten die Tablette“?",
+          "qEn": "Receiver.",
+          "options": [
+            "dem Patienten",
+            "die Tablette",
+            "der Arzt"
+          ],
+          "answer": 0,
+          "why": "Receiver.",
+          "hint": "dem Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "Was, in the same sentence?",
+          "qEn": "Thing.",
+          "options": [
+            "die Tablette",
+            "dem Patienten",
+            "der Arzt"
+          ],
+          "answer": 0,
+          "why": "Thing.",
+          "hint": "die Tablette."
+        },
+        {
+          "kind": "mc",
+          "q": "Choose the correct sentence.",
+          "qEn": "dem + die.",
+          "options": [
+            "Der Arzt gibt dem Patienten die Tablette.",
+            "Der Arzt gibt den Patienten die Tablette.",
+            "Der Arzt gibt der Tablette den Patienten."
+          ],
+          "answer": 0,
+          "why": "dem + die.",
+          "hint": "dem Patienten."
+        },
+        {
+          "kind": "mc",
+          "q": "Feminine dative of die Patientin?",
+          "qEn": "der.",
+          "options": [
+            "der Patientin",
+            "die Patientin",
+            "dem Patientin"
+          ],
+          "answer": 0,
+          "why": "der.",
+          "hint": "der Patientin."
+        },
+        {
+          "kind": "mc",
+          "q": "Masculine accusative of ein Ball?",
+          "qEn": "einen.",
+          "options": [
+            "einen Ball",
+            "ein Ball",
+            "einem Ball"
+          ],
+          "answer": 0,
+          "why": "einen.",
+          "hint": "einen Ball."
+        },
+        {
+          "kind": "mc",
+          "q": "Neuter accusative of das Glas, known?",
+          "qEn": "das.",
+          "options": [
+            "das Glas",
+            "dem Glas",
+            "den Glas"
+          ],
+          "answer": 0,
+          "why": "das.",
+          "hint": "das Glas."
+        },
+        {
+          "kind": "mc",
+          "q": "Which question asks for the receiver?",
+          "qEn": "Wem.",
+          "options": [
+            "Wem?",
+            "Was?",
+            "Wo?"
+          ],
+          "answer": 0,
+          "why": "Wem.",
+          "hint": "Wem."
+        },
+        {
+          "kind": "mc",
+          "q": "Which question asks for the thing?",
+          "qEn": "Was.",
+          "options": [
+            "Was?",
+            "Wem?",
+            "Wer?"
+          ],
+          "answer": 0,
+          "why": "Was.",
+          "hint": "Was."
+        },
+        {
+          "kind": "mc",
+          "q": "Two nouns: which order?",
+          "qEn": "Person, then thing.",
+          "options": [
+            "First the dative person, then the accusative thing.",
+            "First the thing, then the person.",
+            "Both nouns in the accusative."
+          ],
+          "answer": 0,
+          "why": "Person, then thing.",
+          "hint": "Dativ, then Akkusativ."
+        },
+        {
+          "kind": "mc",
+          "q": "Possessive dative of mein Sohn?",
+          "qEn": "meinem.",
+          "options": [
+            "meinem Sohn",
+            "meinen Sohn",
+            "mein Sohn"
+          ],
+          "answer": 0,
+          "why": "meinem.",
+          "hint": "meinem Sohn."
+        },
+        {
+          "kind": "mc",
+          "q": "Known masculine thing, der Befund?",
+          "qEn": "den.",
+          "options": [
+            "den Befund",
+            "dem Befund",
+            "der Befund"
+          ],
+          "answer": 0,
+          "why": "den.",
+          "hint": "den Befund."
+        },
+        {
+          "kind": "mc",
+          "q": "Which sentence has only a dative person and no thing? That pattern is the next chapter.",
+          "qEn": "helfen takes only the person.",
+          "options": [
+            "Ich helfe dem Patienten.",
+            "Ich gebe dem Patienten die Tablette.",
+            "Ich zeige der Patientin das Zimmer."
+          ],
+          "answer": 0,
+          "why": "helfen takes only the person.",
+          "hint": "helfen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Person, then thing",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        {
+          "de": "Der Arzt gibt dem Patienten die Tablette.",
+          "en": "The doctor gives the patient the tablet."
+        },
+        {
+          "de": "Die Pflegekraft zeigt der Patientin das Zimmer.",
+          "en": "The nurse shows the patient the room."
+        },
+        {
+          "de": "Ich kaufe meinem Sohn einen Ball.",
+          "en": "I buy my son a ball."
+        },
+        {
+          "de": "Die Station schickt dem Hausarzt den Befund.",
+          "en": "The ward sends the GP the report."
+        }
+      ],
+      "rules": [
+        {
+          "c": "D",
+          "rule": "The person who receives: Wem? dem Patienten, der Patientin, meinem Sohn."
+        },
+        {
+          "c": "A",
+          "rule": "The thing: Was? die Tablette, das Zimmer, einen Ball, den Befund."
+        }
+      ],
+      "messages": [
+        "Look again at Wem and Was.",
+        "The person is dative. Check der Patientin.",
+        "Sehr gut. Person, then thing.",
+        "Ausgezeichnet. You can give, show and send on the ward."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,958 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "a2-26-partizipien",
+  "level": "A2",
+  "unit": "Kapitel 26",
+  "chapter": 26,
+  "chapters": [26],
+  "title": "Gesehen – eingekauft – bezahlt",
+  "subtitle": "How to build the past participle",
+  "glossary": {
+    "wie": { "de": "wie", "pos": "adverb", "en": "how", "emoji": "🏥" },
+    "heißt": { "de": "heißt", "pos": "form", "en": "is called", "emoji": "🏥" },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🏥" },
+    "partizip": { "de": "Partizip", "pos": "noun", "en": "past participle", "emoji": "🏥", "article": "das", "plural": "die Partizipien" },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🏥" },
+    "arzt": { "de": "Arzt", "pos": "noun", "en": "doctor (male)", "emoji": "🏥", "article": "der", "plural": "die Ärzte" },
+    "hat": { "de": "hat", "pos": "form", "en": "has (er/sie/es)", "emoji": "🏥" },
+    "den": { "de": "den", "pos": "article", "en": "the (accusative masculine)", "emoji": "🏥" },
+    "befund": { "de": "Befund", "pos": "noun", "en": "finding, report", "emoji": "🏥", "article": "der", "plural": "die Befunde" },
+    "gesehen": { "de": "gesehen", "pos": "participle", "en": "seen. sehen → gesehen.", "emoji": "🏥" },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🏥" },
+    "tochter": { "de": "Tochter", "pos": "noun", "en": "daughter", "emoji": "🏥", "article": "die", "plural": "die Töchter" },
+    "eingekauft": { "de": "eingekauft", "pos": "participle", "en": "shopped, bought. einkaufen → eingekauft.", "emoji": "🏥" },
+    "patient": { "de": "Patient", "pos": "noun", "en": "patient (male)", "emoji": "🏥", "article": "der", "plural": "die Patienten" },
+    "bezahlt": { "de": "bezahlt", "pos": "participle", "en": "paid. bezahlen → bezahlt. No ge-.", "emoji": "🏥" },
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🏥" },
+    "habe": { "de": "habe", "pos": "form", "en": "have (ich)", "emoji": "🏥" },
+    "gewartet": { "de": "gewartet", "pos": "participle", "en": "waited. warten → gewartet.", "emoji": "🏥" },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male). Patienten is accusative singular here.",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Accusative singular: den Patienten."
+    },
+    "untersucht": { "de": "untersucht", "pos": "participle", "en": "examined. untersuchen → untersucht. No ge-.", "emoji": "🏥" },
+    "pflegekraft": { "de": "Pflegekraft", "pos": "noun", "en": "nurse", "emoji": "🏥", "article": "die", "plural": "die Pflegekräfte" },
+    "geschrieben": { "de": "geschrieben", "pos": "participle", "en": "written. schreiben → geschrieben.", "emoji": "🏥" },
+    "schicht": { "de": "Schicht", "pos": "noun", "en": "shift", "emoji": "🏥", "article": "die", "plural": "die Schichten" },
+    "am": { "de": "am", "pos": "contraction", "en": "in the; on the", "emoji": "🏥" },
+    "abend": { "de": "Abend", "pos": "noun", "en": "evening", "emoji": "🏥", "article": "der", "plural": "die Abende" },
+    "akte": { "de": "Akte", "pos": "noun", "en": "chart, file", "emoji": "🏥", "article": "die", "plural": "die Akten" },
+    "geöffnet": { "de": "geöffnet", "pos": "participle", "en": "opened. öffnen → geöffnet.", "emoji": "🏥" },
+    "tablette": { "de": "Tablette", "pos": "noun", "en": "tablet", "emoji": "🏥", "article": "die", "plural": "die Tabletten" },
+    "genommen": { "de": "genommen", "pos": "participle", "en": "taken. nehmen → genommen.", "emoji": "🏥" },
+    "angerufen": { "de": "angerufen", "pos": "participle", "en": "called. anrufen → angerufen.", "emoji": "🏥" },
+    "fieber": { "de": "Fieber", "pos": "noun", "en": "fever", "emoji": "🏥", "article": "das" },
+    "gemessen": { "de": "gemessen", "pos": "participle", "en": "measured. messen → gemessen, not gemesst.", "emoji": "🏥" },
+    "dokumentiert": { "de": "dokumentiert", "pos": "participle", "en": "documented. dokumentieren → dokumentiert. No ge-.", "emoji": "🏥" },
+    "ein": { "de": "ein", "pos": "article", "en": "a (neuter)", "emoji": "🏥" },
+    "zimmer": { "de": "Zimmer", "pos": "noun", "en": "room", "emoji": "🏥", "article": "das", "plural": "die Zimmer" },
+    "bekommen": { "de": "bekommen", "pos": "participle", "en": "got, received. The participle looks like the infinitive. No extra ge-.", "emoji": "🏥" },
+    "sie": { "de": "sie", "pos": "pronoun", "en": "she", "emoji": "🏥" },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🏥" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Three ways to build a participle",
+      "learn": [
+        "Weak verbs take ge- and -t: gefragt. A stem in -t or -d takes -et: gewartet. öffnen does too: geöffnet.",
+        "A separable prefix keeps ge- in the middle: eingekauft, angerufen. be-, er-, ver- and -ieren take no ge-: bezahlt, erklärt, untersucht, dokumentiert.",
+        "Strong verbs take ge- and -en: gesehen. The vowel often changes: geschrieben, genommen. messen → gemessen, not gemesst."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Befund", "article": "der", "plural": "die Befunde", "en": "finding, report", "emoji": "📄", "glossaryKey": "befund" },
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🧑🏽", "glossaryKey": "patient" },
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tablette" },
+        { "de": "Akte", "article": "die", "plural": "die Akten", "en": "chart", "emoji": "📋", "glossaryKey": "akte" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "glossaryKey": "fieber" },
+        { "de": "Zimmer", "article": "das", "plural": "die Zimmer", "en": "room", "emoji": "🛏️", "glossaryKey": "zimmer" }
+      ],
+      "text": {
+        "title": "Wie heißt das Partizip?",
+        "de": "Der Arzt hat den Befund gesehen. Die Tochter hat eingekauft. Der Patient hat bezahlt. Ich habe gewartet. Der Arzt hat den Patienten untersucht. Die Pflegekraft hat den Befund geschrieben.",
+        "en": "The doctor has seen the report. The daughter has done the shopping. The patient has paid. I waited. The doctor has examined the patient. The nurse has written the report."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "ge-, no ge-, or a new vowel",
+      "practice": "choose",
+      "heroTitle": "gesehen, eingekauft, bezahlt",
+      "heroImage": "clipboard",
+      "story": [
+        "Chapters 24 and 25 chose <b>haben</b> or <b>sein</b>. The participle still closes the sentence. This chapter builds that participle.",
+        "Weak: <b>ge-</b> plus the stem plus <b>-t</b>. fragen → <b>gefragt</b>. machen → <b>gemacht</b>. A stem in <b>-t</b> or <b>-d</b> takes <b>-et</b>: warten → <b>gewartet</b>, arbeiten → <b>gearbeitet</b>. öffnen → <b>geöffnet</b>.",
+        "Separable: the prefix stays, and <b>ge-</b> sits in the middle. einkaufen → <b>eingekauft</b>. abholen → <b>abgeholt</b>. anrufen → <b>angerufen</b>.",
+        "No <b>ge-</b> after <b>be-, er-, ver-</b>, or on an <b>-ieren</b> verb. bezahlen → <b>bezahlt</b>. erklären → <b>erklärt</b>. untersuchen → <b>untersucht</b>. dokumentieren → <b>dokumentiert</b>. bekommen stays <b>bekommen</b>.",
+        "Strong: <b>ge-</b> plus <b>-en</b>, often with a new vowel. sehen → <b>gesehen</b>. schreiben → <b>geschrieben</b>. trinken → <b>getrunken</b>. nehmen → <b>genommen</b>. messen → <b>gemessen</b>, not gemesst."
+      ],
+      "questionRule": "Weak: ge- + t, or -et after -t/-d. Separable: prefix + ge-. No ge- after be-/er-/ver- or on -ieren. Strong: ge- + en.",
+      "tables": [
+        {
+          "title": "Schwach: ge- + t",
+          "caption": "Stem in -t or -d, and öffnen: add -et.",
+          "columns": ["Infinitiv", "Partizip"],
+          "rows": [
+            { "label": "fragen", "cells": ["fragen", "gefragt"], "highlight": true },
+            { "label": "machen", "cells": ["machen", "gemacht"] },
+            { "label": "warten", "cells": ["warten", "gewartet"], "highlight": true },
+            { "label": "öffnen", "cells": ["öffnen", "geöffnet"] },
+            { "label": "arbeiten", "cells": ["arbeiten", "gearbeitet"] }
+          ]
+        },
+        {
+          "title": "Trennbar, oder ohne ge-",
+          "caption": "Separable: prefix + ge- in the middle. be-, er-, ver- and -ieren: no ge-.",
+          "columns": ["Infinitiv", "Partizip"],
+          "rows": [
+            { "label": "einkaufen", "cells": ["einkaufen", "eingekauft"], "highlight": true },
+            { "label": "abholen", "cells": ["abholen", "abgeholt"] },
+            { "label": "anrufen", "cells": ["anrufen", "angerufen"] },
+            { "label": "bezahlen", "cells": ["bezahlen", "bezahlt"], "highlight": true },
+            { "label": "erklären", "cells": ["erklären", "erklärt"] },
+            { "label": "untersuchen", "cells": ["untersuchen", "untersucht"] },
+            { "label": "dokumentieren", "cells": ["dokumentieren", "dokumentiert"] },
+            { "label": "bekommen", "cells": ["bekommen", "bekommen"] }
+          ]
+        },
+        {
+          "title": "Stark: ge- + en",
+          "caption": "The vowel often changes. verstehen → verstanden: ver- blocks ge-.",
+          "columns": ["Infinitiv", "Partizip"],
+          "rows": [
+            { "label": "sehen", "cells": ["sehen", "gesehen"], "highlight": true },
+            { "label": "schreiben", "cells": ["schreiben", "geschrieben"] },
+            { "label": "trinken", "cells": ["trinken", "getrunken"] },
+            { "label": "nehmen", "cells": ["nehmen", "genommen"] },
+            { "label": "sprechen", "cells": ["sprechen", "gesprochen"] },
+            { "label": "essen", "cells": ["essen", "gegessen"] },
+            { "label": "messen", "cells": ["messen", "gemessen"], "highlight": true },
+            { "label": "helfen", "cells": ["helfen", "geholfen"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Three familiar wrong builds",
+        "items": [
+          { "de": "Der Arzt hat den Befund gesehen.", "en": "Strong: gesehen, not geseht.", "tone": "ok" },
+          { "de": "Der Arzt hat den Befund geseht.", "en": "sehen does not take -t.", "tone": "stop" },
+          { "de": "Die Tochter hat eingekauft.", "en": "The prefix stays on the participle.", "tone": "ok" },
+          { "de": "Die Tochter hat gekauft ein.", "en": "ein does not split off in the participle.", "tone": "stop" },
+          { "de": "Der Arzt hat den Patienten untersucht.", "en": "untersuchen takes no ge-.", "tone": "ok" },
+          { "de": "Der Arzt hat den Patienten geuntersucht.", "en": "ge- does not go in front of unter-.", "tone": "stop" }
+        ],
+        "tip": "Ask three questions: Is there a separable prefix? Is the start be-, er-, ver-, or -ieren? Is the verb strong? Otherwise ge- plus -t."
+      },
+      "quizTitle": "Build the participle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "sehen → ?",
+          "qEn": "Strong: -en.",
+          "options": ["gesehen", "geseht", "sehen"],
+          "answer": 0,
+          "why": "gesehen.",
+          "hint": "gesehen."
+        },
+        {
+          "kind": "mc",
+          "q": "einkaufen → ?",
+          "qEn": "ge- sits after ein-.",
+          "options": ["eingekauft", "gekauft ein", "geeingekauft"],
+          "answer": 0,
+          "why": "eingekauft.",
+          "hint": "eingekauft."
+        },
+        {
+          "kind": "mc",
+          "q": "bezahlen → ?",
+          "qEn": "be- blocks ge-.",
+          "options": ["bezahlt", "gebezahlen", "gebezaht"],
+          "answer": 0,
+          "why": "bezahlt.",
+          "hint": "bezahlt."
+        },
+        {
+          "kind": "mc",
+          "q": "warten → ?",
+          "qEn": "The stem ends in -t, so -et.",
+          "options": ["gewartet", "gewart", "gewartt"],
+          "answer": 0,
+          "why": "gewartet.",
+          "hint": "gewartet."
+        },
+        {
+          "kind": "mc",
+          "q": "untersuchen → ?",
+          "qEn": "No ge-.",
+          "options": ["untersucht", "geuntersucht", "untersuchen"],
+          "answer": 0,
+          "why": "untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "kind": "mc",
+          "q": "schreiben → ?",
+          "qEn": "ei becomes ie, plus -en.",
+          "options": ["geschrieben", "geschreibt", "schreiben"],
+          "answer": 0,
+          "why": "geschrieben.",
+          "hint": "geschrieben."
+        }
+      ]
+    },
+    {
+      "id": "gap-partizip",
+      "label": "Gap",
+      "title": "Put the participle in",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the infinitive. Only that participle fits.",
+      "chips": [
+        { "w": "gesehen", "hint": "sehen → gesehen." },
+        { "w": "eingekauft", "hint": "einkaufen → eingekauft." },
+        { "w": "bezahlt", "hint": "bezahlen → bezahlt." },
+        { "w": "gewartet", "hint": "warten → gewartet." },
+        { "w": "untersucht", "hint": "untersuchen → untersucht." },
+        { "w": "geschrieben", "hint": "schreiben → geschrieben." }
+      ],
+      "items": [
+        {
+          "before": "sehen: Der Arzt hat den Befund",
+          "after": ".",
+          "answer": "gesehen",
+          "en": "The doctor has seen the report.",
+          "why": "gesehen.",
+          "tip": "gesehen, not geseht.",
+          "hint": "gesehen."
+        },
+        {
+          "before": "einkaufen: Die Tochter hat",
+          "after": ".",
+          "answer": "eingekauft",
+          "en": "The daughter has done the shopping.",
+          "why": "eingekauft.",
+          "tip": "eingekauft.",
+          "hint": "eingekauft."
+        },
+        {
+          "before": "bezahlen: Der Patient hat",
+          "after": ".",
+          "answer": "bezahlt",
+          "en": "The patient has paid.",
+          "why": "bezahlt.",
+          "tip": "bezahlt.",
+          "hint": "bezahlt."
+        },
+        {
+          "before": "warten: Ich habe",
+          "after": ".",
+          "answer": "gewartet",
+          "en": "I waited.",
+          "why": "gewartet.",
+          "tip": "gewartet.",
+          "hint": "gewartet."
+        },
+        {
+          "before": "untersuchen: Der Arzt hat den Patienten",
+          "after": ".",
+          "answer": "untersucht",
+          "en": "The doctor has examined the patient.",
+          "why": "untersucht.",
+          "tip": "untersucht, not geuntersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "before": "schreiben: Die Pflegekraft hat den Befund",
+          "after": ".",
+          "answer": "geschrieben",
+          "en": "The nurse has written the report.",
+          "why": "geschrieben.",
+          "tip": "geschrieben.",
+          "hint": "geschrieben."
+        }
+      ]
+    },
+    {
+      "id": "match-partizip",
+      "type": "compare",
+      "label": "Match",
+      "title": "Infinitive to participle",
+      "practice": "match",
+      "instructions": "Choose the real participle. The other form is a wrong build.",
+      "items": [
+        {
+          "prompt": "sehen. Which participle?",
+          "options": [
+            { "emoji": "✅", "label": "gesehen", "caption": "Strong: -en." },
+            { "emoji": "↩️", "label": "geseht", "caption": "Not -t." }
+          ],
+          "answer": 0,
+          "why": "gesehen.",
+          "hint": "gesehen"
+        },
+        {
+          "prompt": "einkaufen. Which participle?",
+          "options": [
+            { "emoji": "✅", "label": "eingekauft", "caption": "ein- stays, ge- in the middle." },
+            { "emoji": "↩️", "label": "gekauft", "caption": "That is kaufen, without ein-." }
+          ],
+          "answer": 0,
+          "why": "eingekauft.",
+          "hint": "eingekauft"
+        },
+        {
+          "prompt": "bezahlen. Which participle?",
+          "options": [
+            { "emoji": "✅", "label": "bezahlt", "caption": "be- blocks ge-." },
+            { "emoji": "↩️", "label": "gebezahlen", "caption": "No ge-, and not the infinitive." }
+          ],
+          "answer": 0,
+          "why": "bezahlt.",
+          "hint": "bezahlt"
+        },
+        {
+          "prompt": "machen. Which participle?",
+          "options": [
+            { "emoji": "✅", "label": "gemacht", "caption": "Weak: ge- + t." },
+            { "emoji": "↩️", "label": "gemachen", "caption": "machen is not strong." }
+          ],
+          "answer": 0,
+          "why": "gemacht.",
+          "hint": "gemacht"
+        },
+        {
+          "prompt": "trinken. Which participle?",
+          "options": [
+            { "emoji": "✅", "label": "getrunken", "caption": "i becomes u." },
+            { "emoji": "↩️", "label": "getrinkt", "caption": "Not -t." }
+          ],
+          "answer": 0,
+          "why": "getrunken.",
+          "hint": "getrunken"
+        },
+        {
+          "prompt": "anrufen. Which participle?",
+          "options": [
+            { "emoji": "✅", "label": "angerufen", "caption": "an- + gerufen." },
+            { "emoji": "↩️", "label": "gerufen", "caption": "That drops an-." }
+          ],
+          "answer": 0,
+          "why": "angerufen.",
+          "hint": "angerufen"
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "What the shift used",
+      "practice": "picture",
+      "instructions": "A chart, a tablet, a stethoscope, a syringe.",
+      "items": [
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart that was opened",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        },
+        {
+          "id": "tablette",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "the tablet that was taken",
+          "image": { "type": "svg", "id": "tablet" },
+          "hint": "die"
+        },
+        {
+          "id": "stethoskop",
+          "de": "Stethoskop",
+          "article": "das",
+          "plural": "die Stethoskope",
+          "en": "the stethoscope from the examination",
+          "image": { "type": "svg", "id": "stethoscope" },
+          "hint": "das"
+        },
+        {
+          "id": "spritze",
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "the syringe that was prepared",
+          "image": { "type": "svg", "id": "syringe" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-partizip",
+      "type": "builder",
+      "label": "Build",
+      "title": "Participle at the end",
+      "practice": "build",
+      "instructions": "Build the Perfekt. The participle is the last word.",
+      "items": [
+        {
+          "tiles": ["Der", "Arzt", "hat", "den", "Befund", "gesehen"],
+          "answers": ["Der Arzt hat den Befund gesehen"],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "gesehen",
+          "question": false,
+          "en": "The doctor has seen the report.",
+          "hint": "gesehen last.",
+          "feedback": { "end": "The participle comes last: gesehen.", "fallback": "hat … gesehen." }
+        },
+        {
+          "tiles": ["Die", "Tochter", "hat", "eingekauft"],
+          "answers": ["Die Tochter hat eingekauft"],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "eingekauft",
+          "question": false,
+          "en": "The daughter has done the shopping.",
+          "hint": "eingekauft is one word.",
+          "feedback": { "end": "The participle comes last: eingekauft.", "fallback": "hat eingekauft." }
+        },
+        {
+          "tiles": ["Der", "Patient", "hat", "bezahlt"],
+          "answers": ["Der Patient hat bezahlt"],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "bezahlt",
+          "question": false,
+          "en": "The patient has paid.",
+          "hint": "bezahlt, no ge-.",
+          "feedback": { "end": "The participle comes last: bezahlt.", "fallback": "hat bezahlt." }
+        },
+        {
+          "tiles": ["Die", "Pflegekraft", "hat", "den", "Befund", "geschrieben"],
+          "answers": ["Die Pflegekraft hat den Befund geschrieben"],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "geschrieben",
+          "question": false,
+          "en": "The nurse has written the report.",
+          "hint": "geschrieben last.",
+          "feedback": { "end": "The participle comes last: geschrieben.", "fallback": "hat … geschrieben." }
+        }
+      ]
+    },
+    {
+      "id": "transform-partizip",
+      "label": "Rewrite",
+      "title": "Present to participle",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "Write the Perfekt. Build the participle from the verb in the label.",
+      "chips": [
+        { "w": "Der Arzt hat den Befund gesehen", "hint": "sehen → gesehen." },
+        { "w": "Die Tochter hat eingekauft", "hint": "einkaufen → eingekauft." },
+        { "w": "Der Patient hat bezahlt", "hint": "bezahlen → bezahlt." },
+        { "w": "Der Arzt hat den Patienten untersucht", "hint": "untersuchen → untersucht." },
+        { "w": "Der Patient hat Wasser getrunken", "hint": "trinken → getrunken." },
+        { "w": "Ich habe gewartet", "hint": "warten → gewartet." }
+      ],
+      "items": [
+        {
+          "before": "sehen: Der Arzt sieht den Befund. →",
+          "after": ".",
+          "answer": "Der Arzt hat den Befund gesehen",
+          "en": "The doctor has seen the report.",
+          "why": "sieht → hat … gesehen.",
+          "tip": "gesehen.",
+          "hint": "gesehen."
+        },
+        {
+          "before": "einkaufen: Die Tochter kauft ein. →",
+          "after": ".",
+          "answer": "Die Tochter hat eingekauft",
+          "en": "The daughter has done the shopping.",
+          "why": "kauft ein → hat eingekauft.",
+          "tip": "eingekauft.",
+          "hint": "eingekauft."
+        },
+        {
+          "before": "bezahlen: Der Patient bezahlt. →",
+          "after": ".",
+          "answer": "Der Patient hat bezahlt",
+          "en": "The patient has paid.",
+          "why": "bezahlt stays bezahlt, with hat.",
+          "tip": "hat bezahlt.",
+          "hint": "hat bezahlt."
+        },
+        {
+          "before": "untersuchen: Der Arzt untersucht den Patienten. →",
+          "after": ".",
+          "answer": "Der Arzt hat den Patienten untersucht",
+          "en": "The doctor has examined the patient.",
+          "why": "untersucht stays untersucht. No ge-.",
+          "tip": "hat … untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "before": "trinken: Der Patient trinkt Wasser. →",
+          "after": ".",
+          "answer": "Der Patient hat Wasser getrunken",
+          "en": "The patient drank water.",
+          "why": "trinkt → hat … getrunken.",
+          "tip": "getrunken.",
+          "hint": "getrunken."
+        },
+        {
+          "before": "warten: Ich warte. →",
+          "after": ".",
+          "answer": "Ich habe gewartet",
+          "en": "I waited.",
+          "why": "warte → habe gewartet.",
+          "tip": "gewartet.",
+          "hint": "gewartet."
+        }
+      ]
+    },
+    {
+      "id": "error-partizip",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line builds the participle wrong. Choose the correction.",
+      "items": [
+        {
+          "clues": ["sehen is strong.", "Not -t.", "Der Arzt hat den Befund geseht."],
+          "options": ["Der Arzt hat den Befund gesehen.", "Der Arzt hat den Befund geseht.", "Der Arzt hat den Befund sehen."],
+          "answer": 0,
+          "reveal": "Der Arzt hat den Befund gesehen.",
+          "hint": "gesehen."
+        },
+        {
+          "clues": ["einkaufen is separable.", "ein- does not split off.", "Die Tochter hat gekauft ein."],
+          "options": ["Die Tochter hat eingekauft.", "Die Tochter hat gekauft ein.", "Die Tochter hat geeingekauft."],
+          "answer": 0,
+          "reveal": "Die Tochter hat eingekauft.",
+          "hint": "eingekauft."
+        },
+        {
+          "clues": ["bezahlen has be-.", "No ge-.", "Der Patient hat gebezahlen."],
+          "options": ["Der Patient hat bezahlt.", "Der Patient hat gebezahlen.", "Der Patient hat gebezaht."],
+          "answer": 0,
+          "reveal": "Der Patient hat bezahlt.",
+          "hint": "bezahlt."
+        },
+        {
+          "clues": ["untersuchen takes no ge-.", "Not geuntersucht.", "Der Arzt hat den Patienten geuntersucht."],
+          "options": ["Der Arzt hat den Patienten untersucht.", "Der Arzt hat den Patienten geuntersucht.", "Der Arzt hat den Patienten untersuchen."],
+          "answer": 0,
+          "reveal": "Der Arzt hat den Patienten untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "clues": ["warten ends in -t.", "Add -et.", "Ich habe gewart."],
+          "options": ["Ich habe gewartet.", "Ich habe gewart.", "Ich habe gewartt."],
+          "answer": 0,
+          "reveal": "Ich habe gewartet.",
+          "hint": "gewartet."
+        },
+        {
+          "clues": ["schreiben is strong.", "ei becomes ie.", "Sie hat den Befund geschreibt."],
+          "options": ["Sie hat den Befund geschrieben.", "Sie hat den Befund geschreibt.", "Sie hat den Befund schreiben."],
+          "answer": 0,
+          "reveal": "Sie hat den Befund geschrieben.",
+          "hint": "geschrieben."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-partizip",
+      "label": "Dialogue",
+      "title": "At the desk",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "hat or habe is already there. Add the participle from the label.",
+      "chips": [
+        { "w": "gesehen", "hint": "sehen." },
+        { "w": "eingekauft", "hint": "einkaufen." },
+        { "w": "bezahlt", "hint": "bezahlen." },
+        { "w": "genommen", "hint": "nehmen." },
+        { "w": "angerufen", "hint": "anrufen." },
+        { "w": "geholfen", "hint": "helfen. The person is dative." }
+      ],
+      "items": [
+        {
+          "before": "Arzt, sehen: Ich habe den Befund",
+          "after": ".",
+          "answer": "gesehen",
+          "en": "I have seen the report.",
+          "why": "gesehen.",
+          "tip": "gesehen.",
+          "hint": "gesehen.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Tochter, einkaufen: Ich habe",
+          "after": ".",
+          "answer": "eingekauft",
+          "en": "I have done the shopping.",
+          "why": "eingekauft.",
+          "tip": "eingekauft.",
+          "hint": "eingekauft.",
+          "who": "Tochter"
+        },
+        {
+          "before": "Patient, bezahlen: Ich habe",
+          "after": ".",
+          "answer": "bezahlt",
+          "en": "I have paid.",
+          "why": "bezahlt.",
+          "tip": "bezahlt.",
+          "hint": "bezahlt.",
+          "who": "Patient"
+        },
+        {
+          "before": "Pflegekraft, nehmen: Der Patient hat die Tablette",
+          "after": ".",
+          "answer": "genommen",
+          "en": "The patient has taken the tablet.",
+          "why": "genommen.",
+          "tip": "genommen.",
+          "hint": "genommen.",
+          "who": "Pflegekraft"
+        },
+        {
+          "before": "Arzt, anrufen: Ich habe",
+          "after": ".",
+          "answer": "angerufen",
+          "en": "I have called.",
+          "why": "angerufen.",
+          "tip": "angerufen.",
+          "hint": "angerufen.",
+          "who": "Arzt"
+        },
+        {
+          "before": "Pflegekraft, helfen: Ich habe dem Patienten",
+          "after": ".",
+          "answer": "geholfen",
+          "en": "I have helped the patient.",
+          "why": "geholfen. dem Patienten is dative.",
+          "tip": "geholfen.",
+          "hint": "geholfen.",
+          "who": "Pflegekraft"
+        }
+      ]
+    },
+    {
+      "id": "gap-more",
+      "label": "More gaps",
+      "title": "-et, -ieren, and a new vowel",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The label names the infinitive. Watch -et, no ge-, and the vowel.",
+      "chips": [
+        { "w": "geöffnet", "hint": "öffnen → geöffnet." },
+        { "w": "dokumentiert", "hint": "dokumentieren → dokumentiert." },
+        { "w": "gesprochen", "hint": "sprechen → gesprochen." },
+        { "w": "bekommen", "hint": "The participle is bekommen." },
+        { "w": "gemessen", "hint": "messen → gemessen." },
+        { "w": "gearbeitet", "hint": "arbeiten → gearbeitet." }
+      ],
+      "items": [
+        {
+          "before": "öffnen: Die Pflegekraft hat die Akte",
+          "after": ".",
+          "answer": "geöffnet",
+          "en": "The nurse has opened the chart.",
+          "why": "geöffnet.",
+          "tip": "geöffnet.",
+          "hint": "geöffnet."
+        },
+        {
+          "before": "dokumentieren: Sie hat den Befund",
+          "after": ".",
+          "answer": "dokumentiert",
+          "en": "She has documented the report.",
+          "why": "-ieren takes no ge-.",
+          "tip": "dokumentiert.",
+          "hint": "dokumentiert."
+        },
+        {
+          "before": "sprechen: Der Arzt hat mit der Patientin",
+          "after": ".",
+          "answer": "gesprochen",
+          "en": "The doctor has spoken with the female patient.",
+          "why": "gesprochen. mit der Patientin.",
+          "tip": "gesprochen.",
+          "hint": "gesprochen."
+        },
+        {
+          "before": "bekommen: Der Patient hat ein Zimmer",
+          "after": ".",
+          "answer": "bekommen",
+          "en": "The patient has got a room.",
+          "why": "bekommen looks like the infinitive.",
+          "tip": "bekommen, not gebekommen.",
+          "hint": "bekommen."
+        },
+        {
+          "before": "messen: Die Pflegekraft hat Fieber",
+          "after": ".",
+          "answer": "gemessen",
+          "en": "The nurse has measured the fever.",
+          "why": "gemessen, not gemesst.",
+          "tip": "gemessen.",
+          "hint": "gemessen."
+        },
+        {
+          "before": "arbeiten: Ich habe heute",
+          "after": ".",
+          "answer": "gearbeitet",
+          "en": "I worked today.",
+          "why": "gearbeitet. The stem ends in -t.",
+          "tip": "gearbeitet.",
+          "hint": "gearbeitet."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "Evening shift",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text.",
+      "document": {
+        "letterhead": "Station 4 · Abend",
+        "title": "Die Schicht am Abend",
+        "paragraphs": [
+          "Die Pflegekraft hat die Akte geöffnet. Der Patient hat die Tablette genommen. Der Arzt hat angerufen.",
+          "Die Pflegekraft hat Fieber gemessen. Sie hat den Befund dokumentiert. Der Patient hat ein Zimmer bekommen."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Was hat die Pflegekraft geöffnet?",
+          "qEn": "die Akte.",
+          "options": ["die Akte", "den Befund", "das Zimmer"],
+          "answer": 0,
+          "why": "die Akte.",
+          "hint": "geöffnet."
+        },
+        {
+          "kind": "mc",
+          "q": "Was hat der Patient genommen?",
+          "qEn": "die Tablette.",
+          "options": ["die Tablette", "das Fieber", "die Akte"],
+          "answer": 0,
+          "why": "die Tablette.",
+          "hint": "genommen."
+        },
+        {
+          "kind": "mc",
+          "q": "Wer hat angerufen?",
+          "qEn": "Der Arzt.",
+          "options": ["Der Arzt", "Die Pflegekraft", "Der Patient"],
+          "answer": 0,
+          "why": "Der Arzt hat angerufen.",
+          "hint": "angerufen."
+        },
+        {
+          "kind": "mc",
+          "q": "Was hat der Patient bekommen?",
+          "qEn": "ein Zimmer.",
+          "options": ["ein Zimmer", "den Befund", "die Tablette"],
+          "answer": 0,
+          "why": "ein Zimmer.",
+          "hint": "bekommen."
+        }
+      ]
+    },
+    {
+      "id": "writing-partizip",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four participles",
+      "practice": "writing",
+      "instructions": "Write four Perfekt sentences. The participle goes last.",
+      "prompt": "The doctor has seen the report. The daughter has done the shopping. The patient has paid. I waited.",
+      "bullets": ["gesehen", "eingekauft", "bezahlt", "gewartet"],
+      "model": "Der Arzt hat den Befund gesehen. Die Tochter hat eingekauft. Der Patient hat bezahlt. Ich habe gewartet.",
+      "modelEn": "The doctor has seen the report. The daughter has done the shopping. The patient has paid. I waited.",
+      "hint": "gesehen, eingekauft, bezahlt, gewartet.",
+      "checklist": [
+        { "id": "s", "label": "gesehen", "keywords": ["gesehen"] },
+        { "id": "e", "label": "eingekauft", "keywords": ["eingekauft"] },
+        { "id": "b", "label": "bezahlt", "keywords": ["bezahlt"] },
+        { "id": "w", "label": "gewartet", "keywords": ["gewartet"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Das Partizip",
+      "heroImage": "stethoscope",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "ge- + t, prefix + ge-, no ge-, or ge- + en.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "sehen → ?",
+          "qEn": "Strong.",
+          "options": ["gesehen", "geseht", "sehen"],
+          "answer": 0,
+          "why": "gesehen.",
+          "hint": "gesehen."
+        },
+        {
+          "kind": "mc",
+          "q": "einkaufen → ?",
+          "qEn": "Separable.",
+          "options": ["eingekauft", "gekauft ein", "geeingekauft"],
+          "answer": 0,
+          "why": "eingekauft.",
+          "hint": "eingekauft."
+        },
+        {
+          "kind": "mc",
+          "q": "bezahlen → ?",
+          "qEn": "No ge-.",
+          "options": ["bezahlt", "gebezahlen", "gebezaht"],
+          "answer": 0,
+          "why": "bezahlt.",
+          "hint": "bezahlt."
+        },
+        {
+          "kind": "mc",
+          "q": "warten → ?",
+          "qEn": "-et.",
+          "options": ["gewartet", "gewart", "gewartt"],
+          "answer": 0,
+          "why": "gewartet.",
+          "hint": "gewartet."
+        },
+        {
+          "kind": "mc",
+          "q": "untersuchen → ?",
+          "qEn": "No ge-.",
+          "options": ["untersucht", "geuntersucht", "untersuchen"],
+          "answer": 0,
+          "why": "untersucht.",
+          "hint": "untersucht."
+        },
+        {
+          "kind": "mc",
+          "q": "schreiben → ?",
+          "qEn": "Strong.",
+          "options": ["geschrieben", "geschreibt", "schreiben"],
+          "answer": 0,
+          "why": "geschrieben.",
+          "hint": "geschrieben."
+        },
+        {
+          "kind": "mc",
+          "q": "trinken → ?",
+          "qEn": "i becomes u.",
+          "options": ["getrunken", "getrinkt", "trinken"],
+          "answer": 0,
+          "why": "getrunken.",
+          "hint": "getrunken."
+        },
+        {
+          "kind": "mc",
+          "q": "nehmen → ?",
+          "qEn": "e becomes o.",
+          "options": ["genommen", "genehmen", "nehmen"],
+          "answer": 0,
+          "why": "genommen.",
+          "hint": "genommen."
+        },
+        {
+          "kind": "mc",
+          "q": "anrufen → ?",
+          "qEn": "Separable and strong.",
+          "options": ["angerufen", "gerufen", "anrufen"],
+          "answer": 0,
+          "why": "angerufen.",
+          "hint": "angerufen."
+        },
+        {
+          "kind": "mc",
+          "q": "bekommen → ?",
+          "qEn": "The participle looks like the infinitive.",
+          "options": ["bekommen", "gebekommen", "bekommt"],
+          "answer": 0,
+          "why": "bekommen.",
+          "hint": "bekommen."
+        },
+        {
+          "kind": "mc",
+          "q": "öffnen → ?",
+          "qEn": "-et.",
+          "options": ["geöffnet", "geöffent", "öffnen"],
+          "answer": 0,
+          "why": "geöffnet.",
+          "hint": "geöffnet."
+        },
+        {
+          "kind": "mc",
+          "q": "messen → ?",
+          "qEn": "Not gemesst.",
+          "options": ["gemessen", "gemesst", "messen"],
+          "answer": 0,
+          "why": "gemessen.",
+          "hint": "gemessen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "gesehen, eingekauft, bezahlt",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Der Arzt hat den Befund gesehen.", "en": "The doctor has seen the report." },
+        { "de": "Die Tochter hat eingekauft.", "en": "The daughter has done the shopping." },
+        { "de": "Der Patient hat bezahlt.", "en": "The patient has paid." },
+        { "de": "Ich habe gewartet.", "en": "I waited." }
+      ],
+      "messages": [
+        "Look again at ge-, no ge-, and -en.",
+        "Separable verbs keep the prefix. be-, er-, ver- and -ieren take no ge-.",
+        "Sehr gut. gesehen, eingekauft, bezahlt.",
+        "Ausgezeichnet. You can build the participle for the ward."
+      ]
+    }
+  ]
+}
