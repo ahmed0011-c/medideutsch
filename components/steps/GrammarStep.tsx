@@ -234,7 +234,7 @@ export function GrammarStepView({ step }: { step: GrammarStep }) {
             {step.warning.items.map((item) => (
               <div key={item.de} className={`it ${item.tone}`}>
                 <b>
-                  {item.tone === "ok" ? "🟢" : "⛔"} {item.de}
+                  {item.tone === "ok" ? "🟢" : "⛔"} <ClickableText text={item.de} sentence={item.de} />
                 </b>
                 {item.en}
               </div>

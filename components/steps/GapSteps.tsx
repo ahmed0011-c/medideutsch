@@ -11,7 +11,7 @@ import {
 } from "@dnd-kit/core";
 import type { GapCaseStep, GapFillStep } from "@/lib/lesson-schema";
 import { useLesson } from "@/lib/lesson-context";
-import { HintButton } from "@/components/lesson/bits";
+import { ClickableText, HintButton } from "@/components/lesson/bits";
 import { useLessonSensors } from "@/components/lesson/dnd";
 import { pointsForAttempt } from "@/lib/scoring";
 import { seededShuffle } from "@/lib/shuffle";
@@ -86,7 +86,12 @@ export function GapFillStepView({ step }: { step: GapFillStep }) {
                 <div className="row">
                   <span className="num">{index + 1}</span>
                   {item.who ? <span className="who emoji">{item.who}</span> : null}
-                  {item.before ? <span>{item.before}</span> : null}
+                  {item.before ? (
+                    <ClickableText
+                      text={item.before}
+                      sentence={`${item.before} ${item.answer} ${item.after}`.replace(/\s+/g, " ").trim()}
+                    />
+                  ) : null}
                   <GapSlot
                     index={index}
                     filled={done}
@@ -97,7 +102,12 @@ export function GapFillStepView({ step }: { step: GapFillStep }) {
                       else if (!done) toast("Pick a word first, then tap the gap.");
                     }}
                   />
-                  <span>{item.after}</span>
+                  {item.after ? (
+                    <ClickableText
+                      text={item.after}
+                      sentence={`${item.before} ${item.answer} ${item.after}`.replace(/\s+/g, " ").trim()}
+                    />
+                  ) : null}
                   {item.hint ? <HintButton hintKey={`hint:${key}`} text={item.hint} disabled={done} /> : null}
                 </div>
                 {done ? (
@@ -191,7 +201,7 @@ export function GapCaseStepView({ step }: { step: GapCaseStep }) {
               <div key={key} className={`gitem${done ? " solved" : ""}`}>
                 <div className="row">
                   <span className="num">{index + 1}</span>
-                  {item.before ? <span>{item.before}</span> : null}
+                  {item.before ? <ClickableText text={item.before} /> : null}
                   <GapSlot
                     index={index}
                     gapId={`${step.id}-${index}`}
@@ -204,7 +214,7 @@ export function GapCaseStepView({ step }: { step: GapCaseStep }) {
                       else if (!done) toast("Pick an article first, then tap the gap.");
                     }}
                   />
-                  <span>{item.after}</span>
+                  {item.after ? <ClickableText text={item.after} /> : null}
                   <HintButton hintKey={`hint:${key}`} text={item.hint} disabled={done} />
                 </div>
                 {done ? <div className="fb ok">✓ {item.why}</div> : null}

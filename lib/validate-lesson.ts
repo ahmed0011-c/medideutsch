@@ -18,6 +18,54 @@ function pictureIssue(
   return null;
 }
 
+function germanExerciseTexts(lesson: Lesson): string[] {
+  if (lesson.exerciseLanguage !== "de") return [];
+  const texts: string[] = [];
+  const push = (...values: Array<string | undefined>) => {
+    for (const value of values) if (value) texts.push(value);
+  };
+  for (const step of lesson.steps) {
+    push(step.title);
+    if (step.type === "grammar") {
+      push(step.quizTitle, step.heroTitle);
+      for (const question of step.quiz) push(question.q, ...question.options);
+      for (const meaning of step.meanings ?? []) push(meaning.de);
+      for (const item of step.warning?.items ?? []) push(item.de);
+    }
+    if (step.type === "cases") {
+      for (const question of step.quiz) push(question.q, ...question.options);
+    }
+    if (step.type === "gapfill") {
+      for (const chip of step.chips) push(chip.w);
+      for (const item of step.items) push(item.before, item.after, item.answer);
+    }
+    if (step.type === "builder") {
+      for (const item of step.items) push(item.task, ...item.tiles, ...item.answers);
+    }
+    if (step.type === "picturematch") {
+      for (const item of step.items) push(item.article, item.de);
+    }
+    if (step.type === "quickreact") {
+      push(step.cue);
+      for (const item of step.items) push(item.prompt, item.speaker, item.speakerLine, ...item.options);
+    }
+    if (step.type === "riddle") {
+      for (const item of step.items) push(...item.clues, ...item.options, item.reveal);
+    }
+    if (step.type === "writing") {
+      push(step.prompt, step.model, ...step.bullets);
+      for (const item of step.checklist) push(item.label);
+    }
+    if (step.type === "reading") {
+      for (const question of step.questions) push(question.q, ...question.options);
+    }
+    if (step.type === "summary") {
+      for (const line of step.redemittel) push(line.de);
+    }
+  }
+  return texts;
+}
+
 function textsToCheck(lesson: Lesson): string[] {
   const texts: string[] = [];
   for (const step of lesson.steps) {
@@ -67,7 +115,7 @@ export function validateLesson(lesson: Lesson): LessonIssue[] {
     if (picture) fail(picture);
   }
 
-  for (const text of textsToCheck(lesson)) {
+  for (const text of [...textsToCheck(lesson), ...germanExerciseTexts(lesson)]) {
     for (const missing of unresolvedTokens(text, lesson.glossary)) {
       fail(`No glossary entry for “${missing}” in: ${text.slice(0, 80)}`);
     }

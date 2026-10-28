@@ -276,7 +276,9 @@ export function McBlock({
 
   return (
     <div className="q">
-      <div className="qt">{question.q}</div>
+      <div className="qt">
+        <ClickableText text={question.q} sentence={question.q} />
+      </div>
       {question.qEn ? <div className="qen">{question.qEn}</div> : null}
       <div className="opts">
         {question.options.map((option, index) => {

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import type { QuickReactStep } from "@/lib/lesson-schema";
 import { useLesson } from "@/lib/lesson-context";
-import { McBlock } from "@/components/lesson/bits";
+import { ClickableText, McBlock } from "@/components/lesson/bits";
 
 export function QuickReactStepView({ step }: { step: QuickReactStep }) {
   const { progress } = useLesson();
@@ -36,12 +36,18 @@ export function QuickReactStepView({ step }: { step: QuickReactStep }) {
               marginBottom: 12,
             }}
           >
-            <b>{item.speaker}</b>
-            <p style={{ margin: "6px 0 0" }}>{item.speakerLine}</p>
+            <b>
+              <ClickableText text={item.speaker} />
+            </b>
+            <p style={{ margin: "6px 0 0" }}>
+              <ClickableText text={item.speakerLine} sentence={item.speakerLine} />
+            </p>
           </div>
         ) : null}
         {step.cue && !item.speaker ? (
-          <p style={{ fontSize: 28, fontWeight: 800, margin: "0 0 8px", color: "var(--navy)" }}>{step.cue}</p>
+          <p style={{ fontSize: 28, fontWeight: 800, margin: "0 0 8px", color: "var(--navy)" }}>
+            <ClickableText text={step.cue} />
+          </p>
         ) : null}
         <McBlock
           question={{

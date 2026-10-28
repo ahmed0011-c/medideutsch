@@ -11,7 +11,7 @@ import {
 } from "@dnd-kit/core";
 import type { BuilderStep } from "@/lib/lesson-schema";
 import { useLesson } from "@/lib/lesson-context";
-import { HintButton } from "@/components/lesson/bits";
+import { ClickableText, HintButton } from "@/components/lesson/bits";
 import { useLessonSensors } from "@/components/lesson/dnd";
 import { builderAccepts, diagnoseBuilder, pointsForAttempt } from "@/lib/scoring";
 import { shuffleNotIdentity } from "@/lib/shuffle";
@@ -111,7 +111,11 @@ function BuilderCard({ step, index }: { step: BuilderStep; index: number }) {
       <div className="card bitem">
         <div className="head">
           <span className="num">{index + 1}</span>
-          <span className="en">“{item.en}”</span>
+          {item.task ? (
+            <ClickableText text={item.task} sentence={item.answers[0]} />
+          ) : (
+            <span className="en">“{item.en}”</span>
+          )}
         </div>
         <AnswerLine
           index={index}
@@ -174,7 +178,7 @@ function BuilderCard({ step, index }: { step: BuilderStep; index: number }) {
         {solved ? (
           <div className="fb ok">
             ✓ Perfekt! „{sentence}
-            {item.punct}“
+            {item.punct}“{item.task ? <div className="en">{item.en}</div> : null}
           </div>
         ) : message ? (
           <div className="fb bad">✗ Not yet. {message}</div>

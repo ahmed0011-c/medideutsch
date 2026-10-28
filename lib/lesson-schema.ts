@@ -307,6 +307,8 @@ export const builderStepSchema = z.object({
       modal: z.string(),
       inf: z.string(),
       question: z.boolean(),
+      /** German task line. When set, en is the translation shown after the line is built. */
+      task: z.string().optional(),
       en: z.string(),
       hint: z.string().optional(),
       feedback: z
@@ -504,6 +506,8 @@ export const lessonSchema = z.object({
   chapters: z.array(z.number().int()).optional(),
   /** Ids from content/scenario-bank.json. Several book situations, rotated across chapters. */
   scenarios: z.array(z.string().min(1)).optional(),
+  /** de: exercise sentences, prompts, options and step titles are German and glossary-checked. */
+  exerciseLanguage: z.literal("de").optional(),
   scoring: scoringSchema,
   cases: z.record(caseId, caseInfoSchema).optional(),
   glossary: z.record(z.string(), glossaryEntrySchema),

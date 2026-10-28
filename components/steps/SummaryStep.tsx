@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import type { SummaryStep } from "@/lib/lesson-schema";
 import { useLesson } from "@/lib/lesson-context";
+import { ClickableText } from "@/components/lesson/bits";
 import { lernkontrolleStep, MASTERY_RATIO, solvedQuizCount } from "@/lib/practice";
 
 const DEFAULT_MESSAGES = [
@@ -125,7 +126,9 @@ export function SummaryStepView({
                   🔊
                 </button>
                 <div>
-                  <b>{line.de}</b>
+                  <b>
+                    <ClickableText text={line.de} sentence={line.de} />
+                  </b>
                   <span>{line.en}</span>
                 </div>
               </div>

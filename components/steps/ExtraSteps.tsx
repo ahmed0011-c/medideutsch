@@ -3,7 +3,7 @@
 import { useState } from "react";
 import type { CompareStep, RiddleStep, WritingStep } from "@/lib/lesson-schema";
 import { useLesson } from "@/lib/lesson-context";
-import { HintButton } from "@/components/lesson/bits";
+import { ClickableText, HintButton } from "@/components/lesson/bits";
 import { Illustration } from "@/components/illustrations";
 import { pointsForAttempt } from "@/lib/scoring";
 
@@ -21,7 +21,9 @@ export function CompareStepView({ step }: { step: CompareStep }) {
         const wrong = progress.wrong[key] ?? [];
         return (
           <div key={item.prompt} className="card">
-            <h2>{item.prompt}</h2>
+            <h2>
+              <ClickableText text={item.prompt} />
+            </h2>
             <div className="compare-grid">
               {item.options.map((option, optionIndex) => {
                 const right = solved && optionIndex === item.answer;
@@ -90,7 +92,7 @@ export function RiddleStepView({ step }: { step: RiddleStep }) {
           <div key={item.reveal} className="card">
             {item.clues.map((clue) => (
               <div key={clue} className="riddle-clue">
-                {clue}
+                <ClickableText text={clue} />
               </div>
             ))}
             <div className="opts">
@@ -177,10 +179,14 @@ export function WritingStepView({ step }: { step: WritingStep }) {
         <span>{step.instructions}</span>
       </div>
       <div className="card">
-        <h2>{step.prompt}</h2>
+        <h2>
+          <ClickableText text={step.prompt} sentence={step.model} />
+        </h2>
         <ul>
           {step.bullets.map((bullet) => (
-            <li key={bullet}>{bullet}</li>
+            <li key={bullet}>
+              <ClickableText text={bullet} />
+            </li>
           ))}
         </ul>
         <textarea
@@ -210,14 +216,18 @@ export function WritingStepView({ step }: { step: WritingStep }) {
           {step.checklist.map((item) => (
             <div key={item.id} className="check-item">
               <span>{saved.awarded[item.id] ? "✅" : "⬜"}</span>
-              <span>{item.label}</span>
+              <span>
+                <ClickableText text={item.label} />
+              </span>
             </div>
           ))}
         </div>
         {showModel || hit > 0 ? (
           <div className="model">
             <b>Model answer</b>
-            <p style={{ margin: "6px 0 0" }}>{step.model}</p>
+            <p style={{ margin: "6px 0 0" }}>
+              <ClickableText text={step.model} sentence={step.model} />
+            </p>
             {step.modelEn ? <p className="muted">{step.modelEn}</p> : null}
           </div>
         ) : null}
