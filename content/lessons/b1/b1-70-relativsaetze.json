@@ -1,0 +1,1175 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-70-relativsaetze",
+  "level": "B1",
+  "unit": "Kapitel 70",
+  "chapter": 70,
+  "chapters": [70],
+  "title": "Das ist der Mann, der immer meine Nachbarin besucht",
+  "subtitle": "Relative clauses 1",
+  "glossary": {
+    "das": {
+      "de": "das",
+      "pos": "pronoun",
+      "en": "that / the (neuter)",
+      "emoji": "🚪",
+      "note": "Neuter nominative and accusative, as the article and as the relative pronoun. Das Zimmer, das frei ist. Das Medikament, das sie nimmt. Not dass. dass stays a conjunction, chapter 42."
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🚪",
+      "note": "Das ist der Mann. In the relative clause the verb is last: das frei ist. Das Zimmer ist frei stays verb second. After ist, frei has no ending."
+    },
+    "der": {
+      "de": "der",
+      "pos": "pronoun",
+      "en": "who / the (masculine nominative, feminine dative)",
+      "emoji": "🔵",
+      "note": "Masculine nominative: der Patient, der im Zimmer liegt. Feminine dative: der Patientin, der wir helfen. The article der has the same two jobs. Not dem for a woman."
+    },
+    "mann": {
+      "de": "Mann",
+      "pos": "noun",
+      "en": "man",
+      "emoji": "🧑",
+      "article": "der",
+      "plural": "die Männer",
+      "note": "Nominative in the title. Not n-declension. Accusative den Mann. Here der Mann is the subject of besucht."
+    },
+    "immer": {
+      "de": "immer",
+      "pos": "adverb",
+      "en": "always",
+      "emoji": "🔁",
+      "note": "der immer meine Nachbarin besucht. immer stands before the object. besucht stays last."
+    },
+    "meine": {
+      "de": "meine",
+      "pos": "determiner",
+      "en": "my (feminine)",
+      "emoji": "👩",
+      "note": "meine Nachbarin. Feminine. She is the object of besucht, inside the relative clause."
+    },
+    "nachbarin": {
+      "de": "Nachbarin",
+      "pos": "noun",
+      "en": "neighbour (female)",
+      "emoji": "👩",
+      "article": "die",
+      "plural": "die Nachbarinnen",
+      "note": "Accusative in der immer meine Nachbarin besucht. Feminine accusative looks like the nominative."
+    },
+    "besucht": {
+      "de": "besuchen → er besucht",
+      "pos": "form",
+      "en": "visits",
+      "emoji": "👩",
+      "note": "Verb at the end of the relative clause. besuchen takes an accusative object. Er besucht meine Nachbarin stays the main clause, verb second."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative singular. No -en. der Patient, der im Zimmer liegt. den Patienten and dem Patienten are chapter 64."
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in the",
+      "emoji": "🚪",
+      "note": "im = in + dem. Dative. der im Zimmer liegt. liegen asks wo? ins Zimmer is direction, chapter 62, and stays correct with legen."
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer",
+      "note": "im Zimmer is dative. das Zimmer, das frei ist. Das Zimmer ist frei stays a main clause."
+    },
+    "liegt": {
+      "de": "liegen → er liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🛏️",
+      "note": "In the relative clause, liegt is last: der im Zimmer liegt. Der Patient liegt im Zimmer stays verb second. Der liegt im Zimmer stays a main clause too."
+    },
+    "schläft": {
+      "de": "schlafen → er schläft",
+      "pos": "form",
+      "en": "sleeps",
+      "emoji": "😴",
+      "note": "Main-clause verb. Der Patient, der im Zimmer liegt, schläft. schläft comes after the whole relative clause."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "kennen": {
+      "de": "kennen → wir kennen",
+      "pos": "form",
+      "en": "know",
+      "emoji": "👁️",
+      "note": "wir kennen. Accusative. Wir kennen den Patienten. The relative pronoun for that object is den: den wir kennen."
+    },
+    "den": {
+      "de": "den",
+      "pos": "pronoun",
+      "en": "whom / the (masculine accusative)",
+      "emoji": "🔵",
+      "note": "Masculine accusative article and relative pronoun. den Patienten, den die Ärztin sieht. den is also the dative plural article: den Patienten, several people. The dative plural relative pronoun is denen, not den."
+    },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "den Patienten is one man in the accusative, and several people in the dative. dem Patienten is one man in the dative. der Patient stays nominative. Chapter 64."
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Ärztinnen",
+      "note": "Nominative. den die Ärztin sieht. She is the subject of sieht. The patient is the object, so the pronoun is den."
+    },
+    "sieht": {
+      "de": "sehen → sie sieht",
+      "pos": "form",
+      "en": "sees",
+      "emoji": "👁️",
+      "note": "Verb at the end: den die Ärztin sieht. Die Ärztin sieht den Patienten stays the main clause."
+    },
+    "die": {
+      "de": "die",
+      "pos": "pronoun",
+      "en": "who, that / the (feminine or plural)",
+      "emoji": "💊",
+      "note": "Feminine nominative and accusative, and plural nominative and accusative. Article and relative pronoun. die Tablette, die sie nimmt. die Patienten, die warten. Dative plural is not die."
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten",
+      "note": "die Tablette, die sie nimmt. Feminine. Nominative and accusative look the same. Sie nimmt die Tablette stays the main clause."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she",
+      "emoji": "👩‍⚕️",
+      "note": "Subject of nimmt. die sie nimmt. The tablet is the object, so the relative pronoun stays die."
+    },
+    "nimmt": {
+      "de": "nehmen → sie nimmt",
+      "pos": "form",
+      "en": "takes",
+      "emoji": "💊",
+      "note": "Verb at the end of the relative clause: die sie nimmt. Sie nimmt die Tablette stays verb second."
+    },
+    "frei": {
+      "de": "frei",
+      "pos": "adjective",
+      "en": "free",
+      "emoji": "🚪",
+      "note": "After ist there is no ending. das frei ist. Das Zimmer ist frei. Not freie. Chapter 36."
+    },
+    "helfen": {
+      "de": "helfen → wir helfen",
+      "pos": "form",
+      "en": "help",
+      "emoji": "🤝",
+      "note": "wir helfen. The person is dative, chapter 22. dem wir helfen. der wir helfen for a woman. denen wir helfen for several people. Not den wir helfen."
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "pronoun",
+      "en": "whom / the (masculine or neuter dative)",
+      "emoji": "🤝",
+      "note": "Masculine and neuter dative, article and relative pronoun. dem Patienten, dem wir danken. One man. Not feminine. Not plural. Feminine dative is der. Plural is denen."
+    },
+    "danken": {
+      "de": "danken → wir danken",
+      "pos": "form",
+      "en": "thank",
+      "emoji": "🙏",
+      "note": "wir danken. Dative, chapter 22. dem wir danken. der wir danken. denen wir danken. The verb stays last."
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient (female)",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Patientinnen",
+      "note": "die Patientin is nominative and accusative. der Patientin is dative. The relative pronoun in the dative is also der: der wir helfen."
+    },
+    "denen": {
+      "de": "denen",
+      "pos": "pronoun",
+      "en": "whom (dative plural)",
+      "emoji": "👥",
+      "note": "Relative pronoun, dative plural only. die Patienten, denen wir helfen. The article for several people in the dative stays den: den Patienten. Not den wir helfen."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Who, whom, to whom",
+      "learn": [
+        "A relative clause follows the noun. Comma, pronoun, verb at the end. Das ist der Mann, der immer meine Nachbarin besucht.",
+        "Gender and number come from the noun. Case comes from the job inside the clause. der im Zimmer liegt. den wir kennen. dem wir helfen.",
+        "Feminine dative is der. Plural dative is denen. den Patienten is the noun, chapter 64. One man in the dative is dem Patienten.",
+        "Der Patient liegt im Zimmer stays a main clause. Wir helfen den Patienten stays dative plural. dass stays chapter 42. mit dem stays chapter 71."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tablette" },
+        { "de": "Zimmer", "article": "das", "plural": "die Zimmer", "en": "room", "emoji": "🚪", "glossaryKey": "zimmer" }
+      ],
+      "text": {
+        "title": "Das ist der Mann, der immer meine Nachbarin besucht",
+        "de": "Das ist der Mann, der immer meine Nachbarin besucht. Der Patient, der im Zimmer liegt, schläft. Wir kennen den Patienten, den die Ärztin sieht. Das ist die Tablette, die sie nimmt. Das ist das Zimmer, das frei ist. Wir helfen dem Patienten, dem wir danken. Wir helfen der Patientin, der wir danken. Wir helfen den Patienten, denen wir danken.",
+        "en": "That is the man who always visits my neighbour. The patient who is lying in the room is sleeping. We know the patient whom the doctor sees. That is the tablet that she takes. That is the room that is free. We help the patient whom we thank. We help the female patient whom we thank. We help the patients whom we thank."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Relative pronouns",
+      "practice": "choose",
+      "heroTitle": "Das ist der Mann, der immer meine Nachbarin besucht",
+      "heroImage": "bed",
+      "story": [
+        "A relative clause describes a noun. Put a comma, then the pronoun, and put the verb at the end. <b>Das ist der Mann, der immer meine Nachbarin besucht.</b> Mann is the subject of besucht, so the pronoun is <b>der</b>. meine Nachbarin is the object inside the clause. Inside the clause the verb stays last. Er besucht meine Nachbarin stays the main clause.",
+        "The pronoun takes <b>gender and number</b> from the noun, and its <b>case</b> from its own job. <b>Der Patient, der im Zimmer liegt, schläft.</b> schläft is the main verb, after the clause. <b>das Zimmer, das frei ist</b> is neuter nominative. <b>die Patienten, die im Zimmer warten</b> is plural nominative. Feminine, neuter, and plural look the same in the nominative and the accusative: die, das, die. <b>Der Patient liegt im Zimmer</b> and <b>Der liegt im Zimmer</b> stay main clauses, verb second. frei has no ending after ist.",
+        "Accusative: <b>Wir kennen den Patienten, den die Ärztin sieht.</b> den Patienten is the noun, one man, chapter 64. The relative <b>den</b> is masculine accusative because she sees him. <b>Wir kennen den Patienten</b> stays correct with no relative clause. <b>der Patient</b> stays nominative. <b>Die Tablette, die sie nimmt</b> and <b>Das Medikament, das sie nimmt</b> keep die and das. <b>Sie nimmt die Tablette</b> stays a main clause.",
+        "Dative: helfen and danken take the person in the dative, chapter 22. <b>Wir helfen dem Patienten, dem wir danken.</b> dem is masculine and neuter dative. One man: dem Patienten. <b>Wir helfen der Patientin, der wir danken.</b> Feminine dative is <b>der</b>, not dem. <b>Wir helfen den Patienten, denen wir danken.</b> Several people: the article is den, and the relative pronoun is <b>denen</b>. <b>Wir helfen dem Patienten</b>, <b>Wir helfen der Patientin</b> and <b>Wir helfen den Patienten</b> stay correct.",
+        "Inside the relative clause a separable verb is one word at the end: <b>der Patient, der aufsteht</b>. <b>Er steht auf</b> stays the main clause. <b>Ich sehe, dass der Patient kommt</b> stays a dass-clause, chapter 42. dass is not a relative pronoun. A preposition plus a pronoun is chapter 71: <b>mit dem</b> stays correct. dessen and deren are not in these exercises.",
+        "The comma is part of the clause. <b>Der Patient, der im Zimmer liegt</b> needs the comma. The noun can be in one case and the pronoun in another: <b>den Patienten, der im Zimmer liegt</b>. den Patienten is accusative, one man. der is nominative, because he lies. Not den im Zimmer liegt."
+      ],
+      "questionRule": "Comma, then the pronoun, verb at the end. Gender and number come from the noun. Case comes from the clause. Feminine dative is der. Plural dative is denen. dass is chapter 42. mit dem is chapter 71.",
+      "tables": [
+        {
+          "title": "Der, den, dem",
+          "caption": "Gender and number come from the noun. Case comes from the relative clause. denen is only dative plural. Feminine dative is der.",
+          "columns": ["Maskulin", "Feminin", "Neutrum", "Plural"],
+          "rows": [
+            { "label": "N", "cells": ["der", "die", "das", "die"] },
+            { "label": "A", "cells": ["den", "die", "das", "die"] },
+            { "label": "D", "cells": ["dem", "der", "dem", "denen"], "highlight": true }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "The verb of the relative clause is last. schläft and the main-clause verbs stay outside it.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "Mann", "cells": ["Das ist der Mann, der immer meine Nachbarin besucht."], "highlight": true },
+            { "label": "liegt", "cells": ["Der Patient, der im Zimmer liegt, schläft."] },
+            { "label": "den", "cells": ["Wir kennen den Patienten, den die Ärztin sieht."] },
+            { "label": "die", "cells": ["Das ist die Tablette, die sie nimmt."] },
+            { "label": "das", "cells": ["Das ist das Zimmer, das frei ist."] },
+            { "label": "dem", "cells": ["Wir helfen dem Patienten, dem wir danken."], "highlight": true },
+            { "label": "der", "cells": ["Wir helfen der Patientin, der wir danken."], "highlight": true },
+            { "label": "denen", "cells": ["Wir helfen den Patienten, denen wir danken."], "highlight": true }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Der Patient liegt im Zimmer, Der liegt im Zimmer, Wir kennen den Patienten, Sie nimmt die Tablette, Das Zimmer ist frei, Wir helfen dem Patienten, Wir helfen der Patientin, Wir helfen den Patienten, Er steht auf, dass, and mit dem stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "Ende", "cells": ["Der Patient, der liegt im Zimmer", "Der Patient, der im Zimmer liegt"] },
+            { "label": "den", "cells": ["Der Patient, der wir kennen", "Der Patient, den wir kennen"] },
+            { "label": "die", "cells": ["Die Tablette, den sie nimmt", "Die Tablette, die sie nimmt"] },
+            { "label": "das", "cells": ["Das Zimmer, die frei ist", "Das Zimmer, das frei ist"] },
+            { "label": "dem", "cells": ["Der Patient, den wir helfen", "Der Patient, dem wir helfen"] },
+            { "label": "der", "cells": ["Die Patientin, dem wir helfen", "Die Patientin, der wir helfen"] },
+            { "label": "denen", "cells": ["Die Patienten, den wir helfen", "Die Patienten, denen wir helfen"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four relative-clause traps",
+        "items": [
+          { "de": "Der Patient, der im Zimmer liegt.", "en": "The verb is last.", "tone": "ok" },
+          { "de": "Der Patient, der liegt im Zimmer.", "en": "Not verb second inside the clause.", "tone": "stop" },
+          { "de": "Der Patient, den wir kennen.", "en": "kennen takes den.", "tone": "ok" },
+          { "de": "Der Patient, der wir kennen.", "en": "der is not the object.", "tone": "stop" },
+          { "de": "Der Patient, dem wir helfen.", "en": "helfen takes dem.", "tone": "ok" },
+          { "de": "Der Patient, den wir helfen.", "en": "helfen does not take den.", "tone": "stop" },
+          { "de": "Die Patienten, denen wir helfen.", "en": "Plural dative is denen.", "tone": "ok" },
+          { "de": "Die Patienten, den wir helfen.", "en": "den is not the plural pronoun.", "tone": "stop" }
+        ],
+        "tip": "Comma. Pronoun. Verb at the end. denen for several people."
+      },
+      "tips": [
+        {
+          "title": "Case from the clause",
+          "body": "der im Zimmer liegt. den wir kennen. dem wir helfen. der wir helfen. denen wir helfen.",
+          "mnemonic": "der liegt. den kennen. dem helfen. denen helfen.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "der", "emoji": "🛏️", "en": "who is lying", "use": "nominative", "de": "Der Patient, der im Zimmer liegt.", "deEn": "The patient who is lying in the room." },
+        { "modal": "die", "emoji": "💊", "en": "that she takes", "use": "accusative", "de": "Die Tablette, die sie nimmt.", "deEn": "The tablet that she takes." },
+        { "modal": "dem", "emoji": "🤝", "en": "whom we help", "use": "dative", "de": "Der Patient, dem wir helfen.", "deEn": "The patient whom we help." },
+        { "modal": "denen", "emoji": "👥", "en": "whom we help", "use": "dative plural", "de": "Die Patienten, denen wir helfen.", "deEn": "The patients whom we help." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The patient who is lying in the room.",
+          "qEn": "der im Zimmer liegt.",
+          "options": ["Der Patient, der im Zimmer liegt.", "Der Patient, der liegt im Zimmer.", "Der Patient liegt im Zimmer."],
+          "answer": 0,
+          "why": "der is nominative, and liegt is last. Der Patient liegt im Zimmer stays a main clause, verb second. Der liegt im Zimmer stays one too.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient whom we know.",
+          "qEn": "den wir kennen.",
+          "options": ["Der Patient, den wir kennen.", "Der Patient, der wir kennen.", "Wir kennen den Patienten."],
+          "answer": 0,
+          "why": "kennen takes the accusative, so the pronoun is den. Wir kennen den Patienten stays correct. den Patienten is one man, chapter 64.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "The tablet that she takes.",
+          "qEn": "die sie nimmt.",
+          "options": ["Die Tablette, die sie nimmt.", "Die Tablette, den sie nimmt.", "Sie nimmt die Tablette."],
+          "answer": 0,
+          "why": "sie nimmt the tablet, so die is accusative. Feminine nominative is also die. Sie nimmt die Tablette stays a main clause. den would be masculine.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "The room that is free.",
+          "qEn": "das frei ist.",
+          "options": ["Das Zimmer, das frei ist.", "Das Zimmer, die frei ist.", "Das Zimmer ist frei."],
+          "answer": 0,
+          "why": "das is neuter nominative, and ist is last. frei has no ending. Das Zimmer ist frei stays a main clause.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient whom we help.",
+          "qEn": "dem wir helfen.",
+          "options": ["Der Patient, dem wir helfen.", "Der Patient, den wir helfen.", "Wir helfen dem Patienten."],
+          "answer": 0,
+          "why": "helfen takes the dative, so one man is dem. Wir helfen dem Patienten stays correct. den is accusative, and helfen does not take it.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The patients whom we help.",
+          "qEn": "denen wir helfen.",
+          "options": ["Die Patienten, denen wir helfen.", "Die Patienten, den wir helfen.", "Wir helfen den Patienten."],
+          "answer": 0,
+          "why": "Several people in the dative take denen. Wir helfen den Patienten stays correct: den there is the article, chapter 64, not the relative pronoun.",
+          "hint": "denen."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Comma, pronoun, verb at the end. A main clause with no relative pronoun stays correct, so it is not a chip here.",
+      "chips": [
+        { "w": "Der Patient, der im Zimmer liegt", "hint": "der." },
+        { "w": "Der Patient, den wir kennen", "hint": "den." },
+        { "w": "Die Tablette, die sie nimmt", "hint": "die." },
+        { "w": "Das Zimmer, das frei ist", "hint": "das." },
+        { "w": "Der Patient, dem wir helfen", "hint": "dem." },
+        { "w": "Die Patienten, denen wir helfen", "hint": "denen." },
+        { "w": "Der Patient, der liegt im Zimmer", "hint": "der." },
+        { "w": "Der Patient, der wir kennen", "hint": "den." },
+        { "w": "Die Tablette, den sie nimmt", "hint": "die." },
+        { "w": "Das Zimmer, die frei ist", "hint": "das." },
+        { "w": "Der Patient, den wir helfen", "hint": "dem." },
+        { "w": "Die Patienten, den wir helfen", "hint": "denen." }
+      ],
+      "items": [
+        {
+          "before": "The patient who is lying in the room:",
+          "after": ".",
+          "answer": "Der Patient, der im Zimmer liegt",
+          "en": "The patient who is lying in the room.",
+          "why": "der, then liegt last. Der Patient liegt im Zimmer stays verb second.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "The patient whom we know:",
+          "after": ".",
+          "answer": "Der Patient, den wir kennen",
+          "en": "The patient whom we know.",
+          "why": "den, because kennen takes the accusative. Wir kennen den Patienten stays correct.",
+          "tip": "den.",
+          "hint": "den."
+        },
+        {
+          "before": "The tablet that she takes:",
+          "after": ".",
+          "answer": "Die Tablette, die sie nimmt",
+          "en": "The tablet that she takes.",
+          "why": "die, because sie nimmt the tablet. Sie nimmt die Tablette stays a main clause.",
+          "tip": "die.",
+          "hint": "die."
+        },
+        {
+          "before": "The room that is free:",
+          "after": ".",
+          "answer": "Das Zimmer, das frei ist",
+          "en": "The room that is free.",
+          "why": "das, neuter, ist last. Das Zimmer ist frei stays correct. frei has no ending.",
+          "tip": "das.",
+          "hint": "das."
+        },
+        {
+          "before": "The patient whom we help:",
+          "after": ".",
+          "answer": "Der Patient, dem wir helfen",
+          "en": "The patient whom we help.",
+          "why": "dem, because helfen takes the dative. Wir helfen dem Patienten stays correct.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "The patients whom we help:",
+          "after": ".",
+          "answer": "Die Patienten, denen wir helfen",
+          "en": "The patients whom we help.",
+          "why": "denen for several people. Wir helfen den Patienten stays the article den, not the pronoun.",
+          "tip": "denen.",
+          "hint": "denen."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line is the relative clause. One is not German. A main clause with no relative pronoun stays correct.",
+      "items": [
+        {
+          "prompt": "The patient who is lying in the room",
+          "options": [
+            { "emoji": "🛏️", "label": "Der Patient, der im Zimmer liegt.", "caption": "verb last" },
+            { "emoji": "🚫", "label": "Der Patient, der liegt im Zimmer.", "caption": "verb second" },
+            { "emoji": "🛏️", "label": "Der Patient liegt im Zimmer.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "liegt is last after der. Der Patient liegt im Zimmer stays verb second. Der liegt im Zimmer stays a main clause too.",
+          "hint": "der."
+        },
+        {
+          "prompt": "The patient whom we know",
+          "options": [
+            { "emoji": "👁️", "label": "Der Patient, den wir kennen.", "caption": "accusative" },
+            { "emoji": "🚫", "label": "Der Patient, der wir kennen.", "caption": "not the object" },
+            { "emoji": "👁️", "label": "Wir kennen den Patienten.", "caption": "no relative clause" }
+          ],
+          "answer": 0,
+          "why": "den after kennen. Wir kennen den Patienten stays correct. den Patienten is one man.",
+          "hint": "den."
+        },
+        {
+          "prompt": "The tablet that she takes",
+          "options": [
+            { "emoji": "💊", "label": "Die Tablette, die sie nimmt.", "caption": "accusative" },
+            { "emoji": "🚫", "label": "Die Tablette, den sie nimmt.", "caption": "not masculine" },
+            { "emoji": "💊", "label": "Sie nimmt die Tablette.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "die, because the tablet is feminine and she takes it. Sie nimmt die Tablette stays correct.",
+          "hint": "die."
+        },
+        {
+          "prompt": "The room that is free",
+          "options": [
+            { "emoji": "🚪", "label": "Das Zimmer, das frei ist.", "caption": "neuter" },
+            { "emoji": "🚫", "label": "Das Zimmer, die frei ist.", "caption": "not feminine" },
+            { "emoji": "🚪", "label": "Das Zimmer ist frei.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "das frei ist. Das Zimmer ist frei stays verb second. frei has no ending.",
+          "hint": "das."
+        },
+        {
+          "prompt": "The patient whom we help",
+          "options": [
+            { "emoji": "🤝", "label": "Der Patient, dem wir helfen.", "caption": "dative" },
+            { "emoji": "🚫", "label": "Der Patient, den wir helfen.", "caption": "not accusative" },
+            { "emoji": "🤝", "label": "Wir helfen dem Patienten.", "caption": "no relative clause" }
+          ],
+          "answer": 0,
+          "why": "dem, one man, because helfen takes the dative. Wir helfen dem Patienten stays correct.",
+          "hint": "dem."
+        },
+        {
+          "prompt": "The patients whom we help",
+          "options": [
+            { "emoji": "👥", "label": "Die Patienten, denen wir helfen.", "caption": "dative plural" },
+            { "emoji": "🚫", "label": "Die Patienten, den wir helfen.", "caption": "not the pronoun" },
+            { "emoji": "👥", "label": "Wir helfen den Patienten.", "caption": "article den" }
+          ],
+          "answer": 0,
+          "why": "denen is the plural pronoun. Wir helfen den Patienten stays correct, with the article den.",
+          "hint": "denen."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, the patient who is lying",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, the patient whom we know",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, the tablet that she takes",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, the patients whom we help",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Verb at the end",
+      "practice": "build",
+      "instructions": "Build the relative clause. The verb of that clause is last. Do not put it in the middle.",
+      "items": [
+        {
+          "tiles": ["Der", "Patient,", "der", "im", "Zimmer", "liegt"],
+          "answers": ["Der Patient, der im Zimmer liegt"],
+          "punct": ".",
+          "modal": "der",
+          "inf": "liegt",
+          "question": false,
+          "en": "The patient who is lying in the room.",
+          "hint": "Der Patient, der im Zimmer liegt.",
+          "feedback": {
+            "end": "liegt closes der im Zimmer liegt.",
+            "fallback": "Der Patient, der im Zimmer liegt."
+          }
+        },
+        {
+          "tiles": ["Die", "Tablette,", "die", "sie", "nimmt"],
+          "answers": ["Die Tablette, die sie nimmt"],
+          "punct": ".",
+          "modal": "die",
+          "inf": "nimmt",
+          "question": false,
+          "en": "The tablet that she takes.",
+          "hint": "Die Tablette, die sie nimmt.",
+          "feedback": {
+            "end": "nimmt closes die sie nimmt.",
+            "fallback": "Die Tablette, die sie nimmt."
+          }
+        },
+        {
+          "tiles": ["Der", "Patient,", "dem", "wir", "helfen"],
+          "answers": ["Der Patient, dem wir helfen"],
+          "punct": ".",
+          "modal": "dem",
+          "inf": "helfen",
+          "question": false,
+          "en": "The patient whom we help.",
+          "hint": "Der Patient, dem wir helfen.",
+          "feedback": {
+            "end": "helfen closes dem wir helfen.",
+            "fallback": "Der Patient, dem wir helfen."
+          }
+        },
+        {
+          "tiles": ["Die", "Patienten,", "denen", "wir", "helfen"],
+          "answers": ["Die Patienten, denen wir helfen"],
+          "punct": ".",
+          "modal": "denen",
+          "inf": "helfen",
+          "question": false,
+          "en": "The patients whom we help.",
+          "hint": "Die Patienten, denen wir helfen.",
+          "feedback": {
+            "end": "helfen closes denen wir helfen.",
+            "fallback": "Die Patienten, denen wir helfen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into a relative clause",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a main clause that stays correct. Give the relative clause. Verb at the end.",
+      "chips": [
+        { "w": "Der Patient, der im Zimmer liegt", "hint": "der." },
+        { "w": "Der Patient, den wir kennen", "hint": "den." },
+        { "w": "Die Tablette, die sie nimmt", "hint": "die." },
+        { "w": "Das Zimmer, das frei ist", "hint": "das." },
+        { "w": "Der Patient, dem wir helfen", "hint": "dem." },
+        { "w": "Die Patienten, denen wir helfen", "hint": "denen." },
+        { "w": "Der Patient, der liegt im Zimmer", "hint": "der." },
+        { "w": "Der Patient, der wir kennen", "hint": "den." },
+        { "w": "Die Tablette, den sie nimmt", "hint": "die." },
+        { "w": "Das Zimmer, die frei ist", "hint": "das." },
+        { "w": "Der Patient, den wir helfen", "hint": "dem." },
+        { "w": "Die Patienten, den wir helfen", "hint": "denen." }
+      ],
+      "items": [
+        {
+          "before": "Der Patient liegt im Zimmer stays correct. The patient who is lying in the room:",
+          "after": ".",
+          "answer": "Der Patient, der im Zimmer liegt",
+          "en": "The patient who is lying in the room.",
+          "why": "der im Zimmer liegt. Der Patient liegt im Zimmer stays verb second.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Wir kennen den Patienten stays correct. The patient whom we know:",
+          "after": ".",
+          "answer": "Der Patient, den wir kennen",
+          "en": "The patient whom we know.",
+          "why": "den wir kennen. Wir kennen den Patienten stays correct.",
+          "tip": "den.",
+          "hint": "den."
+        },
+        {
+          "before": "Sie nimmt die Tablette stays correct. The tablet that she takes:",
+          "after": ".",
+          "answer": "Die Tablette, die sie nimmt",
+          "en": "The tablet that she takes.",
+          "why": "die sie nimmt. Sie nimmt die Tablette stays a main clause.",
+          "tip": "die.",
+          "hint": "die."
+        },
+        {
+          "before": "Das Zimmer ist frei stays correct. The room that is free:",
+          "after": ".",
+          "answer": "Das Zimmer, das frei ist",
+          "en": "The room that is free.",
+          "why": "das frei ist. Das Zimmer ist frei stays verb second.",
+          "tip": "das.",
+          "hint": "das."
+        },
+        {
+          "before": "Wir helfen dem Patienten stays correct. The patient whom we help:",
+          "after": ".",
+          "answer": "Der Patient, dem wir helfen",
+          "en": "The patient whom we help.",
+          "why": "dem wir helfen. Wir helfen dem Patienten stays correct.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "Wir helfen den Patienten stays correct. The patients whom we help:",
+          "after": ".",
+          "answer": "Die Patienten, denen wir helfen",
+          "en": "The patients whom we help.",
+          "why": "denen wir helfen. Wir helfen den Patienten keeps the article den.",
+          "tip": "denen.",
+          "hint": "denen."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the relative clause. Choose the correction. A main clause with no relative pronoun stays correct.",
+      "items": [
+        {
+          "clues": ["The patient who is lying in the room.", "Verb at the end.", "Der Patient, der liegt im Zimmer."],
+          "options": ["Der Patient, der im Zimmer liegt.", "Der Patient, der liegt im Zimmer.", "Der Patient liegt im Zimmer."],
+          "answer": 0,
+          "reveal": "Der Patient, der im Zimmer liegt.",
+          "hint": "der."
+        },
+        {
+          "clues": ["The patient whom we know.", "Accusative.", "Der Patient, der wir kennen."],
+          "options": ["Der Patient, den wir kennen.", "Der Patient, der wir kennen.", "Wir kennen den Patienten."],
+          "answer": 0,
+          "reveal": "Der Patient, den wir kennen.",
+          "hint": "den."
+        },
+        {
+          "clues": ["The tablet that she takes.", "Feminine.", "Die Tablette, den sie nimmt."],
+          "options": ["Die Tablette, die sie nimmt.", "Die Tablette, den sie nimmt.", "Sie nimmt die Tablette."],
+          "answer": 0,
+          "reveal": "Die Tablette, die sie nimmt.",
+          "hint": "die."
+        },
+        {
+          "clues": ["The room that is free.", "Neuter.", "Das Zimmer, die frei ist."],
+          "options": ["Das Zimmer, das frei ist.", "Das Zimmer, die frei ist.", "Das Zimmer ist frei."],
+          "answer": 0,
+          "reveal": "Das Zimmer, das frei ist.",
+          "hint": "das."
+        },
+        {
+          "clues": ["The patient whom we help.", "Dative.", "Der Patient, den wir helfen."],
+          "options": ["Der Patient, dem wir helfen.", "Der Patient, den wir helfen.", "Wir helfen dem Patienten."],
+          "answer": 0,
+          "reveal": "Der Patient, dem wir helfen.",
+          "hint": "dem."
+        },
+        {
+          "clues": ["The patients whom we help.", "Dative plural.", "Die Patienten, den wir helfen."],
+          "options": ["Die Patienten, denen wir helfen.", "Die Patienten, den wir helfen.", "Wir helfen den Patienten."],
+          "answer": 0,
+          "reveal": "Die Patienten, denen wir helfen.",
+          "hint": "denen."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses a relative clause. Verb at the end. No main-clause word order inside the clause.",
+      "chips": [
+        { "w": "Der Patient, der im Zimmer liegt", "hint": "der." },
+        { "w": "Der Patient, den wir kennen", "hint": "den." },
+        { "w": "Die Tablette, die sie nimmt", "hint": "die." },
+        { "w": "Das Zimmer, das frei ist", "hint": "das." },
+        { "w": "Der Patient, dem wir helfen", "hint": "dem." },
+        { "w": "Die Patienten, denen wir helfen", "hint": "denen." },
+        { "w": "Der Patient, der liegt im Zimmer", "hint": "der." },
+        { "w": "Der Patient, der wir kennen", "hint": "den." },
+        { "w": "Die Tablette, den sie nimmt", "hint": "die." },
+        { "w": "Das Zimmer, die frei ist", "hint": "das." },
+        { "w": "Der Patient, den wir helfen", "hint": "dem." },
+        { "w": "Die Patienten, den wir helfen", "hint": "denen." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, the patient who is lying in the room:",
+          "after": ".",
+          "answer": "Der Patient, der im Zimmer liegt",
+          "en": "The patient who is lying in the room.",
+          "why": "der.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Doctor, the patient whom we know:",
+          "after": ".",
+          "answer": "Der Patient, den wir kennen",
+          "en": "The patient whom we know.",
+          "why": "den.",
+          "tip": "den.",
+          "hint": "den."
+        },
+        {
+          "before": "Nurse, the tablet that she takes:",
+          "after": ".",
+          "answer": "Die Tablette, die sie nimmt",
+          "en": "The tablet that she takes.",
+          "why": "die.",
+          "tip": "die.",
+          "hint": "die."
+        },
+        {
+          "before": "Doctor, the room that is free:",
+          "after": ".",
+          "answer": "Das Zimmer, das frei ist",
+          "en": "The room that is free.",
+          "why": "das.",
+          "tip": "das.",
+          "hint": "das."
+        },
+        {
+          "before": "Nurse, the patient whom we help:",
+          "after": ".",
+          "answer": "Der Patient, dem wir helfen",
+          "en": "The patient whom we help.",
+          "why": "dem.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "Doctor, the patients whom we help:",
+          "after": ".",
+          "answer": "Die Patienten, denen wir helfen",
+          "en": "The patients whom we help.",
+          "why": "denen.",
+          "tip": "denen.",
+          "hint": "denen."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The pronoun and the verb",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The relative clause only, verb at the end. A pronoun from the wrong case is not this line. Main clauses are not chips here.",
+      "chips": [
+        { "w": "der im Zimmer liegt", "hint": "der." },
+        { "w": "den wir kennen", "hint": "den." },
+        { "w": "die sie nimmt", "hint": "die." },
+        { "w": "das frei ist", "hint": "das." },
+        { "w": "dem wir helfen", "hint": "dem." },
+        { "w": "denen wir helfen", "hint": "denen." },
+        { "w": "der wir kennen", "hint": "den." },
+        { "w": "den wir helfen", "hint": "dem." },
+        { "w": "die wir helfen", "hint": "denen." },
+        { "w": "das wir helfen", "hint": "dem." },
+        { "w": "dem im Zimmer liegt", "hint": "der." },
+        { "w": "denen im Zimmer liegt", "hint": "der." }
+      ],
+      "items": [
+        {
+          "before": "Who is lying in the room, after der Patient:",
+          "after": ".",
+          "answer": "der im Zimmer liegt",
+          "en": "who is lying in the room.",
+          "why": "der im Zimmer liegt. liegt is last. Der Patient liegt im Zimmer stays a main clause.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Whom we know, after der Patient:",
+          "after": ".",
+          "answer": "den wir kennen",
+          "en": "whom we know.",
+          "why": "den wir kennen. kennen takes the accusative. Not der wir kennen.",
+          "tip": "den.",
+          "hint": "den."
+        },
+        {
+          "before": "That she takes, after die Tablette:",
+          "after": ".",
+          "answer": "die sie nimmt",
+          "en": "that she takes.",
+          "why": "die sie nimmt. Feminine accusative. Nominative die would look the same. Not a masculine den.",
+          "tip": "die.",
+          "hint": "die."
+        },
+        {
+          "before": "That is free, after das Zimmer:",
+          "after": ".",
+          "answer": "das frei ist",
+          "en": "that is free.",
+          "why": "das frei ist. Neuter. frei has no ending. Das Zimmer ist frei stays verb second.",
+          "tip": "das.",
+          "hint": "das."
+        },
+        {
+          "before": "Whom we help, after der Patient:",
+          "after": ".",
+          "answer": "dem wir helfen",
+          "en": "whom we help.",
+          "why": "dem wir helfen. One man, dative. A woman would be der wir helfen. Not den wir helfen.",
+          "tip": "dem.",
+          "hint": "dem."
+        },
+        {
+          "before": "Whom we help, after die Patienten:",
+          "after": ".",
+          "answer": "denen wir helfen",
+          "en": "whom we help.",
+          "why": "denen wir helfen. Plural dative. Wir helfen den Patienten keeps the article den.",
+          "tip": "denen.",
+          "hint": "denen."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. A main clause with no relative pronoun stays correct when the note is not using it.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Patient",
+        "paragraphs": [
+          "Das ist der Mann, der immer meine Nachbarin besucht. Der Patient, der im Zimmer liegt, schläft. Wir kennen den Patienten, den die Ärztin sieht. Das ist die Tablette, die sie nimmt.",
+          "Das ist das Zimmer, das frei ist. Wir helfen dem Patienten, dem wir danken. Wir helfen der Patientin, der wir danken. Wir helfen den Patienten, denen wir danken."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The man who visits my neighbour. From the note.",
+          "qEn": "der immer meine Nachbarin besucht.",
+          "options": ["der immer meine Nachbarin besucht", "der immer besucht meine Nachbarin", "Er besucht meine Nachbarin."],
+          "answer": 0,
+          "why": "besucht is last. Er besucht meine Nachbarin stays a main clause, verb second.",
+          "hint": "besucht."
+        },
+        {
+          "kind": "mc",
+          "q": "He is lying in the room, from the note.",
+          "qEn": "der im Zimmer liegt.",
+          "options": ["der im Zimmer liegt", "Der Patient, der liegt im Zimmer.", "Der Patient liegt im Zimmer."],
+          "answer": 0,
+          "why": "The note has der im Zimmer liegt, and then schläft. Der Patient liegt im Zimmer stays a main clause.",
+          "hint": "liegt."
+        },
+        {
+          "kind": "mc",
+          "q": "The tablet that she takes, from the note.",
+          "qEn": "die sie nimmt.",
+          "options": ["die sie nimmt", "Die Tablette, den sie nimmt.", "Sie nimmt die Tablette."],
+          "answer": 0,
+          "why": "The note has die sie nimmt. Sie nimmt die Tablette stays a main clause.",
+          "hint": "nimmt."
+        },
+        {
+          "kind": "mc",
+          "q": "Several patients whom we thank, from the note.",
+          "qEn": "denen wir danken.",
+          "options": ["denen wir danken", "den wir danken", "Wir helfen den Patienten."],
+          "answer": 0,
+          "why": "The note has denen wir danken. Wir helfen den Patienten stays correct, with the article den for several people.",
+          "hint": "denen."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. The man who visits my neighbour. The patient who is lying in the room. The tablet that she takes. The patients whom we help.",
+      "prompt": "The man who visits my neighbour. The patient who is lying in the room. The tablet that she takes. The patients whom we help.",
+      "bullets": ["der immer meine Nachbarin besucht", "der im Zimmer liegt", "die sie nimmt", "denen wir helfen"],
+      "model": "Das ist der Mann, der immer meine Nachbarin besucht. Der Patient, der im Zimmer liegt, schläft. Das ist die Tablette, die sie nimmt. Die Patienten, denen wir helfen, warten.",
+      "modelEn": "That is the man who always visits my neighbour. The patient who is lying in the room is sleeping. That is the tablet that she takes. The patients whom we help are waiting.",
+      "hint": "der besucht. der liegt. die nimmt. denen helfen.",
+      "checklist": [
+        { "id": "m", "label": "der immer meine Nachbarin besucht", "keywords": ["der immer meine nachbarin besucht"] },
+        { "id": "l", "label": "der im Zimmer liegt", "keywords": ["der im zimmer liegt"] },
+        { "id": "t", "label": "die sie nimmt", "keywords": ["die sie nimmt"] },
+        { "id": "d", "label": "denen wir helfen", "keywords": ["denen wir helfen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Das ist der Mann, der immer meine Nachbarin besucht",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Comma, pronoun, verb at the end. Feminine dative is der. Plural dative is denen. den Patienten is the noun. dass is not a relative pronoun. mit dem is chapter 71.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The patient who is lying in the room.",
+          "qEn": "der im Zimmer liegt.",
+          "options": ["Der Patient, der im Zimmer liegt.", "Der Patient, der liegt im Zimmer.", "Der Patient liegt im Zimmer."],
+          "answer": 0,
+          "why": "der, liegt last. Der Patient liegt im Zimmer stays a main clause.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient whom we know.",
+          "qEn": "den wir kennen.",
+          "options": ["Der Patient, den wir kennen.", "Der Patient, der wir kennen.", "Wir kennen den Patienten."],
+          "answer": 0,
+          "why": "den after kennen. Wir kennen den Patienten stays correct.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "The tablet that she takes.",
+          "qEn": "die sie nimmt.",
+          "options": ["Die Tablette, die sie nimmt.", "Die Tablette, den sie nimmt.", "Sie nimmt die Tablette."],
+          "answer": 0,
+          "why": "die sie nimmt. Sie nimmt die Tablette stays a main clause.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "The room that is free.",
+          "qEn": "das frei ist.",
+          "options": ["Das Zimmer, das frei ist.", "Das Zimmer, die frei ist.", "Das Zimmer ist frei."],
+          "answer": 0,
+          "why": "das frei ist. Das Zimmer ist frei stays verb second.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient whom we help.",
+          "qEn": "dem wir helfen.",
+          "options": ["Der Patient, dem wir helfen.", "Der Patient, den wir helfen.", "Wir helfen dem Patienten."],
+          "answer": 0,
+          "why": "dem, one man. Wir helfen dem Patienten stays correct.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The patients whom we help.",
+          "qEn": "denen wir helfen.",
+          "options": ["Die Patienten, denen wir helfen.", "Die Patienten, den wir helfen.", "Wir helfen den Patienten."],
+          "answer": 0,
+          "why": "denen. Wir helfen den Patienten stays the article, chapter 64.",
+          "hint": "denen."
+        },
+        {
+          "kind": "mc",
+          "q": "The female patient whom we help.",
+          "qEn": "der wir helfen.",
+          "options": ["Die Patientin, der wir helfen.", "Die Patientin, dem wir helfen.", "Wir helfen der Patientin."],
+          "answer": 0,
+          "why": "Feminine dative is der, not dem. Wir helfen der Patientin stays correct. der there is the article.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "We know the patient who is lying in the room.",
+          "qEn": "den Patienten, der im Zimmer liegt.",
+          "options": ["den Patienten, der im Zimmer liegt.", "den Patienten, den im Zimmer liegt.", "Der Patient liegt im Zimmer."],
+          "answer": 0,
+          "why": "den Patienten is the noun, one man, accusative. der is nominative because he lies. Der Patient liegt im Zimmer stays a main clause.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "The medicine that she takes.",
+          "qEn": "das sie nimmt.",
+          "options": ["Das Medikament, das sie nimmt.", "Das Medikament, den sie nimmt.", "Sie nimmt das Medikament."],
+          "answer": 0,
+          "why": "Neuter accusative is also das. Sie nimmt das Medikament stays a main clause. dass is not a relative pronoun.",
+          "hint": "das."
+        },
+        {
+          "kind": "mc",
+          "q": "The patients who are waiting in the room.",
+          "qEn": "die im Zimmer warten.",
+          "options": ["Die Patienten, die im Zimmer warten.", "Die Patienten, der im Zimmer wartet.", "Die Patienten warten."],
+          "answer": 0,
+          "why": "Plural nominative is die, and warten is plural and last. Die Patienten warten stays a main clause.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "The man who always visits my neighbour.",
+          "qEn": "der immer meine Nachbarin besucht.",
+          "options": ["der immer meine Nachbarin besucht", "der immer besucht meine Nachbarin", "Er besucht meine Nachbarin."],
+          "answer": 0,
+          "why": "besucht is last. Mann is the subject, so der. Er besucht meine Nachbarin stays a main clause.",
+          "hint": "besucht."
+        },
+        {
+          "kind": "mc",
+          "q": "Comma before the relative clause.",
+          "qEn": "Der Patient, der im Zimmer liegt.",
+          "options": ["Der Patient, der im Zimmer liegt.", "Der Patient der im Zimmer liegt.", "Der Patient liegt im Zimmer."],
+          "answer": 0,
+          "why": "The comma belongs in front of der. Der Patient liegt im Zimmer stays a main clause, with no second der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Das ist der Mann, der immer meine Nachbarin besucht",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Das ist der Mann, der immer meine Nachbarin besucht.", "en": "That is the man who always visits my neighbour." },
+        { "de": "Der Patient, der im Zimmer liegt, schläft.", "en": "The patient who is lying in the room is sleeping." },
+        { "de": "Das ist die Tablette, die sie nimmt.", "en": "That is the tablet that she takes." },
+        { "de": "Die Patienten, denen wir helfen, warten.", "en": "The patients whom we help are waiting." }
+      ],
+      "messages": [
+        "The pronoun matches the noun in gender and number. Its case comes from its job in the clause. The verb goes at the end. Feminine dative is der. Plural dative is denen.",
+        "den Patienten is the noun. dem Patienten is one man. Wir helfen den Patienten stays dative plural. dass stays chapter 42. mit dem stays chapter 71.",
+        "Sehr gut. Das ist der Mann, der immer meine Nachbarin besucht. Der Patient, der im Zimmer liegt, schläft.",
+        "Ausgezeichnet. You can describe the patient who is lying in the room, the tablet that she takes, and the patients whom we help."
+      ]
+    }
+  ]
+}

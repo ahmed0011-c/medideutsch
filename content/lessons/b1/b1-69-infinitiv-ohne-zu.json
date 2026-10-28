@@ -1,0 +1,1125 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-69-infinitiv-ohne-zu",
+  "level": "B1",
+  "unit": "Kapitel 69",
+  "chapter": 69,
+  "chapters": [69],
+  "title": "Ich will singen, lass mich singen!",
+  "subtitle": "Infinitive without zu",
+  "glossary": {
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🧑‍⚕️" },
+    "will": {
+      "de": "wollen → ich will",
+      "pos": "form",
+      "en": "want",
+      "emoji": "🎵",
+      "note": "Modal. Bare infinitive, no zu. Ich will singen. kann, muss, darf, soll, mag and möchte do the same."
+    },
+    "singen": {
+      "de": "singen",
+      "pos": "infinitive",
+      "en": "to sing",
+      "emoji": "🎵",
+      "note": "Ich will singen. Lass mich singen. No zu. zu singen stays correct after es ist or versuchen, chapter 68."
+    },
+    "lass": {
+      "de": "lassen → lass",
+      "pos": "form",
+      "en": "let (du)",
+      "emoji": "🎵",
+      "note": "Du-imperative. Lass mich singen. No zu. Lassen Sie mich singen is the formal request, also with no zu. The endings are chapters 8 and 61."
+    },
+    "mich": {
+      "de": "mich",
+      "pos": "pronoun",
+      "en": "me",
+      "emoji": "🎵",
+      "note": "Accusative. Lass mich singen. The person after lassen is the accusative."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine nominative)", "emoji": "🔵", "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet." },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative der Patient. No -en. den Patienten is the accusative, chapter 64."
+    },
+    "muss": {
+      "de": "müssen → er muss",
+      "pos": "form",
+      "en": "must",
+      "emoji": "🚶",
+      "note": "Modal. Der Patient muss aufstehen. Bare infinitive, one word. Not aufzustehen. Not zu aufstehen."
+    },
+    "aufstehen": {
+      "de": "aufstehen",
+      "pos": "infinitive",
+      "en": "to stand up",
+      "emoji": "🚶",
+      "note": "One word after a modal. Der Patient muss aufstehen. aufzustehen is the zu-form, chapter 68. er steht auf stays the finite main clause."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "lassen": {
+      "de": "lassen → wir lassen",
+      "pos": "form",
+      "en": "let",
+      "emoji": "😴",
+      "note": "Wir lassen den Patienten schlafen. Bare infinitive, no zu. Chapter 61. zu schlafen is chapter 68, after versuchen."
+    },
+    "den": { "de": "den", "pos": "article", "en": "the (accusative masculine)", "emoji": "🔵", "note": "den Patienten. Accusative singular after lassen, sehen and hören. Also the dative plural." },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "den Patienten is one man in the accusative. Chapter 64. der Patient stays nominative. dem Patienten stays the dative."
+    },
+    "schlafen": {
+      "de": "schlafen",
+      "pos": "infinitive",
+      "en": "to sleep",
+      "emoji": "😴",
+      "note": "Wir lassen den Patienten schlafen. No zu. Er versucht, zu schlafen stays chapter 68. Der Patient schläft stays the finite verb."
+    },
+    "bleibt": {
+      "de": "bleiben → er bleibt",
+      "pos": "form",
+      "en": "stays",
+      "emoji": "🛏️",
+      "note": "Der Patient bleibt im Bett liegen. Bare infinitive, no zu. Der Patient bleibt im Bett, with no second verb, stays correct too."
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in the",
+      "emoji": "🛏️",
+      "note": "im = in + dem. Dative. Der Patient bleibt im Bett liegen. liegen asks wo? ins Bett is direction, chapter 62, and stays correct with legen."
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten",
+      "note": "im Bett. Dative, because liegen is position. Chapter 62."
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "infinitive",
+      "en": "to lie",
+      "emoji": "🛏️",
+      "note": "Der Patient bleibt liegen. Position, no object, chapter 62. Der Patient liegt im Bett stays the finite verb. Not bleibt legen."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine)", "emoji": "📋", "note": "die Akte." },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart",
+      "emoji": "📋",
+      "article": "die",
+      "plural": "die Akten",
+      "note": "Die Akte bleibt liegen. Die Akte liegt auf dem Tisch stays correct, chapter 62."
+    },
+    "geht": {
+      "de": "gehen → er geht",
+      "pos": "form",
+      "en": "goes",
+      "emoji": "🍽️",
+      "note": "Der Patient geht essen. Bare infinitive, no zu. Er geht, um zu essen stays purpose, chapter 74. Er ist essen gegangen keeps the participle."
+    },
+    "essen": {
+      "de": "essen",
+      "pos": "infinitive",
+      "en": "to eat",
+      "emoji": "🍽️",
+      "note": "Der Patient geht essen. Not geht zu essen. um zu essen is chapter 74. das Essen is a noun, not this infinitive."
+    },
+    "sehe": {
+      "de": "sehen → ich sehe",
+      "pos": "form",
+      "en": "see",
+      "emoji": "👀",
+      "note": "Ich sehe den Patienten kommen. Accusative plus a bare infinitive. No zu."
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "infinitive",
+      "en": "to come",
+      "emoji": "👀",
+      "note": "Ich sehe den Patienten kommen. No zu. Der Patient kommt stays the finite verb."
+    },
+    "höre": {
+      "de": "hören → ich höre",
+      "pos": "form",
+      "en": "hear",
+      "emoji": "👂",
+      "note": "Ich höre den Patienten husten. Accusative plus a bare infinitive. No zu."
+    },
+    "husten": {
+      "de": "husten",
+      "pos": "infinitive",
+      "en": "to cough",
+      "emoji": "👂",
+      "note": "Ich höre den Patienten husten. No zu. Der Patient hustet stays the finite verb."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "No zu before this infinitive",
+      "learn": [
+        "Modals, lassen, bleiben, gehen, sehen and hören take a bare infinitive. No zu. Ich will singen. Wir lassen den Patienten schlafen. Der Patient bleibt liegen.",
+        "The infinitive goes to the end. A separable verb stays one word: Der Patient muss aufstehen. Not aufzustehen. Not zu aufstehen.",
+        "sehen and hören take the accusative den Patienten. bleiben liegen is position, so the place is dative: im Bett. Not ins Bett.",
+        "zu after es ist and versuchen stays chapter 68. um … zu stays chapter 74. Der Patient liegt im Bett and er steht auf stay correct."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "glossaryKey": "bett" },
+        { "de": "Akte", "article": "die", "plural": "die Akten", "en": "chart", "emoji": "📋", "glossaryKey": "akte" }
+      ],
+      "text": {
+        "title": "Ich will singen, lass mich singen!",
+        "de": "Ich will singen, lass mich singen! Der Patient muss aufstehen. Wir lassen den Patienten schlafen. Der Patient bleibt im Bett liegen. Die Akte bleibt liegen. Der Patient geht essen. Ich sehe den Patienten kommen. Ich höre den Patienten husten.",
+        "en": "I want to sing, let me sing! The patient has to stand up. We let the patient sleep. The patient stays lying in bed. The chart stays lying. The patient goes to eat. I see the patient coming. I hear the patient cough."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Bare infinitive",
+      "practice": "choose",
+      "heroTitle": "Ich will singen, lass mich singen!",
+      "heroImage": "bed",
+      "story": [
+        "Six groups take the infinitive with <b>no zu</b>. Modals: <b>Ich will singen. Der Patient muss aufstehen.</b> lassen: <b>Wir lassen den Patienten schlafen. Lass mich singen!</b> bleiben: <b>Der Patient bleibt im Bett liegen.</b> gehen: <b>Der Patient geht essen.</b> sehen and hören: <b>Ich sehe den Patienten kommen. Ich höre den Patienten husten.</b>",
+        "The infinitive stands at the end. <b>kann, darf, soll, mag</b> and <b>möchte</b> work like will and muss. A separable verb stays <b>one word</b>: <b>muss aufstehen</b>. Not aufzustehen. Not zu aufstehen. <b>er steht auf</b> stays the finite main clause. <b>aufzustehen</b> stays correct after versuchen, chapter 68.",
+        "<b>lassen</b> is the same bare infinitive, chapter 61. <b>den Patienten</b> is accusative. <b>der Patient</b> is nominative. <b>dem Patienten</b> stays the dative for its own job. <b>Wir lassen das Blut abnehmen</b> stays one word. Not abzunehmen. <b>abzunehmen</b> is the zu-form, chapter 68. <b>Der Patient schläft</b> stays the finite verb. Not schläft after lassen.",
+        "<b>bleiben</b> takes <b>liegen, stehen, sitzen</b>, the position verbs from chapter 62. <b>Der Patient bleibt im Bett liegen. Die Akte bleibt liegen.</b> <b>im Bett</b> is dative, because liegen asks wo? <b>Der Patient liegt im Bett</b> stays correct. <b>ins Bett</b> is direction and stays correct with legen. Not bleibt legen. Not bleibt zu liegen.",
+        "<b>gehen</b> takes a bare infinitive: <b>Der Patient geht essen.</b> <b>Er geht, um zu essen</b> stays a purpose, chapter 74. <b>Er ist essen gegangen</b> keeps the participle. This chapter does not drill the perfect. <b>Er will essen gehen</b> stacks two bare infinitives and stays correct.",
+        "<b>sehen</b> and <b>hören</b> take an accusative and a bare infinitive. <b>Ich sehe, dass der Patient kommt</b> stays a dass-clause, chapter 42, with the verb at the end. In the perfect, a second infinitive stays bare: <b>Ich habe ihn kommen sehen.</b> With no second infinitive, <b>Ich habe den Patienten gesehen</b> keeps the participle. <b>Es ist schön, zu feiern</b> and <b>Er versucht, zu schlafen</b> stay chapter 68."
+      ],
+      "questionRule": "Modals, lassen, bleiben, gehen, sehen and hören take a bare infinitive. No zu. The infinitive goes last. aufstehen stays one word. zu after es ist and versuchen is chapter 68. um … zu is chapter 74.",
+      "tables": [
+        {
+          "title": "Kein zu",
+          "caption": "The infinitive is bare. zu feiern, zu schlafen, aufzustehen and einzunehmen stay chapter 68.",
+          "columns": ["Infinitiv"],
+          "rows": [
+            { "label": "will", "cells": ["singen"], "highlight": true },
+            { "label": "lassen", "cells": ["schlafen"], "highlight": true },
+            { "label": "bleiben", "cells": ["liegen"] },
+            { "label": "gehen", "cells": ["essen"] },
+            { "label": "sehen", "cells": ["kommen"] },
+            { "label": "hören", "cells": ["husten"] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "den Patienten is accusative. im Bett is dative. Der Patient is nominative.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "will", "cells": ["Ich will singen, lass mich singen!"], "highlight": true },
+            { "label": "muss", "cells": ["Der Patient muss aufstehen."], "highlight": true },
+            { "label": "lassen", "cells": ["Wir lassen den Patienten schlafen."] },
+            { "label": "bleiben", "cells": ["Der Patient bleibt im Bett liegen."] },
+            { "label": "Akte", "cells": ["Die Akte bleibt liegen."] },
+            { "label": "gehen", "cells": ["Der Patient geht essen."] },
+            { "label": "sehen", "cells": ["Ich sehe den Patienten kommen."] },
+            { "label": "hören", "cells": ["Ich höre den Patienten husten."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Es ist schön, zu feiern, Er versucht, zu schlafen, aufzustehen, um zu essen, Der Patient liegt im Bett, er steht auf, and Er ist essen gegangen stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "will", "cells": ["Ich will zu singen", "Ich will singen"] },
+            { "label": "lassen", "cells": ["lassen zu schlafen", "lassen schlafen"] },
+            { "label": "bleiben", "cells": ["bleibt zu liegen", "bleibt liegen"] },
+            { "label": "gehen", "cells": ["geht zu essen", "geht essen"] },
+            { "label": "sehen", "cells": ["zu kommen", "kommen"] },
+            { "label": "hören", "cells": ["zu husten", "husten"] },
+            { "label": "auf", "cells": ["muss aufzustehen", "muss aufstehen"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four bare-infinitive traps",
+        "items": [
+          { "de": "Ich will singen.", "en": "A modal takes no zu.", "tone": "ok" },
+          { "de": "Ich will zu singen.", "en": "zu does not follow will.", "tone": "stop" },
+          { "de": "Wir lassen den Patienten schlafen.", "en": "lassen takes no zu.", "tone": "ok" },
+          { "de": "Wir lassen ihn zu schlafen.", "en": "zu does not follow lassen.", "tone": "stop" },
+          { "de": "Der Patient bleibt im Bett liegen.", "en": "bleiben takes no zu.", "tone": "ok" },
+          { "de": "Der Patient bleibt zu liegen.", "en": "zu does not follow bleiben.", "tone": "stop" },
+          { "de": "Ich sehe den Patienten kommen.", "en": "sehen takes no zu.", "tone": "ok" },
+          { "de": "Ich sehe den Patienten zu kommen.", "en": "zu does not follow sehen.", "tone": "stop" }
+        ],
+        "tip": "No zu. Infinitive last. aufstehen is one word."
+      },
+      "tips": [
+        {
+          "title": "These verbs leave zu out",
+          "body": "will singen. lassen schlafen. bleibt liegen. geht essen. sehe kommen. höre husten.",
+          "mnemonic": "will singen. bleibt liegen. geht essen.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "singen", "emoji": "🎵", "en": "to sing", "use": "after will", "de": "Ich will singen.", "deEn": "I want to sing." },
+        { "modal": "schlafen", "emoji": "😴", "en": "to sleep", "use": "after lassen", "de": "Wir lassen den Patienten schlafen.", "deEn": "We let the patient sleep." },
+        { "modal": "liegen", "emoji": "🛏️", "en": "to lie", "use": "after bleiben", "de": "Der Patient bleibt im Bett liegen.", "deEn": "The patient stays lying in bed." },
+        { "modal": "kommen", "emoji": "👀", "en": "to come", "use": "after sehen", "de": "Ich sehe den Patienten kommen.", "deEn": "I see the patient coming." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "I want to sing.",
+          "qEn": "Ich will singen.",
+          "options": ["Ich will singen.", "Ich will zu singen.", "Es ist schön, zu feiern."],
+          "answer": 0,
+          "why": "will takes the bare infinitive. Es ist schön, zu feiern stays correct after es ist, chapter 68.",
+          "hint": "singen."
+        },
+        {
+          "kind": "mc",
+          "q": "Let the patient sleep.",
+          "qEn": "lassen schlafen.",
+          "options": ["Wir lassen den Patienten schlafen.", "Wir lassen ihn zu schlafen.", "Er versucht, zu schlafen."],
+          "answer": 0,
+          "why": "lassen takes no zu. den Patienten is accusative. Er versucht, zu schlafen stays chapter 68. Der Patient schläft stays the finite verb.",
+          "hint": "schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient stays lying in bed.",
+          "qEn": "bleibt liegen.",
+          "options": ["Der Patient bleibt im Bett liegen.", "Der Patient bleibt zu liegen.", "Der Patient liegt im Bett."],
+          "answer": 0,
+          "why": "bleiben takes liegen, with no zu. im Bett is dative. Der Patient liegt im Bett stays the finite position verb, chapter 62.",
+          "hint": "liegen."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient goes to eat.",
+          "qEn": "geht essen.",
+          "options": ["Der Patient geht essen.", "Der Patient geht zu essen.", "Er geht, um zu essen."],
+          "answer": 0,
+          "why": "gehen takes a bare infinitive. Er geht, um zu essen stays a purpose, chapter 74. Er ist essen gegangen keeps gegangen.",
+          "hint": "essen."
+        },
+        {
+          "kind": "mc",
+          "q": "I see the patient coming.",
+          "qEn": "sehen kommen.",
+          "options": ["Ich sehe den Patienten kommen.", "Ich sehe den Patienten zu kommen.", "Der Patient kommt."],
+          "answer": 0,
+          "why": "sehen takes the accusative and a bare infinitive. den Patienten, chapter 64. Der Patient kommt stays the finite verb.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "I hear the patient cough.",
+          "qEn": "hören husten.",
+          "options": ["Ich höre den Patienten husten.", "Ich höre den Patienten zu husten.", "Der Patient hustet."],
+          "answer": 0,
+          "why": "hören takes the accusative and a bare infinitive. Der Patient hustet stays the finite verb.",
+          "hint": "husten."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "No zu after a modal, lassen, bleiben, gehen, sehen or hören. A zu-sentence from chapter 68 stays correct, so it is not a chip here.",
+      "chips": [
+        { "w": "Ich will singen", "hint": "no zu." },
+        { "w": "Wir lassen den Patienten schlafen", "hint": "no zu." },
+        { "w": "Der Patient bleibt im Bett liegen", "hint": "no zu." },
+        { "w": "Der Patient geht essen", "hint": "no zu." },
+        { "w": "Ich sehe den Patienten kommen", "hint": "no zu." },
+        { "w": "Ich höre den Patienten husten", "hint": "no zu." },
+        { "w": "Ich will zu singen", "hint": "no zu." },
+        { "w": "Wir lassen ihn zu schlafen", "hint": "no zu." },
+        { "w": "Der Patient bleibt zu liegen", "hint": "no zu." },
+        { "w": "Der Patient geht zu essen", "hint": "no zu." },
+        { "w": "Ich sehe den Patienten zu kommen", "hint": "no zu." },
+        { "w": "Ich höre den Patienten zu husten", "hint": "no zu." }
+      ],
+      "items": [
+        {
+          "before": "I want to sing:",
+          "after": ".",
+          "answer": "Ich will singen",
+          "en": "I want to sing.",
+          "why": "will takes singen. No zu. Es ist schön, zu feiern stays chapter 68. Lass mich singen is the same bare infinitive.",
+          "tip": "singen.",
+          "hint": "singen."
+        },
+        {
+          "before": "Let the patient sleep:",
+          "after": ".",
+          "answer": "Wir lassen den Patienten schlafen",
+          "en": "We let the patient sleep.",
+          "why": "lassen takes schlafen. No zu. den Patienten is accusative. Er versucht, zu schlafen stays chapter 68.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "The patient stays lying in bed:",
+          "after": ".",
+          "answer": "Der Patient bleibt im Bett liegen",
+          "en": "The patient stays lying in bed.",
+          "why": "bleiben takes liegen. im Bett is dative. Der Patient liegt im Bett stays correct. ins Bett stays direction, chapter 62.",
+          "tip": "liegen.",
+          "hint": "liegen."
+        },
+        {
+          "before": "The patient goes to eat:",
+          "after": ".",
+          "answer": "Der Patient geht essen",
+          "en": "The patient goes to eat.",
+          "why": "gehen takes essen. No zu. Er geht, um zu essen stays chapter 74. Er ist essen gegangen keeps gegangen.",
+          "tip": "essen.",
+          "hint": "essen."
+        },
+        {
+          "before": "I see the patient coming:",
+          "after": ".",
+          "answer": "Ich sehe den Patienten kommen",
+          "en": "I see the patient coming.",
+          "why": "sehen takes kommen. No zu. Der Patient kommt stays the finite verb. dass der Patient kommt stays chapter 42.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "I hear the patient cough:",
+          "after": ".",
+          "answer": "Ich höre den Patienten husten",
+          "en": "I hear the patient cough.",
+          "why": "hören takes husten. No zu. Der Patient hustet stays the finite verb.",
+          "tip": "husten.",
+          "hint": "husten."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names the verb. One piece is the bare infinitive. One is not an infinitive. A zu-form from chapter 68 or 74, and a finite verb, stay correct German.",
+      "items": [
+        {
+          "prompt": "I want to sing",
+          "options": [
+            { "emoji": "🎵", "label": "singen", "caption": "bare infinitive" },
+            { "emoji": "🚫", "label": "zu singt", "caption": "not an infinitive" },
+            { "emoji": "🎁", "label": "zu feiern", "caption": "chapter 68" }
+          ],
+          "answer": 0,
+          "why": "singen after will. zu feiern stays correct after es ist. Not zu singt.",
+          "hint": "singen."
+        },
+        {
+          "prompt": "Let the patient sleep",
+          "options": [
+            { "emoji": "😴", "label": "schlafen", "caption": "after lassen" },
+            { "emoji": "🚫", "label": "zu schläft", "caption": "not an infinitive" },
+            { "emoji": "😴", "label": "Er versucht, zu schlafen.", "caption": "chapter 68" }
+          ],
+          "answer": 0,
+          "why": "schlafen after lassen. Er versucht, zu schlafen stays chapter 68. Der Patient schläft stays finite.",
+          "hint": "schlafen."
+        },
+        {
+          "prompt": "The patient stays lying",
+          "options": [
+            { "emoji": "🛏️", "label": "bleibt im Bett liegen", "caption": "no zu" },
+            { "emoji": "🚫", "label": "bleibt zu liegen", "caption": "zu after bleiben" },
+            { "emoji": "🛏️", "label": "liegt im Bett", "caption": "finite verb" }
+          ],
+          "answer": 0,
+          "why": "bleibt liegen. liegt im Bett stays the finite position verb. im Bett is dative.",
+          "hint": "liegen."
+        },
+        {
+          "prompt": "The patient goes to eat",
+          "options": [
+            { "emoji": "🍽️", "label": "geht essen", "caption": "bare infinitive" },
+            { "emoji": "🚫", "label": "geht zu essen", "caption": "zu after gehen" },
+            { "emoji": "🍽️", "label": "um zu essen", "caption": "chapter 74" }
+          ],
+          "answer": 0,
+          "why": "geht essen. um zu essen stays a purpose, chapter 74.",
+          "hint": "essen."
+        },
+        {
+          "prompt": "I see the patient coming",
+          "options": [
+            { "emoji": "👀", "label": "den Patienten kommen", "caption": "accusative + infinitive" },
+            { "emoji": "🚫", "label": "den Patienten zu kommen", "caption": "zu after sehen" },
+            { "emoji": "👀", "label": "Der Patient kommt.", "caption": "finite verb" }
+          ],
+          "answer": 0,
+          "why": "den Patienten kommen. Der Patient kommt stays finite. den Patienten is accusative.",
+          "hint": "kommen."
+        },
+        {
+          "prompt": "I hear the patient cough",
+          "options": [
+            { "emoji": "👂", "label": "den Patienten husten", "caption": "accusative + infinitive" },
+            { "emoji": "🚫", "label": "den Patienten zu husten", "caption": "zu after hören" },
+            { "emoji": "👂", "label": "Der Patient hustet.", "caption": "finite verb" }
+          ],
+          "answer": 0,
+          "why": "den Patienten husten. Der Patient hustet stays finite.",
+          "hint": "husten."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, he stays lying",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, let him sleep",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, I hear him cough",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, it stays lying",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Infinitive last",
+      "practice": "build",
+      "instructions": "Build the line. The infinitive can stand last, or a whole block can stand first. No zu. Do not put the infinitive in the middle.",
+      "items": [
+        {
+          "tiles": ["Ich", "will", "singen"],
+          "answers": ["Ich will singen", "Singen will ich"],
+          "punct": ".",
+          "modal": "will",
+          "inf": "singen",
+          "question": false,
+          "en": "I want to sing.",
+          "hint": "Ich will singen. Or singen first.",
+          "feedback": {
+            "end": "singen closes Ich will singen.",
+            "fallback": "Ich will singen. Or: Singen will ich."
+          }
+        },
+        {
+          "tiles": ["Wir", "lassen", "den", "Patienten", "schlafen"],
+          "answers": ["Wir lassen den Patienten schlafen", "Den Patienten lassen wir schlafen", "Schlafen lassen wir den Patienten"],
+          "punct": ".",
+          "modal": "lassen",
+          "inf": "schlafen",
+          "question": false,
+          "en": "We let the patient sleep.",
+          "hint": "Wir lassen den Patienten schlafen. Or den Patienten first.",
+          "feedback": {
+            "end": "schlafen closes Wir lassen den Patienten schlafen.",
+            "fallback": "Wir lassen den Patienten schlafen. Or: Den Patienten lassen wir schlafen."
+          }
+        },
+        {
+          "tiles": ["Der", "Patient", "bleibt", "im", "Bett", "liegen"],
+          "answers": ["Der Patient bleibt im Bett liegen", "Im Bett bleibt der Patient liegen", "Liegen bleibt der Patient im Bett"],
+          "punct": ".",
+          "modal": "bleibt",
+          "inf": "liegen",
+          "question": false,
+          "en": "The patient stays lying in bed.",
+          "hint": "Der Patient bleibt im Bett liegen. Or im Bett first.",
+          "feedback": {
+            "end": "liegen closes Der Patient bleibt im Bett liegen.",
+            "fallback": "Der Patient bleibt im Bett liegen. Or: Im Bett bleibt der Patient liegen."
+          }
+        },
+        {
+          "tiles": ["Ich", "sehe", "den", "Patienten", "kommen"],
+          "answers": ["Ich sehe den Patienten kommen", "Den Patienten sehe ich kommen", "Kommen sehe ich den Patienten"],
+          "punct": ".",
+          "modal": "sehe",
+          "inf": "kommen",
+          "question": false,
+          "en": "I see the patient coming.",
+          "hint": "Ich sehe den Patienten kommen. Or den Patienten first.",
+          "feedback": {
+            "end": "kommen closes Ich sehe den Patienten kommen.",
+            "fallback": "Ich sehe den Patienten kommen. Or: Den Patienten sehe ich kommen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the bare infinitive",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a zu-sentence or a finite verb that stays correct. Give the bare-infinitive line. No zu.",
+      "chips": [
+        { "w": "Ich will singen", "hint": "no zu." },
+        { "w": "Wir lassen den Patienten schlafen", "hint": "no zu." },
+        { "w": "Der Patient bleibt im Bett liegen", "hint": "no zu." },
+        { "w": "Der Patient geht essen", "hint": "no zu." },
+        { "w": "Ich sehe den Patienten kommen", "hint": "no zu." },
+        { "w": "Ich höre den Patienten husten", "hint": "no zu." },
+        { "w": "Ich will zu singen", "hint": "no zu." },
+        { "w": "Wir lassen ihn zu schlafen", "hint": "no zu." },
+        { "w": "Der Patient bleibt zu liegen", "hint": "no zu." },
+        { "w": "Der Patient geht zu essen", "hint": "no zu." },
+        { "w": "Ich sehe den Patienten zu kommen", "hint": "no zu." },
+        { "w": "Ich höre den Patienten zu husten", "hint": "no zu." }
+      ],
+      "items": [
+        {
+          "before": "Es ist schön, zu feiern stays correct. I want to sing:",
+          "after": ".",
+          "answer": "Ich will singen",
+          "en": "I want to sing.",
+          "why": "singen after will. Es ist schön, zu feiern stays chapter 68.",
+          "tip": "singen.",
+          "hint": "singen."
+        },
+        {
+          "before": "Er versucht, zu schlafen stays correct. Let the patient sleep:",
+          "after": ".",
+          "answer": "Wir lassen den Patienten schlafen",
+          "en": "We let the patient sleep.",
+          "why": "schlafen after lassen. Er versucht, zu schlafen stays chapter 68.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Der Patient liegt im Bett stays correct. The patient stays lying:",
+          "after": ".",
+          "answer": "Der Patient bleibt im Bett liegen",
+          "en": "The patient stays lying in bed.",
+          "why": "liegen after bleiben. Der Patient liegt im Bett stays the finite verb.",
+          "tip": "liegen.",
+          "hint": "liegen."
+        },
+        {
+          "before": "Er geht, um zu essen stays correct. The patient goes to eat:",
+          "after": ".",
+          "answer": "Der Patient geht essen",
+          "en": "The patient goes to eat.",
+          "why": "essen after gehen. um zu essen stays chapter 74.",
+          "tip": "essen.",
+          "hint": "essen."
+        },
+        {
+          "before": "Der Patient kommt stays correct. I see the patient coming:",
+          "after": ".",
+          "answer": "Ich sehe den Patienten kommen",
+          "en": "I see the patient coming.",
+          "why": "kommen after sehen. Der Patient kommt stays finite.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Der Patient hustet stays correct. I hear the patient cough:",
+          "after": ".",
+          "answer": "Ich höre den Patienten husten",
+          "en": "I hear the patient cough.",
+          "why": "husten after hören. Der Patient hustet stays finite.",
+          "tip": "husten.",
+          "hint": "husten."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line puts zu where this chapter has none. Choose the correction. A zu-sentence, a finite verb, and um … zu stay correct in their own patterns.",
+      "items": [
+        {
+          "clues": ["I want to sing.", "A modal.", "Ich will zu singen."],
+          "options": ["Ich will singen.", "Ich will zu singen.", "Es ist schön, zu feiern."],
+          "answer": 0,
+          "reveal": "Ich will singen.",
+          "hint": "singen."
+        },
+        {
+          "clues": ["Let the patient sleep.", "No zu.", "Wir lassen ihn zu schlafen."],
+          "options": ["Wir lassen den Patienten schlafen.", "Wir lassen ihn zu schlafen.", "Er versucht, zu schlafen."],
+          "answer": 0,
+          "reveal": "Wir lassen den Patienten schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "clues": ["The patient stays lying.", "No zu.", "Der Patient bleibt zu liegen."],
+          "options": ["Der Patient bleibt im Bett liegen.", "Der Patient bleibt zu liegen.", "Der Patient liegt im Bett."],
+          "answer": 0,
+          "reveal": "Der Patient bleibt im Bett liegen.",
+          "hint": "liegen."
+        },
+        {
+          "clues": ["The patient goes to eat.", "No zu.", "Der Patient geht zu essen."],
+          "options": ["Der Patient geht essen.", "Der Patient geht zu essen.", "Er geht, um zu essen."],
+          "answer": 0,
+          "reveal": "Der Patient geht essen.",
+          "hint": "essen."
+        },
+        {
+          "clues": ["I see the patient coming.", "No zu.", "Ich sehe den Patienten zu kommen."],
+          "options": ["Ich sehe den Patienten kommen.", "Ich sehe den Patienten zu kommen.", "Der Patient kommt."],
+          "answer": 0,
+          "reveal": "Ich sehe den Patienten kommen.",
+          "hint": "kommen."
+        },
+        {
+          "clues": ["I hear the patient cough.", "No zu.", "Ich höre den Patienten zu husten."],
+          "options": ["Ich höre den Patienten husten.", "Ich höre den Patienten zu husten.", "Der Patient hustet."],
+          "answer": 0,
+          "reveal": "Ich höre den Patienten husten.",
+          "hint": "husten."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses a bare infinitive. No zu after will, lassen, bleiben, gehen, sehen or hören.",
+      "chips": [
+        { "w": "Ich will singen", "hint": "no zu." },
+        { "w": "Wir lassen den Patienten schlafen", "hint": "no zu." },
+        { "w": "Der Patient bleibt im Bett liegen", "hint": "no zu." },
+        { "w": "Der Patient geht essen", "hint": "no zu." },
+        { "w": "Ich sehe den Patienten kommen", "hint": "no zu." },
+        { "w": "Ich höre den Patienten husten", "hint": "no zu." },
+        { "w": "Ich will zu singen", "hint": "no zu." },
+        { "w": "Wir lassen ihn zu schlafen", "hint": "no zu." },
+        { "w": "Der Patient bleibt zu liegen", "hint": "no zu." },
+        { "w": "Der Patient geht zu essen", "hint": "no zu." },
+        { "w": "Ich sehe den Patienten zu kommen", "hint": "no zu." },
+        { "w": "Ich höre den Patienten zu husten", "hint": "no zu." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, I want to sing:",
+          "after": ".",
+          "answer": "Ich will singen",
+          "en": "I want to sing.",
+          "why": "singen.",
+          "tip": "singen.",
+          "hint": "singen."
+        },
+        {
+          "before": "Doctor, let the patient sleep:",
+          "after": ".",
+          "answer": "Wir lassen den Patienten schlafen",
+          "en": "We let the patient sleep.",
+          "why": "schlafen.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "Nurse, the patient stays lying:",
+          "after": ".",
+          "answer": "Der Patient bleibt im Bett liegen",
+          "en": "The patient stays lying in bed.",
+          "why": "liegen.",
+          "tip": "liegen.",
+          "hint": "liegen."
+        },
+        {
+          "before": "Doctor, the patient goes to eat:",
+          "after": ".",
+          "answer": "Der Patient geht essen",
+          "en": "The patient goes to eat.",
+          "why": "essen.",
+          "tip": "essen.",
+          "hint": "essen."
+        },
+        {
+          "before": "Nurse, I see the patient coming:",
+          "after": ".",
+          "answer": "Ich sehe den Patienten kommen",
+          "en": "I see the patient coming.",
+          "why": "kommen.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "Doctor, I hear the patient cough:",
+          "after": ".",
+          "answer": "Ich höre den Patienten husten",
+          "en": "I hear the patient cough.",
+          "why": "husten.",
+          "tip": "husten.",
+          "hint": "husten."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The bare infinitive",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The infinitive only. These verbs take no zu. A finite verb is not this form. zu feiern and zu schlafen stay chapter 68, so they are not chips here.",
+      "chips": [
+        { "w": "singen", "hint": "bare." },
+        { "w": "schlafen", "hint": "bare." },
+        { "w": "liegen", "hint": "bare." },
+        { "w": "essen", "hint": "bare." },
+        { "w": "kommen", "hint": "bare." },
+        { "w": "husten", "hint": "bare." },
+        { "w": "zu singt", "hint": "bare." },
+        { "w": "zu schläft", "hint": "bare." },
+        { "w": "zu liegt", "hint": "bare." },
+        { "w": "zu isst", "hint": "bare." },
+        { "w": "zu kommt", "hint": "bare." },
+        { "w": "zu hustet", "hint": "bare." }
+      ],
+      "items": [
+        {
+          "before": "To sing, after will:",
+          "after": ".",
+          "answer": "singen",
+          "en": "to sing.",
+          "why": "singen. Not zu singt. zu singen stays possible after versuchen, chapter 68.",
+          "tip": "singen.",
+          "hint": "singen."
+        },
+        {
+          "before": "To sleep, after lassen:",
+          "after": ".",
+          "answer": "schlafen",
+          "en": "to sleep.",
+          "why": "schlafen. Not zu schläft. Er versucht, zu schlafen stays chapter 68.",
+          "tip": "schlafen.",
+          "hint": "schlafen."
+        },
+        {
+          "before": "To lie, after bleiben:",
+          "after": ".",
+          "answer": "liegen",
+          "en": "to lie.",
+          "why": "liegen. Not zu liegt. Der Patient liegt im Bett stays the finite verb.",
+          "tip": "liegen.",
+          "hint": "liegen."
+        },
+        {
+          "before": "To eat, after gehen:",
+          "after": ".",
+          "answer": "essen",
+          "en": "to eat.",
+          "why": "essen. Not zu isst. um zu essen stays chapter 74.",
+          "tip": "essen.",
+          "hint": "essen."
+        },
+        {
+          "before": "To come, after sehen:",
+          "after": ".",
+          "answer": "kommen",
+          "en": "to come.",
+          "why": "kommen. Not zu kommt. Der Patient kommt stays finite.",
+          "tip": "kommen.",
+          "hint": "kommen."
+        },
+        {
+          "before": "To cough, after hören:",
+          "after": ".",
+          "answer": "husten",
+          "en": "to cough.",
+          "why": "husten. Not zu hustet. Der Patient hustet stays finite.",
+          "tip": "husten.",
+          "hint": "husten."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. A zu-sentence and a finite verb stay correct when the note is not using them.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Patient",
+        "paragraphs": [
+          "Ich will singen, lass mich singen! Der Patient muss aufstehen. Wir lassen den Patienten schlafen. Der Patient bleibt im Bett liegen.",
+          "Die Akte bleibt liegen. Der Patient geht essen. Ich sehe den Patienten kommen. Ich höre den Patienten husten."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "I want to sing, let me sing. From the note.",
+          "qEn": "Ich will singen, lass mich singen!",
+          "options": ["Ich will singen, lass mich singen!", "Ich will zu singen!", "Es ist schön, zu feiern."],
+          "answer": 0,
+          "why": "The note has no zu. Es ist schön, zu feiern stays chapter 68.",
+          "hint": "singen."
+        },
+        {
+          "kind": "mc",
+          "q": "He stays lying, from the note.",
+          "qEn": "bleibt im Bett liegen.",
+          "options": ["bleibt im Bett liegen", "bleibt zu liegen", "liegt im Bett"],
+          "answer": 0,
+          "why": "Der Patient bleibt im Bett liegen. liegt im Bett stays the finite verb. Die Akte bleibt liegen is also in the note.",
+          "hint": "liegen."
+        },
+        {
+          "kind": "mc",
+          "q": "I see him coming, from the note.",
+          "qEn": "den Patienten kommen.",
+          "options": ["den Patienten kommen", "den Patienten zu kommen", "Der Patient kommt."],
+          "answer": 0,
+          "why": "Ich sehe den Patienten kommen. Der Patient kommt stays finite.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "I hear him cough, from the note.",
+          "qEn": "den Patienten husten.",
+          "options": ["den Patienten husten", "den Patienten zu husten", "Der Patient hustet."],
+          "answer": 0,
+          "why": "Ich höre den Patienten husten. Der Patient hustet stays finite.",
+          "hint": "husten."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. I want to sing, let me sing. We let the patient sleep. The patient stays lying in bed. I see the patient coming.",
+      "prompt": "I want to sing, let me sing. We let the patient sleep. The patient stays lying in bed. I see the patient coming.",
+      "bullets": ["lass mich singen", "lassen den Patienten schlafen", "bleibt im Bett liegen", "den Patienten kommen"],
+      "model": "Ich will singen, lass mich singen! Wir lassen den Patienten schlafen. Der Patient bleibt im Bett liegen. Ich sehe den Patienten kommen.",
+      "modelEn": "I want to sing, let me sing! We let the patient sleep. The patient stays lying in bed. I see the patient coming.",
+      "hint": "lass mich singen. lassen schlafen. bleibt liegen. kommen.",
+      "checklist": [
+        { "id": "l", "label": "lass mich singen", "keywords": ["lass mich singen"] },
+        { "id": "s", "label": "lassen den Patienten schlafen", "keywords": ["lassen den patienten schlafen"] },
+        { "id": "b", "label": "bleibt im Bett liegen", "keywords": ["bleibt im bett liegen"] },
+        { "id": "k", "label": "den Patienten kommen", "keywords": ["den patienten kommen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Ich will singen, lass mich singen!",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Modals, lassen, bleiben, gehen, sehen and hören take a bare infinitive. No zu. zu after es ist and versuchen stays chapter 68. um … zu stays chapter 74.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "I want to sing.",
+          "qEn": "Ich will singen.",
+          "options": ["Ich will singen.", "Ich will zu singen.", "Es ist schön, zu feiern."],
+          "answer": 0,
+          "why": "singen after will. Es ist schön, zu feiern stays chapter 68.",
+          "hint": "singen."
+        },
+        {
+          "kind": "mc",
+          "q": "Let the patient sleep.",
+          "qEn": "lassen schlafen.",
+          "options": ["Wir lassen den Patienten schlafen.", "Wir lassen ihn zu schlafen.", "Er versucht, zu schlafen."],
+          "answer": 0,
+          "why": "schlafen after lassen. Er versucht, zu schlafen stays chapter 68.",
+          "hint": "schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient stays lying in bed.",
+          "qEn": "bleibt liegen.",
+          "options": ["Der Patient bleibt im Bett liegen.", "Der Patient bleibt zu liegen.", "Der Patient liegt im Bett."],
+          "answer": 0,
+          "why": "liegen after bleiben. Der Patient liegt im Bett stays finite.",
+          "hint": "liegen."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient goes to eat.",
+          "qEn": "geht essen.",
+          "options": ["Der Patient geht essen.", "Der Patient geht zu essen.", "Er geht, um zu essen."],
+          "answer": 0,
+          "why": "essen after gehen. Er geht, um zu essen stays chapter 74.",
+          "hint": "essen."
+        },
+        {
+          "kind": "mc",
+          "q": "I see the patient coming.",
+          "qEn": "sehen kommen.",
+          "options": ["Ich sehe den Patienten kommen.", "Ich sehe den Patienten zu kommen.", "Der Patient kommt."],
+          "answer": 0,
+          "why": "kommen after sehen. Der Patient kommt stays finite.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "I hear the patient cough.",
+          "qEn": "hören husten.",
+          "options": ["Ich höre den Patienten husten.", "Ich höre den Patienten zu husten.", "Der Patient hustet."],
+          "answer": 0,
+          "why": "husten after hören. Der Patient hustet stays finite.",
+          "hint": "husten."
+        },
+        {
+          "kind": "mc",
+          "q": "To sing. The infinitive.",
+          "qEn": "singen.",
+          "options": ["singen", "zu singt", "singt zu"],
+          "answer": 0,
+          "why": "singen. Not zu singt. Not singt zu.",
+          "hint": "singen."
+        },
+        {
+          "kind": "mc",
+          "q": "To sleep. The infinitive.",
+          "qEn": "schlafen.",
+          "options": ["schlafen", "zu schläft", "Er versucht, zu schlafen."],
+          "answer": 0,
+          "why": "schlafen after lassen. Er versucht, zu schlafen stays chapter 68. Not zu schläft.",
+          "hint": "schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "To lie. The infinitive.",
+          "qEn": "liegen.",
+          "options": ["liegen", "zu liegt", "liegt im Bett"],
+          "answer": 0,
+          "why": "liegen after bleiben. liegt im Bett stays the finite verb. Not zu liegt.",
+          "hint": "liegen."
+        },
+        {
+          "kind": "mc",
+          "q": "To eat. The infinitive.",
+          "qEn": "essen.",
+          "options": ["essen", "zu isst", "um zu essen"],
+          "answer": 0,
+          "why": "essen after gehen. um zu essen stays chapter 74. Not zu isst.",
+          "hint": "essen."
+        },
+        {
+          "kind": "mc",
+          "q": "To come. The infinitive.",
+          "qEn": "kommen.",
+          "options": ["kommen", "zu kommt", "kommt"],
+          "answer": 0,
+          "why": "kommen after sehen. kommt stays the finite verb. Not zu kommt.",
+          "hint": "kommen."
+        },
+        {
+          "kind": "mc",
+          "q": "To cough. The infinitive.",
+          "qEn": "husten.",
+          "options": ["husten", "zu hustet", "hustet"],
+          "answer": 0,
+          "why": "husten after hören. hustet stays the finite verb. Not zu hustet.",
+          "hint": "husten."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Ich will singen, lass mich singen!",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Ich will singen, lass mich singen!", "en": "I want to sing, let me sing!" },
+        { "de": "Wir lassen den Patienten schlafen.", "en": "We let the patient sleep." },
+        { "de": "Der Patient bleibt im Bett liegen.", "en": "The patient stays lying in bed." },
+        { "de": "Ich sehe den Patienten kommen.", "en": "I see the patient coming." }
+      ],
+      "messages": [
+        "Modals, lassen, bleiben, gehen, sehen and hören take a bare infinitive. No zu. The infinitive goes last. muss aufstehen stays one word.",
+        "den Patienten is accusative. im Bett is dative with liegen. zu after es ist and versuchen stays chapter 68. um … zu stays chapter 74.",
+        "Sehr gut. Ich will singen, lass mich singen! Wir lassen den Patienten schlafen.",
+        "Ausgezeichnet. You can let the patient sleep, say he stays lying, and say you see him coming, with no zu."
+      ]
+    }
+  ]
+}

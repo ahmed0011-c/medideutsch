@@ -1,0 +1,1108 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-72-wenn-als",
+  "level": "B1",
+  "unit": "Kapitel 72",
+  "chapter": 72,
+  "chapters": [72],
+  "title": "Ich gehe, wenn … / Ich ging, als …",
+  "subtitle": "wenn and als",
+  "glossary": {
+    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🧑‍⚕️" },
+    "gehe": {
+      "de": "gehen → ich gehe",
+      "pos": "form",
+      "en": "go",
+      "emoji": "🚶",
+      "note": "Present. Ich gehe, wenn er kommt. A future or a repeated when takes wenn, not als."
+    },
+    "wenn": {
+      "de": "wenn",
+      "pos": "conjunction",
+      "en": "if / when / whenever",
+      "emoji": "🔁",
+      "note": "Condition, future, or a repeated event. Verb at the end. Wenn er Fieber hat, rufen wir den Arzt. Every time in the past: Wenn er Fieber hatte. Not denn. Not dann. Chapter 42."
+    },
+    "ging": {
+      "de": "gehen → ich ging",
+      "pos": "form",
+      "en": "went",
+      "emoji": "🚶",
+      "note": "Präteritum. Ich ging, als er kam. One past event takes als. Not gehte."
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "when (once, in the past)",
+      "emoji": "🚑",
+      "note": "One event in the past, with the Präteritum. Als der Wagen kam. Not for the present or the future. Comparative als stays chapter 38: stärker als. Not wann."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚑",
+      "note": "Present, at the end of the wenn-clause. Ich gehe, wenn er kommt. Wann kommt er? stays a question."
+    },
+    "kam": {
+      "de": "kommen → er kam",
+      "pos": "form",
+      "en": "came",
+      "emoji": "🚑",
+      "note": "Präteritum. Als der Wagen kam. One time. Not kommte. Wann kam der Wagen? stays a question."
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Fieber",
+      "note": "Fieber haben takes no article here. Wenn er Fieber hat. Once: Als er Fieber bekam."
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🌡️",
+      "note": "Present, at the end: wenn er Fieber hat. Not wenn er hat Fieber. Wir rufen den Arzt, wenn er Fieber hat stays chapter 42."
+    },
+    "rufen": {
+      "de": "rufen → wir rufen",
+      "pos": "form",
+      "en": "call",
+      "emoji": "📞",
+      "note": "Present. After a fronted wenn-clause, rufen is the next verb: Wenn er Fieber hat, rufen wir. den Arzt is accusative."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine)",
+      "emoji": "🔵",
+      "note": "den Arzt. Accusative after rufen. der Arzt is nominative. Not n-declension: no -en."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "den Arzt, accusative. No -en. Wir rufen den Arzt, wenn er Fieber hat."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine nominative)", "emoji": "🚑", "note": "der Wagen. Nominative, the subject of kam." },
+    "wagen": {
+      "de": "Wagen",
+      "pos": "noun",
+      "en": "ambulance",
+      "emoji": "🚑",
+      "article": "der",
+      "plural": "die Wagen",
+      "note": "Here the ambulance. Als der Wagen kam. One past event. Wann kam der Wagen? stays a question."
+    },
+    "riefen": {
+      "de": "rufen → wir riefen",
+      "pos": "form",
+      "en": "called",
+      "emoji": "📞",
+      "note": "Präteritum. Als der Wagen kam, riefen wir den Arzt. One time. Every time in the past uses wenn with riefen."
+    },
+    "hatte": {
+      "de": "haben → er hatte",
+      "pos": "form",
+      "en": "had",
+      "emoji": "🌡️",
+      "note": "Präteritum. Wenn er Fieber hatte means every time. One time is als, not wenn."
+    },
+    "bekam": {
+      "de": "bekommen → er bekam",
+      "pos": "form",
+      "en": "got",
+      "emoji": "🌡️",
+      "note": "Präteritum. Als er Fieber bekam. One time he got a fever. Not bekommte."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine)", "emoji": "🩹", "note": "die Wunde." },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "emoji": "🩹",
+      "article": "die",
+      "plural": "die Wunden",
+      "note": "Die Wunde öffnet sich, wenn er aufsteht. Chapter 42."
+    },
+    "öffnet": {
+      "de": "öffnen → sie öffnet",
+      "pos": "form",
+      "en": "opens",
+      "emoji": "🩹",
+      "note": "Die Wunde öffnet sich. Main-clause verb. The wenn-clause comes after it, with the verb at the end."
+    },
+    "sich": {
+      "de": "sich",
+      "pos": "pronoun",
+      "en": "itself",
+      "emoji": "🩹",
+      "note": "öffnet sich. Reflexive, chapter 29. The wenn-clause does not change sich."
+    },
+    "aufsteht": {
+      "de": "aufstehen → er aufsteht",
+      "pos": "form",
+      "en": "gets up",
+      "emoji": "🚶",
+      "note": "One word at the end of the wenn-clause. wenn er aufsteht. Not steht auf. Not auf steht. er steht auf stays the main clause."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Once, or every time",
+      "learn": [
+        "wenn is if, whenever, or a future when. The verb goes to the end. Wenn er Fieber hat, rufen wir den Arzt.",
+        "als is one event in the past. Als der Wagen kam, riefen wir den Arzt. Not als with the present.",
+        "A repeated past stays wenn: Wenn er Fieber hatte. One time he got a fever: Als er Fieber bekam.",
+        "Wir rufen den Arzt, wenn er Fieber hat stays chapter 42. wann stays a question. Comparative als stays chapter 38. er steht auf stays a main clause."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Fieber", "article": "das", "plural": "die Fieber", "en": "fever", "emoji": "🌡️", "glossaryKey": "fieber" },
+        { "de": "Wagen", "article": "der", "plural": "die Wagen", "en": "ambulance", "emoji": "🚑", "glossaryKey": "wagen" },
+        { "de": "Wunde", "article": "die", "plural": "die Wunden", "en": "wound", "emoji": "🩹", "glossaryKey": "wunde" }
+      ],
+      "text": {
+        "title": "Ich gehe, wenn … / Ich ging, als …",
+        "de": "Ich gehe, wenn er kommt. Ich ging, als er kam. Wenn er Fieber hat, rufen wir den Arzt. Wir rufen den Arzt, wenn er Fieber hat. Als der Wagen kam, riefen wir den Arzt. Wenn er Fieber hatte, riefen wir den Arzt. Als er Fieber bekam, riefen wir den Arzt. Die Wunde öffnet sich, wenn er aufsteht.",
+        "en": "I go when he comes. I went when he came, once. If he has a fever, we call the doctor. We call the doctor if he has a fever. Once, when the ambulance came, we called the doctor. Every time he had a fever, we called the doctor. Once, when he got a fever, we called the doctor. The wound opens if he gets up."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "wenn or als",
+      "practice": "choose",
+      "heroTitle": "Ich gehe, wenn … / Ich ging, als …",
+      "heroImage": "bed",
+      "story": [
+        "<b>wenn</b> is if, whenever, or a future when. The verb goes to the end of that clause. <b>Ich gehe, wenn er kommt. Wenn er Fieber hat, rufen wir den Arzt.</b> The fronted clause is position 1, so rufen comes next. At the end of the sentence: <b>Wir rufen den Arzt, wenn er Fieber hat.</b> That line stays chapter 42. wenn is not denn, and not dann.",
+        "<b>als</b> is one event in the past, with the Präteritum. <b>Ich ging, als er kam. Als der Wagen kam, riefen wir den Arzt.</b> The Wagen here is the ambulance. Not als with a present verb. Not als er kommt. <b>Als er Fieber bekam</b> is the one time he got a fever.",
+        "A repeated past stays <b>wenn</b>, still with the verb at the end. <b>Wenn er Fieber hatte, riefen wir den Arzt.</b> Every time. The same words with als would be one time, and that sentence stays correct for once: Als er Fieber hatte. The English in the exercise says which one.",
+        "A separable verb is one word at the end of the clause. <b>Die Wunde öffnet sich, wenn er aufsteht.</b> Not steht auf. Not auf steht. <b>Er steht auf</b> stays the main clause. <b>denn</b> stays verb second: Wir rufen, denn er hat Fieber. Chapter 42.",
+        "<b>wann</b> is the question word, not this conjunction. <b>Wann kam der Wagen?</b> stays a direct question, verb second. <b>Ich frage, wann er kam</b> stays an indirect question, verb last, chapter 67. Not Ich ging, wann er kam.",
+        "Comparative <b>als</b> stays chapter 38. <b>Der Schmerz ist heute stärker als gestern.</b> That als means than. It is not the past-time als. Do not call it wrong."
+      ],
+      "questionRule": "wenn is if, whenever, or a future when, and also a repeated past. als is one past event. The verb of that clause goes last. A fronted clause is position 1, so the main verb comes next. wann stays a question. Comparative als stays chapter 38.",
+      "tables": [
+        {
+          "title": "wenn oder als",
+          "caption": "The English says if, every time, or once. The verb of the clause is last.",
+          "columns": ["Lage", "Satz"],
+          "rows": [
+            { "label": "wenn", "cells": ["if / future", "Wenn er Fieber hat, rufen wir."], "highlight": true },
+            { "label": "jedes Mal", "cells": ["repeated past", "Wenn er Fieber hatte, riefen wir."], "highlight": true },
+            { "label": "als", "cells": ["once, past", "Als der Wagen kam, riefen wir."] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "den Arzt is accusative. der Wagen is the ambulance. aufsteht is one word.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "gehe", "cells": ["Ich gehe, wenn er kommt."], "highlight": true },
+            { "label": "ging", "cells": ["Ich ging, als er kam."], "highlight": true },
+            { "label": "wenn", "cells": ["Wenn er Fieber hat, rufen wir den Arzt."] },
+            { "label": "Ende", "cells": ["Wir rufen den Arzt, wenn er Fieber hat."] },
+            { "label": "Wagen", "cells": ["Als der Wagen kam, riefen wir den Arzt."] },
+            { "label": "hatte", "cells": ["Wenn er Fieber hatte, riefen wir den Arzt."] },
+            { "label": "bekam", "cells": ["Als er Fieber bekam, riefen wir den Arzt."] },
+            { "label": "auf", "cells": ["Die Wunde öffnet sich, wenn er aufsteht."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Wir rufen den Arzt, wenn er Fieber hat, Er steht auf, Wann kam der Wagen?, Ich frage, wann er kam, Wir rufen, denn er hat Fieber, and stärker als stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "jetzt", "cells": ["Als er Fieber hat", "Wenn er Fieber hat"] },
+            { "label": "Wagen", "cells": ["Als kam der Wagen", "Als der Wagen kam"] },
+            { "label": "hatte", "cells": ["Wenn hatte er Fieber", "Wenn er Fieber hatte"] },
+            { "label": "kommt", "cells": ["als er kommt", "wenn er kommt"] },
+            { "label": "wann", "cells": ["Ich ging, wann er kam", "Ich ging, als er kam"] },
+            { "label": "bekam", "cells": ["Als bekam er Fieber", "Als er Fieber bekam"] },
+            { "label": "auf", "cells": ["wenn er steht auf", "wenn er aufsteht"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four wenn and als traps",
+        "items": [
+          { "de": "Wenn er Fieber hat, rufen wir.", "en": "A present when takes wenn.", "tone": "ok" },
+          { "de": "Als er Fieber hat, rufen wir.", "en": "als does not take the present.", "tone": "stop" },
+          { "de": "Als der Wagen kam, riefen wir.", "en": "Once in the past takes als.", "tone": "ok" },
+          { "de": "Als kam der Wagen, riefen wir.", "en": "kam is not in position 2.", "tone": "stop" },
+          { "de": "Ich ging, als er kam.", "en": "One past event.", "tone": "ok" },
+          { "de": "Ich ging, wann er kam.", "en": "wann is not this conjunction.", "tone": "stop" },
+          { "de": "Wenn er Fieber hatte, riefen wir.", "en": "Every time in the past.", "tone": "ok" },
+          { "de": "Wenn hatte er Fieber, riefen wir.", "en": "hatte is not in position 2.", "tone": "stop" }
+        ],
+        "tip": "wenn for if, whenever, and every time. als for one past event. Verb last."
+      },
+      "tips": [
+        {
+          "title": "Once or every time",
+          "body": "wenn er kommt. wenn er Fieber hatte. als er kam. als der Wagen kam.",
+          "mnemonic": "wenn jedes Mal. als einmal.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "wenn", "emoji": "🌡️", "en": "if he has a fever", "use": "present", "de": "Wenn er Fieber hat, rufen wir.", "deEn": "If he has a fever, we call." },
+        { "modal": "als", "emoji": "🚑", "en": "once, when it came", "use": "one past", "de": "Als der Wagen kam, riefen wir.", "deEn": "Once, when the ambulance came, we called." },
+        { "modal": "hatte", "emoji": "🔁", "en": "every time he had a fever", "use": "repeated past", "de": "Wenn er Fieber hatte, riefen wir.", "deEn": "Every time he had a fever, we called." },
+        { "modal": "bekam", "emoji": "🌡️", "en": "once, when he got a fever", "use": "one past", "de": "Als er Fieber bekam, riefen wir.", "deEn": "Once, when he got a fever, we called." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "If he has a fever, we call.",
+          "qEn": "Wenn er Fieber hat.",
+          "options": ["Wenn er Fieber hat, rufen wir.", "Als er Fieber hat, rufen wir.", "Wir rufen, wenn er Fieber hat."],
+          "answer": 0,
+          "why": "Present or if takes wenn, and hat is last. Wir rufen, wenn er Fieber hat stays correct too, with the clause at the end. Chapter 42.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "Once, when the ambulance came, we called.",
+          "qEn": "Als der Wagen kam.",
+          "options": ["Als der Wagen kam, riefen wir.", "Als kam der Wagen, riefen wir.", "Wann kam der Wagen?"],
+          "answer": 0,
+          "why": "One past event takes als, and kam is last. Wann kam der Wagen? stays a question, verb second.",
+          "hint": "als."
+        },
+        {
+          "kind": "mc",
+          "q": "Every time he had a fever, we called.",
+          "qEn": "Wenn er Fieber hatte.",
+          "options": ["Wenn er Fieber hatte, riefen wir.", "Wenn hatte er Fieber, riefen wir.", "Als er Fieber hatte, riefen wir."],
+          "answer": 0,
+          "why": "Every time in the past stays wenn. hatte is last. Als er Fieber hatte stays correct for one time.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "I go when he comes.",
+          "qEn": "wenn er kommt.",
+          "options": ["Ich gehe, wenn er kommt.", "Ich gehe, als er kommt.", "Ich ging, als er kam."],
+          "answer": 0,
+          "why": "A future when takes wenn. Ich ging, als er kam stays the one past event.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "I went when he came. Once.",
+          "qEn": "als er kam.",
+          "options": ["Ich ging, als er kam.", "Ich ging, wann er kam.", "Wann kam er?"],
+          "answer": 0,
+          "why": "One past event takes als. Wann kam er? stays a question. Ich frage, wann er kam stays chapter 67.",
+          "hint": "als."
+        },
+        {
+          "kind": "mc",
+          "q": "Once, when he got a fever, we called.",
+          "qEn": "Als er Fieber bekam.",
+          "options": ["Als er Fieber bekam, riefen wir.", "Als bekam er Fieber, riefen wir.", "Wenn er Fieber hat, rufen wir."],
+          "answer": 0,
+          "why": "bekam is one past event, so als, and bekam is last. Wenn er Fieber hat stays the present condition.",
+          "hint": "als."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "wenn for if, whenever, and every time. als for one past event. A question, a comparison, and the other correct time stay out of the chips.",
+      "chips": [
+        { "w": "Wenn er Fieber hat, rufen wir", "hint": "wenn." },
+        { "w": "Als der Wagen kam, riefen wir", "hint": "als." },
+        { "w": "Wenn er Fieber hatte, riefen wir", "hint": "wenn." },
+        { "w": "Ich gehe, wenn er kommt", "hint": "wenn." },
+        { "w": "Ich ging, als er kam", "hint": "als." },
+        { "w": "Als er Fieber bekam, riefen wir", "hint": "als." },
+        { "w": "Als er Fieber hat, rufen wir", "hint": "wenn." },
+        { "w": "Als kam der Wagen, riefen wir", "hint": "als." },
+        { "w": "Wenn hatte er Fieber, riefen wir", "hint": "wenn." },
+        { "w": "Ich gehe, als er kommt", "hint": "wenn." },
+        { "w": "Ich ging, wann er kam", "hint": "als." },
+        { "w": "Als bekam er Fieber, riefen wir", "hint": "als." }
+      ],
+      "items": [
+        {
+          "before": "If he has a fever, we call:",
+          "after": ".",
+          "answer": "Wenn er Fieber hat, rufen wir",
+          "en": "If he has a fever, we call.",
+          "why": "wenn, hat last. Wir rufen, wenn er Fieber hat stays correct too.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "Once, when the ambulance came, we called:",
+          "after": ".",
+          "answer": "Als der Wagen kam, riefen wir",
+          "en": "Once, when the ambulance came, we called.",
+          "why": "als, kam last. Wann kam der Wagen? stays a question.",
+          "tip": "als.",
+          "hint": "als."
+        },
+        {
+          "before": "Every time he had a fever, we called:",
+          "after": ".",
+          "answer": "Wenn er Fieber hatte, riefen wir",
+          "en": "Every time he had a fever, we called.",
+          "why": "Repeated past stays wenn. Als er Fieber hatte stays correct for one time.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "I go when he comes:",
+          "after": ".",
+          "answer": "Ich gehe, wenn er kommt",
+          "en": "I go when he comes.",
+          "why": "Future when takes wenn. Ich ging, als er kam stays one past event.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "I went when he came, once:",
+          "after": ".",
+          "answer": "Ich ging, als er kam",
+          "en": "I went when he came, once.",
+          "why": "One past event takes als. Wann kam er? stays a question.",
+          "tip": "als.",
+          "hint": "als."
+        },
+        {
+          "before": "Once, when he got a fever, we called:",
+          "after": ".",
+          "answer": "Als er Fieber bekam, riefen wir",
+          "en": "Once, when he got a fever, we called.",
+          "why": "bekam is one past event, so als. Wenn er Fieber hat stays the present.",
+          "tip": "als.",
+          "hint": "als."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line matches the English. One is not German. A question, a comparison is not in this list, and the other correct time stays correct.",
+      "items": [
+        {
+          "prompt": "If he has a fever, we call",
+          "options": [
+            { "emoji": "🌡️", "label": "Wenn er Fieber hat, rufen wir.", "caption": "if / present" },
+            { "emoji": "🚫", "label": "Als er Fieber hat, rufen wir.", "caption": "not als" },
+            { "emoji": "🌡️", "label": "Wir rufen, wenn er Fieber hat.", "caption": "clause last" }
+          ],
+          "answer": 0,
+          "why": "wenn, hat last. The same wenn-clause can stand at the end and stays correct.",
+          "hint": "wenn."
+        },
+        {
+          "prompt": "Once, when the ambulance came",
+          "options": [
+            { "emoji": "🚑", "label": "Als der Wagen kam, riefen wir.", "caption": "one past" },
+            { "emoji": "🚫", "label": "Als kam der Wagen, riefen wir.", "caption": "verb too early" },
+            { "emoji": "🚑", "label": "Wann kam der Wagen?", "caption": "question" }
+          ],
+          "answer": 0,
+          "why": "als, kam last. Wann kam der Wagen? stays a question.",
+          "hint": "als."
+        },
+        {
+          "prompt": "Every time he had a fever",
+          "options": [
+            { "emoji": "🔁", "label": "Wenn er Fieber hatte, riefen wir.", "caption": "repeated past" },
+            { "emoji": "🚫", "label": "Wenn hatte er Fieber, riefen wir.", "caption": "hatte too early" },
+            { "emoji": "🌡️", "label": "Als er Fieber hatte, riefen wir.", "caption": "one time" }
+          ],
+          "answer": 0,
+          "why": "Every time stays wenn. Als er Fieber hatte stays correct for once.",
+          "hint": "wenn."
+        },
+        {
+          "prompt": "I go when he comes",
+          "options": [
+            { "emoji": "🚶", "label": "Ich gehe, wenn er kommt.", "caption": "future" },
+            { "emoji": "🚫", "label": "Ich gehe, als er kommt.", "caption": "not als" },
+            { "emoji": "🚶", "label": "Ich ging, als er kam.", "caption": "one past" }
+          ],
+          "answer": 0,
+          "why": "Future when takes wenn. Ich ging, als er kam stays one past event.",
+          "hint": "wenn."
+        },
+        {
+          "prompt": "I went when he came, once",
+          "options": [
+            { "emoji": "🚶", "label": "Ich ging, als er kam.", "caption": "one past" },
+            { "emoji": "🚫", "label": "Ich ging, wann er kam.", "caption": "not wann" },
+            { "emoji": "❓", "label": "Wann kam er?", "caption": "question" }
+          ],
+          "answer": 0,
+          "why": "als for one past event. Wann kam er? stays a question.",
+          "hint": "als."
+        },
+        {
+          "prompt": "Once, when he got a fever",
+          "options": [
+            { "emoji": "🌡️", "label": "Als er Fieber bekam, riefen wir.", "caption": "one past" },
+            { "emoji": "🚫", "label": "Als bekam er Fieber, riefen wir.", "caption": "verb too early" },
+            { "emoji": "🌡️", "label": "Wenn er Fieber hat, rufen wir.", "caption": "present" }
+          ],
+          "answer": 0,
+          "why": "bekam takes als. Wenn er Fieber hat stays the present condition.",
+          "hint": "als."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, every time he had a fever",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, once when the ambulance came",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, if he has a fever",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, once when he got a fever",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Verb at the end",
+      "practice": "build",
+      "instructions": "Build the line. The verb of the wenn-clause or the als-clause is last. Do not put it in the middle.",
+      "items": [
+        {
+          "tiles": ["Wir", "rufen,", "wenn", "er", "Fieber", "hat"],
+          "answers": ["Wir rufen, wenn er Fieber hat"],
+          "punct": ".",
+          "modal": "wenn",
+          "inf": "hat",
+          "question": false,
+          "en": "We call if he has a fever.",
+          "hint": "Wir rufen, wenn er Fieber hat.",
+          "feedback": {
+            "end": "hat closes wenn er Fieber hat.",
+            "fallback": "Wir rufen, wenn er Fieber hat."
+          }
+        },
+        {
+          "tiles": ["Wir", "riefen,", "als", "der", "Wagen", "kam"],
+          "answers": ["Wir riefen, als der Wagen kam"],
+          "punct": ".",
+          "modal": "als",
+          "inf": "kam",
+          "question": false,
+          "en": "We called once, when the ambulance came.",
+          "hint": "Wir riefen, als der Wagen kam.",
+          "feedback": {
+            "end": "kam closes als der Wagen kam.",
+            "fallback": "Wir riefen, als der Wagen kam."
+          }
+        },
+        {
+          "tiles": ["Ich", "gehe,", "wenn", "er", "kommt"],
+          "answers": ["Ich gehe, wenn er kommt"],
+          "punct": ".",
+          "modal": "wenn",
+          "inf": "kommt",
+          "question": false,
+          "en": "I go when he comes.",
+          "hint": "Ich gehe, wenn er kommt.",
+          "feedback": {
+            "end": "kommt closes wenn er kommt.",
+            "fallback": "Ich gehe, wenn er kommt."
+          }
+        },
+        {
+          "tiles": ["Ich", "ging,", "als", "er", "kam"],
+          "answers": ["Ich ging, als er kam"],
+          "punct": ".",
+          "modal": "als",
+          "inf": "kam",
+          "question": false,
+          "en": "I went when he came, once.",
+          "hint": "Ich ging, als er kam.",
+          "feedback": {
+            "end": "kam closes als er kam.",
+            "fallback": "Ich ging, als er kam."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into wenn or als",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the line the English asks for. Verb at the end.",
+      "chips": [
+        { "w": "Wenn er Fieber hat, rufen wir", "hint": "wenn." },
+        { "w": "Als der Wagen kam, riefen wir", "hint": "als." },
+        { "w": "Wenn er Fieber hatte, riefen wir", "hint": "wenn." },
+        { "w": "Ich gehe, wenn er kommt", "hint": "wenn." },
+        { "w": "Ich ging, als er kam", "hint": "als." },
+        { "w": "Als er Fieber bekam, riefen wir", "hint": "als." },
+        { "w": "Als er Fieber hat, rufen wir", "hint": "wenn." },
+        { "w": "Als kam der Wagen, riefen wir", "hint": "als." },
+        { "w": "Wenn hatte er Fieber, riefen wir", "hint": "wenn." },
+        { "w": "Ich gehe, als er kommt", "hint": "wenn." },
+        { "w": "Ich ging, wann er kam", "hint": "als." },
+        { "w": "Als bekam er Fieber, riefen wir", "hint": "als." }
+      ],
+      "items": [
+        {
+          "before": "Wir rufen, wenn er Fieber hat stays correct. If he has a fever, clause first:",
+          "after": ".",
+          "answer": "Wenn er Fieber hat, rufen wir",
+          "en": "If he has a fever, we call.",
+          "why": "Fronted wenn, hat last, then rufen. The end position stays correct too.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "Wann kam der Wagen? stays a question. Once, when the ambulance came:",
+          "after": ".",
+          "answer": "Als der Wagen kam, riefen wir",
+          "en": "Once, when the ambulance came, we called.",
+          "why": "als, kam last. The question stays verb second.",
+          "tip": "als.",
+          "hint": "als."
+        },
+        {
+          "before": "Als er Fieber hatte stays correct for once. Every time he had a fever:",
+          "after": ".",
+          "answer": "Wenn er Fieber hatte, riefen wir",
+          "en": "Every time he had a fever, we called.",
+          "why": "Repeated past stays wenn. The once-line with als stays correct.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "Ich ging, als er kam stays one past event. I go when he comes:",
+          "after": ".",
+          "answer": "Ich gehe, wenn er kommt",
+          "en": "I go when he comes.",
+          "why": "Future when takes wenn. The past line stays als.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "Wann kam er? stays a question. I went when he came, once:",
+          "after": ".",
+          "answer": "Ich ging, als er kam",
+          "en": "I went when he came, once.",
+          "why": "als. The question stays Wann kam er?",
+          "tip": "als.",
+          "hint": "als."
+        },
+        {
+          "before": "Wenn er Fieber hat stays the present. Once, when he got a fever:",
+          "after": ".",
+          "answer": "Als er Fieber bekam, riefen wir",
+          "en": "Once, when he got a fever, we called.",
+          "why": "als, bekam last. The present wenn-line stays correct.",
+          "tip": "als.",
+          "hint": "als."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the wenn or als clause. Choose the correction. A question and the other correct time stay correct.",
+      "items": [
+        {
+          "clues": ["If he has a fever, we call.", "Present.", "Als er Fieber hat, rufen wir."],
+          "options": ["Wenn er Fieber hat, rufen wir.", "Als er Fieber hat, rufen wir.", "Wir rufen, wenn er Fieber hat."],
+          "answer": 0,
+          "reveal": "Wenn er Fieber hat, rufen wir.",
+          "hint": "wenn."
+        },
+        {
+          "clues": ["Once, when the ambulance came.", "Verb last.", "Als kam der Wagen, riefen wir."],
+          "options": ["Als der Wagen kam, riefen wir.", "Als kam der Wagen, riefen wir.", "Wann kam der Wagen?"],
+          "answer": 0,
+          "reveal": "Als der Wagen kam, riefen wir.",
+          "hint": "als."
+        },
+        {
+          "clues": ["Every time he had a fever.", "Repeated past.", "Wenn hatte er Fieber, riefen wir."],
+          "options": ["Wenn er Fieber hatte, riefen wir.", "Wenn hatte er Fieber, riefen wir.", "Als er Fieber hatte, riefen wir."],
+          "answer": 0,
+          "reveal": "Wenn er Fieber hatte, riefen wir.",
+          "hint": "wenn."
+        },
+        {
+          "clues": ["I go when he comes.", "Future.", "Ich gehe, als er kommt."],
+          "options": ["Ich gehe, wenn er kommt.", "Ich gehe, als er kommt.", "Ich ging, als er kam."],
+          "answer": 0,
+          "reveal": "Ich gehe, wenn er kommt.",
+          "hint": "wenn."
+        },
+        {
+          "clues": ["I went when he came. Once.", "Not a question word.", "Ich ging, wann er kam."],
+          "options": ["Ich ging, als er kam.", "Ich ging, wann er kam.", "Wann kam er?"],
+          "answer": 0,
+          "reveal": "Ich ging, als er kam.",
+          "hint": "als."
+        },
+        {
+          "clues": ["Once, when he got a fever.", "Verb last.", "Als bekam er Fieber, riefen wir."],
+          "options": ["Als er Fieber bekam, riefen wir.", "Als bekam er Fieber, riefen wir.", "Wenn er Fieber hat, rufen wir."],
+          "answer": 0,
+          "reveal": "Als er Fieber bekam, riefen wir.",
+          "hint": "als."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor chooses wenn or als. The verb of that clause is last.",
+      "chips": [
+        { "w": "Wenn er Fieber hat, rufen wir", "hint": "wenn." },
+        { "w": "Als der Wagen kam, riefen wir", "hint": "als." },
+        { "w": "Wenn er Fieber hatte, riefen wir", "hint": "wenn." },
+        { "w": "Ich gehe, wenn er kommt", "hint": "wenn." },
+        { "w": "Ich ging, als er kam", "hint": "als." },
+        { "w": "Als er Fieber bekam, riefen wir", "hint": "als." },
+        { "w": "Als er Fieber hat, rufen wir", "hint": "wenn." },
+        { "w": "Als kam der Wagen, riefen wir", "hint": "als." },
+        { "w": "Wenn hatte er Fieber, riefen wir", "hint": "wenn." },
+        { "w": "Ich gehe, als er kommt", "hint": "wenn." },
+        { "w": "Ich ging, wann er kam", "hint": "als." },
+        { "w": "Als bekam er Fieber, riefen wir", "hint": "als." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, if he has a fever, we call:",
+          "after": ".",
+          "answer": "Wenn er Fieber hat, rufen wir",
+          "en": "If he has a fever, we call.",
+          "why": "wenn.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "Doctor, once, when the ambulance came:",
+          "after": ".",
+          "answer": "Als der Wagen kam, riefen wir",
+          "en": "Once, when the ambulance came, we called.",
+          "why": "als.",
+          "tip": "als.",
+          "hint": "als."
+        },
+        {
+          "before": "Nurse, every time he had a fever:",
+          "after": ".",
+          "answer": "Wenn er Fieber hatte, riefen wir",
+          "en": "Every time he had a fever, we called.",
+          "why": "wenn.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "Doctor, I go when he comes:",
+          "after": ".",
+          "answer": "Ich gehe, wenn er kommt",
+          "en": "I go when he comes.",
+          "why": "wenn.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "Nurse, I went when he came, once:",
+          "after": ".",
+          "answer": "Ich ging, als er kam",
+          "en": "I went when he came, once.",
+          "why": "als.",
+          "tip": "als.",
+          "hint": "als."
+        },
+        {
+          "before": "Doctor, once, when he got a fever:",
+          "after": ".",
+          "answer": "Als er Fieber bekam, riefen wir",
+          "en": "Once, when he got a fever, we called.",
+          "why": "als.",
+          "tip": "als.",
+          "hint": "als."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The clause",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The wenn-clause or the als-clause only, verb at the end. A present als and a verb in the middle are not this line.",
+      "chips": [
+        { "w": "wenn er Fieber hat", "hint": "wenn." },
+        { "w": "als der Wagen kam", "hint": "als." },
+        { "w": "wenn er Fieber hatte", "hint": "wenn." },
+        { "w": "wenn er kommt", "hint": "wenn." },
+        { "w": "als er kam", "hint": "als." },
+        { "w": "als er Fieber bekam", "hint": "als." },
+        { "w": "als er Fieber hat", "hint": "wenn." },
+        { "w": "als kam der Wagen", "hint": "als." },
+        { "w": "wenn hatte er Fieber", "hint": "wenn." },
+        { "w": "als er kommt", "hint": "wenn." },
+        { "w": "als kam er", "hint": "als." },
+        { "w": "als bekam er Fieber", "hint": "als." }
+      ],
+      "items": [
+        {
+          "before": "If he has a fever. The clause:",
+          "after": ".",
+          "answer": "wenn er Fieber hat",
+          "en": "if he has a fever.",
+          "why": "wenn er Fieber hat. Not als with the present. Wir rufen den Arzt, wenn er Fieber hat stays chapter 42.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "Once, the ambulance came. The clause:",
+          "after": ".",
+          "answer": "als der Wagen kam",
+          "en": "once, when the ambulance came.",
+          "why": "als der Wagen kam. Wann kam der Wagen? stays a question.",
+          "tip": "als.",
+          "hint": "als."
+        },
+        {
+          "before": "Every time he had a fever. The clause:",
+          "after": ".",
+          "answer": "wenn er Fieber hatte",
+          "en": "every time he had a fever.",
+          "why": "wenn er Fieber hatte. Als er Fieber hatte stays one time.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "When he comes, in the future. The clause:",
+          "after": ".",
+          "answer": "wenn er kommt",
+          "en": "when he comes.",
+          "why": "wenn er kommt. Ich ging, als er kam stays the past.",
+          "tip": "wenn.",
+          "hint": "wenn."
+        },
+        {
+          "before": "When he came, once. The clause:",
+          "after": ".",
+          "answer": "als er kam",
+          "en": "when he came, once.",
+          "why": "als er kam. Wann kam er? stays a question.",
+          "tip": "als.",
+          "hint": "als."
+        },
+        {
+          "before": "When he got a fever, once. The clause:",
+          "after": ".",
+          "answer": "als er Fieber bekam",
+          "en": "when he got a fever, once.",
+          "why": "als er Fieber bekam. The present condition stays wenn er Fieber hat.",
+          "tip": "als.",
+          "hint": "als."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. A question and the one-time als stay correct when the question is not asking for them.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Wagen",
+        "paragraphs": [
+          "Ich gehe, wenn er kommt. Ich ging, als er kam. Wenn er Fieber hat, rufen wir den Arzt. Wir rufen den Arzt, wenn er Fieber hat.",
+          "Als der Wagen kam, riefen wir den Arzt. Wenn er Fieber hatte, riefen wir den Arzt. Als er Fieber bekam, riefen wir den Arzt. Die Wunde öffnet sich, wenn er aufsteht."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "I go when he comes. From the note.",
+          "qEn": "Ich gehe, wenn er kommt.",
+          "options": ["Ich gehe, wenn er kommt.", "Ich gehe, als er kommt.", "Ich ging, als er kam."],
+          "answer": 0,
+          "why": "The note has wenn er kommt. Ich ging, als er kam is also in the note, for one past event.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "Once, the ambulance, from the note.",
+          "qEn": "als der Wagen kam.",
+          "options": ["als der Wagen kam", "als kam der Wagen", "Wann kam der Wagen?"],
+          "answer": 0,
+          "why": "The note has als der Wagen kam. Wann kam der Wagen? stays a question.",
+          "hint": "als."
+        },
+        {
+          "kind": "mc",
+          "q": "Every time he had a fever, from the note.",
+          "qEn": "wenn er Fieber hatte.",
+          "options": ["wenn er Fieber hatte", "wenn er hatte Fieber", "Als er Fieber hatte, riefen wir."],
+          "answer": 0,
+          "why": "The note has wenn er Fieber hatte. Als er Fieber hatte stays correct for one time.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "If he gets up, from the note.",
+          "qEn": "wenn er aufsteht.",
+          "options": ["wenn er aufsteht", "wenn er steht auf", "Er steht auf."],
+          "answer": 0,
+          "why": "aufsteht is one word. Er steht auf stays the main clause.",
+          "hint": "aufsteht."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. I go when he comes. I went when he came, once. If he has a fever, we call. Once, when the ambulance came, we called.",
+      "prompt": "I go when he comes. I went when he came, once. If he has a fever, we call. Once, when the ambulance came, we called.",
+      "bullets": ["gehe, wenn er kommt", "ging, als er kam", "wenn er Fieber hat", "als der Wagen kam"],
+      "model": "Ich gehe, wenn er kommt. Ich ging, als er kam. Wenn er Fieber hat, rufen wir. Als der Wagen kam, riefen wir.",
+      "modelEn": "I go when he comes. I went when he came, once. If he has a fever, we call. Once, when the ambulance came, we called.",
+      "hint": "wenn er kommt. als er kam. wenn er Fieber hat. als der Wagen kam.",
+      "checklist": [
+        { "id": "g", "label": "gehe, wenn er kommt", "keywords": ["gehe, wenn er kommt"] },
+        { "id": "k", "label": "ging, als er kam", "keywords": ["ging, als er kam"] },
+        { "id": "f", "label": "wenn er Fieber hat", "keywords": ["wenn er fieber hat"] },
+        { "id": "w", "label": "als der Wagen kam", "keywords": ["als der wagen kam"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Ich gehe, wenn … / Ich ging, als …",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "wenn for if, whenever, a future when, and a repeated past. als for one past event. Verb last. wann stays a question. denn stays verb second. Comparative als stays chapter 38.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "If he has a fever, we call.",
+          "qEn": "Wenn er Fieber hat.",
+          "options": ["Wenn er Fieber hat, rufen wir.", "Als er Fieber hat, rufen wir.", "Wir rufen, wenn er Fieber hat."],
+          "answer": 0,
+          "why": "wenn. The clause at the end stays correct too.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "Once, when the ambulance came, we called.",
+          "qEn": "Als der Wagen kam.",
+          "options": ["Als der Wagen kam, riefen wir.", "Als kam der Wagen, riefen wir.", "Wann kam der Wagen?"],
+          "answer": 0,
+          "why": "als, kam last. Wann kam der Wagen? stays a question.",
+          "hint": "als."
+        },
+        {
+          "kind": "mc",
+          "q": "Every time he had a fever, we called.",
+          "qEn": "Wenn er Fieber hatte.",
+          "options": ["Wenn er Fieber hatte, riefen wir.", "Wenn hatte er Fieber, riefen wir.", "Als er Fieber hatte, riefen wir."],
+          "answer": 0,
+          "why": "Repeated past stays wenn. The als line stays one time.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "I go when he comes.",
+          "qEn": "wenn er kommt.",
+          "options": ["Ich gehe, wenn er kommt.", "Ich gehe, als er kommt.", "Ich ging, als er kam."],
+          "answer": 0,
+          "why": "Future when takes wenn. The past line stays als.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "I went when he came. Once.",
+          "qEn": "als er kam.",
+          "options": ["Ich ging, als er kam.", "Ich ging, wann er kam.", "Wann kam er?"],
+          "answer": 0,
+          "why": "als. Wann kam er? stays a question.",
+          "hint": "als."
+        },
+        {
+          "kind": "mc",
+          "q": "Once, when he got a fever, we called.",
+          "qEn": "Als er Fieber bekam.",
+          "options": ["Als er Fieber bekam, riefen wir.", "Als bekam er Fieber, riefen wir.", "Wenn er Fieber hat, rufen wir."],
+          "answer": 0,
+          "why": "als, bekam last. The present wenn-line stays correct.",
+          "hint": "als."
+        },
+        {
+          "kind": "mc",
+          "q": "If he gets up. One word.",
+          "qEn": "wenn er aufsteht.",
+          "options": ["wenn er aufsteht", "wenn er steht auf", "Er steht auf."],
+          "answer": 0,
+          "why": "aufsteht is one word after wenn. Er steht auf stays the main clause.",
+          "hint": "aufsteht."
+        },
+        {
+          "kind": "mc",
+          "q": "We call if he has a fever. Clause at the end.",
+          "qEn": "wenn er Fieber hat.",
+          "options": ["Wir rufen, wenn er Fieber hat.", "Wir rufen, wenn er hat Fieber.", "Wenn er Fieber hat, rufen wir."],
+          "answer": 0,
+          "why": "hat is last. The fronted clause stays correct too. Chapter 42.",
+          "hint": "hat."
+        },
+        {
+          "kind": "mc",
+          "q": "I ask when he came. Indirect question.",
+          "qEn": "wann er kam.",
+          "options": ["Ich frage, wann er kam.", "Ich frage, wann kam er.", "Als er kam, fragte ich."],
+          "answer": 0,
+          "why": "wann stays the indirect question, verb last, chapter 67. Als er kam, fragte ich stays one past event.",
+          "hint": "wann."
+        },
+        {
+          "kind": "mc",
+          "q": "Comma after the fronted wenn-clause.",
+          "qEn": "Wenn er Fieber hat, rufen wir.",
+          "options": ["Wenn er Fieber hat, rufen wir.", "Wenn er Fieber hat rufen wir.", "Wir rufen, wenn er Fieber hat."],
+          "answer": 0,
+          "why": "The comma closes the fronted clause. The clause at the end stays correct too.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "We call if he has a fever. Not denn.",
+          "qEn": "wenn er Fieber hat.",
+          "options": ["Wir rufen, wenn er Fieber hat.", "Wir rufen, denn er Fieber hat.", "Wir rufen, denn er hat Fieber."],
+          "answer": 0,
+          "why": "The condition takes wenn, verb last. Wir rufen, denn er hat Fieber stays correct, verb second. wenn is not denn.",
+          "hint": "wenn."
+        },
+        {
+          "kind": "mc",
+          "q": "Once, when she came, we called. Not the comparison.",
+          "qEn": "Als sie kam.",
+          "options": ["Als sie kam, riefen wir.", "Als kam sie, riefen wir.", "Der Schmerz ist stärker als gestern."],
+          "answer": 0,
+          "why": "One past event takes als, verb last. Der Schmerz ist stärker als gestern stays the comparison, chapter 38.",
+          "hint": "als."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Ich gehe, wenn … / Ich ging, als …",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Ich gehe, wenn er kommt.", "en": "I go when he comes." },
+        { "de": "Ich ging, als er kam.", "en": "I went when he came, once." },
+        { "de": "Wenn er Fieber hat, rufen wir.", "en": "If he has a fever, we call." },
+        { "de": "Als der Wagen kam, riefen wir.", "en": "Once, when the ambulance came, we called." }
+      ],
+      "messages": [
+        "wenn is if, whenever, a future when, and a repeated past. als is one event in the past. The verb of that clause goes last.",
+        "Wir rufen den Arzt, wenn er Fieber hat stays chapter 42. wann stays a question. denn stays verb second. Comparative als stays chapter 38. er steht auf stays a main clause.",
+        "Sehr gut. Ich gehe, wenn er kommt. Ich ging, als er kam.",
+        "Ausgezeichnet. You can say if he has a fever, every time he had one, and the one time the ambulance came."
+      ]
+    }
+  ]
+}

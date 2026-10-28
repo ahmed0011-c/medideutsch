@@ -6,7 +6,7 @@ The course map in `content/curriculum.ts` lists all 80 chapters of the grammar s
 - A2: 21, 22, 25–29, 34–38, 40–44, 46
 - B1: 39, 49–80
 
-Played in this repo: 1, 2, 3, 4, 5–6 (one lesson), 7, 8, 9, 10, 11, 12, 13, 14, 15, 16–17 (one lesson), 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67. The whole A1 path is playable, and so is every A2 card. B1 chapters 39, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66 and 67 are playable. Chapters 68–80 are still coming soon. The card already has the grammar topic and a one-line ward situation. Use that situation; do not paste textbook exercises.
+Played in this repo: 1, 2, 3, 4, 5–6 (one lesson), 7, 8, 9, 10, 11, 12, 13, 14, 15, 16–17 (one lesson), 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72. The whole A1 path is playable, and so is every A2 card. B1 chapters 39, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71 and 72 are playable. Chapters 73–80 are still coming soon. The card already has the grammar topic and a one-line ward situation. Use that situation; do not paste textbook exercises.
 
 ## Checklist for the next chapter
 

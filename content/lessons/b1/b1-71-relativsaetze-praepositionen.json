@@ -1,0 +1,1159 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-71-relativsaetze-praepositionen",
+  "level": "B1",
+  "unit": "Kapitel 71",
+  "chapter": 71,
+  "chapters": [71],
+  "title": "Wie heißt das Ding, mit dem man …?",
+  "subtitle": "Relative clauses 2",
+  "glossary": {
+    "wie": {
+      "de": "wie",
+      "pos": "adverb",
+      "en": "how / what",
+      "emoji": "❓",
+      "note": "W-word in position 1. Wie heißt das Ding? The verb heißt stays in position 2. The question mark stays, because the main clause is a question."
+    },
+    "heißt": {
+      "de": "heißen → es heißt",
+      "pos": "form",
+      "en": "is called",
+      "emoji": "❓",
+      "note": "Wie heißt das Ding? Verb in position 2. Inside the relative clause the other verb goes to the end."
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "📟",
+      "note": "das Ding, das Zimmer. Neuter. After über, about a neuter noun, the relative is also das: über das. Not dass. dass stays a conjunction, chapter 42."
+    },
+    "ding": {
+      "de": "Ding",
+      "pos": "noun",
+      "en": "thing",
+      "emoji": "📟",
+      "article": "das",
+      "plural": "die Dinge",
+      "note": "das Ding is neuter. mit takes the dative, so mit dem. The title leaves the last verb open."
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "🤝",
+      "note": "Always dative. The preposition stands before the pronoun: mit dem, mit der, mit denen. Not dem mit."
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "pronoun",
+      "en": "whom, which (masculine or neuter dative)",
+      "emoji": "🤝",
+      "note": "Masculine and neuter dative. mit dem, in dem. Not feminine. Not plural. Feminine is der. Plural is denen. With the article, in + dem can be im. The relative stays in dem."
+    },
+    "man": {
+      "de": "man",
+      "pos": "pronoun",
+      "en": "one",
+      "emoji": "🧑",
+      "note": "mit dem man … The title leaves the verb open. The ward line is mit dem wir messen."
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🚪",
+      "note": "Das ist der Monitor. Main-clause verb, position 2."
+    },
+    "der": {
+      "de": "der",
+      "pos": "pronoun",
+      "en": "the / whom (masculine nominative, feminine dative)",
+      "emoji": "👩‍⚕️",
+      "note": "Masculine nominative: der Monitor, der Patient. Feminine dative after mit: mit der. die Kollegin, mit der wir sprechen. Not mit dem for a woman."
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "emoji": "📟",
+      "article": "der",
+      "plural": "die Monitore",
+      "note": "Masculine. mit dem Monitor. der Monitor, mit dem wir messen. Not n-declension. Wir messen mit dem Monitor stays a main clause."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "messen": {
+      "de": "messen → wir messen",
+      "pos": "form",
+      "en": "measure",
+      "emoji": "📟",
+      "note": "wir messen. Verb at the end of the relative clause. The participle is gemessen, chapter 26, not this exercise."
+    },
+    "die": {
+      "de": "die",
+      "pos": "pronoun",
+      "en": "the / whom, which (feminine or plural)",
+      "emoji": "📋",
+      "note": "Feminine and plural, nominative and accusative. über die Akte. die Akte, über die wir sprechen. über takes the accusative when it means about."
+    },
+    "kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Kolleginnen",
+      "note": "die Kollegin. Dative der Kollegin. mit der wir sprechen. The masculine Kollege adds -n: dem Kollegen, chapter 64."
+    },
+    "sprechen": {
+      "de": "sprechen → wir sprechen",
+      "pos": "form",
+      "en": "speak",
+      "emoji": "🗣️",
+      "note": "wir sprechen. mit takes the dative. über, when it means about, takes the accusative. The verb stays last."
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart, file",
+      "emoji": "📋",
+      "article": "die",
+      "plural": "die Akten",
+      "note": "die Akte, über die wir sprechen. Feminine accusative after über. Wir sprechen über die Akte stays a main clause."
+    },
+    "über": {
+      "de": "über",
+      "pos": "preposition",
+      "en": "about / above",
+      "emoji": "📋",
+      "note": "About takes the accusative: über den, über die, über das. Above a place takes the dative, chapter 34, and stays correct for that meaning."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative der Patient. über den wir sprechen. den Patienten is the noun in the accusative, chapter 64. dem Patienten is one man in the dative."
+    },
+    "den": {
+      "de": "den",
+      "pos": "pronoun",
+      "en": "whom (masculine accusative)",
+      "emoji": "🏥",
+      "note": "Masculine accusative relative and article. über den. den is also the dative plural article: den Ärzten, den Patienten. The dative plural relative is denen."
+    },
+    "sind": {
+      "de": "sein → sie sind",
+      "pos": "form",
+      "en": "are",
+      "emoji": "👥",
+      "note": "Das sind die Ärzte. Main-clause verb, position 2."
+    },
+    "ärzte": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctors",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "Nominative plural die Ärzte. Dative plural den Ärzten, with -n. The relative pronoun is mit denen, not mit den."
+    },
+    "denen": {
+      "de": "denen",
+      "pos": "pronoun",
+      "en": "whom (dative plural)",
+      "emoji": "👥",
+      "note": "Relative pronoun, dative plural. mit denen wir arbeiten. The article for several people stays den: mit den Ärzten."
+    },
+    "arbeiten": {
+      "de": "arbeiten → wir arbeiten",
+      "pos": "form",
+      "en": "work",
+      "emoji": "👥",
+      "note": "wir arbeiten. Verb at the end. Wir arbeiten mit den Ärzten stays a main clause."
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer",
+      "note": "das Zimmer, in dem er liegt. wo er liegt stays correct for a place. Er liegt im Zimmer stays a main clause. ins Zimmer stays direction."
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in",
+      "emoji": "🚪",
+      "note": "Two-way, chapter 34. With liegen, wo?, the relative is in dem. wohin? stays ins Zimmer, with gehen. The relative does not contract to im."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "liegt": {
+      "de": "liegen → er liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🛏️",
+      "note": "Position, wo? Verb last in the relative clause: in dem er liegt. Er liegt im Zimmer stays verb second."
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "adverb",
+      "en": "where",
+      "emoji": "🚪",
+      "note": "For a place. das Zimmer, wo er liegt. The verb stays last. in dem stays correct too. Not for a person. Wo liegt er? stays a question."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Preposition before the pronoun",
+      "learn": [
+        "The preposition stands before the relative pronoun. The verb of that clause goes to the end. Wie heißt das Ding, mit dem man …?",
+        "The preposition picks the case. mit is dative: mit dem, mit der, mit denen. über, when it means about, is accusative: über den, über die, über das.",
+        "A place can also take wo: das Zimmer, wo er liegt. in dem stays correct too. alles, was stays was, not das. A named noun keeps das, chapter 70.",
+        "Wir messen mit dem Monitor, Wir sprechen über den Patienten, and Er liegt im Zimmer stay main clauses. dem wir berichten stays chapter 70."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Monitor", "article": "der", "plural": "die Monitore", "en": "monitor", "emoji": "📟", "glossaryKey": "monitor" },
+        { "de": "Akte", "article": "die", "plural": "die Akten", "en": "file", "emoji": "📋", "glossaryKey": "akte" },
+        { "de": "Zimmer", "article": "das", "plural": "die Zimmer", "en": "room", "emoji": "🚪", "glossaryKey": "zimmer" }
+      ],
+      "text": {
+        "title": "Wie heißt das Ding, mit dem man …?",
+        "de": "Wie heißt das Ding, mit dem man …? Das ist der Monitor, mit dem wir messen. Das ist die Kollegin, mit der wir sprechen. Das ist die Akte, über die wir sprechen. Das ist der Patient, über den wir sprechen. Das sind die Ärzte, mit denen wir arbeiten. Das ist das Zimmer, in dem er liegt. Das ist das Zimmer, wo er liegt.",
+        "en": "What is the thing called, with which one …? That is the monitor with which we measure. That is the colleague with whom we speak. That is the file about which we speak. That is the patient about whom we speak. Those are the doctors with whom we work. That is the room in which he is lying. That is the room where he is lying."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "mit dem, über die",
+      "practice": "choose",
+      "heroTitle": "Wie heißt das Ding, mit dem man …?",
+      "heroImage": "bed",
+      "story": [
+        "Put the preposition in front of the relative pronoun, and put the verb at the end. <b>Wie heißt das Ding, mit dem man …?</b> Wie is in position 1 and heißt is in position 2, so the question mark stays. The title leaves the last verb open. The ward line closes it: <b>Das ist der Monitor, mit dem wir messen.</b> Ding and Monitor take <b>dem</b> because mit is dative. Not dem mit.",
+        "Feminine dative is <b>der</b>, not dem. <b>Die Kollegin, mit der wir sprechen.</b> Plural dative is <b>denen</b>: <b>Die Ärzte, mit denen wir arbeiten.</b> <b>Wir sprechen mit der Kollegin</b> and <b>Wir arbeiten mit den Ärzten</b> stay main clauses. den Ärzten is the article plus the noun, with -n. The masculine colleague adds -n too: dem Kollegen, chapter 64.",
+        "<b>über</b> means about here, so it takes the accusative. <b>Die Akte, über die wir sprechen. Der Patient, über den wir sprechen.</b> A neuter noun is über das. <b>Wir sprechen über die Akte</b> and <b>Wir sprechen über den Patienten</b> stay main clauses. den Patienten is the noun, chapter 64. Above a place, über takes the dative, chapter 34, and that meaning stays correct. It is not this drill.",
+        "<b>in</b> with liegen asks wo?, so the relative is dative: <b>das Zimmer, in dem er liegt.</b> For a place, <b>wo</b> stays correct too: <b>das Zimmer, wo er liegt.</b> The verb stays last. A person takes der, die or dem, not wo. <b>Er liegt im Zimmer</b> stays a main clause. im is in + dem with the article. The relative does not contract. <b>ins Zimmer</b> stays direction, with gehen, not with liegen.",
+        "After alles, etwas, nichts, or das as a whole idea, the pronoun is <b>was</b>: <b>alles, was er braucht.</b> Not alles, das. A named noun keeps das: <b>das Zimmer, das frei ist</b> stays chapter 70. With no noun, the wo-compound stays correct: <b>etwas, worüber wir sprechen.</b> The named file keeps über die. <b>dass</b> stays a conjunction, chapter 42.",
+        "berichten takes the dative and needs no preposition: <b>der Kollege, dem wir berichten</b> stays chapter 70. That is the colleague to whom we report. an takes the accusative when someone is the recipient: <b>der Kollege, an den wir schreiben.</b> Chapter 70 without a preposition stays correct: der im Zimmer liegt, dem wir helfen, denen wir helfen. von dem and vom both stay correct for the article, chapter 31."
+      ],
+      "questionRule": "The preposition stands before the pronoun and picks the case. mit and in, for wo?, take the dative: dem, der, denen. über, for about, takes the accusative: den, die, das. The verb is last. wo for a place and was after alles stay correct.",
+      "tables": [
+        {
+          "title": "Präposition + Pronomen",
+          "caption": "The preposition picks the case. Gender and number come from the noun. wo for a place, and was after alles, stay correct too.",
+          "columns": ["Maskulin", "Feminin", "Neutrum", "Plural"],
+          "rows": [
+            { "label": "mit", "cells": ["dem", "der", "dem", "denen"], "highlight": true },
+            { "label": "über", "cells": ["den", "die", "das", "die"], "highlight": true },
+            { "label": "in", "cells": ["dem", "der", "dem", "denen"] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "Wie heißt stays a question. wo and in dem are both in the note.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "Ding", "cells": ["Wie heißt das Ding, mit dem man …?"], "highlight": true },
+            { "label": "mit dem", "cells": ["Das ist der Monitor, mit dem wir messen."], "highlight": true },
+            { "label": "mit der", "cells": ["Das ist die Kollegin, mit der wir sprechen."] },
+            { "label": "über die", "cells": ["Das ist die Akte, über die wir sprechen."] },
+            { "label": "über den", "cells": ["Das ist der Patient, über den wir sprechen."] },
+            { "label": "denen", "cells": ["Das sind die Ärzte, mit denen wir arbeiten."] },
+            { "label": "in dem", "cells": ["Das ist das Zimmer, in dem er liegt."] },
+            { "label": "wo", "cells": ["Das ist das Zimmer, wo er liegt."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Wir messen mit dem Monitor, Wir sprechen mit der Kollegin, Wir sprechen über den Patienten, Wir arbeiten mit den Ärzten, Er liegt im Zimmer, das Zimmer, wo er liegt, alles, was, etwas, worüber, dem wir berichten, and das Zimmer, das frei ist stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "mit", "cells": ["dem wir mit messen", "mit dem wir messen"] },
+            { "label": "der", "cells": ["Die Kollegin, mit dem wir sprechen", "Die Kollegin, mit der wir sprechen"] },
+            { "label": "die", "cells": ["Die Akte, über der wir sprechen", "Die Akte, über die wir sprechen"] },
+            { "label": "den", "cells": ["Der Patient, über dem wir sprechen", "Der Patient, über den wir sprechen"] },
+            { "label": "denen", "cells": ["Die Ärzte, mit den wir arbeiten", "Die Ärzte, mit denen wir arbeiten"] },
+            { "label": "in", "cells": ["Das Zimmer, in den er liegt", "Das Zimmer, in dem er liegt"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four preposition traps",
+        "items": [
+          { "de": "Der Monitor, mit dem wir messen.", "en": "mit stands before dem.", "tone": "ok" },
+          { "de": "Der Monitor, dem wir mit messen.", "en": "The preposition is not at the end.", "tone": "stop" },
+          { "de": "Die Kollegin, mit der wir sprechen.", "en": "A woman takes der.", "tone": "ok" },
+          { "de": "Die Kollegin, mit dem wir sprechen.", "en": "dem is not feminine.", "tone": "stop" },
+          { "de": "Die Akte, über die wir sprechen.", "en": "About takes die.", "tone": "ok" },
+          { "de": "Die Akte, über der wir sprechen.", "en": "About does not take der.", "tone": "stop" },
+          { "de": "Die Ärzte, mit denen wir arbeiten.", "en": "Plural dative is denen.", "tone": "ok" },
+          { "de": "Die Ärzte, mit den wir arbeiten.", "en": "den is not the plural pronoun.", "tone": "stop" }
+        ],
+        "tip": "Preposition first. Then the pronoun. Verb at the end."
+      },
+      "tips": [
+        {
+          "title": "The preposition picks the case",
+          "body": "mit dem. mit der. mit denen. über den. über die. in dem.",
+          "mnemonic": "mit dem. über die. mit denen. in dem.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "mit dem", "emoji": "📟", "en": "with which we measure", "use": "dative", "de": "Der Monitor, mit dem wir messen.", "deEn": "The monitor with which we measure." },
+        { "modal": "über die", "emoji": "📋", "en": "about which we speak", "use": "accusative", "de": "Die Akte, über die wir sprechen.", "deEn": "The file about which we speak." },
+        { "modal": "mit denen", "emoji": "👥", "en": "with whom we work", "use": "dative plural", "de": "Die Ärzte, mit denen wir arbeiten.", "deEn": "The doctors with whom we work." },
+        { "modal": "in dem", "emoji": "🚪", "en": "in which he is lying", "use": "place", "de": "Das Zimmer, in dem er liegt.", "deEn": "The room in which he is lying." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The monitor with which we measure.",
+          "qEn": "mit dem wir messen.",
+          "options": ["Der Monitor, mit dem wir messen.", "Der Monitor, dem wir mit messen.", "Wir messen mit dem Monitor."],
+          "answer": 0,
+          "why": "mit stands before dem, and messen is last. Wir messen mit dem Monitor stays a main clause.",
+          "hint": "mit dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The colleague with whom we speak.",
+          "qEn": "mit der wir sprechen.",
+          "options": ["Die Kollegin, mit der wir sprechen.", "Die Kollegin, mit dem wir sprechen.", "Wir sprechen mit der Kollegin."],
+          "answer": 0,
+          "why": "A woman after mit takes der. Wir sprechen mit der Kollegin stays a main clause. mit dem stays correct for a man or a neuter noun.",
+          "hint": "mit der."
+        },
+        {
+          "kind": "mc",
+          "q": "The file about which we speak.",
+          "qEn": "über die wir sprechen.",
+          "options": ["Die Akte, über die wir sprechen.", "Die Akte, über der wir sprechen.", "Wir sprechen über die Akte."],
+          "answer": 0,
+          "why": "About takes the accusative, so die. Wir sprechen über die Akte stays a main clause. etwas, worüber wir sprechen stays correct when there is no noun.",
+          "hint": "über die."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient about whom we speak.",
+          "qEn": "über den wir sprechen.",
+          "options": ["Der Patient, über den wir sprechen.", "Der Patient, über dem wir sprechen.", "Wir sprechen über den Patienten."],
+          "answer": 0,
+          "why": "über den. den Patienten in the main clause is the noun, chapter 64. Wir sprechen über den Patienten stays correct.",
+          "hint": "über den."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctors with whom we work.",
+          "qEn": "mit denen wir arbeiten.",
+          "options": ["Die Ärzte, mit denen wir arbeiten.", "Die Ärzte, mit den wir arbeiten.", "Wir arbeiten mit den Ärzten."],
+          "answer": 0,
+          "why": "denen is the plural pronoun. Wir arbeiten mit den Ärzten stays correct: den Ärzten is the article plus the noun, with -n.",
+          "hint": "denen."
+        },
+        {
+          "kind": "mc",
+          "q": "The room in which he is lying.",
+          "qEn": "in dem er liegt.",
+          "options": ["Das Zimmer, in dem er liegt.", "Das Zimmer, in den er liegt.", "Das Zimmer, wo er liegt."],
+          "answer": 0,
+          "why": "liegen asks wo?, so in takes the dative: in dem. wo er liegt stays correct for a place. Er liegt im Zimmer stays a main clause.",
+          "hint": "in dem."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Preposition before the pronoun, verb at the end. A main clause, and wo for a place, stay correct, so they are not chips here.",
+      "chips": [
+        { "w": "Der Monitor, mit dem wir messen", "hint": "mit dem." },
+        { "w": "Die Kollegin, mit der wir sprechen", "hint": "mit der." },
+        { "w": "Die Akte, über die wir sprechen", "hint": "über die." },
+        { "w": "Der Patient, über den wir sprechen", "hint": "über den." },
+        { "w": "Die Ärzte, mit denen wir arbeiten", "hint": "denen." },
+        { "w": "Das Zimmer, in dem er liegt", "hint": "in dem." },
+        { "w": "Der Monitor, dem wir mit messen", "hint": "mit dem." },
+        { "w": "Die Kollegin, mit dem wir sprechen", "hint": "mit der." },
+        { "w": "Die Akte, über der wir sprechen", "hint": "über die." },
+        { "w": "Der Patient, über dem wir sprechen", "hint": "über den." },
+        { "w": "Die Ärzte, mit den wir arbeiten", "hint": "denen." },
+        { "w": "Das Zimmer, in den er liegt", "hint": "in dem." }
+      ],
+      "items": [
+        {
+          "before": "The monitor with which we measure:",
+          "after": ".",
+          "answer": "Der Monitor, mit dem wir messen",
+          "en": "The monitor with which we measure.",
+          "why": "mit dem, messen last. Wir messen mit dem Monitor stays a main clause.",
+          "tip": "mit dem.",
+          "hint": "mit dem."
+        },
+        {
+          "before": "The colleague with whom we speak:",
+          "after": ".",
+          "answer": "Die Kollegin, mit der wir sprechen",
+          "en": "The colleague with whom we speak.",
+          "why": "mit der for a woman. Wir sprechen mit der Kollegin stays correct.",
+          "tip": "mit der.",
+          "hint": "mit der."
+        },
+        {
+          "before": "The file about which we speak:",
+          "after": ".",
+          "answer": "Die Akte, über die wir sprechen",
+          "en": "The file about which we speak.",
+          "why": "über die. Wir sprechen über die Akte stays a main clause.",
+          "tip": "über die.",
+          "hint": "über die."
+        },
+        {
+          "before": "The patient about whom we speak:",
+          "after": ".",
+          "answer": "Der Patient, über den wir sprechen",
+          "en": "The patient about whom we speak.",
+          "why": "über den. Wir sprechen über den Patienten stays the noun, chapter 64.",
+          "tip": "über den.",
+          "hint": "über den."
+        },
+        {
+          "before": "The doctors with whom we work:",
+          "after": ".",
+          "answer": "Die Ärzte, mit denen wir arbeiten",
+          "en": "The doctors with whom we work.",
+          "why": "mit denen. Wir arbeiten mit den Ärzten stays the article den and the ending -n.",
+          "tip": "denen.",
+          "hint": "denen."
+        },
+        {
+          "before": "The room in which he is lying:",
+          "after": ".",
+          "answer": "Das Zimmer, in dem er liegt",
+          "en": "The room in which he is lying.",
+          "why": "in dem. wo er liegt stays correct for a place. Er liegt im Zimmer stays a main clause.",
+          "tip": "in dem.",
+          "hint": "in dem."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line has the preposition before the pronoun. One is not German. A main clause, or wo for a place, stays correct.",
+      "items": [
+        {
+          "prompt": "The monitor with which we measure",
+          "options": [
+            { "emoji": "📟", "label": "Der Monitor, mit dem wir messen.", "caption": "mit before dem" },
+            { "emoji": "🚫", "label": "Der Monitor, dem wir mit messen.", "caption": "preposition late" },
+            { "emoji": "📟", "label": "Wir messen mit dem Monitor.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "mit dem, then messen. Wir messen mit dem Monitor stays correct.",
+          "hint": "mit dem."
+        },
+        {
+          "prompt": "The colleague with whom we speak",
+          "options": [
+            { "emoji": "👩‍⚕️", "label": "Die Kollegin, mit der wir sprechen.", "caption": "feminine dative" },
+            { "emoji": "🚫", "label": "Die Kollegin, mit dem wir sprechen.", "caption": "not dem" },
+            { "emoji": "👩‍⚕️", "label": "Wir sprechen mit der Kollegin.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "mit der. Wir sprechen mit der Kollegin stays correct. mit dem stays correct for a man.",
+          "hint": "mit der."
+        },
+        {
+          "prompt": "The file about which we speak",
+          "options": [
+            { "emoji": "📋", "label": "Die Akte, über die wir sprechen.", "caption": "accusative" },
+            { "emoji": "🚫", "label": "Die Akte, über der wir sprechen.", "caption": "not dative" },
+            { "emoji": "📋", "label": "Wir sprechen über die Akte.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "über die. Wir sprechen über die Akte stays correct. etwas, worüber wir sprechen stays correct with no noun.",
+          "hint": "über die."
+        },
+        {
+          "prompt": "The patient about whom we speak",
+          "options": [
+            { "emoji": "🏥", "label": "Der Patient, über den wir sprechen.", "caption": "accusative" },
+            { "emoji": "🚫", "label": "Der Patient, über dem wir sprechen.", "caption": "not dative" },
+            { "emoji": "🏥", "label": "Wir sprechen über den Patienten.", "caption": "the noun" }
+          ],
+          "answer": 0,
+          "why": "über den. Wir sprechen über den Patienten stays chapter 64.",
+          "hint": "über den."
+        },
+        {
+          "prompt": "The doctors with whom we work",
+          "options": [
+            { "emoji": "👥", "label": "Die Ärzte, mit denen wir arbeiten.", "caption": "dative plural" },
+            { "emoji": "🚫", "label": "Die Ärzte, mit den wir arbeiten.", "caption": "not the pronoun" },
+            { "emoji": "👥", "label": "Wir arbeiten mit den Ärzten.", "caption": "article den" }
+          ],
+          "answer": 0,
+          "why": "mit denen. Wir arbeiten mit den Ärzten stays correct, with -n on Ärzten.",
+          "hint": "denen."
+        },
+        {
+          "prompt": "The room in which he is lying",
+          "options": [
+            { "emoji": "🚪", "label": "Das Zimmer, in dem er liegt.", "caption": "dative" },
+            { "emoji": "🚫", "label": "Das Zimmer, in den er liegt.", "caption": "not accusative" },
+            { "emoji": "🚪", "label": "Das Zimmer, wo er liegt.", "caption": "place" }
+          ],
+          "answer": 0,
+          "why": "in dem, because liegen asks wo? wo er liegt stays correct. Er liegt im Zimmer stays a main clause.",
+          "hint": "in dem."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, the room in which he lies",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, the patient about whom we speak",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, the monitor with which we measure",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, the file about which we speak",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Preposition, then the verb",
+      "practice": "build",
+      "instructions": "Build the relative clause. The preposition stays in front of the pronoun. The verb of that clause is last.",
+      "items": [
+        {
+          "tiles": ["Der", "Monitor,", "mit", "dem", "wir", "messen"],
+          "answers": ["Der Monitor, mit dem wir messen"],
+          "punct": ".",
+          "modal": "mit",
+          "inf": "messen",
+          "question": false,
+          "en": "The monitor with which we measure.",
+          "hint": "Der Monitor, mit dem wir messen.",
+          "feedback": {
+            "end": "messen closes mit dem wir messen.",
+            "fallback": "Der Monitor, mit dem wir messen."
+          }
+        },
+        {
+          "tiles": ["Die", "Kollegin,", "mit", "der", "wir", "sprechen"],
+          "answers": ["Die Kollegin, mit der wir sprechen"],
+          "punct": ".",
+          "modal": "mit",
+          "inf": "sprechen",
+          "question": false,
+          "en": "The colleague with whom we speak.",
+          "hint": "Die Kollegin, mit der wir sprechen.",
+          "feedback": {
+            "end": "sprechen closes mit der wir sprechen.",
+            "fallback": "Die Kollegin, mit der wir sprechen."
+          }
+        },
+        {
+          "tiles": ["Die", "Akte,", "über", "die", "wir", "sprechen"],
+          "answers": ["Die Akte, über die wir sprechen"],
+          "punct": ".",
+          "modal": "über",
+          "inf": "sprechen",
+          "question": false,
+          "en": "The file about which we speak.",
+          "hint": "Die Akte, über die wir sprechen.",
+          "feedback": {
+            "end": "sprechen closes über die wir sprechen.",
+            "fallback": "Die Akte, über die wir sprechen."
+          }
+        },
+        {
+          "tiles": ["Das", "Zimmer,", "in", "dem", "er", "liegt"],
+          "answers": ["Das Zimmer, in dem er liegt"],
+          "punct": ".",
+          "modal": "in",
+          "inf": "liegt",
+          "question": false,
+          "en": "The room in which he is lying.",
+          "hint": "Das Zimmer, in dem er liegt.",
+          "feedback": {
+            "end": "liegt closes in dem er liegt.",
+            "fallback": "Das Zimmer, in dem er liegt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the relative clause",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the relative clause. Preposition first, verb last.",
+      "chips": [
+        { "w": "Der Monitor, mit dem wir messen", "hint": "mit dem." },
+        { "w": "Die Kollegin, mit der wir sprechen", "hint": "mit der." },
+        { "w": "Die Akte, über die wir sprechen", "hint": "über die." },
+        { "w": "Der Patient, über den wir sprechen", "hint": "über den." },
+        { "w": "Die Ärzte, mit denen wir arbeiten", "hint": "denen." },
+        { "w": "Das Zimmer, in dem er liegt", "hint": "in dem." },
+        { "w": "Der Monitor, dem wir mit messen", "hint": "mit dem." },
+        { "w": "Die Kollegin, mit dem wir sprechen", "hint": "mit der." },
+        { "w": "Die Akte, über der wir sprechen", "hint": "über die." },
+        { "w": "Der Patient, über dem wir sprechen", "hint": "über den." },
+        { "w": "Die Ärzte, mit den wir arbeiten", "hint": "denen." },
+        { "w": "Das Zimmer, in den er liegt", "hint": "in dem." }
+      ],
+      "items": [
+        {
+          "before": "Wir messen mit dem Monitor stays correct. The monitor with which we measure:",
+          "after": ".",
+          "answer": "Der Monitor, mit dem wir messen",
+          "en": "The monitor with which we measure.",
+          "why": "mit dem wir messen. Wir messen mit dem Monitor stays a main clause.",
+          "tip": "mit dem.",
+          "hint": "mit dem."
+        },
+        {
+          "before": "Wir sprechen mit der Kollegin stays correct. The colleague with whom we speak:",
+          "after": ".",
+          "answer": "Die Kollegin, mit der wir sprechen",
+          "en": "The colleague with whom we speak.",
+          "why": "mit der wir sprechen. Wir sprechen mit der Kollegin stays correct.",
+          "tip": "mit der.",
+          "hint": "mit der."
+        },
+        {
+          "before": "Wir sprechen über die Akte stays correct. The file about which we speak:",
+          "after": ".",
+          "answer": "Die Akte, über die wir sprechen",
+          "en": "The file about which we speak.",
+          "why": "über die wir sprechen. Wir sprechen über die Akte stays a main clause.",
+          "tip": "über die.",
+          "hint": "über die."
+        },
+        {
+          "before": "Wir sprechen über den Patienten stays correct. The patient about whom we speak:",
+          "after": ".",
+          "answer": "Der Patient, über den wir sprechen",
+          "en": "The patient about whom we speak.",
+          "why": "über den wir sprechen. den Patienten stays the noun.",
+          "tip": "über den.",
+          "hint": "über den."
+        },
+        {
+          "before": "Wir arbeiten mit den Ärzten stays correct. The doctors with whom we work:",
+          "after": ".",
+          "answer": "Die Ärzte, mit denen wir arbeiten",
+          "en": "The doctors with whom we work.",
+          "why": "mit denen wir arbeiten. den Ärzten stays the article and the noun.",
+          "tip": "denen.",
+          "hint": "denen."
+        },
+        {
+          "before": "Das Zimmer, wo er liegt stays correct. The room in which he is lying:",
+          "after": ".",
+          "answer": "Das Zimmer, in dem er liegt",
+          "en": "The room in which he is lying.",
+          "why": "in dem er liegt. wo er liegt stays correct for a place.",
+          "tip": "in dem.",
+          "hint": "in dem."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line puts the preposition or the case in the wrong place. Choose the correction. A main clause, and wo, stay correct.",
+      "items": [
+        {
+          "clues": ["The monitor with which we measure.", "mit before dem.", "Der Monitor, dem wir mit messen."],
+          "options": ["Der Monitor, mit dem wir messen.", "Der Monitor, dem wir mit messen.", "Wir messen mit dem Monitor."],
+          "answer": 0,
+          "reveal": "Der Monitor, mit dem wir messen.",
+          "hint": "mit dem."
+        },
+        {
+          "clues": ["The colleague with whom we speak.", "Feminine.", "Die Kollegin, mit dem wir sprechen."],
+          "options": ["Die Kollegin, mit der wir sprechen.", "Die Kollegin, mit dem wir sprechen.", "Wir sprechen mit der Kollegin."],
+          "answer": 0,
+          "reveal": "Die Kollegin, mit der wir sprechen.",
+          "hint": "mit der."
+        },
+        {
+          "clues": ["The file about which we speak.", "Accusative.", "Die Akte, über der wir sprechen."],
+          "options": ["Die Akte, über die wir sprechen.", "Die Akte, über der wir sprechen.", "Wir sprechen über die Akte."],
+          "answer": 0,
+          "reveal": "Die Akte, über die wir sprechen.",
+          "hint": "über die."
+        },
+        {
+          "clues": ["The patient about whom we speak.", "Accusative.", "Der Patient, über dem wir sprechen."],
+          "options": ["Der Patient, über den wir sprechen.", "Der Patient, über dem wir sprechen.", "Wir sprechen über den Patienten."],
+          "answer": 0,
+          "reveal": "Der Patient, über den wir sprechen.",
+          "hint": "über den."
+        },
+        {
+          "clues": ["The doctors with whom we work.", "Dative plural.", "Die Ärzte, mit den wir arbeiten."],
+          "options": ["Die Ärzte, mit denen wir arbeiten.", "Die Ärzte, mit den wir arbeiten.", "Wir arbeiten mit den Ärzten."],
+          "answer": 0,
+          "reveal": "Die Ärzte, mit denen wir arbeiten.",
+          "hint": "denen."
+        },
+        {
+          "clues": ["The room in which he is lying.", "Dative.", "Das Zimmer, in den er liegt."],
+          "options": ["Das Zimmer, in dem er liegt.", "Das Zimmer, in den er liegt.", "Das Zimmer, wo er liegt."],
+          "answer": 0,
+          "reveal": "Das Zimmer, in dem er liegt.",
+          "hint": "in dem."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses a preposition before the pronoun. The verb of the relative clause is last.",
+      "chips": [
+        { "w": "Der Monitor, mit dem wir messen", "hint": "mit dem." },
+        { "w": "Die Kollegin, mit der wir sprechen", "hint": "mit der." },
+        { "w": "Die Akte, über die wir sprechen", "hint": "über die." },
+        { "w": "Der Patient, über den wir sprechen", "hint": "über den." },
+        { "w": "Die Ärzte, mit denen wir arbeiten", "hint": "denen." },
+        { "w": "Das Zimmer, in dem er liegt", "hint": "in dem." },
+        { "w": "Der Monitor, dem wir mit messen", "hint": "mit dem." },
+        { "w": "Die Kollegin, mit dem wir sprechen", "hint": "mit der." },
+        { "w": "Die Akte, über der wir sprechen", "hint": "über die." },
+        { "w": "Der Patient, über dem wir sprechen", "hint": "über den." },
+        { "w": "Die Ärzte, mit den wir arbeiten", "hint": "denen." },
+        { "w": "Das Zimmer, in den er liegt", "hint": "in dem." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, the monitor with which we measure:",
+          "after": ".",
+          "answer": "Der Monitor, mit dem wir messen",
+          "en": "The monitor with which we measure.",
+          "why": "mit dem.",
+          "tip": "mit dem.",
+          "hint": "mit dem."
+        },
+        {
+          "before": "Doctor, the colleague with whom we speak:",
+          "after": ".",
+          "answer": "Die Kollegin, mit der wir sprechen",
+          "en": "The colleague with whom we speak.",
+          "why": "mit der.",
+          "tip": "mit der.",
+          "hint": "mit der."
+        },
+        {
+          "before": "Nurse, the file about which we speak:",
+          "after": ".",
+          "answer": "Die Akte, über die wir sprechen",
+          "en": "The file about which we speak.",
+          "why": "über die.",
+          "tip": "über die.",
+          "hint": "über die."
+        },
+        {
+          "before": "Doctor, the patient about whom we speak:",
+          "after": ".",
+          "answer": "Der Patient, über den wir sprechen",
+          "en": "The patient about whom we speak.",
+          "why": "über den.",
+          "tip": "über den.",
+          "hint": "über den."
+        },
+        {
+          "before": "Nurse, the doctors with whom we work:",
+          "after": ".",
+          "answer": "Die Ärzte, mit denen wir arbeiten",
+          "en": "The doctors with whom we work.",
+          "why": "denen.",
+          "tip": "denen.",
+          "hint": "denen."
+        },
+        {
+          "before": "Doctor, the room in which he is lying:",
+          "after": ".",
+          "answer": "Das Zimmer, in dem er liegt",
+          "en": "The room in which he is lying.",
+          "why": "in dem.",
+          "tip": "in dem.",
+          "hint": "in dem."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "Preposition and pronoun",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The preposition and the pronoun, with the verb at the end. A wrong case is not this line. wo and a main clause are not chips here.",
+      "chips": [
+        { "w": "mit dem wir messen", "hint": "mit dem." },
+        { "w": "mit der wir sprechen", "hint": "mit der." },
+        { "w": "über die wir sprechen", "hint": "über die." },
+        { "w": "über den wir sprechen", "hint": "über den." },
+        { "w": "mit denen wir arbeiten", "hint": "denen." },
+        { "w": "in dem er liegt", "hint": "in dem." },
+        { "w": "dem mit wir messen", "hint": "mit dem." },
+        { "w": "mit den wir sprechen", "hint": "mit der." },
+        { "w": "über der wir sprechen", "hint": "über die." },
+        { "w": "über dem wir sprechen", "hint": "über den." },
+        { "w": "mit den wir arbeiten", "hint": "denen." },
+        { "w": "in den er liegt", "hint": "in dem." }
+      ],
+      "items": [
+        {
+          "before": "With which we measure, after der Monitor:",
+          "after": ".",
+          "answer": "mit dem wir messen",
+          "en": "with which we measure.",
+          "why": "mit dem wir messen. Not dem mit. Wir messen mit dem Monitor stays a main clause.",
+          "tip": "mit dem.",
+          "hint": "mit dem."
+        },
+        {
+          "before": "With whom we speak, after die Kollegin:",
+          "after": ".",
+          "answer": "mit der wir sprechen",
+          "en": "with whom we speak.",
+          "why": "mit der. A man would be mit dem. Wir sprechen mit der Kollegin stays correct.",
+          "tip": "mit der.",
+          "hint": "mit der."
+        },
+        {
+          "before": "About which we speak, after die Akte:",
+          "after": ".",
+          "answer": "über die wir sprechen",
+          "en": "about which we speak.",
+          "why": "über die. etwas, worüber wir sprechen stays correct when there is no noun.",
+          "tip": "über die.",
+          "hint": "über die."
+        },
+        {
+          "before": "About whom we speak, after der Patient:",
+          "after": ".",
+          "answer": "über den wir sprechen",
+          "en": "about whom we speak.",
+          "why": "über den. Wir sprechen über den Patienten stays the noun.",
+          "tip": "über den.",
+          "hint": "über den."
+        },
+        {
+          "before": "With whom we work, after die Ärzte:",
+          "after": ".",
+          "answer": "mit denen wir arbeiten",
+          "en": "with whom we work.",
+          "why": "mit denen. Wir arbeiten mit den Ärzten keeps the article.",
+          "tip": "denen.",
+          "hint": "denen."
+        },
+        {
+          "before": "In which he is lying, after das Zimmer:",
+          "after": ".",
+          "answer": "in dem er liegt",
+          "en": "in which he is lying.",
+          "why": "in dem. wo er liegt stays correct. ins Zimmer stays direction, not with liegen.",
+          "tip": "in dem.",
+          "hint": "in dem."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. A main clause, and wo, stay correct when the question is not asking for them.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Monitor",
+        "paragraphs": [
+          "Wie heißt das Ding, mit dem man …? Das ist der Monitor, mit dem wir messen. Das ist die Kollegin, mit der wir sprechen. Das ist die Akte, über die wir sprechen.",
+          "Das ist der Patient, über den wir sprechen. Das sind die Ärzte, mit denen wir arbeiten. Das ist das Zimmer, in dem er liegt. Das ist das Zimmer, wo er liegt."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The thing in the title.",
+          "qEn": "mit dem man.",
+          "options": ["Wie heißt das Ding, mit dem man …?", "Wie heißt das Ding, dem man mit …?", "Wir messen mit dem Monitor."],
+          "answer": 0,
+          "why": "mit stands before dem. The title leaves the verb open. Wir messen mit dem Monitor stays a main clause.",
+          "hint": "mit dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The colleague, from the note.",
+          "qEn": "mit der wir sprechen.",
+          "options": ["mit der wir sprechen", "Die Kollegin, mit dem wir sprechen.", "Wir sprechen mit der Kollegin."],
+          "answer": 0,
+          "why": "The note has mit der. Wir sprechen mit der Kollegin stays a main clause.",
+          "hint": "mit der."
+        },
+        {
+          "kind": "mc",
+          "q": "The file, from the note.",
+          "qEn": "über die wir sprechen.",
+          "options": ["über die wir sprechen", "Die Akte, über der wir sprechen.", "Wir sprechen über die Akte."],
+          "answer": 0,
+          "why": "The note has über die. Wir sprechen über die Akte stays a main clause.",
+          "hint": "über die."
+        },
+        {
+          "kind": "mc",
+          "q": "The room, with the preposition, from the note.",
+          "qEn": "in dem er liegt.",
+          "options": ["in dem er liegt", "Das Zimmer, in den er liegt.", "Das Zimmer, wo er liegt."],
+          "answer": 0,
+          "why": "The preposition line is in dem. The note also has wo er liegt, and that stays correct for a place.",
+          "hint": "in dem."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. What is the thing called, with which one …? The monitor with which we measure. The file about which we speak. The room in which he is lying.",
+      "prompt": "What is the thing called, with which one …? The monitor with which we measure. The file about which we speak. The room in which he is lying.",
+      "bullets": ["mit dem man", "mit dem wir messen", "über die wir sprechen", "in dem er liegt"],
+      "model": "Wie heißt das Ding, mit dem man …? Das ist der Monitor, mit dem wir messen. Das ist die Akte, über die wir sprechen. Das ist das Zimmer, in dem er liegt.",
+      "modelEn": "What is the thing called, with which one …? That is the monitor with which we measure. That is the file about which we speak. That is the room in which he is lying.",
+      "hint": "mit dem man. mit dem messen. über die. in dem.",
+      "checklist": [
+        { "id": "t", "label": "mit dem man", "keywords": ["mit dem man"] },
+        { "id": "m", "label": "mit dem wir messen", "keywords": ["mit dem wir messen"] },
+        { "id": "a", "label": "über die wir sprechen", "keywords": ["über die wir sprechen"] },
+        { "id": "z", "label": "in dem er liegt", "keywords": ["in dem er liegt"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Wie heißt das Ding, mit dem man …?",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Preposition before the pronoun. mit and in, for wo?, take the dative. über, for about, takes the accusative. wo for a place and was after alles stay correct. dem wir berichten stays chapter 70.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The monitor with which we measure.",
+          "qEn": "mit dem wir messen.",
+          "options": ["Der Monitor, mit dem wir messen.", "Der Monitor, dem wir mit messen.", "Wir messen mit dem Monitor."],
+          "answer": 0,
+          "why": "mit dem, messen last. Wir messen mit dem Monitor stays a main clause.",
+          "hint": "mit dem."
+        },
+        {
+          "kind": "mc",
+          "q": "The colleague with whom we speak.",
+          "qEn": "mit der wir sprechen.",
+          "options": ["Die Kollegin, mit der wir sprechen.", "Die Kollegin, mit dem wir sprechen.", "Wir sprechen mit der Kollegin."],
+          "answer": 0,
+          "why": "mit der. Wir sprechen mit der Kollegin stays correct.",
+          "hint": "mit der."
+        },
+        {
+          "kind": "mc",
+          "q": "The file about which we speak.",
+          "qEn": "über die wir sprechen.",
+          "options": ["Die Akte, über die wir sprechen.", "Die Akte, über der wir sprechen.", "Wir sprechen über die Akte."],
+          "answer": 0,
+          "why": "über die. Wir sprechen über die Akte stays a main clause.",
+          "hint": "über die."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient about whom we speak.",
+          "qEn": "über den wir sprechen.",
+          "options": ["Der Patient, über den wir sprechen.", "Der Patient, über dem wir sprechen.", "Wir sprechen über den Patienten."],
+          "answer": 0,
+          "why": "über den. Wir sprechen über den Patienten stays the noun.",
+          "hint": "über den."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctors with whom we work.",
+          "qEn": "mit denen wir arbeiten.",
+          "options": ["Die Ärzte, mit denen wir arbeiten.", "Die Ärzte, mit den wir arbeiten.", "Wir arbeiten mit den Ärzten."],
+          "answer": 0,
+          "why": "mit denen. Wir arbeiten mit den Ärzten stays the article and -n.",
+          "hint": "denen."
+        },
+        {
+          "kind": "mc",
+          "q": "The room in which he is lying.",
+          "qEn": "in dem er liegt.",
+          "options": ["Das Zimmer, in dem er liegt.", "Das Zimmer, in den er liegt.", "Das Zimmer, wo er liegt."],
+          "answer": 0,
+          "why": "in dem. wo er liegt stays correct for a place.",
+          "hint": "in dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Everything that he needs.",
+          "qEn": "alles, was er braucht.",
+          "options": ["Das ist alles, was er braucht.", "Das ist alles, das er braucht.", "Das Zimmer, das frei ist."],
+          "answer": 0,
+          "why": "After alles, the pronoun is was. Das Zimmer, das frei ist stays chapter 70, for a named noun. dass stays a conjunction.",
+          "hint": "was."
+        },
+        {
+          "kind": "mc",
+          "q": "Something we speak about, with no noun.",
+          "qEn": "worüber wir sprechen.",
+          "options": ["Etwas, worüber wir sprechen.", "Etwas, über der wir sprechen.", "Die Akte, über die wir sprechen."],
+          "answer": 0,
+          "why": "No noun: worüber. etwas, über das wir sprechen stays correct too. A named file keeps über die.",
+          "hint": "worüber."
+        },
+        {
+          "kind": "mc",
+          "q": "The colleague to whom we write.",
+          "qEn": "an den wir schreiben.",
+          "options": ["Der Kollege, an den wir schreiben.", "Der Kollege, an dem wir schreiben.", "Der Kollege, dem wir berichten."],
+          "answer": 0,
+          "why": "an takes den here. dem wir berichten stays chapter 70: berichten needs no preposition. Kollege in the nominative has no -n.",
+          "hint": "an den."
+        },
+        {
+          "kind": "mc",
+          "q": "The subject about which we speak.",
+          "qEn": "über das wir sprechen.",
+          "options": ["Das Thema, über das wir sprechen.", "Das Thema, über dem wir sprechen.", "Wir sprechen über das Thema."],
+          "answer": 0,
+          "why": "Neuter accusative is das. Wir sprechen über das Thema stays a main clause. dass is not a relative pronoun.",
+          "hint": "über das."
+        },
+        {
+          "kind": "mc",
+          "q": "The cases about which we speak.",
+          "qEn": "über die wir sprechen.",
+          "options": ["Die Fälle, über die wir sprechen.", "Die Fälle, über den wir sprechen.", "Wir sprechen über die Fälle."],
+          "answer": 0,
+          "why": "Plural accusative is die. über den stays correct for one man. Wir sprechen über die Fälle stays a main clause.",
+          "hint": "über die."
+        },
+        {
+          "kind": "mc",
+          "q": "The room where he is lying. With wo.",
+          "qEn": "wo er liegt.",
+          "options": ["Das Zimmer, wo er liegt.", "Das Zimmer, wo liegt er.", "Das Zimmer, in dem er liegt."],
+          "answer": 0,
+          "why": "wo for a place, and liegt is last. in dem stays correct too. Wo liegt er? stays its own question. A person does not take wo.",
+          "hint": "wo."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Wie heißt das Ding, mit dem man …?",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Wie heißt das Ding, mit dem man …?", "en": "What is the thing called, with which one …?" },
+        { "de": "Das ist der Monitor, mit dem wir messen.", "en": "That is the monitor with which we measure." },
+        { "de": "Das ist die Akte, über die wir sprechen.", "en": "That is the file about which we speak." },
+        { "de": "Das ist das Zimmer, in dem er liegt.", "en": "That is the room in which he is lying." }
+      ],
+      "messages": [
+        "The preposition stands before the pronoun and picks the case. mit and in, for wo?, take dem, der or denen. über, for about, takes den, die or das. The verb goes last.",
+        "wo for a place and was after alles stay correct. dem wir berichten stays chapter 70. Wir messen mit dem Monitor and Er liegt im Zimmer stay main clauses.",
+        "Sehr gut. Wie heißt das Ding, mit dem man …? Das ist der Monitor, mit dem wir messen.",
+        "Ausgezeichnet. You can name the monitor with which you measure, the file about which you speak, and the room in which the patient is lying."
+      ]
+    }
+  ]
+}

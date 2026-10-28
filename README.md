@@ -77,8 +77,13 @@ npm run build
 | 65 | Adjectives as people (der Jugendliche, ein Kranker) |
 | 66 | Neuter adjective nouns (das Gute, etwas Neues, nichts Schlimmes) |
 | 67 | Indirect questions (Wissen Sie, ob …?, wo der Schmerz ist) |
+| 68 | Infinitive with zu (Es ist schön, zu feiern, aufzustehen) |
+| 69 | Infinitive without zu (Ich will singen, lass mich singen!, bleiben liegen) |
+| 70 | Relative clauses 1 (der Patient, der im Zimmer liegt, denen) |
+| 71 | Relative clauses 2 (mit dem, über die, wo, was) |
+| 72 | wenn and als (Wenn er Fieber hat, Als der Wagen kam) |
 
-The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29, 34–38, 40–44 and 46, and B1 chapters 39, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66 and 67. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
+The course map lists all 80 chapters. A card without a link is planned; the topic and the ward situation are already written. Every A1 grammar chapter is playable, plus A2 chapters 21, 22, 25–29, 34–38, 40–44 and 46, and B1 chapters 39, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71 and 72. Each played lesson has at least 12 exercises and a final Lernkontrolle: 80% marks the lesson mastered. Open **Cases** in the header for the article table used by chapters 16 and 17. Akkusativ is rose so it stays distinct from the masculine article blue.
 
 **Wortbank** keeps the words you star from a grammar popup or a comic popup. They stay grouped by the lesson you saved them in. Open Wortbank in the header to filter, mark a word Schwer, review it, or open a separable verb.
 

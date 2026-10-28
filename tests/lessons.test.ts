@@ -161,6 +161,11 @@ describe("catalog", () => {
     expect(byNumber.get(65)).toBe("b1-65-adjektive-personen");
     expect(byNumber.get(66)).toBe("b1-66-adjektive-neutrum");
     expect(byNumber.get(67)).toBe("b1-67-indirekte-fragen");
+    expect(byNumber.get(68)).toBe("b1-68-infinitiv-mit-zu");
+    expect(byNumber.get(69)).toBe("b1-69-infinitiv-ohne-zu");
+    expect(byNumber.get(70)).toBe("b1-70-relativsaetze");
+    expect(byNumber.get(71)).toBe("b1-71-relativsaetze-praepositionen");
+    expect(byNumber.get(72)).toBe("b1-72-wenn-als");
     expect(byNumber.get(41)).toBe("a2-41-konnektoren-pos1");
     expect(byNumber.get(42)).toBe("a2-42-weil-dass-wenn");
     expect(byNumber.get(43)).toBe("a2-43-da-dahin-daher");

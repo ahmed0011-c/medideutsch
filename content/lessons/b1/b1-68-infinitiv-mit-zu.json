@@ -1,0 +1,1068 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-68-infinitiv-mit-zu",
+  "level": "B1",
+  "unit": "Kapitel 68",
+  "chapter": 68,
+  "chapters": [68],
+  "title": "Es ist schön, zu feiern",
+  "subtitle": "Infinitive with zu",
+  "glossary": {
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it",
+      "emoji": "🎁",
+      "note": "Placeholder es. Es ist schön, zu feiern. The comma is required. Es ist wichtig, die Wunde zu dokumentieren."
+    },
+    "ist": {
+      "de": "sein → es ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🎁",
+      "note": "Es ist schön. Es ist wichtig. Predicative, then a comma and zu + infinitive."
+    },
+    "schön": {
+      "de": "schön",
+      "pos": "adjective",
+      "en": "nice",
+      "emoji": "🎁",
+      "note": "Predicative, no ending, chapter 36. Es ist schön, zu feiern. Not schöne."
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "particle",
+      "en": "to (with an infinitive)",
+      "emoji": "➡️",
+      "note": "zu feiern, zu dokumentieren, zu schlafen. Inside a separable verb: aufzustehen, einzunehmen. Not after a modal, bleiben, or lassen (chapter 69). um … zu is chapter 74."
+    },
+    "feiern": {
+      "de": "feiern",
+      "pos": "infinitive",
+      "en": "to celebrate",
+      "emoji": "🎁",
+      "note": "zu feiern. Not separable. Not zu feiert."
+    },
+    "wichtig": {
+      "de": "wichtig",
+      "pos": "adjective",
+      "en": "important",
+      "emoji": "📋",
+      "note": "Predicative, no ending. Es ist wichtig, die Wunde zu dokumentieren. The comma is required after es."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine)", "emoji": "🔴", "note": "die Wunde. die Tablette. Accusative looks the same." },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "emoji": "🩹",
+      "article": "die",
+      "plural": "die Wunden",
+      "note": "die Wunde zu dokumentieren. The object stands before zu."
+    },
+    "dokumentieren": {
+      "de": "dokumentieren",
+      "pos": "infinitive",
+      "en": "to document",
+      "emoji": "📋",
+      "note": "zu dokumentieren. Not separable. Not zu dokumentiert. die Wunde zu dokumentieren."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine nominative)", "emoji": "🔵", "note": "der Patient. Nominative, the subject of versucht." },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "der Patient is nominative. den Patienten stays the other case, chapter 64."
+    },
+    "versucht": {
+      "de": "versuchen → er versucht",
+      "pos": "form",
+      "en": "tries",
+      "emoji": "🚶",
+      "note": "versuchen takes zu. Der Patient versucht, aufzustehen. The comma in the chart is optional: Der Patient versucht aufzustehen stays correct too."
+    },
+    "aufzustehen": {
+      "de": "aufstehen → aufzustehen",
+      "pos": "infinitive",
+      "en": "to stand up",
+      "emoji": "🚶",
+      "note": "zu sits in the middle. One word. Not zu aufstehen. Not auf zu stehen. After a modal: aufstehen, no zu, chapter 69. er steht auf stays the finite main clause."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥", "note": "Er versucht, zu schlafen." },
+    "schlafen": {
+      "de": "schlafen",
+      "pos": "infinitive",
+      "en": "to sleep",
+      "emoji": "😴",
+      "note": "Er versucht, zu schlafen. Wir lassen den Patienten schlafen stays correct, with no zu, chapter 61."
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten",
+      "note": "die Tablette einzunehmen. The object stands before the zu-infinitive."
+    },
+    "einzunehmen": {
+      "de": "einnehmen → einzunehmen",
+      "pos": "infinitive",
+      "en": "to take (a tablet)",
+      "emoji": "💊",
+      "note": "einnehmen is separable. zu sits in the middle: einzunehmen. Not zu einnehmen. After a modal: einnehmen, no zu. Participle eingenommen, chapter 26."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "The second verb takes zu",
+      "learn": [
+        "After es ist plus an adjective, and after versuchen, the second verb is zu plus an infinitive: Es ist schön, zu feiern. Der Patient versucht, aufzustehen.",
+        "The comma is required after the placeholder es. After versuchen the comma in the chart is optional, so the same sentence without it stays correct.",
+        "A separable verb takes zu in the middle, as one word: aufzustehen, einzunehmen. Not zu aufstehen. Not zu einnehmen.",
+        "Modals, bleiben and lassen take no zu. That is chapter 69. um … zu is chapter 74. etwas Kaltes zu trinken stays chapter 66."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Wunde", "article": "die", "plural": "die Wunden", "en": "wound", "emoji": "🩹", "glossaryKey": "wunde" },
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tablette" }
+      ],
+      "text": {
+        "title": "Es ist schön, zu feiern",
+        "de": "Es ist schön, zu feiern. Es ist wichtig, die Wunde zu dokumentieren. Der Patient versucht, aufzustehen. Er versucht, zu schlafen. Der Patient versucht, die Tablette einzunehmen.",
+        "en": "It is nice to celebrate. It is important to document the wound. The patient tries to stand up. He tries to sleep. The patient tries to take the tablet."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "zu + infinitive",
+      "practice": "choose",
+      "heroTitle": "Es ist schön, zu feiern",
+      "heroImage": "bed",
+      "story": [
+        "The second verb can be an infinitive with <b>zu</b>. After <b>es ist</b> plus an adjective: <b>Es ist schön, zu feiern. Es ist wichtig, die Wunde zu dokumentieren.</b> The placeholder <b>es</b> needs the comma. <b>schön</b> and <b>wichtig</b> are predicative, so they take no ending.",
+        "After <b>versuchen</b> the same <b>zu</b>: <b>Der Patient versucht, aufzustehen. Er versucht, zu schlafen. Der Patient versucht, die Tablette einzunehmen.</b> The comma after versuchen is optional. <b>Der Patient versucht aufzustehen</b> stays correct too.",
+        "A separable verb takes <b>zu</b> in the middle, and it stays one word. <b>aufstehen → aufzustehen. einnehmen → einzunehmen.</b> Not zu aufstehen. Not zu einnehmen. Not auf zu stehen. <b>er steht auf</b> stays the finite main clause. <b>dokumentieren, feiern, schlafen</b> are not separable: <b>zu dokumentieren, zu feiern, zu schlafen.</b>",
+        "The object stands before <b>zu</b>: <b>die Wunde zu dokumentieren. die Tablette einzunehmen.</b> Not die Wunde dokumentieren zu.",
+        "A modal takes the bare infinitive. <b>Der Patient muss aufstehen.</b> No zu. <b>bleiben</b> does the same. Both are chapter 69. <b>Wir lassen den Patienten schlafen</b> stays correct, with no zu, chapter 61. <b>zu schlafen</b> belongs after versuchen, not after lassen.",
+        "<b>um … zu</b> is a purpose clause, chapter 74. This chapter does not drill it. <b>etwas Kaltes zu trinken</b> stays correct, chapter 66. The ending on Kaltes is that chapter. This chapter is the <b>zu</b>."
+      ],
+      "questionRule": "es ist plus an adjective takes a comma and zu plus an infinitive. versuchen takes zu. Separable verbs take zu in the middle: aufzustehen, einzunehmen. Modals, bleiben and lassen take no zu.",
+      "tables": [
+        {
+          "title": "wo steht zu?",
+          "caption": "Simple infinitives take zu in front. Separable verbs take zu in the middle, as one word.",
+          "columns": ["Infinitiv"],
+          "rows": [
+            { "label": "feiern", "cells": ["zu feiern"], "highlight": true },
+            { "label": "dokumentieren", "cells": ["zu dokumentieren"], "highlight": true },
+            { "label": "schlafen", "cells": ["zu schlafen"] },
+            { "label": "aufstehen", "cells": ["aufzustehen"] },
+            { "label": "einnehmen", "cells": ["einzunehmen"] }
+          ]
+        },
+        {
+          "title": "Zwei Muster",
+          "caption": "The comma after es is required. The comma after versuchen is optional, so the chart uses it and the sentence without it stays correct.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "schön", "cells": ["Es ist schön, zu feiern."], "highlight": true },
+            { "label": "wichtig", "cells": ["Es ist wichtig, die Wunde zu dokumentieren."], "highlight": true },
+            { "label": "aufstehen", "cells": ["Der Patient versucht, aufzustehen."] },
+            { "label": "schlafen", "cells": ["Er versucht, zu schlafen."] },
+            { "label": "einnehmen", "cells": ["Der Patient versucht, die Tablette einzunehmen."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Der Patient muss aufstehen, Wir lassen den Patienten schlafen, and Der Patient versucht aufzustehen stay correct. um … zu is chapter 74. etwas Kaltes zu trinken stays chapter 66.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "zu", "cells": ["Es ist schön, feiern", "Es ist schön, zu feiern"] },
+            { "label": "auf", "cells": ["zu aufstehen", "aufzustehen"] },
+            { "label": "ein", "cells": ["zu einnehmen", "einzunehmen"] },
+            { "label": "Komma", "cells": ["Es ist schön zu feiern", "Es ist schön, zu feiern"] },
+            { "label": "Wunde", "cells": ["die Wunde dokumentieren zu", "die Wunde zu dokumentieren"] },
+            { "label": "Modal", "cells": ["muss aufzustehen", "muss aufstehen"] },
+            { "label": "lassen", "cells": ["lassen zu schlafen", "lassen schlafen"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four zu traps",
+        "items": [
+          { "de": "Es ist schön, zu feiern.", "en": "zu plus the infinitive.", "tone": "ok" },
+          { "de": "Es ist schön, feiern.", "en": "zu is missing.", "tone": "stop" },
+          { "de": "Es ist wichtig, zu dokumentieren.", "en": "zu plus the infinitive.", "tone": "ok" },
+          { "de": "Es ist wichtig, dokumentieren.", "en": "zu is missing.", "tone": "stop" },
+          { "de": "Der Patient versucht, aufzustehen.", "en": "zu in the middle.", "tone": "ok" },
+          { "de": "Der Patient versucht, zu aufstehen.", "en": "zu does not stand in front.", "tone": "stop" },
+          { "de": "die Tablette einzunehmen", "en": "zu in the middle.", "tone": "ok" },
+          { "de": "die Tablette zu einnehmen", "en": "einnehmen is separable.", "tone": "stop" }
+        ],
+        "tip": "zu before a simple infinitive. zu in the middle of a separable verb."
+      },
+      "tips": [
+        {
+          "title": "zu has one seat",
+          "body": "zu feiern. aufzustehen. The separable verb keeps zu between the prefix and the verb.",
+          "mnemonic": "zu feiern. aufzustehen. einzunehmen.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward infinitives",
+      "meanings": [
+        { "modal": "zu feiern", "emoji": "🎁", "en": "to celebrate", "use": "after es ist", "de": "Es ist schön, zu feiern.", "deEn": "It is nice to celebrate." },
+        { "modal": "zu dokumentieren", "emoji": "📋", "en": "to document", "use": "after es ist", "de": "Es ist wichtig, die Wunde zu dokumentieren.", "deEn": "It is important to document the wound." },
+        { "modal": "aufzustehen", "emoji": "🚶", "en": "to stand up", "use": "after versuchen", "de": "Der Patient versucht, aufzustehen.", "deEn": "The patient tries to stand up." },
+        { "modal": "einzunehmen", "emoji": "💊", "en": "to take", "use": "after versuchen", "de": "die Tablette einzunehmen", "deEn": "to take the tablet" }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "It is nice to celebrate.",
+          "qEn": "Es ist schön, zu feiern.",
+          "options": ["Es ist schön, zu feiern.", "Es ist schön, feiern.", "Es ist schön, zu feiert."],
+          "answer": 0,
+          "why": "zu feiern. The infinitive, not feiert. The comma is required after es.",
+          "hint": "zu feiern."
+        },
+        {
+          "kind": "mc",
+          "q": "It is important to document.",
+          "qEn": "zu dokumentieren.",
+          "options": ["Es ist wichtig, zu dokumentieren.", "Es ist wichtig, dokumentieren.", "Es ist wichtig, zu dokumentiert."],
+          "answer": 0,
+          "why": "zu dokumentieren. The full line Es ist wichtig, die Wunde zu dokumentieren stays the same pattern. Not a finite verb.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient tries to stand up.",
+          "qEn": "aufzustehen.",
+          "options": ["Der Patient versucht, aufzustehen.", "Der Patient versucht, zu aufstehen.", "Der Patient muss aufstehen."],
+          "answer": 0,
+          "why": "aufzustehen. zu sits in the middle, one word. Der Patient muss aufstehen stays correct: a modal takes no zu, chapter 69. Not zu aufstehen.",
+          "hint": "aufzustehen."
+        },
+        {
+          "kind": "mc",
+          "q": "He tries to sleep.",
+          "qEn": "zu schlafen.",
+          "options": ["Er versucht, zu schlafen.", "Er versucht, schlafen.", "Wir lassen den Patienten schlafen."],
+          "answer": 0,
+          "why": "versuchen takes zu. Wir lassen den Patienten schlafen stays correct, with no zu, chapter 61. Not zu schlafen after lassen.",
+          "hint": "zu schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "It is important to document the wound. The group.",
+          "qEn": "die Wunde zu dokumentieren.",
+          "options": ["die Wunde zu dokumentieren", "die Wunde zu dokumentiert", "die Wunde dokumentieren zu"],
+          "answer": 0,
+          "why": "The object stands before zu plus the infinitive. Not a finite verb. Not zu at the end.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient tries to take the tablet. The group.",
+          "qEn": "die Tablette einzunehmen.",
+          "options": ["die Tablette einzunehmen", "die Tablette zu einnehmen", "Er muss die Tablette einnehmen."],
+          "answer": 0,
+          "why": "einzunehmen. zu sits in the middle. Er muss die Tablette einnehmen stays correct, with the bare infinitive, chapter 69. Not zu einnehmen.",
+          "hint": "einzunehmen."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "es ist plus an adjective takes zu and a comma. versuchen takes zu. A separable verb takes zu in the middle. A modal and lassen stay correct with no zu, so they are not chips here.",
+      "chips": [
+        { "w": "Es ist schön, zu feiern", "hint": "zu feiern." },
+        { "w": "Es ist wichtig, zu dokumentieren", "hint": "zu dokumentieren." },
+        { "w": "Der Patient versucht, aufzustehen", "hint": "aufzustehen." },
+        { "w": "Er versucht, zu schlafen", "hint": "zu schlafen." },
+        { "w": "die Wunde zu dokumentieren", "hint": "zu dokumentieren." },
+        { "w": "die Tablette einzunehmen", "hint": "einzunehmen." },
+        { "w": "Es ist schön, feiern", "hint": "zu feiern." },
+        { "w": "Es ist wichtig, dokumentieren", "hint": "zu dokumentieren." },
+        { "w": "Der Patient versucht, zu aufstehen", "hint": "aufzustehen." },
+        { "w": "Er versucht, schlafen", "hint": "zu schlafen." },
+        { "w": "die Wunde zu dokumentiert", "hint": "zu dokumentieren." },
+        { "w": "die Tablette zu einnehmen", "hint": "einzunehmen." }
+      ],
+      "items": [
+        {
+          "before": "It is nice to celebrate:",
+          "after": ".",
+          "answer": "Es ist schön, zu feiern",
+          "en": "It is nice to celebrate.",
+          "why": "zu feiern. The comma is required after es. Not zu feiert.",
+          "tip": "zu feiern.",
+          "hint": "zu feiern."
+        },
+        {
+          "before": "It is important to document:",
+          "after": ".",
+          "answer": "Es ist wichtig, zu dokumentieren",
+          "en": "It is important to document.",
+          "why": "zu dokumentieren. Es ist wichtig, die Wunde zu dokumentieren is the full line and stays the same pattern.",
+          "tip": "zu dokumentieren.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "before": "The patient tries to stand up:",
+          "after": ".",
+          "answer": "Der Patient versucht, aufzustehen",
+          "en": "The patient tries to stand up.",
+          "why": "aufzustehen, one word. Der Patient muss aufstehen stays correct, with no zu. Der Patient versucht aufzustehen stays correct too: the comma is optional.",
+          "tip": "aufzustehen.",
+          "hint": "aufzustehen."
+        },
+        {
+          "before": "He tries to sleep:",
+          "after": ".",
+          "answer": "Er versucht, zu schlafen",
+          "en": "He tries to sleep.",
+          "why": "zu schlafen after versuchen. Wir lassen den Patienten schlafen stays correct, with no zu.",
+          "tip": "zu schlafen.",
+          "hint": "zu schlafen."
+        },
+        {
+          "before": "The wound, the infinitive group:",
+          "after": ".",
+          "answer": "die Wunde zu dokumentieren",
+          "en": "to document the wound.",
+          "why": "The object stands before zu dokumentieren. Not zu dokumentiert.",
+          "tip": "zu dokumentieren.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "before": "The tablet, zu in the middle:",
+          "after": ".",
+          "answer": "die Tablette einzunehmen",
+          "en": "to take the tablet.",
+          "why": "einzunehmen. Not zu einnehmen. Er muss die Tablette einnehmen stays the modal, with no zu.",
+          "tip": "einzunehmen.",
+          "hint": "einzunehmen."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which piece?",
+      "practice": "match",
+      "instructions": "The prompt names the pattern. One piece has zu in the right seat. One moves zu or drops it. A bare infinitive after a modal, and lassen, stay correct German.",
+      "items": [
+        {
+          "prompt": "It is nice to celebrate",
+          "options": [
+            { "emoji": "🎁", "label": "zu feiern", "caption": "zu + infinitive" },
+            { "emoji": "🚫", "label": "zu feiert", "caption": "not the infinitive" },
+            { "emoji": "🎁", "label": "feiern", "caption": "after a modal" }
+          ],
+          "answer": 0,
+          "why": "zu feiern. feiern stays correct after a modal, with no zu. The comma in Es ist schön, zu feiern is required.",
+          "hint": "zu feiern."
+        },
+        {
+          "prompt": "It is important to document",
+          "options": [
+            { "emoji": "📋", "label": "zu dokumentieren", "caption": "zu + infinitive" },
+            { "emoji": "🚫", "label": "zu dokumentiert", "caption": "not the infinitive" },
+            { "emoji": "📋", "label": "dokumentieren", "caption": "after a modal" }
+          ],
+          "answer": 0,
+          "why": "zu dokumentieren. dokumentieren stays correct after a modal. die Wunde zu dokumentieren keeps the same zu.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "prompt": "The patient tries to stand up",
+          "options": [
+            { "emoji": "🚶", "label": "aufzustehen", "caption": "zu in the middle" },
+            { "emoji": "🚫", "label": "zu aufstehen", "caption": "zu in front" },
+            { "emoji": "🚶", "label": "aufstehen", "caption": "after a modal" }
+          ],
+          "answer": 0,
+          "why": "aufzustehen. aufstehen stays correct after muss, with no zu, chapter 69.",
+          "hint": "aufzustehen."
+        },
+        {
+          "prompt": "He tries to sleep",
+          "options": [
+            { "emoji": "😴", "label": "zu schlafen", "caption": "after versuchen" },
+            { "emoji": "🚫", "label": "zu schläft", "caption": "not the infinitive" },
+            { "emoji": "😴", "label": "Wir lassen den Patienten schlafen.", "caption": "no zu" }
+          ],
+          "answer": 0,
+          "why": "zu schlafen after versuchen. Not zu schläft. Wir lassen den Patienten schlafen stays correct, chapter 61.",
+          "hint": "zu schlafen."
+        },
+        {
+          "prompt": "The wound",
+          "options": [
+            { "emoji": "🩹", "label": "die Wunde zu dokumentieren", "caption": "object before zu" },
+            { "emoji": "🚫", "label": "die Wunde zu dokumentiert", "caption": "not the infinitive" },
+            { "emoji": "🚫", "label": "die Wunde dokumentieren zu", "caption": "zu at the end" }
+          ],
+          "answer": 0,
+          "why": "die Wunde zu dokumentieren. The object stands before zu.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "prompt": "The tablet",
+          "options": [
+            { "emoji": "💊", "label": "die Tablette einzunehmen", "caption": "zu in the middle" },
+            { "emoji": "🚫", "label": "die Tablette zu einnehmen", "caption": "zu in front" },
+            { "emoji": "💊", "label": "einnehmen", "caption": "after a modal" }
+          ],
+          "answer": 0,
+          "why": "einzunehmen. einnehmen stays correct after muss, with no zu.",
+          "hint": "einzunehmen."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, he tries to stand up",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, the wound",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, it is important",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, it is nice to celebrate",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "zu at the end of the line",
+      "practice": "build",
+      "instructions": "Build the line. The comma stays on schön, wichtig or versucht. The infinitive is last. A separable verb already has zu in the middle.",
+      "items": [
+        {
+          "tiles": ["Es", "ist", "schön,", "zu", "feiern"],
+          "answers": ["Es ist schön, zu feiern"],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "feiern",
+          "question": false,
+          "en": "It is nice to celebrate.",
+          "hint": "Es ist schön, zu feiern.",
+          "feedback": {
+            "end": "feiern closes Es ist schön, zu feiern.",
+            "fallback": "Es ist schön, zu feiern."
+          }
+        },
+        {
+          "tiles": ["Der", "Patient", "versucht,", "aufzustehen"],
+          "answers": ["Der Patient versucht, aufzustehen"],
+          "punct": ".",
+          "modal": "versucht",
+          "inf": "aufzustehen",
+          "question": false,
+          "en": "The patient tries to stand up.",
+          "hint": "Der Patient versucht, aufzustehen.",
+          "feedback": {
+            "end": "aufzustehen closes the line.",
+            "fallback": "Der Patient versucht, aufzustehen."
+          }
+        },
+        {
+          "tiles": ["Er", "versucht,", "zu", "schlafen"],
+          "answers": ["Er versucht, zu schlafen"],
+          "punct": ".",
+          "modal": "versucht",
+          "inf": "schlafen",
+          "question": false,
+          "en": "He tries to sleep.",
+          "hint": "Er versucht, zu schlafen.",
+          "feedback": {
+            "end": "schlafen closes Er versucht, zu schlafen.",
+            "fallback": "Er versucht, zu schlafen."
+          }
+        },
+        {
+          "tiles": ["Es", "ist", "wichtig,", "zu", "dokumentieren"],
+          "answers": ["Es ist wichtig, zu dokumentieren"],
+          "punct": ".",
+          "modal": "ist",
+          "inf": "dokumentieren",
+          "question": false,
+          "en": "It is important to document.",
+          "hint": "Es ist wichtig, zu dokumentieren.",
+          "feedback": {
+            "end": "dokumentieren closes the line.",
+            "fallback": "Es ist wichtig, zu dokumentieren."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the zu-infinitive",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a bare infinitive that stays correct after a modal or after lassen. Give the zu-line. The comma after versuchen may be left out and still stay correct.",
+      "chips": [
+        { "w": "Es ist schön, zu feiern", "hint": "zu feiern." },
+        { "w": "Es ist wichtig, zu dokumentieren", "hint": "zu dokumentieren." },
+        { "w": "Der Patient versucht, aufzustehen", "hint": "aufzustehen." },
+        { "w": "Er versucht, zu schlafen", "hint": "zu schlafen." },
+        { "w": "die Wunde zu dokumentieren", "hint": "zu dokumentieren." },
+        { "w": "die Tablette einzunehmen", "hint": "einzunehmen." },
+        { "w": "Es ist schön, feiern", "hint": "zu feiern." },
+        { "w": "Es ist wichtig, dokumentieren", "hint": "zu dokumentieren." },
+        { "w": "Der Patient versucht, zu aufstehen", "hint": "aufzustehen." },
+        { "w": "Er versucht, schlafen", "hint": "zu schlafen." },
+        { "w": "die Wunde zu dokumentiert", "hint": "zu dokumentieren." },
+        { "w": "die Tablette zu einnehmen", "hint": "einzunehmen." }
+      ],
+      "items": [
+        {
+          "before": "A modal would take no zu. It is nice to celebrate:",
+          "after": ".",
+          "answer": "Es ist schön, zu feiern",
+          "en": "It is nice to celebrate.",
+          "why": "zu feiern. The comma after es is required. A modal still takes no zu, chapter 69.",
+          "tip": "zu feiern.",
+          "hint": "zu feiern."
+        },
+        {
+          "before": "Der Patient muss aufstehen stays correct. It is important to document:",
+          "after": ".",
+          "answer": "Es ist wichtig, zu dokumentieren",
+          "en": "It is important to document.",
+          "why": "zu dokumentieren. Der Patient muss aufstehen stays the bare infinitive.",
+          "tip": "zu dokumentieren.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "before": "aufstehen after a modal stays correct. The patient tries to stand up:",
+          "after": ".",
+          "answer": "Der Patient versucht, aufzustehen",
+          "en": "The patient tries to stand up.",
+          "why": "aufzustehen. Der Patient muss aufstehen stays correct. Without the comma, Der Patient versucht aufzustehen stays correct too.",
+          "tip": "aufzustehen.",
+          "hint": "aufzustehen."
+        },
+        {
+          "before": "Wir lassen den Patienten schlafen stays correct. He tries to sleep:",
+          "after": ".",
+          "answer": "Er versucht, zu schlafen",
+          "en": "He tries to sleep.",
+          "why": "zu schlafen after versuchen. lassen takes no zu.",
+          "tip": "zu schlafen.",
+          "hint": "zu schlafen."
+        },
+        {
+          "before": "The full sentence keeps the comma after wichtig. The wound:",
+          "after": ".",
+          "answer": "die Wunde zu dokumentieren",
+          "en": "to document the wound.",
+          "why": "die Wunde zu dokumentieren. Es ist wichtig, die Wunde zu dokumentieren is the full sentence.",
+          "tip": "zu dokumentieren.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "before": "Er muss die Tablette einnehmen stays correct. The tablet:",
+          "after": ".",
+          "answer": "die Tablette einzunehmen",
+          "en": "to take the tablet.",
+          "why": "einzunehmen. The modal keeps the bare infinitive einnehmen.",
+          "tip": "einzunehmen.",
+          "hint": "einzunehmen."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the zu-form. Choose the correction. A bare infinitive after a modal stays correct. lassen stays correct with no zu. The comma after versuchen may be left out.",
+      "items": [
+        {
+          "clues": ["It is nice to celebrate.", "zu plus the infinitive.", "Es ist schön, feiern."],
+          "options": ["Es ist schön, zu feiern.", "Es ist schön, feiern.", "Es ist schön, zu feiert."],
+          "answer": 0,
+          "reveal": "Es ist schön, zu feiern.",
+          "hint": "zu feiern."
+        },
+        {
+          "clues": ["It is important to document.", "zu plus the infinitive.", "Es ist wichtig, dokumentieren."],
+          "options": ["Es ist wichtig, zu dokumentieren.", "Es ist wichtig, dokumentieren.", "Es ist wichtig, zu dokumentiert."],
+          "answer": 0,
+          "reveal": "Es ist wichtig, zu dokumentieren.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "clues": ["The patient tries to stand up.", "zu in the middle.", "Der Patient versucht, zu aufstehen."],
+          "options": ["Der Patient versucht, aufzustehen.", "Der Patient versucht, zu aufstehen.", "Der Patient muss aufstehen."],
+          "answer": 0,
+          "reveal": "Der Patient versucht, aufzustehen.",
+          "hint": "aufzustehen."
+        },
+        {
+          "clues": ["He tries to sleep.", "zu after versuchen.", "Er versucht, schlafen."],
+          "options": ["Er versucht, zu schlafen.", "Er versucht, schlafen.", "Wir lassen den Patienten schlafen."],
+          "answer": 0,
+          "reveal": "Er versucht, zu schlafen.",
+          "hint": "zu schlafen."
+        },
+        {
+          "clues": ["The wound.", "Object before zu.", "die Wunde zu dokumentiert"],
+          "options": ["die Wunde zu dokumentieren", "die Wunde zu dokumentiert", "die Wunde dokumentieren zu"],
+          "answer": 0,
+          "reveal": "die Wunde zu dokumentieren",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "clues": ["The tablet.", "zu in the middle.", "die Tablette zu einnehmen"],
+          "options": ["die Tablette einzunehmen", "die Tablette zu einnehmen", "Er muss die Tablette einnehmen."],
+          "answer": 0,
+          "reveal": "die Tablette einzunehmen",
+          "hint": "einzunehmen."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor names a zu-infinitive. Separable verbs take zu in the middle. A modal and lassen are not the chip.",
+      "chips": [
+        { "w": "Es ist schön, zu feiern", "hint": "zu feiern." },
+        { "w": "Es ist wichtig, zu dokumentieren", "hint": "zu dokumentieren." },
+        { "w": "Der Patient versucht, aufzustehen", "hint": "aufzustehen." },
+        { "w": "Er versucht, zu schlafen", "hint": "zu schlafen." },
+        { "w": "die Wunde zu dokumentieren", "hint": "zu dokumentieren." },
+        { "w": "die Tablette einzunehmen", "hint": "einzunehmen." },
+        { "w": "Es ist schön, feiern", "hint": "zu feiern." },
+        { "w": "Es ist wichtig, dokumentieren", "hint": "zu dokumentieren." },
+        { "w": "Der Patient versucht, zu aufstehen", "hint": "aufzustehen." },
+        { "w": "Er versucht, schlafen", "hint": "zu schlafen." },
+        { "w": "die Wunde zu dokumentiert", "hint": "zu dokumentieren." },
+        { "w": "die Tablette zu einnehmen", "hint": "einzunehmen." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, it is nice to celebrate:",
+          "after": ".",
+          "answer": "Es ist schön, zu feiern",
+          "en": "It is nice to celebrate.",
+          "why": "zu feiern.",
+          "tip": "zu feiern.",
+          "hint": "zu feiern."
+        },
+        {
+          "before": "Doctor, it is important to document:",
+          "after": ".",
+          "answer": "Es ist wichtig, zu dokumentieren",
+          "en": "It is important to document.",
+          "why": "zu dokumentieren.",
+          "tip": "zu dokumentieren.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "before": "Nurse, the patient tries to stand up:",
+          "after": ".",
+          "answer": "Der Patient versucht, aufzustehen",
+          "en": "The patient tries to stand up.",
+          "why": "aufzustehen.",
+          "tip": "aufzustehen.",
+          "hint": "aufzustehen."
+        },
+        {
+          "before": "Doctor, he tries to sleep:",
+          "after": ".",
+          "answer": "Er versucht, zu schlafen",
+          "en": "He tries to sleep.",
+          "why": "zu schlafen.",
+          "tip": "zu schlafen.",
+          "hint": "zu schlafen."
+        },
+        {
+          "before": "Nurse, the wound:",
+          "after": ".",
+          "answer": "die Wunde zu dokumentieren",
+          "en": "to document the wound.",
+          "why": "die Wunde zu dokumentieren.",
+          "tip": "zu dokumentieren.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "before": "Doctor, the tablet:",
+          "after": ".",
+          "answer": "die Tablette einzunehmen",
+          "en": "to take the tablet.",
+          "why": "einzunehmen.",
+          "tip": "einzunehmen.",
+          "hint": "einzunehmen."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "Where zu sits",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The infinitive only. Simple verbs take zu in front. aufstehen and einnehmen take zu in the middle. A finite verb is not this form.",
+      "chips": [
+        { "w": "zu feiern", "hint": "zu in front." },
+        { "w": "zu dokumentieren", "hint": "zu in front." },
+        { "w": "aufzustehen", "hint": "zu in the middle." },
+        { "w": "zu schlafen", "hint": "zu in front." },
+        { "w": "die Wunde zu dokumentieren", "hint": "object before zu." },
+        { "w": "die Tablette einzunehmen", "hint": "zu in the middle." },
+        { "w": "zu feiert", "hint": "zu in front." },
+        { "w": "zu dokumentiert", "hint": "zu in front." },
+        { "w": "zu aufstehen", "hint": "zu in the middle." },
+        { "w": "zu schläft", "hint": "zu in front." },
+        { "w": "die Wunde dokumentieren zu", "hint": "object before zu." },
+        { "w": "die Tablette zu einnehmen", "hint": "zu in the middle." }
+      ],
+      "items": [
+        {
+          "before": "To celebrate:",
+          "after": ".",
+          "answer": "zu feiern",
+          "en": "to celebrate.",
+          "why": "zu feiern. Not zu feiert. feiern stays correct after a modal.",
+          "tip": "zu feiern.",
+          "hint": "zu feiern."
+        },
+        {
+          "before": "To document:",
+          "after": ".",
+          "answer": "zu dokumentieren",
+          "en": "to document.",
+          "why": "zu dokumentieren. Not zu dokumentiert. dokumentieren is not separable.",
+          "tip": "zu dokumentieren.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "before": "To stand up:",
+          "after": ".",
+          "answer": "aufzustehen",
+          "en": "to stand up.",
+          "why": "aufzustehen. Not zu aufstehen. aufstehen stays correct after a modal.",
+          "tip": "aufzustehen.",
+          "hint": "aufzustehen."
+        },
+        {
+          "before": "To sleep:",
+          "after": ".",
+          "answer": "zu schlafen",
+          "en": "to sleep.",
+          "why": "zu schlafen after versuchen. Wir lassen den Patienten schlafen stays correct, with no zu.",
+          "tip": "zu schlafen.",
+          "hint": "zu schlafen."
+        },
+        {
+          "before": "The wound:",
+          "after": ".",
+          "answer": "die Wunde zu dokumentieren",
+          "en": "to document the wound.",
+          "why": "die Wunde zu dokumentieren. Not zu at the end.",
+          "tip": "zu dokumentieren.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "before": "The tablet:",
+          "after": ".",
+          "answer": "die Tablette einzunehmen",
+          "en": "to take the tablet.",
+          "why": "einzunehmen. Not zu einnehmen. einnehmen after muss stays the bare infinitive.",
+          "tip": "einzunehmen.",
+          "hint": "einzunehmen."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. A bare infinitive after a modal stays correct when the note is not using it.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Die Wunde",
+        "paragraphs": [
+          "Es ist schön, zu feiern. Es ist wichtig, die Wunde zu dokumentieren. Der Patient versucht, aufzustehen.",
+          "Er versucht, zu schlafen. Der Patient versucht, die Tablette einzunehmen."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "To celebrate, from the note.",
+          "qEn": "zu feiern.",
+          "options": ["zu feiern", "zu feiert", "feiern"],
+          "answer": 0,
+          "why": "Es ist schön, zu feiern. Not zu feiert.",
+          "hint": "zu feiern."
+        },
+        {
+          "kind": "mc",
+          "q": "The wound, from the note.",
+          "qEn": "die Wunde zu dokumentieren.",
+          "options": ["die Wunde zu dokumentieren", "die Wunde zu dokumentiert", "die Wunde dokumentieren zu"],
+          "answer": 0,
+          "why": "Es ist wichtig, die Wunde zu dokumentieren. The object stands before zu.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "kind": "mc",
+          "q": "To stand up, from the note.",
+          "qEn": "aufzustehen.",
+          "options": ["aufzustehen", "zu aufstehen", "aufstehen"],
+          "answer": 0,
+          "why": "Der Patient versucht, aufzustehen. aufstehen stays correct after muss.",
+          "hint": "aufzustehen."
+        },
+        {
+          "kind": "mc",
+          "q": "The tablet, from the note.",
+          "qEn": "die Tablette einzunehmen.",
+          "options": ["die Tablette einzunehmen", "die Tablette zu einnehmen", "einnehmen"],
+          "answer": 0,
+          "why": "Der Patient versucht, die Tablette einzunehmen. einnehmen stays correct after muss.",
+          "hint": "einzunehmen."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. It is nice to celebrate. It is important to document the wound. The patient tries to stand up. He tries to sleep.",
+      "prompt": "It is nice to celebrate. It is important to document the wound. The patient tries to stand up. He tries to sleep.",
+      "bullets": ["zu feiern", "die Wunde zu dokumentieren", "aufzustehen", "zu schlafen"],
+      "model": "Es ist schön, zu feiern. Es ist wichtig, die Wunde zu dokumentieren. Der Patient versucht, aufzustehen. Er versucht, zu schlafen.",
+      "modelEn": "It is nice to celebrate. It is important to document the wound. The patient tries to stand up. He tries to sleep.",
+      "hint": "zu feiern. die Wunde zu dokumentieren. aufzustehen. zu schlafen.",
+      "checklist": [
+        { "id": "f", "label": "zu feiern", "keywords": ["zu feiern"] },
+        { "id": "w", "label": "die Wunde zu dokumentieren", "keywords": ["die wunde zu dokumentieren"] },
+        { "id": "a", "label": "aufzustehen", "keywords": ["aufzustehen"] },
+        { "id": "s", "label": "zu schlafen", "keywords": ["zu schlafen"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Es ist schön, zu feiern",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "es ist plus an adjective takes a comma and zu. versuchen takes zu. Separable verbs take zu in the middle. Modals, bleiben and lassen take no zu.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "It is nice to celebrate.",
+          "qEn": "Es ist schön, zu feiern.",
+          "options": ["Es ist schön, zu feiern.", "Es ist schön, feiern.", "Es ist schön, zu feiert."],
+          "answer": 0,
+          "why": "zu feiern. The comma after es is required.",
+          "hint": "zu feiern."
+        },
+        {
+          "kind": "mc",
+          "q": "It is important to document.",
+          "qEn": "zu dokumentieren.",
+          "options": ["Es ist wichtig, zu dokumentieren.", "Es ist wichtig, dokumentieren.", "Es ist wichtig, zu dokumentiert."],
+          "answer": 0,
+          "why": "zu dokumentieren. The full line with die Wunde stays the same pattern.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient tries to stand up.",
+          "qEn": "aufzustehen.",
+          "options": ["Der Patient versucht, aufzustehen.", "Der Patient versucht, zu aufstehen.", "Der Patient muss aufstehen."],
+          "answer": 0,
+          "why": "aufzustehen. Der Patient muss aufstehen stays correct, chapter 69.",
+          "hint": "aufzustehen."
+        },
+        {
+          "kind": "mc",
+          "q": "He tries to sleep.",
+          "qEn": "zu schlafen.",
+          "options": ["Er versucht, zu schlafen.", "Er versucht, schlafen.", "Wir lassen den Patienten schlafen."],
+          "answer": 0,
+          "why": "zu schlafen after versuchen. Wir lassen den Patienten schlafen stays correct.",
+          "hint": "zu schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "It is important to document the wound. The group.",
+          "qEn": "die Wunde zu dokumentieren.",
+          "options": ["die Wunde zu dokumentieren", "die Wunde zu dokumentiert", "die Wunde dokumentieren zu"],
+          "answer": 0,
+          "why": "The object stands before zu plus the infinitive.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient tries to take the tablet. The group.",
+          "qEn": "die Tablette einzunehmen.",
+          "options": ["die Tablette einzunehmen", "die Tablette zu einnehmen", "Er muss die Tablette einnehmen."],
+          "answer": 0,
+          "why": "einzunehmen. Er muss die Tablette einnehmen stays the bare infinitive.",
+          "hint": "einzunehmen."
+        },
+        {
+          "kind": "mc",
+          "q": "To celebrate. The infinitive.",
+          "qEn": "zu feiern.",
+          "options": ["zu feiern", "zu feiert", "feiern"],
+          "answer": 0,
+          "why": "zu feiern. Not zu feiert. feiern stays correct after a modal.",
+          "hint": "zu feiern."
+        },
+        {
+          "kind": "mc",
+          "q": "To stand up. The infinitive.",
+          "qEn": "aufzustehen.",
+          "options": ["aufzustehen", "zu aufstehen", "aufstehen"],
+          "answer": 0,
+          "why": "aufzustehen. aufstehen stays correct after muss. Not zu aufstehen.",
+          "hint": "aufzustehen."
+        },
+        {
+          "kind": "mc",
+          "q": "To sleep. The infinitive.",
+          "qEn": "zu schlafen.",
+          "options": ["zu schlafen", "zu schläft", "schlafen"],
+          "answer": 0,
+          "why": "zu schlafen. Not zu schläft. Wir lassen den Patienten schlafen stays correct, with no zu.",
+          "hint": "zu schlafen."
+        },
+        {
+          "kind": "mc",
+          "q": "To document. The infinitive.",
+          "qEn": "zu dokumentieren.",
+          "options": ["zu dokumentieren", "zu dokumentiert", "dokumentieren"],
+          "answer": 0,
+          "why": "zu dokumentieren. dokumentieren is not separable. The bare infinitive stays correct after a modal.",
+          "hint": "zu dokumentieren."
+        },
+        {
+          "kind": "mc",
+          "q": "To take the tablet. zu in the middle.",
+          "qEn": "einzunehmen.",
+          "options": ["einzunehmen", "zu einnehmen", "ein zu nehmen"],
+          "answer": 0,
+          "why": "einzunehmen, one word. Not zu einnehmen. Not ein zu nehmen. einnehmen after muss stays the bare infinitive.",
+          "hint": "einzunehmen."
+        },
+        {
+          "kind": "mc",
+          "q": "He tries to stand up.",
+          "qEn": "Er versucht, aufzustehen.",
+          "options": ["Er versucht, aufzustehen.", "Er versucht, zu aufstehen.", "Er muss aufstehen."],
+          "answer": 0,
+          "why": "aufzustehen. Er muss aufstehen stays correct, with no zu. Without the comma, Er versucht aufzustehen stays correct too.",
+          "hint": "aufzustehen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Es ist schön, zu feiern",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Es ist schön, zu feiern.", "en": "It is nice to celebrate." },
+        { "de": "Es ist wichtig, die Wunde zu dokumentieren.", "en": "It is important to document the wound." },
+        { "de": "Der Patient versucht, aufzustehen.", "en": "The patient tries to stand up." },
+        { "de": "Er versucht, zu schlafen.", "en": "He tries to sleep." }
+      ],
+      "messages": [
+        "es ist plus an adjective takes a comma and zu plus an infinitive. versuchen takes zu. The comma after versuchen is optional.",
+        "Separable verbs take zu in the middle: aufzustehen, einzunehmen. Modals, bleiben and lassen take no zu. um … zu is chapter 74.",
+        "Sehr gut. Es ist schön, zu feiern. Es ist wichtig, die Wunde zu dokumentieren.",
+        "Ausgezeichnet. You can say it is important to document the wound, and that the patient tries to stand up."
+      ]
+    }
+  ]
+}
