@@ -103,6 +103,15 @@ export function scoreSections(
   for (const step of steps) {
     const label = step.scoreLabel ?? step.label;
     switch (step.type) {
+      case "quickreact":
+        if (step.items?.length) {
+          sections.push({
+            key: `gq:${step.id}:`,
+            label,
+            max: step.items.length * scoring.firstTry,
+          });
+        }
+        break;
       case "grammar":
       case "cases":
         if (step.quiz?.length) {

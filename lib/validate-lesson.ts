@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 import { lessonSchema, type Lesson } from "@/lib/lesson-schema";
 import { practiceIssues } from "@/lib/practice";
 import { tilesMatchAnswer } from "@/lib/scoring";
@@ -47,6 +49,18 @@ export function validateLesson(lesson: Lesson): LessonIssue[] {
   const issues: LessonIssue[] = [];
   const id = lesson.id;
   const fail = (message: string) => issues.push({ lessonId: id, message });
+
+  if (lesson.scenarios?.length) {
+    const bankFile = path.join(process.cwd(), "content/scenario-bank.json");
+    const bank = JSON.parse(fs.readFileSync(bankFile, "utf8")) as { situations: { id: string }[] };
+    const known = new Set(bank.situations.map((item) => item.id));
+    for (const scenarioId of lesson.scenarios) {
+      if (!known.has(scenarioId)) fail(`Unknown scenario “${scenarioId}”`);
+    }
+    if (new Set(lesson.scenarios).size < 4) {
+      fail("A chapter should draw on at least four scenario-bank situations");
+    }
+  }
 
   for (const [key, entry] of Object.entries(lesson.glossary)) {
     const picture = pictureIssue(entry.image, `Glossary “${key}”`);
@@ -121,6 +135,11 @@ export function validateLesson(lesson: Lesson): LessonIssue[] {
           const picture = pictureIssue(option.image, `Compare option “${option.label}”`);
           if (picture) fail(picture);
         });
+      });
+    }
+    if (step.type === "quickreact") {
+      step.items.forEach((item, i) => {
+        if (item.answer >= item.options.length) fail(`Quick react ${i + 1} answer is out of range`);
       });
     }
     if (step.type === "riddle") {

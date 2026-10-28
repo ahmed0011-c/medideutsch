@@ -41,6 +41,11 @@ function walkStep(lesson: Lesson, step: Step, hit: string[]) {
       hit.push(correctMc(item.options, item.answer, `${lesson.id} reading ${index + 1}`));
     });
   }
+  if (step.type === "quickreact") {
+    step.items.forEach((item, index) => {
+      hit.push(correctMc(item.options, item.answer, `${lesson.id} ${step.id} quick ${index + 1}`));
+    });
+  }
   if (step.type === "compare") {
     unique(step.items.map((item) => item.prompt), `${lesson.id} ${step.id} prompts`);
     step.items.forEach((item, index) => {

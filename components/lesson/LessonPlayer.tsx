@@ -18,6 +18,7 @@ import { PictureStepView } from "@/components/steps/PictureStep";
 import { ColourStepView } from "@/components/steps/ColourStep";
 import { ReadingStepView } from "@/components/steps/ReadingStep";
 import { CompareStepView, RiddleStepView, WritingStepView } from "@/components/steps/ExtraSteps";
+import { QuickReactStepView } from "@/components/steps/QuickReactStep";
 import { SummaryStepView } from "@/components/steps/SummaryStep";
 import type { SavedProgress } from "@/lib/storage";
 
@@ -203,6 +204,8 @@ function StepBody({
       return <CompareStepView step={step} />;
     case "riddle":
       return <RiddleStepView step={step} />;
+    case "quickreact":
+      return <QuickReactStepView step={step} />;
     case "writing":
       return <WritingStepView step={step} />;
     case "summary":
@@ -252,6 +255,10 @@ function statusLine(step: Step, progress: SavedProgress, lesson: Lesson): string
     case "compare":
     case "riddle": {
       const n = step.items.filter((_, index) => progress.solved[`${step.id}:${index}`]).length;
+      return `Solved: ${n}/${step.items.length}`;
+    }
+    case "quickreact": {
+      const n = step.items.filter((_, index) => progress.mc[`gq:${step.id}:${index}`]?.solved).length;
       return `Solved: ${n}/${step.items.length}`;
     }
     case "writing": {

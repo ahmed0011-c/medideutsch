@@ -33,6 +33,7 @@ Played in this repo: 1, 2, 3, 4, 5–6 (one lesson), 7, 8, 9, 10, 11, 12, 13, 14
 9. Read the German aloud. Keep it medically plausible: drug rounds, dressings, handover, admission, vital signs. Original sentences only.
 10. Variety: do not repeat an example sentence, or the same verb with the same person or thing, across exercises in one lesson. Rotate wards, people, and objects. Do not copy a sentence another chapter already uses as its line.
 11. Pictures: draw new vocabulary as an inline SVG in `components/illustrations/sprites.ts`. Put that id on the overview card, the picture step, and the glossary `image` field so the word popup and Wortbank show the drawing. `npm run validate` rejects a missing id. A picture step’s instruction names exactly the drawings on the step.
+12. Scenario bank: `content/scenario-bank.json` lists the modules of *Menschen im Beruf – Pflege* A2 and B1 (Hueber). Set `scenarios` to at least four ids. Take the chapter’s examples from those situations, and rotate modules from chapter to chapter so the same sentence, person and object do not come back. The lines in the bank are original ward lines for that situation, not copied textbook exercises. A lesson uses at most two gap-fills. A spoken reply is a `quickreact` step with `speaker` and `speakerLine`. A fast case drill is a `quickreact` step with a cue such as `Wem?`. A reply to a patient or relative is a second `writing` step with a checklist.
 
 ## Where to look
 

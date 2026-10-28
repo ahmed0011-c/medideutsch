@@ -432,6 +432,26 @@ export const writingStepSchema = z.object({
     .min(2),
 });
 
+export const quickReactStepSchema = z.object({
+  ...stepBase,
+  type: z.literal("quickreact"),
+  instructions: z.string(),
+  /** Shown above the options, for example Wem? */
+  cue: z.string().optional(),
+  items: z.array(
+    z.object({
+      prompt: z.string(),
+      qEn: z.string().optional(),
+      speaker: z.string().optional(),
+      speakerLine: z.string().optional(),
+      options: z.array(z.string()).min(2),
+      answer: z.number().int().nonnegative(),
+      why: z.string(),
+      hint: z.string().optional(),
+    }),
+  ).min(1),
+});
+
 export const summaryStepSchema = z.object({
   ...stepBase,
   type: z.literal("summary"),
@@ -457,6 +477,7 @@ export const stepSchema = z.discriminatedUnion("type", [
   readingStepSchema,
   compareStepSchema,
   riddleStepSchema,
+  quickReactStepSchema,
   writingStepSchema,
   summaryStepSchema,
 ]);
@@ -481,6 +502,8 @@ export const lessonSchema = z.object({
   targetLanguage: z.string(),
   chapter: z.number().int().optional(),
   chapters: z.array(z.number().int()).optional(),
+  /** Ids from content/scenario-bank.json. Several book situations, rotated across chapters. */
+  scenarios: z.array(z.string().min(1)).optional(),
   scoring: scoringSchema,
   cases: z.record(caseId, caseInfoSchema).optional(),
   glossary: z.record(z.string(), glossaryEntrySchema),
@@ -503,6 +526,7 @@ export type ColourStep = z.infer<typeof colourStepSchema>;
 export type ReadingStep = z.infer<typeof readingStepSchema>;
 export type CompareStep = z.infer<typeof compareStepSchema>;
 export type RiddleStep = z.infer<typeof riddleStepSchema>;
+export type QuickReactStep = z.infer<typeof quickReactStepSchema>;
 export type WritingStep = z.infer<typeof writingStepSchema>;
 export type SummaryStep = z.infer<typeof summaryStepSchema>;
 export type McQuestion = z.infer<typeof mcSchema>;

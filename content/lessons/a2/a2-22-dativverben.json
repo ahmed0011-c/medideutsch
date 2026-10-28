@@ -9,67 +9,869 @@
     "wordExplorePoints": 8,
     "hintCost": 1,
     "tipPoints": 1,
-    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
   },
   "id": "a2-22-dativverben",
   "level": "A2",
   "unit": "Kapitel 22",
   "chapter": 22,
-  "chapters": [22],
+  "chapters": [
+    22
+  ],
   "title": "Ich helfe dir, du dankst mir",
   "subtitle": "Dative verbs",
   "glossary": {
-    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🧑‍⚕️" },
-    "helfe": { "de": "helfen → ich helfe", "pos": "form", "en": "help", "emoji": "🤝", "note": "The person is dative. Ich helfe meiner Cousine." },
-    "dir": { "de": "dir", "pos": "pronoun", "en": "you (dative)", "emoji": "🤝", "note": "Dative of du. Not dich. Das Radio gehört dir." },
-    "du": { "de": "du", "pos": "pronoun", "en": "you (informal)", "emoji": "🧑" },
-    "dankst": { "de": "danken → du dankst", "pos": "form", "en": "thank", "emoji": "🙏", "note": "No vowel change. Du dankst mir. Not du danks." },
-    "mir": { "de": "mir", "pos": "pronoun", "en": "me (dative)", "emoji": "🤝", "note": "Dative of ich. Not mich." },
-    "die": { "de": "die", "pos": "article", "en": "the (feminine nominative)", "emoji": "👩‍⚕️", "note": "Nominative. After helfen, danken and gehören the feminine person is der, not die." },
-    "nachtschwester": { "de": "Nachtschwester", "pos": "noun", "en": "night nurse", "emoji": "👩‍⚕️", "article": "die", "plural": "die Nachtschwestern", "image": { "type": "svg", "id": "nurse" } },
-    "hilft": { "de": "helfen → sie hilft", "pos": "form", "en": "helps", "emoji": "🤝", "note": "The vowel changes: hilft, not helft for er/sie/es. ihr helft is the plural you." },
-    "dem": { "de": "dem", "pos": "article", "en": "the (dative masculine or neuter)", "emoji": "🔗", "note": "One man or a neuter: dem Säugling, dem Kind. Not den for one man." },
-    "säugling": { "de": "Säugling", "pos": "noun", "en": "baby", "emoji": "👶", "article": "der", "plural": "die Säuglinge", "image": { "type": "svg", "id": "baby" }, "note": "dem Säugling. Strong noun, no extra -en." },
-    "der": { "de": "der", "pos": "article", "en": "the (masculine nominative, or feminine dative)", "emoji": "🔗", "note": "Feminine dative is der: der Oma, der Ärztin, der Köchin. Not die." },
-    "enkel": { "de": "Enkel", "pos": "noun", "en": "grandson", "emoji": "👦", "article": "der", "plural": "die Enkel", "image": { "type": "svg", "id": "child" } },
-    "dankt": { "de": "danken → er dankt", "pos": "form", "en": "thanks", "emoji": "🙏", "note": "The person is dative. Der Enkel dankt der Oma." },
-    "oma": { "de": "Oma", "pos": "noun", "en": "grandma", "emoji": "👵", "article": "die", "plural": "die Omas", "image": { "type": "svg", "id": "mother" } },
-    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
-    "stethoskop": { "de": "Stethoskop", "pos": "noun", "en": "stethoscope", "emoji": "🩺", "article": "das", "plural": "die Stethoskope", "image": { "type": "svg", "id": "stethoscope" }, "note": "The thing is the subject of gehören." },
-    "gehört": { "de": "gehören → es gehört", "pos": "form", "en": "belongs", "emoji": "🔑", "note": "Present of gehören. The owner is dative. Not the participle of hören." },
-    "ärztin": { "de": "Ärztin", "pos": "noun", "en": "doctor (female)", "emoji": "👩‍⚕️", "article": "die", "plural": "die Ärztinnen", "image": { "type": "svg", "id": "nurse" } },
-    "hilfst": { "de": "helfen → du hilfst", "pos": "form", "en": "help", "emoji": "🤝", "note": "du hilfst, with i. Not helfst." },
-    "deinem": { "de": "deinem", "pos": "article", "en": "your (dative masculine)", "emoji": "🔗", "note": "deinem Vater. Masculine dative of dein." },
-    "vater": { "de": "Vater", "pos": "noun", "en": "father", "emoji": "👨", "article": "der", "plural": "die Väter", "image": { "type": "svg", "id": "father" } },
-    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
-    "danken": { "de": "danken → wir danken", "pos": "form", "en": "thank", "emoji": "🙏", "note": "Wir danken dem Pförtner. The person is dative." },
-    "pförtner": { "de": "Pförtner", "pos": "noun", "en": "doorkeeper", "emoji": "🚪", "article": "der", "plural": "die Pförtner", "image": { "type": "svg", "id": "patient" } },
-    "rollstuhl": { "de": "Rollstuhl", "pos": "noun", "en": "wheelchair", "emoji": "♿", "article": "der", "plural": "die Rollstühle", "image": { "type": "svg", "id": "wheelchair" } },
-    "besucher": { "de": "Besucher", "pos": "noun", "en": "visitor", "emoji": "🚶", "article": "der", "plural": "die Besucher", "image": { "type": "svg", "id": "grandfather" }, "note": "dem Besucher. Dative plural: den Besuchern." },
-    "ihr": { "de": "ihr", "pos": "pronoun", "en": "you (plural) or her (dative)", "emoji": "👥", "note": "Ihr helft is you-all. dankt ihr is to her. Not sie." },
-    "helft": { "de": "helfen → ihr helft", "pos": "form", "en": "help", "emoji": "🤝", "note": "ihr helft. The vowel is e. er hilft has i." },
-    "kollegin": { "de": "Kollegin", "pos": "noun", "en": "colleague (female)", "emoji": "👩‍⚕️", "article": "die", "plural": "die Kolleginnen", "image": { "type": "svg", "id": "nurse" } },
-    "thermometer": { "de": "Thermometer", "pos": "noun", "en": "thermometer", "emoji": "🌡️", "article": "das", "plural": "die Thermometer", "image": { "type": "svg", "id": "thermometer" } },
-    "kind": { "de": "Kind", "pos": "noun", "en": "child", "emoji": "🧒", "article": "das", "plural": "die Kinder", "image": { "type": "svg", "id": "child" }, "note": "dem Kind. Dative plural: den Kindern." },
-    "nachtdienst": { "de": "Nachtdienst", "pos": "noun", "en": "night shift", "emoji": "🌙", "article": "der" },
-    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" },
-    "köchin": { "de": "Köchin", "pos": "noun", "en": "cook (female)", "emoji": "👩‍🍳", "article": "die", "plural": "die Köchinnen" },
-    "hausmeister": { "de": "Hausmeister", "pos": "noun", "en": "caretaker", "emoji": "🔧", "article": "der", "plural": "die Hausmeister" },
-    "gärtner": { "de": "Gärtner", "pos": "noun", "en": "gardener", "emoji": "🌿", "article": "der", "plural": "die Gärtner" },
-    "tasche": { "de": "Tasche", "pos": "noun", "en": "bag", "emoji": "👜", "article": "die", "plural": "die Taschen" },
-    "sekretärin": { "de": "Sekretärin", "pos": "noun", "en": "secretary", "emoji": "🗂️", "article": "die", "plural": "die Sekretärinnen" },
-    "helm": { "de": "Helm", "pos": "noun", "en": "helmet", "emoji": "⛑️", "article": "der", "plural": "die Helme" },
-    "praktikanten": { "de": "Praktikant", "pos": "noun", "en": "trainee", "emoji": "🧑‍⚕️", "article": "der", "plural": "die Praktikanten", "note": "dem Praktikanten. Nouns in -ant take -en." },
-    "patient": { "de": "Patient", "pos": "noun", "en": "patient", "emoji": "🏥", "article": "der", "plural": "die Patienten", "image": { "type": "svg", "id": "patient" }, "note": "One man: dem Patienten. Not dem Patient." },
-    "patientin": { "de": "Patientin", "pos": "noun", "en": "patient (female)", "emoji": "🏥", "article": "die", "plural": "die Patientinnen", "image": { "type": "svg", "id": "patientin" }, "note": "Dative: der Patientin." },
-    "pflegekraft": { "de": "Pflegekraft", "pos": "noun", "en": "nurse", "emoji": "🩺", "article": "die", "plural": "die Pflegekräfte", "image": { "type": "svg", "id": "nurse" } },
-    "tablette": { "de": "Tablette", "pos": "noun", "en": "tablet", "emoji": "💊", "article": "die", "plural": "die Tabletten", "image": { "type": "svg", "id": "tablet" } },
-    "bett": { "de": "Bett", "pos": "noun", "en": "bed", "emoji": "🛏️", "article": "das", "plural": "die Betten", "image": { "type": "svg", "id": "bed" } },
-    "pflaster": { "de": "Pflaster", "pos": "noun", "en": "plaster", "emoji": "🩹", "article": "das", "plural": "die Pflaster", "image": { "type": "svg", "id": "plaster" } },
-    "spritze": { "de": "Spritze", "pos": "noun", "en": "syringe", "emoji": "💉", "article": "die", "plural": "die Spritzen", "image": { "type": "svg", "id": "syringe" } },
-    "akte": { "de": "Akte", "pos": "noun", "en": "chart, file", "emoji": "📋", "article": "die", "plural": "die Akten", "image": { "type": "svg", "id": "clipboard" } },
-    "helfen": { "de": "helfen", "pos": "verb", "en": "to help", "emoji": "🤝", "note": "The person is dative. du hilfst, er hilft." },
-    "gehören": { "de": "gehören", "pos": "pattern", "en": "to belong to", "emoji": "🔑", "note": "The thing is the subject. The owner is dative." }
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🧑‍⚕️"
+    },
+    "helfe": {
+      "de": "helfen → ich helfe",
+      "pos": "form",
+      "en": "help",
+      "emoji": "🤝",
+      "note": "The person is dative. Ich helfe meiner Cousine."
+    },
+    "dir": {
+      "de": "dir",
+      "pos": "pronoun",
+      "en": "you (dative)",
+      "emoji": "🤝",
+      "note": "Dative of du. Not dich. Das Radio gehört dir."
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal)",
+      "emoji": "🧑"
+    },
+    "dankst": {
+      "de": "danken → du dankst",
+      "pos": "form",
+      "en": "thank",
+      "emoji": "🙏",
+      "note": "No vowel change. Du dankst mir. Not du danks."
+    },
+    "mir": {
+      "de": "mir",
+      "pos": "pronoun",
+      "en": "me (dative)",
+      "emoji": "🤝",
+      "note": "Dative of ich. Not mich."
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine nominative)",
+      "emoji": "👩‍⚕️",
+      "note": "Nominative. After helfen, danken and gehören the feminine person is der, not die."
+    },
+    "nachtschwester": {
+      "de": "Nachtschwester",
+      "pos": "noun",
+      "en": "night nurse",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Nachtschwestern",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "hilft": {
+      "de": "helfen → sie hilft",
+      "pos": "form",
+      "en": "helps",
+      "emoji": "🤝",
+      "note": "The vowel changes: hilft, not helft for er/sie/es. ihr helft is the plural you."
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative masculine or neuter)",
+      "emoji": "🔗",
+      "note": "One man or a neuter: dem Säugling, dem Kind. Not den for one man."
+    },
+    "säugling": {
+      "de": "Säugling",
+      "pos": "noun",
+      "en": "baby",
+      "emoji": "👶",
+      "article": "der",
+      "plural": "die Säuglinge",
+      "image": {
+        "type": "svg",
+        "id": "baby"
+      },
+      "note": "dem Säugling. Strong noun, no extra -en."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative, or feminine dative)",
+      "emoji": "🔗",
+      "note": "Feminine dative is der: der Oma, der Ärztin, der Köchin. Not die."
+    },
+    "enkel": {
+      "de": "Enkel",
+      "pos": "noun",
+      "en": "grandson",
+      "emoji": "👦",
+      "article": "der",
+      "plural": "die Enkel",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "dankt": {
+      "de": "danken → er dankt",
+      "pos": "form",
+      "en": "thanks",
+      "emoji": "🙏",
+      "note": "The person is dative. Der Enkel dankt der Oma."
+    },
+    "oma": {
+      "de": "Oma",
+      "pos": "noun",
+      "en": "grandma",
+      "emoji": "👵",
+      "article": "die",
+      "plural": "die Omas",
+      "image": {
+        "type": "svg",
+        "id": "mother"
+      }
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢"
+    },
+    "stethoskop": {
+      "de": "Stethoskop",
+      "pos": "noun",
+      "en": "stethoscope",
+      "emoji": "🩺",
+      "article": "das",
+      "plural": "die Stethoskope",
+      "image": {
+        "type": "svg",
+        "id": "stethoscope"
+      },
+      "note": "The thing is the subject of gehören."
+    },
+    "gehört": {
+      "de": "gehören → es gehört",
+      "pos": "form",
+      "en": "belongs",
+      "emoji": "🔑",
+      "note": "Present of gehören. The owner is dative. Not the participle of hören."
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Ärztinnen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "hilfst": {
+      "de": "helfen → du hilfst",
+      "pos": "form",
+      "en": "help",
+      "emoji": "🤝",
+      "note": "du hilfst, with i. Not helfst."
+    },
+    "deinem": {
+      "de": "deinem",
+      "pos": "article",
+      "en": "your (dative masculine)",
+      "emoji": "🔗",
+      "note": "deinem Vater. Masculine dative of dein."
+    },
+    "vater": {
+      "de": "Vater",
+      "pos": "noun",
+      "en": "father",
+      "emoji": "👨",
+      "article": "der",
+      "plural": "die Väter",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "danken": {
+      "de": "danken → wir danken",
+      "pos": "form",
+      "en": "thank",
+      "emoji": "🙏",
+      "note": "Wir danken dem Pförtner. The person is dative."
+    },
+    "pförtner": {
+      "de": "Pförtner",
+      "pos": "noun",
+      "en": "doorkeeper",
+      "emoji": "🚪",
+      "article": "der",
+      "plural": "die Pförtner",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "rollstuhl": {
+      "de": "Rollstuhl",
+      "pos": "noun",
+      "en": "wheelchair",
+      "emoji": "♿",
+      "article": "der",
+      "plural": "die Rollstühle",
+      "image": {
+        "type": "svg",
+        "id": "wheelchair"
+      }
+    },
+    "besucher": {
+      "de": "Besucher",
+      "pos": "noun",
+      "en": "visitor",
+      "emoji": "🚶",
+      "article": "der",
+      "plural": "die Besucher",
+      "image": {
+        "type": "svg",
+        "id": "grandfather"
+      },
+      "note": "dem Besucher. Dative plural: den Besuchern."
+    },
+    "ihr": {
+      "de": "ihr",
+      "pos": "pronoun",
+      "en": "you (plural) or her (dative)",
+      "emoji": "👥",
+      "note": "Ihr helft is you-all. dankt ihr is to her. Not sie."
+    },
+    "helft": {
+      "de": "helfen → ihr helft",
+      "pos": "form",
+      "en": "help",
+      "emoji": "🤝",
+      "note": "ihr helft. The vowel is e. er hilft has i."
+    },
+    "kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Kolleginnen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "thermometer",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Thermometer",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "kind": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "child",
+      "emoji": "🧒",
+      "article": "das",
+      "plural": "die Kinder",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      },
+      "note": "dem Kind. Dative plural: den Kindern."
+    },
+    "nachtdienst": {
+      "de": "Nachtdienst",
+      "pos": "noun",
+      "en": "night shift",
+      "emoji": "🌙",
+      "article": "der"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna",
+      "emoji": "🧑‍⚕️"
+    },
+    "köchin": {
+      "de": "Köchin",
+      "pos": "noun",
+      "en": "cook (female)",
+      "emoji": "👩‍🍳",
+      "article": "die",
+      "plural": "die Köchinnen"
+    },
+    "hausmeister": {
+      "de": "Hausmeister",
+      "pos": "noun",
+      "en": "caretaker",
+      "emoji": "🔧",
+      "article": "der",
+      "plural": "die Hausmeister"
+    },
+    "gärtner": {
+      "de": "Gärtner",
+      "pos": "noun",
+      "en": "gardener",
+      "emoji": "🌿",
+      "article": "der",
+      "plural": "die Gärtner"
+    },
+    "tasche": {
+      "de": "Tasche",
+      "pos": "noun",
+      "en": "bag",
+      "emoji": "👜",
+      "article": "die",
+      "plural": "die Taschen"
+    },
+    "sekretärin": {
+      "de": "Sekretärin",
+      "pos": "noun",
+      "en": "secretary",
+      "emoji": "🗂️",
+      "article": "die",
+      "plural": "die Sekretärinnen"
+    },
+    "helm": {
+      "de": "Helm",
+      "pos": "noun",
+      "en": "helmet",
+      "emoji": "⛑️",
+      "article": "der",
+      "plural": "die Helme"
+    },
+    "praktikanten": {
+      "de": "Praktikant",
+      "pos": "noun",
+      "en": "trainee",
+      "emoji": "🧑‍⚕️",
+      "article": "der",
+      "plural": "die Praktikanten",
+      "note": "dem Praktikanten. Nouns in -ant take -en."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      },
+      "note": "One man: dem Patienten. Not dem Patient."
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient (female)",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Patientinnen",
+      "image": {
+        "type": "svg",
+        "id": "patientin"
+      },
+      "note": "Dative: der Patientin."
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🩺",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten",
+      "image": {
+        "type": "svg",
+        "id": "tablet"
+      }
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "emoji": "🩹",
+      "article": "das",
+      "plural": "die Pflaster",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "spritze": {
+      "de": "Spritze",
+      "pos": "noun",
+      "en": "syringe",
+      "emoji": "💉",
+      "article": "die",
+      "plural": "die Spritzen",
+      "image": {
+        "type": "svg",
+        "id": "syringe"
+      }
+    },
+    "akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "chart, file",
+      "emoji": "📋",
+      "article": "die",
+      "plural": "die Akten",
+      "image": {
+        "type": "svg",
+        "id": "clipboard"
+      }
+    },
+    "helfen": {
+      "de": "helfen",
+      "pos": "verb",
+      "en": "to help",
+      "emoji": "🤝",
+      "note": "The person is dative. du hilfst, er hilft."
+    },
+    "gehören": {
+      "de": "gehören",
+      "pos": "pattern",
+      "en": "to belong to",
+      "emoji": "🔑",
+      "note": "The thing is the subject. The owner is dative."
+    },
+    "praxisanleiterin": {
+      "de": "Praxisanleiterin",
+      "pos": "noun",
+      "en": "practice instructor",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Praxisanleiterinnen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "praktikantin": {
+      "de": "Praktikantin",
+      "pos": "noun",
+      "en": "trainee (female)",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Praktikantinnen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      },
+      "note": "Dative: der Praktikantin."
+    },
+    "ehemann": {
+      "de": "Ehemann",
+      "pos": "noun",
+      "en": "husband",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Ehemänner",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    },
+    "aufnahme": { "de": "Aufnahme", "pos": "noun", "en": "admission", "emoji": "📝", "article": "die", "plural": "die Aufnahmen" },
+    "aufnahmekraft": {
+      "de": "Aufnahmekraft",
+      "pos": "noun",
+      "en": "admissions nurse",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Aufnahmekräfte",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "apotheker": {
+      "de": "Apotheker",
+      "pos": "noun",
+      "en": "pharmacist",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Apotheker",
+      "image": {
+        "type": "svg",
+        "id": "pharmacist"
+      }
+    },
+    "wundauflage": {
+      "de": "Wundauflage",
+      "pos": "noun",
+      "en": "wound dressing",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Wundauflagen",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "wundexperten": {
+      "de": "Wundexperte",
+      "pos": "noun",
+      "en": "wound specialist",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Wundexperten",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      },
+      "note": "dem Wundexperten."
+    },
+    "notarzt": {
+      "de": "Notarzt",
+      "pos": "noun",
+      "en": "emergency doctor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Notärzte",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      }
+    },
+    "betreuerin": {
+      "de": "Betreuerin",
+      "pos": "noun",
+      "en": "carer",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Betreuerinnen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      },
+      "note": "Dementia care, dative der Betreuerin."
+    },
+    "kanüle": {
+      "de": "Kanüle",
+      "pos": "noun",
+      "en": "cannula",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Kanülen",
+      "image": {
+        "type": "svg",
+        "id": "syringe"
+      }
+    },
+    "laboranten": {
+      "de": "Laborant",
+      "pos": "noun",
+      "en": "lab technician",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Laboranten",
+      "image": {
+        "type": "svg",
+        "id": "pharmacist"
+      },
+      "note": "dem Laboranten."
+    },
+    "bewohnerin": {
+      "de": "Bewohnerin",
+      "pos": "noun",
+      "en": "resident (female)",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Bewohnerinnen",
+      "image": {
+        "type": "svg",
+        "id": "mother"
+      }
+    },
+    "chirurgen": {
+      "de": "Chirurg",
+      "pos": "noun",
+      "en": "surgeon",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Chirurgen",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      },
+      "note": "dem Chirurgen."
+    },
+    "bericht": {
+      "de": "Bericht",
+      "pos": "noun",
+      "en": "report",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Berichte",
+      "image": {
+        "type": "svg",
+        "id": "clipboard"
+      }
+    },
+    "verletzten": {
+      "de": "Verletzter",
+      "pos": "noun",
+      "en": "injured person",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Verletzten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      },
+      "note": "dem Verletzten."
+    },
+    "kardiologen": {
+      "de": "Kardiologe",
+      "pos": "noun",
+      "en": "cardiologist",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Kardiologen",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      },
+      "note": "dem Kardiologen."
+    },
+    "stationsleitung": {
+      "de": "Stationsleitung",
+      "pos": "noun",
+      "en": "ward manager",
+      "emoji": "🏥",
+      "article": "die",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "schichtleitung": {
+      "de": "Schichtleitung",
+      "pos": "noun",
+      "en": "shift lead",
+      "emoji": "🏥",
+      "article": "die",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "bewohner": {
+      "de": "Bewohner",
+      "pos": "noun",
+      "en": "resident",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Bewohner",
+      "image": {
+        "type": "svg",
+        "id": "grandfather"
+      }
+    },
+    "ihnen": {
+      "de": "Ihnen",
+      "pos": "pronoun",
+      "en": "you (formal dative)",
+      "emoji": "🏥",
+      "note": "Kann ich Ihnen helfen? Not Sie."
+    },
+    "ihrem": {
+      "de": "Ihrem",
+      "pos": "article",
+      "en": "your (formal dative masculine)",
+      "emoji": "🏥",
+      "note": "Ihrem Vater."
+    },
+    "ihrer": {
+      "de": "Ihrer",
+      "pos": "article",
+      "en": "your (formal dative feminine)",
+      "emoji": "🏥",
+      "note": "Ihrer Mutter, Ihrer Tochter."
+    },
+    "kann": {
+      "de": "können → ich kann",
+      "pos": "form",
+      "en": "can",
+      "emoji": "🏥"
+    },
+    "gern": {
+      "de": "gern",
+      "pos": "adverb",
+      "en": "gladly",
+      "emoji": "🏥"
+    },
+    "sofort": {
+      "de": "sofort",
+      "pos": "adverb",
+      "en": "at once",
+      "emoji": "🏥"
+    },
+    "hinweis": {
+      "de": "Hinweis",
+      "pos": "noun",
+      "en": "comment, hint",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Hinweise"
+    },
+    "für": {
+      "de": "für",
+      "pos": "preposition",
+      "en": "for",
+      "emoji": "🏥"
+    },
+    "mutter": {
+      "de": "Mutter",
+      "pos": "noun",
+      "en": "mother",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Mütter",
+      "image": {
+        "type": "svg",
+        "id": "mother"
+      }
+    },
+    "tochter": {
+      "de": "Tochter",
+      "pos": "noun",
+      "en": "daughter",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Töchter",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "neue": {
+      "de": "neue",
+      "pos": "adjective",
+      "en": "new",
+      "emoji": "🏥"
+    },
+    "hörgerät": {
+      "de": "Hörgerät",
+      "pos": "noun",
+      "en": "hearing aid",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Hörgeräte",
+      "image": {
+        "type": "svg",
+        "id": "stethoscope"
+      }
+    },
+    "lena": {
+      "de": "Lena",
+      "pos": "name",
+      "en": "Lena",
+      "emoji": "🏥"
+    },
+    "tom": {
+      "de": "Tom",
+      "pos": "name",
+      "en": "Tom",
+      "emoji": "🏥"
+    },
+    "rettungssanitäter": {
+      "de": "Rettungssanitäter",
+      "pos": "noun",
+      "en": "paramedic",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Rettungssanitäter",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "blutprobe": {
+      "de": "Blutprobe",
+      "pos": "noun",
+      "en": "blood sample",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Blutproben",
+      "image": {
+        "type": "svg",
+        "id": "vial"
+      }
+    },
+    "angehöriger": {
+      "de": "Angehöriger",
+      "pos": "noun",
+      "en": "relative",
+      "emoji": "🏥",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    }
   },
   "steps": [
     {
@@ -78,30 +880,162 @@
       "label": "Start",
       "title": "The person is dative",
       "learn": [
-        "helfen, danken and gehören take the person in the dative. Ask Wem?",
-        "One man is dem. A woman is der, not die. du hilfst and er hilft change the vowel. Not helfst.",
-        "With gehören the thing is the subject and the owner is dative. gehört here is the present, not a past participle.",
-        "mir and dir are dative. mich and dich do not fit these three verbs. geben still has a thing as well."
+        "Examples come from several Pflege-book situations: hand hygiene, aids, vital signs, medicines, the lab, a fall, admission, dementia, the heart, wounds, a complaint, and the team.",
+        "helfen, danken and gehören take the person in the dative. Ask Wem? A woman is der. One man is dem.",
+        "du hilfst and er hilft change the vowel. mir, dir and Ihnen are dative. Not mich, Sie or dich.",
+        "With gehören the thing is the subject. geben still has a thing as well."
       ],
       "minutes": 25,
       "vocab": [
-        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🏥", "glossaryKey": "patient", "image": { "type": "svg", "id": "patient" } },
-        { "de": "Patientin", "article": "die", "plural": "die Patientinnen", "en": "patient (female)", "emoji": "🏥", "glossaryKey": "patientin", "image": { "type": "svg", "id": "patientin" } },
-        { "de": "Kind", "article": "das", "plural": "die Kinder", "en": "child", "emoji": "🧒", "glossaryKey": "kind", "image": { "type": "svg", "id": "child" } },
-        { "de": "Pflegekraft", "article": "die", "plural": "die Pflegekräfte", "en": "nurse", "emoji": "🩺", "glossaryKey": "pflegekraft", "image": { "type": "svg", "id": "nurse" } },
-        { "de": "Säugling", "article": "der", "plural": "die Säuglinge", "en": "baby", "emoji": "👶", "glossaryKey": "säugling", "image": { "type": "svg", "id": "baby" } },
-        { "de": "Vater", "article": "der", "plural": "die Väter", "en": "father", "emoji": "👨", "glossaryKey": "vater", "image": { "type": "svg", "id": "father" } },
-        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tablette", "image": { "type": "svg", "id": "tablet" } },
-        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "glossaryKey": "bett", "image": { "type": "svg", "id": "bed" } },
-        { "de": "Stethoskop", "article": "das", "plural": "die Stethoskope", "en": "stethoscope", "emoji": "🩺", "glossaryKey": "stethoskop", "image": { "type": "svg", "id": "stethoscope" } },
-        { "de": "Rollstuhl", "article": "der", "plural": "die Rollstühle", "en": "wheelchair", "emoji": "♿", "glossaryKey": "rollstuhl", "image": { "type": "svg", "id": "wheelchair" } },
-        { "de": "Thermometer", "article": "das", "plural": "die Thermometer", "en": "thermometer", "emoji": "🌡️", "glossaryKey": "thermometer", "image": { "type": "svg", "id": "thermometer" } },
-        { "de": "Pflaster", "article": "das", "plural": "die Pflaster", "en": "plaster", "emoji": "🩹", "glossaryKey": "pflaster", "image": { "type": "svg", "id": "plaster" } }
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient",
+          "emoji": "🏥",
+          "glossaryKey": "patient",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          }
+        },
+        {
+          "de": "Patientin",
+          "article": "die",
+          "plural": "die Patientinnen",
+          "en": "patient (female)",
+          "emoji": "🏥",
+          "glossaryKey": "patientin",
+          "image": {
+            "type": "svg",
+            "id": "patientin"
+          }
+        },
+        {
+          "de": "Kind",
+          "article": "das",
+          "plural": "die Kinder",
+          "en": "child",
+          "emoji": "🧒",
+          "glossaryKey": "kind",
+          "image": {
+            "type": "svg",
+            "id": "child"
+          }
+        },
+        {
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "nurse",
+          "emoji": "🩺",
+          "glossaryKey": "pflegekraft",
+          "image": {
+            "type": "svg",
+            "id": "nurse"
+          }
+        },
+        {
+          "de": "Säugling",
+          "article": "der",
+          "plural": "die Säuglinge",
+          "en": "baby",
+          "emoji": "👶",
+          "glossaryKey": "säugling",
+          "image": {
+            "type": "svg",
+            "id": "baby"
+          }
+        },
+        {
+          "de": "Vater",
+          "article": "der",
+          "plural": "die Väter",
+          "en": "father",
+          "emoji": "👨",
+          "glossaryKey": "vater",
+          "image": {
+            "type": "svg",
+            "id": "father"
+          }
+        },
+        {
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "emoji": "💊",
+          "glossaryKey": "tablette",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          }
+        },
+        {
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "emoji": "🛏️",
+          "glossaryKey": "bett",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          }
+        },
+        {
+          "de": "Stethoskop",
+          "article": "das",
+          "plural": "die Stethoskope",
+          "en": "stethoscope",
+          "emoji": "🩺",
+          "glossaryKey": "stethoskop",
+          "image": {
+            "type": "svg",
+            "id": "stethoscope"
+          }
+        },
+        {
+          "de": "Rollstuhl",
+          "article": "der",
+          "plural": "die Rollstühle",
+          "en": "wheelchair",
+          "emoji": "♿",
+          "glossaryKey": "rollstuhl",
+          "image": {
+            "type": "svg",
+            "id": "wheelchair"
+          }
+        },
+        {
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "thermometer",
+          "emoji": "🌡️",
+          "glossaryKey": "thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          }
+        },
+        {
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "plaster",
+          "emoji": "🩹",
+          "glossaryKey": "pflaster",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          }
+        }
       ],
       "text": {
         "title": "Ich helfe dir, du dankst mir",
-        "de": "Die Nachtschwester hilft dem Säugling. Der Enkel dankt der Oma. Das Stethoskop gehört der Ärztin. Du hilfst deinem Vater. Wir danken dem Pförtner. Der Rollstuhl gehört dem Besucher. Ihr helft der Kollegin. Das Thermometer gehört dem Kind.",
-        "en": "The night nurse helps the baby. The grandson thanks grandma. The stethoscope belongs to the doctor. You help your father. We thank the doorkeeper. The wheelchair belongs to the visitor. You all help the colleague. The thermometer belongs to the child."
+        "de": "Die Praxisanleiterin hilft der Praktikantin. Der Ehemann dankt der Aufnahmekraft. Das Thermometer gehört der Nachtschwester. Die Pflegekraft dankt dem Apotheker. Die Wundauflage gehört dem Wundexperten. Wir danken dem Notarzt. Ihr helft der Betreuerin. Die Kanüle gehört dem Laboranten.",
+        "en": "The instructor helps the trainee. The husband thanks the admissions nurse. The thermometer belongs to the night nurse. The nurse thanks the pharmacist. The wound dressing belongs to the wound specialist. We thank the emergency doctor. You all help the dementia carer. The cannula belongs to the lab technician."
       }
     },
     {
@@ -122,46 +1056,160 @@
         {
           "title": "Dativ der Person",
           "caption": "Feminine dative is der. One man is dem, and Patient adds -en.",
-          "columns": ["Maskulin", "Neutrum", "Feminin", "Plural"],
+          "columns": [
+            "Maskulin",
+            "Neutrum",
+            "Feminin",
+            "Plural"
+          ],
           "rows": [
-            { "label": "bestimmt", "cells": ["dem Patienten", "dem Kind", "der Ärztin", "den Kindern"], "highlight": true },
-            { "label": "mein", "cells": ["meinem Onkel", "meinem Kind", "meiner Nichte", "meinen Kindern"] }
+            {
+              "label": "bestimmt",
+              "cells": [
+                "dem Patienten",
+                "dem Kind",
+                "der Ärztin",
+                "den Kindern"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "mein",
+              "cells": [
+                "meinem Onkel",
+                "meinem Kind",
+                "meiner Nichte",
+                "meinen Kindern"
+              ]
+            }
           ]
         },
         {
           "title": "Dativpronomen",
           "caption": "mir and dir are dative. mich and dich are accusative.",
-          "columns": ["Wem?"],
+          "columns": [
+            "Wem?"
+          ],
           "rows": [
-            { "label": "ich", "cells": ["mir"] },
-            { "label": "du", "cells": ["dir"] },
-            { "label": "er / es", "cells": ["ihm"] },
-            { "label": "sie", "cells": ["ihr"] },
-            { "label": "wir", "cells": ["uns"] },
-            { "label": "ihr", "cells": ["euch"] },
-            { "label": "sie / Sie", "cells": ["ihnen / Ihnen"], "highlight": true }
+            {
+              "label": "ich",
+              "cells": [
+                "mir"
+              ]
+            },
+            {
+              "label": "du",
+              "cells": [
+                "dir"
+              ]
+            },
+            {
+              "label": "er / es",
+              "cells": [
+                "ihm"
+              ]
+            },
+            {
+              "label": "sie",
+              "cells": [
+                "ihr"
+              ]
+            },
+            {
+              "label": "wir",
+              "cells": [
+                "uns"
+              ]
+            },
+            {
+              "label": "ihr",
+              "cells": [
+                "euch"
+              ]
+            },
+            {
+              "label": "sie / Sie",
+              "cells": [
+                "ihnen / Ihnen"
+              ],
+              "highlight": true
+            }
           ]
         },
         {
           "title": "Präsens",
           "caption": "Only helfen changes the vowel. danken and gehören do not.",
-          "columns": ["ich", "du", "er/sie/es", "ihr"],
+          "columns": [
+            "ich",
+            "du",
+            "er/sie/es",
+            "ihr"
+          ],
           "rows": [
-            { "label": "helfen", "cells": ["helfe", "hilfst", "hilft", "helft"], "highlight": true },
-            { "label": "danken", "cells": ["danke", "dankst", "dankt", "dankt"] },
-            { "label": "gehören", "cells": ["gehöre", "gehörst", "gehört", "gehört"] }
+            {
+              "label": "helfen",
+              "cells": [
+                "helfe",
+                "hilfst",
+                "hilft",
+                "helft"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "danken",
+              "cells": [
+                "danke",
+                "dankst",
+                "dankt",
+                "dankt"
+              ]
+            },
+            {
+              "label": "gehören",
+              "cells": [
+                "gehöre",
+                "gehörst",
+                "gehört",
+                "gehört"
+              ]
+            }
           ]
         }
       ],
       "warning": {
         "title": "Dative, not accusative",
         "items": [
-          { "de": "Der Trainer hilft der Sportlerin.", "en": "Feminine dative is der.", "tone": "ok" },
-          { "de": "Der Trainer hilft die Sportlerin.", "en": "die is not dative.", "tone": "stop" },
-          { "de": "Du hilfst der Praktikantin.", "en": "du hilfst.", "tone": "ok" },
-          { "de": "Du helfst der Praktikantin.", "en": "The vowel is i.", "tone": "stop" },
-          { "de": "Ich danke euch.", "en": "euch is dative.", "tone": "ok" },
-          { "de": "Ich danke sie.", "en": "sie is not the dative pronoun.", "tone": "stop" }
+          {
+            "de": "Der Trainer hilft der Sportlerin.",
+            "en": "Feminine dative is der.",
+            "tone": "ok"
+          },
+          {
+            "de": "Der Trainer hilft die Sportlerin.",
+            "en": "die is not dative.",
+            "tone": "stop"
+          },
+          {
+            "de": "Du hilfst der Praktikantin.",
+            "en": "du hilfst.",
+            "tone": "ok"
+          },
+          {
+            "de": "Du helfst der Praktikantin.",
+            "en": "The vowel is i.",
+            "tone": "stop"
+          },
+          {
+            "de": "Ich danke euch.",
+            "en": "euch is dative.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich danke sie.",
+            "en": "sie is not the dative pronoun.",
+            "tone": "stop"
+          }
         ],
         "tip": "Ask Wem? A woman answers with der. You-singular answers with hilfst."
       },
@@ -175,10 +1223,38 @@
       ],
       "meaningsTitle": "Three verbs",
       "meanings": [
-        { "modal": "helfen", "emoji": "🤝", "en": "help the athlete", "use": "der", "de": "Der Trainer hilft der Sportlerin.", "deEn": "The trainer helps the athlete." },
-        { "modal": "danken", "emoji": "🙏", "en": "thank father", "use": "dem", "de": "Der Sohn dankt dem Vater.", "deEn": "The son thanks his father." },
-        { "modal": "gehören", "emoji": "🥼", "en": "the coat belongs", "use": "dem", "de": "Der Kittel gehört dem Oberarzt.", "deEn": "The coat belongs to the senior doctor." },
-        { "modal": "hilfst", "emoji": "🤝", "en": "you help", "use": "i", "de": "Du hilfst der Praktikantin.", "deEn": "You help the trainee." }
+        {
+          "modal": "helfen",
+          "emoji": "🤝",
+          "en": "help the athlete",
+          "use": "der",
+          "de": "Der Trainer hilft der Sportlerin.",
+          "deEn": "The trainer helps the athlete."
+        },
+        {
+          "modal": "danken",
+          "emoji": "🙏",
+          "en": "thank father",
+          "use": "dem",
+          "de": "Der Sohn dankt dem Vater.",
+          "deEn": "The son thanks his father."
+        },
+        {
+          "modal": "gehören",
+          "emoji": "🥼",
+          "en": "the coat belongs",
+          "use": "dem",
+          "de": "Der Kittel gehört dem Oberarzt.",
+          "deEn": "The coat belongs to the senior doctor."
+        },
+        {
+          "modal": "hilfst",
+          "emoji": "🤝",
+          "en": "you help",
+          "use": "i",
+          "de": "Du hilfst der Praktikantin.",
+          "deEn": "You help the trainee."
+        }
       ],
       "quizTitle": "Which line?",
       "quiz": [
@@ -186,7 +1262,11 @@
           "kind": "mc",
           "q": "The trainer helps the athlete.",
           "qEn": "Feminine dative der.",
-          "options": ["Der Trainer hilft der Sportlerin.", "Der Trainer hilft die Sportlerin.", "Der Trainer hilft dem Sportlerin."],
+          "options": [
+            "Der Trainer hilft der Sportlerin.",
+            "Der Trainer hilft die Sportlerin.",
+            "Der Trainer hilft dem Sportlerin."
+          ],
           "answer": 0,
           "why": "der Sportlerin. die is nominative or accusative.",
           "hint": "der."
@@ -195,7 +1275,11 @@
           "kind": "mc",
           "q": "The son thanks his father.",
           "qEn": "One man: dem.",
-          "options": ["Der Sohn dankt dem Vater.", "Der Sohn dankt den Vater.", "Der Sohn dankt der Vater."],
+          "options": [
+            "Der Sohn dankt dem Vater.",
+            "Der Sohn dankt den Vater.",
+            "Der Sohn dankt der Vater."
+          ],
           "answer": 0,
           "why": "dem Vater. den is not the dative singular.",
           "hint": "dem."
@@ -204,7 +1288,11 @@
           "kind": "mc",
           "q": "The coat belongs to the senior doctor.",
           "qEn": "The owner is dative.",
-          "options": ["Der Kittel gehört dem Oberarzt.", "Der Kittel gehört den Oberarzt.", "Der Kittel gehört der Oberarzt."],
+          "options": [
+            "Der Kittel gehört dem Oberarzt.",
+            "Der Kittel gehört den Oberarzt.",
+            "Der Kittel gehört der Oberarzt."
+          ],
           "answer": 0,
           "why": "dem Oberarzt. The coat is the subject.",
           "hint": "dem."
@@ -213,7 +1301,11 @@
           "kind": "mc",
           "q": "You help the trainee.",
           "qEn": "du hilfst.",
-          "options": ["Du hilfst der Praktikantin.", "Du helfst der Praktikantin.", "Du hilft der Praktikantin."],
+          "options": [
+            "Du hilfst der Praktikantin.",
+            "Du helfst der Praktikantin.",
+            "Du hilft der Praktikantin."
+          ],
           "answer": 0,
           "why": "hilfst. The vowel changes. hilft is er/sie/es.",
           "hint": "hilfst."
@@ -222,7 +1314,11 @@
           "kind": "mc",
           "q": "I thank you all.",
           "qEn": "euch.",
-          "options": ["Ich danke euch.", "Ich danke sie.", "Ich danke dich."],
+          "options": [
+            "Ich danke euch.",
+            "Ich danke sie.",
+            "Ich danke dich."
+          ],
           "answer": 0,
           "why": "euch. sie and dich are not this dative.",
           "hint": "euch."
@@ -231,7 +1327,11 @@
           "kind": "mc",
           "q": "The key belongs to the midwife.",
           "qEn": "der Hebamme.",
-          "options": ["Der Schlüssel gehört der Hebamme.", "Der Schlüssel gehört die Hebamme.", "Der Schlüssel gehört dem Hebamme."],
+          "options": [
+            "Der Schlüssel gehört der Hebamme.",
+            "Der Schlüssel gehört die Hebamme.",
+            "Der Schlüssel gehört dem Hebamme."
+          ],
           "answer": 0,
           "why": "der Hebamme. Feminine dative.",
           "hint": "der."
@@ -246,18 +1346,54 @@
       "type": "gapfill",
       "instructions": "The label names who. Only the dative person fits. mich, die and den-singular do not.",
       "chips": [
-        { "w": "dem Lehrling", "hint": "dem." },
-        { "w": "ihrem Chef", "hint": "ihrem." },
-        { "w": "der Laborantin", "hint": "der." },
-        { "w": "mir", "hint": "mir." },
-        { "w": "ihr", "hint": "ihr." },
-        { "w": "meinem Onkel", "hint": "meinem." },
-        { "w": "den Lehrling", "hint": "dem." },
-        { "w": "ihren Chef", "hint": "ihrem." },
-        { "w": "die Laborantin", "hint": "der." },
-        { "w": "mich", "hint": "mir." },
-        { "w": "sie", "hint": "ihr." },
-        { "w": "mein Onkel", "hint": "meinem." }
+        {
+          "w": "dem Lehrling",
+          "hint": "dem."
+        },
+        {
+          "w": "ihrem Chef",
+          "hint": "ihrem."
+        },
+        {
+          "w": "der Laborantin",
+          "hint": "der."
+        },
+        {
+          "w": "mir",
+          "hint": "mir."
+        },
+        {
+          "w": "ihr",
+          "hint": "ihr."
+        },
+        {
+          "w": "meinem Onkel",
+          "hint": "meinem."
+        },
+        {
+          "w": "den Lehrling",
+          "hint": "dem."
+        },
+        {
+          "w": "ihren Chef",
+          "hint": "ihrem."
+        },
+        {
+          "w": "die Laborantin",
+          "hint": "der."
+        },
+        {
+          "w": "mich",
+          "hint": "mir."
+        },
+        {
+          "w": "sie",
+          "hint": "ihr."
+        },
+        {
+          "w": "mein Onkel",
+          "hint": "meinem."
+        }
       ],
       "items": [
         {
@@ -317,78 +1453,85 @@
       ]
     },
     {
-      "id": "match-order",
-      "type": "compare",
-      "label": "Match",
-      "title": "Wem?",
+      "id": "wem-react",
+      "type": "quickreact",
+      "label": "Wem?",
+      "title": "Wem? Quick round",
       "practice": "match",
-      "instructions": "One line has the dative person. One is not German. A different correct person stays in the third line.",
+      "instructions": "One situation, then Wem? Tap the dative person. Wrong case stays red.",
+      "cue": "Wem?",
       "items": [
         {
-          "prompt": "The friend helps the neighbour",
+          "prompt": "After the fall the emergency doctor helps him.",
+          "qEn": "a2 Notfall",
           "options": [
-            { "emoji": "🤝", "label": "Die Freundin hilft dem Nachbarn.", "caption": "dem" },
-            { "emoji": "🚫", "label": "Die Freundin hilft den Nachbar.", "caption": "not den" },
-            { "emoji": "🙏", "label": "Die Freundin dankt dem Nachbarn.", "caption": "danken" }
+            "dem Verletzten",
+            "den Verletzten",
+            "der Verletzten"
           ],
           "answer": 0,
-          "why": "dem Nachbarn. Nachbar adds -n. The thanks line stays correct too.",
+          "why": "dem Verletzten.",
           "hint": "dem."
         },
         {
-          "prompt": "The man thanks his wife",
+          "prompt": "After the heart operation the daughter thanks him.",
+          "qEn": "b1 Herz",
           "options": [
-            { "emoji": "🙏", "label": "Der Mann dankt seiner Frau.", "caption": "seiner" },
-            { "emoji": "🚫", "label": "Der Mann dankt seine Frau.", "caption": "not seine" },
-            { "emoji": "🤝", "label": "Der Mann hilft seiner Frau.", "caption": "helfen" }
+            "dem Kardiologen",
+            "den Kardiologen",
+            "der Kardiologen"
           ],
           "answer": 0,
-          "why": "seiner Frau. Feminine dative of sein.",
-          "hint": "seiner."
+          "why": "dem Kardiologen.",
+          "hint": "dem."
         },
         {
-          "prompt": "The ID card belongs to mother",
+          "prompt": "In the complaint the son thanks her.",
+          "qEn": "b1 Beschwerde",
           "options": [
-            { "emoji": "🪪", "label": "Der Ausweis gehört der Mutter.", "caption": "der" },
-            { "emoji": "🚫", "label": "Der Ausweis gehört die Mutter.", "caption": "not die" },
-            { "emoji": "🔑", "label": "Der Schlüssel gehört der Mutter.", "caption": "other thing" }
+            "der Stationsleitung",
+            "die Stationsleitung",
+            "dem Stationsleitung"
           ],
           "answer": 0,
-          "why": "der Mutter. The key line stays correct with another thing.",
+          "why": "der Stationsleitung.",
           "hint": "der."
         },
         {
-          "prompt": "She helps us",
+          "prompt": "In the handover the report belongs to her.",
+          "qEn": "b1 Dokumentation",
           "options": [
-            { "emoji": "🤝", "label": "Sie hilft uns.", "caption": "uns" },
-            { "emoji": "🚫", "label": "Sie hilft wir.", "caption": "not wir" },
-            { "emoji": "🙏", "label": "Er dankt dem Portier.", "caption": "danken" }
+            "der Schichtleitung",
+            "die Schichtleitung",
+            "dem Schichtleitung"
           ],
           "answer": 0,
-          "why": "uns. wir is nominative. Er dankt dem Portier stays a thanks line.",
+          "why": "der Schichtleitung. The report is the subject.",
+          "hint": "der."
+        },
+        {
+          "prompt": "You help the resident with his hearing aid.",
+          "qEn": "a2 Hilfsmittel",
+          "options": [
+            "dem Bewohner",
+            "den Bewohner",
+            "der Bewohner"
+          ],
+          "answer": 0,
+          "why": "dem Bewohner.",
+          "hint": "dem."
+        },
+        {
+          "prompt": "In the team meeting you thank us.",
+          "qEn": "b1 Team",
+          "options": [
+            "uns",
+            "wir",
+            "mich"
+          ],
+          "answer": 0,
+          "why": "uns is dative. wir is nominative. mich is accusative.",
           "hint": "uns."
-        },
-        {
-          "prompt": "I thank him",
-          "options": [
-            { "emoji": "🙏", "label": "Ich danke ihm.", "caption": "ihm" },
-            { "emoji": "🚫", "label": "Ich danke ihn.", "caption": "not ihn" },
-            { "emoji": "🤝", "label": "Ich helfe ihm.", "caption": "helfen" }
-          ],
-          "answer": 0,
-          "why": "ihm, not ihn.",
-          "hint": "ihm."
-        },
-        {
-          "prompt": "The plaster belongs to the boy",
-          "options": [
-            { "emoji": "🩹", "label": "Das Pflaster gehört dem Jungen.", "caption": "dem" },
-            { "emoji": "🚫", "label": "Das Pflaster gehört dem Junge.", "caption": "-n" },
-            { "emoji": "👦", "label": "Das Thermometer gehört dem Jungen.", "caption": "other thing" }
-          ],
-          "answer": 0,
-          "why": "dem Jungen. Junge adds -n.",
-          "hint": "Jungen."
         }
       ]
     },
@@ -400,14 +1543,102 @@
       "practice": "picture",
       "instructions": "A hospital bed, a tablet, a stethoscope, a wheelchair, a thermometer, a plaster, a syringe, a chart.",
       "items": [
-        { "id": "bett", "de": "Bett", "article": "das", "plural": "die Betten", "en": "the bed", "image": { "type": "svg", "id": "bed" }, "hint": "das" },
-        { "id": "tablette", "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "the tablet", "image": { "type": "svg", "id": "tablet" }, "hint": "die" },
-        { "id": "stethoskop", "de": "Stethoskop", "article": "das", "plural": "die Stethoskope", "en": "the stethoscope", "image": { "type": "svg", "id": "stethoscope" }, "hint": "das" },
-        { "id": "rollstuhl", "de": "Rollstuhl", "article": "der", "plural": "die Rollstühle", "en": "the wheelchair", "image": { "type": "svg", "id": "wheelchair" }, "hint": "der" },
-        { "id": "thermometer", "de": "Thermometer", "article": "das", "plural": "die Thermometer", "en": "the thermometer", "image": { "type": "svg", "id": "thermometer" }, "hint": "das" },
-        { "id": "pflaster", "de": "Pflaster", "article": "das", "plural": "die Pflaster", "en": "the plaster", "image": { "type": "svg", "id": "plaster" }, "hint": "das" },
-        { "id": "spritze", "de": "Spritze", "article": "die", "plural": "die Spritzen", "en": "the syringe", "image": { "type": "svg", "id": "syringe" }, "hint": "die" },
-        { "id": "akte", "de": "Akte", "article": "die", "plural": "die Akten", "en": "the chart", "image": { "type": "svg", "id": "clipboard" }, "hint": "die" }
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "das"
+        },
+        {
+          "id": "tablette",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "the tablet",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "stethoskop",
+          "de": "Stethoskop",
+          "article": "das",
+          "plural": "die Stethoskope",
+          "en": "the stethoscope",
+          "image": {
+            "type": "svg",
+            "id": "stethoscope"
+          },
+          "hint": "das"
+        },
+        {
+          "id": "rollstuhl",
+          "de": "Rollstuhl",
+          "article": "der",
+          "plural": "die Rollstühle",
+          "en": "the wheelchair",
+          "image": {
+            "type": "svg",
+            "id": "wheelchair"
+          },
+          "hint": "der"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "das"
+        },
+        {
+          "id": "spritze",
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "the syringe",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "die"
+        }
       ]
     },
     {
@@ -419,48 +1650,95 @@
       "instructions": "Build the line. The dative person can also stand first. Keep dem, der or den.",
       "items": [
         {
-          "tiles": ["Die", "Apothekerin", "hilft", "der", "Kundin"],
-          "answers": ["Die Apothekerin hilft der Kundin", "Der Kundin hilft die Apothekerin"],
+          "tiles": [
+            "Die",
+            "Apothekerin",
+            "hilft",
+            "der",
+            "Kundin"
+          ],
+          "answers": [
+            "Die Apothekerin hilft der Kundin",
+            "Der Kundin hilft die Apothekerin"
+          ],
           "punct": ".",
           "modal": "hilft",
           "inf": "Kundin",
           "question": false,
           "en": "The pharmacist helps the customer.",
           "hint": "Die Apothekerin hilft der Kundin. Or der Kundin first.",
-          "feedback": { "end": "Kundin closes der Kundin.", "fallback": "Die Apothekerin hilft der Kundin. Or: Der Kundin hilft die Apothekerin." }
+          "feedback": {
+            "end": "Kundin closes der Kundin.",
+            "fallback": "Die Apothekerin hilft der Kundin. Or: Der Kundin hilft die Apothekerin."
+          }
         },
         {
-          "tiles": ["Der", "Sohn", "dankt", "seiner", "Schwester"],
-          "answers": ["Der Sohn dankt seiner Schwester", "Seiner Schwester dankt der Sohn"],
+          "tiles": [
+            "Der",
+            "Sohn",
+            "dankt",
+            "seiner",
+            "Schwester"
+          ],
+          "answers": [
+            "Der Sohn dankt seiner Schwester",
+            "Seiner Schwester dankt der Sohn"
+          ],
           "punct": ".",
           "modal": "dankt",
           "inf": "Schwester",
           "question": false,
           "en": "The son thanks his sister.",
           "hint": "Der Sohn dankt seiner Schwester. Or seiner Schwester first.",
-          "feedback": { "end": "Schwester closes seiner Schwester.", "fallback": "Der Sohn dankt seiner Schwester. Or: Seiner Schwester dankt der Sohn." }
+          "feedback": {
+            "end": "Schwester closes seiner Schwester.",
+            "fallback": "Der Sohn dankt seiner Schwester. Or: Seiner Schwester dankt der Sohn."
+          }
         },
         {
-          "tiles": ["Das", "Bett", "gehört", "dem", "Techniker"],
-          "answers": ["Das Bett gehört dem Techniker", "Dem Techniker gehört das Bett"],
+          "tiles": [
+            "Das",
+            "Bett",
+            "gehört",
+            "dem",
+            "Techniker"
+          ],
+          "answers": [
+            "Das Bett gehört dem Techniker",
+            "Dem Techniker gehört das Bett"
+          ],
           "punct": ".",
           "modal": "gehört",
           "inf": "Techniker",
           "question": false,
           "en": "The bed belongs to the technician.",
           "hint": "Das Bett gehört dem Techniker. Or dem Techniker first.",
-          "feedback": { "end": "Techniker closes dem Techniker.", "fallback": "Das Bett gehört dem Techniker. Or: Dem Techniker gehört das Bett." }
+          "feedback": {
+            "end": "Techniker closes dem Techniker.",
+            "fallback": "Das Bett gehört dem Techniker. Or: Dem Techniker gehört das Bett."
+          }
         },
         {
-          "tiles": ["Wir", "helfen", "den", "Kindern"],
-          "answers": ["Wir helfen den Kindern", "Den Kindern helfen wir"],
+          "tiles": [
+            "Wir",
+            "helfen",
+            "den",
+            "Kindern"
+          ],
+          "answers": [
+            "Wir helfen den Kindern",
+            "Den Kindern helfen wir"
+          ],
           "punct": ".",
           "modal": "helfen",
           "inf": "Kindern",
           "question": false,
           "en": "We help the children.",
           "hint": "Wir helfen den Kindern. Or den Kindern first.",
-          "feedback": { "end": "Kindern closes den Kindern.", "fallback": "Wir helfen den Kindern. Or: Den Kindern helfen wir." }
+          "feedback": {
+            "end": "Kindern closes den Kindern.",
+            "fallback": "Wir helfen den Kindern. Or: Den Kindern helfen wir."
+          }
         }
       ]
     },
@@ -472,18 +1750,54 @@
       "type": "gapfill",
       "instructions": "Give the dative line the English asks for. A pronoun or a wrong article is a trap.",
       "chips": [
-        { "w": "Die Nachbarin hilft dem Rentner", "hint": "dem." },
-        { "w": "Der Gast dankt der Kellnerin", "hint": "der." },
-        { "w": "Die Brille gehört der Assistentin", "hint": "der." },
-        { "w": "Du dankst mir", "hint": "mir." },
-        { "w": "Er hilft euch", "hint": "euch." },
-        { "w": "Der PC gehört der Informatikerin", "hint": "der." },
-        { "w": "Die Nachbarin hilft den Rentner", "hint": "dem." },
-        { "w": "Der Gast dankt die Kellnerin", "hint": "der." },
-        { "w": "Die Brille gehört die Assistentin", "hint": "der." },
-        { "w": "Du dankst mich", "hint": "mir." },
-        { "w": "Er hilft sie", "hint": "euch." },
-        { "w": "Der PC gehört dem Informatikerin", "hint": "der." }
+        {
+          "w": "Die Nachbarin hilft dem Rentner",
+          "hint": "dem."
+        },
+        {
+          "w": "Der Gast dankt der Kellnerin",
+          "hint": "der."
+        },
+        {
+          "w": "Die Brille gehört der Assistentin",
+          "hint": "der."
+        },
+        {
+          "w": "Du dankst mir",
+          "hint": "mir."
+        },
+        {
+          "w": "Er hilft euch",
+          "hint": "euch."
+        },
+        {
+          "w": "Der PC gehört der Informatikerin",
+          "hint": "der."
+        },
+        {
+          "w": "Die Nachbarin hilft den Rentner",
+          "hint": "dem."
+        },
+        {
+          "w": "Der Gast dankt die Kellnerin",
+          "hint": "der."
+        },
+        {
+          "w": "Die Brille gehört die Assistentin",
+          "hint": "der."
+        },
+        {
+          "w": "Du dankst mich",
+          "hint": "mir."
+        },
+        {
+          "w": "Er hilft sie",
+          "hint": "euch."
+        },
+        {
+          "w": "Der PC gehört dem Informatikerin",
+          "hint": "der."
+        }
       ],
       "items": [
         {
@@ -551,43 +1865,91 @@
       "instructions": "The last line is not the dative. Choose the correction.",
       "items": [
         {
-          "clues": ["The colleague helps the trainee.", "dem.", "Die Kollegin hilft den Azubi."],
-          "options": ["Die Kollegin hilft dem Azubi.", "Die Kollegin hilft den Azubi.", "Die Kollegin dankt dem Azubi."],
+          "clues": [
+            "The colleague helps the trainee.",
+            "dem.",
+            "Die Kollegin hilft den Azubi."
+          ],
+          "options": [
+            "Die Kollegin hilft dem Azubi.",
+            "Die Kollegin hilft den Azubi.",
+            "Die Kollegin dankt dem Azubi."
+          ],
           "answer": 0,
           "reveal": "Die Kollegin hilft dem Azubi.",
           "hint": "dem."
         },
         {
-          "clues": ["The boy thanks the teacher.", "der.", "Der Junge dankt die Lehrerin."],
-          "options": ["Der Junge dankt der Lehrerin.", "Der Junge dankt die Lehrerin.", "Der Junge dankt dem Lehrer."],
+          "clues": [
+            "The boy thanks the teacher.",
+            "der.",
+            "Der Junge dankt die Lehrerin."
+          ],
+          "options": [
+            "Der Junge dankt der Lehrerin.",
+            "Der Junge dankt die Lehrerin.",
+            "Der Junge dankt dem Lehrer."
+          ],
           "answer": 0,
           "reveal": "Der Junge dankt der Lehrerin.",
           "hint": "der."
         },
         {
-          "clues": ["The pass belongs to the baby.", "dem.", "Der Impfpass gehört den Säugling."],
-          "options": ["Der Impfpass gehört dem Säugling.", "Der Impfpass gehört den Säugling.", "Der Impfpass gehört dem Vater."],
+          "clues": [
+            "The pass belongs to the baby.",
+            "dem.",
+            "Der Impfpass gehört den Säugling."
+          ],
+          "options": [
+            "Der Impfpass gehört dem Säugling.",
+            "Der Impfpass gehört den Säugling.",
+            "Der Impfpass gehört dem Großvater."
+          ],
           "answer": 0,
           "reveal": "Der Impfpass gehört dem Säugling.",
           "hint": "dem."
         },
         {
-          "clues": ["You help grandfather.", "hilfst.", "Du helfst dem Großvater."],
-          "options": ["Du hilfst dem Großvater.", "Du helfst dem Großvater.", "Sie dankt dem Großvater."],
+          "clues": [
+            "You help grandfather.",
+            "hilfst.",
+            "Du helfst dem Großvater."
+          ],
+          "options": [
+            "Du hilfst dem Großvater.",
+            "Du helfst dem Großvater.",
+            "Sie dankt dem Großvater."
+          ],
           "answer": 0,
           "reveal": "Du hilfst dem Großvater.",
           "hint": "hilfst."
         },
         {
-          "clues": ["We thank you.", "dir.", "Wir danken dich."],
-          "options": ["Wir danken dir.", "Wir danken dich.", "Wir danken Ihnen."],
+          "clues": [
+            "We thank you.",
+            "dir.",
+            "Wir danken dich."
+          ],
+          "options": [
+            "Wir danken dir.",
+            "Wir danken dich.",
+            "Wir danken Ihnen."
+          ],
           "answer": 0,
           "reveal": "Wir danken dir.",
           "hint": "dir."
         },
         {
-          "clues": ["The dressing belongs to the female patient.", "der.", "Der Verband gehört die Patientin."],
-          "options": ["Der Verband gehört der Patientin.", "Der Verband gehört die Patientin.", "Der Verband gehört dem Arzt."],
+          "clues": [
+            "The dressing belongs to the female patient.",
+            "der.",
+            "Der Verband gehört die Patientin."
+          ],
+          "options": [
+            "Der Verband gehört der Patientin.",
+            "Der Verband gehört die Patientin.",
+            "Der Verband gehört dem Arzt."
+          ],
           "answer": 0,
           "reveal": "Der Verband gehört der Patientin.",
           "hint": "der."
@@ -595,158 +1957,144 @@
       ]
     },
     {
-      "id": "dialogue-ward",
+      "id": "dialogue-aufnahme",
+      "type": "quickreact",
       "label": "Dialogue",
-      "title": "On different wards",
+      "title": "Pick your line",
       "practice": "dialogue",
-      "type": "gapfill",
-      "instructions": "The nurse or the doctor uses the dative person. One man is dem. A woman is der.",
-      "chips": [
-        { "w": "Die Logopädin hilft dem Patienten", "hint": "dem." },
-        { "w": "Der Vater dankt der Hebamme", "hint": "der." },
-        { "w": "Die Spritze gehört dem Chirurgen", "hint": "dem." },
-        { "w": "Du hilfst ihm", "hint": "ihm." },
-        { "w": "Sie dankt uns", "hint": "uns." },
-        { "w": "Der Kalender gehört meiner Tante", "hint": "meiner." },
-        { "w": "Die Logopädin hilft den Patient", "hint": "dem." },
-        { "w": "Der Vater dankt die Hebamme", "hint": "der." },
-        { "w": "Die Spritze gehört den Chirurg", "hint": "dem." },
-        { "w": "Du hilfst ihn", "hint": "ihm." },
-        { "w": "Sie dankt wir", "hint": "uns." },
-        { "w": "Der Kalender gehört meine Tante", "hint": "meiner." }
-      ],
+      "instructions": "Admission, a complaint, a wound, then the team. Pick the dative line.",
       "items": [
         {
-          "before": "Speech therapy. She helps one male patient:",
-          "after": ".",
-          "answer": "Die Logopädin hilft dem Patienten",
-          "en": "The speech therapist helps the patient.",
-          "why": "dem Patienten. The noun adds -en.",
-          "tip": "Patienten.",
-          "hint": "Patienten."
+          "speaker": "Tochter",
+          "speakerLine": "Mein Vater ist neu auf der Station.",
+          "prompt": "What do you say?",
+          "qEn": "b1 Aufnahme",
+          "options": [
+            "Kann ich Ihnen helfen?",
+            "Kann ich Sie helfen?",
+            "Helfe ich Sie?"
+          ],
+          "answer": 0,
+          "why": "Ihnen is dative. Sie is not.",
+          "hint": "Ihnen."
         },
         {
-          "before": "Maternity. Father thanks the midwife:",
-          "after": ".",
-          "answer": "Der Vater dankt der Hebamme",
-          "en": "Father thanks the midwife.",
-          "why": "der Hebamme.",
-          "tip": "der.",
+          "speaker": "Tochter",
+          "speakerLine": "Wo steht sein Bett?",
+          "prompt": "The wheelchair.",
+          "qEn": "a2 Hilfsmittel",
+          "options": [
+            "Der Rollstuhl gehört Ihrem Vater.",
+            "Der Rollstuhl gehört Ihren Vater.",
+            "Der Rollstuhl gehört Ihr Vater."
+          ],
+          "answer": 0,
+          "why": "Ihrem Vater is dative. The wheelchair is the subject.",
+          "hint": "Ihrem."
+        },
+        {
+          "speaker": "Angehöriger",
+          "speakerLine": "Keiner kümmert sich um meine Mutter.",
+          "prompt": "What do you say?",
+          "qEn": "b1 Beschwerde",
+          "options": [
+            "Ich helfe Ihrer Mutter.",
+            "Ich helfe Ihre Mutter.",
+            "Ich helfe Sie Mutter."
+          ],
+          "answer": 0,
+          "why": "Ihrer Mutter is dative.",
+          "hint": "Ihrer."
+        },
+        {
+          "speaker": "Bewohnerin",
+          "speakerLine": "Das Essen war kalt.",
+          "prompt": "You thank her for the comment.",
+          "qEn": "b1 Beschwerde",
+          "options": [
+            "Ich danke Ihnen für den Hinweis.",
+            "Ich danke Sie für den Hinweis.",
+            "Ich danke dich für den Hinweis."
+          ],
+          "answer": 0,
+          "why": "Ihnen, not Sie or dich.",
+          "hint": "Ihnen."
+        },
+        {
+          "speaker": "Patientin",
+          "speakerLine": "Der Verband drückt.",
+          "prompt": "The new dressing.",
+          "qEn": "b1 Wunden",
+          "options": [
+            "Der neue Verband gehört Ihnen.",
+            "Der neue Verband gehört Sie.",
+            "Der neue Verband gehört dich."
+          ],
+          "answer": 0,
+          "why": "Ihnen. The dressing is the subject.",
+          "hint": "Ihnen."
+        },
+        {
+          "speaker": "Schichtleitung",
+          "speakerLine": "Wer schreibt die Kurve?",
+          "prompt": "You offer to help your colleague.",
+          "qEn": "b1 Team",
+          "options": [
+            "Ich helfe der Kollegin.",
+            "Ich helfe die Kollegin.",
+            "Ich helfe dem Kollegin."
+          ],
+          "answer": 0,
+          "why": "der Kollegin.",
           "hint": "der."
-        },
-        {
-          "before": "In theatre. The syringe belongs to the surgeon:",
-          "after": ".",
-          "answer": "Die Spritze gehört dem Chirurgen",
-          "en": "The syringe belongs to the surgeon.",
-          "why": "dem Chirurgen. Chirurg adds -en.",
-          "tip": "Chirurgen.",
-          "hint": "Chirurgen."
-        },
-        {
-          "before": "At the bedside. You help him:",
-          "after": ".",
-          "answer": "Du hilfst ihm",
-          "en": "You help him.",
-          "why": "ihm, and hilfst.",
-          "tip": "ihm.",
-          "hint": "ihm."
-        },
-        {
-          "before": "At the door. She thanks us:",
-          "after": ".",
-          "answer": "Sie dankt uns",
-          "en": "She thanks us.",
-          "why": "uns.",
-          "tip": "uns.",
-          "hint": "uns."
-        },
-        {
-          "before": "In the office. The calendar belongs to my aunt:",
-          "after": ".",
-          "answer": "Der Kalender gehört meiner Tante",
-          "en": "The calendar belongs to my aunt.",
-          "why": "meiner Tante.",
-          "tip": "meiner.",
-          "hint": "meiner."
         }
       ]
     },
     {
-      "id": "gap-people",
-      "label": "Gap",
-      "title": "Another ward",
-      "practice": "gap",
-      "type": "gapfill",
-      "instructions": "A new person each time. Dative only.",
-      "chips": [
-        { "w": "dem Neffen", "hint": "dem." },
-        { "w": "der Verkäuferin", "hint": "der." },
-        { "w": "der Biologin", "hint": "der." },
-        { "w": "meiner Nichte", "hint": "meiner." },
-        { "w": "den Besuchern", "hint": "den." },
-        { "w": "dem Anästhesisten", "hint": "dem." },
-        { "w": "den Neffen", "hint": "dem." },
-        { "w": "die Verkäuferin", "hint": "der." },
-        { "w": "die Biologin", "hint": "der." },
-        { "w": "meine Nichte", "hint": "meiner." },
-        { "w": "die Besucher", "hint": "den." },
-        { "w": "dem Anästhesist", "hint": "-en." }
+      "id": "writing-roleplay",
+      "type": "writing",
+      "label": "Reply",
+      "title": "Reply to the daughter",
+      "practice": "writing",
+      "instructions": "Write four short lines to the daughter at admission. Use helfen, danken and gehören with the dative.",
+      "prompt": "Her father has arrived after a fall. Offer to help him. Thank the daughter. The hearing aid belongs to the resident. Thank the dementia carer.",
+      "bullets": [
+        "helfe Ihrem Vater",
+        "danke Ihrer Tochter",
+        "gehört der Bewohnerin",
+        "danken der Betreuerin"
       ],
-      "items": [
+      "model": "Ich helfe Ihrem Vater gern. Ich danke Ihrer Tochter. Das Hörgerät gehört der Bewohnerin. Wir danken der Betreuerin.",
+      "modelEn": "I am glad to help your father. I thank your daughter. The hearing aid belongs to the resident. We thank the carer.",
+      "hint": "Ihrem Vater. Ihrer Tochter. der Bewohnerin. der Betreuerin.",
+      "checklist": [
         {
-          "before": "On the children's ward. The nurse helps",
-          "after": ".",
-          "answer": "dem Neffen",
-          "en": "The nurse helps the nephew.",
-          "why": "dem Neffen. Neffe adds -n.",
-          "tip": "Neffen.",
-          "hint": "Neffen."
+          "id": "v",
+          "label": "helfe Ihrem Vater",
+          "keywords": [
+            "helfe ihrem vater"
+          ]
         },
         {
-          "before": "In the cafeteria. The baker thanks",
-          "after": ".",
-          "answer": "der Verkäuferin",
-          "en": "The baker thanks the shop assistant.",
-          "why": "der Verkäuferin.",
-          "tip": "der.",
-          "hint": "der."
+          "id": "t",
+          "label": "danke Ihrer Tochter",
+          "keywords": [
+            "danke ihrer tochter"
+          ]
         },
         {
-          "before": "In the lab. The ECG belongs to",
-          "after": ".",
-          "answer": "der Biologin",
-          "en": "The ECG belongs to the biologist.",
-          "why": "der Biologin.",
-          "tip": "der.",
-          "hint": "der."
+          "id": "h",
+          "label": "gehört der Bewohnerin",
+          "keywords": [
+            "gehört der bewohnerin"
+          ]
         },
         {
-          "before": "At home after the shift. I help",
-          "after": ".",
-          "answer": "meiner Nichte",
-          "en": "I help my niece.",
-          "why": "meiner Nichte.",
-          "tip": "meiner.",
-          "hint": "meiner."
-        },
-        {
-          "before": "At visiting hour. We thank",
-          "after": ".",
-          "answer": "den Besuchern",
-          "en": "We thank the visitors.",
-          "why": "den Besuchern. Plural dative adds -n.",
-          "tip": "Besuchern.",
-          "hint": "Besuchern."
-        },
-        {
-          "before": "In theatre. The suction belongs to",
-          "after": ".",
-          "answer": "dem Anästhesisten",
-          "en": "The suction belongs to the anaesthetist.",
-          "why": "dem Anästhesisten. The noun adds -en.",
-          "tip": "-en.",
-          "hint": "-en."
+          "id": "b",
+          "label": "danken der Betreuerin",
+          "keywords": [
+            "danken der betreuerin"
+          ]
         }
       ]
     },
@@ -759,10 +2107,10 @@
       "instructions": "Read the note. Then answer from the text.",
       "document": {
         "letterhead": "Station 4 · Kurve",
-        "title": "Der Nachtdienst",
+        "title": "Die Aufnahme",
         "paragraphs": [
-          "Anna hilft der Köchin. Der Hausmeister dankt dem Gärtner.",
-          "Die Tasche gehört der Sekretärin. Der Helm gehört dem Praktikanten."
+          "Anna hilft dem Verletzten. Der Ehemann dankt dem Chirurgen.",
+          "Der Bericht gehört der Sekretärin. Der Rollstuhl gehört dem Praktikanten."
         ],
         "signature": "Anna",
         "stamp": "Station"
@@ -770,36 +2118,52 @@
       "questions": [
         {
           "kind": "mc",
-          "q": "Anna helps the cook, from the note.",
-          "qEn": "der Köchin.",
-          "options": ["Anna hilft der Köchin.", "Anna hilft die Köchin.", "Anna hilft dem Köchin."],
+          "q": "Whom does Anna help, from the note?",
+          "qEn": "dem Verletzten.",
+          "options": [
+            "dem Verletzten",
+            "den Verletzten",
+            "der Verletzten"
+          ],
           "answer": 0,
-          "why": "The note has der Köchin.",
-          "hint": "der."
-        },
-        {
-          "kind": "mc",
-          "q": "The caretaker thanks the gardener.",
-          "qEn": "dem Gärtner.",
-          "options": ["Der Hausmeister dankt dem Gärtner.", "Der Hausmeister dankt den Gärtner.", "Der Hausmeister dankt der Gärtner."],
-          "answer": 0,
-          "why": "dem Gärtner.",
+          "why": "dem Verletzten. After a fall.",
           "hint": "dem."
         },
         {
           "kind": "mc",
-          "q": "The bag belongs to the secretary.",
-          "qEn": "der Sekretärin.",
-          "options": ["Die Tasche gehört der Sekretärin.", "Die Tasche gehört die Sekretärin.", "Die Tasche gehört dem Sekretärin."],
+          "q": "Whom does the husband thank?",
+          "qEn": "dem Chirurgen.",
+          "options": [
+            "dem Chirurgen",
+            "den Chirurgen",
+            "der Chirurgen"
+          ],
           "answer": 0,
-          "why": "der Sekretärin.",
+          "why": "dem Chirurgen, after the heart operation.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Who owns the report?",
+          "qEn": "der Sekretärin.",
+          "options": [
+            "der Sekretärin",
+            "die Sekretärin",
+            "dem Sekretärin"
+          ],
+          "answer": 0,
+          "why": "der Sekretärin. The report is the subject.",
           "hint": "der."
         },
         {
           "kind": "mc",
-          "q": "The helmet belongs to the trainee.",
+          "q": "Who owns the wheelchair?",
           "qEn": "dem Praktikanten.",
-          "options": ["Der Helm gehört dem Praktikanten.", "Der Helm gehört dem Praktikant.", "Der Helm gehört den Praktikant."],
+          "options": [
+            "dem Praktikanten",
+            "dem Praktikant",
+            "den Praktikant"
+          ],
           "answer": 0,
           "why": "dem Praktikanten. The noun adds -en.",
           "hint": "-en."
@@ -812,17 +2176,46 @@
       "label": "Writing",
       "title": "Four new lines",
       "practice": "writing",
-      "instructions": "Write four lines. Tom helps the senior. The guest thanks the receptionist. The hearing aid belongs to grandpa. I help my cousin.",
-      "prompt": "Tom helps the senior. The guest thanks the receptionist. The hearing aid belongs to grandpa. I help my cousin.",
-      "bullets": ["hilft dem Senior", "dankt der Empfangsdame", "Hörgerät gehört", "meiner Cousine"],
-      "model": "Tom hilft dem Senior. Der Gast dankt der Empfangsdame. Das Hörgerät gehört dem Opa. Ich helfe meiner Cousine.",
-      "modelEn": "Tom helps the senior. The guest thanks the receptionist. The hearing aid belongs to grandpa. I help my cousin.",
-      "hint": "dem Senior. der Empfangsdame. dem Opa. meiner Cousine.",
+      "instructions": "Write four lines from four book situations. Aids, a complaint, the lab, and medicines.",
+      "prompt": "Tom helps grandma. Anna thanks the ward manager. The ECG belongs to the cardiologist. I help the pharmacist.",
+      "bullets": [
+        "hilft der Oma",
+        "dankt der Stationsleitung",
+        "gehört der Kardiologin",
+        "helfe dem Apotheker"
+      ],
+      "model": "Tom hilft der Oma. Anna dankt der Stationsleitung. Das EKG gehört der Kardiologin. Ich helfe dem Apotheker.",
+      "modelEn": "Tom helps grandma. Anna thanks the ward manager. The ECG belongs to the cardiologist. I help the pharmacist.",
+      "hint": "der Oma. der Stationsleitung. der Kardiologin. dem Apotheker.",
       "checklist": [
-        { "id": "s", "label": "hilft dem Senior", "keywords": ["hilft dem senior"] },
-        { "id": "e", "label": "dankt der Empfangsdame", "keywords": ["dankt der empfangsdame"] },
-        { "id": "h", "label": "Hörgerät gehört", "keywords": ["hörgerät gehört"] },
-        { "id": "c", "label": "meiner Cousine", "keywords": ["meiner cousine"] }
+        {
+          "id": "o",
+          "label": "hilft der Oma",
+          "keywords": [
+            "hilft der oma"
+          ]
+        },
+        {
+          "id": "s",
+          "label": "dankt der Stationsleitung",
+          "keywords": [
+            "dankt der stationsleitung"
+          ]
+        },
+        {
+          "id": "l",
+          "label": "gehört der Kardiologin",
+          "keywords": [
+            "gehört der kardiologin"
+          ]
+        },
+        {
+          "id": "a",
+          "label": "helfe dem Apotheker",
+          "keywords": [
+            "helfe dem apotheker"
+          ]
+        }
       ]
     },
     {
@@ -833,7 +2226,9 @@
       "practice": "lernkontrolle",
       "heroTitle": "Ich helfe dir, du dankst mir",
       "heroImage": "clipboard",
-      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "story": [
+        "Twelve questions. Eighty percent mastered means at least ten correct."
+      ],
       "questionRule": "Wem? One man is dem, and -ant or -ist adds -en. A woman is der. du hilfst. mir and dir, not mich and dich. gehören: the thing is the subject.",
       "quizTitle": "Lernkontrolle",
       "quiz": [
@@ -841,7 +2236,11 @@
           "kind": "mc",
           "q": "The chaplain helps the widow.",
           "qEn": "der Witwe.",
-          "options": ["Die Seelsorgerin hilft der Witwe.", "Die Seelsorgerin hilft die Witwe.", "Die Seelsorgerin hilft dem Witwe."],
+          "options": [
+            "Die Seelsorgerin hilft der Witwe.",
+            "Die Seelsorgerin hilft die Witwe.",
+            "Die Seelsorgerin hilft dem Witwe."
+          ],
           "answer": 0,
           "why": "der Witwe.",
           "hint": "der."
@@ -850,7 +2249,11 @@
           "kind": "mc",
           "q": "The trainee thanks the master.",
           "qEn": "dem Meister.",
-          "options": ["Der Azubi dankt dem Meister.", "Der Azubi dankt den Meister.", "Der Azubi dankt der Meister."],
+          "options": [
+            "Der Azubi dankt dem Meister.",
+            "Der Azubi dankt den Meister.",
+            "Der Azubi dankt der Meister."
+          ],
           "answer": 0,
           "why": "dem Meister.",
           "hint": "dem."
@@ -859,7 +2262,11 @@
           "kind": "mc",
           "q": "The laptop belongs to the controller.",
           "qEn": "der Controllerin.",
-          "options": ["Der Laptop gehört der Controllerin.", "Der Laptop gehört die Controllerin.", "Der Laptop gehört dem Controllerin."],
+          "options": [
+            "Der Laptop gehört der Controllerin.",
+            "Der Laptop gehört die Controllerin.",
+            "Der Laptop gehört dem Controllerin."
+          ],
           "answer": 0,
           "why": "der Controllerin. The laptop is the subject.",
           "hint": "der."
@@ -868,7 +2275,11 @@
           "kind": "mc",
           "q": "You help your aunt.",
           "qEn": "hilfst.",
-          "options": ["Du hilfst deiner Tante.", "Du helfst deiner Tante.", "Du hilft deiner Tante."],
+          "options": [
+            "Du hilfst deiner Tante.",
+            "Du helfst deiner Tante.",
+            "Du hilft deiner Tante."
+          ],
           "answer": 0,
           "why": "hilfst, and deiner Tante.",
           "hint": "hilfst."
@@ -877,7 +2288,11 @@
           "kind": "mc",
           "q": "I thank my neighbour.",
           "qEn": "meiner Nachbarin.",
-          "options": ["Ich danke meiner Nachbarin.", "Ich danke meine Nachbarin.", "Ich danke mein Nachbarin."],
+          "options": [
+            "Ich danke meiner Nachbarin.",
+            "Ich danke meine Nachbarin.",
+            "Ich danke mein Nachbarin."
+          ],
           "answer": 0,
           "why": "meiner Nachbarin.",
           "hint": "meiner."
@@ -886,7 +2301,11 @@
           "kind": "mc",
           "q": "The ECG belongs to the cardiologist.",
           "qEn": "dem Kardiologen.",
-          "options": ["Das EKG gehört dem Kardiologen.", "Das EKG gehört dem Kardiologe.", "Das EKG gehört den Kardiologe."],
+          "options": [
+            "Das EKG gehört dem Kardiologen.",
+            "Das EKG gehört dem Kardiologe.",
+            "Das EKG gehört den Kardiologe."
+          ],
           "answer": 0,
           "why": "dem Kardiologen. The noun adds -en.",
           "hint": "-en."
@@ -895,7 +2314,11 @@
           "kind": "mc",
           "q": "We help the colleagues. Plural.",
           "qEn": "den Kollegen.",
-          "options": ["Wir helfen den Kollegen.", "Wir helfen die Kollegen.", "Wir helfen der Kollegen."],
+          "options": [
+            "Wir helfen den Kollegen.",
+            "Wir helfen die Kollegen.",
+            "Wir helfen der Kollegen."
+          ],
           "answer": 0,
           "why": "den Kollegen. Plural dative.",
           "hint": "den."
@@ -904,7 +2327,11 @@
           "kind": "mc",
           "q": "He thanks the anaesthetist.",
           "qEn": "der Anästhesistin.",
-          "options": ["Er dankt der Anästhesistin.", "Er dankt die Anästhesistin.", "Er dankt dem Anästhesistin."],
+          "options": [
+            "Er dankt der Anästhesistin.",
+            "Er dankt die Anästhesistin.",
+            "Er dankt dem Anästhesistin."
+          ],
           "answer": 0,
           "why": "der Anästhesistin.",
           "hint": "der."
@@ -913,7 +2340,11 @@
           "kind": "mc",
           "q": "She thanks one male patient.",
           "qEn": "dem Patienten.",
-          "options": ["Sie dankt dem Patienten.", "Sie dankt dem Patient.", "Sie dankt den Patient."],
+          "options": [
+            "Sie dankt dem Patienten.",
+            "Sie dankt dem Patient.",
+            "Sie dankt den Patient."
+          ],
           "answer": 0,
           "why": "dem Patienten. One man, with -en. den Patienten is the plural.",
           "hint": "Patienten."
@@ -922,7 +2353,11 @@
           "kind": "mc",
           "q": "You all help the cleaner.",
           "qEn": "ihr helft.",
-          "options": ["Ihr helft der Reinigungskraft.", "Ihr hilft der Reinigungskraft.", "Ihr helft die Reinigungskraft."],
+          "options": [
+            "Ihr helft der Reinigungskraft.",
+            "Ihr hilft der Reinigungskraft.",
+            "Ihr helft die Reinigungskraft."
+          ],
           "answer": 0,
           "why": "ihr helft, with e, and der Reinigungskraft.",
           "hint": "helft."
@@ -931,7 +2366,11 @@
           "kind": "mc",
           "q": "The radio belongs to you.",
           "qEn": "dir.",
-          "options": ["Das Radio gehört dir.", "Das Radio gehörst dir.", "Das Radio gehört dich."],
+          "options": [
+            "Das Radio gehört dir.",
+            "Das Radio gehörst dir.",
+            "Das Radio gehört dich."
+          ],
           "answer": 0,
           "why": "dir. The radio is the subject, so gehört. Not dich.",
           "hint": "dir."
@@ -940,7 +2379,11 @@
           "kind": "mc",
           "q": "Only the person, no thing.",
           "qEn": "danken.",
-          "options": ["Tom dankt der Ärztin.", "Tom dankt die Ärztin.", "Tom gibt der Ärztin den Tee."],
+          "options": [
+            "Tom dankt der Ärztin.",
+            "Tom dankt die Ärztin.",
+            "Tom gibt der Ärztin den Tee."
+          ],
           "answer": 0,
           "why": "danken has only the person. Tom gibt der Ärztin den Tee stays correct, and the tea is the thing from geben.",
           "hint": "dankt."
@@ -954,10 +2397,22 @@
       "title": "Ich helfe dir, du dankst mir",
       "reviewStepType": "grammar",
       "redemittel": [
-        { "de": "Der Trainer hilft der Sportlerin.", "en": "The trainer helps the athlete." },
-        { "de": "Der Sohn dankt dem Vater.", "en": "The son thanks his father." },
-        { "de": "Der Kittel gehört dem Oberarzt.", "en": "The coat belongs to the senior doctor." },
-        { "de": "Du hilfst der Praktikantin.", "en": "You help the trainee." }
+        {
+          "de": "Der Trainer hilft der Sportlerin.",
+          "en": "The trainer helps the athlete."
+        },
+        {
+          "de": "Der Sohn dankt dem Vater.",
+          "en": "The son thanks his father."
+        },
+        {
+          "de": "Der Kittel gehört dem Oberarzt.",
+          "en": "The coat belongs to the senior doctor."
+        },
+        {
+          "de": "Du hilfst der Praktikantin.",
+          "en": "You help the trainee."
+        }
       ],
       "messages": [
         "helfen, danken and gehören take the person in the dative. One man is dem. A woman is der. du hilfst, er hilft, ihr helft.",
@@ -966,5 +2421,20 @@
         "Ausgezeichnet. You can help, thank, and say who something belongs to."
       ]
     }
+  ],
+  "scenarios": [
+    "a2-hygiene",
+    "a2-hilfsmittel",
+    "a2-vitalwerte",
+    "a2-arzneimittel",
+    "a2-untersuchungen",
+    "a2-notfall",
+    "b1-aufnahme",
+    "b1-demenz",
+    "b1-herz",
+    "b1-wunden",
+    "b1-beschwerden",
+    "b1-team",
+    "b1-dokumentation"
   ]
 }
