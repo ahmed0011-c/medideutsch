@@ -15,177 +15,7 @@
       "3": 0.9
     }
   },
-  "glossary": {
-    "gestern": {
-      "de": "gestern",
-      "pos": "adverb",
-      "en": "yesterday"
-    },
-    "war": {
-      "de": "sein → war",
-      "pos": "verb",
-      "en": "was"
-    },
-    "hatte": {
-      "de": "haben → hatte",
-      "pos": "verb",
-      "en": "had"
-    },
-    "warst": {
-      "de": "sein → warst",
-      "pos": "verb",
-      "en": "were (du)"
-    },
-    "hattest": {
-      "de": "haben → hattest",
-      "pos": "verb",
-      "en": "had (du)"
-    },
-    "waren": {
-      "de": "sein → waren",
-      "pos": "verb",
-      "en": "were"
-    },
-    "hatten": {
-      "de": "haben → hatten",
-      "pos": "verb",
-      "en": "had (plural)"
-    },
-    "der": {
-      "de": "der",
-      "pos": "article",
-      "en": "the (masculine)"
-    },
-    "die": {
-      "de": "die",
-      "pos": "article",
-      "en": "the (feminine or plural)"
-    },
-    "er": {
-      "de": "er",
-      "pos": "pronoun",
-      "en": "he"
-    },
-    "ich": {
-      "de": "ich",
-      "pos": "pronoun",
-      "en": "I"
-    },
-    "wir": {
-      "de": "wir",
-      "pos": "pronoun",
-      "en": "we"
-    },
-    "du": {
-      "de": "du",
-      "pos": "pronoun",
-      "en": "you (informal)"
-    },
-    "sie": {
-      "de": "sie",
-      "pos": "pronoun",
-      "en": "they"
-    },
-    "patient": {
-      "de": "Patient",
-      "pos": "noun",
-      "en": "patient",
-      "article": "der",
-      "plural": "die Patienten",
-      "emoji": "🤒"
-    },
-    "krank": {
-      "de": "krank",
-      "pos": "adjective",
-      "en": "ill"
-    },
-    "fieber": {
-      "de": "Fieber",
-      "pos": "noun",
-      "en": "fever",
-      "article": "das",
-      "plural": "Fieber",
-      "emoji": "🤒"
-    },
-    "auf": {
-      "de": "auf",
-      "pos": "preposition",
-      "en": "on"
-    },
-    "station": {
-      "de": "Station",
-      "pos": "noun",
-      "en": "ward",
-      "article": "die",
-      "plural": "die Stationen",
-      "emoji": "🏥"
-    },
-    "viel": {
-      "de": "viel",
-      "pos": "adjective",
-      "en": "a lot of"
-    },
-    "arbeit": {
-      "de": "Arbeit",
-      "pos": "noun",
-      "en": "work",
-      "article": "die",
-      "plural": "die Arbeiten",
-      "emoji": "📋"
-    },
-    "im": {
-      "de": "im",
-      "pos": "contraction",
-      "en": "in + dem"
-    },
-    "zimmer": {
-      "de": "Zimmer",
-      "pos": "noun",
-      "en": "room",
-      "article": "das",
-      "plural": "die Zimmer",
-      "emoji": "🚪"
-    },
-    "akte": {
-      "de": "Akte",
-      "pos": "noun",
-      "en": "chart",
-      "article": "die",
-      "plural": "die Akten",
-      "emoji": "📋"
-    },
-    "ärzte": {
-      "de": "Ärzte",
-      "pos": "noun",
-      "en": "doctors",
-      "article": "die",
-      "plural": "die Ärzte",
-      "emoji": "🩺"
-    },
-    "da": {
-      "de": "da",
-      "pos": "adverb",
-      "en": "there"
-    },
-    "keine": {
-      "de": "keine",
-      "pos": "article",
-      "en": "no"
-    },
-    "zeit": {
-      "de": "Zeit",
-      "pos": "noun",
-      "en": "time",
-      "article": "die",
-      "plural": "die Zeiten",
-      "emoji": "⏱️"
-    },
-    "anna": {
-      "de": "Anna",
-      "pos": "name",
-      "en": "Anna"
-    }
-  },
+  "exerciseLanguage": "de",
   "id": "a1-23-praeteritum",
   "level": "A1",
   "unit": "Kapitel 23",
@@ -195,148 +25,1872 @@
   ],
   "title": "Ich war, ich hatte",
   "subtitle": "Past of sein and haben",
+  "glossary": {
+    "sein": {
+      "de": "sein",
+      "pos": "verb",
+      "en": "to be",
+      "emoji": "⏪",
+      "note": "Yesterday: war, warst, war, waren, wart, waren."
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have",
+      "emoji": "⏪",
+      "note": "Yesterday: hatte, hattest, hatte, hatten, hattet, hatten."
+    },
+    "war": {
+      "de": "sein → er war",
+      "pos": "form",
+      "en": "was",
+      "emoji": "⏪",
+      "note": "ich and er/sie/es share war. A place or an adjective takes sein."
+    },
+    "warst": {
+      "de": "sein → du warst",
+      "pos": "form",
+      "en": "were",
+      "emoji": "⏪",
+      "note": "du takes warst, with st. ihr is wart."
+    },
+    "wart": {
+      "de": "sein → ihr wart",
+      "pos": "form",
+      "en": "were",
+      "emoji": "⏪",
+      "note": "ihr takes wart, without a second st."
+    },
+    "waren": {
+      "de": "sein → sie waren",
+      "pos": "form",
+      "en": "were",
+      "emoji": "⏪",
+      "note": "wir, sie and formal Sie share waren."
+    },
+    "hatte": {
+      "de": "haben → er hatte",
+      "pos": "form",
+      "en": "had",
+      "emoji": "⏪",
+      "note": "A thing someone had takes haben. ich and er share hatte."
+    },
+    "hattest": {
+      "de": "haben → du hattest",
+      "pos": "form",
+      "en": "had",
+      "emoji": "⏪",
+      "note": "du takes hattest."
+    },
+    "hattet": {
+      "de": "haben → ihr hattet",
+      "pos": "form",
+      "en": "had",
+      "emoji": "⏪",
+      "note": "ihr takes hattet."
+    },
+    "hatten": {
+      "de": "haben → sie hatten",
+      "pos": "form",
+      "en": "had",
+      "emoji": "⏪",
+      "note": "wir, sie and formal Sie share hatten."
+    },
+    "bin": {
+      "de": "sein → ich bin",
+      "pos": "form",
+      "en": "am",
+      "emoji": "⏪",
+      "note": "Present. Yesterday is war."
+    },
+    "bist": {
+      "de": "sein → du bist",
+      "pos": "form",
+      "en": "are",
+      "emoji": "⏪",
+      "note": "Present. Yesterday is warst."
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "⏪",
+      "note": "Present. Yesterday is war."
+    },
+    "sind": {
+      "de": "sein → sie sind",
+      "pos": "form",
+      "en": "are",
+      "emoji": "⏪",
+      "note": "Present. Yesterday is waren."
+    },
+    "seid": {
+      "de": "sein → ihr seid",
+      "pos": "form",
+      "en": "are",
+      "emoji": "⏪",
+      "note": "Present. Yesterday is wart."
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "⏪",
+      "note": "Present. Yesterday is hatte."
+    },
+    "hast": {
+      "de": "haben → du hast",
+      "pos": "form",
+      "en": "have",
+      "emoji": "⏪",
+      "note": "Present. Yesterday is hattest."
+    },
+    "habt": {
+      "de": "haben → ihr habt",
+      "pos": "form",
+      "en": "have",
+      "emoji": "⏪",
+      "note": "Present. Yesterday is hattet."
+    },
+    "habe": {
+      "de": "haben → ich habe",
+      "pos": "form",
+      "en": "have",
+      "emoji": "⏪",
+      "note": "Present. Yesterday is hatte."
+    },
+    "gewesen": {
+      "de": "sein → gewesen",
+      "pos": "form",
+      "en": "been",
+      "emoji": "⏪",
+      "note": "The participle. A state in speech is war, not gewesen."
+    },
+    "warte": {
+      "de": "warten → ich warte",
+      "pos": "form",
+      "en": "wait",
+      "emoji": "⏪",
+      "note": "warten is a different verb. The past of sein is war."
+    },
+    "wird": {
+      "de": "werden → es wird",
+      "pos": "form",
+      "en": "becomes",
+      "emoji": "⏪"
+    },
+    "heißt": {
+      "de": "heißen → es heißt",
+      "pos": "form",
+      "en": "is called",
+      "emoji": "⏪"
+    },
+    "finde": {
+      "de": "finden → ich finde",
+      "pos": "form",
+      "en": "find",
+      "emoji": "⏪"
+    },
+    "stimmt": {
+      "de": "stimmen → es stimmt",
+      "pos": "form",
+      "en": "is correct",
+      "emoji": "⏪"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🔤"
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal)",
+      "emoji": "🔤"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "🔤"
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she, they, or formal you",
+      "emoji": "🔤",
+      "note": "Formal Sie takes waren and hatten, like wir."
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "🔤"
+    },
+    "ihr": {
+      "de": "ihr",
+      "pos": "pronoun",
+      "en": "you (plural)",
+      "emoji": "🔤"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it",
+      "emoji": "🔤"
+    },
+    "mich": {
+      "de": "mich",
+      "pos": "pronoun",
+      "en": "me",
+      "emoji": "🔤"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "🔤"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or",
+      "emoji": "🔤"
+    },
+    "ja": {
+      "de": "ja",
+      "pos": "particle",
+      "en": "yes",
+      "emoji": "🔤"
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "adverb",
+      "en": "how",
+      "emoji": "🔤"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "adverb",
+      "en": "where",
+      "emoji": "🔤"
+    },
+    "wer": {
+      "de": "wer",
+      "pos": "pronoun",
+      "en": "who",
+      "emoji": "🔤"
+    },
+    "was": {
+      "de": "was",
+      "pos": "pronoun",
+      "en": "what",
+      "emoji": "🔤"
+    },
+    "welche": {
+      "de": "welche",
+      "pos": "pronoun",
+      "en": "which",
+      "emoji": "🔤"
+    },
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday",
+      "emoji": "🔤"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "🔤"
+    },
+    "wenig": {
+      "de": "wenig",
+      "pos": "determiner",
+      "en": "little, not much",
+      "emoji": "🔤"
+    },
+    "nur": {
+      "de": "nur",
+      "pos": "adverb",
+      "en": "only",
+      "emoji": "🔤"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "adverb",
+      "en": "not",
+      "emoji": "🔤"
+    },
+    "sehr": {
+      "de": "sehr",
+      "pos": "adverb",
+      "en": "very",
+      "emoji": "🔤"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine, or feminine dative)",
+      "emoji": "🔤"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🔤"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🔤"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine)",
+      "emoji": "🔤"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative masculine or neuter)",
+      "emoji": "🔤"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a",
+      "emoji": "🔤"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)",
+      "emoji": "🔤"
+    },
+    "einen": {
+      "de": "einen",
+      "pos": "article",
+      "en": "a (accusative masculine)",
+      "emoji": "🔤"
+    },
+    "im": {
+      "de": "im",
+      "pos": "preposition",
+      "en": "in the (in + dem)",
+      "emoji": "🔤"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in",
+      "emoji": "🔤"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on",
+      "emoji": "🔤"
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "at, to",
+      "emoji": "🔤"
+    },
+    "bei": {
+      "de": "bei",
+      "pos": "preposition",
+      "en": "at",
+      "emoji": "🔤"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "of, from",
+      "emoji": "🔤"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "adjective",
+      "en": "closed",
+      "emoji": "🔤",
+      "note": "Die Apotheke war zu means the pharmacy was closed."
+    },
+    "vier": {
+      "de": "vier",
+      "pos": "number",
+      "en": "four",
+      "emoji": "🔤"
+    },
+    "recht": {
+      "de": "recht",
+      "pos": "adverb",
+      "en": "right",
+      "emoji": "🔤",
+      "note": "recht haben: someone was right. haben, not sein."
+    },
+    "lang": {
+      "de": "lang",
+      "pos": "adjective",
+      "en": "long",
+      "emoji": "🔤"
+    },
+    "warm": {
+      "de": "warm",
+      "pos": "adjective",
+      "en": "warm",
+      "emoji": "🔤"
+    },
+    "fertig": {
+      "de": "fertig",
+      "pos": "adjective",
+      "en": "ready, finished",
+      "emoji": "🔤"
+    },
+    "nass": {
+      "de": "nass",
+      "pos": "adjective",
+      "en": "wet",
+      "emoji": "🔤"
+    },
+    "niedrig": {
+      "de": "niedrig",
+      "pos": "adjective",
+      "en": "low",
+      "emoji": "🔤"
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high",
+      "emoji": "🔤"
+    },
+    "sauer": {
+      "de": "sauer",
+      "pos": "adjective",
+      "en": "sour",
+      "emoji": "🔤"
+    },
+    "freundlich": {
+      "de": "freundlich",
+      "pos": "adjective",
+      "en": "friendly",
+      "emoji": "🔤"
+    },
+    "frei": {
+      "de": "frei",
+      "pos": "adjective",
+      "en": "free",
+      "emoji": "🔤"
+    },
+    "stabil": {
+      "de": "stabil",
+      "pos": "adjective",
+      "en": "stable",
+      "emoji": "🔤"
+    },
+    "langsam": {
+      "de": "langsam",
+      "pos": "adjective",
+      "en": "slow",
+      "emoji": "🔤"
+    },
+    "bleich": {
+      "de": "bleich",
+      "pos": "adjective",
+      "en": "pale",
+      "emoji": "🔤"
+    },
+    "ruhig": {
+      "de": "ruhig",
+      "pos": "adjective",
+      "en": "calm",
+      "emoji": "🔤"
+    },
+    "leer": {
+      "de": "leer",
+      "pos": "adjective",
+      "en": "empty",
+      "emoji": "🔤"
+    },
+    "kaputt": {
+      "de": "kaputt",
+      "pos": "adjective",
+      "en": "broken",
+      "emoji": "🔤"
+    },
+    "dunkel": {
+      "de": "dunkel",
+      "pos": "adjective",
+      "en": "dark",
+      "emoji": "🔤"
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new",
+      "emoji": "🔤"
+    },
+    "süß": {
+      "de": "süß",
+      "pos": "adjective",
+      "en": "sweet",
+      "emoji": "🔤"
+    },
+    "salzig": {
+      "de": "salzig",
+      "pos": "adjective",
+      "en": "salty",
+      "emoji": "🔤"
+    },
+    "reichlich": {
+      "de": "reichlich",
+      "pos": "adjective",
+      "en": "plentiful",
+      "emoji": "🔤"
+    },
+    "kalt": {
+      "de": "kalt",
+      "pos": "adjective",
+      "en": "cold",
+      "emoji": "🔤"
+    },
+    "unruhig": {
+      "de": "unruhig",
+      "pos": "adjective",
+      "en": "restless",
+      "emoji": "🔤"
+    },
+    "wach": {
+      "de": "wach",
+      "pos": "adjective",
+      "en": "awake",
+      "emoji": "🔤"
+    },
+    "leise": {
+      "de": "leise",
+      "pos": "adjective",
+      "en": "quiet",
+      "emoji": "🔤"
+    },
+    "geduldig": {
+      "de": "geduldig",
+      "pos": "adjective",
+      "en": "patient",
+      "emoji": "🔤"
+    },
+    "kurz": {
+      "de": "kurz",
+      "pos": "adjective",
+      "en": "short",
+      "emoji": "🔤"
+    },
+    "pünktlich": {
+      "de": "pünktlich",
+      "pos": "adjective",
+      "en": "on time",
+      "emoji": "🔤"
+    },
+    "frühschicht": {
+      "de": "Frühschicht",
+      "pos": "noun",
+      "en": "early shift",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Frühschichten",
+      "image": {
+        "type": "svg",
+        "id": "calendar"
+      }
+    },
+    "suppe": {
+      "de": "Suppe",
+      "pos": "noun",
+      "en": "soup",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Suppen",
+      "image": {
+        "type": "svg",
+        "id": "soup"
+      }
+    },
+    "säugling": {
+      "de": "Säugling",
+      "pos": "noun",
+      "en": "baby",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Säuglinge",
+      "image": {
+        "type": "svg",
+        "id": "baby"
+      }
+    },
+    "hunger": {
+      "de": "Hunger",
+      "pos": "noun",
+      "en": "hunger",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "—"
+    },
+    "probe": {
+      "de": "Probe",
+      "pos": "noun",
+      "en": "sample",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Proben",
+      "image": {
+        "type": "svg",
+        "id": "vial"
+      }
+    },
+    "termin": {
+      "de": "Termin",
+      "pos": "noun",
+      "en": "appointment",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Termine"
+    },
+    "apotheke": {
+      "de": "Apotheke",
+      "pos": "noun",
+      "en": "pharmacy",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Apotheken",
+      "image": {
+        "type": "svg",
+        "id": "pharmacy"
+      }
+    },
+    "aufzug": {
+      "de": "Aufzug",
+      "pos": "noun",
+      "en": "lift",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Aufzüge"
+    },
+    "hand": {
+      "de": "Hand",
+      "pos": "noun",
+      "en": "hand",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Hände",
+      "image": {
+        "type": "svg",
+        "id": "hands"
+      }
+    },
+    "hände": {
+      "de": "Hand",
+      "pos": "noun",
+      "en": "hand",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Hände",
+      "image": {
+        "type": "svg",
+        "id": "hands"
+      }
+    },
+    "infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "infusion",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Infusionen",
+      "image": {
+        "type": "svg",
+        "id": "infusion"
+      }
+    },
+    "blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "en": "blood pressure",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Blutdrücke",
+      "image": {
+        "type": "svg",
+        "id": "bpmonitor"
+      }
+    },
+    "diätassistentin": {
+      "de": "Diätassistentin",
+      "pos": "noun",
+      "en": "dietitian",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Diätassistentinnen"
+    },
+    "zeit": {
+      "de": "Zeit",
+      "pos": "noun",
+      "en": "time",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Zeiten"
+    },
+    "notaufnahme": {
+      "de": "Notaufnahme",
+      "pos": "noun",
+      "en": "emergency department",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Notaufnahmen"
+    },
+    "besucher": {
+      "de": "Besucher",
+      "pos": "noun",
+      "en": "visitor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Besucher"
+    },
+    "frage": {
+      "de": "Frage",
+      "pos": "noun",
+      "en": "question",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Fragen"
+    },
+    "fragen": {
+      "de": "Frage",
+      "pos": "noun",
+      "en": "question",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Fragen"
+    },
+    "milch": {
+      "de": "Milch",
+      "pos": "noun",
+      "en": "milk",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—",
+      "image": {
+        "type": "svg",
+        "id": "milk"
+      }
+    },
+    "koch": {
+      "de": "Koch",
+      "pos": "noun",
+      "en": "cook",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Köche"
+    },
+    "puls": {
+      "de": "Puls",
+      "pos": "noun",
+      "en": "pulse",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Pulse",
+      "image": {
+        "type": "svg",
+        "id": "monitor"
+      }
+    },
+    "mutter": {
+      "de": "Mutter",
+      "pos": "noun",
+      "en": "mother",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Mütter",
+      "image": {
+        "type": "svg",
+        "id": "mother"
+      }
+    },
+    "angst": {
+      "de": "Angst",
+      "pos": "noun",
+      "en": "fear",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Ängste"
+    },
+    "keller": {
+      "de": "Keller",
+      "pos": "noun",
+      "en": "basement",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Keller"
+    },
+    "liste": {
+      "de": "Liste",
+      "pos": "noun",
+      "en": "list",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Listen"
+    },
+    "pause": {
+      "de": "Pause",
+      "pos": "noun",
+      "en": "break",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Pausen"
+    },
+    "visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Visiten"
+    },
+    "sessel": {
+      "de": "Sessel",
+      "pos": "noun",
+      "en": "armchair",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Sessel",
+      "image": {
+        "type": "svg",
+        "id": "chair"
+      }
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "feierabend": {
+      "de": "Feierabend",
+      "pos": "noun",
+      "en": "end of shift",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Feierabende"
+    },
+    "wert": {
+      "de": "Wert",
+      "pos": "noun",
+      "en": "reading, value",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Werte"
+    },
+    "werte": {
+      "de": "Wert",
+      "pos": "noun",
+      "en": "reading, value",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Werte"
+    },
+    "kollege": {
+      "de": "Kollege",
+      "pos": "noun",
+      "en": "colleague",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Kollegen"
+    },
+    "kollegen": {
+      "de": "Kollege",
+      "pos": "noun",
+      "en": "colleague",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Kollegen"
+    },
+    "kaffee": {
+      "de": "Kaffee",
+      "pos": "noun",
+      "en": "coffee",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Kaffees"
+    },
+    "ausweis": {
+      "de": "Ausweis",
+      "pos": "noun",
+      "en": "ID card",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Ausweise",
+      "image": {
+        "type": "svg",
+        "id": "idcard"
+      }
+    },
+    "flur": {
+      "de": "Flur",
+      "pos": "noun",
+      "en": "corridor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Flure"
+    },
+    "auszubildende": {
+      "de": "Auszubildende",
+      "pos": "noun",
+      "en": "trainee",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Auszubildenden",
+      "note": "Nominative: der Auszubildende."
+    },
+    "nachtdienst": {
+      "de": "Nachtdienst",
+      "pos": "noun",
+      "en": "night duty",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Nachtdienste"
+    },
+    "praktikantin": {
+      "de": "Praktikantin",
+      "pos": "noun",
+      "en": "trainee",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Praktikantinnen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "gast": {
+      "de": "Gast",
+      "pos": "noun",
+      "en": "guest",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Gäste"
+    },
+    "gäste": {
+      "de": "Gast",
+      "pos": "noun",
+      "en": "guest",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Gäste"
+    },
+    "park": {
+      "de": "Park",
+      "pos": "noun",
+      "en": "park",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Parks"
+    },
+    "nachtwache": {
+      "de": "Nachtwache",
+      "pos": "noun",
+      "en": "night watch",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Nachtwachen"
+    },
+    "schlaf": {
+      "de": "Schlaf",
+      "pos": "noun",
+      "en": "sleep",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "—"
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Monitore",
+      "image": {
+        "type": "svg",
+        "id": "monitor"
+      }
+    },
+    "alarm": {
+      "de": "Alarm",
+      "pos": "noun",
+      "en": "alarm",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Alarme"
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Patientinnen",
+      "image": {
+        "type": "svg",
+        "id": "patientin"
+      }
+    },
+    "schüttelfrost": {
+      "de": "Schüttelfrost",
+      "pos": "noun",
+      "en": "chills",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "—"
+    },
+    "messgerät": {
+      "de": "Messgerät",
+      "pos": "noun",
+      "en": "measuring device",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Messgeräte",
+      "image": {
+        "type": "svg",
+        "id": "bpmonitor"
+      }
+    },
+    "übelkeit": {
+      "de": "Übelkeit",
+      "pos": "noun",
+      "en": "nausea",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—"
+    },
+    "raum": {
+      "de": "Raum",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Räume"
+    },
+    "räume": {
+      "de": "Raum",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Räume"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "noun",
+      "en": "Anna",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—"
+    },
+    "kurve": {
+      "de": "Kurve",
+      "pos": "noun",
+      "en": "chart",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Kurven",
+      "image": {
+        "type": "svg",
+        "id": "clipboard"
+      }
+    },
+    "büro": {
+      "de": "Büro",
+      "pos": "noun",
+      "en": "office",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Büros"
+    },
+    "azubi": {
+      "de": "Azubi",
+      "pos": "noun",
+      "en": "trainee",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Azubis"
+    },
+    "azubis": {
+      "de": "Azubi",
+      "pos": "noun",
+      "en": "trainee",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Azubis"
+    },
+    "dienst": {
+      "de": "Dienst",
+      "pos": "noun",
+      "en": "duty",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Dienste"
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Übergaben"
+    },
+    "vater": {
+      "de": "Vater",
+      "pos": "noun",
+      "en": "father",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Väter",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    },
+    "schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "tochter": {
+      "de": "Tochter",
+      "pos": "noun",
+      "en": "daughter",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Töchter",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "schlüssel": {
+      "de": "Schlüssel",
+      "pos": "noun",
+      "en": "key",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Schlüssel"
+    },
+    "kind": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "child",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Kinder",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "kinder": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "child",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Kinder",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "treppenhaus": {
+      "de": "Treppenhaus",
+      "pos": "noun",
+      "en": "stairwell",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Treppenhäuser"
+    },
+    "kittel": {
+      "de": "Kittel",
+      "pos": "noun",
+      "en": "coat",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Kittel"
+    },
+    "tee": {
+      "de": "Tee",
+      "pos": "noun",
+      "en": "tea",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Tees"
+    },
+    "schwindel": {
+      "de": "Schwindel",
+      "pos": "noun",
+      "en": "dizziness",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "—"
+    },
+    "bewohnerin": {
+      "de": "Bewohnerin",
+      "pos": "noun",
+      "en": "resident",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Bewohnerinnen",
+      "image": {
+        "type": "svg",
+        "id": "mother"
+      }
+    },
+    "lena": {
+      "de": "Lena",
+      "pos": "noun",
+      "en": "Lena",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen"
+    },
+    "tag": {
+      "de": "Tag",
+      "pos": "noun",
+      "en": "day",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Tage",
+      "image": {
+        "type": "svg",
+        "id": "calendar"
+      }
+    },
+    "saft": {
+      "de": "Saft",
+      "pos": "noun",
+      "en": "juice",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Säfte",
+      "image": {
+        "type": "svg",
+        "id": "juice"
+      }
+    },
+    "plan": {
+      "de": "Plan",
+      "pos": "noun",
+      "en": "plan, rota",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Pläne"
+    },
+    "dienstzimmer": {
+      "de": "Dienstzimmer",
+      "pos": "noun",
+      "en": "staff room",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Dienstzimmer"
+    },
+    "gruppe": {
+      "de": "Gruppe",
+      "pos": "noun",
+      "en": "group",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Gruppen"
+    },
+    "kantine": {
+      "de": "Kantine",
+      "pos": "noun",
+      "en": "cafeteria",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Kantinen"
+    },
+    "familie": {
+      "de": "Familie",
+      "pos": "noun",
+      "en": "family",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Familien"
+    },
+    "cafeteria": {
+      "de": "Cafeteria",
+      "pos": "noun",
+      "en": "cafeteria",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Cafeterias"
+    },
+    "brille": {
+      "de": "Brille",
+      "pos": "noun",
+      "en": "glasses",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Brillen"
+    },
+    "küche": {
+      "de": "Küche",
+      "pos": "noun",
+      "en": "kitchen",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Küchen"
+    },
+    "gips": {
+      "de": "Gips",
+      "pos": "noun",
+      "en": "plaster cast",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Gipse"
+    },
+    "junge": {
+      "de": "Junge",
+      "pos": "noun",
+      "en": "boy",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Jungen",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      },
+      "note": "n-declension plural: die Jungen."
+    },
+    "jungen": {
+      "de": "Junge",
+      "pos": "noun",
+      "en": "boy",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Jungen",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "fach": {
+      "de": "Fach",
+      "pos": "noun",
+      "en": "compartment",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Fächer"
+    },
+    "bereitschaft": {
+      "de": "Bereitschaft",
+      "pos": "noun",
+      "en": "on-call duty",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Bereitschaften"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "—",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      },
+      "note": "The fever was high: sein. A person had a fever: haben."
+    },
+    "kost": {
+      "de": "Kost",
+      "pos": "noun",
+      "en": "diet",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—"
+    },
+    "radiologie": {
+      "de": "Radiologie",
+      "pos": "noun",
+      "en": "radiology",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—"
+    },
+    "schichtleitung": {
+      "de": "Schichtleitung",
+      "pos": "noun",
+      "en": "shift lead",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Schichtleitungen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "kalender": {
+      "de": "Kalender",
+      "pos": "noun",
+      "en": "calendar",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Kalender",
+      "image": {
+        "type": "svg",
+        "id": "calendar"
+      }
+    },
+    "frühstück": {
+      "de": "Frühstück",
+      "pos": "noun",
+      "en": "breakfast",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Frühstücke"
+    },
+    "zeile": {
+      "de": "Zeile",
+      "pos": "noun",
+      "en": "line",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Zeilen"
+    },
+    "fehler": {
+      "de": "Fehler",
+      "pos": "noun",
+      "en": "mistake",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Fehler"
+    },
+    "antwort": {
+      "de": "Antwort",
+      "pos": "noun",
+      "en": "answer",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Antworten"
+    },
+    "satz": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Sätze"
+    },
+    "sätze": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Sätze"
+    },
+    "lernkontrolle": {
+      "de": "Lernkontrolle",
+      "pos": "noun",
+      "en": "final check",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Lernkontrollen"
+    },
+    "person": {
+      "de": "Person",
+      "pos": "noun",
+      "en": "person",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Personen"
+    },
+    "labor": {
+      "de": "Labor",
+      "pos": "noun",
+      "en": "lab",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Labore"
+    },
+    "appetit": {
+      "de": "Appetit",
+      "pos": "noun",
+      "en": "appetite",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "—"
+    },
+    "hof": {
+      "de": "Hof",
+      "pos": "noun",
+      "en": "courtyard",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Höfe"
+    },
+    "heimweh": {
+      "de": "Heimweh",
+      "pos": "noun",
+      "en": "homesickness",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "—"
+    },
+    "laborant": {
+      "de": "Laborant",
+      "pos": "noun",
+      "en": "lab technician",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Laboranten",
+      "note": "One man: dem Laboranten. Here he is the subject."
+    },
+    "bericht": {
+      "de": "Bericht",
+      "pos": "noun",
+      "en": "report",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Berichte",
+      "image": {
+        "type": "svg",
+        "id": "clipboard"
+      }
+    },
+    "flure": {
+      "de": "Flur",
+      "pos": "noun",
+      "en": "corridor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Flure"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "team": {
+      "de": "Team",
+      "pos": "noun",
+      "en": "team",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Teams"
+    },
+    "kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Kolleginnen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "angehöriger": {
+      "de": "Angehöriger",
+      "pos": "noun",
+      "en": "relative",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Angehörigen",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    },
+    "notiz": {
+      "de": "Notiz",
+      "pos": "noun",
+      "en": "note",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Notizen"
+    },
+    "fragt": {
+      "de": "fragen → sie fragt",
+      "pos": "form",
+      "en": "asks",
+      "emoji": "⏪"
+    },
+    "sagen": {
+      "de": "sagen → Sie sagen",
+      "pos": "form",
+      "en": "say",
+      "emoji": "⏪"
+    },
+    "schreiben": {
+      "de": "schreiben → Sie schreiben",
+      "pos": "form",
+      "en": "write",
+      "emoji": "⏪"
+    },
+    "kurze": {
+      "de": "kurz",
+      "pos": "adjective",
+      "en": "short",
+      "emoji": "🔤"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "after, about",
+      "emoji": "🔤"
+    },
+    "höflich": {
+      "de": "höflich",
+      "pos": "adjective",
+      "en": "polite",
+      "emoji": "🔤"
+    },
+    "offen": {
+      "de": "offen",
+      "pos": "adjective",
+      "en": "open",
+      "emoji": "🔤"
+    }
+  },
   "steps": [
     {
       "id": "overview",
       "type": "overview",
       "label": "Überblick",
-      "title": "Lesson intro",
+      "title": "Gestern war, gestern hatte",
       "minutes": 40,
       "learn": [
-        "sein in the past: war, warst, war, waren, wart, waren.",
-        "haben in the past: hatte, hattest, hatte, hatten, hattet, hatten.",
-        "In speech, sein and haben use this past, not the perfect: Ich war krank. Ich hatte Fieber.",
-        "The endings match: ich and er share war and hatte. wir, sie and Sie share waren and hatten."
+        "sein in the spoken past: ich war, du warst, er war, wir waren, ihr wart, sie waren.",
+        "haben in the spoken past: ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten.",
+        "A place or an adjective takes war. A thing someone had takes hatte. Not war Hunger, not hatte krank.",
+        "ich and er share a form. wir, sie and formal Sie share waren and hatten. du has st. ihr wart has no extra st."
       ],
       "vocab": [
         {
-          "de": "Patient",
+          "de": "Kalender",
           "article": "der",
-          "plural": "die Patienten",
-          "en": "patient",
-          "emoji": "🤒",
-          "glossaryKey": "patient"
+          "plural": "die Kalender",
+          "en": "calendar",
+          "glossaryKey": "kalender",
+          "image": {
+            "type": "svg",
+            "id": "calendar"
+          }
         },
         {
-          "de": "Fieber",
+          "de": "Suppe",
+          "article": "die",
+          "plural": "die Suppen",
+          "en": "soup",
+          "glossaryKey": "suppe",
+          "image": {
+            "type": "svg",
+            "id": "soup"
+          }
+        },
+        {
+          "de": "Milch",
+          "article": "die",
+          "plural": "—",
+          "en": "milk",
+          "glossaryKey": "milch",
+          "image": {
+            "type": "svg",
+            "id": "milk"
+          }
+        },
+        {
+          "de": "Sessel",
+          "article": "der",
+          "plural": "die Sessel",
+          "en": "armchair",
+          "glossaryKey": "sessel",
+          "image": {
+            "type": "svg",
+            "id": "chair"
+          }
+        },
+        {
+          "de": "Messgerät",
           "article": "das",
-          "plural": "Fieber",
-          "en": "fever",
-          "emoji": "🤒",
-          "glossaryKey": "fieber"
+          "plural": "die Messgeräte",
+          "en": "measuring device",
+          "glossaryKey": "messgerät",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          }
         },
         {
-          "de": "Station",
+          "de": "Probe",
           "article": "die",
-          "plural": "die Stationen",
-          "en": "ward",
-          "emoji": "🏥",
-          "glossaryKey": "station"
+          "plural": "die Proben",
+          "en": "sample",
+          "glossaryKey": "probe",
+          "image": {
+            "type": "svg",
+            "id": "vial"
+          }
         },
         {
-          "de": "Arbeit",
+          "de": "Apotheke",
           "article": "die",
-          "plural": "die Arbeiten",
-          "en": "work",
-          "emoji": "📋",
-          "glossaryKey": "arbeit"
+          "plural": "die Apotheken",
+          "en": "pharmacy",
+          "glossaryKey": "apotheke",
+          "image": {
+            "type": "svg",
+            "id": "pharmacy"
+          }
         },
         {
-          "de": "Zimmer",
-          "article": "das",
-          "plural": "die Zimmer",
-          "en": "room",
-          "emoji": "🚪",
-          "glossaryKey": "zimmer"
-        },
-        {
-          "de": "Zeit",
+          "de": "Infusion",
           "article": "die",
-          "plural": "die Zeiten",
-          "en": "time",
-          "emoji": "⏱️",
-          "glossaryKey": "zeit"
+          "plural": "die Infusionen",
+          "en": "infusion",
+          "glossaryKey": "infusion",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          }
+        },
+        {
+          "de": "Ausweis",
+          "article": "der",
+          "plural": "die Ausweise",
+          "en": "ID card",
+          "glossaryKey": "ausweis",
+          "image": {
+            "type": "svg",
+            "id": "idcard"
+          }
+        },
+        {
+          "de": "Hand",
+          "article": "die",
+          "plural": "die Hände",
+          "en": "hand",
+          "glossaryKey": "hand",
+          "image": {
+            "type": "svg",
+            "id": "hands"
+          }
+        },
+        {
+          "de": "Säugling",
+          "article": "der",
+          "plural": "die Säuglinge",
+          "en": "baby",
+          "glossaryKey": "säugling",
+          "image": {
+            "type": "svg",
+            "id": "baby"
+          }
+        },
+        {
+          "de": "Monitor",
+          "article": "der",
+          "plural": "die Monitore",
+          "en": "monitor",
+          "glossaryKey": "monitor",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          }
         }
       ],
       "text": {
-        "title": "Gestern war er krank",
-        "de": "Gestern war der Patient krank. Er hatte Fieber. Ich war auf der Station. Wir hatten viel Arbeit. Warst du im Zimmer? Du hattest die Akte. Die Ärzte waren da. Sie hatten keine Zeit.",
-        "en": "Yesterday the patient was ill. He had a fever. I was on the ward. We had a lot of work. Were you in the room? You had the chart. The doctors were there. They had no time."
+        "title": "Gestern auf Station",
+        "de": "Gestern war die Frühschicht lang. Die Suppe war warm. Der Säugling hatte Fieber. Die Probe war fertig. Wir hatten einen Termin in der Apotheke. Wart ihr im Aufzug? Die Hände waren nass. Sie hatten eine Infusion.",
+        "en": "Yesterday the early shift was long. The soup was warm. The baby had a fever. The sample was ready. We had an appointment at the pharmacy. Were you in the lift? The hands were wet. They had an infusion."
       }
     },
     {
       "id": "grammar",
       "type": "grammar",
-      "label": "Grammar",
+      "label": "Choose",
       "title": "war und hatte",
       "practice": "choose",
-      "heroTitle": "sein and haben look back",
-      "heroImage": "thermometer",
+      "heroTitle": "Ich war, ich hatte",
+      "heroImage": "calendar",
       "story": [
-        "<b>war</b> and <b>hatte</b> are the past of sein and haben. They are normal in speech.",
-        "ich war, du warst, er war, wir waren, ihr wart, sie waren. ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten.",
-        "Gestern war der Patient krank. Er hatte Fieber. Not: Er war hatte Fieber."
+        "<b>war</b> is the spoken past of sein. <b>hatte</b> is the spoken past of haben. Both are normal in speech for a state.",
+        "ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren. ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten.",
+        "Place and adjective: war. A thing a person had: hatte. The present bin and hat stay correct for today. Yesterday uses war and hatte."
       ],
-      "questionRule": "Choose war for sein and hatte for haben. Then match the person.",
-      "animation": [
-        {
-          "before": [
-            {
-              "t": "ist",
-              "r": "subj"
-            }
-          ],
-          "after": [
-            {
-              "t": "war",
-              "r": "subj"
-            }
-          ],
-          "enBefore": "sein.",
-          "enAfter": "Er war krank.",
-          "callLabel": "Show war"
-        },
-        {
-          "before": [
-            {
-              "t": "hat",
-              "r": "subj"
-            }
-          ],
-          "after": [
-            {
-              "t": "hatte",
-              "r": "subj"
-            }
-          ],
-          "enBefore": "haben.",
-          "enAfter": "Er hatte Fieber.",
-          "callLabel": "Show hatte"
-        },
-        {
-          "before": [
-            {
-              "t": "sind",
-              "r": "subj"
-            }
-          ],
-          "after": [
-            {
-              "t": "waren",
-              "r": "subj"
-            }
-          ],
-          "enBefore": "plural.",
-          "enAfter": "Sie waren da.",
-          "callLabel": "Show waren"
-        }
-      ],
+      "questionRule": "Place or adjective: war. A thing someone had: hatte. du warst, ihr wart. du hattest, ihr hattet.",
       "tables": [
         {
           "title": "war und hatte",
-          "caption": "ich and er share a form. wir and sie share a form.",
+          "caption": "ich and er share a form. wir, sie and Sie share a form.",
           "columns": [
-            "Person",
             "sein",
             "haben"
           ],
@@ -344,7 +1898,6 @@
             {
               "label": "ich",
               "cells": [
-                "ich",
                 "war",
                 "hatte"
               ],
@@ -353,15 +1906,13 @@
             {
               "label": "du",
               "cells": [
-                "du",
                 "warst",
                 "hattest"
               ]
             },
             {
-              "label": "er",
+              "label": "er / sie / es",
               "cells": [
-                "er / sie / es",
                 "war",
                 "hatte"
               ]
@@ -369,7 +1920,6 @@
             {
               "label": "wir",
               "cells": [
-                "wir",
                 "waren",
                 "hatten"
               ],
@@ -378,15 +1928,13 @@
             {
               "label": "ihr",
               "cells": [
-                "ihr",
                 "wart",
                 "hattet"
               ]
             },
             {
-              "label": "sie",
+              "label": "sie / Sie",
               "cells": [
-                "sie / Sie",
                 "waren",
                 "hatten"
               ]
@@ -398,119 +1946,170 @@
         "title": "Do not mix the two verbs",
         "items": [
           {
-            "de": "Er war krank.",
-            "en": "sein → war.",
+            "de": "Die Milch war sauer.",
+            "en": "An adjective takes sein.",
             "tone": "ok"
           },
           {
-            "de": "Er hatte krank.",
-            "en": "krank needs sein.",
+            "de": "Die Milch hatte sauer.",
+            "en": "hatte does not take an adjective.",
             "tone": "stop"
           },
           {
-            "de": "Er hatte Fieber.",
-            "en": "haben → hatte.",
+            "de": "Der Koch hatte Hunger.",
+            "en": "Hunger takes haben.",
             "tone": "ok"
           },
           {
-            "de": "Er war Fieber.",
-            "en": "Fieber needs haben.",
+            "de": "Der Koch war Hunger.",
+            "en": "war does not take Hunger.",
             "tone": "stop"
           },
           {
-            "de": "Du warst im Zimmer.",
-            "en": "du → warst.",
+            "de": "Ihr wart freundlich.",
+            "en": "ihr takes wart.",
             "tone": "ok"
           },
           {
-            "de": "Du war im Zimmer.",
-            "en": "du needs warst.",
+            "de": "Ihr warst freundlich.",
+            "en": "warst is only du.",
             "tone": "stop"
           }
         ],
-        "tip": "Place and adjective: war. A thing he possessed: hatte."
+        "tip": "If today is ist plus an adjective or a place, yesterday is war. If today is hat plus a thing, yesterday is hatte."
       },
       "tips": [
         {
           "title": "war / hatte",
           "emoji": "⏪",
           "mnemonic": "war warst war · hatte hattest hatte",
-          "body": "If you can say ist today, say war yesterday. If you can say hat today, say hatte yesterday.",
-          "examples": [
-            {
-              "de": "Ich war auf der Station.",
-              "en": "place"
-            },
-            {
-              "de": "Wir hatten viel Arbeit.",
-              "en": "a thing"
-            }
-          ]
+          "body": "ist becomes war. hat becomes hatte. du adds st. ihr wart does not."
         }
       ],
-      "quizTitle": "war or hatte?",
+      "meaningsTitle": "Vier Zustände",
+      "meanings": [
+        {
+          "modal": "war",
+          "emoji": "💓",
+          "en": "was low",
+          "use": "sein",
+          "de": "Der Blutdruck war niedrig.",
+          "deEn": "The blood pressure was low."
+        },
+        {
+          "modal": "hatte",
+          "emoji": "⏱️",
+          "en": "had time",
+          "use": "haben",
+          "de": "Die Diätassistentin hatte Zeit.",
+          "deEn": "The dietitian had time."
+        },
+        {
+          "modal": "war",
+          "emoji": "🚑",
+          "en": "was in A&E",
+          "use": "sein",
+          "de": "Ich war in der Notaufnahme.",
+          "deEn": "I was in the emergency department."
+        },
+        {
+          "modal": "hatten",
+          "emoji": "❓",
+          "en": "had questions",
+          "use": "haben",
+          "de": "Die Besucher hatten Fragen.",
+          "deEn": "The visitors had questions."
+        }
+      ],
+      "quizTitle": "Welche Zeile?",
       "quiz": [
         {
           "kind": "mc",
-          "q": "The patient was ill yesterday.",
-          "qEn": "sein.",
+          "q": "Der Puls von gestern. Welche Zeile stimmt?",
+          "qEn": "Adjective: sein.",
           "options": [
-            "Er war krank.",
-            "Er hatte krank.",
-            "Er warst krank."
+            "Der Puls war hoch.",
+            "Der Puls hatte hoch.",
+            "Der Puls ist hoch."
           ],
           "answer": 0,
-          "why": "krank takes sein.",
+          "why": "hoch takes sein, so war. ist is today and stays correct.",
           "hint": "war."
         },
         {
           "kind": "mc",
-          "q": "He had a fever.",
-          "qEn": "haben.",
+          "q": "Die Mutter und die Angst. Welche Zeile stimmt?",
+          "qEn": "A thing she had: haben.",
           "options": [
-            "Er war Fieber.",
-            "Er hatte Fieber.",
-            "Er hattest Fieber."
+            "Die Mutter hatte Angst.",
+            "Die Mutter war Angst.",
+            "Die Mutter hat Angst."
           ],
-          "answer": 1,
-          "why": "Fieber takes haben. er → hatte.",
+          "answer": 0,
+          "why": "Angst takes haben. hat is today and stays correct.",
           "hint": "hatte."
         },
         {
           "kind": "mc",
-          "q": "Were you in the room? du.",
-          "qEn": "du.",
+          "q": "Du, gestern im Keller. Welche Zeile stimmt?",
+          "qEn": "du → warst.",
           "options": [
-            "War du im Zimmer?",
-            "Wart du im Zimmer?",
-            "Warst du im Zimmer?"
+            "Du warst im Keller.",
+            "Du wart im Keller.",
+            "Du bist im Keller."
           ],
-          "answer": 2,
-          "why": "du → warst.",
+          "answer": 0,
+          "why": "du takes warst. bist is today. wart is only ihr.",
           "hint": "warst."
         },
         {
           "kind": "mc",
-          "q": "They had no time.",
-          "qEn": "plural.",
+          "q": "Ihr und die Liste. Welche Zeile stimmt?",
+          "qEn": "ihr → hattet.",
           "options": [
-            "Sie hatten keine Zeit.",
-            "Sie hatte keine Zeit.",
-            "Sie waren keine Zeit."
+            "Ihr hattet die Liste.",
+            "Ihr wart die Liste.",
+            "Ihr habt die Liste."
           ],
           "answer": 0,
-          "why": "sie → hatten. Zeit takes haben.",
+          "why": "The list is a thing, so haben. ihr takes hattet. habt is today.",
+          "hint": "hattet."
+        },
+        {
+          "kind": "mc",
+          "q": "Wir und die Pause. Welche Zeile stimmt?",
+          "qEn": "wir → hatten.",
+          "options": [
+            "Wir hatten eine Pause.",
+            "Wir waren eine Pause.",
+            "Wir haben eine Pause."
+          ],
+          "answer": 0,
+          "why": "Pause takes haben. haben is today and stays correct.",
           "hint": "hatten."
+        },
+        {
+          "kind": "mc",
+          "q": "Sie, höflich, bei der Visite. Welche Zeile stimmt?",
+          "qEn": "Sie → waren.",
+          "options": [
+            "Sie waren bei der Visite.",
+            "Sie wart bei der Visite.",
+            "Sie war bei der Visite."
+          ],
+          "answer": 0,
+          "why": "Formal Sie takes waren. Sie war stays correct for one woman. wart is only ihr.",
+          "hint": "waren."
         }
       ]
     },
     {
       "id": "gap-past",
-      "label": "Lücken",
-      "title": "war or hatte",
+      "label": "Gap",
+      "title": "war oder hatte",
       "practice": "gap",
       "type": "gapfill",
-      "instructions": "Each chip is used once.",
+      "instructions": "One form fits each line. bin, warst and warte are different verbs or the wrong person.",
       "chips": [
         {
           "w": "war",
@@ -521,693 +2120,748 @@
           "hint": "hatte."
         },
         {
-          "w": "Warst",
-          "hint": "warst."
-        },
-        {
-          "w": "hattest",
-          "hint": "hattest."
-        },
-        {
           "w": "waren",
           "hint": "waren."
         },
         {
           "w": "hatten",
           "hint": "hatten."
-        }
-      ],
-      "items": [
-        {
-          "before": "Gestern",
-          "after": "der Patient krank.",
-          "answer": "war",
-          "en": "was ill",
-          "why": "sein, er.",
-          "tip": "sein",
-          "hint": "war."
-        },
-        {
-          "before": "Er",
-          "after": "Fieber.",
-          "answer": "hatte",
-          "en": "had a fever",
-          "why": "haben, er.",
-          "tip": "haben",
-          "hint": "hatte."
-        },
-        {
-          "before": "",
-          "after": "du im Zimmer?",
-          "answer": "Warst",
-          "en": "du, sein",
-          "why": "du → warst.",
-          "tip": "du",
-          "hint": "warst."
-        },
-        {
-          "before": "Du",
-          "after": "die Akte.",
-          "answer": "hattest",
-          "en": "du, haben",
-          "why": "du → hattest.",
-          "tip": "du",
-          "hint": "hattest."
-        },
-        {
-          "before": "Die Ärzte",
-          "after": "da.",
-          "answer": "waren",
-          "en": "plural sein",
-          "why": "sie → waren.",
-          "tip": "sie",
-          "hint": "waren."
-        },
-        {
-          "before": "Sie",
-          "after": "keine Zeit.",
-          "answer": "hatten",
-          "en": "plural haben",
-          "why": "sie → hatten.",
-          "tip": "sie",
-          "hint": "hatten."
-        }
-      ]
-    },
-    {
-      "id": "match-past",
-      "label": "Match",
-      "title": "sein or haben?",
-      "practice": "match",
-      "type": "compare",
-      "instructions": "Yesterday.",
-      "items": [
-        {
-          "prompt": "He was ill.",
-          "options": [
-            {
-              "emoji": "🤒",
-              "label": "Er war krank.",
-              "caption": "sein"
-            },
-            {
-              "emoji": "❌",
-              "label": "Er hatte krank.",
-              "caption": "haben does not take krank"
-            },
-            {
-              "emoji": "❌",
-              "label": "Er warst krank.",
-              "caption": "warst is du"
-            }
-          ],
-          "answer": 0,
-          "why": "war.",
-          "hint": "sein."
-        },
-        {
-          "prompt": "He had a fever.",
-          "options": [
-            {
-              "emoji": "🌡️",
-              "label": "Er hatte Fieber.",
-              "caption": "haben"
-            },
-            {
-              "emoji": "❌",
-              "label": "Er war Fieber.",
-              "caption": "sein does not take Fieber"
-            },
-            {
-              "emoji": "❌",
-              "label": "Er hattest Fieber.",
-              "caption": "hattest is du"
-            }
-          ],
-          "answer": 0,
-          "why": "hatte.",
-          "hint": "haben."
-        },
-        {
-          "prompt": "You were in the room. du.",
-          "options": [
-            {
-              "emoji": "🚪",
-              "label": "Warst du im Zimmer?",
-              "caption": "du"
-            },
-            {
-              "emoji": "❌",
-              "label": "War du im Zimmer?",
-              "caption": "missing -st"
-            },
-            {
-              "emoji": "❌",
-              "label": "Wart du im Zimmer?",
-              "caption": "wart is ihr"
-            }
-          ],
-          "answer": 0,
-          "why": "warst.",
-          "hint": "du."
-        },
-        {
-          "prompt": "They had no time.",
-          "options": [
-            {
-              "emoji": "⏱️",
-              "label": "Sie hatten keine Zeit.",
-              "caption": "plural haben"
-            },
-            {
-              "emoji": "❌",
-              "label": "Sie hatte keine Zeit.",
-              "caption": "singular"
-            },
-            {
-              "emoji": "❌",
-              "label": "Sie waren keine Zeit.",
-              "caption": "Zeit needs haben"
-            }
-          ],
-          "answer": 0,
-          "why": "hatten.",
-          "hint": "plural."
-        }
-      ]
-    },
-    {
-      "id": "picture-past",
-      "label": "Picture",
-      "title": "Picture yesterday",
-      "practice": "picture",
-      "type": "picturematch",
-      "instructions": "sein or haben.",
-      "items": [
-        {
-          "id": "fever",
-          "de": "Fieber",
-          "article": "das",
-          "plural": "Fieber",
-          "en": "Er hatte Fieber.",
-          "image": {
-            "type": "svg",
-            "id": "thermometer"
-          },
-          "hint": "hatte"
-        },
-        {
-          "id": "ward",
-          "de": "Station",
-          "article": "die",
-          "plural": "die Stationen",
-          "en": "Ich war auf der Station.",
-          "image": {
-            "type": "svg",
-            "id": "ward"
-          },
-          "hint": "war"
-        },
-        {
-          "id": "chart",
-          "de": "Akte",
-          "article": "die",
-          "plural": "die Akten",
-          "en": "Du hattest die Akte.",
-          "image": {
-            "type": "svg",
-            "id": "clipboard"
-          },
-          "hint": "hattest"
-        },
-        {
-          "id": "room",
-          "de": "Zimmer",
-          "article": "das",
-          "plural": "die Zimmer",
-          "en": "Warst du im Zimmer?",
-          "image": {
-            "type": "svg",
-            "id": "bed"
-          },
-          "hint": "warst"
-        }
-      ]
-    },
-    {
-      "id": "build-past",
-      "label": "Build",
-      "title": "Build the sentence",
-      "practice": "build",
-      "type": "builder",
-      "instructions": "war for a state or a place. hatte for a thing.",
-      "items": [
-        {
-          "tiles": [
-            "Er",
-            "war",
-            "gestern",
-            "krank"
-          ],
-          "answers": [
-            "Er war gestern krank"
-          ],
-          "punct": ".",
-          "modal": "war",
-          "inf": "krank",
-          "question": false,
-          "en": "He was ill yesterday.",
-          "hint": "war.",
-          "feedback": {
-            "fallback": "war."
-          }
-        },
-        {
-          "tiles": [
-            "Er",
-            "hatte",
-            "Fieber"
-          ],
-          "answers": [
-            "Er hatte Fieber"
-          ],
-          "punct": ".",
-          "modal": "hatte",
-          "inf": "Fieber",
-          "question": false,
-          "en": "He had a fever.",
-          "hint": "hatte.",
-          "feedback": {
-            "fallback": "hatte."
-          }
-        },
-        {
-          "tiles": [
-            "Wir",
-            "hatten",
-            "viel",
-            "Arbeit"
-          ],
-          "answers": [
-            "Wir hatten viel Arbeit"
-          ],
-          "punct": ".",
-          "modal": "hatten",
-          "inf": "Arbeit",
-          "question": false,
-          "en": "We had a lot of work.",
-          "hint": "hatten.",
-          "feedback": {
-            "fallback": "hatten."
-          }
-        },
-        {
-          "tiles": [
-            "Die",
-            "Ärzte",
-            "waren",
-            "da"
-          ],
-          "answers": [
-            "Die Ärzte waren da"
-          ],
-          "punct": ".",
-          "modal": "Ärzte",
-          "inf": "da",
-          "question": false,
-          "en": "The doctors were there.",
-          "hint": "waren.",
-          "feedback": {
-            "fallback": "waren."
-          }
-        }
-      ]
-    },
-    {
-      "id": "transform-past",
-      "label": "Umformen",
-      "title": "Today to yesterday",
-      "practice": "transform",
-      "type": "gapfill",
-      "instructions": "Change ist to war and hat to hatte, with the right person.",
-      "chips": [
-        {
-          "w": "Der Patient war krank.",
-          "hint": "war."
-        },
-        {
-          "w": "Er hatte Fieber.",
-          "hint": "hatte."
-        },
-        {
-          "w": "Ich war auf der Station.",
-          "hint": "war."
-        },
-        {
-          "w": "Wir hatten viel Arbeit.",
-          "hint": "hatten."
-        },
-        {
-          "w": "Du warst im Zimmer.",
-          "hint": "warst."
-        },
-        {
-          "w": "Du hattest die Akte.",
-          "hint": "hattest."
-        }
-      ],
-      "items": [
-        {
-          "before": "Der Patient ist krank.",
-          "after": "",
-          "answer": "Der Patient war krank.",
-          "en": "er",
-          "why": "ist → war.",
-          "tip": "war",
-          "hint": "war."
-        },
-        {
-          "before": "Er hat Fieber.",
-          "after": "",
-          "answer": "Er hatte Fieber.",
-          "en": "er",
-          "why": "hat → hatte.",
-          "tip": "hatte",
-          "hint": "hatte."
-        },
-        {
-          "before": "Ich bin auf der Station.",
-          "after": "",
-          "answer": "Ich war auf der Station.",
-          "en": "ich",
-          "why": "bin → war.",
-          "tip": "war",
-          "hint": "war."
-        },
-        {
-          "before": "Wir haben viel Arbeit.",
-          "after": "",
-          "answer": "Wir hatten viel Arbeit.",
-          "en": "wir",
-          "why": "haben → hatten.",
-          "tip": "hatten",
-          "hint": "hatten."
-        },
-        {
-          "before": "Du bist im Zimmer.",
-          "after": "",
-          "answer": "Du warst im Zimmer.",
-          "en": "du",
-          "why": "bist → warst.",
-          "tip": "warst",
-          "hint": "warst."
-        },
-        {
-          "before": "Du hast die Akte.",
-          "after": "",
-          "answer": "Du hattest die Akte.",
-          "en": "du",
-          "why": "hast → hattest.",
-          "tip": "hattest",
-          "hint": "hattest."
-        }
-      ]
-    },
-    {
-      "id": "error-past",
-      "label": "Fehler",
-      "title": "Finde den Fehler",
-      "practice": "error",
-      "type": "riddle",
-      "instructions": "Read the wrong sentence. Choose the correction.",
-      "items": [
-        {
-          "clues": [
-            "Finde den Fehler.",
-            "Er hatte krank."
-          ],
-          "options": [
-            "Er war krank.",
-            "Er warst krank.",
-            "Er hatten krank."
-          ],
-          "answer": 0,
-          "reveal": "krank takes sein.",
-          "hint": "war."
-        },
-        {
-          "clues": [
-            "Finde den Fehler.",
-            "Er war Fieber."
-          ],
-          "options": [
-            "Er hatte Fieber.",
-            "Er hattest Fieber.",
-            "Er hatten Fieber."
-          ],
-          "answer": 0,
-          "reveal": "Fieber takes haben.",
-          "hint": "hatte."
-        },
-        {
-          "clues": [
-            "Finde den Fehler.",
-            "Du war im Zimmer."
-          ],
-          "options": [
-            "Du warst im Zimmer.",
-            "Du wart im Zimmer.",
-            "Du waren im Zimmer."
-          ],
-          "answer": 0,
-          "reveal": "du → warst.",
-          "hint": "warst."
-        },
-        {
-          "clues": [
-            "Finde den Fehler.",
-            "Sie hatte keine Zeit. Meaning: the doctors."
-          ],
-          "options": [
-            "Sie hatten keine Zeit.",
-            "Sie war keine Zeit.",
-            "Sie hattest keine Zeit."
-          ],
-          "answer": 0,
-          "reveal": "sie plural → hatten.",
-          "hint": "hatten."
-        }
-      ]
-    },
-    {
-      "id": "dialogue-past",
-      "label": "Dialog",
-      "title": "Yesterday's shift",
-      "practice": "dialogue",
-      "type": "gapfill",
-      "instructions": "Each chip is used once.",
-      "chips": [
-        {
-          "w": "war",
-          "hint": "war."
-        },
-        {
-          "w": "hatte",
-          "hint": "hatte."
-        },
-        {
-          "w": "Warst",
-          "hint": "warst."
         },
         {
           "w": "hattest",
           "hint": "hattest."
-        },
-        {
-          "w": "waren",
-          "hint": "waren."
-        },
-        {
-          "w": "hatten",
-          "hint": "hatten."
-        }
-      ],
-      "items": [
-        {
-          "before": "Der Patient",
-          "after": "krank.",
-          "answer": "war",
-          "en": "was",
-          "why": "sein.",
-          "tip": "sein",
-          "hint": "war.",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "Er",
-          "after": "Fieber.",
-          "answer": "hatte",
-          "en": "had",
-          "why": "haben.",
-          "tip": "haben",
-          "hint": "hatte.",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "",
-          "after": "du im Zimmer?",
-          "answer": "Warst",
-          "en": "du",
-          "why": "warst.",
-          "tip": "du",
-          "hint": "warst.",
-          "who": "Arzt"
-        },
-        {
-          "before": "Du",
-          "after": "die Akte.",
-          "answer": "hattest",
-          "en": "you had",
-          "why": "du → hattest.",
-          "tip": "du",
-          "hint": "hattest.",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "Die Ärzte",
-          "after": "da.",
-          "answer": "waren",
-          "en": "were",
-          "why": "waren.",
-          "tip": "sie",
-          "hint": "waren.",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "Sie",
-          "after": "keine Zeit.",
-          "answer": "hatten",
-          "en": "had",
-          "why": "hatten.",
-          "tip": "sie",
-          "hint": "hatten.",
-          "who": "Pflegekraft"
-        }
-      ]
-    },
-    {
-      "id": "gap-more-past",
-      "label": "Lücken",
-      "title": "ihr and Sie",
-      "practice": "gap",
-      "type": "gapfill",
-      "instructions": "Each chip is used once.",
-      "chips": [
-        {
-          "w": "war",
-          "hint": "war."
         },
         {
           "w": "wart",
           "hint": "wart."
         },
         {
-          "w": "hattet",
-          "hint": "hattet."
+          "w": "bin",
+          "hint": "war."
         },
         {
-          "w": "waren",
-          "hint": "waren."
-        },
-        {
-          "w": "hatten",
-          "hint": "hatten."
-        },
-        {
-          "w": "warst",
+          "w": "bist",
           "hint": "warst."
         },
         {
-          "w": "Fieber",
-          "hint": "Fieber."
+          "w": "warst",
+          "hint": "the person."
         },
         {
-          "w": "krank",
-          "hint": "krank."
+          "w": "hattet",
+          "hint": "hattest."
+        },
+        {
+          "w": "gewesen",
+          "hint": "war."
+        },
+        {
+          "w": "warte",
+          "hint": "war."
         }
       ],
       "items": [
         {
-          "before": "Ich",
-          "after": "gestern krank.",
+          "before": "Der Sessel",
+          "after": "frei.",
           "answer": "war",
-          "en": "I was",
-          "why": "ich → war.",
-          "tip": "ich",
+          "en": "The armchair was free.",
+          "why": "frei takes sein.",
+          "tip": "war.",
           "hint": "war."
         },
         {
-          "before": "Ihr",
-          "after": "im Zimmer.",
-          "answer": "wart",
-          "en": "you plural",
-          "why": "ihr → wart.",
-          "tip": "ihr",
-          "hint": "wart."
+          "before": "Die Pflegekraft",
+          "after": "Feierabend.",
+          "answer": "hatte",
+          "en": "The nurse had finished her shift.",
+          "why": "Feierabend takes haben.",
+          "tip": "hatte.",
+          "hint": "hatte."
         },
         {
-          "before": "Ihr",
-          "after": "die Akte.",
-          "answer": "hattet",
-          "en": "you plural had",
-          "why": "ihr → hattet.",
-          "tip": "ihr",
-          "hint": "hattet."
-        },
-        {
-          "before": "Wir",
-          "after": "auf der Station.",
+          "before": "Die Werte",
+          "after": "stabil.",
           "answer": "waren",
-          "en": "we were",
-          "why": "wir → waren.",
-          "tip": "wir",
+          "en": "The readings were stable.",
+          "why": "Plural sein: waren.",
+          "tip": "waren.",
           "hint": "waren."
         },
         {
-          "before": "Wir",
-          "after": "viel Arbeit.",
+          "before": "Die Kollegen",
+          "after": "Kaffee.",
           "answer": "hatten",
-          "en": "we had",
-          "why": "wir → hatten.",
-          "tip": "wir",
+          "en": "The colleagues had coffee.",
+          "why": "Kaffee takes haben.",
+          "tip": "hatten.",
           "hint": "hatten."
         },
         {
-          "before": "Du",
-          "after": "gestern da.",
-          "answer": "warst",
-          "en": "you were",
-          "why": "du → warst.",
-          "tip": "du",
-          "hint": "warst."
+          "before": "Gestern",
+          "after": "du den Ausweis.",
+          "answer": "hattest",
+          "en": "Yesterday you had the ID card.",
+          "why": "du takes hattest.",
+          "tip": "hattest.",
+          "hint": "hattest."
         },
         {
-          "before": "Hatten Sie",
-          "after": "?",
-          "answer": "Fieber",
-          "en": "formal question",
-          "why": "The chip is the noun so the verb stays.",
-          "tip": "haben",
-          "hint": "Fieber."
+          "before": "Gestern",
+          "after": "ihr auf dem Flur.",
+          "answer": "wart",
+          "en": "Yesterday you were in the corridor.",
+          "why": "A place, and ihr takes wart.",
+          "tip": "wart.",
+          "hint": "wart."
+        }
+      ]
+    },
+    {
+      "id": "gestern-react",
+      "type": "quickreact",
+      "label": "Gestern",
+      "title": "Gestern?",
+      "practice": "match",
+      "instructions": "One situation. Tap war or hatte for yesterday, with the right person. The wrong verb stays red.",
+      "cue": "Gestern?",
+      "items": [
+        {
+          "prompt": "Die Infusion … langsam.",
+          "qEn": "Adjective: sein.",
+          "options": [
+            "war",
+            "hatte",
+            "waren"
+          ],
+          "answer": 0,
+          "why": "langsam takes sein. The infusion is singular.",
+          "hint": "war."
         },
         {
-          "before": "Waren Sie",
-          "after": "?",
-          "answer": "krank",
-          "en": "formal question",
-          "why": "sein.",
-          "tip": "sein",
-          "hint": "krank."
+          "prompt": "Der Auszubildende … Nachtdienst.",
+          "qEn": "A duty: haben.",
+          "options": [
+            "hatte",
+            "war",
+            "hattest"
+          ],
+          "answer": 0,
+          "why": "Nachtdienst is a thing he had.",
+          "hint": "hatte."
+        },
+        {
+          "prompt": "Die Praktikantin … bleich.",
+          "qEn": "Adjective: sein.",
+          "options": [
+            "war",
+            "hatte",
+            "warst"
+          ],
+          "answer": 0,
+          "why": "bleich takes sein. She takes war, not warst.",
+          "hint": "war."
+        },
+        {
+          "prompt": "Die Gäste … im Park.",
+          "qEn": "Place: sein.",
+          "options": [
+            "waren",
+            "wart",
+            "hatten"
+          ],
+          "answer": 0,
+          "why": "A place takes sein. Plural: waren.",
+          "hint": "waren."
+        },
+        {
+          "prompt": "Die Nachtwache … wenig Schlaf.",
+          "qEn": "A thing she had.",
+          "options": [
+            "hatte",
+            "war",
+            "hatten"
+          ],
+          "answer": 0,
+          "why": "Schlaf takes haben. One woman: hatte.",
+          "hint": "hatte."
+        },
+        {
+          "prompt": "Die Besucher … ruhig.",
+          "qEn": "Adjective: sein.",
+          "options": [
+            "waren",
+            "hatte",
+            "wart"
+          ],
+          "answer": 0,
+          "why": "ruhig takes sein. Plural: waren. hatten Fragen is a different sentence.",
+          "hint": "waren."
+        }
+      ]
+    },
+    {
+      "id": "picture-past",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "Wie heißt das?",
+      "practice": "picture",
+      "instructions": "A calendar, soup, milk, an armchair, a blood-pressure monitor, a sample, a pharmacy, an infusion.",
+      "items": [
+        {
+          "id": "kalender",
+          "de": "Kalender",
+          "article": "der",
+          "plural": "die Kalender",
+          "en": "the calendar",
+          "image": {
+            "type": "svg",
+            "id": "calendar"
+          },
+          "hint": "der"
+        },
+        {
+          "id": "suppe",
+          "de": "Suppe",
+          "article": "die",
+          "plural": "die Suppen",
+          "en": "the soup",
+          "image": {
+            "type": "svg",
+            "id": "soup"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "milch",
+          "de": "Milch",
+          "article": "die",
+          "plural": "—",
+          "en": "the milk",
+          "image": {
+            "type": "svg",
+            "id": "milk"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "sessel",
+          "de": "Sessel",
+          "article": "der",
+          "plural": "die Sessel",
+          "en": "the armchair",
+          "image": {
+            "type": "svg",
+            "id": "chair"
+          },
+          "hint": "der"
+        },
+        {
+          "id": "messgerät",
+          "de": "Messgerät",
+          "article": "das",
+          "plural": "die Messgeräte",
+          "en": "the blood-pressure monitor",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          },
+          "hint": "das"
+        },
+        {
+          "id": "probe",
+          "de": "Probe",
+          "article": "die",
+          "plural": "die Proben",
+          "en": "the sample",
+          "image": {
+            "type": "svg",
+            "id": "vial"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "apotheke",
+          "de": "Apotheke",
+          "article": "die",
+          "plural": "die Apotheken",
+          "en": "the pharmacy",
+          "image": {
+            "type": "svg",
+            "id": "pharmacy"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "infusion",
+          "de": "Infusion",
+          "article": "die",
+          "plural": "die Infusionen",
+          "en": "the infusion",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-past",
+      "type": "builder",
+      "label": "Build",
+      "title": "Der Satz von gestern",
+      "practice": "build",
+      "instructions": "Build yesterday's line. The adjective or the thing can also stand first.",
+      "items": [
+        {
+          "tiles": [
+            "Die",
+            "Apotheke",
+            "war",
+            "zu"
+          ],
+          "answers": [
+            "Die Apotheke war zu",
+            "Zu war die Apotheke"
+          ],
+          "punct": ".",
+          "modal": "war",
+          "inf": "zu",
+          "question": false,
+          "en": "The pharmacy was closed.",
+          "hint": "Die Apotheke war zu. Or zu first.",
+          "feedback": {
+            "end": "zu can close the line.",
+            "fallback": "Die Apotheke war zu. Or: Zu war die Apotheke."
+          },
+          "task": "War die Apotheke offen?"
+        },
+        {
+          "tiles": [
+            "Der",
+            "Monitor",
+            "hatte",
+            "einen",
+            "Alarm"
+          ],
+          "answers": [
+            "Der Monitor hatte einen Alarm",
+            "Einen Alarm hatte der Monitor"
+          ],
+          "punct": ".",
+          "modal": "hatte",
+          "inf": "Alarm",
+          "question": false,
+          "en": "The monitor had an alarm.",
+          "hint": "Der Monitor hatte einen Alarm. Or the alarm first.",
+          "feedback": {
+            "end": "Alarm closes einen Alarm.",
+            "fallback": "Der Monitor hatte einen Alarm. Or: Einen Alarm hatte der Monitor."
+          },
+          "task": "Was hatte der Monitor?"
+        },
+        {
+          "tiles": [
+            "Die",
+            "Flure",
+            "waren",
+            "leer"
+          ],
+          "answers": [
+            "Die Flure waren leer",
+            "Leer waren die Flure"
+          ],
+          "punct": ".",
+          "modal": "waren",
+          "inf": "leer",
+          "question": false,
+          "en": "The corridors were empty.",
+          "hint": "Die Flure waren leer. Or leer first.",
+          "feedback": {
+            "end": "leer can close the line.",
+            "fallback": "Die Flure waren leer. Or: Leer waren die Flure."
+          },
+          "task": "Wie waren die Flure?"
+        },
+        {
+          "tiles": [
+            "Die",
+            "Patientin",
+            "hatte",
+            "Schüttelfrost"
+          ],
+          "answers": [
+            "Die Patientin hatte Schüttelfrost",
+            "Schüttelfrost hatte die Patientin"
+          ],
+          "punct": ".",
+          "modal": "hatte",
+          "inf": "Schüttelfrost",
+          "question": false,
+          "en": "The patient had chills.",
+          "hint": "Die Patientin hatte Schüttelfrost. Or Schüttelfrost first.",
+          "feedback": {
+            "end": "Schüttelfrost closes the line.",
+            "fallback": "Die Patientin hatte Schüttelfrost. Or: Schüttelfrost hatte die Patientin."
+          },
+          "task": "Was hatte die Patientin?"
+        }
+      ]
+    },
+    {
+      "id": "transform-past",
+      "label": "Rewrite",
+      "title": "Heute wird gestern",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The cue is today. Pick yesterday's line. A present form or the wrong verb is a trap.",
+      "chips": [
+        {
+          "w": "Gestern war das Messgerät kaputt",
+          "hint": "war."
+        },
+        {
+          "w": "Gestern hatte sie Übelkeit",
+          "hint": "hatte."
+        },
+        {
+          "w": "Gestern waren die Räume dunkel",
+          "hint": "waren."
+        },
+        {
+          "w": "Gestern hatte Anna den Bericht",
+          "hint": "hatte."
+        },
+        {
+          "w": "Gestern war der Koch im Büro",
+          "hint": "war."
+        },
+        {
+          "w": "Gestern hatten die Azubis Dienst",
+          "hint": "hatten."
+        },
+        {
+          "w": "Gestern hatte das Messgerät kaputt",
+          "hint": "war."
+        },
+        {
+          "w": "Gestern war sie Übelkeit",
+          "hint": "hatte."
+        },
+        {
+          "w": "Gestern hatten die Räume dunkel",
+          "hint": "waren."
+        },
+        {
+          "w": "Gestern war Anna den Bericht",
+          "hint": "hatte."
+        },
+        {
+          "w": "Gestern hatte der Koch im Büro",
+          "hint": "war."
+        },
+        {
+          "w": "Gestern waren die Azubis Dienst",
+          "hint": "hatten."
+        }
+      ],
+      "items": [
+        {
+          "before": "Heute ist das Messgerät kaputt. Gestern:",
+          "after": ".",
+          "answer": "Gestern war das Messgerät kaputt",
+          "en": "Yesterday the device was broken.",
+          "why": "kaputt takes sein.",
+          "tip": "war.",
+          "hint": "war."
+        },
+        {
+          "before": "Heute hat sie Übelkeit. Gestern:",
+          "after": ".",
+          "answer": "Gestern hatte sie Übelkeit",
+          "en": "Yesterday she had nausea.",
+          "why": "Übelkeit takes haben.",
+          "tip": "hatte.",
+          "hint": "hatte."
+        },
+        {
+          "before": "Heute sind die Räume dunkel. Gestern:",
+          "after": ".",
+          "answer": "Gestern waren die Räume dunkel",
+          "en": "Yesterday the rooms were dark.",
+          "why": "dunkel takes sein.",
+          "tip": "waren.",
+          "hint": "waren."
+        },
+        {
+          "before": "Heute hat Anna den Bericht. Gestern:",
+          "after": ".",
+          "answer": "Gestern hatte Anna den Bericht",
+          "en": "Yesterday Anna had the report.",
+          "why": "The report takes haben.",
+          "tip": "hatte.",
+          "hint": "hatte."
+        },
+        {
+          "before": "Heute ist der Koch im Büro. Gestern:",
+          "after": ".",
+          "answer": "Gestern war der Koch im Büro",
+          "en": "Yesterday the cook was in the office.",
+          "why": "A place takes sein.",
+          "tip": "war.",
+          "hint": "war."
+        },
+        {
+          "before": "Heute haben die Azubis Dienst. Gestern:",
+          "after": ".",
+          "answer": "Gestern hatten die Azubis Dienst",
+          "en": "Yesterday the trainees had duty.",
+          "why": "Dienst takes haben.",
+          "tip": "hatten.",
+          "hint": "hatten."
+        }
+      ]
+    },
+    {
+      "id": "error-past",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not yesterday's form. Choose the correction.",
+      "items": [
+        {
+          "clues": [
+            "Die Übergabe und kurz.",
+            "war.",
+            "Die Übergabe hatte kurz."
+          ],
+          "options": [
+            "Die Übergabe war kurz.",
+            "Die Übergabe hatte kurz.",
+            "Die Übergabe ist kurz."
+          ],
+          "answer": 0,
+          "reveal": "Die Übergabe war kurz.",
+          "hint": "war."
+        },
+        {
+          "clues": [
+            "Der Vater und die Schmerzen.",
+            "hatte.",
+            "Der Vater war Schmerzen."
+          ],
+          "options": [
+            "Der Vater hatte Schmerzen.",
+            "Der Vater war Schmerzen.",
+            "Der Vater hat Schmerzen."
+          ],
+          "answer": 0,
+          "reveal": "Der Vater hatte Schmerzen.",
+          "hint": "hatte."
+        },
+        {
+          "clues": [
+            "Die Tochter und der Schlüssel.",
+            "hatte.",
+            "Die Tochter war den Schlüssel."
+          ],
+          "options": [
+            "Die Tochter hatte den Schlüssel.",
+            "Die Tochter war den Schlüssel.",
+            "Die Tochter hat den Schlüssel."
+          ],
+          "answer": 0,
+          "reveal": "Die Tochter hatte den Schlüssel.",
+          "hint": "hatte."
+        },
+        {
+          "clues": [
+            "Die Kinder und wach.",
+            "waren.",
+            "Die Kinder hatten wach."
+          ],
+          "options": [
+            "Die Kinder waren wach.",
+            "Die Kinder hatten wach.",
+            "Die Kinder sind wach."
+          ],
+          "answer": 0,
+          "reveal": "Die Kinder waren wach.",
+          "hint": "waren."
+        },
+        {
+          "clues": [
+            "Wir und das Treppenhaus.",
+            "waren.",
+            "Wir hatten im Treppenhaus."
+          ],
+          "options": [
+            "Wir waren im Treppenhaus.",
+            "Wir hatten im Treppenhaus.",
+            "Wir sind im Treppenhaus."
+          ],
+          "answer": 0,
+          "reveal": "Wir waren im Treppenhaus.",
+          "hint": "waren."
+        },
+        {
+          "clues": [
+            "Sie und der Kittel.",
+            "hatte.",
+            "Sie war einen Kittel."
+          ],
+          "options": [
+            "Sie hatte einen Kittel.",
+            "Sie war einen Kittel.",
+            "Sie hat einen Kittel."
+          ],
+          "answer": 0,
+          "reveal": "Sie hatte einen Kittel.",
+          "hint": "hatte."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-past",
+      "type": "quickreact",
+      "label": "Dialogue",
+      "title": "Welche Antwort?",
+      "practice": "dialogue",
+      "instructions": "A daughter, breakfast, dizziness, a resident, the ward, then the chart. Pick yesterday's line.",
+      "items": [
+        {
+          "speaker": "Tochter",
+          "speakerLine": "Wie war der Dienst?",
+          "prompt": "Was sagen Sie?",
+          "qEn": "Adjective: sein.",
+          "options": [
+            "Der Dienst war ruhig.",
+            "Der Dienst hatte ruhig.",
+            "Der Dienst ist ruhig."
+          ],
+          "answer": 0,
+          "why": "ruhig takes sein. ist is today.",
+          "hint": "war."
+        },
+        {
+          "speaker": "Patientin",
+          "speakerLine": "Der Tee von gestern.",
+          "prompt": "Was sagen Sie?",
+          "qEn": "Adjective: sein.",
+          "options": [
+            "Der Tee war kalt.",
+            "Der Tee hatte kalt.",
+            "Der Tee ist kalt."
+          ],
+          "answer": 0,
+          "why": "kalt takes sein.",
+          "hint": "war."
+        },
+        {
+          "speaker": "Angehöriger",
+          "speakerLine": "Und der Schwindel?",
+          "prompt": "Was sagen Sie?",
+          "qEn": "A symptom she had.",
+          "options": [
+            "Ja, sie hatte Schwindel.",
+            "Ja, sie war Schwindel.",
+            "Ja, sie hat Schwindel."
+          ],
+          "answer": 0,
+          "why": "Schwindel takes haben. hat is today.",
+          "hint": "hatte."
+        },
+        {
+          "speaker": "Bewohnerin",
+          "speakerLine": "Ich hatte Heimweh.",
+          "prompt": "Was sagen Sie?",
+          "qEn": "haben.",
+          "options": [
+            "Ja, die Bewohnerin hatte Heimweh.",
+            "Ja, die Bewohnerin war Heimweh.",
+            "Ja, die Bewohnerin hat Heimweh."
+          ],
+          "answer": 0,
+          "why": "Heimweh takes haben. hat is today.",
+          "hint": "hatte."
+        },
+        {
+          "speaker": "Schichtleitung",
+          "speakerLine": "War das Team auf der Station?",
+          "prompt": "Was sagen Sie?",
+          "qEn": "Place: sein.",
+          "options": [
+            "Ja, das Team war auf der Station.",
+            "Ja, das Team hatte auf der Station.",
+            "Ja, das Team ist auf der Station."
+          ],
+          "answer": 0,
+          "why": "A place takes sein. ist is today.",
+          "hint": "war."
+        },
+        {
+          "speaker": "Kollegin",
+          "speakerLine": "Und die Kurve?",
+          "prompt": "Was sagen Sie?",
+          "qEn": "haben.",
+          "options": [
+            "Ja, der Laborant hatte die Kurve.",
+            "Ja, der Laborant war die Kurve.",
+            "Ja, der Laborant hat die Kurve."
+          ],
+          "answer": 0,
+          "why": "The chart takes haben. hat is today.",
+          "hint": "hatte."
+        }
+      ]
+    },
+    {
+      "id": "writing-roleplay",
+      "type": "writing",
+      "label": "Reply",
+      "title": "Antwort an die Tochter",
+      "practice": "writing",
+      "instructions": "Reply to the daughter about yesterday. Four short lines with war and hatte.",
+      "prompt": "Die Tochter fragt nach gestern. Schreiben Sie vier kurze Sätze.",
+      "bullets": [
+        "Tag war ruhig",
+        "Saft war süß",
+        "hatte den Plan",
+        "war im Dienstzimmer"
+      ],
+      "model": "Der Tag war ruhig. Der Saft war süß. Ich hatte den Plan. Die Gruppe war im Dienstzimmer.",
+      "modelEn": "The day was calm. The juice was sweet. I had the rota. The group was in the staff room.",
+      "hint": "war ruhig. war süß. hatte den Plan. war im Dienstzimmer.",
+      "checklist": [
+        {
+          "id": "t",
+          "label": "Tag war ruhig",
+          "keywords": [
+            "tag war ruhig"
+          ]
+        },
+        {
+          "id": "s",
+          "label": "Saft war süß",
+          "keywords": [
+            "saft war süß"
+          ]
+        },
+        {
+          "id": "p",
+          "label": "hatte den Plan",
+          "keywords": [
+            "hatte den plan"
+          ]
+        },
+        {
+          "id": "d",
+          "label": "war im Dienstzimmer",
+          "keywords": [
+            "war im dienstzimmer"
+          ]
         }
       ]
     },
@@ -1215,117 +2869,118 @@
       "id": "reading",
       "type": "reading",
       "label": "Reading",
-      "title": "Read the note",
+      "title": "Die Kurve von gestern",
       "practice": "reading",
-      "instructions": "Read the note, then answer.",
+      "instructions": "Read the note. Then answer from the text.",
       "document": {
-        "letterhead": "Station 4 · MediDeutsch",
-        "title": "Gestern war er krank",
+        "letterhead": "Station 2 · Kurve",
+        "title": "Gestern",
         "paragraphs": [
-          "Gestern war der Patient krank. Er hatte Fieber. Ich war auf der Station. Wir hatten viel Arbeit. Warst du im Zimmer? Du hattest die Akte. Die Ärzte waren da. Sie hatten keine Zeit."
+          "Anna war im Labor. Lena hatte die Probe.",
+          "Die Kollegen waren in der Kantine. Der Kalender war neu."
         ],
-        "signature": "Anna",
+        "signature": "Lena",
         "stamp": "Station"
       },
       "questions": [
         {
           "kind": "mc",
-          "q": "Wie geht sein für er?",
-          "qEn": "er.",
+          "q": "Wo war Anna in der Notiz?",
+          "qEn": "Place in the note.",
           "options": [
-            "war",
-            "warst",
-            "waren"
+            "im Labor",
+            "in der Kantine",
+            "in der Apotheke"
           ],
           "answer": 0,
-          "why": "er → war.",
-          "hint": "war."
+          "why": "Anna war im Labor.",
+          "hint": "Labor."
         },
         {
           "kind": "mc",
-          "q": "Was hatte der Patient?",
-          "qEn": "haben.",
+          "q": "Wer hatte die Probe?",
+          "qEn": "haben in the note.",
           "options": [
-            "krank",
-            "Fieber",
-            "Zeit"
-          ],
-          "answer": 1,
-          "why": "Er hatte Fieber.",
-          "hint": "Fieber."
-        },
-        {
-          "kind": "mc",
-          "q": "Wie heißt du von sein?",
-          "qEn": "du.",
-          "options": [
-            "wart",
-            "war",
-            "warst"
-          ],
-          "answer": 2,
-          "why": "du → warst.",
-          "hint": "warst."
-        },
-        {
-          "kind": "mc",
-          "q": "Sie, die Ärzte, haben…",
-          "qEn": "plural.",
-          "options": [
-            "hatten",
-            "hatte",
-            "waren"
+            "Lena",
+            "Anna",
+            "die Kollegen"
           ],
           "answer": 0,
-          "why": "hatten keine Zeit.",
-          "hint": "hatten."
+          "why": "Lena hatte die Probe.",
+          "hint": "Lena."
+        },
+        {
+          "kind": "mc",
+          "q": "Wo waren die Kollegen?",
+          "qEn": "Place in the note.",
+          "options": [
+            "in der Kantine",
+            "in der Apotheke",
+            "im Aufzug"
+          ],
+          "answer": 0,
+          "why": "Die Kollegen waren in der Kantine.",
+          "hint": "Kantine."
+        },
+        {
+          "kind": "mc",
+          "q": "Wie war der Kalender?",
+          "qEn": "Adjective in the note.",
+          "options": [
+            "neu",
+            "kaputt",
+            "kalt"
+          ],
+          "answer": 0,
+          "why": "Der Kalender war neu.",
+          "hint": "neu."
         }
       ]
     },
     {
       "id": "writing-past",
-      "label": "Writing",
-      "title": "Write yesterday",
-      "practice": "writing",
       "type": "writing",
-      "instructions": "Write four sentences in the past.",
-      "prompt": "The patient was ill. He had a fever. I was on the ward. We had a lot of work.",
+      "label": "Writing",
+      "title": "Vier Sätze von gestern",
+      "practice": "writing",
+      "instructions": "Write four lines from vital signs, diet, radiology and the shift lead.",
+      "prompt": "Vier Sätze zu Fieber, Kost, Radiologie und Übergabe.",
       "bullets": [
-        "war",
-        "hatte Fieber",
-        "auf der Station",
-        "hatten"
+        "Fieber war hoch",
+        "Kost war salzig",
+        "war in der Radiologie",
+        "hatte die Übergabe"
       ],
-      "model": "Gestern war der Patient krank. Er hatte Fieber. Ich war auf der Station. Wir hatten viel Arbeit.",
-      "modelEn": "Yesterday the patient was ill. He had a fever. I was on the ward. We had a lot of work.",
-      "hint": "war for sein, hatte for haben.",
+      "model": "Das Fieber war hoch. Die Kost war salzig. Die Tochter war in der Radiologie. Die Schichtleitung hatte die Übergabe.",
+      "modelEn": "The fever was high. The diet was salty. The daughter was in radiology. The shift lead had the handover.",
+      "hint": "war hoch. war salzig. war in der Radiologie. hatte die Übergabe.",
       "checklist": [
         {
-          "id": "w",
-          "label": "war",
-          "keywords": [
-            "war"
-          ]
-        },
-        {
           "id": "f",
-          "label": "hatte Fieber",
+          "label": "Fieber war hoch",
           "keywords": [
-            "hatte Fieber"
+            "fieber war hoch"
           ]
         },
         {
-          "id": "s",
-          "label": "auf der Station",
+          "id": "k",
+          "label": "Kost war salzig",
           "keywords": [
-            "auf der Station"
+            "kost war salzig"
           ]
         },
         {
-          "id": "h",
-          "label": "hatten",
+          "id": "r",
+          "label": "war in der Radiologie",
           "keywords": [
-            "hatten"
+            "war in der radiologie"
+          ]
+        },
+        {
+          "id": "u",
+          "label": "hatte die Übergabe",
+          "keywords": [
+            "hatte die übergabe"
           ]
         }
       ]
@@ -1336,166 +2991,169 @@
       "label": "Test",
       "title": "Lernkontrolle",
       "practice": "lernkontrolle",
+      "heroTitle": "Ich war, ich hatte",
+      "heroImage": "clipboard",
       "story": [
-        "Mixed test for chapter 23. Eighty per cent marks the lesson as mastered."
+        "Twelve questions. Eighty percent mastered means at least ten correct."
       ],
+      "questionRule": "Place or adjective: war. A thing someone had: hatte. du warst, ihr wart, ihr hattet. Present stays correct for today.",
       "quizTitle": "Lernkontrolle",
       "quiz": [
         {
           "kind": "mc",
-          "q": "er + sein, yesterday.",
-          "qEn": "war.",
+          "q": "Die Nachtwache und wach. Welche Zeile stimmt?",
+          "qEn": "Adjective: sein.",
           "options": [
-            "Er war krank.",
-            "Er hatte krank.",
-            "Er warst krank."
+            "Die Nachtwache war wach.",
+            "Die Nachtwache hatte wach.",
+            "Die Nachtwache ist wach."
           ],
           "answer": 0,
-          "why": "war.",
+          "why": "wach takes sein. ist is today.",
           "hint": "war."
         },
         {
           "kind": "mc",
-          "q": "er + haben, fever.",
-          "qEn": "hatte.",
+          "q": "Der Gast und der Appetit. Welche Zeile stimmt?",
+          "qEn": "haben.",
           "options": [
-            "Er war Fieber.",
-            "Er hatte Fieber.",
-            "Er hattest Fieber."
+            "Der Gast hatte Appetit.",
+            "Der Gast war Appetit.",
+            "Der Gast hat Appetit."
           ],
-          "answer": 1,
-          "why": "hatte.",
+          "answer": 0,
+          "why": "Appetit takes haben. hat is today.",
           "hint": "hatte."
         },
         {
           "kind": "mc",
-          "q": "ich + sein.",
-          "qEn": "war.",
+          "q": "Er und recht. Welche Zeile stimmt?",
+          "qEn": "haben.",
           "options": [
-            "Ich hatte auf der Station.",
-            "Ich warst auf der Station.",
-            "Ich war auf der Station."
+            "Er hatte recht.",
+            "Er war recht.",
+            "Er hat recht."
           ],
-          "answer": 2,
-          "why": "ich → war.",
+          "answer": 0,
+          "why": "recht haben. hat is today and stays correct.",
+          "hint": "hatte."
+        },
+        {
+          "kind": "mc",
+          "q": "Die Patienten im Hof. Welche Zeile stimmt?",
+          "qEn": "Place: sein.",
+          "options": [
+            "Die Patienten waren im Hof.",
+            "Die Patienten hatten im Hof.",
+            "Die Patienten sind im Hof."
+          ],
+          "answer": 0,
+          "why": "A place takes sein. sind is today.",
+          "hint": "waren."
+        },
+        {
+          "kind": "mc",
+          "q": "Die Familie und die Cafeteria. Welche Zeile stimmt?",
+          "qEn": "Place: sein.",
+          "options": [
+            "Die Familie war in der Cafeteria.",
+            "Die Familie hatte in der Cafeteria.",
+            "Die Familie ist in der Cafeteria."
+          ],
+          "answer": 0,
+          "why": "A place takes sein.",
           "hint": "war."
         },
         {
           "kind": "mc",
-          "q": "du + sein.",
-          "qEn": "warst.",
+          "q": "Sie und die Brille. Welche Zeile stimmt?",
+          "qEn": "haben.",
           "options": [
-            "Du warst im Zimmer.",
-            "Du war im Zimmer.",
-            "Du wart im Zimmer."
+            "Sie hatten eine Brille.",
+            "Sie waren eine Brille.",
+            "Sie haben eine Brille."
           ],
           "answer": 0,
-          "why": "du → warst.",
-          "hint": "warst."
-        },
-        {
-          "kind": "mc",
-          "q": "du + haben.",
-          "qEn": "hattest.",
-          "options": [
-            "Du hatte die Akte.",
-            "Du hattest die Akte.",
-            "Du wart die Akte."
-          ],
-          "answer": 1,
-          "why": "du → hattest.",
-          "hint": "hattest."
-        },
-        {
-          "kind": "mc",
-          "q": "wir + sein.",
-          "qEn": "waren.",
-          "options": [
-            "Wir war da.",
-            "Wir hatten da.",
-            "Wir waren da."
-          ],
-          "answer": 2,
-          "why": "wir → waren.",
-          "hint": "waren."
-        },
-        {
-          "kind": "mc",
-          "q": "wir + haben.",
-          "qEn": "hatten.",
-          "options": [
-            "Wir hatten viel Arbeit.",
-            "Wir hatte viel Arbeit.",
-            "Wir waren viel Arbeit."
-          ],
-          "answer": 0,
-          "why": "wir → hatten.",
+          "why": "The glasses are a thing, so haben. haben is today.",
           "hint": "hatten."
         },
         {
           "kind": "mc",
-          "q": "sie plural + sein.",
-          "qEn": "waren.",
+          "q": "Er und die Küche. Welche Zeile stimmt?",
+          "qEn": "Place: sein.",
           "options": [
-            "Die Ärzte war da.",
-            "Die Ärzte waren da.",
-            "Die Ärzte hatte da."
+            "Er war in der Küche.",
+            "Er hatte in der Küche.",
+            "Er ist in der Küche."
           ],
-          "answer": 1,
-          "why": "waren.",
+          "answer": 0,
+          "why": "A place takes sein. The Notaufnahme line is a different sentence.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "Er und der Gips. Welche Zeile stimmt?",
+          "qEn": "haben.",
+          "options": [
+            "Er hatte einen Gips.",
+            "Er war einen Gips.",
+            "Er hat einen Gips."
+          ],
+          "answer": 0,
+          "why": "The cast is a thing, so haben.",
+          "hint": "hatte."
+        },
+        {
+          "kind": "mc",
+          "q": "Die Jungen und leise. Welche Zeile stimmt?",
+          "qEn": "Adjective: sein.",
+          "options": [
+            "Die Jungen waren leise.",
+            "Die Jungen hatten leise.",
+            "Die Jungen sind leise."
+          ],
+          "answer": 0,
+          "why": "leise takes sein. The children who were awake are a different sentence.",
           "hint": "waren."
         },
         {
           "kind": "mc",
-          "q": "sie plural + haben.",
-          "qEn": "hatten.",
+          "q": "Die Mutter und geduldig. Welche Zeile stimmt?",
+          "qEn": "Adjective: sein.",
           "options": [
-            "Sie hatte keine Zeit.",
-            "Sie waren keine Zeit.",
-            "Sie hatten keine Zeit."
-          ],
-          "answer": 2,
-          "why": "hatten.",
-          "hint": "hatten."
-        },
-        {
-          "kind": "mc",
-          "q": "ihr + sein.",
-          "qEn": "wart.",
-          "options": [
-            "Ihr wart im Zimmer.",
-            "Ihr warst im Zimmer.",
-            "Ihr war im Zimmer."
+            "Die Mutter war geduldig.",
+            "Die Mutter hatte geduldig.",
+            "Die Mutter ist geduldig."
           ],
           "answer": 0,
-          "why": "ihr → wart.",
-          "hint": "wart."
+          "why": "geduldig takes sein. Angst is a different sentence.",
+          "hint": "war."
         },
         {
           "kind": "mc",
-          "q": "ihr + haben.",
-          "qEn": "hattet.",
+          "q": "Der Ausweis und das Fach. Welche Zeile stimmt?",
+          "qEn": "Place: sein.",
           "options": [
-            "Ihr hattest die Akte.",
-            "Ihr hattet die Akte.",
-            "Ihr hatte die Akte."
+            "Der Ausweis war im Fach.",
+            "Der Ausweis hatte im Fach.",
+            "Der Ausweis ist im Fach."
           ],
-          "answer": 1,
-          "why": "ihr → hattet.",
-          "hint": "hattet."
+          "answer": 0,
+          "why": "A place takes sein. You had the card is a different sentence.",
+          "hint": "war."
         },
         {
           "kind": "mc",
-          "q": "Sie formal + haben, question.",
-          "qEn": "hatten.",
+          "q": "Der Arzt und die Bereitschaft. Welche Zeile stimmt?",
+          "qEn": "haben.",
           "options": [
-            "Hattest Sie Fieber?",
-            "War Sie Fieber?",
-            "Hatten Sie Fieber?"
+            "Der Arzt hatte Bereitschaft.",
+            "Der Arzt war Bereitschaft.",
+            "Der Arzt hat Bereitschaft."
           ],
-          "answer": 2,
-          "why": "Sie → hatten.",
-          "hint": "Hatten."
+          "answer": 0,
+          "why": "Bereitschaft takes haben. hat is today.",
+          "hint": "hatte."
         }
       ]
     },
@@ -1503,29 +3161,42 @@
       "id": "summary",
       "type": "summary",
       "label": "Summary",
-      "title": "war und hatte",
+      "title": "Ich war, ich hatte",
+      "reviewStepType": "grammar",
       "redemittel": [
         {
-          "de": "Gestern war der Patient krank.",
-          "en": "Yesterday the patient was ill."
+          "de": "Der Blutdruck war niedrig.",
+          "en": "The blood pressure was low."
         },
         {
-          "de": "Er hatte Fieber.",
-          "en": "He had a fever."
+          "de": "Die Diätassistentin hatte Zeit.",
+          "en": "The dietitian had time."
         },
         {
-          "de": "Ich war auf der Station.",
-          "en": "I was on the ward."
+          "de": "Ich war in der Notaufnahme.",
+          "en": "I was in the emergency department."
         },
         {
-          "de": "Wir hatten viel Arbeit.",
-          "en": "We had a lot of work."
-        },
-        {
-          "de": "Du hattest die Akte.",
-          "en": "You had the chart."
+          "de": "Die Besucher hatten Fragen.",
+          "en": "The visitors had questions."
         }
+      ],
+      "messages": [
+        "sein becomes war, warst, waren, wart. haben becomes hatte, hattest, hatten, hattet.",
+        "A place or an adjective takes war. A thing someone had takes hatte. du has st. ihr wart does not.",
+        "Sehr gut. Der Blutdruck war niedrig. Die Diätassistentin hatte Zeit.",
+        "Ausgezeichnet. You can say where someone was and what they had yesterday."
       ]
     }
+  ],
+  "scenarios": [
+    "a2-krankenhaus",
+    "a2-patienten",
+    "a2-vitalwerte",
+    "a2-untersuchungen",
+    "a2-notfall",
+    "b1-aufnahme",
+    "b1-demenz",
+    "b1-team"
   ]
 }
