@@ -1,0 +1,1096 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-76-je-desto",
+  "level": "B1",
+  "unit": "Kapitel 76",
+  "chapter": 76,
+  "chapters": [76],
+  "title": "Je größer, desto besser!",
+  "subtitle": "The … the …",
+  "glossary": {
+    "je": {
+      "de": "je",
+      "pos": "conjunction",
+      "en": "the (more)",
+      "emoji": "📈",
+      "note": "Opens the first clause. Comparative, then the verb at the end. The result is desto or umso. Both are correct."
+    },
+    "größer": {
+      "de": "größer",
+      "pos": "adjective",
+      "en": "bigger",
+      "emoji": "📈",
+      "note": "Comparative of groß. Je größer, desto besser. Not je groß. Not desto am besten. am besten stays a superlative, chapter 39."
+    },
+    "desto": {
+      "de": "desto",
+      "pos": "conjunction",
+      "en": "the (more)",
+      "emoji": "📈",
+      "note": "Opens the result. desto plus a comparative is position 1, so the verb is position 2. umso means the same and stays correct."
+    },
+    "besser": {
+      "de": "besser",
+      "pos": "adjective",
+      "en": "better",
+      "emoji": "✅",
+      "note": "Comparative of gut. desto besser. umso besser. Not besser as a positive. Er schläft besser stays a main clause with no je."
+    },
+    "früher": {
+      "de": "früher",
+      "pos": "adverb",
+      "en": "earlier",
+      "emoji": "📞",
+      "note": "Comparative of früh. Je früher wir rufen, desto besser. In the je-clause the verb is last: wir rufen. Not rufen wir."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "rufen": {
+      "de": "rufen → wir rufen",
+      "pos": "form",
+      "en": "call",
+      "emoji": "📞",
+      "note": "wir rufen. At the end of the je-clause. Je früher wir rufen. Je früher wir rufen, umso besser stays correct too."
+    },
+    "umso": {
+      "de": "umso",
+      "pos": "conjunction",
+      "en": "the (more)",
+      "emoji": "📈",
+      "note": "Same job as desto. Je mehr er trinkt, umso besser. desto in that sentence stays correct. Not a second je."
+    },
+    "sicherer": {
+      "de": "sicherer",
+      "pos": "adjective",
+      "en": "safer",
+      "emoji": "🌙",
+      "note": "Comparative of sicher. umso sicherer ist die Nacht. sicher after ist has no extra ending: die Nacht ist sicher."
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🌙",
+      "note": "Position 2 in the result: umso sicherer ist die Nacht. Not umso sicherer die Nacht ist."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine)", "emoji": "🌙", "note": "die Nacht. Nominative, the subject of ist." },
+    "nacht": {
+      "de": "Nacht",
+      "pos": "noun",
+      "en": "night",
+      "emoji": "🌙",
+      "article": "die",
+      "plural": "die Nächte",
+      "note": "die Nacht. umso sicherer ist die Nacht. Die Nacht ist sicher stays the positive, with no ending."
+    },
+    "mehr": {
+      "de": "mehr",
+      "pos": "adverb",
+      "en": "more",
+      "emoji": "🍵",
+      "note": "Comparative of viel. Je mehr er trinkt, umso besser. Not je viel. The verb trinkt is last in the je-clause."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "trinkt": {
+      "de": "trinken → er trinkt",
+      "pos": "form",
+      "en": "drinks",
+      "emoji": "🍵",
+      "note": "At the end of the je-clause: je mehr er trinkt. Not je mehr trinkt er."
+    },
+    "schläft": {
+      "de": "schlafen → er schläft",
+      "pos": "form",
+      "en": "sleeps",
+      "emoji": "😴",
+      "note": "Position 2 after desto besser: desto besser schläft er. Er schläft besser stays a main clause with no pair."
+    },
+    "höher": {
+      "de": "höher",
+      "pos": "adjective",
+      "en": "higher",
+      "emoji": "🌡️",
+      "note": "Comparative of hoch. Je höher, desto schlechter. Das Fieber ist hoch stays the positive, with no ending."
+    },
+    "schlechter": {
+      "de": "schlechter",
+      "pos": "adjective",
+      "en": "worse",
+      "emoji": "📉",
+      "note": "Comparative of schlecht. desto schlechter. umso schlechter. Not schlecht in this pair."
+    },
+    "später": {
+      "de": "später",
+      "pos": "adverb",
+      "en": "later",
+      "emoji": "📞",
+      "note": "Comparative of spät. Je später, umso schlechter. Je später, desto schlechter stays correct too."
+    },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🌡️", "note": "das Fieber." },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Fieber",
+      "note": "das Fieber. Das Fieber ist hoch. No ending on hoch. Je höher is the comparative in the pair."
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high",
+      "emoji": "🌡️",
+      "note": "Positive. Das Fieber ist hoch. No ending after ist. The pair needs the comparative höher, not hoch."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "The more, the better",
+      "learn": [
+        "je opens the first clause. Use a comparative, and put the verb at the end. Je früher wir rufen, desto besser.",
+        "desto or umso opens the result. Both are correct. The comparative is position 1, so the verb is position 2: desto besser schläft er.",
+        "The pair needs comparatives, not the positive and not the superlative. Je höher, desto schlechter. Das Fieber ist hoch stays the positive.",
+        "Je früher wir rufen, umso sicherer ist die Nacht. stärker als stays chapter 38. am besten stays chapter 39. er steht auf stays a main clause."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Nacht", "article": "die", "plural": "die Nächte", "en": "night", "emoji": "🌙", "glossaryKey": "nacht" },
+        { "de": "Fieber", "article": "das", "plural": "die Fieber", "en": "fever", "emoji": "🌡️", "glossaryKey": "fieber" },
+        { "de": "besser", "en": "better", "emoji": "✅", "glossaryKey": "besser" }
+      ],
+      "text": {
+        "title": "Je größer, desto besser!",
+        "de": "Je größer, desto besser! Je früher wir rufen, desto besser. Je früher wir rufen, umso sicherer ist die Nacht. Je mehr er trinkt, umso besser. Je früher, desto besser schläft er. Je höher, desto schlechter. Je später, umso schlechter. Das Fieber ist hoch.",
+        "en": "The bigger, the better! The earlier we call, the better. The earlier we call, the safer the night is. The more he drinks, the better. The earlier, the better he sleeps. The higher, the worse. The later, the worse. The fever is high."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "je … desto",
+      "practice": "choose",
+      "heroTitle": "Je größer, desto besser!",
+      "heroImage": "bed",
+      "story": [
+        "<b>je</b> opens the first clause. Put a <b>comparative</b> in it, and put the verb at the end. <b>Je größer, desto besser! Je früher wir rufen, desto besser.</b> Not je früher rufen wir. The comma stands between the two clauses.",
+        "<b>desto</b> and <b>umso</b> both open the result. They mean the same. <b>Je früher wir rufen, umso sicherer ist die Nacht.</b> That is the earlier we call, the safer the night is. <b>Je mehr er trinkt, umso besser</b> stays correct, and <b>desto besser</b> in that sentence stays correct too.",
+        "In the result, <b>desto</b> or <b>umso</b> plus the comparative is position 1. The verb is position 2. <b>Je früher, desto besser schläft er.</b> Not desto er schläft besser. <b>umso sicherer ist die Nacht.</b> Not umso sicherer die Nacht ist. <b>Er schläft besser</b> stays a main clause with no pair.",
+        "The pair needs the comparative, not the positive and not the superlative. <b>Je höher, desto schlechter. Je später, umso schlechter.</b> <b>Das Fieber ist hoch</b> stays the positive, and hoch has no ending after ist. <b>Das ist am besten</b> stays the superlative, chapter 39. Not desto am besten.",
+        "A separable verb is one word at the end of the je-clause: Je früher er aufsteht, desto besser. <b>Er steht auf</b> stays the main clause, prefix last. Not je früher er steht auf.",
+        "<b>Der Schmerz ist stärker als gestern</b> stays the comparison, chapter 38. <b>Als er kam</b> stays one past event, chapter 72. <b>sowohl … als auch</b> stays chapter 75. Those als words are not desto."
+      ],
+      "questionRule": "je plus a comparative, verb at the end. desto or umso plus a comparative, then the verb in position 2. umso and desto both stay correct. Not the positive, and not am besten, in the pair.",
+      "tables": [
+        {
+          "title": "je … desto",
+          "caption": "umso does the same job as desto. The verb of the je-clause is last. The verb of the result is position 2.",
+          "columns": ["Teil", "Satz"],
+          "rows": [
+            { "label": "je", "cells": ["first clause", "Je früher wir rufen"], "highlight": true },
+            { "label": "desto", "cells": ["result", "desto besser"], "highlight": true },
+            { "label": "umso", "cells": ["same result", "umso sicherer ist die Nacht"] },
+            { "label": "Verb", "cells": ["position 2", "desto besser schläft er"] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "Comparatives only. Das Fieber ist hoch stays the positive.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "größer", "cells": ["Je größer, desto besser!"], "highlight": true },
+            { "label": "früher", "cells": ["Je früher wir rufen, desto besser."] },
+            { "label": "Nacht", "cells": ["Je früher wir rufen, umso sicherer ist die Nacht."], "highlight": true },
+            { "label": "mehr", "cells": ["Je mehr er trinkt, umso besser."] },
+            { "label": "schläft", "cells": ["Je früher, desto besser schläft er."] },
+            { "label": "höher", "cells": ["Je höher, desto schlechter."] },
+            { "label": "später", "cells": ["Je später, umso schlechter."] },
+            { "label": "hoch", "cells": ["Das Fieber ist hoch."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "umso and desto both stay correct. Das Fieber ist hoch, Er schläft besser, Das ist am besten, stärker als, and Er steht auf stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "je", "cells": ["Je früher rufen wir", "Je früher wir rufen"] },
+            { "label": "desto", "cells": ["desto er schläft besser", "desto besser schläft er"] },
+            { "label": "umso", "cells": ["Je mehr trinkt er", "Je mehr er trinkt"] },
+            { "label": "Positiv", "cells": ["Je hoch, desto schlecht", "Je höher, desto schlechter"] },
+            { "label": "Super", "cells": ["desto am besten", "desto besser"] },
+            { "label": "auf", "cells": ["je früher er steht auf", "je früher er aufsteht"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four je-desto traps",
+        "items": [
+          { "de": "Je größer, desto besser!", "en": "Comparative, then the result.", "tone": "ok" },
+          { "de": "Je größer, desto am besten!", "en": "Not the superlative.", "tone": "stop" },
+          { "de": "Je früher wir rufen, desto besser.", "en": "rufen is last.", "tone": "ok" },
+          { "de": "Je früher rufen wir, desto besser.", "en": "rufen is too early.", "tone": "stop" },
+          { "de": "Je früher, desto besser schläft er.", "en": "schläft is position 2.", "tone": "ok" },
+          { "de": "Je früher, desto er schläft besser.", "en": "schläft is too late.", "tone": "stop" },
+          { "de": "Je mehr er trinkt, umso besser.", "en": "umso is correct too.", "tone": "ok" },
+          { "de": "Je mehr trinkt er, umso besser.", "en": "trinkt is too early.", "tone": "stop" }
+        ],
+        "tip": "je, comparative, verb last. desto or umso, comparative, verb in position 2."
+      },
+      "tips": [
+        {
+          "title": "desto and umso",
+          "body": "Je größer, desto besser. Je mehr er trinkt, umso besser. Same pattern.",
+          "mnemonic": "je … desto. je … umso.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "größer", "emoji": "📈", "en": "the bigger, the better", "use": "comparatives", "de": "Je größer, desto besser!", "deEn": "The bigger, the better!" },
+        { "modal": "früher", "emoji": "📞", "en": "the earlier we call", "use": "verb last", "de": "Je früher wir rufen, desto besser.", "deEn": "The earlier we call, the better." },
+        { "modal": "umso", "emoji": "🍵", "en": "the more he drinks", "use": "umso or desto", "de": "Je mehr er trinkt, umso besser.", "deEn": "The more he drinks, the better." },
+        { "modal": "schläft", "emoji": "😴", "en": "the better he sleeps", "use": "verb position 2", "de": "Je früher, desto besser schläft er.", "deEn": "The earlier, the better he sleeps." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The bigger, the better.",
+          "qEn": "Je größer, desto besser.",
+          "options": ["Je größer, desto besser!", "Je größer, desto am besten!", "Das ist am besten."],
+          "answer": 0,
+          "why": "Comparatives. Das ist am besten stays the superlative, chapter 39. Not inside this pair.",
+          "hint": "besser."
+        },
+        {
+          "kind": "mc",
+          "q": "The earlier we call, the better.",
+          "qEn": "Je früher wir rufen.",
+          "options": ["Je früher wir rufen, desto besser.", "Je früher rufen wir, desto besser.", "Je früher wir rufen, umso besser."],
+          "answer": 0,
+          "why": "wir rufen, verb last. Je früher wir rufen, umso besser stays correct too. umso and desto mean the same.",
+          "hint": "rufen."
+        },
+        {
+          "kind": "mc",
+          "q": "The earlier, the better he sleeps.",
+          "qEn": "desto besser schläft er.",
+          "options": ["Je früher, desto besser schläft er.", "Je früher, desto er schläft besser.", "Er schläft besser."],
+          "answer": 0,
+          "why": "desto besser is position 1, schläft is position 2. Er schläft besser stays a main clause with no pair.",
+          "hint": "schläft."
+        },
+        {
+          "kind": "mc",
+          "q": "The more he drinks, the better. With umso.",
+          "qEn": "umso besser.",
+          "options": ["Je mehr er trinkt, umso besser.", "Je mehr trinkt er, umso besser.", "Je mehr er trinkt, desto besser."],
+          "answer": 0,
+          "why": "er trinkt, verb last. Je mehr er trinkt, desto besser stays correct too.",
+          "hint": "umso."
+        },
+        {
+          "kind": "mc",
+          "q": "The higher, the worse.",
+          "qEn": "Je höher, desto schlechter.",
+          "options": ["Je höher, desto schlechter.", "Je hoch, desto schlecht.", "Das Fieber ist hoch."],
+          "answer": 0,
+          "why": "Comparatives höher and schlechter. Das Fieber ist hoch stays the positive, with no ending.",
+          "hint": "höher."
+        },
+        {
+          "kind": "mc",
+          "q": "The later, the worse. With umso.",
+          "qEn": "Je später, umso schlechter.",
+          "options": ["Je später, umso schlechter.", "Je spät, umso schlecht.", "Je später, desto schlechter."],
+          "answer": 0,
+          "why": "Comparatives. Je später, desto schlechter stays correct too.",
+          "hint": "umso."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "je, then a comparative, verb at the end. desto or umso in the result, then the verb in position 2. The other correct word, umso or desto, is not a chip here.",
+      "chips": [
+        { "w": "Je größer, desto besser", "hint": "desto." },
+        { "w": "Je früher wir rufen, desto besser", "hint": "rufen." },
+        { "w": "Je früher, desto besser schläft er", "hint": "schläft." },
+        { "w": "Je mehr er trinkt, umso besser", "hint": "umso." },
+        { "w": "Je höher, desto schlechter", "hint": "höher." },
+        { "w": "Je später, umso schlechter", "hint": "umso." },
+        { "w": "Je größer, desto am besten", "hint": "besser." },
+        { "w": "Je früher rufen wir, desto besser", "hint": "rufen." },
+        { "w": "Je früher, desto er schläft besser", "hint": "schläft." },
+        { "w": "Je mehr trinkt er, umso besser", "hint": "umso." },
+        { "w": "Je hoch, desto schlecht", "hint": "höher." },
+        { "w": "Je spät, umso schlecht", "hint": "später." }
+      ],
+      "items": [
+        {
+          "before": "The bigger, the better:",
+          "after": "!",
+          "answer": "Je größer, desto besser",
+          "en": "The bigger, the better!",
+          "why": "Comparatives. Das ist am besten stays chapter 39. Je größer, umso besser stays correct too.",
+          "tip": "besser.",
+          "hint": "besser."
+        },
+        {
+          "before": "The earlier we call, the better:",
+          "after": ".",
+          "answer": "Je früher wir rufen, desto besser",
+          "en": "The earlier we call, the better.",
+          "why": "wir rufen, verb last. Je früher wir rufen, umso besser stays correct too.",
+          "tip": "rufen.",
+          "hint": "rufen."
+        },
+        {
+          "before": "The earlier, the better he sleeps:",
+          "after": ".",
+          "answer": "Je früher, desto besser schläft er",
+          "en": "The earlier, the better he sleeps.",
+          "why": "schläft is position 2. Er schläft besser stays a main clause.",
+          "tip": "schläft.",
+          "hint": "schläft."
+        },
+        {
+          "before": "The more he drinks, the better. With umso:",
+          "after": ".",
+          "answer": "Je mehr er trinkt, umso besser",
+          "en": "The more he drinks, the better.",
+          "why": "umso. Je mehr er trinkt, desto besser stays correct too.",
+          "tip": "umso.",
+          "hint": "umso."
+        },
+        {
+          "before": "The higher, the worse:",
+          "after": ".",
+          "answer": "Je höher, desto schlechter",
+          "en": "The higher, the worse.",
+          "why": "höher and schlechter. Das Fieber ist hoch stays the positive.",
+          "tip": "höher.",
+          "hint": "höher."
+        },
+        {
+          "before": "The later, the worse. With umso:",
+          "after": ".",
+          "answer": "Je später, umso schlechter",
+          "en": "The later, the worse.",
+          "why": "umso. Je später, desto schlechter stays correct too.",
+          "tip": "umso.",
+          "hint": "umso."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line is the pair. One is not German. umso or desto, a positive, and a main clause stay correct.",
+      "items": [
+        {
+          "prompt": "The bigger, the better",
+          "options": [
+            { "emoji": "📈", "label": "Je größer, desto besser!", "caption": "comparatives" },
+            { "emoji": "🚫", "label": "Je größer, desto am besten!", "caption": "not am besten" },
+            { "emoji": "✅", "label": "Das ist am besten.", "caption": "superlative" }
+          ],
+          "answer": 0,
+          "why": "desto besser. Das ist am besten stays chapter 39.",
+          "hint": "besser."
+        },
+        {
+          "prompt": "The earlier we call, the better",
+          "options": [
+            { "emoji": "📞", "label": "Je früher wir rufen, desto besser.", "caption": "verb last" },
+            { "emoji": "🚫", "label": "Je früher rufen wir, desto besser.", "caption": "verb too early" },
+            { "emoji": "📞", "label": "Je früher wir rufen, umso besser.", "caption": "umso" }
+          ],
+          "answer": 0,
+          "why": "wir rufen. umso besser stays correct too.",
+          "hint": "rufen."
+        },
+        {
+          "prompt": "The earlier, the better he sleeps",
+          "options": [
+            { "emoji": "😴", "label": "Je früher, desto besser schläft er.", "caption": "position 2" },
+            { "emoji": "🚫", "label": "Je früher, desto er schläft besser.", "caption": "verb too late" },
+            { "emoji": "😴", "label": "Er schläft besser.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "schläft is position 2. Er schläft besser stays a main clause.",
+          "hint": "schläft."
+        },
+        {
+          "prompt": "The more he drinks, the better",
+          "options": [
+            { "emoji": "🍵", "label": "Je mehr er trinkt, umso besser.", "caption": "umso" },
+            { "emoji": "🚫", "label": "Je mehr trinkt er, umso besser.", "caption": "verb too early" },
+            { "emoji": "🍵", "label": "Je mehr er trinkt, desto besser.", "caption": "desto" }
+          ],
+          "answer": 0,
+          "why": "er trinkt. desto stays correct too.",
+          "hint": "umso."
+        },
+        {
+          "prompt": "The higher, the worse",
+          "options": [
+            { "emoji": "🌡️", "label": "Je höher, desto schlechter.", "caption": "comparatives" },
+            { "emoji": "🚫", "label": "Je hoch, desto schlecht.", "caption": "not the positive" },
+            { "emoji": "🌡️", "label": "Das Fieber ist hoch.", "caption": "positive" }
+          ],
+          "answer": 0,
+          "why": "höher and schlechter. Das Fieber ist hoch stays the positive.",
+          "hint": "höher."
+        },
+        {
+          "prompt": "The later, the worse",
+          "options": [
+            { "emoji": "📉", "label": "Je später, umso schlechter.", "caption": "umso" },
+            { "emoji": "🚫", "label": "Je spät, umso schlecht.", "caption": "not the positive" },
+            { "emoji": "📉", "label": "Je später, desto schlechter.", "caption": "desto" }
+          ],
+          "answer": 0,
+          "why": "Comparatives. desto schlechter stays correct too.",
+          "hint": "umso."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, the better he sleeps",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, the earlier we call",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, the higher the fever",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, the bigger the better",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Verb in its place",
+      "practice": "build",
+      "instructions": "Build the line. In the je-clause the verb is last. In the result the verb is position 2.",
+      "items": [
+        {
+          "tiles": ["Je", "größer,", "desto", "besser"],
+          "answers": ["Je größer, desto besser"],
+          "punct": "!",
+          "modal": "je",
+          "inf": "besser",
+          "question": false,
+          "en": "The bigger, the better!",
+          "hint": "Je größer, desto besser!",
+          "feedback": {
+            "end": "besser closes desto besser.",
+            "fallback": "Je größer, desto besser!"
+          }
+        },
+        {
+          "tiles": ["Je", "früher", "wir", "rufen,", "desto", "besser"],
+          "answers": ["Je früher wir rufen, desto besser"],
+          "punct": ".",
+          "modal": "je",
+          "inf": "besser",
+          "question": false,
+          "en": "The earlier we call, the better.",
+          "hint": "Je früher wir rufen, desto besser.",
+          "feedback": {
+            "end": "besser closes the result.",
+            "fallback": "Je früher wir rufen, desto besser. rufen is last in the je-clause."
+          }
+        },
+        {
+          "tiles": ["Je", "mehr", "er", "trinkt,", "umso", "besser"],
+          "answers": ["Je mehr er trinkt, umso besser"],
+          "punct": ".",
+          "modal": "je",
+          "inf": "besser",
+          "question": false,
+          "en": "The more he drinks, the better.",
+          "hint": "Je mehr er trinkt, umso besser.",
+          "feedback": {
+            "end": "besser closes umso besser.",
+            "fallback": "Je mehr er trinkt, umso besser. trinkt is last in the je-clause."
+          }
+        },
+        {
+          "tiles": ["Je", "früher,", "desto", "besser", "schläft", "er"],
+          "answers": ["Je früher, desto besser schläft er"],
+          "punct": ".",
+          "modal": "desto",
+          "inf": "er",
+          "question": false,
+          "en": "The earlier, the better he sleeps.",
+          "hint": "Je früher, desto besser schläft er.",
+          "feedback": {
+            "end": "er closes desto besser schläft er.",
+            "fallback": "Je früher, desto besser schläft er. schläft is position 2."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into je … desto",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the pair the English asks for. umso and desto both stay correct, so only the asked word is a chip.",
+      "chips": [
+        { "w": "Je größer, desto besser", "hint": "desto." },
+        { "w": "Je früher wir rufen, desto besser", "hint": "rufen." },
+        { "w": "Je früher, desto besser schläft er", "hint": "schläft." },
+        { "w": "Je mehr er trinkt, umso besser", "hint": "umso." },
+        { "w": "Je höher, desto schlechter", "hint": "höher." },
+        { "w": "Je später, umso schlechter", "hint": "umso." },
+        { "w": "Je größer, desto am besten", "hint": "besser." },
+        { "w": "Je früher rufen wir, desto besser", "hint": "rufen." },
+        { "w": "Je früher, desto er schläft besser", "hint": "schläft." },
+        { "w": "Je mehr trinkt er, umso besser", "hint": "umso." },
+        { "w": "Je hoch, desto schlecht", "hint": "höher." },
+        { "w": "Je spät, umso schlecht", "hint": "später." }
+      ],
+      "items": [
+        {
+          "before": "Das ist am besten stays chapter 39. The bigger, the better:",
+          "after": "!",
+          "answer": "Je größer, desto besser",
+          "en": "The bigger, the better!",
+          "why": "desto besser. am besten stays the superlative.",
+          "tip": "besser.",
+          "hint": "besser."
+        },
+        {
+          "before": "Je früher wir rufen, umso besser stays correct. With desto:",
+          "after": ".",
+          "answer": "Je früher wir rufen, desto besser",
+          "en": "The earlier we call, the better.",
+          "why": "desto. The umso line stays correct too. rufen is last.",
+          "tip": "rufen.",
+          "hint": "rufen."
+        },
+        {
+          "before": "Er schläft besser stays a main clause. The earlier, the better he sleeps:",
+          "after": ".",
+          "answer": "Je früher, desto besser schläft er",
+          "en": "The earlier, the better he sleeps.",
+          "why": "schläft is position 2. The main clause stays correct.",
+          "tip": "schläft.",
+          "hint": "schläft."
+        },
+        {
+          "before": "Je mehr er trinkt, desto besser stays correct. With umso:",
+          "after": ".",
+          "answer": "Je mehr er trinkt, umso besser",
+          "en": "The more he drinks, the better.",
+          "why": "umso. The desto line stays correct too.",
+          "tip": "umso.",
+          "hint": "umso."
+        },
+        {
+          "before": "Das Fieber ist hoch stays the positive. The higher, the worse:",
+          "after": ".",
+          "answer": "Je höher, desto schlechter",
+          "en": "The higher, the worse.",
+          "why": "höher and schlechter. hoch stays the positive.",
+          "tip": "höher.",
+          "hint": "höher."
+        },
+        {
+          "before": "Je später, desto schlechter stays correct. With umso:",
+          "after": ".",
+          "answer": "Je später, umso schlechter",
+          "en": "The later, the worse.",
+          "why": "umso. The desto line stays correct too.",
+          "tip": "umso.",
+          "hint": "umso."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the pair. Choose the correction. umso, desto, a positive, and a main clause stay correct.",
+      "items": [
+        {
+          "clues": ["The bigger, the better.", "Comparative.", "Je größer, desto am besten!"],
+          "options": ["Je größer, desto besser!", "Je größer, desto am besten!", "Das ist am besten."],
+          "answer": 0,
+          "reveal": "Je größer, desto besser!",
+          "hint": "besser."
+        },
+        {
+          "clues": ["The earlier we call.", "Verb last.", "Je früher rufen wir, desto besser."],
+          "options": ["Je früher wir rufen, desto besser.", "Je früher rufen wir, desto besser.", "Je früher wir rufen, umso besser."],
+          "answer": 0,
+          "reveal": "Je früher wir rufen, desto besser.",
+          "hint": "rufen."
+        },
+        {
+          "clues": ["The better he sleeps.", "Position 2.", "Je früher, desto er schläft besser."],
+          "options": ["Je früher, desto besser schläft er.", "Je früher, desto er schläft besser.", "Er schläft besser."],
+          "answer": 0,
+          "reveal": "Je früher, desto besser schläft er.",
+          "hint": "schläft."
+        },
+        {
+          "clues": ["The more he drinks.", "Verb last.", "Je mehr trinkt er, umso besser."],
+          "options": ["Je mehr er trinkt, umso besser.", "Je mehr trinkt er, umso besser.", "Je mehr er trinkt, desto besser."],
+          "answer": 0,
+          "reveal": "Je mehr er trinkt, umso besser.",
+          "hint": "umso."
+        },
+        {
+          "clues": ["The higher, the worse.", "Comparative.", "Je hoch, desto schlecht."],
+          "options": ["Je höher, desto schlechter.", "Je hoch, desto schlecht.", "Das Fieber ist hoch."],
+          "answer": 0,
+          "reveal": "Je höher, desto schlechter.",
+          "hint": "höher."
+        },
+        {
+          "clues": ["The later, the worse.", "Comparative.", "Je spät, umso schlecht."],
+          "options": ["Je später, umso schlechter.", "Je spät, umso schlecht.", "Je später, desto schlechter."],
+          "answer": 0,
+          "reveal": "Je später, umso schlechter.",
+          "hint": "umso."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses je … desto or je … umso. Comparative, and the verb in its place.",
+      "chips": [
+        { "w": "Je größer, desto besser", "hint": "desto." },
+        { "w": "Je früher wir rufen, desto besser", "hint": "rufen." },
+        { "w": "Je früher, desto besser schläft er", "hint": "schläft." },
+        { "w": "Je mehr er trinkt, umso besser", "hint": "umso." },
+        { "w": "Je höher, desto schlechter", "hint": "höher." },
+        { "w": "Je später, umso schlechter", "hint": "umso." },
+        { "w": "Je größer, desto am besten", "hint": "besser." },
+        { "w": "Je früher rufen wir, desto besser", "hint": "rufen." },
+        { "w": "Je früher, desto er schläft besser", "hint": "schläft." },
+        { "w": "Je mehr trinkt er, umso besser", "hint": "umso." },
+        { "w": "Je hoch, desto schlecht", "hint": "höher." },
+        { "w": "Je spät, umso schlecht", "hint": "später." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, the bigger, the better:",
+          "after": "!",
+          "answer": "Je größer, desto besser",
+          "en": "The bigger, the better!",
+          "why": "besser.",
+          "tip": "besser.",
+          "hint": "besser."
+        },
+        {
+          "before": "Doctor, the earlier we call, the better:",
+          "after": ".",
+          "answer": "Je früher wir rufen, desto besser",
+          "en": "The earlier we call, the better.",
+          "why": "rufen.",
+          "tip": "rufen.",
+          "hint": "rufen."
+        },
+        {
+          "before": "Nurse, the earlier, the better he sleeps:",
+          "after": ".",
+          "answer": "Je früher, desto besser schläft er",
+          "en": "The earlier, the better he sleeps.",
+          "why": "schläft.",
+          "tip": "schläft.",
+          "hint": "schläft."
+        },
+        {
+          "before": "Doctor, the more he drinks, the better:",
+          "after": ".",
+          "answer": "Je mehr er trinkt, umso besser",
+          "en": "The more he drinks, the better.",
+          "why": "umso.",
+          "tip": "umso.",
+          "hint": "umso."
+        },
+        {
+          "before": "Nurse, the higher, the worse:",
+          "after": ".",
+          "answer": "Je höher, desto schlechter",
+          "en": "The higher, the worse.",
+          "why": "höher.",
+          "tip": "höher.",
+          "hint": "höher."
+        },
+        {
+          "before": "Doctor, the later, the worse:",
+          "after": ".",
+          "answer": "Je später, umso schlechter",
+          "en": "The later, the worse.",
+          "why": "umso.",
+          "tip": "umso.",
+          "hint": "umso."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The half",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "One half of the pair. je takes the verb at the end. desto and umso take the verb in position 2. Do not use the positive.",
+      "chips": [
+        { "w": "je größer", "hint": "je." },
+        { "w": "je früher wir rufen", "hint": "rufen." },
+        { "w": "desto besser schläft er", "hint": "schläft." },
+        { "w": "je mehr er trinkt", "hint": "trinkt." },
+        { "w": "je höher", "hint": "höher." },
+        { "w": "umso schlechter", "hint": "umso." },
+        { "w": "je groß", "hint": "größer." },
+        { "w": "je früher rufen wir", "hint": "rufen." },
+        { "w": "desto er schläft", "hint": "schläft." },
+        { "w": "je mehr trinkt er", "hint": "trinkt." },
+        { "w": "je hoch", "hint": "höher." },
+        { "w": "umso schlecht", "hint": "schlechter." }
+      ],
+      "items": [
+        {
+          "before": "The bigger. The je-half:",
+          "after": ".",
+          "answer": "je größer",
+          "en": "the bigger.",
+          "why": "je größer. Not je groß. Das ist am besten stays chapter 39.",
+          "tip": "größer.",
+          "hint": "größer."
+        },
+        {
+          "before": "The earlier we call. The je-clause:",
+          "after": ".",
+          "answer": "je früher wir rufen",
+          "en": "the earlier we call.",
+          "why": "wir rufen. Not rufen wir. umso besser stays correct in the result.",
+          "tip": "rufen.",
+          "hint": "rufen."
+        },
+        {
+          "before": "The better he sleeps. The result:",
+          "after": ".",
+          "answer": "desto besser schläft er",
+          "en": "the better he sleeps.",
+          "why": "schläft is position 2. Er schläft besser stays a main clause.",
+          "tip": "schläft.",
+          "hint": "schläft."
+        },
+        {
+          "before": "The more he drinks. The je-clause:",
+          "after": ".",
+          "answer": "je mehr er trinkt",
+          "en": "the more he drinks.",
+          "why": "er trinkt. desto besser in the result stays correct too.",
+          "tip": "trinkt.",
+          "hint": "trinkt."
+        },
+        {
+          "before": "The higher. The je-half:",
+          "after": ".",
+          "answer": "je höher",
+          "en": "the higher.",
+          "why": "je höher. Das Fieber ist hoch stays the positive.",
+          "tip": "höher.",
+          "hint": "höher."
+        },
+        {
+          "before": "The worse, with umso. The result:",
+          "after": ".",
+          "answer": "umso schlechter",
+          "en": "the worse.",
+          "why": "umso schlechter. desto schlechter stays correct too.",
+          "tip": "umso.",
+          "hint": "umso."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. umso and desto both stay correct. A positive and a main clause stay correct too.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Die Nacht",
+        "paragraphs": [
+          "Je größer, desto besser! Je früher wir rufen, desto besser. Je früher wir rufen, umso sicherer ist die Nacht. Je mehr er trinkt, umso besser.",
+          "Je früher, desto besser schläft er. Je höher, desto schlechter. Je später, umso schlechter. Das Fieber ist hoch."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The bigger, the better. From the note.",
+          "qEn": "Je größer, desto besser.",
+          "options": ["Je größer, desto besser", "Je größer, desto am besten", "Das ist am besten."],
+          "answer": 0,
+          "why": "The note has desto besser. Das ist am besten stays chapter 39.",
+          "hint": "besser."
+        },
+        {
+          "kind": "mc",
+          "q": "The earlier we call, from the note.",
+          "qEn": "je früher wir rufen.",
+          "options": ["je früher wir rufen", "je früher rufen wir", "Je früher wir rufen, umso besser."],
+          "answer": 0,
+          "why": "The note has wir rufen. The umso line is also in the note and stays correct.",
+          "hint": "rufen."
+        },
+        {
+          "kind": "mc",
+          "q": "The safer the night is, from the note.",
+          "qEn": "umso sicherer ist die Nacht.",
+          "options": ["umso sicherer ist die Nacht", "umso ist die Nacht sicherer", "Die Nacht ist sicher."],
+          "answer": 0,
+          "why": "ist is position 2. Die Nacht ist sicher stays the positive, with no ending.",
+          "hint": "ist."
+        },
+        {
+          "kind": "mc",
+          "q": "The better he sleeps, from the note.",
+          "qEn": "desto besser schläft er.",
+          "options": ["desto besser schläft er", "desto er schläft besser", "Er schläft besser."],
+          "answer": 0,
+          "why": "The note has schläft in position 2. Er schläft besser stays a main clause.",
+          "hint": "schläft."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. The bigger, the better. The earlier we call, the better. The more he drinks, the better. The earlier, the better he sleeps.",
+      "prompt": "The bigger, the better. The earlier we call, the better. The more he drinks, the better. The earlier, the better he sleeps.",
+      "bullets": ["je größer, desto besser", "je früher wir rufen", "umso besser", "desto besser schläft er"],
+      "model": "Je größer, desto besser! Je früher wir rufen, desto besser. Je mehr er trinkt, umso besser. Je früher, desto besser schläft er.",
+      "modelEn": "The bigger, the better! The earlier we call, the better. The more he drinks, the better. The earlier, the better he sleeps.",
+      "hint": "je größer, desto besser. je früher wir rufen. umso besser. desto besser schläft er.",
+      "checklist": [
+        { "id": "g", "label": "je größer, desto besser", "keywords": ["je größer, desto besser"] },
+        { "id": "f", "label": "je früher wir rufen", "keywords": ["je früher wir rufen"] },
+        { "id": "u", "label": "umso besser", "keywords": ["umso besser"] },
+        { "id": "s", "label": "desto besser schläft er", "keywords": ["desto besser schläft er"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Je größer, desto besser!",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "je plus a comparative, verb last. desto or umso plus a comparative, verb in position 2. Both desto and umso stay correct. Not the positive, and not am besten, in the pair.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The bigger, the better.",
+          "qEn": "Je größer, desto besser.",
+          "options": ["Je größer, desto besser!", "Je größer, desto am besten!", "Das ist am besten."],
+          "answer": 0,
+          "why": "besser. Das ist am besten stays chapter 39.",
+          "hint": "besser."
+        },
+        {
+          "kind": "mc",
+          "q": "The earlier we call, the better.",
+          "qEn": "Je früher wir rufen.",
+          "options": ["Je früher wir rufen, desto besser.", "Je früher rufen wir, desto besser.", "Je früher wir rufen, umso besser."],
+          "answer": 0,
+          "why": "wir rufen. umso stays correct too.",
+          "hint": "rufen."
+        },
+        {
+          "kind": "mc",
+          "q": "The earlier, the better he sleeps.",
+          "qEn": "desto besser schläft er.",
+          "options": ["Je früher, desto besser schläft er.", "Je früher, desto er schläft besser.", "Er schläft besser."],
+          "answer": 0,
+          "why": "schläft is position 2. Er schläft besser stays a main clause.",
+          "hint": "schläft."
+        },
+        {
+          "kind": "mc",
+          "q": "The more he drinks, the better. With umso.",
+          "qEn": "umso besser.",
+          "options": ["Je mehr er trinkt, umso besser.", "Je mehr trinkt er, umso besser.", "Je mehr er trinkt, desto besser."],
+          "answer": 0,
+          "why": "er trinkt. desto stays correct too.",
+          "hint": "umso."
+        },
+        {
+          "kind": "mc",
+          "q": "The higher, the worse.",
+          "qEn": "Je höher, desto schlechter.",
+          "options": ["Je höher, desto schlechter.", "Je hoch, desto schlecht.", "Das Fieber ist hoch."],
+          "answer": 0,
+          "why": "Comparatives. Das Fieber ist hoch stays the positive.",
+          "hint": "höher."
+        },
+        {
+          "kind": "mc",
+          "q": "The later, the worse. With umso.",
+          "qEn": "Je später, umso schlechter.",
+          "options": ["Je später, umso schlechter.", "Je spät, umso schlecht.", "Je später, desto schlechter."],
+          "answer": 0,
+          "why": "Comparatives. desto stays correct too.",
+          "hint": "umso."
+        },
+        {
+          "kind": "mc",
+          "q": "Comma between the clauses.",
+          "qEn": "Je größer, desto besser.",
+          "options": ["Je größer, desto besser!", "Je größer desto besser!", "Je größer, umso besser!"],
+          "answer": 0,
+          "why": "The comma belongs before desto. Je größer, umso besser stays correct too.",
+          "hint": "desto."
+        },
+        {
+          "kind": "mc",
+          "q": "The safer the night is.",
+          "qEn": "umso sicherer ist die Nacht.",
+          "options": ["umso sicherer ist die Nacht", "umso ist die Nacht sicherer", "Die Nacht ist sicher."],
+          "answer": 0,
+          "why": "ist is position 2. Die Nacht ist sicher stays the positive, with no ending.",
+          "hint": "ist."
+        },
+        {
+          "kind": "mc",
+          "q": "The earlier he gets up, the better. One word.",
+          "qEn": "je früher er aufsteht.",
+          "options": ["Je früher er aufsteht, desto besser.", "Je früher er steht auf.", "Er steht auf."],
+          "answer": 0,
+          "why": "aufsteht is one word at the end of the je-clause. Er steht auf stays the main clause.",
+          "hint": "aufsteht."
+        },
+        {
+          "kind": "mc",
+          "q": "The less he drinks, the better.",
+          "qEn": "Je weniger er trinkt.",
+          "options": ["Je weniger er trinkt, desto besser.", "Je wenig er trinkt, desto besser.", "Je weniger er trinkt, umso besser."],
+          "answer": 0,
+          "why": "weniger is the comparative. umso stays correct too.",
+          "hint": "weniger."
+        },
+        {
+          "kind": "mc",
+          "q": "The bigger, the better. Not the comparison with als.",
+          "qEn": "Je größer, desto besser.",
+          "options": ["Je größer, desto besser!", "Je größer, als besser!", "Der Schmerz ist stärker als gestern."],
+          "answer": 0,
+          "why": "desto, not als. Der Schmerz ist stärker als gestern stays chapter 38. Als er kam stays chapter 72.",
+          "hint": "desto."
+        },
+        {
+          "kind": "mc",
+          "q": "The result, with umso, for the night.",
+          "qEn": "umso sicherer.",
+          "options": ["umso sicherer", "desto am sichersten", "Die Nacht ist sicher."],
+          "answer": 0,
+          "why": "umso plus the comparative. Not the superlative. Die Nacht ist sicher stays the positive.",
+          "hint": "umso."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Je größer, desto besser!",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Je größer, desto besser!", "en": "The bigger, the better!" },
+        { "de": "Je früher wir rufen, desto besser.", "en": "The earlier we call, the better." },
+        { "de": "Je mehr er trinkt, umso besser.", "en": "The more he drinks, the better." },
+        { "de": "Je früher, desto besser schläft er.", "en": "The earlier, the better he sleeps." }
+      ],
+      "messages": [
+        "je plus a comparative, and the verb at the end. desto or umso plus a comparative, and the verb in position 2. umso and desto mean the same.",
+        "Not the positive, and not am besten, in the pair. Das Fieber ist hoch and Die Nacht ist sicher stay positives. stärker als stays chapter 38. Er steht auf stays the main clause.",
+        "Sehr gut. Je größer, desto besser! Je früher wir rufen, umso sicherer ist die Nacht.",
+        "Ausgezeichnet. You can say the earlier we call, the safer the night is, and the more he drinks, the better."
+      ]
+    }
+  ]
+}

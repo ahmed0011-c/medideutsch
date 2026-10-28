@@ -1,0 +1,1114 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-75-entweder-oder",
+  "level": "B1",
+  "unit": "Kapitel 75",
+  "chapter": 75,
+  "chapters": [75],
+  "title": "Entweder … oder, weder … noch",
+  "subtitle": "Paired connectors",
+  "glossary": {
+    "entweder": {
+      "de": "entweder",
+      "pos": "conjunction",
+      "en": "either",
+      "emoji": "🍵",
+      "note": "The pair is entweder … oder. One or the other. Entweder isst er, oder er trinkt. Entweder er isst, oder er trinkt stays correct too. Not oder trinkt er."
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or",
+      "emoji": "🍵",
+      "note": "Position 0. The next clause keeps verb position 2: oder er trinkt. Er trinkt Tee oder Wasser stays correct with no entweder. Not weder … oder."
+    },
+    "weder": {
+      "de": "weder",
+      "pos": "conjunction",
+      "en": "neither",
+      "emoji": "🚫",
+      "note": "The pair is weder … noch. Already negative. Do not add nicht. Weder isst er, noch trinkt er. Weder er isst, noch er trinkt stays correct too."
+    },
+    "noch": {
+      "de": "noch",
+      "pos": "conjunction",
+      "en": "nor / still",
+      "emoji": "🚫",
+      "note": "In the pair: weder … noch. After noch the verb is position 2: noch trinkt er. Not noch er trinkt. Er schläft noch, meaning still, stays correct and is not this pair."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "trinkt": {
+      "de": "trinken → er trinkt",
+      "pos": "form",
+      "en": "drinks",
+      "emoji": "🍵",
+      "note": "er trinkt. Er trinkt entweder Tee oder Wasser. Er trinkt weder Tee noch Wasser."
+    },
+    "tee": {
+      "de": "Tee",
+      "pos": "noun",
+      "en": "tea",
+      "emoji": "🍵",
+      "article": "der",
+      "plural": "die Tees",
+      "note": "der Tee. Er trinkt Tee oder Wasser. No article in that line."
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das",
+      "plural": "die Wasser",
+      "note": "das Wasser. Tee oder Wasser. Tee noch Wasser. Tee als auch Wasser."
+    },
+    "isst": {
+      "de": "essen → er isst",
+      "pos": "form",
+      "en": "eats",
+      "emoji": "🍽️",
+      "note": "er isst. Entweder isst er, oder er trinkt. Not the noun das Essen."
+    },
+    "mag": {
+      "de": "mögen → er mag",
+      "pos": "form",
+      "en": "likes",
+      "emoji": "🍵",
+      "note": "er mag. Er mag sowohl Tee als auch Wasser. Not mögt for er."
+    },
+    "sowohl": {
+      "de": "sowohl",
+      "pos": "conjunction",
+      "en": "both",
+      "emoji": "🍵",
+      "note": "The pair is sowohl … als auch. Both, not a choice. Not sowohl … und. Not sowohl … oder."
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "as (in als auch)",
+      "emoji": "🍵",
+      "note": "Here only inside als auch. Comparative stärker als stays chapter 38. One past event, Als er kam, stays chapter 72. Not sowohl … als without auch."
+    },
+    "auch": {
+      "de": "auch",
+      "pos": "particle",
+      "en": "also",
+      "emoji": "➕",
+      "note": "als auch, and sondern auch. auch follows als or sondern. Not sondern Tee auch."
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫",
+      "note": "nicht nur … sondern auch. nicht Tee, sondern Wasser stays correct with no nur and no auch. Do not put nicht in front of weder."
+    },
+    "nur": {
+      "de": "nur",
+      "pos": "particle",
+      "en": "only",
+      "emoji": "1️⃣",
+      "note": "nicht nur. Then sondern auch. The comma stands before sondern."
+    },
+    "sondern": {
+      "de": "sondern",
+      "pos": "conjunction",
+      "en": "but (after a negation)",
+      "emoji": "➕",
+      "note": "Comma before sondern. nicht nur … sondern auch. Nicht Tee, sondern Wasser stays correct. Not aber in this pair. aber stays but in its own sentences."
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "before",
+      "emoji": "🩺",
+      "note": "Dative, chapter 30. vor dem Scan. Not vor den Scan. bevor is the conjunction, chapter 73, and stays correct."
+    },
+    "dem": { "de": "dem", "pos": "article", "en": "the (dative masculine)", "emoji": "🩺", "note": "dem Scan. Dative after vor." },
+    "scan": {
+      "de": "Scan",
+      "pos": "noun",
+      "en": "scan",
+      "emoji": "🩺",
+      "article": "der",
+      "plural": "die Scans",
+      "note": "der Scan. vor dem Scan. Before the scan: neither food nor tablets."
+    },
+    "nimmt": {
+      "de": "nehmen → er nimmt",
+      "pos": "form",
+      "en": "takes",
+      "emoji": "🍽️",
+      "note": "er nimmt. Vor dem Scan nimmt er weder Essen noch Tabletten. Accusative objects."
+    },
+    "essen": {
+      "de": "Essen",
+      "pos": "noun",
+      "en": "food",
+      "emoji": "🍽️",
+      "article": "das",
+      "plural": "die Essen",
+      "note": "das Essen. Neither food nor tablets: weder Essen noch Tabletten. Not the verb isst."
+    },
+    "tabletten": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablets",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten",
+      "note": "die Tabletten. Accusative in weder Essen noch Tabletten. Er nimmt keine Tabletten stays the kein negation, chapter 15."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Either, neither, both, not only",
+      "learn": [
+        "entweder … oder is one or the other. Er trinkt entweder Tee oder Wasser. In two clauses the verb stays position 2 after oder: oder er trinkt.",
+        "weder … noch is neither nor. It is already negative. Er trinkt weder Tee noch Wasser. Not weder … oder. Not nicht weder.",
+        "sowohl … als auch is both. Er mag sowohl Tee als auch Wasser. Not sowohl … und. als auch is not the comparison stärker als, and not the past als.",
+        "nicht nur … sondern auch is not only, but also. The comma stands before sondern. Vor dem Scan nimmt er weder Essen noch Tabletten. vor dem Scan is dative."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Tee", "article": "der", "plural": "die Tees", "en": "tea", "emoji": "🍵", "glossaryKey": "tee" },
+        { "de": "Wasser", "article": "das", "plural": "die Wasser", "en": "water", "emoji": "💧", "glossaryKey": "wasser" },
+        { "de": "Tablette", "article": "die", "plural": "die Tabletten", "en": "tablet", "emoji": "💊", "glossaryKey": "tabletten" }
+      ],
+      "text": {
+        "title": "Entweder … oder, weder … noch",
+        "de": "Er trinkt entweder Tee oder Wasser. Entweder isst er, oder er trinkt. Er trinkt weder Tee noch Wasser. Weder isst er, noch trinkt er. Er mag sowohl Tee als auch Wasser. Nicht nur Tee, sondern auch Wasser. Vor dem Scan nimmt er weder Essen noch Tabletten. Er trinkt Tee oder Wasser.",
+        "en": "He drinks either tea or water. Either he eats, or he drinks. He drinks neither tea nor water. He neither eats nor drinks. He likes both tea and water. Not only tea, but also water. Before the scan he takes neither food nor tablets. He drinks tea or water."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Paired connectors",
+      "practice": "choose",
+      "heroTitle": "Entweder … oder, weder … noch",
+      "heroImage": "bed",
+      "story": [
+        "<b>entweder … oder</b> is one or the other. <b>Er trinkt entweder Tee oder Wasser.</b> Two clauses: <b>Entweder isst er, oder er trinkt.</b> entweder can take the verb next, or the subject next. <b>Entweder er isst, oder er trinkt</b> stays correct too. After <b>oder</b> the verb is position 2: oder er trinkt. Not oder trinkt er. <b>Er trinkt Tee oder Wasser</b> stays correct with no entweder.",
+        "<b>weder … noch</b> is neither nor, and it is already negative. <b>Er trinkt weder Tee noch Wasser. Weder isst er, noch trinkt er.</b> <b>Weder er isst, noch er trinkt</b> stays correct too. Not noch er trinkt after the inverted clause. Not weder … oder. Do not add nicht. <b>Er trinkt keinen Tee</b> stays chapter 15. <b>Er schläft noch</b>, meaning still, stays correct and is not this pair.",
+        "Before the scan: <b>Vor dem Scan nimmt er weder Essen noch Tabletten.</b> vor takes the dative, chapter 30: <b>vor dem Scan</b>. Not vor den Scan. <b>bevor</b> stays the conjunction, chapter 73.",
+        "<b>sowohl … als auch</b> is both, not a choice. <b>Er mag sowohl Tee als auch Wasser.</b> Not sowohl … und. <b>Er mag Tee und Wasser</b> stays correct with und. als auch is not the comparison. <b>Der Schmerz ist stärker als gestern</b> stays chapter 38. One past event, <b>Als er kam</b>, stays chapter 72.",
+        "<b>nicht nur … sondern auch</b> is not only, but also. <b>Nicht nur Tee, sondern auch Wasser.</b> The comma stands before sondern. Not aber. <b>Nicht Tee, sondern Wasser</b> stays correct: not tea, but water, with no nur and no auch. aber stays but in its own sentences.",
+        "und, oder, sondern and denn do not take position 1. The verb stays position 2. denn stays chapter 42: Er bleibt im Bett, denn er hat Schmerzen. This chapter does not drill denn."
+      ],
+      "questionRule": "entweder … oder is one or the other. weder … noch is neither nor, with no extra nicht. sowohl … als auch is both. nicht nur … sondern auch takes a comma before sondern. After oder and noch the verb is position 2. vor dem Scan is dative.",
+      "tables": [
+        {
+          "title": "Die Paare",
+          "caption": "Each pair stays together. oder alone, und alone, and sondern alone stay correct in their own sentences.",
+          "columns": ["Paar", "Satz"],
+          "rows": [
+            { "label": "oder", "cells": ["one or the other", "Er trinkt entweder Tee oder Wasser."], "highlight": true },
+            { "label": "noch", "cells": ["neither nor", "Er trinkt weder Tee noch Wasser."], "highlight": true },
+            { "label": "als auch", "cells": ["both", "Er mag sowohl Tee als auch Wasser."] },
+            { "label": "sondern", "cells": ["not only, but also", "Nicht nur Tee, sondern auch Wasser."] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "vor dem Scan is dative. Essen is the noun. isst is the verb.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "Tee", "cells": ["Er trinkt entweder Tee oder Wasser."] },
+            { "label": "isst", "cells": ["Entweder isst er, oder er trinkt."] },
+            { "label": "weder", "cells": ["Er trinkt weder Tee noch Wasser."] },
+            { "label": "noch", "cells": ["Weder isst er, noch trinkt er."] },
+            { "label": "sowohl", "cells": ["Er mag sowohl Tee als auch Wasser."], "highlight": true },
+            { "label": "nur", "cells": ["Nicht nur Tee, sondern auch Wasser."], "highlight": true },
+            { "label": "Scan", "cells": ["Vor dem Scan nimmt er weder Essen noch Tabletten."] },
+            { "label": "oder", "cells": ["Er trinkt Tee oder Wasser."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Tee oder Wasser, keinen Tee, Tee und Wasser, Nicht Tee, sondern Wasser, stärker als, Als er kam, and Er schläft noch stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "oder", "cells": ["entweder Tee noch Wasser", "entweder Tee oder Wasser"] },
+            { "label": "Verb", "cells": ["oder trinkt er", "oder er trinkt"] },
+            { "label": "noch", "cells": ["weder Tee oder Wasser", "weder Tee noch Wasser"] },
+            { "label": "noch", "cells": ["noch er trinkt", "noch trinkt er"] },
+            { "label": "als auch", "cells": ["sowohl Tee und Wasser", "sowohl Tee als auch Wasser"] },
+            { "label": "sondern", "cells": ["nicht nur Tee, aber auch Wasser", "nicht nur Tee, sondern auch Wasser"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four pair traps",
+        "items": [
+          { "de": "Er trinkt entweder Tee oder Wasser.", "en": "One or the other.", "tone": "ok" },
+          { "de": "Er trinkt entweder Tee noch Wasser.", "en": "noch does not follow entweder.", "tone": "stop" },
+          { "de": "Er trinkt weder Tee noch Wasser.", "en": "Neither nor.", "tone": "ok" },
+          { "de": "Er trinkt weder Tee oder Wasser.", "en": "oder does not follow weder.", "tone": "stop" },
+          { "de": "Entweder isst er, oder er trinkt.", "en": "er trinkt: verb in position 2.", "tone": "ok" },
+          { "de": "Entweder isst er, oder trinkt er.", "en": "trinkt is too early.", "tone": "stop" },
+          { "de": "Nicht nur Tee, sondern auch Wasser.", "en": "Comma before sondern.", "tone": "ok" },
+          { "de": "Nicht nur Tee, aber auch Wasser.", "en": "aber does not finish nicht nur.", "tone": "stop" }
+        ],
+        "tip": "oder with entweder. noch with weder. als auch with sowohl. sondern auch with nicht nur."
+      },
+      "tips": [
+        {
+          "title": "Keep the pair",
+          "body": "entweder oder. weder noch. sowohl als auch. nicht nur sondern auch.",
+          "mnemonic": "oder. noch. als auch. sondern auch.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "oder", "emoji": "🍵", "en": "either tea or water", "use": "one or the other", "de": "Er trinkt entweder Tee oder Wasser.", "deEn": "He drinks either tea or water." },
+        { "modal": "noch", "emoji": "🚫", "en": "neither tea nor water", "use": "already negative", "de": "Er trinkt weder Tee noch Wasser.", "deEn": "He drinks neither tea nor water." },
+        { "modal": "als auch", "emoji": "🍵", "en": "both tea and water", "use": "not a choice", "de": "Er mag sowohl Tee als auch Wasser.", "deEn": "He likes both tea and water." },
+        { "modal": "sondern", "emoji": "➕", "en": "not only tea but also water", "use": "comma before sondern", "de": "Nicht nur Tee, sondern auch Wasser.", "deEn": "Not only tea, but also water." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "He drinks either tea or water.",
+          "qEn": "entweder Tee oder Wasser.",
+          "options": ["Er trinkt entweder Tee oder Wasser.", "Er trinkt entweder Tee noch Wasser.", "Er trinkt Tee oder Wasser."],
+          "answer": 0,
+          "why": "entweder … oder. Er trinkt Tee oder Wasser stays correct with no entweder.",
+          "hint": "oder."
+        },
+        {
+          "kind": "mc",
+          "q": "Either he eats, or he drinks.",
+          "qEn": "oder er trinkt.",
+          "options": ["Entweder isst er, oder er trinkt.", "Entweder isst er, oder trinkt er.", "Entweder er isst, oder er trinkt."],
+          "answer": 0,
+          "why": "After oder the verb is position 2: er trinkt. Entweder er isst, oder er trinkt stays correct too, with the subject first.",
+          "hint": "oder."
+        },
+        {
+          "kind": "mc",
+          "q": "He drinks neither tea nor water.",
+          "qEn": "weder Tee noch Wasser.",
+          "options": ["Er trinkt weder Tee noch Wasser.", "Er trinkt weder Tee oder Wasser.", "Er trinkt keinen Tee."],
+          "answer": 0,
+          "why": "weder … noch. No extra nicht. Er trinkt keinen Tee stays chapter 15.",
+          "hint": "noch."
+        },
+        {
+          "kind": "mc",
+          "q": "He neither eats nor drinks.",
+          "qEn": "noch trinkt er.",
+          "options": ["Weder isst er, noch trinkt er.", "Weder isst er, noch er trinkt.", "Weder er isst, noch er trinkt."],
+          "answer": 0,
+          "why": "After noch the verb is position 2: trinkt er. Weder er isst, noch er trinkt stays correct too.",
+          "hint": "noch."
+        },
+        {
+          "kind": "mc",
+          "q": "He likes both tea and water.",
+          "qEn": "sowohl Tee als auch Wasser.",
+          "options": ["Er mag sowohl Tee als auch Wasser.", "Er mag sowohl Tee und Wasser.", "Er mag Tee und Wasser."],
+          "answer": 0,
+          "why": "sowohl … als auch. Not und. Er mag Tee und Wasser stays correct with no sowohl. stärker als stays chapter 38.",
+          "hint": "als auch."
+        },
+        {
+          "kind": "mc",
+          "q": "Not only tea, but also water.",
+          "qEn": "nicht nur Tee, sondern auch Wasser.",
+          "options": ["Nicht nur Tee, sondern auch Wasser.", "Nicht nur Tee, aber auch Wasser.", "Nicht Tee, sondern Wasser."],
+          "answer": 0,
+          "why": "sondern auch, with a comma. Nicht Tee, sondern Wasser stays correct: not tea, but water.",
+          "hint": "sondern."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Keep the pair. After oder and noch the verb is position 2. A plain oder, und, or sondern stays correct, so it is not a chip here.",
+      "chips": [
+        { "w": "Er trinkt entweder Tee oder Wasser", "hint": "oder." },
+        { "w": "Entweder isst er, oder er trinkt", "hint": "oder." },
+        { "w": "Er trinkt weder Tee noch Wasser", "hint": "noch." },
+        { "w": "Weder isst er, noch trinkt er", "hint": "noch." },
+        { "w": "Er mag sowohl Tee als auch Wasser", "hint": "als auch." },
+        { "w": "Nicht nur Tee, sondern auch Wasser", "hint": "sondern." },
+        { "w": "Er trinkt entweder Tee noch Wasser", "hint": "oder." },
+        { "w": "Entweder isst er, oder trinkt er", "hint": "oder." },
+        { "w": "Er trinkt weder Tee oder Wasser", "hint": "noch." },
+        { "w": "Weder isst er, noch er trinkt", "hint": "noch." },
+        { "w": "Er mag sowohl Tee und Wasser", "hint": "als auch." },
+        { "w": "Nicht nur Tee, aber auch Wasser", "hint": "sondern." }
+      ],
+      "items": [
+        {
+          "before": "He drinks either tea or water:",
+          "after": ".",
+          "answer": "Er trinkt entweder Tee oder Wasser",
+          "en": "He drinks either tea or water.",
+          "why": "entweder … oder. Er trinkt Tee oder Wasser stays correct with no entweder.",
+          "tip": "oder.",
+          "hint": "oder."
+        },
+        {
+          "before": "Either he eats, or he drinks:",
+          "after": ".",
+          "answer": "Entweder isst er, oder er trinkt",
+          "en": "Either he eats, or he drinks.",
+          "why": "oder er trinkt. Entweder er isst, oder er trinkt stays correct too.",
+          "tip": "oder.",
+          "hint": "oder."
+        },
+        {
+          "before": "He drinks neither tea nor water:",
+          "after": ".",
+          "answer": "Er trinkt weder Tee noch Wasser",
+          "en": "He drinks neither tea nor water.",
+          "why": "weder … noch. Er trinkt keinen Tee stays chapter 15.",
+          "tip": "noch.",
+          "hint": "noch."
+        },
+        {
+          "before": "He neither eats nor drinks:",
+          "after": ".",
+          "answer": "Weder isst er, noch trinkt er",
+          "en": "He neither eats nor drinks.",
+          "why": "noch trinkt er. Weder er isst, noch er trinkt stays correct too.",
+          "tip": "noch.",
+          "hint": "noch."
+        },
+        {
+          "before": "He likes both tea and water:",
+          "after": ".",
+          "answer": "Er mag sowohl Tee als auch Wasser",
+          "en": "He likes both tea and water.",
+          "why": "sowohl … als auch. Er mag Tee und Wasser stays correct. stärker als stays chapter 38.",
+          "tip": "als auch.",
+          "hint": "als auch."
+        },
+        {
+          "before": "Not only tea, but also water:",
+          "after": ".",
+          "answer": "Nicht nur Tee, sondern auch Wasser",
+          "en": "Not only tea, but also water.",
+          "why": "sondern auch. Nicht Tee, sondern Wasser stays correct.",
+          "tip": "sondern.",
+          "hint": "sondern."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line is the pair. One is not German. A plain oder, und, sondern, or the other correct word order stays correct.",
+      "items": [
+        {
+          "prompt": "He drinks either tea or water",
+          "options": [
+            { "emoji": "🍵", "label": "Er trinkt entweder Tee oder Wasser.", "caption": "one or the other" },
+            { "emoji": "🚫", "label": "Er trinkt entweder Tee noch Wasser.", "caption": "not noch" },
+            { "emoji": "🍵", "label": "Er trinkt Tee oder Wasser.", "caption": "oder alone" }
+          ],
+          "answer": 0,
+          "why": "entweder … oder. Tee oder Wasser stays correct with no entweder.",
+          "hint": "oder."
+        },
+        {
+          "prompt": "Either he eats, or he drinks",
+          "options": [
+            { "emoji": "🍽️", "label": "Entweder isst er, oder er trinkt.", "caption": "verb position 2" },
+            { "emoji": "🚫", "label": "Entweder isst er, oder trinkt er.", "caption": "verb too early" },
+            { "emoji": "🍽️", "label": "Entweder er isst, oder er trinkt.", "caption": "subject first" }
+          ],
+          "answer": 0,
+          "why": "oder er trinkt. The subject-first line stays correct too.",
+          "hint": "oder."
+        },
+        {
+          "prompt": "He drinks neither tea nor water",
+          "options": [
+            { "emoji": "🍵", "label": "Er trinkt weder Tee noch Wasser.", "caption": "neither nor" },
+            { "emoji": "🚫", "label": "Er trinkt weder Tee oder Wasser.", "caption": "not oder" },
+            { "emoji": "🍵", "label": "Er trinkt keinen Tee.", "caption": "kein" }
+          ],
+          "answer": 0,
+          "why": "weder … noch. keinen Tee stays chapter 15. The first label is the pair, not a ban.",
+          "hint": "noch."
+        },
+        {
+          "prompt": "He neither eats nor drinks",
+          "options": [
+            { "emoji": "🍽️", "label": "Weder isst er, noch trinkt er.", "caption": "verb after noch" },
+            { "emoji": "🚫", "label": "Weder isst er, noch er trinkt.", "caption": "verb too late" },
+            { "emoji": "🍽️", "label": "Weder er isst, noch er trinkt.", "caption": "subject first" }
+          ],
+          "answer": 0,
+          "why": "noch trinkt er. The subject-first line stays correct too.",
+          "hint": "noch."
+        },
+        {
+          "prompt": "He likes both tea and water",
+          "options": [
+            { "emoji": "🍵", "label": "Er mag sowohl Tee als auch Wasser.", "caption": "both" },
+            { "emoji": "🚫", "label": "Er mag sowohl Tee und Wasser.", "caption": "not und" },
+            { "emoji": "🍵", "label": "Er mag Tee und Wasser.", "caption": "und alone" }
+          ],
+          "answer": 0,
+          "why": "sowohl … als auch. Tee und Wasser stays correct. stärker als stays chapter 38.",
+          "hint": "als auch."
+        },
+        {
+          "prompt": "Not only tea, but also water",
+          "options": [
+            { "emoji": "➕", "label": "Nicht nur Tee, sondern auch Wasser.", "caption": "comma" },
+            { "emoji": "🚫", "label": "Nicht nur Tee, aber auch Wasser.", "caption": "not aber" },
+            { "emoji": "➕", "label": "Nicht Tee, sondern Wasser.", "caption": "sondern alone" }
+          ],
+          "answer": 0,
+          "why": "sondern auch. Nicht Tee, sondern Wasser stays correct.",
+          "hint": "sondern."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, neither food nor tablets",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, either tea or water",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, both tea and water",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, not only tea but also water",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Keep the pair",
+      "practice": "build",
+      "instructions": "Build the line. A whole pair can also stand first, when that order is correct German. Do not split the pair.",
+      "items": [
+        {
+          "tiles": ["Er", "trinkt", "entweder", "Tee", "oder", "Wasser"],
+          "answers": ["Er trinkt entweder Tee oder Wasser", "Entweder trinkt er Tee oder Wasser"],
+          "punct": ".",
+          "modal": "entweder",
+          "inf": "Wasser",
+          "question": false,
+          "en": "He drinks either tea or water.",
+          "hint": "Er trinkt entweder Tee oder Wasser. Or entweder first.",
+          "feedback": {
+            "end": "Wasser closes entweder Tee oder Wasser.",
+            "fallback": "Er trinkt entweder Tee oder Wasser. Or: Entweder trinkt er Tee oder Wasser."
+          }
+        },
+        {
+          "tiles": ["Er", "trinkt", "weder", "Tee", "noch", "Wasser"],
+          "answers": ["Er trinkt weder Tee noch Wasser", "Weder Tee noch Wasser trinkt er"],
+          "punct": ".",
+          "modal": "weder",
+          "inf": "Wasser",
+          "question": false,
+          "en": "He drinks neither tea nor water.",
+          "hint": "Er trinkt weder Tee noch Wasser. Or weder Tee first.",
+          "feedback": {
+            "end": "Wasser closes weder Tee noch Wasser.",
+            "fallback": "Er trinkt weder Tee noch Wasser. Or: Weder Tee noch Wasser trinkt er."
+          }
+        },
+        {
+          "tiles": ["Er", "mag", "sowohl", "Tee", "als", "auch", "Wasser"],
+          "answers": ["Er mag sowohl Tee als auch Wasser", "Sowohl Tee als auch Wasser mag er"],
+          "punct": ".",
+          "modal": "sowohl",
+          "inf": "Wasser",
+          "question": false,
+          "en": "He likes both tea and water.",
+          "hint": "Er mag sowohl Tee als auch Wasser. Or sowohl Tee first.",
+          "feedback": {
+            "end": "Wasser closes sowohl Tee als auch Wasser.",
+            "fallback": "Er mag sowohl Tee als auch Wasser. Or: Sowohl Tee als auch Wasser mag er."
+          }
+        },
+        {
+          "tiles": ["Nicht", "nur", "Tee,", "sondern", "auch", "Wasser"],
+          "answers": ["Nicht nur Tee, sondern auch Wasser"],
+          "punct": ".",
+          "modal": "nicht",
+          "inf": "Wasser",
+          "question": false,
+          "en": "Not only tea, but also water.",
+          "hint": "Nicht nur Tee, sondern auch Wasser.",
+          "feedback": {
+            "end": "Wasser closes sondern auch Wasser.",
+            "fallback": "Nicht nur Tee, sondern auch Wasser."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the pair",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the pair the English asks for.",
+      "chips": [
+        { "w": "Er trinkt entweder Tee oder Wasser", "hint": "oder." },
+        { "w": "Entweder isst er, oder er trinkt", "hint": "oder." },
+        { "w": "Er trinkt weder Tee noch Wasser", "hint": "noch." },
+        { "w": "Weder isst er, noch trinkt er", "hint": "noch." },
+        { "w": "Er mag sowohl Tee als auch Wasser", "hint": "als auch." },
+        { "w": "Nicht nur Tee, sondern auch Wasser", "hint": "sondern." },
+        { "w": "Er trinkt entweder Tee noch Wasser", "hint": "oder." },
+        { "w": "Entweder isst er, oder trinkt er", "hint": "oder." },
+        { "w": "Er trinkt weder Tee oder Wasser", "hint": "noch." },
+        { "w": "Weder isst er, noch er trinkt", "hint": "noch." },
+        { "w": "Er mag sowohl Tee und Wasser", "hint": "als auch." },
+        { "w": "Nicht nur Tee, aber auch Wasser", "hint": "sondern." }
+      ],
+      "items": [
+        {
+          "before": "Er trinkt Tee oder Wasser stays correct. Either tea or water:",
+          "after": ".",
+          "answer": "Er trinkt entweder Tee oder Wasser",
+          "en": "He drinks either tea or water.",
+          "why": "entweder … oder. The plain oder line stays correct.",
+          "tip": "oder.",
+          "hint": "oder."
+        },
+        {
+          "before": "Entweder er isst, oder er trinkt stays correct. Verb after entweder:",
+          "after": ".",
+          "answer": "Entweder isst er, oder er trinkt",
+          "en": "Either he eats, or he drinks.",
+          "why": "isst after entweder. The subject-first line stays correct too.",
+          "tip": "oder.",
+          "hint": "oder."
+        },
+        {
+          "before": "Er trinkt keinen Tee stays chapter 15. Neither tea nor water:",
+          "after": ".",
+          "answer": "Er trinkt weder Tee noch Wasser",
+          "en": "He drinks neither tea nor water.",
+          "why": "weder … noch. keinen Tee stays correct.",
+          "tip": "noch.",
+          "hint": "noch."
+        },
+        {
+          "before": "Weder er isst, noch er trinkt stays correct. Verb after noch:",
+          "after": ".",
+          "answer": "Weder isst er, noch trinkt er",
+          "en": "He neither eats nor drinks.",
+          "why": "noch trinkt er. The subject-first line stays correct too.",
+          "tip": "noch.",
+          "hint": "noch."
+        },
+        {
+          "before": "Er mag Tee und Wasser stays correct. Both tea and water:",
+          "after": ".",
+          "answer": "Er mag sowohl Tee als auch Wasser",
+          "en": "He likes both tea and water.",
+          "why": "sowohl … als auch. und stays correct. stärker als stays chapter 38.",
+          "tip": "als auch.",
+          "hint": "als auch."
+        },
+        {
+          "before": "Nicht Tee, sondern Wasser stays correct. Not only tea, but also water:",
+          "after": ".",
+          "answer": "Nicht nur Tee, sondern auch Wasser",
+          "en": "Not only tea, but also water.",
+          "why": "nicht nur … sondern auch. The shorter sondern line stays correct.",
+          "tip": "sondern.",
+          "hint": "sondern."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line breaks the pair or the verb position. Choose the correction. The other correct order, oder alone, and sondern alone stay correct.",
+      "items": [
+        {
+          "clues": ["He drinks either tea or water.", "oder.", "Er trinkt entweder Tee noch Wasser."],
+          "options": ["Er trinkt entweder Tee oder Wasser.", "Er trinkt entweder Tee noch Wasser.", "Er trinkt Tee oder Wasser."],
+          "answer": 0,
+          "reveal": "Er trinkt entweder Tee oder Wasser.",
+          "hint": "oder."
+        },
+        {
+          "clues": ["Either he eats, or he drinks.", "Verb position 2.", "Entweder isst er, oder trinkt er."],
+          "options": ["Entweder isst er, oder er trinkt.", "Entweder isst er, oder trinkt er.", "Entweder er isst, oder er trinkt."],
+          "answer": 0,
+          "reveal": "Entweder isst er, oder er trinkt.",
+          "hint": "oder."
+        },
+        {
+          "clues": ["He drinks neither tea nor water.", "noch.", "Er trinkt weder Tee oder Wasser."],
+          "options": ["Er trinkt weder Tee noch Wasser.", "Er trinkt weder Tee oder Wasser.", "Er trinkt keinen Tee."],
+          "answer": 0,
+          "reveal": "Er trinkt weder Tee noch Wasser.",
+          "hint": "noch."
+        },
+        {
+          "clues": ["He neither eats nor drinks.", "Verb after noch.", "Weder isst er, noch er trinkt."],
+          "options": ["Weder isst er, noch trinkt er.", "Weder isst er, noch er trinkt.", "Weder er isst, noch er trinkt."],
+          "answer": 0,
+          "reveal": "Weder isst er, noch trinkt er.",
+          "hint": "noch."
+        },
+        {
+          "clues": ["He likes both tea and water.", "als auch.", "Er mag sowohl Tee und Wasser."],
+          "options": ["Er mag sowohl Tee als auch Wasser.", "Er mag sowohl Tee und Wasser.", "Er mag Tee und Wasser."],
+          "answer": 0,
+          "reveal": "Er mag sowohl Tee als auch Wasser.",
+          "hint": "als auch."
+        },
+        {
+          "clues": ["Not only tea, but also water.", "sondern.", "Nicht nur Tee, aber auch Wasser."],
+          "options": ["Nicht nur Tee, sondern auch Wasser.", "Nicht nur Tee, aber auch Wasser.", "Nicht Tee, sondern Wasser."],
+          "answer": 0,
+          "reveal": "Nicht nur Tee, sondern auch Wasser.",
+          "hint": "sondern."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses the pair. oder with entweder. noch with weder. als auch with sowohl. sondern with nicht nur.",
+      "chips": [
+        { "w": "Er trinkt entweder Tee oder Wasser", "hint": "oder." },
+        { "w": "Entweder isst er, oder er trinkt", "hint": "oder." },
+        { "w": "Er trinkt weder Tee noch Wasser", "hint": "noch." },
+        { "w": "Weder isst er, noch trinkt er", "hint": "noch." },
+        { "w": "Er mag sowohl Tee als auch Wasser", "hint": "als auch." },
+        { "w": "Nicht nur Tee, sondern auch Wasser", "hint": "sondern." },
+        { "w": "Er trinkt entweder Tee noch Wasser", "hint": "oder." },
+        { "w": "Entweder isst er, oder trinkt er", "hint": "oder." },
+        { "w": "Er trinkt weder Tee oder Wasser", "hint": "noch." },
+        { "w": "Weder isst er, noch er trinkt", "hint": "noch." },
+        { "w": "Er mag sowohl Tee und Wasser", "hint": "als auch." },
+        { "w": "Nicht nur Tee, aber auch Wasser", "hint": "sondern." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, he drinks either tea or water:",
+          "after": ".",
+          "answer": "Er trinkt entweder Tee oder Wasser",
+          "en": "He drinks either tea or water.",
+          "why": "oder.",
+          "tip": "oder.",
+          "hint": "oder."
+        },
+        {
+          "before": "Doctor, either he eats, or he drinks:",
+          "after": ".",
+          "answer": "Entweder isst er, oder er trinkt",
+          "en": "Either he eats, or he drinks.",
+          "why": "oder.",
+          "tip": "oder.",
+          "hint": "oder."
+        },
+        {
+          "before": "Nurse, he drinks neither tea nor water:",
+          "after": ".",
+          "answer": "Er trinkt weder Tee noch Wasser",
+          "en": "He drinks neither tea nor water.",
+          "why": "noch.",
+          "tip": "noch.",
+          "hint": "noch."
+        },
+        {
+          "before": "Doctor, he neither eats nor drinks:",
+          "after": ".",
+          "answer": "Weder isst er, noch trinkt er",
+          "en": "He neither eats nor drinks.",
+          "why": "noch.",
+          "tip": "noch.",
+          "hint": "noch."
+        },
+        {
+          "before": "Nurse, he likes both tea and water:",
+          "after": ".",
+          "answer": "Er mag sowohl Tee als auch Wasser",
+          "en": "He likes both tea and water.",
+          "why": "als auch.",
+          "tip": "als auch.",
+          "hint": "als auch."
+        },
+        {
+          "before": "Doctor, not only tea, but also water:",
+          "after": ".",
+          "answer": "Nicht nur Tee, sondern auch Wasser",
+          "en": "Not only tea, but also water.",
+          "why": "sondern.",
+          "tip": "sondern.",
+          "hint": "sondern."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The pair",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The pair only. oder after entweder. noch after weder, with the verb next. als auch after sowohl. sondern auch after nicht nur.",
+      "chips": [
+        { "w": "entweder Tee oder Wasser", "hint": "oder." },
+        { "w": "oder er trinkt", "hint": "oder." },
+        { "w": "weder Tee noch Wasser", "hint": "noch." },
+        { "w": "noch trinkt er", "hint": "noch." },
+        { "w": "sowohl Tee als auch Wasser", "hint": "als auch." },
+        { "w": "sondern auch Wasser", "hint": "sondern." },
+        { "w": "entweder Tee noch Wasser", "hint": "oder." },
+        { "w": "oder trinkt er", "hint": "oder." },
+        { "w": "weder Tee oder Wasser", "hint": "noch." },
+        { "w": "noch er trinkt", "hint": "noch." },
+        { "w": "sowohl Tee und Wasser", "hint": "als auch." },
+        { "w": "sondern Tee auch", "hint": "sondern." }
+      ],
+      "items": [
+        {
+          "before": "Either tea or water. The pair:",
+          "after": ".",
+          "answer": "entweder Tee oder Wasser",
+          "en": "either tea or water.",
+          "why": "entweder … oder. Tee oder Wasser stays correct with no entweder.",
+          "tip": "oder.",
+          "hint": "oder."
+        },
+        {
+          "before": "Or he drinks. After oder:",
+          "after": ".",
+          "answer": "oder er trinkt",
+          "en": "or he drinks.",
+          "why": "oder er trinkt. Not oder trinkt er. Entweder er isst, oder er trinkt stays correct too.",
+          "tip": "oder.",
+          "hint": "oder."
+        },
+        {
+          "before": "Neither tea nor water. The pair:",
+          "after": ".",
+          "answer": "weder Tee noch Wasser",
+          "en": "neither tea nor water.",
+          "why": "weder … noch. keinen Tee stays chapter 15.",
+          "tip": "noch.",
+          "hint": "noch."
+        },
+        {
+          "before": "Nor does he drink. After noch:",
+          "after": ".",
+          "answer": "noch trinkt er",
+          "en": "nor does he drink.",
+          "why": "noch trinkt er. Weder er isst, noch er trinkt stays the other correct order.",
+          "tip": "noch.",
+          "hint": "noch."
+        },
+        {
+          "before": "Both tea and water. The pair:",
+          "after": ".",
+          "answer": "sowohl Tee als auch Wasser",
+          "en": "both tea and water.",
+          "why": "sowohl … als auch. Not und. stärker als stays chapter 38. Als er kam stays chapter 72.",
+          "tip": "als auch.",
+          "hint": "als auch."
+        },
+        {
+          "before": "But also water. After nicht nur:",
+          "after": ".",
+          "answer": "sondern auch Wasser",
+          "en": "but also water.",
+          "why": "sondern auch. Nicht Tee, sondern Wasser stays correct with no auch.",
+          "tip": "sondern.",
+          "hint": "sondern."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. A plain oder, the other word order, and sondern alone stay correct.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Vor dem Scan",
+        "paragraphs": [
+          "Er trinkt entweder Tee oder Wasser. Entweder isst er, oder er trinkt. Er trinkt weder Tee noch Wasser. Weder isst er, noch trinkt er.",
+          "Er mag sowohl Tee als auch Wasser. Nicht nur Tee, sondern auch Wasser. Vor dem Scan nimmt er weder Essen noch Tabletten. Er trinkt Tee oder Wasser."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Either tea or water, with entweder. From the note.",
+          "qEn": "entweder Tee oder Wasser.",
+          "options": ["entweder Tee oder Wasser", "entweder Tee noch Wasser", "Tee oder Wasser"],
+          "answer": 0,
+          "why": "The note has entweder Tee oder Wasser. Tee oder Wasser is also in the note, with no entweder, and stays correct.",
+          "hint": "oder."
+        },
+        {
+          "kind": "mc",
+          "q": "He neither eats nor drinks, from the note.",
+          "qEn": "noch trinkt er.",
+          "options": ["noch trinkt er", "noch er trinkt", "Weder er isst, noch er trinkt."],
+          "answer": 0,
+          "why": "The note has noch trinkt er. The subject-first line stays correct too.",
+          "hint": "noch."
+        },
+        {
+          "kind": "mc",
+          "q": "Both tea and water, from the note.",
+          "qEn": "sowohl Tee als auch Wasser.",
+          "options": ["sowohl Tee als auch Wasser", "sowohl Tee und Wasser", "Er mag Tee und Wasser."],
+          "answer": 0,
+          "why": "The note has sowohl Tee als auch Wasser. Tee und Wasser stays correct with no sowohl.",
+          "hint": "als auch."
+        },
+        {
+          "kind": "mc",
+          "q": "Before the scan, neither food nor tablets. From the note.",
+          "qEn": "weder Essen noch Tabletten.",
+          "options": ["weder Essen noch Tabletten", "weder Essen oder Tabletten", "Vor dem Scan"],
+          "answer": 0,
+          "why": "The note has weder Essen noch Tabletten. Vor dem Scan is also in the note. vor takes dem, not den.",
+          "hint": "noch."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. He drinks either tea or water. He drinks neither tea nor water. He likes both tea and water. Not only tea, but also water.",
+      "prompt": "He drinks either tea or water. He drinks neither tea nor water. He likes both tea and water. Not only tea, but also water.",
+      "bullets": ["entweder Tee oder Wasser", "weder Tee noch Wasser", "sowohl Tee als auch Wasser", "sondern auch Wasser"],
+      "model": "Er trinkt entweder Tee oder Wasser. Er trinkt weder Tee noch Wasser. Er mag sowohl Tee als auch Wasser. Nicht nur Tee, sondern auch Wasser.",
+      "modelEn": "He drinks either tea or water. He drinks neither tea nor water. He likes both tea and water. Not only tea, but also water.",
+      "hint": "entweder oder. weder noch. sowohl als auch. sondern auch.",
+      "checklist": [
+        { "id": "e", "label": "entweder Tee oder Wasser", "keywords": ["entweder tee oder wasser"] },
+        { "id": "n", "label": "weder Tee noch Wasser", "keywords": ["weder tee noch wasser"] },
+        { "id": "s", "label": "sowohl Tee als auch Wasser", "keywords": ["sowohl tee als auch wasser"] },
+        { "id": "a", "label": "sondern auch Wasser", "keywords": ["sondern auch wasser"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Entweder … oder, weder … noch",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "entweder … oder. weder … noch, with no extra nicht. sowohl … als auch. nicht nur … sondern auch, comma before sondern. After oder and noch the verb is position 2. vor dem Scan is dative.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "He drinks either tea or water.",
+          "qEn": "entweder Tee oder Wasser.",
+          "options": ["Er trinkt entweder Tee oder Wasser.", "Er trinkt entweder Tee noch Wasser.", "Er trinkt Tee oder Wasser."],
+          "answer": 0,
+          "why": "entweder … oder. The plain oder line stays correct.",
+          "hint": "oder."
+        },
+        {
+          "kind": "mc",
+          "q": "Either he eats, or he drinks.",
+          "qEn": "oder er trinkt.",
+          "options": ["Entweder isst er, oder er trinkt.", "Entweder isst er, oder trinkt er.", "Entweder er isst, oder er trinkt."],
+          "answer": 0,
+          "why": "oder er trinkt. The subject-first line stays correct too.",
+          "hint": "oder."
+        },
+        {
+          "kind": "mc",
+          "q": "He drinks neither tea nor water.",
+          "qEn": "weder Tee noch Wasser.",
+          "options": ["Er trinkt weder Tee noch Wasser.", "Er trinkt weder Tee oder Wasser.", "Er trinkt keinen Tee."],
+          "answer": 0,
+          "why": "weder … noch. keinen Tee stays chapter 15.",
+          "hint": "noch."
+        },
+        {
+          "kind": "mc",
+          "q": "He neither eats nor drinks.",
+          "qEn": "noch trinkt er.",
+          "options": ["Weder isst er, noch trinkt er.", "Weder isst er, noch er trinkt.", "Weder er isst, noch er trinkt."],
+          "answer": 0,
+          "why": "noch trinkt er. The subject-first line stays correct too.",
+          "hint": "noch."
+        },
+        {
+          "kind": "mc",
+          "q": "He likes both tea and water.",
+          "qEn": "sowohl Tee als auch Wasser.",
+          "options": ["Er mag sowohl Tee als auch Wasser.", "Er mag sowohl Tee und Wasser.", "Er mag Tee und Wasser."],
+          "answer": 0,
+          "why": "sowohl … als auch. Tee und Wasser stays correct.",
+          "hint": "als auch."
+        },
+        {
+          "kind": "mc",
+          "q": "Not only tea, but also water.",
+          "qEn": "nicht nur Tee, sondern auch Wasser.",
+          "options": ["Nicht nur Tee, sondern auch Wasser.", "Nicht nur Tee, aber auch Wasser.", "Nicht Tee, sondern Wasser."],
+          "answer": 0,
+          "why": "sondern auch. Nicht Tee, sondern Wasser stays correct.",
+          "hint": "sondern."
+        },
+        {
+          "kind": "mc",
+          "q": "Subject first after entweder.",
+          "qEn": "Entweder er isst, oder er trinkt.",
+          "options": ["Entweder er isst, oder er trinkt.", "Entweder er isst, oder trinkt er.", "Entweder isst er, oder er trinkt."],
+          "answer": 0,
+          "why": "Subject first in both clauses. The verb-first entweder line stays correct too. Not oder trinkt er.",
+          "hint": "oder."
+        },
+        {
+          "kind": "mc",
+          "q": "Comma before sondern.",
+          "qEn": "Nicht nur Tee, sondern auch Wasser.",
+          "options": ["Nicht nur Tee, sondern auch Wasser.", "Nicht nur Tee sondern auch Wasser.", "Nicht Tee, sondern Wasser."],
+          "answer": 0,
+          "why": "The comma belongs before sondern. Nicht Tee, sondern Wasser stays correct.",
+          "hint": "sondern."
+        },
+        {
+          "kind": "mc",
+          "q": "Both tea and water. Not the comparison.",
+          "qEn": "sowohl Tee als auch Wasser.",
+          "options": ["Er mag sowohl Tee als auch Wasser.", "Er mag sowohl Tee als Wasser.", "Der Schmerz ist stärker als gestern."],
+          "answer": 0,
+          "why": "als auch. Der Schmerz ist stärker als gestern stays the comparison, chapter 38. Als er kam stays chapter 72.",
+          "hint": "als auch."
+        },
+        {
+          "kind": "mc",
+          "q": "Before the scan, neither food nor tablets.",
+          "qEn": "weder Essen noch Tabletten.",
+          "options": ["Weder Essen noch Tabletten.", "Weder Essen oder Tabletten.", "Keine Tabletten."],
+          "answer": 0,
+          "why": "weder … noch. Keine Tabletten stays the kein negation, chapter 15.",
+          "hint": "noch."
+        },
+        {
+          "kind": "mc",
+          "q": "Before the scan. Dative.",
+          "qEn": "vor dem Scan.",
+          "options": ["Vor dem Scan.", "Vor den Scan.", "Bevor der Scan beginnt."],
+          "answer": 0,
+          "why": "vor takes the dative: dem Scan. Not den. Bevor der Scan beginnt stays the conjunction, chapter 73.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Subject first after weder.",
+          "qEn": "Weder er isst, noch er trinkt.",
+          "options": ["Weder er isst, noch er trinkt.", "Weder er isst, oder er trinkt.", "Weder isst er, noch trinkt er."],
+          "answer": 0,
+          "why": "noch, not oder. The inverted line Weder isst er, noch trinkt er stays correct too.",
+          "hint": "noch."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Entweder … oder, weder … noch",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Er trinkt entweder Tee oder Wasser.", "en": "He drinks either tea or water." },
+        { "de": "Er trinkt weder Tee noch Wasser.", "en": "He drinks neither tea nor water." },
+        { "de": "Er mag sowohl Tee als auch Wasser.", "en": "He likes both tea and water." },
+        { "de": "Nicht nur Tee, sondern auch Wasser.", "en": "Not only tea, but also water." }
+      ],
+      "messages": [
+        "entweder … oder is one or the other. weder … noch is neither nor, with no extra nicht. sowohl … als auch is both. nicht nur … sondern auch takes a comma before sondern.",
+        "After oder and noch the verb is position 2. Tee oder Wasser, keinen Tee, and Nicht Tee, sondern Wasser stay correct. stärker als stays chapter 38. vor dem Scan is dative.",
+        "Sehr gut. Er trinkt entweder Tee oder Wasser. Er trinkt weder Tee noch Wasser.",
+        "Ausgezeichnet. You can offer tea or water, refuse both food and tablets before the scan, and say he likes both."
+      ]
+    }
+  ]
+}

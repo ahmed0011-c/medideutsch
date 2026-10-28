@@ -87,6 +87,14 @@ const LESSON: Partial<Record<number, string>> = {
   70: "b1-70-relativsaetze",
   71: "b1-71-relativsaetze-praepositionen",
   72: "b1-72-wenn-als",
+  73: "b1-73-zeitnebensaetze",
+  74: "b1-74-um-zu-damit",
+  75: "b1-75-entweder-oder",
+  76: "b1-76-je-desto",
+  77: "b1-77-genitiv-praepositionen",
+  78: "b1-78-zeitpraepositionen",
+  79: "b1-79-adjektivendungen",
+  80: "b1-80-partizip-i",
 };
 
 type Seed = [number, "A1" | "A2" | "B1", string, string, string, string];

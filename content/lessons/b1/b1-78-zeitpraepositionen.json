@@ -1,0 +1,1140 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-78-zeitpraepositionen",
+  "level": "B1",
+  "unit": "Kapitel 78",
+  "chapter": 78,
+  "chapters": [78],
+  "title": "Innerhalb, außerhalb, in, nach, vor, seit, bei und während",
+  "subtitle": "More time prepositions",
+  "glossary": {
+    "innerhalb": {
+      "de": "innerhalb",
+      "pos": "preposition",
+      "en": "within",
+      "emoji": "⏱️",
+      "note": "Genitive: innerhalb einer Stunde. innerhalb der Stunde stays chapter 77. in einer Stunde is later, in an hour, and stays correct too."
+    },
+    "außerhalb": {
+      "de": "außerhalb",
+      "pos": "preposition",
+      "en": "outside",
+      "emoji": "🚪",
+      "note": "Genitive: außerhalb der Schicht. Er wartet außerhalb der Station stays place, chapter 77."
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in",
+      "emoji": "⏱️",
+      "note": "Time, dative: in einer Stunde means in an hour. in der Nacht stays chapter 30. im Zimmer and ins Zimmer stay place, chapters 62 and 34."
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "after",
+      "emoji": "🍽️",
+      "note": "Time, dative: nach der Operation. Nach dem Essen ruht er stays. nachdem stays the conjunction, chapter 73."
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "before",
+      "emoji": "🍽️",
+      "note": "Time, dative: vor der Operation. vor einer Stunde means an hour ago. Vor dem Essen trinkt er Wasser stays. vor dem Scan stays dative. bevor stays the conjunction."
+    },
+    "seit": {
+      "de": "seit",
+      "pos": "preposition",
+      "en": "since",
+      "emoji": "🌡️",
+      "note": "Time, dative, and it still holds: seit der Operation. seit Montag stays. Seit er Fieber hat, ruht er stays the conjunction, chapter 73."
+    },
+    "bei": {
+      "de": "bei",
+      "pos": "preposition",
+      "en": "at",
+      "emoji": "🩺",
+      "note": "Time or occasion, dative: bei der Visite. bei der Ärztin stays a person, chapter 31. während der Visite stays the genitive, chapter 77."
+    },
+    "und": { "de": "und", "pos": "conjunction", "en": "and", "emoji": "➕" },
+    "während": {
+      "de": "während",
+      "pos": "preposition",
+      "en": "during",
+      "emoji": "🌙",
+      "note": "Preposition plus genitive: während der Nacht. während der Visite stays chapter 77. Während er schläft, warten wir stays the conjunction, chapter 73."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "ruht": {
+      "de": "ruhen → er ruht",
+      "pos": "form",
+      "en": "rests",
+      "emoji": "😴",
+      "note": "Er ruht innerhalb einer Stunde. Er ruht seit der Operation. Er ruht während der Nacht."
+    },
+    "einer": {
+      "de": "einer",
+      "pos": "article",
+      "en": "a (genitive or dative)",
+      "emoji": "🔗",
+      "note": "einer Stunde. Genitive after innerhalb. Dative after in. Same form. Not eine Stunde after these prepositions."
+    },
+    "stunde": {
+      "de": "Stunde",
+      "pos": "noun",
+      "en": "hour",
+      "emoji": "⏱️",
+      "article": "die",
+      "plural": "die Stunden",
+      "note": "die Stunde. innerhalb einer Stunde. in einer Stunde. vor einer Stunde means an hour ago."
+    },
+    "sie": { "de": "sie", "pos": "pronoun", "en": "she", "emoji": "👩‍⚕️" },
+    "arbeitet": {
+      "de": "arbeiten → sie arbeitet",
+      "pos": "form",
+      "en": "works",
+      "emoji": "👩‍⚕️",
+      "note": "Sie arbeitet außerhalb der Schicht. Outside the shift, genitive."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (feminine dative or genitive)",
+      "emoji": "🔗",
+      "note": "Feminine dative: nach der Operation, vor der Operation, seit der Operation, bei der Visite. Feminine genitive: außerhalb der Schicht, während der Nacht. Same form."
+    },
+    "schicht": {
+      "de": "Schicht",
+      "pos": "noun",
+      "en": "shift",
+      "emoji": "🌙",
+      "article": "die",
+      "plural": "die Schichten",
+      "note": "die Schicht. außerhalb der Schicht. Feminine genitive der. Not des Schicht."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "der Arzt. Der Arzt kommt in einer Stunde. Not an n-declension noun."
+    },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Der Arzt kommt in einer Stunde. In an hour, dative. Not innerhalb."
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine nominative)",
+      "emoji": "🩺",
+      "note": "die Visite. Nominative. After nach, vor, seit and bei the feminine is der. After während and außerhalb the feminine genitive is also der."
+    },
+    "visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "round",
+      "emoji": "🩺",
+      "article": "die",
+      "plural": "die Visiten",
+      "note": "die Visite. bei der Visite is dative. während der Visite stays genitive, chapter 77."
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🩺",
+      "note": "Die Visite ist nach der Operation."
+    },
+    "operation": {
+      "de": "Operation",
+      "pos": "noun",
+      "en": "operation",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Operationen",
+      "note": "die Operation. nach der Operation, vor der Operation, seit der Operation. Feminine dative der. Not die after the preposition."
+    },
+    "trinkt": {
+      "de": "trinken → er trinkt",
+      "pos": "form",
+      "en": "drinks",
+      "emoji": "💧",
+      "note": "Er trinkt vor der Operation. Vor dem Essen trinkt er Wasser stays chapter 30."
+    },
+    "wartet": {
+      "de": "warten → er wartet",
+      "pos": "form",
+      "en": "waits",
+      "emoji": "⏳",
+      "note": "Er wartet bei der Visite. Er wartet im Zimmer stays place. Er wartet außerhalb der Station stays chapter 77."
+    },
+    "nacht": {
+      "de": "Nacht",
+      "pos": "noun",
+      "en": "night",
+      "emoji": "🌙",
+      "article": "die",
+      "plural": "die Nächte",
+      "note": "die Nacht. während der Nacht is genitive. in der Nacht stays chapter 30, dative."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Time after the preposition",
+      "learn": [
+        "innerhalb and außerhalb take the genitive. Er ruht innerhalb einer Stunde. Sie arbeitet außerhalb der Schicht.",
+        "in einer Stunde means in an hour, dative. nach, vor, seit and bei take the dative too. während der Nacht is the genitive preposition.",
+        "ab, zwischen take the dative for a time. bis, über, gegen and um take the accusative for these time uses. um acht Uhr stays the exact clock.",
+        "am, um and im stay chapter 30. Während er schläft and Seit er Fieber hat stay conjunctions. im Zimmer and ins Zimmer stay place."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Stunde", "article": "die", "plural": "die Stunden", "en": "hour", "emoji": "⏱️", "glossaryKey": "stunde" },
+        { "de": "Operation", "article": "die", "plural": "die Operationen", "en": "operation", "emoji": "🏥", "glossaryKey": "operation" },
+        { "de": "Nacht", "article": "die", "plural": "die Nächte", "en": "night", "emoji": "🌙", "glossaryKey": "nacht" }
+      ],
+      "text": {
+        "title": "Innerhalb, außerhalb, in, nach, vor, seit, bei und während",
+        "de": "Er ruht innerhalb einer Stunde. Sie arbeitet außerhalb der Schicht. Der Arzt kommt in einer Stunde. Die Visite ist nach der Operation. Er trinkt vor der Operation. Er ruht seit der Operation. Er wartet bei der Visite. Er ruht während der Nacht.",
+        "en": "He rests within an hour. She works outside the shift. The doctor comes in an hour. The round is after the operation. He drinks before the operation. He has been resting since the operation. He waits at the round. He rests during the night."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "More time prepositions",
+      "practice": "choose",
+      "heroTitle": "Innerhalb, außerhalb, in, nach, vor, seit, bei und während",
+      "heroImage": "bed",
+      "story": [
+        "<b>innerhalb</b> and <b>außerhalb</b> take the <b>genitive</b>. <b>Er ruht innerhalb einer Stunde.</b> Within the hour. <b>innerhalb der Stunde</b> stays chapter 77. <b>Sie arbeitet außerhalb der Schicht.</b> <b>Er wartet außerhalb der Station</b> stays place, chapter 77.",
+        "<b>in einer Stunde</b> means <b>in an hour</b>, and it takes the <b>dative</b>. <b>Der Arzt kommt in einer Stunde.</b> einer after in and einer after innerhalb look the same. The preposition chooses the meaning. <b>in der Nacht</b>, <b>am Montag</b>, <b>um acht Uhr</b> and <b>im Winter</b> stay chapter 30. <b>Er wartet im Zimmer</b> stays place. <b>Die Ärztin kommt ins Zimmer</b> stays direction, chapter 34.",
+        "<b>nach</b>, <b>vor</b>, <b>seit</b> and <b>bei</b> take the dative for a time. <b>Die Visite ist nach der Operation. Er trinkt vor der Operation. Er ruht seit der Operation. Er wartet bei der Visite.</b> Feminine dative is der, the same form as feminine genitive. <b>vor einer Stunde</b> means an hour ago. <b>Vor dem Essen trinkt er Wasser</b> and <b>vor dem Scan</b> stay dative. Not vor den Scan. <b>Nach dem Essen ruht er</b> stays. <b>nachdem</b> and <b>bevor</b> stay conjunctions, chapter 73. <b>seit Montag</b> stays. <b>Seit er Fieber hat, ruht er</b> stays the conjunction.",
+        "The preposition <b>während</b> takes the genitive: <b>Er ruht während der Nacht.</b> <b>während der Visite</b> stays chapter 77. <b>Während er schläft, warten wir</b> stays the conjunction. <b>bei der Visite</b> is the dative occasion. <b>bei der Ärztin</b> stays a person, chapter 31.",
+        "<b>ab dem Morgen</b> and <b>zwischen der Visite und dem Essen</b> take the dative. <b>Ab Freitag ist er zu Hause</b> and <b>zwischen acht und zehn</b> stay chapter 30. Place <b>zwischen</b> stays chapter 34. <b>bis den Abend</b>, <b>über die Nacht</b>, <b>gegen acht Uhr</b> and <b>um acht Uhr</b> take the accusative for these time uses. <b>bis zum Abend</b> stays too. <b>Er kommt um acht Uhr</b> is the exact clock. <b>von Montag bis Freitag</b> stays. <b>Die Tablette hilft gegen die Schmerzen</b> stays against, chapter 32. <b>Die Pflegekraft geht um das Bett</b> stays around the bed, not the clock."
+      ],
+      "questionRule": "innerhalb, außerhalb and während take the genitive. in, nach, vor, seit, bei, ab and time zwischen take the dative. bis, über, gegen and um take the accusative for these time uses. in einer Stunde is in an hour. während der Nacht is the preposition. Während er schläft stays the conjunction.",
+      "tables": [
+        {
+          "title": "Kasus",
+          "caption": "Feminine der is dative after nach, vor, seit and bei, and genitive after außerhalb and während. einer after in is dative. einer after innerhalb is genitive. Same form.",
+          "columns": ["Form", "Beispiel"],
+          "rows": [
+            { "label": "Genitiv", "cells": ["innerhalb, außerhalb, während", "innerhalb einer Stunde, während der Nacht"], "highlight": true },
+            { "label": "Dativ", "cells": ["in, nach, vor, seit, bei, ab", "in einer Stunde, seit der Operation, ab dem Morgen"], "highlight": true },
+            { "label": "Akkusativ", "cells": ["bis, über, gegen, um", "bis den Abend, über die Nacht, gegen acht Uhr"] },
+            { "label": "zwischen", "cells": ["Dativ, a time", "zwischen der Visite und dem Essen"] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "innerhalb der Stunde, außerhalb der Station, in der Nacht, nach dem Essen, vor dem Essen, seit Montag, während der Visite, and Während er schläft stay correct.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "innerhalb", "cells": ["Er ruht innerhalb einer Stunde."], "highlight": true },
+            { "label": "außerhalb", "cells": ["Sie arbeitet außerhalb der Schicht."] },
+            { "label": "in", "cells": ["Der Arzt kommt in einer Stunde."], "highlight": true },
+            { "label": "nach", "cells": ["Die Visite ist nach der Operation."] },
+            { "label": "vor", "cells": ["Er trinkt vor der Operation."] },
+            { "label": "seit", "cells": ["Er ruht seit der Operation."] },
+            { "label": "bei", "cells": ["Er wartet bei der Visite."] },
+            { "label": "während", "cells": ["Er ruht während der Nacht."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "in einer Stunde, innerhalb der Stunde, außerhalb der Station, seit Montag, Seit er Fieber hat, während der Visite, Während er schläft, nach dem Essen, vor dem Essen, vor dem Scan, vor einer Stunde, um acht Uhr, Ab Freitag, von Montag bis Freitag, zwischen acht und zehn, in der Nacht, im Zimmer, ins Zimmer, bis zum Abend, gegen die Schmerzen, and um das Bett stay correct. Place vor, über, in and zwischen stay chapter 34.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "innerhalb", "cells": ["innerhalb eine Stunde", "innerhalb einer Stunde"] },
+            { "label": "in", "cells": ["in eine Stunde", "in einer Stunde"] },
+            { "label": "Schicht", "cells": ["außerhalb des Schicht", "außerhalb der Schicht"] },
+            { "label": "seit", "cells": ["seit die Operation", "seit der Operation"] },
+            { "label": "nach", "cells": ["nach die Operation", "nach der Operation"] },
+            { "label": "vor", "cells": ["vor den Scan", "vor dem Scan"] },
+            { "label": "während", "cells": ["während dem Nacht", "während der Nacht"] },
+            { "label": "bis", "cells": ["bis dem Abend", "bis den Abend"] },
+            { "label": "über", "cells": ["über der Nacht", "über die Nacht"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four time traps",
+        "items": [
+          { "de": "Er ruht innerhalb einer Stunde.", "en": "Genitive einer.", "tone": "ok" },
+          { "de": "Er ruht innerhalb eine Stunde.", "en": "eine is not genitive.", "tone": "stop" },
+          { "de": "Der Arzt kommt in einer Stunde.", "en": "In an hour, dative.", "tone": "ok" },
+          { "de": "Der Arzt kommt in eine Stunde.", "en": "eine is not dative.", "tone": "stop" },
+          { "de": "Er ruht seit der Operation.", "en": "Dative der.", "tone": "ok" },
+          { "de": "Er ruht seit die Operation.", "en": "die is not dative.", "tone": "stop" },
+          { "de": "Er ruht während der Nacht.", "en": "Genitive der.", "tone": "ok" },
+          { "de": "Er ruht während dem Nacht.", "en": "dem is not feminine.", "tone": "stop" }
+        ],
+        "tip": "Genitive after innerhalb, außerhalb and während. Dative after in, nach, vor, seit and bei."
+      },
+      "tips": [
+        {
+          "title": "Within, or in an hour",
+          "body": "innerhalb einer Stunde. in einer Stunde. seit der Operation. während der Nacht.",
+          "mnemonic": "innerhalb einer. in einer. während der.",
+          "emoji": "⏱️"
+        }
+      ],
+      "meaningsTitle": "Four ward times",
+      "meanings": [
+        { "modal": "innerhalb", "emoji": "⏱️", "en": "within an hour", "use": "genitive", "de": "Er ruht innerhalb einer Stunde.", "deEn": "He rests within an hour." },
+        { "modal": "in", "emoji": "🚶", "en": "in an hour", "use": "dative", "de": "Der Arzt kommt in einer Stunde.", "deEn": "The doctor comes in an hour." },
+        { "modal": "seit", "emoji": "🏥", "en": "since the operation", "use": "dative", "de": "Er ruht seit der Operation.", "deEn": "He has been resting since the operation." },
+        { "modal": "während", "emoji": "🌙", "en": "during the night", "use": "genitive", "de": "Er ruht während der Nacht.", "deEn": "He rests during the night." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "He rests within an hour.",
+          "qEn": "innerhalb einer Stunde.",
+          "options": ["Er ruht innerhalb einer Stunde.", "Er ruht innerhalb eine Stunde.", "Er ruht in einer Stunde."],
+          "answer": 0,
+          "why": "Genitive einer. Er ruht in einer Stunde stays correct for in an hour. innerhalb der Stunde stays chapter 77.",
+          "hint": "einer."
+        },
+        {
+          "kind": "mc",
+          "q": "She works outside the shift.",
+          "qEn": "außerhalb der Schicht.",
+          "options": ["Sie arbeitet außerhalb der Schicht.", "Sie arbeitet außerhalb des Schicht.", "Er wartet außerhalb der Station."],
+          "answer": 0,
+          "why": "der Schicht, feminine genitive. Er wartet außerhalb der Station stays place, chapter 77.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor comes in an hour.",
+          "qEn": "in einer Stunde.",
+          "options": ["Der Arzt kommt in einer Stunde.", "Der Arzt kommt in eine Stunde.", "Er wartet im Zimmer."],
+          "answer": 0,
+          "why": "Dative einer. in der Nacht stays chapter 30. Er wartet im Zimmer stays place. ins Zimmer stays direction.",
+          "hint": "einer."
+        },
+        {
+          "kind": "mc",
+          "q": "He has been resting since the operation.",
+          "qEn": "seit der Operation.",
+          "options": ["Er ruht seit der Operation.", "Er ruht seit die Operation.", "Seit er Fieber hat, ruht er."],
+          "answer": 0,
+          "why": "Dative der. seit Montag stays chapter 30. Seit er Fieber hat, ruht er stays the conjunction.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He waits at the round.",
+          "qEn": "bei der Visite.",
+          "options": ["Er wartet bei der Visite.", "Er wartet bei die Visite.", "Sie schreibt während der Visite."],
+          "answer": 0,
+          "why": "Dative der. Sie schreibt während der Visite stays genitive, chapter 77. bei der Ärztin stays a person.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He rests during the night.",
+          "qEn": "während der Nacht.",
+          "options": ["Er ruht während der Nacht.", "Er ruht während dem Nacht.", "Während er schläft, warten wir."],
+          "answer": 0,
+          "why": "Genitive der. in der Nacht stays chapter 30. Während er schläft, warten wir stays the conjunction.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The written time line. Genitive after innerhalb, außerhalb and während. Dative after in, seit and bei. A conjunction, a place, and chapter 30 stay out of the chips.",
+      "chips": [
+        { "w": "Er ruht innerhalb einer Stunde", "hint": "einer." },
+        { "w": "Sie arbeitet außerhalb der Schicht", "hint": "der." },
+        { "w": "Der Arzt kommt in einer Stunde", "hint": "einer." },
+        { "w": "Er ruht seit der Operation", "hint": "der." },
+        { "w": "Er wartet bei der Visite", "hint": "der." },
+        { "w": "Er ruht während der Nacht", "hint": "der." },
+        { "w": "Er ruht innerhalb eine Stunde", "hint": "r." },
+        { "w": "Sie arbeitet außerhalb des Schicht", "hint": "der." },
+        { "w": "Der Arzt kommt in eine Stunde", "hint": "einer." },
+        { "w": "Er ruht seit die Operation", "hint": "der." },
+        { "w": "Er wartet bei die Visite", "hint": "der." },
+        { "w": "Er ruht während dem Nacht", "hint": "der." }
+      ],
+      "items": [
+        {
+          "before": "He rests within an hour:",
+          "after": ".",
+          "answer": "Er ruht innerhalb einer Stunde",
+          "en": "He rests within an hour.",
+          "why": "einer, genitive. in einer Stunde stays in an hour. innerhalb der Stunde stays chapter 77.",
+          "tip": "einer.",
+          "hint": "einer."
+        },
+        {
+          "before": "She works outside the shift:",
+          "after": ".",
+          "answer": "Sie arbeitet außerhalb der Schicht",
+          "en": "She works outside the shift.",
+          "why": "der Schicht. außerhalb der Station stays place.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "The doctor comes in an hour:",
+          "after": ".",
+          "answer": "Der Arzt kommt in einer Stunde",
+          "en": "The doctor comes in an hour.",
+          "why": "einer, dative. im Zimmer stays place. in der Nacht stays chapter 30.",
+          "tip": "einer.",
+          "hint": "einer."
+        },
+        {
+          "before": "He has been resting since the operation:",
+          "after": ".",
+          "answer": "Er ruht seit der Operation",
+          "en": "He has been resting since the operation.",
+          "why": "der, dative. Seit er Fieber hat stays the conjunction. seit Montag stays.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "He waits at the round:",
+          "after": ".",
+          "answer": "Er wartet bei der Visite",
+          "en": "He waits at the round.",
+          "why": "der, dative. während der Visite stays genitive.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "He rests during the night:",
+          "after": ".",
+          "answer": "Er ruht während der Nacht",
+          "en": "He rests during the night.",
+          "why": "der, genitive. Während er schläft stays the conjunction. in der Nacht stays.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line is this chapter's time. One is not German. A chapter 30 line, a conjunction, or a place stays correct.",
+      "items": [
+        {
+          "prompt": "He rests within an hour",
+          "options": [
+            { "emoji": "⏱️", "label": "Er ruht innerhalb einer Stunde.", "caption": "genitive" },
+            { "emoji": "🚫", "label": "Er ruht innerhalb eine Stunde.", "caption": "not eine" },
+            { "emoji": "⏱️", "label": "Er ruht in einer Stunde.", "caption": "in an hour" }
+          ],
+          "answer": 0,
+          "why": "innerhalb einer Stunde. in einer Stunde stays in an hour.",
+          "hint": "einer."
+        },
+        {
+          "prompt": "She works outside the shift",
+          "options": [
+            { "emoji": "🌙", "label": "Sie arbeitet außerhalb der Schicht.", "caption": "der" },
+            { "emoji": "🚫", "label": "Sie arbeitet außerhalb des Schicht.", "caption": "not des" },
+            { "emoji": "🚪", "label": "Er wartet außerhalb der Station.", "caption": "place" }
+          ],
+          "answer": 0,
+          "why": "der Schicht. außerhalb der Station stays place.",
+          "hint": "der."
+        },
+        {
+          "prompt": "The doctor comes in an hour",
+          "options": [
+            { "emoji": "🚶", "label": "Der Arzt kommt in einer Stunde.", "caption": "dative" },
+            { "emoji": "🚫", "label": "Der Arzt kommt in eine Stunde.", "caption": "not eine" },
+            { "emoji": "🛏️", "label": "Er wartet im Zimmer.", "caption": "place" }
+          ],
+          "answer": 0,
+          "why": "in einer Stunde. im Zimmer stays place.",
+          "hint": "einer."
+        },
+        {
+          "prompt": "He has rested since the operation",
+          "options": [
+            { "emoji": "🏥", "label": "Er ruht seit der Operation.", "caption": "dative" },
+            { "emoji": "🚫", "label": "Er ruht seit die Operation.", "caption": "not die" },
+            { "emoji": "🌡️", "label": "Seit er Fieber hat, ruht er.", "caption": "conjunction" }
+          ],
+          "answer": 0,
+          "why": "seit der Operation. The conjunction stays chapter 73.",
+          "hint": "der."
+        },
+        {
+          "prompt": "He waits at the round",
+          "options": [
+            { "emoji": "🩺", "label": "Er wartet bei der Visite.", "caption": "dative" },
+            { "emoji": "🚫", "label": "Er wartet bei die Visite.", "caption": "not die" },
+            { "emoji": "📝", "label": "Sie schreibt während der Visite.", "caption": "genitive" }
+          ],
+          "answer": 0,
+          "why": "bei der Visite. während der Visite stays chapter 77.",
+          "hint": "der."
+        },
+        {
+          "prompt": "He rests during the night",
+          "options": [
+            { "emoji": "🌙", "label": "Er ruht während der Nacht.", "caption": "genitive" },
+            { "emoji": "🚫", "label": "Er ruht während dem Nacht.", "caption": "not dem" },
+            { "emoji": "😴", "label": "Während er schläft, warten wir.", "caption": "conjunction" }
+          ],
+          "answer": 0,
+          "why": "während der Nacht. The conjunction stays chapter 73.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, within the hour",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, since the operation",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, in one hour",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, during the night",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Time at the end",
+      "practice": "build",
+      "instructions": "Build the line. The time phrase can also stand first. Keep einer or der.",
+      "items": [
+        {
+          "tiles": ["Er", "ruht", "innerhalb", "einer", "Stunde"],
+          "answers": ["Er ruht innerhalb einer Stunde", "Innerhalb einer Stunde ruht er"],
+          "punct": ".",
+          "modal": "innerhalb",
+          "inf": "Stunde",
+          "question": false,
+          "en": "He rests within an hour.",
+          "hint": "Er ruht innerhalb einer Stunde. Or innerhalb first.",
+          "feedback": {
+            "end": "Stunde closes innerhalb einer Stunde.",
+            "fallback": "Er ruht innerhalb einer Stunde. Or: Innerhalb einer Stunde ruht er."
+          }
+        },
+        {
+          "tiles": ["Sie", "arbeitet", "außerhalb", "der", "Schicht"],
+          "answers": ["Sie arbeitet außerhalb der Schicht", "Außerhalb der Schicht arbeitet sie"],
+          "punct": ".",
+          "modal": "außerhalb",
+          "inf": "Schicht",
+          "question": false,
+          "en": "She works outside the shift.",
+          "hint": "Sie arbeitet außerhalb der Schicht. Or außerhalb first.",
+          "feedback": {
+            "end": "Schicht closes außerhalb der Schicht.",
+            "fallback": "Sie arbeitet außerhalb der Schicht. Or: Außerhalb der Schicht arbeitet sie."
+          }
+        },
+        {
+          "tiles": ["Der", "Arzt", "kommt", "in", "einer", "Stunde"],
+          "answers": ["Der Arzt kommt in einer Stunde", "In einer Stunde kommt der Arzt"],
+          "punct": ".",
+          "modal": "in",
+          "inf": "Stunde",
+          "question": false,
+          "en": "The doctor comes in an hour.",
+          "hint": "Der Arzt kommt in einer Stunde. Or in first.",
+          "feedback": {
+            "end": "Stunde closes in einer Stunde.",
+            "fallback": "Der Arzt kommt in einer Stunde. Or: In einer Stunde kommt der Arzt."
+          }
+        },
+        {
+          "tiles": ["Er", "ruht", "während", "der", "Nacht"],
+          "answers": ["Er ruht während der Nacht", "Während der Nacht ruht er"],
+          "punct": ".",
+          "modal": "während",
+          "inf": "Nacht",
+          "question": false,
+          "en": "He rests during the night.",
+          "hint": "Er ruht während der Nacht. Or während first.",
+          "feedback": {
+            "end": "Nacht closes während der Nacht.",
+            "fallback": "Er ruht während der Nacht. Or: Während der Nacht ruht er."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the time line",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the time line the English asks for.",
+      "chips": [
+        { "w": "Er ruht innerhalb einer Stunde", "hint": "einer." },
+        { "w": "Sie arbeitet außerhalb der Schicht", "hint": "der." },
+        { "w": "Der Arzt kommt in einer Stunde", "hint": "einer." },
+        { "w": "Er ruht seit der Operation", "hint": "der." },
+        { "w": "Er wartet bei der Visite", "hint": "der." },
+        { "w": "Er ruht während der Nacht", "hint": "der." },
+        { "w": "Er ruht innerhalb eine Stunde", "hint": "r." },
+        { "w": "Sie arbeitet außerhalb des Schicht", "hint": "der." },
+        { "w": "Der Arzt kommt in eine Stunde", "hint": "einer." },
+        { "w": "Er ruht seit die Operation", "hint": "der." },
+        { "w": "Er wartet bei die Visite", "hint": "der." },
+        { "w": "Er ruht während dem Nacht", "hint": "der." }
+      ],
+      "items": [
+        {
+          "before": "innerhalb der Stunde stays chapter 77. Within an hour:",
+          "after": ".",
+          "answer": "Er ruht innerhalb einer Stunde",
+          "en": "He rests within an hour.",
+          "why": "einer. The definite genitive stays too.",
+          "tip": "einer.",
+          "hint": "einer."
+        },
+        {
+          "before": "Er wartet außerhalb der Station stays place. Outside the shift:",
+          "after": ".",
+          "answer": "Sie arbeitet außerhalb der Schicht",
+          "en": "She works outside the shift.",
+          "why": "der Schicht. The place line stays chapter 77.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Er wartet im Zimmer stays place. In an hour:",
+          "after": ".",
+          "answer": "Der Arzt kommt in einer Stunde",
+          "en": "The doctor comes in an hour.",
+          "why": "in einer Stunde. im Zimmer stays. ins Zimmer stays direction.",
+          "tip": "einer.",
+          "hint": "einer."
+        },
+        {
+          "before": "Seit er Fieber hat, ruht er stays the conjunction. Since the operation:",
+          "after": ".",
+          "answer": "Er ruht seit der Operation",
+          "en": "He has been resting since the operation.",
+          "why": "seit der Operation. The conjunction stays chapter 73.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Sie schreibt während der Visite stays chapter 77. At the round:",
+          "after": ".",
+          "answer": "Er wartet bei der Visite",
+          "en": "He waits at the round.",
+          "why": "bei der Visite. The genitive preposition stays.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Während er schläft, warten wir stays the conjunction. During the night:",
+          "after": ".",
+          "answer": "Er ruht während der Nacht",
+          "en": "He rests during the night.",
+          "why": "während der Nacht. The conjunction stays. in der Nacht stays.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the written time. Choose the correction. Chapter 30, the conjunction, and the place stay correct.",
+      "items": [
+        {
+          "clues": ["Within an hour.", "einer.", "Er ruht innerhalb eine Stunde."],
+          "options": ["Er ruht innerhalb einer Stunde.", "Er ruht innerhalb eine Stunde.", "Er ruht in einer Stunde."],
+          "answer": 0,
+          "reveal": "Er ruht innerhalb einer Stunde.",
+          "hint": "einer."
+        },
+        {
+          "clues": ["Outside the shift.", "der.", "Sie arbeitet außerhalb des Schicht."],
+          "options": ["Sie arbeitet außerhalb der Schicht.", "Sie arbeitet außerhalb des Schicht.", "Er wartet außerhalb der Station."],
+          "answer": 0,
+          "reveal": "Sie arbeitet außerhalb der Schicht.",
+          "hint": "der."
+        },
+        {
+          "clues": ["In an hour.", "einer.", "Der Arzt kommt in eine Stunde."],
+          "options": ["Der Arzt kommt in einer Stunde.", "Der Arzt kommt in eine Stunde.", "Er wartet im Zimmer."],
+          "answer": 0,
+          "reveal": "Der Arzt kommt in einer Stunde.",
+          "hint": "einer."
+        },
+        {
+          "clues": ["Since the operation.", "der.", "Er ruht seit die Operation."],
+          "options": ["Er ruht seit der Operation.", "Er ruht seit die Operation.", "Seit er Fieber hat, ruht er."],
+          "answer": 0,
+          "reveal": "Er ruht seit der Operation.",
+          "hint": "der."
+        },
+        {
+          "clues": ["At the round.", "der.", "Er wartet bei die Visite."],
+          "options": ["Er wartet bei der Visite.", "Er wartet bei die Visite.", "Sie schreibt während der Visite."],
+          "answer": 0,
+          "reveal": "Er wartet bei der Visite.",
+          "hint": "der."
+        },
+        {
+          "clues": ["During the night.", "der.", "Er ruht während dem Nacht."],
+          "options": ["Er ruht während der Nacht.", "Er ruht während dem Nacht.", "Während er schläft, warten wir."],
+          "answer": 0,
+          "reveal": "Er ruht während der Nacht.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the night shift",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses the written time. Genitive after innerhalb, außerhalb and während. Dative after in, seit and bei.",
+      "chips": [
+        { "w": "Er ruht innerhalb einer Stunde", "hint": "einer." },
+        { "w": "Sie arbeitet außerhalb der Schicht", "hint": "der." },
+        { "w": "Der Arzt kommt in einer Stunde", "hint": "einer." },
+        { "w": "Er ruht seit der Operation", "hint": "der." },
+        { "w": "Er wartet bei der Visite", "hint": "der." },
+        { "w": "Er ruht während der Nacht", "hint": "der." },
+        { "w": "Er ruht innerhalb eine Stunde", "hint": "r." },
+        { "w": "Sie arbeitet außerhalb des Schicht", "hint": "der." },
+        { "w": "Der Arzt kommt in eine Stunde", "hint": "einer." },
+        { "w": "Er ruht seit die Operation", "hint": "der." },
+        { "w": "Er wartet bei die Visite", "hint": "der." },
+        { "w": "Er ruht während dem Nacht", "hint": "der." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, he rests within an hour:",
+          "after": ".",
+          "answer": "Er ruht innerhalb einer Stunde",
+          "en": "He rests within an hour.",
+          "why": "einer.",
+          "tip": "einer.",
+          "hint": "einer."
+        },
+        {
+          "before": "Doctor, she works outside the shift:",
+          "after": ".",
+          "answer": "Sie arbeitet außerhalb der Schicht",
+          "en": "She works outside the shift.",
+          "why": "der.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Nurse, the doctor comes in an hour:",
+          "after": ".",
+          "answer": "Der Arzt kommt in einer Stunde",
+          "en": "The doctor comes in an hour.",
+          "why": "einer.",
+          "tip": "einer.",
+          "hint": "einer."
+        },
+        {
+          "before": "Doctor, he has rested since the operation:",
+          "after": ".",
+          "answer": "Er ruht seit der Operation",
+          "en": "He has been resting since the operation.",
+          "why": "der.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Nurse, he waits at the round:",
+          "after": ".",
+          "answer": "Er wartet bei der Visite",
+          "en": "He waits at the round.",
+          "why": "der.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Doctor, he rests during the night:",
+          "after": ".",
+          "answer": "Er ruht während der Nacht",
+          "en": "He rests during the night.",
+          "why": "der.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The time phrase",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The preposition and the noun only. Genitive after innerhalb, außerhalb and während. Dative after in, seit and bei.",
+      "chips": [
+        { "w": "innerhalb einer Stunde", "hint": "einer." },
+        { "w": "außerhalb der Schicht", "hint": "der." },
+        { "w": "in einer Stunde", "hint": "einer." },
+        { "w": "seit der Operation", "hint": "der." },
+        { "w": "bei der Visite", "hint": "der." },
+        { "w": "während der Nacht", "hint": "der." },
+        { "w": "innerhalb eine Stunde", "hint": "r." },
+        { "w": "außerhalb des Schicht", "hint": "der." },
+        { "w": "in eine Stunde", "hint": "einer." },
+        { "w": "seit die Operation", "hint": "der." },
+        { "w": "bei die Visite", "hint": "der." },
+        { "w": "während dem Nacht", "hint": "der." }
+      ],
+      "items": [
+        {
+          "before": "Within an hour. The phrase:",
+          "after": ".",
+          "answer": "innerhalb einer Stunde",
+          "en": "within an hour.",
+          "why": "einer, genitive. in einer Stunde stays in an hour.",
+          "tip": "einer.",
+          "hint": "einer."
+        },
+        {
+          "before": "Outside the shift. The phrase:",
+          "after": ".",
+          "answer": "außerhalb der Schicht",
+          "en": "outside the shift.",
+          "why": "der Schicht. außerhalb der Station stays place.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "In an hour. The phrase:",
+          "after": ".",
+          "answer": "in einer Stunde",
+          "en": "in an hour.",
+          "why": "einer, dative. innerhalb einer Stunde is within.",
+          "tip": "einer.",
+          "hint": "einer."
+        },
+        {
+          "before": "Since the operation. The phrase:",
+          "after": ".",
+          "answer": "seit der Operation",
+          "en": "since the operation.",
+          "why": "der, dative. Seit er Fieber hat stays the conjunction.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "At the round. The phrase:",
+          "after": ".",
+          "answer": "bei der Visite",
+          "en": "at the round.",
+          "why": "der, dative. während der Visite stays genitive.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "During the night. The phrase:",
+          "after": ".",
+          "answer": "während der Nacht",
+          "en": "during the night.",
+          "why": "der, genitive. in der Nacht stays chapter 30.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. Chapter 30, the conjunction, and the place stay correct.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Die Visite",
+        "paragraphs": [
+          "Er ruht innerhalb einer Stunde. Sie arbeitet außerhalb der Schicht. Der Arzt kommt in einer Stunde. Die Visite ist nach der Operation.",
+          "Er trinkt vor der Operation. Er ruht seit der Operation. Er wartet bei der Visite. Er ruht während der Nacht."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Within an hour, from the note.",
+          "qEn": "innerhalb einer Stunde.",
+          "options": ["innerhalb einer Stunde", "innerhalb eine Stunde", "innerhalb der Stunde"],
+          "answer": 0,
+          "why": "The note has innerhalb einer Stunde. innerhalb der Stunde stays chapter 77.",
+          "hint": "einer."
+        },
+        {
+          "kind": "mc",
+          "q": "In an hour, from the note.",
+          "qEn": "in einer Stunde.",
+          "options": ["in einer Stunde", "in eine Stunde", "im Zimmer"],
+          "answer": 0,
+          "why": "The note has in einer Stunde. im Zimmer stays place. in der Nacht stays chapter 30.",
+          "hint": "einer."
+        },
+        {
+          "kind": "mc",
+          "q": "After the operation, from the note.",
+          "qEn": "nach der Operation.",
+          "options": ["nach der Operation", "nach die Operation", "Nach dem Essen ruht er."],
+          "answer": 0,
+          "why": "The note has nach der Operation. Nach dem Essen ruht er stays. nachdem stays the conjunction.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Before the operation, from the note.",
+          "qEn": "vor der Operation.",
+          "options": ["vor der Operation", "vor die Operation", "Vor dem Essen trinkt er Wasser."],
+          "answer": 0,
+          "why": "The note has vor der Operation. Vor dem Essen trinkt er Wasser stays. vor dem Scan stays dative. vor einer Stunde means an hour ago.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. He rests within an hour. The doctor comes in an hour. He has been resting since the operation. He rests during the night.",
+      "prompt": "He rests within an hour. The doctor comes in an hour. He has been resting since the operation. He rests during the night.",
+      "bullets": ["innerhalb einer Stunde", "in einer Stunde", "seit der Operation", "während der Nacht"],
+      "model": "Er ruht innerhalb einer Stunde. Der Arzt kommt in einer Stunde. Er ruht seit der Operation. Er ruht während der Nacht.",
+      "modelEn": "He rests within an hour. The doctor comes in an hour. He has been resting since the operation. He rests during the night.",
+      "hint": "innerhalb einer Stunde. kommt in einer Stunde. seit der Operation. während der Nacht.",
+      "checklist": [
+        { "id": "i", "label": "innerhalb einer Stunde", "keywords": ["innerhalb einer stunde"] },
+        { "id": "n", "label": "in einer Stunde", "keywords": ["kommt in einer stunde"] },
+        { "id": "s", "label": "seit der Operation", "keywords": ["seit der operation"] },
+        { "id": "w", "label": "während der Nacht", "keywords": ["während der nacht"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Innerhalb, außerhalb, in, nach, vor, seit, bei und während",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Genitive after innerhalb, außerhalb and während. Dative after in, nach, vor, seit, bei and ab. Accusative after bis, über, gegen and um for these time uses. in einer Stunde is in an hour. Während er schläft stays the conjunction.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "He rests within an hour.",
+          "qEn": "innerhalb einer Stunde.",
+          "options": ["Er ruht innerhalb einer Stunde.", "Er ruht innerhalb eine Stunde.", "Er ruht in einer Stunde."],
+          "answer": 0,
+          "why": "Genitive einer. in einer Stunde stays in an hour.",
+          "hint": "einer."
+        },
+        {
+          "kind": "mc",
+          "q": "She works outside the shift.",
+          "qEn": "außerhalb der Schicht.",
+          "options": ["Sie arbeitet außerhalb der Schicht.", "Sie arbeitet außerhalb des Schicht.", "Er wartet außerhalb der Station."],
+          "answer": 0,
+          "why": "der Schicht. außerhalb der Station stays place.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "The doctor comes in an hour.",
+          "qEn": "in einer Stunde.",
+          "options": ["Der Arzt kommt in einer Stunde.", "Der Arzt kommt in eine Stunde.", "Er wartet im Zimmer."],
+          "answer": 0,
+          "why": "Dative einer. im Zimmer stays place.",
+          "hint": "einer."
+        },
+        {
+          "kind": "mc",
+          "q": "He has been resting since the operation.",
+          "qEn": "seit der Operation.",
+          "options": ["Er ruht seit der Operation.", "Er ruht seit die Operation.", "Seit er Fieber hat, ruht er."],
+          "answer": 0,
+          "why": "Dative der. The conjunction stays chapter 73.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He waits at the round.",
+          "qEn": "bei der Visite.",
+          "options": ["Er wartet bei der Visite.", "Er wartet bei die Visite.", "Sie schreibt während der Visite."],
+          "answer": 0,
+          "why": "Dative der. während der Visite stays chapter 77.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He rests during the night.",
+          "qEn": "während der Nacht.",
+          "options": ["Er ruht während der Nacht.", "Er ruht während dem Nacht.", "Während er schläft, warten wir."],
+          "answer": 0,
+          "why": "Genitive der. The conjunction stays chapter 73.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "The round is after the operation.",
+          "qEn": "nach der Operation.",
+          "options": ["Die Visite ist nach der Operation.", "Die Visite ist nach die Operation.", "Nach dem Essen ruht er."],
+          "answer": 0,
+          "why": "Dative der. Nach dem Essen ruht er stays. nachdem stays the conjunction.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He drinks before the operation.",
+          "qEn": "vor der Operation.",
+          "options": ["Er trinkt vor der Operation.", "Er trinkt vor die Operation.", "Vor dem Essen trinkt er Wasser."],
+          "answer": 0,
+          "why": "Dative der. Vor dem Essen trinkt er Wasser stays. vor dem Scan stays. vor einer Stunde means an hour ago. bevor stays the conjunction.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He rests from the morning on.",
+          "qEn": "ab dem Morgen.",
+          "options": ["Er ruht ab dem Morgen.", "Er ruht ab den Morgen.", "Ab Freitag ist er zu Hause."],
+          "answer": 0,
+          "why": "ab plus dative dem. Ab Freitag ist er zu Hause stays chapter 30.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "He stays until the evening.",
+          "qEn": "bis den Abend.",
+          "options": ["Er bleibt bis den Abend.", "Er bleibt bis dem Abend.", "von Montag bis Freitag"],
+          "answer": 0,
+          "why": "bis plus accusative den. von Montag bis Freitag stays. bis zum Abend stays too.",
+          "hint": "den."
+        },
+        {
+          "kind": "mc",
+          "q": "He stays over the night.",
+          "qEn": "über die Nacht.",
+          "options": ["Er bleibt über die Nacht.", "Er bleibt über der Nacht.", "In der Nacht misst sie das Fieber."],
+          "answer": 0,
+          "why": "über plus accusative for the span. über Nacht stays too. in der Nacht stays chapter 30. Place über stays chapter 34.",
+          "hint": "die."
+        },
+        {
+          "kind": "mc",
+          "q": "He comes around eight.",
+          "qEn": "gegen acht Uhr.",
+          "options": ["Er kommt gegen acht Uhr.", "Er kommt gegen dem Abend.", "Er kommt um acht Uhr."],
+          "answer": 0,
+          "why": "gegen plus accusative, here with no article. Er kommt um acht Uhr stays the exact clock. gegen den Abend stays too. gegen die Schmerzen stays against, chapter 32. zwischen acht und zehn stays. zwischen der Visite und dem Essen is dative.",
+          "hint": "gegen."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Innerhalb, außerhalb, in, nach, vor, seit, bei und während",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Er ruht innerhalb einer Stunde.", "en": "He rests within an hour." },
+        { "de": "Der Arzt kommt in einer Stunde.", "en": "The doctor comes in an hour." },
+        { "de": "Er ruht seit der Operation.", "en": "He has been resting since the operation." },
+        { "de": "Er ruht während der Nacht.", "en": "He rests during the night." }
+      ],
+      "messages": [
+        "innerhalb, außerhalb and während take the genitive. in, nach, vor, seit, bei, ab and time zwischen take the dative. bis, über, gegen and um take the accusative for these time uses.",
+        "in einer Stunde is in an hour. vor einer Stunde is an hour ago. um acht Uhr stays the exact clock. Während er schläft and Seit er Fieber hat stay conjunctions. im Zimmer and ins Zimmer stay place.",
+        "Sehr gut. Er ruht innerhalb einer Stunde. Der Arzt kommt in einer Stunde.",
+        "Ausgezeichnet. You can say within an hour, since the operation, and during the night."
+      ]
+    }
+  ]
+}

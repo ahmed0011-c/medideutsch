@@ -166,6 +166,14 @@ describe("catalog", () => {
     expect(byNumber.get(70)).toBe("b1-70-relativsaetze");
     expect(byNumber.get(71)).toBe("b1-71-relativsaetze-praepositionen");
     expect(byNumber.get(72)).toBe("b1-72-wenn-als");
+    expect(byNumber.get(73)).toBe("b1-73-zeitnebensaetze");
+    expect(byNumber.get(74)).toBe("b1-74-um-zu-damit");
+    expect(byNumber.get(75)).toBe("b1-75-entweder-oder");
+    expect(byNumber.get(76)).toBe("b1-76-je-desto");
+    expect(byNumber.get(77)).toBe("b1-77-genitiv-praepositionen");
+    expect(byNumber.get(78)).toBe("b1-78-zeitpraepositionen");
+    expect(byNumber.get(79)).toBe("b1-79-adjektivendungen");
+    expect(byNumber.get(80)).toBe("b1-80-partizip-i");
     expect(byNumber.get(41)).toBe("a2-41-konnektoren-pos1");
     expect(byNumber.get(42)).toBe("a2-42-weil-dass-wenn");
     expect(byNumber.get(43)).toBe("a2-43-da-dahin-daher");

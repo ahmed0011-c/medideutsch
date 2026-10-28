@@ -1,0 +1,1150 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-73-zeitnebensaetze",
+  "level": "B1",
+  "unit": "Kapitel 73",
+  "chapter": 73,
+  "chapters": [73],
+  "title": "Während, bevor, nachdem und seit",
+  "subtitle": "Time clauses",
+  "glossary": {
+    "während": {
+      "de": "während",
+      "pos": "conjunction",
+      "en": "while",
+      "emoji": "😴",
+      "note": "Two things at the same time. Verb at the end. Während er schläft, warten wir. während der Visite stays the preposition, chapter 77."
+    },
+    "bevor": {
+      "de": "bevor",
+      "pos": "conjunction",
+      "en": "before",
+      "emoji": "🏥",
+      "note": "Bevor die OP beginnt, rufen wir. The operation is the later event. Both verbs can be present, or both past. No tense shift. vor der OP stays the preposition."
+    },
+    "nachdem": {
+      "de": "nachdem",
+      "pos": "conjunction",
+      "en": "after",
+      "emoji": "🚶",
+      "note": "One word. The nachdem-clause is one tense earlier. Present main clause: gekommen ist. Past main clause: gekommen war. Not nach dem. nach dem Essen stays the preposition, chapter 30."
+    },
+    "und": { "de": "und", "pos": "conjunction", "en": "and", "emoji": "➕" },
+    "seit": {
+      "de": "seit",
+      "pos": "conjunction",
+      "en": "since",
+      "emoji": "🌡️",
+      "note": "The situation still continues, so the verb is present: Seit er Fieber hat. seit Montag stays the preposition, chapter 30."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "schläft": {
+      "de": "schlafen → er schläft",
+      "pos": "form",
+      "en": "sleeps",
+      "emoji": "😴",
+      "note": "At the end of the während-clause. Der Patient schläft stays a main clause, verb second."
+    },
+    "warten": {
+      "de": "warten → wir warten",
+      "pos": "form",
+      "en": "wait",
+      "emoji": "⏳",
+      "note": "wir warten. After a fronted clause, warten comes next: Während er schläft, warten wir."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine nominative)", "emoji": "🔵", "note": "der Patient. Nominative, the subject of schläft. Feminine dative is also der: vor der OP." },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative der Patient. No -en. den Patienten is accusative, chapter 64. Here he is the subject."
+    },
+    "wechselt": {
+      "de": "wechseln → sie wechselt",
+      "pos": "form",
+      "en": "changes",
+      "emoji": "🩹",
+      "note": "Main-clause verb after the fronted während-clause. den Verband is accusative."
+    },
+    "sie": { "de": "sie", "pos": "pronoun", "en": "she", "emoji": "👩‍⚕️" },
+    "den": { "de": "den", "pos": "article", "en": "the (accusative masculine)", "emoji": "🩹", "note": "den Verband. Accusative after wechseln. der Verband is nominative." },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Verbände",
+      "note": "den Verband, accusative. Sie wechselt den Verband. Not n-declension."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine)", "emoji": "🏥", "note": "die OP. Nominative, the subject of beginnt. Dative is der OP: vor der OP." },
+    "op": {
+      "de": "OP",
+      "pos": "noun",
+      "en": "operation",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die OPs",
+      "note": "die Operation, short OP. Bevor die OP beginnt. vor der OP stays the preposition, dative."
+    },
+    "beginnt": {
+      "de": "beginnen → sie beginnt",
+      "pos": "form",
+      "en": "begins",
+      "emoji": "🏥",
+      "note": "At the end of the bevor-clause. Bevor die OP beginnt. Not beginnt die OP inside the clause."
+    },
+    "rufen": {
+      "de": "rufen → wir rufen",
+      "pos": "form",
+      "en": "call",
+      "emoji": "📞",
+      "note": "wir rufen. After a fronted bevor-clause, rufen comes next. den Arzt is accusative."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "den Arzt, accusative. No -en. Wir rufen den Arzt."
+    },
+    "kam": {
+      "de": "kommen → er kam",
+      "pos": "form",
+      "en": "came",
+      "emoji": "🚶",
+      "note": "Präteritum. Bevor er kam, riefen wir. Both clauses can be past. Als er kam stays chapter 72, one event when he came."
+    },
+    "riefen": {
+      "de": "rufen → wir riefen",
+      "pos": "form",
+      "en": "called",
+      "emoji": "📞",
+      "note": "Präteritum. Bevor er kam, riefen wir. Not a tense shift: bevor does not take Plusquamperfekt here."
+    },
+    "gekommen": {
+      "de": "kommen → gekommen",
+      "pos": "participle",
+      "en": "come",
+      "emoji": "🚶",
+      "note": "Participle of kommen. Auxiliar sein. gekommen ist in the present pair. gekommen war in the past pair. Not gekommen hat."
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🚶",
+      "note": "Auxiliar of kommen. Nachdem er gekommen ist, ruht er. The main clause is present, so the nachdem-clause is Perfekt. Er ist gekommen stays a main clause."
+    },
+    "ruht": {
+      "de": "ruhen → er ruht",
+      "pos": "form",
+      "en": "rests",
+      "emoji": "😴",
+      "note": "Present. Nachdem er gekommen ist, ruht er. Seit er Fieber hat, ruht er."
+    },
+    "war": {
+      "de": "sein → er war",
+      "pos": "form",
+      "en": "was",
+      "emoji": "🚶",
+      "note": "Plusquamperfekt of kommen: gekommen war. The auxiliary stands last. The main clause is then Präteritum: ruhte."
+    },
+    "ruhte": {
+      "de": "ruhen → er ruhte",
+      "pos": "form",
+      "en": "rested",
+      "emoji": "😴",
+      "note": "Präteritum. Nachdem er gekommen war, ruhte er. Past main clause, so the nachdem-clause is one step earlier."
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "plural": "die Fieber",
+      "note": "Seit er Fieber hat. The fever continues, so hat is present. No article in this line."
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🌡️",
+      "note": "Present, at the end: seit er Fieber hat. Not seit er hat Fieber. kommen does not take hat."
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "after",
+      "emoji": "🍽️",
+      "note": "Dative preposition, chapter 30. Nach dem Essen ruht er. Two words. Not nachdem."
+    },
+    "dem": { "de": "dem", "pos": "article", "en": "the (dative neuter)", "emoji": "🍽️", "note": "dem Essen. Dative after nach. Not the conjunction nachdem." },
+    "essen": {
+      "de": "Essen",
+      "pos": "noun",
+      "en": "meal",
+      "emoji": "🍽️",
+      "article": "das",
+      "plural": "die Essen",
+      "note": "das Essen. nach dem Essen. This is a noun, not the verb essen. The preposition line stays correct."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "While, before, after, since",
+      "learn": [
+        "während, bevor, nachdem and seit open a clause. Comma, and the verb goes to the end. Während er schläft, warten wir.",
+        "bevor does not shift the tense. Bevor die OP beginnt, rufen wir. Bevor er kam, riefen wir. vor der OP stays a preposition.",
+        "nachdem is one tense earlier, and it is one word. Present main clause: gekommen ist. Past main clause: gekommen war. kommen takes sein.",
+        "seit with a situation that continues uses the present: Seit er Fieber hat. seit Montag and nach dem Essen stay prepositions, chapter 30."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🏥", "glossaryKey": "patient" },
+        { "de": "Verband", "article": "der", "plural": "die Verbände", "en": "dressing", "emoji": "🩹", "glossaryKey": "verband" },
+        { "de": "Fieber", "article": "das", "plural": "die Fieber", "en": "fever", "emoji": "🌡️", "glossaryKey": "fieber" }
+      ],
+      "text": {
+        "title": "Während, bevor, nachdem und seit",
+        "de": "Während er schläft, warten wir. Während der Patient schläft, wechselt sie den Verband. Bevor die OP beginnt, rufen wir den Arzt. Bevor er kam, riefen wir. Nachdem er gekommen ist, ruht er. Nachdem er gekommen war, ruhte er. Seit er Fieber hat, ruht er. Nach dem Essen ruht er.",
+        "en": "While he sleeps, we wait. While the patient sleeps, she changes the dressing. Before the operation begins, we call the doctor. Before he came, we called. After he has come, he rests. After he had come, he rested. Since he has a fever, he rests. After the meal, he rests."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Time clauses",
+      "practice": "choose",
+      "heroTitle": "Während, bevor, nachdem und seit",
+      "heroImage": "bed",
+      "story": [
+        "<b>während</b>, <b>bevor</b>, <b>nachdem</b> and <b>seit</b> open a subordinate clause. Put a comma, and put the verb at the end. A fronted clause is position 1, so the main verb comes next. <b>Während er schläft, warten wir. Während der Patient schläft, wechselt sie den Verband.</b> den Verband is accusative. <b>Der Patient schläft</b> stays a main clause.",
+        "<b>bevor</b> names the later event. <b>Bevor die OP beginnt, rufen wir den Arzt.</b> Both verbs are present. In the past, both can be Präteritum: <b>Bevor er kam, riefen wir.</b> bevor does not take Plusquamperfekt for that. <b>vor der OP</b> stays a preposition, dative. <b>Als er kam, riefen wir</b> stays chapter 72: that is when he came, not before.",
+        "<b>nachdem</b> is one word. Its clause is one tense earlier than the main clause. Main clause present: Perfekt. <b>Nachdem er gekommen ist, ruht er.</b> kommen takes <b>sein</b>, so ist, not hat. Main clause past: Plusquamperfekt. <b>Nachdem er gekommen war, ruhte er.</b> The participle comes before the auxiliary. <b>Er ist gekommen</b> stays a main clause.",
+        "The dressing follows the same shift. After she has changed it, he rests: Nachdem sie den Verband gewechselt hat, ruht der Patient. wechseln takes haben. If the main clause is past: Nachdem sie den Verband gewechselt hatte, ruhte der Patient. <b>Nach dem Essen ruht er</b> stays the preposition nach, two words, chapter 30. Not nachdem.",
+        "<b>seit</b> for a situation that is still going uses the present, even when English says has had. <b>Seit er Fieber hat, ruht er.</b> <b>seit Montag</b> stays the preposition, chapter 30. <b>während der Visite</b> stays the preposition, chapter 77. This chapter does not drill the genitive.",
+        "A separable verb is one word at the end of the clause: während er aufsteht. <b>Er steht auf</b> stays the main clause. wenn and als stay chapter 72. Wenn er Fieber hat, rufen wir stays a condition. Do not replace bevor with als."
+      ],
+      "questionRule": "während, bevor, nachdem and seit take the verb to the end. bevor does not shift the tense. nachdem is one tense earlier: ist with a present main clause, war with a past one. kommen takes sein. seit Montag and nach dem Essen stay prepositions.",
+      "tables": [
+        {
+          "title": "Die vier Konjunktionen",
+          "caption": "The verb of the clause is last. nachdem is one tense earlier. The others are not.",
+          "columns": ["Wort", "Satz"],
+          "rows": [
+            { "label": "während", "cells": ["while", "Während er schläft, warten wir."], "highlight": true },
+            { "label": "bevor", "cells": ["before", "Bevor die OP beginnt, rufen wir."], "highlight": true },
+            { "label": "nachdem", "cells": ["after", "Nachdem er gekommen ist, ruht er."], "highlight": true },
+            { "label": "seit", "cells": ["since", "Seit er Fieber hat, ruht er."] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "den Verband and den Arzt are accusative. Nach dem Essen is a preposition.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "schlafen", "cells": ["Während er schläft, warten wir."] },
+            { "label": "Verband", "cells": ["Während der Patient schläft, wechselt sie den Verband."], "highlight": true },
+            { "label": "OP", "cells": ["Bevor die OP beginnt, rufen wir den Arzt."] },
+            { "label": "kam", "cells": ["Bevor er kam, riefen wir."] },
+            { "label": "ist", "cells": ["Nachdem er gekommen ist, ruht er."], "highlight": true },
+            { "label": "war", "cells": ["Nachdem er gekommen war, ruhte er."], "highlight": true },
+            { "label": "seit", "cells": ["Seit er Fieber hat, ruht er."] },
+            { "label": "nach", "cells": ["Nach dem Essen ruht er."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Der Patient schläft, vor der OP, Er ist gekommen, seit Montag, Nach dem Essen, Als er kam, and Er steht auf stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "während", "cells": ["Während schläft er", "Während er schläft"] },
+            { "label": "bevor", "cells": ["Bevor beginnt die OP", "Bevor die OP beginnt"] },
+            { "label": "ist", "cells": ["gekommen hat", "gekommen ist"] },
+            { "label": "war", "cells": ["war gekommen", "gekommen war"] },
+            { "label": "seit", "cells": ["seit er hat Fieber", "seit er Fieber hat"] },
+            { "label": "kam", "cells": ["Bevor kam er", "Bevor er kam"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four time-clause traps",
+        "items": [
+          { "de": "Während er schläft, warten wir.", "en": "schläft is last.", "tone": "ok" },
+          { "de": "Während schläft er, warten wir.", "en": "schläft is too early.", "tone": "stop" },
+          { "de": "Nachdem er gekommen ist, ruht er.", "en": "kommen takes ist.", "tone": "ok" },
+          { "de": "Nachdem er gekommen hat, ruht er.", "en": "kommen does not take hat.", "tone": "stop" },
+          { "de": "Nachdem er gekommen war, ruhte er.", "en": "war is last.", "tone": "ok" },
+          { "de": "Nachdem er war gekommen, ruhte er.", "en": "war is too early.", "tone": "stop" },
+          { "de": "Seit er Fieber hat, ruht er.", "en": "The fever continues.", "tone": "ok" },
+          { "de": "Seit er hat Fieber, ruht er.", "en": "hat is too early.", "tone": "stop" }
+        ],
+        "tip": "Verb last. nachdem is one word and one tense earlier. kommen takes sein."
+      },
+      "tips": [
+        {
+          "title": "One tense earlier only after nachdem",
+          "body": "während er schläft. bevor die OP beginnt. nachdem er gekommen ist. seit er Fieber hat.",
+          "mnemonic": "ist jetzt. war damals. bevor bleibt.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "während", "emoji": "😴", "en": "while he sleeps", "use": "same time", "de": "Während er schläft, warten wir.", "deEn": "While he sleeps, we wait." },
+        { "modal": "bevor", "emoji": "🏥", "en": "before the operation", "use": "later event", "de": "Bevor die OP beginnt, rufen wir.", "deEn": "Before the operation begins, we call." },
+        { "modal": "nachdem", "emoji": "🚶", "en": "after he has come", "use": "one tense earlier", "de": "Nachdem er gekommen ist, ruht er.", "deEn": "After he has come, he rests." },
+        { "modal": "seit", "emoji": "🌡️", "en": "since he has a fever", "use": "still now", "de": "Seit er Fieber hat, ruht er.", "deEn": "Since he has a fever, he rests." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "While he sleeps, we wait.",
+          "qEn": "Während er schläft.",
+          "options": ["Während er schläft, warten wir.", "Während schläft er, warten wir.", "Der Patient schläft."],
+          "answer": 0,
+          "why": "schläft is last. Der Patient schläft stays a main clause, verb second. während der Visite stays the preposition, chapter 77.",
+          "hint": "während."
+        },
+        {
+          "kind": "mc",
+          "q": "Before the operation begins, we call.",
+          "qEn": "Bevor die OP beginnt.",
+          "options": ["Bevor die OP beginnt, rufen wir.", "Bevor beginnt die OP, rufen wir.", "Vor der OP rufen wir."],
+          "answer": 0,
+          "why": "beginnt is last. Vor der OP rufen wir stays a preposition, dative, with no clause.",
+          "hint": "bevor."
+        },
+        {
+          "kind": "mc",
+          "q": "After he has come, he rests.",
+          "qEn": "Nachdem er gekommen ist.",
+          "options": ["Nachdem er gekommen ist, ruht er.", "Nachdem er gekommen hat, ruht er.", "Er ist gekommen."],
+          "answer": 0,
+          "why": "kommen takes sein, so ist. The main clause is present, so this clause is Perfekt. Er ist gekommen stays a main clause. Nach dem Essen stays chapter 30.",
+          "hint": "ist."
+        },
+        {
+          "kind": "mc",
+          "q": "After he had come, he rested.",
+          "qEn": "Nachdem er gekommen war.",
+          "options": ["Nachdem er gekommen war, ruhte er.", "Nachdem er war gekommen, ruhte er.", "Nachdem er gekommen ist, ruht er."],
+          "answer": 0,
+          "why": "A past main clause takes gekommen war, and war is last. Nachdem er gekommen ist, ruht er stays the present pair.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "Since he has a fever, he rests.",
+          "qEn": "Seit er Fieber hat.",
+          "options": ["Seit er Fieber hat, ruht er.", "Seit er hat Fieber, ruht er.", "Seit Montag ruht er."],
+          "answer": 0,
+          "why": "The fever continues, so hat is present and last. Seit Montag ruht er stays the preposition, chapter 30.",
+          "hint": "seit."
+        },
+        {
+          "kind": "mc",
+          "q": "Before he came, we called.",
+          "qEn": "Bevor er kam.",
+          "options": ["Bevor er kam, riefen wir.", "Bevor kam er, riefen wir.", "Als er kam, riefen wir."],
+          "answer": 0,
+          "why": "bevor, both clauses past, no Plusquamperfekt. Als er kam, riefen wir stays chapter 72: that is when he came.",
+          "hint": "bevor."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Verb at the end. nachdem is one tense earlier. A preposition and a main clause stay correct, so they are not chips here.",
+      "chips": [
+        { "w": "Während er schläft, warten wir", "hint": "während." },
+        { "w": "Bevor die OP beginnt, rufen wir", "hint": "bevor." },
+        { "w": "Nachdem er gekommen ist, ruht er", "hint": "ist." },
+        { "w": "Nachdem er gekommen war, ruhte er", "hint": "war." },
+        { "w": "Seit er Fieber hat, ruht er", "hint": "seit." },
+        { "w": "Bevor er kam, riefen wir", "hint": "bevor." },
+        { "w": "Während schläft er, warten wir", "hint": "während." },
+        { "w": "Bevor beginnt die OP, rufen wir", "hint": "bevor." },
+        { "w": "Nachdem er gekommen hat, ruht er", "hint": "ist." },
+        { "w": "Nachdem er war gekommen, ruhte er", "hint": "war." },
+        { "w": "Seit er hat Fieber, ruht er", "hint": "seit." },
+        { "w": "Bevor kam er, riefen wir", "hint": "bevor." }
+      ],
+      "items": [
+        {
+          "before": "While he sleeps, we wait:",
+          "after": ".",
+          "answer": "Während er schläft, warten wir",
+          "en": "While he sleeps, we wait.",
+          "why": "schläft last. Der Patient schläft stays a main clause.",
+          "tip": "während.",
+          "hint": "während."
+        },
+        {
+          "before": "Before the operation begins, we call:",
+          "after": ".",
+          "answer": "Bevor die OP beginnt, rufen wir",
+          "en": "Before the operation begins, we call.",
+          "why": "beginnt last. Vor der OP rufen wir stays the preposition.",
+          "tip": "bevor.",
+          "hint": "bevor."
+        },
+        {
+          "before": "After he has come, he rests:",
+          "after": ".",
+          "answer": "Nachdem er gekommen ist, ruht er",
+          "en": "After he has come, he rests.",
+          "why": "gekommen ist. kommen takes sein. Nach dem Essen ruht er stays chapter 30.",
+          "tip": "ist.",
+          "hint": "ist."
+        },
+        {
+          "before": "After he had come, he rested:",
+          "after": ".",
+          "answer": "Nachdem er gekommen war, ruhte er",
+          "en": "After he had come, he rested.",
+          "why": "gekommen war, because ruhte is past. The present pair with ist stays correct too.",
+          "tip": "war.",
+          "hint": "war."
+        },
+        {
+          "before": "Since he has a fever, he rests:",
+          "after": ".",
+          "answer": "Seit er Fieber hat, ruht er",
+          "en": "Since he has a fever, he rests.",
+          "why": "hat last, present. Seit Montag ruht er stays the preposition.",
+          "tip": "seit.",
+          "hint": "seit."
+        },
+        {
+          "before": "Before he came, we called:",
+          "after": ".",
+          "answer": "Bevor er kam, riefen wir",
+          "en": "Before he came, we called.",
+          "why": "bevor, both past. Als er kam, riefen wir stays chapter 72.",
+          "tip": "bevor.",
+          "hint": "bevor."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line is the time clause. One is not German. A main clause, a preposition, or chapter 72 stays correct.",
+      "items": [
+        {
+          "prompt": "While he sleeps, we wait",
+          "options": [
+            { "emoji": "😴", "label": "Während er schläft, warten wir.", "caption": "verb last" },
+            { "emoji": "🚫", "label": "Während schläft er, warten wir.", "caption": "verb too early" },
+            { "emoji": "😴", "label": "Der Patient schläft.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "schläft last. Der Patient schläft stays verb second.",
+          "hint": "während."
+        },
+        {
+          "prompt": "Before the operation begins",
+          "options": [
+            { "emoji": "🏥", "label": "Bevor die OP beginnt, rufen wir.", "caption": "clause" },
+            { "emoji": "🚫", "label": "Bevor beginnt die OP, rufen wir.", "caption": "verb too early" },
+            { "emoji": "🏥", "label": "Vor der OP rufen wir.", "caption": "preposition" }
+          ],
+          "answer": 0,
+          "why": "beginnt last. Vor der OP stays dative, with no comma clause.",
+          "hint": "bevor."
+        },
+        {
+          "prompt": "After he has come, he rests",
+          "options": [
+            { "emoji": "🚶", "label": "Nachdem er gekommen ist, ruht er.", "caption": "sein" },
+            { "emoji": "🚫", "label": "Nachdem er gekommen hat, ruht er.", "caption": "not haben" },
+            { "emoji": "🚶", "label": "Er ist gekommen.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "ist, not hat. Er ist gekommen stays a main clause. Nach dem Essen stays a preposition.",
+          "hint": "ist."
+        },
+        {
+          "prompt": "After he had come, he rested",
+          "options": [
+            { "emoji": "🚶", "label": "Nachdem er gekommen war, ruhte er.", "caption": "war last" },
+            { "emoji": "🚫", "label": "Nachdem er war gekommen, ruhte er.", "caption": "war too early" },
+            { "emoji": "🚶", "label": "Nachdem er gekommen ist, ruht er.", "caption": "present pair" }
+          ],
+          "answer": 0,
+          "why": "war last. The present pair with ist stays correct.",
+          "hint": "war."
+        },
+        {
+          "prompt": "Since he has a fever",
+          "options": [
+            { "emoji": "🌡️", "label": "Seit er Fieber hat, ruht er.", "caption": "present" },
+            { "emoji": "🚫", "label": "Seit er hat Fieber, ruht er.", "caption": "hat too early" },
+            { "emoji": "🌡️", "label": "Seit Montag ruht er.", "caption": "preposition" }
+          ],
+          "answer": 0,
+          "why": "hat last. Seit Montag stays chapter 30.",
+          "hint": "seit."
+        },
+        {
+          "prompt": "Before he came, we called",
+          "options": [
+            { "emoji": "📞", "label": "Bevor er kam, riefen wir.", "caption": "both past" },
+            { "emoji": "🚫", "label": "Bevor kam er, riefen wir.", "caption": "kam too early" },
+            { "emoji": "📞", "label": "Als er kam, riefen wir.", "caption": "chapter 72" }
+          ],
+          "answer": 0,
+          "why": "bevor does not need Plusquamperfekt. Als er kam stays when he came, chapter 72.",
+          "hint": "bevor."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, while he sleeps",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, before the operation",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, since he has a fever",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, after he has come",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Verb at the end",
+      "practice": "build",
+      "instructions": "Build the line. The verb of the time clause is last. For nachdem, the auxiliary is last.",
+      "items": [
+        {
+          "tiles": ["Wir", "warten,", "während", "er", "schläft"],
+          "answers": ["Wir warten, während er schläft"],
+          "punct": ".",
+          "modal": "während",
+          "inf": "schläft",
+          "question": false,
+          "en": "We wait while he sleeps.",
+          "hint": "Wir warten, während er schläft.",
+          "feedback": {
+            "end": "schläft closes während er schläft.",
+            "fallback": "Wir warten, während er schläft."
+          }
+        },
+        {
+          "tiles": ["Wir", "rufen,", "bevor", "die", "OP", "beginnt"],
+          "answers": ["Wir rufen, bevor die OP beginnt"],
+          "punct": ".",
+          "modal": "bevor",
+          "inf": "beginnt",
+          "question": false,
+          "en": "We call before the operation begins.",
+          "hint": "Wir rufen, bevor die OP beginnt.",
+          "feedback": {
+            "end": "beginnt closes bevor die OP beginnt.",
+            "fallback": "Wir rufen, bevor die OP beginnt."
+          }
+        },
+        {
+          "tiles": ["Er", "ruht,", "nachdem", "er", "gekommen", "ist"],
+          "answers": ["Er ruht, nachdem er gekommen ist"],
+          "punct": ".",
+          "modal": "nachdem",
+          "inf": "ist",
+          "question": false,
+          "en": "He rests after he has come.",
+          "hint": "Er ruht, nachdem er gekommen ist.",
+          "feedback": {
+            "end": "ist closes gekommen ist.",
+            "fallback": "Er ruht, nachdem er gekommen ist."
+          }
+        },
+        {
+          "tiles": ["Er", "ruht,", "seit", "er", "Fieber", "hat"],
+          "answers": ["Er ruht, seit er Fieber hat"],
+          "punct": ".",
+          "modal": "seit",
+          "inf": "hat",
+          "question": false,
+          "en": "He rests since he has a fever.",
+          "hint": "Er ruht, seit er Fieber hat.",
+          "feedback": {
+            "end": "hat closes seit er Fieber hat.",
+            "fallback": "Er ruht, seit er Fieber hat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the time clause",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the time clause the English asks for. Verb at the end.",
+      "chips": [
+        { "w": "Während er schläft, warten wir", "hint": "während." },
+        { "w": "Bevor die OP beginnt, rufen wir", "hint": "bevor." },
+        { "w": "Nachdem er gekommen ist, ruht er", "hint": "ist." },
+        { "w": "Nachdem er gekommen war, ruhte er", "hint": "war." },
+        { "w": "Seit er Fieber hat, ruht er", "hint": "seit." },
+        { "w": "Bevor er kam, riefen wir", "hint": "bevor." },
+        { "w": "Während schläft er, warten wir", "hint": "während." },
+        { "w": "Bevor beginnt die OP, rufen wir", "hint": "bevor." },
+        { "w": "Nachdem er gekommen hat, ruht er", "hint": "ist." },
+        { "w": "Nachdem er war gekommen, ruhte er", "hint": "war." },
+        { "w": "Seit er hat Fieber, ruht er", "hint": "seit." },
+        { "w": "Bevor kam er, riefen wir", "hint": "bevor." }
+      ],
+      "items": [
+        {
+          "before": "Der Patient schläft stays a main clause. While he sleeps, we wait:",
+          "after": ".",
+          "answer": "Während er schläft, warten wir",
+          "en": "While he sleeps, we wait.",
+          "why": "während, schläft last. The main clause stays verb second.",
+          "tip": "während.",
+          "hint": "während."
+        },
+        {
+          "before": "Vor der OP rufen wir stays a preposition. Before the operation begins:",
+          "after": ".",
+          "answer": "Bevor die OP beginnt, rufen wir",
+          "en": "Before the operation begins, we call.",
+          "why": "bevor, beginnt last. vor der OP stays dative.",
+          "tip": "bevor.",
+          "hint": "bevor."
+        },
+        {
+          "before": "Er ist gekommen stays a main clause. After he has come, he rests:",
+          "after": ".",
+          "answer": "Nachdem er gekommen ist, ruht er",
+          "en": "After he has come, he rests.",
+          "why": "nachdem, gekommen ist. Not hat.",
+          "tip": "ist.",
+          "hint": "ist."
+        },
+        {
+          "before": "Nachdem er gekommen ist, ruht er stays the present pair. After he had come:",
+          "after": ".",
+          "answer": "Nachdem er gekommen war, ruhte er",
+          "en": "After he had come, he rested.",
+          "why": "war last, with ruhte. The present pair stays correct.",
+          "tip": "war.",
+          "hint": "war."
+        },
+        {
+          "before": "Seit Montag ruht er stays a preposition. Since he has a fever:",
+          "after": ".",
+          "answer": "Seit er Fieber hat, ruht er",
+          "en": "Since he has a fever, he rests.",
+          "why": "seit, hat last. seit Montag stays chapter 30.",
+          "tip": "seit.",
+          "hint": "seit."
+        },
+        {
+          "before": "Als er kam, riefen wir stays chapter 72. Before he came, we called:",
+          "after": ".",
+          "answer": "Bevor er kam, riefen wir",
+          "en": "Before he came, we called.",
+          "why": "bevor. als stays when he came.",
+          "tip": "bevor.",
+          "hint": "bevor."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the time clause. Choose the correction. A preposition, a main clause, and chapter 72 stay correct.",
+      "items": [
+        {
+          "clues": ["While he sleeps, we wait.", "Verb last.", "Während schläft er, warten wir."],
+          "options": ["Während er schläft, warten wir.", "Während schläft er, warten wir.", "Der Patient schläft."],
+          "answer": 0,
+          "reveal": "Während er schläft, warten wir.",
+          "hint": "während."
+        },
+        {
+          "clues": ["Before the operation begins.", "Verb last.", "Bevor beginnt die OP, rufen wir."],
+          "options": ["Bevor die OP beginnt, rufen wir.", "Bevor beginnt die OP, rufen wir.", "Vor der OP rufen wir."],
+          "answer": 0,
+          "reveal": "Bevor die OP beginnt, rufen wir.",
+          "hint": "bevor."
+        },
+        {
+          "clues": ["After he has come.", "sein.", "Nachdem er gekommen hat, ruht er."],
+          "options": ["Nachdem er gekommen ist, ruht er.", "Nachdem er gekommen hat, ruht er.", "Er ist gekommen."],
+          "answer": 0,
+          "reveal": "Nachdem er gekommen ist, ruht er.",
+          "hint": "ist."
+        },
+        {
+          "clues": ["After he had come.", "war last.", "Nachdem er war gekommen, ruhte er."],
+          "options": ["Nachdem er gekommen war, ruhte er.", "Nachdem er war gekommen, ruhte er.", "Nachdem er gekommen ist, ruht er."],
+          "answer": 0,
+          "reveal": "Nachdem er gekommen war, ruhte er.",
+          "hint": "war."
+        },
+        {
+          "clues": ["Since he has a fever.", "Present.", "Seit er hat Fieber, ruht er."],
+          "options": ["Seit er Fieber hat, ruht er.", "Seit er hat Fieber, ruht er.", "Seit Montag ruht er."],
+          "answer": 0,
+          "reveal": "Seit er Fieber hat, ruht er.",
+          "hint": "seit."
+        },
+        {
+          "clues": ["Before he came, we called.", "Not als.", "Bevor kam er, riefen wir."],
+          "options": ["Bevor er kam, riefen wir.", "Bevor kam er, riefen wir.", "Als er kam, riefen wir."],
+          "answer": 0,
+          "reveal": "Bevor er kam, riefen wir.",
+          "hint": "bevor."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses während, bevor, nachdem or seit. The verb of that clause is last.",
+      "chips": [
+        { "w": "Während er schläft, warten wir", "hint": "während." },
+        { "w": "Bevor die OP beginnt, rufen wir", "hint": "bevor." },
+        { "w": "Nachdem er gekommen ist, ruht er", "hint": "ist." },
+        { "w": "Nachdem er gekommen war, ruhte er", "hint": "war." },
+        { "w": "Seit er Fieber hat, ruht er", "hint": "seit." },
+        { "w": "Bevor er kam, riefen wir", "hint": "bevor." },
+        { "w": "Während schläft er, warten wir", "hint": "während." },
+        { "w": "Bevor beginnt die OP, rufen wir", "hint": "bevor." },
+        { "w": "Nachdem er gekommen hat, ruht er", "hint": "ist." },
+        { "w": "Nachdem er war gekommen, ruhte er", "hint": "war." },
+        { "w": "Seit er hat Fieber, ruht er", "hint": "seit." },
+        { "w": "Bevor kam er, riefen wir", "hint": "bevor." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, while he sleeps, we wait:",
+          "after": ".",
+          "answer": "Während er schläft, warten wir",
+          "en": "While he sleeps, we wait.",
+          "why": "während.",
+          "tip": "während.",
+          "hint": "während."
+        },
+        {
+          "before": "Doctor, before the operation begins:",
+          "after": ".",
+          "answer": "Bevor die OP beginnt, rufen wir",
+          "en": "Before the operation begins, we call.",
+          "why": "bevor.",
+          "tip": "bevor.",
+          "hint": "bevor."
+        },
+        {
+          "before": "Nurse, after he has come, he rests:",
+          "after": ".",
+          "answer": "Nachdem er gekommen ist, ruht er",
+          "en": "After he has come, he rests.",
+          "why": "ist.",
+          "tip": "ist.",
+          "hint": "ist."
+        },
+        {
+          "before": "Doctor, after he had come, he rested:",
+          "after": ".",
+          "answer": "Nachdem er gekommen war, ruhte er",
+          "en": "After he had come, he rested.",
+          "why": "war.",
+          "tip": "war.",
+          "hint": "war."
+        },
+        {
+          "before": "Nurse, since he has a fever:",
+          "after": ".",
+          "answer": "Seit er Fieber hat, ruht er",
+          "en": "Since he has a fever, he rests.",
+          "why": "seit.",
+          "tip": "seit.",
+          "hint": "seit."
+        },
+        {
+          "before": "Doctor, before he came, we called:",
+          "after": ".",
+          "answer": "Bevor er kam, riefen wir",
+          "en": "Before he came, we called.",
+          "why": "bevor.",
+          "tip": "bevor.",
+          "hint": "bevor."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The clause",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The time clause only. The verb, or the auxiliary after nachdem, is last. Prepositions are not chips here.",
+      "chips": [
+        { "w": "während er schläft", "hint": "während." },
+        { "w": "bevor die OP beginnt", "hint": "bevor." },
+        { "w": "nachdem er gekommen ist", "hint": "ist." },
+        { "w": "nachdem er gekommen war", "hint": "war." },
+        { "w": "seit er Fieber hat", "hint": "seit." },
+        { "w": "bevor er kam", "hint": "bevor." },
+        { "w": "während schläft er", "hint": "während." },
+        { "w": "bevor beginnt die OP", "hint": "bevor." },
+        { "w": "nachdem er gekommen hat", "hint": "ist." },
+        { "w": "nachdem er war gekommen", "hint": "war." },
+        { "w": "seit er hat Fieber", "hint": "seit." },
+        { "w": "bevor kam er", "hint": "bevor." }
+      ],
+      "items": [
+        {
+          "before": "While he sleeps. The clause:",
+          "after": ".",
+          "answer": "während er schläft",
+          "en": "while he sleeps.",
+          "why": "während er schläft. Der Patient schläft stays a main clause.",
+          "tip": "während.",
+          "hint": "während."
+        },
+        {
+          "before": "Before the operation begins. The clause:",
+          "after": ".",
+          "answer": "bevor die OP beginnt",
+          "en": "before the operation begins.",
+          "why": "bevor die OP beginnt. Vor der OP stays the preposition.",
+          "tip": "bevor.",
+          "hint": "bevor."
+        },
+        {
+          "before": "After he has come. The clause:",
+          "after": ".",
+          "answer": "nachdem er gekommen ist",
+          "en": "after he has come.",
+          "why": "gekommen ist. Not hat. Nach dem Essen stays chapter 30.",
+          "tip": "ist.",
+          "hint": "ist."
+        },
+        {
+          "before": "After he had come. The clause:",
+          "after": ".",
+          "answer": "nachdem er gekommen war",
+          "en": "after he had come.",
+          "why": "gekommen war. The present pair stays gekommen ist.",
+          "tip": "war.",
+          "hint": "war."
+        },
+        {
+          "before": "Since he has a fever. The clause:",
+          "after": ".",
+          "answer": "seit er Fieber hat",
+          "en": "since he has a fever.",
+          "why": "seit er Fieber hat. seit Montag stays the preposition.",
+          "tip": "seit.",
+          "hint": "seit."
+        },
+        {
+          "before": "Before he came. The clause:",
+          "after": ".",
+          "answer": "bevor er kam",
+          "en": "before he came.",
+          "why": "bevor er kam. Als er kam stays chapter 72.",
+          "tip": "bevor.",
+          "hint": "bevor."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. A preposition and a main clause stay correct when the question is not asking for them.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Der Patient",
+        "paragraphs": [
+          "Während er schläft, warten wir. Während der Patient schläft, wechselt sie den Verband. Bevor die OP beginnt, rufen wir den Arzt. Bevor er kam, riefen wir.",
+          "Nachdem er gekommen ist, ruht er. Nachdem er gekommen war, ruhte er. Seit er Fieber hat, ruht er. Nach dem Essen ruht er."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "While he sleeps, from the note.",
+          "qEn": "während er schläft.",
+          "options": ["während er schläft", "während schläft er", "Der Patient schläft."],
+          "answer": 0,
+          "why": "The note has während er schläft. Der Patient schläft stays a main clause.",
+          "hint": "während."
+        },
+        {
+          "kind": "mc",
+          "q": "Before the operation, from the note.",
+          "qEn": "bevor die OP beginnt.",
+          "options": ["bevor die OP beginnt", "bevor beginnt die OP", "Vor der OP rufen wir."],
+          "answer": 0,
+          "why": "The note has bevor die OP beginnt. Vor der OP rufen wir stays the preposition.",
+          "hint": "bevor."
+        },
+        {
+          "kind": "mc",
+          "q": "After he has come, from the note.",
+          "qEn": "nachdem er gekommen ist.",
+          "options": ["nachdem er gekommen ist", "nachdem er gekommen hat", "Er ist gekommen."],
+          "answer": 0,
+          "why": "The note has gekommen ist. Er ist gekommen stays a main clause. Nach dem Essen is also in the note, as a preposition.",
+          "hint": "ist."
+        },
+        {
+          "kind": "mc",
+          "q": "Since he has a fever, from the note.",
+          "qEn": "seit er Fieber hat.",
+          "options": ["seit er Fieber hat", "seit er hat Fieber", "Seit Montag ruht er."],
+          "answer": 0,
+          "why": "The note has seit er Fieber hat. Seit Montag ruht er stays the preposition.",
+          "hint": "seit."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. While he sleeps, we wait. Before the operation begins, we call. After he has come, he rests. Since he has a fever, he rests.",
+      "prompt": "While he sleeps, we wait. Before the operation begins, we call. After he has come, he rests. Since he has a fever, he rests.",
+      "bullets": ["während er schläft", "bevor die OP beginnt", "nachdem er gekommen ist", "seit er Fieber hat"],
+      "model": "Während er schläft, warten wir. Bevor die OP beginnt, rufen wir. Nachdem er gekommen ist, ruht er. Seit er Fieber hat, ruht er.",
+      "modelEn": "While he sleeps, we wait. Before the operation begins, we call. After he has come, he rests. Since he has a fever, he rests.",
+      "hint": "während er schläft. bevor die OP beginnt. gekommen ist. seit er Fieber hat.",
+      "checklist": [
+        { "id": "w", "label": "während er schläft", "keywords": ["während er schläft"] },
+        { "id": "b", "label": "bevor die OP beginnt", "keywords": ["bevor die op beginnt"] },
+        { "id": "n", "label": "nachdem er gekommen ist", "keywords": ["nachdem er gekommen ist"] },
+        { "id": "s", "label": "seit er Fieber hat", "keywords": ["seit er fieber hat"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Während, bevor, nachdem und seit",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Verb last. bevor does not shift the tense. nachdem is one tense earlier, with sein for kommen. seit for a continuing situation is present. nach dem Essen, seit Montag and vor der OP stay prepositions.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "While he sleeps, we wait.",
+          "qEn": "Während er schläft.",
+          "options": ["Während er schläft, warten wir.", "Während schläft er, warten wir.", "Der Patient schläft."],
+          "answer": 0,
+          "why": "schläft last. Der Patient schläft stays a main clause.",
+          "hint": "während."
+        },
+        {
+          "kind": "mc",
+          "q": "Before the operation begins, we call.",
+          "qEn": "Bevor die OP beginnt.",
+          "options": ["Bevor die OP beginnt, rufen wir.", "Bevor beginnt die OP, rufen wir.", "Vor der OP rufen wir."],
+          "answer": 0,
+          "why": "beginnt last. Vor der OP stays the preposition.",
+          "hint": "bevor."
+        },
+        {
+          "kind": "mc",
+          "q": "After he has come, he rests.",
+          "qEn": "Nachdem er gekommen ist.",
+          "options": ["Nachdem er gekommen ist, ruht er.", "Nachdem er gekommen hat, ruht er.", "Er ist gekommen."],
+          "answer": 0,
+          "why": "ist, not hat. Er ist gekommen stays a main clause.",
+          "hint": "ist."
+        },
+        {
+          "kind": "mc",
+          "q": "After he had come, he rested.",
+          "qEn": "Nachdem er gekommen war.",
+          "options": ["Nachdem er gekommen war, ruhte er.", "Nachdem er war gekommen, ruhte er.", "Nachdem er gekommen ist, ruht er."],
+          "answer": 0,
+          "why": "war last. The present pair stays correct.",
+          "hint": "war."
+        },
+        {
+          "kind": "mc",
+          "q": "Since he has a fever, he rests.",
+          "qEn": "Seit er Fieber hat.",
+          "options": ["Seit er Fieber hat, ruht er.", "Seit er hat Fieber, ruht er.", "Seit Montag ruht er."],
+          "answer": 0,
+          "why": "hat last. Seit Montag stays the preposition.",
+          "hint": "seit."
+        },
+        {
+          "kind": "mc",
+          "q": "Before he came, we called.",
+          "qEn": "Bevor er kam.",
+          "options": ["Bevor er kam, riefen wir.", "Bevor kam er, riefen wir.", "Als er kam, riefen wir."],
+          "answer": 0,
+          "why": "bevor. Als er kam stays chapter 72.",
+          "hint": "bevor."
+        },
+        {
+          "kind": "mc",
+          "q": "While she changes the dressing. Verb last.",
+          "qEn": "Während er schläft, wechselt sie.",
+          "options": ["Während er schläft, wechselt sie.", "Während schläft er, wechselt sie.", "Während der Visite wechselt sie."],
+          "answer": 0,
+          "why": "schläft last, then wechselt. Während der Visite stays the preposition, chapter 77.",
+          "hint": "während."
+        },
+        {
+          "kind": "mc",
+          "q": "After the meal he rests. Preposition, not nachdem.",
+          "qEn": "Nach dem Essen.",
+          "options": ["Nach dem Essen ruht er.", "Nachdem dem Essen ruht er.", "Nachdem er gekommen ist, ruht er."],
+          "answer": 0,
+          "why": "nach dem is the preposition, chapter 30. nachdem is one word and opens a clause. That clause stays correct for after he has come.",
+          "hint": "nach."
+        },
+        {
+          "kind": "mc",
+          "q": "While he gets up. One word.",
+          "qEn": "während er aufsteht.",
+          "options": ["während er aufsteht", "während er steht auf", "Er steht auf."],
+          "answer": 0,
+          "why": "aufsteht is one word at the end. Er steht auf stays the main clause.",
+          "hint": "aufsteht."
+        },
+        {
+          "kind": "mc",
+          "q": "Comma after the fronted während-clause.",
+          "qEn": "Während er schläft, warten wir.",
+          "options": ["Während er schläft, warten wir.", "Während er schläft warten wir.", "Wir warten, während er schläft."],
+          "answer": 0,
+          "why": "The comma closes the fronted clause. The clause at the end stays correct too.",
+          "hint": "während."
+        },
+        {
+          "kind": "mc",
+          "q": "After she has changed the dressing, he rests.",
+          "qEn": "gewechselt hat.",
+          "options": ["Nachdem sie gewechselt hat, ruht er.", "Nachdem sie hat gewechselt, ruht er.", "Nachdem sie gewechselt ist, ruht er."],
+          "answer": 0,
+          "why": "wechseln takes haben, and hat is last. ist would be for kommen, not for wechseln.",
+          "hint": "hat."
+        },
+        {
+          "kind": "mc",
+          "q": "Before he came. Not when he came.",
+          "qEn": "Bevor er kam.",
+          "options": ["Bevor er kam, riefen wir.", "Bevor kam er, riefen wir.", "Als er kam, riefen wir."],
+          "answer": 0,
+          "why": "bevor is before he came, and kam is last. Als er kam stays when he came, chapter 72.",
+          "hint": "bevor."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Während, bevor, nachdem und seit",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Während er schläft, warten wir.", "en": "While he sleeps, we wait." },
+        { "de": "Bevor die OP beginnt, rufen wir.", "en": "Before the operation begins, we call." },
+        { "de": "Nachdem er gekommen ist, ruht er.", "en": "After he has come, he rests." },
+        { "de": "Seit er Fieber hat, ruht er.", "en": "Since he has a fever, he rests." }
+      ],
+      "messages": [
+        "während, bevor, nachdem and seit take the verb to the end. bevor does not shift the tense. nachdem is one tense earlier. A continuing seit-clause stays in the present.",
+        "kommen takes sein: gekommen ist, gekommen war. nach dem Essen, seit Montag and vor der OP stay prepositions. Als er kam stays chapter 72.",
+        "Sehr gut. Während er schläft, warten wir. Bevor die OP beginnt, rufen wir.",
+        "Ausgezeichnet. You can say while he sleeps, before the operation, after he has come, and since he has a fever."
+      ]
+    }
+  ]
+}

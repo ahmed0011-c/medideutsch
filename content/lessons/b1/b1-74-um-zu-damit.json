@@ -1,0 +1,1136 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-74-um-zu-damit",
+  "level": "B1",
+  "unit": "Kapitel 74",
+  "chapter": 74,
+  "chapters": [74],
+  "title": "Um … zu und damit",
+  "subtitle": "Purpose clauses",
+  "glossary": {
+    "um": {
+      "de": "um",
+      "pos": "conjunction",
+      "en": "in order to",
+      "emoji": "🎯",
+      "note": "Same subject. um … zu plus an infinitive. Er kommt, um die Wunde zu sehen. A new subject needs damit, not um."
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "particle",
+      "en": "to",
+      "emoji": "➡️",
+      "note": "Before a normal infinitive: zu sehen, zu essen. Inside a separable verb: einzuschlafen. Not zu einschlafen. Not after a modal: atmen kann. Not after müssen."
+    },
+    "und": { "de": "und", "pos": "conjunction", "en": "and", "emoji": "➕" },
+    "damit": {
+      "de": "damit",
+      "pos": "conjunction",
+      "en": "so that",
+      "emoji": "🎯",
+      "note": "One word. A different subject, verb at the end. Wir lüften, damit er atmen kann. Sie misst damit stays with that, chapter 54. Not mit dem. mit dem stays chapter 71."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Er kommt, um die Wunde zu sehen. Same subject, so um … zu. Wir rufen, damit er kommt: he is a new subject."
+    },
+    "die": { "de": "die", "pos": "article", "en": "the (feminine)", "emoji": "🩹", "note": "die Wunde. Accusative before zu: die Wunde zu sehen." },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "emoji": "🩹",
+      "article": "die",
+      "plural": "die Wunden",
+      "note": "die Wunde zu sehen. The object stands before zu. Es ist wichtig, die Wunde zu sehen stays chapter 68."
+    },
+    "sehen": {
+      "de": "sehen",
+      "pos": "infinitive",
+      "en": "to see",
+      "emoji": "👀",
+      "note": "um die Wunde zu sehen. Not separable, so zu stands in front. Not um die Wunde sehen. Not um zu sehen die Wunde."
+    },
+    "liegt": {
+      "de": "liegen → er liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🛏️",
+      "note": "Er liegt, um einzuschlafen. Position, main clause. The purpose is the infinitive."
+    },
+    "einzuschlafen": {
+      "de": "einschlafen → einzuschlafen",
+      "pos": "infinitive",
+      "en": "to fall asleep",
+      "emoji": "😴",
+      "note": "zu stands in the middle of einschlafen. One word. Not zu einschlafen. Not ein zu schlafen. Er muss einschlafen stays no zu, chapter 69."
+    },
+    "steht": {
+      "de": "stehen → er steht",
+      "pos": "form",
+      "en": "stands",
+      "emoji": "🚶",
+      "note": "Er steht auf. The prefix auf is last in the main clause. That finite line stays correct."
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "prefix",
+      "en": "up",
+      "emoji": "🚶",
+      "note": "Separable prefix, last in the main clause: er steht auf. In the infinitive the zu goes in the middle: aufzustehen. Not zu aufstehen."
+    },
+    "essen": {
+      "de": "essen",
+      "pos": "infinitive",
+      "en": "to eat",
+      "emoji": "🍽️",
+      "note": "um zu essen. Not separable, so zu stands in front. das Essen is a noun, not this infinitive."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "rufen": {
+      "de": "rufen → wir rufen",
+      "pos": "form",
+      "en": "call",
+      "emoji": "📞",
+      "note": "Wir rufen, damit er kommt. We call, he comes: two subjects, so damit. Wir rufen, um zu kommen stays correct when we ourselves come."
+    },
+    "sie": { "de": "sie", "pos": "pronoun", "en": "she", "emoji": "👩‍⚕️" },
+    "hebt": {
+      "de": "heben → sie hebt",
+      "pos": "form",
+      "en": "lifts",
+      "emoji": "🛏️",
+      "note": "Sie hebt das Bett. das Bett is accusative. damit er atmet: he is a new subject."
+    },
+    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🛏️", "note": "das Bett. Accusative after heben and stellen." },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten",
+      "note": "das Bett. Sie hebt das Bett. Wir stellen das Bett hoch. hoch is last in that main clause."
+    },
+    "atmet": {
+      "de": "atmen → er atmet",
+      "pos": "form",
+      "en": "breathes",
+      "emoji": "💨",
+      "note": "damit er atmet. Finite verb, last. He is not the subject of hebt."
+    },
+    "stellen": {
+      "de": "stellen → wir stellen",
+      "pos": "form",
+      "en": "put, raise",
+      "emoji": "🛏️",
+      "note": "Wir stellen das Bett hoch. Separable hoch is last in the main clause. Then the damit-clause."
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "prefix",
+      "en": "up, high",
+      "emoji": "🛏️",
+      "note": "Last in the main clause: stellen … hoch. The infinitive would be hochzustellen, zu in the middle. This line uses damit, not that infinitive."
+    },
+    "der": { "de": "der", "pos": "article", "en": "the (masculine nominative)", "emoji": "🏥", "note": "der Patient. Nominative, the subject of kann. Not den." },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "der Patient atmet, or atmen kann. He is a different subject from wir, so the purpose is damit."
+    },
+    "leichter": {
+      "de": "leichter",
+      "pos": "adverb",
+      "en": "more easily",
+      "emoji": "💨",
+      "note": "Adverb. No ending. leichter atmen. Not leichtere. The comparative ending lesson is not this chapter."
+    },
+    "atmen": {
+      "de": "atmen",
+      "pos": "infinitive",
+      "en": "to breathe",
+      "emoji": "💨",
+      "note": "Before the modal: damit er atmen kann. No zu. kann is the finite verb and stands last."
+    },
+    "kann": {
+      "de": "können → er kann",
+      "pos": "form",
+      "en": "can",
+      "emoji": "💨",
+      "note": "Modal, last in the damit-clause. damit er atmen kann. Not zu atmen. Er muss atmen stays chapter 69, also with no zu."
+    },
+    "lüften": {
+      "de": "lüften → wir lüften",
+      "pos": "form",
+      "en": "air (the room)",
+      "emoji": "💨",
+      "note": "Wir lüften, damit er atmen kann. We air the room. He breathes. Two subjects, so damit."
+    },
+    "misst": {
+      "de": "messen → sie misst",
+      "pos": "form",
+      "en": "measures",
+      "emoji": "🌡️",
+      "note": "Sie misst damit. Here damit means with that thing, chapter 54. Not so that. Not da mit. The participle is gemessen, not this chapter."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "In order to, or so that",
+      "learn": [
+        "The same subject takes um … zu and an infinitive. Er kommt, um die Wunde zu sehen. The object stands before zu.",
+        "A separable infinitive takes zu in the middle: einzuschlafen. Not zu einschlafen. In the main clause the prefix stays last: er steht auf.",
+        "A new subject takes damit, one word, and a finite verb at the end. Wir stellen das Bett hoch, damit der Patient leichter atmen kann. No zu before atmen.",
+        "Sie misst damit stays with that, chapter 54. Es ist schön, zu feiern and versuchen stay chapter 68. A modal takes no zu, chapter 69."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Wunde", "article": "die", "plural": "die Wunden", "en": "wound", "emoji": "🩹", "glossaryKey": "wunde" },
+        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "glossaryKey": "bett" },
+        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🏥", "glossaryKey": "patient" }
+      ],
+      "text": {
+        "title": "Um … zu und damit",
+        "de": "Er kommt, um die Wunde zu sehen. Er liegt, um einzuschlafen. Er steht auf, um zu essen. Wir rufen, damit er kommt. Sie hebt das Bett, damit er atmet. Wir stellen das Bett hoch, damit der Patient leichter atmen kann. Wir lüften, damit er atmen kann. Sie misst damit.",
+        "en": "He comes in order to see the wound. He lies down in order to fall asleep. He stands up in order to eat. We call so that he comes. She lifts the bed so that he breathes. We raise the bed so that the patient can breathe more easily. We air the room so that he can breathe. She measures with that."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "um … zu or damit",
+      "practice": "choose",
+      "heroTitle": "Um … zu und damit",
+      "heroImage": "bed",
+      "story": [
+        "A purpose with the <b>same subject</b> is <b>um … zu</b> plus an infinitive. <b>Er kommt, um die Wunde zu sehen. Er steht auf, um zu essen.</b> The object stands before zu: die Wunde zu sehen. Not um zu sehen die Wunde. Not um sehen. The comma belongs before um.",
+        "A separable verb takes <b>zu in the middle</b>, one word. <b>einschlafen → einzuschlafen. Er liegt, um einzuschlafen.</b> Not zu einschlafen. Not ein zu schlafen. In the main clause the prefix is last: <b>er steht auf</b>. The infinitive of that verb is aufzustehen. Not zu aufstehen.",
+        "A <b>new subject</b> cannot take um … zu. Use <b>damit</b>, one word, and a finite verb at the end. <b>Wir rufen, damit er kommt. Sie hebt das Bett, damit er atmet.</b> We raise the bed so that he can breathe: <b>Wir stellen das Bett hoch, damit der Patient leichter atmen kann.</b> hoch is last in the main clause. kann is last in the damit-clause. atmen has <b>no zu</b>, because kann is a modal.",
+        "<b>Wir lüften, damit er atmen kann.</b> Same rule. <b>Sie hebt das Bett, um zu atmen</b> stays correct, but then she herself breathes. <b>Wir rufen, um zu kommen</b> stays correct when we ourselves come. damit with the same subject stays possible. These exercises use um … zu for that same subject.",
+        "<b>Sie misst damit</b> is not a purpose. It means with that thing, chapter 54. Not da mit. Not for a person. <b>mit dem</b> stays the relative pronoun, chapter 71. <b>Es ist schön, zu feiern</b> and <b>Der Patient versucht, aufzustehen</b> stay chapter 68. The comma after versuchen stays optional.",
+        "A modal takes no zu, chapter 69. <b>Er muss atmen. Er muss einschlafen. Er muss aufstehen.</b> Not zu atmen. etwas Kaltes zu trinken stays chapter 66. wenn, als, bevor and nachdem stay their own chapters."
+      ],
+      "questionRule": "Same subject: um … zu, infinitive at the end, zu in the middle of a separable verb. New subject: damit, finite verb at the end. A modal takes no zu. Sie misst damit stays with that, chapter 54.",
+      "tables": [
+        {
+          "title": "um … zu oder damit",
+          "caption": "Look at the subject. One subject takes um … zu. A second subject takes damit.",
+          "columns": ["Wort", "Satz"],
+          "rows": [
+            { "label": "um", "cells": ["same subject", "Er kommt, um die Wunde zu sehen."], "highlight": true },
+            { "label": "ein", "cells": ["zu in the middle", "Er liegt, um einzuschlafen."], "highlight": true },
+            { "label": "damit", "cells": ["new subject", "Wir rufen, damit er kommt."] },
+            { "label": "kann", "cells": ["modal, no zu", "Wir lüften, damit er atmen kann."] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "der Patient is nominative. das Bett is accusative. hoch is last in the main clause.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "Wunde", "cells": ["Er kommt, um die Wunde zu sehen."] },
+            { "label": "Schlaf", "cells": ["Er liegt, um einzuschlafen."] },
+            { "label": "essen", "cells": ["Er steht auf, um zu essen."] },
+            { "label": "rufen", "cells": ["Wir rufen, damit er kommt."] },
+            { "label": "Bett", "cells": ["Sie hebt das Bett, damit er atmet."], "highlight": true },
+            { "label": "hoch", "cells": ["Wir stellen das Bett hoch, damit der Patient leichter atmen kann."], "highlight": true },
+            { "label": "Luft", "cells": ["Wir lüften, damit er atmen kann."] },
+            { "label": "da", "cells": ["Sie misst damit."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Sie misst damit, Er muss atmen, Er steht auf, Es ist schön, zu feiern, Wir rufen, um zu kommen, and Sie hebt das Bett, um zu atmen stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "zu", "cells": ["um die Wunde sehen", "um die Wunde zu sehen"] },
+            { "label": "ein", "cells": ["um zu einschlafen", "um einzuschlafen"] },
+            { "label": "essen", "cells": ["um essen", "um zu essen"] },
+            { "label": "kommt", "cells": ["damit kommt er", "damit er kommt"] },
+            { "label": "atmet", "cells": ["um er atmet", "damit er atmet"] },
+            { "label": "kann", "cells": ["zu atmen kann", "atmen kann"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four purpose traps",
+        "items": [
+          { "de": "Er kommt, um die Wunde zu sehen.", "en": "Same subject, zu before sehen.", "tone": "ok" },
+          { "de": "Er kommt, um die Wunde sehen.", "en": "zu is missing.", "tone": "stop" },
+          { "de": "Er liegt, um einzuschlafen.", "en": "zu is in the middle.", "tone": "ok" },
+          { "de": "Er liegt, um zu einschlafen.", "en": "zu is not in front.", "tone": "stop" },
+          { "de": "Wir rufen, damit er kommt.", "en": "A new subject.", "tone": "ok" },
+          { "de": "Wir rufen, damit kommt er.", "en": "kommt is too early.", "tone": "stop" },
+          { "de": "Wir lüften, damit er atmen kann.", "en": "kann is last, no zu.", "tone": "ok" },
+          { "de": "Wir lüften, damit er zu atmen kann.", "en": "A modal takes no zu.", "tone": "stop" }
+        ],
+        "tip": "Same subject: um … zu. New subject: damit, verb last. No zu after kann."
+      },
+      "tips": [
+        {
+          "title": "One subject or two",
+          "body": "um die Wunde zu sehen. um einzuschlafen. damit er kommt. damit er atmen kann.",
+          "mnemonic": "ich, um zu. er, damit.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "um", "emoji": "🩹", "en": "in order to see the wound", "use": "same subject", "de": "Er kommt, um die Wunde zu sehen.", "deEn": "He comes in order to see the wound." },
+        { "modal": "ein", "emoji": "😴", "en": "in order to fall asleep", "use": "zu in the middle", "de": "Er liegt, um einzuschlafen.", "deEn": "He lies down in order to fall asleep." },
+        { "modal": "damit", "emoji": "🛏️", "en": "so that he breathes", "use": "new subject", "de": "Sie hebt das Bett, damit er atmet.", "deEn": "She lifts the bed so that he breathes." },
+        { "modal": "kann", "emoji": "💨", "en": "so that he can breathe", "use": "modal last", "de": "Wir lüften, damit er atmen kann.", "deEn": "We air the room so that he can breathe." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "He comes in order to see the wound.",
+          "qEn": "um die Wunde zu sehen.",
+          "options": ["Er kommt, um die Wunde zu sehen.", "Er kommt, um die Wunde sehen.", "Es ist wichtig, die Wunde zu sehen."],
+          "answer": 0,
+          "why": "Same subject, so um … zu. The object stands before zu. Es ist wichtig, die Wunde zu sehen stays chapter 68, with no um.",
+          "hint": "zu sehen."
+        },
+        {
+          "kind": "mc",
+          "q": "He lies down in order to fall asleep.",
+          "qEn": "um einzuschlafen.",
+          "options": ["Er liegt, um einzuschlafen.", "Er liegt, um zu einschlafen.", "Er muss einschlafen."],
+          "answer": 0,
+          "why": "zu stands in the middle: einzuschlafen. Er muss einschlafen stays a modal, with no zu, chapter 69.",
+          "hint": "einzu."
+        },
+        {
+          "kind": "mc",
+          "q": "He stands up in order to eat.",
+          "qEn": "um zu essen.",
+          "options": ["Er steht auf, um zu essen.", "Er steht auf, um essen.", "Er steht auf."],
+          "answer": 0,
+          "why": "essen is not separable, so zu stands in front. Er steht auf stays the finite main clause, prefix last.",
+          "hint": "zu essen."
+        },
+        {
+          "kind": "mc",
+          "q": "We call so that he comes.",
+          "qEn": "damit er kommt.",
+          "options": ["Wir rufen, damit er kommt.", "Wir rufen, damit kommt er.", "Wir rufen, um zu kommen."],
+          "answer": 0,
+          "why": "He is a new subject, so damit, and kommt is last. Wir rufen, um zu kommen stays correct when we ourselves come.",
+          "hint": "damit."
+        },
+        {
+          "kind": "mc",
+          "q": "She lifts the bed so that he breathes.",
+          "qEn": "damit er atmet.",
+          "options": ["Sie hebt das Bett, damit er atmet.", "Sie hebt das Bett, um er atmet.", "Sie hebt das Bett, um zu atmen."],
+          "answer": 0,
+          "why": "He is a new subject, so damit. Sie hebt das Bett, um zu atmen stays correct when she herself breathes.",
+          "hint": "damit."
+        },
+        {
+          "kind": "mc",
+          "q": "We air the room so that he can breathe.",
+          "qEn": "damit er atmen kann.",
+          "options": ["Wir lüften, damit er atmen kann.", "Wir lüften, damit er zu atmen kann.", "Er muss atmen."],
+          "answer": 0,
+          "why": "kann is last. atmen has no zu. Er muss atmen stays chapter 69. Sie misst damit stays with that, chapter 54.",
+          "hint": "kann."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Same subject: um … zu. New subject: damit, verb last. A modal takes no zu. Chapter 54 and chapter 68 stay out of the chips.",
+      "chips": [
+        { "w": "Er kommt, um die Wunde zu sehen", "hint": "um." },
+        { "w": "Er liegt, um einzuschlafen", "hint": "einzu." },
+        { "w": "Er steht auf, um zu essen", "hint": "zu." },
+        { "w": "Wir rufen, damit er kommt", "hint": "damit." },
+        { "w": "Sie hebt das Bett, damit er atmet", "hint": "damit." },
+        { "w": "Wir lüften, damit er atmen kann", "hint": "kann." },
+        { "w": "Er kommt, um die Wunde sehen", "hint": "zu." },
+        { "w": "Er liegt, um zu einschlafen", "hint": "einzu." },
+        { "w": "Er steht auf, um essen", "hint": "zu." },
+        { "w": "Wir rufen, damit kommt er", "hint": "damit." },
+        { "w": "Sie hebt das Bett, um er atmet", "hint": "damit." },
+        { "w": "Wir lüften, damit er zu atmen kann", "hint": "kann." }
+      ],
+      "items": [
+        {
+          "before": "He comes in order to see the wound:",
+          "after": ".",
+          "answer": "Er kommt, um die Wunde zu sehen",
+          "en": "He comes in order to see the wound.",
+          "why": "um die Wunde zu sehen. The object stands before zu. Es ist wichtig, die Wunde zu sehen stays chapter 68.",
+          "tip": "zu sehen.",
+          "hint": "zu sehen."
+        },
+        {
+          "before": "He lies down in order to fall asleep:",
+          "after": ".",
+          "answer": "Er liegt, um einzuschlafen",
+          "en": "He lies down in order to fall asleep.",
+          "why": "einzuschlafen. zu is in the middle. Er muss einschlafen stays no zu.",
+          "tip": "einzu.",
+          "hint": "einzu."
+        },
+        {
+          "before": "He stands up in order to eat:",
+          "after": ".",
+          "answer": "Er steht auf, um zu essen",
+          "en": "He stands up in order to eat.",
+          "why": "zu essen. Er steht auf stays the finite verb, prefix last.",
+          "tip": "zu essen.",
+          "hint": "zu essen."
+        },
+        {
+          "before": "We call so that he comes:",
+          "after": ".",
+          "answer": "Wir rufen, damit er kommt",
+          "en": "We call so that he comes.",
+          "why": "damit, kommt last. Wir rufen, um zu kommen stays when we ourselves come.",
+          "tip": "damit.",
+          "hint": "damit."
+        },
+        {
+          "before": "She lifts the bed so that he breathes:",
+          "after": ".",
+          "answer": "Sie hebt das Bett, damit er atmet",
+          "en": "She lifts the bed so that he breathes.",
+          "why": "damit. Sie hebt das Bett, um zu atmen stays her own breathing.",
+          "tip": "damit.",
+          "hint": "damit."
+        },
+        {
+          "before": "We air the room so that he can breathe:",
+          "after": ".",
+          "answer": "Wir lüften, damit er atmen kann",
+          "en": "We air the room so that he can breathe.",
+          "why": "kann last, no zu. Er muss atmen stays chapter 69. Sie misst damit stays chapter 54.",
+          "tip": "kann.",
+          "hint": "kann."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line is the purpose. One is not German. A modal, a main clause, chapter 54, or the other correct purpose stays correct.",
+      "items": [
+        {
+          "prompt": "He comes in order to see the wound",
+          "options": [
+            { "emoji": "🩹", "label": "Er kommt, um die Wunde zu sehen.", "caption": "same subject" },
+            { "emoji": "🚫", "label": "Er kommt, um die Wunde sehen.", "caption": "zu missing" },
+            { "emoji": "🩹", "label": "Es ist wichtig, die Wunde zu sehen.", "caption": "chapter 68" }
+          ],
+          "answer": 0,
+          "why": "um … zu, object before zu. Es ist wichtig, die Wunde zu sehen stays chapter 68.",
+          "hint": "zu sehen."
+        },
+        {
+          "prompt": "He lies down in order to fall asleep",
+          "options": [
+            { "emoji": "😴", "label": "Er liegt, um einzuschlafen.", "caption": "zu in the middle" },
+            { "emoji": "🚫", "label": "Er liegt, um zu einschlafen.", "caption": "zu in front" },
+            { "emoji": "😴", "label": "Er muss einschlafen.", "caption": "no zu" }
+          ],
+          "answer": 0,
+          "why": "einzuschlafen. Er muss einschlafen stays a modal, chapter 69.",
+          "hint": "einzu."
+        },
+        {
+          "prompt": "He stands up in order to eat",
+          "options": [
+            { "emoji": "🚶", "label": "Er steht auf, um zu essen.", "caption": "zu in front" },
+            { "emoji": "🚫", "label": "Er steht auf, um essen.", "caption": "zu missing" },
+            { "emoji": "🚶", "label": "Er steht auf.", "caption": "main clause" }
+          ],
+          "answer": 0,
+          "why": "zu essen. Er steht auf stays the finite clause, prefix last.",
+          "hint": "zu essen."
+        },
+        {
+          "prompt": "We call so that he comes",
+          "options": [
+            { "emoji": "📞", "label": "Wir rufen, damit er kommt.", "caption": "new subject" },
+            { "emoji": "🚫", "label": "Wir rufen, damit kommt er.", "caption": "verb too early" },
+            { "emoji": "📞", "label": "Wir rufen, um zu kommen.", "caption": "same subject" }
+          ],
+          "answer": 0,
+          "why": "damit, kommt last. um zu kommen stays correct when we ourselves come.",
+          "hint": "damit."
+        },
+        {
+          "prompt": "She lifts the bed so that he breathes",
+          "options": [
+            { "emoji": "🛏️", "label": "Sie hebt das Bett, damit er atmet.", "caption": "new subject" },
+            { "emoji": "🚫", "label": "Sie hebt das Bett, um er atmet.", "caption": "not um" },
+            { "emoji": "🛏️", "label": "Sie hebt das Bett, um zu atmen.", "caption": "her breathing" }
+          ],
+          "answer": 0,
+          "why": "damit. um zu atmen stays correct for her own purpose.",
+          "hint": "damit."
+        },
+        {
+          "prompt": "We air the room so that he can breathe",
+          "options": [
+            { "emoji": "💨", "label": "Wir lüften, damit er atmen kann.", "caption": "kann last" },
+            { "emoji": "🚫", "label": "Wir lüften, damit er zu atmen kann.", "caption": "no zu" },
+            { "emoji": "💨", "label": "Sie misst damit.", "caption": "with that" }
+          ],
+          "answer": 0,
+          "why": "atmen kann, no zu. Sie misst damit stays with that, chapter 54.",
+          "hint": "kann."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, so that he can breathe",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, in order to see the wound",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, she measures with that",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, so that he comes",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Purpose last",
+      "practice": "build",
+      "instructions": "Build the line. The infinitive, or the finite verb after damit, is last. zu stays with the infinitive.",
+      "items": [
+        {
+          "tiles": ["Er", "kommt,", "um", "die", "Wunde", "zu", "sehen"],
+          "answers": ["Er kommt, um die Wunde zu sehen"],
+          "punct": ".",
+          "modal": "um",
+          "inf": "sehen",
+          "question": false,
+          "en": "He comes in order to see the wound.",
+          "hint": "Er kommt, um die Wunde zu sehen.",
+          "feedback": {
+            "end": "sehen closes um die Wunde zu sehen.",
+            "fallback": "Er kommt, um die Wunde zu sehen."
+          }
+        },
+        {
+          "tiles": ["Er", "liegt,", "um", "einzuschlafen"],
+          "answers": ["Er liegt, um einzuschlafen"],
+          "punct": ".",
+          "modal": "um",
+          "inf": "einzuschlafen",
+          "question": false,
+          "en": "He lies down in order to fall asleep.",
+          "hint": "Er liegt, um einzuschlafen.",
+          "feedback": {
+            "end": "einzuschlafen closes the purpose.",
+            "fallback": "Er liegt, um einzuschlafen."
+          }
+        },
+        {
+          "tiles": ["Wir", "rufen,", "damit", "er", "kommt"],
+          "answers": ["Wir rufen, damit er kommt"],
+          "punct": ".",
+          "modal": "damit",
+          "inf": "kommt",
+          "question": false,
+          "en": "We call so that he comes.",
+          "hint": "Wir rufen, damit er kommt.",
+          "feedback": {
+            "end": "kommt closes damit er kommt.",
+            "fallback": "Wir rufen, damit er kommt."
+          }
+        },
+        {
+          "tiles": ["Wir", "lüften,", "damit", "er", "atmen", "kann"],
+          "answers": ["Wir lüften, damit er atmen kann"],
+          "punct": ".",
+          "modal": "damit",
+          "inf": "kann",
+          "question": false,
+          "en": "We air the room so that he can breathe.",
+          "hint": "Wir lüften, damit er atmen kann.",
+          "feedback": {
+            "end": "kann closes damit er atmen kann.",
+            "fallback": "Wir lüften, damit er atmen kann."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the purpose",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the purpose the English asks for.",
+      "chips": [
+        { "w": "Er kommt, um die Wunde zu sehen", "hint": "um." },
+        { "w": "Er liegt, um einzuschlafen", "hint": "einzu." },
+        { "w": "Er steht auf, um zu essen", "hint": "zu." },
+        { "w": "Wir rufen, damit er kommt", "hint": "damit." },
+        { "w": "Sie hebt das Bett, damit er atmet", "hint": "damit." },
+        { "w": "Wir lüften, damit er atmen kann", "hint": "kann." },
+        { "w": "Er kommt, um die Wunde sehen", "hint": "zu." },
+        { "w": "Er liegt, um zu einschlafen", "hint": "einzu." },
+        { "w": "Er steht auf, um essen", "hint": "zu." },
+        { "w": "Wir rufen, damit kommt er", "hint": "damit." },
+        { "w": "Sie hebt das Bett, um er atmet", "hint": "damit." },
+        { "w": "Wir lüften, damit er zu atmen kann", "hint": "kann." }
+      ],
+      "items": [
+        {
+          "before": "Es ist wichtig, die Wunde zu sehen stays chapter 68. He comes in order to see it:",
+          "after": ".",
+          "answer": "Er kommt, um die Wunde zu sehen",
+          "en": "He comes in order to see the wound.",
+          "why": "um … zu. The chapter 68 line has no um and stays correct.",
+          "tip": "um.",
+          "hint": "um."
+        },
+        {
+          "before": "Er muss einschlafen stays no zu. He lies down in order to fall asleep:",
+          "after": ".",
+          "answer": "Er liegt, um einzuschlafen",
+          "en": "He lies down in order to fall asleep.",
+          "why": "einzuschlafen. The modal line stays without zu.",
+          "tip": "einzu.",
+          "hint": "einzu."
+        },
+        {
+          "before": "Er steht auf stays the main clause. He stands up in order to eat:",
+          "after": ".",
+          "answer": "Er steht auf, um zu essen",
+          "en": "He stands up in order to eat.",
+          "why": "um zu essen. er steht auf stays prefix last.",
+          "tip": "zu essen.",
+          "hint": "zu essen."
+        },
+        {
+          "before": "Wir rufen, um zu kommen stays our own purpose. We call so that he comes:",
+          "after": ".",
+          "answer": "Wir rufen, damit er kommt",
+          "en": "We call so that he comes.",
+          "why": "damit. um zu kommen stays when we come.",
+          "tip": "damit.",
+          "hint": "damit."
+        },
+        {
+          "before": "Sie hebt das Bett, um zu atmen stays her breathing. So that he breathes:",
+          "after": ".",
+          "answer": "Sie hebt das Bett, damit er atmet",
+          "en": "She lifts the bed so that he breathes.",
+          "why": "damit. um zu atmen stays her own purpose.",
+          "tip": "damit.",
+          "hint": "damit."
+        },
+        {
+          "before": "Sie misst damit stays with that. We air the room so that he can breathe:",
+          "after": ".",
+          "answer": "Wir lüften, damit er atmen kann",
+          "en": "We air the room so that he can breathe.",
+          "why": "damit, kann last, no zu. Sie misst damit stays chapter 54.",
+          "tip": "kann.",
+          "hint": "kann."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the purpose. Choose the correction. A modal, chapter 54, and the other correct purpose stay correct.",
+      "items": [
+        {
+          "clues": ["He comes in order to see the wound.", "zu.", "Er kommt, um die Wunde sehen."],
+          "options": ["Er kommt, um die Wunde zu sehen.", "Er kommt, um die Wunde sehen.", "Es ist wichtig, die Wunde zu sehen."],
+          "answer": 0,
+          "reveal": "Er kommt, um die Wunde zu sehen.",
+          "hint": "zu sehen."
+        },
+        {
+          "clues": ["He lies down in order to fall asleep.", "zu in the middle.", "Er liegt, um zu einschlafen."],
+          "options": ["Er liegt, um einzuschlafen.", "Er liegt, um zu einschlafen.", "Er muss einschlafen."],
+          "answer": 0,
+          "reveal": "Er liegt, um einzuschlafen.",
+          "hint": "einzu."
+        },
+        {
+          "clues": ["He stands up in order to eat.", "zu.", "Er steht auf, um essen."],
+          "options": ["Er steht auf, um zu essen.", "Er steht auf, um essen.", "Er steht auf."],
+          "answer": 0,
+          "reveal": "Er steht auf, um zu essen.",
+          "hint": "zu essen."
+        },
+        {
+          "clues": ["We call so that he comes.", "Verb last.", "Wir rufen, damit kommt er."],
+          "options": ["Wir rufen, damit er kommt.", "Wir rufen, damit kommt er.", "Wir rufen, um zu kommen."],
+          "answer": 0,
+          "reveal": "Wir rufen, damit er kommt.",
+          "hint": "damit."
+        },
+        {
+          "clues": ["She lifts the bed so that he breathes.", "New subject.", "Sie hebt das Bett, um er atmet."],
+          "options": ["Sie hebt das Bett, damit er atmet.", "Sie hebt das Bett, um er atmet.", "Sie hebt das Bett, um zu atmen."],
+          "answer": 0,
+          "reveal": "Sie hebt das Bett, damit er atmet.",
+          "hint": "damit."
+        },
+        {
+          "clues": ["We air the room so that he can breathe.", "No zu.", "Wir lüften, damit er zu atmen kann."],
+          "options": ["Wir lüften, damit er atmen kann.", "Wir lüften, damit er zu atmen kann.", "Sie misst damit."],
+          "answer": 0,
+          "reveal": "Wir lüften, damit er atmen kann.",
+          "hint": "kann."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor gives the purpose. Same subject: um … zu. New subject: damit.",
+      "chips": [
+        { "w": "Er kommt, um die Wunde zu sehen", "hint": "um." },
+        { "w": "Er liegt, um einzuschlafen", "hint": "einzu." },
+        { "w": "Er steht auf, um zu essen", "hint": "zu." },
+        { "w": "Wir rufen, damit er kommt", "hint": "damit." },
+        { "w": "Sie hebt das Bett, damit er atmet", "hint": "damit." },
+        { "w": "Wir lüften, damit er atmen kann", "hint": "kann." },
+        { "w": "Er kommt, um die Wunde sehen", "hint": "zu." },
+        { "w": "Er liegt, um zu einschlafen", "hint": "einzu." },
+        { "w": "Er steht auf, um essen", "hint": "zu." },
+        { "w": "Wir rufen, damit kommt er", "hint": "damit." },
+        { "w": "Sie hebt das Bett, um er atmet", "hint": "damit." },
+        { "w": "Wir lüften, damit er zu atmen kann", "hint": "kann." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, he comes in order to see the wound:",
+          "after": ".",
+          "answer": "Er kommt, um die Wunde zu sehen",
+          "en": "He comes in order to see the wound.",
+          "why": "um.",
+          "tip": "um.",
+          "hint": "um."
+        },
+        {
+          "before": "Doctor, he lies down in order to fall asleep:",
+          "after": ".",
+          "answer": "Er liegt, um einzuschlafen",
+          "en": "He lies down in order to fall asleep.",
+          "why": "einzu.",
+          "tip": "einzu.",
+          "hint": "einzu."
+        },
+        {
+          "before": "Nurse, he stands up in order to eat:",
+          "after": ".",
+          "answer": "Er steht auf, um zu essen",
+          "en": "He stands up in order to eat.",
+          "why": "zu essen.",
+          "tip": "zu essen.",
+          "hint": "zu essen."
+        },
+        {
+          "before": "Doctor, we call so that he comes:",
+          "after": ".",
+          "answer": "Wir rufen, damit er kommt",
+          "en": "We call so that he comes.",
+          "why": "damit.",
+          "tip": "damit.",
+          "hint": "damit."
+        },
+        {
+          "before": "Nurse, she lifts the bed so that he breathes:",
+          "after": ".",
+          "answer": "Sie hebt das Bett, damit er atmet",
+          "en": "She lifts the bed so that he breathes.",
+          "why": "damit.",
+          "tip": "damit.",
+          "hint": "damit."
+        },
+        {
+          "before": "Doctor, we air the room so that he can breathe:",
+          "after": ".",
+          "answer": "Wir lüften, damit er atmen kann",
+          "en": "We air the room so that he can breathe.",
+          "why": "kann.",
+          "tip": "kann.",
+          "hint": "kann."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The purpose",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The purpose only. zu stays with the infinitive. After damit the finite verb is last. A modal takes no zu.",
+      "chips": [
+        { "w": "um die Wunde zu sehen", "hint": "zu." },
+        { "w": "um einzuschlafen", "hint": "einzu." },
+        { "w": "um zu essen", "hint": "zu." },
+        { "w": "damit er kommt", "hint": "damit." },
+        { "w": "damit er atmet", "hint": "damit." },
+        { "w": "damit er atmen kann", "hint": "kann." },
+        { "w": "um die Wunde sehen", "hint": "zu." },
+        { "w": "um zu einschlafen", "hint": "einzu." },
+        { "w": "um essen", "hint": "zu." },
+        { "w": "damit kommt er", "hint": "damit." },
+        { "w": "um er atmet", "hint": "damit." },
+        { "w": "damit er zu atmen kann", "hint": "kann." }
+      ],
+      "items": [
+        {
+          "before": "In order to see the wound. The purpose:",
+          "after": ".",
+          "answer": "um die Wunde zu sehen",
+          "en": "in order to see the wound.",
+          "why": "die Wunde before zu. Es ist wichtig, die Wunde zu sehen stays chapter 68.",
+          "tip": "zu sehen.",
+          "hint": "zu sehen."
+        },
+        {
+          "before": "In order to fall asleep. The purpose:",
+          "after": ".",
+          "answer": "um einzuschlafen",
+          "en": "in order to fall asleep.",
+          "why": "einzuschlafen. Not zu einschlafen. Er muss einschlafen stays no zu.",
+          "tip": "einzu.",
+          "hint": "einzu."
+        },
+        {
+          "before": "In order to eat. The purpose:",
+          "after": ".",
+          "answer": "um zu essen",
+          "en": "in order to eat.",
+          "why": "zu essen. essen is not separable. Er steht auf stays the main clause.",
+          "tip": "zu essen.",
+          "hint": "zu essen."
+        },
+        {
+          "before": "So that he comes. The purpose:",
+          "after": ".",
+          "answer": "damit er kommt",
+          "en": "so that he comes.",
+          "why": "damit er kommt. Wir rufen, um zu kommen stays our own purpose.",
+          "tip": "damit.",
+          "hint": "damit."
+        },
+        {
+          "before": "So that he breathes. The purpose:",
+          "after": ".",
+          "answer": "damit er atmet",
+          "en": "so that he breathes.",
+          "why": "damit er atmet. um zu atmen stays her own breathing.",
+          "tip": "damit.",
+          "hint": "damit."
+        },
+        {
+          "before": "So that he can breathe. The purpose:",
+          "after": ".",
+          "answer": "damit er atmen kann",
+          "en": "so that he can breathe.",
+          "why": "atmen kann. No zu. Sie misst damit stays chapter 54.",
+          "tip": "kann.",
+          "hint": "kann."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. Chapter 54 and chapter 68 stay correct when the question is not asking for them.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Das Bett",
+        "paragraphs": [
+          "Er kommt, um die Wunde zu sehen. Er liegt, um einzuschlafen. Er steht auf, um zu essen. Wir rufen, damit er kommt.",
+          "Sie hebt das Bett, damit er atmet. Wir stellen das Bett hoch, damit der Patient leichter atmen kann. Wir lüften, damit er atmen kann. Sie misst damit."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "He comes in order to see the wound. From the note.",
+          "qEn": "um die Wunde zu sehen.",
+          "options": ["um die Wunde zu sehen", "um die Wunde sehen", "Es ist wichtig, die Wunde zu sehen."],
+          "answer": 0,
+          "why": "The note has um die Wunde zu sehen. Es ist wichtig, die Wunde zu sehen stays chapter 68.",
+          "hint": "zu sehen."
+        },
+        {
+          "kind": "mc",
+          "q": "In order to fall asleep, from the note.",
+          "qEn": "um einzuschlafen.",
+          "options": ["um einzuschlafen", "um zu einschlafen", "Er muss einschlafen."],
+          "answer": 0,
+          "why": "The note has einzuschlafen. Er muss einschlafen stays no zu.",
+          "hint": "einzu."
+        },
+        {
+          "kind": "mc",
+          "q": "So that he can breathe, from the note.",
+          "qEn": "damit er atmen kann.",
+          "options": ["damit er atmen kann", "damit er zu atmen kann", "Er muss atmen."],
+          "answer": 0,
+          "why": "The note has damit er atmen kann. Er muss atmen stays chapter 69.",
+          "hint": "kann."
+        },
+        {
+          "kind": "mc",
+          "q": "She measures with that. From the note. Not so that.",
+          "qEn": "Sie misst damit.",
+          "options": ["Sie misst damit.", "Sie misst da mit.", "Wir lüften, damit er atmen kann."],
+          "answer": 0,
+          "why": "Sie misst damit means with that, chapter 54. The lüften line is the purpose and is also in the note.",
+          "hint": "damit."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. He comes in order to see the wound. He lies down in order to fall asleep. We call so that he comes. We air the room so that he can breathe.",
+      "prompt": "He comes in order to see the wound. He lies down in order to fall asleep. We call so that he comes. We air the room so that he can breathe.",
+      "bullets": ["um die Wunde zu sehen", "um einzuschlafen", "damit er kommt", "damit er atmen kann"],
+      "model": "Er kommt, um die Wunde zu sehen. Er liegt, um einzuschlafen. Wir rufen, damit er kommt. Wir lüften, damit er atmen kann.",
+      "modelEn": "He comes in order to see the wound. He lies down in order to fall asleep. We call so that he comes. We air the room so that he can breathe.",
+      "hint": "um die Wunde zu sehen. um einzuschlafen. damit er kommt. damit er atmen kann.",
+      "checklist": [
+        { "id": "w", "label": "um die Wunde zu sehen", "keywords": ["um die wunde zu sehen"] },
+        { "id": "e", "label": "um einzuschlafen", "keywords": ["um einzuschlafen"] },
+        { "id": "k", "label": "damit er kommt", "keywords": ["damit er kommt"] },
+        { "id": "a", "label": "damit er atmen kann", "keywords": ["damit er atmen kann"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Um … zu und damit",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Same subject: um … zu. Separable zu goes in the middle. New subject: damit, verb last. A modal takes no zu. Sie misst damit stays with that.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "He comes in order to see the wound.",
+          "qEn": "um die Wunde zu sehen.",
+          "options": ["Er kommt, um die Wunde zu sehen.", "Er kommt, um die Wunde sehen.", "Es ist wichtig, die Wunde zu sehen."],
+          "answer": 0,
+          "why": "um … zu. The chapter 68 line stays correct.",
+          "hint": "zu sehen."
+        },
+        {
+          "kind": "mc",
+          "q": "He lies down in order to fall asleep.",
+          "qEn": "um einzuschlafen.",
+          "options": ["Er liegt, um einzuschlafen.", "Er liegt, um zu einschlafen.", "Er muss einschlafen."],
+          "answer": 0,
+          "why": "einzuschlafen. The modal stays without zu.",
+          "hint": "einzu."
+        },
+        {
+          "kind": "mc",
+          "q": "He stands up in order to eat.",
+          "qEn": "um zu essen.",
+          "options": ["Er steht auf, um zu essen.", "Er steht auf, um essen.", "Er steht auf."],
+          "answer": 0,
+          "why": "zu essen. Er steht auf stays the main clause.",
+          "hint": "zu essen."
+        },
+        {
+          "kind": "mc",
+          "q": "We call so that he comes.",
+          "qEn": "damit er kommt.",
+          "options": ["Wir rufen, damit er kommt.", "Wir rufen, damit kommt er.", "Wir rufen, um zu kommen."],
+          "answer": 0,
+          "why": "damit. um zu kommen stays our own purpose.",
+          "hint": "damit."
+        },
+        {
+          "kind": "mc",
+          "q": "She lifts the bed so that he breathes.",
+          "qEn": "damit er atmet.",
+          "options": ["Sie hebt das Bett, damit er atmet.", "Sie hebt das Bett, um er atmet.", "Sie hebt das Bett, um zu atmen."],
+          "answer": 0,
+          "why": "damit. um zu atmen stays her own purpose.",
+          "hint": "damit."
+        },
+        {
+          "kind": "mc",
+          "q": "We air the room so that he can breathe.",
+          "qEn": "damit er atmen kann.",
+          "options": ["Wir lüften, damit er atmen kann.", "Wir lüften, damit er zu atmen kann.", "Er muss atmen."],
+          "answer": 0,
+          "why": "kann last, no zu. Er muss atmen stays chapter 69.",
+          "hint": "kann."
+        },
+        {
+          "kind": "mc",
+          "q": "We air the room so that he breathes more easily.",
+          "qEn": "damit er leichter atmet.",
+          "options": ["Wir lüften, damit er leichter atmet.", "Wir lüften, damit atmet er.", "Sie misst damit."],
+          "answer": 0,
+          "why": "damit, atmet last. leichter has no ending. Sie misst damit stays chapter 54.",
+          "hint": "damit."
+        },
+        {
+          "kind": "mc",
+          "q": "Comma before um.",
+          "qEn": "Er kommt, um die Wunde zu sehen.",
+          "options": ["Er kommt, um die Wunde zu sehen.", "Er kommt um die Wunde zu sehen.", "Er kommt, um die Wunde sehen."],
+          "answer": 0,
+          "why": "The comma belongs before um. The line without zu is still wrong.",
+          "hint": "um."
+        },
+        {
+          "kind": "mc",
+          "q": "She measures with that. Not so that.",
+          "qEn": "Sie misst damit.",
+          "options": ["Sie misst damit.", "Sie misst da mit.", "Wir lüften, damit er atmen kann."],
+          "answer": 0,
+          "why": "With that thing, chapter 54. The lüften line stays the purpose.",
+          "hint": "damit."
+        },
+        {
+          "kind": "mc",
+          "q": "In order to stand up. zu in the middle.",
+          "qEn": "um aufzustehen.",
+          "options": ["um aufzustehen", "um zu aufstehen", "Er steht auf."],
+          "answer": 0,
+          "why": "aufzustehen, one word. Not zu aufstehen. Er steht auf stays the finite main clause.",
+          "hint": "aufzu."
+        },
+        {
+          "kind": "mc",
+          "q": "He must breathe. No zu.",
+          "qEn": "Er muss atmen.",
+          "options": ["Er muss atmen.", "Er muss zu atmen.", "Wir lüften, damit er atmen kann."],
+          "answer": 0,
+          "why": "A modal takes the bare infinitive, chapter 69. The damit line stays the purpose, with kann last.",
+          "hint": "muss."
+        },
+        {
+          "kind": "mc",
+          "q": "So that the patient can breathe. New subject.",
+          "qEn": "damit der Patient atmen kann.",
+          "options": ["damit der Patient atmen kann", "damit der Patient zu atmen kann", "um der Patient atmen kann"],
+          "answer": 0,
+          "why": "damit, kann last, no zu. um cannot take this new finite subject.",
+          "hint": "damit."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Um … zu und damit",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Er kommt, um die Wunde zu sehen.", "en": "He comes in order to see the wound." },
+        { "de": "Er liegt, um einzuschlafen.", "en": "He lies down in order to fall asleep." },
+        { "de": "Wir rufen, damit er kommt.", "en": "We call so that he comes." },
+        { "de": "Wir lüften, damit er atmen kann.", "en": "We air the room so that he can breathe." }
+      ],
+      "messages": [
+        "The same subject takes um … zu. zu stands in front of a normal infinitive and in the middle of a separable one. A new subject takes damit, with the finite verb last.",
+        "A modal takes no zu: damit er atmen kann, Er muss atmen. Sie misst damit stays with that, chapter 54. Es ist schön, zu feiern stays chapter 68. er steht auf stays the main clause.",
+        "Sehr gut. Er kommt, um die Wunde zu sehen. Wir lüften, damit er atmen kann.",
+        "Ausgezeichnet. You can say why he comes, why he lies down, and why we air the room so that he can breathe."
+      ]
+    }
+  ]
+}

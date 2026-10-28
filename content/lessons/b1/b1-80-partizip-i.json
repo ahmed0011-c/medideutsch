@@ -1,0 +1,1157 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-80-partizip-i",
+  "level": "B1",
+  "unit": "Kapitel 80",
+  "chapter": 80,
+  "chapters": [80],
+  "title": "Singende Vögel und fliegende Fische",
+  "subtitle": "Present participle as adjective",
+  "glossary": {
+    "singende": {
+      "de": "singende",
+      "pos": "participle",
+      "en": "singing (plural -e)",
+      "emoji": "🐦",
+      "note": "singen → singend, then -e. Singende Vögel. No article, plural. No ge-. die singenden Vögel stays, with -en after die."
+    },
+    "vögel": {
+      "de": "Vogel",
+      "pos": "noun",
+      "en": "bird",
+      "emoji": "🐦",
+      "article": "der",
+      "plural": "die Vögel",
+      "note": "der Vogel, die Vögel. Singende Vögel. Die Vögel singen stays the finite verb."
+    },
+    "und": { "de": "und", "pos": "conjunction", "en": "and", "emoji": "➕" },
+    "fliegende": {
+      "de": "fliegende",
+      "pos": "participle",
+      "en": "flying (plural -e)",
+      "emoji": "🐟",
+      "note": "fliegen → fliegend, then -e. fliegende Fische. Not fliegendes before a plural. No ge-."
+    },
+    "fische": {
+      "de": "Fisch",
+      "pos": "noun",
+      "en": "fish",
+      "emoji": "🐟",
+      "article": "der",
+      "plural": "die Fische",
+      "note": "der Fisch, die Fische. Wir sehen fliegende Fische. die fliegenden Fische stays, with -en after die."
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🧒",
+      "note": "das schlafende Kind. das already shows -s, so the participle takes -e. Not das schlafendes."
+    },
+    "schlafende": {
+      "de": "schlafende",
+      "pos": "participle",
+      "en": "sleeping (-e)",
+      "emoji": "😴",
+      "note": "schlafen → schlafend, then -e. das schlafende Kind. Not geschlafen. Das Kind schläft stays the finite verb."
+    },
+    "kind": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "child",
+      "emoji": "🧒",
+      "article": "das",
+      "plural": "die Kinder",
+      "note": "das Kind. das schlafende Kind. ein schlafendes Kind takes -es. Das Kind schläft stays."
+    },
+    "ruht": {
+      "de": "ruhen → er ruht",
+      "pos": "form",
+      "en": "rests",
+      "emoji": "😴",
+      "note": "Das schlafende Kind ruht. Er ruht mit steigendem Fieber."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "🌡️",
+      "note": "mit takes the dative. mit steigendem Fieber, no article, so -em. mit dem steigenden Fieber stays, with -en. mit frischem Wasser stays chapter 79."
+    },
+    "steigendem": {
+      "de": "steigendem",
+      "pos": "participle",
+      "en": "rising (dative -em)",
+      "emoji": "🌡️",
+      "note": "steigen → steigend, then -em. mit steigendem Fieber. Not steigenden before singular Fieber. Not gestiegen. Das Fieber ist gestiegen stays Partizip II."
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "das Fieber. mit steigendem Fieber. Das Fieber ist hoch stays, with no ending. No plural here."
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine nominative)",
+      "emoji": "😴",
+      "note": "ein schlafender Patient. ein shows no masculine ending, so the participle takes -er. Ein Kranker liegt hier stays chapter 65."
+    },
+    "schlafender": {
+      "de": "schlafender",
+      "pos": "participle",
+      "en": "sleeping (masculine -er)",
+      "emoji": "😴",
+      "note": "ein schlafender Patient. Nominative -er. Not ein schlafende. Not the accusative den schlafenden Patienten."
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "der Patient. ein schlafender Patient. Accusative den schlafenden Patienten: the noun also takes -en. Not den Patient."
+    },
+    "wartet": {
+      "de": "warten → er wartet",
+      "pos": "form",
+      "en": "waits",
+      "emoji": "⏳",
+      "note": "Ein schlafender Patient wartet. Singular. Der Jugendliche wartet stays chapter 65."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "👨‍⚕️",
+      "note": "der behandelnde Arzt. der already shows -r, so the participle takes -e. Not der behandelnder."
+    },
+    "behandelnde": {
+      "de": "behandelnde",
+      "pos": "participle",
+      "en": "attending, treating (-e)",
+      "emoji": "👨‍⚕️",
+      "note": "behandeln → behandelnd, then -e. Partizip I has no ge-. Partizip II is behandelt, chapter 26, and stays a verb form."
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "der Arzt. der behandelnde Arzt. Der Arzt hat den Patienten untersucht stays chapter 26."
+    },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Der behandelnde Arzt kommt."
+    },
+    "warten": {
+      "de": "warten → sie warten",
+      "pos": "form",
+      "en": "wait",
+      "emoji": "🐦",
+      "note": "Singende Vögel warten hier. Plural. Not the infinitive with zu."
+    },
+    "hier": { "de": "hier", "pos": "adverb", "en": "here", "emoji": "📍" },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "sehen": {
+      "de": "sehen → wir sehen",
+      "pos": "form",
+      "en": "see",
+      "emoji": "🐟",
+      "note": "Wir sehen fliegende Fische. Wir sehen nichts Neues stays chapter 66."
+    },
+    "schläft": {
+      "de": "schlafen → es schläft",
+      "pos": "form",
+      "en": "sleeps",
+      "emoji": "😴",
+      "note": "Das Kind schläft. Finite verb. Not the adjective schlafende. Er hat geschlafen stays Partizip II, chapter 26."
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🌡️",
+      "note": "Das Fieber ist hoch. No ending after ist. Not ist steigend. Das Fieber ist gestiegen stays Partizip II."
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high (no ending after sein)",
+      "emoji": "🌡️",
+      "note": "Das Fieber ist hoch. No participle ending after sein. Chapter 76."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Infinitive plus d",
+      "learn": [
+        "Partizip I is the infinitive plus d. schlafen → schlafend. steigen → steigend. singen → singend. fliegen → fliegend. behandeln → behandelnd. No ge-.",
+        "Then it takes an adjective ending. das schlafende Kind. ein schlafender Patient. mit steigendem Fieber. Singende Vögel. fliegende Fische.",
+        "The finite verb stays a verb. Das Kind schläft. After sein there is no ending. Das Fieber ist hoch.",
+        "geschlafen, gestiegen, gemessen and untersucht stay Partizip II, chapter 26. Not gemesst. Not geuntersucht."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Kind", "article": "das", "plural": "die Kinder", "en": "child", "emoji": "🧒", "glossaryKey": "kind" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "glossaryKey": "fieber" },
+        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor", "emoji": "👨‍⚕️", "glossaryKey": "arzt" }
+      ],
+      "text": {
+        "title": "Singende Vögel und fliegende Fische",
+        "de": "Das schlafende Kind ruht. Er ruht mit steigendem Fieber. Ein schlafender Patient wartet. Der behandelnde Arzt kommt. Singende Vögel warten hier. Wir sehen fliegende Fische. Das Kind schläft. Das Fieber ist hoch.",
+        "en": "The sleeping child rests. He rests with rising fever. A sleeping patient is waiting. The attending doctor comes. Singing birds are waiting here. We see flying fish. The child sleeps. The fever is high."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Present participle as adjective",
+      "practice": "choose",
+      "heroTitle": "Singende Vögel und fliegende Fische",
+      "heroImage": "bed",
+      "story": [
+        "<b>Partizip I</b> is the infinitive plus <b>d</b>. schlafen → <b>schlafend</b>. steigen → <b>steigend</b>. singen → <b>singend</b>. fliegen → <b>fliegend</b>. behandeln → <b>behandelnd</b>. No <b>ge-</b>. A separable verb stays one word: aufstehen → <b>aufstehend</b>. Not auf stehend. Not zu in the middle. <b>Er steht auf</b> stays the finite clause. <b>aufzustehen</b> stays the zu-infinitive, chapter 68. <b>aufgestanden</b> stays Partizip II.",
+        "The participle then takes the adjective ending from chapter 79. <b>das schlafende Kind</b>, -e, because das already shows -s. <b>ein schlafendes Kind</b> stays too, with -es. <b>ein schlafender Patient</b>, -er. <b>mit steigendem Fieber</b>, dative, no article, -em. <b>mit dem steigenden Fieber</b> stays, with -en after dem. <b>der behandelnde Arzt</b>, -e. Not der behandelnder.",
+        "Plural with no article takes <b>-e</b>. <b>Singende Vögel. fliegende Fische.</b> <b>die singenden Vögel</b> and <b>die fliegenden Fische</b> stay, with -en after die. <b>die neuen Verbände</b> stays chapter 36. Accusative: <b>den schlafenden Patienten</b>. The adjective is -en, and the noun is -en too. <b>den Patienten</b> stays chapter 64. Not den Patient.",
+        "The finite verb is not this adjective. <b>Das Kind schläft.</b> <b>Die Vögel singen.</b> After sein there is no ending: <b>Das Fieber ist hoch.</b> Not ist steigend. <b>Das Fieber ist gestiegen</b> stays Partizip II, the fever has risen. <b>Er hat geschlafen</b> stays chapter 26. gemessen, not gemesst. untersucht, not geuntersucht. behandelt is the Partizip II of behandeln. <b>Ein Kranker liegt hier</b> and <b>Der Jugendliche wartet</b> stay chapter 65. <b>Wir sehen nichts Neues</b> stays chapter 66. <b>mit frischem Wasser</b> stays chapter 79."
+      ],
+      "questionRule": "Partizip I is the infinitive plus d, then an adjective ending. No ge-. das schlafende Kind takes -e. mit steigendem Fieber takes -em. ein schlafender Patient takes -er. Das Kind schläft stays the finite verb. geschlafen stays Partizip II.",
+      "tables": [
+        {
+          "title": "Partizip I",
+          "caption": "Infinitive plus d. No ge-. The ending comes afterwards.",
+          "columns": ["Infinitiv", "Partizip"],
+          "rows": [
+            { "label": "schlafen", "cells": ["schlafen", "schlafend"], "highlight": true },
+            { "label": "steigen", "cells": ["steigen", "steigend"], "highlight": true },
+            { "label": "singen", "cells": ["singen", "singend"] },
+            { "label": "fliegen", "cells": ["fliegen", "fliegend"] },
+            { "label": "behandeln", "cells": ["behandeln", "behandelnd"] }
+          ]
+        },
+        {
+          "title": "Die Endung",
+          "caption": "Same three patterns as chapter 79. The participle stands before the noun.",
+          "columns": ["Muster", "Beispiel"],
+          "rows": [
+            { "label": "das", "cells": ["-e", "das schlafende Kind"], "highlight": true },
+            { "label": "ein", "cells": ["-er", "ein schlafender Patient"], "highlight": true },
+            { "label": "mit", "cells": ["-em", "mit steigendem Fieber"] },
+            { "label": "Plural", "cells": ["-e", "singende Vögel, fliegende Fische"] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "Das Kind schläft and Das Fieber ist hoch stay outside the adjective.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "Kind", "cells": ["Das schlafende Kind ruht."], "highlight": true },
+            { "label": "Fieber", "cells": ["Er ruht mit steigendem Fieber."] },
+            { "label": "Patient", "cells": ["Ein schlafender Patient wartet."], "highlight": true },
+            { "label": "Arzt", "cells": ["Der behandelnde Arzt kommt."] },
+            { "label": "Vögel", "cells": ["Singende Vögel warten hier."] },
+            { "label": "Fische", "cells": ["Wir sehen fliegende Fische."] },
+            { "label": "Verb", "cells": ["Das Kind schläft."] },
+            { "label": "sein", "cells": ["Das Fieber ist hoch."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Das Kind schläft, Die Vögel singen, Das Fieber ist hoch, Das Fieber ist gestiegen, Er hat geschlafen, gemessen, untersucht, behandelt, Ein Kranker, Der Jugendliche, die neuen Verbände, die singenden Vögel, nichts Neues, mit frischem Wasser, ein schlafendes Kind, mit dem steigenden Fieber, den Patienten, Er steht auf, aufzustehen, and aufgestanden stay correct. Not gemesst. Not geuntersucht.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "Kind", "cells": ["das schlafendes Kind", "das schlafende Kind"] },
+            { "label": "Fieber", "cells": ["steigenden Fieber", "steigendem Fieber"] },
+            { "label": "Patient", "cells": ["ein schlafende Patient", "ein schlafender Patient"] },
+            { "label": "Arzt", "cells": ["der behandelnder Arzt", "der behandelnde Arzt"] },
+            { "label": "Vögel", "cells": ["singender Vögel", "singende Vögel"] },
+            { "label": "Fische", "cells": ["fliegendes Fische", "fliegende Fische"] },
+            { "label": "auf", "cells": ["auf stehende", "aufstehende"] },
+            { "label": "sein", "cells": ["ist steigend", "ist hoch"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four participle traps",
+        "items": [
+          { "de": "Das schlafende Kind ruht.", "en": "das plus -e.", "tone": "ok" },
+          { "de": "Das schlafendes Kind ruht.", "en": "The -s is already on das.", "tone": "stop" },
+          { "de": "Er ruht mit steigendem Fieber.", "en": "Dative -em.", "tone": "ok" },
+          { "de": "Er ruht mit steigenden Fieber.", "en": "-en is not this dative.", "tone": "stop" },
+          { "de": "Ein schlafender Patient wartet.", "en": "ein needs -er.", "tone": "ok" },
+          { "de": "Ein schlafende Patient wartet.", "en": "The -r is missing.", "tone": "stop" },
+          { "de": "Der behandelnde Arzt kommt.", "en": "der needs -e.", "tone": "ok" },
+          { "de": "Der behandelnder Arzt kommt.", "en": "The -r is already on der.", "tone": "stop" }
+        ],
+        "tip": "Infinitive plus d, then the adjective ending. No ge-."
+      },
+      "tips": [
+        {
+          "title": "Infinitive plus d",
+          "body": "schlafend. steigend. singend. fliegend. behandelnd. Then -e, -er or -em.",
+          "mnemonic": "schlafende. schlafender. steigendem.",
+          "emoji": "😴"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "schlafend", "emoji": "🧒", "en": "the sleeping child", "use": "-e", "de": "Das schlafende Kind ruht.", "deEn": "The sleeping child rests." },
+        { "modal": "steigend", "emoji": "🌡️", "en": "with rising fever", "use": "-em", "de": "Er ruht mit steigendem Fieber.", "deEn": "He rests with rising fever." },
+        { "modal": "schlafender", "emoji": "😴", "en": "a sleeping patient", "use": "-er", "de": "Ein schlafender Patient wartet.", "deEn": "A sleeping patient is waiting." },
+        { "modal": "behandelnd", "emoji": "👨‍⚕️", "en": "the attending doctor", "use": "-e", "de": "Der behandelnde Arzt kommt.", "deEn": "The attending doctor comes." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The sleeping child rests.",
+          "qEn": "das schlafende Kind.",
+          "options": ["Das schlafende Kind ruht.", "Das schlafendes Kind ruht.", "Das Kind schläft."],
+          "answer": 0,
+          "why": "schlafend plus -e. Das Kind schläft stays the finite verb. Er hat geschlafen stays Partizip II.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "He rests with rising fever.",
+          "qEn": "mit steigendem Fieber.",
+          "options": ["Er ruht mit steigendem Fieber.", "Er ruht mit steigenden Fieber.", "Das Fieber ist hoch."],
+          "answer": 0,
+          "why": "steigend plus -em. Das Fieber ist hoch stays, with no ending. Das Fieber ist gestiegen stays Partizip II. mit frischem Wasser stays chapter 79.",
+          "hint": "-em."
+        },
+        {
+          "kind": "mc",
+          "q": "A sleeping patient is waiting.",
+          "qEn": "ein schlafender Patient.",
+          "options": ["Ein schlafender Patient wartet.", "Ein schlafende Patient wartet.", "Ein Kranker liegt hier."],
+          "answer": 0,
+          "why": "ein needs -er. Ein Kranker liegt hier stays chapter 65. ein schlafendes Kind stays, with -es, because Kind is neuter.",
+          "hint": "-er."
+        },
+        {
+          "kind": "mc",
+          "q": "The attending doctor comes.",
+          "qEn": "der behandelnde Arzt.",
+          "options": ["Der behandelnde Arzt kommt.", "Der behandelnder Arzt kommt.", "Der Jugendliche wartet."],
+          "answer": 0,
+          "why": "der needs -e. No ge-. Der Jugendliche wartet stays chapter 65. behandelt stays Partizip II.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "Singing birds are waiting here.",
+          "qEn": "singende Vögel.",
+          "options": ["Singende Vögel warten hier.", "Singender Vögel warten hier.", "die neuen Verbände"],
+          "answer": 0,
+          "why": "Plural, no article, -e. die neuen Verbände stays chapter 36. die singenden Vögel stays, with -en after die.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "We see flying fish.",
+          "qEn": "fliegende Fische.",
+          "options": ["Wir sehen fliegende Fische.", "Wir sehen fliegendes Fische.", "Wir sehen nichts Neues."],
+          "answer": 0,
+          "why": "Plural -e. Wir sehen nichts Neues stays chapter 66. die fliegenden Fische stays, with -en after die.",
+          "hint": "-e."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Infinitive plus d, then the ending. A finite verb, Partizip II, and chapter 65 stay out of the chips.",
+      "chips": [
+        { "w": "Das schlafende Kind ruht", "hint": "-e." },
+        { "w": "Er ruht mit steigendem Fieber", "hint": "-em." },
+        { "w": "Ein schlafender Patient wartet", "hint": "-er." },
+        { "w": "Der behandelnde Arzt kommt", "hint": "-e." },
+        { "w": "Singende Vögel warten hier", "hint": "-e." },
+        { "w": "Wir sehen fliegende Fische", "hint": "-e." },
+        { "w": "Das schlafendes Kind ruht", "hint": "-e." },
+        { "w": "Er ruht mit steigenden Fieber", "hint": "-em." },
+        { "w": "Ein schlafende Patient wartet", "hint": "-er." },
+        { "w": "Der behandelnder Arzt kommt", "hint": "-e." },
+        { "w": "Singender Vögel warten hier", "hint": "-e." },
+        { "w": "Wir sehen fliegendes Fische", "hint": "-e." }
+      ],
+      "items": [
+        {
+          "before": "The sleeping child rests:",
+          "after": ".",
+          "answer": "Das schlafende Kind ruht",
+          "en": "The sleeping child rests.",
+          "why": "-e. Das Kind schläft stays the finite verb.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "He rests with rising fever:",
+          "after": ".",
+          "answer": "Er ruht mit steigendem Fieber",
+          "en": "He rests with rising fever.",
+          "why": "-em. Das Fieber ist hoch stays. Das Fieber ist gestiegen stays Partizip II.",
+          "tip": "-em.",
+          "hint": "-em."
+        },
+        {
+          "before": "A sleeping patient is waiting:",
+          "after": ".",
+          "answer": "Ein schlafender Patient wartet",
+          "en": "A sleeping patient is waiting.",
+          "why": "-er. Ein Kranker liegt hier stays chapter 65.",
+          "tip": "-er.",
+          "hint": "-er."
+        },
+        {
+          "before": "The attending doctor comes:",
+          "after": ".",
+          "answer": "Der behandelnde Arzt kommt",
+          "en": "The attending doctor comes.",
+          "why": "-e. No ge-. Der Jugendliche wartet stays chapter 65.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Singing birds are waiting here:",
+          "after": ".",
+          "answer": "Singende Vögel warten hier",
+          "en": "Singing birds are waiting here.",
+          "why": "-e. die singenden Vögel stays, with the article.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "We see flying fish:",
+          "after": ".",
+          "answer": "Wir sehen fliegende Fische",
+          "en": "We see flying fish.",
+          "why": "-e. Wir sehen nichts Neues stays chapter 66.",
+          "tip": "-e.",
+          "hint": "-e."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line is Partizip I before the noun. One is not German. A finite verb or another chapter stays correct.",
+      "items": [
+        {
+          "prompt": "The sleeping child rests",
+          "options": [
+            { "emoji": "🧒", "label": "Das schlafende Kind ruht.", "caption": "-e" },
+            { "emoji": "🚫", "label": "Das schlafendes Kind ruht.", "caption": "not -es" },
+            { "emoji": "😴", "label": "Das Kind schläft.", "caption": "finite" }
+          ],
+          "answer": 0,
+          "why": "schlafende. Das Kind schläft stays.",
+          "hint": "-e."
+        },
+        {
+          "prompt": "With rising fever",
+          "options": [
+            { "emoji": "🌡️", "label": "Er ruht mit steigendem Fieber.", "caption": "-em" },
+            { "emoji": "🚫", "label": "Er ruht mit steigenden Fieber.", "caption": "not -en" },
+            { "emoji": "🌡️", "label": "Das Fieber ist hoch.", "caption": "no ending" }
+          ],
+          "answer": 0,
+          "why": "steigendem. Das Fieber ist hoch stays.",
+          "hint": "-em."
+        },
+        {
+          "prompt": "A sleeping patient",
+          "options": [
+            { "emoji": "😴", "label": "Ein schlafender Patient wartet.", "caption": "-er" },
+            { "emoji": "🚫", "label": "Ein schlafende Patient wartet.", "caption": "missing -r" },
+            { "emoji": "🤒", "label": "Ein Kranker liegt hier.", "caption": "chapter 65" }
+          ],
+          "answer": 0,
+          "why": "schlafender. Ein Kranker liegt hier stays.",
+          "hint": "-er."
+        },
+        {
+          "prompt": "The attending doctor",
+          "options": [
+            { "emoji": "👨‍⚕️", "label": "Der behandelnde Arzt kommt.", "caption": "-e" },
+            { "emoji": "🚫", "label": "Der behandelnder Arzt kommt.", "caption": "not -er" },
+            { "emoji": "🧒", "label": "Der Jugendliche wartet.", "caption": "chapter 65" }
+          ],
+          "answer": 0,
+          "why": "behandelnde. Der Jugendliche wartet stays.",
+          "hint": "-e."
+        },
+        {
+          "prompt": "Singing birds",
+          "options": [
+            { "emoji": "🐦", "label": "Singende Vögel warten hier.", "caption": "-e" },
+            { "emoji": "🚫", "label": "Singender Vögel warten hier.", "caption": "not -er" },
+            { "emoji": "🩹", "label": "die neuen Verbände", "caption": "chapter 36" }
+          ],
+          "answer": 0,
+          "why": "singende. die neuen Verbände stays.",
+          "hint": "-e."
+        },
+        {
+          "prompt": "Flying fish",
+          "options": [
+            { "emoji": "🐟", "label": "Wir sehen fliegende Fische.", "caption": "-e" },
+            { "emoji": "🚫", "label": "Wir sehen fliegendes Fische.", "caption": "not -es" },
+            { "emoji": "🆕", "label": "Wir sehen nichts Neues.", "caption": "chapter 66" }
+          ],
+          "answer": 0,
+          "why": "fliegende. Wir sehen nichts Neues stays.",
+          "hint": "-e."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, the sleeping child",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, a sleeping patient",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, rising fever",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, the attending doctor",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "The participle stays whole",
+      "practice": "build",
+      "instructions": "Build the line. A mit-phrase, an object, or hier can also stand first. Keep the participle in one word.",
+      "items": [
+        {
+          "tiles": ["Er", "ruht", "mit", "steigendem", "Fieber"],
+          "answers": ["Er ruht mit steigendem Fieber", "Mit steigendem Fieber ruht er"],
+          "punct": ".",
+          "modal": "mit",
+          "inf": "Fieber",
+          "question": false,
+          "en": "He rests with rising fever.",
+          "hint": "Er ruht mit steigendem Fieber. Or mit first.",
+          "feedback": {
+            "end": "Fieber closes mit steigendem Fieber.",
+            "fallback": "Er ruht mit steigendem Fieber. Or: Mit steigendem Fieber ruht er."
+          }
+        },
+        {
+          "tiles": ["Wir", "sehen", "fliegende", "Fische"],
+          "answers": ["Wir sehen fliegende Fische", "Fliegende Fische sehen wir"],
+          "punct": ".",
+          "modal": "fliegende",
+          "inf": "Fische",
+          "question": false,
+          "en": "We see flying fish.",
+          "hint": "Wir sehen fliegende Fische. Or fliegende first.",
+          "feedback": {
+            "end": "Fische closes fliegende Fische.",
+            "fallback": "Wir sehen fliegende Fische. Or: Fliegende Fische sehen wir."
+          }
+        },
+        {
+          "tiles": ["Singende", "Vögel", "warten", "hier"],
+          "answers": ["Singende Vögel warten hier", "Hier warten singende Vögel"],
+          "punct": ".",
+          "modal": "singende",
+          "inf": "hier",
+          "question": false,
+          "en": "Singing birds are waiting here.",
+          "hint": "Singende Vögel warten hier. Or hier first.",
+          "feedback": {
+            "end": "hier closes the plural line.",
+            "fallback": "Singende Vögel warten hier. Or: Hier warten singende Vögel."
+          }
+        },
+        {
+          "tiles": ["Das", "schlafende", "Kind", "ruht"],
+          "answers": ["Das schlafende Kind ruht"],
+          "punct": ".",
+          "modal": "schlafende",
+          "inf": "ruht",
+          "question": false,
+          "en": "The sleeping child rests.",
+          "hint": "Das schlafende Kind ruht.",
+          "feedback": {
+            "end": "ruht closes Das schlafende Kind ruht.",
+            "fallback": "Das schlafende Kind ruht."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the participle",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the Partizip I line the English asks for.",
+      "chips": [
+        { "w": "Das schlafende Kind ruht", "hint": "-e." },
+        { "w": "Er ruht mit steigendem Fieber", "hint": "-em." },
+        { "w": "Ein schlafender Patient wartet", "hint": "-er." },
+        { "w": "Der behandelnde Arzt kommt", "hint": "-e." },
+        { "w": "Singende Vögel warten hier", "hint": "-e." },
+        { "w": "Wir sehen fliegende Fische", "hint": "-e." },
+        { "w": "Das schlafendes Kind ruht", "hint": "-e." },
+        { "w": "Er ruht mit steigenden Fieber", "hint": "-em." },
+        { "w": "Ein schlafende Patient wartet", "hint": "-er." },
+        { "w": "Der behandelnder Arzt kommt", "hint": "-e." },
+        { "w": "Singender Vögel warten hier", "hint": "-e." },
+        { "w": "Wir sehen fliegendes Fische", "hint": "-e." }
+      ],
+      "items": [
+        {
+          "before": "Das Kind schläft stays the finite verb. The sleeping child:",
+          "after": ".",
+          "answer": "Das schlafende Kind ruht",
+          "en": "The sleeping child rests.",
+          "why": "schlafende. The finite verb stays.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Das Fieber ist hoch stays, no ending. With rising fever:",
+          "after": ".",
+          "answer": "Er ruht mit steigendem Fieber",
+          "en": "He rests with rising fever.",
+          "why": "steigendem. Das Fieber ist gestiegen stays Partizip II.",
+          "tip": "-em.",
+          "hint": "-em."
+        },
+        {
+          "before": "Ein Kranker liegt hier stays chapter 65. A sleeping patient:",
+          "after": ".",
+          "answer": "Ein schlafender Patient wartet",
+          "en": "A sleeping patient is waiting.",
+          "why": "schlafender. The adjective noun stays chapter 65.",
+          "tip": "-er.",
+          "hint": "-er."
+        },
+        {
+          "before": "Der Jugendliche wartet stays chapter 65. The attending doctor:",
+          "after": ".",
+          "answer": "Der behandelnde Arzt kommt",
+          "en": "The attending doctor comes.",
+          "why": "behandelnde. No ge-.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "die neuen Verbände stay chapter 36. Singing birds:",
+          "after": ".",
+          "answer": "Singende Vögel warten hier",
+          "en": "Singing birds are waiting here.",
+          "why": "singende. die neuen Verbände stays.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Wir sehen nichts Neues stays chapter 66. Flying fish:",
+          "after": ".",
+          "answer": "Wir sehen fliegende Fische",
+          "en": "We see flying fish.",
+          "why": "fliegende. nichts Neues stays.",
+          "tip": "-e.",
+          "hint": "-e."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not Partizip I. Choose the correction. The finite verb and the other chapters stay correct.",
+      "items": [
+        {
+          "clues": ["The sleeping child.", "-e.", "Das schlafendes Kind ruht."],
+          "options": ["Das schlafende Kind ruht.", "Das schlafendes Kind ruht.", "Das Kind schläft."],
+          "answer": 0,
+          "reveal": "Das schlafende Kind ruht.",
+          "hint": "-e."
+        },
+        {
+          "clues": ["Rising fever.", "-em.", "Er ruht mit steigenden Fieber."],
+          "options": ["Er ruht mit steigendem Fieber.", "Er ruht mit steigenden Fieber.", "Das Fieber ist hoch."],
+          "answer": 0,
+          "reveal": "Er ruht mit steigendem Fieber.",
+          "hint": "-em."
+        },
+        {
+          "clues": ["A sleeping patient.", "-er.", "Ein schlafende Patient wartet."],
+          "options": ["Ein schlafender Patient wartet.", "Ein schlafende Patient wartet.", "Ein Kranker liegt hier."],
+          "answer": 0,
+          "reveal": "Ein schlafender Patient wartet.",
+          "hint": "-er."
+        },
+        {
+          "clues": ["The attending doctor.", "-e.", "Der behandelnder Arzt kommt."],
+          "options": ["Der behandelnde Arzt kommt.", "Der behandelnder Arzt kommt.", "Der Jugendliche wartet."],
+          "answer": 0,
+          "reveal": "Der behandelnde Arzt kommt.",
+          "hint": "-e."
+        },
+        {
+          "clues": ["Singing birds.", "-e.", "Singender Vögel warten hier."],
+          "options": ["Singende Vögel warten hier.", "Singender Vögel warten hier.", "die neuen Verbände"],
+          "answer": 0,
+          "reveal": "Singende Vögel warten hier.",
+          "hint": "-e."
+        },
+        {
+          "clues": ["Flying fish.", "-e.", "Wir sehen fliegendes Fische."],
+          "options": ["Wir sehen fliegende Fische.", "Wir sehen fliegendes Fische.", "Wir sehen nichts Neues."],
+          "answer": 0,
+          "reveal": "Wir sehen fliegende Fische.",
+          "hint": "-e."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses Partizip I before the noun. Infinitive plus d, then -e, -er or -em.",
+      "chips": [
+        { "w": "Das schlafende Kind ruht", "hint": "-e." },
+        { "w": "Er ruht mit steigendem Fieber", "hint": "-em." },
+        { "w": "Ein schlafender Patient wartet", "hint": "-er." },
+        { "w": "Der behandelnde Arzt kommt", "hint": "-e." },
+        { "w": "Singende Vögel warten hier", "hint": "-e." },
+        { "w": "Wir sehen fliegende Fische", "hint": "-e." },
+        { "w": "Das schlafendes Kind ruht", "hint": "-e." },
+        { "w": "Er ruht mit steigenden Fieber", "hint": "-em." },
+        { "w": "Ein schlafende Patient wartet", "hint": "-er." },
+        { "w": "Der behandelnder Arzt kommt", "hint": "-e." },
+        { "w": "Singender Vögel warten hier", "hint": "-e." },
+        { "w": "Wir sehen fliegendes Fische", "hint": "-e." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, the sleeping child rests:",
+          "after": ".",
+          "answer": "Das schlafende Kind ruht",
+          "en": "The sleeping child rests.",
+          "why": "-e.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Doctor, he rests with rising fever:",
+          "after": ".",
+          "answer": "Er ruht mit steigendem Fieber",
+          "en": "He rests with rising fever.",
+          "why": "-em.",
+          "tip": "-em.",
+          "hint": "-em."
+        },
+        {
+          "before": "Nurse, a sleeping patient is waiting:",
+          "after": ".",
+          "answer": "Ein schlafender Patient wartet",
+          "en": "A sleeping patient is waiting.",
+          "why": "-er.",
+          "tip": "-er.",
+          "hint": "-er."
+        },
+        {
+          "before": "Doctor, the attending doctor comes:",
+          "after": ".",
+          "answer": "Der behandelnde Arzt kommt",
+          "en": "The attending doctor comes.",
+          "why": "-e.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Nurse, singing birds are waiting here:",
+          "after": ".",
+          "answer": "Singende Vögel warten hier",
+          "en": "Singing birds are waiting here.",
+          "why": "-e.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Doctor, we see flying fish:",
+          "after": ".",
+          "answer": "Wir sehen fliegende Fische",
+          "en": "We see flying fish.",
+          "why": "-e.",
+          "tip": "-e.",
+          "hint": "-e."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The participle phrase",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The participle and the noun. -e after das and in the plural. -er after ein. -em after mit. -e after der.",
+      "chips": [
+        { "w": "das schlafende Kind", "hint": "-e." },
+        { "w": "steigendem Fieber", "hint": "-em." },
+        { "w": "ein schlafender Patient", "hint": "-er." },
+        { "w": "der behandelnde Arzt", "hint": "-e." },
+        { "w": "singende Vögel", "hint": "-e." },
+        { "w": "fliegende Fische", "hint": "-e." },
+        { "w": "das schlafendes Kind", "hint": "-e." },
+        { "w": "steigenden Fieber", "hint": "-em." },
+        { "w": "ein schlafende Patient", "hint": "-er." },
+        { "w": "der behandelnder Arzt", "hint": "-e." },
+        { "w": "singender Vögel", "hint": "-e." },
+        { "w": "fliegendes Fische", "hint": "-e." }
+      ],
+      "items": [
+        {
+          "before": "The sleeping child. The phrase:",
+          "after": ".",
+          "answer": "das schlafende Kind",
+          "en": "the sleeping child.",
+          "why": "-e. ein schlafendes Kind stays, with -es.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Rising fever, after mit. The phrase:",
+          "after": ".",
+          "answer": "steigendem Fieber",
+          "en": "rising fever.",
+          "why": "-em. mit dem steigenden Fieber stays, with -en.",
+          "tip": "-em.",
+          "hint": "-em."
+        },
+        {
+          "before": "A sleeping patient. The phrase:",
+          "after": ".",
+          "answer": "ein schlafender Patient",
+          "en": "a sleeping patient.",
+          "why": "-er. den schlafenden Patienten stays in the accusative.",
+          "tip": "-er.",
+          "hint": "-er."
+        },
+        {
+          "before": "The attending doctor. The phrase:",
+          "after": ".",
+          "answer": "der behandelnde Arzt",
+          "en": "the attending doctor.",
+          "why": "-e. No ge-.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Singing birds. The phrase:",
+          "after": ".",
+          "answer": "singende Vögel",
+          "en": "singing birds.",
+          "why": "-e. die singenden Vögel stays.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Flying fish. The phrase:",
+          "after": ".",
+          "answer": "fliegende Fische",
+          "en": "flying fish.",
+          "why": "-e. die fliegenden Fische stays.",
+          "tip": "-e.",
+          "hint": "-e."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. The finite verb and no ending after sein stay correct.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Singende Vögel",
+        "paragraphs": [
+          "Das schlafende Kind ruht. Er ruht mit steigendem Fieber. Ein schlafender Patient wartet. Der behandelnde Arzt kommt.",
+          "Singende Vögel warten hier. Wir sehen fliegende Fische. Das Kind schläft. Das Fieber ist hoch."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "The sleeping child, from the note.",
+          "qEn": "das schlafende Kind.",
+          "options": ["das schlafende Kind", "das schlafendes Kind", "Das Kind schläft."],
+          "answer": 0,
+          "why": "The note has das schlafende Kind. Das Kind schläft is also in the note and stays the finite verb.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "Rising fever, from the note.",
+          "qEn": "steigendem Fieber.",
+          "options": ["steigendem Fieber", "steigenden Fieber", "Das Fieber ist hoch."],
+          "answer": 0,
+          "why": "The note has steigendem Fieber. Das Fieber ist hoch is also in the note, with no ending.",
+          "hint": "-em."
+        },
+        {
+          "kind": "mc",
+          "q": "The attending doctor, from the note.",
+          "qEn": "der behandelnde Arzt.",
+          "options": ["der behandelnde Arzt", "der behandelnder Arzt", "Der Jugendliche wartet."],
+          "answer": 0,
+          "why": "The note has der behandelnde Arzt. Der Jugendliche wartet stays chapter 65.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "Flying fish, from the note.",
+          "qEn": "fliegende Fische.",
+          "options": ["fliegende Fische", "fliegendes Fische", "Wir sehen nichts Neues."],
+          "answer": 0,
+          "why": "The note has fliegende Fische. Wir sehen nichts Neues stays chapter 66.",
+          "hint": "-e."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. The sleeping child rests. He rests with rising fever. A sleeping patient is waiting. The attending doctor comes.",
+      "prompt": "The sleeping child rests. He rests with rising fever. A sleeping patient is waiting. The attending doctor comes.",
+      "bullets": ["das schlafende Kind", "steigendem Fieber", "ein schlafender Patient", "der behandelnde Arzt"],
+      "model": "Das schlafende Kind ruht. Er ruht mit steigendem Fieber. Ein schlafender Patient wartet. Der behandelnde Arzt kommt.",
+      "modelEn": "The sleeping child rests. He rests with rising fever. A sleeping patient is waiting. The attending doctor comes.",
+      "hint": "schlafende Kind. steigendem Fieber. schlafender Patient. behandelnde Arzt.",
+      "checklist": [
+        { "id": "k", "label": "das schlafende Kind", "keywords": ["schlafende kind"] },
+        { "id": "f", "label": "steigendem Fieber", "keywords": ["steigendem fieber"] },
+        { "id": "p", "label": "ein schlafender Patient", "keywords": ["schlafender patient"] },
+        { "id": "a", "label": "der behandelnde Arzt", "keywords": ["behandelnde arzt"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Singende Vögel und fliegende Fische",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Partizip I is the infinitive plus d, then the adjective ending. No ge-. das takes -e. ein takes -er for a masculine noun. mit with no article takes -em. The finite verb and Partizip II stay correct.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "The sleeping child rests.",
+          "qEn": "das schlafende Kind.",
+          "options": ["Das schlafende Kind ruht.", "Das schlafendes Kind ruht.", "Das Kind schläft."],
+          "answer": 0,
+          "why": "-e. The finite verb stays. Er hat geschlafen stays Partizip II.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "He rests with rising fever.",
+          "qEn": "mit steigendem Fieber.",
+          "options": ["Er ruht mit steigendem Fieber.", "Er ruht mit steigenden Fieber.", "Das Fieber ist hoch."],
+          "answer": 0,
+          "why": "-em. No ending after ist. Das Fieber ist gestiegen stays Partizip II.",
+          "hint": "-em."
+        },
+        {
+          "kind": "mc",
+          "q": "A sleeping patient is waiting.",
+          "qEn": "ein schlafender Patient.",
+          "options": ["Ein schlafender Patient wartet.", "Ein schlafende Patient wartet.", "Ein Kranker liegt hier."],
+          "answer": 0,
+          "why": "-er. Ein Kranker liegt hier stays chapter 65.",
+          "hint": "-er."
+        },
+        {
+          "kind": "mc",
+          "q": "The attending doctor comes.",
+          "qEn": "der behandelnde Arzt.",
+          "options": ["Der behandelnde Arzt kommt.", "Der behandelnder Arzt kommt.", "Der Jugendliche wartet."],
+          "answer": 0,
+          "why": "-e. No ge-. Der Jugendliche wartet stays chapter 65.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "Singing birds are waiting here.",
+          "qEn": "singende Vögel.",
+          "options": ["Singende Vögel warten hier.", "Singender Vögel warten hier.", "die neuen Verbände"],
+          "answer": 0,
+          "why": "Plural -e. die neuen Verbände stays. die singenden Vögel stays too.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "We see flying fish.",
+          "qEn": "fliegende Fische.",
+          "options": ["Wir sehen fliegende Fische.", "Wir sehen fliegendes Fische.", "Wir sehen nichts Neues."],
+          "answer": 0,
+          "why": "Plural -e. nichts Neues stays chapter 66.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "A sleeping child. Neuter, with ein.",
+          "qEn": "ein schlafendes Kind.",
+          "options": ["ein schlafendes Kind", "ein schlafende Kind", "das schlafende Kind"],
+          "answer": 0,
+          "why": "ein plus -es, because Kind is neuter. das schlafende Kind stays, with -e.",
+          "hint": "-es."
+        },
+        {
+          "kind": "mc",
+          "q": "With the rising fever. Definite.",
+          "qEn": "mit dem steigenden Fieber.",
+          "options": ["mit dem steigenden Fieber", "mit dem steigendem Fieber", "mit steigendem Fieber"],
+          "answer": 0,
+          "why": "dem already shows the dative, so -en. mit steigendem Fieber stays the line with no article.",
+          "hint": "-en."
+        },
+        {
+          "kind": "mc",
+          "q": "The sleeping patient. Accusative.",
+          "qEn": "den schlafenden Patienten.",
+          "options": ["den schlafenden Patienten", "den schlafende Patienten", "den Patienten"],
+          "answer": 0,
+          "why": "Adjective -en, and Patienten keeps -en. den Patienten stays chapter 64. Not den Patient.",
+          "hint": "-en."
+        },
+        {
+          "kind": "mc",
+          "q": "We see the sleeping child.",
+          "qEn": "das schlafende Kind.",
+          "options": ["Wir sehen das schlafende Kind.", "Wir sehen das schlafendes Kind.", "Das Kind schläft."],
+          "answer": 0,
+          "why": "das plus -e. Das Kind schläft stays the finite verb.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "The patient who is getting up. One word.",
+          "qEn": "der aufstehende Patient.",
+          "options": ["Der aufstehende Patient wartet.", "Der auf stehende Patient wartet.", "Er steht auf."],
+          "answer": 0,
+          "why": "aufstehend is one word. Er steht auf stays the finite clause. aufzustehen stays chapter 68. aufgestanden stays Partizip II.",
+          "hint": "aufstehend."
+        },
+        {
+          "kind": "mc",
+          "q": "Singing birds. The adjective, not the finite verb.",
+          "qEn": "singende Vögel.",
+          "options": ["Singende Vögel warten hier.", "Singend Vögel warten hier.", "Die Vögel singen."],
+          "answer": 0,
+          "why": "The ending -e is required before the noun. Die Vögel singen stays the finite verb.",
+          "hint": "-e."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Singende Vögel und fliegende Fische",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Das schlafende Kind ruht.", "en": "The sleeping child rests." },
+        { "de": "Er ruht mit steigendem Fieber.", "en": "He rests with rising fever." },
+        { "de": "Ein schlafender Patient wartet.", "en": "A sleeping patient is waiting." },
+        { "de": "Der behandelnde Arzt kommt.", "en": "The attending doctor comes." }
+      ],
+      "messages": [
+        "Partizip I is the infinitive plus d, then an adjective ending. schlafend, steigend, singend, fliegend, behandelnd. No ge-. das schlafende Kind. ein schlafender Patient. mit steigendem Fieber.",
+        "Das Kind schläft stays the finite verb. Das Fieber ist hoch has no ending. geschlafen, gestiegen, gemessen and untersucht stay Partizip II. Not gemesst. Not geuntersucht.",
+        "Sehr gut. Das schlafende Kind ruht. Er ruht mit steigendem Fieber.",
+        "Ausgezeichnet. You can say the sleeping child, rising fever, and the attending doctor."
+      ]
+    }
+  ]
+}

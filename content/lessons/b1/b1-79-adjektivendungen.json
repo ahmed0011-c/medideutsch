@@ -1,0 +1,1142 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-79-adjektivendungen",
+  "level": "B1",
+  "unit": "Kapitel 79",
+  "chapter": 79,
+  "chapters": [79],
+  "title": "Deutsches Bier",
+  "subtitle": "Adjective endings with and without an article",
+  "glossary": {
+    "deutsches": {
+      "de": "deutsches",
+      "pos": "adjective",
+      "en": "German (neuter, no article)",
+      "emoji": "🍺",
+      "note": "Deutsches Bier. No article, neuter, so -es. The -es is on the adjective before the noun. After ist there is no ending: ist kalt."
+    },
+    "bier": {
+      "de": "Bier",
+      "pos": "noun",
+      "en": "beer",
+      "emoji": "🍺",
+      "article": "das",
+      "note": "das Bier. Deutsches Bier, no article, -es. Not deutsches Biere."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "trinkt": {
+      "de": "trinken → er trinkt",
+      "pos": "form",
+      "en": "drinks",
+      "emoji": "💧",
+      "note": "Er trinkt frisches Wasser. Er trinkt das frische Wasser. Der Patient trinkt etwas Kaltes stays chapter 66."
+    },
+    "frisches": {
+      "de": "frisches",
+      "pos": "adjective",
+      "en": "fresh (neuter -es)",
+      "emoji": "💧",
+      "note": "No article, or the ein-pattern: frisches Wasser. ein kleines Pflaster stays chapter 36. Not das frisches Wasser."
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "💧",
+      "article": "das",
+      "note": "das Wasser. frisches Wasser with no article. das frische Wasser after das. mit frischem Wasser in the dative."
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢",
+      "note": "das frische Wasser. das already shows -s, so the adjective takes -e. Not das frisches."
+    },
+    "frische": {
+      "de": "frische",
+      "pos": "adjective",
+      "en": "fresh (-e)",
+      "emoji": "💧",
+      "note": "das frische Wasser. -e after das or die. Also frische Verbände, plural with no article. Not frische Wasser: neuter with no article needs -es."
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a (masculine nominative or neuter)",
+      "emoji": "🩹",
+      "note": "ein shows no masculine ending, so the adjective takes -er: ein frischer Verband. ein starker Schmerz stays chapter 36. Neuter: ein kleines Pflaster."
+    },
+    "frischer": {
+      "de": "frischer",
+      "pos": "adjective",
+      "en": "fresh (masculine nominative -er)",
+      "emoji": "🩹",
+      "note": "ein frischer Verband. Frischer Verband with no article. Nominative. Not the accusative: einen frischen Verband."
+    },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Verbände",
+      "note": "der Verband. ein frischer Verband. einen frischen Verband. Der Verband ist gut stays, with no ending after ist."
+    },
+    "liegt": {
+      "de": "liegen → er liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🛏️",
+      "note": "Ein frischer Verband liegt hier. Er liegt im frischen Bett. Der Patient liegt in dem kleinen Zimmer stays chapter 37."
+    },
+    "hier": { "de": "hier", "pos": "adverb", "en": "here", "emoji": "📍" },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🩹",
+      "note": "Er hat einen frischen Verband. Accusative masculine -en."
+    },
+    "einen": {
+      "de": "einen",
+      "pos": "article",
+      "en": "a (masculine accusative)",
+      "emoji": "🩹",
+      "note": "einen frischen Verband. Accusative masculine. The adjective is -en. einen starken Schmerz stays chapter 36."
+    },
+    "frischen": {
+      "de": "frischen",
+      "pos": "adjective",
+      "en": "fresh (-en)",
+      "emoji": "🩹",
+      "note": "einen frischen Verband, accusative. im frischen Bett, dative after dem. Not einen frischer. Not im frische."
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "💧",
+      "note": "mit takes the dative. mit frischem Wasser, no article, so -em. mit kleinem Pflaster stays chapter 37."
+    },
+    "frischem": {
+      "de": "frischem",
+      "pos": "adjective",
+      "en": "fresh (dative -em)",
+      "emoji": "💧",
+      "note": "mit frischem Wasser. No article, neuter dative, -em. mit starkem Schmerz and mit kleinem Pflaster stay chapter 37."
+    },
+    "geht": {
+      "de": "gehen → es geht",
+      "pos": "form",
+      "en": "goes, works",
+      "emoji": "💧",
+      "note": "Mit frischem Wasser geht es. It works with fresh water."
+    },
+    "es": { "de": "es", "pos": "pronoun", "en": "it", "emoji": "💧" },
+    "im": {
+      "de": "im",
+      "pos": "preposition",
+      "en": "in the (in + dem)",
+      "emoji": "🛏️",
+      "note": "im frischen Bett. im is in + dem, dative, so the adjective is -en. in dem kleinen Zimmer stays. ins Zimmer stays direction."
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten",
+      "note": "das Bett. im frischen Bett. Dative -en. ins Bett stays direction, with no adjective."
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "form",
+      "en": "is",
+      "emoji": "🍺",
+      "note": "After ist the adjective has no ending. Deutsches Bier ist kalt. Der Schmerz ist stark. Der Verband ist gut."
+    },
+    "kalt": {
+      "de": "kalt",
+      "pos": "adjective",
+      "en": "cold (no ending after sein)",
+      "emoji": "🍺",
+      "note": "Deutsches Bier ist kalt. No ending after ist. Not ist kaltes. The -es belongs on Deutsches, before the noun."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🩹",
+      "note": "Der Schmerz ist stark. No adjective ending after ist. der starke Schmerz stays chapter 36, with -e before the noun."
+    },
+    "schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "note": "der Schmerz. Der Schmerz ist stark. ein starker Schmerz and den starken Schmerz stay chapter 36."
+    },
+    "stark": {
+      "de": "stark",
+      "pos": "adjective",
+      "en": "severe (no ending after sein)",
+      "emoji": "🩹",
+      "note": "Der Schmerz ist stark. No ending after sein. ein starker Schmerz is before the noun and stays chapter 36."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Three patterns",
+      "learn": [
+        "Three patterns. Definite: das frische Wasser, the article already shows the ending. Indefinite: ein frischer Verband, the ending moves to the adjective.",
+        "No article: frisches Wasser, Deutsches Bier. The adjective carries -es, -er, -e or, in the dative, -em. mit frischem Wasser.",
+        "Accusative masculine and dative with an article take -en: einen frischen Verband, im frischen Bett.",
+        "After sein there is no ending. Der Schmerz ist stark. Deutsches Bier ist kalt. Not ist kaltes."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Wasser", "article": "das", "en": "water", "emoji": "💧", "glossaryKey": "wasser" },
+        { "de": "Verband", "article": "der", "plural": "die Verbände", "en": "dressing", "emoji": "🩹", "glossaryKey": "verband" },
+        { "de": "Bier", "article": "das", "en": "beer", "emoji": "🍺", "glossaryKey": "bier" }
+      ],
+      "text": {
+        "title": "Deutsches Bier",
+        "de": "Er trinkt frisches Wasser. Er trinkt das frische Wasser. Ein frischer Verband liegt hier. Er hat einen frischen Verband. Mit frischem Wasser geht es. Er liegt im frischen Bett. Deutsches Bier ist kalt. Der Schmerz ist stark.",
+        "en": "He drinks fresh water. He drinks the fresh water. A fresh dressing is lying here. He has a fresh dressing. It works with fresh water. He is lying in the fresh bed. German beer is cold. The pain is severe."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Definite, indefinite, no article",
+      "practice": "choose",
+      "heroTitle": "Deutsches Bier",
+      "heroImage": "bed",
+      "story": [
+        "Three patterns stand before the noun. <b>Definite</b>: der, die, das already show the ending, so the adjective usually takes <b>-e</b>. <b>das frische Wasser.</b> <b>Indefinite</b>: ein shows no masculine or neuter ending, so the adjective takes it. <b>ein frischer Verband. ein kleines Pflaster</b> stays chapter 36. <b>No article</b>: the adjective carries the strong ending. <b>frisches Wasser. Deutsches Bier.</b> Same -es as ein kleines.",
+        "Accusative masculine ignores that and takes <b>-en</b>. <b>Er hat einen frischen Verband.</b> <b>den starken Schmerz</b> and <b>einen starken Schmerz</b> stay chapter 36. Dative with an article is also <b>-en</b>. <b>Er liegt im frischen Bett.</b> im is in + dem. <b>in dem kleinen Zimmer</b> stays chapter 37. <b>den neuen Patienten</b> stays correct. The noun adds -en too, so the adjective is easier to see on Verband.",
+        "No article in the dative puts the strong ending on the adjective: <b>mit frischem Wasser</b>, -em. <b>mit kleinem Pflaster</b> and <b>mit starkem Schmerz</b> stay chapter 37. Feminine no-article dative is -er: <b>mit neuer Pflegekraft</b> stays. Plural with no article, nominative or accusative, is -e: <b>frische Verbände</b>. <b>die neuen Verbände</b> and <b>keine neuen Verbände</b> stay, with -en, because die and keine already work like an article. kein and mein follow ein.",
+        "After <b>sein</b> there is <b>no ending</b>. <b>Der Schmerz ist stark. Der Verband ist gut. Deutsches Bier ist kalt.</b> The -es on Deutsches sits before Bier. It is not an ending on kalt. Not ist kaltes. Not ist starker.",
+        "<b>Der Patient trinkt etwas Kaltes</b> and <b>Alles Gute</b> stay chapter 66. <b>Der Jugendliche wartet</b> and <b>Ein Kranker liegt hier</b> stay chapter 65: there the adjective is the noun. <b>am dritten Tag</b> stays chapter 37. A participle before a noun is chapter 80."
+      ],
+      "questionRule": "Definite: adjective -e, or -en in the accusative masculine and the dative. Indefinite: the ending is on the adjective, and accusative masculine is still -en. No article: the adjective carries -es, -er, -e, or dative -em. After sein there is no ending.",
+      "tables": [
+        {
+          "title": "Drei Muster",
+          "caption": "The article and the adjective share one ending. After sein the adjective has none.",
+          "columns": ["Muster", "Beispiel"],
+          "rows": [
+            { "label": "Definit", "cells": ["-e, or -en", "das frische Wasser, im frischen Bett"], "highlight": true },
+            { "label": "Indefinit", "cells": ["-er, -es, -en", "ein frischer Verband, einen frischen Verband"], "highlight": true },
+            { "label": "Ohne", "cells": ["-es, -er, -em", "frisches Wasser, mit frischem Wasser"] },
+            { "label": "sein", "cells": ["no ending", "Der Schmerz ist stark. Deutsches Bier ist kalt."] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "ein starker Schmerz, den starken Schmerz, das kleine Pflaster, and Der Verband ist gut stay chapter 36.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "ohne", "cells": ["Er trinkt frisches Wasser."], "highlight": true },
+            { "label": "das", "cells": ["Er trinkt das frische Wasser."] },
+            { "label": "ein", "cells": ["Ein frischer Verband liegt hier."], "highlight": true },
+            { "label": "einen", "cells": ["Er hat einen frischen Verband."] },
+            { "label": "mit", "cells": ["Mit frischem Wasser geht es."] },
+            { "label": "im", "cells": ["Er liegt im frischen Bett."] },
+            { "label": "Bier", "cells": ["Deutsches Bier ist kalt."] },
+            { "label": "sein", "cells": ["Der Schmerz ist stark."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "Der Schmerz ist stark, Der Verband ist gut, ein starker Schmerz, den starken Schmerz, einen starken Schmerz, das kleine Pflaster, ein kleines Pflaster, mit kleinem Pflaster, mit starkem Schmerz, mit neuer Pflegekraft, die neuen Verbände, keine neuen Verbände, in dem kleinen Zimmer, am dritten Tag, etwas Kaltes, Alles Gute, Der Jugendliche, and Ein Kranker stay correct.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "Wasser", "cells": ["frische Wasser", "frisches Wasser"] },
+            { "label": "das", "cells": ["das frisches Wasser", "das frische Wasser"] },
+            { "label": "ein", "cells": ["ein frische Verband", "ein frischer Verband"] },
+            { "label": "einen", "cells": ["einen frischer Verband", "einen frischen Verband"] },
+            { "label": "mit", "cells": ["frischen Wasser", "frischem Wasser"] },
+            { "label": "im", "cells": ["im frische Bett", "im frischen Bett"] },
+            { "label": "sein", "cells": ["ist kaltes", "ist kalt"] },
+            { "label": "Plural", "cells": ["frisches Verbände", "frische Verbände"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four ending traps",
+        "items": [
+          { "de": "Er trinkt frisches Wasser.", "en": "No article, -es.", "tone": "ok" },
+          { "de": "Er trinkt frische Wasser.", "en": "-e is not the neuter ending.", "tone": "stop" },
+          { "de": "Er trinkt das frische Wasser.", "en": "das already has -s.", "tone": "ok" },
+          { "de": "Er trinkt das frisches Wasser.", "en": "The -s is already on das.", "tone": "stop" },
+          { "de": "Ein frischer Verband liegt hier.", "en": "ein needs -er.", "tone": "ok" },
+          { "de": "Ein frische Verband liegt hier.", "en": "The -r is missing.", "tone": "stop" },
+          { "de": "Mit frischem Wasser geht es.", "en": "Dative -em.", "tone": "ok" },
+          { "de": "Mit frischen Wasser geht es.", "en": "-en is not this dative.", "tone": "stop" }
+        ],
+        "tip": "No article: -es, -er, or dative -em. After das: -e. After sein: no ending."
+      },
+      "tips": [
+        {
+          "title": "Where is the ending?",
+          "body": "frisches Wasser. das frische Wasser. ein frischer Verband. Der Schmerz ist stark.",
+          "mnemonic": "frisches. das frische. ein frischer. ist stark.",
+          "emoji": "🔤"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "ohne", "emoji": "💧", "en": "fresh water, no article", "use": "-es", "de": "Er trinkt frisches Wasser.", "deEn": "He drinks fresh water." },
+        { "modal": "das", "emoji": "💧", "en": "the fresh water", "use": "-e", "de": "Er trinkt das frische Wasser.", "deEn": "He drinks the fresh water." },
+        { "modal": "ein", "emoji": "🩹", "en": "a fresh dressing", "use": "-er", "de": "Ein frischer Verband liegt hier.", "deEn": "A fresh dressing is lying here." },
+        { "modal": "einen", "emoji": "🩹", "en": "a fresh dressing, accusative", "use": "-en", "de": "Er hat einen frischen Verband.", "deEn": "He has a fresh dressing." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "He drinks fresh water. No article.",
+          "qEn": "frisches Wasser.",
+          "options": ["Er trinkt frisches Wasser.", "Er trinkt frische Wasser.", "Der Patient trinkt etwas Kaltes."],
+          "answer": 0,
+          "why": "-es, no article. Der Patient trinkt etwas Kaltes stays chapter 66. das frische Wasser is the definite line.",
+          "hint": "-es."
+        },
+        {
+          "kind": "mc",
+          "q": "He drinks the fresh water.",
+          "qEn": "das frische Wasser.",
+          "options": ["Er trinkt das frische Wasser.", "Er trinkt das frisches Wasser.", "Der Schmerz ist stark."],
+          "answer": 0,
+          "why": "das already shows -s, so -e. Der Schmerz ist stark stays, with no ending after sein.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "A fresh dressing is lying here.",
+          "qEn": "ein frischer Verband.",
+          "options": ["Ein frischer Verband liegt hier.", "Ein frische Verband liegt hier.", "Der Verband ist gut."],
+          "answer": 0,
+          "why": "ein needs -er. Der Verband ist gut stays, with no ending after sein. ein starker Schmerz stays chapter 36.",
+          "hint": "-er."
+        },
+        {
+          "kind": "mc",
+          "q": "He has a fresh dressing.",
+          "qEn": "einen frischen Verband.",
+          "options": ["Er hat einen frischen Verband.", "Er hat einen frischer Verband.", "den starken Schmerz"],
+          "answer": 0,
+          "why": "Accusative masculine -en. den starken Schmerz and einen starken Schmerz stay chapter 36.",
+          "hint": "-en."
+        },
+        {
+          "kind": "mc",
+          "q": "It works with fresh water.",
+          "qEn": "mit frischem Wasser.",
+          "options": ["Mit frischem Wasser geht es.", "Mit frischen Wasser geht es.", "mit kleinem Pflaster"],
+          "answer": 0,
+          "why": "No article, dative -em. mit kleinem Pflaster and mit starkem Schmerz stay chapter 37.",
+          "hint": "-em."
+        },
+        {
+          "kind": "mc",
+          "q": "He is lying in the fresh bed.",
+          "qEn": "im frischen Bett.",
+          "options": ["Er liegt im frischen Bett.", "Er liegt im frische Bett.", "in dem kleinen Zimmer"],
+          "answer": 0,
+          "why": "im is in + dem, so -en. in dem kleinen Zimmer stays chapter 37. ins Zimmer stays direction.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "Put the ending on the adjective, or leave it off after sein. Chapter 36, chapter 37, and etwas Kaltes stay out of the chips.",
+      "chips": [
+        { "w": "Er trinkt frisches Wasser", "hint": "-es." },
+        { "w": "Er trinkt das frische Wasser", "hint": "-e." },
+        { "w": "Ein frischer Verband liegt hier", "hint": "-er." },
+        { "w": "Er hat einen frischen Verband", "hint": "-en." },
+        { "w": "Mit frischem Wasser geht es", "hint": "-em." },
+        { "w": "Er liegt im frischen Bett", "hint": "-en." },
+        { "w": "Er trinkt frische Wasser", "hint": "-es." },
+        { "w": "Er trinkt das frisches Wasser", "hint": "-e." },
+        { "w": "Ein frische Verband liegt hier", "hint": "-er." },
+        { "w": "Er hat einen frischer Verband", "hint": "-en." },
+        { "w": "Mit frischen Wasser geht es", "hint": "-em." },
+        { "w": "Er liegt im frische Bett", "hint": "-en." }
+      ],
+      "items": [
+        {
+          "before": "He drinks fresh water. No article:",
+          "after": ".",
+          "answer": "Er trinkt frisches Wasser",
+          "en": "He drinks fresh water.",
+          "why": "-es. etwas Kaltes stays chapter 66. das frische Wasser is definite.",
+          "tip": "-es.",
+          "hint": "-es."
+        },
+        {
+          "before": "He drinks the fresh water:",
+          "after": ".",
+          "answer": "Er trinkt das frische Wasser",
+          "en": "He drinks the fresh water.",
+          "why": "-e after das. Der Schmerz ist stark has no ending after sein.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "A fresh dressing is lying here:",
+          "after": ".",
+          "answer": "Ein frischer Verband liegt hier",
+          "en": "A fresh dressing is lying here.",
+          "why": "-er after ein. Der Verband ist gut has no ending.",
+          "tip": "-er.",
+          "hint": "-er."
+        },
+        {
+          "before": "He has a fresh dressing:",
+          "after": ".",
+          "answer": "Er hat einen frischen Verband",
+          "en": "He has a fresh dressing.",
+          "why": "-en. den starken Schmerz stays chapter 36.",
+          "tip": "-en.",
+          "hint": "-en."
+        },
+        {
+          "before": "It works with fresh water:",
+          "after": ".",
+          "answer": "Mit frischem Wasser geht es",
+          "en": "It works with fresh water.",
+          "why": "-em. mit kleinem Pflaster stays chapter 37.",
+          "tip": "-em.",
+          "hint": "-em."
+        },
+        {
+          "before": "He is lying in the fresh bed:",
+          "after": ".",
+          "answer": "Er liegt im frischen Bett",
+          "en": "He is lying in the fresh bed.",
+          "why": "-en after im. in dem kleinen Zimmer stays.",
+          "tip": "-en.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line has this chapter's ending. One is not German. A chapter 36 line, a chapter 66 line, or no ending after sein stays correct.",
+      "items": [
+        {
+          "prompt": "Fresh water, no article",
+          "options": [
+            { "emoji": "💧", "label": "Er trinkt frisches Wasser.", "caption": "-es" },
+            { "emoji": "🚫", "label": "Er trinkt frische Wasser.", "caption": "not -e" },
+            { "emoji": "🥤", "label": "Der Patient trinkt etwas Kaltes.", "caption": "chapter 66" }
+          ],
+          "answer": 0,
+          "why": "frisches Wasser. etwas Kaltes stays.",
+          "hint": "-es."
+        },
+        {
+          "prompt": "The fresh water",
+          "options": [
+            { "emoji": "💧", "label": "Er trinkt das frische Wasser.", "caption": "-e" },
+            { "emoji": "🚫", "label": "Er trinkt das frisches Wasser.", "caption": "not -es" },
+            { "emoji": "🩹", "label": "Der Schmerz ist stark.", "caption": "no ending" }
+          ],
+          "answer": 0,
+          "why": "das frische. Der Schmerz ist stark stays.",
+          "hint": "-e."
+        },
+        {
+          "prompt": "A fresh dressing, nominative",
+          "options": [
+            { "emoji": "🩹", "label": "Ein frischer Verband liegt hier.", "caption": "-er" },
+            { "emoji": "🚫", "label": "Ein frische Verband liegt hier.", "caption": "missing -r" },
+            { "emoji": "🩹", "label": "Der Verband ist gut.", "caption": "no ending" }
+          ],
+          "answer": 0,
+          "why": "ein frischer. Der Verband ist gut stays.",
+          "hint": "-er."
+        },
+        {
+          "prompt": "A fresh dressing, accusative",
+          "options": [
+            { "emoji": "🩹", "label": "Er hat einen frischen Verband.", "caption": "-en" },
+            { "emoji": "🚫", "label": "Er hat einen frischer Verband.", "caption": "not -er" },
+            { "emoji": "🩹", "label": "den starken Schmerz", "caption": "chapter 36" }
+          ],
+          "answer": 0,
+          "why": "einen frischen. den starken Schmerz stays.",
+          "hint": "-en."
+        },
+        {
+          "prompt": "With fresh water",
+          "options": [
+            { "emoji": "💧", "label": "Mit frischem Wasser geht es.", "caption": "-em" },
+            { "emoji": "🚫", "label": "Mit frischen Wasser geht es.", "caption": "not -en" },
+            { "emoji": "🩹", "label": "mit kleinem Pflaster", "caption": "chapter 37" }
+          ],
+          "answer": 0,
+          "why": "frischem. mit kleinem Pflaster stays.",
+          "hint": "-em."
+        },
+        {
+          "prompt": "In the fresh bed",
+          "options": [
+            { "emoji": "🛏️", "label": "Er liegt im frischen Bett.", "caption": "-en" },
+            { "emoji": "🚫", "label": "Er liegt im frische Bett.", "caption": "missing -n" },
+            { "emoji": "🚪", "label": "in dem kleinen Zimmer", "caption": "chapter 37" }
+          ],
+          "answer": 0,
+          "why": "im frischen. in dem kleinen Zimmer stays.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, in the fresh bed",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, a fresh dressing",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, fresh water",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, the fresh water",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "The ending stays",
+      "practice": "build",
+      "instructions": "Build the line. The noun phrase can also stand first. Keep the adjective ending.",
+      "items": [
+        {
+          "tiles": ["Er", "trinkt", "frisches", "Wasser"],
+          "answers": ["Er trinkt frisches Wasser", "Frisches Wasser trinkt er"],
+          "punct": ".",
+          "modal": "frisches",
+          "inf": "Wasser",
+          "question": false,
+          "en": "He drinks fresh water.",
+          "hint": "Er trinkt frisches Wasser. Or frisches first.",
+          "feedback": {
+            "end": "Wasser closes frisches Wasser.",
+            "fallback": "Er trinkt frisches Wasser. Or: Frisches Wasser trinkt er."
+          }
+        },
+        {
+          "tiles": ["Er", "trinkt", "das", "frische", "Wasser"],
+          "answers": ["Er trinkt das frische Wasser", "Das frische Wasser trinkt er"],
+          "punct": ".",
+          "modal": "das",
+          "inf": "Wasser",
+          "question": false,
+          "en": "He drinks the fresh water.",
+          "hint": "Er trinkt das frische Wasser. Or das first.",
+          "feedback": {
+            "end": "Wasser closes das frische Wasser.",
+            "fallback": "Er trinkt das frische Wasser. Or: Das frische Wasser trinkt er."
+          }
+        },
+        {
+          "tiles": ["Ein", "frischer", "Verband", "liegt", "hier"],
+          "answers": ["Ein frischer Verband liegt hier", "Hier liegt ein frischer Verband"],
+          "punct": ".",
+          "modal": "ein",
+          "inf": "hier",
+          "question": false,
+          "en": "A fresh dressing is lying here.",
+          "hint": "Ein frischer Verband liegt hier. Or hier first.",
+          "feedback": {
+            "end": "hier closes the nominative line.",
+            "fallback": "Ein frischer Verband liegt hier. Or: Hier liegt ein frischer Verband."
+          }
+        },
+        {
+          "tiles": ["Er", "hat", "einen", "frischen", "Verband"],
+          "answers": ["Er hat einen frischen Verband", "Einen frischen Verband hat er"],
+          "punct": ".",
+          "modal": "einen",
+          "inf": "Verband",
+          "question": false,
+          "en": "He has a fresh dressing.",
+          "hint": "Er hat einen frischen Verband. Or einen first.",
+          "feedback": {
+            "end": "Verband closes einen frischen Verband.",
+            "fallback": "Er hat einen frischen Verband. Or: Einen frischen Verband hat er."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the ending",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the ending the English asks for.",
+      "chips": [
+        { "w": "Er trinkt frisches Wasser", "hint": "-es." },
+        { "w": "Er trinkt das frische Wasser", "hint": "-e." },
+        { "w": "Ein frischer Verband liegt hier", "hint": "-er." },
+        { "w": "Er hat einen frischen Verband", "hint": "-en." },
+        { "w": "Mit frischem Wasser geht es", "hint": "-em." },
+        { "w": "Er liegt im frischen Bett", "hint": "-en." },
+        { "w": "Er trinkt frische Wasser", "hint": "-es." },
+        { "w": "Er trinkt das frisches Wasser", "hint": "-e." },
+        { "w": "Ein frische Verband liegt hier", "hint": "-er." },
+        { "w": "Er hat einen frischer Verband", "hint": "-en." },
+        { "w": "Mit frischen Wasser geht es", "hint": "-em." },
+        { "w": "Er liegt im frische Bett", "hint": "-en." }
+      ],
+      "items": [
+        {
+          "before": "Der Patient trinkt etwas Kaltes stays chapter 66. Fresh water, no article:",
+          "after": ".",
+          "answer": "Er trinkt frisches Wasser",
+          "en": "He drinks fresh water.",
+          "why": "frisches. etwas Kaltes stays.",
+          "tip": "-es.",
+          "hint": "-es."
+        },
+        {
+          "before": "Der Schmerz ist stark stays, no ending after sein. The fresh water:",
+          "after": ".",
+          "answer": "Er trinkt das frische Wasser",
+          "en": "He drinks the fresh water.",
+          "why": "das frische. The predicative line stays.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Der Verband ist gut stays, no ending. A fresh dressing, nominative:",
+          "after": ".",
+          "answer": "Ein frischer Verband liegt hier",
+          "en": "A fresh dressing is lying here.",
+          "why": "ein frischer. Der Verband ist gut stays.",
+          "tip": "-er.",
+          "hint": "-er."
+        },
+        {
+          "before": "den starken Schmerz stays chapter 36. A fresh dressing, accusative:",
+          "after": ".",
+          "answer": "Er hat einen frischen Verband",
+          "en": "He has a fresh dressing.",
+          "why": "einen frischen. den starken Schmerz stays.",
+          "tip": "-en.",
+          "hint": "-en."
+        },
+        {
+          "before": "mit kleinem Pflaster stays chapter 37. With fresh water:",
+          "after": ".",
+          "answer": "Mit frischem Wasser geht es",
+          "en": "It works with fresh water.",
+          "why": "frischem. mit kleinem Pflaster stays.",
+          "tip": "-em.",
+          "hint": "-em."
+        },
+        {
+          "before": "in dem kleinen Zimmer stays chapter 37. In the fresh bed:",
+          "after": ".",
+          "answer": "Er liegt im frischen Bett",
+          "en": "He is lying in the fresh bed.",
+          "why": "im frischen. in dem kleinen Zimmer stays.",
+          "tip": "-en.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the ending. Choose the correction. Chapter 36, chapter 66, and no ending after sein stay correct.",
+      "items": [
+        {
+          "clues": ["Fresh water.", "-es.", "Er trinkt frische Wasser."],
+          "options": ["Er trinkt frisches Wasser.", "Er trinkt frische Wasser.", "Der Patient trinkt etwas Kaltes."],
+          "answer": 0,
+          "reveal": "Er trinkt frisches Wasser.",
+          "hint": "-es."
+        },
+        {
+          "clues": ["The fresh water.", "-e.", "Er trinkt das frisches Wasser."],
+          "options": ["Er trinkt das frische Wasser.", "Er trinkt das frisches Wasser.", "Der Schmerz ist stark."],
+          "answer": 0,
+          "reveal": "Er trinkt das frische Wasser.",
+          "hint": "-e."
+        },
+        {
+          "clues": ["A fresh dressing.", "-er.", "Ein frische Verband liegt hier."],
+          "options": ["Ein frischer Verband liegt hier.", "Ein frische Verband liegt hier.", "Der Verband ist gut."],
+          "answer": 0,
+          "reveal": "Ein frischer Verband liegt hier.",
+          "hint": "-er."
+        },
+        {
+          "clues": ["He has a dressing.", "-en.", "Er hat einen frischer Verband."],
+          "options": ["Er hat einen frischen Verband.", "Er hat einen frischer Verband.", "den starken Schmerz"],
+          "answer": 0,
+          "reveal": "Er hat einen frischen Verband.",
+          "hint": "-en."
+        },
+        {
+          "clues": ["With fresh water.", "-em.", "Mit frischen Wasser geht es."],
+          "options": ["Mit frischem Wasser geht es.", "Mit frischen Wasser geht es.", "mit kleinem Pflaster"],
+          "answer": 0,
+          "reveal": "Mit frischem Wasser geht es.",
+          "hint": "-em."
+        },
+        {
+          "clues": ["In the fresh bed.", "-en.", "Er liegt im frische Bett."],
+          "options": ["Er liegt im frischen Bett.", "Er liegt im frische Bett.", "in dem kleinen Zimmer"],
+          "answer": 0,
+          "reveal": "Er liegt im frischen Bett.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "At the bedside",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses the ending. No article takes -es or -em. das takes -e. ein takes -er. Accusative and im take -en.",
+      "chips": [
+        { "w": "Er trinkt frisches Wasser", "hint": "-es." },
+        { "w": "Er trinkt das frische Wasser", "hint": "-e." },
+        { "w": "Ein frischer Verband liegt hier", "hint": "-er." },
+        { "w": "Er hat einen frischen Verband", "hint": "-en." },
+        { "w": "Mit frischem Wasser geht es", "hint": "-em." },
+        { "w": "Er liegt im frischen Bett", "hint": "-en." },
+        { "w": "Er trinkt frische Wasser", "hint": "-es." },
+        { "w": "Er trinkt das frisches Wasser", "hint": "-e." },
+        { "w": "Ein frische Verband liegt hier", "hint": "-er." },
+        { "w": "Er hat einen frischer Verband", "hint": "-en." },
+        { "w": "Mit frischen Wasser geht es", "hint": "-em." },
+        { "w": "Er liegt im frische Bett", "hint": "-en." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, he drinks fresh water, no article:",
+          "after": ".",
+          "answer": "Er trinkt frisches Wasser",
+          "en": "He drinks fresh water.",
+          "why": "-es.",
+          "tip": "-es.",
+          "hint": "-es."
+        },
+        {
+          "before": "Doctor, he drinks the fresh water:",
+          "after": ".",
+          "answer": "Er trinkt das frische Wasser",
+          "en": "He drinks the fresh water.",
+          "why": "-e.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "Nurse, a fresh dressing is lying here:",
+          "after": ".",
+          "answer": "Ein frischer Verband liegt hier",
+          "en": "A fresh dressing is lying here.",
+          "why": "-er.",
+          "tip": "-er.",
+          "hint": "-er."
+        },
+        {
+          "before": "Doctor, he has a fresh dressing:",
+          "after": ".",
+          "answer": "Er hat einen frischen Verband",
+          "en": "He has a fresh dressing.",
+          "why": "-en.",
+          "tip": "-en.",
+          "hint": "-en."
+        },
+        {
+          "before": "Nurse, it works with fresh water:",
+          "after": ".",
+          "answer": "Mit frischem Wasser geht es",
+          "en": "It works with fresh water.",
+          "why": "-em.",
+          "tip": "-em.",
+          "hint": "-em."
+        },
+        {
+          "before": "Doctor, he is lying in the fresh bed:",
+          "after": ".",
+          "answer": "Er liegt im frischen Bett",
+          "en": "He is lying in the fresh bed.",
+          "why": "-en.",
+          "tip": "-en.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The ending",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The article and the adjective only. -es with no article, -e after das, -er after ein, -en after einen and im, -em after mit.",
+      "chips": [
+        { "w": "frisches Wasser", "hint": "-es." },
+        { "w": "das frische Wasser", "hint": "-e." },
+        { "w": "ein frischer Verband", "hint": "-er." },
+        { "w": "einen frischen Verband", "hint": "-en." },
+        { "w": "frischem Wasser", "hint": "-em." },
+        { "w": "im frischen Bett", "hint": "-en." },
+        { "w": "frische Wasser", "hint": "-es." },
+        { "w": "das frisches Wasser", "hint": "-e." },
+        { "w": "ein frische Verband", "hint": "-er." },
+        { "w": "einen frischer Verband", "hint": "-en." },
+        { "w": "frischen Wasser", "hint": "-em." },
+        { "w": "im frische Bett", "hint": "-en." }
+      ],
+      "items": [
+        {
+          "before": "Fresh water. No article. The phrase:",
+          "after": ".",
+          "answer": "frisches Wasser",
+          "en": "fresh water.",
+          "why": "-es. das frische Wasser is the definite phrase.",
+          "tip": "-es.",
+          "hint": "-es."
+        },
+        {
+          "before": "The fresh water. The phrase:",
+          "after": ".",
+          "answer": "das frische Wasser",
+          "en": "the fresh water.",
+          "why": "-e. frisches Wasser is the line with no article.",
+          "tip": "-e.",
+          "hint": "-e."
+        },
+        {
+          "before": "A fresh dressing, nominative. The phrase:",
+          "after": ".",
+          "answer": "ein frischer Verband",
+          "en": "a fresh dressing.",
+          "why": "-er. ein starker Schmerz stays chapter 36.",
+          "tip": "-er.",
+          "hint": "-er."
+        },
+        {
+          "before": "A fresh dressing, accusative. The phrase:",
+          "after": ".",
+          "answer": "einen frischen Verband",
+          "en": "a fresh dressing.",
+          "why": "-en. den starken Schmerz stays chapter 36.",
+          "tip": "-en.",
+          "hint": "-en."
+        },
+        {
+          "before": "Fresh water, dative. The phrase:",
+          "after": ".",
+          "answer": "frischem Wasser",
+          "en": "fresh water.",
+          "why": "-em. mit kleinem Pflaster stays.",
+          "tip": "-em.",
+          "hint": "-em."
+        },
+        {
+          "before": "In the fresh bed. The phrase:",
+          "after": ".",
+          "answer": "im frischen Bett",
+          "en": "in the fresh bed.",
+          "why": "-en. in dem kleinen Zimmer stays.",
+          "tip": "-en.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. No ending after sein stays correct.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Deutsches Bier",
+        "paragraphs": [
+          "Er trinkt frisches Wasser. Er trinkt das frische Wasser. Ein frischer Verband liegt hier. Er hat einen frischen Verband.",
+          "Mit frischem Wasser geht es. Er liegt im frischen Bett. Deutsches Bier ist kalt. Der Schmerz ist stark."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Fresh water, no article, from the note.",
+          "qEn": "frisches Wasser.",
+          "options": ["frisches Wasser", "frische Wasser", "das frische Wasser"],
+          "answer": 0,
+          "why": "The note has frisches Wasser. das frische Wasser is also in the note, with das.",
+          "hint": "-es."
+        },
+        {
+          "kind": "mc",
+          "q": "A fresh dressing, nominative, from the note.",
+          "qEn": "ein frischer Verband.",
+          "options": ["ein frischer Verband", "ein frische Verband", "Der Verband ist gut."],
+          "answer": 0,
+          "why": "The note has ein frischer Verband. Der Verband ist gut stays, with no ending.",
+          "hint": "-er."
+        },
+        {
+          "kind": "mc",
+          "q": "German beer is cold, from the note.",
+          "qEn": "Deutsches Bier ist kalt.",
+          "options": ["Deutsches Bier ist kalt.", "Deutsches Bier ist kaltes.", "Der Schmerz ist stark."],
+          "answer": 0,
+          "why": "Deutsches takes -es before Bier. kalt has no ending after ist. Der Schmerz ist stark is also in the note.",
+          "hint": "kalt."
+        },
+        {
+          "kind": "mc",
+          "q": "In the fresh bed, from the note.",
+          "qEn": "im frischen Bett.",
+          "options": ["im frischen Bett", "im frische Bett", "in dem kleinen Zimmer"],
+          "answer": 0,
+          "why": "The note has im frischen Bett. in dem kleinen Zimmer stays chapter 37.",
+          "hint": "-en."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. He drinks fresh water. He drinks the fresh water. A fresh dressing is lying here. He has a fresh dressing.",
+      "prompt": "He drinks fresh water. He drinks the fresh water. A fresh dressing is lying here. He has a fresh dressing.",
+      "bullets": ["frisches Wasser", "das frische Wasser", "ein frischer Verband", "einen frischen Verband"],
+      "model": "Er trinkt frisches Wasser. Er trinkt das frische Wasser. Ein frischer Verband liegt hier. Er hat einen frischen Verband.",
+      "modelEn": "He drinks fresh water. He drinks the fresh water. A fresh dressing is lying here. He has a fresh dressing.",
+      "hint": "frisches Wasser. das frische Wasser. frischer Verband. frischen Verband.",
+      "checklist": [
+        { "id": "f", "label": "frisches Wasser", "keywords": ["frisches wasser"] },
+        { "id": "d", "label": "das frische Wasser", "keywords": ["das frische wasser"] },
+        { "id": "e", "label": "ein frischer Verband", "keywords": ["frischer verband"] },
+        { "id": "a", "label": "einen frischen Verband", "keywords": ["frischen verband"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Deutsches Bier",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Definite -e, or -en when the case is accusative masculine or dative. Indefinite ending on the adjective. No article: -es, -er, -e, or dative -em. After sein, no ending.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "He drinks fresh water. No article.",
+          "qEn": "frisches Wasser.",
+          "options": ["Er trinkt frisches Wasser.", "Er trinkt frische Wasser.", "Der Patient trinkt etwas Kaltes."],
+          "answer": 0,
+          "why": "-es. etwas Kaltes stays chapter 66.",
+          "hint": "-es."
+        },
+        {
+          "kind": "mc",
+          "q": "He drinks the fresh water.",
+          "qEn": "das frische Wasser.",
+          "options": ["Er trinkt das frische Wasser.", "Er trinkt das frisches Wasser.", "Der Schmerz ist stark."],
+          "answer": 0,
+          "why": "-e after das. No ending after sein.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "A fresh dressing is lying here.",
+          "qEn": "ein frischer Verband.",
+          "options": ["Ein frischer Verband liegt hier.", "Ein frische Verband liegt hier.", "Der Verband ist gut."],
+          "answer": 0,
+          "why": "-er after ein. No ending after sein.",
+          "hint": "-er."
+        },
+        {
+          "kind": "mc",
+          "q": "He has a fresh dressing.",
+          "qEn": "einen frischen Verband.",
+          "options": ["Er hat einen frischen Verband.", "Er hat einen frischer Verband.", "den starken Schmerz"],
+          "answer": 0,
+          "why": "-en. den starken Schmerz stays chapter 36.",
+          "hint": "-en."
+        },
+        {
+          "kind": "mc",
+          "q": "It works with fresh water.",
+          "qEn": "mit frischem Wasser.",
+          "options": ["Mit frischem Wasser geht es.", "Mit frischen Wasser geht es.", "mit kleinem Pflaster"],
+          "answer": 0,
+          "why": "-em. mit kleinem Pflaster stays chapter 37.",
+          "hint": "-em."
+        },
+        {
+          "kind": "mc",
+          "q": "He is lying in the fresh bed.",
+          "qEn": "im frischen Bett.",
+          "options": ["Er liegt im frischen Bett.", "Er liegt im frische Bett.", "in dem kleinen Zimmer"],
+          "answer": 0,
+          "why": "-en after im. in dem kleinen Zimmer stays.",
+          "hint": "-en."
+        },
+        {
+          "kind": "mc",
+          "q": "German beer is cold.",
+          "qEn": "Deutsches Bier ist kalt.",
+          "options": ["Deutsches Bier ist kalt.", "Deutsches Bier ist kaltes.", "Der Schmerz ist stark."],
+          "answer": 0,
+          "why": "-es on Deutsches, before the noun. kalt has no ending after ist. Der Schmerz ist stark stays.",
+          "hint": "kalt."
+        },
+        {
+          "kind": "mc",
+          "q": "A small plaster. Neuter, with ein.",
+          "qEn": "ein kleines Pflaster.",
+          "options": ["ein kleines Pflaster", "ein kleine Pflaster", "das kleine Pflaster"],
+          "answer": 0,
+          "why": "ein kleines, -es. das kleine Pflaster stays, with -e. Both stay chapter 36.",
+          "hint": "-es."
+        },
+        {
+          "kind": "mc",
+          "q": "He needs fresh dressings. Plural, no article.",
+          "qEn": "frische Verbände.",
+          "options": ["Er braucht frische Verbände.", "Er braucht frisches Verbände.", "die neuen Verbände"],
+          "answer": 0,
+          "why": "Plural with no article takes -e. die neuen Verbände and keine neuen Verbände stay, with -en.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "Fresh air helps him. Feminine, no article.",
+          "qEn": "frische Luft.",
+          "options": ["Frische Luft hilft ihm.", "Frischer Luft hilft ihm.", "eine leichte Übelkeit"],
+          "answer": 0,
+          "why": "Feminine with no article takes -e. eine leichte Übelkeit stays chapter 36. -er would be masculine.",
+          "hint": "-e."
+        },
+        {
+          "kind": "mc",
+          "q": "She helps with fresh air. Dative, no article.",
+          "qEn": "mit frischer Luft.",
+          "options": ["Sie hilft mit frischer Luft.", "Sie hilft mit frische Luft.", "mit neuer Pflegekraft"],
+          "answer": 0,
+          "why": "Feminine dative with no article takes -er. mit neuer Pflegekraft stays chapter 37.",
+          "hint": "-er."
+        },
+        {
+          "kind": "mc",
+          "q": "A fresh dressing, no article. Nominative.",
+          "qEn": "frischer Verband.",
+          "options": ["Frischer Verband liegt hier.", "Frische Verband liegt hier.", "ein starker Schmerz"],
+          "answer": 0,
+          "why": "No article, masculine nominative -er. ein starker Schmerz stays chapter 36, with ein.",
+          "hint": "-er."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Deutsches Bier",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Er trinkt frisches Wasser.", "en": "He drinks fresh water." },
+        { "de": "Er trinkt das frische Wasser.", "en": "He drinks the fresh water." },
+        { "de": "Ein frischer Verband liegt hier.", "en": "A fresh dressing is lying here." },
+        { "de": "Deutsches Bier ist kalt.", "en": "German beer is cold." }
+      ],
+      "messages": [
+        "Definite: the article shows the ending, and the adjective takes -e, or -en in the accusative masculine and the dative. Indefinite: the ending moves to the adjective. No article: frisches Wasser, frischer Verband, mit frischem Wasser.",
+        "After sein there is no ending. Der Schmerz ist stark. Deutsches Bier ist kalt. ein starker Schmerz, den starken Schmerz, mit kleinem Pflaster, and etwas Kaltes stay correct.",
+        "Sehr gut. Er trinkt frisches Wasser. Er trinkt das frische Wasser.",
+        "Ausgezeichnet. You can say fresh water, the fresh water, and a fresh dressing."
+      ]
+    }
+  ]
+}

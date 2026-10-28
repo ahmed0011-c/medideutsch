@@ -1,0 +1,1145 @@
+{
+  "schemaVersion": 1,
+  "platform": "MediDeutsch",
+  "interfaceLanguage": "en",
+  "targetLanguage": "de-DE",
+  "scoring": {
+    "firstTry": 2,
+    "afterRetry": 1,
+    "wordExplorePoints": 8,
+    "hintCost": 1,
+    "tipPoints": 1,
+    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+  },
+  "id": "b1-77-genitiv-praepositionen",
+  "level": "B1",
+  "unit": "Kapitel 77",
+  "chapter": 77,
+  "chapters": [77],
+  "title": "Während, wegen, trotz, innerhalb, außerhalb",
+  "subtitle": "Genitive prepositions",
+  "glossary": {
+    "während": {
+      "de": "während",
+      "pos": "preposition",
+      "en": "during",
+      "emoji": "🩺",
+      "note": "Preposition plus genitive: während der Visite. Feminine genitive is der. Während er schläft stays the conjunction, chapter 73, verb at the end."
+    },
+    "wegen": {
+      "de": "wegen",
+      "pos": "preposition",
+      "en": "because of",
+      "emoji": "🌡️",
+      "note": "Written line: wegen des Schmerzes, wegen des Fiebers. des Fiebers wegen stays correct too. Everyday dative is heard and is not the written line."
+    },
+    "trotz": {
+      "de": "trotz",
+      "pos": "preposition",
+      "en": "despite",
+      "emoji": "🌡️",
+      "note": "Genitive: trotz des Fiebers. Plural: trotz der Schmerzen. Not trotz das Fieber."
+    },
+    "innerhalb": {
+      "de": "innerhalb",
+      "pos": "preposition",
+      "en": "within",
+      "emoji": "⏱️",
+      "note": "Genitive: innerhalb der Stunde. innerhalb einer Stunde stays correct too. einer is the genitive of eine."
+    },
+    "außerhalb": {
+      "de": "außerhalb",
+      "pos": "preposition",
+      "en": "outside",
+      "emoji": "🚪",
+      "note": "Genitive: außerhalb der Station. außerhalb des Zimmers. Zimmer ends in -er, so only -s. Not des Zimmer. Er wartet im Zimmer stays dative, chapter 62."
+    },
+    "wir": { "de": "wir", "pos": "pronoun", "en": "we", "emoji": "👥" },
+    "warten": {
+      "de": "warten → wir warten",
+      "pos": "form",
+      "en": "wait",
+      "emoji": "⏳",
+      "note": "Wir warten wegen des Schmerzes. Wir warten wegen des Fiebers stays chapter 63."
+    },
+    "des": {
+      "de": "des",
+      "pos": "article",
+      "en": "the (genitive masculine or neuter)",
+      "emoji": "🔗",
+      "note": "des Schmerzes, des Fiebers, des Tees, des Zimmers. Not for a feminine noun. Feminine genitive is der."
+    },
+    "schmerzes": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "🩹",
+      "article": "der",
+      "note": "des Schmerzes. Short noun, so -es, like des Arztes. Not des Schmerz. Plural genitive: der Schmerzen."
+    },
+    "schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "🩹",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "note": "der Schmerz. Genitive des Schmerzes. wegen des Schmerzes."
+    },
+    "fiebers": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "des Fiebers. Fieber ends in -er, so only -s. Not des Fieber. Not des Fieberes. Chapter 63."
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🌡️",
+      "article": "das",
+      "note": "das Fieber. trotz des Fiebers. wegen des Fiebers stays the written line. Fieber has no plural here."
+    },
+    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Er kommt trotz des Fiebers. He comes despite the fever."
+    },
+    "sie": { "de": "sie", "pos": "pronoun", "en": "she", "emoji": "👩‍⚕️" },
+    "schreibt": {
+      "de": "schreiben → sie schreibt",
+      "pos": "form",
+      "en": "writes",
+      "emoji": "📝",
+      "note": "Sie schreibt während der Visite. The preposition has no verb of its own."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (feminine genitive)",
+      "emoji": "🔗",
+      "note": "Feminine genitive, and genitive plural: der Visite, der Stunde, der Station, der Schmerzen. Same form as feminine dative. Not des for a feminine noun."
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine nominative)",
+      "emoji": "🩺",
+      "note": "die Visite, die Stunde, die Station. Nominative. After wegen, trotz, während, statt, innerhalb and außerhalb the feminine genitive is der, not die."
+    },
+    "visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "round",
+      "emoji": "🩺",
+      "article": "die",
+      "plural": "die Visiten",
+      "note": "die Visite. während der Visite. Feminine genitive der. Not während dem Visite. Not des Visite."
+    },
+    "trinkt": {
+      "de": "trinken → er trinkt",
+      "pos": "form",
+      "en": "drinks",
+      "emoji": "🍵",
+      "note": "Er trinkt statt des Tees. Er trinkt, statt zu essen stays the infinitive, with no genitive."
+    },
+    "statt": {
+      "de": "statt",
+      "pos": "preposition",
+      "en": "instead of",
+      "emoji": "🍵",
+      "note": "Genitive: statt des Tees. anstatt des Tees stays correct too. Er trinkt, statt zu essen stays the infinitive."
+    },
+    "tees": {
+      "de": "Tee",
+      "pos": "noun",
+      "en": "tea",
+      "emoji": "🍵",
+      "article": "der",
+      "note": "des Tees. Tee takes -s. Not des Tee. Not statt den Tee."
+    },
+    "ruht": {
+      "de": "ruhen → er ruht",
+      "pos": "form",
+      "en": "rests",
+      "emoji": "😴",
+      "note": "Er ruht innerhalb der Stunde. innerhalb einer Stunde stays correct too."
+    },
+    "stunde": {
+      "de": "Stunde",
+      "pos": "noun",
+      "en": "hour",
+      "emoji": "⏱️",
+      "article": "die",
+      "plural": "die Stunden",
+      "note": "die Stunde. innerhalb der Stunde. einer Stunde is the genitive of eine Stunde."
+    },
+    "wartet": {
+      "de": "warten → er wartet",
+      "pos": "form",
+      "en": "waits",
+      "emoji": "🚪",
+      "note": "Er wartet außerhalb der Station. Er wartet im Zimmer stays dative."
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🚪",
+      "article": "die",
+      "plural": "die Stationen",
+      "note": "die Station. außerhalb der Station. Feminine genitive der."
+    },
+    "schläft": {
+      "de": "schlafen → er schläft",
+      "pos": "form",
+      "en": "sleeps",
+      "emoji": "😴",
+      "note": "Während er schläft. Conjunction, verb at the end, chapter 73. Not the preposition während der Visite."
+    },
+    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🧑‍⚕️" }
+  },
+  "steps": [
+    {
+      "id": "overview",
+      "type": "overview",
+      "label": "Start",
+      "title": "Genitive after the preposition",
+      "learn": [
+        "wegen, trotz, während, statt, innerhalb and außerhalb take the genitive in the written line. Wir warten wegen des Schmerzes.",
+        "Masculine and neuter: des plus -(e)s. des Schmerzes, des Fiebers, des Tees. Fieber ends in -er, so only -s. Not des Fieber.",
+        "Feminine and plural: der. während der Visite. innerhalb der Stunde. außerhalb der Station. trotz der Schmerzen.",
+        "Wir warten wegen des Fiebers stays chapter 63. des Fiebers wegen stays correct too. Während er schläft stays the conjunction. Everyday dative is heard and is not the written line."
+      ],
+      "minutes": 25,
+      "vocab": [
+        { "de": "Schmerz", "article": "der", "plural": "die Schmerzen", "en": "pain", "emoji": "🩹", "glossaryKey": "schmerz" },
+        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "glossaryKey": "fieber" },
+        { "de": "Visite", "article": "die", "plural": "die Visiten", "en": "round", "emoji": "🩺", "glossaryKey": "visite" }
+      ],
+      "text": {
+        "title": "Während, wegen, trotz, innerhalb, außerhalb",
+        "de": "Wir warten wegen des Schmerzes. Wir warten wegen des Fiebers. Er kommt trotz des Fiebers. Sie schreibt während der Visite. Er trinkt statt des Tees. Er ruht innerhalb der Stunde. Er wartet außerhalb der Station. Während er schläft, wartet sie.",
+        "en": "We are waiting because of the pain. We are waiting because of the fever. He comes despite the fever. She writes during the round. He drinks instead of the tea. He rests within the hour. He waits outside the ward. While he sleeps, she waits."
+      }
+    },
+    {
+      "id": "grammar",
+      "type": "grammar",
+      "label": "Choose",
+      "title": "Genitive prepositions",
+      "practice": "choose",
+      "heroTitle": "Während, wegen, trotz, innerhalb, außerhalb",
+      "heroImage": "bed",
+      "story": [
+        "Six prepositions take the <b>genitive</b> in the written line: <b>wegen, trotz, während, statt, innerhalb, außerhalb</b>. <b>Wir warten wegen des Schmerzes. Er kommt trotz des Fiebers.</b> Masculine and neuter take <b>des</b> and an ending. <b>des Schmerzes</b> takes <b>-es</b>, like des Arztes. <b>des Fiebers</b> ends in -er, so only <b>-s</b>. Not des Fieber. Not des Fieberes. Chapter 63.",
+        "Feminine genitive is <b>der</b>, the same form as feminine dative. <b>während der Visite. innerhalb der Stunde. außerhalb der Station.</b> Not des Visite. Not dem Visite. Plural genitive is also der: <b>trotz der Schmerzen. statt der Tabletten.</b>",
+        "<b>Wir warten wegen des Fiebers</b> stays chapter 63. <b>des Fiebers wegen</b> is the same words after the noun, and it stays correct. Everyday wegen or trotz plus the dative is heard and is <b>not the written line</b>. This chapter does not use that line as the answer.",
+        "<b>statt des Tees.</b> <b>anstatt des Tees</b> stays correct too. <b>Er trinkt, statt zu essen</b> stays an infinitive, with no genitive noun. <b>innerhalb einer Stunde</b> stays correct: einer is the genitive of eine. <b>außerhalb des Zimmers.</b> Zimmer ends in -er, so only -s. Not des Zimmer. <b>Er wartet im Zimmer</b> stays dative, chapter 62.",
+        "The preposition <b>während</b> has a noun and no verb of its own: <b>während der Visite</b>. The conjunction stays chapter 73: <b>Während er schläft, wartet sie.</b> Verb at the end. Do not mix them.",
+        "<b>vor dem Scan</b> stays dative, chapter 30, not genitive. <b>bevor</b> stays the conjunction, chapter 73. <b>seit Montag</b> and <b>nach dem Essen</b> stay dative. This chapter is the genitive set."
+      ],
+      "questionRule": "The written line is the genitive. des plus -(e)s for masculine and neuter. der for feminine and plural. Fieber and Zimmer take only -s. während der Visite is the preposition. Während er schläft stays the conjunction.",
+      "tables": [
+        {
+          "title": "Genitiv",
+          "caption": "des for masculine and neuter. der for feminine and for the plural. The ending sits on the noun when it is masculine or neuter.",
+          "columns": ["Form", "Beispiel"],
+          "rows": [
+            { "label": "m/n", "cells": ["des + (e)s", "des Schmerzes, des Fiebers"], "highlight": true },
+            { "label": "f", "cells": ["der", "der Visite, der Stunde"], "highlight": true },
+            { "label": "Pl", "cells": ["der", "der Schmerzen, der Tabletten"] },
+            { "label": "-s", "cells": ["-er, only -s", "des Fiebers, des Zimmers"] }
+          ]
+        },
+        {
+          "title": "Auf der Station",
+          "caption": "wegen des Fiebers stays chapter 63. Während er schläft stays the conjunction.",
+          "columns": ["Satz"],
+          "rows": [
+            { "label": "wegen", "cells": ["Wir warten wegen des Schmerzes."], "highlight": true },
+            { "label": "Fieber", "cells": ["Wir warten wegen des Fiebers."] },
+            { "label": "trotz", "cells": ["Er kommt trotz des Fiebers."], "highlight": true },
+            { "label": "während", "cells": ["Sie schreibt während der Visite."] },
+            { "label": "statt", "cells": ["Er trinkt statt des Tees."] },
+            { "label": "innerhalb", "cells": ["Er ruht innerhalb der Stunde."] },
+            { "label": "außerhalb", "cells": ["Er wartet außerhalb der Station."] },
+            { "label": "Satz", "cells": ["Während er schläft, wartet sie."] }
+          ]
+        },
+        {
+          "title": "Nicht diese Form",
+          "caption": "wegen des Fiebers, des Fiebers wegen, anstatt des Tees, statt zu essen, innerhalb einer Stunde, im Zimmer, and Während er schläft stay correct. Everyday dative is heard and is not the written line.",
+          "columns": ["Falsch", "Richtig"],
+          "rows": [
+            { "label": "Schmerz", "cells": ["des Schmerz", "des Schmerzes"] },
+            { "label": "Fieber", "cells": ["trotz das Fieber", "trotz des Fiebers"] },
+            { "label": "Visite", "cells": ["während dem Visite", "während der Visite"] },
+            { "label": "Tee", "cells": ["statt den Tee", "statt des Tees"] },
+            { "label": "Stunde", "cells": ["innerhalb den Stunde", "innerhalb der Stunde"] },
+            { "label": "Zimmer", "cells": ["des Zimmer", "des Zimmers"] }
+          ]
+        }
+      ],
+      "warning": {
+        "title": "Four genitive traps",
+        "items": [
+          { "de": "Wir warten wegen des Schmerzes.", "en": "des Schmerzes.", "tone": "ok" },
+          { "de": "Wir warten wegen des Schmerz.", "en": "The ending is missing.", "tone": "stop" },
+          { "de": "Er kommt trotz des Fiebers.", "en": "des Fiebers.", "tone": "ok" },
+          { "de": "Er kommt trotz das Fieber.", "en": "das is not genitive.", "tone": "stop" },
+          { "de": "Sie schreibt während der Visite.", "en": "Feminine genitive der.", "tone": "ok" },
+          { "de": "Sie schreibt während dem Visite.", "en": "dem is not feminine.", "tone": "stop" },
+          { "de": "Er trinkt statt des Tees.", "en": "des Tees.", "tone": "ok" },
+          { "de": "Er trinkt statt den Tee.", "en": "den is accusative.", "tone": "stop" }
+        ],
+        "tip": "des plus the ending, or der. Not das, not den, not a missing -s."
+      },
+      "tips": [
+        {
+          "title": "The written genitive",
+          "body": "wegen des Schmerzes. trotz des Fiebers. während der Visite. statt des Tees. innerhalb der Stunde. außerhalb der Station.",
+          "mnemonic": "des Schmerzes. des Fiebers. der Visite.",
+          "emoji": "➡️"
+        }
+      ],
+      "meaningsTitle": "Four ward lines",
+      "meanings": [
+        { "modal": "wegen", "emoji": "🩹", "en": "because of the pain", "use": "des Schmerzes", "de": "Wir warten wegen des Schmerzes.", "deEn": "We are waiting because of the pain." },
+        { "modal": "trotz", "emoji": "🌡️", "en": "despite the fever", "use": "des Fiebers", "de": "Er kommt trotz des Fiebers.", "deEn": "He comes despite the fever." },
+        { "modal": "während", "emoji": "🩺", "en": "during the round", "use": "der Visite", "de": "Sie schreibt während der Visite.", "deEn": "She writes during the round." },
+        { "modal": "statt", "emoji": "🍵", "en": "instead of the tea", "use": "des Tees", "de": "Er trinkt statt des Tees.", "deEn": "He drinks instead of the tea." }
+      ],
+      "quizTitle": "Which line?",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "We are waiting because of the pain.",
+          "qEn": "wegen des Schmerzes.",
+          "options": ["Wir warten wegen des Schmerzes.", "Wir warten wegen des Schmerz.", "Wir warten wegen des Fiebers."],
+          "answer": 0,
+          "why": "des Schmerzes, with -es. Wir warten wegen des Fiebers stays chapter 63. des Fiebers wegen stays correct too.",
+          "hint": "Schmerzes."
+        },
+        {
+          "kind": "mc",
+          "q": "He comes despite the fever.",
+          "qEn": "trotz des Fiebers.",
+          "options": ["Er kommt trotz des Fiebers.", "Er kommt trotz das Fieber.", "Des Fiebers wegen."],
+          "answer": 0,
+          "why": "des Fiebers, only -s. Des Fiebers wegen stays the same words after the noun. Everyday dative is heard and is not the written line.",
+          "hint": "Fiebers."
+        },
+        {
+          "kind": "mc",
+          "q": "She writes during the round.",
+          "qEn": "während der Visite.",
+          "options": ["Sie schreibt während der Visite.", "Sie schreibt während dem Visite.", "Während er schläft, wartet sie."],
+          "answer": 0,
+          "why": "Feminine genitive der. Während er schläft stays the conjunction, chapter 73.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He drinks instead of the tea.",
+          "qEn": "statt des Tees.",
+          "options": ["Er trinkt statt des Tees.", "Er trinkt statt den Tee.", "Er trinkt, statt zu essen."],
+          "answer": 0,
+          "why": "des Tees. anstatt des Tees stays correct too. Er trinkt, statt zu essen stays the infinitive.",
+          "hint": "Tees."
+        },
+        {
+          "kind": "mc",
+          "q": "He rests within the hour.",
+          "qEn": "innerhalb der Stunde.",
+          "options": ["Er ruht innerhalb der Stunde.", "Er ruht innerhalb den Stunde.", "Er ruht innerhalb einer Stunde."],
+          "answer": 0,
+          "why": "der Stunde, feminine genitive. innerhalb einer Stunde stays correct too. einer is the genitive of eine.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He waits outside the ward.",
+          "qEn": "außerhalb der Station.",
+          "options": ["Er wartet außerhalb der Station.", "Er wartet außerhalb des Zimmer.", "Er wartet im Zimmer."],
+          "answer": 0,
+          "why": "der Station. außerhalb des Zimmers needs -s, because Zimmer ends in -er. Er wartet im Zimmer stays dative.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "gap-order",
+      "label": "Gap",
+      "title": "Which line?",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The written line is the genitive. des plus the ending, or der. A conjunction, an infinitive, and chapter 63 stay out of the chips.",
+      "chips": [
+        { "w": "Wir warten wegen des Schmerzes", "hint": "des." },
+        { "w": "Er kommt trotz des Fiebers", "hint": "des." },
+        { "w": "Sie schreibt während der Visite", "hint": "der." },
+        { "w": "Er trinkt statt des Tees", "hint": "des." },
+        { "w": "Er ruht innerhalb der Stunde", "hint": "der." },
+        { "w": "Er wartet außerhalb der Station", "hint": "der." },
+        { "w": "Wir warten wegen des Schmerz", "hint": "es." },
+        { "w": "Er kommt trotz das Fieber", "hint": "des." },
+        { "w": "Sie schreibt während dem Visite", "hint": "der." },
+        { "w": "Er trinkt statt den Tee", "hint": "des." },
+        { "w": "Er ruht innerhalb den Stunde", "hint": "der." },
+        { "w": "Er wartet außerhalb des Zimmer", "hint": "s." }
+      ],
+      "items": [
+        {
+          "before": "We are waiting because of the pain:",
+          "after": ".",
+          "answer": "Wir warten wegen des Schmerzes",
+          "en": "We are waiting because of the pain.",
+          "why": "des Schmerzes. Wir warten wegen des Fiebers stays chapter 63.",
+          "tip": "Schmerzes.",
+          "hint": "Schmerzes."
+        },
+        {
+          "before": "He comes despite the fever:",
+          "after": ".",
+          "answer": "Er kommt trotz des Fiebers",
+          "en": "He comes despite the fever.",
+          "why": "des Fiebers. Des Fiebers wegen stays correct. Everyday dative is not the written line.",
+          "tip": "Fiebers.",
+          "hint": "Fiebers."
+        },
+        {
+          "before": "She writes during the round:",
+          "after": ".",
+          "answer": "Sie schreibt während der Visite",
+          "en": "She writes during the round.",
+          "why": "der Visite. Während er schläft stays the conjunction.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "He drinks instead of the tea:",
+          "after": ".",
+          "answer": "Er trinkt statt des Tees",
+          "en": "He drinks instead of the tea.",
+          "why": "des Tees. anstatt des Tees stays correct. statt zu essen stays the infinitive.",
+          "tip": "Tees.",
+          "hint": "Tees."
+        },
+        {
+          "before": "He rests within the hour:",
+          "after": ".",
+          "answer": "Er ruht innerhalb der Stunde",
+          "en": "He rests within the hour.",
+          "why": "der Stunde. innerhalb einer Stunde stays correct too.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "He waits outside the ward:",
+          "after": ".",
+          "answer": "Er wartet außerhalb der Station",
+          "en": "He waits outside the ward.",
+          "why": "der Station. außerhalb des Zimmers needs -s. im Zimmer stays dative.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "match-order",
+      "type": "compare",
+      "label": "Match",
+      "title": "Which line?",
+      "practice": "match",
+      "instructions": "One line is the written genitive. One is not German. A chapter 63 line, a conjunction, or an infinitive stays correct.",
+      "items": [
+        {
+          "prompt": "We are waiting because of the pain",
+          "options": [
+            { "emoji": "🩹", "label": "Wir warten wegen des Schmerzes.", "caption": "-es" },
+            { "emoji": "🚫", "label": "Wir warten wegen des Schmerz.", "caption": "ending missing" },
+            { "emoji": "🌡️", "label": "Wir warten wegen des Fiebers.", "caption": "chapter 63" }
+          ],
+          "answer": 0,
+          "why": "des Schmerzes. wegen des Fiebers stays chapter 63.",
+          "hint": "Schmerzes."
+        },
+        {
+          "prompt": "He comes despite the fever",
+          "options": [
+            { "emoji": "🌡️", "label": "Er kommt trotz des Fiebers.", "caption": "only -s" },
+            { "emoji": "🚫", "label": "Er kommt trotz das Fieber.", "caption": "not das" },
+            { "emoji": "🌡️", "label": "Des Fiebers wegen.", "caption": "after the noun" }
+          ],
+          "answer": 0,
+          "why": "des Fiebers. Des Fiebers wegen stays correct. Everyday dative is not the written line.",
+          "hint": "Fiebers."
+        },
+        {
+          "prompt": "She writes during the round",
+          "options": [
+            { "emoji": "🩺", "label": "Sie schreibt während der Visite.", "caption": "der" },
+            { "emoji": "🚫", "label": "Sie schreibt während dem Visite.", "caption": "not dem" },
+            { "emoji": "😴", "label": "Während er schläft, wartet sie.", "caption": "conjunction" }
+          ],
+          "answer": 0,
+          "why": "der Visite. Während er schläft stays chapter 73.",
+          "hint": "der."
+        },
+        {
+          "prompt": "He drinks instead of the tea",
+          "options": [
+            { "emoji": "🍵", "label": "Er trinkt statt des Tees.", "caption": "des Tees" },
+            { "emoji": "🚫", "label": "Er trinkt statt den Tee.", "caption": "not den" },
+            { "emoji": "🍵", "label": "Er trinkt, statt zu essen.", "caption": "infinitive" }
+          ],
+          "answer": 0,
+          "why": "des Tees. statt zu essen stays the infinitive. anstatt des Tees stays correct too.",
+          "hint": "Tees."
+        },
+        {
+          "prompt": "He rests within the hour",
+          "options": [
+            { "emoji": "⏱️", "label": "Er ruht innerhalb der Stunde.", "caption": "der" },
+            { "emoji": "🚫", "label": "Er ruht innerhalb den Stunde.", "caption": "not den" },
+            { "emoji": "⏱️", "label": "Er ruht innerhalb einer Stunde.", "caption": "einer" }
+          ],
+          "answer": 0,
+          "why": "der Stunde. innerhalb einer Stunde stays correct too.",
+          "hint": "der."
+        },
+        {
+          "prompt": "He waits outside the ward",
+          "options": [
+            { "emoji": "🚪", "label": "Er wartet außerhalb der Station.", "caption": "der" },
+            { "emoji": "🚫", "label": "Er wartet außerhalb des Zimmer.", "caption": "-s missing" },
+            { "emoji": "🚪", "label": "Er wartet im Zimmer.", "caption": "dative" }
+          ],
+          "answer": 0,
+          "why": "der Station. des Zimmers needs -s. im Zimmer stays dative.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Pictures",
+      "title": "On the ward",
+      "practice": "picture",
+      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "items": [
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed, because of the pain",
+          "image": { "type": "svg", "id": "bed" },
+          "hint": "das"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster, despite the fever",
+          "image": { "type": "svg", "id": "plaster" },
+          "hint": "das"
+        },
+        {
+          "id": "thermometer",
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer, during the round",
+          "image": { "type": "svg", "id": "thermometer" },
+          "hint": "das"
+        },
+        {
+          "id": "akte",
+          "de": "Akte",
+          "article": "die",
+          "plural": "die Akten",
+          "en": "the chart, outside the ward",
+          "image": { "type": "svg", "id": "clipboard" },
+          "hint": "die"
+        }
+      ]
+    },
+    {
+      "id": "build-order",
+      "type": "builder",
+      "label": "Build",
+      "title": "Genitive at the end",
+      "practice": "build",
+      "instructions": "Build the line. The preposition phrase can also stand first. The genitive noun keeps its ending.",
+      "items": [
+        {
+          "tiles": ["Wir", "warten", "wegen", "des", "Schmerzes"],
+          "answers": ["Wir warten wegen des Schmerzes", "Wegen des Schmerzes warten wir"],
+          "punct": ".",
+          "modal": "wegen",
+          "inf": "Schmerzes",
+          "question": false,
+          "en": "We are waiting because of the pain.",
+          "hint": "Wir warten wegen des Schmerzes. Or wegen first.",
+          "feedback": {
+            "end": "Schmerzes closes wegen des Schmerzes.",
+            "fallback": "Wir warten wegen des Schmerzes. Or: Wegen des Schmerzes warten wir."
+          }
+        },
+        {
+          "tiles": ["Er", "kommt", "trotz", "des", "Fiebers"],
+          "answers": ["Er kommt trotz des Fiebers", "Trotz des Fiebers kommt er"],
+          "punct": ".",
+          "modal": "trotz",
+          "inf": "Fiebers",
+          "question": false,
+          "en": "He comes despite the fever.",
+          "hint": "Er kommt trotz des Fiebers. Or trotz first.",
+          "feedback": {
+            "end": "Fiebers closes trotz des Fiebers.",
+            "fallback": "Er kommt trotz des Fiebers. Or: Trotz des Fiebers kommt er."
+          }
+        },
+        {
+          "tiles": ["Sie", "schreibt", "während", "der", "Visite"],
+          "answers": ["Sie schreibt während der Visite", "Während der Visite schreibt sie"],
+          "punct": ".",
+          "modal": "während",
+          "inf": "Visite",
+          "question": false,
+          "en": "She writes during the round.",
+          "hint": "Sie schreibt während der Visite. Or während first.",
+          "feedback": {
+            "end": "Visite closes während der Visite.",
+            "fallback": "Sie schreibt während der Visite. Or: Während der Visite schreibt sie."
+          }
+        },
+        {
+          "tiles": ["Er", "trinkt", "statt", "des", "Tees"],
+          "answers": ["Er trinkt statt des Tees", "Statt des Tees trinkt er"],
+          "punct": ".",
+          "modal": "statt",
+          "inf": "Tees",
+          "question": false,
+          "en": "He drinks instead of the tea.",
+          "hint": "Er trinkt statt des Tees. Or statt first.",
+          "feedback": {
+            "end": "Tees closes statt des Tees.",
+            "fallback": "Er trinkt statt des Tees. Or: Statt des Tees trinkt er."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transform-order",
+      "label": "Rewrite",
+      "title": "Into the genitive",
+      "practice": "transform",
+      "type": "gapfill",
+      "instructions": "The label names a line that stays correct. Give the written genitive the English asks for.",
+      "chips": [
+        { "w": "Wir warten wegen des Schmerzes", "hint": "des." },
+        { "w": "Er kommt trotz des Fiebers", "hint": "des." },
+        { "w": "Sie schreibt während der Visite", "hint": "der." },
+        { "w": "Er trinkt statt des Tees", "hint": "des." },
+        { "w": "Er ruht innerhalb der Stunde", "hint": "der." },
+        { "w": "Er wartet außerhalb der Station", "hint": "der." },
+        { "w": "Wir warten wegen des Schmerz", "hint": "es." },
+        { "w": "Er kommt trotz das Fieber", "hint": "des." },
+        { "w": "Sie schreibt während dem Visite", "hint": "der." },
+        { "w": "Er trinkt statt den Tee", "hint": "des." },
+        { "w": "Er ruht innerhalb den Stunde", "hint": "der." },
+        { "w": "Er wartet außerhalb des Zimmer", "hint": "s." }
+      ],
+      "items": [
+        {
+          "before": "Wir warten wegen des Fiebers stays chapter 63. Because of the pain:",
+          "after": ".",
+          "answer": "Wir warten wegen des Schmerzes",
+          "en": "We are waiting because of the pain.",
+          "why": "des Schmerzes. wegen des Fiebers stays correct.",
+          "tip": "Schmerzes.",
+          "hint": "Schmerzes."
+        },
+        {
+          "before": "Des Fiebers wegen stays correct. He comes despite the fever:",
+          "after": ".",
+          "answer": "Er kommt trotz des Fiebers",
+          "en": "He comes despite the fever.",
+          "why": "trotz des Fiebers. The postposition stays correct.",
+          "tip": "Fiebers.",
+          "hint": "Fiebers."
+        },
+        {
+          "before": "Während er schläft stays the conjunction. During the round:",
+          "after": ".",
+          "answer": "Sie schreibt während der Visite",
+          "en": "She writes during the round.",
+          "why": "während der Visite. The conjunction stays chapter 73.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Er trinkt, statt zu essen stays the infinitive. Instead of the tea:",
+          "after": ".",
+          "answer": "Er trinkt statt des Tees",
+          "en": "He drinks instead of the tea.",
+          "why": "statt des Tees. The infinitive stays correct. anstatt des Tees stays correct too.",
+          "tip": "Tees.",
+          "hint": "Tees."
+        },
+        {
+          "before": "innerhalb einer Stunde stays correct. Within the hour:",
+          "after": ".",
+          "answer": "Er ruht innerhalb der Stunde",
+          "en": "He rests within the hour.",
+          "why": "der Stunde. einer Stunde stays the genitive of eine too.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Er wartet im Zimmer stays dative. Outside the ward:",
+          "after": ".",
+          "answer": "Er wartet außerhalb der Station",
+          "en": "He waits outside the ward.",
+          "why": "der Station. im Zimmer stays dative. des Zimmers needs -s.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "error-order",
+      "type": "riddle",
+      "label": "Error",
+      "title": "Finde den Fehler",
+      "practice": "error",
+      "instructions": "The last line is not the written genitive. Choose the correction. Chapter 63, the conjunction, and the infinitive stay correct.",
+      "items": [
+        {
+          "clues": ["Because of the pain.", "-es.", "Wir warten wegen des Schmerz."],
+          "options": ["Wir warten wegen des Schmerzes.", "Wir warten wegen des Schmerz.", "Wir warten wegen des Fiebers."],
+          "answer": 0,
+          "reveal": "Wir warten wegen des Schmerzes.",
+          "hint": "Schmerzes."
+        },
+        {
+          "clues": ["Despite the fever.", "des.", "Er kommt trotz das Fieber."],
+          "options": ["Er kommt trotz des Fiebers.", "Er kommt trotz das Fieber.", "Des Fiebers wegen."],
+          "answer": 0,
+          "reveal": "Er kommt trotz des Fiebers.",
+          "hint": "Fiebers."
+        },
+        {
+          "clues": ["During the round.", "der.", "Sie schreibt während dem Visite."],
+          "options": ["Sie schreibt während der Visite.", "Sie schreibt während dem Visite.", "Während er schläft, wartet sie."],
+          "answer": 0,
+          "reveal": "Sie schreibt während der Visite.",
+          "hint": "der."
+        },
+        {
+          "clues": ["Instead of the tea.", "des.", "Er trinkt statt den Tee."],
+          "options": ["Er trinkt statt des Tees.", "Er trinkt statt den Tee.", "Er trinkt, statt zu essen."],
+          "answer": 0,
+          "reveal": "Er trinkt statt des Tees.",
+          "hint": "Tees."
+        },
+        {
+          "clues": ["Within the hour.", "der.", "Er ruht innerhalb den Stunde."],
+          "options": ["Er ruht innerhalb der Stunde.", "Er ruht innerhalb den Stunde.", "Er ruht innerhalb einer Stunde."],
+          "answer": 0,
+          "reveal": "Er ruht innerhalb der Stunde.",
+          "hint": "der."
+        },
+        {
+          "clues": ["Outside the ward.", "der.", "Er wartet außerhalb des Zimmer."],
+          "options": ["Er wartet außerhalb der Station.", "Er wartet außerhalb des Zimmer.", "Er wartet im Zimmer."],
+          "answer": 0,
+          "reveal": "Er wartet außerhalb der Station.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-ward",
+      "label": "Dialogue",
+      "title": "On the ward round",
+      "practice": "dialogue",
+      "type": "gapfill",
+      "instructions": "The nurse or the doctor uses the written genitive. des plus the ending, or der.",
+      "chips": [
+        { "w": "Wir warten wegen des Schmerzes", "hint": "des." },
+        { "w": "Er kommt trotz des Fiebers", "hint": "des." },
+        { "w": "Sie schreibt während der Visite", "hint": "der." },
+        { "w": "Er trinkt statt des Tees", "hint": "des." },
+        { "w": "Er ruht innerhalb der Stunde", "hint": "der." },
+        { "w": "Er wartet außerhalb der Station", "hint": "der." },
+        { "w": "Wir warten wegen des Schmerz", "hint": "es." },
+        { "w": "Er kommt trotz das Fieber", "hint": "des." },
+        { "w": "Sie schreibt während dem Visite", "hint": "der." },
+        { "w": "Er trinkt statt den Tee", "hint": "des." },
+        { "w": "Er ruht innerhalb den Stunde", "hint": "der." },
+        { "w": "Er wartet außerhalb des Zimmer", "hint": "s." }
+      ],
+      "items": [
+        {
+          "before": "Nurse, we are waiting because of the pain:",
+          "after": ".",
+          "answer": "Wir warten wegen des Schmerzes",
+          "en": "We are waiting because of the pain.",
+          "why": "Schmerzes.",
+          "tip": "Schmerzes.",
+          "hint": "Schmerzes."
+        },
+        {
+          "before": "Doctor, he comes despite the fever:",
+          "after": ".",
+          "answer": "Er kommt trotz des Fiebers",
+          "en": "He comes despite the fever.",
+          "why": "Fiebers.",
+          "tip": "Fiebers.",
+          "hint": "Fiebers."
+        },
+        {
+          "before": "Nurse, she writes during the round:",
+          "after": ".",
+          "answer": "Sie schreibt während der Visite",
+          "en": "She writes during the round.",
+          "why": "der.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Doctor, he drinks instead of the tea:",
+          "after": ".",
+          "answer": "Er trinkt statt des Tees",
+          "en": "He drinks instead of the tea.",
+          "why": "Tees.",
+          "tip": "Tees.",
+          "hint": "Tees."
+        },
+        {
+          "before": "Nurse, he rests within the hour:",
+          "after": ".",
+          "answer": "Er ruht innerhalb der Stunde",
+          "en": "He rests within the hour.",
+          "why": "der.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Doctor, he waits outside the ward:",
+          "after": ".",
+          "answer": "Er wartet außerhalb der Station",
+          "en": "He waits outside the ward.",
+          "why": "der.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "gap-clauses",
+      "label": "Gap",
+      "title": "The genitive",
+      "practice": "gap",
+      "type": "gapfill",
+      "instructions": "The preposition and the genitive only. des plus the ending, or der. Not das, not den, and not a missing -s.",
+      "chips": [
+        { "w": "wegen des Schmerzes", "hint": "des." },
+        { "w": "trotz des Fiebers", "hint": "des." },
+        { "w": "während der Visite", "hint": "der." },
+        { "w": "statt des Tees", "hint": "des." },
+        { "w": "innerhalb der Stunde", "hint": "der." },
+        { "w": "außerhalb der Station", "hint": "der." },
+        { "w": "wegen des Schmerz", "hint": "es." },
+        { "w": "trotz das Fieber", "hint": "des." },
+        { "w": "während dem Visite", "hint": "der." },
+        { "w": "statt den Tee", "hint": "des." },
+        { "w": "innerhalb den Stunde", "hint": "der." },
+        { "w": "außerhalb des Zimmer", "hint": "s." }
+      ],
+      "items": [
+        {
+          "before": "Because of the pain. The phrase:",
+          "after": ".",
+          "answer": "wegen des Schmerzes",
+          "en": "because of the pain.",
+          "why": "des Schmerzes. wegen des Fiebers stays chapter 63.",
+          "tip": "Schmerzes.",
+          "hint": "Schmerzes."
+        },
+        {
+          "before": "Despite the fever. The phrase:",
+          "after": ".",
+          "answer": "trotz des Fiebers",
+          "en": "despite the fever.",
+          "why": "des Fiebers. Not des Fieber. Des Fiebers wegen stays correct.",
+          "tip": "Fiebers.",
+          "hint": "Fiebers."
+        },
+        {
+          "before": "During the round. The phrase:",
+          "after": ".",
+          "answer": "während der Visite",
+          "en": "during the round.",
+          "why": "der Visite. Während er schläft stays the conjunction.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Instead of the tea. The phrase:",
+          "after": ".",
+          "answer": "statt des Tees",
+          "en": "instead of the tea.",
+          "why": "des Tees. anstatt des Tees stays correct. statt zu essen stays the infinitive.",
+          "tip": "Tees.",
+          "hint": "Tees."
+        },
+        {
+          "before": "Within the hour. The phrase:",
+          "after": ".",
+          "answer": "innerhalb der Stunde",
+          "en": "within the hour.",
+          "why": "der Stunde. innerhalb einer Stunde stays correct too.",
+          "tip": "der.",
+          "hint": "der."
+        },
+        {
+          "before": "Outside the ward. The phrase:",
+          "after": ".",
+          "answer": "außerhalb der Station",
+          "en": "outside the ward.",
+          "why": "der Station. des Zimmers needs -s. im Zimmer stays dative.",
+          "tip": "der.",
+          "hint": "der."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "label": "Reading",
+      "title": "The ward note",
+      "practice": "reading",
+      "instructions": "Read the note. Then answer from the text. Chapter 63, the conjunction, and the postposition stay correct.",
+      "document": {
+        "letterhead": "Station 4 · Kurve",
+        "title": "Die Visite",
+        "paragraphs": [
+          "Wir warten wegen des Schmerzes. Wir warten wegen des Fiebers. Er kommt trotz des Fiebers. Sie schreibt während der Visite.",
+          "Er trinkt statt des Tees. Er ruht innerhalb der Stunde. Er wartet außerhalb der Station. Während er schläft, wartet sie."
+        ],
+        "signature": "Anna",
+        "stamp": "Station"
+      },
+      "questions": [
+        {
+          "kind": "mc",
+          "q": "Because of the pain, from the note.",
+          "qEn": "wegen des Schmerzes.",
+          "options": ["wegen des Schmerzes", "wegen des Schmerz", "wegen des Fiebers"],
+          "answer": 0,
+          "why": "The note has des Schmerzes. wegen des Fiebers is also in the note and stays chapter 63.",
+          "hint": "Schmerzes."
+        },
+        {
+          "kind": "mc",
+          "q": "Despite the fever, from the note.",
+          "qEn": "trotz des Fiebers.",
+          "options": ["trotz des Fiebers", "trotz das Fieber", "Des Fiebers wegen."],
+          "answer": 0,
+          "why": "The note has trotz des Fiebers. Des Fiebers wegen stays correct.",
+          "hint": "Fiebers."
+        },
+        {
+          "kind": "mc",
+          "q": "During the round, from the note.",
+          "qEn": "während der Visite.",
+          "options": ["während der Visite", "während dem Visite", "Während er schläft, wartet sie."],
+          "answer": 0,
+          "why": "The note has während der Visite. Während er schläft is also in the note and stays the conjunction.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Instead of the tea, from the note.",
+          "qEn": "statt des Tees.",
+          "options": ["statt des Tees", "statt den Tee", "Er trinkt, statt zu essen."],
+          "answer": 0,
+          "why": "The note has statt des Tees. Er trinkt, statt zu essen stays the infinitive.",
+          "hint": "Tees."
+        }
+      ]
+    },
+    {
+      "id": "writing-order",
+      "type": "writing",
+      "label": "Writing",
+      "title": "Four ward lines",
+      "practice": "writing",
+      "instructions": "Write four lines. We are waiting because of the pain. He comes despite the fever. She writes during the round. He drinks instead of the tea.",
+      "prompt": "We are waiting because of the pain. He comes despite the fever. She writes during the round. He drinks instead of the tea.",
+      "bullets": ["wegen des Schmerzes", "trotz des Fiebers", "während der Visite", "statt des Tees"],
+      "model": "Wir warten wegen des Schmerzes. Er kommt trotz des Fiebers. Sie schreibt während der Visite. Er trinkt statt des Tees.",
+      "modelEn": "We are waiting because of the pain. He comes despite the fever. She writes during the round. He drinks instead of the tea.",
+      "hint": "wegen des Schmerzes. trotz des Fiebers. während der Visite. statt des Tees.",
+      "checklist": [
+        { "id": "w", "label": "wegen des Schmerzes", "keywords": ["wegen des schmerzes"] },
+        { "id": "t", "label": "trotz des Fiebers", "keywords": ["trotz des fiebers"] },
+        { "id": "v", "label": "während der Visite", "keywords": ["während der visite"] },
+        { "id": "s", "label": "statt des Tees", "keywords": ["statt des tees"] }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Während, wegen, trotz, innerhalb, außerhalb",
+      "heroImage": "clipboard",
+      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "questionRule": "Written genitive. des plus -(e)s, or der. Fieber and Zimmer take only -s. während der Visite is the preposition. Während er schläft stays the conjunction. Everyday dative is not the written line.",
+      "quizTitle": "Lernkontrolle",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "We are waiting because of the pain.",
+          "qEn": "wegen des Schmerzes.",
+          "options": ["Wir warten wegen des Schmerzes.", "Wir warten wegen des Schmerz.", "Wir warten wegen des Fiebers."],
+          "answer": 0,
+          "why": "des Schmerzes. wegen des Fiebers stays chapter 63.",
+          "hint": "Schmerzes."
+        },
+        {
+          "kind": "mc",
+          "q": "He comes despite the fever.",
+          "qEn": "trotz des Fiebers.",
+          "options": ["Er kommt trotz des Fiebers.", "Er kommt trotz das Fieber.", "Des Fiebers wegen."],
+          "answer": 0,
+          "why": "des Fiebers. The postposition stays correct.",
+          "hint": "Fiebers."
+        },
+        {
+          "kind": "mc",
+          "q": "She writes during the round.",
+          "qEn": "während der Visite.",
+          "options": ["Sie schreibt während der Visite.", "Sie schreibt während dem Visite.", "Während er schläft, wartet sie."],
+          "answer": 0,
+          "why": "der Visite. The conjunction stays chapter 73.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He drinks instead of the tea.",
+          "qEn": "statt des Tees.",
+          "options": ["Er trinkt statt des Tees.", "Er trinkt statt den Tee.", "Er trinkt, statt zu essen."],
+          "answer": 0,
+          "why": "des Tees. The infinitive stays correct.",
+          "hint": "Tees."
+        },
+        {
+          "kind": "mc",
+          "q": "He rests within the hour.",
+          "qEn": "innerhalb der Stunde.",
+          "options": ["Er ruht innerhalb der Stunde.", "Er ruht innerhalb den Stunde.", "Er ruht innerhalb einer Stunde."],
+          "answer": 0,
+          "why": "der Stunde. einer Stunde stays correct too.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "He waits outside the ward.",
+          "qEn": "außerhalb der Station.",
+          "options": ["Er wartet außerhalb der Station.", "Er wartet außerhalb des Zimmer.", "Er wartet im Zimmer."],
+          "answer": 0,
+          "why": "der Station. des Zimmers needs -s. im Zimmer stays dative.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Outside the room. Only -s.",
+          "qEn": "außerhalb des Zimmers.",
+          "options": ["außerhalb des Zimmers", "außerhalb des Zimmer", "im Zimmer"],
+          "answer": 0,
+          "why": "des Zimmers. Zimmer ends in -er, so only -s. im Zimmer stays dative.",
+          "hint": "Zimmers."
+        },
+        {
+          "kind": "mc",
+          "q": "Within an hour. Genitive of eine.",
+          "qEn": "innerhalb einer Stunde.",
+          "options": ["innerhalb einer Stunde", "innerhalb eine Stunde", "innerhalb der Stunde"],
+          "answer": 0,
+          "why": "einer, genitive of eine. innerhalb der Stunde stays the definite genitive too.",
+          "hint": "einer."
+        },
+        {
+          "kind": "mc",
+          "q": "Despite the pains. Plural genitive.",
+          "qEn": "trotz der Schmerzen.",
+          "options": ["trotz der Schmerzen", "trotz des Schmerzen", "wegen der Schmerzen"],
+          "answer": 0,
+          "why": "Plural genitive is der. wegen der Schmerzen stays correct too, with wegen.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Instead of the tablets. Plural.",
+          "qEn": "statt der Tabletten.",
+          "options": ["statt der Tabletten", "statt die Tabletten", "Er trinkt, statt zu essen."],
+          "answer": 0,
+          "why": "der Tabletten. The infinitive stays correct.",
+          "hint": "der."
+        },
+        {
+          "kind": "mc",
+          "q": "Because of the fever, noun first.",
+          "qEn": "des Fiebers wegen.",
+          "options": ["Des Fiebers wegen.", "Des Fieber wegen.", "Wir warten wegen des Fiebers."],
+          "answer": 0,
+          "why": "des Fiebers wegen stays correct. The wegen-first line stays chapter 63. Not des Fieber.",
+          "hint": "Fiebers."
+        },
+        {
+          "kind": "mc",
+          "q": "Instead of the tea, with anstatt.",
+          "qEn": "anstatt des Tees.",
+          "options": ["Er trinkt anstatt des Tees.", "Er trinkt anstatt den Tee.", "Er trinkt statt des Tees."],
+          "answer": 0,
+          "why": "anstatt des Tees stays correct. statt des Tees stays correct too. Not den.",
+          "hint": "Tees."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "label": "Summary",
+      "title": "Während, wegen, trotz, innerhalb, außerhalb",
+      "reviewStepType": "grammar",
+      "redemittel": [
+        { "de": "Wir warten wegen des Schmerzes.", "en": "We are waiting because of the pain." },
+        { "de": "Er kommt trotz des Fiebers.", "en": "He comes despite the fever." },
+        { "de": "Sie schreibt während der Visite.", "en": "She writes during the round." },
+        { "de": "Er trinkt statt des Tees.", "en": "He drinks instead of the tea." }
+      ],
+      "messages": [
+        "wegen, trotz, während, statt, innerhalb and außerhalb take the genitive in the written line. des plus -(e)s, or der. Fieber and Zimmer take only -s.",
+        "Wir warten wegen des Fiebers and des Fiebers wegen stay correct. Während er schläft stays the conjunction. statt zu essen stays the infinitive. Everyday dative is heard and is not the written line.",
+        "Sehr gut. Wir warten wegen des Schmerzes. Er kommt trotz des Fiebers.",
+        "Ausgezeichnet. You can say because of the pain, despite the fever, during the round, and instead of the tea."
+      ]
+    }
+  ]
+}
