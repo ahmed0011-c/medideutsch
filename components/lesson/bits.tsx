@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { Illustration } from "@/components/illustrations";
 import { useLesson } from "@/lib/lesson-context";
 import { caseSegments, plainText, tokenize } from "@/lib/tokens";
 import type { McQuestion } from "@/lib/lesson-schema";
@@ -126,7 +127,9 @@ export function WordPopover() {
         ✕
       </button>
       <div className="pop-head">
-        <div className="pic emoji">{entry.emoji ?? "🔤"}</div>
+        <div className="pic emoji">
+          {entry.image?.type === "svg" ? <Illustration id={entry.image.id} /> : (entry.emoji ?? "🔤")}
+        </div>
         <div>
           <div className="word">
             {isNoun ? (
@@ -187,6 +190,7 @@ export function WordPopover() {
                 : entry.de.split("→")[0].replace(/\s*\(.*\)$/, "").trim(),
             en: entry.en,
             emoji: entry.emoji ?? "🔤",
+            image: entry.image?.type === "svg" ? entry.image.id : undefined,
             sentence: pop.sentence ?? "",
             href: grammarHref(lesson.level, lesson.id, progress.stepIndex),
           }}

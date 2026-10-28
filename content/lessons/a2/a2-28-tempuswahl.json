@@ -9,49 +9,357 @@
     "wordExplorePoints": 8,
     "hintCost": 1,
     "tipPoints": 1,
-    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
   },
   "id": "a2-28-tempuswahl",
   "level": "A2",
   "unit": "Kapitel 28",
   "chapter": 28,
-  "chapters": [28],
+  "chapters": [
+    28
+  ],
   "title": "Gestern hatte ich Durst und habe Saft getrunken",
   "subtitle": "Choosing the tense",
   "glossary": {
-    "zustand": { "de": "Zustand", "pos": "noun", "en": "state", "emoji": "🏥", "article": "der", "plural": "die Zustände" },
-    "oder": { "de": "oder", "pos": "conjunction", "en": "or", "emoji": "🏥" },
-    "handlung": { "de": "Handlung", "pos": "noun", "en": "action, event", "emoji": "🏥", "article": "die", "plural": "die Handlungen" },
-    "gestern": { "de": "gestern", "pos": "adverb", "en": "yesterday", "emoji": "🏥" },
-    "hatte": { "de": "hatte", "pos": "form", "en": "had. Spoken past of haben for a state: ich hatte Durst.", "emoji": "🏥" },
-    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🏥" },
-    "durst": { "de": "Durst", "pos": "noun", "en": "thirst. haben, not sein: ich hatte Durst.", "emoji": "🏥", "article": "der" },
-    "und": { "de": "und", "pos": "conjunction", "en": "and. The same subject is not repeated.", "emoji": "🏥" },
-    "habe": { "de": "habe", "pos": "form", "en": "have (ich). Auxiliary for a finished action: ich habe getrunken.", "emoji": "🏥" },
-    "saft": { "de": "Saft", "pos": "noun", "en": "juice", "emoji": "🏥", "article": "der", "plural": "die Säfte" },
-    "getrunken": { "de": "getrunken", "pos": "participle", "en": "drunk. trinken → getrunken. Auxiliary: haben.", "emoji": "🏥" },
-    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🏥" },
-    "patient": { "de": "Patient", "pos": "noun", "en": "patient (male)", "emoji": "🏥", "article": "der", "plural": "die Patienten" },
-    "war": { "de": "war", "pos": "form", "en": "was. Spoken past of sein for a state: er war müde. The Perfekt is ist gewesen.", "emoji": "🏥" },
-    "müde": { "de": "müde", "pos": "adjective", "en": "tired. With sein: er war müde.", "emoji": "🏥" },
-    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
-    "hat": { "de": "hat", "pos": "form", "en": "has (er/sie/es). Auxiliary for a finished action.", "emoji": "🏥" },
-    "schlecht": { "de": "schlecht", "pos": "adverb", "en": "badly", "emoji": "🏥" },
-    "geschlafen": { "de": "geschlafen", "pos": "participle", "en": "slept. schlafen → geschlafen. Auxiliary: haben.", "emoji": "🏥" },
-    "konnte": { "de": "konnte", "pos": "form", "en": "could. Modal past. Not gekonnt when another verb is there.", "emoji": "🏥" },
-    "nicht": { "de": "nicht", "pos": "adverb", "en": "not", "emoji": "🏥" },
-    "aufstehen": { "de": "aufstehen", "pos": "verb", "en": "to get up. After konnte: infinitive. The event is ist aufgestanden.", "emoji": "🏥" },
-    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🏥" },
-    "pflegekraft": { "de": "Pflegekraft", "pos": "noun", "en": "nurse", "emoji": "🏥", "article": "die", "plural": "die Pflegekräfte" },
-    "fieber": { "de": "Fieber", "pos": "noun", "en": "fever", "emoji": "🏥", "article": "das" },
-    "gemessen": { "de": "gemessen", "pos": "participle", "en": "measured. messen → gemessen. Auxiliary: haben.", "emoji": "🏥" },
-    "ist": { "de": "ist", "pos": "form", "en": "is; has (er/sie/es) with sein. Er ist geblieben.", "emoji": "🏥" },
-    "im": { "de": "im", "pos": "contraction", "en": "in the. in + dem: im Bett.", "emoji": "🏥" },
-    "bett": { "de": "Bett", "pos": "noun", "en": "bed", "emoji": "🏥", "article": "das", "plural": "die Betten" },
-    "geblieben": { "de": "geblieben", "pos": "participle", "en": "stayed. bleiben → geblieben. Auxiliary: sein.", "emoji": "🏥" },
-    "notiz": { "de": "Notiz", "pos": "noun", "en": "note", "emoji": "🏥", "article": "die", "plural": "die Notizen" },
-    "von": { "de": "von", "pos": "preposition", "en": "from, of", "emoji": "🏥" },
-    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🏥" }
+    "zustand": {
+      "de": "Zustand",
+      "pos": "noun",
+      "en": "state",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Zustände"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or",
+      "emoji": "🏥"
+    },
+    "handlung": {
+      "de": "Handlung",
+      "pos": "noun",
+      "en": "action, event",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Handlungen"
+    },
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday",
+      "emoji": "🏥"
+    },
+    "hatte": {
+      "de": "hatte",
+      "pos": "form",
+      "en": "had. Spoken past of haben for a state: ich hatte Durst.",
+      "emoji": "🏥"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🏥"
+    },
+    "durst": {
+      "de": "Durst",
+      "pos": "noun",
+      "en": "thirst. haben, not sein: ich hatte Durst.",
+      "emoji": "🏥",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "juice"
+      }
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and. The same subject is not repeated.",
+      "emoji": "🏥"
+    },
+    "habe": {
+      "de": "habe",
+      "pos": "form",
+      "en": "have (ich). Auxiliary for a finished action: ich habe getrunken.",
+      "emoji": "🏥"
+    },
+    "saft": {
+      "de": "Saft",
+      "pos": "noun",
+      "en": "juice",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Säfte",
+      "image": {
+        "type": "svg",
+        "id": "juice"
+      }
+    },
+    "getrunken": {
+      "de": "getrunken",
+      "pos": "participle",
+      "en": "drunk. trinken → getrunken. Auxiliary: haben.",
+      "emoji": "🏥"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)",
+      "emoji": "🏥"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "war": {
+      "de": "war",
+      "pos": "form",
+      "en": "was. Spoken past of sein for a state: er war müde. The Perfekt is ist gewesen.",
+      "emoji": "🏥"
+    },
+    "müde": {
+      "de": "müde",
+      "pos": "adjective",
+      "en": "tired. With sein: er war müde.",
+      "emoji": "🏥"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "🏥"
+    },
+    "hat": {
+      "de": "hat",
+      "pos": "form",
+      "en": "has (er/sie/es). Auxiliary for a finished action.",
+      "emoji": "🏥"
+    },
+    "schlecht": {
+      "de": "schlecht",
+      "pos": "adverb",
+      "en": "badly",
+      "emoji": "🏥"
+    },
+    "geschlafen": {
+      "de": "geschlafen",
+      "pos": "participle",
+      "en": "slept. schlafen → geschlafen. Auxiliary: haben.",
+      "emoji": "🏥"
+    },
+    "konnte": {
+      "de": "konnte",
+      "pos": "form",
+      "en": "could. Modal past. Not gekonnt when another verb is there.",
+      "emoji": "🏥"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "adverb",
+      "en": "not",
+      "emoji": "🏥"
+    },
+    "aufstehen": {
+      "de": "aufstehen",
+      "pos": "verb",
+      "en": "to get up. After konnte: infinitive. The event is ist aufgestanden.",
+      "emoji": "🏥"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🏥"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🏥",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "gemessen": {
+      "de": "gemessen",
+      "pos": "participle",
+      "en": "measured. messen → gemessen. Auxiliary: haben.",
+      "emoji": "🏥"
+    },
+    "ist": {
+      "de": "ist",
+      "pos": "form",
+      "en": "is; has (er/sie/es) with sein. Er ist geblieben.",
+      "emoji": "🏥"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in the. in + dem: im Bett.",
+      "emoji": "🏥"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Betten",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "geblieben": {
+      "de": "geblieben",
+      "pos": "participle",
+      "en": "stayed. bleiben → geblieben. Auxiliary: sein.",
+      "emoji": "🏥"
+    },
+    "notiz": {
+      "de": "Notiz",
+      "pos": "noun",
+      "en": "note",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Notizen"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from, of",
+      "emoji": "🏥"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna",
+      "emoji": "🏥"
+    },
+    "sessel": {
+      "de": "Sessel",
+      "pos": "noun",
+      "en": "the armchair",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Sessel",
+      "image": {
+        "type": "svg",
+        "id": "chair"
+      }
+    },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "the thermometer",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Thermometer",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "besucher": {
+      "de": "Besucher",
+      "pos": "noun",
+      "en": "the visitor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Besucher",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "the monitor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Monitore",
+      "image": {
+        "type": "svg",
+        "id": "monitor"
+      }
+    },
+    "pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "the plaster",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Pflaster",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "kind": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "the child",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Kinder",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "nachtschwester": {
+      "de": "Nachtschwester",
+      "pos": "noun",
+      "en": "night nurse",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Nachtschwestern",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "puls": {
+      "de": "Puls",
+      "pos": "noun",
+      "en": "pulse",
+      "emoji": "🏥",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "monitor"
+      }
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine)",
+      "emoji": "🏥"
+    }
   },
   "steps": [
     {
@@ -60,24 +368,156 @@
       "label": "Start",
       "title": "State, then what happened",
       "learn": [
-        "A progress note uses two pasts. A state with sein or haben takes the Präteritum: war, hatte. Ich hatte Durst. Der Patient war müde.",
+        "A progress note uses two pasts. A state with sein or haben takes the Präteritum: war, hatte. Ich hatte Durst. Der Besucher war müde.",
         "A finished action takes the Perfekt. trinken, schlafen and messen take haben: habe getrunken, hat geschlafen, hat gemessen.",
         "bleiben and the event aufstehen take sein: ist geblieben, ist aufgestanden. A modal stays Präteritum: konnte nicht aufstehen.",
         "One sentence can mix them. Gestern hatte ich Durst und habe Saft getrunken. After und, ich is not repeated."
       ],
       "minutes": 25,
       "vocab": [
-        { "de": "Durst", "article": "der", "en": "thirst", "emoji": "🥤", "glossaryKey": "durst" },
-        { "de": "Saft", "article": "der", "plural": "die Säfte", "en": "juice", "emoji": "🧃", "glossaryKey": "saft" },
-        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "glossaryKey": "bett" },
-        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "glossaryKey": "fieber" },
-        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🧑🏽", "glossaryKey": "patient" },
-        { "de": "Notiz", "article": "die", "plural": "die Notizen", "en": "note", "emoji": "📝", "glossaryKey": "notiz" }
+        {
+          "de": "Durst",
+          "article": "der",
+          "en": "thirst",
+          "emoji": "🥤",
+          "glossaryKey": "durst",
+          "image": {
+            "type": "svg",
+            "id": "juice"
+          }
+        },
+        {
+          "de": "Saft",
+          "article": "der",
+          "plural": "die Säfte",
+          "en": "juice",
+          "emoji": "🧃",
+          "glossaryKey": "saft",
+          "image": {
+            "type": "svg",
+            "id": "juice"
+          }
+        },
+        {
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "emoji": "🛏️",
+          "glossaryKey": "bett",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          }
+        },
+        {
+          "de": "Fieber",
+          "article": "das",
+          "en": "fever",
+          "emoji": "🌡️",
+          "glossaryKey": "fieber",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          }
+        },
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient (male)",
+          "emoji": "🧑🏽",
+          "glossaryKey": "patient",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          }
+        },
+        {
+          "de": "Notiz",
+          "article": "die",
+          "plural": "die Notizen",
+          "en": "note",
+          "emoji": "📝",
+          "glossaryKey": "notiz"
+        },
+        {
+          "de": "Sessel",
+          "article": "der",
+          "plural": "die Sessel",
+          "en": "the armchair",
+          "emoji": "🏥",
+          "glossaryKey": "sessel",
+          "image": {
+            "type": "svg",
+            "id": "chair"
+          }
+        },
+        {
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer",
+          "emoji": "🏥",
+          "glossaryKey": "thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          }
+        },
+        {
+          "de": "Besucher",
+          "article": "der",
+          "plural": "die Besucher",
+          "en": "the visitor",
+          "emoji": "🏥",
+          "glossaryKey": "besucher",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          }
+        },
+        {
+          "de": "Monitor",
+          "article": "der",
+          "plural": "die Monitore",
+          "en": "the monitor",
+          "emoji": "🏥",
+          "glossaryKey": "monitor",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          }
+        },
+        {
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster",
+          "emoji": "🏥",
+          "glossaryKey": "pflaster",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          }
+        },
+        {
+          "de": "Kind",
+          "article": "das",
+          "plural": "die Kinder",
+          "en": "the child",
+          "emoji": "🏥",
+          "glossaryKey": "kind",
+          "image": {
+            "type": "svg",
+            "id": "child"
+          }
+        }
       ],
       "text": {
         "title": "Zustand oder Handlung?",
-        "de": "Gestern hatte ich Durst und habe Saft getrunken. Der Patient war müde. Er hat schlecht geschlafen. Er konnte nicht aufstehen. Die Pflegekraft hat Fieber gemessen. Er ist im Bett geblieben.",
-        "en": "Yesterday I was thirsty and I drank juice. The patient was tired. He slept badly. He could not get up. The nurse measured the fever. He stayed in bed."
+        "de": "Gestern hatte ich Durst und habe Saft getrunken. Der Besucher war müde. Er hat schlecht geschlafen. Er konnte nicht aufstehen. Die Nachtschwester hat den Puls gemessen. Er ist im Sessel geblieben.",
+        "en": "Yesterday I was thirsty and I drank juice. The visitor was tired. He slept badly. He could not get up. The nurse measured the fever. He stayed in the armchair."
       }
     },
     {
@@ -90,10 +530,10 @@
       "heroImage": "clipboard",
       "story": [
         "Chapter 23 put <b>sein</b> and <b>haben</b> in the Präteritum for speech: <b>war</b>, <b>hatte</b>. Chapter 24 and 25 built the Perfekt for what happened. This note uses both.",
-        "A state takes <b>war</b> or <b>hatte</b>. <b>Der Patient war müde. Ich hatte Durst.</b> Durst uses haben, so not <b>war Durst</b>. müde uses sein, so not <b>hatte müde</b>.",
+        "A state takes <b>war</b> or <b>hatte</b>. <b>Der Besucher war müde. Ich hatte Durst.</b> Durst uses haben, so not <b>war Durst</b>. müde uses sein, so not <b>hatte müde</b>.",
         "<b>war</b> is not the Perfekt of sein. That form is <b>ist gewesen</b>. In this note a state stays <b>war</b> and <b>hatte</b>, not <b>ist gewesen</b> and not <b>habe gehabt</b>.",
-        "A finished action takes the Perfekt. <b>Ich habe Saft getrunken. Er hat schlecht geschlafen. Die Pflegekraft hat Fieber gemessen.</b> trinken, schlafen and messen take haben.",
-        "A change of place, and <b>bleiben</b>, take sein. <b>Er ist aufgestanden. Er ist im Bett geblieben.</b> Not hat geblieben.",
+        "A finished action takes the Perfekt. <b>Ich habe Saft getrunken. Er hat schlecht geschlafen. Die Nachtschwester hat den Puls gemessen.</b> trinken, schlafen and messen take haben.",
+        "A change of place, and <b>bleiben</b>, take sein. <b>Er ist aufgestanden. Er ist im Sessel geblieben.</b> Not hat geblieben.",
         "Modals stay in the Präteritum, as in chapter 27: <b>konnte, musste, wollte</b>. <b>Er konnte nicht aufstehen.</b> Not <b>hat aufstehen gekonnt</b>. After <b>und</b>, do not repeat the same subject: hatte ich Durst und habe Saft getrunken."
       ],
       "questionRule": "State: war or hatte. Action: Perfekt with haben, or sein for bleiben and aufstehen. Modal: konnte.",
@@ -101,46 +541,163 @@
         {
           "title": "Zustand: Präteritum",
           "caption": "Spoken past. war is not ist gewesen. hatte is not habe gehabt.",
-          "columns": ["Verb", "Form", "Notiz"],
+          "columns": [
+            "Verb",
+            "Form",
+            "Notiz"
+          ],
           "rows": [
-            { "label": "sein", "cells": ["sein", "war", "Der Patient war müde."], "highlight": true },
-            { "label": "haben", "cells": ["haben", "hatte", "Ich hatte Durst."], "highlight": true },
-            { "label": "können", "cells": ["können", "konnte", "Er konnte nicht aufstehen."] }
+            {
+              "label": "sein",
+              "cells": [
+                "sein",
+                "war",
+                "Der Besucher war müde."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "haben",
+              "cells": [
+                "haben",
+                "hatte",
+                "Ich hatte Durst."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "können",
+              "cells": [
+                "können",
+                "konnte",
+                "Er konnte nicht aufstehen."
+              ]
+            }
           ]
         },
         {
           "title": "Handlung: Perfekt",
           "caption": "haben for trinken, schlafen, messen. sein for bleiben and for the event aufstehen.",
-          "columns": ["Verb", "Perfekt", "Notiz"],
+          "columns": [
+            "Verb",
+            "Perfekt",
+            "Notiz"
+          ],
           "rows": [
-            { "label": "trinken", "cells": ["trinken", "habe getrunken", "Ich habe Saft getrunken."], "highlight": true },
-            { "label": "schlafen", "cells": ["schlafen", "hat geschlafen", "Er hat schlecht geschlafen."] },
-            { "label": "messen", "cells": ["messen", "hat gemessen", "Die Pflegekraft hat Fieber gemessen."] },
-            { "label": "bleiben", "cells": ["bleiben", "ist geblieben", "Er ist im Bett geblieben."], "highlight": true },
-            { "label": "aufstehen", "cells": ["aufstehen", "ist aufgestanden", "Er ist aufgestanden."] }
+            {
+              "label": "trinken",
+              "cells": [
+                "trinken",
+                "habe getrunken",
+                "Ich habe Saft getrunken."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "schlafen",
+              "cells": [
+                "schlafen",
+                "hat geschlafen",
+                "Er hat schlecht geschlafen."
+              ]
+            },
+            {
+              "label": "messen",
+              "cells": [
+                "messen",
+                "hat gemessen",
+                "Die Nachtschwester hat den Puls gemessen."
+              ]
+            },
+            {
+              "label": "bleiben",
+              "cells": [
+                "bleiben",
+                "ist geblieben",
+                "Er ist im Sessel geblieben."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "aufstehen",
+              "cells": [
+                "aufstehen",
+                "ist aufgestanden",
+                "Er ist aufgestanden."
+              ]
+            }
           ]
         },
         {
           "title": "Eine Notiz, zwei Tempora",
           "caption": "und joins the state and the action. The subject ich is said once.",
-          "columns": ["Teil", "Satz"],
+          "columns": [
+            "Teil",
+            "Satz"
+          ],
           "rows": [
-            { "label": "Zustand", "cells": ["Zustand", "Gestern hatte ich Durst"], "highlight": true },
-            { "label": "Handlung", "cells": ["Handlung", "und habe Saft getrunken."], "highlight": true }
+            {
+              "label": "Zustand",
+              "cells": [
+                "Zustand",
+                "Gestern hatte ich Durst"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Handlung",
+              "cells": [
+                "Handlung",
+                "und habe Saft getrunken."
+              ],
+              "highlight": true
+            }
           ]
         }
       ],
       "warning": {
         "title": "Four wrong choices",
         "items": [
-          { "de": "Gestern hatte ich Durst.", "en": "Durst takes hatte.", "tone": "ok" },
-          { "de": "Gestern war ich Durst.", "en": "war is for sein, not for Durst.", "tone": "stop" },
-          { "de": "Ich habe Saft getrunken.", "en": "trinken takes haben.", "tone": "ok" },
-          { "de": "Ich bin Saft getrunken.", "en": "Not sein.", "tone": "stop" },
-          { "de": "Er ist im Bett geblieben.", "en": "bleiben takes sein.", "tone": "ok" },
-          { "de": "Er hat im Bett geblieben.", "en": "Not haben.", "tone": "stop" },
-          { "de": "Er konnte nicht aufstehen.", "en": "A modal stays Präteritum.", "tone": "ok" },
-          { "de": "Er hat nicht aufstehen gekonnt.", "en": "Not gekonnt with a second verb.", "tone": "stop" }
+          {
+            "de": "Gestern hatte ich Durst.",
+            "en": "Durst takes hatte.",
+            "tone": "ok"
+          },
+          {
+            "de": "Gestern war ich Durst.",
+            "en": "war is for sein, not for Durst.",
+            "tone": "stop"
+          },
+          {
+            "de": "Ich habe Saft getrunken.",
+            "en": "trinken takes haben.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich bin Saft getrunken.",
+            "en": "Not sein.",
+            "tone": "stop"
+          },
+          {
+            "de": "Er ist im Sessel geblieben.",
+            "en": "bleiben takes sein.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er hat im Sessel geblieben.",
+            "en": "Not haben.",
+            "tone": "stop"
+          },
+          {
+            "de": "Er konnte nicht aufstehen.",
+            "en": "A modal stays Präteritum.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er hat nicht aufstehen gekonnt.",
+            "en": "Not gekonnt with a second verb.",
+            "tone": "stop"
+          }
         ],
         "tip": "Ask: is it a state, a modal, or a finished action? Then pick war/hatte, konnte, or the Perfekt."
       },
@@ -150,7 +707,11 @@
           "kind": "mc",
           "q": "Durst, ich → ?",
           "qEn": "State with haben.",
-          "options": ["hatte Durst", "war Durst", "habe Durst gehabt"],
+          "options": [
+            "hatte Durst",
+            "war Durst",
+            "habe Durst gehabt"
+          ],
           "answer": 0,
           "why": "hatte Durst.",
           "hint": "hatte."
@@ -159,7 +720,11 @@
           "kind": "mc",
           "q": "müde, er → ?",
           "qEn": "State with sein.",
-          "options": ["war müde", "hatte müde", "ist müde gewesen"],
+          "options": [
+            "war müde",
+            "hatte müde",
+            "ist müde gewesen"
+          ],
           "answer": 0,
           "why": "war müde.",
           "hint": "war."
@@ -168,7 +733,11 @@
           "kind": "mc",
           "q": "Saft trinken, ich → ?",
           "qEn": "Finished action. haben.",
-          "options": ["habe Saft getrunken", "bin Saft getrunken", "hatte Saft getrunken"],
+          "options": [
+            "habe Saft getrunken",
+            "bin Saft getrunken",
+            "hatte Saft getrunken"
+          ],
           "answer": 0,
           "why": "habe getrunken.",
           "hint": "habe getrunken."
@@ -177,7 +746,11 @@
           "kind": "mc",
           "q": "schlafen, er → ?",
           "qEn": "schlafen takes haben.",
-          "options": ["hat geschlafen", "ist geschlafen", "war geschlafen"],
+          "options": [
+            "hat geschlafen",
+            "ist geschlafen",
+            "war geschlafen"
+          ],
           "answer": 0,
           "why": "hat geschlafen.",
           "hint": "hat geschlafen."
@@ -186,7 +759,11 @@
           "kind": "mc",
           "q": "im Bett bleiben, er → ?",
           "qEn": "bleiben takes sein.",
-          "options": ["ist geblieben", "hat geblieben", "war geblieben"],
+          "options": [
+            "ist geblieben",
+            "hat geblieben",
+            "war geblieben"
+          ],
           "answer": 0,
           "why": "ist geblieben.",
           "hint": "ist geblieben."
@@ -195,7 +772,11 @@
           "kind": "mc",
           "q": "not able to get up → ?",
           "qEn": "Modal.",
-          "options": ["konnte nicht aufstehen", "hat nicht aufstehen gekonnt", "ist nicht aufstehen gekonnt"],
+          "options": [
+            "konnte nicht aufstehen",
+            "hat nicht aufstehen gekonnt",
+            "ist nicht aufstehen gekonnt"
+          ],
           "answer": 0,
           "why": "konnte nicht aufstehen.",
           "hint": "konnte."
@@ -210,12 +791,30 @@
       "type": "gapfill",
       "instructions": "The label names the state, the action, or the modal. Only that verb fits.",
       "chips": [
-        { "w": "hatte", "hint": "Durst → hatte." },
-        { "w": "habe", "hint": "trinken → habe getrunken." },
-        { "w": "war", "hint": "müde → war." },
-        { "w": "konnte", "hint": "Modal → konnte." },
-        { "w": "ist", "hint": "bleiben → ist geblieben." },
-        { "w": "hat", "hint": "messen → hat gemessen." }
+        {
+          "w": "hatte",
+          "hint": "Durst → hatte."
+        },
+        {
+          "w": "habe",
+          "hint": "trinken → habe getrunken."
+        },
+        {
+          "w": "war",
+          "hint": "müde → war."
+        },
+        {
+          "w": "konnte",
+          "hint": "Modal → konnte."
+        },
+        {
+          "w": "ist",
+          "hint": "bleiben → ist geblieben."
+        },
+        {
+          "w": "hat",
+          "hint": "messen → hat gemessen."
+        }
       ],
       "items": [
         {
@@ -240,7 +839,7 @@
           "before": "Zustand, sein: Der Patient",
           "after": "müde.",
           "answer": "war",
-          "en": "The patient was tired.",
+          "en": "The visitor was tired.",
           "why": "war müde.",
           "tip": "war, not hatte.",
           "hint": "war."
@@ -258,7 +857,7 @@
           "before": "bleiben: Er",
           "after": "im Bett geblieben.",
           "answer": "ist",
-          "en": "He stayed in bed.",
+          "en": "He stayed in the armchair.",
           "why": "ist geblieben.",
           "tip": "ist, not hat.",
           "hint": "ist."
@@ -285,8 +884,16 @@
         {
           "prompt": "Durst. Which past?",
           "options": [
-            { "emoji": "✅", "label": "hatte", "caption": "Durst uses haben." },
-            { "emoji": "↩️", "label": "war", "caption": "war is for sein." }
+            {
+              "emoji": "✅",
+              "label": "hatte",
+              "caption": "Durst uses haben."
+            },
+            {
+              "emoji": "↩️",
+              "label": "war",
+              "caption": "war is for sein."
+            }
           ],
           "answer": 0,
           "why": "hatte.",
@@ -295,8 +902,16 @@
         {
           "prompt": "müde. Which past?",
           "options": [
-            { "emoji": "✅", "label": "war", "caption": "müde uses sein." },
-            { "emoji": "↩️", "label": "hatte", "caption": "Not haben." }
+            {
+              "emoji": "✅",
+              "label": "war",
+              "caption": "müde uses sein."
+            },
+            {
+              "emoji": "↩️",
+              "label": "hatte",
+              "caption": "Not haben."
+            }
           ],
           "answer": 0,
           "why": "war.",
@@ -305,8 +920,16 @@
         {
           "prompt": "Saft trinken. Which past?",
           "options": [
-            { "emoji": "✅", "label": "habe getrunken", "caption": "trinken takes haben." },
-            { "emoji": "↩️", "label": "bin getrunken", "caption": "Not sein." }
+            {
+              "emoji": "✅",
+              "label": "habe getrunken",
+              "caption": "trinken takes haben."
+            },
+            {
+              "emoji": "↩️",
+              "label": "bin getrunken",
+              "caption": "Not sein."
+            }
           ],
           "answer": 0,
           "why": "habe getrunken.",
@@ -315,8 +938,16 @@
         {
           "prompt": "bleiben. Which past?",
           "options": [
-            { "emoji": "✅", "label": "ist geblieben", "caption": "bleiben takes sein." },
-            { "emoji": "↩️", "label": "hat geblieben", "caption": "Not haben." }
+            {
+              "emoji": "✅",
+              "label": "ist geblieben",
+              "caption": "bleiben takes sein."
+            },
+            {
+              "emoji": "↩️",
+              "label": "hat geblieben",
+              "caption": "Not haben."
+            }
           ],
           "answer": 0,
           "why": "ist geblieben.",
@@ -325,8 +956,16 @@
         {
           "prompt": "schlafen. Which past?",
           "options": [
-            { "emoji": "✅", "label": "hat geschlafen", "caption": "schlafen takes haben." },
-            { "emoji": "↩️", "label": "ist geschlafen", "caption": "Not sein." }
+            {
+              "emoji": "✅",
+              "label": "hat geschlafen",
+              "caption": "schlafen takes haben."
+            },
+            {
+              "emoji": "↩️",
+              "label": "ist geschlafen",
+              "caption": "Not sein."
+            }
           ],
           "answer": 0,
           "why": "hat geschlafen.",
@@ -335,8 +974,16 @@
         {
           "prompt": "aufstehen, the event. Which past?",
           "options": [
-            { "emoji": "✅", "label": "ist aufgestanden", "caption": "The event takes sein." },
-            { "emoji": "↩️", "label": "hat aufgestanden", "caption": "Not haben." }
+            {
+              "emoji": "✅",
+              "label": "ist aufgestanden",
+              "caption": "The event takes sein."
+            },
+            {
+              "emoji": "↩️",
+              "label": "hat aufgestanden",
+              "caption": "Not haben."
+            }
           ],
           "answer": 0,
           "why": "ist aufgestanden.",
@@ -350,42 +997,102 @@
       "label": "Pictures",
       "title": "What the note mentions",
       "practice": "picture",
-      "instructions": "A hospital bed, a thermometer, a chart, a patient monitor.",
+      "instructions": "Juice, an armchair, a thermometer, a visitor, a monitor, a plaster, a child, a father.",
       "items": [
         {
-          "id": "bett",
-          "de": "Bett",
-          "article": "das",
-          "plural": "die Betten",
-          "en": "the bed he stayed in",
-          "image": { "type": "svg", "id": "bed" },
-          "hint": "das"
+          "id": "saft",
+          "de": "Saft",
+          "article": "der",
+          "plural": "die Säfte",
+          "en": "the juice",
+          "image": {
+            "type": "svg",
+            "id": "juice"
+          },
+          "hint": "der"
+        },
+        {
+          "id": "sessel",
+          "de": "Sessel",
+          "article": "der",
+          "plural": "die Sessel",
+          "en": "the armchair",
+          "image": {
+            "type": "svg",
+            "id": "chair"
+          },
+          "hint": "der"
         },
         {
           "id": "thermometer",
           "de": "Thermometer",
           "article": "das",
           "plural": "die Thermometer",
-          "en": "the thermometer from the fever check",
-          "image": { "type": "svg", "id": "thermometer" },
+          "en": "the thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
           "hint": "das"
         },
         {
-          "id": "akte",
-          "de": "Akte",
-          "article": "die",
-          "plural": "die Akten",
-          "en": "the chart with the progress note",
-          "image": { "type": "svg", "id": "clipboard" },
-          "hint": "die"
+          "id": "besucher",
+          "de": "Besucher",
+          "article": "der",
+          "plural": "die Besucher",
+          "en": "the visitor",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          },
+          "hint": "der"
         },
         {
           "id": "monitor",
           "de": "Monitor",
           "article": "der",
           "plural": "die Monitore",
-          "en": "the monitor by the bed",
-          "image": { "type": "svg", "id": "monitor" },
+          "en": "the monitor",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          },
+          "hint": "der"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "the plaster",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "das"
+        },
+        {
+          "id": "kind",
+          "de": "Kind",
+          "article": "das",
+          "plural": "die Kinder",
+          "en": "the child",
+          "image": {
+            "type": "svg",
+            "id": "child"
+          },
+          "hint": "das"
+        },
+        {
+          "id": "vater",
+          "de": "Vater",
+          "article": "der",
+          "plural": "die Väter",
+          "en": "the father",
+          "image": {
+            "type": "svg",
+            "id": "father"
+          },
           "hint": "der"
         }
       ]
@@ -399,48 +1106,90 @@
       "instructions": "Build the note. A participle or aufstehen is the last word. Durst also closes its sentence.",
       "items": [
         {
-          "tiles": ["Gestern", "hatte", "ich", "Durst"],
-          "answers": ["Gestern hatte ich Durst", "Ich hatte gestern Durst"],
+          "tiles": [
+            "Gestern",
+            "hatte",
+            "ich",
+            "Durst"
+          ],
+          "answers": [
+            "Gestern hatte ich Durst",
+            "Ich hatte gestern Durst"
+          ],
           "punct": ".",
           "modal": "hatte",
           "inf": "Durst",
           "question": false,
           "en": "Yesterday I was thirsty.",
           "hint": "Start with Gestern, or keep gestern in the middle.",
-          "feedback": { "end": "Durst closes the state: Gestern hatte ich Durst.", "fallback": "hatte stands in position 2: Gestern hatte ich Durst." }
+          "feedback": {
+            "end": "Durst closes the state: Gestern hatte ich Durst.",
+            "fallback": "hatte stands in position 2: Gestern hatte ich Durst."
+          }
         },
         {
-          "tiles": ["Ich", "habe", "Saft", "getrunken"],
-          "answers": ["Ich habe Saft getrunken"],
+          "tiles": [
+            "Ich",
+            "habe",
+            "Saft",
+            "getrunken"
+          ],
+          "answers": [
+            "Ich habe Saft getrunken"
+          ],
           "punct": ".",
           "modal": "habe",
           "inf": "getrunken",
           "question": false,
           "en": "I drank juice.",
           "hint": "getrunken last.",
-          "feedback": { "end": "The participle comes last: getrunken.", "fallback": "habe … getrunken." }
+          "feedback": {
+            "end": "The participle comes last: getrunken.",
+            "fallback": "habe … getrunken."
+          }
         },
         {
-          "tiles": ["Er", "ist", "im", "Bett", "geblieben"],
-          "answers": ["Er ist im Bett geblieben"],
+          "tiles": [
+            "Er",
+            "ist",
+            "im",
+            "Sessel",
+            "geblieben"
+          ],
+          "answers": [
+            "Er ist im Sessel geblieben"
+          ],
           "punct": ".",
           "modal": "ist",
           "inf": "geblieben",
           "question": false,
-          "en": "He stayed in bed.",
+          "en": "He stayed in the armchair.",
           "hint": "geblieben last.",
-          "feedback": { "end": "The participle comes last: geblieben.", "fallback": "ist … geblieben." }
+          "feedback": {
+            "end": "The participle comes last: geblieben.",
+            "fallback": "ist … geblieben."
+          }
         },
         {
-          "tiles": ["Er", "konnte", "nicht", "aufstehen"],
-          "answers": ["Er konnte nicht aufstehen"],
+          "tiles": [
+            "Er",
+            "konnte",
+            "nicht",
+            "aufstehen"
+          ],
+          "answers": [
+            "Er konnte nicht aufstehen"
+          ],
           "punct": ".",
           "modal": "konnte",
           "inf": "aufstehen",
           "question": false,
           "en": "He could not get up.",
           "hint": "aufstehen last.",
-          "feedback": { "end": "The infinitive comes last: aufstehen.", "fallback": "konnte nicht aufstehen." }
+          "feedback": {
+            "end": "The infinitive comes last: aufstehen.",
+            "fallback": "konnte nicht aufstehen."
+          }
         }
       ]
     },
@@ -452,12 +1201,30 @@
       "type": "gapfill",
       "instructions": "Write the past the progress note uses. A state becomes war or hatte. An action becomes the Perfekt.",
       "chips": [
-        { "w": "Gestern hatte ich Durst", "hint": "habe Durst → hatte Durst." },
-        { "w": "Ich habe Saft getrunken", "hint": "trinke → habe getrunken." },
-        { "w": "Der Patient war müde", "hint": "ist müde → war müde." },
-        { "w": "Er hat schlecht geschlafen", "hint": "schläft → hat geschlafen." },
-        { "w": "Er konnte nicht aufstehen", "hint": "kann → konnte." },
-        { "w": "Er ist im Bett geblieben", "hint": "bleibt → ist geblieben." }
+        {
+          "w": "Gestern hatte ich Durst",
+          "hint": "habe Durst → hatte Durst."
+        },
+        {
+          "w": "Ich habe Saft getrunken",
+          "hint": "trinke → habe getrunken."
+        },
+        {
+          "w": "Der Besucher war müde",
+          "hint": "ist müde → war müde."
+        },
+        {
+          "w": "Er hat schlecht geschlafen",
+          "hint": "schläft → hat geschlafen."
+        },
+        {
+          "w": "Er konnte nicht aufstehen",
+          "hint": "kann → konnte."
+        },
+        {
+          "w": "Er ist im Sessel geblieben",
+          "hint": "bleibt → ist geblieben."
+        }
       ],
       "items": [
         {
@@ -481,8 +1248,8 @@
         {
           "before": "Zustand, sein: Der Patient ist müde. →",
           "after": ".",
-          "answer": "Der Patient war müde",
-          "en": "The patient was tired.",
+          "answer": "Der Besucher war müde",
+          "en": "The visitor was tired.",
           "why": "A state with sein becomes war, not ist gewesen.",
           "tip": "war.",
           "hint": "war."
@@ -508,8 +1275,8 @@
         {
           "before": "bleiben: Er bleibt im Bett. →",
           "after": ".",
-          "answer": "Er ist im Bett geblieben",
-          "en": "He stayed in bed.",
+          "answer": "Er ist im Sessel geblieben",
+          "en": "He stayed in the armchair.",
           "why": "bleiben takes sein.",
           "tip": "ist geblieben.",
           "hint": "geblieben."
@@ -525,45 +1292,93 @@
       "instructions": "The last line picks the wrong past for the note. Choose the correction.",
       "items": [
         {
-          "clues": ["Durst uses haben.", "A state is Präteritum.", "Gestern war ich Durst."],
-          "options": ["Gestern hatte ich Durst.", "Gestern war ich Durst.", "Gestern habe ich Durst gehabt."],
+          "clues": [
+            "Durst uses haben.",
+            "A state is Präteritum.",
+            "Gestern war ich Durst."
+          ],
+          "options": [
+            "Gestern hatte ich Durst.",
+            "Gestern war ich Durst.",
+            "Gestern habe ich Durst gehabt."
+          ],
           "answer": 0,
           "reveal": "Gestern hatte ich Durst.",
           "hint": "hatte."
         },
         {
-          "clues": ["trinken takes haben.", "The participle is getrunken.", "Ich bin Saft getrunken."],
-          "options": ["Ich habe Saft getrunken.", "Ich bin Saft getrunken.", "Ich hatte Saft getrunken."],
+          "clues": [
+            "trinken takes haben.",
+            "The participle is getrunken.",
+            "Ich bin Saft getrunken."
+          ],
+          "options": [
+            "Ich habe Saft getrunken.",
+            "Ich bin Saft getrunken.",
+            "Ich hatte Saft getrunken."
+          ],
           "answer": 0,
           "reveal": "Ich habe Saft getrunken.",
           "hint": "habe getrunken."
         },
         {
-          "clues": ["bleiben takes sein.", "im Bett is the place.", "Er hat im Bett geblieben."],
-          "options": ["Er ist im Bett geblieben.", "Er hat im Bett geblieben.", "Er war im Bett geblieben."],
+          "clues": [
+            "bleiben takes sein.",
+            "im Bett is the place.",
+            "Er hat im Sessel geblieben."
+          ],
+          "options": [
+            "Er ist im Sessel geblieben.",
+            "Er hat im Sessel geblieben.",
+            "Er war im Bett geblieben."
+          ],
           "answer": 0,
-          "reveal": "Er ist im Bett geblieben.",
+          "reveal": "Er ist im Sessel geblieben.",
           "hint": "ist geblieben."
         },
         {
-          "clues": ["schlafen takes haben.", "Not sein.", "Er ist schlecht geschlafen."],
-          "options": ["Er hat schlecht geschlafen.", "Er ist schlecht geschlafen.", "Er war schlecht geschlafen."],
+          "clues": [
+            "schlafen takes haben.",
+            "Not sein.",
+            "Er ist schlecht geschlafen."
+          ],
+          "options": [
+            "Er hat schlecht geschlafen.",
+            "Er ist schlecht geschlafen.",
+            "Er war schlecht geschlafen."
+          ],
           "answer": 0,
           "reveal": "Er hat schlecht geschlafen.",
           "hint": "hat geschlafen."
         },
         {
-          "clues": ["A modal stays Präteritum.", "Not gekonnt.", "Er hat nicht aufstehen gekonnt."],
-          "options": ["Er konnte nicht aufstehen.", "Er hat nicht aufstehen gekonnt.", "Er ist nicht aufstehen gekonnt."],
+          "clues": [
+            "A modal stays Präteritum.",
+            "Not gekonnt.",
+            "Er hat nicht aufstehen gekonnt."
+          ],
+          "options": [
+            "Er konnte nicht aufstehen.",
+            "Er hat nicht aufstehen gekonnt.",
+            "Er ist nicht aufstehen gekonnt."
+          ],
           "answer": 0,
           "reveal": "Er konnte nicht aufstehen.",
           "hint": "konnte."
         },
         {
-          "clues": ["müde uses sein.", "A state is war.", "Der Patient hatte müde."],
-          "options": ["Der Patient war müde.", "Der Patient hatte müde.", "Der Patient ist müde gewesen."],
+          "clues": [
+            "müde uses sein.",
+            "A state is war.",
+            "Der Patient hatte müde."
+          ],
+          "options": [
+            "Der Besucher war müde.",
+            "Der Patient hatte müde.",
+            "Der Patient ist müde gewesen."
+          ],
           "answer": 0,
-          "reveal": "Der Patient war müde.",
+          "reveal": "Der Besucher war müde.",
           "hint": "war."
         }
       ]
@@ -576,12 +1391,30 @@
       "type": "gapfill",
       "instructions": "The label names the meaning. Add war, hatte, konnte, or the Perfekt auxiliary.",
       "chips": [
-        { "w": "hatte", "hint": "Durst." },
-        { "w": "habe", "hint": "trinken." },
-        { "w": "war", "hint": "müde." },
-        { "w": "hat", "hint": "schlafen." },
-        { "w": "konnte", "hint": "Modal." },
-        { "w": "ist", "hint": "bleiben." }
+        {
+          "w": "hatte",
+          "hint": "Durst."
+        },
+        {
+          "w": "habe",
+          "hint": "trinken."
+        },
+        {
+          "w": "war",
+          "hint": "müde."
+        },
+        {
+          "w": "hat",
+          "hint": "schlafen."
+        },
+        {
+          "w": "konnte",
+          "hint": "Modal."
+        },
+        {
+          "w": "ist",
+          "hint": "bleiben."
+        }
       ],
       "items": [
         {
@@ -608,7 +1441,7 @@
           "before": "Pflegekraft, sein: Der Patient",
           "after": "müde.",
           "answer": "war",
-          "en": "The patient was tired.",
+          "en": "The visitor was tired.",
           "why": "war.",
           "tip": "war.",
           "hint": "war.",
@@ -638,7 +1471,7 @@
           "before": "Pflegekraft, bleiben: Er",
           "after": "im Bett geblieben.",
           "answer": "ist",
-          "en": "He stayed in bed.",
+          "en": "He stayed in the armchair.",
           "why": "ist.",
           "tip": "ist.",
           "hint": "ist.",
@@ -654,12 +1487,30 @@
       "type": "gapfill",
       "instructions": "The label names the meaning. Choose the whole past the note would write.",
       "chips": [
-        { "w": "Gestern hatte ich Durst", "hint": "State, haben." },
-        { "w": "Ich habe Saft getrunken", "hint": "Action, haben." },
-        { "w": "Der Patient war müde", "hint": "State, sein." },
-        { "w": "Er hat schlecht geschlafen", "hint": "schlafen takes haben." },
-        { "w": "Er konnte nicht aufstehen", "hint": "Modal." },
-        { "w": "Er ist im Bett geblieben", "hint": "bleiben takes sein." }
+        {
+          "w": "Gestern hatte ich Durst",
+          "hint": "State, haben."
+        },
+        {
+          "w": "Ich habe Saft getrunken",
+          "hint": "Action, haben."
+        },
+        {
+          "w": "Der Besucher war müde",
+          "hint": "State, sein."
+        },
+        {
+          "w": "Er hat schlecht geschlafen",
+          "hint": "schlafen takes haben."
+        },
+        {
+          "w": "Er konnte nicht aufstehen",
+          "hint": "Modal."
+        },
+        {
+          "w": "Er ist im Sessel geblieben",
+          "hint": "bleiben takes sein."
+        }
       ],
       "items": [
         {
@@ -683,8 +1534,8 @@
         {
           "before": "Zustand, sein:",
           "after": ".",
-          "answer": "Der Patient war müde",
-          "en": "The patient was tired.",
+          "answer": "Der Besucher war müde",
+          "en": "The visitor was tired.",
           "why": "war.",
           "tip": "war.",
           "hint": "war."
@@ -710,8 +1561,8 @@
         {
           "before": "bleiben:",
           "after": ".",
-          "answer": "Er ist im Bett geblieben",
-          "en": "He stayed in bed.",
+          "answer": "Er ist im Sessel geblieben",
+          "en": "He stayed in the armchair.",
           "why": "ist geblieben.",
           "tip": "geblieben.",
           "hint": "geblieben."
@@ -730,7 +1581,7 @@
         "title": "Die Notiz von gestern",
         "paragraphs": [
           "Gestern hatte der Patient Durst und hat Saft getrunken. Er war müde und hat schlecht geschlafen.",
-          "Er konnte nicht aufstehen. Die Pflegekraft hat Fieber gemessen. Er ist im Bett geblieben."
+          "Er konnte nicht aufstehen. Die Nachtschwester hat den Puls gemessen. Er ist im Sessel geblieben."
         ],
         "signature": "Anna",
         "stamp": "Verlauf"
@@ -740,7 +1591,11 @@
           "kind": "mc",
           "q": "Was hatte der Patient gestern?",
           "qEn": "Durst.",
-          "options": ["Durst", "Saft", "Fieber"],
+          "options": [
+            "Durst",
+            "Saft",
+            "Fieber"
+          ],
           "answer": 0,
           "why": "Er hatte Durst.",
           "hint": "hatte."
@@ -749,7 +1604,11 @@
           "kind": "mc",
           "q": "Was hat der Patient getrunken?",
           "qEn": "Saft.",
-          "options": ["Saft", "Wasser", "die Suppe"],
+          "options": [
+            "Saft",
+            "Wasser",
+            "die Suppe"
+          ],
           "answer": 0,
           "why": "Saft.",
           "hint": "getrunken."
@@ -758,7 +1617,11 @@
           "kind": "mc",
           "q": "Was konnte der Patient nicht?",
           "qEn": "aufstehen.",
-          "options": ["aufstehen", "schlafen", "trinken"],
+          "options": [
+            "aufstehen",
+            "schlafen",
+            "trinken"
+          ],
           "answer": 0,
           "why": "Er konnte nicht aufstehen.",
           "hint": "konnte."
@@ -767,7 +1630,11 @@
           "kind": "mc",
           "q": "Wo ist der Patient geblieben?",
           "qEn": "im Bett.",
-          "options": ["im Bett", "auf Station", "in der Radiologie"],
+          "options": [
+            "im Bett",
+            "auf Station",
+            "in der Radiologie"
+          ],
           "answer": 0,
           "why": "im Bett.",
           "hint": "geblieben."
@@ -781,16 +1648,45 @@
       "title": "The progress note",
       "practice": "writing",
       "instructions": "Write the note. A state uses war or hatte. An action uses the Perfekt.",
-      "prompt": "Yesterday I was thirsty and drank juice. The patient was tired. He stayed in bed.",
-      "bullets": ["hatte", "getrunken", "war", "geblieben"],
-      "model": "Gestern hatte ich Durst und habe Saft getrunken. Der Patient war müde. Er ist im Bett geblieben.",
-      "modelEn": "Yesterday I was thirsty and I drank juice. The patient was tired. He stayed in bed.",
+      "prompt": "Yesterday I was thirsty and drank juice. The visitor was tired. He stayed in the armchair.",
+      "bullets": [
+        "hatte",
+        "getrunken",
+        "war",
+        "geblieben"
+      ],
+      "model": "Gestern hatte ich Durst und habe Saft getrunken. Der Besucher war müde. Er ist im Sessel geblieben.",
+      "modelEn": "Yesterday I was thirsty and I drank juice. The visitor was tired. He stayed in the armchair.",
       "hint": "hatte, getrunken, war, geblieben.",
       "checklist": [
-        { "id": "h", "label": "hatte", "keywords": ["hatte"] },
-        { "id": "g", "label": "getrunken", "keywords": ["getrunken"] },
-        { "id": "w", "label": "war", "keywords": ["war"] },
-        { "id": "b", "label": "geblieben", "keywords": ["geblieben"] }
+        {
+          "id": "h",
+          "label": "hatte",
+          "keywords": [
+            "hatte"
+          ]
+        },
+        {
+          "id": "g",
+          "label": "getrunken",
+          "keywords": [
+            "getrunken"
+          ]
+        },
+        {
+          "id": "w",
+          "label": "war",
+          "keywords": [
+            "war"
+          ]
+        },
+        {
+          "id": "b",
+          "label": "geblieben",
+          "keywords": [
+            "geblieben"
+          ]
+        }
       ]
     },
     {
@@ -801,7 +1697,9 @@
       "practice": "lernkontrolle",
       "heroTitle": "Zustand oder Handlung?",
       "heroImage": "bed",
-      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "story": [
+        "Twelve questions. Eighty percent mastered means at least ten correct."
+      ],
       "questionRule": "State: war or hatte. Action: Perfekt. Modal: konnte.",
       "quizTitle": "Lernkontrolle",
       "quiz": [
@@ -809,7 +1707,11 @@
           "kind": "mc",
           "q": "Durst, ich → ?",
           "qEn": "State.",
-          "options": ["hatte Durst", "war Durst", "habe Durst gehabt"],
+          "options": [
+            "hatte Durst",
+            "war Durst",
+            "habe Durst gehabt"
+          ],
           "answer": 0,
           "why": "hatte Durst.",
           "hint": "hatte."
@@ -818,7 +1720,11 @@
           "kind": "mc",
           "q": "müde, er → ?",
           "qEn": "State.",
-          "options": ["war müde", "hatte müde", "ist müde gewesen"],
+          "options": [
+            "war müde",
+            "hatte müde",
+            "ist müde gewesen"
+          ],
           "answer": 0,
           "why": "war müde.",
           "hint": "war."
@@ -827,7 +1733,11 @@
           "kind": "mc",
           "q": "Saft trinken → ?",
           "qEn": "Action.",
-          "options": ["habe Saft getrunken", "bin Saft getrunken", "hatte Saft getrunken"],
+          "options": [
+            "habe Saft getrunken",
+            "bin Saft getrunken",
+            "hatte Saft getrunken"
+          ],
           "answer": 0,
           "why": "habe getrunken.",
           "hint": "getrunken."
@@ -836,7 +1746,11 @@
           "kind": "mc",
           "q": "schlafen → ?",
           "qEn": "haben.",
-          "options": ["hat geschlafen", "ist geschlafen", "war geschlafen"],
+          "options": [
+            "hat geschlafen",
+            "ist geschlafen",
+            "war geschlafen"
+          ],
           "answer": 0,
           "why": "hat geschlafen.",
           "hint": "geschlafen."
@@ -845,7 +1759,11 @@
           "kind": "mc",
           "q": "bleiben → ?",
           "qEn": "sein.",
-          "options": ["ist geblieben", "hat geblieben", "war geblieben"],
+          "options": [
+            "ist geblieben",
+            "hat geblieben",
+            "war geblieben"
+          ],
           "answer": 0,
           "why": "ist geblieben.",
           "hint": "geblieben."
@@ -854,7 +1772,11 @@
           "kind": "mc",
           "q": "He got up.",
           "qEn": "The event, not the modal.",
-          "options": ["Er ist aufgestanden.", "Er hat aufgestanden.", "Er war aufgestanden."],
+          "options": [
+            "Er ist aufgestanden.",
+            "Er hat aufgestanden.",
+            "Er war aufgestanden."
+          ],
           "answer": 0,
           "why": "Er ist aufgestanden.",
           "hint": "aufgestanden."
@@ -863,7 +1785,11 @@
           "kind": "mc",
           "q": "He was not able to get up.",
           "qEn": "Modal.",
-          "options": ["Er konnte nicht aufstehen.", "Er hat nicht aufstehen gekonnt.", "Er ist nicht aufstehen gekonnt."],
+          "options": [
+            "Er konnte nicht aufstehen.",
+            "Er hat nicht aufstehen gekonnt.",
+            "Er ist nicht aufstehen gekonnt."
+          ],
           "answer": 0,
           "why": "Er konnte nicht aufstehen.",
           "hint": "konnte."
@@ -872,7 +1798,11 @@
           "kind": "mc",
           "q": "Fieber messen → ?",
           "qEn": "haben.",
-          "options": ["hat gemessen", "ist gemessen", "hatte gemessen"],
+          "options": [
+            "hat gemessen",
+            "ist gemessen",
+            "hatte gemessen"
+          ],
           "answer": 0,
           "why": "hat gemessen.",
           "hint": "gemessen."
@@ -881,7 +1811,11 @@
           "kind": "mc",
           "q": "Thirsty, then drank juice.",
           "qEn": "State and action.",
-          "options": ["Gestern hatte ich Durst und habe Saft getrunken.", "Gestern war ich Durst und bin Saft getrunken.", "Gestern hatte ich Durst und bin Saft getrunken."],
+          "options": [
+            "Gestern hatte ich Durst und habe Saft getrunken.",
+            "Gestern war ich Durst und bin Saft getrunken.",
+            "Gestern hatte ich Durst und bin Saft getrunken."
+          ],
           "answer": 0,
           "why": "hatte … und habe getrunken.",
           "hint": "hatte und habe."
@@ -890,7 +1824,11 @@
           "kind": "mc",
           "q": "He could not sleep.",
           "qEn": "Modal, not gekonnt.",
-          "options": ["Er konnte nicht schlafen.", "Er hat nicht schlafen gekonnt.", "Er ist nicht schlafen gekonnt."],
+          "options": [
+            "Er konnte nicht schlafen.",
+            "Er hat nicht schlafen gekonnt.",
+            "Er ist nicht schlafen gekonnt."
+          ],
           "answer": 0,
           "why": "Er konnte nicht schlafen.",
           "hint": "konnte."
@@ -899,7 +1837,11 @@
           "kind": "mc",
           "q": "Durst, du → ?",
           "qEn": "du: hattest.",
-          "options": ["Du hattest Durst.", "Du warst Durst.", "Du hast Durst gehabt."],
+          "options": [
+            "Du hattest Durst.",
+            "Du warst Durst.",
+            "Du hast Durst gehabt."
+          ],
           "answer": 0,
           "why": "Du hattest Durst.",
           "hint": "hattest."
@@ -908,7 +1850,11 @@
           "kind": "mc",
           "q": "müde, wir → ?",
           "qEn": "wir: waren.",
-          "options": ["Wir waren müde.", "Wir hatten müde.", "Wir sind müde gewesen."],
+          "options": [
+            "Wir waren müde.",
+            "Wir hatten müde.",
+            "Wir sind müde gewesen."
+          ],
           "answer": 0,
           "why": "Wir waren müde.",
           "hint": "waren."
@@ -922,10 +1868,22 @@
       "title": "hatte Durst, habe getrunken",
       "reviewStepType": "grammar",
       "redemittel": [
-        { "de": "Gestern hatte ich Durst und habe Saft getrunken.", "en": "Yesterday I was thirsty and I drank juice." },
-        { "de": "Der Patient war müde.", "en": "The patient was tired." },
-        { "de": "Er konnte nicht aufstehen.", "en": "He could not get up." },
-        { "de": "Er ist im Bett geblieben.", "en": "He stayed in bed." }
+        {
+          "de": "Gestern hatte ich Durst und habe Saft getrunken.",
+          "en": "Yesterday I was thirsty and I drank juice."
+        },
+        {
+          "de": "Der Besucher war müde.",
+          "en": "The visitor was tired."
+        },
+        {
+          "de": "Er konnte nicht aufstehen.",
+          "en": "He could not get up."
+        },
+        {
+          "de": "Er ist im Sessel geblieben.",
+          "en": "He stayed in the armchair."
+        }
       ],
       "messages": [
         "Look again at war, hatte, and the Perfekt.",

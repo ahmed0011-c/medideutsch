@@ -9,49 +9,351 @@
     "wordExplorePoints": 8,
     "hintCost": 1,
     "tipPoints": 1,
-    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
   },
   "id": "a2-27-modal-praeteritum",
   "level": "A2",
   "unit": "Kapitel 27",
   "chapter": 27,
-  "chapters": [27],
+  "chapters": [
+    27
+  ],
   "title": "Ich konnte, ich musste, ich wollte",
   "subtitle": "Past of the modal verbs",
   "glossary": {
-    "wie": { "de": "wie", "pos": "adverb", "en": "how", "emoji": "🏥" },
-    "war": { "de": "war", "pos": "form", "en": "was. Past of sein: ich and er war.", "emoji": "🏥" },
-    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🏥" },
-    "nacht": { "de": "Nacht", "pos": "noun", "en": "night", "emoji": "🏥", "article": "die", "plural": "die Nächte" },
-    "letzte": { "de": "letzte", "pos": "adjective", "en": "last. Letzte Nacht = last night.", "emoji": "🏥" },
-    "konnte": { "de": "konnte", "pos": "form", "en": "could. können → konnte. ich, er and sie (she).", "emoji": "🏥" },
-    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🏥" },
-    "nicht": { "de": "nicht", "pos": "adverb", "en": "not. Negates the verb: nicht schlafen.", "emoji": "🏥" },
-    "schlafen": { "de": "schlafen", "pos": "verb", "en": "to sleep", "emoji": "🏥" },
-    "musste": { "de": "musste", "pos": "form", "en": "had to. müssen → musste. Not müsste.", "emoji": "🏥" },
-    "pflegekraft": { "de": "Pflegekraft", "pos": "noun", "en": "nurse", "emoji": "🏥", "article": "die", "plural": "die Pflegekräfte" },
-    "rufen": { "de": "rufen", "pos": "verb", "en": "to call", "emoji": "🏥" },
-    "wollte": { "de": "wollte", "pos": "form", "en": "wanted to. wollen → wollte.", "emoji": "🏥" },
-    "wasser": { "de": "Wasser", "pos": "noun", "en": "water", "emoji": "🏥", "article": "das" },
-    "trinken": { "de": "trinken", "pos": "verb", "en": "to drink", "emoji": "🏥" },
-    "vor": { "de": "vor", "pos": "preposition", "en": "before. vor + dative: vor der Operation.", "emoji": "🏥" },
-    "der": { "de": "der", "pos": "article", "en": "the (masculine nominative, or feminine dative)", "emoji": "🏥" },
-    "operation": { "de": "Operation", "pos": "noun", "en": "operation", "emoji": "🏥", "article": "die", "plural": "die Operationen" },
-    "durfte": { "de": "durfte", "pos": "form", "en": "was allowed to. dürfen → durfte. durfte nichts = was not allowed.", "emoji": "🏥" },
-    "nichts": { "de": "nichts", "pos": "pronoun", "en": "nothing. durfte nichts essen = was not allowed to eat.", "emoji": "🏥" },
-    "essen": { "de": "essen", "pos": "verb", "en": "to eat", "emoji": "🏥" },
-    "arzt": { "de": "Arzt", "pos": "noun", "en": "doctor (male)", "emoji": "🏥", "article": "der", "plural": "die Ärzte" },
-    "sollte": { "de": "sollte", "pos": "form", "en": "was supposed to. sollen → sollte.", "emoji": "🏥" },
-    "den": { "de": "den", "pos": "article", "en": "the (accusative masculine)", "emoji": "🏥" },
-    "befund": { "de": "Befund", "pos": "noun", "en": "finding, report", "emoji": "🏥", "article": "der", "plural": "die Befunde" },
-    "sehen": { "de": "sehen", "pos": "verb", "en": "to see", "emoji": "🏥" },
-    "mochte": { "de": "mochte", "pos": "form", "en": "liked. mögen → mochte. Not möchte.", "emoji": "🏥" },
-    "suppe": { "de": "Suppe", "pos": "noun", "en": "soup", "emoji": "🏥", "article": "die", "plural": "die Suppen" },
-    "auf": { "de": "auf", "pos": "preposition", "en": "on. auf Station = on the ward.", "emoji": "🏥" },
-    "station": { "de": "Station", "pos": "noun", "en": "ward", "emoji": "🏥", "article": "die", "plural": "die Stationen" },
-    "patient": { "de": "Patient", "pos": "noun", "en": "patient (male)", "emoji": "🏥", "article": "der", "plural": "die Patienten" },
-    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
-    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🏥" }
+    "wie": {
+      "de": "wie",
+      "pos": "adverb",
+      "en": "how",
+      "emoji": "🏥"
+    },
+    "war": {
+      "de": "war",
+      "pos": "form",
+      "en": "was. Past of sein: ich and er war.",
+      "emoji": "🏥"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🏥"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢"
+    },
+    "nacht": {
+      "de": "Nacht",
+      "pos": "noun",
+      "en": "night",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Nächte",
+      "image": {
+        "type": "svg",
+        "id": "calendar"
+      }
+    },
+    "letzte": {
+      "de": "letzte",
+      "pos": "adjective",
+      "en": "last. Letzte Nacht = last night.",
+      "emoji": "🏥"
+    },
+    "konnte": {
+      "de": "konnte",
+      "pos": "form",
+      "en": "could. können → konnte. ich, er and sie (she).",
+      "emoji": "🏥"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🏥"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "adverb",
+      "en": "not. Negates the verb: nicht schlafen.",
+      "emoji": "🏥"
+    },
+    "schlafen": {
+      "de": "schlafen",
+      "pos": "verb",
+      "en": "to sleep",
+      "emoji": "🏥"
+    },
+    "musste": {
+      "de": "musste",
+      "pos": "form",
+      "en": "had to. müssen → musste. Not müsste.",
+      "emoji": "🏥"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "rufen": {
+      "de": "rufen",
+      "pos": "verb",
+      "en": "to call",
+      "emoji": "🏥"
+    },
+    "wollte": {
+      "de": "wollte",
+      "pos": "form",
+      "en": "wanted to. wollen → wollte.",
+      "emoji": "🏥"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "emoji": "🏥",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "water"
+      }
+    },
+    "trinken": {
+      "de": "trinken",
+      "pos": "verb",
+      "en": "to drink",
+      "emoji": "🏥"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "before. vor + dative: vor der Operation.",
+      "emoji": "🏥"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative, or feminine dative)",
+      "emoji": "🏥"
+    },
+    "operation": {
+      "de": "Operation",
+      "pos": "noun",
+      "en": "operation",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Operationen"
+    },
+    "durfte": {
+      "de": "durfte",
+      "pos": "form",
+      "en": "was allowed to. dürfen → durfte. durfte nichts = was not allowed.",
+      "emoji": "🏥"
+    },
+    "nichts": {
+      "de": "nichts",
+      "pos": "pronoun",
+      "en": "nothing. durfte nichts essen = was not allowed to eat.",
+      "emoji": "🏥"
+    },
+    "essen": {
+      "de": "essen",
+      "pos": "verb",
+      "en": "to eat",
+      "emoji": "🏥"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Ärzte"
+    },
+    "sollte": {
+      "de": "sollte",
+      "pos": "form",
+      "en": "was supposed to. sollen → sollte.",
+      "emoji": "🏥"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine)",
+      "emoji": "🏥"
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding, report",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Befunde",
+      "image": {
+        "type": "svg",
+        "id": "clipboard"
+      }
+    },
+    "sehen": {
+      "de": "sehen",
+      "pos": "verb",
+      "en": "to see",
+      "emoji": "🏥"
+    },
+    "mochte": {
+      "de": "mochte",
+      "pos": "form",
+      "en": "liked. mögen → mochte. Not möchte.",
+      "emoji": "🏥"
+    },
+    "suppe": {
+      "de": "Suppe",
+      "pos": "noun",
+      "en": "soup",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Suppen",
+      "image": {
+        "type": "svg",
+        "id": "soup"
+      }
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on. auf Station = on the ward.",
+      "emoji": "🏥"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "🏥"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna",
+      "emoji": "🏥"
+    },
+    "hebamme": {
+      "de": "Hebamme",
+      "pos": "noun",
+      "en": "the midwife",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Hebammen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "milch": {
+      "de": "Milch",
+      "pos": "noun",
+      "en": "the milk",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Milch",
+      "image": {
+        "type": "svg",
+        "id": "milk"
+      }
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "the bed",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Betten",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "the monitor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Monitore",
+      "image": {
+        "type": "svg",
+        "id": "monitor"
+      }
+    },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "the thermometer",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Thermometer",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "oberarzt": {
+      "de": "Oberarzt",
+      "pos": "noun",
+      "en": "senior doctor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Oberärzte",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      }
+    },
+    "röntgenbild": {
+      "de": "Röntgenbild",
+      "pos": "noun",
+      "en": "X-ray",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Röntgenbilder",
+      "image": {
+        "type": "svg",
+        "id": "monitor"
+      }
+    }
   },
   "steps": [
     {
@@ -67,16 +369,149 @@
       ],
       "minutes": 25,
       "vocab": [
-        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🧑🏽", "glossaryKey": "patient" },
-        { "de": "Pflegekraft", "article": "die", "plural": "die Pflegekräfte", "en": "nurse", "emoji": "🩺", "glossaryKey": "pflegekraft" },
-        { "de": "Operation", "article": "die", "plural": "die Operationen", "en": "operation", "emoji": "🏥", "glossaryKey": "operation" },
-        { "de": "Befund", "article": "der", "plural": "die Befunde", "en": "finding, report", "emoji": "📄", "glossaryKey": "befund" },
-        { "de": "Suppe", "article": "die", "plural": "die Suppen", "en": "soup", "emoji": "🥣", "glossaryKey": "suppe" },
-        { "de": "Wasser", "article": "das", "en": "water", "emoji": "💧", "glossaryKey": "wasser" }
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient (male)",
+          "emoji": "🧑🏽",
+          "glossaryKey": "patient",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          }
+        },
+        {
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "nurse",
+          "emoji": "🩺",
+          "glossaryKey": "pflegekraft",
+          "image": {
+            "type": "svg",
+            "id": "nurse"
+          }
+        },
+        {
+          "de": "Operation",
+          "article": "die",
+          "plural": "die Operationen",
+          "en": "operation",
+          "emoji": "🏥",
+          "glossaryKey": "operation"
+        },
+        {
+          "de": "Befund",
+          "article": "der",
+          "plural": "die Befunde",
+          "en": "finding, report",
+          "emoji": "📄",
+          "glossaryKey": "befund",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          }
+        },
+        {
+          "de": "Suppe",
+          "article": "die",
+          "plural": "die Suppen",
+          "en": "soup",
+          "emoji": "🥣",
+          "glossaryKey": "suppe",
+          "image": {
+            "type": "svg",
+            "id": "soup"
+          }
+        },
+        {
+          "de": "Wasser",
+          "article": "das",
+          "en": "water",
+          "emoji": "💧",
+          "glossaryKey": "wasser",
+          "image": {
+            "type": "svg",
+            "id": "water"
+          }
+        },
+        {
+          "de": "Hebamme",
+          "article": "die",
+          "plural": "die Hebammen",
+          "en": "the midwife",
+          "emoji": "🏥",
+          "glossaryKey": "hebamme",
+          "image": {
+            "type": "svg",
+            "id": "nurse"
+          }
+        },
+        {
+          "de": "Milch",
+          "article": "die",
+          "plural": "die Milch",
+          "en": "the milk",
+          "emoji": "🏥",
+          "glossaryKey": "milch",
+          "image": {
+            "type": "svg",
+            "id": "milk"
+          }
+        },
+        {
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed",
+          "emoji": "🏥",
+          "glossaryKey": "bett",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          }
+        },
+        {
+          "de": "Monitor",
+          "article": "der",
+          "plural": "die Monitore",
+          "en": "the monitor",
+          "emoji": "🏥",
+          "glossaryKey": "monitor",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          }
+        },
+        {
+          "de": "Thermometer",
+          "article": "das",
+          "plural": "die Thermometer",
+          "en": "the thermometer",
+          "emoji": "🏥",
+          "glossaryKey": "thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          }
+        },
+        {
+          "de": "Nacht",
+          "article": "die",
+          "plural": "die Nächte",
+          "en": "the night",
+          "emoji": "🏥",
+          "glossaryKey": "nacht",
+          "image": {
+            "type": "svg",
+            "id": "calendar"
+          }
+        }
       ],
       "text": {
         "title": "Wie war die Nacht?",
-        "de": "Letzte Nacht konnte ich nicht schlafen. Ich musste die Pflegekraft rufen. Ich wollte Wasser trinken. Vor der Operation durfte ich nichts essen. Der Arzt sollte den Befund sehen. Ich mochte die Suppe nicht.",
+        "de": "Letzte Nacht konnte ich nicht schlafen. Ich musste die Hebamme rufen. Ich wollte Milch trinken. Vor der Operation durfte ich nichts essen. Der Oberarzt sollte das Röntgenbild sehen. Ich mochte die Suppe nicht.",
         "en": "Last night I could not sleep. I had to call the nurse. I wanted to drink water. Before the operation I was not allowed to eat anything. The doctor was supposed to see the report. I did not like the soup."
       }
     },
@@ -101,46 +536,181 @@
         {
           "title": "Umlaut weg, plus -te",
           "caption": "sie beside er means she. sie beside wir means they. Sie is formal you.",
-          "columns": ["Infinitiv", "ich / er / sie", "du", "wir / sie / Sie", "ihr"],
+          "columns": [
+            "Infinitiv",
+            "ich / er / sie",
+            "du",
+            "wir / sie / Sie",
+            "ihr"
+          ],
           "rows": [
-            { "label": "können", "cells": ["können", "konnte", "konntest", "konnten", "konntet"], "highlight": true },
-            { "label": "müssen", "cells": ["müssen", "musste", "musstest", "mussten", "musstet"], "highlight": true },
-            { "label": "dürfen", "cells": ["dürfen", "durfte", "durftest", "durften", "durftet"] },
-            { "label": "mögen", "cells": ["mögen", "mochte", "mochtest", "mochten", "mochtet"] }
+            {
+              "label": "können",
+              "cells": [
+                "können",
+                "konnte",
+                "konntest",
+                "konnten",
+                "konntet"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "müssen",
+              "cells": [
+                "müssen",
+                "musste",
+                "musstest",
+                "mussten",
+                "musstet"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "dürfen",
+              "cells": [
+                "dürfen",
+                "durfte",
+                "durftest",
+                "durften",
+                "durftet"
+              ]
+            },
+            {
+              "label": "mögen",
+              "cells": [
+                "mögen",
+                "mochte",
+                "mochtest",
+                "mochten",
+                "mochtet"
+              ]
+            }
           ]
         },
         {
           "title": "wollen und sollen",
           "caption": "will → wollte. soll → sollte. No umlaut to drop.",
-          "columns": ["Infinitiv", "ich / er / sie", "du", "wir / sie / Sie", "ihr"],
+          "columns": [
+            "Infinitiv",
+            "ich / er / sie",
+            "du",
+            "wir / sie / Sie",
+            "ihr"
+          ],
           "rows": [
-            { "label": "wollen", "cells": ["wollen", "wollte", "wolltest", "wollten", "wolltet"], "highlight": true },
-            { "label": "sollen", "cells": ["sollen", "sollte", "solltest", "sollten", "solltet"] }
+            {
+              "label": "wollen",
+              "cells": [
+                "wollen",
+                "wollte",
+                "wolltest",
+                "wollten",
+                "wolltet"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "sollen",
+              "cells": [
+                "sollen",
+                "sollte",
+                "solltest",
+                "sollten",
+                "solltet"
+              ]
+            }
           ]
         },
         {
           "title": "Die Nacht",
           "caption": "durfte nichts = not allowed. musste nichts would mean did not have to.",
-          "columns": ["Präteritum", "Bedeutung"],
+          "columns": [
+            "Präteritum",
+            "Bedeutung"
+          ],
           "rows": [
-            { "label": "schlafen", "cells": ["Er konnte nicht schlafen.", "could not sleep"], "highlight": true },
-            { "label": "rufen", "cells": ["Er musste die Pflegekraft rufen.", "had to call the nurse"], "highlight": true },
-            { "label": "trinken", "cells": ["Er wollte Wasser trinken.", "wanted to drink water"], "highlight": true },
-            { "label": "essen", "cells": ["Er durfte nichts essen.", "was not allowed to eat"] },
-            { "label": "sehen", "cells": ["Der Arzt sollte den Befund sehen.", "was supposed to see the report"] },
-            { "label": "suppe", "cells": ["Er mochte die Suppe nicht.", "did not like the soup"] }
+            {
+              "label": "schlafen",
+              "cells": [
+                "Er konnte nicht schlafen.",
+                "could not sleep"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "rufen",
+              "cells": [
+                "Er musste die Hebamme rufen.",
+                "had to call the nurse"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "trinken",
+              "cells": [
+                "Er wollte Milch trinken.",
+                "wanted to drink water"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "essen",
+              "cells": [
+                "Er durfte nichts essen.",
+                "was not allowed to eat"
+              ]
+            },
+            {
+              "label": "sehen",
+              "cells": [
+                "Der Oberarzt sollte das Röntgenbild sehen.",
+                "was supposed to see the report"
+              ]
+            },
+            {
+              "label": "suppe",
+              "cells": [
+                "Er mochte die Suppe nicht.",
+                "did not like the soup"
+              ]
+            }
           ]
         }
       ],
       "warning": {
         "title": "Three past traps",
         "items": [
-          { "de": "Letzte Nacht konnte ich nicht schlafen.", "en": "Past of können: konnte.", "tone": "ok" },
-          { "de": "Letzte Nacht könnte ich nicht schlafen.", "en": "könnte is not this past.", "tone": "stop" },
-          { "de": "Ich musste die Pflegekraft rufen.", "en": "Past of müssen: musste.", "tone": "ok" },
-          { "de": "Ich müsste die Pflegekraft rufen.", "en": "müsste means would have to.", "tone": "stop" },
-          { "de": "Vor der Operation durfte ich nichts essen.", "en": "Not allowed: durfte nichts.", "tone": "ok" },
-          { "de": "Vor der Operation musste ich nichts essen.", "en": "musste nichts means I did not have to.", "tone": "stop" }
+          {
+            "de": "Letzte Nacht konnte ich nicht schlafen.",
+            "en": "Past of können: konnte.",
+            "tone": "ok"
+          },
+          {
+            "de": "Letzte Nacht könnte ich nicht schlafen.",
+            "en": "könnte is not this past.",
+            "tone": "stop"
+          },
+          {
+            "de": "Ich musste die Hebamme rufen.",
+            "en": "Past of müssen: musste.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich müsste die Pflegekraft rufen.",
+            "en": "müsste means would have to.",
+            "tone": "stop"
+          },
+          {
+            "de": "Vor der Operation durfte ich nichts essen.",
+            "en": "Not allowed: durfte nichts.",
+            "tone": "ok"
+          },
+          {
+            "de": "Vor der Operation musste ich nichts essen.",
+            "en": "musste nichts means I did not have to.",
+            "tone": "stop"
+          }
         ],
         "tip": "mochte is the past of mögen. möchte is polite present. With schlafen, say konnte, not gekonnt."
       },
@@ -150,7 +720,11 @@
           "kind": "mc",
           "q": "können, ich / er → ?",
           "qEn": "No umlaut.",
-          "options": ["konnte", "könnte", "gekonnt"],
+          "options": [
+            "konnte",
+            "könnte",
+            "gekonnt"
+          ],
           "answer": 0,
           "why": "konnte.",
           "hint": "konnte."
@@ -159,7 +733,11 @@
           "kind": "mc",
           "q": "müssen, ich / er → ?",
           "qEn": "Not müsste.",
-          "options": ["musste", "müsste", "gemusst"],
+          "options": [
+            "musste",
+            "müsste",
+            "gemusst"
+          ],
           "answer": 0,
           "why": "musste.",
           "hint": "musste."
@@ -168,7 +746,11 @@
           "kind": "mc",
           "q": "wollen, ich / er → ?",
           "qEn": "will → wollte.",
-          "options": ["wollte", "willte", "gewollt"],
+          "options": [
+            "wollte",
+            "willte",
+            "gewollt"
+          ],
           "answer": 0,
           "why": "wollte.",
           "hint": "wollte."
@@ -177,7 +759,11 @@
           "kind": "mc",
           "q": "dürfen, ich / er → ?",
           "qEn": "No umlaut.",
-          "options": ["durfte", "dürfte", "gedurft"],
+          "options": [
+            "durfte",
+            "dürfte",
+            "gedurft"
+          ],
           "answer": 0,
           "why": "durfte.",
           "hint": "durfte."
@@ -186,7 +772,11 @@
           "kind": "mc",
           "q": "mögen, ich / er → ?",
           "qEn": "Not möchte.",
-          "options": ["mochte", "möchte", "mogte"],
+          "options": [
+            "mochte",
+            "möchte",
+            "mogte"
+          ],
           "answer": 0,
           "why": "mochte.",
           "hint": "mochte."
@@ -195,7 +785,11 @@
           "kind": "mc",
           "q": "können, du → ?",
           "qEn": "Add -st.",
-          "options": ["konntest", "konnte", "kannst"],
+          "options": [
+            "konntest",
+            "konnte",
+            "kannst"
+          ],
           "answer": 0,
           "why": "konntest.",
           "hint": "konntest."
@@ -210,12 +804,30 @@
       "type": "gapfill",
       "instructions": "The label names the infinitive and the person. Only that past form fits.",
       "chips": [
-        { "w": "konnte", "hint": "können → konnte." },
-        { "w": "musste", "hint": "müssen → musste." },
-        { "w": "wollte", "hint": "wollen → wollte." },
-        { "w": "durfte", "hint": "dürfen → durfte." },
-        { "w": "sollte", "hint": "sollen → sollte." },
-        { "w": "mochte", "hint": "mögen → mochte." }
+        {
+          "w": "konnte",
+          "hint": "können → konnte."
+        },
+        {
+          "w": "musste",
+          "hint": "müssen → musste."
+        },
+        {
+          "w": "wollte",
+          "hint": "wollen → wollte."
+        },
+        {
+          "w": "durfte",
+          "hint": "dürfen → durfte."
+        },
+        {
+          "w": "sollte",
+          "hint": "sollen → sollte."
+        },
+        {
+          "w": "mochte",
+          "hint": "mögen → mochte."
+        }
       ],
       "items": [
         {
@@ -285,8 +897,16 @@
         {
           "prompt": "können, ich. Which past?",
           "options": [
-            { "emoji": "✅", "label": "konnte", "caption": "No umlaut." },
-            { "emoji": "↩️", "label": "könnte", "caption": "Not the night-report past." }
+            {
+              "emoji": "✅",
+              "label": "konnte",
+              "caption": "No umlaut."
+            },
+            {
+              "emoji": "↩️",
+              "label": "könnte",
+              "caption": "Not the night-report past."
+            }
           ],
           "answer": 0,
           "why": "konnte.",
@@ -295,8 +915,16 @@
         {
           "prompt": "müssen, ich. Which past?",
           "options": [
-            { "emoji": "✅", "label": "musste", "caption": "No umlaut." },
-            { "emoji": "↩️", "label": "müsste", "caption": "That means would have to." }
+            {
+              "emoji": "✅",
+              "label": "musste",
+              "caption": "No umlaut."
+            },
+            {
+              "emoji": "↩️",
+              "label": "müsste",
+              "caption": "That means would have to."
+            }
           ],
           "answer": 0,
           "why": "musste.",
@@ -305,8 +933,16 @@
         {
           "prompt": "wollen, ich. Which past?",
           "options": [
-            { "emoji": "✅", "label": "wollte", "caption": "will → wollte." },
-            { "emoji": "↩️", "label": "willte", "caption": "The stem is woll-." }
+            {
+              "emoji": "✅",
+              "label": "wollte",
+              "caption": "will → wollte."
+            },
+            {
+              "emoji": "↩️",
+              "label": "willte",
+              "caption": "The stem is woll-."
+            }
           ],
           "answer": 0,
           "why": "wollte.",
@@ -315,8 +951,16 @@
         {
           "prompt": "dürfen, ich. Which past?",
           "options": [
-            { "emoji": "✅", "label": "durfte", "caption": "No umlaut." },
-            { "emoji": "↩️", "label": "dürfte", "caption": "Not the night-report past." }
+            {
+              "emoji": "✅",
+              "label": "durfte",
+              "caption": "No umlaut."
+            },
+            {
+              "emoji": "↩️",
+              "label": "dürfte",
+              "caption": "Not the night-report past."
+            }
           ],
           "answer": 0,
           "why": "durfte.",
@@ -325,8 +969,16 @@
         {
           "prompt": "sollen, er. Which past?",
           "options": [
-            { "emoji": "✅", "label": "sollte", "caption": "Add -te." },
-            { "emoji": "↩️", "label": "sollt", "caption": "er has no extra ending, and -t is missing." }
+            {
+              "emoji": "✅",
+              "label": "sollte",
+              "caption": "Add -te."
+            },
+            {
+              "emoji": "↩️",
+              "label": "sollt",
+              "caption": "er has no extra ending, and -t is missing."
+            }
           ],
           "answer": 0,
           "why": "sollte.",
@@ -335,8 +987,16 @@
         {
           "prompt": "mögen, ich. Which past?",
           "options": [
-            { "emoji": "✅", "label": "mochte", "caption": "Past of mögen." },
-            { "emoji": "↩️", "label": "möchte", "caption": "Polite present." }
+            {
+              "emoji": "✅",
+              "label": "mochte",
+              "caption": "Past of mögen."
+            },
+            {
+              "emoji": "↩️",
+              "label": "möchte",
+              "caption": "Polite present."
+            }
           ],
           "answer": 0,
           "why": "mochte.",
@@ -350,15 +1010,42 @@
       "label": "Pictures",
       "title": "What the night needed",
       "practice": "picture",
-      "instructions": "A hospital bed, a patient monitor, a thermometer, a chart.",
+      "instructions": "A midwife, a glass of milk, a bed, a monitor, a thermometer, a bowl of soup, a night calendar, a chart.",
       "items": [
+        {
+          "id": "hebamme",
+          "de": "Hebamme",
+          "article": "die",
+          "plural": "die Hebammen",
+          "en": "the midwife",
+          "image": {
+            "type": "svg",
+            "id": "nurse"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "milch",
+          "de": "Milch",
+          "article": "die",
+          "plural": "die Milch",
+          "en": "the milk",
+          "image": {
+            "type": "svg",
+            "id": "milk"
+          },
+          "hint": "die"
+        },
         {
           "id": "bett",
           "de": "Bett",
           "article": "das",
           "plural": "die Betten",
-          "en": "the bed he could not sleep in",
-          "image": { "type": "svg", "id": "bed" },
+          "en": "the bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
           "hint": "das"
         },
         {
@@ -366,8 +1053,11 @@
           "de": "Monitor",
           "article": "der",
           "plural": "die Monitore",
-          "en": "the monitor by the bed",
-          "image": { "type": "svg", "id": "monitor" },
+          "en": "the monitor",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          },
           "hint": "der"
         },
         {
@@ -375,17 +1065,47 @@
           "de": "Thermometer",
           "article": "das",
           "plural": "die Thermometer",
-          "en": "the thermometer from the night round",
-          "image": { "type": "svg", "id": "thermometer" },
+          "en": "the thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
           "hint": "das"
+        },
+        {
+          "id": "suppe",
+          "de": "Suppe",
+          "article": "die",
+          "plural": "die Suppen",
+          "en": "the soup",
+          "image": {
+            "type": "svg",
+            "id": "soup"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "nacht",
+          "de": "Nacht",
+          "article": "die",
+          "plural": "die Nächte",
+          "en": "the night",
+          "image": {
+            "type": "svg",
+            "id": "calendar"
+          },
+          "hint": "die"
         },
         {
           "id": "akte",
           "de": "Akte",
           "article": "die",
           "plural": "die Akten",
-          "en": "the chart with the night report",
-          "image": { "type": "svg", "id": "clipboard" },
+          "en": "the chart",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
           "hint": "die"
         }
       ]
@@ -399,48 +1119,89 @@
       "instructions": "Build the night report. The other verb is the last word.",
       "items": [
         {
-          "tiles": ["Er", "konnte", "nicht", "schlafen"],
-          "answers": ["Er konnte nicht schlafen"],
+          "tiles": [
+            "Er",
+            "konnte",
+            "nicht",
+            "schlafen"
+          ],
+          "answers": [
+            "Er konnte nicht schlafen"
+          ],
           "punct": ".",
           "modal": "konnte",
           "inf": "schlafen",
           "question": false,
           "en": "He could not sleep.",
           "hint": "schlafen last.",
-          "feedback": { "end": "The infinitive comes last: schlafen.", "fallback": "konnte nicht schlafen." }
+          "feedback": {
+            "end": "The infinitive comes last: schlafen.",
+            "fallback": "konnte nicht schlafen."
+          }
         },
         {
-          "tiles": ["Er", "musste", "die", "Pflegekraft", "rufen"],
-          "answers": ["Er musste die Pflegekraft rufen"],
+          "tiles": [
+            "Er",
+            "musste",
+            "die",
+            "Hebamme",
+            "rufen"
+          ],
+          "answers": [
+            "Er musste die Hebamme rufen"
+          ],
           "punct": ".",
           "modal": "musste",
           "inf": "rufen",
           "question": false,
           "en": "He had to call the nurse.",
           "hint": "rufen last.",
-          "feedback": { "end": "The infinitive comes last: rufen.", "fallback": "musste … rufen." }
+          "feedback": {
+            "end": "The infinitive comes last: rufen.",
+            "fallback": "musste … rufen."
+          }
         },
         {
-          "tiles": ["Er", "wollte", "Wasser", "trinken"],
-          "answers": ["Er wollte Wasser trinken"],
+          "tiles": [
+            "Er",
+            "wollte",
+            "Milch",
+            "trinken"
+          ],
+          "answers": [
+            "Er wollte Milch trinken"
+          ],
           "punct": ".",
           "modal": "wollte",
           "inf": "trinken",
           "question": false,
           "en": "He wanted to drink water.",
           "hint": "trinken last.",
-          "feedback": { "end": "The infinitive comes last: trinken.", "fallback": "wollte … trinken." }
+          "feedback": {
+            "end": "The infinitive comes last: trinken.",
+            "fallback": "wollte … trinken."
+          }
         },
         {
-          "tiles": ["Sie", "durfte", "nichts", "essen"],
-          "answers": ["Sie durfte nichts essen"],
+          "tiles": [
+            "Sie",
+            "durfte",
+            "nichts",
+            "essen"
+          ],
+          "answers": [
+            "Sie durfte nichts essen"
+          ],
           "punct": ".",
           "modal": "durfte",
           "inf": "essen",
           "question": false,
           "en": "She was not allowed to eat anything.",
           "hint": "essen last. durfte nichts = not allowed.",
-          "feedback": { "end": "The infinitive comes last: essen.", "fallback": "durfte nichts essen." }
+          "feedback": {
+            "end": "The infinitive comes last: essen.",
+            "fallback": "durfte nichts essen."
+          }
         }
       ]
     },
@@ -452,12 +1213,30 @@
       "type": "gapfill",
       "instructions": "Write the Präteritum. Keep the infinitive at the end.",
       "chips": [
-        { "w": "Ich konnte nicht schlafen", "hint": "kann → konnte." },
-        { "w": "Ich musste die Pflegekraft rufen", "hint": "muss → musste." },
-        { "w": "Ich wollte Wasser trinken", "hint": "will → wollte." },
-        { "w": "Ich durfte nichts essen", "hint": "darf → durfte." },
-        { "w": "Der Arzt sollte den Befund sehen", "hint": "soll → sollte." },
-        { "w": "Ich mochte die Suppe nicht", "hint": "mag → mochte." }
+        {
+          "w": "Ich konnte nicht schlafen",
+          "hint": "kann → konnte."
+        },
+        {
+          "w": "Ich musste die Hebamme rufen",
+          "hint": "muss → musste."
+        },
+        {
+          "w": "Ich wollte Milch trinken",
+          "hint": "will → wollte."
+        },
+        {
+          "w": "Ich durfte nichts essen",
+          "hint": "darf → durfte."
+        },
+        {
+          "w": "Der Oberarzt sollte das Röntgenbild sehen",
+          "hint": "soll → sollte."
+        },
+        {
+          "w": "Ich mochte die Suppe nicht",
+          "hint": "mag → mochte."
+        }
       ],
       "items": [
         {
@@ -472,7 +1251,7 @@
         {
           "before": "müssen: Ich muss die Pflegekraft rufen. →",
           "after": ".",
-          "answer": "Ich musste die Pflegekraft rufen",
+          "answer": "Ich musste die Hebamme rufen",
           "en": "I had to call the nurse.",
           "why": "muss → musste.",
           "tip": "musste.",
@@ -481,7 +1260,7 @@
         {
           "before": "wollen: Ich will Wasser trinken. →",
           "after": ".",
-          "answer": "Ich wollte Wasser trinken",
+          "answer": "Ich wollte Milch trinken",
           "en": "I wanted to drink water.",
           "why": "will → wollte.",
           "tip": "wollte.",
@@ -499,7 +1278,7 @@
         {
           "before": "sollen: Der Arzt soll den Befund sehen. →",
           "after": ".",
-          "answer": "Der Arzt sollte den Befund sehen",
+          "answer": "Der Oberarzt sollte das Röntgenbild sehen",
           "en": "The doctor was supposed to see the report.",
           "why": "soll → sollte.",
           "tip": "sollte.",
@@ -525,43 +1304,91 @@
       "instructions": "The last line is the wrong past. Choose the Präteritum.",
       "items": [
         {
-          "clues": ["können drops the umlaut.", "schlafen stays last.", "Letzte Nacht könnte ich nicht schlafen."],
-          "options": ["Letzte Nacht konnte ich nicht schlafen.", "Letzte Nacht könnte ich nicht schlafen.", "Letzte Nacht habe ich nicht schlafen gekonnt."],
+          "clues": [
+            "können drops the umlaut.",
+            "schlafen stays last.",
+            "Letzte Nacht könnte ich nicht schlafen."
+          ],
+          "options": [
+            "Letzte Nacht konnte ich nicht schlafen.",
+            "Letzte Nacht könnte ich nicht schlafen.",
+            "Letzte Nacht habe ich nicht schlafen gekonnt."
+          ],
           "answer": 0,
           "reveal": "Letzte Nacht konnte ich nicht schlafen.",
           "hint": "konnte."
         },
         {
-          "clues": ["müssen drops the umlaut.", "rufen stays last.", "Ich müsste die Pflegekraft rufen."],
-          "options": ["Ich musste die Pflegekraft rufen.", "Ich müsste die Pflegekraft rufen.", "Ich habe die Pflegekraft rufen gemusst."],
+          "clues": [
+            "müssen drops the umlaut.",
+            "rufen stays last.",
+            "Ich müsste die Pflegekraft rufen."
+          ],
+          "options": [
+            "Ich musste die Hebamme rufen.",
+            "Ich müsste die Pflegekraft rufen.",
+            "Ich habe die Pflegekraft rufen gemusst."
+          ],
           "answer": 0,
-          "reveal": "Ich musste die Pflegekraft rufen.",
+          "reveal": "Ich musste die Hebamme rufen.",
           "hint": "musste."
         },
         {
-          "clues": ["wollen → wollte.", "Not willte.", "Ich willte Wasser trinken."],
-          "options": ["Ich wollte Wasser trinken.", "Ich willte Wasser trinken.", "Ich habe Wasser trinken gewollt."],
+          "clues": [
+            "wollen → wollte.",
+            "Not willte.",
+            "Ich willte Wasser trinken."
+          ],
+          "options": [
+            "Ich wollte Milch trinken.",
+            "Ich willte Wasser trinken.",
+            "Ich habe Wasser trinken gewollt."
+          ],
           "answer": 0,
-          "reveal": "Ich wollte Wasser trinken.",
+          "reveal": "Ich wollte Milch trinken.",
           "hint": "wollte."
         },
         {
-          "clues": ["Not allowed is dürfen.", "nichts, not musste nichts.", "Vor der Operation dürfte ich nichts essen."],
-          "options": ["Vor der Operation durfte ich nichts essen.", "Vor der Operation dürfte ich nichts essen.", "Vor der Operation musste ich nichts essen."],
+          "clues": [
+            "Not allowed is dürfen.",
+            "nichts, not musste nichts.",
+            "Vor der Operation dürfte ich nichts essen."
+          ],
+          "options": [
+            "Vor der Operation durfte ich nichts essen.",
+            "Vor der Operation dürfte ich nichts essen.",
+            "Vor der Operation musste ich nichts essen."
+          ],
           "answer": 0,
           "reveal": "Vor der Operation durfte ich nichts essen.",
           "hint": "durfte."
         },
         {
-          "clues": ["sollen adds -te.", "er has no extra -t.", "Der Arzt sollt den Befund sehen."],
-          "options": ["Der Arzt sollte den Befund sehen.", "Der Arzt sollt den Befund sehen.", "Der Arzt hat den Befund sehen gesollt."],
+          "clues": [
+            "sollen adds -te.",
+            "er has no extra -t.",
+            "Der Arzt sollt den Befund sehen."
+          ],
+          "options": [
+            "Der Oberarzt sollte das Röntgenbild sehen.",
+            "Der Arzt sollt den Befund sehen.",
+            "Der Arzt hat den Befund sehen gesollt."
+          ],
           "answer": 0,
-          "reveal": "Der Arzt sollte den Befund sehen.",
+          "reveal": "Der Oberarzt sollte das Röntgenbild sehen.",
           "hint": "sollte."
         },
         {
-          "clues": ["The night report is past.", "mögen → mochte.", "Ich möchte die Suppe nicht."],
-          "options": ["Ich mochte die Suppe nicht.", "Ich möchte die Suppe nicht.", "Ich mogte die Suppe nicht."],
+          "clues": [
+            "The night report is past.",
+            "mögen → mochte.",
+            "Ich möchte die Suppe nicht."
+          ],
+          "options": [
+            "Ich mochte die Suppe nicht.",
+            "Ich möchte die Suppe nicht.",
+            "Ich mogte die Suppe nicht."
+          ],
           "answer": 0,
           "reveal": "Ich mochte die Suppe nicht.",
           "hint": "mochte."
@@ -576,12 +1403,30 @@
       "type": "gapfill",
       "instructions": "The label names the infinitive. Add the ich or er past form.",
       "chips": [
-        { "w": "konnte", "hint": "können." },
-        { "w": "musste", "hint": "müssen." },
-        { "w": "wollte", "hint": "wollen." },
-        { "w": "durfte", "hint": "dürfen." },
-        { "w": "sollte", "hint": "sollen." },
-        { "w": "mochte", "hint": "mögen." }
+        {
+          "w": "konnte",
+          "hint": "können."
+        },
+        {
+          "w": "musste",
+          "hint": "müssen."
+        },
+        {
+          "w": "wollte",
+          "hint": "wollen."
+        },
+        {
+          "w": "durfte",
+          "hint": "dürfen."
+        },
+        {
+          "w": "sollte",
+          "hint": "sollen."
+        },
+        {
+          "w": "mochte",
+          "hint": "mögen."
+        }
       ],
       "items": [
         {
@@ -654,12 +1499,30 @@
       "type": "gapfill",
       "instructions": "The label names the person. du takes -st, wir and Sie take -en, ihr takes -t.",
       "chips": [
-        { "w": "konntest", "hint": "du: konntest." },
-        { "w": "mussten", "hint": "wir: mussten." },
-        { "w": "wolltet", "hint": "ihr: wolltet." },
-        { "w": "durften", "hint": "Sie: durften." },
-        { "w": "solltest", "hint": "du: solltest." },
-        { "w": "mochtest", "hint": "du: mochtest." }
+        {
+          "w": "konntest",
+          "hint": "du: konntest."
+        },
+        {
+          "w": "mussten",
+          "hint": "wir: mussten."
+        },
+        {
+          "w": "wolltet",
+          "hint": "ihr: wolltet."
+        },
+        {
+          "w": "durften",
+          "hint": "Sie: durften."
+        },
+        {
+          "w": "solltest",
+          "hint": "du: solltest."
+        },
+        {
+          "w": "mochtest",
+          "hint": "du: mochtest."
+        }
       ],
       "items": [
         {
@@ -729,8 +1592,8 @@
         "letterhead": "Station 4 · Nacht",
         "title": "Die Nacht auf Station",
         "paragraphs": [
-          "Letzte Nacht konnte der Patient nicht schlafen. Er musste die Pflegekraft rufen. Er wollte Wasser trinken.",
-          "Vor der Operation durfte er nichts essen. Der Arzt sollte den Befund sehen. Der Patient mochte die Suppe nicht."
+          "Letzte Nacht konnte der Patient nicht schlafen. Er musste die Hebamme rufen. Er wollte Milch trinken.",
+          "Vor der Operation durfte er nichts essen. Der Oberarzt sollte das Röntgenbild sehen. Der Patient mochte die Suppe nicht."
         ],
         "signature": "Anna",
         "stamp": "Nacht"
@@ -740,7 +1603,11 @@
           "kind": "mc",
           "q": "Was konnte der Patient nicht?",
           "qEn": "nicht schlafen.",
-          "options": ["schlafen", "rufen", "trinken"],
+          "options": [
+            "schlafen",
+            "rufen",
+            "trinken"
+          ],
           "answer": 0,
           "why": "Er konnte nicht schlafen.",
           "hint": "schlafen."
@@ -749,7 +1616,11 @@
           "kind": "mc",
           "q": "Wen musste er rufen?",
           "qEn": "die Pflegekraft.",
-          "options": ["die Pflegekraft", "den Arzt", "die Suppe"],
+          "options": [
+            "die Pflegekraft",
+            "den Arzt",
+            "die Suppe"
+          ],
           "answer": 0,
           "why": "die Pflegekraft.",
           "hint": "rufen."
@@ -758,7 +1629,11 @@
           "kind": "mc",
           "q": "Was durfte er vor der Operation?",
           "qEn": "nichts essen.",
-          "options": ["nichts essen", "Wasser trinken", "schlafen"],
+          "options": [
+            "nichts essen",
+            "Wasser trinken",
+            "schlafen"
+          ],
           "answer": 0,
           "why": "nichts essen.",
           "hint": "durfte."
@@ -767,7 +1642,11 @@
           "kind": "mc",
           "q": "Was mochte der Patient nicht?",
           "qEn": "die Suppe.",
-          "options": ["die Suppe", "das Wasser", "den Befund"],
+          "options": [
+            "die Suppe",
+            "das Wasser",
+            "den Befund"
+          ],
           "answer": 0,
           "why": "die Suppe.",
           "hint": "mochte."
@@ -782,15 +1661,44 @@
       "practice": "writing",
       "instructions": "Write four night-report sentences. The infinitive goes last.",
       "prompt": "Last night I could not sleep. I had to call the nurse. I wanted to drink water. I was not allowed to eat anything.",
-      "bullets": ["konnte", "musste", "wollte", "durfte"],
-      "model": "Letzte Nacht konnte ich nicht schlafen. Ich musste die Pflegekraft rufen. Ich wollte Wasser trinken. Ich durfte nichts essen.",
+      "bullets": [
+        "konnte",
+        "musste",
+        "wollte",
+        "durfte"
+      ],
+      "model": "Letzte Nacht konnte ich nicht schlafen. Ich musste die Hebamme rufen. Ich wollte Milch trinken. Ich durfte nichts essen.",
       "modelEn": "Last night I could not sleep. I had to call the nurse. I wanted to drink water. I was not allowed to eat anything.",
       "hint": "konnte, musste, wollte, durfte.",
       "checklist": [
-        { "id": "k", "label": "konnte", "keywords": ["konnte"] },
-        { "id": "m", "label": "musste", "keywords": ["musste"] },
-        { "id": "w", "label": "wollte", "keywords": ["wollte"] },
-        { "id": "d", "label": "durfte", "keywords": ["durfte"] }
+        {
+          "id": "k",
+          "label": "konnte",
+          "keywords": [
+            "konnte"
+          ]
+        },
+        {
+          "id": "m",
+          "label": "musste",
+          "keywords": [
+            "musste"
+          ]
+        },
+        {
+          "id": "w",
+          "label": "wollte",
+          "keywords": [
+            "wollte"
+          ]
+        },
+        {
+          "id": "d",
+          "label": "durfte",
+          "keywords": [
+            "durfte"
+          ]
+        }
       ]
     },
     {
@@ -801,7 +1709,9 @@
       "practice": "lernkontrolle",
       "heroTitle": "konnte, musste, wollte",
       "heroImage": "monitor",
-      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "story": [
+        "Twelve questions. Eighty percent mastered means at least ten correct."
+      ],
       "questionRule": "No umlaut, plus -te. Then the person ending. mochte, not möchte.",
       "quizTitle": "Lernkontrolle",
       "quiz": [
@@ -809,7 +1719,11 @@
           "kind": "mc",
           "q": "können, ich / er → ?",
           "qEn": "Past.",
-          "options": ["konnte", "könnte", "gekonnt"],
+          "options": [
+            "konnte",
+            "könnte",
+            "gekonnt"
+          ],
           "answer": 0,
           "why": "konnte.",
           "hint": "konnte."
@@ -818,7 +1732,11 @@
           "kind": "mc",
           "q": "müssen, ich / er → ?",
           "qEn": "Past.",
-          "options": ["musste", "müsste", "gemusst"],
+          "options": [
+            "musste",
+            "müsste",
+            "gemusst"
+          ],
           "answer": 0,
           "why": "musste.",
           "hint": "musste."
@@ -827,7 +1745,11 @@
           "kind": "mc",
           "q": "wollen, ich / er → ?",
           "qEn": "Past.",
-          "options": ["wollte", "willte", "gewollt"],
+          "options": [
+            "wollte",
+            "willte",
+            "gewollt"
+          ],
           "answer": 0,
           "why": "wollte.",
           "hint": "wollte."
@@ -836,7 +1758,11 @@
           "kind": "mc",
           "q": "dürfen, ich / er → ?",
           "qEn": "Past.",
-          "options": ["durfte", "dürfte", "gedurft"],
+          "options": [
+            "durfte",
+            "dürfte",
+            "gedurft"
+          ],
           "answer": 0,
           "why": "durfte.",
           "hint": "durfte."
@@ -845,7 +1771,11 @@
           "kind": "mc",
           "q": "sollen, ich / er → ?",
           "qEn": "Past.",
-          "options": ["sollte", "sollt", "gesollt"],
+          "options": [
+            "sollte",
+            "sollt",
+            "gesollt"
+          ],
           "answer": 0,
           "why": "sollte.",
           "hint": "sollte."
@@ -854,7 +1784,11 @@
           "kind": "mc",
           "q": "mögen, ich / er → ?",
           "qEn": "Past.",
-          "options": ["mochte", "möchte", "mogte"],
+          "options": [
+            "mochte",
+            "möchte",
+            "mogte"
+          ],
           "answer": 0,
           "why": "mochte.",
           "hint": "mochte."
@@ -863,7 +1797,11 @@
           "kind": "mc",
           "q": "können, du → ?",
           "qEn": "-st.",
-          "options": ["konntest", "konnte", "kannst"],
+          "options": [
+            "konntest",
+            "konnte",
+            "kannst"
+          ],
           "answer": 0,
           "why": "konntest.",
           "hint": "konntest."
@@ -872,7 +1810,11 @@
           "kind": "mc",
           "q": "müssen, wir → ?",
           "qEn": "-en.",
-          "options": ["mussten", "musstet", "musste"],
+          "options": [
+            "mussten",
+            "musstet",
+            "musste"
+          ],
           "answer": 0,
           "why": "mussten.",
           "hint": "mussten."
@@ -881,7 +1823,11 @@
           "kind": "mc",
           "q": "wollen, ihr → ?",
           "qEn": "-t.",
-          "options": ["wolltet", "wollten", "wolltest"],
+          "options": [
+            "wolltet",
+            "wollten",
+            "wolltest"
+          ],
           "answer": 0,
           "why": "wolltet.",
           "hint": "wolltet."
@@ -890,7 +1836,11 @@
           "kind": "mc",
           "q": "dürfen, Sie (formal) → ?",
           "qEn": "Sie uses the wir form.",
-          "options": ["durften", "durfte", "durftet"],
+          "options": [
+            "durften",
+            "durfte",
+            "durftet"
+          ],
           "answer": 0,
           "why": "durften.",
           "hint": "durften."
@@ -899,7 +1849,11 @@
           "kind": "mc",
           "q": "He could not sleep.",
           "qEn": "Präteritum, not gekonnt.",
-          "options": ["Er konnte nicht schlafen.", "Er könnte nicht schlafen.", "Er hat nicht schlafen gekonnt."],
+          "options": [
+            "Er konnte nicht schlafen.",
+            "Er könnte nicht schlafen.",
+            "Er hat nicht schlafen gekonnt."
+          ],
           "answer": 0,
           "why": "Er konnte nicht schlafen.",
           "hint": "konnte."
@@ -908,7 +1862,11 @@
           "kind": "mc",
           "q": "He was not allowed to eat.",
           "qEn": "durfte nichts, not musste nichts.",
-          "options": ["Er durfte nichts essen.", "Er musste nichts essen.", "Er dürfte nichts essen."],
+          "options": [
+            "Er durfte nichts essen.",
+            "Er musste nichts essen.",
+            "Er dürfte nichts essen."
+          ],
           "answer": 0,
           "why": "Er durfte nichts essen.",
           "hint": "durfte."
@@ -922,10 +1880,22 @@
       "title": "Ich konnte, ich musste, ich wollte",
       "reviewStepType": "grammar",
       "redemittel": [
-        { "de": "Letzte Nacht konnte ich nicht schlafen.", "en": "Last night I could not sleep." },
-        { "de": "Ich musste die Pflegekraft rufen.", "en": "I had to call the nurse." },
-        { "de": "Ich wollte Wasser trinken.", "en": "I wanted to drink water." },
-        { "de": "Ich durfte nichts essen.", "en": "I was not allowed to eat anything." }
+        {
+          "de": "Letzte Nacht konnte ich nicht schlafen.",
+          "en": "Last night I could not sleep."
+        },
+        {
+          "de": "Ich musste die Hebamme rufen.",
+          "en": "I had to call the nurse."
+        },
+        {
+          "de": "Ich wollte Milch trinken.",
+          "en": "I wanted to drink water."
+        },
+        {
+          "de": "Ich durfte nichts essen.",
+          "en": "I was not allowed to eat anything."
+        }
       ],
       "messages": [
         "Look again at konnte, musste and wollte.",

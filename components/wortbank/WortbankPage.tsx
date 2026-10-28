@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { Illustration } from "@/components/illustrations";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { MemoryCard } from "@/components/wortbank/MemoryCard";
 import { SeparablePractice, Satzklammer } from "@/components/wortbank/SeparablePractice";
@@ -211,7 +212,7 @@ export function WortbankPage() {
                     {group.entries.map((entry) => (
                       <li key={entry.id}>
                         <button className="wb-word" type="button" onClick={() => setFocusId(entry.id)}>
-                          <span className="emoji">{entry.emoji || "🔤"}</span>
+                          <span className="emoji">{entry.image ? <Illustration id={entry.image} /> : entry.emoji || "🔤"}</span>
                           <span>
                             <strong>{entry.de}</strong>
                             <small>{entry.en}</small>
@@ -258,7 +259,7 @@ function WordDetail({
         ← Zurück zur Liste
       </button>
       <header className="wb-detail-head">
-        <span className="emoji">{entry.emoji || "🔤"}</span>
+        <span className="emoji">{entry.image ? <Illustration id={entry.image} /> : entry.emoji || "🔤"}</span>
         <div>
           <h2>
             {verb?.separable ? <SeparableSplit lemma={entry.lemma} /> : entry.de}
@@ -366,7 +367,7 @@ function ReviewDeck({
       ) : (
         <>
           <button className={`wb-card${flipped ? " show" : ""}`} type="button" onClick={() => setFlipped((value) => !value)}>
-            <span className="emoji">{card.emoji || "🔤"}</span>
+            <span className="emoji">{card.image ? <Illustration id={card.image} /> : card.emoji || "🔤"}</span>
             <strong>{flipped ? card.en : card.de}</strong>
             <small>{flipped ? card.sentence || card.lessonTitle : card.pos}</small>
             {card.hard ? <em>Schwer</em> : null}

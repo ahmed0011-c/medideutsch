@@ -22,6 +22,8 @@ export const glossaryEntrySchema = z.object({
   plural: z.string().optional(),
   note: z.string().optional(),
   case: caseMetaSchema.optional(),
+  /** Inline drawing from the sprite set. The popup and Wortbank show it. */
+  image: imageSchema.optional(),
 });
 
 export const tipCardSchema = z.object({

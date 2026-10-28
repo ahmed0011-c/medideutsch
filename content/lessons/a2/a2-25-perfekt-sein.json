@@ -9,50 +9,388 @@
     "wordExplorePoints": 8,
     "hintCost": 1,
     "tipPoints": 1,
-    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
   },
   "id": "a2-25-perfekt-sein",
   "level": "A2",
   "unit": "Kapitel 25",
   "chapter": 25,
-  "chapters": [25],
+  "chapters": [
+    25
+  ],
   "title": "Ich bin gekommen, ich habe gelacht",
   "subtitle": "Perfect with sein",
   "glossary": {
-    "wohin": { "de": "wohin", "pos": "adverb", "en": "where to", "emoji": "🏥" },
-    "ist": { "de": "ist", "pos": "form", "en": "is; Perfekt auxiliary (er/sie/es)", "emoji": "🏥" },
-    "er": { "de": "er", "pos": "pronoun", "en": "he", "emoji": "🏥" },
-    "gegangen": { "de": "gegangen", "pos": "participle", "en": "gone. Participle of gehen. Auxiliary: sein.", "emoji": "🏥" },
-    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🏥" },
-    "patient": { "de": "Patient", "pos": "noun", "en": "patient (male)", "emoji": "🏥", "article": "der", "plural": "die Patienten" },
-    "angekommen": { "de": "angekommen", "pos": "participle", "en": "arrived. Participle of ankommen. Auxiliary: sein.", "emoji": "🏥" },
-    "aufgestanden": { "de": "aufgestanden", "pos": "participle", "en": "got up. Participle of aufstehen. Auxiliary: sein.", "emoji": "🏥" },
-    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🏥" },
-    "patientin": { "de": "Patientin", "pos": "noun", "en": "patient (female)", "emoji": "🏥", "article": "die", "plural": "die Patientinnen" },
-    "zur": { "de": "zur", "pos": "contraction", "en": "to the (zu + der)", "emoji": "🏥" },
-    "radiologie": { "de": "Radiologie", "pos": "noun", "en": "radiology", "emoji": "🏥", "article": "die", "plural": "die Radiologien" },
-    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🏥" },
-    "kind": { "de": "Kind", "pos": "noun", "en": "child", "emoji": "🏥", "article": "das", "plural": "die Kinder" },
-    "eingeschlafen": { "de": "eingeschlafen", "pos": "participle", "en": "fallen asleep. Participle of einschlafen. Auxiliary: sein.", "emoji": "🏥" },
-    "arzt": { "de": "Arzt", "pos": "noun", "en": "doctor (male)", "emoji": "🏥", "article": "der", "plural": "die Ärzte" },
-    "im": { "de": "im", "pos": "contraction", "en": "in the (in + dem)", "emoji": "🏥" },
-    "zimmer": { "de": "Zimmer", "pos": "noun", "en": "room", "emoji": "🏥", "article": "das", "plural": "die Zimmer" },
-    "geblieben": { "de": "geblieben", "pos": "participle", "en": "stayed. Participle of bleiben. Auxiliary: sein.", "emoji": "🏥" },
-    "ich": { "de": "ich", "pos": "pronoun", "en": "I", "emoji": "🏥" },
-    "bin": { "de": "bin", "pos": "form", "en": "am; Perfekt auxiliary (ich)", "emoji": "🏥" },
-    "da": { "de": "da", "pos": "adverb", "en": "there", "emoji": "🏥" },
-    "gewesen": { "de": "gewesen", "pos": "participle", "en": "been. Participle of sein. Auxiliary: sein.", "emoji": "🏥" },
-    "habe": { "de": "habe", "pos": "form", "en": "have (ich). Auxiliary for lachen.", "emoji": "🏥" },
-    "gelacht": { "de": "gelacht", "pos": "participle", "en": "laughed. Participle of lachen. Auxiliary: haben.", "emoji": "🏥" },
-    "ankunft": { "de": "Ankunft", "pos": "noun", "en": "arrival", "emoji": "🏥", "article": "die", "plural": "die Ankünfte" },
-    "am": { "de": "am", "pos": "contraction", "en": "on the; in the (an + dem)", "emoji": "🏥" },
-    "abend": { "de": "Abend", "pos": "noun", "en": "evening", "emoji": "🏥", "article": "der", "plural": "die Abende" },
-    "und": { "de": "und", "pos": "conjunction", "en": "and", "emoji": "🏥" },
-    "auch": { "de": "auch", "pos": "adverb", "en": "also", "emoji": "🏥" },
-    "gekommen": { "de": "gekommen", "pos": "participle", "en": "come. Participle of kommen. Auxiliary: sein.", "emoji": "🏥" },
-    "pflegekraft": { "de": "Pflegekraft", "pos": "noun", "en": "nurse", "emoji": "🏥", "article": "die", "plural": "die Pflegekräfte" },
-    "hat": { "de": "hat", "pos": "form", "en": "has (er/sie/es). Auxiliary for lachen and schlafen.", "emoji": "🏥" },
-    "anna": { "de": "Anna", "pos": "name", "en": "Anna", "emoji": "🏥" }
+    "wohin": {
+      "de": "wohin",
+      "pos": "adverb",
+      "en": "where to",
+      "emoji": "🏥"
+    },
+    "ist": {
+      "de": "ist",
+      "pos": "form",
+      "en": "is; Perfekt auxiliary (er/sie/es)",
+      "emoji": "🏥"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "🏥"
+    },
+    "gegangen": {
+      "de": "gegangen",
+      "pos": "participle",
+      "en": "gone. Participle of gehen. Auxiliary: sein.",
+      "emoji": "🏥"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine)",
+      "emoji": "🏥"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "angekommen": {
+      "de": "angekommen",
+      "pos": "participle",
+      "en": "arrived. Participle of ankommen. Auxiliary: sein.",
+      "emoji": "🏥"
+    },
+    "aufgestanden": {
+      "de": "aufgestanden",
+      "pos": "participle",
+      "en": "got up. Participle of aufstehen. Auxiliary: sein.",
+      "emoji": "🏥"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine or plural)",
+      "emoji": "🏥"
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient (female)",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Patientinnen",
+      "image": {
+        "type": "svg",
+        "id": "patientin"
+      }
+    },
+    "zur": {
+      "de": "zur",
+      "pos": "contraction",
+      "en": "to the (zu + der)",
+      "emoji": "🏥"
+    },
+    "radiologie": {
+      "de": "Radiologie",
+      "pos": "noun",
+      "en": "radiology",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Radiologien",
+      "image": {
+        "type": "svg",
+        "id": "monitor"
+      }
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🏥"
+    },
+    "kind": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "child",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Kinder",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "eingeschlafen": {
+      "de": "eingeschlafen",
+      "pos": "participle",
+      "en": "fallen asleep. Participle of einschlafen. Auxiliary: sein.",
+      "emoji": "🏥"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Ärzte",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      }
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in the (in + dem)",
+      "emoji": "🏥"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Zimmer",
+      "image": {
+        "type": "svg",
+        "id": "room"
+      }
+    },
+    "geblieben": {
+      "de": "geblieben",
+      "pos": "participle",
+      "en": "stayed. Participle of bleiben. Auxiliary: sein.",
+      "emoji": "🏥"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I",
+      "emoji": "🏥"
+    },
+    "bin": {
+      "de": "bin",
+      "pos": "form",
+      "en": "am; Perfekt auxiliary (ich)",
+      "emoji": "🏥"
+    },
+    "da": {
+      "de": "da",
+      "pos": "adverb",
+      "en": "there",
+      "emoji": "🏥"
+    },
+    "gewesen": {
+      "de": "gewesen",
+      "pos": "participle",
+      "en": "been. Participle of sein. Auxiliary: sein.",
+      "emoji": "🏥"
+    },
+    "habe": {
+      "de": "habe",
+      "pos": "form",
+      "en": "have (ich). Auxiliary for lachen.",
+      "emoji": "🏥"
+    },
+    "gelacht": {
+      "de": "gelacht",
+      "pos": "participle",
+      "en": "laughed. Participle of lachen. Auxiliary: haben.",
+      "emoji": "🏥"
+    },
+    "ankunft": {
+      "de": "Ankunft",
+      "pos": "noun",
+      "en": "arrival",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Ankünfte"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "on the; in the (an + dem)",
+      "emoji": "🏥"
+    },
+    "abend": {
+      "de": "Abend",
+      "pos": "noun",
+      "en": "evening",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Abende"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "🏥"
+    },
+    "auch": {
+      "de": "auch",
+      "pos": "adverb",
+      "en": "also",
+      "emoji": "🏥"
+    },
+    "gekommen": {
+      "de": "gekommen",
+      "pos": "participle",
+      "en": "come. Participle of kommen. Auxiliary: sein.",
+      "emoji": "🏥"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Pflegekräfte"
+    },
+    "hat": {
+      "de": "hat",
+      "pos": "form",
+      "en": "has (er/sie/es). Auxiliary for lachen and schlafen.",
+      "emoji": "🏥"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna",
+      "emoji": "🏥"
+    },
+    "besucher": {
+      "de": "Besucher",
+      "pos": "noun",
+      "en": "the visitor who arrived",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Besucher",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "säugling": {
+      "de": "Säugling",
+      "pos": "noun",
+      "en": "the baby who fell asleep",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Säuglinge",
+      "image": {
+        "type": "svg",
+        "id": "baby"
+      }
+    },
+    "rollstuhl": {
+      "de": "Rollstuhl",
+      "pos": "noun",
+      "en": "the wheelchair",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Rollstühle",
+      "image": {
+        "type": "svg",
+        "id": "wheelchair"
+      }
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "the bed",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Betten",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "apotheke": {
+      "de": "Apotheke",
+      "pos": "noun",
+      "en": "the pharmacy",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Apotheken",
+      "image": {
+        "type": "svg",
+        "id": "pharmacy"
+      }
+    },
+    "schlüssel": {
+      "de": "Schlüssel",
+      "pos": "noun",
+      "en": "the key",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Schlüssel",
+      "image": {
+        "type": "svg",
+        "id": "key"
+      }
+    },
+    "besucherin": {
+      "de": "Besucherin",
+      "pos": "noun",
+      "en": "visitor (female)",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Besucherinnen",
+      "image": {
+        "type": "svg",
+        "id": "patientin"
+      }
+    },
+    "oma": {
+      "de": "Oma",
+      "pos": "noun",
+      "en": "grandma",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Omas",
+      "image": {
+        "type": "svg",
+        "id": "mother"
+      }
+    },
+    "pförtner": {
+      "de": "Pförtner",
+      "pos": "noun",
+      "en": "doorkeeper",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Pförtner",
+      "image": {
+        "type": "svg",
+        "id": "grandfather"
+      }
+    },
+    "flur": {
+      "de": "Flur",
+      "pos": "noun",
+      "en": "corridor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Flure",
+      "image": {
+        "type": "svg",
+        "id": "room"
+      }
+    }
   },
   "steps": [
     {
@@ -67,17 +405,155 @@
       ],
       "minutes": 25,
       "vocab": [
-        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🧑🏽", "glossaryKey": "patient" },
-        { "de": "Patientin", "article": "die", "plural": "die Patientinnen", "en": "patient (female)", "emoji": "👩🏽", "glossaryKey": "patientin" },
-        { "de": "Radiologie", "article": "die", "plural": "die Radiologien", "en": "radiology", "emoji": "🩻", "glossaryKey": "radiologie" },
-        { "de": "Zimmer", "article": "das", "plural": "die Zimmer", "en": "room", "emoji": "🛏️", "glossaryKey": "zimmer" },
-        { "de": "Kind", "article": "das", "plural": "die Kinder", "en": "child", "emoji": "🧒", "glossaryKey": "kind" },
-        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor (male)", "emoji": "🩺", "glossaryKey": "arzt" }
+        {
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient (male)",
+          "emoji": "🧑🏽",
+          "glossaryKey": "patient",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          }
+        },
+        {
+          "de": "Patientin",
+          "article": "die",
+          "plural": "die Patientinnen",
+          "en": "patient (female)",
+          "emoji": "👩🏽",
+          "glossaryKey": "patientin",
+          "image": {
+            "type": "svg",
+            "id": "patientin"
+          }
+        },
+        {
+          "de": "Radiologie",
+          "article": "die",
+          "plural": "die Radiologien",
+          "en": "radiology",
+          "emoji": "🩻",
+          "glossaryKey": "radiologie",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          }
+        },
+        {
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room",
+          "emoji": "🛏️",
+          "glossaryKey": "zimmer",
+          "image": {
+            "type": "svg",
+            "id": "room"
+          }
+        },
+        {
+          "de": "Kind",
+          "article": "das",
+          "plural": "die Kinder",
+          "en": "child",
+          "emoji": "🧒",
+          "glossaryKey": "kind",
+          "image": {
+            "type": "svg",
+            "id": "child"
+          }
+        },
+        {
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor (male)",
+          "emoji": "🩺",
+          "glossaryKey": "arzt",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          }
+        },
+        {
+          "de": "Besucher",
+          "article": "der",
+          "plural": "die Besucher",
+          "en": "the visitor who arrived",
+          "emoji": "🏥",
+          "glossaryKey": "besucher",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          }
+        },
+        {
+          "de": "Säugling",
+          "article": "der",
+          "plural": "die Säuglinge",
+          "en": "the baby who fell asleep",
+          "emoji": "🏥",
+          "glossaryKey": "säugling",
+          "image": {
+            "type": "svg",
+            "id": "baby"
+          }
+        },
+        {
+          "de": "Rollstuhl",
+          "article": "der",
+          "plural": "die Rollstühle",
+          "en": "the wheelchair",
+          "emoji": "🏥",
+          "glossaryKey": "rollstuhl",
+          "image": {
+            "type": "svg",
+            "id": "wheelchair"
+          }
+        },
+        {
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed",
+          "emoji": "🏥",
+          "glossaryKey": "bett",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          }
+        },
+        {
+          "de": "Apotheke",
+          "article": "die",
+          "plural": "die Apotheken",
+          "en": "the pharmacy",
+          "emoji": "🏥",
+          "glossaryKey": "apotheke",
+          "image": {
+            "type": "svg",
+            "id": "pharmacy"
+          }
+        },
+        {
+          "de": "Schlüssel",
+          "article": "der",
+          "plural": "die Schlüssel",
+          "en": "the key",
+          "emoji": "🏥",
+          "glossaryKey": "schlüssel",
+          "image": {
+            "type": "svg",
+            "id": "key"
+          }
+        }
       ],
       "text": {
         "title": "Wohin ist er gegangen?",
-        "de": "Der Patient ist angekommen. Er ist aufgestanden. Die Patientin ist zur Radiologie gegangen. Das Kind ist eingeschlafen. Der Arzt ist im Zimmer geblieben. Ich bin da gewesen. Ich habe gelacht.",
-        "en": "The patient has arrived. He has got up. The female patient has gone to radiology. The child has fallen asleep. The doctor has stayed in the room. I have been there. I laughed."
+        "de": "Der Besucher ist angekommen. Er ist aufgestanden. Die Besucherin ist zur Apotheke gegangen. Der Säugling ist eingeschlafen. Der Pförtner ist im Flur geblieben. Ich bin da gewesen. Ich habe gelacht.",
+        "en": "The visitor has arrived. He has got up. The visitor has gone to the pharmacy. The child has fallen asleep. The doctor has stayed in the room. I have been there. I laughed."
       }
     },
     {
@@ -90,8 +566,8 @@
       "heroImage": "bed",
       "story": [
         "Chapter 24 built the Perfekt with <b>haben</b>. Movement was left for this chapter. <b>Er hat gegangen</b> is still wrong.",
-        "Use <b>sein</b> for a change of place: <b>kommen, gehen, fahren, aufstehen, ankommen</b>. <b>Der Patient ist angekommen. Die Patientin ist zur Radiologie gegangen.</b>",
-        "Use <b>sein</b> for a change of state, and always for <b>bleiben</b> and <b>sein</b>. <b>Das Kind ist eingeschlafen. Der Arzt ist im Zimmer geblieben. Ich bin da gewesen.</b>",
+        "Use <b>sein</b> for a change of place: <b>kommen, gehen, fahren, aufstehen, ankommen</b>. <b>Der Besucher ist angekommen. Die Besucherin ist zur Apotheke gegangen.</b>",
+        "Use <b>sein</b> for a change of state, and always for <b>bleiben</b> and <b>sein</b>. <b>Der Säugling ist eingeschlafen. Der Pförtner ist im Flur geblieben. Ich bin da gewesen.</b>",
         "<b>war</b> is the simple past from chapter 23. The Perfekt of sein is <b>bin gewesen</b>, not war.",
         "The participle goes to the end. A separable verb keeps its prefix: <b>aufgestanden, angekommen, eingeschlafen</b>. <b>lachen</b> and <b>schlafen</b> take haben: <b>Ich habe gelacht. Er hat geschlafen.</b>"
       ],
@@ -100,36 +576,144 @@
         {
           "title": "sein im Perfekt",
           "caption": "The participle stands at the end. ihr seid, sie sind.",
-          "columns": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"],
+          "columns": [
+            "ich",
+            "du",
+            "er/sie/es",
+            "wir",
+            "ihr",
+            "sie/Sie"
+          ],
           "rows": [
-            { "label": "sein", "cells": ["bin", "bist", "ist", "sind", "seid", "sind"], "highlight": true }
+            {
+              "label": "sein",
+              "cells": [
+                "bin",
+                "bist",
+                "ist",
+                "sind",
+                "seid",
+                "sind"
+              ],
+              "highlight": true
+            }
           ]
         },
         {
           "title": "sein oder haben",
           "caption": "Also sein: ankommen → angekommen, fahren → gefahren, passieren → passiert. schlafen is haben, even though einschlafen is sein.",
-          "columns": ["Verb", "Partizip", "Hilfsverb"],
+          "columns": [
+            "Verb",
+            "Partizip",
+            "Hilfsverb"
+          ],
           "rows": [
-            { "label": "kommen", "cells": ["kommen", "gekommen", "sein"], "highlight": true },
-            { "label": "gehen", "cells": ["gehen", "gegangen", "sein"], "highlight": true },
-            { "label": "aufstehen", "cells": ["aufstehen", "aufgestanden", "sein"], "highlight": true },
-            { "label": "einschlafen", "cells": ["einschlafen", "eingeschlafen", "sein"], "highlight": true },
-            { "label": "bleiben", "cells": ["bleiben", "geblieben", "sein"], "highlight": true },
-            { "label": "sein", "cells": ["sein", "gewesen", "sein"], "highlight": true },
-            { "label": "lachen", "cells": ["lachen", "gelacht", "haben"] },
-            { "label": "schlafen", "cells": ["schlafen", "geschlafen", "haben"] }
+            {
+              "label": "kommen",
+              "cells": [
+                "kommen",
+                "gekommen",
+                "sein"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "gehen",
+              "cells": [
+                "gehen",
+                "gegangen",
+                "sein"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "aufstehen",
+              "cells": [
+                "aufstehen",
+                "aufgestanden",
+                "sein"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "einschlafen",
+              "cells": [
+                "einschlafen",
+                "eingeschlafen",
+                "sein"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "bleiben",
+              "cells": [
+                "bleiben",
+                "geblieben",
+                "sein"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "sein",
+              "cells": [
+                "sein",
+                "gewesen",
+                "sein"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "lachen",
+              "cells": [
+                "lachen",
+                "gelacht",
+                "haben"
+              ]
+            },
+            {
+              "label": "schlafen",
+              "cells": [
+                "schlafen",
+                "geschlafen",
+                "haben"
+              ]
+            }
           ]
         }
       ],
       "warning": {
         "title": "The wrong auxiliary",
         "items": [
-          { "de": "Der Patient ist angekommen.", "en": "Arrival is a change of place: sein.", "tone": "ok" },
-          { "de": "Der Patient hat angekommen.", "en": "ankommen does not take haben.", "tone": "stop" },
-          { "de": "Ich habe gelacht.", "en": "lachen takes haben.", "tone": "ok" },
-          { "de": "Ich bin gelacht.", "en": "lachen is not a change of place.", "tone": "stop" },
-          { "de": "Er ist aufgestanden.", "en": "The prefix stays on the participle.", "tone": "ok" },
-          { "de": "Er ist aufstehen.", "en": "The participle is aufgestanden, not the infinitive.", "tone": "stop" }
+          {
+            "de": "Der Besucher ist angekommen.",
+            "en": "Arrival is a change of place: sein.",
+            "tone": "ok"
+          },
+          {
+            "de": "Der Patient hat angekommen.",
+            "en": "ankommen does not take haben.",
+            "tone": "stop"
+          },
+          {
+            "de": "Ich habe gelacht.",
+            "en": "lachen takes haben.",
+            "tone": "ok"
+          },
+          {
+            "de": "Ich bin gelacht.",
+            "en": "lachen is not a change of place.",
+            "tone": "stop"
+          },
+          {
+            "de": "Er ist aufgestanden.",
+            "en": "The prefix stays on the participle.",
+            "tone": "ok"
+          },
+          {
+            "de": "Er ist aufstehen.",
+            "en": "The participle is aufgestanden, not the infinitive.",
+            "tone": "stop"
+          }
         ],
         "tip": "Ask: did someone change place or state, stay, or exist? Then sein. Otherwise haben, as in chapter 24."
       },
@@ -139,7 +723,11 @@
           "kind": "mc",
           "q": "Der Patient ___ angekommen.",
           "qEn": "ankommen takes sein.",
-          "options": ["ist", "hat", "bin"],
+          "options": [
+            "ist",
+            "hat",
+            "bin"
+          ],
           "answer": 0,
           "why": "He arrived: ist angekommen.",
           "hint": "ist."
@@ -148,7 +736,11 @@
           "kind": "mc",
           "q": "Ich ___ gelacht.",
           "qEn": "lachen takes haben.",
-          "options": ["habe", "bin", "ist"],
+          "options": [
+            "habe",
+            "bin",
+            "ist"
+          ],
           "answer": 0,
           "why": "Laughing takes haben.",
           "hint": "habe."
@@ -157,7 +749,11 @@
           "kind": "mc",
           "q": "Which sentence is the Perfekt of gehen?",
           "qEn": "sein, participle at the end.",
-          "options": ["Die Patientin ist zur Radiologie gegangen.", "Die Patientin hat zur Radiologie gegangen.", "Die Patientin ist zur Radiologie gehen."],
+          "options": [
+            "Die Besucherin ist zur Apotheke gegangen.",
+            "Die Patientin hat zur Apotheke gegangen.",
+            "Die Patientin ist zur Apotheke gehen."
+          ],
           "answer": 0,
           "why": "gehen takes sein. The participle is gegangen.",
           "hint": "ist gegangen."
@@ -166,7 +762,11 @@
           "kind": "mc",
           "q": "She fell asleep (einschlafen). Which sentence?",
           "qEn": "Change of state: sein.",
-          "options": ["Sie ist eingeschlafen.", "Sie hat eingeschlafen.", "Sie ist geschlafen."],
+          "options": [
+            "Die Oma ist eingeschlafen.",
+            "Sie hat eingeschlafen.",
+            "Sie ist geschlafen."
+          ],
           "answer": 0,
           "why": "einschlafen takes sein. geschlafen belongs to schlafen.",
           "hint": "eingeschlafen."
@@ -175,7 +775,11 @@
           "kind": "mc",
           "q": "He stayed in the room. Which sentence?",
           "qEn": "bleiben takes sein.",
-          "options": ["Er ist im Zimmer geblieben.", "Er hat im Zimmer geblieben.", "Er ist im Zimmer bleiben."],
+          "options": [
+            "Er ist im Flur geblieben.",
+            "Er hat im Flur geblieben.",
+            "Er ist im Zimmer bleiben."
+          ],
           "answer": 0,
           "why": "bleiben takes sein. im Zimmer is where.",
           "hint": "ist geblieben."
@@ -184,7 +788,11 @@
           "kind": "mc",
           "q": "Du ___ aufgestanden.",
           "qEn": "du bist.",
-          "options": ["bist", "ist", "hast"],
+          "options": [
+            "bist",
+            "ist",
+            "hast"
+          ],
           "answer": 0,
           "why": "du bist aufgestanden.",
           "hint": "bist."
@@ -199,26 +807,44 @@
       "type": "gapfill",
       "instructions": "The label names the verb type and the subject. Only one form fits.",
       "chips": [
-        { "w": "ist", "hint": "er/sie/es: ist." },
-        { "w": "bin", "hint": "ich: bin." },
-        { "w": "habe", "hint": "ich + haben: habe." },
-        { "w": "hat", "hint": "er + haben: hat." },
-        { "w": "sind", "hint": "wir: sind." },
-        { "w": "bist", "hint": "du: bist." }
+        {
+          "w": "ist",
+          "hint": "er/sie/es: ist."
+        },
+        {
+          "w": "bin",
+          "hint": "ich: bin."
+        },
+        {
+          "w": "habe",
+          "hint": "ich + haben: habe."
+        },
+        {
+          "w": "hat",
+          "hint": "er + haben: hat."
+        },
+        {
+          "w": "sind",
+          "hint": "wir: sind."
+        },
+        {
+          "w": "bist",
+          "hint": "du: bist."
+        }
       ],
       "items": [
         {
           "before": "Bewegung, der Patient: Der Patient",
           "after": "angekommen.",
           "answer": "ist",
-          "en": "The patient has arrived.",
+          "en": "The visitor has arrived.",
           "why": "ankommen takes sein. er ist.",
           "tip": "ist angekommen.",
           "hint": "ist."
         },
         {
           "before": "Bewegung, ich: Ich",
-          "after": "zur Radiologie gegangen.",
+          "after": "zur Apotheke gegangen.",
           "answer": "bin",
           "en": "I have gone to radiology.",
           "why": "gehen takes sein. ich bin.",
@@ -274,8 +900,16 @@
         {
           "prompt": "ankommen. Which auxiliary?",
           "options": [
-            { "emoji": "✅", "label": "sein", "caption": "Change of place." },
-            { "emoji": "↩️", "label": "haben", "caption": "Not for arrival." }
+            {
+              "emoji": "✅",
+              "label": "sein",
+              "caption": "Change of place."
+            },
+            {
+              "emoji": "↩️",
+              "label": "haben",
+              "caption": "Not for arrival."
+            }
           ],
           "answer": 0,
           "why": "ankommen takes sein.",
@@ -284,8 +918,16 @@
         {
           "prompt": "lachen. Which auxiliary?",
           "options": [
-            { "emoji": "✅", "label": "haben", "caption": "No change of place." },
-            { "emoji": "↩️", "label": "sein", "caption": "Not for lachen." }
+            {
+              "emoji": "✅",
+              "label": "haben",
+              "caption": "No change of place."
+            },
+            {
+              "emoji": "↩️",
+              "label": "sein",
+              "caption": "Not for lachen."
+            }
           ],
           "answer": 0,
           "why": "lachen takes haben.",
@@ -294,8 +936,16 @@
         {
           "prompt": "gehen. Which auxiliary?",
           "options": [
-            { "emoji": "✅", "label": "sein", "caption": "Change of place." },
-            { "emoji": "↩️", "label": "haben", "caption": "Er hat gegangen is wrong." }
+            {
+              "emoji": "✅",
+              "label": "sein",
+              "caption": "Change of place."
+            },
+            {
+              "emoji": "↩️",
+              "label": "haben",
+              "caption": "Er hat gegangen is wrong."
+            }
           ],
           "answer": 0,
           "why": "gehen takes sein.",
@@ -304,8 +954,16 @@
         {
           "prompt": "schlafen. Which auxiliary?",
           "options": [
-            { "emoji": "✅", "label": "haben", "caption": "Sleeping in place." },
-            { "emoji": "↩️", "label": "sein", "caption": "sein is for einschlafen." }
+            {
+              "emoji": "✅",
+              "label": "haben",
+              "caption": "Sleeping in place."
+            },
+            {
+              "emoji": "↩️",
+              "label": "sein",
+              "caption": "sein is for einschlafen."
+            }
           ],
           "answer": 0,
           "why": "schlafen takes haben.",
@@ -314,8 +972,16 @@
         {
           "prompt": "bleiben. Which auxiliary?",
           "options": [
-            { "emoji": "✅", "label": "sein", "caption": "bleiben always takes sein." },
-            { "emoji": "↩️", "label": "haben", "caption": "Not haben." }
+            {
+              "emoji": "✅",
+              "label": "sein",
+              "caption": "bleiben always takes sein."
+            },
+            {
+              "emoji": "↩️",
+              "label": "haben",
+              "caption": "Not haben."
+            }
           ],
           "answer": 0,
           "why": "bleiben takes sein.",
@@ -324,8 +990,16 @@
         {
           "prompt": "aufstehen. Which auxiliary?",
           "options": [
-            { "emoji": "✅", "label": "sein", "caption": "Getting up is a change of place." },
-            { "emoji": "↩️", "label": "haben", "caption": "Not haben." }
+            {
+              "emoji": "✅",
+              "label": "sein",
+              "caption": "Getting up is a change of place."
+            },
+            {
+              "emoji": "↩️",
+              "label": "haben",
+              "caption": "Not haben."
+            }
           ],
           "answer": 0,
           "why": "aufstehen takes sein.",
@@ -339,42 +1013,102 @@
       "label": "Pictures",
       "title": "Where the night went",
       "practice": "picture",
-      "instructions": "A bed, a ward, a wheelchair, a doctor.",
+      "instructions": "A visitor, a baby, a wheelchair, a bed, a pharmacy, a key, a nurse, a doctor.",
       "items": [
         {
-          "id": "bett",
-          "de": "Bett",
-          "article": "das",
-          "plural": "die Betten",
-          "en": "the bed he got up from",
-          "image": { "type": "svg", "id": "bed" },
-          "hint": "das"
+          "id": "besucher",
+          "de": "Besucher",
+          "article": "der",
+          "plural": "die Besucher",
+          "en": "the visitor who arrived",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          },
+          "hint": "der"
         },
         {
-          "id": "station",
-          "de": "Station",
-          "article": "die",
-          "plural": "die Stationen",
-          "en": "the ward he arrived on",
-          "image": { "type": "svg", "id": "ward" },
-          "hint": "die"
+          "id": "saeugling",
+          "de": "Säugling",
+          "article": "der",
+          "plural": "die Säuglinge",
+          "en": "the baby who fell asleep",
+          "image": {
+            "type": "svg",
+            "id": "baby"
+          },
+          "hint": "der"
         },
         {
           "id": "rollstuhl",
           "de": "Rollstuhl",
           "article": "der",
           "plural": "die Rollstühle",
-          "en": "the wheelchair he went in",
-          "image": { "type": "svg", "id": "wheelchair" },
+          "en": "the wheelchair",
+          "image": {
+            "type": "svg",
+            "id": "wheelchair"
+          },
           "hint": "der"
+        },
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "the bed",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "das"
+        },
+        {
+          "id": "apotheke",
+          "de": "Apotheke",
+          "article": "die",
+          "plural": "die Apotheken",
+          "en": "the pharmacy",
+          "image": {
+            "type": "svg",
+            "id": "pharmacy"
+          },
+          "hint": "die"
+        },
+        {
+          "id": "schluessel",
+          "de": "Schlüssel",
+          "article": "der",
+          "plural": "die Schlüssel",
+          "en": "the key",
+          "image": {
+            "type": "svg",
+            "id": "key"
+          },
+          "hint": "der"
+        },
+        {
+          "id": "pflegekraft",
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "en": "the nurse",
+          "image": {
+            "type": "svg",
+            "id": "nurse"
+          },
+          "hint": "die"
         },
         {
           "id": "arzt",
           "de": "Arzt",
           "article": "der",
           "plural": "die Ärzte",
-          "en": "the doctor who came",
-          "image": { "type": "svg", "id": "oberarzt" },
+          "en": "the doctor",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
           "hint": "der"
         }
       ]
@@ -388,48 +1122,86 @@
       "instructions": "Build the Perfekt. The participle is the last word.",
       "items": [
         {
-          "tiles": ["Der", "Patient", "ist", "angekommen"],
-          "answers": ["Der Patient ist angekommen"],
+          "tiles": [
+            "Der",
+            "Besucher",
+            "ist",
+            "angekommen"
+          ],
+          "answers": [
+            "Der Besucher ist angekommen"
+          ],
           "punct": ".",
           "modal": "ist",
           "inf": "angekommen",
           "question": false,
-          "en": "The patient has arrived.",
+          "en": "The visitor has arrived.",
           "hint": "ist, then angekommen.",
-          "feedback": { "end": "The participle comes last: angekommen.", "fallback": "ist angekommen." }
+          "feedback": {
+            "end": "The participle comes last: angekommen.",
+            "fallback": "ist angekommen."
+          }
         },
         {
-          "tiles": ["Er", "ist", "aufgestanden"],
-          "answers": ["Er ist aufgestanden"],
+          "tiles": [
+            "Er",
+            "ist",
+            "aufgestanden"
+          ],
+          "answers": [
+            "Er ist aufgestanden"
+          ],
           "punct": ".",
           "modal": "ist",
           "inf": "aufgestanden",
           "question": false,
           "en": "He has got up.",
           "hint": "aufgestanden is one word.",
-          "feedback": { "end": "The participle comes last: aufgestanden.", "fallback": "ist aufgestanden." }
+          "feedback": {
+            "end": "The participle comes last: aufgestanden.",
+            "fallback": "ist aufgestanden."
+          }
         },
         {
-          "tiles": ["Ich", "habe", "gelacht"],
-          "answers": ["Ich habe gelacht"],
+          "tiles": [
+            "Ich",
+            "habe",
+            "gelacht"
+          ],
+          "answers": [
+            "Ich habe gelacht"
+          ],
           "punct": ".",
           "modal": "habe",
           "inf": "gelacht",
           "question": false,
           "en": "I laughed.",
           "hint": "lachen takes habe.",
-          "feedback": { "end": "The participle comes last: gelacht.", "fallback": "habe gelacht." }
+          "feedback": {
+            "end": "The participle comes last: gelacht.",
+            "fallback": "habe gelacht."
+          }
         },
         {
-          "tiles": ["Sie", "ist", "eingeschlafen"],
-          "answers": ["Sie ist eingeschlafen"],
+          "tiles": [
+            "Die",
+            "Oma",
+            "ist",
+            "eingeschlafen"
+          ],
+          "answers": [
+            "Die Oma ist eingeschlafen"
+          ],
           "punct": ".",
           "modal": "ist",
           "inf": "eingeschlafen",
           "question": false,
           "en": "She has fallen asleep.",
           "hint": "einschlafen takes ist.",
-          "feedback": { "end": "The participle comes last: eingeschlafen.", "fallback": "ist eingeschlafen." }
+          "feedback": {
+            "end": "The participle comes last: eingeschlafen.",
+            "fallback": "ist eingeschlafen."
+          }
         }
       ]
     },
@@ -441,19 +1213,37 @@
       "type": "gapfill",
       "instructions": "Write the Perfekt. Keep sein or haben with the verb in the label.",
       "chips": [
-        { "w": "Der Patient ist angekommen", "hint": "ankommen takes sein." },
-        { "w": "Er ist aufgestanden", "hint": "aufstehen takes sein." },
-        { "w": "Die Patientin ist zur Radiologie gegangen", "hint": "gehen takes sein." },
-        { "w": "Das Kind ist eingeschlafen", "hint": "einschlafen takes sein." },
-        { "w": "Der Arzt ist im Zimmer geblieben", "hint": "bleiben takes sein." },
-        { "w": "Ich habe gelacht", "hint": "lachen takes haben." }
+        {
+          "w": "Der Besucher ist angekommen",
+          "hint": "ankommen takes sein."
+        },
+        {
+          "w": "Er ist aufgestanden",
+          "hint": "aufstehen takes sein."
+        },
+        {
+          "w": "Die Besucherin ist zur Apotheke gegangen",
+          "hint": "gehen takes sein."
+        },
+        {
+          "w": "Der Säugling ist eingeschlafen",
+          "hint": "einschlafen takes sein."
+        },
+        {
+          "w": "Der Pförtner ist im Flur geblieben",
+          "hint": "bleiben takes sein."
+        },
+        {
+          "w": "Ich habe gelacht",
+          "hint": "lachen takes haben."
+        }
       ],
       "items": [
         {
           "before": "ankommen: Der Patient kommt an. →",
           "after": ".",
-          "answer": "Der Patient ist angekommen",
-          "en": "The patient has arrived.",
+          "answer": "Der Besucher ist angekommen",
+          "en": "The visitor has arrived.",
           "why": "kommt an becomes ist angekommen.",
           "tip": "ist angekommen.",
           "hint": "ist angekommen."
@@ -468,10 +1258,10 @@
           "hint": "ist aufgestanden."
         },
         {
-          "before": "gehen: Die Patientin geht zur Radiologie. →",
+          "before": "gehen: Die Patientin geht zur Apotheke. →",
           "after": ".",
-          "answer": "Die Patientin ist zur Radiologie gegangen",
-          "en": "The female patient has gone to radiology.",
+          "answer": "Die Besucherin ist zur Apotheke gegangen",
+          "en": "The visitor has gone to the pharmacy.",
           "why": "geht becomes ist gegangen.",
           "tip": "ist gegangen.",
           "hint": "ist gegangen."
@@ -479,7 +1269,7 @@
         {
           "before": "einschlafen: Das Kind schläft ein. →",
           "after": ".",
-          "answer": "Das Kind ist eingeschlafen",
+          "answer": "Der Säugling ist eingeschlafen",
           "en": "The child has fallen asleep.",
           "why": "schläft ein becomes ist eingeschlafen.",
           "tip": "ist eingeschlafen.",
@@ -488,7 +1278,7 @@
         {
           "before": "bleiben: Der Arzt bleibt im Zimmer. →",
           "after": ".",
-          "answer": "Der Arzt ist im Zimmer geblieben",
+          "answer": "Der Pförtner ist im Flur geblieben",
           "en": "The doctor has stayed in the room.",
           "why": "bleibt becomes ist geblieben.",
           "tip": "ist geblieben.",
@@ -514,43 +1304,91 @@
       "instructions": "The last line is wrong. Choose the corrected sentence.",
       "items": [
         {
-          "clues": ["ankommen takes sein.", "Not haben.", "Der Patient hat angekommen."],
-          "options": ["Der Patient ist angekommen.", "Der Patient hat angekommen.", "Der Patient ist ankommen."],
+          "clues": [
+            "ankommen takes sein.",
+            "Not haben.",
+            "Der Patient hat angekommen."
+          ],
+          "options": [
+            "Der Besucher ist angekommen.",
+            "Der Patient hat angekommen.",
+            "Der Patient ist ankommen."
+          ],
           "answer": 0,
-          "reveal": "Der Patient ist angekommen.",
+          "reveal": "Der Besucher ist angekommen.",
           "hint": "ist angekommen."
         },
         {
-          "clues": ["lachen takes haben.", "Not sein.", "Ich bin gelacht."],
-          "options": ["Ich habe gelacht.", "Ich bin gelacht.", "Ich hat gelacht."],
+          "clues": [
+            "lachen takes haben.",
+            "Not sein.",
+            "Ich bin gelacht."
+          ],
+          "options": [
+            "Ich habe gelacht.",
+            "Ich bin gelacht.",
+            "Ich hat gelacht."
+          ],
           "answer": 0,
           "reveal": "Ich habe gelacht.",
           "hint": "habe gelacht."
         },
         {
-          "clues": ["The participle is aufgestanden.", "Not the infinitive.", "Er ist aufstehen."],
-          "options": ["Er ist aufgestanden.", "Er ist aufstehen.", "Er hat aufgestanden."],
+          "clues": [
+            "The participle is aufgestanden.",
+            "Not the infinitive.",
+            "Er ist aufstehen."
+          ],
+          "options": [
+            "Er ist aufgestanden.",
+            "Er ist aufstehen.",
+            "Er hat aufgestanden."
+          ],
           "answer": 0,
           "reveal": "Er ist aufgestanden.",
           "hint": "aufgestanden."
         },
         {
-          "clues": ["einschlafen takes sein.", "geschlafen is a different verb.", "Sie hat eingeschlafen."],
-          "options": ["Sie ist eingeschlafen.", "Sie hat eingeschlafen.", "Sie ist geschlafen."],
+          "clues": [
+            "einschlafen takes sein.",
+            "geschlafen is a different verb.",
+            "Sie hat eingeschlafen."
+          ],
+          "options": [
+            "Die Oma ist eingeschlafen.",
+            "Sie hat eingeschlafen.",
+            "Sie ist geschlafen."
+          ],
           "answer": 0,
-          "reveal": "Sie ist eingeschlafen.",
+          "reveal": "Die Oma ist eingeschlafen.",
           "hint": "ist eingeschlafen."
         },
         {
-          "clues": ["du bist, not du ist.", "gehen takes sein.", "Du ist gegangen."],
-          "options": ["Du bist gegangen.", "Du ist gegangen.", "Du hast gegangen."],
+          "clues": [
+            "du bist, not du ist.",
+            "gehen takes sein.",
+            "Du ist gegangen."
+          ],
+          "options": [
+            "Du bist gegangen.",
+            "Du ist gegangen.",
+            "Du hast gegangen."
+          ],
           "answer": 0,
           "reveal": "Du bist gegangen.",
           "hint": "du bist."
         },
         {
-          "clues": ["schlafen takes haben.", "sein would be einschlafen.", "Er ist geschlafen."],
-          "options": ["Er hat geschlafen.", "Er ist geschlafen.", "Er ist schlafen."],
+          "clues": [
+            "schlafen takes haben.",
+            "sein would be einschlafen.",
+            "Er ist geschlafen."
+          ],
+          "options": [
+            "Er hat geschlafen.",
+            "Er ist geschlafen.",
+            "Er ist schlafen."
+          ],
           "answer": 0,
           "reveal": "Er hat geschlafen.",
           "hint": "hat geschlafen."
@@ -565,19 +1403,37 @@
       "type": "gapfill",
       "instructions": "The auxiliary is already there. Put in the participle from the label.",
       "chips": [
-        { "w": "angekommen", "hint": "ankommen." },
-        { "w": "aufgestanden", "hint": "aufstehen." },
-        { "w": "gegangen", "hint": "gehen." },
-        { "w": "eingeschlafen", "hint": "einschlafen." },
-        { "w": "geblieben", "hint": "bleiben." },
-        { "w": "gelacht", "hint": "lachen takes haben." }
+        {
+          "w": "angekommen",
+          "hint": "ankommen."
+        },
+        {
+          "w": "aufgestanden",
+          "hint": "aufstehen."
+        },
+        {
+          "w": "gegangen",
+          "hint": "gehen."
+        },
+        {
+          "w": "eingeschlafen",
+          "hint": "einschlafen."
+        },
+        {
+          "w": "geblieben",
+          "hint": "bleiben."
+        },
+        {
+          "w": "gelacht",
+          "hint": "lachen takes haben."
+        }
       ],
       "items": [
         {
           "before": "Pflegekraft, ankommen: Der Patient ist",
           "after": ".",
           "answer": "angekommen",
-          "en": "The patient has arrived.",
+          "en": "The visitor has arrived.",
           "why": "angekommen.",
           "tip": "angekommen.",
           "hint": "angekommen.",
@@ -594,10 +1450,10 @@
           "who": "Patient"
         },
         {
-          "before": "Arzt, gehen: Die Patientin ist zur Radiologie",
+          "before": "Arzt, gehen: Die Patientin ist zur Apotheke",
           "after": ".",
           "answer": "gegangen",
-          "en": "The female patient has gone to radiology.",
+          "en": "The visitor has gone to the pharmacy.",
           "why": "gegangen.",
           "tip": "gegangen.",
           "hint": "gegangen.",
@@ -643,12 +1499,30 @@
       "type": "gapfill",
       "instructions": "A question starts with Sind or Seid. The label names the infinitive for a participle.",
       "chips": [
-        { "w": "Sind", "hint": "Sie: Sind." },
-        { "w": "Seid", "hint": "ihr: Seid." },
-        { "w": "gewesen", "hint": "sein → gewesen." },
-        { "w": "gefahren", "hint": "fahren takes sein." },
-        { "w": "gekommen", "hint": "kommen → gekommen." },
-        { "w": "passiert", "hint": "passieren takes sein." }
+        {
+          "w": "Sind",
+          "hint": "Sie: Sind."
+        },
+        {
+          "w": "Seid",
+          "hint": "ihr: Seid."
+        },
+        {
+          "w": "gewesen",
+          "hint": "sein → gewesen."
+        },
+        {
+          "w": "gefahren",
+          "hint": "fahren takes sein."
+        },
+        {
+          "w": "gekommen",
+          "hint": "kommen → gekommen."
+        },
+        {
+          "w": "passiert",
+          "hint": "passieren takes sein."
+        }
       ],
       "items": [
         {
@@ -662,7 +1536,7 @@
         },
         {
           "before": "Frage, ihr, gehen:",
-          "after": "ihr zur Radiologie gegangen?",
+          "after": "ihr zur Apotheke gegangen?",
           "answer": "Seid",
           "en": "Have you gone to radiology?",
           "why": "ihr seid.",
@@ -718,7 +1592,7 @@
         "letterhead": "Station 4 · Abend",
         "title": "Ankunft am Abend",
         "paragraphs": [
-          "Der Patient ist am Abend angekommen. Er ist aufgestanden und zur Radiologie gegangen. Die Patientin ist eingeschlafen. Der Arzt ist im Zimmer geblieben.",
+          "Der Besucher ist am Abend angekommen. Er ist aufgestanden und zur Apotheke gegangen. Die Oma ist eingeschlafen. Der Pförtner ist im Flur geblieben.",
           "Ich bin auch gekommen. Die Pflegekraft hat gelacht."
         ],
         "signature": "Anna",
@@ -727,9 +1601,13 @@
       "questions": [
         {
           "kind": "mc",
-          "q": "Wann ist der Patient angekommen?",
+          "q": "Wann ist der Besucher angekommen?",
           "qEn": "am Abend.",
-          "options": ["am Abend", "am Morgen", "gestern"],
+          "options": [
+            "am Abend",
+            "am Morgen",
+            "gestern"
+          ],
           "answer": 0,
           "why": "am Abend.",
           "hint": "am Abend."
@@ -737,26 +1615,38 @@
         {
           "kind": "mc",
           "q": "Wohin ist er gegangen?",
-          "qEn": "zur Radiologie.",
-          "options": ["zur Radiologie", "im Zimmer", "nach Hause"],
+          "qEn": "zur Apotheke.",
+          "options": [
+            "zur Apotheke",
+            "im Zimmer",
+            "nach Hause"
+          ],
           "answer": 0,
-          "why": "zur Radiologie.",
+          "why": "zur Apotheke.",
           "hint": "Wohin."
         },
         {
           "kind": "mc",
-          "q": "Die Patientin ist …",
+          "q": "Die Oma ist …",
           "qEn": "eingeschlafen.",
-          "options": ["eingeschlafen", "angekommen", "gelacht"],
+          "options": [
+            "eingeschlafen",
+            "angekommen",
+            "gelacht"
+          ],
           "answer": 0,
-          "why": "Sie ist eingeschlafen.",
+          "why": "Die Oma ist eingeschlafen.",
           "hint": "eingeschlafen."
         },
         {
           "kind": "mc",
           "q": "Wer hat gelacht?",
           "qEn": "Die Pflegekraft.",
-          "options": ["Die Pflegekraft", "Der Arzt", "Der Patient"],
+          "options": [
+            "Die Pflegekraft",
+            "Der Arzt",
+            "Der Patient"
+          ],
           "answer": 0,
           "why": "Die Pflegekraft hat gelacht.",
           "hint": "hat gelacht."
@@ -770,16 +1660,45 @@
       "title": "Four sentences in the Perfekt",
       "practice": "writing",
       "instructions": "Write four sentences. Participle at the end. sein or haben as the verb needs.",
-      "prompt": "The patient has arrived. He has got up. The female patient has gone to radiology. I laughed.",
-      "bullets": ["ist angekommen", "ist aufgestanden", "ist gegangen", "habe gelacht"],
-      "model": "Der Patient ist angekommen. Er ist aufgestanden. Die Patientin ist zur Radiologie gegangen. Ich habe gelacht.",
-      "modelEn": "The patient has arrived. He has got up. The female patient has gone to radiology. I laughed.",
+      "prompt": "The visitor has arrived. He has got up. The visitor has gone to the pharmacy. I laughed.",
+      "bullets": [
+        "ist angekommen",
+        "ist aufgestanden",
+        "ist gegangen",
+        "habe gelacht"
+      ],
+      "model": "Der Besucher ist angekommen. Er ist aufgestanden. Die Besucherin ist zur Apotheke gegangen. Ich habe gelacht.",
+      "modelEn": "The visitor has arrived. He has got up. The visitor has gone to the pharmacy. I laughed.",
       "hint": "ist for movement. habe for lachen.",
       "checklist": [
-        { "id": "a", "label": "ist angekommen", "keywords": ["ist angekommen"] },
-        { "id": "u", "label": "ist aufgestanden", "keywords": ["ist aufgestanden"] },
-        { "id": "g", "label": "ist gegangen", "keywords": ["gegangen"] },
-        { "id": "l", "label": "habe gelacht", "keywords": ["habe gelacht"] }
+        {
+          "id": "a",
+          "label": "ist angekommen",
+          "keywords": [
+            "ist angekommen"
+          ]
+        },
+        {
+          "id": "u",
+          "label": "ist aufgestanden",
+          "keywords": [
+            "ist aufgestanden"
+          ]
+        },
+        {
+          "id": "g",
+          "label": "ist gegangen",
+          "keywords": [
+            "gegangen"
+          ]
+        },
+        {
+          "id": "l",
+          "label": "habe gelacht",
+          "keywords": [
+            "habe gelacht"
+          ]
+        }
       ]
     },
     {
@@ -790,7 +1709,9 @@
       "practice": "lernkontrolle",
       "heroTitle": "sein oder haben",
       "heroImage": "ward",
-      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
+      "story": [
+        "Twelve questions. Eighty percent mastered means at least ten correct."
+      ],
       "questionRule": "sein for place, state, bleiben and sein. haben for lachen and schlafen. Participle at the end.",
       "quizTitle": "Lernkontrolle",
       "quiz": [
@@ -798,7 +1719,11 @@
           "kind": "mc",
           "q": "Der Patient ___ angekommen.",
           "qEn": "sein.",
-          "options": ["ist", "hat", "bin"],
+          "options": [
+            "ist",
+            "hat",
+            "bin"
+          ],
           "answer": 0,
           "why": "ist angekommen.",
           "hint": "ist."
@@ -807,7 +1732,11 @@
           "kind": "mc",
           "q": "Ich ___ gelacht.",
           "qEn": "haben.",
-          "options": ["habe", "bin", "ist"],
+          "options": [
+            "habe",
+            "bin",
+            "ist"
+          ],
           "answer": 0,
           "why": "habe gelacht.",
           "hint": "habe."
@@ -816,7 +1745,11 @@
           "kind": "mc",
           "q": "Du ___ gegangen.",
           "qEn": "du bist.",
-          "options": ["bist", "ist", "hast"],
+          "options": [
+            "bist",
+            "ist",
+            "hast"
+          ],
           "answer": 0,
           "why": "du bist gegangen.",
           "hint": "bist."
@@ -825,7 +1758,11 @@
           "kind": "mc",
           "q": "Wir ___ geblieben.",
           "qEn": "wir sind.",
-          "options": ["sind", "haben", "seid"],
+          "options": [
+            "sind",
+            "haben",
+            "seid"
+          ],
           "answer": 0,
           "why": "wir sind geblieben.",
           "hint": "sind."
@@ -834,7 +1771,11 @@
           "kind": "mc",
           "q": "Participle of aufstehen?",
           "qEn": "Prefix plus ge.",
-          "options": ["aufgestanden", "geaufsteht", "aufstehen"],
+          "options": [
+            "aufgestanden",
+            "geaufsteht",
+            "aufstehen"
+          ],
           "answer": 0,
           "why": "aufgestanden.",
           "hint": "aufgestanden."
@@ -843,7 +1784,11 @@
           "kind": "mc",
           "q": "Participle of gehen?",
           "qEn": "gegangen.",
-          "options": ["gegangen", "geht", "gehen"],
+          "options": [
+            "gegangen",
+            "geht",
+            "gehen"
+          ],
           "answer": 0,
           "why": "gegangen.",
           "hint": "gegangen."
@@ -852,7 +1797,11 @@
           "kind": "mc",
           "q": "She fell asleep (einschlafen). Which sentence?",
           "qEn": "sein.",
-          "options": ["Sie ist eingeschlafen.", "Sie hat eingeschlafen.", "Sie ist geschlafen."],
+          "options": [
+            "Die Oma ist eingeschlafen.",
+            "Sie hat eingeschlafen.",
+            "Sie ist geschlafen."
+          ],
           "answer": 0,
           "why": "ist eingeschlafen.",
           "hint": "eingeschlafen."
@@ -861,7 +1810,11 @@
           "kind": "mc",
           "q": "He slept (schlafen), not fell asleep. Which sentence?",
           "qEn": "haben.",
-          "options": ["Er hat geschlafen.", "Er ist geschlafen.", "Er ist eingeschlafen."],
+          "options": [
+            "Er hat geschlafen.",
+            "Er ist geschlafen.",
+            "Er ist eingeschlafen."
+          ],
           "answer": 0,
           "why": "schlafen takes haben.",
           "hint": "hat geschlafen."
@@ -870,7 +1823,11 @@
           "kind": "mc",
           "q": "He stayed in the room. Which sentence?",
           "qEn": "bleiben takes sein.",
-          "options": ["Er ist im Zimmer geblieben.", "Er hat im Zimmer geblieben.", "Er ist im Zimmer bleiben."],
+          "options": [
+            "Er ist im Flur geblieben.",
+            "Er hat im Flur geblieben.",
+            "Er ist im Zimmer bleiben."
+          ],
           "answer": 0,
           "why": "ist geblieben.",
           "hint": "geblieben."
@@ -879,7 +1836,11 @@
           "kind": "mc",
           "q": "Perfekt of sein: the doctor was there.",
           "qEn": "gewesen, not war.",
-          "options": ["Der Arzt ist da gewesen.", "Der Arzt hat da gewesen.", "Der Arzt ist da bleiben."],
+          "options": [
+            "Der Arzt ist da gewesen.",
+            "Der Arzt hat da gewesen.",
+            "Der Arzt ist da bleiben."
+          ],
           "answer": 0,
           "why": "bin/ist gewesen.",
           "hint": "gewesen."
@@ -888,7 +1849,11 @@
           "kind": "mc",
           "q": "Which word order is the Perfekt?",
           "qEn": "Verb in position 2, participle at the end.",
-          "options": ["Gestern ist der Patient angekommen.", "Gestern der Patient ist angekommen.", "Gestern hat der Patient angekommen."],
+          "options": [
+            "Gestern ist der Patient angekommen.",
+            "Gestern der Patient ist angekommen.",
+            "Gestern hat der Patient angekommen."
+          ],
           "answer": 0,
           "why": "ist is in position 2. angekommen is last.",
           "hint": "ist … angekommen."
@@ -897,7 +1862,11 @@
           "kind": "mc",
           "q": "Which line is the yes/no question?",
           "qEn": "The auxiliary comes first.",
-          "options": ["Sind Sie aufgestanden?", "Aufgestanden Sie sind?", "Haben Sie aufgestanden?"],
+          "options": [
+            "Sind Sie aufgestanden?",
+            "Aufgestanden Sie sind?",
+            "Haben Sie aufgestanden?"
+          ],
           "answer": 0,
           "why": "Sind Sie aufgestanden?",
           "hint": "Sind Sie."
@@ -911,10 +1880,22 @@
       "title": "gekommen with sein, gelacht with haben",
       "reviewStepType": "grammar",
       "redemittel": [
-        { "de": "Der Patient ist angekommen.", "en": "The patient has arrived." },
-        { "de": "Er ist aufgestanden.", "en": "He has got up." },
-        { "de": "Die Patientin ist zur Radiologie gegangen.", "en": "The female patient has gone to radiology." },
-        { "de": "Ich habe gelacht.", "en": "I laughed." }
+        {
+          "de": "Der Besucher ist angekommen.",
+          "en": "The visitor has arrived."
+        },
+        {
+          "de": "Er ist aufgestanden.",
+          "en": "He has got up."
+        },
+        {
+          "de": "Die Besucherin ist zur Apotheke gegangen.",
+          "en": "The visitor has gone to the pharmacy."
+        },
+        {
+          "de": "Ich habe gelacht.",
+          "en": "I laughed."
+        }
       ],
       "messages": [
         "Look again at sein and haben. The participle goes last.",

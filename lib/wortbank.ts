@@ -13,6 +13,8 @@ export type WortbankEntry = {
   de: string;
   en: string;
   emoji: string;
+  /** Sprite id, when the lesson drew this word. */
+  image?: string;
   sentence: string;
   href: string;
   hard: boolean;
@@ -40,6 +42,7 @@ export type WortbankDraft = {
   de: string;
   en: string;
   emoji: string;
+  image?: string;
   sentence: string;
   href: string;
 };
@@ -97,6 +100,7 @@ export function upsertWortbank(doc: WortbankDoc, draft: WortbankDraft, now = new
             de: draft.de,
             en: draft.en,
             emoji: draft.emoji,
+            image: draft.image,
             sentence: draft.sentence,
             href: draft.href,
           }

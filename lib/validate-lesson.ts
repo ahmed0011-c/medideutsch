@@ -48,6 +48,11 @@ export function validateLesson(lesson: Lesson): LessonIssue[] {
   const id = lesson.id;
   const fail = (message: string) => issues.push({ lessonId: id, message });
 
+  for (const [key, entry] of Object.entries(lesson.glossary)) {
+    const picture = pictureIssue(entry.image, `Glossary “${key}”`);
+    if (picture) fail(picture);
+  }
+
   for (const text of textsToCheck(lesson)) {
     for (const missing of unresolvedTokens(text, lesson.glossary)) {
       fail(`No glossary entry for “${missing}” in: ${text.slice(0, 80)}`);

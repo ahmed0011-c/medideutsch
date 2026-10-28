@@ -31,6 +31,8 @@ Played in this repo: 1, 2, 3, 4, 5–6 (one lesson), 7, 8, 9, 10, 11, 12, 13, 14
 7. Glossary: every word in the overview, the dialogue, and the reading. Run `npm run validate`. It fails on a missing word, a gap answer that is not in the chips, a builder answer that does not use exactly the tiles, a quiz index that is out of range, or a lesson under the practice minimum.
 8. Point `LESSON[n]` in `content/curriculum.ts` at the new id.
 9. Read the German aloud. Keep it medically plausible: drug rounds, dressings, handover, admission, vital signs. Original sentences only.
+10. Variety: do not repeat an example sentence, or the same verb with the same person or thing, across exercises in one lesson. Rotate wards, people, and objects. Do not copy a sentence another chapter already uses as its line.
+11. Pictures: draw new vocabulary as an inline SVG in `components/illustrations/sprites.ts`. Put that id on the overview card, the picture step, and the glossary `image` field so the word popup and Wortbank show the drawing. `npm run validate` rejects a missing id. A picture step’s instruction names exactly the drawings on the step.
 
 ## Where to look
 
