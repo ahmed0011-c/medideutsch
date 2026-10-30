@@ -3,33 +3,731 @@
   "platform": "MediDeutsch",
   "interfaceLanguage": "en",
   "targetLanguage": "de-DE",
+  "exerciseLanguage": "de",
   "scoring": {
     "firstTry": 2,
     "afterRetry": 1,
     "wordExplorePoints": 8,
     "hintCost": 1,
     "tipPoints": 1,
-    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
   },
   "id": "a2-43-da-dahin-daher",
   "level": "A2",
   "unit": "Kapitel 43",
   "chapter": 43,
-  "chapters": [43],
+  "chapters": [
+    43
+  ],
   "title": "Ich bin da. Kommst du auch dahin?",
-  "subtitle": "Place adverbs",
+  "subtitle": "da · dahin · daher",
+  "scenarios": [
+    "a2-krankenhaus",
+    "a2-patienten",
+    "a2-vitalwerte",
+    "a2-hilfsmittel",
+    "a2-notfall",
+    "b1-beschwerden"
+  ],
   "glossary": {
-    "ich": {
+    "0": {
+      "de": "0",
+      "pos": "other",
+      "en": "position 0"
+    },
+    "1": {
+      "de": "1",
+      "pos": "other",
+      "en": "position 1"
+    },
+    "2": {
+      "de": "2",
+      "pos": "other",
+      "en": "position 2"
+    },
+    "Aber": {
+      "de": "Aber",
+      "pos": "conjunction",
+      "en": "But"
+    },
+    "Alarmstufe": {
+      "de": "Alarmstufe",
+      "pos": "noun",
+      "en": "alarm level",
+      "article": "die"
+    },
+    "Alleinlaufen": {
+      "de": "Alleinlaufen",
+      "pos": "noun",
+      "en": "walking alone"
+    },
+    "Arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      }
+    },
+    "Bad": {
+      "de": "Bad",
+      "pos": "noun",
+      "en": "bathroom",
+      "article": "das"
+    },
+    "Bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "Bilder": {
+      "de": "Bilder",
+      "pos": "noun",
+      "en": "pictures",
+      "article": "die",
+      "plural": "die Bilder"
+    },
+    "Bitte": {
+      "de": "Bitte",
+      "pos": "other",
+      "en": "please"
+    },
+    "Blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "en": "blood pressure",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "bpmonitor"
+      }
+    },
+    "Braun": {
+      "de": "Braun",
+      "pos": "name",
+      "en": "Braun (surname)"
+    },
+    "Danach": {
+      "de": "Danach",
+      "pos": "adverb",
+      "en": "After that"
+    },
+    "Dann": {
+      "de": "Dann",
+      "pos": "adverb",
+      "en": "Then"
+    },
+    "Denn": {
+      "de": "Denn",
+      "pos": "conjunction",
+      "en": "Because (clause-initial, rare)"
+    },
+    "Der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵",
+      "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet."
+    },
+    "Deshalb": {
+      "de": "Deshalb",
+      "pos": "adverb",
+      "en": "Therefore"
+    },
+    "Die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)",
+      "emoji": "📋",
+      "note": "die Akte."
+    },
+    "Er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "Falsch": {
+      "de": "Falsch",
+      "pos": "adjective",
+      "en": "Wrong"
+    },
+    "Fehler": {
+      "de": "Fehler",
+      "pos": "noun",
+      "en": "mistake",
+      "article": "der"
+    },
+    "Fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "Finde": {
+      "de": "Finde",
+      "pos": "form",
+      "en": "Find"
+    },
+    "Fläche": {
+      "de": "Fläche",
+      "pos": "noun",
+      "en": "surface",
+      "article": "die"
+    },
+    "Folge": {
+      "de": "Folge",
+      "pos": "noun",
+      "en": "consequence"
+    },
+    "Handschuhe": {
+      "de": "Handschuhe",
+      "pos": "noun",
+      "en": "gloves"
+    },
+    "Heben": {
+      "de": "Heben",
+      "pos": "form",
+      "en": "Lift (imperative)"
+    },
+    "Herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "gentleman",
+      "emoji": "🎩",
+      "article": "der",
+      "plural": "die Herren",
+      "note": "Nominative der Herr. No -n. Oblique singular Herrn. Plural die Herren."
+    },
+    "Hilfe": {
+      "de": "Hilfe",
+      "pos": "noun",
+      "en": "help",
+      "article": "die"
+    },
+    "Hände": {
+      "de": "Hand",
+      "pos": "noun",
+      "en": "hand",
+      "emoji": "🤲",
+      "article": "die",
+      "plural": "die Hände",
+      "note": "Accusative plural die Hände. Not den Händen."
+    },
+    "Ich": {
       "de": "ich",
       "pos": "pronoun",
-      "en": "I",
-      "emoji": "🙋"
+      "en": "I"
     },
-    "du": {
-      "de": "du",
+    "Infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "infusion; IV drip",
+      "article": "die",
+      "plural": "die Infusionen"
+    },
+    "Invertieren": {
+      "de": "Invertieren",
+      "pos": "noun",
+      "en": "inversion"
+    },
+    "Jonas": {
+      "de": "Jonas",
+      "pos": "name",
+      "en": "Jonas (first name)"
+    },
+    "Kein": {
+      "de": "Kein",
+      "pos": "article",
+      "en": "No"
+    },
+    "Kissen": {
+      "de": "Kissen",
+      "pos": "noun",
+      "en": "pillow",
+      "article": "das"
+    },
+    "Kommen": {
+      "de": "kommen",
+      "pos": "verb",
+      "en": "to come"
+    },
+    "Konnektor": {
+      "de": "Konnektor",
+      "pos": "noun",
+      "en": "connector",
+      "article": "der"
+    },
+    "Kontrolle": {
+      "de": "Kontrolle",
+      "pos": "noun",
+      "en": "check",
+      "article": "die"
+    },
+    "Kreislauf": {
+      "de": "Kreislauf",
+      "pos": "noun",
+      "en": "circulation",
+      "article": "der"
+    },
+    "Können": {
+      "de": "Können",
+      "pos": "other",
+      "en": "Can you…? / to be able",
+      "emoji": "🔤"
+    },
+    "Lernkontrolle": {
+      "de": "Lernkontrolle",
+      "pos": "noun",
+      "en": "chapter test",
+      "article": "die",
+      "plural": "die Lernkontrollen",
+      "emoji": "🩺"
+    },
+    "Messung": {
+      "de": "Messung",
+      "pos": "noun",
+      "en": "measurement",
+      "article": "die"
+    },
+    "Mira": {
+      "de": "Mira",
+      "pos": "name",
+      "en": "Mira (first name)"
+    },
+    "Morgenpflege": {
+      "de": "Morgenpflege",
+      "pos": "noun",
+      "en": "morning care",
+      "article": "die"
+    },
+    "Naht": {
+      "de": "Naht",
+      "pos": "noun",
+      "en": "suture",
+      "article": "die",
+      "plural": "die Nähte"
+    },
+    "Notarzt": {
+      "de": "Notarzt",
+      "pos": "noun",
+      "en": "emergency doctor",
+      "article": "der"
+    },
+    "Notiz": {
+      "de": "Notiz",
+      "pos": "noun",
+      "en": "note",
+      "article": "die"
+    },
+    "Nächstes": {
+      "de": "Nächstes",
+      "pos": "other",
+      "en": "next"
+    },
+    "Patient": {
+      "de": "Patient",
+      "pos": "noun.m",
+      "en": "patient (male)",
+      "article": "der",
+      "plural": "Patienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "Pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Pflege": {
+      "de": "Pflege",
+      "pos": "noun",
+      "en": "nursing care",
+      "article": "die"
+    },
+    "Physio": {
+      "de": "Physio",
+      "pos": "other",
+      "en": "physio (short for physiotherapy)"
+    },
+    "Plan": {
+      "de": "Plan",
+      "pos": "noun",
+      "en": "plan",
+      "article": "der"
+    },
+    "Pos": {
+      "de": "Pos",
+      "pos": "other",
+      "en": "position (abbr.)"
+    },
+    "Position": {
+      "de": "Position",
+      "pos": "noun",
+      "en": "position (word order slot)",
+      "article": "die"
+    },
+    "Puls": {
+      "de": "Puls",
+      "pos": "noun",
+      "en": "pulse",
+      "article": "der"
+    },
+    "Richtig": {
+      "de": "richtig",
+      "pos": "adjective",
+      "en": "right; correct"
+    },
+    "Rollstuhl": {
+      "de": "Rollstuhl",
+      "pos": "noun",
+      "en": "wheelchair",
+      "article": "der",
+      "plural": "die Rollstühle",
+      "image": {
+        "type": "svg",
+        "id": "wheelchair"
+      }
+    },
+    "Satzanfang": {
+      "de": "Satzanfang",
+      "pos": "noun",
+      "en": "start of the sentence",
+      "emoji": "⬅️",
+      "article": "der",
+      "plural": "die Satzanfänge"
+    },
+    "Schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "article": "der"
+    },
+    "Schmerzen": {
+      "de": "Schmerzen",
+      "pos": "noun",
+      "en": "pain (pl)"
+    },
+    "Schmerzmittel": {
+      "de": "Schmerzmittel",
+      "pos": "noun",
+      "en": "painkiller",
+      "article": "das"
+    },
+    "Schwindel": {
+      "de": "Schwindel",
+      "pos": "noun",
+      "en": "dizziness",
+      "article": "der"
+    },
+    "Sie": {
+      "de": "sie",
       "pos": "pronoun",
-      "en": "you (informal)",
-      "emoji": "👉"
+      "en": "she",
+      "emoji": "👩‍⚕️"
+    },
+    "Sondern": {
+      "de": "Sondern",
+      "pos": "conjunction",
+      "en": "But rather"
+    },
+    "Sonst": {
+      "de": "Sonst",
+      "pos": "adverb",
+      "en": "Otherwise"
+    },
+    "Station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "article": "die",
+      "image": {
+        "type": "svg",
+        "id": "ward"
+      }
+    },
+    "Sätze": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "article": "der",
+      "plural": "die Sätze",
+      "emoji": "🩺"
+    },
+    "Team": {
+      "de": "Team",
+      "pos": "noun",
+      "en": "team",
+      "article": "das"
+    },
+    "Tropfen": {
+      "de": "Tropfen",
+      "pos": "noun",
+      "en": "drops"
+    },
+    "Tür": {
+      "de": "Tür",
+      "pos": "noun",
+      "en": "door",
+      "article": "die"
+    },
+    "Und": {
+      "de": "Und",
+      "pos": "conjunction",
+      "en": "And"
+    },
+    "Verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing, bandage",
+      "article": "der",
+      "plural": "die Verbände",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "article": "die",
+      "plural": "die Visiten"
+    },
+    "Wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "water"
+      }
+    },
+    "Wert": {
+      "de": "Wert",
+      "pos": "noun",
+      "en": "value",
+      "article": "der"
+    },
+    "Wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "Wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "article": "die",
+      "plural": "die Wunden",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Zuerst": {
+      "de": "Zuerst",
+      "pos": "adverb",
+      "en": "First"
+    },
+    "Zugang": {
+      "de": "Zugang",
+      "pos": "noun",
+      "en": "IV access",
+      "article": "der"
+    },
+    "aber": {
+      "de": "aber",
+      "pos": "conjunction",
+      "en": "but"
+    },
+    "allein": {
+      "de": "allein",
+      "pos": "adverb",
+      "en": "alone"
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "as / than"
+    },
+    "am": {
+      "de": "am",
+      "pos": "other",
+      "en": "superlative marker (an dem)",
+      "emoji": "📌",
+      "note": "Nach dem Verb: am + …sten."
+    },
+    "an": {
+      "de": "an",
+      "pos": "particle",
+      "en": "on (separable)"
+    },
+    "andernfalls": {
+      "de": "andernfalls",
+      "pos": "adverb",
+      "en": "otherwise"
+    },
+    "anschließend": {
+      "de": "anschließend",
+      "pos": "adverb",
+      "en": "afterwards"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "aufstehen": {
+      "de": "aufstehen",
+      "pos": "infinitive",
+      "en": "to stand up",
+      "emoji": "🚶",
+      "note": "One word after a modal. Der Patient muss aufstehen. aufzustehen is the zu-form, chapter 68. er steht auf stays the finite main clause."
+    },
+    "bedeutet": {
+      "de": "bedeuten → bedeutet",
+      "pos": "form",
+      "en": "means"
+    },
+    "bleibst": {
+      "de": "bleibst",
+      "pos": "form",
+      "en": "you stay"
+    },
+    "bleibt": {
+      "de": "bleiben → er bleibt",
+      "pos": "form",
+      "en": "stays",
+      "emoji": "🛏️",
+      "note": "Der Patient bleibt im Bett liegen. Bare infinitive, no zu. Der Patient bleibt im Bett, with no second verb, stays correct too."
+    },
+    "blutet": {
+      "de": "blutet",
+      "pos": "form",
+      "en": "bleeds"
+    },
+    "braucht": {
+      "de": "braucht",
+      "pos": "verb",
+      "en": "needs (brauchen)"
+    },
+    "danach": {
+      "de": "danach",
+      "pos": "adverb",
+      "en": "after that",
+      "emoji": "2️⃣",
+      "note": "Position 1. Anschließend."
+    },
+    "dann": {
+      "de": "dann",
+      "pos": "adverb",
+      "en": "then",
+      "emoji": "1️⃣",
+      "note": "Position 1. Nächster Schritt. Nicht denn."
+    },
+    "darum": {
+      "de": "darum",
+      "pos": "adverb",
+      "en": "therefore"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢",
+      "note": "das frische Wasser. das already shows -s, so the adjective takes -e. Not das frisches."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine)",
+      "emoji": "🔵",
+      "note": "den Patienten. Accusative singular after lassen, sehen and hören. Also the dative plural."
+    },
+    "denn": {
+      "de": "denn",
+      "pos": "conjunction",
+      "en": "because (verb in position 2)",
+      "emoji": "💡",
+      "note": "Position 0/2 — kein Verb am Ende."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵",
+      "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet."
+    },
+    "deshalb": {
+      "de": "deshalb",
+      "pos": "adverb",
+      "en": "therefore",
+      "emoji": "➡️",
+      "note": "Position 1. Verb folgt auf Position 2."
+    },
+    "desinfizieren": {
+      "de": "desinfizieren",
+      "pos": "verb",
+      "en": "to disinfect"
+    },
+    "desinfiziert": {
+      "de": "desinfizieren → desinfiziert",
+      "pos": "form",
+      "en": "disinfects"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)",
+      "emoji": "📋",
+      "note": "die Akte."
+    },
+    "dokumentiert": {
+      "de": "dokumentieren → dokumentiert",
+      "pos": "verb",
+      "en": "documents"
+    },
+    "einmal": {
+      "de": "einmal",
+      "pos": "adverb",
+      "en": "once"
+    },
+    "einsetzen": {
+      "de": "einsetzen",
+      "pos": "verb",
+      "en": "to insert / put in",
+      "emoji": "🔤"
+    },
+    "endet": {
+      "de": "endet",
+      "pos": "form",
+      "en": "endet — ends (enden)"
     },
     "er": {
       "de": "er",
@@ -37,80 +735,534 @@
       "en": "he",
       "emoji": "👨"
     },
+    "fallen": {
+      "de": "fallen → fallen",
+      "pos": "form",
+      "en": "fall",
+      "emoji": "⏪"
+    },
+    "falsch": {
+      "de": "falsch",
+      "pos": "adjective",
+      "en": "wrong"
+    },
+    "fertig": {
+      "de": "fertig",
+      "pos": "adjective",
+      "en": "ready, finished",
+      "emoji": "🔤"
+    },
+    "finden": {
+      "de": "finden",
+      "pos": "verb",
+      "en": "to find",
+      "emoji": "🔤"
+    },
+    "flach": {
+      "de": "flach",
+      "pos": "adjective",
+      "en": "flat"
+    },
+    "frische": {
+      "de": "frische",
+      "pos": "adjective",
+      "en": "fresh"
+    },
+    "fällt": {
+      "de": "fallen → sie fällt",
+      "pos": "form",
+      "en": "falls",
+      "emoji": "⏪"
+    },
+    "geben": {
+      "de": "geben",
+      "pos": "verb",
+      "en": "to give",
+      "emoji": "🎁"
+    },
+    "getrunken": {
+      "de": "getrunken",
+      "pos": "participle",
+      "en": "drunk"
+    },
+    "gibt": {
+      "de": "geben → es gibt",
+      "pos": "form",
+      "en": "there is",
+      "emoji": "📋",
+      "note": "Es gibt plus the accusative. Es gibt nichts Neues. Es gibt etwas Neues."
+    },
+    "gründlich": {
+      "de": "gründlich",
+      "pos": "adverb",
+      "en": "thoroughly"
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🩹",
+      "note": "Er hat einen frischen Verband. Accusative masculine -en."
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high (no ending after sein)",
+      "emoji": "🌡️",
+      "note": "Das Fieber ist hoch. No participle ending after sein. Chapter 76."
+    },
+    "holen": {
+      "de": "holen → wir holen",
+      "pos": "form",
+      "en": "fetch",
+      "emoji": "⏪"
+    },
+    "hält": {
+      "de": "hält",
+      "pos": "verb",
+      "en": "holds (halten)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "im": {
+      "de": "im",
+      "pos": "other",
+      "en": "in the"
+    },
+    "instabil": {
+      "de": "instabil",
+      "pos": "adjective",
+      "en": "unstable"
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is; has (with sein)",
+      "emoji": "🟦",
+      "note": "aufstehen takes sein: ist aufgestanden. Not hat aufgestanden."
+    },
+    "jetzt": {
+      "de": "jetzt",
+      "pos": "adverb",
+      "en": "now"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "infinitive",
+      "en": "to come",
+      "emoji": "👀",
+      "note": "Ich sehe den Patienten kommen. No zu. Der Patient kommt stays the finite verb."
+    },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Der behandelnde Arzt kommt."
+    },
+    "kurz": {
+      "de": "kurz",
+      "pos": "adjective",
+      "en": "short",
+      "emoji": "🔤"
+    },
+    "lassen": {
+      "de": "lassen → wir lassen",
+      "pos": "form",
+      "en": "let",
+      "emoji": "😴",
+      "note": "Wir lassen den Patienten schlafen. Bare infinitive, no zu. Chapter 61. zu schlafen is chapter 68, after versuchen."
+    },
+    "liege": {
+      "de": "liegen → liege",
+      "pos": "verb",
+      "en": "lie"
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "infinitive",
+      "en": "to lie",
+      "emoji": "🛏️",
+      "note": "Der Patient bleibt liegen. Position, no object, chapter 62. Der Patient liegt im Bett stays the finite verb. Not bleibt legen."
+    },
+    "liegt": {
+      "de": "liegen → er liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🛏️",
+      "note": "Ein frischer Verband liegt hier. Er liegt im frischen Bett. Der Patient liegt in dem kleinen Zimmer stays chapter 37."
+    },
+    "läuft": {
+      "de": "laufen → läuft",
+      "pos": "verb",
+      "en": "walks; runs"
+    },
+    "lüftet": {
+      "de": "lüftet",
+      "pos": "form",
+      "en": "airs / ventilates"
+    },
+    "mehr": {
+      "de": "mehr",
+      "pos": "adverb",
+      "en": "more",
+      "emoji": "🍵",
+      "note": "Comparative of viel. Je mehr er trinkt, umso besser. Not je viel. The verb trinkt is last in the je-clause."
+    },
+    "messen": {
+      "de": "messen → wir messen",
+      "pos": "form",
+      "en": "measure",
+      "emoji": "📟",
+      "note": "wir messen. Verb at the end of the relative clause. The participle is gemessen, chapter 26, not this exercise."
+    },
+    "misst": {
+      "de": "messen → sie misst",
+      "pos": "form",
+      "en": "measures",
+      "emoji": "🌡️",
+      "note": "Sie misst damit. Here damit means with that thing, chapter 54. Not so that. Not da mit. The participle is gemessen, not this chapter."
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "💧",
+      "note": "mit takes the dative. mit frischem Wasser, no article, so -em. mit kleinem Pflaster stays chapter 37."
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫",
+      "note": "nicht nur … sondern auch. nicht Tee, sondern Wasser stays correct with no nur and no auch. Do not put nicht in front of weder."
+    },
+    "niemand": {
+      "de": "niemand",
+      "pos": "pronoun",
+      "en": "nobody"
+    },
+    "noch": {
+      "de": "noch",
+      "pos": "adverb",
+      "en": "still / again"
+    },
+    "offiziell": {
+      "de": "offiziell",
+      "pos": "adverb",
+      "en": "officially"
+    },
+    "ohne": {
+      "de": "ohne",
+      "pos": "preposition",
+      "en": "without"
+    },
+    "prüfe": {
+      "de": "prüfe",
+      "pos": "form",
+      "en": "I check"
+    },
+    "prüfen": {
+      "de": "prüfen",
+      "pos": "verb",
+      "en": "to check",
+      "emoji": "🔤"
+    },
+    "prüft": {
+      "de": "prüfen → prüft",
+      "pos": "form",
+      "en": "checks"
+    },
+    "putzt": {
+      "de": "putzt",
+      "pos": "form",
+      "en": "cleans"
+    },
+    "rast": {
+      "de": "rast",
+      "pos": "form",
+      "en": "races"
+    },
+    "reagiert": {
+      "de": "reagiert",
+      "pos": "form",
+      "en": "reacts"
+    },
+    "reißt": {
+      "de": "reißt",
+      "pos": "form",
+      "en": "tears"
+    },
+    "rufen": {
+      "de": "rufen → wir rufen",
+      "pos": "form",
+      "en": "call",
+      "emoji": "📞",
+      "note": "wir rufen. After a fronted bevor-clause, rufen comes next. den Arzt is accusative."
+    },
+    "ruhig": {
+      "de": "ruhig",
+      "pos": "adverb",
+      "en": "calmly"
+    },
+    "schnell": {
+      "de": "schnell",
+      "pos": "adverb",
+      "en": "quickly"
+    },
+    "schreiben": {
+      "de": "schreiben",
+      "pos": "form",
+      "en": "write"
+    },
+    "schreibt": {
+      "de": "schreiben → sie schreibt",
+      "pos": "form",
+      "en": "writes",
+      "emoji": "📝",
+      "note": "Sie schreibt während der Visite. The preposition has no verb of its own."
+    },
+    "schwach": {
+      "de": "schwach",
+      "pos": "adjective",
+      "en": "weak",
+      "emoji": "🔤"
+    },
+    "setzt": {
+      "de": "setzen → sie setzt",
+      "pos": "form",
+      "en": "puts (sitting)",
+      "emoji": "🪑",
+      "note": "She setzt ihn auf das Bett. Direction, auf das. Not sitzt."
+    },
+    "sich": {
+      "de": "sich",
+      "pos": "pronoun",
+      "en": "itself",
+      "emoji": "🩹",
+      "note": "öffnet sich. Reflexive, chapter 29. The wenn-clause does not change sich."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she",
+      "emoji": "👩‍⚕️"
+    },
+    "sofort": {
+      "de": "sofort",
+      "pos": "adverb",
+      "en": "immediately"
+    },
+    "sondern": {
+      "de": "sondern",
+      "pos": "conjunction",
+      "en": "but (after a negation)",
+      "emoji": "➕",
+      "note": "Comma before sondern. nicht nur … sondern auch. Nicht Tee, sondern Wasser stays correct. Not aber in this pair. aber stays but in its own sentences."
+    },
+    "sonst": {
+      "de": "sonst",
+      "pos": "adverb",
+      "en": "otherwise",
+      "emoji": "⚠️",
+      "note": "Position 1. andernfalls."
+    },
+    "startet": {
+      "de": "starten → startet",
+      "pos": "form",
+      "en": "starts"
+    },
+    "steigen": {
+      "de": "steigen",
+      "pos": "verb",
+      "en": "to rise"
+    },
+    "steigt": {
+      "de": "steigt",
+      "pos": "form",
+      "en": "rises"
+    },
+    "still": {
+      "de": "still",
+      "pos": "adjective",
+      "en": "still; quiet"
+    },
+    "stoppt": {
+      "de": "stoppt",
+      "pos": "form",
+      "en": "stops"
+    },
+    "stärker": {
+      "de": "stärker",
+      "pos": "adjective",
+      "en": "more strongly"
+    },
+    "stürzt": {
+      "de": "stürzt",
+      "pos": "form",
+      "en": "falls / collapses"
+    },
+    "tut": {
+      "de": "tut",
+      "pos": "form",
+      "en": "does / hurts (weh tun)"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from / by"
+    },
+    "vorbei": {
+      "de": "vorbei",
+      "pos": "adverb",
+      "en": "by / past"
+    },
+    "wechseln": {
+      "de": "wechseln",
+      "pos": "verb",
+      "en": "to change"
+    },
+    "wechselt": {
+      "de": "wechseln → sie wechselt",
+      "pos": "form",
+      "en": "changes",
+      "emoji": "🩹",
+      "note": "Main-clause verb after the fronted während-clause. den Verband is accusative."
+    },
+    "weh": {
+      "de": "weh",
+      "pos": "adverb",
+      "en": "pain (weh tun)"
+    },
+    "weil": {
+      "de": "weil",
+      "pos": "conjunction",
+      "en": "because (verb at the end)",
+      "emoji": "🔚",
+      "note": "Nebensatz: Verb am Ende."
+    },
+    "weiter": {
+      "de": "weiter",
+      "pos": "adverb",
+      "en": "further"
+    },
+    "wieder": {
+      "de": "wieder",
+      "pos": "adverb",
+      "en": "again"
+    },
     "wir": {
       "de": "wir",
       "pos": "pronoun",
       "en": "we",
       "emoji": "👥"
     },
-    "bin": {
-      "de": "sein → ich bin",
+    "wäscht": {
+      "de": "waschen → sie wäscht",
       "pos": "form",
-      "en": "am",
-      "emoji": "📍"
+      "en": "washes (she)",
+      "emoji": "🧼",
+      "note": "She wäscht. Formal Sie waschen."
     },
-    "ist": {
-      "de": "sein → er ist",
+    "zieht": {
+      "de": "zieht",
       "pos": "form",
-      "en": "is",
-      "emoji": "📍"
+      "en": "dresses; puts on. anziehen → er zieht sich an.",
+      "emoji": "🏥"
     },
-    "gehen": {
-      "de": "gehen → wir gehen",
-      "pos": "form",
-      "en": "we go",
-      "emoji": "🚶"
-    },
-    "kommt": {
-      "de": "kommen → er kommt",
-      "pos": "form",
-      "en": "comes",
-      "emoji": "🚶"
-    },
-    "kommst": {
-      "de": "kommen → du kommst",
-      "pos": "form",
-      "en": "you come",
-      "emoji": "🚶"
-    },
-    "da": {
-      "de": "da",
+    "zu": {
+      "de": "zu",
       "pos": "adverb",
-      "en": "there (location)",
-      "emoji": "📍",
-      "note": "Wo? No movement: Der Patient ist da. Ich bin da. One place-word, not weil."
+      "en": "shut / closed"
     },
-    "dahin": {
-      "de": "dahin",
-      "pos": "adverb",
-      "en": "to there",
-      "emoji": "➡️",
-      "note": "Wohin? One word: Wir gehen dahin. Not da hin."
+    "Übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🗣️",
+      "article": "die",
+      "plural": "die Übergaben"
     },
-    "daher": {
-      "de": "daher",
-      "pos": "adverb",
-      "en": "from there",
-      "emoji": "↩️",
-      "note": "Woher? One word: Er kommt daher. Not deshalb, which means therefore."
+    "öffnet": {
+      "de": "öffnen → sie öffnet",
+      "pos": "form",
+      "en": "opens",
+      "emoji": "🩹",
+      "note": "Die Wunde öffnet sich. Main-clause verb. The wenn-clause comes after it, with the verb at the end."
     },
-    "auch": {
-      "de": "auch",
-      "pos": "adverb",
-      "en": "also; too",
-      "emoji": "➕"
+    "überwacht": {
+      "de": "überwacht",
+      "pos": "adjective",
+      "en": "monitored"
     },
-    "der": {
-      "de": "der",
-      "pos": "article",
-      "en": "the (masculine nominative)",
-      "emoji": "🔵"
+    "dass": {
+      "de": "dass",
+      "pos": "conjunction",
+      "en": "that (verb at the end)",
+      "emoji": "💬",
+      "note": "Nicht das. Verb am Ende."
     },
-    "die": {
-      "de": "die",
-      "pos": "article",
-      "en": "the (feminine or plural)",
-      "emoji": "🔴"
+    "wenn": {
+      "de": "wenn",
+      "pos": "conjunction",
+      "en": "if; when (verb at the end)",
+      "emoji": "❓",
+      "note": "Nicht denn/dann. Verb am Ende."
+    },
+    "Weil": {
+      "de": "Weil",
+      "pos": "conjunction",
+      "en": "Because (clause-initial)"
+    },
+    "Wenn": {
+      "de": "Wenn",
+      "pos": "conjunction",
+      "en": "If / When (clause-initial)"
+    },
+    "Dass": {
+      "de": "Dass",
+      "pos": "conjunction",
+      "en": "That (rare clause-initial)"
+    },
+    "sagt": {
+      "de": "sagen → er sagt",
+      "pos": "form",
+      "en": "says",
+      "emoji": "💬"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🛏️",
+      "article": "das",
+      "plural": "die Betten"
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "😣",
+      "article": "der",
+      "plural": "die Schmerzen"
+    },
+    "arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor (male)",
+      "emoji": "👨‍⚕️",
+      "article": "der",
+      "plural": "die Ärzte",
+      "note": "Accusative: den Arzt."
     },
     "patient": {
       "de": "Patient",
@@ -120,6 +1272,2019 @@
       "article": "der",
       "plural": "die Patienten",
       "note": "Nominative: der Patient. Accusative singular: den Patienten."
+    },
+    "fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "emoji": "🤒",
+      "article": "das"
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🗣️",
+      "article": "die",
+      "plural": "die Übergaben"
+    },
+    "anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "the nurse's name",
+      "emoji": "🧑‍⚕️"
+    },
+    "Akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "file; medical record",
+      "article": "die"
+    },
+    "akte": {
+      "de": "akte",
+      "pos": "noun",
+      "en": "file; medical record",
+      "article": "die"
+    },
+    "Alarm": {
+      "de": "Alarm",
+      "pos": "noun",
+      "en": "alarm",
+      "article": "der",
+      "emoji": "🚨"
+    },
+    "alarm": {
+      "de": "alarm",
+      "pos": "noun",
+      "en": "alarm (warning signal)",
+      "article": "der"
+    },
+    "Alkohol": {
+      "de": "Alkohol",
+      "pos": "noun",
+      "en": "alcohol",
+      "article": "der"
+    },
+    "alkohol": {
+      "de": "alkohol",
+      "pos": "noun",
+      "en": "alcohol",
+      "article": "der"
+    },
+    "Angst": {
+      "de": "Angst",
+      "pos": "noun",
+      "en": "fear; anxiety",
+      "article": "die"
+    },
+    "angst": {
+      "de": "angst",
+      "pos": "noun",
+      "en": "fear; anxiety",
+      "article": "die"
+    },
+    "Appetit": {
+      "de": "Appetit",
+      "pos": "noun",
+      "en": "appetite",
+      "article": "der"
+    },
+    "appetit": {
+      "de": "appetit",
+      "pos": "noun",
+      "en": "appetite",
+      "article": "der"
+    },
+    "Batterie": {
+      "de": "Batterie",
+      "pos": "noun",
+      "en": "battery",
+      "article": "die"
+    },
+    "batterie": {
+      "de": "batterie",
+      "pos": "noun",
+      "en": "battery",
+      "article": "die"
+    },
+    "Beine": {
+      "de": "Beine",
+      "pos": "noun",
+      "en": "legs (plural)",
+      "article": "die"
+    },
+    "beine": {
+      "de": "beine",
+      "pos": "noun",
+      "en": "legs (plural)",
+      "article": "die"
+    },
+    "Ben": {
+      "de": "Ben",
+      "pos": "name",
+      "en": "Ben (name)"
+    },
+    "ben": {
+      "de": "ben",
+      "pos": "name",
+      "en": "Ben (name)"
+    },
+    "Bericht": {
+      "de": "Bericht",
+      "pos": "noun",
+      "en": "report",
+      "article": "der"
+    },
+    "bericht": {
+      "de": "bericht",
+      "pos": "noun",
+      "en": "report",
+      "article": "der"
+    },
+    "Bestätigen": {
+      "de": "Bestätigen",
+      "pos": "form",
+      "en": "confirm (imperative polite)"
+    },
+    "bestätigen": {
+      "de": "bestätigen",
+      "pos": "verb",
+      "en": "to confirm"
+    },
+    "Beutel": {
+      "de": "Beutel",
+      "pos": "noun",
+      "en": "bag (e.g. urine bag)",
+      "article": "der"
+    },
+    "beutel": {
+      "de": "beutel",
+      "pos": "noun",
+      "en": "bag (e.g. urine bag)",
+      "article": "der"
+    },
+    "Decken": {
+      "de": "Decken",
+      "pos": "noun",
+      "en": "blankets (plural)",
+      "article": "die"
+    },
+    "decken": {
+      "de": "decken",
+      "pos": "noun",
+      "en": "to cover",
+      "article": "die"
+    },
+    "Display": {
+      "de": "Display",
+      "pos": "noun",
+      "en": "display; screen",
+      "article": "das"
+    },
+    "display": {
+      "de": "display",
+      "pos": "noun",
+      "en": "display; screen",
+      "article": "das"
+    },
+    "Druck": {
+      "de": "Druck",
+      "pos": "noun",
+      "en": "pressure",
+      "article": "der"
+    },
+    "druck": {
+      "de": "druck",
+      "pos": "noun",
+      "en": "pressure",
+      "article": "der"
+    },
+    "Durst": {
+      "de": "Durst",
+      "pos": "noun",
+      "en": "thirst",
+      "article": "der"
+    },
+    "durst": {
+      "de": "durst",
+      "pos": "noun",
+      "en": "thirst",
+      "article": "der"
+    },
+    "Ein": {
+      "de": "Ein",
+      "pos": "article",
+      "en": "a; one (neuter/masc. nom.)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "article",
+      "en": "a; one"
+    },
+    "Ende": {
+      "de": "Ende",
+      "pos": "noun",
+      "en": "end",
+      "article": "das"
+    },
+    "ende": {
+      "de": "ende",
+      "pos": "noun",
+      "en": "end",
+      "article": "das"
+    },
+    "Fenster": {
+      "de": "Fenster",
+      "pos": "noun",
+      "en": "window",
+      "article": "das"
+    },
+    "fenster": {
+      "de": "fenster",
+      "pos": "noun",
+      "en": "window",
+      "article": "das"
+    },
+    "Finger": {
+      "de": "Finger",
+      "pos": "noun",
+      "en": "finger(s)",
+      "article": "der"
+    },
+    "finger": {
+      "de": "finger",
+      "pos": "noun",
+      "en": "finger(s)",
+      "article": "der"
+    },
+    "Frau": {
+      "de": "Frau",
+      "pos": "noun",
+      "en": "Mrs; woman",
+      "article": "die"
+    },
+    "frau": {
+      "de": "frau",
+      "pos": "noun",
+      "en": "Mrs; woman",
+      "article": "die"
+    },
+    "Gurt": {
+      "de": "Gurt",
+      "pos": "noun",
+      "en": "strap; belt",
+      "article": "der"
+    },
+    "gurt": {
+      "de": "gurt",
+      "pos": "noun",
+      "en": "strap; belt",
+      "article": "der"
+    },
+    "Haut": {
+      "de": "Haut",
+      "pos": "noun",
+      "en": "skin",
+      "article": "die"
+    },
+    "haut": {
+      "de": "haut",
+      "pos": "noun",
+      "en": "skin",
+      "article": "die"
+    },
+    "Hemd": {
+      "de": "Hemd",
+      "pos": "noun",
+      "en": "shirt",
+      "article": "das"
+    },
+    "hemd": {
+      "de": "hemd",
+      "pos": "noun",
+      "en": "shirt",
+      "article": "das"
+    },
+    "Heute": {
+      "de": "Heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "Katheter": {
+      "de": "Katheter",
+      "pos": "noun",
+      "en": "catheter",
+      "article": "der"
+    },
+    "katheter": {
+      "de": "katheter",
+      "pos": "noun",
+      "en": "catheter",
+      "article": "der"
+    },
+    "Keller": {
+      "de": "Keller",
+      "pos": "name",
+      "en": "Keller (surname)"
+    },
+    "keller": {
+      "de": "keller",
+      "pos": "name",
+      "en": "Keller (surname)"
+    },
+    "Kopfschmerzen": {
+      "de": "Kopfschmerzen",
+      "pos": "noun",
+      "en": "headache",
+      "article": "die"
+    },
+    "kopfschmerzen": {
+      "de": "kopfschmerzen",
+      "pos": "noun",
+      "en": "headache",
+      "article": "die"
+    },
+    "Labor": {
+      "de": "Labor",
+      "pos": "noun",
+      "en": "laboratory",
+      "article": "das"
+    },
+    "labor": {
+      "de": "labor",
+      "pos": "noun",
+      "en": "laboratory",
+      "article": "das"
+    },
+    "Lang": {
+      "de": "Lang",
+      "pos": "name",
+      "en": "Lang (surname)"
+    },
+    "lang": {
+      "de": "lang",
+      "pos": "name",
+      "en": "Lang (surname)"
+    },
+    "Lara": {
+      "de": "Lara",
+      "pos": "name",
+      "en": "Lara (name)"
+    },
+    "lara": {
+      "de": "lara",
+      "pos": "name",
+      "en": "Lara (name)"
+    },
+    "Lauf": {
+      "de": "Lauf",
+      "pos": "noun",
+      "en": "run; course",
+      "article": "der"
+    },
+    "lauf": {
+      "de": "lauf",
+      "pos": "noun",
+      "en": "run; course",
+      "article": "der"
+    },
+    "Leitung": {
+      "de": "Leitung",
+      "pos": "noun",
+      "en": "line; tube; pipe",
+      "article": "die"
+    },
+    "leitung": {
+      "de": "leitung",
+      "pos": "noun",
+      "en": "line; tube; pipe",
+      "article": "die"
+    },
+    "Lippen": {
+      "de": "Lippen",
+      "pos": "noun",
+      "en": "lips",
+      "article": "die"
+    },
+    "lippen": {
+      "de": "lippen",
+      "pos": "noun",
+      "en": "lips",
+      "article": "die"
+    },
+    "Lärm": {
+      "de": "Lärm",
+      "pos": "noun",
+      "en": "noise",
+      "article": "der"
+    },
+    "lärm": {
+      "de": "lärm",
+      "pos": "noun",
+      "en": "noise",
+      "article": "der"
+    },
+    "Medikament": {
+      "de": "Medikament",
+      "pos": "noun",
+      "en": "medication",
+      "article": "das"
+    },
+    "medikament": {
+      "de": "medikament",
+      "pos": "noun",
+      "en": "medication",
+      "article": "das"
+    },
+    "Migräne": {
+      "de": "Migräne",
+      "pos": "noun",
+      "en": "migraine",
+      "article": "die"
+    },
+    "migräne": {
+      "de": "migräne",
+      "pos": "noun",
+      "en": "migraine",
+      "article": "die"
+    },
+    "Mittel": {
+      "de": "Mittel",
+      "pos": "noun",
+      "en": "medicine; remedy",
+      "article": "das"
+    },
+    "mittel": {
+      "de": "mittel",
+      "pos": "noun",
+      "en": "medicine; remedy",
+      "article": "das"
+    },
+    "Mobilisation": {
+      "de": "Mobilisation",
+      "pos": "noun",
+      "en": "mobilisation (getting the patient moving)",
+      "article": "die"
+    },
+    "mobilisation": {
+      "de": "mobilisation",
+      "pos": "noun",
+      "en": "mobilisation (getting the patient moving)",
+      "article": "die"
+    },
+    "Nebensatz": {
+      "de": "Nebensatz",
+      "pos": "noun",
+      "en": "subordinate clause",
+      "article": "der"
+    },
+    "nebensatz": {
+      "de": "nebensatz",
+      "pos": "noun",
+      "en": "subordinate clause",
+      "article": "der"
+    },
+    "Nebensätze": {
+      "de": "Nebensätze",
+      "pos": "noun",
+      "en": "subordinate clauses",
+      "article": "die"
+    },
+    "nebensätze": {
+      "de": "nebensätze",
+      "pos": "noun",
+      "en": "subordinate clauses",
+      "article": "die"
+    },
+    "Nierenschale": {
+      "de": "Nierenschale",
+      "pos": "noun",
+      "en": "kidney dish",
+      "article": "die"
+    },
+    "nierenschale": {
+      "de": "nierenschale",
+      "pos": "noun",
+      "en": "kidney dish",
+      "article": "die"
+    },
+    "Omar": {
+      "de": "Omar",
+      "pos": "name",
+      "en": "Omar (name)"
+    },
+    "omar": {
+      "de": "omar",
+      "pos": "name",
+      "en": "Omar (name)"
+    },
+    "Panik": {
+      "de": "Panik",
+      "pos": "noun",
+      "en": "panic",
+      "article": "die"
+    },
+    "panik": {
+      "de": "panik",
+      "pos": "noun",
+      "en": "panic",
+      "article": "die"
+    },
+    "Paracetamol": {
+      "de": "Paracetamol",
+      "pos": "noun",
+      "en": "paracetamol",
+      "article": "das"
+    },
+    "paracetamol": {
+      "de": "paracetamol",
+      "pos": "noun",
+      "en": "paracetamol (pain/fever medicine)",
+      "article": "das"
+    },
+    "Pumpe": {
+      "de": "Pumpe",
+      "pos": "noun",
+      "en": "pump",
+      "article": "die"
+    },
+    "pumpe": {
+      "de": "pumpe",
+      "pos": "noun",
+      "en": "pump",
+      "article": "die"
+    },
+    "Rad": {
+      "de": "Rad",
+      "pos": "noun",
+      "en": "wheel",
+      "article": "das"
+    },
+    "rad": {
+      "de": "rad",
+      "pos": "noun",
+      "en": "wheel",
+      "article": "das"
+    },
+    "Reiz": {
+      "de": "Reiz",
+      "pos": "noun",
+      "en": "irritation",
+      "article": "der"
+    },
+    "reiz": {
+      "de": "reiz",
+      "pos": "noun",
+      "en": "irritation",
+      "article": "der"
+    },
+    "Ruhe": {
+      "de": "Ruhe",
+      "pos": "noun",
+      "en": "rest; quiet",
+      "article": "die"
+    },
+    "ruhe": {
+      "de": "ruhe",
+      "pos": "noun",
+      "en": "rest; quiet",
+      "article": "die"
+    },
+    "Salbe": {
+      "de": "Salbe",
+      "pos": "noun",
+      "en": "ointment",
+      "article": "die"
+    },
+    "salbe": {
+      "de": "salbe",
+      "pos": "noun",
+      "en": "ointment",
+      "article": "die"
+    },
+    "Sauerstoff": {
+      "de": "Sauerstoff",
+      "pos": "noun",
+      "en": "oxygen",
+      "article": "der"
+    },
+    "sauerstoff": {
+      "de": "sauerstoff",
+      "pos": "noun",
+      "en": "oxygen",
+      "article": "der"
+    },
+    "Schale": {
+      "de": "Schale",
+      "pos": "noun",
+      "en": "bowl; dish",
+      "article": "die"
+    },
+    "schale": {
+      "de": "schale",
+      "pos": "noun",
+      "en": "bowl; dish",
+      "article": "die"
+    },
+    "Schluckbeschwerden": {
+      "de": "Schluckbeschwerden",
+      "pos": "noun",
+      "en": "swallowing difficulties"
+    },
+    "schluckbeschwerden": {
+      "de": "schluckbeschwerden",
+      "pos": "noun",
+      "en": "swallowing difficulties"
+    },
+    "Schwester": {
+      "de": "Schwester",
+      "pos": "noun",
+      "en": "nurse (female)",
+      "article": "die"
+    },
+    "schwester": {
+      "de": "schwester",
+      "pos": "noun",
+      "en": "nurse (female)",
+      "article": "die"
+    },
+    "Spritze": {
+      "de": "Spritze",
+      "pos": "noun",
+      "en": "injection; syringe",
+      "article": "die"
+    },
+    "spritze": {
+      "de": "spritze",
+      "pos": "noun",
+      "en": "injection; syringe",
+      "article": "die"
+    },
+    "Stelle": {
+      "de": "Stelle",
+      "pos": "noun",
+      "en": "spot; place",
+      "article": "die"
+    },
+    "stelle": {
+      "de": "stelle",
+      "pos": "noun",
+      "en": "spot; place",
+      "article": "die"
+    },
+    "Stuhl": {
+      "de": "Stuhl",
+      "pos": "noun",
+      "en": "chair",
+      "article": "der"
+    },
+    "stuhl": {
+      "de": "stuhl",
+      "pos": "noun",
+      "en": "chair",
+      "article": "der"
+    },
+    "Sturz": {
+      "de": "Sturz",
+      "pos": "noun",
+      "en": "fall",
+      "article": "der"
+    },
+    "sturz": {
+      "de": "sturz",
+      "pos": "noun",
+      "en": "fall",
+      "article": "der"
+    },
+    "Summer": {
+      "de": "Summer",
+      "pos": "noun",
+      "en": "buzzer",
+      "article": "der"
+    },
+    "summer": {
+      "de": "summer",
+      "pos": "noun",
+      "en": "buzzer",
+      "article": "der"
+    },
+    "Tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet; pill",
+      "article": "die"
+    },
+    "tablette": {
+      "de": "tablette",
+      "pos": "noun",
+      "en": "tablet; pill",
+      "article": "die"
+    },
+    "Tee": {
+      "de": "Tee",
+      "pos": "noun",
+      "en": "tea",
+      "article": "der"
+    },
+    "tee": {
+      "de": "tee",
+      "pos": "noun",
+      "en": "tea",
+      "article": "der"
+    },
+    "Temperatur": {
+      "de": "Temperatur",
+      "pos": "noun",
+      "en": "temperature",
+      "article": "die"
+    },
+    "temperatur": {
+      "de": "temperatur",
+      "pos": "noun",
+      "en": "temperature",
+      "article": "die"
+    },
+    "Tom": {
+      "de": "Tom",
+      "pos": "name",
+      "en": "Tom (name)"
+    },
+    "tom": {
+      "de": "tom",
+      "pos": "name",
+      "en": "Tom (name)"
+    },
+    "Tropf": {
+      "de": "Tropf",
+      "pos": "noun",
+      "en": "drip (IV)",
+      "article": "der"
+    },
+    "tropf": {
+      "de": "tropf",
+      "pos": "noun",
+      "en": "drip (IV)",
+      "article": "der"
+    },
+    "Verb": {
+      "de": "Verb",
+      "pos": "noun",
+      "en": "verb",
+      "article": "das"
+    },
+    "verb": {
+      "de": "verb",
+      "pos": "noun",
+      "en": "verb (grammar)",
+      "article": "das"
+    },
+    "Verstanden": {
+      "de": "Verstanden",
+      "pos": "participle",
+      "en": "Understood"
+    },
+    "verstanden": {
+      "de": "verstanden",
+      "pos": "participle",
+      "en": "Understood"
+    },
+    "Vorhänge": {
+      "de": "Vorhänge",
+      "pos": "noun",
+      "en": "curtains",
+      "article": "die"
+    },
+    "vorhänge": {
+      "de": "vorhänge",
+      "pos": "noun",
+      "en": "curtains",
+      "article": "die"
+    },
+    "Werte": {
+      "de": "Werte",
+      "pos": "noun",
+      "en": "readings; (vital) values",
+      "article": "die",
+      "plural": "die Werte"
+    },
+    "werte": {
+      "de": "werte",
+      "pos": "noun",
+      "en": "readings; (vital) values",
+      "article": "die"
+    },
+    "alarmiert": {
+      "de": "alarmiert",
+      "pos": "form",
+      "en": "alarms (alarmieren)"
+    },
+    "Alarmiert": {
+      "de": "Alarmiert",
+      "pos": "form",
+      "en": "alarms (alarmieren)"
+    },
+    "ans": {
+      "de": "ans",
+      "pos": "preposition",
+      "en": "to the (ans = an das)"
+    },
+    "Ans": {
+      "de": "Ans",
+      "pos": "preposition",
+      "en": "to the (ans = an das)"
+    },
+    "anschwellen": {
+      "de": "anschwellen",
+      "pos": "verb",
+      "en": "to swell up"
+    },
+    "Anschwellen": {
+      "de": "Anschwellen",
+      "pos": "verb",
+      "en": "to swell up"
+    },
+    "arbeitet": {
+      "de": "arbeitet",
+      "pos": "form",
+      "en": "works (arbeiten)"
+    },
+    "Arbeitet": {
+      "de": "Arbeitet",
+      "pos": "form",
+      "en": "Works"
+    },
+    "aufsteht": {
+      "de": "aufsteht",
+      "pos": "form",
+      "en": "gets up (aufstehen)"
+    },
+    "Aufsteht": {
+      "de": "Aufsteht",
+      "pos": "form",
+      "en": "gets up (aufstehen)"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "from; out of"
+    },
+    "Aus": {
+      "de": "Aus",
+      "pos": "preposition",
+      "en": "from; out of"
+    },
+    "aussieht": {
+      "de": "aussieht",
+      "pos": "form",
+      "en": "looks (aussehen)"
+    },
+    "Aussieht": {
+      "de": "Aussieht",
+      "pos": "form",
+      "en": "Looks"
+    },
+    "bekommt": {
+      "de": "bekommt",
+      "pos": "form",
+      "en": "gets (bekommen)"
+    },
+    "Bekommt": {
+      "de": "Bekommt",
+      "pos": "form",
+      "en": "gets (bekommen)"
+    },
+    "berichtet": {
+      "de": "berichtet",
+      "pos": "form",
+      "en": "reports (berichten)"
+    },
+    "Berichtet": {
+      "de": "Berichtet",
+      "pos": "form",
+      "en": "reports (berichten)"
+    },
+    "blass": {
+      "de": "blass",
+      "pos": "adjective",
+      "en": "pale"
+    },
+    "Blass": {
+      "de": "Blass",
+      "pos": "adjective",
+      "en": "pale"
+    },
+    "bleibe": {
+      "de": "bleibe",
+      "pos": "form",
+      "en": "stay (ich bleibe)"
+    },
+    "Bleibe": {
+      "de": "Bleibe",
+      "pos": "form",
+      "en": "Stay"
+    },
+    "blocken": {
+      "de": "blocken",
+      "pos": "verb",
+      "en": "to block"
+    },
+    "Blocken": {
+      "de": "Blocken",
+      "pos": "verb",
+      "en": "to block"
+    },
+    "deckt": {
+      "de": "deckt",
+      "pos": "form",
+      "en": "covers (decken)"
+    },
+    "Deckt": {
+      "de": "Deckt",
+      "pos": "form",
+      "en": "covers (decken)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative masc./neut.)"
+    },
+    "Dem": {
+      "de": "Dem",
+      "pos": "article",
+      "en": "the (dative masc./neut.)"
+    },
+    "durstig": {
+      "de": "durstig",
+      "pos": "adjective",
+      "en": "thirsty"
+    },
+    "Durstig": {
+      "de": "Durstig",
+      "pos": "adjective",
+      "en": "thirsty"
+    },
+    "erneut": {
+      "de": "erneut",
+      "pos": "adverb",
+      "en": "again"
+    },
+    "Erneut": {
+      "de": "Erneut",
+      "pos": "adverb",
+      "en": "Again"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it"
+    },
+    "Es": {
+      "de": "Es",
+      "pos": "pronoun",
+      "en": "It"
+    },
+    "fehlt": {
+      "de": "fehlt",
+      "pos": "form",
+      "en": "is missing (fehlen)"
+    },
+    "Fehlt": {
+      "de": "Fehlt",
+      "pos": "form",
+      "en": "is missing (fehlen)"
+    },
+    "flüstert": {
+      "de": "flüstert",
+      "pos": "form",
+      "en": "whispers (flüstern)"
+    },
+    "Flüstert": {
+      "de": "Flüstert",
+      "pos": "form",
+      "en": "whispers (flüstern)"
+    },
+    "frei": {
+      "de": "frei",
+      "pos": "adjective",
+      "en": "free; clear"
+    },
+    "Frei": {
+      "de": "Frei",
+      "pos": "adjective",
+      "en": "free; clear"
+    },
+    "frisch": {
+      "de": "frisch",
+      "pos": "adjective",
+      "en": "fresh"
+    },
+    "Frisch": {
+      "de": "Frisch",
+      "pos": "adjective",
+      "en": "fresh"
+    },
+    "geht": {
+      "de": "geht",
+      "pos": "form",
+      "en": "goes (gehen)"
+    },
+    "Geht": {
+      "de": "Geht",
+      "pos": "form",
+      "en": "Go (ihr / question)"
+    },
+    "geschwollen": {
+      "de": "geschwollen",
+      "pos": "participle",
+      "en": "swollen"
+    },
+    "Geschwollen": {
+      "de": "Geschwollen",
+      "pos": "participle",
+      "en": "swollen"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "Good"
+    },
+    "Gut": {
+      "de": "Gut",
+      "pos": "adjective",
+      "en": "Good"
+    },
+    "heben": {
+      "de": "heben",
+      "pos": "verb",
+      "en": "to lift"
+    },
+    "heiß": {
+      "de": "heiß",
+      "pos": "adjective",
+      "en": "hot"
+    },
+    "Heiß": {
+      "de": "Heiß",
+      "pos": "adjective",
+      "en": "hot"
+    },
+    "holst": {
+      "de": "holen → du holst",
+      "pos": "form",
+      "en": "fetch / get (du)"
+    },
+    "Holst": {
+      "de": "Holst",
+      "pos": "form",
+      "en": "Fetch (du)"
+    },
+    "hustet": {
+      "de": "hustet",
+      "pos": "form",
+      "en": "coughs (husten)"
+    },
+    "Hustet": {
+      "de": "Hustet",
+      "pos": "form",
+      "en": "coughs (husten)"
+    },
+    "hängt": {
+      "de": "hängt",
+      "pos": "form",
+      "en": "hangs (hängen)"
+    },
+    "Hängt": {
+      "de": "Hängt",
+      "pos": "form",
+      "en": "hangs (hängen)"
+    },
+    "hört": {
+      "de": "hört",
+      "pos": "form",
+      "en": "hears (hören)"
+    },
+    "Hört": {
+      "de": "Hört",
+      "pos": "form",
+      "en": "hears (hören)"
+    },
+    "ihm": {
+      "de": "ihm",
+      "pos": "pronoun",
+      "en": "him (dative)"
+    },
+    "Ihm": {
+      "de": "Ihm",
+      "pos": "pronoun",
+      "en": "him (dative)"
+    },
+    "ihn": {
+      "de": "ihn",
+      "pos": "pronoun",
+      "en": "him (accusative)"
+    },
+    "Ihn": {
+      "de": "Ihn",
+      "pos": "pronoun",
+      "en": "Him (accusative)"
+    },
+    "isst": {
+      "de": "isst",
+      "pos": "form",
+      "en": "eats (essen)"
+    },
+    "Isst": {
+      "de": "Isst",
+      "pos": "form",
+      "en": "eats (essen)"
+    },
+    "juckt": {
+      "de": "juckt",
+      "pos": "form",
+      "en": "itches (jucken)"
+    },
+    "Juckt": {
+      "de": "Juckt",
+      "pos": "form",
+      "en": "itches (jucken)"
+    },
+    "kalt": {
+      "de": "kalt",
+      "pos": "adjective",
+      "en": "cold"
+    },
+    "Kalt": {
+      "de": "Kalt",
+      "pos": "adjective",
+      "en": "cold"
+    },
+    "keine": {
+      "de": "keine",
+      "pos": "article",
+      "en": "no; not any (fem./pl.)"
+    },
+    "Keine": {
+      "de": "Keine",
+      "pos": "article",
+      "en": "no; not any (fem./pl.)"
+    },
+    "kippen": {
+      "de": "kippen",
+      "pos": "verb",
+      "en": "to tip; to drop (values)"
+    },
+    "Kippen": {
+      "de": "Kippen",
+      "pos": "verb",
+      "en": "to tip; to drop (values)"
+    },
+    "kontrolliert": {
+      "de": "kontrolliert",
+      "pos": "form",
+      "en": "checks (kontrollieren)"
+    },
+    "Kontrolliert": {
+      "de": "Kontrolliert",
+      "pos": "form",
+      "en": "checks (kontrollieren)"
+    },
+    "kühlen": {
+      "de": "kühlen",
+      "pos": "verb",
+      "en": "to cool"
+    },
+    "Kühlen": {
+      "de": "Kühlen",
+      "pos": "verb",
+      "en": "to cool"
+    },
+    "langsam": {
+      "de": "langsam",
+      "pos": "adjective",
+      "en": "slow; slowly"
+    },
+    "Langsam": {
+      "de": "Langsam",
+      "pos": "adjective",
+      "en": "Slow; slowly"
+    },
+    "laut": {
+      "de": "laut",
+      "pos": "adjective",
+      "en": "loud"
+    },
+    "Laut": {
+      "de": "Laut",
+      "pos": "adjective",
+      "en": "loud"
+    },
+    "leer": {
+      "de": "leer",
+      "pos": "adjective",
+      "en": "empty"
+    },
+    "Leer": {
+      "de": "Leer",
+      "pos": "adjective",
+      "en": "empty"
+    },
+    "leise": {
+      "de": "leise",
+      "pos": "adjective",
+      "en": "quietly; soft"
+    },
+    "Leise": {
+      "de": "Leise",
+      "pos": "adjective",
+      "en": "quietly; soft"
+    },
+    "macht": {
+      "de": "macht",
+      "pos": "form",
+      "en": "makes; does (machen)"
+    },
+    "Macht": {
+      "de": "Macht",
+      "pos": "form",
+      "en": "makes; does (machen)"
+    },
+    "meldet": {
+      "de": "meldet",
+      "pos": "form",
+      "en": "reports (melden)"
+    },
+    "Meldet": {
+      "de": "Meldet",
+      "pos": "form",
+      "en": "reports (melden)"
+    },
+    "merkt": {
+      "de": "merkt",
+      "pos": "form",
+      "en": "notices (merken)"
+    },
+    "Merkt": {
+      "de": "Merkt",
+      "pos": "form",
+      "en": "notices (merken)"
+    },
+    "mir": {
+      "de": "mir",
+      "pos": "pronoun",
+      "en": "me (dative)"
+    },
+    "Mir": {
+      "de": "Mir",
+      "pos": "form",
+      "en": "Me (dative)"
+    },
+    "müde": {
+      "de": "müde",
+      "pos": "adjective",
+      "en": "tired"
+    },
+    "Müde": {
+      "de": "Müde",
+      "pos": "adjective",
+      "en": "tired"
+    },
+    "nachts": {
+      "de": "nachts",
+      "pos": "adverb",
+      "en": "at night"
+    },
+    "Nachts": {
+      "de": "Nachts",
+      "pos": "adverb",
+      "en": "at night"
+    },
+    "nass": {
+      "de": "nass",
+      "pos": "adjective",
+      "en": "wet"
+    },
+    "Nass": {
+      "de": "Nass",
+      "pos": "adjective",
+      "en": "wet"
+    },
+    "niest": {
+      "de": "niest",
+      "pos": "form",
+      "en": "sneezes (niesen)"
+    },
+    "Niest": {
+      "de": "Niest",
+      "pos": "form",
+      "en": "sneezes (niesen)"
+    },
+    "nimmt": {
+      "de": "nimmt",
+      "pos": "form",
+      "en": "takes (nehmen)"
+    },
+    "Nimmt": {
+      "de": "Nimmt",
+      "pos": "form",
+      "en": "takes (nehmen)"
+    },
+    "notiert": {
+      "de": "notiert",
+      "pos": "form",
+      "en": "notes (notieren)"
+    },
+    "Notiert": {
+      "de": "Notiert",
+      "pos": "form",
+      "en": "notes (notieren)"
+    },
+    "offen": {
+      "de": "offen",
+      "pos": "adjective",
+      "en": "open"
+    },
+    "Offen": {
+      "de": "Offen",
+      "pos": "adjective",
+      "en": "open"
+    },
+    "pausiert": {
+      "de": "pausiert",
+      "pos": "form",
+      "en": "pauses (pausieren)"
+    },
+    "Pausiert": {
+      "de": "Pausiert",
+      "pos": "form",
+      "en": "pauses (pausieren)"
+    },
+    "piept": {
+      "de": "piept",
+      "pos": "form",
+      "en": "beeps (piepen)"
+    },
+    "Piept": {
+      "de": "Piept",
+      "pos": "form",
+      "en": "Beeps"
+    },
+    "regelmäßig": {
+      "de": "regelmäßig",
+      "pos": "adjective",
+      "en": "regular"
+    },
+    "Regelmäßig": {
+      "de": "Regelmäßig",
+      "pos": "adjective",
+      "en": "regular"
+    },
+    "reichen": {
+      "de": "reichen",
+      "pos": "verb",
+      "en": "to pass; to hand"
+    },
+    "Reichen": {
+      "de": "Reichen",
+      "pos": "verb",
+      "en": "to pass; to hand"
+    },
+    "rollt": {
+      "de": "rollt",
+      "pos": "form",
+      "en": "rolls (rollen)"
+    },
+    "Rollt": {
+      "de": "Rollt",
+      "pos": "form",
+      "en": "rolls (rollen)"
+    },
+    "rosa": {
+      "de": "rosa",
+      "pos": "adjective",
+      "en": "pink"
+    },
+    "Rosa": {
+      "de": "Rosa",
+      "pos": "adjective",
+      "en": "pink"
+    },
+    "rufe": {
+      "de": "rufe",
+      "pos": "form",
+      "en": "call (ich rufe)"
+    },
+    "Rufe": {
+      "de": "Rufe",
+      "pos": "form",
+      "en": "call (ich rufe)"
+    },
+    "rufst": {
+      "de": "rufst",
+      "pos": "form",
+      "en": "call (du rufst)"
+    },
+    "Rufst": {
+      "de": "Rufst",
+      "pos": "form",
+      "en": "call (du rufst)"
+    },
+    "ruhen": {
+      "de": "ruhen",
+      "pos": "verb",
+      "en": "to rest"
+    },
+    "Ruhen": {
+      "de": "Ruhen",
+      "pos": "verb",
+      "en": "to rest"
+    },
+    "rutscht": {
+      "de": "rutscht",
+      "pos": "form",
+      "en": "slips (rutschen)"
+    },
+    "Rutscht": {
+      "de": "Rutscht",
+      "pos": "form",
+      "en": "slips (rutschen)"
+    },
+    "schlafen": {
+      "de": "schlafen",
+      "pos": "verb",
+      "en": "to sleep"
+    },
+    "Schlafen": {
+      "de": "Schlafen",
+      "pos": "verb",
+      "en": "to sleep"
+    },
+    "schließen": {
+      "de": "schließen",
+      "pos": "verb",
+      "en": "to close"
+    },
+    "Schließen": {
+      "de": "Schließen",
+      "pos": "verb",
+      "en": "to close"
+    },
+    "schläft": {
+      "de": "schläft",
+      "pos": "form",
+      "en": "sleeps (schlafen)"
+    },
+    "Schläft": {
+      "de": "Schläft",
+      "pos": "form",
+      "en": "sleeps (schlafen)"
+    },
+    "schnarcht": {
+      "de": "schnarcht",
+      "pos": "form",
+      "en": "snores (schnarchen)"
+    },
+    "Schnarcht": {
+      "de": "Schnarcht",
+      "pos": "form",
+      "en": "snores (schnarchen)"
+    },
+    "schweigt": {
+      "de": "schweigt",
+      "pos": "form",
+      "en": "is silent (schweigen)"
+    },
+    "Schweigt": {
+      "de": "Schweigt",
+      "pos": "form",
+      "en": "is silent (schweigen)"
+    },
+    "schwindelig": {
+      "de": "schwindelig",
+      "pos": "adjective",
+      "en": "dizzy"
+    },
+    "Schwindelig": {
+      "de": "Schwindelig",
+      "pos": "adjective",
+      "en": "dizzy"
+    },
+    "setzen": {
+      "de": "setzen",
+      "pos": "verb",
+      "en": "to set; to sit someone"
+    },
+    "Setzen": {
+      "de": "Setzen",
+      "pos": "form",
+      "en": "put / insert (imperative)"
+    },
+    "sichern": {
+      "de": "sichern",
+      "pos": "verb",
+      "en": "to secure"
+    },
+    "Sichern": {
+      "de": "Sichern",
+      "pos": "verb",
+      "en": "to secure"
+    },
+    "sieht": {
+      "de": "sieht",
+      "pos": "form",
+      "en": "sees (sehen)"
+    },
+    "Sieht": {
+      "de": "Sieht",
+      "pos": "form",
+      "en": "sees (sehen)"
+    },
+    "sind": {
+      "de": "sind",
+      "pos": "form",
+      "en": "are (sein)"
+    },
+    "Sind": {
+      "de": "Sind",
+      "pos": "form",
+      "en": "are (sein)"
+    },
+    "sinkt": {
+      "de": "sinkt",
+      "pos": "form",
+      "en": "falls; sinks (sinken)"
+    },
+    "Sinkt": {
+      "de": "Sinkt",
+      "pos": "form",
+      "en": "falls; sinks (sinken)"
+    },
+    "sitzen": {
+      "de": "sitzen",
+      "pos": "verb",
+      "en": "to sit"
+    },
+    "Sitzen": {
+      "de": "Sitzen",
+      "pos": "verb",
+      "en": "to sit"
+    },
+    "spricht": {
+      "de": "spricht",
+      "pos": "form",
+      "en": "speaks (sprechen)"
+    },
+    "Spricht": {
+      "de": "Spricht",
+      "pos": "form",
+      "en": "speaks (sprechen)"
+    },
+    "spült": {
+      "de": "spült",
+      "pos": "form",
+      "en": "flushes (spülen)"
+    },
+    "Spült": {
+      "de": "Spült",
+      "pos": "form",
+      "en": "flushes (spülen)"
+    },
+    "stark": {
+      "de": "stark",
+      "pos": "adjective",
+      "en": "great; strong"
+    },
+    "Stark": {
+      "de": "Stark",
+      "pos": "adjective",
+      "en": "great; strong"
+    },
+    "starke": {
+      "de": "starke",
+      "pos": "adjective",
+      "en": "strong (inflected)"
+    },
+    "Starke": {
+      "de": "Starke",
+      "pos": "adjective",
+      "en": "strong (inflected)"
+    },
+    "starten": {
+      "de": "starten",
+      "pos": "verb",
+      "en": "to start"
+    },
+    "Starten": {
+      "de": "Starten",
+      "pos": "verb",
+      "en": "to start"
+    },
+    "steht": {
+      "de": "steht",
+      "pos": "form",
+      "en": "stands (stehen)"
+    },
+    "Steht": {
+      "de": "Steht",
+      "pos": "form",
+      "en": "stands (stehen)"
+    },
+    "stockt": {
+      "de": "stockt",
+      "pos": "form",
+      "en": "stalls; stops flowing"
+    },
+    "Stockt": {
+      "de": "Stockt",
+      "pos": "form",
+      "en": "stalls; stops flowing"
+    },
+    "stoppen": {
+      "de": "stoppen",
+      "pos": "verb",
+      "en": "to stop"
+    },
+    "Stoppen": {
+      "de": "Stoppen",
+      "pos": "verb",
+      "en": "to stop"
+    },
+    "stört": {
+      "de": "stört",
+      "pos": "form",
+      "en": "disturbs (stören)"
+    },
+    "Stört": {
+      "de": "Stört",
+      "pos": "form",
+      "en": "disturbs (stören)"
+    },
+    "stützen": {
+      "de": "stützen",
+      "pos": "verb",
+      "en": "to support"
+    },
+    "Stützen": {
+      "de": "Stützen",
+      "pos": "verb",
+      "en": "to support"
+    },
+    "tauscht": {
+      "de": "tauscht",
+      "pos": "form",
+      "en": "swaps (tauschen)"
+    },
+    "Tauscht": {
+      "de": "Tauscht",
+      "pos": "form",
+      "en": "swaps (tauschen)"
+    },
+    "tiefer": {
+      "de": "tiefer",
+      "pos": "adjective",
+      "en": "deeper"
+    },
+    "Tiefer": {
+      "de": "Tiefer",
+      "pos": "adjective",
+      "en": "deeper"
+    },
+    "trinkt": {
+      "de": "trinkt",
+      "pos": "form",
+      "en": "drinks (trinken)"
+    },
+    "Trinkt": {
+      "de": "Trinkt",
+      "pos": "form",
+      "en": "drinks (trinken)"
+    },
+    "trocken": {
+      "de": "trocken",
+      "pos": "adjective",
+      "en": "dry"
+    },
+    "Trocken": {
+      "de": "Trocken",
+      "pos": "adjective",
+      "en": "dry"
+    },
+    "unruhig": {
+      "de": "unruhig",
+      "pos": "adjective",
+      "en": "restless"
+    },
+    "Unruhig": {
+      "de": "Unruhig",
+      "pos": "adjective",
+      "en": "restless"
+    },
+    "vermerkt": {
+      "de": "vermerkt",
+      "pos": "form",
+      "en": "notes (vermerken)"
+    },
+    "Vermerkt": {
+      "de": "Vermerkt",
+      "pos": "form",
+      "en": "notes (vermerken)"
+    },
+    "voll": {
+      "de": "voll",
+      "pos": "adjective",
+      "en": "full"
+    },
+    "Voll": {
+      "de": "Voll",
+      "pos": "adjective",
+      "en": "full"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "in front of; before"
+    },
+    "Vor": {
+      "de": "Vor",
+      "pos": "preposition",
+      "en": "in front of; before"
+    },
+    "vorn": {
+      "de": "vorn",
+      "pos": "adverb",
+      "en": "at the front; clause-initial"
+    },
+    "Vorn": {
+      "de": "Vorn",
+      "pos": "adverb",
+      "en": "at the front; clause-initial"
+    },
+    "wach": {
+      "de": "wach",
+      "pos": "adjective",
+      "en": "awake"
+    },
+    "Wach": {
+      "de": "Wach",
+      "pos": "adjective",
+      "en": "awake"
+    },
+    "wandert": {
+      "de": "wandert",
+      "pos": "form",
+      "en": "moves; wanders (wandern)"
+    },
+    "Wandert": {
+      "de": "Wandert",
+      "pos": "form",
+      "en": "moves; wanders (wandern)"
+    },
+    "war": {
+      "de": "war",
+      "pos": "form",
+      "en": "was (sein)"
+    },
+    "War": {
+      "de": "War",
+      "pos": "form",
+      "en": "was (sein)"
+    },
+    "wartet": {
+      "de": "wartet",
+      "pos": "form",
+      "en": "waits (warten)"
+    },
+    "Wartet": {
+      "de": "Wartet",
+      "pos": "form",
+      "en": "waits (warten)"
+    },
+    "wenig": {
+      "de": "wenig",
+      "pos": "adjective",
+      "en": "little; few"
+    },
+    "Wenig": {
+      "de": "Wenig",
+      "pos": "adjective",
+      "en": "little; few"
+    },
+    "will": {
+      "de": "will",
+      "pos": "form",
+      "en": "wants (wollen)"
+    },
+    "Will": {
+      "de": "Will",
+      "pos": "form",
+      "en": "wants (wollen)"
+    },
+    "wird": {
+      "de": "wird",
+      "pos": "form",
+      "en": "becomes (werden)"
+    },
+    "Wird": {
+      "de": "Wird",
+      "pos": "form",
+      "en": "becomes (werden)"
+    },
+    "wirkt": {
+      "de": "wirkt",
+      "pos": "form",
+      "en": "works; takes effect"
+    },
+    "Wirkt": {
+      "de": "Wirkt",
+      "pos": "form",
+      "en": "works; takes effect"
+    },
+    "würgt": {
+      "de": "würgt",
+      "pos": "form",
+      "en": "gags (würgen)"
+    },
+    "Würgt": {
+      "de": "Würgt",
+      "pos": "form",
+      "en": "gags (würgen)"
+    },
+    "zeigt": {
+      "de": "zeigt",
+      "pos": "form",
+      "en": "shows (zeigen)"
+    },
+    "Zeigt": {
+      "de": "Zeigt",
+      "pos": "form",
+      "en": "shows (zeigen)"
+    },
+    "zittert": {
+      "de": "zittert",
+      "pos": "form",
+      "en": "trembles (zittern)"
+    },
+    "Zittert": {
+      "de": "Zittert",
+      "pos": "form",
+      "en": "trembles (zittern)"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "preposition",
+      "en": "to the (zum = zu dem)"
+    },
+    "Zum": {
+      "de": "Zum",
+      "pos": "preposition",
+      "en": "to the (zum = zu dem)"
+    },
+    "zunimmt": {
+      "de": "zunimmt",
+      "pos": "form",
+      "en": "increases (zunehmen)"
+    },
+    "Zunimmt": {
+      "de": "Zunimmt",
+      "pos": "form",
+      "en": "increases (zunehmen)"
+    },
+    "zurück": {
+      "de": "zurück",
+      "pos": "adverb",
+      "en": "back"
+    },
+    "Zurück": {
+      "de": "Zurück",
+      "pos": "adverb",
+      "en": "back"
+    },
+    "Übung": {
+      "de": "Übung",
+      "pos": "noun",
+      "en": "exercise",
+      "article": "die"
+    },
+    "übung": {
+      "de": "übung",
+      "pos": "noun",
+      "en": "exercise",
+      "article": "die"
+    },
+    "öffnen": {
+      "de": "öffnen",
+      "pos": "verb",
+      "en": "to open"
+    },
+    "Öffnen": {
+      "de": "Öffnen",
+      "pos": "verb",
+      "en": "to open"
+    },
+    "übel": {
+      "de": "übel",
+      "pos": "adjective",
+      "en": "nauseous; sick"
+    },
+    "Übel": {
+      "de": "Übel",
+      "pos": "adjective",
+      "en": "nauseous; sick"
+    },
+    "üben": {
+      "de": "üben",
+      "pos": "verb",
+      "en": "to practise"
+    },
+    "Üben": {
+      "de": "Üben",
+      "pos": "verb",
+      "en": "to practise"
+    },
+    "da": {
+      "de": "da",
+      "pos": "adverb",
+      "en": "there (location)",
+      "emoji": "📍",
+      "note": "Wo? Ort ohne Bewegung."
+    },
+    "dahin": {
+      "de": "dahin",
+      "pos": "adverb",
+      "en": "there; to that place",
+      "emoji": "➡️",
+      "note": "Wohin? Ein Wort."
+    },
+    "daher": {
+      "de": "daher",
+      "pos": "adverb",
+      "en": "from there",
+      "emoji": "⬅️",
+      "note": "Woher? Nicht deshalb."
+    },
+    "Da": {
+      "de": "Da",
+      "pos": "adverb",
+      "en": "There (clause-initial)"
+    },
+    "Dahin": {
+      "de": "Dahin",
+      "pos": "adverb",
+      "en": "To there (clause-initial)"
+    },
+    "Daher": {
+      "de": "Daher",
+      "pos": "adverb",
+      "en": "From there (clause-initial)"
+    },
+    "Wo": {
+      "de": "Wo",
+      "pos": "adverb",
+      "en": "Where (location)"
+    },
+    "Wohin": {
+      "de": "Wohin",
+      "pos": "adverb",
+      "en": "Where to"
+    },
+    "Woher": {
+      "de": "Woher",
+      "pos": "adverb",
+      "en": "Where from"
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal)",
+      "emoji": "👉"
+    },
+    "bin": {
+      "de": "sein → ich bin",
+      "pos": "form",
+      "en": "am",
+      "emoji": "📍"
+    },
+    "gehen": {
+      "de": "gehen → wir gehen",
+      "pos": "form",
+      "en": "we go",
+      "emoji": "🚶"
+    },
+    "kommst": {
+      "de": "kommen → du kommst",
+      "pos": "form",
+      "en": "you come",
+      "emoji": "🚶"
+    },
+    "auch": {
+      "de": "auch",
+      "pos": "adverb",
+      "en": "also; too",
+      "emoji": "➕"
     },
     "zimmer": {
       "de": "Zimmer",
@@ -139,787 +3304,1774 @@
       "plural": "die Stationen",
       "note": "Wohin? zur Station."
     },
-    "bett": {
-      "de": "Bett",
+    "4": {
+      "de": "4",
+      "pos": "other",
+      "en": "four / room number 4"
+    },
+    "Aufwachraum": {
+      "de": "Aufwachraum",
       "pos": "noun",
-      "en": "bed",
-      "emoji": "🛏️",
+      "en": "recovery room",
+      "article": "der"
+    },
+    "Aufzug": {
+      "de": "Aufzug",
+      "pos": "noun",
+      "en": "lift; elevator",
+      "article": "der"
+    },
+    "Besucher": {
+      "de": "Besucher",
+      "pos": "noun",
+      "en": "visitor(s)"
+    },
+    "Bleib": {
+      "de": "Bleib",
+      "pos": "form",
+      "en": "stay (du imperative)"
+    },
+    "Bleiben": {
+      "de": "Bleiben",
+      "pos": "verb",
+      "en": "to stay"
+    },
+    "Blut": {
+      "de": "Blut",
+      "pos": "noun",
+      "en": "blood",
+      "article": "das"
+    },
+    "Bringen": {
+      "de": "Bringen",
+      "pos": "form",
+      "en": "bring (imperative polite stem)"
+    },
+    "CT": {
+      "de": "CT",
+      "pos": "noun",
+      "en": "CT (scan)"
+    },
+    "EKG": {
+      "de": "EKG",
+      "pos": "noun",
+      "en": "ECG; electrocardiogram",
+      "article": "das"
+    },
+    "Empfang": {
+      "de": "Empfang",
+      "pos": "noun",
+      "en": "reception",
+      "article": "der"
+    },
+    "Frage": {
+      "de": "Frage",
+      "pos": "noun",
+      "en": "question",
+      "article": "die"
+    },
+    "Fährst": {
+      "de": "Fährst",
+      "pos": "form",
+      "en": "drive / go (du fährst)"
+    },
+    "Geh": {
+      "de": "Geh",
+      "pos": "form",
+      "en": "Go (du imperative of gehen)"
+    },
+    "Gerät": {
+      "de": "Gerät",
+      "pos": "noun",
+      "en": "device; machine",
       "article": "das",
-      "plural": "die Betten"
+      "plural": "die Geräte"
     },
-    "übergabe": {
-      "de": "Übergabe",
+    "Infusionsständer": {
+      "de": "Infusionsständer",
       "pos": "noun",
-      "en": "handover",
-      "emoji": "🗣️",
-      "article": "die",
-      "plural": "die Übergaben"
+      "en": "IV stand",
+      "article": "der"
     },
-    "anna": {
-      "de": "Anna",
-      "pos": "name",
-      "en": "the nurse's name",
-      "emoji": "🧑‍⚕️"
+    "Lager": {
+      "de": "Lager",
+      "pos": "noun",
+      "en": "storeroom; warehouse",
+      "article": "das"
+    },
+    "Lauft": {
+      "de": "Lauft",
+      "pos": "form",
+      "en": "run (ihr lauft)"
+    },
+    "Monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "article": "der",
+      "plural": "die Monitore"
+    },
+    "Ort": {
+      "de": "Ort",
+      "pos": "noun",
+      "en": "place; location",
+      "article": "der"
+    },
+    "Ortsadverbien": {
+      "de": "Ortsadverbien",
+      "pos": "noun",
+      "en": "place adverbs",
+      "article": "die"
+    },
+    "Pflasterwagen": {
+      "de": "Pflasterwagen",
+      "pos": "noun",
+      "en": "dressing trolley",
+      "article": "der"
+    },
+    "Physiotherapie": {
+      "de": "Physiotherapie",
+      "pos": "noun",
+      "en": "physiotherapy",
+      "article": "die"
+    },
+    "Proben": {
+      "de": "Proben",
+      "pos": "noun",
+      "en": "samples (plural)",
+      "article": "die"
+    },
+    "Röntgen": {
+      "de": "Röntgen",
+      "pos": "noun",
+      "en": "X-ray",
+      "article": "das"
+    },
+    "Schicken": {
+      "de": "Schicken",
+      "pos": "form",
+      "en": "send (imperative polite)"
+    },
+    "Schiebt": {
+      "de": "Schiebt",
+      "pos": "form",
+      "en": "push (ihr imperative)"
+    },
+    "Sessel": {
+      "de": "Sessel",
+      "pos": "noun",
+      "en": "armchair",
+      "article": "der"
+    },
+    "Tisch": {
+      "de": "Tisch",
+      "pos": "noun",
+      "en": "table",
+      "article": "der"
+    },
+    "Untersuchungsraum": {
+      "de": "Untersuchungsraum",
+      "pos": "noun",
+      "en": "examination room",
+      "article": "der"
+    },
+    "Wagen": {
+      "de": "Wagen",
+      "pos": "noun",
+      "en": "trolley; cart",
+      "article": "der"
+    },
+    "Welcher": {
+      "de": "Welcher",
+      "pos": "pronoun",
+      "en": "which (masc.)"
+    },
+    "Wort": {
+      "de": "Wort",
+      "pos": "noun",
+      "en": "word",
+      "article": "das"
+    },
+    "Zur": {
+      "de": "Zur",
+      "pos": "preposition",
+      "en": "to the (zur = zu der)"
+    },
+    "bleiben": {
+      "de": "bleiben",
+      "pos": "verb",
+      "en": "to stay"
+    },
+    "bringen": {
+      "de": "bringen",
+      "pos": "verb",
+      "en": "to bring"
+    },
+    "drei": {
+      "de": "drei",
+      "pos": "other",
+      "en": "three"
+    },
+    "fahren": {
+      "de": "fahren",
+      "pos": "verb",
+      "en": "to drive; to go (by vehicle)"
+    },
+    "fährt": {
+      "de": "fahren → er/sie fährt",
+      "pos": "form",
+      "en": "drives; goes (by vehicle)"
+    },
+    "hin": {
+      "de": "hin",
+      "pos": "particle",
+      "en": "toward (direction particle; with da → dahin)"
+    },
+    "ihr": {
+      "de": "ihr",
+      "pos": "pronoun",
+      "en": "you (plural informal)"
+    },
+    "kein": {
+      "de": "kein",
+      "pos": "article",
+      "en": "no"
+    },
+    "laufen": {
+      "de": "laufen",
+      "pos": "verb",
+      "en": "to run; to walk"
+    },
+    "lässt": {
+      "de": "lässt",
+      "pos": "form",
+      "en": "lets / leaves (lassen)"
+    },
+    "man": {
+      "de": "man",
+      "pos": "pronoun",
+      "en": "one; you (impersonal)"
+    },
+    "neben": {
+      "de": "neben",
+      "pos": "preposition",
+      "en": "beside; next to"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or"
+    },
+    "ruft": {
+      "de": "rufen → er/sie ruft",
+      "pos": "form",
+      "en": "calls"
+    },
+    "schicken": {
+      "de": "schicken",
+      "pos": "form",
+      "en": "send (imperative polite)"
+    },
+    "schieben": {
+      "de": "schieben",
+      "pos": "verb",
+      "en": "to push"
+    },
+    "schon": {
+      "de": "schon",
+      "pos": "adverb",
+      "en": "already"
+    },
+    "sitze": {
+      "de": "sitzen → ich sitze",
+      "pos": "form",
+      "en": "sit (ich)"
+    },
+    "sitzt": {
+      "de": "sitzt",
+      "pos": "form",
+      "en": "sits (er/sie sitzt)"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "preposition",
+      "en": "from the (vom = von dem)"
+    },
+    "warte": {
+      "de": "warte",
+      "pos": "form",
+      "en": "wait (ich warte)"
+    },
+    "wählt": {
+      "de": "wählt",
+      "pos": "form",
+      "en": "chooses (wählen)"
+    },
+    "zur": {
+      "de": "zur",
+      "pos": "preposition",
+      "en": "to the (zur = zu der)"
+    },
+    "zwei": {
+      "de": "zwei",
+      "pos": "other",
+      "en": "two"
     }
   },
   "steps": [
     {
       "id": "overview",
       "type": "overview",
-      "label": "Start",
-      "title": "There, to there, from there",
-      "learn": [
-        "da answers Wo? It is location, with no movement. Der Patient ist da. Ich bin da. The room is im Zimmer.",
-        "dahin answers Wohin? It is one word and means to that place. Wir gehen dahin. Kommst du auch dahin? The ward is zur Station.",
-        "daher answers Woher? It is one word and means from that place. Er kommt daher. The room he left is aus dem Zimmer. daher is not deshalb.",
-        "The adverb can stand in position 1. Then the verb is position 2: Da ist der Patient. Dahin gehen wir. Daher kommt er."
-      ],
+      "label": "Überblick",
+      "title": "Ort auf Station",
       "minutes": 25,
-      "vocab": [
-        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🧑🏽", "glossaryKey": "patient" },
-        { "de": "Zimmer", "article": "das", "plural": "die Zimmer", "en": "room", "emoji": "🚪", "glossaryKey": "zimmer" },
-        { "de": "Station", "article": "die", "plural": "die Stationen", "en": "ward", "emoji": "🏥", "glossaryKey": "station" },
-        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "image": { "type": "svg", "id": "bed" }, "glossaryKey": "bett" }
+      "learn": [
+        "da = Ort ohne Bewegung (Wo?): Der Patient ist da.",
+        "dahin = Bewegung zum Ort (Wohin?), ein Wort: Wir gehen dahin.",
+        "daher = Bewegung vom Ort (Woher?), ein Wort: Er kommt daher. daher ≠ deshalb."
       ],
       "text": {
-        "title": "Ich bin da",
-        "de": "Ich bin da. Der Patient ist da. Wir gehen dahin. Er kommt daher. Kommst du auch dahin?",
-        "en": "I am there. The patient is there. We go there. He comes from there. Are you coming there too?"
-      }
+        "title": "Plan · Ort",
+        "de": "Heute üben wir Ortsadverbien. Die Frage wählt da, dahin oder daher. Position 1 lässt das Verb auf Position 2.",
+        "en": "Today we practise place adverbs. The question chooses da, dahin or daher. Position 1 keeps the verb in position 2."
+      },
+      "vocab": [
+        {
+          "de": "da",
+          "en": "there — location (Wo?)",
+          "emoji": "📍",
+          "glossaryKey": "da"
+        },
+        {
+          "de": "dahin",
+          "en": "there / to that place (Wohin?)",
+          "emoji": "➡️",
+          "glossaryKey": "dahin"
+        },
+        {
+          "de": "daher",
+          "en": "from there (Woher?) — not deshalb",
+          "emoji": "⬅️",
+          "glossaryKey": "daher"
+        },
+        {
+          "de": "deshalb",
+          "en": "therefore — not daher",
+          "emoji": "💡",
+          "glossaryKey": "deshalb"
+        }
+      ]
     },
     {
       "id": "grammar",
       "type": "grammar",
-      "label": "Grammar",
-      "title": "Wo, wohin, woher",
+      "label": "Grammatik",
+      "title": "da · dahin · daher",
       "practice": "choose",
       "heroTitle": "Ich bin da",
       "heroImage": "bed",
       "story": [
-        "<b>da</b>, <b>dahin</b> and <b>daher</b> point at a place you already know. They do not take an article. da in this chapter is the place-word there. It does not send a verb to the end.",
-        "<b>Wo?</b> Location, no movement. im Zimmer → <b>da</b>. <b>Der Patient ist da. Ich bin da.</b> He stays there too: Er bleibt da. Not ist dahin.",
-        "<b>Wohin?</b> Movement to that place. zur Station → <b>dahin</b>, one word. <b>Wir gehen dahin. Kommst du auch dahin?</b> Not gehen da, and not da hin.",
-        "<b>Woher?</b> Movement from that place. aus dem Zimmer → <b>daher</b>, one word. <b>Er kommt daher.</b> Not kommt da. daher here is from there. <b>deshalb</b> means therefore, from chapter 41.",
-        "kommen takes both directions. Wohin kommt er? Er kommt dahin. Woher kommt er? Er kommt daher. The question decides.",
-        "Position 1 is open to the adverb. The verb stays position 2: <b>Da ist der Patient. Dahin gehen wir. Daher kommt er.</b>"
+        "<b>da</b>, <b>dahin</b> und <b>daher</b> ersetzen einen bekannten Ort. Kein Artikel. <b>da</b> hier ist Ortsadverb — es schickt kein Verb ans Ende.",
+        "<b>Wo?</b> Ort ohne Bewegung → <b>da</b>. <b>Der Patient ist da. Ich bin da.</b> Nicht: ist dahin.",
+        "<b>Wohin?</b> Bewegung zum Ort → <b>dahin</b> (ein Wort). <b>Wir gehen dahin. Kommst du auch dahin?</b> Nicht: gehen da / da hin.",
+        "<b>Woher?</b> Bewegung vom Ort → <b>daher</b> (ein Wort). <b>Er kommt daher.</b> Nicht: kommt da. <b>daher</b> ≠ <b>deshalb</b> (Kapitel 41).",
+        "Adverb in Position 1: Verb bleibt Position 2 — <b>Da ist der Patient. Dahin gehen wir. Daher kommt er.</b>"
       ],
-      "questionRule": "Wo? da. Wohin? dahin. Woher? daher. Each of dahin and daher is one word. daher is from there, not deshalb.",
       "tables": [
         {
           "title": "da, dahin, daher",
-          "caption": "The question picks the adverb.",
-          "columns": ["Frage", "Satz"],
+          "caption": "Die Frage wählt das Adverb.",
+          "columns": [
+            "Frage",
+            "Satz"
+          ],
           "rows": [
-            { "label": "da", "cells": ["Wo?", "Der Patient ist da."], "highlight": true },
-            { "label": "dahin", "cells": ["Wohin?", "Wir gehen dahin."], "highlight": true },
-            { "label": "daher", "cells": ["Woher?", "Er kommt daher."] }
+            {
+              "label": "da",
+              "cells": [
+                "Wo?",
+                "Der Patient ist da."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "dahin",
+              "cells": [
+                "Wohin?",
+                "Wir gehen dahin."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "daher",
+              "cells": [
+                "Woher?",
+                "Er kommt daher."
+              ]
+            }
           ]
         },
         {
-          "title": "Statt der Ergänzung",
-          "caption": "The adverb stands in for the place you just named.",
-          "columns": ["Ort", "Adverb"],
+          "title": "Statt der Ortsangabe",
+          "caption": "Das Adverb steht für den genannten Ort.",
+          "columns": [
+            "Ort",
+            "Adverb"
+          ],
           "rows": [
-            { "label": "Zimmer", "cells": ["im Zimmer", "Der Patient ist da."], "highlight": true },
-            { "label": "Station", "cells": ["zur Station", "Wir gehen dahin."], "highlight": true },
-            { "label": "her", "cells": ["aus dem Zimmer", "Er kommt daher."] }
-          ]
-        },
-        {
-          "title": "Ein Wort, Position 1",
-          "caption": "dahin and daher do not split. The verb is still position 2.",
-          "columns": ["Vorn", "Nicht"],
-          "rows": [
-            { "label": "da", "cells": ["Da ist der Patient.", "Der Patient ist dahin."], "highlight": true },
-            { "label": "dahin", "cells": ["Dahin gehen wir.", "Wir gehen da hin."], "highlight": true },
-            { "label": "daher", "cells": ["Daher kommt er.", "Er kommt deshalb."] }
+            {
+              "label": "Zimmer",
+              "cells": [
+                "im Zimmer",
+                "Der Patient ist da."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Station",
+              "cells": [
+                "zur Station",
+                "Wir gehen dahin."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Zimmer her",
+              "cells": [
+                "aus dem Zimmer",
+                "Er kommt daher."
+              ]
+            }
           ]
         }
       ],
       "warning": {
-        "title": "Four place traps",
+        "title": "Häufige Fehler",
         "items": [
-          { "de": "Der Patient ist da.", "en": "Wo? Location.", "tone": "ok" },
-          { "de": "Der Patient ist dahin.", "en": "dahin is movement to a place.", "tone": "stop" },
-          { "de": "Wir gehen dahin.", "en": "Wohin? One word.", "tone": "ok" },
-          { "de": "Wir gehen da.", "en": "gehen needs a direction.", "tone": "stop" },
-          { "de": "Er kommt daher.", "en": "Woher? From the room.", "tone": "ok" },
-          { "de": "Er kommt deshalb.", "en": "deshalb means therefore, not from there.", "tone": "stop" },
-          { "de": "Kommst du auch dahin?", "en": "To that place, too.", "tone": "ok" },
-          { "de": "Kommst du auch da hin?", "en": "dahin is one word.", "tone": "stop" }
+          {
+            "de": "✗ Der Patient ist dahin",
+            "en": "✗ dahin = Bewegung",
+            "tone": "stop"
+          },
+          {
+            "de": "✓ Der Patient ist da",
+            "en": "✓ Wo? Ort",
+            "tone": "ok"
+          },
+          {
+            "de": "✗ Er kommt deshalb (Ort)",
+            "en": "✗ deshalb ≠ daher",
+            "tone": "stop"
+          },
+          {
+            "de": "✓ Er kommt daher",
+            "en": "✓ Woher? vom Ort",
+            "tone": "ok"
+          }
         ],
-        "tip": "Wo da. Wohin dahin. Woher daher. daher is not deshalb."
+        "tip": "Merksatz: Wo da · Wohin dahin · Woher daher · daher ≠ deshalb."
       },
-      "quizTitle": "Which place?",
+      "questionRule": "Wählen Sie das passende Ortsadverb.",
+      "quizTitle": "Welcher Ort?",
       "quiz": [
         {
           "kind": "mc",
-          "q": "Wo ist der Patient? Im Zimmer.",
-          "qEn": "Location.",
-          "options": ["Der Patient ist da.", "Der Patient ist dahin.", "Der Patient ist daher."],
+          "q": "Wo ist der Patient? Im Zimmer. → Der Patient ist ___.",
+          "options": [
+            "da",
+            "dahin",
+            "daher"
+          ],
           "answer": 0,
-          "why": "ist da.",
-          "hint": "da."
+          "why": "Wo? → da.",
+          "hint": "da"
         },
         {
           "kind": "mc",
-          "q": "Wohin gehen wir? Zur Station.",
-          "qEn": "To there.",
-          "options": ["Wir gehen dahin.", "Wir gehen da.", "Wir gehen daher."],
+          "q": "Wohin gehen wir? Zur Station. → Wir gehen ___.",
+          "options": [
+            "dahin",
+            "da",
+            "daher"
+          ],
           "answer": 0,
-          "why": "gehen dahin.",
-          "hint": "dahin."
+          "why": "Wohin? → dahin.",
+          "hint": "dahin"
         },
         {
           "kind": "mc",
-          "q": "Woher kommt er? Aus dem Zimmer.",
-          "qEn": "From there, not to there.",
-          "options": ["Er kommt daher.", "Er kommt da.", "Er kommt dahin."],
+          "q": "Woher kommt er? Aus dem Zimmer. → Er kommt ___.",
+          "options": [
+            "daher",
+            "da",
+            "deshalb"
+          ],
           "answer": 0,
-          "why": "kommt daher.",
-          "hint": "daher."
+          "why": "Woher? → daher.",
+          "hint": "daher"
         },
         {
           "kind": "mc",
-          "q": "I am there.",
-          "qEn": "Wo?",
-          "options": ["Ich bin da.", "Ich bin dahin.", "Ich bin daher."],
+          "q": "Kommst du auch ___?",
+          "options": [
+            "dahin",
+            "da",
+            "daher"
+          ],
           "answer": 0,
-          "why": "bin da.",
-          "hint": "da."
+          "why": "Bewegung zum Ort.",
+          "hint": "dahin"
         },
         {
           "kind": "mc",
-          "q": "Are you coming there too?",
-          "qEn": "Wohin?",
-          "options": ["Kommst du auch dahin?", "Kommst du auch da?", "Kommst du auch daher?"],
+          "q": "___ ist der Patient.",
+          "options": [
+            "Da",
+            "Dahin",
+            "Daher"
+          ],
           "answer": 0,
-          "why": "auch dahin.",
-          "hint": "dahin."
+          "why": "Ort, Position 1.",
+          "hint": "Da"
         },
         {
           "kind": "mc",
-          "q": "He stays there. Wo?",
-          "qEn": "Location, like im Bett.",
-          "options": ["Er bleibt da.", "Er bleibt dahin.", "Er bleibt daher."],
+          "q": "Wir ___ dahin.",
+          "options": [
+            "gehen",
+            "sind",
+            "bleiben"
+          ],
           "answer": 0,
-          "why": "bleibt da.",
-          "hint": "da."
+          "why": "dahin braucht Bewegung.",
+          "hint": "gehen"
+        },
+        {
+          "kind": "mc",
+          "q": "Er bleibt ___.",
+          "options": [
+            "da",
+            "dahin",
+            "daher"
+          ],
+          "answer": 0,
+          "why": "bleiben = Ort.",
+          "hint": "da"
+        },
+        {
+          "kind": "mc",
+          "q": "___ gehen wir jetzt.",
+          "options": [
+            "Dahin",
+            "Da",
+            "Deshalb"
+          ],
+          "answer": 0,
+          "why": "Wohin, Position 1.",
+          "hint": "Dahin"
+        },
+        {
+          "kind": "mc",
+          "q": "Mira kommt ___ vom Labor.",
+          "options": [
+            "daher",
+            "dahin",
+            "deshalb"
+          ],
+          "answer": 0,
+          "why": "Woher? → daher.",
+          "hint": "daher"
+        },
+        {
+          "kind": "mc",
+          "q": "dahin ist ___ Wort.",
+          "options": [
+            "ein",
+            "zwei",
+            "kein"
+          ],
+          "answer": 0,
+          "why": "dahin = ein Wort.",
+          "hint": "ein"
+        },
+        {
+          "kind": "mc",
+          "q": "Er hat Fieber. ___ bleibt er im Bett.",
+          "options": [
+            "Deshalb",
+            "Daher",
+            "Dahin"
+          ],
+          "answer": 0,
+          "why": "Folge → deshalb, nicht daher.",
+          "hint": "Deshalb"
+        },
+        {
+          "kind": "mc",
+          "q": "Jonas ist schon ___.",
+          "options": [
+            "da",
+            "dahin",
+            "daher"
+          ],
+          "answer": 0,
+          "why": "Ort ohne Bewegung.",
+          "hint": "da"
         }
       ]
     },
     {
-      "id": "gap-adverb",
-      "label": "Gap",
-      "title": "da, dahin, or daher?",
-      "practice": "gap",
+      "id": "gapfill",
       "type": "gapfill",
-      "instructions": "The label is Wo, Wohin, or Woher. Location takes da. To the station takes dahin. From the room takes daher.",
-      "chips": [
-        { "w": "ist da", "hint": "Wo? der Patient." },
-        { "w": "bin da", "hint": "Wo? ich." },
-        { "w": "gehen dahin", "hint": "Wohin? wir." },
-        { "w": "auch dahin", "hint": "Wohin? the question." },
-        { "w": "kommt daher", "hint": "Woher? er." },
-        { "w": "Da ist", "hint": "Wo, position 1." },
-        { "w": "ist dahin", "hint": "not location." },
-        { "w": "gehen da", "hint": "not a direction." },
-        { "w": "kommt da", "hint": "not woher." }
-      ],
+      "label": "Lücken",
+      "title": "da, dahin oder daher?",
+      "practice": "gap",
+      "instructions": "Setzen Sie da, dahin oder daher (oder die passende Form) ein.",
       "items": [
         {
-          "before": "Wo, Zimmer: Der Patient",
-          "after": ".",
+          "before": "Herr Keller ",
+          "after": " im Untersuchungsraum.",
           "answer": "ist da",
-          "en": "The patient is there.",
-          "why": "ist da.",
-          "tip": "Location.",
-          "hint": "da."
+          "en": "Mr Keller is there in the exam room.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "ist da",
+          "hint": "ist da"
         },
         {
-          "before": "Wo, ich: Ich",
-          "after": ".",
-          "answer": "bin da",
-          "en": "I am there.",
-          "why": "bin da.",
-          "tip": "Location.",
-          "hint": "da."
+          "before": "Bitte ",
+          "after": " zur Physiotherapie.",
+          "answer": "gehen Sie dahin",
+          "en": "Please go there to physiotherapy.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "gehen Sie dahin",
+          "hint": "gehen Sie dahin"
         },
         {
-          "before": "Wohin, Station: Wir",
-          "after": ".",
-          "answer": "gehen dahin",
-          "en": "We go there.",
-          "why": "gehen dahin.",
-          "tip": "To there.",
-          "hint": "dahin."
+          "before": "Die Proben ",
+          "after": " aus dem Labor.",
+          "answer": "kommen daher",
+          "en": "The samples come from there (the lab).",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "kommen daher",
+          "hint": "kommen daher"
         },
         {
-          "before": "Wohin, Frage: Kommst du",
+          "before": "Ich ",
+          "after": " am Empfang.",
+          "answer": "warte da",
+          "en": "I wait there at reception.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "warte da",
+          "hint": "warte da"
+        },
+        {
+          "before": "Fährst du mit ",
           "after": "?",
-          "answer": "auch dahin",
-          "en": "Are you coming there too?",
-          "why": "auch dahin.",
-          "tip": "To there.",
-          "hint": "dahin."
+          "answer": "dahin",
+          "en": "Are you driving there too?",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "dahin",
+          "hint": "dahin"
         },
         {
-          "before": "Woher, Zimmer: Er",
-          "after": ".",
+          "before": "Lara ",
+          "after": " vom Röntgen.",
           "answer": "kommt daher",
-          "en": "He comes from there.",
-          "why": "kommt daher.",
-          "tip": "From there.",
-          "hint": "daher."
+          "en": "Lara comes from there (X-ray).",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "kommt daher",
+          "hint": "kommt daher"
         },
         {
-          "before": "Wo, vorn:",
-          "after": "der Patient.",
-          "answer": "Da ist",
-          "en": "The patient is there.",
-          "why": "Da ist der Patient.",
-          "tip": "da in position 1.",
-          "hint": "Da."
+          "before": "Der Notarzt ",
+          "after": " schon.",
+          "answer": "ist da",
+          "en": "The emergency doctor is already there.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "ist da",
+          "hint": "ist da"
+        },
+        {
+          "before": "Wir ",
+          "after": " mit dem Bett.",
+          "answer": "schieben es dahin",
+          "en": "We push it there with the bed.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "schieben es dahin",
+          "hint": "schieben es dahin"
+        },
+        {
+          "before": "Omar ",
+          "after": " auf Zimmer 4.",
+          "answer": "arbeitet da",
+          "en": "Omar works there on room 4.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "arbeitet da",
+          "hint": "arbeitet da"
+        },
+        {
+          "before": "",
+          "after": " kommt der Lärm.",
+          "answer": "Daher",
+          "en": "From there comes the noise.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "Daher",
+          "hint": "Daher"
+        },
+        {
+          "before": "Bringen Sie die Akte ",
+          "after": ".",
+          "answer": "dahin",
+          "en": "Take the file there.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "dahin",
+          "hint": "dahin"
+        },
+        {
+          "before": "Frau Lang ",
+          "after": " ruhig im Sessel.",
+          "answer": "sitzt da",
+          "en": "Ms Lang sits there quietly in the armchair.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "sitzt da",
+          "hint": "sitzt da"
+        },
+        {
+          "before": "Woher das Blut? Es kommt ",
+          "after": ".",
+          "answer": "daher",
+          "en": "Where from the blood? It comes from there.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "daher",
+          "hint": "daher"
+        },
+        {
+          "before": "",
+          "after": " fahren wir mit dem Aufzug.",
+          "answer": "Dahin",
+          "en": "There we go by lift.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "Dahin",
+          "hint": "Dahin"
+        },
+        {
+          "before": "Der Pflasterwagen ",
+          "after": " neben der Tür.",
+          "answer": "steht da",
+          "en": "The plaster trolley stands there by the door.",
+          "why": "Ort/Richtung prüfen.",
+          "tip": "steht da",
+          "hint": "steht da"
+        }
+      ],
+      "chips": [
+        {
+          "w": "ist da",
+          "hint": "Wo? sein + da"
+        },
+        {
+          "w": "gehen Sie dahin",
+          "hint": "Wohin? höflich"
+        },
+        {
+          "w": "kommen daher",
+          "hint": "Woher?"
+        },
+        {
+          "w": "warte da",
+          "hint": "Ort · warten"
+        },
+        {
+          "w": "dahin",
+          "hint": "Wohin?"
+        },
+        {
+          "w": "kommt daher",
+          "hint": "Woher?"
+        },
+        {
+          "w": "schieben es dahin",
+          "hint": "Wohin? schieben"
+        },
+        {
+          "w": "arbeitet da",
+          "hint": "Ort · arbeiten"
+        },
+        {
+          "w": "Daher",
+          "hint": "Position 1 Woher"
+        },
+        {
+          "w": "sitzt da",
+          "hint": "Ort · sitzen"
+        },
+        {
+          "w": "daher",
+          "hint": "Woher?"
+        },
+        {
+          "w": "Dahin",
+          "hint": "Position 1 Wohin"
+        },
+        {
+          "w": "steht da",
+          "hint": "Ort · stehen"
         }
       ]
     },
     {
-      "id": "match-ort",
-      "type": "compare",
-      "label": "Match",
-      "title": "Question and adverb",
-      "practice": "match",
-      "instructions": "Match the question to the adverb. From the room is daher, not deshalb.",
+      "id": "builder",
+      "type": "builder",
+      "label": "Bauen",
+      "title": "Sätze mit da / dahin / daher",
+      "practice": "build",
+      "instructions": "Legen Sie die Kacheln in die richtige Reihenfolge.",
       "items": [
         {
-          "prompt": "Where is the patient? In the room.",
-          "options": [
-            { "emoji": "📍", "label": "Der Patient ist da.", "caption": "Wo?" },
-            { "emoji": "🚫", "label": "Der Patient ist dahin.", "caption": "dahin moves." },
-            { "emoji": "🚫", "label": "Der Patient ist daher.", "caption": "daher is from there." }
+          "tiles": [
+            "Die",
+            "Schwester",
+            "ist",
+            "da"
           ],
-          "answer": 0,
-          "why": "ist da.",
-          "hint": "da."
+          "answers": [
+            "Die Schwester ist da"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "da",
+          "question": false,
+          "en": "The nurse is there.",
+          "hint": "da",
+          "feedback": {
+            "fallback": "Wo da · Wohin dahin · Woher daher."
+          }
         },
         {
-          "prompt": "Where are we going? To the ward.",
-          "options": [
-            { "emoji": "➡️", "label": "Wir gehen dahin.", "caption": "Wohin?" },
-            { "emoji": "🚫", "label": "Wir gehen da.", "caption": "da does not move." },
-            { "emoji": "🚫", "label": "Wir gehen daher.", "caption": "daher is from there." }
+          "tiles": [
+            "Wir",
+            "laufen",
+            "dahin"
           ],
-          "answer": 0,
-          "why": "gehen dahin.",
-          "hint": "dahin."
+          "answers": [
+            "Wir laufen dahin"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "dahin",
+          "question": false,
+          "en": "We run there.",
+          "hint": "dahin",
+          "feedback": {
+            "fallback": "Wo da · Wohin dahin · Woher daher."
+          }
         },
         {
-          "prompt": "Where is he coming from? From the room.",
-          "options": [
-            { "emoji": "↩️", "label": "Er kommt daher.", "caption": "Woher?" },
-            { "emoji": "🚫", "label": "Er kommt da.", "caption": "da is location." },
-            { "emoji": "➡️", "label": "Er kommt dahin.", "caption": "That would be to there." }
+          "tiles": [
+            "Tom",
+            "kommt",
+            "daher"
           ],
-          "answer": 0,
-          "why": "kommt daher.",
-          "hint": "daher."
+          "answers": [
+            "Tom kommt daher"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "daher",
+          "question": false,
+          "en": "Tom comes from there.",
+          "hint": "daher",
+          "feedback": {
+            "fallback": "Wo da · Wohin dahin · Woher daher."
+          }
         },
         {
-          "prompt": "I am there.",
-          "options": [
-            { "emoji": "📍", "label": "Ich bin da.", "caption": "Wo?" },
-            { "emoji": "🚫", "label": "Ich bin dahin.", "caption": "Not a direction." },
-            { "emoji": "🚫", "label": "Ich bin daher.", "caption": "Not from there." }
+          "tiles": [
+            "Bitte",
+            "bleiben",
+            "Sie",
+            "da"
           ],
-          "answer": 0,
-          "why": "bin da.",
-          "hint": "da."
+          "answers": [
+            "Bitte bleiben Sie da"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "da",
+          "question": false,
+          "en": "Please stay there.",
+          "hint": "da",
+          "feedback": {
+            "fallback": "Ort → da."
+          }
         },
         {
-          "prompt": "Are you coming there too?",
-          "options": [
-            { "emoji": "➡️", "label": "Kommst du auch dahin?", "caption": "Wohin?" },
-            { "emoji": "🚫", "label": "Kommst du auch da?", "caption": "da is not the direction." },
-            { "emoji": "🚫", "label": "Kommst du auch daher?", "caption": "daher is from there." }
+          "tiles": [
+            "Lauft",
+            "ihr",
+            "auch",
+            "dahin"
           ],
-          "answer": 0,
-          "why": "auch dahin.",
-          "hint": "dahin."
+          "answers": [
+            "Lauft ihr auch dahin"
+          ],
+          "punct": "?",
+          "modal": "ort",
+          "inf": "dahin",
+          "question": true,
+          "en": "Are you (pl) running there too?",
+          "hint": "dahin",
+          "feedback": {
+            "fallback": "Wohin? → dahin."
+          }
         },
         {
-          "prompt": "From the room. Not therefore.",
-          "options": [
-            { "emoji": "↩️", "label": "daher", "caption": "Woher?" },
-            { "emoji": "➡️", "label": "deshalb", "caption": "Therefore." },
-            { "emoji": "➡️", "label": "dahin", "caption": "To there." }
+          "tiles": [
+            "Dahin",
+            "bringen",
+            "wir",
+            "den",
+            "Monitor"
           ],
-          "answer": 0,
-          "why": "daher, not deshalb.",
-          "hint": "daher."
+          "answers": [
+            "Dahin bringen wir den Monitor"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "Monitor",
+          "question": false,
+          "en": "There we take the monitor.",
+          "hint": "Monitor",
+          "feedback": {
+            "fallback": "Wo da · Wohin dahin · Woher daher."
+          }
+        },
+        {
+          "tiles": [
+            "Ben",
+            "wartet",
+            "da"
+          ],
+          "answers": [
+            "Ben wartet da"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "da",
+          "question": false,
+          "en": "Ben waits there.",
+          "hint": "da",
+          "feedback": {
+            "fallback": "Wo da · Wohin dahin · Woher daher."
+          }
+        },
+        {
+          "tiles": [
+            "Daher",
+            "ruft",
+            "Mira"
+          ],
+          "answers": [
+            "Daher ruft Mira"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "Mira",
+          "question": false,
+          "en": "From there Mira calls.",
+          "hint": "Mira",
+          "feedback": {
+            "fallback": "Wo da · Wohin dahin · Woher daher."
+          }
+        },
+        {
+          "tiles": [
+            "Das",
+            "EKG-Gerät",
+            "steht",
+            "da"
+          ],
+          "answers": [
+            "Das EKG-Gerät steht da"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "da",
+          "question": false,
+          "en": "The ECG machine stands there.",
+          "hint": "da",
+          "feedback": {
+            "fallback": "Ort → da."
+          }
+        },
+        {
+          "tiles": [
+            "Schiebt",
+            "den",
+            "Tisch",
+            "dahin"
+          ],
+          "answers": [
+            "Schiebt den Tisch dahin"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "dahin",
+          "question": false,
+          "en": "Push the table there.",
+          "hint": "dahin",
+          "feedback": {
+            "fallback": "Wohin? → dahin."
+          }
+        },
+        {
+          "tiles": [
+            "Anna",
+            "bleibt",
+            "da"
+          ],
+          "answers": [
+            "Anna bleibt da"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "da",
+          "question": false,
+          "en": "Anna stays there.",
+          "hint": "da",
+          "feedback": {
+            "fallback": "Wo da · Wohin dahin · Woher daher."
+          }
+        },
+        {
+          "tiles": [
+            "Daher",
+            "kommt",
+            "der",
+            "Alarm"
+          ],
+          "answers": [
+            "Daher kommt der Alarm"
+          ],
+          "punct": ".",
+          "modal": "ort",
+          "inf": "Alarm",
+          "question": false,
+          "en": "From there comes the alarm.",
+          "hint": "Alarm",
+          "feedback": {
+            "fallback": "Wo da · Wohin dahin · Woher daher."
+          }
         }
       ]
     },
     {
-      "id": "picture-ward",
+      "id": "riddle",
+      "type": "riddle",
+      "label": "Fehler",
+      "title": "Fehler finden",
+      "practice": "error",
+      "instructions": "Welche Version ist korrekt?",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Schwester ist dahin an der Tür."
+          ],
+          "options": [
+            "Die Schwester ist da an der Tür.",
+            "Die Schwester ist dahin an der Tür.",
+            "Die Schwester geht da."
+          ],
+          "answer": 0,
+          "reveal": "Die Schwester ist da an der Tür.",
+          "hint": "da"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir laufen da zum Aufwachraum."
+          ],
+          "options": [
+            "Wir laufen dahin zum Aufwachraum.",
+            "Wir laufen da zum Aufwachraum.",
+            "Wir laufen daher."
+          ],
+          "answer": 0,
+          "reveal": "Wir laufen dahin zum Aufwachraum.",
+          "hint": "dahin"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Tom kommt deshalb aus dem Lager."
+          ],
+          "options": [
+            "Tom kommt daher aus dem Lager.",
+            "Tom kommt deshalb aus dem Lager.",
+            "Tom kommt dahin."
+          ],
+          "answer": 0,
+          "reveal": "Tom kommt daher aus dem Lager.",
+          "hint": "daher"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Bleib dahin ruhig sitzen."
+          ],
+          "options": [
+            "Bleib da ruhig sitzen.",
+            "Bleib dahin ruhig sitzen.",
+            "Geh da ruhig sitzen."
+          ],
+          "answer": 0,
+          "reveal": "Bleib da ruhig sitzen.",
+          "hint": "da"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Kommst du auch da hin zum CT?"
+          ],
+          "options": [
+            "Kommst du auch dahin zum CT?",
+            "Kommst du auch da hin zum CT?",
+            "Kommst du auch da zum CT?"
+          ],
+          "answer": 0,
+          "reveal": "Kommst du auch dahin zum CT?",
+          "hint": "dahin"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Da bringen wir den Monitor jetzt."
+          ],
+          "options": [
+            "Dahin bringen wir den Monitor jetzt.",
+            "Da bringen wir den Monitor jetzt.",
+            "Daher bringen wir den Monitor."
+          ],
+          "answer": 0,
+          "reveal": "Dahin bringen wir den Monitor jetzt.",
+          "hint": "da"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ben wartet dahin vor dem Labor."
+          ],
+          "options": [
+            "Ben wartet da vor dem Labor.",
+            "Ben wartet dahin vor dem Labor.",
+            "Ben geht da vor dem Labor."
+          ],
+          "answer": 0,
+          "reveal": "Ben wartet da vor dem Labor.",
+          "hint": "da"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Deshalb ruft Mira aus dem Bad."
+          ],
+          "options": [
+            "Daher ruft Mira aus dem Bad.",
+            "Deshalb ruft Mira aus dem Bad.",
+            "Dahin ruft Mira."
+          ],
+          "answer": 0,
+          "reveal": "Daher ruft Mira aus dem Bad.",
+          "hint": "da"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Infusionsständer steht dahin."
+          ],
+          "options": [
+            "Der Infusionsständer steht da.",
+            "Der Infusionsständer steht dahin.",
+            "Der Infusionsständer fährt da."
+          ],
+          "answer": 0,
+          "reveal": "Der Infusionsständer steht da.",
+          "hint": "da"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Schicken Sie den Wagen da."
+          ],
+          "options": [
+            "Schicken Sie den Wagen dahin.",
+            "Schicken Sie den Wagen da.",
+            "Schicken Sie den Wagen daher."
+          ],
+          "answer": 0,
+          "reveal": "Schicken Sie den Wagen dahin.",
+          "hint": "dahin"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Anna bleibt dahin auf Station."
+          ],
+          "options": [
+            "Anna bleibt da auf Station.",
+            "Anna bleibt dahin auf Station.",
+            "Anna geht da auf Station."
+          ],
+          "answer": 0,
+          "reveal": "Anna bleibt da auf Station.",
+          "hint": "da"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Woher der Alarm? Er kommt dahin."
+          ],
+          "options": [
+            "Woher der Alarm? Er kommt daher.",
+            "Woher der Alarm? Er kommt dahin.",
+            "Woher der Alarm? Er kommt da."
+          ],
+          "answer": 0,
+          "reveal": "Woher der Alarm? Er kommt daher.",
+          "hint": "daher"
+        }
+      ]
+    },
+    {
+      "id": "picturematch",
       "type": "picturematch",
-      "label": "Pictures",
-      "title": "On the ward",
+      "label": "Bilder",
+      "title": "Bilder und Ort",
       "practice": "picture",
-      "instructions": "A hospital bed, a wheelchair, a thermometer, a chart.",
+      "instructions": "Passen Sie Wort und Bild.",
       "items": [
         {
           "id": "bett",
           "de": "Bett",
           "article": "das",
           "plural": "die Betten",
-          "en": "the bed in the room",
-          "image": { "type": "svg", "id": "bed" },
-          "hint": "das"
+          "en": "bed — Der Patient ist da",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "da"
         },
         {
-          "id": "rollstuhl",
+          "id": "room",
+          "de": "Zimmer",
+          "article": "das",
+          "plural": "die Zimmer",
+          "en": "room — Wo? → da",
+          "image": {
+            "type": "svg",
+            "id": "room"
+          },
+          "hint": "da"
+        },
+        {
+          "id": "wheelchair",
           "de": "Rollstuhl",
           "article": "der",
           "plural": "die Rollstühle",
-          "en": "the wheelchair for the trip",
-          "image": { "type": "svg", "id": "wheelchair" },
-          "hint": "der"
+          "en": "wheelchair — Dahin bringen wir den Rollstuhl",
+          "image": {
+            "type": "svg",
+            "id": "wheelchair"
+          },
+          "hint": "dahin"
         },
         {
-          "id": "thermometer",
-          "de": "Thermometer",
-          "article": "das",
-          "plural": "die Thermometer",
-          "en": "the thermometer on the ward",
-          "image": { "type": "svg", "id": "thermometer" },
-          "hint": "das"
-        },
-        {
-          "id": "akte",
-          "de": "Akte",
+          "id": "ward",
+          "de": "Station",
           "article": "die",
-          "plural": "die Akten",
-          "en": "the chart from the handover",
-          "image": { "type": "svg", "id": "clipboard" },
-          "hint": "die"
+          "plural": "die Stationen",
+          "en": "ward — Wir gehen dahin",
+          "image": {
+            "type": "svg",
+            "id": "ward"
+          },
+          "hint": "dahin"
+        },
+        {
+          "id": "nurse",
+          "de": "Schwester",
+          "article": "die",
+          "plural": "die Schwestern",
+          "en": "nurse — Die Schwester ist schon da",
+          "image": {
+            "type": "svg",
+            "id": "nurse"
+          },
+          "hint": "da"
+        },
+        {
+          "id": "oberarzt",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor — Der Arzt ist schon da",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "da"
+        },
+        {
+          "id": "hands",
+          "de": "Hilfe",
+          "article": "die",
+          "plural": "die Hilfen",
+          "en": "help — Daher kommt die Hilfe",
+          "image": {
+            "type": "svg",
+            "id": "hands"
+          },
+          "hint": "daher"
+        },
+        {
+          "id": "clipboard",
+          "de": "Labor",
+          "article": "das",
+          "plural": "die Labore",
+          "en": "lab — Mira kommt daher vom Labor",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "daher"
+        },
+        {
+          "id": "monitor",
+          "de": "Monitor",
+          "article": "der",
+          "plural": "die Monitore",
+          "en": "monitor — Der Monitor steht da",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          },
+          "hint": "da"
+        },
+        {
+          "id": "patient",
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient — Ich bin da",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          },
+          "hint": "da"
         }
       ]
     },
     {
-      "id": "build-ort",
-      "type": "builder",
-      "label": "Build",
-      "title": "Adverb in position 1 or after the verb",
-      "practice": "build",
-      "instructions": "Both orders are right when the verb stays in position 2. dahin and daher stay one word.",
-      "items": [
-        {
-          "tiles": ["Der", "Patient", "ist", "da"],
-          "answers": ["Der Patient ist da", "Da ist der Patient"],
-          "punct": ".",
-          "modal": "ist",
-          "inf": "da",
-          "question": false,
-          "en": "The patient is there.",
-          "hint": "ist da, or Da ist.",
-          "feedback": {
-            "end": "da closes the plain order: Der Patient ist da.",
-            "fallback": "ist is position 2. Der Patient ist da. Or Da ist der Patient."
-          }
-        },
-        {
-          "tiles": ["Wir", "gehen", "dahin"],
-          "answers": ["Wir gehen dahin", "Dahin gehen wir"],
-          "punct": ".",
-          "modal": "gehen",
-          "inf": "dahin",
-          "question": false,
-          "en": "We go there.",
-          "hint": "gehen dahin.",
-          "feedback": {
-            "end": "dahin closes the plain order: Wir gehen dahin.",
-            "fallback": "gehen is position 2. Wir gehen dahin. Or Dahin gehen wir."
-          }
-        },
-        {
-          "tiles": ["Er", "kommt", "daher"],
-          "answers": ["Er kommt daher", "Daher kommt er"],
-          "punct": ".",
-          "modal": "kommt",
-          "inf": "daher",
-          "question": false,
-          "en": "He comes from there.",
-          "hint": "kommt daher.",
-          "feedback": {
-            "end": "daher closes the plain order: Er kommt daher.",
-            "fallback": "kommt is position 2. Er kommt daher. Or Daher kommt er."
-          }
-        },
-        {
-          "tiles": ["Kommst", "du", "auch", "dahin"],
-          "answers": ["Kommst du auch dahin", "Dahin kommst du auch", "Kommst du dahin auch"],
-          "punct": "?",
-          "modal": "Kommst",
-          "inf": "dahin",
-          "question": true,
-          "en": "Are you coming there too?",
-          "hint": "Kommst first, or Dahin first.",
-          "feedback": {
-            "end": "The plain question ends with dahin: Kommst du auch dahin?",
-            "fallback": "Kommst du auch dahin? Or Dahin kommst du auch?"
-          }
-        }
-      ]
-    },
-    {
-      "id": "transform-ort",
-      "label": "Rewrite",
-      "title": "One sentence",
-      "practice": "transform",
-      "type": "gapfill",
-      "instructions": "Choose the finished line. A question keeps the question mark.",
-      "chips": [
-        { "w": "Der Patient ist da", "hint": "Wo?" },
-        { "w": "Ich bin da", "hint": "Wo? ich." },
-        { "w": "Wir gehen dahin", "hint": "Wohin?" },
-        { "w": "Kommst du auch dahin", "hint": "the question." },
-        { "w": "Er kommt daher", "hint": "Woher?" },
-        { "w": "Daher kommt er", "hint": "Woher, position 1." }
-      ],
-      "items": [
-        {
-          "before": "Wo, Patient:",
-          "after": ".",
-          "answer": "Der Patient ist da",
-          "en": "The patient is there.",
-          "why": "ist da.",
-          "tip": "da.",
-          "hint": "da."
-        },
-        {
-          "before": "Wo, ich:",
-          "after": ".",
-          "answer": "Ich bin da",
-          "en": "I am there.",
-          "why": "bin da.",
-          "tip": "da.",
-          "hint": "da."
-        },
-        {
-          "before": "Wohin, Station:",
-          "after": ".",
-          "answer": "Wir gehen dahin",
-          "en": "We go there.",
-          "why": "gehen dahin.",
-          "tip": "dahin.",
-          "hint": "dahin."
-        },
-        {
-          "before": "Wohin, Frage:",
-          "after": "?",
-          "answer": "Kommst du auch dahin",
-          "en": "Are you coming there too?",
-          "why": "auch dahin.",
-          "tip": "dahin.",
-          "hint": "dahin."
-        },
-        {
-          "before": "Woher, Zimmer:",
-          "after": ".",
-          "answer": "Er kommt daher",
-          "en": "He comes from there.",
-          "why": "kommt daher.",
-          "tip": "daher.",
-          "hint": "daher."
-        },
-        {
-          "before": "Woher, vorn:",
-          "after": ".",
-          "answer": "Daher kommt er",
-          "en": "He comes from there.",
-          "why": "Daher kommt er.",
-          "tip": "Position 1.",
-          "hint": "Daher."
-        }
-      ]
-    },
-    {
-      "id": "error-ort",
-      "type": "riddle",
-      "label": "Error",
-      "title": "Finde den Fehler",
-      "practice": "error",
-      "instructions": "The last line uses the wrong adverb, or it splits dahin. Choose the correction.",
-      "items": [
-        {
-          "clues": ["The patient is in the room.", "Wo?", "Der Patient ist dahin."],
-          "options": ["Der Patient ist da.", "Der Patient ist dahin.", "Der Patient geht da."],
-          "answer": 0,
-          "reveal": "Der Patient ist da.",
-          "hint": "da."
-        },
-        {
-          "clues": ["We are going to the ward.", "Wohin?", "Wir gehen da."],
-          "options": ["Wir gehen dahin.", "Wir gehen da.", "Wir gehen daher."],
-          "answer": 0,
-          "reveal": "Wir gehen dahin.",
-          "hint": "dahin."
-        },
-        {
-          "clues": ["He is coming from the room.", "Woher?", "Er kommt da."],
-          "options": ["Er kommt daher.", "Er kommt da.", "Er kommt dahin."],
-          "answer": 0,
-          "reveal": "Er kommt daher.",
-          "hint": "daher."
-        },
-        {
-          "clues": ["Are you coming to that place too?", "Wohin?", "Kommst du auch da?"],
-          "options": ["Kommst du auch dahin?", "Kommst du auch da?", "Kommst du auch daher?"],
-          "answer": 0,
-          "reveal": "Kommst du auch dahin?",
-          "hint": "dahin."
-        },
-        {
-          "clues": ["To there is one word.", "Wohin?", "Wir gehen da hin."],
-          "options": ["Wir gehen dahin.", "Wir gehen da hin.", "Wir gehen da her."],
-          "answer": 0,
-          "reveal": "Wir gehen dahin.",
-          "hint": "dahin."
-        },
-        {
-          "clues": ["From the room, not therefore.", "Woher?", "Er kommt deshalb."],
-          "options": ["Er kommt daher.", "Er kommt deshalb.", "Er kommt dahin."],
-          "answer": 0,
-          "reveal": "Er kommt daher.",
-          "hint": "daher."
-        }
-      ]
-    },
-    {
-      "id": "dialogue-ort",
-      "label": "Dialogue",
-      "title": "At the door",
+      "id": "dialogfill",
+      "type": "dialogfill",
+      "label": "Dialog",
+      "title": "Übergabe: Ort",
       "practice": "dialogue",
-      "type": "gapfill",
-      "instructions": "The label names the speaker and the question. Wo takes da. Wohin takes dahin. Woher takes daher.",
-      "chips": [
-        { "w": "ist da", "hint": "Wo? der Patient." },
-        { "w": "bin da", "hint": "Wo? ich." },
-        { "w": "gehen dahin", "hint": "Wohin? wir." },
-        { "w": "auch dahin", "hint": "the question." },
-        { "w": "komme daher", "hint": "Woher? ich." },
-        { "w": "Da ist", "hint": "position 1." }
-      ],
-      "items": [
-        {
-          "who": "Pflegekraft",
-          "before": "Pflegekraft, Zimmer: Der Patient",
-          "after": ".",
-          "answer": "ist da",
-          "en": "The patient is there.",
-          "why": "ist da.",
-          "tip": "Location.",
-          "hint": "da."
+      "instructions": "Wählen Sie das passende Ortsadverb.",
+      "sceneTitle": "Auf der Station",
+      "scene": "Mira und Jonas klären, wo jemand ist und wohin Geräte gehören.",
+      "speakers": {
+        "mira": {
+          "name": "Mira",
+          "role": "Pflegerin",
+          "avatar": "👩‍⚕️"
         },
-        {
-          "who": "Pflegekraft",
-          "before": "Pflegekraft, ich: Ich",
-          "after": ".",
-          "answer": "bin da",
-          "en": "I am there.",
-          "why": "bin da.",
-          "tip": "Location.",
-          "hint": "da."
+        "jonas": {
+          "name": "Jonas",
+          "role": "Pfleger",
+          "avatar": "👨‍⚕️"
         },
-        {
-          "who": "Arzt",
-          "before": "Arzt, Station: Wir",
-          "after": ".",
-          "answer": "gehen dahin",
-          "en": "We go there.",
-          "why": "gehen dahin.",
-          "tip": "To the ward.",
-          "hint": "dahin."
+        "arzt": {
+          "name": "Dr. Klein",
+          "role": "Arzt",
+          "avatar": "🩺"
         },
-        {
-          "who": "Arzt",
-          "before": "Arzt, Frage: Kommst du",
-          "after": "?",
-          "answer": "auch dahin",
-          "en": "Are you coming there too?",
-          "why": "auch dahin.",
-          "tip": "To there.",
-          "hint": "dahin."
-        },
-        {
-          "who": "Patient",
-          "before": "Patient, Zimmer: Ich",
-          "after": ".",
-          "answer": "komme daher",
-          "en": "I come from there.",
-          "why": "komme daher.",
-          "tip": "From the room.",
-          "hint": "daher."
-        },
-        {
-          "who": "Arzt",
-          "before": "Arzt, Wo, vorn:",
-          "after": "der Patient.",
-          "answer": "Da ist",
-          "en": "The patient is there.",
-          "why": "Da ist der Patient.",
-          "tip": "da first.",
-          "hint": "Da."
+        "pat": {
+          "name": "Herr Braun",
+          "role": "Patient",
+          "avatar": "🤒"
         }
-      ]
-    },
-    {
-      "id": "gap-frage",
-      "label": "Replace",
-      "title": "Instead of the place phrase",
-      "practice": "gap",
-      "type": "gapfill",
-      "instructions": "Replace the place. im Zimmer becomes da. zur Station becomes dahin. aus dem Zimmer becomes daher.",
-      "chips": [
-        { "w": "da", "hint": "Wo?" },
-        { "w": "dahin", "hint": "Wohin?" },
-        { "w": "daher", "hint": "Woher?" },
-        { "w": "bin da", "hint": "Wo? ich." },
-        { "w": "Kommst du auch dahin", "hint": "the question." },
-        { "w": "Daher kommt er", "hint": "position 1." },
-        { "w": "deshalb", "hint": "therefore, not from there." },
-        { "w": "da hin", "hint": "not two words." }
-      ],
-      "items": [
-        {
-          "before": "Wo, im Zimmer: Der Patient ist",
-          "after": ".",
-          "answer": "da",
-          "en": "The patient is there.",
-          "why": "da replaces im Zimmer.",
-          "tip": "Location.",
-          "hint": "da."
-        },
-        {
-          "before": "Wohin, zur Station: Wir gehen",
-          "after": ".",
-          "answer": "dahin",
-          "en": "We go there.",
-          "why": "dahin replaces zur Station.",
-          "tip": "One word.",
-          "hint": "dahin."
-        },
-        {
-          "before": "Woher, aus dem Zimmer: Er kommt",
-          "after": ".",
-          "answer": "daher",
-          "en": "He comes from there.",
-          "why": "daher replaces aus dem Zimmer.",
-          "tip": "Not deshalb.",
-          "hint": "daher."
-        },
-        {
-          "before": "Wo, nicht wohin: Ich",
-          "after": ".",
-          "answer": "bin da",
-          "en": "I am there.",
-          "why": "bin da.",
-          "tip": "Location.",
-          "hint": "da."
-        },
-        {
-          "before": "Wohin, Frage:",
-          "after": "?",
-          "answer": "Kommst du auch dahin",
-          "en": "Are you coming there too?",
-          "why": "auch dahin.",
-          "tip": "To there.",
-          "hint": "dahin."
-        },
-        {
-          "before": "Woher, vorn:",
-          "after": ".",
-          "answer": "Daher kommt er",
-          "en": "He comes from there.",
-          "why": "Daher kommt er.",
-          "tip": "Position 1.",
-          "hint": "Daher."
-        }
-      ]
-    },
-    {
-      "id": "reading",
-      "type": "reading",
-      "label": "Reading",
-      "title": "The handover",
-      "practice": "reading",
-      "instructions": "Read the four lines. Each line is a different place question. Then answer from the text.",
-      "document": {
-        "letterhead": "Station 4 · Übergabe",
-        "title": "Die Übergabe",
-        "paragraphs": [
-          "Der Patient ist da. Wir gehen dahin.",
-          "Er kommt daher. Ich bin da."
-        ],
-        "signature": "Anna",
-        "stamp": "Station"
       },
-      "questions": [
+      "listenLabel": "Dialog anhören",
+      "lines": [
         {
-          "kind": "mc",
-          "q": "Wo ist der Patient?",
-          "qEn": "Location.",
-          "options": ["Er ist da.", "Er geht dahin.", "Er kommt daher."],
-          "answer": 0,
-          "why": "Er ist da.",
-          "hint": "da."
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Wo ist Lara? "
+            },
+            {
+              "gap": true,
+              "options": [
+                "Sie ist da",
+                "Sie ist dahin"
+              ],
+              "answer": 0,
+              "why": "Wo? → da"
+            },
+            {
+              "text": "."
+            }
+          ]
         },
         {
-          "kind": "mc",
-          "q": "Wohin gehen wir?",
-          "qEn": "To there.",
-          "options": ["Wir gehen dahin.", "Wir sind da.", "Er kommt daher."],
-          "answer": 0,
-          "why": "Wir gehen dahin.",
-          "hint": "dahin."
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Wohin mit den Proben? "
+            },
+            {
+              "gap": true,
+              "options": [
+                "Dahin",
+                "Daher"
+              ],
+              "answer": 0,
+              "why": "Wohin? → dahin"
+            },
+            {
+              "text": " zum Labor."
+            }
+          ]
         },
         {
-          "kind": "mc",
-          "q": "Woher kommt er?",
-          "qEn": "From there.",
-          "options": ["Er kommt daher.", "Er kommt dahin.", "Er ist da."],
-          "answer": 0,
-          "why": "Er kommt daher.",
-          "hint": "daher."
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Und der Wagen? "
+            },
+            {
+              "gap": true,
+              "options": [
+                "Er kommt daher",
+                "Er kommt deshalb"
+              ],
+              "answer": 0,
+              "why": "Woher? → daher"
+            },
+            {
+              "text": "."
+            }
+          ]
         },
         {
-          "kind": "mc",
-          "q": "Wo bin ich?",
-          "qEn": "Location.",
-          "options": ["Ich bin da.", "Ich gehe dahin.", "Ich komme daher."],
-          "answer": 0,
-          "why": "Ich bin da.",
-          "hint": "bin."
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Geht ihr auch "
+            },
+            {
+              "gap": true,
+              "options": [
+                "dahin",
+                "da"
+              ],
+              "answer": 0,
+              "why": "Bewegung → dahin"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Der Lärm aus dem Bad? "
+            },
+            {
+              "gap": true,
+              "options": [
+                "Daher kommt er",
+                "Dahin kommt er"
+              ],
+              "answer": 0,
+              "why": "Woher? → daher"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "who": "pat",
+          "parts": [
+            {
+              "text": "Ich "
+            },
+            {
+              "gap": true,
+              "options": [
+                "sitze da",
+                "sitze dahin"
+              ],
+              "answer": 0,
+              "why": "Ort → da"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "gap": true,
+              "options": [
+                "Dahin",
+                "Da"
+              ],
+              "answer": 0,
+              "why": "Position 1 Wohin"
+            },
+            {
+              "text": " schicken wir den Aufzug."
+            }
+          ]
+        },
+        {
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Omar "
+            },
+            {
+              "gap": true,
+              "options": [
+                "schläft da",
+                "schläft dahin"
+              ],
+              "answer": 0,
+              "why": "Ort → da"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Gut. Bleiben Sie "
+            },
+            {
+              "gap": true,
+              "options": [
+                "da",
+                "dahin"
+              ],
+              "answer": 0,
+              "why": "Ort → da"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Verstanden. Wir laufen "
+            },
+            {
+              "gap": true,
+              "options": [
+                "dahin",
+                "daher"
+              ],
+              "answer": 0,
+              "why": "Wohin? → dahin"
+            },
+            {
+              "text": "."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "writing-ort",
-      "type": "writing",
-      "label": "Writing",
-      "title": "Four place lines",
+      "id": "sentencewrite",
+      "type": "sentencewrite",
+      "label": "Schreiben",
+      "title": "Sätze schreiben",
       "practice": "writing",
-      "instructions": "Write four lines. da stays put. dahin is to there. daher is from there.",
-      "prompt": "The patient is there. We go there. He comes from there. Are you coming there too?",
-      "bullets": ["ist da", "gehen dahin", "kommt daher", "auch dahin"],
-      "model": "Der Patient ist da. Wir gehen dahin. Er kommt daher. Kommst du auch dahin?",
-      "modelEn": "The patient is there. We go there. He comes from there. Are you coming there too?",
-      "hint": "ist da. gehen dahin. kommt daher. auch dahin.",
-      "checklist": [
-        { "id": "d", "label": "ist da", "keywords": ["ist da"] },
-        { "id": "h", "label": "gehen dahin", "keywords": ["gehen dahin"] },
-        { "id": "r", "label": "kommt daher", "keywords": ["kommt daher"] },
-        { "id": "a", "label": "auch dahin", "keywords": ["auch dahin"] }
+      "instructions": "Schreiben Sie den Satz mit dem richtigen Ortsadverb.",
+      "items": [
+        {
+          "cue": "Patient • Wo? • da",
+          "answers": [
+            "Der Patient ist da",
+            "Da ist der Patient"
+          ],
+          "marks": [
+            {
+              "wrong": "ist dahin",
+              "right": "ist da",
+              "reason": "Wo? → da"
+            }
+          ],
+          "en": "The patient is there.",
+          "hint": "Der Patient ist da"
+        },
+        {
+          "cue": "gehen • Station • dahin",
+          "answers": [
+            "Wir gehen dahin",
+            "Dahin gehen wir"
+          ],
+          "marks": [
+            {
+              "wrong": "gehen da",
+              "right": "gehen dahin",
+              "reason": "Wohin? → dahin"
+            }
+          ],
+          "en": "We go there.",
+          "hint": "Wir gehen dahin"
+        },
+        {
+          "cue": "kommt • daher • Zimmer",
+          "answers": [
+            "Er kommt daher",
+            "Daher kommt er"
+          ],
+          "marks": [
+            {
+              "wrong": "kommt deshalb",
+              "right": "kommt daher",
+              "reason": "daher ≠ deshalb"
+            }
+          ],
+          "en": "He comes from there.",
+          "hint": "Er kommt daher"
+        },
+        {
+          "cue": "auch • Kommst du • dahin",
+          "answers": [
+            "Kommst du auch dahin"
+          ],
+          "marks": [
+            {
+              "wrong": "auch da hin",
+              "right": "auch dahin",
+              "reason": "ein Wort"
+            }
+          ],
+          "en": "Are you coming there too?",
+          "hint": "Kommst du auch dahin"
+        },
+        {
+          "cue": "Hilfe • Daher • kommt",
+          "answers": [
+            "Daher kommt die Hilfe",
+            "Die Hilfe kommt daher"
+          ],
+          "marks": [
+            {
+              "wrong": "Deshalb kommt die Hilfe",
+              "right": "Daher kommt die Hilfe",
+              "reason": "daher ≠ deshalb"
+            }
+          ],
+          "en": "From there comes the help.",
+          "hint": "Daher kommt die Hilfe"
+        },
+        {
+          "cue": "Rollstuhl • Dahin • bringen",
+          "answers": [
+            "Dahin bringen wir den Rollstuhl",
+            "Wir bringen den Rollstuhl dahin"
+          ],
+          "marks": [
+            {
+              "wrong": "Da bringen wir",
+              "right": "Dahin bringen wir",
+              "reason": "Wohin"
+            }
+          ],
+          "en": "There we take the wheelchair.",
+          "hint": "Dahin bringen wir den Rollstuhl"
+        },
+        {
+          "cue": "Arzt • schon • da",
+          "answers": [
+            "Der Arzt ist schon da",
+            "Da ist der Arzt schon"
+          ],
+          "marks": [
+            {
+              "wrong": "ist schon dahin",
+              "right": "ist schon da",
+              "reason": "Ort"
+            }
+          ],
+          "en": "The doctor is already there.",
+          "hint": "Der Arzt ist schon da"
+        },
+        {
+          "cue": "läuft • Jonas • dahin",
+          "answers": [
+            "Jonas läuft dahin",
+            "Dahin läuft Jonas"
+          ],
+          "marks": [
+            {
+              "wrong": "läuft da",
+              "right": "läuft dahin",
+              "reason": "Wohin"
+            }
+          ],
+          "en": "Jonas runs there.",
+          "hint": "Jonas läuft dahin"
+        },
+        {
+          "cue": "ruft • Er • daher",
+          "answers": [
+            "Er ruft daher",
+            "Daher ruft er"
+          ],
+          "marks": [
+            {
+              "wrong": "ruft deshalb",
+              "right": "ruft daher",
+              "reason": "daher ≠ deshalb"
+            }
+          ],
+          "en": "He calls from there.",
+          "hint": "Er ruft daher"
+        },
+        {
+          "cue": "Monitor • steht • da",
+          "answers": [
+            "Der Monitor steht da",
+            "Da steht der Monitor"
+          ],
+          "marks": [
+            {
+              "wrong": "steht dahin",
+              "right": "steht da",
+              "reason": "Ort"
+            }
+          ],
+          "en": "The monitor stands there.",
+          "hint": "Der Monitor steht da"
+        }
       ]
     },
     {
@@ -928,139 +5080,215 @@
       "label": "Test",
       "title": "Lernkontrolle",
       "practice": "lernkontrolle",
-      "heroTitle": "Ich bin da",
-      "heroImage": "wheelchair",
-      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
-      "questionRule": "Wo? da. Wohin? dahin. Woher? daher. daher is from there, not deshalb.",
-      "quizTitle": "Lernkontrolle",
+      "heroTitle": "Können Sie da / dahin / daher?",
+      "heroImage": "bed",
+      "story": [
+        "Prüfen Sie Ort und Richtung."
+      ],
+      "tables": [],
+      "warning": {
+        "title": "Tipp",
+        "items": [
+          {
+            "de": "✓ Der Patient ist da.",
+            "en": "Wo?",
+            "tone": "ok"
+          },
+          {
+            "de": "✓ Er kommt daher.",
+            "en": "Woher? ≠ deshalb",
+            "tone": "ok"
+          }
+        ],
+        "tip": "Wo da · Wohin dahin · Woher daher · daher ≠ deshalb"
+      },
+      "questionRule": "Wählen Sie die richtige Lösung.",
+      "quizTitle": "Lernkontrolle Ort",
       "quiz": [
         {
           "kind": "mc",
-          "q": "Wo ist der Patient?",
-          "qEn": "In the room.",
-          "options": ["Der Patient ist da.", "Der Patient ist dahin.", "Der Patient ist daher."],
+          "q": "Wo ist Anna? → Anna ist ___.",
+          "options": [
+            "da",
+            "dahin",
+            "daher"
+          ],
           "answer": 0,
-          "why": "ist da.",
-          "hint": "da."
+          "why": "Wo? → da.",
+          "hint": "da"
         },
         {
           "kind": "mc",
-          "q": "Wohin gehen wir?",
-          "qEn": "To the ward.",
-          "options": ["Wir gehen dahin.", "Wir gehen da.", "Wir gehen daher."],
+          "q": "Wohin mit dem Bett? → Wir schieben es ___.",
+          "options": [
+            "dahin",
+            "da",
+            "daher"
+          ],
           "answer": 0,
-          "why": "gehen dahin.",
-          "hint": "dahin."
+          "why": "Wohin? → dahin.",
+          "hint": "dahin"
         },
         {
           "kind": "mc",
-          "q": "Woher kommt er?",
-          "qEn": "From the room, not to there.",
-          "options": ["Er kommt daher.", "Er kommt da.", "Er kommt dahin."],
+          "q": "Woher kommt der Lärm? → Er kommt ___.",
+          "options": [
+            "daher",
+            "dahin",
+            "deshalb"
+          ],
           "answer": 0,
-          "why": "kommt daher.",
-          "hint": "daher."
+          "why": "Woher? → daher.",
+          "hint": "daher"
         },
         {
           "kind": "mc",
-          "q": "I am there.",
-          "qEn": "Wo?",
-          "options": ["Ich bin da.", "Ich bin dahin.", "Ich bin daher."],
+          "q": "___ ist der Notarzt.",
+          "options": [
+            "Da",
+            "Dahin",
+            "Daher"
+          ],
           "answer": 0,
-          "why": "bin da.",
-          "hint": "da."
+          "why": "Ort Position 1.",
+          "hint": "Da"
         },
         {
           "kind": "mc",
-          "q": "Are you coming there too?",
-          "qEn": "Wohin?",
-          "options": ["Kommst du auch dahin?", "Kommst du auch da?", "Kommst du auch daher?"],
+          "q": "Bitte kommen Sie ___.",
+          "options": [
+            "dahin",
+            "da",
+            "daher"
+          ],
           "answer": 0,
-          "why": "auch dahin.",
-          "hint": "dahin."
+          "why": "Bewegung zum Ort.",
+          "hint": "dahin"
         },
         {
           "kind": "mc",
-          "q": "The patient is there. The adverb is first.",
-          "qEn": "Wo?",
-          "options": ["Da ist der Patient.", "Dahin ist der Patient.", "Der Patient ist dahin."],
+          "q": "Er hat Schmerzen. ___ bleibt er liegen.",
+          "options": [
+            "Deshalb",
+            "Daher",
+            "Dahin"
+          ],
           "answer": 0,
-          "why": "Da ist der Patient.",
-          "hint": "Da ist."
+          "why": "Folge → deshalb.",
+          "hint": "Deshalb"
         },
         {
           "kind": "mc",
-          "q": "Wo? Which word?",
-          "qEn": "Location.",
-          "options": ["da", "dahin", "daher"],
+          "q": "Die Besucher gehen ___.",
+          "options": [
+            "dahin",
+            "da",
+            "daher"
+          ],
           "answer": 0,
-          "why": "da.",
-          "hint": "da."
+          "why": "Wohin? → dahin.",
+          "hint": "dahin"
         },
         {
           "kind": "mc",
-          "q": "Wohin? Which word?",
-          "qEn": "To there.",
-          "options": ["dahin", "da", "daher"],
+          "q": "Lara ruft ___ aus dem Bad.",
+          "options": [
+            "daher",
+            "dahin",
+            "deshalb"
+          ],
           "answer": 0,
-          "why": "dahin.",
-          "hint": "dahin."
+          "why": "Woher? → daher.",
+          "hint": "daher"
         },
         {
           "kind": "mc",
-          "q": "Woher? Which word?",
-          "qEn": "From there, not to there.",
-          "options": ["daher", "dahin", "da"],
+          "q": "Der Pflasterwagen steht ___.",
+          "options": [
+            "da",
+            "dahin",
+            "daher"
+          ],
           "answer": 0,
-          "why": "daher.",
-          "hint": "daher."
+          "why": "Ort.",
+          "hint": "da"
         },
         {
           "kind": "mc",
-          "q": "From the room. Not therefore. Which word?",
-          "qEn": "daher, not deshalb.",
-          "options": ["daher", "deshalb", "dahin"],
+          "q": "___ fahren wir mit dem Aufzug.",
+          "options": [
+            "Dahin",
+            "Da",
+            "Deshalb"
+          ],
           "answer": 0,
-          "why": "daher.",
-          "hint": "daher."
+          "why": "Wohin Position 1.",
+          "hint": "Dahin"
         },
         {
           "kind": "mc",
-          "q": "To there, one word.",
-          "qEn": "Not two words.",
-          "options": ["dahin", "da hin", "daher"],
+          "q": "Ich warte ___.",
+          "options": [
+            "da",
+            "dahin",
+            "daher"
+          ],
           "answer": 0,
-          "why": "dahin.",
-          "hint": "dahin."
+          "why": "warten = Ort.",
+          "hint": "da"
         },
         {
           "kind": "mc",
-          "q": "From there, one word. Not therefore.",
-          "qEn": "daher, not deshalb.",
-          "options": ["daher", "da her", "deshalb"],
+          "q": "daher schreibt man als ___ Wort.",
+          "options": [
+            "ein",
+            "zwei",
+            "drei"
+          ],
           "answer": 0,
-          "why": "daher.",
-          "hint": "daher."
+          "why": "daher = ein Wort.",
+          "hint": "ein"
         }
       ]
     },
     {
       "id": "summary",
       "type": "summary",
-      "label": "Summary",
-      "title": "Ich bin da",
-      "reviewStepType": "grammar",
+      "label": "Ziel",
+      "title": "da · dahin · daher",
       "redemittel": [
-        { "de": "Der Patient ist da.", "en": "The patient is there." },
-        { "de": "Wir gehen dahin.", "en": "We go there." },
-        { "de": "Er kommt daher.", "en": "He comes from there." },
-        { "de": "Kommst du auch dahin?", "en": "Are you coming there too?" }
+        {
+          "de": "Wo? → da.",
+          "en": "Where? → da."
+        },
+        {
+          "de": "Wohin? → dahin.",
+          "en": "Where to? → dahin."
+        },
+        {
+          "de": "Woher? → daher.",
+          "en": "Where from? → daher."
+        },
+        {
+          "de": "daher ≠ deshalb.",
+          "en": "daher is not deshalb."
+        }
+      ],
+      "rules": [
+        {
+          "c": "N",
+          "rule": "Wo? da · Wohin? dahin · Woher? daher. dahin/daher = ein Wort."
+        },
+        {
+          "c": "N",
+          "rule": "daher (Ort) ≠ deshalb (Folge)."
+        }
       ],
       "messages": [
-        "Look again at wo, wohin and woher.",
-        "da stays. dahin goes to that place. daher comes from that place.",
-        "Sehr gut. Ich bin da.",
-        "Ausgezeichnet. You can point at the room and the ward."
+        "Noch üben: da / dahin / daher.",
+        "Gut — Ort und Richtung sitzen besser.",
+        "Sehr gut — weiter so auf Station.",
+        "Stark! Kapitel 43 geschafft."
       ]
     }
   ]
