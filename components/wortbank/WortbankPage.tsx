@@ -204,7 +204,7 @@ export function WortbankPage() {
                 <details key={group.lessonId} className="wb-group" open>
                   <summary>
                     <span>
-                      {group.lessonKind === "comic" ? "Comic" : "Grammatik"} · {group.lessonTitle}
+                      {group.lessonKind === "comic" ? "Comic" : group.lessonKind === "hoeren" ? "Hören" : "Grammatik"} · {group.lessonTitle}
                     </span>
                     <b>{group.entries.length}</b>
                   </summary>

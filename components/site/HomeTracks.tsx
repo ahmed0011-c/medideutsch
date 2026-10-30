@@ -2,6 +2,7 @@ import Link from "next/link";
 import { wortschatzSoon } from "@/content/comic-catalog";
 import { getAllComics } from "@/lib/comics";
 import { getAllLessons } from "@/lib/lessons";
+import { getAllHoeren } from "@/lib/hoeren";
 
 function levelSlug(level: string) {
   const lower = level.toLowerCase();
@@ -13,6 +14,7 @@ function levelSlug(level: string) {
 export function HomeTracks({ mode = "all" }: { mode?: "all" | "wortschatz" }) {
   const lessons = getAllLessons().slice().sort((a, b) => a.id.localeCompare(b.id));
   const comics = getAllComics();
+  const hoeren = getAllHoeren();
 
   return (
     <div className="home-tracks">
@@ -36,6 +38,29 @@ export function HomeTracks({ mode = "all" }: { mode?: "all" | "wortschatz" }) {
         </div>
         <p>
           <Link href="/learn">Open the full grammar map</Link>
+        </p>
+      </section>
+      )}
+      {mode === "wortschatz" ? null : (
+
+      <section className="track" aria-labelledby="hoeren-heading">
+        <h2 id="hoeren-heading">Hören</h2>
+        <p className="muted">
+          Kurze Videos mit farbigem Skript und einfachen Fragen. Pilot: Nicos Weg A2.
+        </p>
+        <div className="track-cards">
+          {hoeren.map((lesson) => (
+            <Link key={lesson.id} className="lesson-card" href={`/hoeren/${lesson.slug}`}>
+              <div className="card-kicker">
+                {lesson.level} · {lesson.series} · Folge {lesson.episode}
+              </div>
+              <h3>{lesson.title}</h3>
+              <p>{lesson.subtitle}</p>
+            </Link>
+          ))}
+        </div>
+        <p>
+          <Link href="/hoeren">Alle Hörlektionen</Link>
         </p>
       </section>
       )}

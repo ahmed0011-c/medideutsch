@@ -4,6 +4,7 @@ import { comicFiles, readComicFile } from "../lib/comics";
 import { lessonFiles, readLessonFile } from "../lib/lessons";
 import { validateComic } from "../lib/validate-comic";
 import { validateLesson } from "../lib/validate-lesson";
+import { getAllHoeren, validateHoerenLesson } from "../lib/hoeren";
 
 const files = lessonFiles();
 const template = path.join(process.cwd(), "content", "lessons", "_template.json");
@@ -59,8 +60,20 @@ for (const file of comics) {
   }
 }
 
+const hoerenLessons = getAllHoeren();
+for (const lesson of hoerenLessons) {
+  const issues = validateHoerenLesson(lesson);
+  if (issues.length) {
+    failed++;
+    console.error(`\n${lesson.id}`);
+    for (const issue of issues) console.error(`  - ${issue}`);
+  } else {
+    console.log(`ok  hoeren/${lesson.slug}  (${lesson.lines.length} lines, ${lesson.questions.length} questions)`);
+  }
+}
+
 if (failed) {
   console.error(`\n${failed} file(s) failed.`);
   process.exit(1);
 }
-console.log(`\n${files.length} grammar lesson(s) and ${comics.length} comic lesson(s) valid.`);
+console.log(`\n${files.length} grammar lesson(s), ${comics.length} comic lesson(s), and ${hoerenLessons.length} listening lesson(s) valid.`);

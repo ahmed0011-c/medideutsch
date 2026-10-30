@@ -1,4 +1,4 @@
-export type LessonKind = "grammar" | "comic";
+export type LessonKind = "grammar" | "comic" | "hoeren";
 export type ReviewGrade = "again" | "good" | "easy";
 
 export type WortbankEntry = {

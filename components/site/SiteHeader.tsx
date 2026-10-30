@@ -11,6 +11,7 @@ export function SiteHeader() {
         </Link>
         <nav className="site-nav" aria-label="Main">
           <Link href="/learn">Grammatik</Link>
+          <Link href="/hoeren">Hören</Link>
           <Link href="/wortschatz">Wortschatz</Link>
           <WortbankNavLink />
           <Link href="/grammar">Cases</Link>
