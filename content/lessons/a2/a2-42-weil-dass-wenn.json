@@ -3,49 +3,736 @@
   "platform": "MediDeutsch",
   "interfaceLanguage": "en",
   "targetLanguage": "de-DE",
+  "exerciseLanguage": "de",
   "scoring": {
     "firstTry": 2,
     "afterRetry": 1,
     "wordExplorePoints": 8,
     "hintCost": 1,
     "tipPoints": 1,
-    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
   },
   "id": "a2-42-weil-dass-wenn",
   "level": "A2",
   "unit": "Kapitel 42",
   "chapter": 42,
-  "chapters": [42],
+  "chapters": [
+    42
+  ],
   "title": "Weil, dass und wenn",
-  "subtitle": "Subordinate clauses",
+  "subtitle": "Nebensätze — Verb ans Ende",
+  "scenarios": [
+    "a2-krankenhaus",
+    "a2-patienten",
+    "a2-vitalwerte",
+    "a2-hilfsmittel",
+    "a2-notfall",
+    "b1-beschwerden"
+  ],
   "glossary": {
-    "weil": {
-      "de": "weil",
-      "pos": "conjunction",
-      "en": "because (verb at the end)",
-      "emoji": "🔚",
-      "note": "The finite verb closes the clause: weil er Schmerzen hat."
+    "0": {
+      "de": "0",
+      "pos": "other",
+      "en": "position 0"
     },
-    "dass": {
-      "de": "dass",
-      "pos": "conjunction",
-      "en": "that (verb at the end)",
-      "emoji": "💬",
-      "note": "Not das. dass der Patient Fieber hat."
+    "1": {
+      "de": "1",
+      "pos": "other",
+      "en": "position 1"
     },
-    "wenn": {
-      "de": "wenn",
+    "2": {
+      "de": "2",
+      "pos": "other",
+      "en": "position 2"
+    },
+    "Aber": {
+      "de": "Aber",
       "pos": "conjunction",
-      "en": "if; when (verb at the end)",
-      "emoji": "❓",
-      "note": "Not denn, and not dann. wenn er Fieber hat."
+      "en": "But"
+    },
+    "Alarmstufe": {
+      "de": "Alarmstufe",
+      "pos": "noun",
+      "en": "alarm level",
+      "article": "die"
+    },
+    "Alleinlaufen": {
+      "de": "Alleinlaufen",
+      "pos": "noun",
+      "en": "walking alone"
+    },
+    "Arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      }
+    },
+    "Bad": {
+      "de": "Bad",
+      "pos": "noun",
+      "en": "bathroom",
+      "article": "das"
+    },
+    "Bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "Bilder": {
+      "de": "Bilder",
+      "pos": "noun",
+      "en": "pictures",
+      "article": "die",
+      "plural": "die Bilder"
+    },
+    "Bitte": {
+      "de": "Bitte",
+      "pos": "other",
+      "en": "please"
+    },
+    "Blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "en": "blood pressure",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "bpmonitor"
+      }
+    },
+    "Braun": {
+      "de": "Braun",
+      "pos": "name",
+      "en": "Braun (surname)"
+    },
+    "Danach": {
+      "de": "Danach",
+      "pos": "adverb",
+      "en": "After that"
+    },
+    "Dann": {
+      "de": "Dann",
+      "pos": "adverb",
+      "en": "Then"
+    },
+    "Denn": {
+      "de": "Denn",
+      "pos": "conjunction",
+      "en": "Because (clause-initial, rare)"
+    },
+    "Der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵",
+      "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet."
+    },
+    "Deshalb": {
+      "de": "Deshalb",
+      "pos": "adverb",
+      "en": "Therefore"
+    },
+    "Die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)",
+      "emoji": "📋",
+      "note": "die Akte."
+    },
+    "Er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "Falsch": {
+      "de": "Falsch",
+      "pos": "adjective",
+      "en": "Wrong"
+    },
+    "Fehler": {
+      "de": "Fehler",
+      "pos": "noun",
+      "en": "mistake",
+      "article": "der"
+    },
+    "Fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "Finde": {
+      "de": "Finde",
+      "pos": "form",
+      "en": "Find"
+    },
+    "Fläche": {
+      "de": "Fläche",
+      "pos": "noun",
+      "en": "surface",
+      "article": "die"
+    },
+    "Folge": {
+      "de": "Folge",
+      "pos": "noun",
+      "en": "consequence"
+    },
+    "Handschuhe": {
+      "de": "Handschuhe",
+      "pos": "noun",
+      "en": "gloves"
+    },
+    "Heben": {
+      "de": "Heben",
+      "pos": "form",
+      "en": "Lift (imperative)"
+    },
+    "Herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "gentleman",
+      "emoji": "🎩",
+      "article": "der",
+      "plural": "die Herren",
+      "note": "Nominative der Herr. No -n. Oblique singular Herrn. Plural die Herren."
+    },
+    "Hilfe": {
+      "de": "Hilfe",
+      "pos": "noun",
+      "en": "help",
+      "article": "die"
+    },
+    "Hände": {
+      "de": "Hand",
+      "pos": "noun",
+      "en": "hand",
+      "emoji": "🤲",
+      "article": "die",
+      "plural": "die Hände",
+      "note": "Accusative plural die Hände. Not den Händen."
+    },
+    "Ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "Infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "infusion",
+      "article": "die",
+      "plural": "die Infusionen",
+      "image": {
+        "type": "svg",
+        "id": "infusion"
+      }
+    },
+    "Invertieren": {
+      "de": "Invertieren",
+      "pos": "noun",
+      "en": "inversion"
+    },
+    "Jonas": {
+      "de": "Jonas",
+      "pos": "name",
+      "en": "Jonas (first name)"
+    },
+    "Kein": {
+      "de": "Kein",
+      "pos": "article",
+      "en": "No"
+    },
+    "Kissen": {
+      "de": "Kissen",
+      "pos": "noun",
+      "en": "pillow",
+      "article": "das"
+    },
+    "Kommen": {
+      "de": "kommen",
+      "pos": "verb",
+      "en": "to come"
+    },
+    "Konnektor": {
+      "de": "Konnektor",
+      "pos": "noun",
+      "en": "connector",
+      "article": "der"
+    },
+    "Kontrolle": {
+      "de": "Kontrolle",
+      "pos": "noun",
+      "en": "check",
+      "article": "die"
+    },
+    "Kreislauf": {
+      "de": "Kreislauf",
+      "pos": "noun",
+      "en": "circulation",
+      "article": "der"
+    },
+    "Können": {
+      "de": "Können",
+      "pos": "other",
+      "en": "Können",
+      "emoji": "🔤"
+    },
+    "Lernkontrolle": {
+      "de": "Lernkontrolle",
+      "pos": "noun",
+      "en": "chapter test",
+      "article": "die",
+      "plural": "die Lernkontrollen",
+      "emoji": "🩺"
+    },
+    "Messung": {
+      "de": "Messung",
+      "pos": "noun",
+      "en": "measurement",
+      "article": "die"
+    },
+    "Mira": {
+      "de": "Mira",
+      "pos": "name",
+      "en": "Mira (first name)"
+    },
+    "Morgenpflege": {
+      "de": "Morgenpflege",
+      "pos": "noun",
+      "en": "morning care",
+      "article": "die"
+    },
+    "Naht": {
+      "de": "Naht",
+      "pos": "noun",
+      "en": "suture",
+      "article": "die",
+      "plural": "die Nähte"
+    },
+    "Notarzt": {
+      "de": "Notarzt",
+      "pos": "noun",
+      "en": "emergency doctor",
+      "article": "der"
+    },
+    "Notiz": {
+      "de": "Notiz",
+      "pos": "noun",
+      "en": "note",
+      "article": "die"
+    },
+    "Nächstes": {
+      "de": "Nächstes",
+      "pos": "other",
+      "en": "next"
+    },
+    "Patient": {
+      "de": "Patient",
+      "pos": "noun.m",
+      "en": "patient (male)",
+      "article": "der",
+      "plural": "Patienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "Pflaster": {
+      "de": "Pflaster",
+      "pos": "noun",
+      "en": "plaster",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Pflege": {
+      "de": "Pflege",
+      "pos": "noun",
+      "en": "nursing care",
+      "article": "die"
+    },
+    "Physio": {
+      "de": "Physio",
+      "pos": "noun",
+      "en": "physio",
+      "article": "die"
+    },
+    "Plan": {
+      "de": "Plan",
+      "pos": "noun",
+      "en": "plan",
+      "article": "der"
+    },
+    "Pos": {
+      "de": "Pos",
+      "pos": "other",
+      "en": "position (abbr.)"
+    },
+    "Position": {
+      "de": "Position",
+      "pos": "noun",
+      "en": "position",
+      "article": "die"
+    },
+    "Puls": {
+      "de": "Puls",
+      "pos": "noun",
+      "en": "pulse",
+      "article": "der"
+    },
+    "Richtig": {
+      "de": "richtig",
+      "pos": "adjective",
+      "en": "right; correct"
+    },
+    "Rollstuhl": {
+      "de": "Rollstuhl",
+      "pos": "noun",
+      "en": "wheelchair",
+      "article": "der",
+      "plural": "die Rollstühle",
+      "image": {
+        "type": "svg",
+        "id": "wheelchair"
+      }
+    },
+    "Satzanfang": {
+      "de": "Satzanfang",
+      "pos": "noun",
+      "en": "start of the sentence",
+      "emoji": "⬅️",
+      "article": "der",
+      "plural": "die Satzanfänge"
+    },
+    "Schmerz": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "article": "der"
+    },
+    "Schmerzen": {
+      "de": "Schmerzen",
+      "pos": "noun",
+      "en": "pain (pl)"
+    },
+    "Schmerzmittel": {
+      "de": "Schmerzmittel",
+      "pos": "noun",
+      "en": "painkiller",
+      "article": "das"
+    },
+    "Schwindel": {
+      "de": "Schwindel",
+      "pos": "noun",
+      "en": "dizziness",
+      "article": "der"
+    },
+    "Sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she",
+      "emoji": "👩‍⚕️"
+    },
+    "Sondern": {
+      "de": "Sondern",
+      "pos": "conjunction",
+      "en": "But rather"
+    },
+    "Sonst": {
+      "de": "Sonst",
+      "pos": "adverb",
+      "en": "Otherwise"
+    },
+    "Station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "article": "die",
+      "image": {
+        "type": "svg",
+        "id": "ward"
+      }
+    },
+    "Sätze": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "article": "der",
+      "plural": "die Sätze",
+      "emoji": "🩺"
+    },
+    "Team": {
+      "de": "Team",
+      "pos": "noun",
+      "en": "team",
+      "article": "das"
+    },
+    "Tropfen": {
+      "de": "Tropfen",
+      "pos": "noun",
+      "en": "drops"
+    },
+    "Tür": {
+      "de": "Tür",
+      "pos": "noun",
+      "en": "door",
+      "article": "die"
+    },
+    "Und": {
+      "de": "Und",
+      "pos": "conjunction",
+      "en": "And"
+    },
+    "Verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing, bandage",
+      "article": "der",
+      "plural": "die Verbände",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "article": "die",
+      "plural": "die Visiten"
+    },
+    "Wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "water"
+      }
+    },
+    "Wert": {
+      "de": "Wert",
+      "pos": "noun",
+      "en": "value",
+      "article": "der"
+    },
+    "Wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "Wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "article": "die",
+      "plural": "die Wunden",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Zuerst": {
+      "de": "Zuerst",
+      "pos": "adverb",
+      "en": "First"
+    },
+    "Zugang": {
+      "de": "Zugang",
+      "pos": "noun",
+      "en": "IV access",
+      "article": "der"
+    },
+    "aber": {
+      "de": "aber",
+      "pos": "conjunction",
+      "en": "but"
+    },
+    "allein": {
+      "de": "allein",
+      "pos": "adverb",
+      "en": "alone"
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "as / than"
+    },
+    "am": {
+      "de": "am",
+      "pos": "other",
+      "en": "superlative marker (an dem)",
+      "emoji": "📌",
+      "note": "Nach dem Verb: am + …sten."
+    },
+    "an": {
+      "de": "an",
+      "pos": "particle",
+      "en": "on (separable)"
+    },
+    "andernfalls": {
+      "de": "andernfalls",
+      "pos": "adverb",
+      "en": "otherwise"
+    },
+    "anschließend": {
+      "de": "anschließend",
+      "pos": "adverb",
+      "en": "afterwards"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "aufstehen": {
+      "de": "aufstehen",
+      "pos": "infinitive",
+      "en": "to stand up",
+      "emoji": "🚶",
+      "note": "One word after a modal. Der Patient muss aufstehen. aufzustehen is the zu-form, chapter 68. er steht auf stays the finite main clause."
+    },
+    "bedeutet": {
+      "de": "bedeuten → bedeutet",
+      "pos": "form",
+      "en": "means"
+    },
+    "bleibst": {
+      "de": "bleibst",
+      "pos": "form",
+      "en": "you stay"
+    },
+    "bleibt": {
+      "de": "bleiben → er bleibt",
+      "pos": "form",
+      "en": "stays",
+      "emoji": "🛏️",
+      "note": "Der Patient bleibt im Bett liegen. Bare infinitive, no zu. Der Patient bleibt im Bett, with no second verb, stays correct too."
+    },
+    "blutet": {
+      "de": "blutet",
+      "pos": "form",
+      "en": "bleeds"
+    },
+    "braucht": {
+      "de": "braucht",
+      "pos": "verb",
+      "en": "needs (brauchen)"
+    },
+    "danach": {
+      "de": "danach",
+      "pos": "adverb",
+      "en": "after that",
+      "emoji": "2️⃣",
+      "note": "Position 1. Anschließend."
+    },
+    "dann": {
+      "de": "dann",
+      "pos": "adverb",
+      "en": "then",
+      "emoji": "1️⃣",
+      "note": "Position 1. Nächster Schritt. Nicht denn."
+    },
+    "darum": {
+      "de": "darum",
+      "pos": "adverb",
+      "en": "therefore"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢",
+      "note": "das frische Wasser. das already shows -s, so the adjective takes -e. Not das frisches."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine)",
+      "emoji": "🔵",
+      "note": "den Patienten. Accusative singular after lassen, sehen and hören. Also the dative plural."
     },
     "denn": {
       "de": "denn",
       "pos": "conjunction",
       "en": "because (verb in position 2)",
       "emoji": "💡",
-      "note": "Position 0, like und and aber. denn er hat Schmerzen. weil sends the verb to the end."
+      "note": "Position 0/2 — kein Verb am Ende."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵",
+      "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet."
+    },
+    "deshalb": {
+      "de": "deshalb",
+      "pos": "adverb",
+      "en": "therefore",
+      "emoji": "➡️",
+      "note": "Position 1. Verb folgt auf Position 2."
+    },
+    "desinfizieren": {
+      "de": "desinfizieren",
+      "pos": "verb",
+      "en": "to disinfect"
+    },
+    "desinfiziert": {
+      "de": "desinfizieren → desinfiziert",
+      "pos": "form",
+      "en": "disinfects"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)",
+      "emoji": "📋",
+      "note": "die Akte."
+    },
+    "dokumentiert": {
+      "de": "dokumentieren → dokumentiert",
+      "pos": "verb",
+      "en": "documents"
+    },
+    "einmal": {
+      "de": "einmal",
+      "pos": "adverb",
+      "en": "once"
+    },
+    "einsetzen": {
+      "de": "einsetzen",
+      "pos": "other",
+      "en": "einsetzen",
+      "emoji": "🔤"
+    },
+    "endet": {
+      "de": "endet",
+      "pos": "form",
+      "en": "endet — ends (enden)"
     },
     "er": {
       "de": "er",
@@ -53,44 +740,509 @@
       "en": "he",
       "emoji": "👨"
     },
+    "fallen": {
+      "de": "fallen → fallen",
+      "pos": "form",
+      "en": "fall",
+      "emoji": "⏪"
+    },
+    "falsch": {
+      "de": "falsch",
+      "pos": "adjective",
+      "en": "wrong"
+    },
+    "fertig": {
+      "de": "fertig",
+      "pos": "adjective",
+      "en": "ready, finished",
+      "emoji": "🔤"
+    },
+    "finden": {
+      "de": "finden",
+      "pos": "other",
+      "en": "finden",
+      "emoji": "🔤"
+    },
+    "flach": {
+      "de": "flach",
+      "pos": "adjective",
+      "en": "flat"
+    },
+    "frische": {
+      "de": "frische",
+      "pos": "adjective",
+      "en": "fresh"
+    },
+    "fällt": {
+      "de": "fallen → sie fällt",
+      "pos": "form",
+      "en": "falls",
+      "emoji": "⏪"
+    },
+    "geben": {
+      "de": "geben",
+      "pos": "verb",
+      "en": "to give",
+      "emoji": "🎁"
+    },
+    "getrunken": {
+      "de": "getrunken",
+      "pos": "participle",
+      "en": "drunk"
+    },
+    "gibt": {
+      "de": "geben → es gibt",
+      "pos": "form",
+      "en": "there is",
+      "emoji": "📋",
+      "note": "Es gibt plus the accusative. Es gibt nichts Neues. Es gibt etwas Neues."
+    },
+    "gründlich": {
+      "de": "gründlich",
+      "pos": "adverb",
+      "en": "thoroughly"
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🩹",
+      "note": "Er hat einen frischen Verband. Accusative masculine -en."
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high (no ending after sein)",
+      "emoji": "🌡️",
+      "note": "Das Fieber ist hoch. No participle ending after sein. Chapter 76."
+    },
+    "holen": {
+      "de": "holen → wir holen",
+      "pos": "form",
+      "en": "fetch",
+      "emoji": "⏪"
+    },
+    "hält": {
+      "de": "hält",
+      "pos": "verb",
+      "en": "holds (halten)"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "im": {
+      "de": "im",
+      "pos": "other",
+      "en": "in the"
+    },
+    "instabil": {
+      "de": "instabil",
+      "pos": "adjective",
+      "en": "unstable"
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is; has (with sein)",
+      "emoji": "🟦",
+      "note": "aufstehen takes sein: ist aufgestanden. Not hat aufgestanden."
+    },
+    "jetzt": {
+      "de": "jetzt",
+      "pos": "adverb",
+      "en": "now"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "infinitive",
+      "en": "to come",
+      "emoji": "👀",
+      "note": "Ich sehe den Patienten kommen. No zu. Der Patient kommt stays the finite verb."
+    },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Der behandelnde Arzt kommt."
+    },
+    "kurz": {
+      "de": "kurz",
+      "pos": "adjective",
+      "en": "short",
+      "emoji": "🔤"
+    },
+    "lassen": {
+      "de": "lassen → wir lassen",
+      "pos": "form",
+      "en": "let",
+      "emoji": "😴",
+      "note": "Wir lassen den Patienten schlafen. Bare infinitive, no zu. Chapter 61. zu schlafen is chapter 68, after versuchen."
+    },
+    "liege": {
+      "de": "liegen → liege",
+      "pos": "verb",
+      "en": "lie"
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "infinitive",
+      "en": "to lie",
+      "emoji": "🛏️",
+      "note": "Der Patient bleibt liegen. Position, no object, chapter 62. Der Patient liegt im Bett stays the finite verb. Not bleibt legen."
+    },
+    "liegt": {
+      "de": "liegen → er liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🛏️",
+      "note": "Ein frischer Verband liegt hier. Er liegt im frischen Bett. Der Patient liegt in dem kleinen Zimmer stays chapter 37."
+    },
+    "läuft": {
+      "de": "laufen → läuft",
+      "pos": "verb",
+      "en": "walks; runs"
+    },
+    "lüftet": {
+      "de": "lüftet",
+      "pos": "form",
+      "en": "airs / ventilates"
+    },
+    "mehr": {
+      "de": "mehr",
+      "pos": "adverb",
+      "en": "more",
+      "emoji": "🍵",
+      "note": "Comparative of viel. Je mehr er trinkt, umso besser. Not je viel. The verb trinkt is last in the je-clause."
+    },
+    "messen": {
+      "de": "messen → wir messen",
+      "pos": "form",
+      "en": "measure",
+      "emoji": "📟",
+      "note": "wir messen. Verb at the end of the relative clause. The participle is gemessen, chapter 26, not this exercise."
+    },
+    "misst": {
+      "de": "messen → sie misst",
+      "pos": "form",
+      "en": "measures",
+      "emoji": "🌡️",
+      "note": "Sie misst damit. Here damit means with that thing, chapter 54. Not so that. Not da mit. The participle is gemessen, not this chapter."
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "💧",
+      "note": "mit takes the dative. mit frischem Wasser, no article, so -em. mit kleinem Pflaster stays chapter 37."
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫",
+      "note": "nicht nur … sondern auch. nicht Tee, sondern Wasser stays correct with no nur and no auch. Do not put nicht in front of weder."
+    },
+    "niemand": {
+      "de": "niemand",
+      "pos": "pronoun",
+      "en": "nobody"
+    },
+    "noch": {
+      "de": "noch",
+      "pos": "adverb",
+      "en": "still / again"
+    },
+    "offiziell": {
+      "de": "offiziell",
+      "pos": "adverb",
+      "en": "officially"
+    },
+    "ohne": {
+      "de": "ohne",
+      "pos": "preposition",
+      "en": "without"
+    },
+    "prüfe": {
+      "de": "prüfe",
+      "pos": "form",
+      "en": "I check"
+    },
+    "prüfen": {
+      "de": "prüfen",
+      "pos": "verb",
+      "en": "to check",
+      "emoji": "🔤"
+    },
+    "prüft": {
+      "de": "prüfen → prüft",
+      "pos": "form",
+      "en": "checks"
+    },
+    "putzt": {
+      "de": "putzt",
+      "pos": "form",
+      "en": "cleans"
+    },
+    "rast": {
+      "de": "rast",
+      "pos": "form",
+      "en": "races"
+    },
+    "reagiert": {
+      "de": "reagiert",
+      "pos": "form",
+      "en": "reacts"
+    },
+    "reißt": {
+      "de": "reißt",
+      "pos": "form",
+      "en": "tears"
+    },
+    "rufen": {
+      "de": "rufen → wir rufen",
+      "pos": "form",
+      "en": "call",
+      "emoji": "📞",
+      "note": "wir rufen. After a fronted bevor-clause, rufen comes next. den Arzt is accusative."
+    },
+    "ruhig": {
+      "de": "ruhig",
+      "pos": "adverb",
+      "en": "calmly"
+    },
+    "schnell": {
+      "de": "schnell",
+      "pos": "adverb",
+      "en": "quickly"
+    },
+    "schreiben": {
+      "de": "schreiben",
+      "pos": "form",
+      "en": "write"
+    },
+    "schreibt": {
+      "de": "schreiben → sie schreibt",
+      "pos": "form",
+      "en": "writes",
+      "emoji": "📝",
+      "note": "Sie schreibt während der Visite. The preposition has no verb of its own."
+    },
+    "schwach": {
+      "de": "schwach",
+      "pos": "other",
+      "en": "schwach",
+      "emoji": "🔤"
+    },
+    "setzt": {
+      "de": "setzen → sie setzt",
+      "pos": "form",
+      "en": "puts (sitting)",
+      "emoji": "🪑",
+      "note": "She setzt ihn auf das Bett. Direction, auf das. Not sitzt."
+    },
+    "sich": {
+      "de": "sich",
+      "pos": "pronoun",
+      "en": "itself",
+      "emoji": "🩹",
+      "note": "öffnet sich. Reflexive, chapter 29. The wenn-clause does not change sich."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she",
+      "emoji": "👩‍⚕️"
+    },
+    "sofort": {
+      "de": "sofort",
+      "pos": "adverb",
+      "en": "immediately"
+    },
+    "sondern": {
+      "de": "sondern",
+      "pos": "conjunction",
+      "en": "but (after a negation)",
+      "emoji": "➕",
+      "note": "Comma before sondern. nicht nur … sondern auch. Nicht Tee, sondern Wasser stays correct. Not aber in this pair. aber stays but in its own sentences."
+    },
+    "sonst": {
+      "de": "sonst",
+      "pos": "adverb",
+      "en": "otherwise",
+      "emoji": "⚠️",
+      "note": "Position 1. andernfalls."
+    },
+    "startet": {
+      "de": "starten → startet",
+      "pos": "form",
+      "en": "starts"
+    },
+    "steigen": {
+      "de": "steigen",
+      "pos": "verb",
+      "en": "to rise"
+    },
+    "steigt": {
+      "de": "steigt",
+      "pos": "form",
+      "en": "rises"
+    },
+    "still": {
+      "de": "noch",
+      "pos": "adverb",
+      "en": "still"
+    },
+    "stoppt": {
+      "de": "stoppt",
+      "pos": "form",
+      "en": "stops"
+    },
+    "stärker": {
+      "de": "stärker",
+      "pos": "adjective",
+      "en": "more strongly"
+    },
+    "stürzt": {
+      "de": "stürzt",
+      "pos": "form",
+      "en": "falls / collapses"
+    },
+    "tut": {
+      "de": "tut",
+      "pos": "form",
+      "en": "does / hurts (weh tun)"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from / by"
+    },
+    "vorbei": {
+      "de": "vorbei",
+      "pos": "adverb",
+      "en": "by / past"
+    },
+    "wechseln": {
+      "de": "wechseln",
+      "pos": "verb",
+      "en": "to change"
+    },
+    "wechselt": {
+      "de": "wechseln → sie wechselt",
+      "pos": "form",
+      "en": "changes",
+      "emoji": "🩹",
+      "note": "Main-clause verb after the fronted während-clause. den Verband is accusative."
+    },
+    "weh": {
+      "de": "weh",
+      "pos": "adverb",
+      "en": "pain (weh tun)"
+    },
+    "weil": {
+      "de": "weil",
+      "pos": "conjunction",
+      "en": "because (verb at the end)",
+      "emoji": "🔚",
+      "note": "Nebensatz: Verb am Ende."
+    },
+    "weiter": {
+      "de": "weiter",
+      "pos": "adverb",
+      "en": "further"
+    },
+    "wieder": {
+      "de": "wieder",
+      "pos": "adverb",
+      "en": "again"
+    },
     "wir": {
       "de": "wir",
       "pos": "pronoun",
       "en": "we",
       "emoji": "👥"
     },
-    "bleibt": {
-      "de": "bleiben → er bleibt",
+    "wäscht": {
+      "de": "waschen → sie wäscht",
       "pos": "form",
-      "en": "stays",
-      "emoji": "⏸️",
-      "note": "im Bett is location."
+      "en": "washes (she)",
+      "emoji": "🧼",
+      "note": "She wäscht. Formal Sie waschen."
     },
-    "hat": {
-      "de": "haben → er hat",
+    "zieht": {
+      "de": "zieht",
       "pos": "form",
-      "en": "has",
-      "emoji": "🤲"
+      "en": "dresses; puts on. anziehen → er zieht sich an.",
+      "emoji": "🏥"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "adverb",
+      "en": "shut / closed"
+    },
+    "Übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "emoji": "🗣️",
+      "article": "die",
+      "plural": "die Übergaben"
+    },
+    "öffnet": {
+      "de": "öffnen → sie öffnet",
+      "pos": "form",
+      "en": "opens",
+      "emoji": "🩹",
+      "note": "Die Wunde öffnet sich. Main-clause verb. The wenn-clause comes after it, with the verb at the end."
+    },
+    "überwacht": {
+      "de": "überwacht",
+      "pos": "adjective",
+      "en": "monitored"
+    },
+    "dass": {
+      "de": "dass",
+      "pos": "conjunction",
+      "en": "that (verb at the end)",
+      "emoji": "💬",
+      "note": "Nicht das. Verb am Ende."
+    },
+    "wenn": {
+      "de": "wenn",
+      "pos": "conjunction",
+      "en": "if; when (verb at the end)",
+      "emoji": "❓",
+      "note": "Nicht denn/dann. Verb am Ende."
+    },
+    "Weil": {
+      "de": "Weil",
+      "pos": "conjunction",
+      "en": "Because (clause-initial)"
+    },
+    "Wenn": {
+      "de": "Wenn",
+      "pos": "conjunction",
+      "en": "If / When (clause-initial)"
+    },
+    "Dass": {
+      "de": "Dass",
+      "pos": "conjunction",
+      "en": "That (rare clause-initial)"
     },
     "sagt": {
       "de": "sagen → er sagt",
       "pos": "form",
       "en": "says",
       "emoji": "💬"
-    },
-    "rufen": {
-      "de": "rufen → wir rufen",
-      "pos": "form",
-      "en": "we call",
-      "emoji": "📞",
-      "note": "den Arzt is accusative."
-    },
-    "im": {
-      "de": "im (= in dem)",
-      "pos": "preposition",
-      "en": "in the",
-      "emoji": "📥",
-      "note": "Location: im Bett."
     },
     "bett": {
       "de": "Bett",
@@ -107,24 +1259,6 @@
       "emoji": "😣",
       "article": "der",
       "plural": "die Schmerzen"
-    },
-    "der": {
-      "de": "der",
-      "pos": "article",
-      "en": "the (masculine nominative)",
-      "emoji": "🔵"
-    },
-    "die": {
-      "de": "die",
-      "pos": "article",
-      "en": "the (feminine or plural)",
-      "emoji": "🔴"
-    },
-    "den": {
-      "de": "den",
-      "pos": "article",
-      "en": "the (masculine accusative)",
-      "emoji": "🔵"
     },
     "arzt": {
       "de": "Arzt",
@@ -164,767 +1298,3366 @@
       "pos": "name",
       "en": "the nurse's name",
       "emoji": "🧑‍⚕️"
+    },
+    "Akte": {
+      "de": "Akte",
+      "pos": "noun",
+      "en": "Akte",
+      "article": "die"
+    },
+    "akte": {
+      "de": "akte",
+      "pos": "noun",
+      "en": "akte",
+      "article": "die"
+    },
+    "Alarm": {
+      "de": "Alarm",
+      "pos": "noun",
+      "en": "Alarm",
+      "article": "der"
+    },
+    "alarm": {
+      "de": "alarm",
+      "pos": "noun",
+      "en": "alarm",
+      "article": "der"
+    },
+    "Alkohol": {
+      "de": "Alkohol",
+      "pos": "other",
+      "en": "(Alkohol)"
+    },
+    "alkohol": {
+      "de": "alkohol",
+      "pos": "other",
+      "en": "(alkohol)"
+    },
+    "Angst": {
+      "de": "Angst",
+      "pos": "noun",
+      "en": "Angst",
+      "article": "die"
+    },
+    "angst": {
+      "de": "angst",
+      "pos": "noun",
+      "en": "angst",
+      "article": "die"
+    },
+    "Appetit": {
+      "de": "Appetit",
+      "pos": "noun",
+      "en": "Appetit",
+      "article": "der"
+    },
+    "appetit": {
+      "de": "appetit",
+      "pos": "noun",
+      "en": "appetit",
+      "article": "der"
+    },
+    "Batterie": {
+      "de": "Batterie",
+      "pos": "noun",
+      "en": "Batterie",
+      "article": "die"
+    },
+    "batterie": {
+      "de": "batterie",
+      "pos": "noun",
+      "en": "batterie",
+      "article": "die"
+    },
+    "Beine": {
+      "de": "Beine",
+      "pos": "other",
+      "en": "(Beine)"
+    },
+    "beine": {
+      "de": "beine",
+      "pos": "other",
+      "en": "(beine)"
+    },
+    "Ben": {
+      "de": "Ben",
+      "pos": "name",
+      "en": "Ben"
+    },
+    "ben": {
+      "de": "ben",
+      "pos": "other",
+      "en": "(ben)"
+    },
+    "Bericht": {
+      "de": "Bericht",
+      "pos": "noun",
+      "en": "Bericht",
+      "article": "der"
+    },
+    "bericht": {
+      "de": "bericht",
+      "pos": "noun",
+      "en": "bericht",
+      "article": "der"
+    },
+    "Bestätigen": {
+      "de": "Bestätigen",
+      "pos": "form",
+      "en": "Bestätigen"
+    },
+    "bestätigen": {
+      "de": "bestätigen",
+      "pos": "form",
+      "en": "bestätigen"
+    },
+    "Beutel": {
+      "de": "Beutel",
+      "pos": "noun",
+      "en": "Beutel",
+      "article": "der"
+    },
+    "beutel": {
+      "de": "beutel",
+      "pos": "noun",
+      "en": "beutel",
+      "article": "der"
+    },
+    "Decken": {
+      "de": "Decken",
+      "pos": "noun",
+      "en": "Decken",
+      "article": "die"
+    },
+    "decken": {
+      "de": "decken",
+      "pos": "noun",
+      "en": "decken",
+      "article": "die"
+    },
+    "Display": {
+      "de": "Display",
+      "pos": "noun",
+      "en": "Display",
+      "article": "das"
+    },
+    "display": {
+      "de": "display",
+      "pos": "noun",
+      "en": "display",
+      "article": "das"
+    },
+    "Druck": {
+      "de": "Druck",
+      "pos": "noun",
+      "en": "Druck",
+      "article": "der"
+    },
+    "druck": {
+      "de": "druck",
+      "pos": "noun",
+      "en": "druck",
+      "article": "der"
+    },
+    "Durst": {
+      "de": "Durst",
+      "pos": "other",
+      "en": "(Durst)"
+    },
+    "durst": {
+      "de": "durst",
+      "pos": "other",
+      "en": "(durst)"
+    },
+    "Ein": {
+      "de": "Ein",
+      "pos": "other",
+      "en": "(Ein)"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "other",
+      "en": "(ein)"
+    },
+    "Ende": {
+      "de": "Ende",
+      "pos": "other",
+      "en": "(Ende)"
+    },
+    "ende": {
+      "de": "ende",
+      "pos": "other",
+      "en": "(ende)"
+    },
+    "Fenster": {
+      "de": "Fenster",
+      "pos": "noun",
+      "en": "Fenster",
+      "article": "das"
+    },
+    "fenster": {
+      "de": "fenster",
+      "pos": "noun",
+      "en": "fenster",
+      "article": "das"
+    },
+    "Finger": {
+      "de": "Finger",
+      "pos": "other",
+      "en": "(Finger)"
+    },
+    "finger": {
+      "de": "finger",
+      "pos": "other",
+      "en": "(finger)"
+    },
+    "Frau": {
+      "de": "Frau",
+      "pos": "other",
+      "en": "(Frau)"
+    },
+    "frau": {
+      "de": "frau",
+      "pos": "other",
+      "en": "(frau)"
+    },
+    "Gurt": {
+      "de": "Gurt",
+      "pos": "noun",
+      "en": "Gurt",
+      "article": "der"
+    },
+    "gurt": {
+      "de": "gurt",
+      "pos": "noun",
+      "en": "gurt",
+      "article": "der"
+    },
+    "Haut": {
+      "de": "Haut",
+      "pos": "noun",
+      "en": "Haut",
+      "article": "die"
+    },
+    "haut": {
+      "de": "haut",
+      "pos": "noun",
+      "en": "haut",
+      "article": "die"
+    },
+    "Hemd": {
+      "de": "Hemd",
+      "pos": "noun",
+      "en": "Hemd",
+      "article": "das"
+    },
+    "hemd": {
+      "de": "hemd",
+      "pos": "noun",
+      "en": "hemd",
+      "article": "das"
+    },
+    "Heute": {
+      "de": "Heute",
+      "pos": "adverb",
+      "en": "Heute"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "heute"
+    },
+    "Katheter": {
+      "de": "Katheter",
+      "pos": "noun",
+      "en": "Katheter",
+      "article": "der"
+    },
+    "katheter": {
+      "de": "katheter",
+      "pos": "noun",
+      "en": "katheter",
+      "article": "der"
+    },
+    "Keller": {
+      "de": "Keller",
+      "pos": "name",
+      "en": "Keller"
+    },
+    "keller": {
+      "de": "keller",
+      "pos": "other",
+      "en": "(keller)"
+    },
+    "Kopfschmerzen": {
+      "de": "Kopfschmerzen",
+      "pos": "noun",
+      "en": "Kopfschmerzen",
+      "article": "der"
+    },
+    "kopfschmerzen": {
+      "de": "kopfschmerzen",
+      "pos": "noun",
+      "en": "kopfschmerzen",
+      "article": "der"
+    },
+    "Labor": {
+      "de": "Labor",
+      "pos": "noun",
+      "en": "Labor",
+      "article": "das"
+    },
+    "labor": {
+      "de": "labor",
+      "pos": "noun",
+      "en": "labor",
+      "article": "das"
+    },
+    "Lang": {
+      "de": "Lang",
+      "pos": "name",
+      "en": "Lang"
+    },
+    "lang": {
+      "de": "lang",
+      "pos": "other",
+      "en": "(lang)"
+    },
+    "Lara": {
+      "de": "Lara",
+      "pos": "name",
+      "en": "Lara"
+    },
+    "lara": {
+      "de": "lara",
+      "pos": "other",
+      "en": "(lara)"
+    },
+    "Lauf": {
+      "de": "Lauf",
+      "pos": "noun",
+      "en": "Lauf",
+      "article": "der"
+    },
+    "lauf": {
+      "de": "lauf",
+      "pos": "noun",
+      "en": "lauf",
+      "article": "der"
+    },
+    "Leitung": {
+      "de": "Leitung",
+      "pos": "noun",
+      "en": "Leitung",
+      "article": "die"
+    },
+    "leitung": {
+      "de": "leitung",
+      "pos": "noun",
+      "en": "leitung",
+      "article": "die"
+    },
+    "Lippen": {
+      "de": "Lippen",
+      "pos": "noun",
+      "en": "Lippen",
+      "article": "die"
+    },
+    "lippen": {
+      "de": "lippen",
+      "pos": "noun",
+      "en": "lippen",
+      "article": "die"
+    },
+    "Lärm": {
+      "de": "Lärm",
+      "pos": "noun",
+      "en": "Lärm",
+      "article": "die"
+    },
+    "lärm": {
+      "de": "lärm",
+      "pos": "noun",
+      "en": "lärm",
+      "article": "die"
+    },
+    "Medikament": {
+      "de": "Medikament",
+      "pos": "noun",
+      "en": "Medikament",
+      "article": "das"
+    },
+    "medikament": {
+      "de": "medikament",
+      "pos": "noun",
+      "en": "medikament",
+      "article": "das"
+    },
+    "Migräne": {
+      "de": "Migräne",
+      "pos": "noun",
+      "en": "Migräne",
+      "article": "die"
+    },
+    "migräne": {
+      "de": "migräne",
+      "pos": "noun",
+      "en": "migräne",
+      "article": "die"
+    },
+    "Mittel": {
+      "de": "Mittel",
+      "pos": "noun",
+      "en": "Mittel",
+      "article": "das"
+    },
+    "mittel": {
+      "de": "mittel",
+      "pos": "noun",
+      "en": "mittel",
+      "article": "das"
+    },
+    "Mobilisation": {
+      "de": "Mobilisation",
+      "pos": "noun",
+      "en": "Mobilisation",
+      "article": "die"
+    },
+    "mobilisation": {
+      "de": "mobilisation",
+      "pos": "noun",
+      "en": "mobilisation",
+      "article": "die"
+    },
+    "Nebensatz": {
+      "de": "Nebensatz",
+      "pos": "other",
+      "en": "(Nebensatz)"
+    },
+    "nebensatz": {
+      "de": "nebensatz",
+      "pos": "other",
+      "en": "(nebensatz)"
+    },
+    "Nebensätze": {
+      "de": "Nebensätze",
+      "pos": "other",
+      "en": "(Nebensätze)"
+    },
+    "nebensätze": {
+      "de": "nebensätze",
+      "pos": "other",
+      "en": "(nebensätze)"
+    },
+    "Nierenschale": {
+      "de": "Nierenschale",
+      "pos": "noun",
+      "en": "Nierenschale",
+      "article": "die"
+    },
+    "nierenschale": {
+      "de": "nierenschale",
+      "pos": "noun",
+      "en": "nierenschale",
+      "article": "die"
+    },
+    "Omar": {
+      "de": "Omar",
+      "pos": "name",
+      "en": "Omar"
+    },
+    "omar": {
+      "de": "omar",
+      "pos": "other",
+      "en": "(omar)"
+    },
+    "Panik": {
+      "de": "Panik",
+      "pos": "noun",
+      "en": "Panik",
+      "article": "die"
+    },
+    "panik": {
+      "de": "panik",
+      "pos": "noun",
+      "en": "panik",
+      "article": "die"
+    },
+    "Paracetamol": {
+      "de": "Paracetamol",
+      "pos": "other",
+      "en": "(Paracetamol)"
+    },
+    "paracetamol": {
+      "de": "paracetamol",
+      "pos": "other",
+      "en": "(paracetamol)"
+    },
+    "Pumpe": {
+      "de": "Pumpe",
+      "pos": "noun",
+      "en": "Pumpe",
+      "article": "die"
+    },
+    "pumpe": {
+      "de": "pumpe",
+      "pos": "noun",
+      "en": "pumpe",
+      "article": "die"
+    },
+    "Rad": {
+      "de": "Rad",
+      "pos": "noun",
+      "en": "Rad",
+      "article": "das"
+    },
+    "rad": {
+      "de": "rad",
+      "pos": "noun",
+      "en": "rad",
+      "article": "das"
+    },
+    "Reiz": {
+      "de": "Reiz",
+      "pos": "noun",
+      "en": "Reiz",
+      "article": "der"
+    },
+    "reiz": {
+      "de": "reiz",
+      "pos": "noun",
+      "en": "reiz",
+      "article": "der"
+    },
+    "Ruhe": {
+      "de": "Ruhe",
+      "pos": "noun",
+      "en": "Ruhe",
+      "article": "die"
+    },
+    "ruhe": {
+      "de": "ruhe",
+      "pos": "noun",
+      "en": "ruhe",
+      "article": "die"
+    },
+    "Salbe": {
+      "de": "Salbe",
+      "pos": "noun",
+      "en": "Salbe",
+      "article": "die"
+    },
+    "salbe": {
+      "de": "salbe",
+      "pos": "noun",
+      "en": "salbe",
+      "article": "die"
+    },
+    "Sauerstoff": {
+      "de": "Sauerstoff",
+      "pos": "noun",
+      "en": "Sauerstoff",
+      "article": "der"
+    },
+    "sauerstoff": {
+      "de": "sauerstoff",
+      "pos": "noun",
+      "en": "sauerstoff",
+      "article": "der"
+    },
+    "Schale": {
+      "de": "Schale",
+      "pos": "noun",
+      "en": "Schale",
+      "article": "die"
+    },
+    "schale": {
+      "de": "schale",
+      "pos": "noun",
+      "en": "schale",
+      "article": "die"
+    },
+    "Schluckbeschwerden": {
+      "de": "Schluckbeschwerden",
+      "pos": "other",
+      "en": "(Schluckbeschwerden)"
+    },
+    "schluckbeschwerden": {
+      "de": "schluckbeschwerden",
+      "pos": "other",
+      "en": "(schluckbeschwerden)"
+    },
+    "Schwester": {
+      "de": "Schwester",
+      "pos": "other",
+      "en": "(Schwester)"
+    },
+    "schwester": {
+      "de": "schwester",
+      "pos": "other",
+      "en": "(schwester)"
+    },
+    "Spritze": {
+      "de": "Spritze",
+      "pos": "noun",
+      "en": "Spritze",
+      "article": "die"
+    },
+    "spritze": {
+      "de": "spritze",
+      "pos": "noun",
+      "en": "spritze",
+      "article": "die"
+    },
+    "Stelle": {
+      "de": "Stelle",
+      "pos": "noun",
+      "en": "Stelle",
+      "article": "die"
+    },
+    "stelle": {
+      "de": "stelle",
+      "pos": "noun",
+      "en": "stelle",
+      "article": "die"
+    },
+    "Stuhl": {
+      "de": "Stuhl",
+      "pos": "noun",
+      "en": "Stuhl",
+      "article": "der"
+    },
+    "stuhl": {
+      "de": "stuhl",
+      "pos": "noun",
+      "en": "stuhl",
+      "article": "der"
+    },
+    "Sturz": {
+      "de": "Sturz",
+      "pos": "noun",
+      "en": "Sturz",
+      "article": "der"
+    },
+    "sturz": {
+      "de": "sturz",
+      "pos": "noun",
+      "en": "sturz",
+      "article": "der"
+    },
+    "Summer": {
+      "de": "Summer",
+      "pos": "noun",
+      "en": "Summer",
+      "article": "der"
+    },
+    "summer": {
+      "de": "summer",
+      "pos": "noun",
+      "en": "summer",
+      "article": "der"
+    },
+    "Tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "Tablette",
+      "article": "die"
+    },
+    "tablette": {
+      "de": "tablette",
+      "pos": "noun",
+      "en": "tablette",
+      "article": "die"
+    },
+    "Tee": {
+      "de": "Tee",
+      "pos": "other",
+      "en": "(Tee)"
+    },
+    "tee": {
+      "de": "tee",
+      "pos": "other",
+      "en": "(tee)"
+    },
+    "Temperatur": {
+      "de": "Temperatur",
+      "pos": "noun",
+      "en": "Temperatur",
+      "article": "die"
+    },
+    "temperatur": {
+      "de": "temperatur",
+      "pos": "noun",
+      "en": "temperatur",
+      "article": "die"
+    },
+    "Tom": {
+      "de": "Tom",
+      "pos": "name",
+      "en": "Tom"
+    },
+    "tom": {
+      "de": "tom",
+      "pos": "other",
+      "en": "(tom)"
+    },
+    "Tropf": {
+      "de": "Tropf",
+      "pos": "noun",
+      "en": "Tropf",
+      "article": "der"
+    },
+    "tropf": {
+      "de": "tropf",
+      "pos": "noun",
+      "en": "tropf",
+      "article": "der"
+    },
+    "Verb": {
+      "de": "Verb",
+      "pos": "other",
+      "en": "(Verb)"
+    },
+    "verb": {
+      "de": "verb",
+      "pos": "other",
+      "en": "(verb)"
+    },
+    "Verstanden": {
+      "de": "Verstanden",
+      "pos": "other",
+      "en": "(Verstanden)"
+    },
+    "verstanden": {
+      "de": "verstanden",
+      "pos": "other",
+      "en": "(verstanden)"
+    },
+    "Vorhänge": {
+      "de": "Vorhänge",
+      "pos": "noun",
+      "en": "Vorhänge",
+      "article": "die"
+    },
+    "vorhänge": {
+      "de": "vorhänge",
+      "pos": "noun",
+      "en": "vorhänge",
+      "article": "die"
+    },
+    "Werte": {
+      "de": "Werte",
+      "pos": "noun",
+      "en": "Werte",
+      "article": "die"
+    },
+    "werte": {
+      "de": "werte",
+      "pos": "noun",
+      "en": "werte",
+      "article": "die"
+    },
+    "alarmiert": {
+      "de": "alarmiert",
+      "pos": "form",
+      "en": "alarmiert"
+    },
+    "Alarmiert": {
+      "de": "Alarmiert",
+      "pos": "form",
+      "en": "Alarmiert"
+    },
+    "ans": {
+      "de": "ans",
+      "pos": "adverb",
+      "en": "ans"
+    },
+    "Ans": {
+      "de": "Ans",
+      "pos": "adverb",
+      "en": "Ans"
+    },
+    "anschwellen": {
+      "de": "anschwellen",
+      "pos": "form",
+      "en": "anschwellen"
+    },
+    "Anschwellen": {
+      "de": "Anschwellen",
+      "pos": "form",
+      "en": "Anschwellen"
+    },
+    "arbeitet": {
+      "de": "arbeitet",
+      "pos": "other",
+      "en": "(arbeitet)"
+    },
+    "Arbeitet": {
+      "de": "Arbeitet",
+      "pos": "other",
+      "en": "(Arbeitet)"
+    },
+    "aufsteht": {
+      "de": "aufsteht",
+      "pos": "form",
+      "en": "aufsteht"
+    },
+    "Aufsteht": {
+      "de": "Aufsteht",
+      "pos": "form",
+      "en": "Aufsteht"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "other",
+      "en": "(aus)"
+    },
+    "Aus": {
+      "de": "Aus",
+      "pos": "other",
+      "en": "(Aus)"
+    },
+    "aussieht": {
+      "de": "aussieht",
+      "pos": "other",
+      "en": "(aussieht)"
+    },
+    "Aussieht": {
+      "de": "Aussieht",
+      "pos": "other",
+      "en": "(Aussieht)"
+    },
+    "bekommt": {
+      "de": "bekommt",
+      "pos": "form",
+      "en": "bekommt"
+    },
+    "Bekommt": {
+      "de": "Bekommt",
+      "pos": "form",
+      "en": "Bekommt"
+    },
+    "berichtet": {
+      "de": "berichtet",
+      "pos": "form",
+      "en": "berichtet"
+    },
+    "Berichtet": {
+      "de": "Berichtet",
+      "pos": "form",
+      "en": "Berichtet"
+    },
+    "blass": {
+      "de": "blass",
+      "pos": "adjective",
+      "en": "blass"
+    },
+    "Blass": {
+      "de": "Blass",
+      "pos": "adjective",
+      "en": "Blass"
+    },
+    "bleibe": {
+      "de": "bleibe",
+      "pos": "other",
+      "en": "(bleibe)"
+    },
+    "Bleibe": {
+      "de": "Bleibe",
+      "pos": "other",
+      "en": "(Bleibe)"
+    },
+    "blocken": {
+      "de": "blocken",
+      "pos": "form",
+      "en": "blocken"
+    },
+    "Blocken": {
+      "de": "Blocken",
+      "pos": "form",
+      "en": "Blocken"
+    },
+    "deckt": {
+      "de": "deckt",
+      "pos": "form",
+      "en": "deckt"
+    },
+    "Deckt": {
+      "de": "Deckt",
+      "pos": "form",
+      "en": "Deckt"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "other",
+      "en": "(dem)"
+    },
+    "Dem": {
+      "de": "Dem",
+      "pos": "other",
+      "en": "(Dem)"
+    },
+    "durstig": {
+      "de": "durstig",
+      "pos": "adjective",
+      "en": "durstig"
+    },
+    "Durstig": {
+      "de": "Durstig",
+      "pos": "adjective",
+      "en": "Durstig"
+    },
+    "erneut": {
+      "de": "erneut",
+      "pos": "other",
+      "en": "(erneut)"
+    },
+    "Erneut": {
+      "de": "Erneut",
+      "pos": "other",
+      "en": "(Erneut)"
+    },
+    "es": {
+      "de": "es",
+      "pos": "other",
+      "en": "(es)"
+    },
+    "Es": {
+      "de": "Es",
+      "pos": "other",
+      "en": "(Es)"
+    },
+    "fehlt": {
+      "de": "fehlt",
+      "pos": "form",
+      "en": "fehlt"
+    },
+    "Fehlt": {
+      "de": "Fehlt",
+      "pos": "form",
+      "en": "Fehlt"
+    },
+    "flüstert": {
+      "de": "flüstert",
+      "pos": "form",
+      "en": "flüstert"
+    },
+    "Flüstert": {
+      "de": "Flüstert",
+      "pos": "form",
+      "en": "Flüstert"
+    },
+    "frei": {
+      "de": "frei",
+      "pos": "adjective",
+      "en": "frei"
+    },
+    "Frei": {
+      "de": "Frei",
+      "pos": "adjective",
+      "en": "Frei"
+    },
+    "frisch": {
+      "de": "frisch",
+      "pos": "adjective",
+      "en": "frisch"
+    },
+    "Frisch": {
+      "de": "Frisch",
+      "pos": "adjective",
+      "en": "Frisch"
+    },
+    "geht": {
+      "de": "geht",
+      "pos": "other",
+      "en": "(geht)"
+    },
+    "Geht": {
+      "de": "Geht",
+      "pos": "other",
+      "en": "(Geht)"
+    },
+    "geschwollen": {
+      "de": "geschwollen",
+      "pos": "adjective",
+      "en": "geschwollen"
+    },
+    "Geschwollen": {
+      "de": "Geschwollen",
+      "pos": "adjective",
+      "en": "Geschwollen"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adverb",
+      "en": "gut"
+    },
+    "Gut": {
+      "de": "Gut",
+      "pos": "adverb",
+      "en": "Gut"
+    },
+    "heben": {
+      "de": "heben",
+      "pos": "form",
+      "en": "heben"
+    },
+    "heiß": {
+      "de": "heiß",
+      "pos": "adjective",
+      "en": "heiß"
+    },
+    "Heiß": {
+      "de": "Heiß",
+      "pos": "adjective",
+      "en": "Heiß"
+    },
+    "holst": {
+      "de": "holst",
+      "pos": "other",
+      "en": "(holst)"
+    },
+    "Holst": {
+      "de": "Holst",
+      "pos": "other",
+      "en": "(Holst)"
+    },
+    "hustet": {
+      "de": "hustet",
+      "pos": "form",
+      "en": "hustet"
+    },
+    "Hustet": {
+      "de": "Hustet",
+      "pos": "form",
+      "en": "Hustet"
+    },
+    "hängt": {
+      "de": "hängt",
+      "pos": "form",
+      "en": "hängt"
+    },
+    "Hängt": {
+      "de": "Hängt",
+      "pos": "form",
+      "en": "Hängt"
+    },
+    "hört": {
+      "de": "hört",
+      "pos": "form",
+      "en": "hört"
+    },
+    "Hört": {
+      "de": "Hört",
+      "pos": "form",
+      "en": "Hört"
+    },
+    "ihm": {
+      "de": "ihm",
+      "pos": "other",
+      "en": "(ihm)"
+    },
+    "Ihm": {
+      "de": "Ihm",
+      "pos": "other",
+      "en": "(Ihm)"
+    },
+    "ihn": {
+      "de": "ihn",
+      "pos": "other",
+      "en": "(ihn)"
+    },
+    "Ihn": {
+      "de": "Ihn",
+      "pos": "other",
+      "en": "(Ihn)"
+    },
+    "isst": {
+      "de": "isst",
+      "pos": "form",
+      "en": "isst"
+    },
+    "Isst": {
+      "de": "Isst",
+      "pos": "form",
+      "en": "Isst"
+    },
+    "juckt": {
+      "de": "juckt",
+      "pos": "form",
+      "en": "juckt"
+    },
+    "Juckt": {
+      "de": "Juckt",
+      "pos": "form",
+      "en": "Juckt"
+    },
+    "kalt": {
+      "de": "kalt",
+      "pos": "adjective",
+      "en": "kalt"
+    },
+    "Kalt": {
+      "de": "Kalt",
+      "pos": "adjective",
+      "en": "Kalt"
+    },
+    "keine": {
+      "de": "keine",
+      "pos": "adjective",
+      "en": "keine"
+    },
+    "Keine": {
+      "de": "Keine",
+      "pos": "adjective",
+      "en": "Keine"
+    },
+    "kippen": {
+      "de": "kippen",
+      "pos": "form",
+      "en": "kippen"
+    },
+    "Kippen": {
+      "de": "Kippen",
+      "pos": "form",
+      "en": "Kippen"
+    },
+    "kontrolliert": {
+      "de": "kontrolliert",
+      "pos": "form",
+      "en": "kontrolliert"
+    },
+    "Kontrolliert": {
+      "de": "Kontrolliert",
+      "pos": "form",
+      "en": "Kontrolliert"
+    },
+    "kühlen": {
+      "de": "kühlen",
+      "pos": "form",
+      "en": "kühlen"
+    },
+    "Kühlen": {
+      "de": "Kühlen",
+      "pos": "form",
+      "en": "Kühlen"
+    },
+    "langsam": {
+      "de": "langsam",
+      "pos": "other",
+      "en": "(langsam)"
+    },
+    "Langsam": {
+      "de": "Langsam",
+      "pos": "other",
+      "en": "(Langsam)"
+    },
+    "laut": {
+      "de": "laut",
+      "pos": "adjective",
+      "en": "laut"
+    },
+    "Laut": {
+      "de": "Laut",
+      "pos": "adjective",
+      "en": "Laut"
+    },
+    "leer": {
+      "de": "leer",
+      "pos": "adjective",
+      "en": "leer"
+    },
+    "Leer": {
+      "de": "Leer",
+      "pos": "adjective",
+      "en": "Leer"
+    },
+    "leise": {
+      "de": "leise",
+      "pos": "adjective",
+      "en": "leise"
+    },
+    "Leise": {
+      "de": "Leise",
+      "pos": "adjective",
+      "en": "Leise"
+    },
+    "macht": {
+      "de": "macht",
+      "pos": "form",
+      "en": "macht"
+    },
+    "Macht": {
+      "de": "Macht",
+      "pos": "form",
+      "en": "Macht"
+    },
+    "meldet": {
+      "de": "meldet",
+      "pos": "form",
+      "en": "meldet"
+    },
+    "Meldet": {
+      "de": "Meldet",
+      "pos": "form",
+      "en": "Meldet"
+    },
+    "merkt": {
+      "de": "merkt",
+      "pos": "form",
+      "en": "merkt"
+    },
+    "Merkt": {
+      "de": "Merkt",
+      "pos": "form",
+      "en": "Merkt"
+    },
+    "mir": {
+      "de": "mir",
+      "pos": "other",
+      "en": "(mir)"
+    },
+    "Mir": {
+      "de": "Mir",
+      "pos": "other",
+      "en": "(Mir)"
+    },
+    "müde": {
+      "de": "müde",
+      "pos": "adjective",
+      "en": "müde"
+    },
+    "Müde": {
+      "de": "Müde",
+      "pos": "adjective",
+      "en": "Müde"
+    },
+    "nachts": {
+      "de": "nachts",
+      "pos": "adverb",
+      "en": "nachts"
+    },
+    "Nachts": {
+      "de": "Nachts",
+      "pos": "adverb",
+      "en": "Nachts"
+    },
+    "nass": {
+      "de": "nass",
+      "pos": "adjective",
+      "en": "nass"
+    },
+    "Nass": {
+      "de": "Nass",
+      "pos": "adjective",
+      "en": "Nass"
+    },
+    "niest": {
+      "de": "niest",
+      "pos": "form",
+      "en": "niest"
+    },
+    "Niest": {
+      "de": "Niest",
+      "pos": "form",
+      "en": "Niest"
+    },
+    "nimmt": {
+      "de": "nimmt",
+      "pos": "form",
+      "en": "nimmt"
+    },
+    "Nimmt": {
+      "de": "Nimmt",
+      "pos": "form",
+      "en": "Nimmt"
+    },
+    "notiert": {
+      "de": "notiert",
+      "pos": "form",
+      "en": "notiert"
+    },
+    "Notiert": {
+      "de": "Notiert",
+      "pos": "form",
+      "en": "Notiert"
+    },
+    "offen": {
+      "de": "offen",
+      "pos": "adjective",
+      "en": "offen"
+    },
+    "Offen": {
+      "de": "Offen",
+      "pos": "adjective",
+      "en": "Offen"
+    },
+    "pausiert": {
+      "de": "pausiert",
+      "pos": "form",
+      "en": "pausiert"
+    },
+    "Pausiert": {
+      "de": "Pausiert",
+      "pos": "form",
+      "en": "Pausiert"
+    },
+    "piept": {
+      "de": "piept",
+      "pos": "other",
+      "en": "(piept)"
+    },
+    "Piept": {
+      "de": "Piept",
+      "pos": "other",
+      "en": "(Piept)"
+    },
+    "regelmäßig": {
+      "de": "regelmäßig",
+      "pos": "adjective",
+      "en": "regelmäßig"
+    },
+    "Regelmäßig": {
+      "de": "Regelmäßig",
+      "pos": "adjective",
+      "en": "Regelmäßig"
+    },
+    "reichen": {
+      "de": "reichen",
+      "pos": "form",
+      "en": "reichen"
+    },
+    "Reichen": {
+      "de": "Reichen",
+      "pos": "form",
+      "en": "Reichen"
+    },
+    "rollt": {
+      "de": "rollt",
+      "pos": "form",
+      "en": "rollt"
+    },
+    "Rollt": {
+      "de": "Rollt",
+      "pos": "form",
+      "en": "Rollt"
+    },
+    "rosa": {
+      "de": "rosa",
+      "pos": "adjective",
+      "en": "rosa"
+    },
+    "Rosa": {
+      "de": "Rosa",
+      "pos": "adjective",
+      "en": "Rosa"
+    },
+    "rufe": {
+      "de": "rufe",
+      "pos": "form",
+      "en": "rufe"
+    },
+    "Rufe": {
+      "de": "Rufe",
+      "pos": "form",
+      "en": "Rufe"
+    },
+    "rufst": {
+      "de": "rufst",
+      "pos": "form",
+      "en": "rufst"
+    },
+    "Rufst": {
+      "de": "Rufst",
+      "pos": "form",
+      "en": "Rufst"
+    },
+    "ruhen": {
+      "de": "ruhen",
+      "pos": "form",
+      "en": "ruhen"
+    },
+    "Ruhen": {
+      "de": "Ruhen",
+      "pos": "form",
+      "en": "Ruhen"
+    },
+    "rutscht": {
+      "de": "rutscht",
+      "pos": "form",
+      "en": "rutscht"
+    },
+    "Rutscht": {
+      "de": "Rutscht",
+      "pos": "form",
+      "en": "Rutscht"
+    },
+    "schlafen": {
+      "de": "schlafen",
+      "pos": "form",
+      "en": "schlafen"
+    },
+    "Schlafen": {
+      "de": "Schlafen",
+      "pos": "form",
+      "en": "Schlafen"
+    },
+    "schließen": {
+      "de": "schließen",
+      "pos": "form",
+      "en": "schließen"
+    },
+    "Schließen": {
+      "de": "Schließen",
+      "pos": "form",
+      "en": "Schließen"
+    },
+    "schläft": {
+      "de": "schläft",
+      "pos": "form",
+      "en": "schläft"
+    },
+    "Schläft": {
+      "de": "Schläft",
+      "pos": "form",
+      "en": "Schläft"
+    },
+    "schnarcht": {
+      "de": "schnarcht",
+      "pos": "form",
+      "en": "schnarcht"
+    },
+    "Schnarcht": {
+      "de": "Schnarcht",
+      "pos": "form",
+      "en": "Schnarcht"
+    },
+    "schweigt": {
+      "de": "schweigt",
+      "pos": "form",
+      "en": "schweigt"
+    },
+    "Schweigt": {
+      "de": "Schweigt",
+      "pos": "form",
+      "en": "Schweigt"
+    },
+    "schwindelig": {
+      "de": "schwindelig",
+      "pos": "adjective",
+      "en": "schwindelig"
+    },
+    "Schwindelig": {
+      "de": "Schwindelig",
+      "pos": "adjective",
+      "en": "Schwindelig"
+    },
+    "setzen": {
+      "de": "setzen",
+      "pos": "form",
+      "en": "setzen"
+    },
+    "Setzen": {
+      "de": "Setzen",
+      "pos": "form",
+      "en": "Setzen"
+    },
+    "sichern": {
+      "de": "sichern",
+      "pos": "form",
+      "en": "sichern"
+    },
+    "Sichern": {
+      "de": "Sichern",
+      "pos": "form",
+      "en": "Sichern"
+    },
+    "sieht": {
+      "de": "sieht",
+      "pos": "form",
+      "en": "sieht"
+    },
+    "Sieht": {
+      "de": "Sieht",
+      "pos": "form",
+      "en": "Sieht"
+    },
+    "sind": {
+      "de": "sind",
+      "pos": "form",
+      "en": "sind"
+    },
+    "Sind": {
+      "de": "Sind",
+      "pos": "form",
+      "en": "Sind"
+    },
+    "sinkt": {
+      "de": "sinkt",
+      "pos": "form",
+      "en": "sinkt"
+    },
+    "Sinkt": {
+      "de": "Sinkt",
+      "pos": "form",
+      "en": "Sinkt"
+    },
+    "sitzen": {
+      "de": "sitzen",
+      "pos": "other",
+      "en": "(sitzen)"
+    },
+    "Sitzen": {
+      "de": "Sitzen",
+      "pos": "other",
+      "en": "(Sitzen)"
+    },
+    "spricht": {
+      "de": "spricht",
+      "pos": "form",
+      "en": "spricht"
+    },
+    "Spricht": {
+      "de": "Spricht",
+      "pos": "form",
+      "en": "Spricht"
+    },
+    "spült": {
+      "de": "spült",
+      "pos": "form",
+      "en": "spült"
+    },
+    "Spült": {
+      "de": "Spült",
+      "pos": "form",
+      "en": "Spült"
+    },
+    "stark": {
+      "de": "stark",
+      "pos": "other",
+      "en": "(stark)"
+    },
+    "Stark": {
+      "de": "Stark",
+      "pos": "other",
+      "en": "(Stark)"
+    },
+    "starke": {
+      "de": "starke",
+      "pos": "adjective",
+      "en": "starke"
+    },
+    "Starke": {
+      "de": "Starke",
+      "pos": "adjective",
+      "en": "Starke"
+    },
+    "starten": {
+      "de": "starten",
+      "pos": "form",
+      "en": "starten"
+    },
+    "Starten": {
+      "de": "Starten",
+      "pos": "form",
+      "en": "Starten"
+    },
+    "steht": {
+      "de": "steht",
+      "pos": "form",
+      "en": "steht"
+    },
+    "Steht": {
+      "de": "Steht",
+      "pos": "form",
+      "en": "Steht"
+    },
+    "stockt": {
+      "de": "stockt",
+      "pos": "form",
+      "en": "stockt"
+    },
+    "Stockt": {
+      "de": "Stockt",
+      "pos": "form",
+      "en": "Stockt"
+    },
+    "stoppen": {
+      "de": "stoppen",
+      "pos": "form",
+      "en": "stoppen"
+    },
+    "Stoppen": {
+      "de": "Stoppen",
+      "pos": "form",
+      "en": "Stoppen"
+    },
+    "stört": {
+      "de": "stört",
+      "pos": "form",
+      "en": "stört"
+    },
+    "Stört": {
+      "de": "Stört",
+      "pos": "form",
+      "en": "Stört"
+    },
+    "stützen": {
+      "de": "stützen",
+      "pos": "form",
+      "en": "stützen"
+    },
+    "Stützen": {
+      "de": "Stützen",
+      "pos": "form",
+      "en": "Stützen"
+    },
+    "tauscht": {
+      "de": "tauscht",
+      "pos": "form",
+      "en": "tauscht"
+    },
+    "Tauscht": {
+      "de": "Tauscht",
+      "pos": "form",
+      "en": "Tauscht"
+    },
+    "tiefer": {
+      "de": "tiefer",
+      "pos": "adjective",
+      "en": "tiefer"
+    },
+    "Tiefer": {
+      "de": "Tiefer",
+      "pos": "adjective",
+      "en": "Tiefer"
+    },
+    "trinkt": {
+      "de": "trinkt",
+      "pos": "form",
+      "en": "trinkt"
+    },
+    "Trinkt": {
+      "de": "Trinkt",
+      "pos": "form",
+      "en": "Trinkt"
+    },
+    "trocken": {
+      "de": "trocken",
+      "pos": "adjective",
+      "en": "trocken"
+    },
+    "Trocken": {
+      "de": "Trocken",
+      "pos": "adjective",
+      "en": "Trocken"
+    },
+    "unruhig": {
+      "de": "unruhig",
+      "pos": "adjective",
+      "en": "unruhig"
+    },
+    "Unruhig": {
+      "de": "Unruhig",
+      "pos": "adjective",
+      "en": "Unruhig"
+    },
+    "vermerkt": {
+      "de": "vermerkt",
+      "pos": "form",
+      "en": "vermerkt"
+    },
+    "Vermerkt": {
+      "de": "Vermerkt",
+      "pos": "form",
+      "en": "Vermerkt"
+    },
+    "voll": {
+      "de": "voll",
+      "pos": "adjective",
+      "en": "voll"
+    },
+    "Voll": {
+      "de": "Voll",
+      "pos": "adjective",
+      "en": "Voll"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "other",
+      "en": "(vor)"
+    },
+    "Vor": {
+      "de": "Vor",
+      "pos": "other",
+      "en": "(Vor)"
+    },
+    "vorn": {
+      "de": "vorn",
+      "pos": "adverb",
+      "en": "vorn"
+    },
+    "Vorn": {
+      "de": "Vorn",
+      "pos": "adverb",
+      "en": "Vorn"
+    },
+    "wach": {
+      "de": "wach",
+      "pos": "adjective",
+      "en": "wach"
+    },
+    "Wach": {
+      "de": "Wach",
+      "pos": "adjective",
+      "en": "Wach"
+    },
+    "wandert": {
+      "de": "wandert",
+      "pos": "form",
+      "en": "wandert"
+    },
+    "Wandert": {
+      "de": "Wandert",
+      "pos": "form",
+      "en": "Wandert"
+    },
+    "war": {
+      "de": "war",
+      "pos": "form",
+      "en": "war"
+    },
+    "War": {
+      "de": "War",
+      "pos": "form",
+      "en": "War"
+    },
+    "wartet": {
+      "de": "wartet",
+      "pos": "form",
+      "en": "wartet"
+    },
+    "Wartet": {
+      "de": "Wartet",
+      "pos": "form",
+      "en": "Wartet"
+    },
+    "wenig": {
+      "de": "wenig",
+      "pos": "adjective",
+      "en": "wenig"
+    },
+    "Wenig": {
+      "de": "Wenig",
+      "pos": "adjective",
+      "en": "Wenig"
+    },
+    "will": {
+      "de": "will",
+      "pos": "form",
+      "en": "will"
+    },
+    "Will": {
+      "de": "Will",
+      "pos": "form",
+      "en": "Will"
+    },
+    "wird": {
+      "de": "wird",
+      "pos": "form",
+      "en": "wird"
+    },
+    "Wird": {
+      "de": "Wird",
+      "pos": "form",
+      "en": "Wird"
+    },
+    "wirkt": {
+      "de": "wirkt",
+      "pos": "form",
+      "en": "wirkt"
+    },
+    "Wirkt": {
+      "de": "Wirkt",
+      "pos": "form",
+      "en": "Wirkt"
+    },
+    "würgt": {
+      "de": "würgt",
+      "pos": "form",
+      "en": "würgt"
+    },
+    "Würgt": {
+      "de": "Würgt",
+      "pos": "form",
+      "en": "Würgt"
+    },
+    "zeigt": {
+      "de": "zeigt",
+      "pos": "form",
+      "en": "zeigt"
+    },
+    "Zeigt": {
+      "de": "Zeigt",
+      "pos": "form",
+      "en": "Zeigt"
+    },
+    "zittert": {
+      "de": "zittert",
+      "pos": "form",
+      "en": "zittert"
+    },
+    "Zittert": {
+      "de": "Zittert",
+      "pos": "form",
+      "en": "Zittert"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "adverb",
+      "en": "zum"
+    },
+    "Zum": {
+      "de": "Zum",
+      "pos": "adverb",
+      "en": "Zum"
+    },
+    "zunimmt": {
+      "de": "zunimmt",
+      "pos": "form",
+      "en": "zunimmt"
+    },
+    "Zunimmt": {
+      "de": "Zunimmt",
+      "pos": "form",
+      "en": "Zunimmt"
+    },
+    "zurück": {
+      "de": "zurück",
+      "pos": "form",
+      "en": "zurück"
+    },
+    "Zurück": {
+      "de": "Zurück",
+      "pos": "form",
+      "en": "Zurück"
+    },
+    "Übung": {
+      "de": "Übung",
+      "pos": "noun",
+      "en": "Übung",
+      "article": "die"
+    },
+    "übung": {
+      "de": "übung",
+      "pos": "noun",
+      "en": "übung",
+      "article": "die"
+    },
+    "öffnen": {
+      "de": "öffnen",
+      "pos": "form",
+      "en": "öffnen"
+    },
+    "Öffnen": {
+      "de": "Öffnen",
+      "pos": "form",
+      "en": "Öffnen"
+    },
+    "übel": {
+      "de": "übel",
+      "pos": "adjective",
+      "en": "übel"
+    },
+    "Übel": {
+      "de": "Übel",
+      "pos": "adjective",
+      "en": "Übel"
+    },
+    "üben": {
+      "de": "üben",
+      "pos": "form",
+      "en": "üben"
+    },
+    "Üben": {
+      "de": "Üben",
+      "pos": "form",
+      "en": "Üben"
     }
   },
   "steps": [
     {
       "id": "overview",
       "type": "overview",
-      "label": "Start",
-      "title": "The verb goes to the end",
-      "learn": [
-        "weil, dass and wenn open a subordinate clause. A comma marks it, and the finite verb closes it: weil er Schmerzen hat.",
-        "denn is also because, but it stays in position 0. Er bleibt im Bett, denn er hat Schmerzen. The verb stays in position 2.",
-        "If the weil-clause or the wenn-clause comes first, that whole clause is position 1. The main verb follows: Weil er Schmerzen hat, bleibt er im Bett.",
-        "dass is that, not the article das. A separable verb does not split inside the clause: wenn er aufsteht."
-      ],
+      "label": "Überblick",
+      "title": "Nebensätze auf Station",
       "minutes": 25,
-      "vocab": [
-        { "de": "Schmerz", "article": "der", "plural": "die Schmerzen", "en": "pain", "emoji": "😣", "glossaryKey": "schmerzen" },
-        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient", "emoji": "🧑🏽", "glossaryKey": "patient" },
-        { "de": "Arzt", "article": "der", "plural": "die Ärzte", "en": "doctor", "emoji": "👨‍⚕️", "glossaryKey": "arzt" },
-        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🤒", "image": { "type": "svg", "id": "thermometer" }, "glossaryKey": "fieber" },
-        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "image": { "type": "svg", "id": "bed" }, "glossaryKey": "bett" },
-        { "de": "Übergabe", "article": "die", "plural": "die Übergaben", "en": "handover", "emoji": "🗣️", "glossaryKey": "übergabe" }
+      "learn": [
+        "weil, dass und wenn öffnen einen Nebensatz. Das finite Verb steht am Ende: Er bleibt im Bett, weil er Schmerzen hat.",
+        "denn hält das Verb auf Position 2: …, denn er hat Schmerzen. das ≠ dass.",
+        "Steht der Nebensatz vorn, ist er Position 1 — das Verb im Hauptsatz folgt: Weil er Schmerzen hat, bleibt er im Bett."
       ],
       "text": {
-        "title": "Weil er Schmerzen hat",
-        "de": "Er bleibt im Bett, weil er Schmerzen hat. Der Arzt sagt, dass der Patient Fieber hat. Wenn er Fieber hat, rufen wir den Arzt. Er bleibt im Bett, denn er hat Schmerzen.",
-        "en": "He stays in bed because he has pain, with weil and the verb at the end. The doctor says that the patient has a fever. If he has a fever, we call the doctor. He stays in bed because he has pain, with denn and the verb in position 2."
-      }
+        "title": "Plan · Nebensätze",
+        "de": "Heute üben wir weil, dass und wenn. Das Verb wandert ans Ende. denn hält Position 2. Ein Nebensatz vorn ist Position 1.",
+        "en": "Today we practise weil, dass and wenn. The verb moves to the end. denn keeps position 2. A fronted clause is position 1."
+      },
+      "vocab": [
+        {
+          "de": "weil",
+          "en": "because — verb at the end",
+          "emoji": "🔚",
+          "glossaryKey": "weil"
+        },
+        {
+          "de": "dass",
+          "en": "that — not das; verb at the end",
+          "emoji": "💬",
+          "glossaryKey": "dass"
+        },
+        {
+          "de": "wenn",
+          "en": "if / when — verb at the end",
+          "emoji": "❓",
+          "glossaryKey": "wenn"
+        },
+        {
+          "de": "denn",
+          "en": "because — verb stays in position 2",
+          "emoji": "💡",
+          "glossaryKey": "denn"
+        }
+      ]
     },
     {
       "id": "grammar",
       "type": "grammar",
-      "label": "Grammar",
-      "title": "Verb at the end",
+      "label": "Grammatik",
+      "title": "Verb am Ende",
       "practice": "choose",
-      "heroTitle": "weil er Schmerzen hat",
-      "heroImage": "bed",
+      "heroTitle": "weil · dass · wenn",
+      "heroImage": "clipboard",
       "story": [
-        "<b>weil</b>, <b>dass</b> and <b>wenn</b> open a subordinate clause. Put a comma before it. The finite verb goes to the end. This chapter practises the present. war and hatte use the same end position.",
-        "<b>weil</b> means because. <b>Er bleibt im Bett, weil er Schmerzen hat.</b> Not weil er hat Schmerzen. The same reason with <b>denn</b>, from chapter 40: <b>Er bleibt im Bett, denn er hat Schmerzen.</b> denn is position 0, so hat stays in position 2.",
-        "Chapter 41 put a connector in position 1 of a main clause: Deshalb bleibt er im Bett. weil is different. The verb of the weil-clause is last.",
-        "<b>dass</b> means that. It is not the article <b>das</b>. <b>Der Arzt sagt, dass der Patient Fieber hat.</b> The patient is the subject, so der Patient. Accusative would be den Patienten.",
-        "<b>wenn</b> means if, or when something can happen. <b>Wenn er Fieber hat, rufen wir den Arzt.</b> The wenn-clause is position 1, so rufen comes next. At the end of the sentence: Wir rufen den Arzt, wenn er Fieber hat. wenn is not denn, and not dann.",
-        "A separable verb joins up again at the end of the clause. <b>Die Wunde öffnet sich, wenn er aufsteht.</b> Not wenn er steht auf. In a main clause the prefix would leave: er steht auf."
+        "<b>weil, dass, wenn</b> öffnen einen <b>Nebensatz</b>. Das finite Verb steht <b>am Ende</b>: <b>Er bleibt im Bett, weil er Schmerzen hat.</b> Nicht: weil er hat Schmerzen.",
+        "<b>denn</b> ist kein Nebensatz-Konnektor. Es hält das Verb auf Position 2: <b>…, denn er hat Schmerzen.</b> <b>das</b> (Artikel) ≠ <b>dass</b> (Konjunktion).",
+        "Steht der Nebensatz <b>vorn</b>, ist die ganze Klausel Position 1. Das Verb im Hauptsatz kommt sofort: <b>Weil er Schmerzen hat, bleibt er im Bett.</b>",
+        "Trennbare Verben bleiben nach weil/dass/wenn zusammen am Ende: <b>…, wenn er aufsteht.</b> Nicht: wenn er steht auf."
       ],
-      "questionRule": "weil, dass and wenn send the finite verb to the end. denn keeps it in position 2. A fronted clause is position 1, so the main verb comes next.",
       "tables": [
         {
           "title": "Verb am Ende",
-          "caption": "The conjunction opens the clause. The finite verb closes it.",
-          "columns": ["Bedeutung", "Satz"],
+          "caption": "Konjunktion öffnet · finites Verb schließt",
+          "columns": [
+            "Wort",
+            "Bedeutung",
+            "Beispiel"
+          ],
           "rows": [
-            { "label": "weil", "cells": ["because", "Er bleibt im Bett, weil er Schmerzen hat."], "highlight": true },
-            { "label": "dass", "cells": ["that", "Der Arzt sagt, dass der Patient Fieber hat."], "highlight": true },
-            { "label": "wenn", "cells": ["if / when", "Wir rufen den Arzt, wenn er Fieber hat."] }
+            {
+              "label": "weil",
+              "cells": [
+                "weil",
+                "weil/because",
+                "…, weil er Schmerzen hat."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "dass",
+              "cells": [
+                "dass",
+                "dass/that",
+                "…, dass der Patient Fieber hat."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "wenn",
+              "cells": [
+                "wenn",
+                "wenn/if/when",
+                "…, wenn er aufsteht."
+              ]
+            }
           ]
         },
         {
-          "title": "weil oder denn",
-          "caption": "Same reason. weil sends hat to the end. denn keeps hat in position 2.",
-          "columns": ["Wort", "Satz"],
+          "title": "weil oder denn?",
+          "caption": "Gleicher Grund — andere Stellung",
+          "columns": [
+            "Wort",
+            "Stellung",
+            "Satz"
+          ],
           "rows": [
-            { "label": "weil", "cells": ["Verb am Ende", "Er bleibt im Bett, weil er Schmerzen hat."], "highlight": true },
-            { "label": "denn", "cells": ["Position 2", "Er bleibt im Bett, denn er hat Schmerzen."], "highlight": true }
-          ]
-        },
-        {
-          "title": "Nebensatz vorn",
-          "caption": "The whole clause is position 1. The main verb is position 2.",
-          "columns": ["Satz", "Verb"],
-          "rows": [
-            { "label": "weil", "cells": ["Weil er Schmerzen hat, bleibt er im Bett.", "bleibt er"], "highlight": true },
-            { "label": "wenn", "cells": ["Wenn er Fieber hat, rufen wir den Arzt.", "rufen wir"], "highlight": true },
-            { "label": "hinten", "cells": ["Wir rufen den Arzt, wenn er Fieber hat.", "Fieber hat"] }
+            {
+              "label": "weil",
+              "cells": [
+                "weil",
+                "Verb am Ende",
+                "…, weil er Schmerzen hat."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "denn",
+              "cells": [
+                "denn",
+                "Position 2",
+                "…, denn er hat Schmerzen."
+              ],
+              "highlight": true
+            },
+            {
+              "label": "vorn",
+              "cells": [
+                "weil vorn",
+                "Hauptsatz-Verb folgt",
+                "Weil er Schmerzen hat, bleibt er im Bett."
+              ]
+            }
           ]
         }
       ],
       "warning": {
-        "title": "Four clause traps",
+        "title": "Häufige Fehler",
         "items": [
-          { "de": "Er bleibt im Bett, weil er Schmerzen hat.", "en": "hat closes the weil-clause.", "tone": "ok" },
-          { "de": "Er bleibt im Bett, weil er hat Schmerzen.", "en": "hat is not in the middle.", "tone": "stop" },
-          { "de": "Er bleibt im Bett, denn er hat Schmerzen.", "en": "denn keeps hat in position 2.", "tone": "ok" },
-          { "de": "Er bleibt im Bett, denn er Schmerzen hat.", "en": "denn does not send the verb to the end.", "tone": "stop" },
-          { "de": "Der Arzt sagt, dass der Patient Fieber hat.", "en": "dass, with hat at the end.", "tone": "ok" },
-          { "de": "Der Arzt sagt, das der Patient Fieber hat.", "en": "das is the article, not the conjunction.", "tone": "stop" },
-          { "de": "Die Wunde öffnet sich, wenn er aufsteht.", "en": "aufsteht is one word at the end.", "tone": "ok" },
-          { "de": "Die Wunde öffnet sich, wenn er steht auf.", "en": "The prefix does not split after wenn.", "tone": "stop" }
+          {
+            "de": "✗ …, weil er hat Schmerzen",
+            "en": "✗ Verb nicht am Ende",
+            "tone": "stop"
+          },
+          {
+            "de": "✓ …, weil er Schmerzen hat",
+            "en": "✓ Verb am Ende",
+            "tone": "ok"
+          },
+          {
+            "de": "✗ Der Arzt sagt, das er Fieber hat",
+            "en": "✗ das ≠ dass",
+            "tone": "stop"
+          },
+          {
+            "de": "✓ Der Arzt sagt, dass er Fieber hat",
+            "en": "✓ dass + Verb am Ende",
+            "tone": "ok"
+          }
         ],
-        "tip": "weil, dass, wenn: verb last. denn: verb in position 2. A clause in front is position 1."
+        "tip": "Merksatz: weil/dass/wenn → Verb ans Ende · denn → Position 2 · das ≠ dass."
       },
-      "quizTitle": "Which order?",
+      "questionRule": "Wählen Sie die richtige Form oder Stellung.",
+      "quizTitle": "Verb am Ende?",
       "quiz": [
         {
           "kind": "mc",
-          "q": "Because he has pain. weil.",
-          "qEn": "Verb at the end.",
-          "options": ["Er bleibt im Bett, weil er Schmerzen hat.", "Er bleibt im Bett, weil er hat Schmerzen.", "Er bleibt im Bett, denn er Schmerzen hat."],
+          "q": "Er bleibt im Bett, weil er Schmerzen ___.",
+          "options": [
+            "hat",
+            "hat er",
+            "er hat"
+          ],
           "answer": 0,
-          "why": "weil er Schmerzen hat.",
-          "hint": "hat last."
+          "why": "weil → Verb am Ende.",
+          "hint": "hat"
         },
         {
           "kind": "mc",
-          "q": "Because he has pain. denn.",
-          "qEn": "Verb in position 2.",
-          "options": ["Er bleibt im Bett, denn er hat Schmerzen.", "Er bleibt im Bett, denn er Schmerzen hat.", "Er bleibt im Bett, weil er hat Schmerzen."],
+          "q": "Der Arzt sagt, ___ das Fieber steigt.",
+          "options": [
+            "dass",
+            "das",
+            "denn"
+          ],
           "answer": 0,
-          "why": "denn er hat Schmerzen.",
-          "hint": "hat Schmerzen."
+          "why": "dass = Konjunktion.",
+          "hint": "dass"
         },
         {
           "kind": "mc",
-          "q": "The doctor says that the patient has a fever.",
-          "qEn": "dass, not das.",
-          "options": ["Der Arzt sagt, dass der Patient Fieber hat.", "Der Arzt sagt, dass der Patient hat Fieber.", "Der Arzt sagt, das der Patient Fieber hat."],
+          "q": "Wir rufen den Arzt, wenn die Werte ___.",
+          "options": [
+            "steigen",
+            "steigen die Werte",
+            "die Werte steigen"
+          ],
           "answer": 0,
-          "why": "dass der Patient Fieber hat.",
-          "hint": "dass."
+          "why": "wenn → Verb am Ende.",
+          "hint": "steigen"
         },
         {
           "kind": "mc",
-          "q": "If he has a fever, we call the doctor.",
-          "qEn": "The clause is position 1.",
-          "options": ["Wenn er Fieber hat, rufen wir den Arzt.", "Wenn er Fieber hat, wir rufen den Arzt.", "Wenn er hat Fieber, rufen wir den Arzt."],
+          "q": "Er bleibt liegen, ___ er hat starke Schmerzen.",
+          "options": [
+            "denn",
+            "weil",
+            "dass"
+          ],
           "answer": 0,
-          "why": "rufen wir.",
-          "hint": "rufen wir."
+          "why": "denn hält Verb Position 2 (hat).",
+          "hint": "denn"
         },
         {
           "kind": "mc",
-          "q": "Because he has pain, he stays. weil is first.",
-          "qEn": "Main verb in position 2.",
-          "options": ["Weil er Schmerzen hat, bleibt er im Bett.", "Weil er Schmerzen hat, er bleibt im Bett.", "Weil er hat Schmerzen, bleibt er im Bett."],
+          "q": "Weil er Schmerzen hat, ___ er im Bett.",
+          "options": [
+            "bleibt",
+            "er bleibt",
+            "bleibst"
+          ],
           "answer": 0,
-          "why": "bleibt er.",
-          "hint": "bleibt er."
+          "why": "Nebensatz vorn = Pos. 1 → Hauptsatz-Verb folgt.",
+          "hint": "bleibt"
         },
         {
           "kind": "mc",
-          "q": "The wound opens if he gets up.",
-          "qEn": "Prefix on the verb.",
-          "options": ["Die Wunde öffnet sich, wenn er aufsteht.", "Die Wunde öffnet sich, wenn er steht auf.", "Die Wunde öffnet sich, wenn er auf steht."],
+          "q": "Die Wunde öffnet sich, wenn er ___.",
+          "options": [
+            "aufsteht",
+            "steht auf",
+            "auf steht"
+          ],
           "answer": 0,
-          "why": "wenn er aufsteht.",
-          "hint": "aufsteht."
+          "why": "Trennbares Verb bleibt zusammen am Ende.",
+          "hint": "aufsteht"
+        },
+        {
+          "kind": "mc",
+          "q": "Mira berichtet, dass Herr Braun Wasser ___.",
+          "options": [
+            "trinkt",
+            "trinkt Herr Braun",
+            "Herr Braun trinkt"
+          ],
+          "answer": 0,
+          "why": "dass → Verb am Ende.",
+          "hint": "trinkt"
+        },
+        {
+          "kind": "mc",
+          "q": "___ er Fieber hat, geben wir ein Medikament.",
+          "options": [
+            "Wenn",
+            "Denn",
+            "Dann"
+          ],
+          "answer": 0,
+          "why": "wenn öffnet den Nebensatz vorn.",
+          "hint": "Wenn"
+        },
+        {
+          "kind": "mc",
+          "q": "Er wartet, weil der Arzt noch nicht ___.",
+          "options": [
+            "kommt",
+            "kommt der Arzt",
+            "der Arzt kommt"
+          ],
+          "answer": 0,
+          "why": "weil → Verb am Ende.",
+          "hint": "kommt"
+        },
+        {
+          "kind": "mc",
+          "q": "Jonas sagt, ___ die Infusion leer ist.",
+          "options": [
+            "dass",
+            "das",
+            "denn"
+          ],
+          "answer": 0,
+          "why": "dass, nicht das.",
+          "hint": "dass"
+        },
+        {
+          "kind": "mc",
+          "q": "Er bleibt ruhig, denn er ___ keine Panik.",
+          "options": [
+            "hat",
+            "hat er",
+            "er hat"
+          ],
+          "answer": 0,
+          "why": "denn → Verb Position 2.",
+          "hint": "hat"
+        },
+        {
+          "kind": "mc",
+          "q": "Wenn der Puls steigt, ___ wir den Arzt.",
+          "options": [
+            "rufen",
+            "wir rufen",
+            "rufst"
+          ],
+          "answer": 0,
+          "why": "Nebensatz vorn → Hauptsatz-Verb Position 2.",
+          "hint": "rufen"
         }
       ]
     },
     {
-      "id": "gap-konjunktion",
-      "label": "Gap",
-      "title": "weil, dass, wenn, or denn?",
-      "practice": "gap",
+      "id": "gapfill",
       "type": "gapfill",
-      "instructions": "The label names the job. A capital Wenn or Weil starts the sentence. denn keeps the verb in position 2. das and dann do not fit.",
-      "chips": [
-        { "w": "weil", "hint": "because, verb last." },
-        { "w": "dass", "hint": "that, verb last." },
-        { "w": "wenn", "hint": "if, verb last." },
-        { "w": "denn", "hint": "because, position 2." },
-        { "w": "Wenn", "hint": "if, clause first." },
-        { "w": "Weil", "hint": "because, clause first." },
-        { "w": "das", "hint": "article, not dass." },
-        { "w": "dann", "hint": "then, not wenn." }
-      ],
+      "label": "Lücken",
+      "title": "Konnektor einsetzen",
+      "practice": "gap",
+      "instructions": "Setzen Sie weil, dass, wenn oder denn ein.",
       "items": [
         {
-          "before": "Grund, Verb am Ende: Er bleibt im Bett,",
-          "after": "er Schmerzen hat.",
+          "before": "Herr Keller liegt flach, ",
+          "after": " die Naht noch frisch ist.",
           "answer": "weil",
-          "en": "He stays in bed because he has pain.",
-          "why": "weil er Schmerzen hat.",
-          "tip": "hat is already at the end.",
-          "hint": "weil."
+          "en": "He lies flat because the suture is still fresh.",
+          "why": "weil → richtige Stellung.",
+          "tip": "weil",
+          "hint": "weil"
         },
         {
-          "before": "Bericht: Der Arzt sagt,",
-          "after": "der Patient Fieber hat.",
+          "before": "Die Akte vermerkt, ",
+          "after": " er nachts unruhig war.",
           "answer": "dass",
-          "en": "The doctor says that the patient has a fever.",
-          "why": "dass der Patient Fieber hat.",
-          "tip": "dass, not das.",
-          "hint": "dass."
+          "en": "The file notes that he was restless at night.",
+          "why": "dass → richtige Stellung.",
+          "tip": "dass",
+          "hint": "dass"
         },
         {
-          "before": "Bedingung, hinten: Wir rufen den Arzt,",
-          "after": "er Fieber hat.",
+          "before": "Wir reichen die Schale, ",
+          "after": " er übel wird.",
           "answer": "wenn",
-          "en": "We call the doctor if he has a fever.",
-          "why": "wenn er Fieber hat.",
-          "tip": "wenn, verb last.",
-          "hint": "wenn."
+          "en": "We pass the bowl when he feels sick.",
+          "why": "wenn → richtige Stellung.",
+          "tip": "wenn",
+          "hint": "wenn"
         },
         {
-          "before": "Grund, Position 2: Er bleibt im Bett,",
-          "after": "er hat Schmerzen.",
+          "before": "Sie spricht leise, ",
+          "after": " er hat starke Kopfschmerzen.",
           "answer": "denn",
-          "en": "He stays in bed because he has pain.",
-          "why": "denn er hat Schmerzen.",
-          "tip": "denn, then hat.",
-          "hint": "denn."
+          "en": "She speaks quietly because he has a strong headache.",
+          "why": "denn → richtige Stellung.",
+          "tip": "denn",
+          "hint": "denn"
         },
         {
-          "before": "Bedingung, vorn:",
-          "after": "er Fieber hat, rufen wir den Arzt.",
-          "answer": "Wenn",
-          "en": "If he has a fever, we call the doctor.",
-          "why": "Wenn er Fieber hat, rufen wir.",
-          "tip": "Capital Wenn.",
-          "hint": "Wenn."
+          "before": "Mira sieht, ",
+          "after": " die Haut blass wirkt.",
+          "answer": "dass",
+          "en": "Mira sees that the skin looks pale.",
+          "why": "dass → richtige Stellung.",
+          "tip": "dass",
+          "hint": "dass"
         },
         {
-          "before": "Folge, vorn:",
-          "after": "er Schmerzen hat, bleibt er im Bett.",
-          "answer": "Weil",
-          "en": "Because he has pain, he stays in bed.",
-          "why": "Weil er Schmerzen hat, bleibt er.",
-          "tip": "Capital Weil.",
-          "hint": "Weil."
+          "before": "Er bekommt Decken, ",
+          "after": " ihm kalt ist.",
+          "answer": "weil",
+          "en": "He gets blankets because he is cold.",
+          "why": "weil → richtige Stellung.",
+          "tip": "weil",
+          "hint": "weil"
+        },
+        {
+          "before": "Jonas kommt zurück, ",
+          "after": " der Summer piept.",
+          "answer": "wenn",
+          "en": "Jonas comes back when the buzzer beeps.",
+          "why": "wenn → richtige Stellung.",
+          "tip": "wenn",
+          "hint": "wenn"
+        },
+        {
+          "before": "Frau Lang wartet, ",
+          "after": " das Labor noch arbeitet.",
+          "answer": "weil",
+          "en": "Ms Lang waits because the lab is still working.",
+          "why": "weil → richtige Stellung.",
+          "tip": "weil",
+          "hint": "weil"
+        },
+        {
+          "before": "Der Bericht sagt, ",
+          "after": " die Wunde trocken aussieht.",
+          "answer": "dass",
+          "en": "The report says that the wound looks dry.",
+          "why": "dass → richtige Stellung.",
+          "tip": "dass",
+          "hint": "dass"
+        },
+        {
+          "before": "Wir starten erneut, ",
+          "after": " der Tropfen stockt.",
+          "answer": "wenn",
+          "en": "We start again when the drip stalls.",
+          "why": "wenn → richtige Stellung.",
+          "tip": "wenn",
+          "hint": "wenn"
+        },
+        {
+          "before": "Er bleibt wach, ",
+          "after": " er hat Angst vor dem Sturz.",
+          "answer": "denn",
+          "en": "He stays awake because he is afraid of falling.",
+          "why": "denn → richtige Stellung.",
+          "tip": "denn",
+          "hint": "denn"
+        },
+        {
+          "before": "Sie stoppt die Mobilisation, ",
+          "after": " der Schmerz zunimmt.",
+          "answer": "weil",
+          "en": "She stops mobilisation because the pain increases.",
+          "why": "weil → richtige Stellung.",
+          "tip": "weil",
+          "hint": "weil"
+        },
+        {
+          "before": "Das Display zeigt, ",
+          "after": " der Sauerstoff sinkt.",
+          "answer": "dass",
+          "en": "The display shows that oxygen is falling.",
+          "why": "dass → richtige Stellung.",
+          "tip": "dass",
+          "hint": "dass"
+        },
+        {
+          "before": "Wir stützen ihn, ",
+          "after": " er aus dem Stuhl rutscht.",
+          "answer": "wenn",
+          "en": "We support him if he slides out of the chair.",
+          "why": "wenn → richtige Stellung.",
+          "tip": "wenn",
+          "hint": "wenn"
+        },
+        {
+          "before": "Er nimmt die Tablette, ",
+          "after": " das Fieber steigt.",
+          "answer": "wenn",
+          "en": "He takes the tablet when the fever rises.",
+          "why": "wenn → richtige Stellung.",
+          "tip": "wenn",
+          "hint": "wenn"
+        }
+      ],
+      "chips": [
+        {
+          "w": "weil",
+          "hint": "Grund, Verb am Ende"
+        },
+        {
+          "w": "dass",
+          "hint": "Inhalt, Verb am Ende"
+        },
+        {
+          "w": "wenn",
+          "hint": "Bedingung/Zeit, Verb am Ende"
+        },
+        {
+          "w": "denn",
+          "hint": "Grund, Verb Position 2"
         }
       ]
     },
     {
-      "id": "match-satz",
-      "type": "compare",
-      "label": "Match",
-      "title": "Meaning and order",
-      "practice": "match",
-      "instructions": "Match the English to the German order. dass is not das. wenn is not denn.",
+      "id": "builder",
+      "type": "builder",
+      "label": "Bauen",
+      "title": "Sätze mit Nebensatz",
+      "practice": "build",
+      "instructions": "Legen Sie die Kacheln in die richtige Reihenfolge.",
       "items": [
         {
-          "prompt": "Because he has pain. The verb goes to the end.",
-          "options": [
-            { "emoji": "🔚", "label": "Er bleibt im Bett, weil er Schmerzen hat.", "caption": "hat last." },
-            { "emoji": "🚫", "label": "Er bleibt im Bett, weil er hat Schmerzen.", "caption": "hat is too early." },
-            { "emoji": "🚫", "label": "Er bleibt im Bett, denn er Schmerzen hat.", "caption": "denn does not do this." }
+          "tiles": [
+            "Der",
+            "Patient",
+            "schweigt,",
+            "weil",
+            "die",
+            "Spritze",
+            "Angst",
+            "macht"
           ],
-          "answer": 0,
-          "why": "weil er Schmerzen hat.",
-          "hint": "hat last."
+          "answers": [
+            "Der Patient schweigt, weil die Spritze Angst macht"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "macht",
+          "question": false,
+          "en": "The patient is silent because the injection causes fear.",
+          "hint": "macht",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
         },
         {
-          "prompt": "Because he has pain. The verb stays in position 2.",
-          "options": [
-            { "emoji": "💡", "label": "Er bleibt im Bett, denn er hat Schmerzen.", "caption": "Position 0." },
-            { "emoji": "🚫", "label": "Er bleibt im Bett, denn er Schmerzen hat.", "caption": "Not the weil order." },
-            { "emoji": "🚫", "label": "Er bleibt im Bett, weil er hat Schmerzen.", "caption": "weil would send hat back." }
+          "tiles": [
+            "Lara",
+            "schreibt,",
+            "dass",
+            "der",
+            "Puls",
+            "regelmäßig",
+            "ist"
           ],
-          "answer": 0,
-          "why": "denn er hat Schmerzen.",
-          "hint": "hat Schmerzen."
+          "answers": [
+            "Lara schreibt, dass der Puls regelmäßig ist"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "ist",
+          "question": false,
+          "en": "Lara writes that the pulse is regular.",
+          "hint": "ist",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
         },
         {
-          "prompt": "The doctor says that the patient has a fever.",
-          "options": [
-            { "emoji": "💬", "label": "Der Arzt sagt, dass der Patient Fieber hat.", "caption": "dass." },
-            { "emoji": "🚫", "label": "Der Arzt sagt, dass der Patient hat Fieber.", "caption": "hat is too early." },
-            { "emoji": "🚫", "label": "Der Arzt sagt, das der Patient Fieber hat.", "caption": "das is the article." }
+          "tiles": [
+            "Wir",
+            "öffnen",
+            "das",
+            "Fenster,",
+            "wenn",
+            "ihm",
+            "heiß",
+            "wird"
           ],
-          "answer": 0,
-          "why": "dass der Patient Fieber hat.",
-          "hint": "dass."
+          "answers": [
+            "Wir öffnen das Fenster, wenn ihm heiß wird"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "wird",
+          "question": false,
+          "en": "We open the window when he gets hot.",
+          "hint": "wird",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
         },
         {
-          "prompt": "If he has a fever, we call the doctor.",
-          "options": [
-            { "emoji": "📞", "label": "Wenn er Fieber hat, rufen wir den Arzt.", "caption": "rufen wir." },
-            { "emoji": "🚫", "label": "Wenn er Fieber hat, wir rufen den Arzt.", "caption": "The subject is before the verb." },
-            { "emoji": "🚫", "label": "Wenn er hat Fieber, rufen wir den Arzt.", "caption": "hat is not last in the clause." }
+          "tiles": [
+            "Weil",
+            "die",
+            "Naht",
+            "zieht,",
+            "pausiert",
+            "Jonas",
+            "die",
+            "Übung"
           ],
-          "answer": 0,
-          "why": "rufen wir den Arzt.",
-          "hint": "rufen wir."
+          "answers": [
+            "Weil die Naht zieht, pausiert Jonas die Übung"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "Übung",
+          "question": false,
+          "en": "Because the suture pulls, Jonas pauses the exercise.",
+          "hint": "Übung",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
         },
         {
-          "prompt": "We call the doctor if he has a fever.",
-          "options": [
-            { "emoji": "📞", "label": "Wir rufen den Arzt, wenn er Fieber hat.", "caption": "hat last." },
-            { "emoji": "🚫", "label": "Wir rufen den Arzt, wenn er hat Fieber.", "caption": "hat is too early." },
-            { "emoji": "💡", "label": "Wir rufen den Arzt, denn er Fieber hat.", "caption": "denn is because." }
+          "tiles": [
+            "Sie",
+            "prüft,",
+            "dass",
+            "der",
+            "Katheter",
+            "frei",
+            "läuft"
           ],
-          "answer": 0,
-          "why": "wenn er Fieber hat.",
-          "hint": "wenn."
+          "answers": [
+            "Sie prüft, dass der Katheter frei läuft"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "läuft",
+          "question": false,
+          "en": "She checks that the catheter runs freely.",
+          "hint": "läuft",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
         },
         {
-          "prompt": "that, not the article.",
-          "options": [
-            { "emoji": "💬", "label": "dass", "caption": "Verb at the end." },
-            { "emoji": "🟢", "label": "das", "caption": "The article." },
-            { "emoji": "💡", "label": "denn", "caption": "Because, position 0." }
+          "tiles": [
+            "Wenn",
+            "er",
+            "niest,",
+            "hält",
+            "Mira",
+            "den",
+            "Verband"
           ],
-          "answer": 0,
-          "why": "dass.",
-          "hint": "dass."
+          "answers": [
+            "Wenn er niest, hält Mira den Verband"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "Verband",
+          "question": false,
+          "en": "When he sneezes, Mira holds the dressing.",
+          "hint": "Verband",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "schläft",
+            "tiefer,",
+            "weil",
+            "das",
+            "Medikament",
+            "wirkt"
+          ],
+          "answers": [
+            "Er schläft tiefer, weil das Medikament wirkt"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "wirkt",
+          "question": false,
+          "en": "He sleeps more deeply because the medication works.",
+          "hint": "wirkt",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
+        },
+        {
+          "tiles": [
+            "Anna",
+            "merkt,",
+            "dass",
+            "die",
+            "Beine",
+            "geschwollen",
+            "sind"
+          ],
+          "answers": [
+            "Anna merkt, dass die Beine geschwollen sind"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "sind",
+          "question": false,
+          "en": "Anna notices that the legs are swollen.",
+          "hint": "sind",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "heben",
+            "die",
+            "Beine,",
+            "wenn",
+            "sie",
+            "anschwellen"
+          ],
+          "answers": [
+            "Wir heben die Beine, wenn sie anschwellen"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "anschwellen",
+          "question": false,
+          "en": "We raise the legs when they swell.",
+          "hint": "anschwellen",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
+        },
+        {
+          "tiles": [
+            "Wenn",
+            "die",
+            "Pumpe",
+            "alarmiert,",
+            "kommt",
+            "Jonas",
+            "sofort"
+          ],
+          "answers": [
+            "Wenn die Pumpe alarmiert, kommt Jonas sofort"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "sofort",
+          "question": false,
+          "en": "When the pump alarms, Jonas comes at once.",
+          "hint": "sofort",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "trinkt",
+            "langsam,",
+            "denn",
+            "er",
+            "hat",
+            "Schluckbeschwerden"
+          ],
+          "answers": [
+            "Er trinkt langsam, denn er hat Schluckbeschwerden"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "Schluckbeschwerden",
+          "question": false,
+          "en": "He drinks slowly because he has swallowing problems.",
+          "hint": "Schluckbeschwerden",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "schließen",
+            "die",
+            "Tür,",
+            "wenn",
+            "er",
+            "ruhen",
+            "will"
+          ],
+          "answers": [
+            "Wir schließen die Tür, wenn er ruhen will"
+          ],
+          "punct": ".",
+          "modal": "nebensatz",
+          "inf": "will",
+          "question": false,
+          "en": "We close the door when he wants to rest.",
+          "hint": "will",
+          "feedback": {
+            "fallback": "Verbstellung im Nebensatz prüfen."
+          }
         }
       ]
     },
     {
-      "id": "picture-ward",
+      "id": "riddle",
+      "type": "riddle",
+      "label": "Fehler",
+      "title": "Fehler finden",
+      "practice": "error",
+      "instructions": "Welche Version ist korrekt?",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Haut juckt, weil die Salbe hat Alkohol."
+          ],
+          "options": [
+            "Die Haut juckt, weil die Salbe Alkohol hat.",
+            "Die Haut juckt, weil die Salbe hat Alkohol.",
+            "Die Haut juckt, denn die Salbe Alkohol hat."
+          ],
+          "answer": 0,
+          "reveal": "Die Haut juckt, weil die Salbe Alkohol hat.",
+          "hint": "hat"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ben notiert, das die Temperatur steigt."
+          ],
+          "options": [
+            "Ben notiert, dass die Temperatur steigt.",
+            "Ben notiert, das die Temperatur steigt.",
+            "Ben notiert, denn die Temperatur steigt."
+          ],
+          "answer": 0,
+          "reveal": "Ben notiert, dass die Temperatur steigt.",
+          "hint": "steigt"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir stoppen den Lauf, wenn er wird blass."
+          ],
+          "options": [
+            "Wir stoppen den Lauf, wenn er blass wird.",
+            "Wir stoppen den Lauf, wenn er wird blass.",
+            "Wir stoppen den Lauf, wenn wird er blass."
+          ],
+          "answer": 0,
+          "reveal": "Wir stoppen den Lauf, wenn er blass wird.",
+          "hint": "wird"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Weil der Tropfen hängt Lara spült die Leitung."
+          ],
+          "options": [
+            "Weil der Tropfen hängt, spült Lara die Leitung.",
+            "Weil der Tropfen hängt Lara spült die Leitung.",
+            "Weil hängt der Tropfen, spült Lara die Leitung."
+          ],
+          "answer": 0,
+          "reveal": "Weil der Tropfen hängt, spült Lara die Leitung.",
+          "hint": "Leitung"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie hört, dass der Patient schnarcht laut."
+          ],
+          "options": [
+            "Sie hört, dass der Patient schnarcht.",
+            "Sie hört, dass der Patient schnarcht laut.",
+            "Sie hört, das der Patient schnarcht."
+          ],
+          "answer": 0,
+          "reveal": "Sie hört, dass der Patient schnarcht.",
+          "hint": "schnarcht"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wenn er zittert deckt Jonas ihn zu."
+          ],
+          "options": [
+            "Wenn er zittert, deckt Jonas ihn zu.",
+            "Wenn er zittert deckt Jonas ihn zu.",
+            "Wenn zittert er, deckt Jonas ihn zu."
+          ],
+          "answer": 0,
+          "reveal": "Wenn er zittert, deckt Jonas ihn zu.",
+          "hint": "zu"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er isst wenig, denn der Appetit fehlt ihm stark."
+          ],
+          "options": [
+            "Er isst wenig, denn ihm fehlt der Appetit.",
+            "Er isst wenig, denn der Appetit fehlt ihm stark.",
+            "Er isst wenig, weil ihm fehlt der Appetit."
+          ],
+          "answer": 0,
+          "reveal": "Er isst wenig, denn ihm fehlt der Appetit.",
+          "hint": "Appetit"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Omar sieht, dass die Finger sind kalt."
+          ],
+          "options": [
+            "Omar sieht, dass die Finger kalt sind.",
+            "Omar sieht, dass die Finger sind kalt.",
+            "Omar sieht, das die Finger kalt sind."
+          ],
+          "answer": 0,
+          "reveal": "Omar sieht, dass die Finger kalt sind.",
+          "hint": "sind"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir wechseln das Hemd, wenn es wird nass."
+          ],
+          "options": [
+            "Wir wechseln das Hemd, wenn es nass wird.",
+            "Wir wechseln das Hemd, wenn es wird nass.",
+            "Wir wechseln das Hemd, wenn wird es nass."
+          ],
+          "answer": 0,
+          "reveal": "Wir wechseln das Hemd, wenn es nass wird.",
+          "hint": "wird"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wenn die Batterie leer ist Mira tauscht sie."
+          ],
+          "options": [
+            "Wenn die Batterie leer ist, tauscht Mira sie.",
+            "Wenn die Batterie leer ist Mira tauscht sie.",
+            "Wenn ist die Batterie leer, tauscht Mira sie."
+          ],
+          "answer": 0,
+          "reveal": "Wenn die Batterie leer ist, tauscht Mira sie.",
+          "hint": "sie"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er hustet trocken, weil er hat Reiz."
+          ],
+          "options": [
+            "Er hustet trocken, weil er Reiz hat.",
+            "Er hustet trocken, weil er hat Reiz.",
+            "Er hustet trocken, denn er Reiz hat."
+          ],
+          "answer": 0,
+          "reveal": "Er hustet trocken, weil er Reiz hat.",
+          "hint": "hat"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir blocken das Rad, wenn der Stuhl rollt frei."
+          ],
+          "options": [
+            "Wir blocken das Rad, wenn der Stuhl frei rollt.",
+            "Wir blocken das Rad, wenn der Stuhl rollt frei.",
+            "Wir blocken das Rad, wenn rollt der Stuhl frei."
+          ],
+          "answer": 0,
+          "reveal": "Wir blocken das Rad, wenn der Stuhl frei rollt.",
+          "hint": "rollt"
+        }
+      ]
+    },
+    {
+      "id": "picturematch",
       "type": "picturematch",
-      "label": "Pictures",
-      "title": "On the ward",
+      "label": "Bilder",
+      "title": "Bilder und Nebensätze",
       "practice": "picture",
-      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "instructions": "Passen Sie Wort und Bild.",
       "items": [
         {
           "id": "bett",
           "de": "Bett",
           "article": "das",
           "plural": "die Betten",
-          "en": "the bed he stays in",
-          "image": { "type": "svg", "id": "bed" },
-          "hint": "das"
-        },
-        {
-          "id": "pflaster",
-          "de": "Pflaster",
-          "article": "das",
-          "plural": "die Pflaster",
-          "en": "the plaster on the dressing trolley",
-          "image": { "type": "svg", "id": "plaster" },
-          "hint": "das"
+          "en": "bed — …, weil er liegen bleibt",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "weil"
         },
         {
           "id": "thermometer",
-          "de": "Thermometer",
+          "de": "Fieber",
           "article": "das",
-          "plural": "die Thermometer",
-          "en": "the thermometer for the fever",
-          "image": { "type": "svg", "id": "thermometer" },
-          "hint": "das"
+          "plural": "die Fieber",
+          "en": "fever — …, wenn das Fieber steigt",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "wenn"
         },
         {
-          "id": "akte",
-          "de": "Akte",
+          "id": "plaster",
+          "de": "Verband",
+          "article": "der",
+          "plural": "die Verbände",
+          "en": "dressing — …, wenn er niest",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "wenn"
+        },
+        {
+          "id": "wheelchair",
+          "de": "Stuhl",
+          "article": "der",
+          "plural": "die Stühle",
+          "en": "chair — …, wenn er rutscht",
+          "image": {
+            "type": "svg",
+            "id": "wheelchair"
+          },
+          "hint": "wenn"
+        },
+        {
+          "id": "infusion",
+          "de": "Tropfen",
+          "article": "der",
+          "plural": "die Tropfen",
+          "en": "drip — …, wenn der Tropfen stockt",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          },
+          "hint": "wenn"
+        },
+        {
+          "id": "water",
+          "de": "Wasser",
+          "article": "das",
+          "plural": "die Wasser",
+          "en": "water — …, weil ihm kalt / Durst",
+          "image": {
+            "type": "svg",
+            "id": "water"
+          },
+          "hint": "weil"
+        },
+        {
+          "id": "bpmonitor",
+          "de": "Puls",
+          "article": "der",
+          "plural": "die Pulse",
+          "en": "pulse — …, dass der Puls regelmäßig ist",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          },
+          "hint": "dass"
+        },
+        {
+          "id": "oberarzt",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor — Wir holen den Arzt, wenn …",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "wenn"
+        },
+        {
+          "id": "hands",
+          "de": "Wunde",
           "article": "die",
-          "plural": "die Akten",
-          "en": "the chart from the handover",
-          "image": { "type": "svg", "id": "clipboard" },
-          "hint": "die"
+          "plural": "die Wunden",
+          "en": "wound — …, dass die Wunde trocken aussieht",
+          "image": {
+            "type": "svg",
+            "id": "hands"
+          },
+          "hint": "dass"
+        },
+        {
+          "id": "syringe",
+          "de": "Spritze",
+          "article": "die",
+          "plural": "die Spritzen",
+          "en": "injection — …, weil die Spritze Angst macht",
+          "image": {
+            "type": "svg",
+            "id": "syringe"
+          },
+          "hint": "weil"
         }
       ]
     },
     {
-      "id": "build-nebensatz",
-      "type": "builder",
-      "label": "Build",
-      "title": "Comma on its tile",
-      "practice": "build",
-      "instructions": "The comma is printed on its tile. Close weil, dass and wenn with the verb. With denn, hat stays before Schmerzen.",
-      "items": [
-        {
-          "tiles": ["Er", "bleibt", "im", "Bett,", "weil", "er", "Schmerzen", "hat"],
-          "answers": ["Er bleibt im Bett, weil er Schmerzen hat"],
-          "punct": ".",
-          "modal": "bleibt",
-          "inf": "hat",
-          "question": false,
-          "en": "He stays in bed because he has pain.",
-          "hint": "hat last.",
-          "feedback": {
-            "end": "hat closes the weil-clause: weil er Schmerzen hat.",
-            "fallback": "bleibt is position 2. weil er Schmerzen hat, not weil er hat Schmerzen."
-          }
-        },
-        {
-          "tiles": ["Der", "Arzt", "sagt,", "dass", "der", "Patient", "Fieber", "hat"],
-          "answers": ["Der Arzt sagt, dass der Patient Fieber hat"],
-          "punct": ".",
-          "modal": "sagt",
-          "inf": "hat",
-          "question": false,
-          "en": "The doctor says that the patient has a fever.",
-          "hint": "hat last.",
-          "feedback": {
-            "end": "hat closes the dass-clause: dass der Patient Fieber hat.",
-            "fallback": "sagt, dass der Patient Fieber hat."
-          }
-        },
-        {
-          "tiles": ["Wenn", "er", "Fieber", "hat,", "rufen", "wir", "den", "Arzt"],
-          "answers": ["Wenn er Fieber hat, rufen wir den Arzt"],
-          "punct": ".",
-          "modal": "rufen",
-          "inf": "Arzt",
-          "question": false,
-          "en": "If he has a fever, we call the doctor.",
-          "hint": "rufen wir.",
-          "feedback": {
-            "end": "Arzt closes the main clause: rufen wir den Arzt.",
-            "fallback": "After the comma, rufen is position 2: rufen wir, not wir rufen."
-          }
-        },
-        {
-          "tiles": ["Er", "bleibt", "im", "Bett,", "denn", "er", "hat", "Schmerzen"],
-          "answers": ["Er bleibt im Bett, denn er hat Schmerzen"],
-          "punct": ".",
-          "modal": "bleibt",
-          "inf": "Schmerzen",
-          "question": false,
-          "en": "He stays in bed because he has pain.",
-          "hint": "hat Schmerzen.",
-          "feedback": {
-            "end": "With denn, Schmerzen is last. hat stays in position 2.",
-            "fallback": "denn er hat Schmerzen. Not denn er Schmerzen hat."
-          }
-        }
-      ]
-    },
-    {
-      "id": "transform-nebensatz",
-      "label": "Rewrite",
-      "title": "One sentence",
-      "practice": "transform",
-      "type": "gapfill",
-      "instructions": "Choose the finished sentence. A fronted clause puts the main verb next.",
-      "chips": [
-        { "w": "Er bleibt im Bett, weil er Schmerzen hat", "hint": "weil, verb last." },
-        { "w": "Weil er Schmerzen hat, bleibt er im Bett", "hint": "weil first." },
-        { "w": "Der Arzt sagt, dass der Patient Fieber hat", "hint": "dass." },
-        { "w": "Wenn er Fieber hat, rufen wir den Arzt", "hint": "wenn first." },
-        { "w": "Wir rufen den Arzt, wenn er Fieber hat", "hint": "wenn last." },
-        { "w": "Er bleibt im Bett, denn er hat Schmerzen", "hint": "denn, position 2." }
-      ],
-      "items": [
-        {
-          "before": "weil, hinten:",
-          "after": ".",
-          "answer": "Er bleibt im Bett, weil er Schmerzen hat",
-          "en": "He stays in bed because he has pain.",
-          "why": "weil er Schmerzen hat.",
-          "tip": "hat last.",
-          "hint": "hat."
-        },
-        {
-          "before": "weil, vorn:",
-          "after": ".",
-          "answer": "Weil er Schmerzen hat, bleibt er im Bett",
-          "en": "Because he has pain, he stays in bed.",
-          "why": "bleibt er.",
-          "tip": "Main verb next.",
-          "hint": "bleibt."
-        },
-        {
-          "before": "dass:",
-          "after": ".",
-          "answer": "Der Arzt sagt, dass der Patient Fieber hat",
-          "en": "The doctor says that the patient has a fever.",
-          "why": "dass der Patient Fieber hat.",
-          "tip": "hat last.",
-          "hint": "dass."
-        },
-        {
-          "before": "wenn, vorn:",
-          "after": ".",
-          "answer": "Wenn er Fieber hat, rufen wir den Arzt",
-          "en": "If he has a fever, we call the doctor.",
-          "why": "rufen wir.",
-          "tip": "Main verb next.",
-          "hint": "rufen."
-        },
-        {
-          "before": "wenn, hinten:",
-          "after": ".",
-          "answer": "Wir rufen den Arzt, wenn er Fieber hat",
-          "en": "We call the doctor if he has a fever.",
-          "why": "wenn er Fieber hat.",
-          "tip": "hat last.",
-          "hint": "hat."
-        },
-        {
-          "before": "denn:",
-          "after": ".",
-          "answer": "Er bleibt im Bett, denn er hat Schmerzen",
-          "en": "He stays in bed because he has pain.",
-          "why": "denn er hat Schmerzen.",
-          "tip": "Position 2.",
-          "hint": "hat."
-        }
-      ]
-    },
-    {
-      "id": "error-nebensatz",
-      "type": "riddle",
-      "label": "Error",
-      "title": "Finde den Fehler",
-      "practice": "error",
-      "instructions": "The last line has the verb in the wrong place, or das instead of dass. Choose the correction.",
-      "items": [
-        {
-          "clues": ["Because he stays in bed.", "weil sends the verb to the end.", "Er bleibt im Bett, weil er hat Schmerzen."],
-          "options": ["Er bleibt im Bett, weil er Schmerzen hat.", "Er bleibt im Bett, weil er hat Schmerzen.", "Er bleibt im Bett, denn er Schmerzen hat."],
-          "answer": 0,
-          "reveal": "Er bleibt im Bett, weil er Schmerzen hat.",
-          "hint": "hat last."
-        },
-        {
-          "clues": ["Because, and the verb stays in position 2.", "denn is not weil.", "Er bleibt im Bett, denn er Schmerzen hat."],
-          "options": ["Er bleibt im Bett, denn er hat Schmerzen.", "Er bleibt im Bett, denn er Schmerzen hat.", "Denn er Schmerzen hat, bleibt er im Bett."],
-          "answer": 0,
-          "reveal": "Er bleibt im Bett, denn er hat Schmerzen.",
-          "hint": "hat Schmerzen."
-        },
-        {
-          "clues": ["The doctor reports the fever.", "dass, verb at the end.", "Der Arzt sagt, dass der Patient hat Fieber."],
-          "options": ["Der Arzt sagt, dass der Patient Fieber hat.", "Der Arzt sagt, dass der Patient hat Fieber.", "Der Arzt sagt, das der Patient Fieber hat."],
-          "answer": 0,
-          "reveal": "Der Arzt sagt, dass der Patient Fieber hat.",
-          "hint": "Fieber hat."
-        },
-        {
-          "clues": ["If he has a fever, we call.", "The wenn-clause is position 1.", "Wenn er Fieber hat, wir rufen den Arzt."],
-          "options": ["Wenn er Fieber hat, rufen wir den Arzt.", "Wenn er Fieber hat, wir rufen den Arzt.", "Wenn er hat Fieber, rufen wir den Arzt."],
-          "answer": 0,
-          "reveal": "Wenn er Fieber hat, rufen wir den Arzt.",
-          "hint": "rufen wir."
-        },
-        {
-          "clues": ["The wound opens if he gets up.", "The prefix stays on the verb.", "Die Wunde öffnet sich, wenn er steht auf."],
-          "options": ["Die Wunde öffnet sich, wenn er aufsteht.", "Die Wunde öffnet sich, wenn er steht auf.", "Die Wunde öffnet sich, wenn er auf steht."],
-          "answer": 0,
-          "reveal": "Die Wunde öffnet sich, wenn er aufsteht.",
-          "hint": "aufsteht."
-        },
-        {
-          "clues": ["Because he has pain, he stays.", "The main verb is position 2.", "Weil er Schmerzen hat, er bleibt im Bett."],
-          "options": ["Weil er Schmerzen hat, bleibt er im Bett.", "Weil er Schmerzen hat, er bleibt im Bett.", "Weil er hat Schmerzen, bleibt er im Bett."],
-          "answer": 0,
-          "reveal": "Weil er Schmerzen hat, bleibt er im Bett.",
-          "hint": "bleibt er."
-        }
-      ]
-    },
-    {
-      "id": "dialogue-handover",
-      "label": "Dialogue",
-      "title": "At the bedside",
+      "id": "dialogfill",
+      "type": "dialogfill",
+      "label": "Dialog",
+      "title": "Übergabe: Nebensätze",
       "practice": "dialogue",
-      "type": "gapfill",
-      "instructions": "The label names the speaker. A capital Wenn or Weil starts the sentence. denn keeps hat before Schmerzen.",
-      "chips": [
-        { "w": "weil", "hint": "because, verb last." },
-        { "w": "dass", "hint": "that." },
-        { "w": "wenn", "hint": "if, verb last." },
-        { "w": "denn", "hint": "because, position 2." },
-        { "w": "Wenn", "hint": "if, clause first." },
-        { "w": "Weil", "hint": "because, clause first." }
-      ],
-      "items": [
-        {
-          "who": "Arzt",
-          "before": "Arzt, Grund: Er bleibt im Bett,",
-          "after": "er Schmerzen hat.",
-          "answer": "weil",
-          "en": "He stays in bed because he has pain.",
-          "why": "weil er Schmerzen hat.",
-          "tip": "hat last.",
-          "hint": "weil."
+      "instructions": "Wählen Sie den passenden Konnektor.",
+      "sceneTitle": "Übergabe am Bett",
+      "scene": "Mira und Jonas berichten über den Patienten.",
+      "speakers": {
+        "mira": {
+          "name": "Mira",
+          "role": "Pflegerin",
+          "avatar": "👩‍⚕️"
         },
-        {
-          "who": "Arzt",
-          "before": "Arzt, Bericht: Ich sage,",
-          "after": "der Patient Fieber hat.",
-          "answer": "dass",
-          "en": "I say that the patient has a fever.",
-          "why": "dass der Patient Fieber hat.",
-          "tip": "dass.",
-          "hint": "dass."
+        "jonas": {
+          "name": "Jonas",
+          "role": "Pfleger",
+          "avatar": "👨‍⚕️"
         },
-        {
-          "who": "Pflegekraft",
-          "before": "Pflegekraft, hinten: Wir rufen den Arzt,",
-          "after": "er Fieber hat.",
-          "answer": "wenn",
-          "en": "We call the doctor if he has a fever.",
-          "why": "wenn er Fieber hat.",
-          "tip": "wenn.",
-          "hint": "wenn."
+        "arzt": {
+          "name": "Dr. Klein",
+          "role": "Arzt",
+          "avatar": "🩺"
         },
-        {
-          "who": "Pflegekraft",
-          "before": "Pflegekraft, denn: Er bleibt im Bett,",
-          "after": "er hat Schmerzen.",
-          "answer": "denn",
-          "en": "He stays in bed because he has pain.",
-          "why": "denn er hat Schmerzen.",
-          "tip": "Position 2.",
-          "hint": "denn."
-        },
-        {
-          "who": "Patient",
-          "before": "Patient, vorn:",
-          "after": "ich Fieber habe, rufen Sie den Arzt.",
-          "answer": "Wenn",
-          "en": "If I have a fever, call the doctor.",
-          "why": "Wenn ich Fieber habe, rufen Sie.",
-          "tip": "habe at the end, then rufen Sie.",
-          "hint": "Wenn."
-        },
-        {
-          "who": "Patient",
-          "before": "Patient, weil vorn:",
-          "after": "ich Schmerzen habe, bleibe ich im Bett.",
-          "answer": "Weil",
-          "en": "Because I have pain, I stay in bed.",
-          "why": "Weil ich Schmerzen habe, bleibe ich.",
-          "tip": "habe at the end, then bleibe ich.",
-          "hint": "Weil."
+        "pat": {
+          "name": "Herr Braun",
+          "role": "Patient",
+          "avatar": "🤒"
         }
-      ]
-    },
-    {
-      "id": "gap-verb",
-      "label": "Order",
-      "title": "Where is the verb?",
-      "practice": "gap",
-      "type": "gapfill",
-      "instructions": "weil, dass and wenn: the chunk ends with the verb. denn: hat comes first. A fronted clause: the main verb comes next. aufstehen stays one word.",
-      "chips": [
-        { "w": "Schmerzen hat", "hint": "weil." },
-        { "w": "hat Schmerzen", "hint": "denn." },
-        { "w": "Fieber hat", "hint": "dass." },
-        { "w": "rufen wir", "hint": "wenn first." },
-        { "w": "bleibt er", "hint": "weil first." },
-        { "w": "aufsteht", "hint": "one word." },
-        { "w": "steht auf", "hint": "main-clause split." },
-        { "w": "wir rufen", "hint": "subject first." },
-        { "w": "er bleibt", "hint": "subject first." }
-      ],
-      "items": [
-        {
-          "before": "weil: Er bleibt im Bett, weil er",
-          "after": ".",
-          "answer": "Schmerzen hat",
-          "en": "He stays in bed because he has pain.",
-          "why": "Schmerzen hat.",
-          "tip": "Verb last.",
-          "hint": "hat."
-        },
-        {
-          "before": "denn: Er bleibt im Bett, denn er",
-          "after": ".",
-          "answer": "hat Schmerzen",
-          "en": "He stays in bed because he has pain.",
-          "why": "hat Schmerzen.",
-          "tip": "Position 2.",
-          "hint": "hat."
-        },
-        {
-          "before": "dass: Der Arzt sagt, dass der Patient",
-          "after": ".",
-          "answer": "Fieber hat",
-          "en": "The doctor says that the patient has a fever.",
-          "why": "Fieber hat.",
-          "tip": "Verb last.",
-          "hint": "hat."
-        },
-        {
-          "before": "wenn vorn: Wenn er Fieber hat,",
-          "after": "den Arzt.",
-          "answer": "rufen wir",
-          "en": "If he has a fever, we call the doctor.",
-          "why": "rufen wir.",
-          "tip": "Verb, then subject.",
-          "hint": "rufen."
-        },
-        {
-          "before": "weil vorn: Weil er Schmerzen hat,",
-          "after": "im Bett.",
-          "answer": "bleibt er",
-          "en": "Because he has pain, he stays in bed.",
-          "why": "bleibt er.",
-          "tip": "Verb, then subject.",
-          "hint": "bleibt."
-        },
-        {
-          "before": "aufstehen: Die Wunde öffnet sich, wenn er",
-          "after": ".",
-          "answer": "aufsteht",
-          "en": "The wound opens if he gets up.",
-          "why": "aufsteht.",
-          "tip": "One word.",
-          "hint": "aufsteht."
-        }
-      ]
-    },
-    {
-      "id": "reading",
-      "type": "reading",
-      "label": "Reading",
-      "title": "The handover",
-      "practice": "reading",
-      "instructions": "Read the note. Then answer from the text.",
-      "document": {
-        "letterhead": "Station 4 · Übergabe",
-        "title": "Die Übergabe",
-        "paragraphs": [
-          "Er bleibt im Bett, weil er Schmerzen hat. Der Arzt sagt, dass der Patient Fieber hat.",
-          "Wenn er Fieber hat, rufen wir den Arzt. Er bleibt im Bett, denn er hat Schmerzen."
-        ],
-        "signature": "Anna",
-        "stamp": "Station"
       },
-      "questions": [
+      "listenLabel": "Dialog anhören",
+      "lines": [
         {
-          "kind": "mc",
-          "q": "Warum bleibt er im Bett?",
-          "qEn": "The reason in the note.",
-          "options": ["Er hat Schmerzen.", "Er hat Fieber.", "Wir rufen den Arzt."],
-          "answer": 0,
-          "why": "Er hat Schmerzen.",
-          "hint": "Schmerzen."
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Frau Lang braucht Ruhe, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "weil",
+                "denn"
+              ],
+              "answer": 0,
+              "why": "weil → Verb am Ende"
+            },
+            {
+              "text": " der Lärm sie stört."
+            }
+          ]
         },
         {
-          "kind": "mc",
-          "q": "Was sagt der Arzt?",
-          "qEn": "The dass-clause.",
-          "options": ["Der Patient hat Fieber.", "Der Patient hat Schmerzen.", "Er bleibt im Bett."],
-          "answer": 0,
-          "why": "Der Patient hat Fieber.",
-          "hint": "Fieber."
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Die Pflege dokumentiert, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "dass",
+                "das"
+              ],
+              "answer": 0,
+              "why": "dass, nicht das"
+            },
+            {
+              "text": " er gut getrunken hat."
+            }
+          ]
         },
         {
-          "kind": "mc",
-          "q": "Wann rufen wir den Arzt?",
-          "qEn": "The condition.",
-          "options": ["Wenn er Fieber hat.", "Weil er Schmerzen hat.", "Denn er hat Schmerzen."],
-          "answer": 0,
-          "why": "Wenn er Fieber hat.",
-          "hint": "Wenn."
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Wir holen den Arzt, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "wenn",
+                "dann"
+              ],
+              "answer": 0,
+              "why": "wenn → Verb am Ende"
+            },
+            {
+              "text": " der Druck weiter fällt."
+            }
+          ]
         },
         {
-          "kind": "mc",
-          "q": "Wen rufen wir?",
-          "qEn": "Accusative.",
-          "options": ["den Arzt", "die Pflegekraft", "den Patienten"],
-          "answer": 0,
-          "why": "den Arzt.",
-          "hint": "Arzt."
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Sie spricht leise am Bett, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "denn",
+                "weil"
+              ],
+              "answer": 0,
+              "why": "denn → Verb Position 2"
+            },
+            {
+              "text": " er hat Migräne."
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Bestätigen Sie, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "dass",
+                "das"
+              ],
+              "answer": 0,
+              "why": "dass + Verb am Ende"
+            },
+            {
+              "text": " die Lippen rosa sind."
+            }
+          ]
+        },
+        {
+          "who": "pat",
+          "parts": [
+            {
+              "text": "Ich bleibe sitzen, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "weil",
+                "denn"
+              ],
+              "answer": 0,
+              "why": "weil → Verb am Ende"
+            },
+            {
+              "text": " mir schwindelig wird."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Weil die Werte kippen, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "rufe",
+                "ich rufe"
+              ],
+              "answer": 0,
+              "why": "Nebensatz vorn → Verb folgt"
+            },
+            {
+              "text": " ich den Notarzt."
+            }
+          ]
+        },
+        {
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Wir reichen die Nierenschale, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "wenn",
+                "weil"
+              ],
+              "answer": 0,
+              "why": "Zeit/Bedingung → wenn"
+            },
+            {
+              "text": " er würgt."
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Und "
+            },
+            {
+              "gap": true,
+              "options": [
+                "wenn",
+                "denn"
+              ],
+              "answer": 0,
+              "why": "Bedingung → wenn"
+            },
+            {
+              "text": " der Tropf stockt, prüfen Sie die Leitung."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Verstanden. Wir schließen die Vorhänge, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "wenn",
+                "dass"
+              ],
+              "answer": 0,
+              "why": "Zeit/Bedingung → wenn"
+            },
+            {
+              "text": " er schlafen will."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "writing-nebensatz",
-      "type": "writing",
-      "label": "Writing",
-      "title": "Four handover lines",
+      "id": "sentencewrite",
+      "type": "sentencewrite",
+      "label": "Schreiben",
+      "title": "Sätze schreiben",
       "practice": "writing",
-      "instructions": "Write four sentences. weil, dass and wenn close with the verb. denn keeps hat in position 2.",
-      "prompt": "Because he has pain, he stays in bed. The doctor says that the patient has a fever. If he has a fever, we call the doctor. He stays in bed, denn he has pain.",
-      "bullets": ["weil er Schmerzen hat", "dass der Patient Fieber hat", "wenn er Fieber hat, rufen", "denn er hat Schmerzen"],
-      "model": "Weil er Schmerzen hat, bleibt er im Bett. Der Arzt sagt, dass der Patient Fieber hat. Wenn er Fieber hat, rufen wir den Arzt. Er bleibt im Bett, denn er hat Schmerzen.",
-      "modelEn": "Because he has pain, he stays in bed. The doctor says that the patient has a fever. If he has a fever, we call the doctor. He stays in bed, denn he has pain.",
-      "hint": "weil er Schmerzen hat. dass der Patient Fieber hat. Wenn er Fieber hat, rufen. denn er hat Schmerzen.",
-      "checklist": [
-        { "id": "w", "label": "weil er Schmerzen hat", "keywords": ["weil er schmerzen hat"] },
-        { "id": "d", "label": "dass der Patient Fieber hat", "keywords": ["dass der patient fieber hat"] },
-        { "id": "n", "label": "wenn er Fieber hat, rufen", "keywords": ["wenn er fieber hat, rufen"] },
-        { "id": "c", "label": "denn er hat Schmerzen", "keywords": ["denn er hat schmerzen"] }
+      "instructions": "Schreiben Sie den Satz mit richtiger Verbstellung.",
+      "items": [
+        {
+          "cue": "Migräne • weil • flüstert",
+          "answers": [
+            "Die Schwester flüstert, weil er Migräne hat",
+            "Weil er Migräne hat, flüstert die Schwester"
+          ],
+          "marks": [
+            {
+              "wrong": "weil er hat Migräne",
+              "right": "weil er Migräne hat",
+              "reason": "Verb am Ende"
+            }
+          ],
+          "en": "The nurse whispers because he has a migraine.",
+          "hint": "Die Schwester flüstert, weil er Migräne hat"
+        },
+        {
+          "cue": "Verband • dass • rutscht",
+          "answers": [
+            "Tom meldet, dass der Verband rutscht",
+            "Er meldet, dass der Verband rutscht"
+          ],
+          "marks": [
+            {
+              "wrong": "das der Verband",
+              "right": "dass der Verband",
+              "reason": "dass ≠ das"
+            }
+          ],
+          "en": "Tom reports that the dressing is slipping.",
+          "hint": "Tom meldet, dass der Verband rutscht"
+        },
+        {
+          "cue": "Tee • wenn • durstig wird",
+          "answers": [
+            "Wir reichen Tee, wenn er durstig wird",
+            "Wenn er durstig wird, reichen wir Tee"
+          ],
+          "marks": [
+            {
+              "wrong": "wenn er wird durstig",
+              "right": "wenn er durstig wird",
+              "reason": "Verb am Ende"
+            }
+          ],
+          "en": "We pass tea when he becomes thirsty.",
+          "hint": "Wir reichen Tee, wenn er durstig wird"
+        },
+        {
+          "cue": "Alarm piept • Weil • läuft Bett",
+          "answers": [
+            "Weil der Alarm piept, läuft Mira zum Bett",
+            "Mira läuft zum Bett, weil der Alarm piept"
+          ],
+          "marks": [
+            {
+              "wrong": "Weil der Alarm piept Mira läuft",
+              "right": "Weil der Alarm piept, läuft Mira",
+              "reason": "Hauptsatz-Verb folgt"
+            }
+          ],
+          "en": "Because the alarm beeps, Mira runs to the bed.",
+          "hint": "Weil der Alarm piept, läuft Mira zum Bett"
+        },
+        {
+          "cue": "Tropf • dass • offen ist",
+          "answers": [
+            "Sie kontrolliert, dass der Tropf offen ist",
+            "Mira kontrolliert, dass der Tropf offen ist"
+          ],
+          "marks": [
+            {
+              "wrong": "dass der Tropf ist offen",
+              "right": "dass der Tropf offen ist",
+              "reason": "Verb am Ende"
+            }
+          ],
+          "en": "She checks that the drip is open.",
+          "hint": "Sie kontrolliert, dass der Tropf offen ist"
+        },
+        {
+          "cue": "würgt • Wenn • hält Schale",
+          "answers": [
+            "Wenn er würgt, hält Jonas die Schale",
+            "Jonas hält die Schale, wenn er würgt"
+          ],
+          "marks": [
+            {
+              "wrong": "Wenn er würgt Jonas hält",
+              "right": "Wenn er würgt, hält Jonas",
+              "reason": "Hauptsatz-Verb folgt"
+            }
+          ],
+          "en": "When he gags, Jonas holds the bowl.",
+          "hint": "Wenn er würgt, hält Jonas die Schale"
+        },
+        {
+          "cue": "Stelle • wenn • heiß wird",
+          "answers": [
+            "Wir kühlen die Stelle, wenn sie heiß wird",
+            "Wenn sie heiß wird, kühlen wir die Stelle"
+          ],
+          "marks": [
+            {
+              "wrong": "wenn sie wird heiß",
+              "right": "wenn sie heiß wird",
+              "reason": "Verb am Ende"
+            }
+          ],
+          "en": "We cool the spot when it gets hot.",
+          "hint": "Wir kühlen die Stelle, wenn sie heiß wird"
+        },
+        {
+          "cue": "Beutel voll • Wenn • wechselt",
+          "answers": [
+            "Wenn der Beutel voll ist, wechselt Jonas ihn",
+            "Jonas wechselt ihn, wenn der Beutel voll ist"
+          ],
+          "marks": [
+            {
+              "wrong": "Wenn der Beutel voll ist Jonas wechselt",
+              "right": "Wenn der Beutel voll ist, wechselt Jonas",
+              "reason": "Hauptsatz-Verb folgt"
+            }
+          ],
+          "en": "When the bag is full, Jonas changes it.",
+          "hint": "Wenn der Beutel voll ist, wechselt Jonas ihn"
+        },
+        {
+          "cue": "still • denn • Mittel macht müde",
+          "answers": [
+            "Er liegt still, denn das Mittel macht müde",
+            "Denn das Mittel macht müde, liegt er still"
+          ],
+          "marks": [
+            {
+              "wrong": "denn das Mittel müde macht",
+              "right": "denn das Mittel macht müde",
+              "reason": "denn → Verb Position 2"
+            }
+          ],
+          "en": "He lies still because the medicine makes him tired.",
+          "hint": "Er liegt still, denn das Mittel macht müde"
+        },
+        {
+          "cue": "Gurt • wenn • unruhig wird",
+          "answers": [
+            "Wir sichern den Gurt, wenn er unruhig wird",
+            "Wenn er unruhig wird, sichern wir den Gurt"
+          ],
+          "marks": [
+            {
+              "wrong": "wenn er wird unruhig",
+              "right": "wenn er unruhig wird",
+              "reason": "Verb am Ende"
+            }
+          ],
+          "en": "We secure the strap when he becomes restless.",
+          "hint": "Wir sichern den Gurt, wenn er unruhig wird"
+        }
       ]
     },
     {
@@ -933,139 +4666,215 @@
       "label": "Test",
       "title": "Lernkontrolle",
       "practice": "lernkontrolle",
-      "heroTitle": "weil er Schmerzen hat",
-      "heroImage": "thermometer",
-      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
-      "questionRule": "weil, dass and wenn: verb at the end. denn: verb in position 2. A fronted clause is position 1.",
-      "quizTitle": "Lernkontrolle",
+      "heroTitle": "Können Sie Nebensätze?",
+      "heroImage": "clipboard",
+      "story": [
+        "Prüfen Sie Konnektor und Verbstellung am Ende."
+      ],
+      "tables": [],
+      "warning": {
+        "title": "Tipp",
+        "items": [
+          {
+            "de": "✓ …, weil er Schmerzen hat.",
+            "en": "Verb am Ende",
+            "tone": "ok"
+          },
+          {
+            "de": "✓ …, denn er hat Schmerzen.",
+            "en": "denn → Position 2",
+            "tone": "ok"
+          }
+        ],
+        "tip": "weil/dass/wenn → Ende · denn → Pos. 2 · das ≠ dass"
+      },
+      "questionRule": "Wählen Sie die richtige Lösung.",
+      "quizTitle": "Lernkontrolle Nebensätze",
       "quiz": [
         {
           "kind": "mc",
-          "q": "Because he has pain. weil.",
-          "qEn": "Verb at the end.",
-          "options": ["Er bleibt im Bett, weil er Schmerzen hat.", "Er bleibt im Bett, weil er hat Schmerzen.", "Er bleibt im Bett, denn er Schmerzen hat."],
+          "q": "Er bleibt liegen, weil er Schmerzen ___.",
+          "options": [
+            "hat",
+            "hat er",
+            "er hat"
+          ],
           "answer": 0,
-          "why": "weil er Schmerzen hat.",
-          "hint": "hat."
+          "why": "weil → Verb am Ende.",
+          "hint": "hat"
         },
         {
           "kind": "mc",
-          "q": "Because he has pain. denn.",
-          "qEn": "Verb in position 2.",
-          "options": ["Er bleibt im Bett, denn er hat Schmerzen.", "Er bleibt im Bett, denn er Schmerzen hat.", "Er bleibt im Bett, weil er hat Schmerzen."],
+          "q": "Der Arzt sagt, ___ die Wunde nass ist.",
+          "options": [
+            "dass",
+            "das",
+            "denn"
+          ],
           "answer": 0,
-          "why": "denn er hat Schmerzen.",
-          "hint": "hat Schmerzen."
+          "why": "dass = Konjunktion.",
+          "hint": "dass"
         },
         {
           "kind": "mc",
-          "q": "The doctor says that the patient has a fever.",
-          "qEn": "dass.",
-          "options": ["Der Arzt sagt, dass der Patient Fieber hat.", "Der Arzt sagt, dass der Patient hat Fieber.", "Der Arzt sagt, das der Patient Fieber hat."],
+          "q": "Wir messen erneut, wenn der Puls ___.",
+          "options": [
+            "steigt",
+            "steigt der Puls",
+            "der Puls steigt"
+          ],
           "answer": 0,
-          "why": "dass der Patient Fieber hat.",
-          "hint": "dass."
+          "why": "wenn → Verb am Ende.",
+          "hint": "steigt"
         },
         {
           "kind": "mc",
-          "q": "If he has a fever, we call the doctor.",
-          "qEn": "Clause first.",
-          "options": ["Wenn er Fieber hat, rufen wir den Arzt.", "Wenn er Fieber hat, wir rufen den Arzt.", "Wenn er hat Fieber, rufen wir den Arzt."],
+          "q": "Er trinkt Wasser, ___ er hat Durst.",
+          "options": [
+            "denn",
+            "weil",
+            "dass"
+          ],
           "answer": 0,
-          "why": "rufen wir.",
-          "hint": "rufen wir."
+          "why": "denn hält hat auf Position 2.",
+          "hint": "denn"
         },
         {
           "kind": "mc",
-          "q": "We call the doctor if he has a fever.",
-          "qEn": "wenn at the end.",
-          "options": ["Wir rufen den Arzt, wenn er Fieber hat.", "Wir rufen den Arzt, wenn er hat Fieber.", "Wir rufen den Arzt, denn er Fieber hat."],
+          "q": "Weil er Schwindel hat, ___ er sich.",
+          "options": [
+            "setzt",
+            "er setzt",
+            "setzen"
+          ],
           "answer": 0,
-          "why": "wenn er Fieber hat.",
-          "hint": "Fieber hat."
+          "why": "Nebensatz vorn → Hauptsatz-Verb.",
+          "hint": "setzt"
         },
         {
           "kind": "mc",
-          "q": "Because he has pain, he stays. weil is first.",
-          "qEn": "Main verb next.",
-          "options": ["Weil er Schmerzen hat, bleibt er im Bett.", "Weil er Schmerzen hat, er bleibt im Bett.", "Weil er hat Schmerzen, bleibt er im Bett."],
+          "q": "Die Naht hält, wenn er nicht ___.",
+          "options": [
+            "aufsteht",
+            "steht auf",
+            "auf steht"
+          ],
           "answer": 0,
-          "why": "bleibt er.",
-          "hint": "bleibt er."
+          "why": "trennbares Verb zusammen am Ende.",
+          "hint": "aufsteht"
         },
         {
           "kind": "mc",
-          "q": "Because, and the verb goes to the end. Which word?",
-          "qEn": "weil, not denn, not deshalb.",
-          "options": ["weil", "denn", "deshalb"],
+          "q": "Jonas meldet, dass die Infusion leer ___.",
+          "options": [
+            "ist",
+            "ist die Infusion",
+            "die Infusion ist"
+          ],
           "answer": 0,
-          "why": "weil.",
-          "hint": "weil."
+          "why": "dass → Verb am Ende.",
+          "hint": "ist"
         },
         {
           "kind": "mc",
-          "q": "Because, and the verb stays in position 2. Which word?",
-          "qEn": "denn, not weil.",
-          "options": ["denn", "weil", "wenn"],
+          "q": "___ er Fieber hat, geben wir Paracetamol.",
+          "options": [
+            "Wenn",
+            "Denn",
+            "Dann"
+          ],
           "answer": 0,
-          "why": "denn.",
-          "hint": "denn."
+          "why": "wenn öffnet den Nebensatz.",
+          "hint": "Wenn"
         },
         {
           "kind": "mc",
-          "q": "If, and the verb goes to the end. Which word?",
-          "qEn": "wenn, not dann, not denn.",
-          "options": ["wenn", "dann", "denn"],
+          "q": "Sie wartet, weil der Arzt noch nicht ___.",
+          "options": [
+            "kommt",
+            "kommt der Arzt",
+            "der Arzt kommt"
+          ],
           "answer": 0,
-          "why": "wenn.",
-          "hint": "wenn."
+          "why": "weil → Verb am Ende.",
+          "hint": "kommt"
         },
         {
           "kind": "mc",
-          "q": "that, not the article. Which word?",
-          "qEn": "dass, not das.",
-          "options": ["dass", "das", "denn"],
+          "q": "Mira schreibt, ___ der Blutdruck fällt.",
+          "options": [
+            "dass",
+            "das",
+            "wenn"
+          ],
           "answer": 0,
-          "why": "dass.",
-          "hint": "dass."
+          "why": "dass + Verb am Ende.",
+          "hint": "dass"
         },
         {
           "kind": "mc",
-          "q": "The wound opens if he gets up.",
-          "qEn": "One word.",
-          "options": ["wenn er aufsteht", "wenn er steht auf", "wenn er auf steht"],
+          "q": "Er bleibt ruhig, denn er ___ Schmerzmittel.",
+          "options": [
+            "hat",
+            "hat er",
+            "er hat"
+          ],
           "answer": 0,
-          "why": "aufsteht.",
-          "hint": "aufsteht."
+          "why": "denn → Verb Position 2.",
+          "hint": "hat"
         },
         {
           "kind": "mc",
-          "q": "Weil er Schmerzen hat, ___ im Bett.",
-          "qEn": "Main verb, then subject.",
-          "options": ["bleibt er", "er bleibt", "bleiben er"],
+          "q": "Wenn er geht, ___ wir den Rollstuhl.",
+          "options": [
+            "holen",
+            "wir holen",
+            "holst"
+          ],
           "answer": 0,
-          "why": "bleibt er.",
-          "hint": "bleibt."
+          "why": "Nebensatz vorn → Verb folgt.",
+          "hint": "holen"
         }
       ]
     },
     {
       "id": "summary",
       "type": "summary",
-      "label": "Summary",
-      "title": "Weil er Schmerzen hat",
-      "reviewStepType": "grammar",
+      "label": "Ziel",
+      "title": "Nebensätze",
       "redemittel": [
-        { "de": "Er bleibt im Bett, weil er Schmerzen hat.", "en": "He stays in bed because he has pain." },
-        { "de": "Der Arzt sagt, dass der Patient Fieber hat.", "en": "The doctor says that the patient has a fever." },
-        { "de": "Wenn er Fieber hat, rufen wir den Arzt.", "en": "If he has a fever, we call the doctor." },
-        { "de": "Er bleibt im Bett, denn er hat Schmerzen.", "en": "He stays in bed because he has pain, with denn." }
+        {
+          "de": "Er bleibt im Bett, weil er Schmerzen hat.",
+          "en": "He stays in bed because he has pain."
+        },
+        {
+          "de": "Der Arzt sagt, dass das Fieber steigt.",
+          "en": "The doctor says that the fever is rising."
+        },
+        {
+          "de": "Wir rufen den Arzt, wenn die Werte steigen.",
+          "en": "We call the doctor when the values rise."
+        },
+        {
+          "de": "Weil er Schmerzen hat, bleibt er im Bett.",
+          "en": "Because he has pain, he stays in bed."
+        }
+      ],
+      "rules": [
+        {
+          "c": "N",
+          "rule": "weil, dass, wenn → finites Verb am Ende des Nebensatzes."
+        },
+        {
+          "c": "N",
+          "rule": "denn → Verb Position 2. das ≠ dass. Nebensatz vorn = Position 1."
+        }
       ],
       "messages": [
-        "Look again at the verb at the end.",
-        "weil, dass and wenn send the verb to the end. denn keeps hat in position 2.",
-        "Sehr gut. Weil er Schmerzen hat, bleibt er im Bett.",
-        "Ausgezeichnet. You can open a subordinate clause on the ward."
+        "Noch üben: Verb ans Ende nach weil/dass/wenn.",
+        "Gut — die Nebensätze sitzen besser.",
+        "Sehr gut — weiter so in der Übergabe.",
+        "Stark! Kapitel 42 geschafft."
       ]
     }
   ]
