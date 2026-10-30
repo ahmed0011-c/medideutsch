@@ -3,888 +3,2920 @@
   "platform": "MediDeutsch",
   "interfaceLanguage": "en",
   "targetLanguage": "de-DE",
+  "exerciseLanguage": "de",
   "scoring": {
     "firstTry": 2,
     "afterRetry": 1,
     "wordExplorePoints": 8,
     "hintCost": 1,
     "tipPoints": 1,
-    "stars": { "1": 0.4, "2": 0.7, "3": 0.9 }
+    "stars": {
+      "1": 0.4,
+      "2": 0.7,
+      "3": 0.9
+    }
   },
   "id": "b1-39-superlativ",
   "level": "B1",
   "unit": "Kapitel 39",
   "chapter": 39,
-  "chapters": [39],
+  "chapters": [
+    39
+  ],
   "title": "Das Fieber ist am höchsten",
-  "subtitle": "Superlative",
+  "subtitle": "Superlativ: der/die/das …ste und am …sten",
+  "scenarios": [
+    "a2-krankenhaus",
+    "a2-patienten",
+    "a2-vitalwerte",
+    "a2-notfall",
+    "b1-beschwerden",
+    "b1-aufnahme"
+  ],
   "glossary": {
-    "der": { "de": "der", "pos": "article", "en": "the (masculine)", "emoji": "🔵" },
-    "kleinste": {
-      "de": "kleinste",
-      "pos": "adjective",
-      "en": "smallest",
-      "emoji": "🔹",
-      "note": "klein → der kleinste. No umlaut. Nominative singular after der ends in -e."
-    },
-    "patient": {
-      "de": "Patient",
+    "Abend": {
+      "de": "Abend",
       "pos": "noun",
-      "en": "patient (male)",
-      "emoji": "🤒",
+      "en": "evening",
+      "article": "der"
+    },
+    "Alarm": {
+      "de": "Alarm",
+      "pos": "noun",
+      "en": "alarm",
       "article": "der",
-      "plural": "die Patienten",
-      "note": "Accusative singular: den Patienten. One man, not the plural."
+      "plural": "die Alarme",
+      "emoji": "🚨"
+    },
+    "Am": {
+      "de": "Am",
+      "pos": "other",
+      "en": "Am (capitalized)"
+    },
+    "Anna": {
+      "de": "Anna",
+      "pos": "name",
+      "en": "Anna"
+    },
+    "Anruf": {
+      "de": "Anruf",
+      "pos": "noun",
+      "en": "call",
+      "article": "der",
+      "plural": "die Anrufe",
+      "emoji": "📞"
+    },
+    "Auf": {
+      "de": "Auf",
+      "pos": "preposition",
+      "en": "On"
+    },
+    "Bad": {
+      "de": "Bad",
+      "pos": "noun",
+      "en": "bathroom",
+      "article": "das"
+    },
+    "Bein": {
+      "de": "Bein",
+      "pos": "noun",
+      "en": "leg",
+      "article": "das",
+      "plural": "die Beine"
+    },
+    "Bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "Bilder": {
+      "de": "Bilder",
+      "pos": "noun",
+      "en": "pictures",
+      "article": "die",
+      "plural": "die Bilder"
+    },
+    "Bitte": {
+      "de": "Bitte",
+      "pos": "other",
+      "en": "please"
+    },
+    "Braun": {
+      "de": "Braun",
+      "pos": "name",
+      "en": "Braun (surname)"
+    },
+    "Brei": {
+      "de": "Brei",
+      "pos": "noun",
+      "en": "mash",
+      "article": "der"
+    },
+    "Das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢",
+      "note": "das frische Wasser. das already shows -s, so the adjective takes -e. Not das frisches."
+    },
+    "Der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵",
+      "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet."
+    },
+    "Die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)",
+      "emoji": "📋",
+      "note": "die Akte."
+    },
+    "Dr": {
+      "de": "Dr",
+      "pos": "other",
+      "en": "Dr."
+    },
+    "Er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "Fall": {
+      "de": "Fall",
+      "pos": "noun",
+      "en": "case",
+      "article": "der",
+      "plural": "die Fälle"
+    },
+    "Fehler": {
+      "de": "Fehler",
+      "pos": "noun",
+      "en": "mistake",
+      "article": "der"
+    },
+    "Fieber": {
+      "de": "Fieber",
+      "pos": "noun",
+      "en": "fever",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "Finde": {
+      "de": "Finde",
+      "pos": "form",
+      "en": "Find"
+    },
+    "Für": {
+      "de": "Für",
+      "pos": "preposition",
+      "en": "For"
+    },
+    "Handschuhe": {
+      "de": "Handschuhe",
+      "pos": "noun",
+      "en": "gloves"
+    },
+    "Haut": {
+      "de": "Haut",
+      "pos": "noun",
+      "en": "skin",
+      "article": "die"
+    },
+    "Herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "gentleman",
+      "emoji": "🎩",
+      "article": "der",
+      "plural": "die Herren",
+      "note": "Nominative der Herr. No -n. Oblique singular Herrn. Plural die Herren."
+    },
+    "Heute": {
+      "de": "Heute",
+      "pos": "adverb",
+      "en": "Today"
+    },
+    "Hilfe": {
+      "de": "Hilfe",
+      "pos": "noun",
+      "en": "help",
+      "article": "die",
+      "plural": "die Hilfen",
+      "emoji": "🆘"
+    },
+    "Jetzt": {
+      "de": "Jetzt",
+      "pos": "adverb",
+      "en": "Now"
+    },
+    "Jonas": {
+      "de": "Jonas",
+      "pos": "name",
+      "en": "Jonas (first name)"
+    },
+    "Kaffee": {
+      "de": "Kaffee",
+      "pos": "noun",
+      "en": "coffee",
+      "article": "der"
+    },
+    "Kind": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "child",
+      "article": "das",
+      "plural": "die Kinder",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "Klein": {
+      "de": "Klein",
+      "pos": "name",
+      "en": "Klein"
+    },
+    "Kollege": {
+      "de": "Kollege",
+      "pos": "noun",
+      "en": "colleague",
+      "article": "der",
+      "plural": "die Kollegen"
+    },
+    "Kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague (female)",
+      "emoji": "👩‍⚕️",
+      "article": "die",
+      "plural": "die Kolleginnen",
+      "note": "die Kollegin. Dative der Kollegin. mit der wir sprechen. The masculine Kollege adds -n: dem Kollegen, chapter 64."
+    },
+    "Kontrolle": {
+      "de": "Kontrolle",
+      "pos": "noun",
+      "en": "check",
+      "article": "die"
+    },
+    "Können": {
+      "de": "Können",
+      "pos": "other",
+      "en": "Können",
+      "emoji": "🔤"
+    },
+    "Lernkontrolle": {
+      "de": "Lernkontrolle",
+      "pos": "noun",
+      "en": "chapter test",
+      "article": "die",
+      "plural": "die Lernkontrollen",
+      "emoji": "🩺"
+    },
+    "Luft": {
+      "de": "Luft",
+      "pos": "noun",
+      "en": "air",
+      "article": "die"
+    },
+    "Mann": {
+      "de": "Mann",
+      "pos": "noun",
+      "en": "man",
+      "article": "der",
+      "plural": "die Männer"
+    },
+    "Mira": {
+      "de": "Mira",
+      "pos": "name",
+      "en": "Mira (first name)"
+    },
+    "Morgen": {
+      "de": "Morgen",
+      "pos": "noun",
+      "en": "morning",
+      "article": "der"
+    },
+    "Nachbarin": {
+      "de": "Nachbarin",
+      "pos": "noun",
+      "en": "neighbour (female)",
+      "article": "die"
+    },
+    "Nacht": {
+      "de": "Nacht",
+      "pos": "noun",
+      "en": "night",
+      "article": "die"
+    },
+    "Nachts": {
+      "de": "Nachts",
+      "pos": "adverb",
+      "en": "At night"
+    },
+    "Nah": {
+      "de": "Nah",
+      "pos": "adjective",
+      "en": "Near (capitalized in quiz)"
+    },
+    "Patient": {
+      "de": "Patient",
+      "pos": "noun.m",
+      "en": "patient (male)",
+      "article": "der",
+      "plural": "Patienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "Patientin": {
+      "de": "Patientin",
+      "pos": "noun.f",
+      "en": "patient (female)",
+      "article": "die",
+      "plural": "Patientinnen",
+      "emoji": "🤒",
+      "image": {
+        "type": "svg",
+        "id": "patientin"
+      }
+    },
+    "Paul": {
+      "de": "Paul",
+      "pos": "name",
+      "en": "Paul"
+    },
+    "Pfleger": {
+      "de": "Pfleger",
+      "pos": "noun",
+      "en": "male nurse",
+      "article": "der"
+    },
+    "Puls": {
+      "de": "Puls",
+      "pos": "noun",
+      "en": "pulse",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "bpmonitor"
+      }
+    },
+    "Saft": {
+      "de": "Saft",
+      "pos": "noun",
+      "en": "juice",
+      "article": "der",
+      "plural": "die Säfte",
+      "image": {
+        "type": "svg",
+        "id": "juice"
+      }
+    },
+    "Schicht": {
+      "de": "Schicht",
+      "pos": "noun",
+      "en": "shift",
+      "article": "die"
+    },
+    "Sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she",
+      "emoji": "👩‍⚕️"
+    },
+    "Station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "article": "die",
+      "image": {
+        "type": "svg",
+        "id": "ward"
+      }
+    },
+    "Stuhl": {
+      "de": "Stuhl",
+      "pos": "noun",
+      "en": "chair",
+      "article": "der",
+      "plural": "die Stühle",
+      "image": {
+        "type": "svg",
+        "id": "chair"
+      }
+    },
+    "Superlativ": {
+      "de": "Superlativ",
+      "pos": "noun",
+      "en": "superlative",
+      "article": "der"
+    },
+    "Sätze": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "article": "der",
+      "plural": "die Sätze",
+      "emoji": "🩺"
+    },
+    "Tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "article": "die",
+      "plural": "die Tabletten",
+      "image": {
+        "type": "svg",
+        "id": "tablet"
+      }
+    },
+    "Tee": {
+      "de": "Tee",
+      "pos": "noun",
+      "en": "tea",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "juice"
+      }
+    },
+    "Temperatur": {
+      "de": "Temperatur",
+      "pos": "noun",
+      "en": "temperature",
+      "article": "die"
+    },
+    "Termin": {
+      "de": "Termin",
+      "pos": "noun",
+      "en": "appointment",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Termine"
+    },
+    "Verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing, bandage",
+      "article": "der",
+      "plural": "die Verbände",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Verbände": {
+      "de": "Verbände",
+      "pos": "noun",
+      "en": "dressings"
+    },
+    "Visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "article": "die",
+      "plural": "die Visiten"
+    },
+    "Wach": {
+      "de": "Wach",
+      "pos": "adjective",
+      "en": "awake"
+    },
+    "Wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "water"
+      }
+    },
+    "Weg": {
+      "de": "Weg",
+      "pos": "noun",
+      "en": "way",
+      "article": "der"
+    },
+    "Welcher": {
+      "de": "welcher",
+      "pos": "determiner",
+      "en": "which"
+    },
+    "Wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "Wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "article": "die",
+      "plural": "die Wunden",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Zeit": {
+      "de": "Zeit",
+      "pos": "noun",
+      "en": "time",
+      "article": "die"
+    },
+    "Zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "article": "das",
+      "plural": "die Zimmer",
+      "image": {
+        "type": "svg",
+        "id": "room"
+      }
+    },
+    "Zur": {
+      "de": "Zur",
+      "pos": "other",
+      "en": "To the"
+    },
+    "alt": {
+      "de": "alt",
+      "pos": "adjective",
+      "en": "old (stem; add the ending)"
+    },
+    "alteste": {
+      "de": "alteste",
+      "pos": "other",
+      "en": "wrong — missing umlaut (älteste)"
+    },
+    "am": {
+      "de": "am",
+      "pos": "other",
+      "en": "superlative marker (an dem)",
+      "emoji": "📌",
+      "note": "Nach dem Verb: am + …sten."
+    },
+    "arbeiten": {
+      "de": "arbeiten → wir arbeiten",
+      "pos": "form",
+      "en": "work",
+      "emoji": "👥",
+      "note": "wir arbeiten. Verb at the end. Wir arbeiten mit den Ärzten stays a main clause."
+    },
+    "arbeitet": {
+      "de": "arbeiten → sie arbeitet",
+      "pos": "form",
+      "en": "works",
+      "emoji": "👩‍⚕️",
+      "note": "Sie arbeitet außerhalb der Schicht. Outside the shift, genitive."
+    },
+    "atmet": {
+      "de": "atmen → er atmet",
+      "pos": "form",
+      "en": "breathes",
+      "emoji": "💨",
+      "note": "damit er atmet. Finite verb, last. He is not the subject of hebt."
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "bauen": {
+      "de": "bauen",
+      "pos": "form",
+      "en": "to build"
+    },
+    "beginnt": {
+      "de": "beginnen → sie beginnt",
+      "pos": "form",
+      "en": "begins",
+      "emoji": "🏥",
+      "note": "At the end of the bevor-clause. Bevor die OP beginnt. Not beginnt die OP inside the clause."
+    },
+    "bessersten": {
+      "de": "bessersten",
+      "pos": "other",
+      "en": "wrong — use besten"
+    },
+    "besten": {
+      "de": "besten",
+      "pos": "adjective",
+      "en": "best",
+      "emoji": "✅",
+      "note": "am besten — von gut."
+    },
+    "bleiben": {
+      "de": "bleiben → ich bleibe",
+      "pos": "form",
+      "en": "stay",
+      "emoji": "🛏️",
+      "note": "Bare infinitive at the end: würde ich bleiben. No zu."
     },
     "bleibt": {
       "de": "bleiben → er bleibt",
       "pos": "form",
       "en": "stays",
-      "emoji": "⏸️",
-      "note": "im Bett is location."
-    },
-    "im": { "de": "im (= in dem)", "pos": "preposition", "en": "in the", "emoji": "📥" },
-    "bett": {
-      "de": "Bett",
-      "pos": "noun",
-      "en": "bed",
       "emoji": "🛏️",
-      "article": "das",
-      "plural": "die Betten"
+      "note": "Der Patient bleibt im Bett liegen. Bare infinitive, no zu. Der Patient bleibt im Bett, with no second verb, stays correct too."
     },
-    "das": { "de": "das", "pos": "article", "en": "the (neuter)", "emoji": "🟢" },
-    "fieber": { "de": "Fieber", "pos": "noun", "en": "fever", "emoji": "🌡️", "article": "das" },
-    "ist": { "de": "sein → es ist", "pos": "form", "en": "is", "emoji": "🔵" },
-    "am": {
-      "de": "am (= an dem)",
+    "brauchen": {
+      "de": "brauchen",
+      "pos": "verb",
+      "en": "to need"
+    },
+    "braucht": {
+      "de": "braucht",
+      "pos": "verb",
+      "en": "needs (brauchen)"
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢",
+      "note": "das frische Wasser. das already shows -s, so the adjective takes -e. Not das frisches."
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine)",
+      "emoji": "🔵",
+      "note": "den Patienten. Accusative singular after lassen, sehen and hören. Also the dative plural."
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵",
+      "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet."
+    },
+    "desinfizieren": {
+      "de": "desinfizieren",
+      "pos": "verb",
+      "en": "to disinfect"
+    },
+    "deutlichen": {
+      "de": "deutlichen",
+      "pos": "adjective",
+      "en": "clear (wrong superlative)"
+    },
+    "deutlichersten": {
+      "de": "deutlichersten",
+      "pos": "other",
+      "en": "wrong form"
+    },
+    "deutlichsten": {
+      "de": "deutlichsten",
+      "pos": "adjective",
+      "en": "most clearly"
+    },
+    "dickste": {
+      "de": "dickste",
+      "pos": "adjective",
+      "en": "thickest (wrong plural ending here)"
+    },
+    "dicksten": {
+      "de": "dicksten",
+      "pos": "adjective",
+      "en": "thickest"
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)",
+      "emoji": "📋",
+      "note": "die Akte."
+    },
+    "dokumentiert": {
+      "de": "dokumentieren → dokumentiert",
+      "pos": "verb",
+      "en": "documents"
+    },
+    "draußen": {
+      "de": "draußen",
+      "pos": "adverb",
+      "en": "outside"
+    },
+    "dringenden": {
+      "de": "dringenden",
+      "pos": "adjective",
+      "en": "urgent (not superlative)"
+    },
+    "dringendsten": {
+      "de": "dringendsten",
+      "pos": "adjective",
+      "en": "most urgent"
+    },
+    "dringster": {
+      "de": "dringster",
+      "pos": "other",
+      "en": "wrong form"
+    },
+    "einsetzen": {
+      "de": "einsetzen",
+      "pos": "other",
+      "en": "einsetzen",
+      "emoji": "🔤"
+    },
+    "fester": {
+      "de": "fester",
+      "pos": "adjective",
+      "en": "firmer"
+    },
+    "festesten": {
+      "de": "festesten",
+      "pos": "adjective",
+      "en": "firmest"
+    },
+    "finden": {
+      "de": "finden",
+      "pos": "other",
+      "en": "finden",
+      "emoji": "🔤"
+    },
+    "flacher": {
+      "de": "flacher",
+      "pos": "adjective",
+      "en": "shallower"
+    },
+    "flachsten": {
+      "de": "flachsten",
+      "pos": "adjective",
+      "en": "shallowest"
+    },
+    "frühersten": {
+      "de": "frühersten",
+      "pos": "other",
+      "en": "wrong form"
+    },
+    "früheste": {
+      "de": "früheste",
+      "pos": "adjective",
+      "en": "earliest"
+    },
+    "frühesten": {
+      "de": "frühesten",
+      "pos": "adjective",
+      "en": "earliest"
+    },
+    "frühhersten": {
+      "de": "frühhersten",
+      "pos": "other",
+      "en": "wrong form"
+    },
+    "für": {
+      "de": "für",
       "pos": "preposition",
-      "en": "the fixed superlative marker",
-      "emoji": "🏆",
-      "note": "After a verb the superlative is am + -en: am höchsten. It stays am for die and der. Not am der."
+      "en": "for",
+      "emoji": "🎯"
+    },
+    "gern": {
+      "de": "gern",
+      "pos": "particle",
+      "en": "gladly",
+      "emoji": "💧",
+      "note": "Wish: Ich hätte gern Wasser. gern from chapter 39. The comparative lieber and am liebsten stay there."
+    },
+    "gernstens": {
+      "de": "gernstens",
+      "pos": "other",
+      "en": "wrong — use liebsten"
+    },
+    "groß": {
+      "de": "groß",
+      "pos": "adjective",
+      "en": "big, large"
+    },
+    "großten": {
+      "de": "großten",
+      "pos": "other",
+      "en": "wrong — need umlaut"
+    },
+    "größesten": {
+      "de": "größesten",
+      "pos": "other",
+      "en": "wrong — no extra e"
+    },
+    "größte": {
+      "de": "größte",
+      "pos": "adjective",
+      "en": "biggest (attributive)"
+    },
+    "größten": {
+      "de": "größten",
+      "pos": "adjective",
+      "en": "biggest"
+    },
+    "gründlicher": {
+      "de": "gründlicher",
+      "pos": "adjective",
+      "en": "more thoroughly"
+    },
+    "gründlichsten": {
+      "de": "gründlichsten",
+      "pos": "adjective",
+      "en": "most thoroughly"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "good; well",
+      "emoji": "👍"
+    },
+    "gutesten": {
+      "de": "gutesten",
+      "pos": "other",
+      "en": "wrong — use besten"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "📅"
+    },
+    "hilft": {
+      "de": "helfen → hilft",
+      "pos": "verb",
+      "en": "helps"
+    },
+    "hochersten": {
+      "de": "hochersten",
+      "pos": "other",
+      "en": "wrong — use höchsten"
+    },
+    "hochste": {
+      "de": "hochste",
+      "pos": "other",
+      "en": "wrong — use höchste"
+    },
+    "hochsten": {
+      "de": "hochsten",
+      "pos": "other",
+      "en": "wrong — use höchsten"
+    },
+    "hohersten": {
+      "de": "hohersten",
+      "pos": "other",
+      "en": "wrong — use höchsten"
+    },
+    "hustet": {
+      "de": "hustet",
+      "pos": "form",
+      "en": "hustet — coughs"
+    },
+    "höchste": {
+      "de": "höchste",
+      "pos": "adjective",
+      "en": "highest (attributive)"
     },
     "höchsten": {
       "de": "höchsten",
       "pos": "adjective",
       "en": "highest",
       "emoji": "🌡️",
-      "note": "hoch → höher → am höchsten. The superlative stem is höchst, with ch. Not hochsten, not höhsten, not höchesten."
+      "note": "am höchsten — Superlativ von hoch."
     },
-    "anruf": {
-      "de": "Anruf",
-      "pos": "noun",
-      "en": "call",
-      "emoji": "📞",
-      "article": "der",
-      "plural": "die Anrufe"
-    },
-    "dringendsten": {
-      "de": "dringendsten",
+    "höher": {
+      "de": "höher",
       "pos": "adjective",
-      "en": "most urgent",
-      "emoji": "🚨",
-      "note": "dringend ends in d, so -est: am dringendsten."
+      "en": "higher"
     },
-    "die": { "de": "die", "pos": "article", "en": "the (feminine or plural)", "emoji": "🔴" },
-    "älteste": {
-      "de": "älteste",
+    "ihn": {
+      "de": "ihn",
+      "pos": "pronoun",
+      "en": "him",
+      "emoji": "🏥",
+      "note": "Accusative. Sie setzt ihn auf das Bett. The full noun is den Patienten."
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in the",
+      "emoji": "🛏️",
+      "note": "im = in + dem. Dative. Der Patient bleibt im Bett liegen. liegen asks wo? ins Bett is direction, chapter 62, and stays correct with legen."
+    },
+    "isst": {
+      "de": "essen → er isst",
+      "pos": "form",
+      "en": "eats",
+      "emoji": "🍽️",
+      "note": "er isst. Entweder isst er, oder er trinkt. Not the noun das Essen."
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is; has (with sein)",
+      "emoji": "🟦",
+      "note": "aufstehen takes sein: ist aufgestanden. Not hat aufgestanden."
+    },
+    "jetzt": {
+      "de": "jetzt",
+      "pos": "adverb",
+      "en": "now"
+    },
+    "jung": {
+      "de": "jung",
       "pos": "adjective",
-      "en": "oldest",
-      "emoji": "👵",
-      "note": "alt → älter → die älteste. Umlaut, and -est because alt ends in t."
+      "en": "young (stem; add the ending)"
     },
-    "patientin": {
-      "de": "Patientin",
-      "pos": "noun",
-      "en": "patient (female)",
-      "emoji": "🤒",
-      "article": "die",
-      "plural": "die Patientinnen",
-      "note": "der Patient → die Patientin. No umlaut."
+    "jungste": {
+      "de": "jungste",
+      "pos": "other",
+      "en": "wrong — missing umlaut"
     },
-    "trinkt": { "de": "trinken → sie trinkt", "pos": "form", "en": "drinks", "emoji": "🥤" },
-    "wasser": { "de": "Wasser", "pos": "noun", "en": "water", "emoji": "💧", "article": "das" },
-    "anna": { "de": "Anna", "pos": "name", "en": "the nurse's name", "emoji": "🧑‍⚕️" },
-    "läuft": { "de": "laufen → sie läuft", "pos": "form", "en": "runs", "emoji": "🏃" },
+    "jüngste": {
+      "de": "jüngste",
+      "pos": "adjective",
+      "en": "youngest"
+    },
+    "jüngster": {
+      "de": "jüngster",
+      "pos": "adjective",
+      "en": "wrong ending after der"
+    },
+    "klein": {
+      "de": "klein",
+      "pos": "adjective",
+      "en": "small"
+    },
+    "kleine": {
+      "de": "kleine",
+      "pos": "adjective",
+      "en": "small"
+    },
+    "kleiner": {
+      "de": "kleiner",
+      "pos": "adjective",
+      "en": "small (ending -er)"
+    },
+    "kleinste": {
+      "de": "kleinste",
+      "pos": "adjective",
+      "en": "smallest",
+      "emoji": "📉",
+      "note": "Superlativ von klein vor dem Nomen."
+    },
+    "kleinsten": {
+      "de": "kleinsten",
+      "pos": "adjective",
+      "en": "superlative declined / wrong nom."
+    },
+    "kleinster": {
+      "de": "kleinster",
+      "pos": "adjective",
+      "en": "wrong — use kleinste after der"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "infinitive",
+      "en": "to come",
+      "emoji": "👀",
+      "note": "Ich sehe den Patienten kommen. No zu. Der Patient kommt stays the finite verb."
+    },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Der behandelnde Arzt kommt."
+    },
+    "kürzeste": {
+      "de": "kürzeste",
+      "pos": "adjective",
+      "en": "shortest (wrong akk ending)"
+    },
+    "kürzesten": {
+      "de": "kürzesten",
+      "pos": "adjective",
+      "en": "shortest"
+    },
+    "lieber": {
+      "de": "lieber",
+      "pos": "adverb",
+      "en": "preferably"
+    },
+    "liebersten": {
+      "de": "liebersten",
+      "pos": "other",
+      "en": "wrong — use liebsten"
+    },
+    "liebsten": {
+      "de": "liebsten",
+      "pos": "adjective",
+      "en": "most preferably"
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "infinitive",
+      "en": "to lie",
+      "emoji": "🛏️",
+      "note": "Der Patient bleibt liegen. Position, no object, chapter 62. Der Patient liegt im Bett stays the finite verb. Not bleibt legen."
+    },
+    "läuft": {
+      "de": "laufen → läuft",
+      "pos": "verb",
+      "en": "walks; runs"
+    },
+    "mehrsten": {
+      "de": "mehrsten",
+      "pos": "other",
+      "en": "wrong — use meisten"
+    },
+    "meisten": {
+      "de": "meisten",
+      "pos": "adjective",
+      "en": "most"
+    },
+    "nachts": {
+      "de": "nachts",
+      "pos": "adverb",
+      "en": "at night"
+    },
+    "nahe": {
+      "de": "nahe",
+      "pos": "adjective",
+      "en": "near"
+    },
+    "nahste": {
+      "de": "nahste",
+      "pos": "other",
+      "en": "wrong — use nächste"
+    },
+    "nehmen": {
+      "de": "nehmen",
+      "pos": "verb",
+      "en": "to take",
+      "emoji": "✋"
+    },
+    "nächste": {
+      "de": "nächste",
+      "pos": "adjective",
+      "en": "next / nearest"
+    },
+    "nächster": {
+      "de": "nächster",
+      "pos": "adjective",
+      "en": "wrong ending after der"
+    },
+    "reichen": {
+      "de": "reichen",
+      "pos": "verb",
+      "en": "to hand, to pass"
+    },
+    "ruhiger": {
+      "de": "ruhiger",
+      "pos": "adjective",
+      "en": "calmer"
+    },
+    "ruhigsten": {
+      "de": "ruhigsten",
+      "pos": "adjective",
+      "en": "quietest"
+    },
+    "schläft": {
+      "de": "schlafen → er schläft",
+      "pos": "form",
+      "en": "sleeps",
+      "emoji": "😴",
+      "note": "At the end of the während-clause. Der Patient schläft stays a main clause, verb second."
+    },
     "schnellsten": {
       "de": "schnellsten",
       "pos": "adjective",
-      "en": "fastest",
-      "emoji": "⚡",
-      "note": "schnell → am schnellsten. No umlaut."
+      "en": "fastest"
     },
-    "übergabe": {
+    "schnellster": {
+      "de": "schnellster",
+      "pos": "adjective",
+      "en": "wrong am-form ending"
+    },
+    "schreiben": {
+      "de": "schreiben",
+      "pos": "form",
+      "en": "write"
+    },
+    "sechs": {
+      "de": "sechs",
+      "pos": "number",
+      "en": "six"
+    },
+    "sein": {
+      "de": "sein",
+      "pos": "verb",
+      "en": "to be",
+      "emoji": "⏪",
+      "note": "Yesterday: war, warst, war, waren, wart, waren."
+    },
+    "seltensten": {
+      "de": "seltensten",
+      "pos": "adjective",
+      "en": "most rarely"
+    },
+    "sitzt": {
+      "de": "sitzen → er sitzt",
+      "pos": "form",
+      "en": "sits",
+      "emoji": "🪑",
+      "note": "du sitzt and ihr sitzt look the same. She sitzt. Formal Sie sitzen. Not setzt."
+    },
+    "sorgfältigsten": {
+      "de": "sorgfältigsten",
+      "pos": "adjective",
+      "en": "most carefully"
+    },
+    "spricht": {
+      "de": "sprechen → sie spricht mit",
+      "pos": "form",
+      "en": "speaks",
+      "emoji": "🗣️",
+      "note": "sprechen mit takes the dative. du sprichst. ihr sprecht. She spricht. Formal Sie sprechen."
+    },
+    "stark": {
+      "de": "stark",
+      "pos": "adjective",
+      "en": "severe (no ending after sein)",
+      "emoji": "🩹",
+      "note": "Der Schmerz ist stark. No ending after sein. ein starker Schmerz is before the noun and stays chapter 36."
+    },
+    "starksten": {
+      "de": "starksten",
+      "pos": "other",
+      "en": "wrong — missing umlaut"
+    },
+    "stehen": {
+      "de": "stehen",
+      "pos": "infinitive",
+      "en": "to stand",
+      "emoji": "🧍",
+      "note": "Position, wo? Es steht auf dem Tisch. Not auf den. A thermometer can also lie."
+    },
+    "stärkere": {
+      "de": "stärkere",
+      "pos": "adjective",
+      "en": "stronger"
+    },
+    "stärkersten": {
+      "de": "stärkersten",
+      "pos": "other",
+      "en": "wrong form"
+    },
+    "stärkste": {
+      "de": "stärkste",
+      "pos": "adjective",
+      "en": "strongest (attributive)"
+    },
+    "stärksten": {
+      "de": "stärksten",
+      "pos": "adjective",
+      "en": "strongest"
+    },
+    "tiefersten": {
+      "de": "tiefersten",
+      "pos": "other",
+      "en": "wrong form"
+    },
+    "tiefste": {
+      "de": "tiefste",
+      "pos": "adjective",
+      "en": "wrong am-form"
+    },
+    "tiefsten": {
+      "de": "tiefsten",
+      "pos": "adjective",
+      "en": "deepest"
+    },
+    "trinken": {
+      "de": "trinken",
+      "pos": "infinitive",
+      "en": "to drink",
+      "emoji": "🥤",
+      "note": "zu trinken. Chapter 68. Der Patient trinkt is the finite verb."
+    },
+    "trinkt": {
+      "de": "trinken → er trinkt",
+      "pos": "form",
+      "en": "drinks",
+      "emoji": "💧",
+      "note": "Er trinkt frisches Wasser. Er trinkt das frische Wasser. Der Patient trinkt etwas Kaltes stays chapter 66."
+    },
+    "trockensten": {
+      "de": "trockensten",
+      "pos": "adjective",
+      "en": "driest"
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (clock time)",
+      "emoji": "🕗",
+      "note": "um acht. Clock time takes um."
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "viel": {
+      "de": "viel",
+      "pos": "determiner",
+      "en": "much, a lot of",
+      "emoji": "💰",
+      "note": "viel Geld. Geld is a mass noun, so not viele."
+    },
+    "vielsten": {
+      "de": "vielsten",
+      "pos": "other",
+      "en": "wrong — use meisten"
+    },
+    "wach": {
+      "de": "wach",
+      "pos": "adjective",
+      "en": "awake",
+      "emoji": "🔤"
+    },
+    "wartet": {
+      "de": "warten → er wartet",
+      "pos": "form",
+      "en": "waits",
+      "emoji": "⏳",
+      "note": "Ein schlafender Patient wartet. Singular. Der Jugendliche wartet stays chapter 65."
+    },
+    "waschen": {
+      "de": "Waschen",
+      "pos": "noun",
+      "en": "washing",
+      "article": "das",
+      "plural": "die Waschen",
+      "emoji": "🩺"
+    },
+    "weichsten": {
+      "de": "weichsten",
+      "pos": "adjective",
+      "en": "softest"
+    },
+    "weint": {
+      "de": "weint",
+      "pos": "form",
+      "en": "weint — cries (weinen)"
+    },
+    "weniger": {
+      "de": "weniger",
+      "pos": "adjective",
+      "en": "less"
+    },
+    "wenigsten": {
+      "de": "wenigsten",
+      "pos": "adjective",
+      "en": "least"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "wirkt": {
+      "de": "wirkt",
+      "pos": "form",
+      "en": "wirkt — appears / seems (wirken)"
+    },
+    "wählen": {
+      "de": "wählen",
+      "pos": "verb",
+      "en": "to choose"
+    },
+    "wärmsten": {
+      "de": "wärmsten",
+      "pos": "adjective",
+      "en": "warmest"
+    },
+    "zehn": {
+      "de": "zehn",
+      "pos": "number",
+      "en": "ten",
+      "emoji": "🕙"
+    },
+    "zur": {
+      "de": "zur",
+      "pos": "contraction",
+      "en": "zu + der"
+    },
+    "Übergabe": {
       "de": "Übergabe",
       "pos": "noun",
       "en": "handover",
       "emoji": "🗣️",
       "article": "die",
       "plural": "die Übergaben"
+    },
+    "älteste": {
+      "de": "älteste",
+      "pos": "adjective",
+      "en": "oldest"
+    },
+    "ältester": {
+      "de": "ältester",
+      "pos": "adjective",
+      "en": "wrong ending after die"
     }
   },
   "steps": [
     {
       "id": "overview",
       "type": "overview",
-      "label": "Start",
-      "title": "The highest degree",
-      "learn": [
-        "Before a noun the superlative takes an adjective ending. Nominative singular after der, die or das ends in -e: der kleinste Patient, die älteste Patientin, das höchste Fieber.",
-        "After a verb, with no noun on the superlative, use am plus -en. Das Fieber ist am höchsten. Anna läuft am schnellsten. am stays am for every subject. Not am der.",
-        "Umlaut where chapter 38 already has one. alt → am ältesten. jung → am jüngsten. hoch → am höchsten, and the stem is höchst. groß → am größten.",
-        "The irregulars do not add -st to the comparative. gut → am besten. viel → die meisten. gern → am liebsten. dringend ends in d, so am dringendsten."
-      ],
+      "label": "Überblick",
+      "title": "Superlativ auf Station",
       "minutes": 25,
-      "vocab": [
-        { "de": "Patient", "article": "der", "plural": "die Patienten", "en": "patient (male)", "emoji": "🤒", "glossaryKey": "patient" },
-        { "de": "Fieber", "article": "das", "en": "fever", "emoji": "🌡️", "glossaryKey": "fieber" },
-        { "de": "Anruf", "article": "der", "plural": "die Anrufe", "en": "call", "emoji": "📞", "glossaryKey": "anruf" },
-        { "de": "Bett", "article": "das", "plural": "die Betten", "en": "bed", "emoji": "🛏️", "image": { "type": "svg", "id": "bed" }, "glossaryKey": "bett" }
+      "learn": [
+        "Vor dem Nomen: Artikel + Superlativ auf -ste — der kleinste Patient, die älteste Patientin, das höchste Fieber.",
+        "Nach dem Verb: am + Superlativ auf -sten — Das Fieber ist am höchsten. Mira läuft am schnellsten.",
+        "Umlaut wie im Komparativ: alt → am ältesten. Unregelmäßig: gut → am besten, gern → am liebsten, viel → am meisten / die meisten."
       ],
       "text": {
-        "title": "Der kleinste Patient",
-        "de": "Der kleinste Patient bleibt im Bett. Das Fieber ist am höchsten. Der Anruf ist am dringendsten. Die älteste Patientin trinkt Wasser. Anna läuft am schnellsten.",
-        "en": "The smallest patient stays in bed. The fever is the highest. The call is the most urgent. The oldest patient drinks water. Anna runs the fastest."
-      }
+        "title": "Visite · Superlativ",
+        "de": "Der kleinste Patient bleibt im Bett. Das Fieber ist am höchsten. Der Anruf ist am dringendsten. Die älteste Patientin trinkt Wasser. Mira läuft am schnellsten. Tee ist am besten.",
+        "en": "The smallest patient stays in bed. The fever is the highest. The call is the most urgent. The oldest patient drinks water. Mira runs the fastest. Tea is the best."
+      },
+      "vocab": [
+        {
+          "de": "kleinste",
+          "en": "smallest — der kleinste Patient",
+          "emoji": "📉",
+          "glossaryKey": "kleinste"
+        },
+        {
+          "de": "höchsten",
+          "en": "highest — am höchsten",
+          "emoji": "🌡️",
+          "glossaryKey": "höchsten"
+        },
+        {
+          "de": "besten",
+          "en": "best — am besten (von gut)",
+          "emoji": "✅",
+          "glossaryKey": "besten"
+        },
+        {
+          "de": "am",
+          "en": "superlative marker after the verb — am + -sten",
+          "emoji": "📌",
+          "glossaryKey": "am"
+        }
+      ]
     },
     {
       "id": "grammar",
       "type": "grammar",
-      "label": "Grammar",
-      "title": "am höchsten",
+      "label": "Grammatik",
+      "title": "Superlativ",
       "practice": "choose",
-      "heroTitle": "Das Fieber ist am höchsten",
+      "heroTitle": "der kleinste · am höchsten",
       "heroImage": "thermometer",
       "story": [
-        "Chapter 38 stops at the comparative: kleiner, älter, höher, größer, besser, mehr, lieber. The superlative is one step further. The pattern sentence is <b>Der kleinste Mann läuft am schnellsten.</b> On the ward: <b>Der kleinste Patient bleibt im Bett. Anna läuft am schnellsten.</b>",
-        "Before a noun, use the article and an adjective ending. Nominative singular after der, die or das is <b>-e</b>: der kleinste Patient, die älteste Patientin, das höchste Fieber. Accusative singular, one man, is <b>den</b> plus <b>-en</b>: Sie ruft den jüngsten Patienten.",
-        "After a verb, the superlative has no noun of its own. Then it is <b>am</b> plus <b>-en</b>. Das Fieber ist am höchsten. Anna läuft am schnellsten. am means an dem. It does not follow the subject, so a woman is still am: Die Patientin ist am ältesten. Not am der ältesten.",
-        "No umlaut: klein → der kleinste, am kleinsten. schnell → am schnellsten. Umlaut, as in chapter 38: alt → am ältesten, jung → am jüngsten, krank → am kränksten, stark → am stärksten. nah → der nächste Patient.",
-        "Add <b>-est</b> when the adjective ends in d, t, s, ß, sch or z: alt → ältesten, dringend → dringendsten. <b>groß</b> and <b>hoch</b> do not take that extra e. größer → <b>am größten</b>. höher drops c, and the superlative stem is höchst: <b>am höchsten</b>, das höchste Fieber. Not am hochsten. Not am höhsten. Not am höchesten. Not am größesten.",
-        "Irregular, and not a suffix on the comparative: gut → besser → <b>am besten</b>. viel → mehr → <b>die meisten</b>. gern → lieber → <b>am liebsten</b>. Not am gutesten, not die vielsten, not am gernsten."
+        "Der Superlativ steht eine Stufe über dem Komparativ. Vor dem Nomen: <b>der / die / das + …ste</b> — <b>der kleinste Patient</b>, <b>die älteste Patientin</b>, <b>das höchste Fieber</b>.",
+        "Nach dem Verb ohne Nomen: <b>am + …sten</b> — <b>Das Fieber ist am höchsten</b>. <b>Mira läuft am schnellsten</b>. <b>am</b> bleibt bei jedem Subjekt — nicht <b>am der</b>.",
+        "Umlaut wie in Kapitel 38: <b>alt → am ältesten</b>, <b>jung → am jüngsten</b>, <b>stark → am stärksten</b>. Bei d/t/s/ß/sch/z oft <b>-est-</b>: <b>ältesten</b>, <b>dringendsten</b>.",
+        "<b>hoch → am höchsten</b> (Stamm <b>höchst</b>). <b>groß → am größten</b> (kein Extra-e). Unregelmäßig: <b>gut → am besten</b>, <b>gern → am liebsten</b>, <b>viel → am meisten / die meisten</b>."
       ],
-      "questionRule": "Before a noun, nominative singular ends in -e. After a verb, am plus -en. am does not become am der.",
       "tables": [
         {
           "title": "Zwei Muster",
-          "caption": "The ending -e stands before a noun. am stands after the verb.",
-          "columns": ["Muster", "Satz"],
+          "caption": "-ste vor dem Nomen · am …sten nach dem Verb",
+          "columns": [
+            "Muster",
+            "Beispiel",
+            "Hinweis"
+          ],
           "rows": [
-            { "label": "vor Nomen", "cells": ["-e", "Der kleinste Patient bleibt im Bett."], "highlight": true },
-            { "label": "nach sein", "cells": ["am -en", "Das Fieber ist am höchsten."], "highlight": true },
-            { "label": "nach Verb", "cells": ["am -en", "Anna läuft am schnellsten."] }
+            {
+              "label": "vor",
+              "cells": [
+                "der/die/das …ste",
+                "der kleinste Patient",
+                "vor Nomen"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "nach",
+              "cells": [
+                "am …sten",
+                "am höchsten",
+                "nach Verb"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "nach2",
+              "cells": [
+                "am …sten",
+                "am schnellsten",
+                "Adverb"
+              ]
+            }
           ]
         },
         {
-          "title": "Vom Komparativ weiter",
-          "caption": "The comparative is chapter 38. The last column is this chapter.",
-          "columns": ["Komparativ", "Superlativ"],
+          "title": "Formen",
+          "caption": "Vom Komparativ zum Superlativ",
+          "columns": [
+            "Positiv",
+            "Komparativ",
+            "Superlativ"
+          ],
           "rows": [
-            { "label": "klein", "cells": ["kleiner", "am kleinsten"] },
-            { "label": "alt", "cells": ["älter", "am ältesten"], "highlight": true },
-            { "label": "jung", "cells": ["jünger", "am jüngsten"] },
-            { "label": "hoch", "cells": ["höher", "am höchsten"], "highlight": true },
-            { "label": "gut", "cells": ["besser", "am besten"], "highlight": true },
-            { "label": "dringend", "cells": ["dringender", "am dringendsten"] }
-          ]
-        },
-        {
-          "title": "Nicht diese Form",
-          "caption": "am takes no article. groß and hoch take no extra e.",
-          "columns": ["Falsch", "Richtig"],
-          "rows": [
-            { "label": "klein", "cells": ["der kleinster Patient", "der kleinste Patient"] },
-            { "label": "am", "cells": ["am der höchsten", "am höchsten"] },
-            { "label": "gut", "cells": ["am gutesten", "am besten"] },
-            { "label": "groß", "cells": ["am größesten", "am größten"] }
+            {
+              "label": "klein",
+              "cells": [
+                "klein",
+                "kleiner",
+                "am kleinsten / der kleinste"
+              ]
+            },
+            {
+              "label": "alt",
+              "cells": [
+                "alt",
+                "älter",
+                "am ältesten / die älteste"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "hoch",
+              "cells": [
+                "hoch",
+                "höher",
+                "am höchsten / das höchste"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "groß",
+              "cells": [
+                "groß",
+                "größer",
+                "am größten / der größte"
+              ]
+            },
+            {
+              "label": "gut",
+              "cells": [
+                "gut",
+                "besser",
+                "am besten"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "gern",
+              "cells": [
+                "gern",
+                "lieber",
+                "am liebsten"
+              ]
+            }
           ]
         }
       ],
       "warning": {
-        "title": "Four superlative traps",
+        "title": "Häufige Fehler",
         "items": [
-          { "de": "Das Fieber ist am höchsten.", "en": "am plus -en. The stem is höchst.", "tone": "ok" },
-          { "de": "Das Fieber ist am der höchsten.", "en": "am does not take der.", "tone": "stop" },
-          { "de": "der kleinste Patient", "en": "Nominative singular ends in -e.", "tone": "ok" },
-          { "de": "der kleinster Patient", "en": "-er is not the ending after der.", "tone": "stop" },
-          { "de": "am ältesten", "en": "Umlaut, and -est because of t.", "tone": "ok" },
-          { "de": "am altesten", "en": "The umlaut is missing.", "tone": "stop" },
-          { "de": "am besten", "en": "gut → am besten.", "tone": "ok" },
-          { "de": "am gutesten", "en": "gutesten is not the superlative.", "tone": "stop" }
+          {
+            "de": "✗ Das Fieber ist am der höchsten",
+            "en": "✗ am + article",
+            "tone": "stop"
+          },
+          {
+            "de": "✓ Das Fieber ist am höchsten",
+            "en": "✓ am + -sten",
+            "tone": "ok"
+          },
+          {
+            "de": "✗ der kleinster Patient",
+            "en": "✗ comparative ending after der",
+            "tone": "stop"
+          },
+          {
+            "de": "✓ der kleinste Patient",
+            "en": "✓ -ste after der/die/das",
+            "tone": "ok"
+          },
+          {
+            "de": "✗ am gutesten",
+            "en": "✗ regularised gut",
+            "tone": "stop"
+          },
+          {
+            "de": "✓ am besten",
+            "en": "✓ irregular",
+            "tone": "ok"
+          }
         ],
-        "tip": "Before a noun: -e. After a verb: am plus -en. hoch → am höchsten. gut → am besten."
+        "tip": "Merksatz: vor Nomen …ste · nach Verb am …sten · gut → am besten."
       },
-      "quizTitle": "Which superlative?",
+      "questionRule": "Wählen Sie die richtige Form.",
+      "quizTitle": "Welcher Superlativ?",
       "quiz": [
         {
           "kind": "mc",
-          "q": "The smallest patient, before the noun. Nominative.",
-          "qEn": "Ending -e. No umlaut.",
-          "options": ["der kleinste Patient", "der kleinster Patient", "der kleinsten Patient"],
+          "q": "klein → der ___ Patient",
+          "options": [
+            "kleinste",
+            "kleinster",
+            "kleiner"
+          ],
           "answer": 0,
-          "why": "der kleinste Patient.",
-          "hint": "-e."
+          "why": "der + Superlativ → -ste.",
+          "hint": "kleinste"
         },
         {
           "kind": "mc",
-          "q": "The fever is the highest. After sein.",
-          "qEn": "am plus -en. Stem höchst.",
-          "options": ["Das Fieber ist am höchsten.", "Das Fieber ist am der höchsten.", "Das Fieber ist am hochsten."],
+          "q": "Das Fieber ist ___.",
+          "options": [
+            "am höchsten",
+            "am der höchsten",
+            "am hochsten"
+          ],
           "answer": 0,
-          "why": "am höchsten.",
-          "hint": "höchsten."
+          "why": "am + höchst + -en.",
+          "hint": "am höchsten"
         },
         {
           "kind": "mc",
-          "q": "Anna runs the fastest. After the verb.",
-          "qEn": "am plus -en. No umlaut.",
-          "options": ["Anna läuft am schnellsten.", "Anna läuft am schnellster.", "Anna läuft am der schnellsten."],
+          "q": "Mira läuft ___.",
+          "options": [
+            "am schnellsten",
+            "am schnellster",
+            "am der schnellsten"
+          ],
           "answer": 0,
-          "why": "am schnellsten.",
-          "hint": "am."
+          "why": "am + -sten nach Verb.",
+          "hint": "am schnellsten"
         },
         {
           "kind": "mc",
-          "q": "The oldest female patient, before the noun. Nominative.",
-          "qEn": "Umlaut and -est.",
-          "options": ["die älteste Patientin", "die alteste Patientin", "die ältester Patientin"],
+          "q": "alt → die ___ Patientin",
+          "options": [
+            "älteste",
+            "alteste",
+            "ältester"
+          ],
           "answer": 0,
-          "why": "die älteste Patientin.",
-          "hint": "ä."
+          "why": "Umlaut + -este.",
+          "hint": "älteste"
         },
         {
           "kind": "mc",
-          "q": "The call is the most urgent. After sein.",
-          "qEn": "dringend ends in d.",
-          "options": ["Der Anruf ist am dringendsten.", "Der Anruf ist am dringsten.", "Der Anruf ist am dringendster."],
+          "q": "gut → am ___",
+          "options": [
+            "besten",
+            "gutesten",
+            "bessersten"
+          ],
           "answer": 0,
-          "why": "am dringendsten.",
-          "hint": "-est."
+          "why": "gut → am besten.",
+          "hint": "besten"
         },
         {
           "kind": "mc",
-          "q": "The water is best. After sein.",
-          "qEn": "gut → am besten.",
-          "options": ["Das Wasser ist am besten.", "Das Wasser ist am gutesten.", "Das Wasser ist am gutsten."],
+          "q": "groß → am ___",
+          "options": [
+            "größten",
+            "größesten",
+            "großten"
+          ],
           "answer": 0,
-          "why": "am besten.",
-          "hint": "besten."
+          "why": "groß → am größten (kein Extra-e).",
+          "hint": "größten"
+        },
+        {
+          "kind": "mc",
+          "q": "Der Anruf ist am ___.",
+          "options": [
+            "dringendsten",
+            "dringenden",
+            "dringster"
+          ],
+          "answer": 0,
+          "why": "dringend → am dringendsten.",
+          "hint": "dringendsten"
+        },
+        {
+          "kind": "mc",
+          "q": "gern → am ___",
+          "options": [
+            "liebsten",
+            "gernstens",
+            "liebersten"
+          ],
+          "answer": 0,
+          "why": "gern → am liebsten.",
+          "hint": "liebsten"
+        },
+        {
+          "kind": "mc",
+          "q": "jung → der ___ Kollege",
+          "options": [
+            "jüngste",
+            "jungste",
+            "jüngster"
+          ],
+          "answer": 0,
+          "why": "Umlaut + -ste.",
+          "hint": "jüngste"
+        },
+        {
+          "kind": "mc",
+          "q": "Nah → der ___ Termin",
+          "options": [
+            "nächste",
+            "nahste",
+            "nächster"
+          ],
+          "answer": 0,
+          "why": "nah → der nächste.",
+          "hint": "nächste"
+        },
+        {
+          "kind": "mc",
+          "q": "viel → am ___",
+          "options": [
+            "meisten",
+            "vielsten",
+            "mehrsten"
+          ],
+          "answer": 0,
+          "why": "viel → am meisten.",
+          "hint": "meisten"
+        },
+        {
+          "kind": "mc",
+          "q": "stark → am ___",
+          "options": [
+            "stärksten",
+            "starksten",
+            "stärkersten"
+          ],
+          "answer": 0,
+          "why": "Umlaut + -sten.",
+          "hint": "stärksten"
         }
       ]
     },
     {
-      "id": "gap-super",
-      "label": "Gap",
-      "title": "Which superlative?",
-      "practice": "gap",
+      "id": "gap-superlativ",
       "type": "gapfill",
-      "instructions": "The label says where the superlative sits. Before a noun, choose the form with -e. After the verb, choose the am-form.",
-      "chips": [
-        { "w": "kleinste", "hint": "before Patient." },
-        { "w": "höchsten", "hint": "after am." },
-        { "w": "schnellsten", "hint": "after am." },
-        { "w": "älteste", "hint": "before Patientin." },
-        { "w": "dringendsten", "hint": "after am." },
-        { "w": "besten", "hint": "gut." },
-        { "w": "kleinster", "hint": "wrong ending." },
-        { "w": "hochsten", "hint": "missing umlaut." },
-        { "w": "gutesten", "hint": "not from gut." },
-        { "w": "alteste", "hint": "missing umlaut." }
-      ],
+      "label": "Lücken",
+      "title": "Superlativ einsetzen",
+      "practice": "gap",
+      "instructions": "Wählen Sie die passende Superlativform.",
       "items": [
         {
-          "before": "vor Nomen, klein: der",
-          "after": "Patient",
+          "before": "Der ",
+          "after": " Patient bleibt im Bett.",
           "answer": "kleinste",
-          "en": "the smallest patient",
-          "why": "der kleinste Patient.",
-          "tip": "Ending -e.",
-          "hint": "-e."
+          "en": "The smallest patient stays in bed.",
+          "why": "klein → der kleinste.",
+          "tip": "kleinste",
+          "hint": "kleinste"
         },
         {
-          "before": "nach sein, hoch: Das Fieber ist am",
+          "before": "Das Fieber ist am ",
           "after": ".",
           "answer": "höchsten",
           "en": "The fever is the highest.",
-          "why": "am höchsten.",
-          "tip": "Stem höchst.",
-          "hint": "ch."
+          "why": "hoch → am höchsten.",
+          "tip": "höchsten",
+          "hint": "höchsten"
         },
         {
-          "before": "nach Verb, schnell: Anna läuft am",
+          "before": "Mira läuft am ",
           "after": ".",
           "answer": "schnellsten",
-          "en": "Anna runs the fastest.",
-          "why": "am schnellsten.",
-          "tip": "No umlaut.",
-          "hint": "am."
+          "en": "Mira runs the fastest.",
+          "why": "schnell → am schnellsten.",
+          "tip": "schnellsten",
+          "hint": "schnellsten"
         },
         {
-          "before": "vor Nomen, alt: die",
-          "after": "Patientin",
+          "before": "Die ",
+          "after": " Patientin trinkt Tee.",
           "answer": "älteste",
-          "en": "the oldest female patient",
-          "why": "die älteste Patientin.",
-          "tip": "Umlaut and -est.",
-          "hint": "ä."
+          "en": "The oldest patient drinks tea.",
+          "why": "alt → die älteste.",
+          "tip": "älteste",
+          "hint": "älteste"
         },
         {
-          "before": "nach sein, dringend: Der Anruf ist am",
+          "before": "Der Anruf ist am ",
           "after": ".",
           "answer": "dringendsten",
           "en": "The call is the most urgent.",
-          "why": "am dringendsten.",
-          "tip": "-est, because of d.",
-          "hint": "-est."
+          "why": "dringend → am dringendsten.",
+          "tip": "dringendsten",
+          "hint": "dringendsten"
         },
         {
-          "before": "nach sein, gut: Das Wasser ist am",
+          "before": "Tee ist am ",
           "after": ".",
           "answer": "besten",
-          "en": "The water is best.",
-          "why": "am besten.",
-          "tip": "Not gutesten.",
-          "hint": "besten."
+          "en": "Tea is the best.",
+          "why": "gut → am besten.",
+          "tip": "besten",
+          "hint": "besten"
+        },
+        {
+          "before": "Das ist das ",
+          "after": " Fieber heute.",
+          "answer": "höchste",
+          "en": "That is the highest fever today.",
+          "why": "das höchste Fieber.",
+          "tip": "höchste",
+          "hint": "höchste"
+        },
+        {
+          "before": "Jonas dokumentiert am ",
+          "after": ".",
+          "answer": "sorgfältigsten",
+          "en": "Jonas documents the most carefully.",
+          "why": "sorgfältig → am sorgfältigsten.",
+          "tip": "sorgfältigsten",
+          "hint": "sorgfältigsten"
+        },
+        {
+          "before": "Wir brauchen die ",
+          "after": " Handschuhe.",
+          "answer": "dicksten",
+          "en": "We need the thickest gloves.",
+          "why": "dick → die dicksten.",
+          "tip": "dicksten",
+          "hint": "dicksten"
+        },
+        {
+          "before": "Die Station ist am ",
+          "after": " am Morgen.",
+          "answer": "ruhigsten",
+          "en": "The ward is quietest in the morning.",
+          "why": "ruhig → am ruhigsten.",
+          "tip": "ruhigsten",
+          "hint": "ruhigsten"
+        },
+        {
+          "before": "Bitte wählen Sie den ",
+          "after": " Weg.",
+          "answer": "kürzesten",
+          "en": "Please choose the shortest way.",
+          "why": "kurz → den kürzesten.",
+          "tip": "kürzesten",
+          "hint": "kürzesten"
+        },
+        {
+          "before": "Herr Braun hustet am ",
+          "after": ".",
+          "answer": "stärksten",
+          "en": "Mr Braun coughs the most strongly.",
+          "why": "stark → am stärksten.",
+          "tip": "stärksten",
+          "hint": "stärksten"
+        },
+        {
+          "before": "Das Kind weint am ",
+          "after": " nachts.",
+          "answer": "seltensten",
+          "en": "The child cries least often at night.",
+          "why": "selten → am seltensten.",
+          "tip": "seltensten",
+          "hint": "seltensten"
+        },
+        {
+          "before": "Die ",
+          "after": " Schicht beginnt um sechs.",
+          "answer": "früheste",
+          "en": "The earliest shift starts at six.",
+          "why": "früh → die früheste.",
+          "tip": "früheste",
+          "hint": "früheste"
+        },
+        {
+          "before": "Wasser hilft am ",
+          "after": ".",
+          "answer": "meisten",
+          "en": "Water helps the most.",
+          "why": "viel → am meisten.",
+          "tip": "meisten",
+          "hint": "meisten"
+        }
+      ],
+      "chips": [
+        {
+          "w": "kleinste",
+          "hint": "klein → der kleinste."
+        },
+        {
+          "w": "höchsten",
+          "hint": "hoch → am höchsten."
+        },
+        {
+          "w": "schnellsten",
+          "hint": "schnell → am schnellsten."
+        },
+        {
+          "w": "älteste",
+          "hint": "alt → die älteste."
+        },
+        {
+          "w": "dringendsten",
+          "hint": "dringend → am dringendsten."
+        },
+        {
+          "w": "besten",
+          "hint": "gut → am besten."
+        },
+        {
+          "w": "höchste",
+          "hint": "das höchste Fieber."
+        },
+        {
+          "w": "sorgfältigsten",
+          "hint": "sorgfältig → am sorgfältigsten."
+        },
+        {
+          "w": "dicksten",
+          "hint": "dick → die dicksten."
+        },
+        {
+          "w": "ruhigsten",
+          "hint": "ruhig → am ruhigsten."
+        },
+        {
+          "w": "kürzesten",
+          "hint": "kurz → den kürzesten."
+        },
+        {
+          "w": "stärksten",
+          "hint": "stark → am stärksten."
+        },
+        {
+          "w": "seltensten",
+          "hint": "selten → am seltensten."
+        },
+        {
+          "w": "früheste",
+          "hint": "früh → die früheste."
+        },
+        {
+          "w": "meisten",
+          "hint": "viel → am meisten."
         }
       ]
     },
     {
-      "id": "match-super",
-      "type": "compare",
-      "label": "Match",
-      "title": "Form and place",
-      "practice": "match",
-      "instructions": "Match the superlative the label asks for. am does not take an article.",
+      "id": "build-superlativ",
+      "type": "builder",
+      "label": "Bauen",
+      "title": "Sätze bauen",
+      "practice": "build",
+      "instructions": "Ordnen Sie die Kacheln. Achten Sie auf -ste und am …sten.",
       "items": [
         {
-          "prompt": "The smallest patient. Nominative, before the noun.",
-          "options": [
-            { "emoji": "🔹", "label": "der kleinste Patient", "caption": "Ending -e." },
-            { "emoji": "🚫", "label": "der kleinster Patient", "caption": "-er does not follow der." },
-            { "emoji": "🚫", "label": "der kleinsten Patient", "caption": "-en is not nominative singular." }
+          "tiles": [
+            "Der",
+            "jüngste",
+            "Pfleger",
+            "bleibt",
+            "stehen"
           ],
-          "answer": 0,
-          "why": "der kleinste Patient.",
-          "hint": "-e."
+          "answers": [
+            "Der jüngste Pfleger bleibt stehen"
+          ],
+          "punct": ".",
+          "modal": "Pfleger",
+          "inf": "bleiben",
+          "question": false,
+          "en": "The youngest nurse stays standing.",
+          "hint": "der kleinste",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
         },
         {
-          "prompt": "The fever is the highest. After sein.",
-          "options": [
-            { "emoji": "🌡️", "label": "Das Fieber ist am höchsten.", "caption": "Stem höchst." },
-            { "emoji": "🚫", "label": "Das Fieber ist am der höchsten.", "caption": "No article after am." },
-            { "emoji": "🚫", "label": "Das Fieber ist am hochsten.", "caption": "Umlaut and ch." }
+          "tiles": [
+            "Die",
+            "Temperatur",
+            "ist",
+            "am",
+            "höchsten"
           ],
-          "answer": 0,
-          "why": "am höchsten.",
-          "hint": "höchsten."
+          "answers": [
+            "Die Temperatur ist am höchsten"
+          ],
+          "punct": ".",
+          "modal": "Temperatur",
+          "inf": "sein",
+          "question": false,
+          "en": "The temperature is the highest.",
+          "hint": "am höchsten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
         },
         {
-          "prompt": "Anna runs the fastest.",
-          "options": [
-            { "emoji": "🏃", "label": "Anna läuft am schnellsten.", "caption": "am plus -en." },
-            { "emoji": "🚫", "label": "Anna läuft am schnellster.", "caption": "Not -er." },
-            { "emoji": "🚫", "label": "Anna läuft am der schnellsten.", "caption": "Not am der." }
+          "tiles": [
+            "Anna",
+            "kommt",
+            "am",
+            "schnellsten"
           ],
-          "answer": 0,
-          "why": "am schnellsten.",
-          "hint": "am."
+          "answers": [
+            "Anna kommt am schnellsten"
+          ],
+          "punct": ".",
+          "modal": "kommt",
+          "inf": "laufen",
+          "question": false,
+          "en": "Anna arrives the fastest.",
+          "hint": "am schnellsten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
         },
         {
-          "prompt": "The oldest female patient. Nominative.",
-          "options": [
-            { "emoji": "👵", "label": "die älteste Patientin", "caption": "Umlaut and -est." },
-            { "emoji": "🚫", "label": "die alteste Patientin", "caption": "The umlaut is missing." },
-            { "emoji": "🚫", "label": "die ältester Patientin", "caption": "Not -er." }
+          "tiles": [
+            "Die",
+            "älteste",
+            "Nachbarin",
+            "trinkt",
+            "Saft"
           ],
-          "answer": 0,
-          "why": "die älteste Patientin.",
-          "hint": "ä."
+          "answers": [
+            "Die älteste Nachbarin trinkt Saft"
+          ],
+          "punct": ".",
+          "modal": "älteste",
+          "inf": "trinken",
+          "question": false,
+          "en": "The oldest neighbour drinks juice.",
+          "hint": "die älteste",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
         },
         {
-          "prompt": "The call is the most urgent.",
-          "options": [
-            { "emoji": "📞", "label": "Der Anruf ist am dringendsten.", "caption": "-est because of d." },
-            { "emoji": "🚫", "label": "Der Anruf ist am dringsten.", "caption": "The stem keeps end." },
-            { "emoji": "🚫", "label": "Der Anruf ist am dringendster.", "caption": "After am the ending is -en." }
+          "tiles": [
+            "Der",
+            "Alarm",
+            "ist",
+            "am",
+            "dringendsten"
           ],
-          "answer": 0,
-          "why": "am dringendsten.",
-          "hint": "-est."
+          "answers": [
+            "Der Alarm ist am dringendsten"
+          ],
+          "punct": ".",
+          "modal": "Alarm",
+          "inf": "sein",
+          "question": false,
+          "en": "The alarm is the most urgent.",
+          "hint": "am dringendsten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
         },
         {
-          "prompt": "The water is best.",
-          "options": [
-            { "emoji": "💧", "label": "Das Wasser ist am besten.", "caption": "gut → am besten." },
-            { "emoji": "🚫", "label": "Das Wasser ist am gutesten.", "caption": "Not gutesten." },
-            { "emoji": "🚫", "label": "Das Wasser ist am gutsten.", "caption": "Not gutsten." }
+          "tiles": [
+            "Bitte",
+            "reichen",
+            "Sie",
+            "den",
+            "weichsten",
+            "Brei"
           ],
-          "answer": 0,
-          "why": "am besten.",
-          "hint": "besten."
+          "answers": [
+            "Bitte reichen Sie den weichsten Brei"
+          ],
+          "punct": ".",
+          "modal": "Brei",
+          "inf": "reichen",
+          "question": false,
+          "en": "Please pass the softest mash.",
+          "hint": "den weichsten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
+        },
+        {
+          "tiles": [
+            "Heute",
+            "brauchen",
+            "wir",
+            "die",
+            "meisten",
+            "Verbände"
+          ],
+          "answers": [
+            "Heute brauchen wir die meisten Verbände"
+          ],
+          "punct": ".",
+          "modal": "Verbände",
+          "inf": "brauchen",
+          "question": false,
+          "en": "Today we need the most dressings.",
+          "hint": "die meisten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Haut",
+            "ist",
+            "am",
+            "trockensten"
+          ],
+          "answers": [
+            "Die Haut ist am trockensten"
+          ],
+          "punct": ".",
+          "modal": "Haut",
+          "inf": "sein",
+          "question": false,
+          "en": "The skin is the driest.",
+          "hint": "am trockensten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
+        },
+        {
+          "tiles": [
+            "Dr",
+            "Klein",
+            "spricht",
+            "am",
+            "deutlichsten"
+          ],
+          "answers": [
+            "Dr Klein spricht am deutlichsten"
+          ],
+          "punct": ".",
+          "modal": "Dr",
+          "inf": "sprechen",
+          "question": false,
+          "en": "Dr Klein speaks the most clearly.",
+          "hint": "am deutlichsten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "waschen",
+            "am",
+            "gründlichsten"
+          ],
+          "answers": [
+            "Wir waschen am gründlichsten"
+          ],
+          "punct": ".",
+          "modal": "waschen",
+          "inf": "waschen",
+          "question": false,
+          "en": "We wash the most thoroughly.",
+          "hint": "am gründlichsten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
+        },
+        {
+          "tiles": [
+            "Das",
+            "Bad",
+            "ist",
+            "am",
+            "wärmsten"
+          ],
+          "answers": [
+            "Das Bad ist am wärmsten"
+          ],
+          "punct": ".",
+          "modal": "Bad",
+          "inf": "sein",
+          "question": false,
+          "en": "The bathroom is the warmest.",
+          "hint": "am wärmsten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
+        },
+        {
+          "tiles": [
+            "Kaffee",
+            "wirkt",
+            "am",
+            "stärksten"
+          ],
+          "answers": [
+            "Kaffee wirkt am stärksten"
+          ],
+          "punct": ".",
+          "modal": "Kaffee",
+          "inf": "wirken",
+          "question": false,
+          "en": "Coffee has the strongest effect.",
+          "hint": "am stärksten",
+          "feedback": {
+            "fallback": "Prüfen Sie Superlativ (-ste / am …sten) und die Wortstellung."
+          }
         }
       ]
     },
     {
-      "id": "picture-ward",
+      "id": "error-superlativ",
+      "type": "riddle",
+      "label": "Fehler",
+      "title": "Fehler finden",
+      "practice": "error",
+      "instructions": "Tippen Sie die korrekte Variante.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der kleinster Mann bleibt liegen."
+          ],
+          "options": [
+            "Der kleinste Mann bleibt liegen.",
+            "Der kleinster Mann bleibt liegen.",
+            "Der kleinsten Mann bleibt liegen."
+          ],
+          "answer": 0,
+          "reveal": "Der kleinste Mann bleibt liegen.",
+          "hint": "kleinste"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Luft ist am der höchsten."
+          ],
+          "options": [
+            "Die Luft ist am höchsten.",
+            "Die Luft ist am der höchsten.",
+            "Die Luft ist am hochsten."
+          ],
+          "answer": 0,
+          "reveal": "Die Luft ist am höchsten.",
+          "hint": "am höchsten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Paul läuft am schnellster."
+          ],
+          "options": [
+            "Paul läuft am schnellsten.",
+            "Paul läuft am schnellster.",
+            "Paul läuft am der schnellsten."
+          ],
+          "answer": 0,
+          "reveal": "Paul läuft am schnellsten.",
+          "hint": "am schnellsten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die alteste Nachbarin wartet draußen."
+          ],
+          "options": [
+            "Die älteste Nachbarin wartet draußen.",
+            "Die alteste Nachbarin wartet draußen.",
+            "Die ältester Nachbarin wartet draußen."
+          ],
+          "answer": 0,
+          "reveal": "Die älteste Nachbarin wartet draußen.",
+          "hint": "älteste"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Saft ist am gutesten."
+          ],
+          "options": [
+            "Saft ist am besten.",
+            "Saft ist am gutesten.",
+            "Saft ist am bessersten."
+          ],
+          "answer": 0,
+          "reveal": "Saft ist am besten.",
+          "hint": "am besten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Das Zimmer ist am größesten."
+          ],
+          "options": [
+            "Das Zimmer ist am größten.",
+            "Das Zimmer ist am größesten.",
+            "Das Zimmer ist am großten."
+          ],
+          "answer": 0,
+          "reveal": "Das Zimmer ist am größten.",
+          "hint": "am größten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Jonas kommt am frühhersten."
+          ],
+          "options": [
+            "Jonas kommt am frühesten.",
+            "Jonas kommt am frühhersten.",
+            "Jonas kommt am frühersten."
+          ],
+          "answer": 0,
+          "reveal": "Jonas kommt am frühesten.",
+          "hint": "am frühesten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir wählen den kürzeste Weg."
+          ],
+          "options": [
+            "Wir wählen den kürzesten Weg.",
+            "Wir wählen den kürzeste Weg.",
+            "Wir wählen der kürzeste Weg."
+          ],
+          "answer": 0,
+          "reveal": "Wir wählen den kürzesten Weg.",
+          "hint": "kürzesten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie spricht am deutlichersten."
+          ],
+          "options": [
+            "Sie spricht am deutlichsten.",
+            "Sie spricht am deutlichersten.",
+            "Sie spricht am deutlichen."
+          ],
+          "answer": 0,
+          "reveal": "Sie spricht am deutlichsten.",
+          "hint": "am deutlichsten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Puls ist am hohersten."
+          ],
+          "options": [
+            "Der Puls ist am höchsten.",
+            "Der Puls ist am hohersten.",
+            "Der Puls ist am hochersten."
+          ],
+          "answer": 0,
+          "reveal": "Der Puls ist am höchsten.",
+          "hint": "am höchsten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Bitte nehmen Sie die dickste Handschuhe."
+          ],
+          "options": [
+            "Bitte nehmen Sie die dicksten Handschuhe.",
+            "Bitte nehmen Sie die dickste Handschuhe.",
+            "Bitte nehmen Sie der dickste Handschuhe."
+          ],
+          "answer": 0,
+          "reveal": "Bitte nehmen Sie die dicksten Handschuhe.",
+          "hint": "dicksten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er atmet am tiefste."
+          ],
+          "options": [
+            "Er atmet am tiefsten.",
+            "Er atmet am tiefste.",
+            "Er atmet am tiefersten."
+          ],
+          "answer": 0,
+          "reveal": "Er atmet am tiefsten.",
+          "hint": "am tiefsten"
+        }
+      ]
+    },
+    {
+      "id": "picture-superlativ",
       "type": "picturematch",
-      "label": "Pictures",
-      "title": "On the ward",
+      "label": "Bilder",
+      "title": "Bilder und Superlativ",
       "practice": "picture",
-      "instructions": "A hospital bed, a plaster, a thermometer, a chart.",
+      "instructions": "Ordnen Sie Wort und Bild. Merken Sie sich den Superlativ.",
       "items": [
+        {
+          "id": "patient",
+          "de": "Patient",
+          "article": "der",
+          "en": "patient — der kleinste Patient",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          },
+          "hint": "kleinste",
+          "plural": "die Patienten"
+        },
+        {
+          "id": "fieber",
+          "de": "Fieber",
+          "article": "das",
+          "en": "fever — am höchsten",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "höchsten",
+          "plural": "die Fieber"
+        },
+        {
+          "id": "anruf",
+          "de": "Anruf",
+          "article": "der",
+          "en": "call — am dringendsten",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "dringendsten",
+          "plural": "die Anrufe"
+        },
         {
           "id": "bett",
           "de": "Bett",
           "article": "das",
-          "plural": "die Betten",
-          "en": "the bed where the smallest patient stays",
-          "image": { "type": "svg", "id": "bed" },
-          "hint": "das"
+          "en": "bed — bleibt im Bett",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "Bett",
+          "plural": "die Betten"
         },
         {
-          "id": "pflaster",
-          "de": "Pflaster",
+          "id": "wasser",
+          "de": "Wasser",
           "article": "das",
-          "plural": "die Pflaster",
-          "en": "the plaster on the trolley",
-          "image": { "type": "svg", "id": "plaster" },
-          "hint": "das"
+          "en": "water — am besten",
+          "image": {
+            "type": "svg",
+            "id": "water"
+          },
+          "hint": "besten",
+          "plural": "die Wasser"
         },
         {
-          "id": "thermometer",
-          "de": "Thermometer",
-          "article": "das",
-          "plural": "die Thermometer",
-          "en": "the thermometer for the highest fever",
-          "image": { "type": "svg", "id": "thermometer" },
-          "hint": "das"
+          "id": "tee",
+          "de": "Tee",
+          "article": "der",
+          "en": "tea — am liebsten",
+          "image": {
+            "type": "svg",
+            "id": "juice"
+          },
+          "hint": "liebsten",
+          "plural": "die Tees"
         },
         {
-          "id": "akte",
-          "de": "Akte",
+          "id": "puls",
+          "de": "Puls",
+          "article": "der",
+          "en": "pulse — am höchsten",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          },
+          "hint": "höchsten",
+          "plural": "die Pulse"
+        },
+        {
+          "id": "wunde",
+          "de": "Wunde",
           "article": "die",
-          "plural": "die Akten",
-          "en": "the chart from the round",
-          "image": { "type": "svg", "id": "clipboard" },
-          "hint": "die"
+          "en": "wound — die größte Wunde",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "größte",
+          "plural": "die Wunden"
+        },
+        {
+          "id": "stuhl",
+          "de": "Stuhl",
+          "article": "der",
+          "en": "chair — der bequemste Stuhl",
+          "image": {
+            "type": "svg",
+            "id": "chair"
+          },
+          "hint": "bequemste",
+          "plural": "die Stühle"
+        },
+        {
+          "id": "station",
+          "de": "Station",
+          "article": "die",
+          "en": "ward — am ruhigsten",
+          "image": {
+            "type": "svg",
+            "id": "ward"
+          },
+          "hint": "ruhigsten",
+          "plural": "die Stationen"
         }
       ]
     },
     {
-      "id": "build-super",
-      "type": "builder",
-      "label": "Build",
-      "title": "Superlative in the sentence",
-      "practice": "build",
-      "instructions": "Build the statement. The verb stays in position 2. A fronted phrase is also fine when the same words allow it.",
-      "items": [
-        {
-          "tiles": ["Der", "kleinste", "Patient", "bleibt", "im", "Bett"],
-          "answers": ["Der kleinste Patient bleibt im Bett", "Im Bett bleibt der kleinste Patient"],
-          "punct": ".",
-          "modal": "bleibt",
-          "inf": "Bett",
-          "question": false,
-          "en": "The smallest patient stays in bed.",
-          "hint": "kleinste.",
-          "feedback": {
-            "end": "The plain statement ends with Bett: Der kleinste Patient bleibt im Bett.",
-            "fallback": "bleibt is position 2. Der kleinste Patient bleibt im Bett."
-          }
-        },
-        {
-          "tiles": ["Das", "Fieber", "ist", "am", "höchsten"],
-          "answers": ["Das Fieber ist am höchsten", "Am höchsten ist das Fieber"],
-          "punct": ".",
-          "modal": "ist",
-          "inf": "höchsten",
-          "question": false,
-          "en": "The fever is the highest.",
-          "hint": "am höchsten.",
-          "feedback": {
-            "end": "The plain statement ends with höchsten: Das Fieber ist am höchsten.",
-            "fallback": "ist is position 2. Das Fieber ist am höchsten."
-          }
-        },
-        {
-          "tiles": ["Anna", "läuft", "am", "schnellsten"],
-          "answers": ["Anna läuft am schnellsten", "Am schnellsten läuft Anna"],
-          "punct": ".",
-          "modal": "läuft",
-          "inf": "schnellsten",
-          "question": false,
-          "en": "Anna runs the fastest.",
-          "hint": "am schnellsten.",
-          "feedback": {
-            "end": "The plain statement ends with schnellsten: Anna läuft am schnellsten.",
-            "fallback": "läuft is position 2. Anna läuft am schnellsten."
-          }
-        },
-        {
-          "tiles": ["Die", "älteste", "Patientin", "trinkt", "Wasser"],
-          "answers": ["Die älteste Patientin trinkt Wasser", "Wasser trinkt die älteste Patientin"],
-          "punct": ".",
-          "modal": "trinkt",
-          "inf": "Wasser",
-          "question": false,
-          "en": "The oldest patient drinks water.",
-          "hint": "älteste.",
-          "feedback": {
-            "end": "The plain statement ends with Wasser: Die älteste Patientin trinkt Wasser.",
-            "fallback": "trinkt is position 2. Die älteste Patientin trinkt Wasser."
-          }
-        }
-      ]
-    },
-    {
-      "id": "transform-super",
-      "label": "Rewrite",
-      "title": "One line",
-      "practice": "transform",
-      "type": "gapfill",
-      "instructions": "Choose the finished line. Before a noun, stop at the noun. After a verb, keep am.",
-      "chips": [
-        { "w": "Der kleinste Patient", "hint": "before the noun." },
-        { "w": "Das Fieber ist am höchsten", "hint": "after sein." },
-        { "w": "Anna läuft am schnellsten", "hint": "after the verb." },
-        { "w": "Die älteste Patientin", "hint": "before the noun." },
-        { "w": "Der Anruf ist am dringendsten", "hint": "after sein." },
-        { "w": "Das Wasser ist am besten", "hint": "gut." }
-      ],
-      "items": [
-        {
-          "before": "vor Nomen, klein:",
-          "after": ".",
-          "answer": "Der kleinste Patient",
-          "en": "the smallest patient",
-          "why": "der kleinste Patient.",
-          "tip": "-e.",
-          "hint": "kleinste."
-        },
-        {
-          "before": "nach sein, hoch:",
-          "after": ".",
-          "answer": "Das Fieber ist am höchsten",
-          "en": "The fever is the highest.",
-          "why": "am höchsten.",
-          "tip": "höchst.",
-          "hint": "höchsten."
-        },
-        {
-          "before": "nach Verb, schnell:",
-          "after": ".",
-          "answer": "Anna läuft am schnellsten",
-          "en": "Anna runs the fastest.",
-          "why": "am schnellsten.",
-          "tip": "am.",
-          "hint": "schnellsten."
-        },
-        {
-          "before": "vor Nomen, alt:",
-          "after": ".",
-          "answer": "Die älteste Patientin",
-          "en": "the oldest female patient",
-          "why": "die älteste Patientin.",
-          "tip": "ä.",
-          "hint": "älteste."
-        },
-        {
-          "before": "nach sein, dringend:",
-          "after": ".",
-          "answer": "Der Anruf ist am dringendsten",
-          "en": "The call is the most urgent.",
-          "why": "am dringendsten.",
-          "tip": "-est.",
-          "hint": "dringendsten."
-        },
-        {
-          "before": "nach sein, gut:",
-          "after": ".",
-          "answer": "Das Wasser ist am besten",
-          "en": "The water is best.",
-          "why": "am besten.",
-          "tip": "besten.",
-          "hint": "besten."
-        }
-      ]
-    },
-    {
-      "id": "error-super",
-      "type": "riddle",
-      "label": "Error",
-      "title": "Finde den Fehler",
-      "practice": "error",
-      "instructions": "The last line has the wrong ending, am der, a missing umlaut, or a bad irregular. Choose the correction.",
-      "items": [
-        {
-          "clues": ["Before the noun.", "Nominative singular ends in -e.", "der kleinster Patient."],
-          "options": ["der kleinste Patient.", "der kleinster Patient.", "der kleinsten Patient."],
-          "answer": 0,
-          "reveal": "der kleinste Patient.",
-          "hint": "-e."
-        },
-        {
-          "clues": ["After sein.", "The stem is höchst.", "Das Fieber ist am hochsten."],
-          "options": ["Das Fieber ist am höchsten.", "Das Fieber ist am hochsten.", "Das Fieber ist am der höchsten."],
-          "answer": 0,
-          "reveal": "Das Fieber ist am höchsten.",
-          "hint": "höchsten."
-        },
-        {
-          "clues": ["After the verb.", "am takes no article.", "Anna läuft am der schnellsten."],
-          "options": ["Anna läuft am schnellsten.", "Anna läuft am der schnellsten.", "Anna läuft am schnellster."],
-          "answer": 0,
-          "reveal": "Anna läuft am schnellsten.",
-          "hint": "am."
-        },
-        {
-          "clues": ["Before the noun.", "alt takes an umlaut.", "die alteste Patientin."],
-          "options": ["die älteste Patientin.", "die alteste Patientin.", "die ältester Patientin."],
-          "answer": 0,
-          "reveal": "die älteste Patientin.",
-          "hint": "ä."
-        },
-        {
-          "clues": ["After sein.", "dringend ends in d.", "Der Anruf ist am dringsten."],
-          "options": ["Der Anruf ist am dringendsten.", "Der Anruf ist am dringsten.", "Der Anruf ist am dringendster."],
-          "answer": 0,
-          "reveal": "Der Anruf ist am dringendsten.",
-          "hint": "-est."
-        },
-        {
-          "clues": ["After sein.", "gut is irregular.", "Das Wasser ist am gutesten."],
-          "options": ["Das Wasser ist am besten.", "Das Wasser ist am gutesten.", "Das Wasser ist am gutsten."],
-          "answer": 0,
-          "reveal": "Das Wasser ist am besten.",
-          "hint": "besten."
-        }
-      ]
-    },
-    {
-      "id": "dialogue-visite",
-      "label": "Dialogue",
-      "title": "At the handover",
+      "id": "dialog-superlativ",
+      "type": "dialogfill",
+      "label": "Dialog",
+      "title": "Übergabe: Superlativ",
       "practice": "dialogue",
-      "type": "gapfill",
-      "instructions": "The label names the speaker and the place of the superlative. Formal lines stay on the ward.",
-      "chips": [
-        { "w": "kleinste", "hint": "before Patient." },
-        { "w": "höchsten", "hint": "after am." },
-        { "w": "schnellsten", "hint": "after am." },
-        { "w": "älteste", "hint": "before Patientin." },
-        { "w": "dringendsten", "hint": "after am." },
-        { "w": "besten", "hint": "gut." }
-      ],
-      "items": [
-        {
-          "who": "Pflegekraft",
-          "before": "Pflegekraft, vor Nomen: der",
-          "after": "Patient bleibt im Bett.",
-          "answer": "kleinste",
-          "en": "The smallest patient stays in bed.",
-          "why": "der kleinste Patient.",
-          "tip": "-e.",
-          "hint": "kleinste."
+      "instructions": "Tippen Sie die richtige Form. Am Ende können Sie den Dialog anhören.",
+      "sceneTitle": "Dialog · Morgenvisite",
+      "scene": "Mira, Jonas und Dr. Klein sprechen über den schwersten Fall.",
+      "speakers": {
+        "mira": {
+          "name": "Mira",
+          "role": "Pflegerin",
+          "avatar": "👩‍⚕️"
         },
-        {
-          "who": "Arzt",
-          "before": "Arzt, nach sein: Das Fieber ist am",
-          "after": ".",
-          "answer": "höchsten",
-          "en": "The fever is the highest.",
-          "why": "am höchsten.",
-          "tip": "höchst.",
-          "hint": "höchsten."
+        "jonas": {
+          "name": "Jonas",
+          "role": "Pfleger",
+          "avatar": "👨‍⚕️"
         },
-        {
-          "who": "Anna",
-          "before": "Anna, nach Verb: Anna läuft am",
-          "after": ".",
-          "answer": "schnellsten",
-          "en": "Anna runs the fastest.",
-          "why": "am schnellsten.",
-          "tip": "am.",
-          "hint": "schnellsten."
+        "arzt": {
+          "name": "Dr. Klein",
+          "role": "Arzt",
+          "avatar": "🩺"
         },
-        {
-          "who": "Pflegekraft",
-          "before": "Pflegekraft, vor Nomen: die",
-          "after": "Patientin trinkt Wasser.",
-          "answer": "älteste",
-          "en": "The oldest patient drinks water.",
-          "why": "die älteste Patientin.",
-          "tip": "ä.",
-          "hint": "älteste."
-        },
-        {
-          "who": "Arzt",
-          "before": "Arzt, nach sein: Der Anruf ist am",
-          "after": ".",
-          "answer": "dringendsten",
-          "en": "The call is the most urgent.",
-          "why": "am dringendsten.",
-          "tip": "-est.",
-          "hint": "dringendsten."
-        },
-        {
-          "who": "Patient",
-          "before": "Patient, nach sein: Das Wasser ist am",
-          "after": ".",
-          "answer": "besten",
-          "en": "The water is best.",
-          "why": "am besten.",
-          "tip": "besten.",
-          "hint": "besten."
+        "pat": {
+          "name": "Herr Braun",
+          "role": "Patient",
+          "avatar": "🤒"
         }
-      ]
-    },
-    {
-      "id": "gap-satz",
-      "label": "Sentences",
-      "title": "Article or am",
-      "practice": "gap",
-      "type": "gapfill",
-      "instructions": "The chip is the article plus the superlative, or am plus the superlative. One nominative noun takes -e. After the verb, take am.",
-      "chips": [
-        { "w": "Der kleinste", "hint": "before Patient." },
-        { "w": "am höchsten", "hint": "the fever." },
-        { "w": "am schnellsten", "hint": "Anna." },
-        { "w": "Die älteste", "hint": "before Patientin." },
-        { "w": "am dringendsten", "hint": "the call." },
-        { "w": "am besten", "hint": "the water." },
-        { "w": "am der höchsten", "hint": "am takes no article." },
-        { "w": "der kleinster", "hint": "wrong ending." },
-        { "w": "am gutesten", "hint": "not from gut." }
-      ],
-      "items": [
-        {
-          "before": "Nominativ, klein:",
-          "after": "Patient bleibt im Bett.",
-          "answer": "Der kleinste",
-          "en": "The smallest patient stays in bed.",
-          "why": "Der kleinste Patient bleibt im Bett.",
-          "tip": "-e.",
-          "hint": "kleinste."
-        },
-        {
-          "before": "nach sein, Fieber: Das Fieber ist",
-          "after": ".",
-          "answer": "am höchsten",
-          "en": "The fever is the highest.",
-          "why": "am höchsten.",
-          "tip": "höchst.",
-          "hint": "höchsten."
-        },
-        {
-          "before": "nach Verb, Anna: Anna läuft",
-          "after": ".",
-          "answer": "am schnellsten",
-          "en": "Anna runs the fastest.",
-          "why": "am schnellsten.",
-          "tip": "am.",
-          "hint": "schnellsten."
-        },
-        {
-          "before": "Nominativ, alt:",
-          "after": "Patientin trinkt Wasser.",
-          "answer": "Die älteste",
-          "en": "The oldest patient drinks water.",
-          "why": "Die älteste Patientin trinkt Wasser.",
-          "tip": "ä.",
-          "hint": "älteste."
-        },
-        {
-          "before": "nach sein, Anruf: Der Anruf ist",
-          "after": ".",
-          "answer": "am dringendsten",
-          "en": "The call is the most urgent.",
-          "why": "am dringendsten.",
-          "tip": "-est.",
-          "hint": "dringendsten."
-        },
-        {
-          "before": "nach sein, Wasser: Das Wasser ist",
-          "after": ".",
-          "answer": "am besten",
-          "en": "The water is best.",
-          "why": "am besten.",
-          "tip": "besten.",
-          "hint": "besten."
-        }
-      ]
-    },
-    {
-      "id": "reading",
-      "type": "reading",
-      "label": "Reading",
-      "title": "The handover",
-      "practice": "reading",
-      "instructions": "Read the handover. Then answer from the text.",
-      "document": {
-        "letterhead": "Station 4 · Übergabe",
-        "title": "Die Übergabe",
-        "paragraphs": [
-          "Der kleinste Patient bleibt im Bett. Das Fieber ist am höchsten.",
-          "Der Anruf ist am dringendsten. Die älteste Patientin trinkt Wasser. Anna läuft am schnellsten."
-        ],
-        "signature": "Anna",
-        "stamp": "Station"
       },
-      "questions": [
+      "listenLabel": "Dialog anhören",
+      "lines": [
         {
-          "kind": "mc",
-          "q": "Wer bleibt im Bett?",
-          "qEn": "The smallest patient.",
-          "options": ["Der kleinste Patient", "Die älteste Patientin", "Anna"],
-          "answer": 0,
-          "why": "Der kleinste Patient bleibt im Bett.",
-          "hint": "kleinste."
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Der "
+            },
+            {
+              "gap": true,
+              "options": [
+                "kleinste",
+                "kleine"
+              ],
+              "answer": 0,
+              "why": "der + Superlativ → -ste"
+            },
+            {
+              "text": " Patient braucht Hilfe."
+            }
+          ]
         },
         {
-          "kind": "mc",
-          "q": "Was ist am höchsten?",
-          "qEn": "The fever.",
-          "options": ["Das Fieber", "Der Anruf", "Das Wasser"],
-          "answer": 0,
-          "why": "Das Fieber ist am höchsten.",
-          "hint": "Fieber."
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Das Fieber ist am "
+            },
+            {
+              "gap": true,
+              "options": [
+                "höchsten",
+                "höher"
+              ],
+              "answer": 0,
+              "why": "am + höchst + -en"
+            },
+            {
+              "text": " heute Nacht."
+            }
+          ]
         },
         {
-          "kind": "mc",
-          "q": "Was ist am dringendsten?",
-          "qEn": "The call.",
-          "options": ["Der Anruf", "Das Fieber", "Der kleinste Patient"],
-          "answer": 0,
-          "why": "Der Anruf ist am dringendsten.",
-          "hint": "Anruf."
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Sie atmet am "
+            },
+            {
+              "gap": true,
+              "options": [
+                "flachsten",
+                "flacher"
+              ],
+              "answer": 0,
+              "why": "flach → am flachsten"
+            },
+            {
+              "text": "."
+            }
+          ]
         },
         {
-          "kind": "mc",
-          "q": "Wer läuft am schnellsten?",
-          "qEn": "Anna.",
-          "options": ["Anna", "Die älteste Patientin", "Der kleinste Patient"],
-          "answer": 0,
-          "why": "Anna läuft am schnellsten.",
-          "hint": "Anna."
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Der Verband sitzt am "
+            },
+            {
+              "gap": true,
+              "options": [
+                "festesten",
+                "fester"
+              ],
+              "answer": 0,
+              "why": "fest → am festesten"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Herr Braun isst am "
+            },
+            {
+              "gap": true,
+              "options": [
+                "wenigsten",
+                "weniger"
+              ],
+              "answer": 0,
+              "why": "wenig → am wenigsten"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "who": "pat",
+          "parts": [
+            {
+              "text": "Tee ist am "
+            },
+            {
+              "gap": true,
+              "options": [
+                "liebsten",
+                "lieber"
+              ],
+              "answer": 0,
+              "why": "gern → am liebsten"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Die "
+            },
+            {
+              "gap": true,
+              "options": [
+                "nächste",
+                "nahe"
+              ],
+              "answer": 0,
+              "why": "nah → die nächste"
+            },
+            {
+              "text": " Kontrolle ist um zehn."
+            }
+          ]
+        },
+        {
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Wir desinfizieren am "
+            },
+            {
+              "gap": true,
+              "options": [
+                "gründlichsten",
+                "gründlicher"
+              ],
+              "answer": 0,
+              "why": "gründlich → am gründlichsten"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Bitte nehmen Sie die "
+            },
+            {
+              "gap": true,
+              "options": [
+                "stärkste",
+                "stärkere"
+              ],
+              "answer": 0,
+              "why": "stark → die stärkste"
+            },
+            {
+              "text": " Tablette."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Die Station ist am "
+            },
+            {
+              "gap": true,
+              "options": [
+                "ruhigsten",
+                "ruhiger"
+              ],
+              "answer": 0,
+              "why": "ruhig → am ruhigsten"
+            },
+            {
+              "text": " jetzt."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "writing-super",
-      "type": "writing",
-      "label": "Writing",
-      "title": "Four superlatives",
+      "id": "schreiben-superlativ",
+      "type": "sentencewrite",
+      "label": "Schreiben",
+      "title": "Sätze schreiben",
       "practice": "writing",
-      "instructions": "Write four lines. Before the patient, use -e. After ist and läuft, use am.",
-      "prompt": "The smallest patient stays in bed. The fever is the highest. The call is the most urgent. Anna runs the fastest.",
-      "bullets": ["der kleinste Patient", "am höchsten", "am dringendsten", "am schnellsten"],
-      "model": "Der kleinste Patient bleibt im Bett. Das Fieber ist am höchsten. Der Anruf ist am dringendsten. Anna läuft am schnellsten.",
-      "modelEn": "The smallest patient stays in bed. The fever is the highest. The call is the most urgent. Anna runs the fastest.",
-      "hint": "der kleinste Patient. am höchsten. am dringendsten. am schnellsten.",
-      "checklist": [
-        { "id": "k", "label": "der kleinste Patient", "keywords": ["der kleinste patient"] },
-        { "id": "h", "label": "am höchsten", "keywords": ["am höchsten"] },
-        { "id": "d", "label": "am dringendsten", "keywords": ["am dringendsten"] },
-        { "id": "s", "label": "am schnellsten", "keywords": ["am schnellsten"] }
+      "instructions": "Schreiben Sie den Satz. Kleinschreibung und Punkt sind egal. Wortstellung kann variieren.",
+      "items": [
+        {
+          "cue": "bleiben: der jüngste Kollege • wach",
+          "answers": [
+            "Der jüngste Kollege bleibt wach",
+            "Wach bleibt der jüngste Kollege"
+          ],
+          "marks": [
+            {
+              "wrong": "jungste",
+              "right": "jüngste",
+              "reason": "Umlaut fehlt"
+            },
+            {
+              "wrong": "jüngster",
+              "right": "jüngste",
+              "reason": "nach der → -ste"
+            }
+          ],
+          "en": "The youngest colleague stays awake.",
+          "hint": "der jüngste"
+        },
+        {
+          "cue": "sein: die Temperatur • am höchsten • nachts",
+          "answers": [
+            "Die Temperatur ist nachts am höchsten",
+            "Nachts ist die Temperatur am höchsten",
+            "Die Temperatur ist am höchsten nachts"
+          ],
+          "marks": [
+            {
+              "wrong": "am der höchsten",
+              "right": "am höchsten",
+              "reason": "am ohne Artikel"
+            },
+            {
+              "wrong": "am hochsten",
+              "right": "am höchsten",
+              "reason": "Stamm höchst"
+            }
+          ],
+          "en": "The temperature is highest at night.",
+          "hint": "am höchsten"
+        },
+        {
+          "cue": "kommen: Anna • am schnellsten • zur Station",
+          "answers": [
+            "Anna kommt am schnellsten zur Station",
+            "Am schnellsten kommt Anna zur Station",
+            "Zur Station kommt Anna am schnellsten"
+          ],
+          "marks": [
+            {
+              "wrong": "am schnellster",
+              "right": "am schnellsten",
+              "reason": "am + -sten"
+            },
+            {
+              "wrong": "am der schnellsten",
+              "right": "am schnellsten",
+              "reason": "kein Artikel nach am"
+            }
+          ],
+          "en": "Anna arrives at the ward the fastest.",
+          "hint": "am schnellsten"
+        },
+        {
+          "cue": "sein: die Patientin • die älteste • auf Station",
+          "answers": [
+            "Die älteste Patientin ist auf Station",
+            "Auf Station ist die älteste Patientin"
+          ],
+          "marks": [
+            {
+              "wrong": "alteste",
+              "right": "älteste",
+              "reason": "Umlaut fehlt"
+            },
+            {
+              "wrong": "ältester",
+              "right": "älteste",
+              "reason": "nach die → -ste"
+            }
+          ],
+          "en": "The oldest patient is on the ward.",
+          "hint": "die älteste"
+        },
+        {
+          "cue": "sein: der Alarm • am dringendsten • jetzt",
+          "answers": [
+            "Der Alarm ist jetzt am dringendsten",
+            "Jetzt ist der Alarm am dringendsten",
+            "Der Alarm ist am dringendsten jetzt"
+          ],
+          "marks": [
+            {
+              "wrong": "am dringenden",
+              "right": "am dringendsten",
+              "reason": "Superlativ -sten"
+            },
+            {
+              "wrong": "am dringster",
+              "right": "am dringendsten",
+              "reason": "am + -sten"
+            }
+          ],
+          "en": "The alarm is the most urgent now.",
+          "hint": "am dringendsten"
+        },
+        {
+          "cue": "sein: Wasser • am besten • für ihn",
+          "answers": [
+            "Wasser ist am besten für ihn",
+            "Für ihn ist Wasser am besten",
+            "Am besten ist Wasser für ihn"
+          ],
+          "marks": [
+            {
+              "wrong": "am gutesten",
+              "right": "am besten",
+              "reason": "gut → am besten"
+            },
+            {
+              "wrong": "am bessersten",
+              "right": "am besten",
+              "reason": "nicht vom Komparativ"
+            }
+          ],
+          "en": "Water is the best for him.",
+          "hint": "am besten"
+        },
+        {
+          "cue": "trinken: der Patient • am liebsten • Wasser",
+          "answers": [
+            "Der Patient trinkt am liebsten Wasser",
+            "Am liebsten trinkt der Patient Wasser",
+            "Wasser trinkt der Patient am liebsten"
+          ],
+          "marks": [
+            {
+              "wrong": "am gernsten",
+              "right": "am liebsten",
+              "reason": "gern → am liebsten"
+            },
+            {
+              "wrong": "am liebersten",
+              "right": "am liebsten",
+              "reason": "nicht vom Komparativ"
+            }
+          ],
+          "en": "The patient prefers water most.",
+          "hint": "am liebsten"
+        },
+        {
+          "cue": "sein: die Wunde • die größte • am Bein",
+          "answers": [
+            "Die größte Wunde ist am Bein",
+            "Am Bein ist die größte Wunde"
+          ],
+          "marks": [
+            {
+              "wrong": "größeste",
+              "right": "größte",
+              "reason": "kein Extra-e bei groß"
+            },
+            {
+              "wrong": "großte",
+              "right": "größte",
+              "reason": "Umlaut + -te"
+            }
+          ],
+          "en": "The biggest wound is on the leg.",
+          "hint": "die größte"
+        },
+        {
+          "cue": "sein: der Puls • am höchsten • am Abend",
+          "answers": [
+            "Der Puls ist am Abend am höchsten",
+            "Am Abend ist der Puls am höchsten",
+            "Der Puls ist am höchsten am Abend"
+          ],
+          "marks": [
+            {
+              "wrong": "am hohersten",
+              "right": "am höchsten",
+              "reason": "hoch → am höchsten"
+            },
+            {
+              "wrong": "am hochersten",
+              "right": "am höchsten",
+              "reason": "Stamm höchst"
+            }
+          ],
+          "en": "The pulse is highest in the evening.",
+          "hint": "am höchsten"
+        },
+        {
+          "cue": "arbeiten: Jonas • am sorgfältigsten",
+          "answers": [
+            "Jonas arbeitet am sorgfältigsten",
+            "Am sorgfältigsten arbeitet Jonas"
+          ],
+          "marks": [
+            {
+              "wrong": "am sorgfältigersten",
+              "right": "am sorgfältigsten",
+              "reason": "am + -sten"
+            },
+            {
+              "wrong": "am sorgfältigen",
+              "right": "am sorgfältigsten",
+              "reason": "Superlativ -sten"
+            }
+          ],
+          "en": "Jonas works the most carefully.",
+          "hint": "am sorgfältigsten"
+        }
       ]
     },
     {
@@ -893,139 +2925,215 @@
       "label": "Test",
       "title": "Lernkontrolle",
       "practice": "lernkontrolle",
-      "heroTitle": "Anna läuft am schnellsten",
-      "heroImage": "bed",
-      "story": ["Twelve questions. Eighty percent mastered means at least ten correct."],
-      "questionRule": "Before a noun, nominative singular ends in -e. After a verb, am plus -en. Accusative singular, one man: den plus -en.",
-      "quizTitle": "Lernkontrolle",
+      "heroTitle": "Können Sie den Superlativ?",
+      "heroImage": "clipboard",
+      "story": [
+        "Prüfen Sie -ste vor dem Nomen und am …sten nach dem Verb."
+      ],
+      "tables": [],
+      "warning": {
+        "title": "Tipp",
+        "items": [
+          {
+            "de": "✓ der kleinste Patient",
+            "en": "vor Nomen",
+            "tone": "ok"
+          },
+          {
+            "de": "✓ am höchsten",
+            "en": "nach Verb",
+            "tone": "ok"
+          }
+        ],
+        "tip": "…ste · am …sten · gut → am besten"
+      },
+      "questionRule": "Wählen Sie die richtige Form.",
+      "quizTitle": "Lernkontrolle Superlativ",
       "quiz": [
         {
           "kind": "mc",
-          "q": "The smallest patient. Nominative, before the noun.",
-          "qEn": "Ending -e.",
-          "options": ["der kleinste Patient", "der kleinster Patient", "der kleinsten Patient"],
+          "q": "Der ___ Patient schläft.",
+          "options": [
+            "kleinste",
+            "kleinster",
+            "kleiner"
+          ],
           "answer": 0,
-          "why": "der kleinste Patient.",
-          "hint": "-e."
+          "why": "der + -ste.",
+          "hint": "kleinste"
         },
         {
           "kind": "mc",
-          "q": "The fever is the highest.",
-          "qEn": "Stem höchst.",
-          "options": ["Das Fieber ist am höchsten.", "Das Fieber ist am hochsten.", "Das Fieber ist am der höchsten."],
+          "q": "Das Fieber ist ___.",
+          "options": [
+            "am höchsten",
+            "am der höchsten",
+            "am hochsten"
+          ],
           "answer": 0,
           "why": "am höchsten.",
-          "hint": "höchsten."
+          "hint": "höchsten"
         },
         {
           "kind": "mc",
-          "q": "Anna runs the fastest.",
-          "qEn": "am plus -en.",
-          "options": ["Anna läuft am schnellsten.", "Anna läuft am schnellster.", "Anna läuft am der schnellsten."],
+          "q": "Sie läuft ___.",
+          "options": [
+            "am schnellsten",
+            "am schnellster",
+            "am der schnellsten"
+          ],
           "answer": 0,
           "why": "am schnellsten.",
-          "hint": "am."
+          "hint": "schnellsten"
         },
         {
           "kind": "mc",
-          "q": "The oldest female patient. Nominative.",
-          "qEn": "Umlaut and -est.",
-          "options": ["die älteste Patientin", "die alteste Patientin", "die ältester Patientin"],
+          "q": "die ___ Kollegin",
+          "options": [
+            "älteste",
+            "alteste",
+            "ältester"
+          ],
           "answer": 0,
-          "why": "die älteste Patientin.",
-          "hint": "ä."
+          "why": "Umlaut + -este.",
+          "hint": "älteste"
         },
         {
           "kind": "mc",
-          "q": "The call is the most urgent.",
-          "qEn": "-est because of d.",
-          "options": ["Der Anruf ist am dringendsten.", "Der Anruf ist am dringsten.", "Der Anruf ist am dringendster."],
+          "q": "Das ist am ___.",
+          "options": [
+            "besten",
+            "gutesten",
+            "bessersten"
+          ],
+          "answer": 0,
+          "why": "gut → am besten.",
+          "hint": "besten"
+        },
+        {
+          "kind": "mc",
+          "q": "am ___",
+          "options": [
+            "größten",
+            "größesten",
+            "großten"
+          ],
+          "answer": 0,
+          "why": "groß → am größten.",
+          "hint": "größten"
+        },
+        {
+          "kind": "mc",
+          "q": "Der Fall ist am ___.",
+          "options": [
+            "dringendsten",
+            "dringenden",
+            "dringster"
+          ],
           "answer": 0,
           "why": "am dringendsten.",
-          "hint": "-est."
+          "hint": "dringendsten"
         },
         {
           "kind": "mc",
-          "q": "The water is best.",
-          "qEn": "gut → am besten.",
-          "options": ["Das Wasser ist am besten.", "Das Wasser ist am gutesten.", "Das Wasser ist am gutsten."],
+          "q": "Er trinkt am ___ Tee.",
+          "options": [
+            "liebsten",
+            "gernstens",
+            "liebersten"
+          ],
           "answer": 0,
-          "why": "am besten.",
-          "hint": "besten."
+          "why": "gern → am liebsten.",
+          "hint": "liebsten"
         },
         {
           "kind": "mc",
-          "q": "The youngest patient. Nominative, before the noun.",
-          "qEn": "Umlaut. jung does not take -est.",
-          "options": ["der jüngste Patient", "der jungste Patient", "der jüngeste Patient"],
+          "q": "der ___ Termin",
+          "options": [
+            "nächste",
+            "nahste",
+            "nächster"
+          ],
           "answer": 0,
-          "why": "der jüngste Patient.",
-          "hint": "ü."
+          "why": "nah → der nächste.",
+          "hint": "nächste"
         },
         {
           "kind": "mc",
-          "q": "The pain is the greatest. After sein.",
-          "qEn": "groß → am größten. No extra e.",
-          "options": ["Der Schmerz ist am größten.", "Der Schmerz ist am größesten.", "Der Schmerz ist am grossesten."],
+          "q": "Wir brauchen am ___ Zeit.",
+          "options": [
+            "meisten",
+            "vielsten",
+            "mehrsten"
+          ],
           "answer": 0,
-          "why": "am größten. ß stays, as in größer.",
-          "hint": "größten."
+          "why": "viel → am meisten.",
+          "hint": "meisten"
         },
         {
           "kind": "mc",
-          "q": "The most patients. Plural.",
-          "qEn": "viel → die meisten.",
-          "options": ["die meisten Patienten", "die vielsten Patienten", "die mehrsten Patienten"],
+          "q": "Er hustet am ___.",
+          "options": [
+            "stärksten",
+            "starksten",
+            "stärkersten"
+          ],
           "answer": 0,
-          "why": "die meisten Patienten.",
-          "hint": "meisten."
+          "why": "stark → am stärksten.",
+          "hint": "stärksten"
         },
         {
           "kind": "mc",
-          "q": "Anna likes water best. gern.",
-          "qEn": "gern → am liebsten.",
-          "options": ["Anna trinkt am liebsten Wasser.", "Anna trinkt am gernsten Wasser.", "Anna trinkt am gerner Wasser."],
+          "q": "das ___ Fieber",
+          "options": [
+            "höchste",
+            "hochste",
+            "höchsten"
+          ],
           "answer": 0,
-          "why": "am liebsten.",
-          "hint": "liebsten."
-        },
-        {
-          "kind": "mc",
-          "q": "The highest fever, before the noun.",
-          "qEn": "das plus -e. Stem höchst.",
-          "options": ["das höchste Fieber", "das hochste Fieber", "das höcheste Fieber"],
-          "answer": 0,
-          "why": "das höchste Fieber.",
-          "hint": "höchste."
-        },
-        {
-          "kind": "mc",
-          "q": "She calls the youngest patient. Akkusativ, one man.",
-          "qEn": "den, then -en, then Patienten.",
-          "options": ["Sie ruft den jüngsten Patienten.", "Sie ruft den jüngste Patienten.", "Sie ruft dem jüngsten Patienten."],
-          "answer": 0,
-          "why": "den jüngsten Patienten.",
-          "hint": "den."
+          "why": "das + -ste.",
+          "hint": "höchste"
         }
       ]
     },
     {
       "id": "summary",
       "type": "summary",
-      "label": "Summary",
-      "title": "Das Fieber ist am höchsten",
-      "reviewStepType": "grammar",
+      "label": "Ziel",
+      "title": "Superlativ",
       "redemittel": [
-        { "de": "Der kleinste Patient bleibt im Bett.", "en": "The smallest patient stays in bed." },
-        { "de": "Das Fieber ist am höchsten.", "en": "The fever is the highest." },
-        { "de": "Der Anruf ist am dringendsten.", "en": "The call is the most urgent." },
-        { "de": "Anna läuft am schnellsten.", "en": "Anna runs the fastest." }
+        {
+          "de": "der kleinste Patient",
+          "en": "the smallest patient"
+        },
+        {
+          "de": "am höchsten",
+          "en": "the highest (after the verb)"
+        },
+        {
+          "de": "am besten",
+          "en": "the best"
+        },
+        {
+          "de": "am liebsten Wasser trinken",
+          "en": "to prefer water most"
+        }
+      ],
+      "rules": [
+        {
+          "c": "N",
+          "rule": "Vor dem Nomen: der/die/das + …ste. Nach dem Verb: am + …sten."
+        },
+        {
+          "c": "N",
+          "rule": "hoch → am höchsten; groß → am größten; gut → am besten; gern → am liebsten; viel → am meisten."
+        }
       ],
       "messages": [
-        "Before a noun, nominative singular ends in -e. After a verb, use am plus -en.",
-        "am stays am. hoch → am höchsten. gut → am besten. gern → am liebsten.",
-        "Sehr gut. Das Fieber ist am höchsten.",
-        "Ausgezeichnet. You can put the highest degree on the ward."
+        "Noch üben: -ste und am …sten nicht mischen.",
+        "Gut — die Superlative sitzen besser.",
+        "Sehr gut — weiter so auf Station.",
+        "Stark! Kapitel 39 geschafft."
       ]
     }
   ]
