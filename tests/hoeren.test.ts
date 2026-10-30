@@ -1,10 +1,28 @@
 import { describe, expect, it } from "vitest";
 import { getAllHoeren, getHoerenBySlug, validateHoerenLesson } from "@/lib/hoeren";
 
+const BATCH2 = [
+  {
+    slug: "a2-plaene-machen",
+    videoId: "A1k6ZjKFycM",
+    title: "Pläne machen",
+  },
+  {
+    slug: "a2-sprichst-du-deutsch",
+    videoId: "J7j31w8UT2c",
+    title: "Sprichst du Deutsch?",
+  },
+  {
+    slug: "a2-geld-ist-fuer-mich",
+    videoId: "dRga5jIMjBo",
+    title: "Geld ist für mich …",
+  },
+] as const;
+
 describe("hoeren pilot", () => {
   it("loads the Angekommen pilot lesson", () => {
     const lessons = getAllHoeren();
-    expect(lessons.length).toBeGreaterThanOrEqual(1);
+    expect(lessons.length).toBeGreaterThanOrEqual(4);
     const lesson = getHoerenBySlug("a2-angekommen");
     expect(lesson).toBeTruthy();
     expect(lesson!.videoId).toBe("WB4YmgiRULw");
@@ -19,5 +37,79 @@ describe("hoeren pilot", () => {
     expect(pos.has("noun")).toBe(true);
     expect(pos.has("prep")).toBe(true);
     expect(pos.has("compound")).toBe(true);
+  });
+});
+
+describe("hoeren A2 batch 2", () => {
+  it("loads three lessons after Angekommen", () => {
+    for (const meta of BATCH2) {
+      const lesson = getHoerenBySlug(meta.slug);
+      expect(lesson).toBeTruthy();
+      expect(lesson!.videoId).toBe(meta.videoId);
+      expect(lesson!.title).toBe(meta.title);
+      expect(lesson!.level).toBe("A2");
+      expect(lesson!.series).toBe("Nicos Weg");
+      expect(lesson!.questions).toHaveLength(8);
+      expect(validateHoerenLesson(lesson!)).toEqual([]);
+      const pos = new Set(lesson!.lines.flatMap((l) => l.tokens.map((t) => t.pos)));
+      expect(pos.has("verb")).toBe(true);
+      expect(pos.has("noun")).toBe(true);
+      expect(pos.has("prep")).toBe(true);
+      expect(pos.has("compound")).toBe(true);
+    }
+  });
+
+  it("does not tag infinitive zu as a preposition", () => {
+    const infinitives = new Set([
+      "sein",
+      "haben",
+      "werden",
+      "tun",
+      "bleiben",
+      "gehen",
+      "kommen",
+      "lassen",
+      "sehen",
+      "hören",
+      "helfen",
+      "lernen",
+      "studieren",
+      "machen",
+      "arbeiten",
+      "wohnen",
+      "leben",
+      "verdienen",
+      "warten",
+      "zurückkommen",
+      "weiterstudieren",
+      "eröffnen",
+      "kümmern",
+      "belügen",
+      "anrufen",
+      "sprechen",
+      "üben",
+    ]);
+    const strip = (w: string) => w.replace(/^[„"'([{]+|[.!?,;:…'")\]}?]+$/g, "");
+    for (const meta of BATCH2) {
+      const lesson = getHoerenBySlug(meta.slug)!;
+      for (const line of lesson.lines) {
+        for (let i = 0; i < line.tokens.length; i++) {
+          const tok = line.tokens[i];
+          const core = strip(tok.w).toLowerCase();
+          if (core !== "zu") continue;
+          const next = line.tokens[i + 1] ? strip(line.tokens[i + 1].w).toLowerCase() : "";
+          const nextIsInf =
+            infinitives.has(next) ||
+            (/((en|eln|ern)$)/.test(next) &&
+              next.length > 3 &&
+              !["einen", "ihnen", "denen", "meinen", "deinen", "seinen"].includes(next));
+          if (nextIsInf) {
+            expect(tok.pos).toBe("other");
+          } else {
+            expect(tok.pos).toBe("prep");
+          }
+        }
+      }
+    }
   });
 });
