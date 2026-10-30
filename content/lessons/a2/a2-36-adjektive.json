@@ -3,6 +3,7 @@
   "platform": "MediDeutsch",
   "interfaceLanguage": "en",
   "targetLanguage": "de-DE",
+  "exerciseLanguage": "de",
   "scoring": {
     "firstTry": 2,
     "afterRetry": 1,
@@ -15,666 +16,6 @@
       "3": 0.9
     }
   },
-  "glossary": {
-    "der": {
-      "de": "der",
-      "pos": "article",
-      "en": "the (masculine nominative)"
-    },
-    "die": {
-      "de": "die",
-      "pos": "article",
-      "en": "the (feminine or plural)"
-    },
-    "das": {
-      "de": "das",
-      "pos": "article",
-      "en": "the (neuter)"
-    },
-    "den": {
-      "de": "den",
-      "pos": "article",
-      "en": "the (masculine accusative)"
-    },
-    "dem": {
-      "de": "dem",
-      "pos": "article",
-      "en": "the (masculine or neuter dative)"
-    },
-    "ein": {
-      "de": "ein",
-      "pos": "article",
-      "en": "a (masculine or neuter)"
-    },
-    "eine": {
-      "de": "eine",
-      "pos": "article",
-      "en": "a (feminine)"
-    },
-    "einen": {
-      "de": "einen",
-      "pos": "article",
-      "en": "a (masculine accusative)"
-    },
-    "einem": {
-      "de": "einem",
-      "pos": "article",
-      "en": "a (masculine or neuter dative)"
-    },
-    "einer": {
-      "de": "einer",
-      "pos": "article",
-      "en": "a (feminine dative)"
-    },
-    "ich": {
-      "de": "ich",
-      "pos": "pronoun",
-      "en": "I"
-    },
-    "er": {
-      "de": "er",
-      "pos": "pronoun",
-      "en": "he"
-    },
-    "sie": {
-      "de": "sie / Sie",
-      "pos": "pronoun",
-      "en": "she; they; you (formal)"
-    },
-    "es": {
-      "de": "es",
-      "pos": "pronoun",
-      "en": "it"
-    },
-    "in": {
-      "de": "in",
-      "pos": "preposition",
-      "en": "in; into"
-    },
-    "an": {
-      "de": "an",
-      "pos": "preposition",
-      "en": "at; on (vertical)"
-    },
-    "auf": {
-      "de": "auf",
-      "pos": "preposition",
-      "en": "on (horizontal); onto"
-    },
-    "neben": {
-      "de": "neben",
-      "pos": "preposition",
-      "en": "next to"
-    },
-    "hinter": {
-      "de": "hinter",
-      "pos": "preposition",
-      "en": "behind"
-    },
-    "vor": {
-      "de": "vor",
-      "pos": "preposition",
-      "en": "in front of"
-    },
-    "mit": {
-      "de": "mit",
-      "pos": "preposition",
-      "en": "with"
-    },
-    "aus": {
-      "de": "aus",
-      "pos": "preposition",
-      "en": "out of; from"
-    },
-    "von": {
-      "de": "von",
-      "pos": "preposition",
-      "en": "from"
-    },
-    "bei": {
-      "de": "bei",
-      "pos": "preposition",
-      "en": "at (a person)"
-    },
-    "zu": {
-      "de": "zu",
-      "pos": "preposition",
-      "en": "to"
-    },
-    "nach": {
-      "de": "nach",
-      "pos": "preposition",
-      "en": "to; after"
-    },
-    "im": {
-      "de": "im",
-      "pos": "preposition",
-      "en": "in the (in + dem)"
-    },
-    "ins": {
-      "de": "ins",
-      "pos": "preposition",
-      "en": "into the (in + das)"
-    },
-    "am": {
-      "de": "am",
-      "pos": "preposition",
-      "en": "at the (an + dem)"
-    },
-    "beim": {
-      "de": "beim",
-      "pos": "preposition",
-      "en": "at the (bei + dem)"
-    },
-    "zum": {
-      "de": "zum",
-      "pos": "preposition",
-      "en": "to the (zu + dem)"
-    },
-    "vom": {
-      "de": "vom",
-      "pos": "preposition",
-      "en": "from the (von + dem)"
-    },
-    "und": {
-      "de": "und",
-      "pos": "conjunction",
-      "en": "and"
-    },
-    "oder": {
-      "de": "oder",
-      "pos": "conjunction",
-      "en": "or"
-    },
-    "als": {
-      "de": "als",
-      "pos": "conjunction",
-      "en": "than"
-    },
-    "wie": {
-      "de": "wie",
-      "pos": "conjunction",
-      "en": "as; like"
-    },
-    "heute": {
-      "de": "heute",
-      "pos": "adverb",
-      "en": "today"
-    },
-    "gestern": {
-      "de": "gestern",
-      "pos": "adverb",
-      "en": "yesterday"
-    },
-    "bitte": {
-      "de": "bitte",
-      "pos": "adverb",
-      "en": "please"
-    },
-    "nicht": {
-      "de": "nicht",
-      "pos": "adverb",
-      "en": "not"
-    },
-    "dort": {
-      "de": "dort",
-      "pos": "adverb",
-      "en": "there"
-    },
-    "so": {
-      "de": "so",
-      "pos": "adverb",
-      "en": "so"
-    },
-    "wo": {
-      "de": "wo",
-      "pos": "adverb",
-      "en": "where"
-    },
-    "wohin": {
-      "de": "wohin",
-      "pos": "adverb",
-      "en": "where to"
-    },
-    "woher": {
-      "de": "woher",
-      "pos": "adverb",
-      "en": "where from"
-    },
-    "anna": {
-      "de": "Anna",
-      "pos": "name",
-      "en": "Anna"
-    },
-    "hause": {
-      "de": "Hause",
-      "pos": "noun",
-      "en": "home, in the phrases zu Hause, nach Hause, von zu Hause",
-      "note": "Fixed phrases: zu Hause (where), nach Hause (where to), von zu Hause (where from)."
-    },
-    "bringt": {
-      "de": "bringen → bringt",
-      "pos": "verb",
-      "en": "brings"
-    },
-    "liegt": {
-      "de": "liegen → liegt",
-      "pos": "verb",
-      "en": "lies; is lying"
-    },
-    "kommt": {
-      "de": "kommen → kommt",
-      "pos": "verb",
-      "en": "comes"
-    },
-    "komme": {
-      "de": "kommen → komme",
-      "pos": "verb",
-      "en": "come (ich)"
-    },
-    "stehen": {
-      "de": "stehen → stehen",
-      "pos": "verb",
-      "en": "to stand"
-    },
-    "steht": {
-      "de": "stehen → steht",
-      "pos": "verb",
-      "en": "stands"
-    },
-    "legen": {
-      "de": "legen → legen",
-      "pos": "verb",
-      "en": "to lay; to put"
-    },
-    "ist": {
-      "de": "sein → ist",
-      "pos": "verb",
-      "en": "is"
-    },
-    "bin": {
-      "de": "sein → bin",
-      "pos": "verb",
-      "en": "am"
-    },
-    "hat": {
-      "de": "haben → hat",
-      "pos": "verb",
-      "en": "has"
-    },
-    "geht": {
-      "de": "gehen → geht",
-      "pos": "verb",
-      "en": "goes"
-    },
-    "gehe": {
-      "de": "gehen → gehe",
-      "pos": "verb",
-      "en": "go (ich)"
-    },
-    "gibt": {
-      "de": "geben → gibt",
-      "pos": "verb",
-      "en": "gives"
-    },
-    "bleibt": {
-      "de": "bleiben → bleibt",
-      "pos": "verb",
-      "en": "stays"
-    },
-    "spricht": {
-      "de": "sprechen → spricht",
-      "pos": "verb",
-      "en": "speaks"
-    },
-    "prüft": {
-      "de": "prüfen → prüft",
-      "pos": "verb",
-      "en": "checks"
-    },
-    "trinkt": {
-      "de": "trinken → trinkt",
-      "pos": "verb",
-      "en": "drinks"
-    },
-    "arbeitet": {
-      "de": "arbeiten → arbeitet",
-      "pos": "verb",
-      "en": "works"
-    },
-    "kommen": {
-      "de": "kommen → kommen",
-      "pos": "verb",
-      "en": "to come; Sie-imperative of kommen"
-    },
-    "wird": {
-      "de": "werden → wird",
-      "pos": "verb",
-      "en": "becomes"
-    },
-    "pflegekraft": {
-      "de": "Pflegekraft",
-      "pos": "noun",
-      "en": "nurse",
-      "emoji": "🧑‍⚕️",
-      "article": "die",
-      "plural": "die Pflegekräfte"
-    },
-    "patient": {
-      "de": "Patient",
-      "pos": "noun",
-      "en": "patient",
-      "emoji": "🤒",
-      "article": "der",
-      "plural": "die Patienten"
-    },
-    "patienten": {
-      "de": "Patienten",
-      "pos": "noun",
-      "en": "patient (accusative or dative singular)",
-      "emoji": "🤒",
-      "article": "der",
-      "plural": "die Patienten"
-    },
-    "op": {
-      "de": "OP",
-      "pos": "noun",
-      "en": "operating theatre",
-      "emoji": "🏥",
-      "article": "der",
-      "plural": "die OPs"
-    },
-    "liege": {
-      "de": "Liege",
-      "pos": "noun",
-      "en": "examination couch",
-      "emoji": "🛏️",
-      "article": "die",
-      "plural": "die Liegen"
-    },
-    "zimmer": {
-      "de": "Zimmer",
-      "pos": "noun",
-      "en": "room",
-      "emoji": "🚪",
-      "article": "das",
-      "plural": "die Zimmer"
-    },
-    "thermometer": {
-      "de": "Thermometer",
-      "pos": "noun",
-      "en": "thermometer",
-      "emoji": "🌡️",
-      "article": "das",
-      "plural": "die Thermometer"
-    },
-    "nachttisch": {
-      "de": "Nachttisch",
-      "pos": "noun",
-      "en": "bedside table",
-      "emoji": "🗄️",
-      "article": "der",
-      "plural": "die Nachttische"
-    },
-    "infusion": {
-      "de": "Infusion",
-      "pos": "noun",
-      "en": "infusion",
-      "emoji": "💧",
-      "article": "die",
-      "plural": "die Infusionen"
-    },
-    "bett": {
-      "de": "Bett",
-      "pos": "noun",
-      "en": "bed",
-      "emoji": "🛏️",
-      "article": "das",
-      "plural": "die Betten"
-    },
-    "monitor": {
-      "de": "Monitor",
-      "pos": "noun",
-      "en": "monitor",
-      "emoji": "📟",
-      "article": "der",
-      "plural": "die Monitore"
-    },
-    "akte": {
-      "de": "Akte",
-      "pos": "noun",
-      "en": "file",
-      "emoji": "📋",
-      "article": "die",
-      "plural": "die Akten"
-    },
-    "tisch": {
-      "de": "Tisch",
-      "pos": "noun",
-      "en": "table",
-      "emoji": "🪵",
-      "article": "der",
-      "plural": "die Tische"
-    },
-    "ärztin": {
-      "de": "Ärztin",
-      "pos": "noun",
-      "en": "doctor (female)",
-      "emoji": "👩‍⚕️",
-      "article": "die",
-      "plural": "die Ärztinnen"
-    },
-    "arzt": {
-      "de": "Arzt",
-      "pos": "noun",
-      "en": "doctor",
-      "emoji": "👨‍⚕️",
-      "article": "der",
-      "plural": "die Ärzte"
-    },
-    "station": {
-      "de": "Station",
-      "pos": "noun",
-      "en": "ward",
-      "emoji": "🏥",
-      "article": "die",
-      "plural": "die Stationen"
-    },
-    "intensivstation": {
-      "de": "Intensivstation",
-      "pos": "noun",
-      "en": "intensive care unit",
-      "emoji": "🏥",
-      "article": "die",
-      "plural": "die Intensivstationen"
-    },
-    "schmerz": {
-      "de": "Schmerz",
-      "pos": "noun",
-      "en": "pain",
-      "emoji": "⚡",
-      "article": "der",
-      "plural": "die Schmerzen"
-    },
-    "arm": {
-      "de": "Arm",
-      "pos": "noun",
-      "en": "arm",
-      "emoji": "💪",
-      "article": "der",
-      "plural": "die Arme"
-    },
-    "übelkeit": {
-      "de": "Übelkeit",
-      "pos": "noun",
-      "en": "nausea",
-      "emoji": "🤢",
-      "article": "die",
-      "plural": "Übelkeit"
-    },
-    "pflaster": {
-      "de": "Pflaster",
-      "pos": "noun",
-      "en": "plaster",
-      "emoji": "🩹",
-      "article": "das",
-      "plural": "die Pflaster"
-    },
-    "befund": {
-      "de": "Befund",
-      "pos": "noun",
-      "en": "finding",
-      "emoji": "📄",
-      "article": "der",
-      "plural": "die Befunde"
-    },
-    "verband": {
-      "de": "Verband",
-      "pos": "noun",
-      "en": "dressing",
-      "emoji": "🩹",
-      "article": "der",
-      "plural": "die Verbände"
-    },
-    "kollegin": {
-      "de": "Kollegin",
-      "pos": "noun",
-      "en": "colleague (female)",
-      "emoji": "👩‍⚕️",
-      "article": "die",
-      "plural": "die Kolleginnen"
-    },
-    "tag": {
-      "de": "Tag",
-      "pos": "noun",
-      "en": "day",
-      "emoji": "📅",
-      "article": "der",
-      "plural": "die Tage"
-    },
-    "dosis": {
-      "de": "Dosis",
-      "pos": "noun",
-      "en": "dose",
-      "emoji": "💊",
-      "article": "die",
-      "plural": "die Dosen"
-    },
-    "blutdruck": {
-      "de": "Blutdruck",
-      "pos": "noun",
-      "en": "blood pressure",
-      "emoji": "❤️",
-      "article": "der",
-      "plural": "Blutdruck"
-    },
-    "wasser": {
-      "de": "Wasser",
-      "pos": "noun",
-      "en": "water",
-      "emoji": "💧",
-      "article": "das",
-      "plural": "Wasser"
-    },
-    "saft": {
-      "de": "Saft",
-      "pos": "noun",
-      "en": "juice",
-      "emoji": "🧃",
-      "article": "der",
-      "plural": "die Säfte"
-    },
-    "starke": {
-      "de": "starke",
-      "pos": "adjective",
-      "en": "severe, strong (feminine or plural weak ending)"
-    },
-    "starken": {
-      "de": "starken",
-      "pos": "adjective",
-      "en": "severe, strong (accusative masculine ending)"
-    },
-    "stark": {
-      "de": "stark",
-      "pos": "adjective",
-      "en": "severe, strong (no ending after sein)"
-    },
-    "leicht": {
-      "de": "leicht",
-      "pos": "adjective",
-      "en": "mild; light"
-    },
-    "kleines": {
-      "de": "kleines",
-      "pos": "adjective",
-      "en": "small (neuter nominative or accusative ending)"
-    },
-    "neuen": {
-      "de": "neuen",
-      "pos": "adjective",
-      "en": "new (weak ending)"
-    },
-    "neu": {
-      "de": "neu",
-      "pos": "adjective",
-      "en": "new (no ending after sein)"
-    },
-    "gut": {
-      "de": "gut",
-      "pos": "adjective",
-      "en": "good (no ending after sein)"
-    },
-    "kleinen": {
-      "de": "kleinen",
-      "pos": "adjective",
-      "en": "small (weak ending)"
-    },
-    "dritten": {
-      "de": "dritten",
-      "pos": "adjective",
-      "en": "third (dative ending)"
-    },
-    "postoperativen": {
-      "de": "postoperativen",
-      "pos": "adjective",
-      "en": "postoperative (dative ending)"
-    },
-    "zweiten": {
-      "de": "zweiten",
-      "pos": "adjective",
-      "en": "second (dative ending)"
-    },
-    "stärker": {
-      "de": "stärker",
-      "pos": "adjective",
-      "en": "stronger"
-    },
-    "stärkere": {
-      "de": "stärkere",
-      "pos": "adjective",
-      "en": "stronger (attributive ending)"
-    },
-    "hoch": {
-      "de": "hoch",
-      "pos": "adjective",
-      "en": "high"
-    },
-    "früher": {
-      "de": "früher",
-      "pos": "adverb",
-      "en": "earlier; sooner"
-    },
-    "besser": {
-      "de": "besser",
-      "pos": "adjective",
-      "en": "better"
-    },
-    "lieber": {
-      "de": "lieber",
-      "pos": "adverb",
-      "en": "preferably; rather"
-    }
-  },
   "id": "a2-36-adjektive",
   "level": "A2",
   "unit": "Kapitel 36",
@@ -682,94 +23,2162 @@
   "chapters": [
     36
   ],
-  "title": "Ein netter Mann! Ich liebe den netten Mann",
-  "subtitle": "Adjective endings in the nominative and accusative",
+  "title": "Der starke Schmerz",
+  "subtitle": "Adjektivendungen im Nominativ und Akkusativ",
+  "scenarios": [
+    "a2-krankenhaus",
+    "a2-patienten",
+    "a2-hilfsmittel",
+    "a2-vitalwerte",
+    "a2-arzneimittel",
+    "b1-wunden"
+  ],
+  "glossary": {
+    "nominativ": {
+      "de": "Nominativ",
+      "pos": "noun",
+      "en": "nominative",
+      "article": "der"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "Akkusativ": {
+      "de": "Akkusativ",
+      "pos": "other",
+      "en": "accusative",
+      "emoji": "📘"
+    },
+    "Stationsnotiz": {
+      "de": "Stationsnotiz",
+      "pos": "noun",
+      "en": "ward note",
+      "article": "die",
+      "plural": "die Stationsnotizen"
+    },
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵",
+      "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet."
+    },
+    "Patient": {
+      "de": "Patient",
+      "pos": "noun.m",
+      "en": "patient (male)",
+      "article": "der",
+      "plural": "Patienten",
+      "emoji": "🤒",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🩹",
+      "note": "Er hat einen frischen Verband. Accusative masculine -en."
+    },
+    "einen": {
+      "de": "einen",
+      "pos": "article",
+      "en": "a (masculine accusative)",
+      "emoji": "🩹",
+      "note": "einen frischen Verband. Accusative masculine. The adjective is -en. einen starken Schmerz stays chapter 36."
+    },
+    "starken": {
+      "de": "stark → starke(n)",
+      "pos": "adjective",
+      "en": "strong; severe",
+      "emoji": "💥",
+      "note": "starke Schmerzen = severe pain"
+    },
+    "Schmerz": {
+      "de": "Schmerz",
+      "pos": "noun.m",
+      "en": "pain",
+      "article": "der",
+      "plural": "Schmerzen",
+      "emoji": "💢"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in the",
+      "emoji": "🛏️",
+      "note": "im = in + dem. Dative. Der Patient bleibt im Bett liegen. liegen asks wo? ins Bett is direction, chapter 62, and stays correct with legen."
+    },
+    "arm": {
+      "de": "Arm",
+      "pos": "noun",
+      "en": "arm",
+      "emoji": "💪",
+      "article": "der",
+      "plural": "die Arme",
+      "note": "Accusative: den Arm. Not dem Arm."
+    },
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)",
+      "emoji": "📋",
+      "note": "die Akte."
+    },
+    "übelkeit": {
+      "de": "Übelkeit",
+      "pos": "noun",
+      "en": "nausea",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—"
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is; has (with sein)",
+      "emoji": "🟦",
+      "note": "aufstehen takes sein: ist aufgestanden. Not hat aufgestanden."
+    },
+    "leicht": {
+      "de": "leicht",
+      "pos": "adjective",
+      "en": "mild; light"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "en": "nurse"
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "prefix",
+      "en": "separable prefix of einkaufen and einnehmen",
+      "emoji": "🔚",
+      "note": "Stressed. Finite verb in position 2, ein at the end: kaufe ein, nimmt die Tablette ein. The infinitive stays one word: einnehmen."
+    },
+    "kleines": {
+      "de": "kleines",
+      "pos": "adjective",
+      "en": "small (neuter nominative or accusative ending)"
+    },
+    "Pflaster": {
+      "de": "Pflaster",
+      "pos": "noun.n",
+      "en": "plaster / band-aid",
+      "article": "das",
+      "plural": "Pflaster",
+      "emoji": "🩹",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "emoji": "🩹",
+      "article": "die",
+      "plural": "die Wunden",
+      "note": "Die Wunde wurde gereinigt."
+    },
+    "befund": {
+      "de": "Befund",
+      "pos": "noun",
+      "en": "finding; report",
+      "emoji": "📋",
+      "article": "der",
+      "plural": "die Befunde",
+      "note": "Accusative: den Befund."
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new",
+      "emoji": "🆕",
+      "note": "Predicative, no ending, chapter 36. ob der Schmerz neu ist. Not der Schmerz neue ist."
+    },
+    "Merken": {
+      "de": "Merken",
+      "pos": "verb",
+      "en": "remember (Merken Sie sich … = remember …)"
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she",
+      "emoji": "👩‍⚕️"
+    },
+    "sich": {
+      "de": "sich",
+      "pos": "pronoun",
+      "en": "itself",
+      "emoji": "🩹",
+      "note": "öffnet sich. Reflexive, chapter 29. The wenn-clause does not change sich."
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "after",
+      "emoji": "🍽️",
+      "note": "Dative preposition, chapter 30. Nach dem Essen ruht er. Two words. Not nachdem."
+    },
+    "sein": {
+      "de": "sein",
+      "pos": "verb",
+      "en": "to be",
+      "emoji": "⏪",
+      "note": "Yesterday: war, warst, war, waren, wart, waren."
+    },
+    "keine": {
+      "de": "keine",
+      "pos": "article",
+      "en": "no (plural or feminine)"
+    },
+    "endung": {
+      "de": "Endung",
+      "pos": "noun",
+      "en": "ending",
+      "emoji": "🧩",
+      "article": "die",
+      "plural": "die Endungen"
+    },
+    "stark": {
+      "de": "stark",
+      "pos": "adjective",
+      "en": "severe (no ending after sein)",
+      "emoji": "🩹",
+      "note": "Der Schmerz ist stark. No ending after sein. ein starker Schmerz is before the noun and stays chapter 36."
+    },
+    "Adjektivendungen": {
+      "de": "Adjektivendungen",
+      "pos": "noun",
+      "en": "adjective endings (plural)"
+    },
+    "Kurzcheck": {
+      "de": "Kurzcheck",
+      "pos": "noun",
+      "en": "quick check"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "en": {
+      "de": "-en",
+      "pos": "ending",
+      "en": "weak-noun ending"
+    },
+    "es": {
+      "de": "es",
+      "pos": "pronoun",
+      "en": "it",
+      "emoji": "💧"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine)",
+      "emoji": "🔵",
+      "note": "den Patienten. Accusative singular after lassen, sehen and hören. Also the dative plural."
+    },
+    "starke": {
+      "de": "starke",
+      "pos": "adjective",
+      "en": "severe, strong (feminine or plural weak ending)"
+    },
+    "kleinen": {
+      "de": "kleinen",
+      "pos": "adjective",
+      "en": "small (weak ending)"
+    },
+    "Ärztin": {
+      "de": "Ärztin",
+      "pos": "noun.f",
+      "en": "doctor (female)",
+      "article": "die",
+      "plural": "Ärztinnen",
+      "emoji": "👩‍⚕️",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      }
+    },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Der behandelnde Arzt kommt."
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "📅"
+    },
+    "neue": {
+      "de": "neue",
+      "pos": "adjective",
+      "en": "new"
+    },
+    "neuen": {
+      "de": "neuen",
+      "pos": "adjective",
+      "en": "new (weak ending)"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "sehen": {
+      "de": "sehen → wir sehen",
+      "pos": "form",
+      "en": "see",
+      "emoji": "🐟",
+      "note": "Wir sehen fliegende Fische. Wir sehen nichts Neues stays chapter 66."
+    },
+    "patienten": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "den Patienten is one man in the accusative. Chapter 64. der Patient stays nominative. dem Patienten stays the dative."
+    },
+    "alten": {
+      "de": "alten",
+      "pos": "adj.dat",
+      "en": "old (dative ending -en)",
+      "emoji": "🧓"
+    },
+    "alte": {
+      "de": "alte",
+      "pos": "adjective",
+      "en": "old (ending -e)"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative neuter)",
+      "emoji": "🍽️",
+      "note": "dem Essen. Dative after nach. Not the conjunction nachdem."
+    },
+    "Verband": {
+      "de": "Verband",
+      "pos": "noun.m",
+      "en": "bandage / dressing",
+      "article": "der",
+      "plural": "Verbände",
+      "emoji": "🩹",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Infusion": {
+      "de": "Infusion",
+      "pos": "noun.f",
+      "en": "infusion / drip",
+      "article": "die",
+      "plural": "Infusionen",
+      "emoji": "💧",
+      "image": {
+        "type": "svg",
+        "id": "infusion"
+      }
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)",
+      "emoji": "🔴",
+      "note": "eine Tablette."
+    },
+    "einer": {
+      "de": "einer",
+      "pos": "article",
+      "en": "a (genitive or dative)",
+      "emoji": "🔗",
+      "note": "einer Stunde. Genitive after innerhalb. Dative after in. Same form. Not eine Stunde after these prepositions."
+    },
+    "neuer": {
+      "de": "neu → neuer",
+      "pos": "adjective",
+      "en": "new"
+    },
+    "kind": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "child",
+      "emoji": "🧒",
+      "article": "das",
+      "plural": "die Kinder",
+      "note": "das Kind. das schlafende Kind. ein schlafendes Kind takes -es. Das Kind schläft stays."
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢",
+      "note": "das frische Wasser. das already shows -s, so the adjective takes -e. Not das frisches."
+    },
+    "kleine": {
+      "de": "kleine",
+      "pos": "adjective",
+      "en": "small (ending -e)"
+    },
+    "Fieber": {
+      "de": "Fieber",
+      "pos": "noun.n",
+      "en": "fever",
+      "article": "das",
+      "plural": "Fieber",
+      "emoji": "🌡️",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "hohen": {
+      "de": "hohen",
+      "pos": "adjective",
+      "en": "high (ending -en)"
+    },
+    "sauberen": {
+      "de": "sauberen",
+      "pos": "adjective",
+      "en": "clean (ending -en)"
+    },
+    "schmerzen": {
+      "de": "Schmerz",
+      "pos": "noun",
+      "en": "pain",
+      "emoji": "⚡",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "note": "Plural die Schmerzen. Then wären: Wenn die Schmerzen stärker wären."
+    },
+    "sind": {
+      "de": "sein → sie sind",
+      "pos": "form",
+      "en": "are",
+      "emoji": "👥",
+      "note": "Das sind die Ärzte. Main-clause verb, position 2."
+    },
+    "geben": {
+      "de": "geben",
+      "pos": "verb",
+      "en": "to give",
+      "emoji": "🎁"
+    },
+    "mir": {
+      "de": "mir",
+      "pos": "pronoun",
+      "en": "myself (dative); to me",
+      "emoji": "🤲",
+      "note": "Dative. The thing stays accusative: mir die Hände, mir das Gesicht, mir den Befund, mir Sorgen, mir den Arm. Not mich."
+    },
+    "decke": {
+      "de": "Decke",
+      "pos": "noun",
+      "en": "blanket",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Decken"
+    },
+    "warmen": {
+      "de": "warmen",
+      "pos": "adjective",
+      "en": "warm (ending -en)"
+    },
+    "maskulin": {
+      "de": "maskulin",
+      "pos": "adjective",
+      "en": "masculine"
+    },
+    "sitzt": {
+      "de": "sitzen → er sitzt",
+      "pos": "form",
+      "en": "sits",
+      "emoji": "🪑",
+      "note": "du sitzt and ihr sitzt look the same. She sitzt. Formal Sie sitzen. Not setzt."
+    },
+    "entweder": {
+      "de": "entweder",
+      "pos": "conjunction",
+      "en": "either",
+      "emoji": "🍵",
+      "note": "The pair is entweder … oder. One or the other. Entweder isst er, oder er trinkt. Entweder er isst, oder er trinkt stays correct too. Not oder trinkt er."
+    },
+    "am": {
+      "de": "am (= an dem)",
+      "pos": "preposition",
+      "en": "the fixed superlative marker",
+      "emoji": "🏆",
+      "note": "After a verb the superlative is am + -en: am höchsten. It stays am for die and der. Not am der."
+    },
+    "artikel": {
+      "de": "Artikel",
+      "pos": "noun",
+      "en": "article",
+      "article": "der",
+      "plural": "die Artikel"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or",
+      "emoji": "🔀",
+      "note": "Position 0, as in chapter 40. It does not send the verb to the end. Two questions have no comma: Kaufe ich ein oder bestelle ich Pizza?"
+    },
+    "Adjektiv": {
+      "de": "Adjektiv",
+      "pos": "noun",
+      "en": "adjective",
+      "article": "das",
+      "plural": "die Adjektive"
+    },
+    "immer": {
+      "de": "immer",
+      "pos": "adverb",
+      "en": "always",
+      "emoji": "🔁",
+      "note": "der immer meine Nachbarin besucht. immer stands before the object. besucht stays last."
+    },
+    "feminin": {
+      "de": "feminin",
+      "pos": "adjective",
+      "en": "feminine"
+    },
+    "oft": {
+      "de": "oft",
+      "pos": "adverb",
+      "en": "often"
+    },
+    "gleich": {
+      "de": "gleich",
+      "pos": "adverb",
+      "en": "in a moment; right away",
+      "emoji": "⏰"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of"
+    },
+    "werden": {
+      "de": "werden → sie werden",
+      "pos": "form",
+      "en": "will, or are (passive)",
+      "emoji": "🔁",
+      "note": "Three uses. Infinitive, no wohl: a plan. Participle: passive. wohl plus an infinitive: a guess. wir and formal Sie werden. She wird."
+    },
+    "bleibt": {
+      "de": "bleiben → er bleibt",
+      "pos": "form",
+      "en": "stays",
+      "emoji": "🛏️",
+      "note": "Der Patient bleibt im Bett liegen. Bare infinitive, no zu. Der Patient bleibt im Bett, with no second verb, stays correct too."
+    },
+    "ohne": {
+      "de": "ohne",
+      "pos": "preposition",
+      "en": "without"
+    },
+    "man": {
+      "de": "man",
+      "pos": "pronoun",
+      "en": "one",
+      "emoji": "🧑",
+      "note": "mit dem man … The title leaves the verb open. The ward line is mit dem wir messen."
+    },
+    "Subjekt": {
+      "de": "Subjekt",
+      "pos": "other",
+      "en": "subject",
+      "emoji": "📘"
+    },
+    "klein": {
+      "de": "klein",
+      "pos": "adjective",
+      "en": "small"
+    },
+    "objekt": {
+      "de": "Objekt",
+      "pos": "noun",
+      "en": "object",
+      "article": "das"
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "infinitive",
+      "en": "to have",
+      "emoji": "🌡️",
+      "note": "With wohl: a guess. Sie wird wohl Fieber haben. Not hat."
+    },
+    "Endungen": {
+      "de": "Endungen",
+      "pos": "noun",
+      "en": "endings (plural of die Endung)"
+    },
+    "setzen": {
+      "de": "setzen",
+      "pos": "infinitive",
+      "en": "to put (someone) sitting",
+      "emoji": "🪑",
+      "note": "Direction, wohin? Accusative, with an object. Sie setzt ihn auf das Bett. den Patienten is that object."
+    },
+    "hungrige": {
+      "de": "hungrige",
+      "pos": "adjective",
+      "en": "hungry (ending -e)"
+    },
+    "rote": {
+      "de": "rot → rote",
+      "pos": "adjective",
+      "en": "red"
+    },
+    "frau": {
+      "de": "Frau",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Frauen",
+      "en": "woman; wife; Mrs/Ms",
+      "emoji": "👩",
+      "note": "meine Frau = my wife · Frau Weber = Ms Weber"
+    },
+    "über": {
+      "de": "über",
+      "pos": "preposition",
+      "en": "about / above",
+      "emoji": "📋",
+      "note": "About takes the accusative: über den, über die, über das. Above a place takes the dative, chapter 34, and stays correct for that meaning."
+    },
+    "Physio": {
+      "de": "Physio",
+      "pos": "noun",
+      "en": "physio (physiotherapist), short form",
+      "article": "die"
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (clock time)",
+      "emoji": "🕗",
+      "note": "um acht. Clock time takes um."
+    },
+    "zehn": {
+      "de": "zehn",
+      "pos": "number",
+      "en": "ten",
+      "emoji": "🕙"
+    },
+    "Jonas": {
+      "de": "Jonas",
+      "pos": "name",
+      "en": "Jonas (first name)"
+    },
+    "holt": {
+      "de": "holen → er/sie holt",
+      "pos": "verb",
+      "en": "fetches; holt … ab = picks up",
+      "emoji": "🚗"
+    },
+    "kissen": {
+      "de": "Kissen",
+      "pos": "noun",
+      "en": "pillow",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Kissen"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "contraction",
+      "en": "von + dem"
+    },
+    "wagen": {
+      "de": "Wagen",
+      "pos": "noun",
+      "en": "ambulance",
+      "emoji": "🚑",
+      "article": "der",
+      "plural": "die Wagen",
+      "note": "Here the ambulance. Als der Wagen kam. One past event. Wann kam der Wagen? stays a question."
+    },
+    "gast": {
+      "de": "Gast",
+      "pos": "noun",
+      "en": "guest",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Gäste"
+    },
+    "liest": {
+      "de": "lesen → liest",
+      "pos": "form",
+      "en": "reads"
+    },
+    "notiert": {
+      "de": "notieren → notiert",
+      "pos": "participle",
+      "en": "noted",
+      "emoji": "✅",
+      "note": "No ge- : the verb ends in -ieren."
+    },
+    "puls": {
+      "de": "Puls",
+      "pos": "noun",
+      "en": "pulse",
+      "article": "der",
+      "plural": "die Pulse",
+      "emoji": "🩺"
+    },
+    "bekommt": {
+      "de": "bekommen → er bekommt",
+      "pos": "form",
+      "en": "gets; receives",
+      "emoji": "💊",
+      "note": "Inseparable be-. Never kommt … be. Participle bekommen looks like the infinitive. No extra ge-."
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "particle",
+      "en": "please",
+      "emoji": "🙏",
+      "note": "Softens the request. Würden Sie bitte warten? Not the verb bitten."
+    },
+    "holen": {
+      "de": "holen → wir holen",
+      "pos": "form",
+      "en": "fetch",
+      "emoji": "⏪"
+    },
+    "gips": {
+      "de": "Gips",
+      "pos": "noun",
+      "en": "plaster cast",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Gipse"
+    },
+    "fertig": {
+      "de": "fertig",
+      "pos": "adjective",
+      "en": "ready, finished",
+      "emoji": "🔤"
+    },
+    "oberarzt": {
+      "de": "Oberarzt",
+      "pos": "noun",
+      "en": "senior doctor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Oberärzte",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      }
+    },
+    "plan": {
+      "de": "Plan",
+      "pos": "noun",
+      "en": "plan, rota",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Pläne"
+    },
+    "hilft": {
+      "de": "helfen → hilft",
+      "pos": "verb",
+      "en": "helps"
+    },
+    "team": {
+      "de": "Team",
+      "pos": "noun",
+      "en": "team",
+      "article": "das",
+      "plural": "die Teams",
+      "emoji": "👥"
+    },
+    "stelle": {
+      "de": "Stelle",
+      "pos": "noun",
+      "en": "place",
+      "emoji": "🧭",
+      "article": "die",
+      "plural": "die Stellen",
+      "note": "An Ihrer Stelle würde ich bleiben. Feminine, so dative Ihrer."
+    },
+    "rücken": {
+      "de": "rücken",
+      "pos": "other",
+      "en": "rücken",
+      "emoji": "🔤"
+    },
+    "handtücher": {
+      "de": "Handtücher",
+      "pos": "noun",
+      "en": "towels",
+      "emoji": "🔤"
+    },
+    "sätze": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "article": "der",
+      "plural": "die Sätze",
+      "emoji": "🩺"
+    },
+    "bauen": {
+      "de": "bauen",
+      "pos": "form",
+      "en": "to build"
+    },
+    "Mira": {
+      "de": "Mira",
+      "pos": "name",
+      "en": "Mira (first name)"
+    },
+    "dokumentiert": {
+      "de": "dokumentieren → dokumentiert",
+      "pos": "verb",
+      "en": "documents"
+    },
+    "junge": {
+      "de": "Junge",
+      "pos": "noun",
+      "en": "boy",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Jungen",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      },
+      "note": "n-declension plural: die Jungen."
+    },
+    "Pfleger": {
+      "de": "Pfleger",
+      "pos": "noun.m",
+      "en": "nurse (male)",
+      "article": "der",
+      "plural": "Pfleger",
+      "emoji": "👨‍⚕️",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "bringt": {
+      "de": "bringen → er/sie bringt",
+      "pos": "verb",
+      "en": "brings",
+      "emoji": "🤲"
+    },
+    "tee": {
+      "de": "Tee",
+      "pos": "noun",
+      "en": "tea",
+      "emoji": "🍵",
+      "article": "der",
+      "plural": "die Tees",
+      "note": "der Tee. Er trinkt Tee oder Wasser. No article in that line."
+    },
+    "wechseln": {
+      "de": "wechseln",
+      "pos": "verb",
+      "en": "to change"
+    },
+    "handtuch": {
+      "de": "Handtuch",
+      "pos": "noun",
+      "en": "towel",
+      "emoji": "🔤",
+      "article": "das",
+      "plural": "die Handtücher"
+    },
+    "erfahrene": {
+      "de": "erfahrene",
+      "pos": "adjective",
+      "en": "experienced (ending -e)"
+    },
+    "schwester": {
+      "de": "Schwester",
+      "pos": "noun",
+      "en": "sister",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Schwestern"
+    },
+    "erklärt": {
+      "de": "erklären → sie erklärt",
+      "pos": "form",
+      "en": "explains",
+      "emoji": "💬",
+      "note": "Inseparable er-. Stays together: erklärt den Befund. Participle erklärt, with no ge-."
+    },
+    "alles": {
+      "de": "alles",
+      "pos": "pronoun",
+      "en": "everything, all the",
+      "emoji": "🎁",
+      "note": "alles Gute. The ending is -e, as after das. Not alles Gutes. Dative allem Guten."
+    },
+    "kontrolliert": {
+      "de": "kontrollieren → kontrolliert",
+      "pos": "form",
+      "en": "checks"
+    },
+    "müde": {
+      "de": "müde",
+      "pos": "adjective",
+      "en": "tired",
+      "emoji": "😴",
+      "note": "Sie wäre müde. Sie war müde is the past state from chapter 23."
+    },
+    "Baby": {
+      "de": "Baby",
+      "pos": "noun",
+      "en": "baby",
+      "article": "das",
+      "plural": "die Babys"
+    },
+    "schläft": {
+      "de": "schlafen → er schläft",
+      "pos": "form",
+      "en": "sleeps",
+      "emoji": "😴",
+      "note": "At the end of the während-clause. Der Patient schläft stays a main clause, verb second."
+    },
+    "frische": {
+      "de": "frische",
+      "pos": "adjective",
+      "en": "fresh (-e)",
+      "emoji": "💧",
+      "note": "das frische Wasser. -e after das or die. Also frische Verbände, plural with no article. Not frische Wasser: neuter with no article needs -es."
+    },
+    "untersuchen": {
+      "de": "untersuchen",
+      "pos": "verb",
+      "en": "to examine"
+    },
+    "linken": {
+      "de": "linken",
+      "pos": "adj.dat",
+      "en": "left (dative -en)",
+      "emoji": "👈"
+    },
+    "fuß": {
+      "de": "fuß",
+      "pos": "other",
+      "en": "fuß",
+      "emoji": "🔤"
+    },
+    "offenes": {
+      "de": "offenes",
+      "pos": "adjective",
+      "en": "open (ending -es)"
+    },
+    "fenster": {
+      "de": "Fenster",
+      "pos": "noun",
+      "en": "window",
+      "article": "das",
+      "plural": "die Fenster",
+      "emoji": "🩺"
+    },
+    "zimmer": {
+      "de": "Zimmer",
+      "pos": "noun",
+      "en": "room",
+      "emoji": "🚪",
+      "article": "das",
+      "plural": "die Zimmer",
+      "note": "das Zimmer, in dem er liegt. wo er liegt stays correct for a place. Er liegt im Zimmer stays a main clause. ins Zimmer stays direction."
+    },
+    "angehörigen": {
+      "de": "Angehörigen",
+      "pos": "noun",
+      "en": "relative (dative/accusative of Angehöriger)",
+      "article": "der",
+      "plural": "die Angehörigen",
+      "emoji": "👪"
+    },
+    "lesen": {
+      "de": "lesen",
+      "pos": "verb",
+      "en": "to read",
+      "emoji": "📄"
+    },
+    "kurze": {
+      "de": "kurz",
+      "pos": "adjective",
+      "en": "short",
+      "emoji": "🔤"
+    },
+    "notiz": {
+      "de": "Notiz",
+      "pos": "noun",
+      "en": "note",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Notizen"
+    },
+    "fehler": {
+      "de": "Fehler",
+      "pos": "noun",
+      "en": "mistake",
+      "article": "der",
+      "plural": "die Fehler",
+      "emoji": "🩺"
+    },
+    "finden": {
+      "de": "finden",
+      "pos": "other",
+      "en": "finden",
+      "emoji": "🔤"
+    },
+    "finde": {
+      "de": "finden → finde",
+      "pos": "form",
+      "en": "find"
+    },
+    "schreibt": {
+      "de": "schreiben → sie schreibt",
+      "pos": "form",
+      "en": "writes",
+      "emoji": "📝",
+      "note": "Sie schreibt während der Visite. The preposition has no verb of its own."
+    },
+    "bericht": {
+      "de": "Bericht",
+      "pos": "noun",
+      "en": "report",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Berichte",
+      "image": {
+        "type": "svg",
+        "id": "clipboard"
+      }
+    },
+    "langen": {
+      "de": "langen",
+      "pos": "adjective",
+      "en": "long (ending -en)"
+    },
+    "jung": {
+      "de": "jung",
+      "pos": "adjective",
+      "en": "young (stem; add the ending)"
+    },
+    "Arzt": {
+      "de": "Arzt",
+      "pos": "noun.m",
+      "en": "doctor (male)",
+      "article": "der",
+      "plural": "Ärzte",
+      "emoji": "👨‍⚕️",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      }
+    },
+    "stellt": {
+      "de": "stellen → sie stellt",
+      "pos": "form",
+      "en": "puts (upright)",
+      "emoji": "🧍",
+      "note": "She stellt es auf den Tisch. Not auf dem."
+    },
+    "fragen": {
+      "de": "Frage",
+      "pos": "noun",
+      "en": "question",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Fragen"
+    },
+    "jungen": {
+      "de": "Junge",
+      "pos": "noun",
+      "en": "boy",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Jungen",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "Set": {
+      "de": "Set",
+      "pos": "noun",
+      "en": "set, kit",
+      "article": "das",
+      "plural": "die Sets"
+    },
+    "sterilen": {
+      "de": "sterilen",
+      "pos": "adjective",
+      "en": "sterile (ending -en)"
+    },
+    "Patientin": {
+      "de": "Patientin",
+      "pos": "noun.f",
+      "en": "patient (female)",
+      "article": "die",
+      "plural": "Patientinnen",
+      "emoji": "🤒",
+      "image": {
+        "type": "svg",
+        "id": "patientin"
+      }
+    },
+    "ängstliche": {
+      "de": "ängstliche",
+      "pos": "adjective",
+      "en": "anxious (ending -e)"
+    },
+    "ängstlichen": {
+      "de": "ängstlichen",
+      "pos": "adjective",
+      "en": "anxious (ending -en)"
+    },
+    "leise": {
+      "de": "leise",
+      "pos": "adjective",
+      "en": "quiet",
+      "emoji": "🔤"
+    },
+    "alarm": {
+      "de": "Alarm",
+      "pos": "noun",
+      "en": "alarm",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Alarme"
+    },
+    "schwer": {
+      "de": "schwer",
+      "pos": "adjective",
+      "en": "heavy, severe (stem; add the ending)"
+    },
+    "atmet": {
+      "de": "atmen → er atmet",
+      "pos": "form",
+      "en": "breathes",
+      "emoji": "💨",
+      "note": "damit er atmet. Finite verb, last. He is not the subject of hebt."
+    },
+    "schnell": {
+      "de": "schnell",
+      "pos": "adverb",
+      "en": "fast; quickly",
+      "emoji": "⚡"
+    },
+    "schwere": {
+      "de": "schwere",
+      "pos": "adjective",
+      "en": "heavy, severe (ending -e)"
+    },
+    "schweren": {
+      "de": "schweren",
+      "pos": "adj.dat",
+      "en": "severe / heavy (dative -en)",
+      "emoji": "💢"
+    },
+    "reichen": {
+      "de": "reichen",
+      "pos": "verb",
+      "en": "to hand, to pass"
+    },
+    "kalt": {
+      "de": "kalt",
+      "pos": "adjective",
+      "en": "cold (no ending after sein)",
+      "emoji": "🍺",
+      "note": "Deutsches Bier ist kalt. No ending after ist. Not ist kaltes. The -es belongs on Deutsches, before the noun."
+    },
+    "prüfen": {
+      "de": "prüfen",
+      "pos": "verb",
+      "en": "to check",
+      "emoji": "🔤"
+    },
+    "rechte": {
+      "de": "rechte",
+      "pos": "adjective",
+      "en": "right (ending -e)"
+    },
+    "rechten": {
+      "de": "rechten",
+      "pos": "adj.dat",
+      "en": "right (dative -en)",
+      "emoji": "👉"
+    },
+    "Bett": {
+      "de": "Bett",
+      "pos": "noun.n",
+      "en": "bed",
+      "article": "das",
+      "plural": "Betten",
+      "emoji": "🛏️",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "steht": {
+      "de": "aufstehen → er steht … auf",
+      "pos": "form",
+      "en": "gets up",
+      "emoji": "🛏️",
+      "note": "Separable. er steht auf. du stehst auf. ihr steht auf. wir stehen auf. Er steht im Zimmer, with no auf, means he is standing."
+    },
+    "wichtig": {
+      "de": "wichtig",
+      "pos": "adjective",
+      "en": "important",
+      "emoji": "📋",
+      "note": "Predicative, no ending. Es ist wichtig, die Wunde zu dokumentieren. The comma is required after es."
+    },
+    "bild": {
+      "de": "Bild",
+      "pos": "noun",
+      "en": "picture",
+      "article": "das",
+      "plural": "die Bilder",
+      "emoji": "🩺"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient (male)",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Patienten",
+      "note": "Nominative der Patient. No -en. den Patienten is the accusative, chapter 64."
+    },
+    "Blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun.m",
+      "en": "blood pressure",
+      "article": "der",
+      "plural": "Blutdrücke",
+      "emoji": "🩺",
+      "image": {
+        "type": "svg",
+        "id": "bpmonitor"
+      }
+    },
+    "tiefe": {
+      "de": "tiefe",
+      "pos": "adjective",
+      "en": "deep (ending -e)"
+    },
+    "kranke": {
+      "de": "Kranke",
+      "pos": "noun",
+      "en": "sick person",
+      "emoji": "🤒",
+      "note": "der Kranke is one man. die Kranke is one woman. Same ending -e. ein Kranker is the man after ein. After sein the word stays krank, with no ending."
+    },
+    "visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "emoji": "🩺",
+      "article": "die",
+      "plural": "die Visiten",
+      "note": "wann die Visite ist. The ward round."
+    },
+    "guten": {
+      "de": "guten",
+      "pos": "adjective",
+      "en": "good"
+    },
+    "Morgen": {
+      "de": "Morgen",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Morgen",
+      "en": "morning",
+      "emoji": "🌅",
+      "note": "Guten Morgen! = Good morning! (Lowercase morgen = tomorrow.)"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in",
+      "emoji": "🚪",
+      "note": "Two-way, chapter 34. With liegen, wo?, the relative is in dem. wohin? stays ins Zimmer, with gehen. The relative does not contract to im."
+    },
+    "verstehe": {
+      "de": "verstehen → ich verstehe",
+      "pos": "form",
+      "en": "understand",
+      "emoji": "💡",
+      "note": "Inseparable ver-. Participle verstanden, with no ge-. Perfekt: hat verstanden."
+    },
+    "laborwerte": {
+      "de": "Laborwerte",
+      "pos": "noun",
+      "en": "lab values",
+      "emoji": "🔤"
+    },
+    "schon": {
+      "de": "schon",
+      "pos": "adverb",
+      "en": "already",
+      "emoji": "✅",
+      "note": "Marks the earlier event: hatte schon gegessen."
+    },
+    "da": {
+      "de": "da",
+      "pos": "adverb",
+      "en": "here; there"
+    },
+    "gewechselt": {
+      "de": "gewechselt",
+      "pos": "participle",
+      "en": "changed"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "good; well",
+      "emoji": "👍"
+    },
+    "bringen": {
+      "de": "bringen → wir bringen",
+      "pos": "form",
+      "en": "bring",
+      "emoji": "🥤",
+      "note": "Wir bringen etwas Kaltes zu trinken."
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "💧",
+      "note": "mit takes the dative. mit frischem Wasser, no article, so -em. mit kleinem Pflaster stays chapter 37."
+    },
+    "etwas": {
+      "de": "etwas",
+      "pos": "pronoun",
+      "en": "something",
+      "emoji": "🥤",
+      "note": "etwas shows no ending, so the neuter word takes -es: etwas Neues, etwas Kaltes. Dative etwas Kaltem."
+    },
+    "dann": {
+      "de": "dann",
+      "pos": "adverb",
+      "en": "then",
+      "emoji": "⏭️",
+      "note": "Position 1. Here it introduces the later event: Dann kam der Arzt. Not denn."
+    },
+    "machen": {
+      "de": "machen",
+      "pos": "verb",
+      "en": "to do; to make",
+      "emoji": "🛠️"
+    },
+    "frischen": {
+      "de": "frischen",
+      "pos": "adjective",
+      "en": "fresh (-en)",
+      "emoji": "🩹",
+      "note": "einen frischen Verband, accusative. im frischen Bett, dative after dem. Not einen frischer. Not im frische."
+    },
+    "frischer": {
+      "de": "frischer",
+      "pos": "adjective",
+      "en": "fresh (masculine nominative -er)",
+      "emoji": "🩹",
+      "note": "ein frischer Verband. Frischer Verband with no article. Nominative. Not the accusative: einen frischen Verband."
+    },
+    "kranken": {
+      "de": "Kranke",
+      "pos": "noun",
+      "en": "sick person",
+      "emoji": "🤒",
+      "article": "der",
+      "plural": "die Kranken",
+      "note": "den Kranken, dem Kranken, des Kranken, die Kranken. No extra -s. Not des Krankens. den Kranken is also dative plural."
+    },
+    "gerade": {
+      "de": "gerade",
+      "pos": "adverb",
+      "en": "just now"
+    },
+    "kontrolliere": {
+      "de": "kontrollieren → ich kontrolliere",
+      "pos": "verb",
+      "en": "check (ich)",
+      "emoji": "🔍"
+    },
+    "noch": {
+      "de": "noch",
+      "pos": "conjunction",
+      "en": "nor / still",
+      "emoji": "🚫",
+      "note": "In the pair: weder … noch. After noch the verb is position 2: noch trinkt er. Not noch er trinkt. Er schläft noch, meaning still, stays correct and is not this pair."
+    },
+    "so": {
+      "de": "so",
+      "pos": "adverb",
+      "en": "so; that",
+      "emoji": "↔️",
+      "note": "Nicht so gut. = Not so good."
+    },
+    "danke": {
+      "de": "danke",
+      "pos": "particle",
+      "en": "thanks",
+      "emoji": "🙏"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "kurzen": {
+      "de": "kurzen",
+      "pos": "adjective",
+      "en": "short (ending -en)"
+    },
+    "pause": {
+      "de": "Pause",
+      "pos": "noun",
+      "en": "break",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Pausen"
+    },
+    "schreiben": {
+      "de": "schreiben",
+      "pos": "form",
+      "en": "write"
+    },
+    "kommen": {
+      "de": "kommen",
+      "pos": "infinitive",
+      "en": "to come",
+      "emoji": "👀",
+      "note": "Ich sehe den Patienten kommen. No zu. Der Patient kommt stays the finite verb."
+    },
+    "zur": {
+      "de": "zur",
+      "pos": "contraction",
+      "en": "zu + der"
+    },
+    "warten": {
+      "de": "warten → wir warten",
+      "pos": "form",
+      "en": "wait",
+      "emoji": "⏳",
+      "note": "wir warten. After a fronted clause, warten comes next: Während er schläft, warten wir."
+    },
+    "alt": {
+      "de": "alt",
+      "pos": "adjective",
+      "en": "old (stem; add the ending)"
+    },
+    "herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "gentleman",
+      "emoji": "🎩",
+      "article": "der",
+      "plural": "die Herren",
+      "note": "Nominative der Herr. No -n. Oblique singular Herrn. Plural die Herren."
+    },
+    "flur": {
+      "de": "Flur",
+      "pos": "noun",
+      "en": "corridor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Flure"
+    },
+    "wartet": {
+      "de": "warten → er wartet",
+      "pos": "form",
+      "en": "waits",
+      "emoji": "⏳",
+      "note": "Ein schlafender Patient wartet. Singular. Der Jugendliche wartet stays chapter 65."
+    },
+    "messen": {
+      "de": "messen → wir messen",
+      "pos": "form",
+      "en": "measure",
+      "emoji": "📟",
+      "note": "wir messen. Verb at the end of the relative clause. The participle is gemessen, chapter 26, not this exercise."
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adjective",
+      "en": "high (no ending after sein)",
+      "emoji": "🌡️",
+      "note": "Das Fieber ist hoch. No participle ending after sein. Chapter 76."
+    },
+    "misst": {
+      "de": "messen → sie misst",
+      "pos": "form",
+      "en": "measures",
+      "emoji": "🌡️",
+      "note": "Sie misst damit. Here damit means with that thing, chapter 54. Not so that. Not da mit. The participle is gemessen, not this chapter."
+    },
+    "trinken": {
+      "de": "trinken",
+      "pos": "infinitive",
+      "en": "to drink",
+      "emoji": "🥤",
+      "note": "zu trinken. Chapter 68. Der Patient trinkt is the finite verb."
+    },
+    "krank": {
+      "de": "krank",
+      "pos": "adjective",
+      "en": "ill"
+    },
+    "Wasser": {
+      "de": "Wasser",
+      "pos": "noun.n",
+      "en": "water",
+      "article": "das",
+      "plural": "Wasser",
+      "emoji": "💧",
+      "image": {
+        "type": "svg",
+        "id": "water"
+      }
+    },
+    "trinkt": {
+      "de": "trinken → er trinkt",
+      "pos": "form",
+      "en": "drinks",
+      "emoji": "💧",
+      "note": "Er trinkt frisches Wasser. Er trinkt das frische Wasser. Der Patient trinkt etwas Kaltes stays chapter 66."
+    },
+    "warm": {
+      "de": "warm",
+      "pos": "adjective",
+      "en": "warm",
+      "emoji": "🔤"
+    },
+    "lernkontrolle": {
+      "de": "Lernkontrolle",
+      "pos": "noun",
+      "en": "chapter test",
+      "article": "die",
+      "plural": "die Lernkontrollen",
+      "emoji": "🩺"
+    },
+    "Abschluss": {
+      "de": "Abschluss",
+      "pos": "other",
+      "en": "Abschluss",
+      "emoji": "🔤"
+    },
+    "check": {
+      "de": "check",
+      "pos": "label",
+      "en": "check"
+    },
+    "Können": {
+      "de": "Können",
+      "pos": "other",
+      "en": "Können",
+      "emoji": "🔤"
+    },
+    "sehe": {
+      "de": "sehen → ich sehe",
+      "pos": "form",
+      "en": "see",
+      "emoji": "👀",
+      "note": "Ich sehe den Patienten kommen. Accusative plus a bare infinitive. No zu."
+    },
+    "freut": {
+      "de": "sich freuen → sie freut sich",
+      "pos": "form",
+      "en": "is glad",
+      "emoji": "🌸",
+      "note": "The thing is darüber. Sie freut sich darüber. ich freue mich darüber."
+    },
+    "uns": {
+      "de": "uns",
+      "pos": "pronoun",
+      "en": "us"
+    },
+    "achten": {
+      "de": "achten",
+      "pos": "adjective",
+      "en": "eighth (ending -en)"
+    },
+    "wie": {
+      "de": "wie",
+      "pos": "adverb",
+      "en": "how / what",
+      "emoji": "❓",
+      "note": "W-word in position 1. Wie heißt das Ding? The verb heißt stays in position 2. The question mark stays, because the main clause is a question."
+    },
+    "Bauch": {
+      "de": "Bauch",
+      "pos": "noun",
+      "en": "abdomen, belly",
+      "article": "der",
+      "plural": "die Bäuche"
+    },
+    "Berg": {
+      "de": "Berg",
+      "pos": "name",
+      "en": "Berg (surname)"
+    },
+    "Blutwerte": {
+      "de": "Blutwerte",
+      "pos": "noun",
+      "en": "blood results (plural)"
+    },
+    "Brei": {
+      "de": "Brei",
+      "pos": "noun",
+      "en": "porridge, mash",
+      "article": "der"
+    },
+    "Druck": {
+      "de": "Druck",
+      "pos": "noun",
+      "en": "pressure",
+      "article": "der",
+      "plural": "die Drücke"
+    },
+    "Flanke": {
+      "de": "Flanke",
+      "pos": "noun",
+      "en": "flank (side of the torso)",
+      "article": "die",
+      "plural": "die Flanken"
+    },
+    "Haut": {
+      "de": "Haut",
+      "pos": "noun",
+      "en": "skin",
+      "article": "die"
+    },
+    "Kompresse": {
+      "de": "Kompresse",
+      "pos": "noun",
+      "en": "compress, pad",
+      "article": "die",
+      "plural": "die Kompressen"
+    },
+    "Pullover": {
+      "de": "Pullover",
+      "pos": "noun",
+      "en": "jumper, sweater",
+      "article": "der",
+      "plural": "die Pullover"
+    },
+    "Schmerzmittel": {
+      "de": "Schmerzmittel",
+      "pos": "noun",
+      "en": "painkiller",
+      "article": "das",
+      "plural": "die Schmerzmittel"
+    },
+    "Schürze": {
+      "de": "Schürze",
+      "pos": "noun",
+      "en": "apron",
+      "article": "die",
+      "plural": "die Schürzen"
+    },
+    "Wort": {
+      "de": "Wort",
+      "pos": "noun",
+      "en": "word",
+      "article": "das",
+      "plural": "die Wörter"
+    },
+    "Zeitung": {
+      "de": "Zeitung",
+      "pos": "noun",
+      "en": "newspaper",
+      "article": "die",
+      "plural": "die Zeitungen"
+    },
+    "begrüßen": {
+      "de": "begrüßen",
+      "pos": "verb",
+      "en": "to greet"
+    },
+    "bereit": {
+      "de": "bereit",
+      "pos": "adjective",
+      "en": "ready"
+    },
+    "brauche": {
+      "de": "brauche",
+      "pos": "verb",
+      "en": "need (brauchen, 1st person)"
+    },
+    "brauchen": {
+      "de": "brauchen",
+      "pos": "verb",
+      "en": "to need"
+    },
+    "braucht": {
+      "de": "braucht",
+      "pos": "verb",
+      "en": "needs (brauchen)"
+    },
+    "dicken": {
+      "de": "dicken",
+      "pos": "adjective",
+      "en": "thick (ending -en)"
+    },
+    "dumpfe": {
+      "de": "dumpfe",
+      "pos": "adjective",
+      "en": "dull (ending -e)"
+    },
+    "dumpfen": {
+      "de": "dumpfen",
+      "pos": "adjective",
+      "en": "dull (ending -en)"
+    },
+    "dünnen": {
+      "de": "dünnen",
+      "pos": "adjective",
+      "en": "thin (ending -en)"
+    },
+    "festen": {
+      "de": "festen",
+      "pos": "adjective",
+      "en": "firm (ending -en)"
+    },
+    "fester": {
+      "de": "fester",
+      "pos": "adjective",
+      "en": "firmer / firm (ending -er)"
+    },
+    "freundliche": {
+      "de": "freundliche",
+      "pos": "adjective",
+      "en": "friendly (ending -e)"
+    },
+    "frühen": {
+      "de": "frühen",
+      "pos": "adjective",
+      "en": "early (ending -en)"
+    },
+    "hohe": {
+      "de": "hohe",
+      "pos": "adjective",
+      "en": "high (ending -e)"
+    },
+    "hoher": {
+      "de": "hoher",
+      "pos": "adjective",
+      "en": "high (ending -er)"
+    },
+    "hohes": {
+      "de": "hohes",
+      "pos": "adjective",
+      "en": "high (ending -es)"
+    },
+    "kalte": {
+      "de": "kalte",
+      "pos": "adjective",
+      "en": "cold (ending -e)"
+    },
+    "kalten": {
+      "de": "kalten",
+      "pos": "adjective",
+      "en": "cold (ending -en)"
+    },
+    "kalter": {
+      "de": "kalter",
+      "pos": "adjective",
+      "en": "cold (ending -er)"
+    },
+    "klaren": {
+      "de": "klaren",
+      "pos": "adjective",
+      "en": "clear (ending -en)"
+    },
+    "klarer": {
+      "de": "klarer",
+      "pos": "adjective",
+      "en": "clear (ending -er)"
+    },
+    "kleiner": {
+      "de": "kleiner",
+      "pos": "adjective",
+      "en": "small (ending -er)"
+    },
+    "langer": {
+      "de": "langer",
+      "pos": "adjective",
+      "en": "long (ending -er)"
+    },
+    "leisen": {
+      "de": "leisen",
+      "pos": "adjective",
+      "en": "quiet (ending -en)"
+    },
+    "leiser": {
+      "de": "leiser",
+      "pos": "adjective",
+      "en": "quieter / quiet (ending -er)"
+    },
+    "mildes": {
+      "de": "mildes",
+      "pos": "adjective",
+      "en": "mild (ending -es)"
+    },
+    "nasses": {
+      "de": "nasses",
+      "pos": "adjective",
+      "en": "wet (ending -es)"
+    },
+    "ruhige": {
+      "de": "ruhige",
+      "pos": "adjective",
+      "en": "calm (ending -e)"
+    },
+    "sauber": {
+      "de": "sauber",
+      "pos": "adjective",
+      "en": "clean (stem)"
+    },
+    "saubere": {
+      "de": "saubere",
+      "pos": "adjective",
+      "en": "clean (ending -e)"
+    },
+    "sauberer": {
+      "de": "sauberer",
+      "pos": "adjective",
+      "en": "cleaner / clean (ending -er)"
+    },
+    "sauberes": {
+      "de": "sauberes",
+      "pos": "adjective",
+      "en": "clean (ending -es)"
+    },
+    "schnellen": {
+      "de": "schnellen",
+      "pos": "adjective",
+      "en": "rapid (ending -en)"
+    },
+    "schneller": {
+      "de": "schneller",
+      "pos": "adjective",
+      "en": "faster / rapid (ending -er)"
+    },
+    "starker": {
+      "de": "starker",
+      "pos": "adjective",
+      "en": "severe, strong (ending -er)"
+    },
+    "steril": {
+      "de": "steril",
+      "pos": "adjective",
+      "en": "sterile (stem)"
+    },
+    "steriles": {
+      "de": "steriles",
+      "pos": "adjective",
+      "en": "sterile (ending -es)"
+    },
+    "trocken": {
+      "de": "trocken",
+      "pos": "adjective",
+      "en": "dry"
+    },
+    "trockene": {
+      "de": "trockene",
+      "pos": "adjective",
+      "en": "dry (ending -e)"
+    },
+    "trockenen": {
+      "de": "trockenen",
+      "pos": "adjective",
+      "en": "dry (ending -en)"
+    },
+    "trockener": {
+      "de": "trockener",
+      "pos": "adjective",
+      "en": "drier / dry (ending -er)"
+    },
+    "warme": {
+      "de": "warme",
+      "pos": "adjective",
+      "en": "warm (ending -e)"
+    },
+    "warmer": {
+      "de": "warmer",
+      "pos": "adjective",
+      "en": "warmer / warm (ending -er)"
+    },
+    "weich": {
+      "de": "weich",
+      "pos": "adjective",
+      "en": "soft (stem)"
+    },
+    "weichen": {
+      "de": "weichen",
+      "pos": "adjective",
+      "en": "soft (ending -en)"
+    },
+    "weicher": {
+      "de": "weicher",
+      "pos": "adjective",
+      "en": "softer / soft (ending -er)"
+    },
+    "weiches": {
+      "de": "weiches",
+      "pos": "adjective",
+      "en": "soft (ending -es)"
+    },
+    "wichtige": {
+      "de": "wichtige",
+      "pos": "adjective",
+      "en": "important (ending -e)"
+    },
+    "wichtigen": {
+      "de": "wichtigen",
+      "pos": "adjective",
+      "en": "important (ending -en)"
+    },
+    "wichtiger": {
+      "de": "wichtiger",
+      "pos": "adjective",
+      "en": "more important / important (ending -er)"
+    },
+    "ängstlich": {
+      "de": "ängstlich",
+      "pos": "adjective",
+      "en": "anxious (stem)"
+    },
+    "fest": {
+      "de": "fest",
+      "pos": "adjective",
+      "en": "firm, tightly"
+    },
+    "e": {
+      "de": "e",
+      "pos": "abbreviation",
+      "en": "ending -e (adjective)"
+    },
+    "einmal": {
+      "de": "einmal",
+      "pos": "adverb",
+      "en": "once, again (noch einmal)"
+    },
+    "endlich": {
+      "de": "endlich",
+      "pos": "adverb",
+      "en": "finally"
+    },
+    "faltet": {
+      "de": "faltet",
+      "pos": "verb",
+      "en": "folds (falten)"
+    },
+    "hält": {
+      "de": "hält",
+      "pos": "verb",
+      "en": "holds (halten)"
+    },
+    "hört": {
+      "de": "hört",
+      "pos": "verb",
+      "en": "hears (hören)"
+    },
+    "juckt": {
+      "de": "juckt",
+      "pos": "verb",
+      "en": "itches (jucken)"
+    },
+    "klagt": {
+      "de": "klagt",
+      "pos": "verb",
+      "en": "complains (klagen)"
+    },
+    "kleben": {
+      "de": "kleben",
+      "pos": "verb",
+      "en": "to stick, to glue"
+    },
+    "klebt": {
+      "de": "klebt",
+      "pos": "verb",
+      "en": "sticks (kleben)"
+    },
+    "kühlt": {
+      "de": "kühlt",
+      "pos": "verb",
+      "en": "cools (kühlen)"
+    },
+    "nebenan": {
+      "de": "nebenan",
+      "pos": "adverb",
+      "en": "next door"
+    },
+    "regelmäßig": {
+      "de": "regelmäßig",
+      "pos": "adjective",
+      "en": "regular"
+    },
+    "trägt": {
+      "de": "trägt",
+      "pos": "verb",
+      "en": "wears / carries (tragen)"
+    },
+    "weint": {
+      "de": "weint",
+      "pos": "verb",
+      "en": "cries (weinen)"
+    },
+    "zittert": {
+      "de": "zittert",
+      "pos": "verb",
+      "en": "trembles (zittern)"
+    },
+    "leere": {
+      "de": "leere",
+      "pos": "adjective",
+      "en": "empty (ending -e)"
+    },
+    "Schüssel": {
+      "de": "Schüssel",
+      "pos": "noun",
+      "en": "bowl",
+      "article": "die"
+    },
+    "verbinden": {
+      "de": "verbinden",
+      "pos": "verb",
+      "en": "to bandage / to connect"
+    },
+    "linke": {
+      "de": "linke",
+      "pos": "adjective",
+      "en": "left (ending -e)"
+    },
+    "bein": {
+      "de": "Bein",
+      "pos": "noun",
+      "en": "leg",
+      "article": "das",
+      "plural": "die Beine"
+    }
+  },
   "steps": [
     {
       "id": "overview",
       "type": "overview",
       "label": "Überblick",
-      "title": "Lesson intro",
-      "minutes": 40,
+      "title": "Nominativ und Akkusativ",
+      "minutes": 25,
       "learn": [
-        "An attributive adjective takes an ending. The gender signal sits on the article or on the adjective.",
-        "der starke Schmerz: the article shows -r, so the adjective is -e. ein starker Schmerz: ein shows nothing, so the adjective takes -r.",
-        "Accusative masculine is always -en: den starken Schmerz, einen starken Schmerz.",
-        "After sein there is no ending: Der Schmerz ist stark."
+        "Nach der, die, das und den endet das Adjektiv oft auf -e oder -en: der starke Schmerz, die neue Ärztin, den alten Patienten.",
+        "Nach ein, eine, einen zeigt meist das Adjektiv die Endung: ein starker Schmerz, einen starken Schmerz, ein kleines Pflaster.",
+        "Nach sein und werden bleibt das Adjektiv ohne Endung: Der Schmerz ist stark."
       ],
       "vocab": [
         {
           "de": "Schmerz",
           "article": "der",
-          "plural": "die Schmerzen",
-          "en": "pain",
-          "emoji": "⚡",
-          "glossaryKey": "schmerz"
-        },
-        {
-          "de": "Übelkeit",
-          "article": "die",
-          "plural": "Übelkeit",
-          "en": "nausea",
-          "emoji": "🤢",
-          "glossaryKey": "übelkeit"
-        },
-        {
-          "de": "Pflaster",
-          "article": "das",
-          "plural": "die Pflaster",
-          "en": "plaster",
-          "emoji": "🩹",
-          "glossaryKey": "pflaster"
+          "en": "pain — ein starker Schmerz",
+          "emoji": "💢",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "glossaryKey": "Schmerz"
         },
         {
           "de": "Verband",
           "article": "der",
-          "plural": "die Verbände",
-          "en": "dressing",
+          "en": "dressing — den neuen Verband",
           "emoji": "🩹",
-          "glossaryKey": "verband"
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "glossaryKey": "Verband"
         },
         {
-          "de": "Befund",
-          "article": "der",
-          "plural": "die Befunde",
-          "en": "finding",
-          "emoji": "📄",
-          "glossaryKey": "befund"
+          "de": "Pflaster",
+          "article": "das",
+          "en": "plaster — ein kleines Pflaster",
+          "emoji": "🩹",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "glossaryKey": "Pflaster"
         },
         {
-          "de": "Arm",
+          "de": "Patient",
           "article": "der",
-          "plural": "die Arme",
-          "en": "arm",
-          "emoji": "💪",
-          "glossaryKey": "arm"
+          "en": "patient — den alten Patienten",
+          "emoji": "🤒",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          },
+          "glossaryKey": "Patient"
         }
       ],
       "text": {
-        "title": "Der starke Schmerz",
-        "de": "Der Patient hat einen starken Schmerz im Arm. Die Übelkeit ist leicht. Die Pflegekraft gibt ein kleines Pflaster auf den Arm. Der Befund ist neu. Der Verband ist gut.",
-        "en": "The patient has a severe pain in the arm. The nausea is mild. The nurse gives a small plaster onto the arm. The finding is new. The dressing is good."
+        "title": "Stationsnotiz",
+        "de": "Der Patient hat einen starken Schmerz im Arm. Die Übelkeit ist leicht. Die Pflegekraft klebt ein kleines Pflaster auf die Wunde. Der Befund ist neu. Merken Sie sich: nach sein keine Endung — der Schmerz ist stark.",
+        "en": "The patient has severe pain in the arm. The nausea is mild. The nurse sticks a small plaster on the wound. The finding is new. Remember: after sein no ending — the pain is severe."
       }
     },
     {
       "id": "grammar",
       "type": "grammar",
-      "label": "Grammar",
-      "title": "The signal on the article or the adjective",
+      "label": "Grammatik",
+      "title": "Adjektivendungen: Nominativ und Akkusativ",
       "practice": "choose",
-      "heroTitle": "Nominative and accusative",
-      "heroImage": "plaster",
+      "heroTitle": "Nominativ und Akkusativ: -e, -er, -en, -es",
+      "heroImage": "clipboard",
       "story": [
-        "<b>Der starke Schmerz</b> and <b>ein starker Schmerz</b> are both nominative. The -r sits in a different place.",
-        "<b>Den starken Schmerz</b> is accusative. After ist the adjective is bare: <b>Der Schmerz ist stark</b>."
+        "Nominativ maskulin: <b>der starke Schmerz</b>, <b>ein starker Schmerz</b>. Das <b>-r</b> sitzt entweder am Artikel oder am Adjektiv.",
+        "Akkusativ maskulin: immer <b>-en</b> — <b>den starken Schmerz</b>, <b>einen starken Schmerz</b>.",
+        "Feminin und Neutrum: Nominativ und Akkusativ sehen oft gleich aus — <b>die neue Ärztin</b>, <b>das kleine Pflaster</b>, <b>eine neue Ärztin</b>, <b>ein kleines Pflaster</b>.",
+        "Nach <b>sein</b> und <b>werden</b> bleibt das Adjektiv ohne Endung: <b>Der Schmerz ist stark</b>. Das nennt man prädikativ."
       ],
-      "questionRule": "Use <b>Schmerz, Verband, Arm, Befund</b> to see the ending. Patient is an n-noun: den neuen Patienten has -en twice, so the adjective ending is hidden.",
       "tables": [
         {
-          "title": "Nominativ und Akkusativ",
-          "caption": "The highlighted row is the one that always changes: accusative masculine.",
+          "title": "Nominativ",
+          "caption": "Subjekt und nach sein (prädikativ ohne Endung)",
           "columns": [
             "Maskulin",
             "Neutrum",
@@ -778,1131 +2187,1712 @@
           ],
           "rows": [
             {
-              "label": "Nom der",
+              "label": "bestimmt",
               "cells": [
                 "der starke Schmerz",
                 "das kleine Pflaster",
-                "die leichte Übelkeit",
-                "die neuen Verbände"
-              ]
+                "die neue Ärztin",
+                "die starken Schmerzen"
+              ],
+              "highlight": true
             },
             {
-              "label": "Nom ein",
+              "label": "unbestimmt",
               "cells": [
                 "ein starker Schmerz",
                 "ein kleines Pflaster",
-                "eine leichte Übelkeit",
-                "keine neuen Verbände"
+                "eine neue Ärztin",
+                "keine starken Schmerzen"
               ]
             },
             {
-              "label": "Akk der",
+              "label": "prädikativ",
+              "cells": [
+                "ist stark",
+                "ist klein",
+                "ist neu",
+                "sind stark"
+              ],
+              "highlight": false
+            }
+          ]
+        },
+        {
+          "title": "Akkusativ",
+          "caption": "Objekt nach haben, sehen, geben, brauchen …",
+          "columns": [
+            "Maskulin",
+            "Neutrum",
+            "Feminin",
+            "Plural"
+          ],
+          "rows": [
+            {
+              "label": "bestimmt",
               "cells": [
                 "den starken Schmerz",
                 "das kleine Pflaster",
-                "die leichte Übelkeit",
-                "die neuen Verbände"
+                "die neue Ärztin",
+                "die starken Schmerzen"
               ],
               "highlight": true
             },
             {
-              "label": "Akk ein",
+              "label": "unbestimmt",
               "cells": [
                 "einen starken Schmerz",
                 "ein kleines Pflaster",
-                "eine leichte Übelkeit",
-                "keine neuen Verbände"
-              ],
-              "highlight": true
+                "eine neue Ärztin",
+                "keine starken Schmerzen"
+              ]
             }
           ]
         }
       ],
       "warning": {
-        "title": "Keine Endung nach sein",
+        "title": "Häufige Fehler",
         "items": [
           {
-            "de": "Der Schmerz ist stark.",
-            "en": "After sein the adjective is predicative and has no ending.",
+            "de": "✗ Der Patient hat ein starker Schmerz.",
+            "en": "✗ wrong: Nominativ after haben",
+            "tone": "stop"
+          },
+          {
+            "de": "✓ Der Patient hat einen starken Schmerz.",
+            "en": "✓ Akkusativ maskulin: einen … -en",
             "tone": "ok"
           },
           {
-            "de": "Der Schmerz ist starker.",
-            "en": "starker is an attributive ending. It does not follow sein.",
+            "de": "✗ Der Schmerz ist starker.",
+            "en": "✗ ending after sein",
             "tone": "stop"
           },
           {
-            "de": "ein starker Schmerz",
-            "en": "Nominative masculine: the signal -r is on the adjective.",
+            "de": "✓ Der Schmerz ist stark.",
+            "en": "✓ prädikativ: keine Endung",
             "tone": "ok"
-          },
-          {
-            "de": "ein starken Schmerz",
-            "en": "Nominative does not take -en.",
-            "tone": "stop"
-          },
-          {
-            "de": "den neuen Patienten",
-            "en": "Patient also adds -en. Prefer der Schmerz when you are learning the adjective.",
-            "tone": "stop"
           }
         ],
-        "tip": "Accusative masculine is the row to memorise: den starken, einen starken. Feminine and neuter look the same in the nominative and the accusative."
+        "tip": "Merksatz: Maskulin Akkusativ → den/einen + -en; nach sein keine Endung."
       },
-      "tips": [
-        {
-          "title": "Where is the signal?",
-          "body": "der, die and das already show r, e or s, so the adjective only takes -e. ein shows nothing, so the adjective takes -er, -e or -es. Accusative masculine ignores that and takes -en.",
-          "mnemonic": "der starke, ein starker, den starken.",
-          "emoji": "🔤"
-        }
-      ],
-      "quizTitle": "Choose the form",
+      "questionRule": "Wählen Sie die richtige Form.",
+      "quizTitle": "Kurzcheck Nominativ / Akkusativ",
       "quiz": [
         {
           "kind": "mc",
-          "q": "Nominative: ein ___ Schmerz.",
-          "qEn": "Signal on the adjective.",
+          "q": "Der Patient hat ___ Schmerz.",
           "options": [
-            "starker",
-            "starken",
-            "starke"
+            "einen starken",
+            "ein starker",
+            "den starker"
           ],
           "answer": 0,
-          "why": "ein shows no -r, so the adjective takes it.",
-          "hint": "ein starker"
+          "why": "haben + Akkusativ maskulin: einen starken.",
+          "hint": "einen starken"
         },
         {
           "kind": "mc",
-          "q": "Accusative: den ___ Schmerz.",
-          "qEn": "Always -en.",
+          "q": "___ Schmerz ist neu.",
           "options": [
-            "starker",
-            "starken",
-            "stark"
-          ],
-          "answer": 1,
-          "why": "Accusative masculine is -en.",
-          "hint": "den starken"
-        },
-        {
-          "kind": "mc",
-          "q": "Der Schmerz ist ___.",
-          "qEn": "After sein.",
-          "options": [
-            "starker",
-            "starken",
-            "stark"
-          ],
-          "answer": 2,
-          "why": "No ending after sein.",
-          "hint": "predicative"
-        },
-        {
-          "kind": "mc",
-          "q": "ein ___ Pflaster.",
-          "qEn": "Neuter nominative.",
-          "options": [
-            "kleines",
-            "kleiner",
-            "kleinen"
+            "Der starke",
+            "Den starken",
+            "Ein starken"
           ],
           "answer": 0,
-          "why": "ein + neuter takes -es on the adjective.",
+          "why": "Nominativ maskulin bestimmt: der starke.",
+          "hint": "Der starke"
+        },
+        {
+          "kind": "mc",
+          "q": "Die Pflegekraft klebt ___ Pflaster.",
+          "options": [
+            "ein kleines",
+            "einen kleinen",
+            "ein kleiner"
+          ],
+          "answer": 0,
+          "why": "Akkusativ Neutrum: ein kleines.",
           "hint": "ein kleines"
+        },
+        {
+          "kind": "mc",
+          "q": "___ Ärztin kommt heute.",
+          "options": [
+            "Die neue",
+            "Die neuen",
+            "Der neue"
+          ],
+          "answer": 0,
+          "why": "Nominativ feminin: die neue.",
+          "hint": "Die neue"
+        },
+        {
+          "kind": "mc",
+          "q": "Wir sehen ___ Patienten.",
+          "options": [
+            "den alten",
+            "der alte",
+            "dem alten"
+          ],
+          "answer": 0,
+          "why": "Akkusativ maskulin: den alten.",
+          "hint": "den alten"
+        },
+        {
+          "kind": "mc",
+          "q": "Der Verband ist ___.",
+          "options": [
+            "fest",
+            "fester",
+            "festen"
+          ],
+          "answer": 0,
+          "why": "Nach sein: keine Endung.",
+          "hint": "fest"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie braucht ___ Infusion.",
+          "options": [
+            "eine neue",
+            "einer neuen",
+            "ein neuer"
+          ],
+          "answer": 0,
+          "why": "Akkusativ feminin: eine neue.",
+          "hint": "eine neue"
+        },
+        {
+          "kind": "mc",
+          "q": "___ Kind weint.",
+          "options": [
+            "Das kleine",
+            "Den kleinen",
+            "Ein kleiner"
+          ],
+          "answer": 0,
+          "why": "Nominativ Neutrum: das kleine.",
+          "hint": "Das kleine"
+        },
+        {
+          "kind": "mc",
+          "q": "Er hat ___ Fieber.",
+          "options": [
+            "ein hohes",
+            "einen hohen",
+            "ein hoher"
+          ],
+          "answer": 0,
+          "why": "Akkusativ Neutrum: ein hohes Fieber.",
+          "hint": "ein hohes"
+        },
+        {
+          "kind": "mc",
+          "q": "Die Wunde braucht ___ Verband.",
+          "options": [
+            "einen sauberen",
+            "ein sauberer",
+            "den sauberer"
+          ],
+          "answer": 0,
+          "why": "Akkusativ maskulin: einen sauberen.",
+          "hint": "einen sauberen"
+        },
+        {
+          "kind": "mc",
+          "q": "___ Schmerzen sind stark.",
+          "options": [
+            "Die starken",
+            "Den starken",
+            "Der starke"
+          ],
+          "answer": 0,
+          "why": "Nominativ Plural: die starken.",
+          "hint": "Die starken"
+        },
+        {
+          "kind": "mc",
+          "q": "Geben Sie mir ___ Decke.",
+          "options": [
+            "eine warme",
+            "einer warmen",
+            "ein warmer"
+          ],
+          "answer": 0,
+          "why": "Akkusativ feminin: eine warme.",
+          "hint": "eine warme"
         }
       ]
     },
     {
-      "id": "px-gap",
-      "label": "Gap",
-      "title": "Which ending?",
-      "practice": "gap",
+      "id": "gap-nom-akk",
       "type": "gapfill",
-      "instructions": "Add the adjective ending. After sein, add no ending.",
+      "label": "Lücken",
+      "title": "Endungen setzen",
+      "practice": "gap",
+      "instructions": "Tippen oder wählen Sie die richtige Adjektivform. Der Kontext zeigt Nominativ oder Akkusativ.",
+      "items": [
+        {
+          "before": "Frau Berg klagt über einen ",
+          "after": " Druck im Bauch.",
+          "answer": "dumpfen",
+          "en": "Ms Berg complains of a dull pressure in the abdomen.",
+          "why": "Akkusativ maskulin: einen … -en.",
+          "tip": "dumpfen",
+          "hint": "dumpfen"
+        },
+        {
+          "before": "Die ",
+          "after": " Physio kommt um zehn.",
+          "answer": "freundliche",
+          "en": "The friendly physio comes at ten.",
+          "why": "Nominativ feminin: die … -e.",
+          "tip": "freundliche",
+          "hint": "freundliche"
+        },
+        {
+          "before": "Jonas holt ein ",
+          "after": " Kissen vom Wagen.",
+          "answer": "weiches",
+          "en": "Jonas fetches a soft pillow from the trolley.",
+          "why": "Akkusativ Neutrum: ein … -es.",
+          "tip": "weiches",
+          "hint": "weiches"
+        },
+        {
+          "before": "Der ",
+          "after": " Gast liest eine Zeitung.",
+          "answer": "ruhige",
+          "en": "The calm visitor is reading a newspaper.",
+          "why": "Nominativ maskulin: der … -e.",
+          "tip": "ruhige",
+          "hint": "ruhige"
+        },
+        {
+          "before": "Sie notiert einen ",
+          "after": " Puls.",
+          "answer": "schnellen",
+          "en": "She notes a rapid pulse.",
+          "why": "Akkusativ maskulin: einen … -en.",
+          "tip": "schnellen",
+          "hint": "schnellen"
+        },
+        {
+          "before": "Das ",
+          "after": " Kind bekommt Brei.",
+          "answer": "hungrige",
+          "en": "The hungry child gets porridge.",
+          "why": "Nominativ Neutrum: das … -e.",
+          "tip": "hungrige",
+          "hint": "hungrige"
+        },
+        {
+          "before": "Bitte holen Sie eine ",
+          "after": " Schürze.",
+          "answer": "saubere",
+          "en": "Please fetch a clean apron.",
+          "why": "Akkusativ feminin: eine … -e.",
+          "tip": "saubere",
+          "hint": "saubere"
+        },
+        {
+          "before": "Er trägt einen ",
+          "after": " Gips.",
+          "answer": "dünnen",
+          "en": "He is wearing a thin cast.",
+          "why": "Akkusativ maskulin: einen … -en.",
+          "tip": "dünnen",
+          "hint": "dünnen"
+        },
+        {
+          "before": "Die ",
+          "after": " Blutwerte sind fertig.",
+          "answer": "frühen",
+          "en": "The early blood results are ready.",
+          "why": "Nominativ Plural: die … -en.",
+          "tip": "frühen",
+          "hint": "frühen"
+        },
+        {
+          "before": "Wir begrüßen den ",
+          "after": " Oberarzt.",
+          "answer": "neuen",
+          "en": "We greet the new senior doctor.",
+          "why": "Akkusativ maskulin: den … -en.",
+          "tip": "neuen",
+          "hint": "neuen"
+        },
+        {
+          "before": "Ein ",
+          "after": " Plan hilft dem Team.",
+          "answer": "klarer",
+          "en": "A clear plan helps the team.",
+          "why": "Nominativ maskulin: ein … -er.",
+          "tip": "klarer",
+          "hint": "klarer"
+        },
+        {
+          "before": "Sie hat eine ",
+          "after": " Stelle am Rücken.",
+          "answer": "rote",
+          "en": "She has a red mark on her back.",
+          "why": "Akkusativ feminin: eine … -e.",
+          "tip": "rote",
+          "hint": "rote"
+        },
+        {
+          "before": "Der Puls ist ",
+          "after": ".",
+          "answer": "regelmäßig",
+          "en": "The pulse is regular.",
+          "why": "Prädikativ: keine Endung.",
+          "tip": "regelmäßig",
+          "hint": "regelmäßig"
+        },
+        {
+          "before": "Geben Sie ein ",
+          "after": " Schmerzmittel.",
+          "answer": "mildes",
+          "en": "Give a mild painkiller.",
+          "why": "Akkusativ Neutrum: ein … -es.",
+          "tip": "mildes",
+          "hint": "mildes"
+        },
+        {
+          "before": "Die Pflegekraft faltet die ",
+          "after": " Handtücher.",
+          "answer": "sauberen",
+          "en": "The nurse folds the clean towels.",
+          "why": "Akkusativ Plural: die … -en.",
+          "tip": "sauberen",
+          "hint": "sauberen"
+        }
+      ],
       "chips": [
         {
-          "w": "starker",
-          "hint": "Nom"
+          "w": "dumpfen",
+          "hint": "Akkusativ maskulin: einen … -en."
         },
         {
-          "w": "starken",
-          "hint": "Akk"
+          "w": "freundliche",
+          "hint": "Nominativ feminin: die … -e."
         },
         {
-          "w": "leichte",
-          "hint": "Nom"
+          "w": "weiches",
+          "hint": "Akkusativ Neutrum: ein … -es."
         },
         {
-          "w": "kleines",
-          "hint": "Nom"
+          "w": "ruhige",
+          "hint": "Nominativ maskulin: der … -e."
+        },
+        {
+          "w": "schnellen",
+          "hint": "Akkusativ maskulin: einen … -en."
+        },
+        {
+          "w": "hungrige",
+          "hint": "Nominativ Neutrum: das … -e."
+        },
+        {
+          "w": "saubere",
+          "hint": "Akkusativ feminin: eine … -e."
+        },
+        {
+          "w": "dünnen",
+          "hint": "Akkusativ maskulin: einen … -en."
+        },
+        {
+          "w": "frühen",
+          "hint": "Nominativ Plural: die … -en."
         },
         {
           "w": "neuen",
-          "hint": "Plural"
+          "hint": "Akkusativ maskulin: den … -en."
         },
         {
-          "w": "stark",
-          "hint": "sein"
-        }
-      ],
-      "items": [
-        {
-          "before": "ein",
-          "after": "Schmerz",
-          "answer": "starker",
-          "en": "a severe pain",
-          "why": "Nominative masculine.",
-          "tip": "-er",
-          "hint": "Nom"
+          "w": "klarer",
+          "hint": "Nominativ maskulin: ein … -er."
         },
         {
-          "before": "den",
-          "after": "Schmerz",
-          "answer": "starken",
-          "en": "the severe pain",
-          "why": "Accusative masculine.",
-          "tip": "-en",
-          "hint": "Akk"
+          "w": "rote",
+          "hint": "Akkusativ feminin: eine … -e."
         },
         {
-          "before": "eine",
-          "after": "Übelkeit",
-          "answer": "leichte",
-          "en": "a mild nausea",
-          "why": "Feminine.",
-          "tip": "-e",
-          "hint": "Nom"
+          "w": "regelmäßig",
+          "hint": "Prädikativ: keine Endung."
         },
         {
-          "before": "ein",
-          "after": "Pflaster",
-          "answer": "kleines",
-          "en": "a small plaster",
-          "why": "Neuter.",
-          "tip": "-es",
-          "hint": "Nom"
+          "w": "mildes",
+          "hint": "Akkusativ Neutrum: ein … -es."
         },
         {
-          "before": "die",
-          "after": "Verbände",
-          "answer": "neuen",
-          "en": "the new dressings",
-          "why": "Plural with der-word.",
-          "tip": "-en",
-          "hint": "Plural"
-        },
-        {
-          "before": "Der Schmerz ist",
-          "after": ".",
-          "answer": "stark",
-          "en": "The pain is severe.",
-          "why": "No ending after sein.",
-          "tip": "sein",
-          "hint": "sein"
+          "w": "sauberen",
+          "hint": "Akkusativ Plural: die … -en."
         }
       ]
     },
     {
-      "id": "px-match",
-      "label": "Match",
-      "title": "Match",
-      "practice": "match",
-      "type": "compare",
-      "instructions": "Where does the ending sit?",
-      "items": [
-        {
-          "prompt": "ein ___ Schmerz, nominative.",
-          "options": [
-            {
-              "emoji": "🔤",
-              "label": "starker",
-              "caption": "signal on the adjective"
-            },
-            {
-              "emoji": "🔤",
-              "label": "starken",
-              "caption": "accusative"
-            }
-          ],
-          "answer": 0,
-          "why": "ein starker Schmerz.",
-          "hint": "Nom"
-        },
-        {
-          "prompt": "den ___ Schmerz.",
-          "options": [
-            {
-              "emoji": "🔤",
-              "label": "starken",
-              "caption": "accusative masculine"
-            },
-            {
-              "emoji": "🔤",
-              "label": "starker",
-              "caption": "nominative"
-            }
-          ],
-          "answer": 0,
-          "why": "den starken Schmerz.",
-          "hint": "Akk"
-        },
-        {
-          "prompt": "das ___ Pflaster.",
-          "options": [
-            {
-              "emoji": "🔤",
-              "label": "kleine",
-              "caption": "signal already on das"
-            },
-            {
-              "emoji": "🔤",
-              "label": "kleines",
-              "caption": "that ending belongs to ein"
-            }
-          ],
-          "answer": 0,
-          "why": "das kleine Pflaster.",
-          "hint": "das"
-        },
-        {
-          "prompt": "Der Schmerz ist ___.",
-          "options": [
-            {
-              "emoji": "🟰",
-              "label": "stark",
-              "caption": "no ending"
-            },
-            {
-              "emoji": "🔤",
-              "label": "starker",
-              "caption": "attributive"
-            }
-          ],
-          "answer": 0,
-          "why": "Predicative adjectives do not decline.",
-          "hint": "sein"
-        }
-      ]
-    },
-    {
-      "id": "px-picture",
-      "label": "Picture",
-      "title": "Picture",
-      "practice": "picture",
-      "type": "picturematch",
-      "instructions": "Match the thing, then read the phrase.",
-      "items": [
-        {
-          "id": "plaster",
-          "de": "Pflaster",
-          "article": "das",
-          "plural": "die Pflaster",
-          "en": "plaster",
-          "image": {
-            "type": "svg",
-            "id": "plaster"
-          },
-          "hint": "ein kleines Pflaster"
-        },
-        {
-          "id": "tablet",
-          "de": "Tablette",
-          "article": "die",
-          "plural": "die Tabletten",
-          "en": "tablet",
-          "image": {
-            "type": "svg",
-            "id": "tablet"
-          },
-          "hint": "eine leichte Tablette"
-        },
-        {
-          "id": "thermo",
-          "de": "Thermometer",
-          "article": "das",
-          "plural": "die Thermometer",
-          "en": "thermometer",
-          "image": {
-            "type": "svg",
-            "id": "thermometer"
-          },
-          "hint": "das neue Thermometer"
-        },
-        {
-          "id": "syringe",
-          "de": "Spritze",
-          "article": "die",
-          "plural": "die Spritzen",
-          "en": "syringe",
-          "image": {
-            "type": "svg",
-            "id": "syringe"
-          },
-          "hint": "die neue Spritze"
-        }
-      ]
-    },
-    {
-      "id": "px-build",
-      "label": "Build",
-      "title": "Build",
-      "practice": "build",
+      "id": "build-nom-akk",
       "type": "builder",
-      "instructions": "Keep the ending with its article.",
+      "label": "Bauen",
+      "title": "Sätze bauen",
+      "practice": "build",
+      "instructions": "Legen Sie die Kacheln in die richtige Reihenfolge.",
       "items": [
         {
           "tiles": [
-            "Der",
-            "Patient",
-            "hat",
+            "Mira",
+            "dokumentiert",
             "einen",
-            "starken",
-            "Schmerz"
+            "klaren",
+            "Befund"
           ],
           "answers": [
-            "Der Patient hat einen starken Schmerz"
+            "Mira dokumentiert einen klaren Befund"
           ],
           "punct": ".",
-          "modal": "Patient",
-          "inf": "Schmerz",
+          "modal": "dokumentiert",
+          "inf": "Befund",
           "question": false,
-          "en": "The patient has a severe pain.",
-          "hint": "Accusative masculine: einen starken.",
+          "en": "Mira documents a clear finding.",
+          "hint": "einen klaren",
           "feedback": {
-            "fallback": "Accusative masculine: einen starken."
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
+          }
+        },
+        {
+          "tiles": [
+            "Der",
+            "junge",
+            "Pfleger",
+            "bringt",
+            "Tee"
+          ],
+          "answers": [
+            "Der junge Pfleger bringt Tee"
+          ],
+          "punct": ".",
+          "modal": "junge",
+          "inf": "Tee",
+          "question": false,
+          "en": "The young nurse brings tea.",
+          "hint": "der junge",
+          "feedback": {
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "wechseln",
+            "ein",
+            "nasses",
+            "Handtuch"
+          ],
+          "answers": [
+            "Wir wechseln ein nasses Handtuch"
+          ],
+          "punct": ".",
+          "modal": "wechseln",
+          "inf": "Handtuch",
+          "question": false,
+          "en": "We change a wet towel.",
+          "hint": "ein nasses",
+          "feedback": {
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
           }
         },
         {
           "tiles": [
             "Die",
-            "Übelkeit",
-            "ist",
-            "heute",
-            "leicht"
+            "erfahrene",
+            "Schwester",
+            "erklärt",
+            "alles"
           ],
           "answers": [
-            "Die Übelkeit ist heute leicht"
+            "Die erfahrene Schwester erklärt alles"
           ],
           "punct": ".",
-          "modal": "Übelkeit",
-          "inf": "leicht",
+          "modal": "erfahrene",
+          "inf": "alles",
           "question": false,
-          "en": "The nausea is mild today.",
-          "hint": "No ending after ist.",
+          "en": "The experienced nurse explains everything.",
+          "hint": "die erfahrene",
           "feedback": {
-            "fallback": "No ending after ist."
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
+          }
+        },
+        {
+          "tiles": [
+            "Jonas",
+            "kontrolliert",
+            "einen",
+            "schnellen",
+            "Puls"
+          ],
+          "answers": [
+            "Jonas kontrolliert einen schnellen Puls"
+          ],
+          "punct": ".",
+          "modal": "kontrolliert",
+          "inf": "Puls",
+          "question": false,
+          "en": "Jonas checks a rapid pulse.",
+          "hint": "einen schnellen",
+          "feedback": {
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
+          }
+        },
+        {
+          "tiles": [
+            "Das",
+            "müde",
+            "Baby",
+            "schläft",
+            "endlich"
+          ],
+          "answers": [
+            "Das müde Baby schläft endlich"
+          ],
+          "punct": ".",
+          "modal": "müde",
+          "inf": "endlich",
+          "question": false,
+          "en": "The tired baby is finally sleeping.",
+          "hint": "das müde",
+          "feedback": {
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
+          }
+        },
+        {
+          "tiles": [
+            "Bitte",
+            "holen",
+            "Sie",
+            "eine",
+            "leere",
+            "Schüssel"
+          ],
+          "answers": [
+            "Bitte holen Sie eine leere Schüssel"
+          ],
+          "punct": ".",
+          "modal": "holen",
+          "inf": "Schüssel",
+          "question": false,
+          "en": "Please fetch an empty bowl.",
+          "hint": "eine leere",
+          "feedback": {
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
           }
         },
         {
           "tiles": [
             "Sie",
-            "gibt",
-            "ein",
-            "kleines",
-            "Pflaster"
+            "trägt",
+            "einen",
+            "dicken",
+            "Pullover"
           ],
           "answers": [
-            "Sie gibt ein kleines Pflaster"
+            "Sie trägt einen dicken Pullover"
           ],
           "punct": ".",
-          "modal": "gibt",
-          "inf": "Pflaster",
+          "modal": "trägt",
+          "inf": "Pullover",
           "question": false,
-          "en": "She gives a small plaster.",
-          "hint": "Neuter: ein kleines.",
+          "en": "She is wearing a thick jumper.",
+          "hint": "einen dicken",
           "feedback": {
-            "fallback": "Neuter: ein kleines."
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "untersuchen",
+            "den",
+            "linken",
+            "Fuß"
+          ],
+          "answers": [
+            "Wir untersuchen den linken Fuß"
+          ],
+          "punct": ".",
+          "modal": "untersuchen",
+          "inf": "Fuß",
+          "question": false,
+          "en": "We examine the left foot.",
+          "hint": "den linken",
+          "feedback": {
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
+          }
+        },
+        {
+          "tiles": [
+            "Ein",
+            "offenes",
+            "Fenster",
+            "kühlt",
+            "das",
+            "Zimmer"
+          ],
+          "answers": [
+            "Ein offenes Fenster kühlt das Zimmer"
+          ],
+          "punct": ".",
+          "modal": "offenes",
+          "inf": "Zimmer",
+          "question": false,
+          "en": "An open window cools the room.",
+          "hint": "ein offenes",
+          "feedback": {
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Angehörigen",
+            "lesen",
+            "eine",
+            "kurze",
+            "Notiz"
+          ],
+          "answers": [
+            "Die Angehörigen lesen eine kurze Notiz"
+          ],
+          "punct": ".",
+          "modal": "Angehörigen",
+          "inf": "Notiz",
+          "question": false,
+          "en": "The relatives read a short note.",
+          "hint": "eine kurze",
+          "feedback": {
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
           }
         },
         {
           "tiles": [
             "Der",
-            "Befund",
-            "ist",
-            "neu"
+            "Verband",
+            "sitzt",
+            "fest"
           ],
           "answers": [
-            "Der Befund ist neu"
+            "Der Verband sitzt fest"
           ],
           "punct": ".",
-          "modal": "Befund",
-          "inf": "neu",
+          "modal": "Verband",
+          "inf": "fest",
           "question": false,
-          "en": "The finding is new.",
-          "hint": "No ending after ist.",
+          "en": "The dressing sits firmly.",
+          "hint": "prädikativ fest",
           "feedback": {
-            "fallback": "No ending after ist."
+            "fallback": "Prüfen Sie Artikel und Adjektivendung (Nominativ/Akkusativ)."
           }
         }
       ]
     },
     {
-      "id": "px-transform",
-      "label": "Rewrite",
-      "title": "Add the article and the ending.",
-      "practice": "transform",
-      "type": "gapfill",
-      "instructions": "Write the whole noun phrase.",
-      "chips": [
-        {
-          "w": "der starke Schmerz",
-          "hint": "Nom"
-        },
-        {
-          "w": "ein starker Schmerz",
-          "hint": "Nom"
-        },
-        {
-          "w": "den starken Schmerz",
-          "hint": "Akk"
-        },
-        {
-          "w": "einen starken Schmerz",
-          "hint": "Akk"
-        },
-        {
-          "w": "die leichte Übelkeit",
-          "hint": "Fem"
-        },
-        {
-          "w": "ein kleines Pflaster",
-          "hint": "Neut"
-        }
-      ],
-      "items": [
-        {
-          "before": "stark + der Schmerz, Nominativ →",
-          "after": "",
-          "answer": "der starke Schmerz",
-          "en": "the severe pain",
-          "why": "Article shows -r, adjective -e.",
-          "tip": "der",
-          "hint": "Nom"
-        },
-        {
-          "before": "stark + ein Schmerz, Nominativ →",
-          "after": "",
-          "answer": "ein starker Schmerz",
-          "en": "a severe pain",
-          "why": "Adjective shows -r.",
-          "tip": "ein",
-          "hint": "Nom"
-        },
-        {
-          "before": "stark + der Schmerz, Akkusativ →",
-          "after": "",
-          "answer": "den starken Schmerz",
-          "en": "the severe pain",
-          "why": "Accusative masculine -en.",
-          "tip": "den",
-          "hint": "Akk"
-        },
-        {
-          "before": "stark + ein Schmerz, Akkusativ →",
-          "after": "",
-          "answer": "einen starken Schmerz",
-          "en": "a severe pain",
-          "why": "einen starken.",
-          "tip": "einen",
-          "hint": "Akk"
-        },
-        {
-          "before": "leicht + die Übelkeit →",
-          "after": "",
-          "answer": "die leichte Übelkeit",
-          "en": "the mild nausea",
-          "why": "Feminine -e.",
-          "tip": "die",
-          "hint": "Fem"
-        },
-        {
-          "before": "klein + ein Pflaster →",
-          "after": "",
-          "answer": "ein kleines Pflaster",
-          "en": "a small plaster",
-          "why": "Neuter -es.",
-          "tip": "ein",
-          "hint": "Neut"
-        }
-      ]
-    },
-    {
-      "id": "px-error",
-      "label": "Fehler",
-      "title": "Finde den Fehler",
-      "practice": "error",
+      "id": "error-nom-akk",
       "type": "riddle",
-      "instructions": "Read the wrong sentence. Choose the correction.",
+      "label": "Fehler",
+      "title": "Fehler finden",
+      "practice": "error",
+      "instructions": "Welche Variante ist richtig?",
       "items": [
         {
           "clues": [
             "Finde den Fehler.",
-            "ein starken Schmerz"
+            "Mira schreibt ein langer Bericht."
           ],
           "options": [
-            "ein starker Schmerz",
-            "ein starken Schmerz",
-            "ein starke Schmerz"
+            "Mira schreibt einen langen Bericht.",
+            "Mira schreibt ein langer Bericht.",
+            "Mira schreibt einen langer Bericht."
           ],
           "answer": 0,
-          "reveal": "ein starker Schmerz",
-          "hint": "Nominative masculine is -er, not -en."
+          "reveal": "Mira schreibt einen langen Bericht.",
+          "hint": "langen"
         },
         {
           "clues": [
             "Finde den Fehler.",
-            "den starker Schmerz"
+            "Der jung Arzt stellt Fragen."
           ],
           "options": [
-            "den starken Schmerz",
-            "den starker Schmerz",
-            "den starke Schmerz"
+            "Der junge Arzt stellt Fragen.",
+            "Der jung Arzt stellt Fragen.",
+            "Der jungen Arzt stellt Fragen."
           ],
           "answer": 0,
-          "reveal": "den starken Schmerz",
-          "hint": "Accusative masculine is -en."
+          "reveal": "Der junge Arzt stellt Fragen.",
+          "hint": "junge"
         },
         {
           "clues": [
             "Finde den Fehler.",
-            "Der Schmerz ist starker."
+            "Wir brauchen ein steril Set."
           ],
           "options": [
-            "Der Schmerz ist stark.",
-            "Der Schmerz ist starker.",
-            "Der Schmerz ist starken."
+            "Wir brauchen ein steriles Set.",
+            "Wir brauchen ein steril Set.",
+            "Wir brauchen ein sterilen Set."
           ],
           "answer": 0,
-          "reveal": "Der Schmerz ist stark.",
-          "hint": "No ending after sein."
+          "reveal": "Wir brauchen ein steriles Set.",
+          "hint": "steriles"
         },
         {
           "clues": [
             "Finde den Fehler.",
-            "ein kleine Pflaster"
+            "Die ängstlich Patientin zittert."
           ],
           "options": [
-            "ein kleines Pflaster",
-            "ein kleine Pflaster",
-            "ein kleinen Pflaster"
+            "Die ängstliche Patientin zittert.",
+            "Die ängstlich Patientin zittert.",
+            "Die ängstlichen Patientin zittert."
           ],
           "answer": 0,
-          "reveal": "ein kleines Pflaster",
-          "hint": "Neuter ein takes -es."
+          "reveal": "Die ängstliche Patientin zittert.",
+          "hint": "ängstliche"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Jonas hört einen leise Alarm."
+          ],
+          "options": [
+            "Jonas hört einen leisen Alarm.",
+            "Jonas hört einen leise Alarm.",
+            "Jonas hört einen leiser Alarm."
+          ],
+          "answer": 0,
+          "reveal": "Jonas hört einen leisen Alarm.",
+          "hint": "leisen"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Das schwer Baby atmet schnell."
+          ],
+          "options": [
+            "Das schwere Baby atmet schnell.",
+            "Das schwer Baby atmet schnell.",
+            "Das schweren Baby atmet schnell."
+          ],
+          "answer": 0,
+          "reveal": "Das schwere Baby atmet schnell.",
+          "hint": "schwere"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Bitte reichen Sie eine kalt Kompresse."
+          ],
+          "options": [
+            "Bitte reichen Sie eine kalte Kompresse.",
+            "Bitte reichen Sie eine kalt Kompresse.",
+            "Bitte reichen Sie eine kalten Kompresse."
+          ],
+          "answer": 0,
+          "reveal": "Bitte reichen Sie eine kalte Kompresse.",
+          "hint": "kalte"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie trägt einen weich Verband."
+          ],
+          "options": [
+            "Sie trägt einen weichen Verband.",
+            "Sie trägt einen weich Verband.",
+            "Sie trägt einen weicher Verband."
+          ],
+          "answer": 0,
+          "reveal": "Sie trägt einen weichen Verband.",
+          "hint": "weichen"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir prüfen den rechte Arm."
+          ],
+          "options": [
+            "Wir prüfen den rechten Arm.",
+            "Wir prüfen den rechte Arm.",
+            "Wir prüfen dem rechten Arm."
+          ],
+          "answer": 0,
+          "reveal": "Wir prüfen den rechten Arm.",
+          "hint": "rechten"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ein sauber Bett steht bereit."
+          ],
+          "options": [
+            "Ein sauberes Bett steht bereit.",
+            "Ein sauber Bett steht bereit.",
+            "Ein sauberen Bett steht bereit."
+          ],
+          "answer": 0,
+          "reveal": "Ein sauberes Bett steht bereit.",
+          "hint": "sauberes"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Haut ist trockener."
+          ],
+          "options": [
+            "Die Haut ist trocken.",
+            "Die Haut ist trockener.",
+            "Die Haut ist trockenen."
+          ],
+          "answer": 0,
+          "reveal": "Die Haut ist trocken.",
+          "hint": "trocken"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie liest die wichtig Notiz."
+          ],
+          "options": [
+            "Sie liest die wichtige Notiz.",
+            "Sie liest die wichtig Notiz.",
+            "Sie liest die wichtigen Notiz."
+          ],
+          "answer": 0,
+          "reveal": "Sie liest die wichtige Notiz.",
+          "hint": "wichtige"
         }
       ]
     },
     {
-      "id": "px-dialogue",
-      "label": "Dialogue",
-      "title": "At the bedside",
+      "id": "picture-nom-akk",
+      "type": "picturematch",
+      "label": "Bilder",
+      "title": "Wort und Bild",
+      "practice": "picture",
+      "instructions": "Ordnen Sie Wort und Bild zu. Achten Sie auf die Beispiel-Endung.",
+      "items": [
+        {
+          "id": "schmerz",
+          "de": "Schmerz",
+          "article": "der",
+          "plural": "die Schmerzen",
+          "en": "pain — einen starken Schmerz",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "starken"
+        },
+        {
+          "id": "verband",
+          "de": "Verband",
+          "article": "der",
+          "plural": "die Verbände",
+          "en": "dressing — einen festen Verband",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "festen"
+        },
+        {
+          "id": "pflaster",
+          "de": "Pflaster",
+          "article": "das",
+          "plural": "die Pflaster",
+          "en": "plaster — ein kleines Pflaster",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "kleines"
+        },
+        {
+          "id": "patient",
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "en": "patient — den neuen Patienten",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          },
+          "hint": "neuen"
+        },
+        {
+          "id": "blutdruck",
+          "de": "Blutdruck",
+          "article": "der",
+          "plural": "die Blutdrücke",
+          "en": "blood pressure — einen hohen Blutdruck",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          },
+          "hint": "hohen"
+        },
+        {
+          "id": "wunde",
+          "de": "Wunde",
+          "article": "die",
+          "plural": "die Wunden",
+          "en": "wound — eine tiefe Wunde",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "tiefe"
+        },
+        {
+          "id": "infusion",
+          "de": "Infusion",
+          "article": "die",
+          "plural": "die Infusionen",
+          "en": "drip — eine neue Infusion",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          },
+          "hint": "neue"
+        },
+        {
+          "id": "decke",
+          "de": "Decke",
+          "article": "die",
+          "plural": "die Decken",
+          "en": "blanket — eine warme Decke",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "warme"
+        },
+        {
+          "id": "kind",
+          "de": "Kind",
+          "article": "das",
+          "plural": "die Kinder",
+          "en": "child — das kranke Kind",
+          "image": {
+            "type": "svg",
+            "id": "child"
+          },
+          "hint": "kranke"
+        },
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed — ein sauberes Bett",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "sauberes"
+        }
+      ]
+    },
+    {
+      "id": "dialog-nom-akk",
+      "type": "dialogfill",
+      "label": "Dialog",
+      "title": "Visite und Verband",
       "practice": "dialogue",
-      "type": "gapfill",
-      "instructions": "Choose the adjective form.",
-      "chips": [
-        {
-          "w": "starken",
-          "hint": "Akk"
+      "instructions": "Tippen Sie die richtige Endung oder Form. Am Ende können Sie den ganzen Dialog anhören.",
+      "sceneTitle": "Dialog · Morgenvisite",
+      "scene": "Pflegerin Mira und Arzt Dr. Klein sprechen über Frau Berg.",
+      "speakers": {
+        "mira": {
+          "name": "Mira",
+          "role": "Pflegerin",
+          "avatar": "👩‍⚕️"
         },
-        {
-          "w": "leicht",
-          "hint": "sein"
+        "arzt": {
+          "name": "Dr. Klein",
+          "role": "Arzt",
+          "avatar": "🩺"
         },
-        {
-          "w": "kleines",
-          "hint": "Neut"
+        "pat": {
+          "name": "Frau Berg",
+          "role": "Patientin",
+          "avatar": "🤒"
         },
-        {
-          "w": "neu",
-          "hint": "sein"
-        },
-        {
-          "w": "gut",
-          "hint": "sein"
-        },
-        {
-          "w": "starker",
-          "hint": "Nom"
+        "jonas": {
+          "name": "Jonas",
+          "role": "Pfleger",
+          "avatar": "👨‍⚕️"
         }
-      ],
-      "items": [
-        {
-          "before": "Der Patient hat einen",
-          "after": "Schmerz.",
-          "answer": "starken",
-          "en": "a severe pain",
-          "why": "Accusative.",
-          "tip": "-en",
-          "hint": "Akk",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "Die Übelkeit ist",
-          "after": ".",
-          "answer": "leicht",
-          "en": "mild",
-          "why": "After ist.",
-          "tip": "no ending",
-          "hint": "sein",
-          "who": "Patient"
-        },
-        {
-          "before": "Ich gebe ein",
-          "after": "Pflaster.",
-          "answer": "kleines",
-          "en": "a small plaster",
-          "why": "Neuter.",
-          "tip": "-es",
-          "hint": "Neut",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "Der Befund ist",
-          "after": ".",
-          "answer": "neu",
-          "en": "new",
-          "why": "After ist.",
-          "tip": "no ending",
-          "hint": "sein",
-          "who": "Ärztin"
-        },
-        {
-          "before": "Der Verband ist",
-          "after": ".",
-          "answer": "gut",
-          "en": "good",
-          "why": "After ist.",
-          "tip": "no ending",
-          "hint": "sein",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "Das ist ein",
-          "after": "Schmerz.",
-          "answer": "starker",
-          "en": "a severe pain",
-          "why": "Nominative.",
-          "tip": "-er",
-          "hint": "Nom",
-          "who": "Ärztin"
-        }
-      ]
-    },
-    {
-      "id": "px-gap-2",
-      "label": "More endings",
-      "title": "Nominative or accusative?",
-      "practice": "gap",
-      "type": "gapfill",
-      "instructions": "One ending in each gap.",
-      "chips": [
-        {
-          "w": "alte",
-          "hint": "Nom"
-        },
-        {
-          "w": "alter",
-          "hint": "Nom"
-        },
-        {
-          "w": "alten",
-          "hint": "Akk"
-        },
-        {
-          "w": "guten",
-          "hint": "Akk"
-        },
-        {
-          "w": "altes",
-          "hint": "Neut"
-        },
-        {
-          "w": "gute",
-          "hint": "Nom"
-        },
-        {
-          "w": "leichte",
-          "hint": "Fem"
-        },
-        {
-          "w": "neuen Schmerzen",
-          "hint": "Plural"
-        }
-      ],
-      "items": [
-        {
-          "before": "der",
-          "after": "Befund",
-          "answer": "alte",
-          "en": "the old finding",
-          "why": "der shows -r, so the adjective is -e.",
-          "tip": "-e",
-          "hint": "Nom"
-        },
-        {
-          "before": "ein",
-          "after": "Befund",
-          "answer": "alter",
-          "en": "an old finding",
-          "why": "The signal -r sits on the adjective.",
-          "tip": "-er",
-          "hint": "Nom"
-        },
-        {
-          "before": "den",
-          "after": "Befund",
-          "answer": "alten",
-          "en": "the old finding",
-          "why": "Accusative masculine is -en.",
-          "tip": "-en",
-          "hint": "Akk"
-        },
-        {
-          "before": "einen",
-          "after": "Befund",
-          "answer": "guten",
-          "en": "a good finding",
-          "why": "Accusative masculine is -en.",
-          "tip": "-en",
-          "hint": "Akk"
-        },
-        {
-          "before": "ein",
-          "after": "Pflaster",
-          "answer": "altes",
-          "en": "an old plaster",
-          "why": "Neuter ein takes -es.",
-          "tip": "-es",
-          "hint": "Neut"
-        },
-        {
-          "before": "das",
-          "after": "Pflaster",
-          "answer": "gute",
-          "en": "the good plaster",
-          "why": "das already shows -s.",
-          "tip": "-e",
-          "hint": "Nom"
-        },
-        {
-          "before": "die",
-          "after": "Tablette",
-          "answer": "leichte",
-          "en": "the mild tablet",
-          "why": "die already shows -e.",
-          "tip": "-e",
-          "hint": "Fem"
-        },
-        {
-          "before": "Die",
-          "after": "sind vorbei.",
-          "answer": "neuen Schmerzen",
-          "en": "The new pains are gone.",
-          "why": "Plural with die takes -en.",
-          "tip": "-en",
-          "hint": "Plural"
-        }
-      ]
-    },
-    {
-      "id": "reading",
-      "type": "reading",
-      "label": "Reading",
-      "title": "Read and answer",
-      "practice": "reading",
-      "instructions": "Read the note, then answer.",
-      "document": {
-        "letterhead": "Station 4 · MediDeutsch",
-        "title": "Der starke Schmerz",
-        "paragraphs": [
-          "Der Patient hat einen starken Schmerz im Arm. Die Übelkeit ist leicht. Die Pflegekraft gibt ein kleines Pflaster auf den Arm. Der Befund ist neu. Der Verband ist gut."
-        ],
-        "signature": "Anna",
-        "stamp": "Station"
       },
-      "questions": [
+      "listenLabel": "Dialog anhören",
+      "lines": [
         {
-          "q": "Wie ist der Schmerz?",
-          "qEn": "The pain.",
-          "options": [
-            "einen starken Schmerz",
-            "ein starker Bett",
-            "starkes Übelkeit"
-          ],
-          "answer": 0,
-          "why": "Accusative: einen starken Schmerz.",
-          "hint": "Accusative: einen starken Schmerz."
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Guten Morgen. Frau Berg hat einen "
+            },
+            {
+              "gap": true,
+              "options": [
+                "starken",
+                "starker"
+              ],
+              "answer": 0,
+              "why": "Akkusativ maskulin: einen … -en"
+            },
+            {
+              "text": " Schmerz in der Flanke."
+            }
+          ]
         },
         {
-          "q": "Wie ist die Übelkeit?",
-          "qEn": "After ist.",
-          "options": [
-            "leicht",
-            "leichte",
-            "leichten"
-          ],
-          "answer": 0,
-          "why": "No ending after ist.",
-          "hint": "No ending after ist."
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Verstehe. Die "
+            },
+            {
+              "gap": true,
+              "options": [
+                "neuen",
+                "neue"
+              ],
+              "answer": 0,
+              "why": "Nominativ Plural: die … -en"
+            },
+            {
+              "text": " Laborwerte sind schon da."
+            }
+          ]
         },
         {
-          "q": "Was gibt die Pflegekraft?",
-          "qEn": "The object.",
-          "options": [
-            "ein kleines Pflaster",
-            "ein kleiner Pflaster",
-            "einen kleines Pflaster"
-          ],
-          "answer": 0,
-          "why": "Neuter: ein kleines.",
-          "hint": "Neuter: ein kleines."
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Wir haben ein "
+            },
+            {
+              "gap": true,
+              "options": [
+                "kleines",
+                "kleiner"
+              ],
+              "answer": 0,
+              "why": "Akkusativ Neutrum: ein … -es"
+            },
+            {
+              "text": " Pflaster gewechselt."
+            }
+          ]
         },
         {
-          "q": "Wie ist der Befund?",
-          "qEn": "After ist.",
-          "options": [
-            "neu",
-            "neuer",
-            "neuen"
-          ],
-          "answer": 0,
-          "why": "No ending after ist.",
-          "hint": "No ending after ist."
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Gut. Bitte bringen Sie eine "
+            },
+            {
+              "gap": true,
+              "options": [
+                "warme",
+                "warmen"
+              ],
+              "answer": 0,
+              "why": "Akkusativ feminin: eine … -e"
+            },
+            {
+              "text": " Decke mit."
+            }
+          ]
+        },
+        {
+          "who": "pat",
+          "parts": [
+            {
+              "text": "Der "
+            },
+            {
+              "gap": true,
+              "options": [
+                "alte",
+                "alten"
+              ],
+              "answer": 0,
+              "why": "Nominativ maskulin: der … -e"
+            },
+            {
+              "text": " Verband juckt etwas."
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Dann machen wir einen "
+            },
+            {
+              "gap": true,
+              "options": [
+                "frischen",
+                "frischer"
+              ],
+              "answer": 0,
+              "why": "Akkusativ maskulin: einen … -en"
+            },
+            {
+              "text": " Verband."
+            }
+          ]
+        },
+        {
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Das "
+            },
+            {
+              "gap": true,
+              "options": [
+                "kranke",
+                "kranken"
+              ],
+              "answer": 0,
+              "why": "Nominativ Neutrum: das … -e"
+            },
+            {
+              "text": " Kind nebenan schläft gerade."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Jonas, kontrolliere bitte den "
+            },
+            {
+              "gap": true,
+              "options": [
+                "hohen",
+                "hohe"
+              ],
+              "answer": 0,
+              "why": "Akkusativ maskulin: den … -en"
+            },
+            {
+              "text": " Blutdruck noch einmal."
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Die Wunde ist "
+            },
+            {
+              "gap": true,
+              "options": [
+                "trocken",
+                "trockene"
+              ],
+              "answer": 0,
+              "why": "prädikativ nach sein: keine Endung"
+            },
+            {
+              "text": ". Gut so."
+            }
+          ]
+        },
+        {
+          "who": "pat",
+          "parts": [
+            {
+              "text": "Danke. Ich brauche noch eine "
+            },
+            {
+              "gap": true,
+              "options": [
+                "kurze",
+                "kurzen"
+              ],
+              "answer": 0,
+              "why": "Akkusativ feminin: eine … -e"
+            },
+            {
+              "text": " Pause."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "px-writing",
-      "label": "Writing",
-      "title": "Describe the pain",
+      "id": "schreiben-nom-akk",
+      "type": "sentencewrite",
+      "label": "Schreiben",
+      "title": "Sätze schreiben",
       "practice": "writing",
-      "type": "writing",
-      "instructions": "Write the accusative phrase, then two sentences after ist.",
-      "prompt": "Mention a severe pain, mild nausea, and that the pain is severe.",
-      "bullets": [
-        "Use einen starken Schmerz.",
-        "Use leicht after ist.",
-        "Use ist stark."
-      ],
-      "model": "Der Patient hat einen starken Schmerz. Die Übelkeit ist leicht. Der Schmerz ist stark.",
-      "modelEn": "The patient has a severe pain. The nausea is mild. The pain is severe.",
-      "hint": "Accusative masculine takes -en. After sein there is no ending.",
-      "checklist": [
+      "instructions": "Schreiben Sie den ganzen Satz. Groß-/Kleinschreibung und Punkt am Ende sind egal. Andere korrekte Wortstellung zählt auch.",
+      "items": [
         {
-          "id": "starken",
-          "label": "Uses starken",
-          "keywords": [
-            "starken"
-          ]
+          "cue": "haben: der Patient • einen stark__ Schmerz",
+          "answers": [
+            "Der Patient hat einen starken Schmerz",
+            "Einen starken Schmerz hat der Patient"
+          ],
+          "marks": [
+            {
+              "wrong": "starker",
+              "right": "starken",
+              "reason": "starker → starken (Akkusativ maskulin)"
+            },
+            {
+              "wrong": "ein",
+              "right": "einen",
+              "reason": "ein → einen (Akkusativ maskulin)"
+            },
+            {
+              "wrong": "starke",
+              "right": "starken",
+              "reason": "starke → starken (nach einen: -en)"
+            }
+          ],
+          "en": "The patient has severe pain.",
+          "hint": "haben + einen starken …"
         },
         {
-          "id": "leicht",
-          "label": "Uses leicht",
-          "keywords": [
-            "leicht"
-          ]
+          "cue": "kommen: die neu__ Ärztin • zur Visite",
+          "answers": [
+            "Die neue Ärztin kommt zur Visite",
+            "Zur Visite kommt die neue Ärztin"
+          ],
+          "marks": [
+            {
+              "wrong": "neuen",
+              "right": "neue",
+              "reason": "neuen → neue (Nominativ feminin: die … -e)"
+            },
+            {
+              "wrong": "neuer",
+              "right": "neue",
+              "reason": "neuer → neue (nach die: -e)"
+            }
+          ],
+          "en": "The new doctor comes for the ward round.",
+          "hint": "die neue Ärztin"
         },
         {
-          "id": "stark",
-          "label": "Uses ist stark",
-          "keywords": [
-            "ist stark"
-          ]
+          "cue": "kleben: wir • ein klein__ Pflaster • auf die Haut",
+          "answers": [
+            "Wir kleben ein kleines Pflaster auf die Haut",
+            "Auf die Haut kleben wir ein kleines Pflaster"
+          ],
+          "marks": [
+            {
+              "wrong": "kleine",
+              "right": "kleines",
+              "reason": "kleine → kleines (Akkusativ Neutrum)"
+            },
+            {
+              "wrong": "kleinen",
+              "right": "kleines",
+              "reason": "kleinen → kleines (Neutrum: -es)"
+            }
+          ],
+          "en": "We stick a small plaster on the skin.",
+          "hint": "ein kleines Pflaster"
+        },
+        {
+          "cue": "warten: der alt__ Herr • im Flur",
+          "answers": [
+            "Der alte Herr wartet im Flur",
+            "Im Flur wartet der alte Herr"
+          ],
+          "marks": [
+            {
+              "wrong": "alter",
+              "right": "alte",
+              "reason": "alter → alte (Nominativ: der … -e)"
+            },
+            {
+              "wrong": "alten",
+              "right": "alte",
+              "reason": "alten → alte (nach der: -e)"
+            }
+          ],
+          "en": "The old gentleman is waiting in the corridor.",
+          "hint": "der alte Herr"
+        },
+        {
+          "cue": "messen: sie • einen hoch__ Blutdruck",
+          "answers": [
+            "Sie misst einen hohen Blutdruck",
+            "Einen hohen Blutdruck misst sie"
+          ],
+          "marks": [
+            {
+              "wrong": "hohe",
+              "right": "hohen",
+              "reason": "hohe → hohen (Akkusativ maskulin)"
+            },
+            {
+              "wrong": "hoher",
+              "right": "hohen",
+              "reason": "hoher → hohen (nach einen: -en)"
+            }
+          ],
+          "en": "She measures a high blood pressure.",
+          "hint": "einen hohen Blutdruck"
+        },
+        {
+          "cue": "trinken: das krank__ Kind • Wasser",
+          "answers": [
+            "Das kranke Kind trinkt Wasser",
+            "Wasser trinkt das kranke Kind"
+          ],
+          "marks": [
+            {
+              "wrong": "kranken",
+              "right": "kranke",
+              "reason": "kranken → kranke (Nominativ Neutrum: das … -e)"
+            },
+            {
+              "wrong": "kranker",
+              "right": "kranke",
+              "reason": "kranker → kranke (nach das: -e)"
+            }
+          ],
+          "en": "The sick child drinks water.",
+          "hint": "das kranke Kind"
+        },
+        {
+          "cue": "bringen: Sie • eine warm__ Decke",
+          "answers": [
+            "Bringen Sie eine warme Decke",
+            "Sie bringen eine warme Decke",
+            "Eine warme Decke bringen Sie"
+          ],
+          "marks": [
+            {
+              "wrong": "warmen",
+              "right": "warme",
+              "reason": "warmen → warme (Akkusativ feminin: eine … -e)"
+            },
+            {
+              "wrong": "warmer",
+              "right": "warme",
+              "reason": "warmer → warme (nach eine: -e)"
+            }
+          ],
+          "en": "Bring a warm blanket.",
+          "hint": "eine warme Decke"
+        },
+        {
+          "cue": "brauchen: er • einen fest__ Verband",
+          "answers": [
+            "Er braucht einen festen Verband",
+            "Einen festen Verband braucht er"
+          ],
+          "marks": [
+            {
+              "wrong": "fester",
+              "right": "festen",
+              "reason": "fester → festen (Akkusativ maskulin)"
+            },
+            {
+              "wrong": "feste",
+              "right": "festen",
+              "reason": "feste → festen (nach einen: -en)"
+            }
+          ],
+          "en": "He needs a firm dressing.",
+          "hint": "einen festen Verband"
+        },
+        {
+          "cue": "sehen: wir • den neu__ Patienten",
+          "answers": [
+            "Wir sehen den neuen Patienten",
+            "Den neuen Patienten sehen wir"
+          ],
+          "marks": [
+            {
+              "wrong": "neue",
+              "right": "neuen",
+              "reason": "neue → neuen (Akkusativ maskulin: den … -en)"
+            },
+            {
+              "wrong": "neuer",
+              "right": "neuen",
+              "reason": "neuer → neuen (nach den: -en)"
+            },
+            {
+              "wrong": "der",
+              "right": "den",
+              "reason": "der → den (Akkusativ)"
+            }
+          ],
+          "en": "We see the new patient.",
+          "hint": "den neuen Patienten"
+        },
+        {
+          "cue": "sein: das Fieber • hoch",
+          "answers": [
+            "Das Fieber ist hoch",
+            "Hoch ist das Fieber"
+          ],
+          "marks": [
+            {
+              "wrong": "hohes",
+              "right": "hoch",
+              "reason": "hohes → hoch (prädikativ: keine Endung)"
+            },
+            {
+              "wrong": "hohen",
+              "right": "hoch",
+              "reason": "hohen → hoch (nach sein: keine Endung)"
+            },
+            {
+              "wrong": "hoher",
+              "right": "hoch",
+              "reason": "hoher → hoch (nach sein: keine Endung)"
+            }
+          ],
+          "en": "The fever is high.",
+          "hint": "ist hoch"
         }
       ]
     },
     {
-      "id": "px-lernkontrolle",
+      "id": "lernkontrolle",
       "type": "grammar",
       "label": "Test",
       "title": "Lernkontrolle",
       "practice": "lernkontrolle",
+      "heroTitle": "Können Sie Nominativ und Akkusativ?",
+      "heroImage": "clipboard",
       "story": [
-        "Mixed test. Eighty per cent marks the lesson as mastered."
+        "Prüfen Sie die Endungen noch einmal. Achten Sie auf Artikel und Kasus."
       ],
-      "quizTitle": "Lernkontrolle",
+      "tables": [],
+      "questionRule": "Eine Antwort ist richtig.",
+      "quizTitle": "Abschluss-Check",
       "quiz": [
         {
           "kind": "mc",
-          "q": "ein + maskulin, Nominativ →",
-          "qEn": "Signal.",
+          "q": "Ich sehe ___ Patienten.",
           "options": [
-            "starker",
-            "starken",
-            "stark"
+            "den kranken",
+            "der kranke",
+            "dem kranken"
           ],
           "answer": 0,
-          "why": "ein starker.",
-          "hint": "-er"
+          "why": "Akkusativ maskulin: den kranken.",
+          "hint": "den kranken"
         },
         {
           "kind": "mc",
-          "q": "den + maskulin →",
-          "qEn": "Accusative.",
+          "q": "___ Pflaster hält gut.",
           "options": [
-            "starker",
-            "starken",
-            "starke"
-          ],
-          "answer": 1,
-          "why": "den starken.",
-          "hint": "-en"
-        },
-        {
-          "kind": "mc",
-          "q": "das + neutrum →",
-          "qEn": "Article shows -s.",
-          "options": [
-            "kleines",
-            "kleinen",
-            "kleine"
-          ],
-          "answer": 2,
-          "why": "das kleine.",
-          "hint": "-e"
-        },
-        {
-          "kind": "mc",
-          "q": "ein + neutrum →",
-          "qEn": "No signal on ein.",
-          "options": [
-            "kleines",
-            "kleine",
-            "kleinen"
+            "Das kleine",
+            "Den kleinen",
+            "Ein kleiner"
           ],
           "answer": 0,
-          "why": "ein kleines.",
-          "hint": "-es"
+          "why": "Nominativ Neutrum: das kleine.",
+          "hint": "Das kleine"
         },
         {
           "kind": "mc",
-          "q": "die + feminin →",
-          "qEn": "Article shows -e.",
+          "q": "Sie braucht ___ Infusion.",
           "options": [
-            "leichter",
-            "leichte",
-            "leichten"
-          ],
-          "answer": 1,
-          "why": "die leichte.",
-          "hint": "-e"
-        },
-        {
-          "kind": "mc",
-          "q": "After sein →",
-          "qEn": "Predicative.",
-          "options": [
-            "starker",
-            "starken",
-            "stark"
-          ],
-          "answer": 2,
-          "why": "No ending.",
-          "hint": "sein"
-        },
-        {
-          "kind": "mc",
-          "q": "einen + maskulin →",
-          "qEn": "Accusative.",
-          "options": [
-            "starken",
-            "starker",
-            "starkes"
+            "eine neue",
+            "einer neuen",
+            "ein neuer"
           ],
           "answer": 0,
-          "why": "einen starken.",
-          "hint": "-en"
+          "why": "Akkusativ feminin: eine neue.",
+          "hint": "eine neue"
         },
         {
           "kind": "mc",
-          "q": "Plural die →",
-          "qEn": "Definite plural.",
+          "q": "___ Schmerz ist stark.",
           "options": [
-            "neue",
-            "neuen",
-            "neuer"
-          ],
-          "answer": 1,
-          "why": "die neuen.",
-          "hint": "-en"
-        },
-        {
-          "kind": "mc",
-          "q": "Which noun hides the adjective ending?",
-          "qEn": "n-declension.",
-          "options": [
-            "Schmerz",
-            "Verband",
-            "Patient"
-          ],
-          "answer": 2,
-          "why": "den neuen Patienten: both end in -en.",
-          "hint": "Patient"
-        },
-        {
-          "kind": "mc",
-          "q": "Feminine accusative looks like…",
-          "qEn": "Same form.",
-          "options": [
-            "the nominative",
-            "the masculine accusative",
-            "a bare adjective"
+            "Der dumpfe",
+            "Den dumpfen",
+            "Ein dumpfen"
           ],
           "answer": 0,
-          "why": "die leichte stays die leichte.",
-          "hint": "feminine"
+          "why": "Nominativ maskulin: der dumpfe.",
+          "hint": "Der dumpfe"
         },
         {
           "kind": "mc",
-          "q": "der + maskulin, Nominativ →",
-          "qEn": "Signal on der.",
+          "q": "Wir holen ___ Kissen.",
           "options": [
-            "starker",
-            "starke",
-            "starken"
+            "ein weiches",
+            "einen weichen",
+            "ein weicher"
           ],
-          "answer": 1,
-          "why": "der starke.",
-          "hint": "-e"
+          "answer": 0,
+          "why": "Akkusativ Neutrum: ein weiches.",
+          "hint": "ein weiches"
         },
         {
           "kind": "mc",
-          "q": "ein starken Schmerz is…",
-          "qEn": "Nominative.",
+          "q": "Die Haut ist ___.",
           "options": [
-            "correct",
-            "only plural",
-            "wrong"
+            "trocken",
+            "trockene",
+            "trockenen"
           ],
-          "answer": 2,
-          "why": "Nominative is ein starker.",
-          "hint": "wrong"
+          "answer": 0,
+          "why": "Prädikativ: keine Endung.",
+          "hint": "trocken"
+        },
+        {
+          "kind": "mc",
+          "q": "Er hat ___ Puls.",
+          "options": [
+            "einen schnellen",
+            "ein schneller",
+            "den schneller"
+          ],
+          "answer": 0,
+          "why": "Akkusativ maskulin: einen schnellen.",
+          "hint": "einen schnellen"
+        },
+        {
+          "kind": "mc",
+          "q": "___ Patientin zittert.",
+          "options": [
+            "Die ängstliche",
+            "Die ängstlichen",
+            "Der ängstliche"
+          ],
+          "answer": 0,
+          "why": "Nominativ feminin: die ängstliche.",
+          "hint": "Die ängstliche"
+        },
+        {
+          "kind": "mc",
+          "q": "Geben Sie mir ___ Kompresse.",
+          "options": [
+            "eine kalte",
+            "einer kalten",
+            "ein kalter"
+          ],
+          "answer": 0,
+          "why": "Akkusativ feminin: eine kalte.",
+          "hint": "eine kalte"
+        },
+        {
+          "kind": "mc",
+          "q": "___ Befund freut uns.",
+          "options": [
+            "Ein klarer",
+            "Einen klaren",
+            "Ein klaren"
+          ],
+          "answer": 0,
+          "why": "Nominativ maskulin: ein klarer.",
+          "hint": "Ein klarer"
+        },
+        {
+          "kind": "mc",
+          "q": "Wir verbinden ___ Bein.",
+          "options": [
+            "das linke",
+            "den linken",
+            "der linke"
+          ],
+          "answer": 0,
+          "why": "Akkusativ Neutrum: das linke Bein.",
+          "hint": "das linke"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie liest ___ Notiz.",
+          "options": [
+            "eine wichtige",
+            "einer wichtigen",
+            "ein wichtiger"
+          ],
+          "answer": 0,
+          "why": "Akkusativ feminin: eine wichtige.",
+          "hint": "eine wichtige"
         }
-      ]
+      ],
+      "warning": {
+        "title": "Tipp",
+        "items": [
+          {
+            "de": "✓ den kranken Patienten",
+            "en": "Akkusativ maskulin",
+            "tone": "ok"
+          },
+          {
+            "de": "✓ Der Schmerz ist stark.",
+            "en": "prädikativ",
+            "tone": "ok"
+          }
+        ],
+        "tip": "Trennen Sie Nominativ und Akkusativ."
+      }
     },
     {
       "id": "summary",
       "type": "summary",
-      "label": "Summary",
-      "title": "Der starke Schmerz",
+      "label": "Ziel",
+      "title": "Nominativ und Akkusativ",
       "redemittel": [
         {
-          "de": "ein starker Schmerz",
-          "en": "a severe pain"
+          "de": "einen starken Schmerz haben",
+          "en": "to have severe pain"
         },
         {
-          "de": "den starken Schmerz",
-          "en": "the severe pain (accusative)"
+          "de": "ein kleines Pflaster kleben",
+          "en": "to stick a small plaster"
         },
         {
-          "de": "ein kleines Pflaster",
-          "en": "a small plaster"
+          "de": "den neuen Patienten sehen",
+          "en": "to see the new patient"
         },
         {
           "de": "Der Schmerz ist stark.",
-          "en": "The pain is severe."
+          "en": "The pain is severe. (predicative)"
         }
+      ],
+      "rules": [
+        {
+          "c": "N",
+          "rule": "der/die/das + Adjektiv oft -e; ein + Adjektiv oft -er/-es/-e."
+        },
+        {
+          "c": "A",
+          "rule": "Maskulin Akkusativ: den/einen + -en. Feminin/Neutrum oft wie Nominativ."
+        },
+        {
+          "c": "N",
+          "rule": "Nach sein/werden: Adjektiv ohne Endung (prädikativ)."
+        }
+      ],
+      "messages": [
+        "Noch üben: Nominativ und Akkusativ trennen.",
+        "Gut — die Endungen sitzen schon besser.",
+        "Sehr gut — weiter so auf Station.",
+        "Stark! Kapitel 36 geschafft."
       ]
     }
   ]
