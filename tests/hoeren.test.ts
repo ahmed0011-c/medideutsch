@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { getAllHoeren, getHoerenBySlug, validateHoerenLesson } from "@/lib/hoeren";
+import {
+  getAllHoeren,
+  getHoerenBySlug,
+  hoerenTokenHasExplanation,
+  isHoerenClickable,
+  validateHoerenLesson,
+} from "@/lib/hoeren";
 
 const BATCH2 = [
   {
@@ -108,6 +114,23 @@ describe("hoeren A2 batch 2", () => {
           } else {
             expect(tok.pos).toBe("prep");
           }
+        }
+      }
+    }
+  });
+});
+
+describe("hoeren glosses", () => {
+  it("gives every clickable token a German or English explanation", () => {
+    for (const lesson of getAllHoeren()) {
+      expect(validateHoerenLesson(lesson)).toEqual([]);
+      for (const line of lesson.lines) {
+        for (const token of line.tokens) {
+          if (!isHoerenClickable(token)) continue;
+          expect(
+            hoerenTokenHasExplanation(token),
+            `${lesson.slug} ${line.id} “${token.w}” (${token.pos})`,
+          ).toBe(true);
         }
       }
     }

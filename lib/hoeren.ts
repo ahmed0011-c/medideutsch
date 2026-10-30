@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { hoerenLessonSchema, type HoerenLesson } from "@/lib/hoeren-schema";
+import { hoerenLessonSchema, type HoerenLesson, type HoerenToken } from "@/lib/hoeren-schema";
 
 const ROOT = path.join(process.cwd(), "content", "hoeren");
 
@@ -31,12 +31,32 @@ export function getHoerenBySlug(slug: string): HoerenLesson | undefined {
   return getAllHoeren().find((lesson) => lesson.slug === slug || lesson.id === slug);
 }
 
+/** Tokens the player treats as tappable (see HoerenPlayer). */
+export function isHoerenClickable(token: HoerenToken): boolean {
+  return token.pos !== "other" || Boolean(token.de || token.lemma);
+}
+
+/** A clickable token must show a German or English gloss in the word card. */
+export function hoerenTokenHasExplanation(token: HoerenToken): boolean {
+  return Boolean((token.de && token.de.trim()) || (token.en && token.en.trim()));
+}
+
 export function validateHoerenLesson(lesson: HoerenLesson): string[] {
   const issues: string[] = [];
   const ids = new Set<string>();
   for (const line of lesson.lines) {
     if (ids.has(line.id)) issues.push(`duplicate line id ${line.id}`);
     ids.add(line.id);
+    for (let i = 0; i < line.tokens.length; i++) {
+      const token = line.tokens[i];
+      if (!isHoerenClickable(token)) continue;
+      if (!hoerenTokenHasExplanation(token)) {
+        const surface = token.w;
+        issues.push(
+          `${line.id} token[${i}] “${surface}” (${token.pos}) is clickable but has no de/en explanation`,
+        );
+      }
+    }
   }
   const qids = new Set<string>();
   for (const q of lesson.questions) {
