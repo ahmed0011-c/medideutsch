@@ -3,6 +3,7 @@
   "platform": "MediDeutsch",
   "interfaceLanguage": "en",
   "targetLanguage": "de-DE",
+  "exerciseLanguage": "de",
   "scoring": {
     "firstTry": 2,
     "afterRetry": 1,
@@ -22,89 +23,888 @@
   "chapters": [
     40
   ],
-  "title": "aber, denn, und, sondern, oder",
-  "subtitle": "Position-0 connectors in a handover",
+  "title": "Und, aber, oder, denn",
+  "subtitle": "ADUSO: Position-0-Konnektoren",
+  "scenarios": [
+    "a2-krankenhaus",
+    "a2-patienten",
+    "a2-vitalwerte",
+    "a2-arzneimittel",
+    "a2-hilfsmittel",
+    "b1-dokumentation"
+  ],
   "glossary": {
-    "der": {
-      "de": "der",
-      "pos": "article",
-      "en": "the (masculine)",
-      "emoji": "🔵",
+    "0": {
+      "de": "0",
+      "pos": "other",
+      "en": "position 0"
+    },
+    "1": {
+      "de": "1",
+      "pos": "other",
+      "en": "position 1"
+    },
+    "2": {
+      "de": "zwei",
+      "pos": "number",
+      "en": "two",
+      "emoji": "2️⃣",
+      "note": "Station 2 = ward 2"
+    },
+    "A": {
+      "de": "a",
+      "pos": "other",
+      "en": "a",
+      "emoji": "🔤"
+    },
+    "ADUSO": {
+      "de": "ADUSO",
+      "pos": "other",
+      "en": "aber denn und sondern oder"
+    },
+    "Appetit": {
+      "de": "Appetit",
+      "pos": "noun",
+      "en": "appetite",
       "article": "der"
     },
-    "die": {
-      "de": "die",
-      "pos": "article",
-      "en": "the (feminine or plural)",
-      "emoji": "🔴"
+    "Arzt": {
+      "de": "Arzt",
+      "pos": "noun",
+      "en": "doctor",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "oberarzt"
+      }
     },
-    "das": {
+    "B": {
+      "de": "b",
+      "pos": "abbreviation",
+      "en": "z. B. = zum Beispiel (for example)"
+    },
+    "Bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "Bilder": {
+      "de": "Bilder",
+      "pos": "noun",
+      "en": "pictures",
+      "article": "die",
+      "plural": "die Bilder"
+    },
+    "Bitte": {
+      "de": "Bitte",
+      "pos": "other",
+      "en": "please"
+    },
+    "Blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "en": "blood pressure",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "bpmonitor"
+      }
+    },
+    "Braun": {
+      "de": "Braun",
+      "pos": "name",
+      "en": "Braun"
+    },
+    "Brot": {
+      "de": "Brot",
+      "pos": "noun",
+      "en": "bread",
+      "article": "das"
+    },
+    "Creme": {
+      "de": "Creme",
+      "pos": "noun",
+      "en": "cream",
+      "article": "die"
+    },
+    "Das": {
       "de": "das",
       "pos": "article",
       "en": "the (neuter)",
-      "emoji": "🟢"
+      "emoji": "🟢",
+      "note": "das frische Wasser. das already shows -s, so the adjective takes -e. Not das frisches."
     },
-    "patient": {
-      "de": "Patient",
+    "Der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵",
+      "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet."
+    },
+    "Die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)",
+      "emoji": "📋",
+      "note": "die Akte."
+    },
+    "Dienst": {
+      "de": "Dienst",
       "pos": "noun",
-      "en": "patient (male)",
-      "emoji": "🧑🏽",
-      "article": "der",
-      "plural": "die Patienten"
+      "en": "duty",
+      "article": "der"
     },
-    "patientin": {
-      "de": "Patientin",
+    "Durst": {
+      "de": "Durst",
       "pos": "noun",
-      "en": "patient (female)",
-      "emoji": "👩",
-      "article": "die",
-      "plural": "die Patientinnen"
+      "en": "thirst",
+      "article": "der"
     },
-    "hat": {
-      "de": "haben → er/sie hat",
-      "pos": "verb",
-      "en": "has",
-      "emoji": "🤲"
+    "Ende": {
+      "de": "Ende",
+      "pos": "noun",
+      "en": "end",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Enden"
     },
-    "fieber": {
+    "Er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "Fehler": {
+      "de": "Fehler",
+      "pos": "noun",
+      "en": "mistake",
+      "article": "der"
+    },
+    "Fenster": {
+      "de": "Fenster",
+      "pos": "noun",
+      "en": "window",
+      "article": "das"
+    },
+    "Fieber": {
       "de": "Fieber",
       "pos": "noun",
       "en": "fever",
-      "emoji": "🤒",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "Finde": {
+      "de": "Finde",
+      "pos": "form",
+      "en": "Find"
+    },
+    "Flur": {
+      "de": "Flur",
+      "pos": "noun",
+      "en": "corridor",
+      "article": "der"
+    },
+    "Frau": {
+      "de": "Frau",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Frauen",
+      "en": "woman; wife; Mrs/Ms",
+      "emoji": "👩",
+      "note": "meine Frau = my wife · Frau Weber = Ms Weber"
+    },
+    "Gehen": {
+      "de": "Gehen",
+      "pos": "form",
+      "en": "Go"
+    },
+    "Haut": {
+      "de": "Haut",
+      "pos": "noun",
+      "en": "skin",
+      "article": "die"
+    },
+    "Herr": {
+      "de": "Herr",
+      "pos": "noun",
+      "en": "gentleman",
+      "emoji": "🎩",
+      "article": "der",
+      "plural": "die Herren",
+      "note": "Nominative der Herr. No -n. Oblique singular Herrn. Plural die Herren."
+    },
+    "Heute": {
+      "de": "Heute",
+      "pos": "adverb",
+      "en": "Today"
+    },
+    "Hilfe": {
+      "de": "Hilfe",
+      "pos": "noun",
+      "en": "help",
+      "article": "die"
+    },
+    "Hunger": {
+      "de": "Hunger",
+      "pos": "noun",
+      "en": "hunger",
+      "article": "der"
+    },
+    "Husten": {
+      "de": "Husten",
+      "pos": "noun",
+      "en": "cough",
+      "article": "der"
+    },
+    "Ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "Infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "infusion",
+      "article": "die",
+      "image": {
+        "type": "svg",
+        "id": "infusion"
+      }
+    },
+    "Jonas": {
+      "de": "Jonas",
+      "pos": "name",
+      "en": "Jonas (first name)"
+    },
+    "Kaffee": {
+      "de": "Kaffee",
+      "pos": "noun",
+      "en": "coffee",
+      "article": "der"
+    },
+    "Kein": {
+      "de": "Kein",
+      "pos": "article",
+      "en": "No"
+    },
+    "Keine": {
+      "de": "Keine",
+      "pos": "article",
+      "en": "No"
+    },
+    "Keller": {
+      "de": "Keller",
+      "pos": "name",
+      "en": "Keller"
+    },
+    "Kissen": {
+      "de": "Kissen",
+      "pos": "noun",
+      "en": "pillow",
       "article": "das"
+    },
+    "Kommen": {
+      "de": "Kommen",
+      "pos": "form",
+      "en": "Come"
+    },
+    "Kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Der behandelnde Arzt kommt."
+    },
+    "Konnektor": {
+      "de": "Konnektor",
+      "pos": "noun",
+      "en": "connector",
+      "article": "der"
+    },
+    "Konnektoren": {
+      "de": "Konnektoren",
+      "pos": "noun",
+      "en": "connectors"
+    },
+    "Kontrolle": {
+      "de": "Kontrolle",
+      "pos": "noun",
+      "en": "check",
+      "article": "die"
+    },
+    "Können": {
+      "de": "Können",
+      "pos": "other",
+      "en": "Können",
+      "emoji": "🔤"
+    },
+    "Lernkontrolle": {
+      "de": "Lernkontrolle",
+      "pos": "noun",
+      "en": "progress check"
+    },
+    "Licht": {
+      "de": "Licht",
+      "pos": "noun",
+      "en": "light",
+      "article": "das"
+    },
+    "Links": {
+      "de": "Links",
+      "pos": "adverb",
+      "en": "Left"
+    },
+    "Milch": {
+      "de": "Milch",
+      "pos": "noun",
+      "en": "milk",
+      "article": "die",
+      "image": {
+        "type": "svg",
+        "id": "milk"
+      }
+    },
+    "Mira": {
+      "de": "Mira",
+      "pos": "name",
+      "en": "Mira (first name)"
+    },
+    "Möchten": {
+      "de": "Möchten",
+      "pos": "form",
+      "en": "Would like"
+    },
+    "Nacht": {
+      "de": "Nacht",
+      "pos": "noun",
+      "en": "night",
+      "article": "die"
+    },
+    "Nehmen": {
+      "de": "Nehmen",
+      "pos": "form",
+      "en": "Take"
+    },
+    "Nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫",
+      "note": "nicht nur … sondern auch. nicht Tee, sondern Wasser stays correct with no nur and no auch. Do not put nicht in front of weder."
+    },
+    "Patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "Pause": {
+      "de": "Pause",
+      "pos": "noun",
+      "en": "break",
+      "article": "die"
+    },
+    "Pflege": {
+      "de": "Pflege",
+      "pos": "noun",
+      "en": "nursing care",
+      "article": "die"
+    },
+    "Physio": {
+      "de": "Physio",
+      "pos": "noun",
+      "en": "physio",
+      "article": "die"
+    },
+    "Plan": {
+      "de": "Plan",
+      "pos": "noun",
+      "en": "plan",
+      "article": "der"
+    },
+    "Position": {
+      "de": "Position",
+      "pos": "noun",
+      "en": "position",
+      "article": "die"
+    },
+    "Puls": {
+      "de": "Puls",
+      "pos": "noun",
+      "en": "pulse",
+      "article": "der"
+    },
+    "Rollstuhl": {
+      "de": "Rollstuhl",
+      "pos": "noun",
+      "en": "wheelchair",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "wheelchair"
+      }
+    },
+    "Ruhe": {
+      "de": "Ruhe",
+      "pos": "noun",
+      "en": "quiet",
+      "article": "die"
+    },
+    "Rücken": {
+      "de": "Rücken",
+      "pos": "noun",
+      "en": "back",
+      "article": "der"
+    },
+    "Saft": {
+      "de": "Saft",
+      "pos": "noun",
+      "en": "juice",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "juice"
+      }
+    },
+    "Salbe": {
+      "de": "Salbe",
+      "pos": "noun",
+      "en": "ointment",
+      "article": "die"
+    },
+    "Schicht": {
+      "de": "Schicht",
+      "pos": "noun",
+      "en": "shift",
+      "article": "die"
+    },
+    "Schmerzen": {
+      "de": "Schmerzen",
+      "pos": "noun",
+      "en": "pain"
+    },
+    "Seite": {
+      "de": "Seite",
+      "pos": "noun",
+      "en": "side",
+      "article": "die"
+    },
+    "Sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she",
+      "emoji": "👩‍⚕️"
+    },
+    "Stille": {
+      "de": "Stille",
+      "pos": "noun",
+      "en": "silence",
+      "article": "die"
+    },
+    "Suppe": {
+      "de": "Suppe",
+      "pos": "noun",
+      "en": "soup",
+      "article": "die",
+      "image": {
+        "type": "svg",
+        "id": "soup"
+      }
+    },
+    "Sätze": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "article": "der",
+      "plural": "die Sätze",
+      "emoji": "🩺"
+    },
+    "Tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "article": "die",
+      "image": {
+        "type": "svg",
+        "id": "tablet"
+      }
+    },
+    "Tabletten": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablets",
+      "emoji": "💊",
+      "article": "die",
+      "plural": "die Tabletten",
+      "note": "die Tabletten. Accusative in weder Essen noch Tabletten. Er nimmt keine Tabletten stays the kein negation, chapter 15."
+    },
+    "Tee": {
+      "de": "Tee",
+      "pos": "noun",
+      "en": "tea",
+      "article": "der"
+    },
+    "Tropfen": {
+      "de": "Tropfen",
+      "pos": "noun",
+      "en": "drops"
+    },
+    "Tücher": {
+      "de": "Tücher",
+      "pos": "noun",
+      "en": "towels"
+    },
+    "Urlaub": {
+      "de": "Urlaub",
+      "pos": "noun",
+      "en": "holiday",
+      "article": "der"
+    },
+    "Verb": {
+      "de": "Verb",
+      "pos": "noun",
+      "en": "verb",
+      "article": "das",
+      "plural": "die Verben"
+    },
+    "Verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "article": "der",
+      "image": {
+        "type": "svg",
+        "id": "plaster"
+      }
+    },
+    "Visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "article": "die"
+    },
+    "Wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "image": {
+        "type": "svg",
+        "id": "water"
+      }
+    },
+    "Welcher": {
+      "de": "Welcher",
+      "pos": "article",
+      "en": "Which"
+    },
+    "Wert": {
+      "de": "Wert",
+      "pos": "noun",
+      "en": "reading, value",
+      "article": "der"
+    },
+    "Werte": {
+      "de": "Werte",
+      "pos": "noun",
+      "en": "values"
+    },
+    "Wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "Yilmaz": {
+      "de": "Yilmaz",
+      "pos": "name",
+      "en": "Yilmaz"
     },
     "aber": {
       "de": "aber",
       "pos": "conjunction",
       "en": "but",
-      "emoji": "↩️",
-      "note": "Position 0: the verb in the next clause stays in position 2."
+      "emoji": "↔️",
+      "note": "ADUSO Position 0. Kontrast."
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "when (once, in the past)",
+      "emoji": "🚑",
+      "note": "One event in the past, with the Präteritum. Als der Wagen kam. Not for the present or the future. Comparative als stays chapter 38: stärker als. Not wann."
+    },
+    "am": {
+      "de": "am",
+      "pos": "other",
+      "en": "superlative marker (an dem)",
+      "emoji": "📌",
+      "note": "Nach dem Verb: am + …sten."
+    },
+    "an": {
+      "de": "an",
+      "pos": "prefix",
+      "en": "separable prefix of anrufen",
+      "emoji": "🔚",
+      "note": "Stressed. Goes to the end, after the object: ruft die Station an."
+    },
+    "ans": {
+      "de": "ans",
+      "pos": "preposition",
+      "en": "to the (an + das)",
+      "emoji": "🔤"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on"
+    },
+    "bedeutet": {
+      "de": "bedeuten → bedeutet",
+      "pos": "form",
+      "en": "means"
+    },
+    "beginnt": {
+      "de": "beginnen → sie beginnt",
+      "pos": "form",
+      "en": "begins",
+      "emoji": "🏥",
+      "note": "At the end of the bevor-clause. Bevor die OP beginnt. Not beginnt die OP inside the clause."
+    },
+    "bekommt": {
+      "de": "bekommen → er bekommt",
+      "pos": "form",
+      "en": "gets; receives",
+      "emoji": "💊",
+      "note": "Inseparable be-. Never kommt … be. Participle bekommen looks like the infinitive. No extra ge-."
+    },
+    "bleiben": {
+      "de": "bleiben → ich bleibe",
+      "pos": "form",
+      "en": "stay",
+      "emoji": "🛏️",
+      "note": "Bare infinitive at the end: würde ich bleiben. No zu."
+    },
+    "bleibt": {
+      "de": "bleiben → er bleibt",
+      "pos": "form",
+      "en": "stays",
+      "emoji": "🛏️",
+      "note": "Der Patient bleibt im Bett liegen. Bare infinitive, no zu. Der Patient bleibt im Bett, with no second verb, stays correct too."
+    },
+    "blinkt": {
+      "de": "blinkt",
+      "pos": "form",
+      "en": "flashes"
+    },
+    "darum": {
+      "de": "darum",
+      "pos": "adverb",
+      "en": "for it",
+      "emoji": "🙏",
+      "note": "da + r + um. Er bittet darum. Not um es. A person is um ihn."
+    },
+    "das": {
+      "de": "das",
+      "pos": "article",
+      "en": "the (neuter)",
+      "emoji": "🟢",
+      "note": "das frische Wasser. das already shows -s, so the adjective takes -e. Not das frisches."
+    },
+    "dass": {
+      "de": "dass",
+      "pos": "conjunction",
+      "en": "that"
+    },
+    "den": {
+      "de": "den",
+      "pos": "article",
+      "en": "the (accusative masculine)",
+      "emoji": "🔵",
+      "note": "den Patienten. Accusative singular after lassen, sehen and hören. Also the dative plural."
     },
     "denn": {
       "de": "denn",
       "pos": "conjunction",
       "en": "because",
       "emoji": "💡",
-      "note": "Position 0, like und and aber. The verb does not go to the end. (weil sends the verb to the end.)"
+      "note": "ADUSO. Verb bleibt Position 2."
     },
-    "und": {
-      "de": "und",
-      "pos": "conjunction",
-      "en": "and",
-      "emoji": "➕"
+    "der": {
+      "de": "der",
+      "pos": "article",
+      "en": "the (masculine nominative)",
+      "emoji": "🔵",
+      "note": "der Patient. Nominative, the subject of muss, bleibt, geht, kommt and hustet."
     },
-    "oder": {
-      "de": "oder",
-      "pos": "conjunction",
-      "en": "or",
-      "emoji": "🔀"
+    "desinfiziert": {
+      "de": "desinfizieren → desinfiziert",
+      "pos": "form",
+      "en": "disinfects"
     },
-    "sondern": {
-      "de": "sondern",
-      "pos": "conjunction",
-      "en": "but rather",
-      "emoji": "🔁",
-      "note": "Use sondern, not aber, after a negative when you correct it: nicht A, sondern B."
+    "die": {
+      "de": "die",
+      "pos": "article",
+      "en": "the (feminine)",
+      "emoji": "📋",
+      "note": "die Akte."
+    },
+    "dokumentiere": {
+      "de": "dokumentiere",
+      "pos": "form",
+      "en": "I document"
+    },
+    "dokumentiert": {
+      "de": "dokumentieren → dokumentiert",
+      "pos": "verb",
+      "en": "documents"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a (feminine)",
+      "emoji": "🔴",
+      "note": "eine Tablette."
+    },
+    "einsetzen": {
+      "de": "einsetzen",
+      "pos": "other",
+      "en": "einsetzen",
+      "emoji": "🔤"
+    },
+    "endet": {
+      "de": "endet",
+      "pos": "form",
+      "en": "endet — ends (enden)"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "👨"
+    },
+    "finden": {
+      "de": "finden",
+      "pos": "other",
+      "en": "finden",
+      "emoji": "🔤"
+    },
+    "fit": {
+      "de": "fit",
+      "pos": "adjective",
+      "en": "fit"
+    },
+    "fällt": {
+      "de": "fällt",
+      "pos": "form",
+      "en": "falls"
+    },
+    "geben": {
+      "de": "geben",
+      "pos": "verb",
+      "en": "to give",
+      "emoji": "🎁"
+    },
+    "gehen": {
+      "de": "gehen",
+      "pos": "verb",
+      "en": "to go; to walk",
+      "emoji": "🚶"
+    },
+    "gleich": {
+      "de": "gleich",
+      "pos": "adverb",
+      "en": "soon"
+    },
+    "gut": {
+      "de": "gut",
+      "pos": "adjective",
+      "en": "good; well",
+      "emoji": "👍"
+    },
+    "habe": {
+      "de": "haben → habe",
+      "pos": "verb",
+      "en": "have"
+    },
+    "hat": {
+      "de": "haben → er hat",
+      "pos": "form",
+      "en": "has",
+      "emoji": "🩹",
+      "note": "Er hat einen frischen Verband. Accusative masculine -en."
+    },
+    "hatte": {
+      "de": "haben → er hatte",
+      "pos": "form",
+      "en": "had",
+      "emoji": "⏪",
+      "note": "Plusquamperfekt of a haben verb. ich and er share hatte. du hattest, wir hatten, ihr hattet. hatte Fieber, with no participle, is still the state from chapter 23."
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today"
+    },
+    "hoch": {
+      "de": "hoch",
+      "pos": "adverb",
+      "en": "up"
+    },
+    "holen": {
+      "de": "holen",
+      "pos": "verb",
+      "en": "to fetch"
+    },
+    "ich": {
+      "de": "ich",
+      "pos": "pronoun",
+      "en": "I"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in the",
+      "emoji": "🛏️",
+      "note": "im = in + dem. Dative. Der Patient bleibt im Bett liegen. liegen asks wo? ins Bett is direction, chapter 62, and stays correct with legen."
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in",
+      "emoji": "🚪",
+      "note": "Two-way, chapter 34. With liegen, wo?, the relative is in dem. wohin? stays ins Zimmer, with gehen. The relative does not contract to im."
+    },
+    "isst": {
+      "de": "essen → er isst",
+      "pos": "form",
+      "en": "eats",
+      "emoji": "🍽️",
+      "note": "er isst. Entweder isst er, oder er trinkt. Not the noun das Essen."
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is; has (with sein)",
+      "emoji": "🟦",
+      "note": "aufstehen takes sein: ist aufgestanden. Not hat aufgestanden."
+    },
+    "jetzt": {
+      "de": "jetzt",
+      "pos": "adverb",
+      "en": "now"
     },
     "kein": {
       "de": "kein",
@@ -112,231 +912,107 @@
       "en": "no; not a",
       "emoji": "🚫"
     },
-    "bleibt": {
-      "de": "bleiben → er/sie bleibt",
-      "pos": "verb",
-      "en": "stays",
-      "emoji": "⏸️"
+    "keine": {
+      "de": "keine",
+      "pos": "article",
+      "en": "no (plural or feminine)"
     },
-    "bleiben": {
-      "de": "bleiben",
-      "pos": "verb",
-      "en": "to stay",
-      "emoji": "⏸️"
+    "keinen": {
+      "de": "kein → keinen",
+      "pos": "article",
+      "en": "no; not any",
+      "emoji": "🚫",
+      "note": "keinen Sport machen = do no sport"
     },
-    "bett": {
-      "de": "Bett",
-      "pos": "noun",
-      "en": "bed",
+    "kommen": {
+      "de": "kommen",
+      "pos": "infinitive",
+      "en": "to come",
+      "emoji": "👀",
+      "note": "Ich sehe den Patienten kommen. No zu. Der Patient kommt stays the finite verb."
+    },
+    "kommt": {
+      "de": "kommen → er kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "🚶",
+      "note": "Der behandelnde Arzt kommt."
+    },
+    "kurz": {
+      "de": "kurz",
+      "pos": "adjective",
+      "en": "short",
+      "emoji": "🔤"
+    },
+    "laut": {
+      "de": "laut",
+      "pos": "adjective",
+      "en": "loud"
+    },
+    "liegen": {
+      "de": "liegen",
+      "pos": "infinitive",
+      "en": "to lie",
       "emoji": "🛏️",
-      "article": "das",
-      "plural": "die Betten"
+      "note": "Der Patient bleibt liegen. Position, no object, chapter 62. Der Patient liegt im Bett stays the finite verb. Not bleibt legen."
     },
-    "wasser": {
-      "de": "Wasser",
-      "pos": "noun",
-      "en": "water",
-      "emoji": "💧",
-      "article": "das"
+    "liegt": {
+      "de": "liegen → er liegt",
+      "pos": "form",
+      "en": "lies",
+      "emoji": "🛏️",
+      "note": "Ein frischer Verband liegt hier. Er liegt im frischen Bett. Der Patient liegt in dem kleinen Zimmer stays chapter 37."
     },
-    "trinken": {
-      "de": "trinken",
+    "links": {
+      "de": "links",
+      "pos": "adverb",
+      "en": "left"
+    },
+    "lächelt": {
+      "de": "lächelt",
+      "pos": "form",
+      "en": "smiles"
+    },
+    "lüften": {
+      "de": "lüften",
       "pos": "verb",
-      "en": "to drink",
-      "emoji": "🥤"
+      "en": "to air / ventilate"
     },
-    "trinkt": {
-      "de": "trinken → trinkt",
-      "pos": "verb",
-      "en": "drink! (ihr) or drinks",
-      "emoji": "🥤"
+    "mag": {
+      "de": "mögen → er mag",
+      "pos": "form",
+      "en": "likes",
+      "emoji": "🍵",
+      "note": "er mag. Er mag sowohl Tee als auch Wasser. Not mögt for er."
     },
-    "schmerzen": {
-      "de": "Schmerz",
-      "pos": "noun",
-      "en": "pain",
-      "emoji": "😣",
-      "article": "der",
-      "plural": "die Schmerzen"
-    },
-    "infusion": {
-      "de": "Infusion",
-      "pos": "noun",
-      "en": "IV infusion",
-      "emoji": "💧",
-      "article": "die",
-      "plural": "die Infusionen"
-    },
-    "bekommt": {
-      "de": "bekommen → er/sie bekommt",
-      "pos": "verb",
-      "en": "receives",
-      "emoji": "🎁",
-      "note": "bekommen means to get, not to become."
-    },
-    "tablette": {
-      "de": "Tablette",
-      "pos": "noun",
-      "en": "tablet",
-      "emoji": "💊",
-      "article": "die",
-      "plural": "die Tabletten"
-    },
-    "blutdruck": {
-      "de": "Blutdruck",
-      "pos": "noun",
-      "en": "blood pressure",
-      "emoji": "🩺",
-      "article": "der"
-    },
-    "wert": {
-      "de": "Wert",
-      "pos": "noun",
-      "en": "reading; value",
-      "emoji": "📊",
-      "article": "der",
-      "plural": "die Werte"
+    "messe": {
+      "de": "messe",
+      "pos": "form",
+      "en": "I measure"
     },
     "misst": {
-      "de": "messen → er/sie misst",
-      "pos": "verb",
+      "de": "messen → sie misst",
+      "pos": "form",
       "en": "measures",
-      "emoji": "📏",
-      "note": "e → i: du misst, er misst."
+      "emoji": "🌡️",
+      "note": "Sie misst damit. Here damit means with that thing, chapter 54. Not so that. Not da mit. The participle is gemessen, not this chapter."
     },
-    "pflegekraft": {
-      "de": "Pflegekraft",
-      "pos": "noun",
-      "en": "nurse",
-      "emoji": "🧑‍⚕️",
-      "article": "die",
-      "plural": "die Pflegekräfte"
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "💧",
+      "note": "mit takes the dative. mit frischem Wasser, no article, so -em. mit kleinem Pflaster stays chapter 37."
     },
-    "dokumentiert": {
-      "de": "dokumentieren → er/sie dokumentiert",
+    "mobilisieren": {
+      "de": "mobilisieren",
       "pos": "verb",
-      "en": "documents",
-      "emoji": "📝"
+      "en": "to mobilise"
     },
-    "herr": {
-      "de": "Herr",
-      "pos": "noun",
-      "en": "Mr",
-      "emoji": "👨",
-      "article": "der",
-      "plural": "die Herren"
-    },
-    "yilmaz": {
-      "de": "Yilmaz",
-      "pos": "name",
-      "en": "the patient's surname",
-      "emoji": "🧑🏽"
-    },
-    "anna": {
-      "de": "Anna",
-      "pos": "name",
-      "en": "the nurse's name",
-      "emoji": "🧑‍⚕️"
-    },
-    "station": {
-      "de": "Station",
-      "pos": "noun",
-      "en": "ward",
-      "emoji": "🛏️",
-      "article": "die",
-      "plural": "die Stationen",
-      "note": "auf Station = on the ward, often without an article."
-    },
-    "heute": {
-      "de": "heute",
+    "morgen": {
+      "de": "morgen",
       "pos": "adverb",
-      "en": "today",
-      "emoji": "📆"
-    },
-    "nicht": {
-      "de": "nicht",
-      "pos": "particle",
-      "en": "not",
-      "emoji": "🚫"
-    },
-    "eine": {
-      "de": "eine",
-      "pos": "article",
-      "en": "a (feminine)",
-      "emoji": "1️⃣"
-    },
-    "er": {
-      "de": "er",
-      "pos": "pronoun",
-      "en": "he; also the pronoun for der-nouns",
-      "emoji": "👨"
-    },
-    "sie": {
-      "de": "sie / Sie",
-      "pos": "pronoun",
-      "en": "she; they; you (formal)",
-      "emoji": "🫵",
-      "note": "Capital Sie is formal you. Lowercase sie is she or they. A die-noun also takes sie."
-    },
-    "ich": {
-      "de": "ich",
-      "pos": "pronoun",
-      "en": "I",
-      "emoji": "🙋"
-    },
-    "auf": {
-      "de": "auf",
-      "pos": "preposition",
-      "en": "on; auf Station = on the ward",
-      "emoji": "📍"
-    },
-    "nach": {
-      "de": "nach",
-      "pos": "preposition",
-      "en": "after; for (asking for)",
-      "emoji": "➡️"
-    },
-    "ruhig": {
-      "de": "ruhig",
-      "pos": "adjective",
-      "en": "calm; quietly",
-      "emoji": "😌"
-    },
-    "nacht": {
-      "de": "Nacht",
-      "pos": "noun",
-      "en": "night",
-      "emoji": "🌙",
-      "article": "die",
-      "plural": "die Nächte"
-    },
-    "übergabe": {
-      "de": "Übergabe",
-      "pos": "noun",
-      "en": "handover",
-      "emoji": "🗣️",
-      "article": "die",
-      "plural": "die Übergaben"
-    },
-    "tee": {
-      "de": "Tee",
-      "pos": "noun",
-      "en": "tea",
-      "emoji": "🍵",
-      "article": "der"
-    },
-    "weil": {
-      "de": "weil",
-      "pos": "conjunction",
-      "en": "because (verb to the end)",
-      "emoji": "⚠️",
-      "note": "weil is not position 0. The verb goes to the end: weil er Fieber hat."
-    },
-    "im": {
-      "de": "im (= in dem)",
-      "pos": "preposition",
-      "en": "in the",
-      "emoji": "📥"
+      "en": "tomorrow"
     },
     "möchten": {
       "de": "möchten",
@@ -344,24 +1020,287 @@
       "en": "would like (wir/sie/Sie)",
       "emoji": "🙏"
     },
-    "sie2": {
-      "de": "sie / Sie",
+    "nass": {
+      "de": "nass",
+      "pos": "adjective",
+      "en": "wet"
+    },
+    "nehmen": {
+      "de": "nehmen",
+      "pos": "verb",
+      "en": "to take",
+      "emoji": "✋"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "particle",
+      "en": "not",
+      "emoji": "🚫",
+      "note": "nicht nur … sondern auch. nicht Tee, sondern Wasser stays correct with no nur and no auch. Do not put nicht in front of weder."
+    },
+    "niemand": {
+      "de": "niemand",
       "pos": "pronoun",
-      "en": "she; they; you (formal)",
-      "emoji": "🫵",
-      "note": "Capital Sie is formal you. Lowercase sie is she or they. A die-noun also takes sie."
+      "en": "nobody"
     },
-    "den": {
-      "de": "den",
-      "pos": "article",
-      "en": "the (masculine accusative)",
-      "emoji": "🔵"
+    "nimmt": {
+      "de": "nehmen → er nimmt",
+      "pos": "form",
+      "en": "takes",
+      "emoji": "🍽️",
+      "note": "er nimmt. Vor dem Scan nimmt er weder Essen noch Tabletten. Accusative objects."
     },
-    "keine": {
-      "de": "keine",
-      "pos": "article",
-      "en": "no (feminine)",
-      "emoji": "🚫"
+    "ob": {
+      "de": "ob",
+      "pos": "conjunction",
+      "en": "whether"
+    },
+    "obwohl": {
+      "de": "obwohl",
+      "pos": "conjunction",
+      "en": "although"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or",
+      "emoji": "🔀"
+    },
+    "prüft": {
+      "de": "prüft",
+      "pos": "form",
+      "en": "checks"
+    },
+    "rechts": {
+      "de": "rechts",
+      "pos": "adverb",
+      "en": "right"
+    },
+    "reicht": {
+      "de": "reicht",
+      "pos": "form",
+      "en": "hands"
+    },
+    "rufen": {
+      "de": "rufen → wir rufen",
+      "pos": "form",
+      "en": "call",
+      "emoji": "📞",
+      "note": "wir rufen. After a fronted bevor-clause, rufen comes next. den Arzt is accusative."
+    },
+    "ruft": {
+      "de": "anrufen → er ruft … an",
+      "pos": "form",
+      "en": "phones",
+      "emoji": "📞",
+      "note": "Separable. an is last: ruft die Station an. Not ruft an die Station. Participle angerufen."
+    },
+    "ruhig": {
+      "de": "ruhig",
+      "pos": "adjective",
+      "en": "calm"
+    },
+    "schickt": {
+      "de": "schickt",
+      "pos": "form",
+      "en": "sends",
+      "emoji": "🏥"
+    },
+    "schläft": {
+      "de": "schläft",
+      "pos": "form",
+      "en": "sleeps"
+    },
+    "schmerzt": {
+      "de": "schmerzt",
+      "pos": "form",
+      "en": "hurts"
+    },
+    "schnell": {
+      "de": "schnell",
+      "pos": "adverb",
+      "en": "fast; quickly",
+      "emoji": "⚡"
+    },
+    "schreiben": {
+      "de": "schreiben",
+      "pos": "form",
+      "en": "write"
+    },
+    "schreibt": {
+      "de": "schreiben → sie schreibt",
+      "pos": "form",
+      "en": "writes",
+      "emoji": "📝",
+      "note": "Sie schreibt während der Visite. The preposition has no verb of its own."
+    },
+    "seit": {
+      "de": "seit",
+      "pos": "conjunction",
+      "en": "since",
+      "emoji": "🌡️",
+      "note": "The situation still continues, so the verb is present: Seit er Fieber hat. seit Montag stays the preposition, chapter 30."
+    },
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she",
+      "emoji": "👩‍⚕️"
+    },
+    "sondern": {
+      "de": "sondern",
+      "pos": "conjunction",
+      "en": "but rather",
+      "emoji": "↩️",
+      "note": "Nach nicht/kein bei Korrektur."
+    },
+    "sonst": {
+      "de": "sonst",
+      "pos": "adverb",
+      "en": "otherwise",
+      "emoji": "⚠️",
+      "note": "Position 1: Sonst öffnet sich die Wunde."
+    },
+    "startet": {
+      "de": "starten → startet",
+      "pos": "form",
+      "en": "starts"
+    },
+    "steigen": {
+      "de": "steigen",
+      "pos": "verb",
+      "en": "to rise"
+    },
+    "still": {
+      "de": "still",
+      "pos": "adjective",
+      "en": "still"
+    },
+    "trinkt": {
+      "de": "trinken → er trinkt",
+      "pos": "form",
+      "en": "drinks",
+      "emoji": "💧",
+      "note": "Er trinkt frisches Wasser. Er trinkt das frische Wasser. Der Patient trinkt etwas Kaltes stays chapter 66."
+    },
+    "trotzdem": {
+      "de": "trotzdem",
+      "pos": "adverb",
+      "en": "nevertheless"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "➕"
+    },
+    "unruhig": {
+      "de": "unruhig",
+      "pos": "adjective",
+      "en": "restless",
+      "emoji": "🔤"
+    },
+    "verbinden": {
+      "de": "verbinden",
+      "pos": "verb",
+      "en": "to bandage"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "by",
+      "emoji": "🧑‍⚕️",
+      "note": "The person takes von plus the dative. von der Chirurgin. von der Pflegekraft. vom Arzt = von dem Arzt. Not von die."
+    },
+    "war": {
+      "de": "sein → er war",
+      "pos": "form",
+      "en": "was",
+      "emoji": "🚶",
+      "note": "Plusquamperfekt of kommen: gekommen war. The auxiliary stands last. The main clause is then Präteritum: ruhte."
+    },
+    "warten": {
+      "de": "warten → wir warten",
+      "pos": "form",
+      "en": "wait",
+      "emoji": "⏳",
+      "note": "wir warten. After a fronted clause, warten comes next: Während er schläft, warten wir."
+    },
+    "wartet": {
+      "de": "warten → er wartet",
+      "pos": "form",
+      "en": "waits",
+      "emoji": "⏳",
+      "note": "Ein schlafender Patient wartet. Singular. Der Jugendliche wartet stays chapter 65."
+    },
+    "was": {
+      "de": "was",
+      "pos": "pronoun",
+      "en": "what",
+      "emoji": "❓",
+      "note": "was er hat. The verb is last. Was hat er? stays the direct question."
+    },
+    "wechselt": {
+      "de": "wechseln → sie wechselt",
+      "pos": "form",
+      "en": "changes",
+      "emoji": "🩹",
+      "note": "Main-clause verb after the fronted während-clause. den Verband is accusative."
+    },
+    "weil": {
+      "de": "weil",
+      "pos": "conjunction",
+      "en": "because (verb to end)",
+      "note": "Nicht ADUSO. Verb ans Ende."
+    },
+    "wenig": {
+      "de": "wenig",
+      "pos": "determiner",
+      "en": "little, not much",
+      "emoji": "🔤"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "👥"
+    },
+    "zur": {
+      "de": "zur",
+      "pos": "contraction",
+      "en": "zu + der"
+    },
+    "Übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "article": "die"
+    },
+    "öffnen": {
+      "de": "öffnen",
+      "pos": "verb",
+      "en": "to open"
+    },
+    "Arm": {
+      "de": "Arm",
+      "pos": "noun",
+      "en": "arm",
+      "article": "der"
+    },
+    "Fahren": {
+      "de": "Fahren",
+      "pos": "form",
+      "en": "Go / drive (imperative-like)"
+    },
+    "fahren": {
+      "de": "fahren",
+      "pos": "verb",
+      "en": "to go, to drive"
+    },
+    "runter": {
+      "de": "runter",
+      "pos": "adverb",
+      "en": "down"
     }
   },
   "steps": [
@@ -369,1028 +1308,1711 @@
       "id": "overview",
       "type": "overview",
       "label": "Überblick",
-      "title": "Lesson intro",
-      "minutes": 20,
+      "title": "Konnektoren in der Übergabe",
+      "minutes": 25,
       "learn": [
-        "<b>und, aber, oder, denn, sondern</b> stand in position 0. They do not count as a sentence position.",
-        "The verb in the next main clause stays in <b>position 2</b>.",
-        "<b>denn</b> means because, and the verb stays in position 2. <b>weil</b> sends the verb to the end.",
-        "After a negative, a correction uses <b>sondern</b>, not aber: nicht A, sondern B."
-      ],
-      "vocab": [
-        {
-          "de": "Übergabe",
-          "article": "die",
-          "plural": "die Übergaben",
-          "en": "handover",
-          "emoji": "🗣️",
-          "glossaryKey": "übergabe"
-        },
-        {
-          "de": "Fieber",
-          "article": "das",
-          "en": "fever",
-          "emoji": "🤒",
-          "image": {
-            "type": "svg",
-            "id": "thermometer"
-          },
-          "glossaryKey": "fieber"
-        },
-        {
-          "de": "Infusion",
-          "article": "die",
-          "plural": "die Infusionen",
-          "en": "IV infusion",
-          "emoji": "💧",
-          "image": {
-            "type": "svg",
-            "id": "infusion"
-          },
-          "glossaryKey": "infusion"
-        },
-        {
-          "de": "Blutdruck",
-          "article": "der",
-          "en": "blood pressure",
-          "emoji": "🩺",
-          "image": {
-            "type": "svg",
-            "id": "bpmonitor"
-          },
-          "glossaryKey": "blutdruck"
-        }
+        "ADUSO: aber, denn, und, sondern, oder — sie stehen in Position 0 und zählen nicht mit.",
+        "Danach bleibt das Verb in Position 2: Er hat Fieber, aber er trinkt Wasser.",
+        "denn = weil-Bedeutung, aber Verb bleibt auf Position 2. Nach Negation: nicht A, sondern B."
       ],
       "text": {
-        "title": "Die Übergabe",
-        "de": "Herr Yilmaz hat Fieber, aber er trinkt Wasser. Er bleibt im Bett, denn er hat Schmerzen. Die Pflegekraft misst den Blutdruck und sie dokumentiert den Wert. Er bekommt keine Tablette, sondern er bekommt eine Infusion. Möchten Sie Tee oder möchten Sie Wasser?",
-        "en": "Mr Yilmaz has a fever, but he drinks water. He stays in bed because he is in pain. The nurse measures the blood pressure and she documents the reading. He does not get a tablet; he gets an infusion. Would you like tea or would you like water?"
-      }
+        "title": "Übergabe · ADUSO",
+        "de": "Herr Yilmaz hat Fieber, aber er trinkt Wasser. Er bleibt im Bett, denn er hat Schmerzen. Mira misst den Blutdruck und sie dokumentiert den Wert. Er bekommt keine Tablette, sondern er bekommt eine Infusion. Möchten Sie Tee oder möchten Sie Wasser?",
+        "en": "Mr Yilmaz has a fever, but he drinks water. He stays in bed because he is in pain. Mira measures the blood pressure and she documents the reading. He does not get a tablet; he gets an infusion. Would you like tea or water?"
+      },
+      "vocab": [
+        {
+          "de": "aber",
+          "en": "but — contrast, position 0",
+          "emoji": "↔️",
+          "glossaryKey": "aber"
+        },
+        {
+          "de": "denn",
+          "en": "because — verb stays in position 2",
+          "emoji": "💡",
+          "glossaryKey": "denn"
+        },
+        {
+          "de": "sondern",
+          "en": "but rather — after nicht/kein",
+          "emoji": "↩️",
+          "glossaryKey": "sondern"
+        },
+        {
+          "de": "oder",
+          "en": "or — alternative, position 0",
+          "emoji": "🔀",
+          "glossaryKey": "oder"
+        }
+      ]
     },
     {
       "id": "grammar",
       "type": "grammar",
-      "label": "Grammar",
-      "title": "Position 0: ADUSO",
+      "label": "Grammatik",
+      "title": "ADUSO",
+      "practice": "choose",
+      "heroTitle": "aber · denn · und · sondern · oder",
+      "heroImage": "clipboard",
       "story": [
-        "A handy name is <b>ADUSO</b>: <b>a</b>ber, <b>d</b>enn, <b>u</b>nd, <b>s</b>ondern, <b>o</b>der. Each one links two main clauses and occupies position 0.",
-        "Count again after the connector. The verb is still position 2: Er hat Fieber, <b>aber</b> er <b>trinkt</b> Wasser."
+        "<b>ADUSO</b> merken: <b>a</b>ber, <b>d</b>enn, <b>u</b>nd, <b>s</b>ondern, <b>o</b>der. Alle fünf stehen in <b>Position 0</b> — sie verbinden zwei Hauptsätze und zählen nicht als Satzglied.",
+        "Nach dem Konnektor neu zählen: Das Verb bleibt in <b>Position 2</b>. <b>Er hat Fieber, aber er trinkt Wasser.</b> Nicht: aber er Wasser trinkt.",
+        "<b>denn</b> heißt „weil“, aber die Wortstellung bleibt wie im Hauptsatz. <b>weil</b> schickt das Verb ans Ende — das kommt später.",
+        "Nach <b>nicht / kein</b> kommt bei Korrektur <b>sondern</b>, nicht aber: <b>Er bekommt keine Tablette, sondern er bekommt eine Infusion.</b>"
       ],
       "tables": [
         {
           "title": "ADUSO",
+          "caption": "Position 0 — Verb bleibt auf 2",
           "columns": [
-            "Connector",
-            "Meaning",
-            "Position"
+            "Konnektor",
+            "Bedeutung",
+            "Beispiel"
           ],
           "rows": [
             {
               "label": "und",
               "cells": [
-                "and",
-                "0"
+                "und",
+                "Addition",
+                "Sie misst und sie dokumentiert."
               ]
             },
             {
               "label": "aber",
               "cells": [
-                "but",
-                "0"
-              ]
+                "aber",
+                "Kontrast",
+                "Er hat Fieber, aber er trinkt."
+              ],
+              "highlight": true
             },
             {
               "label": "oder",
               "cells": [
-                "or",
-                "0"
+                "oder",
+                "Alternative",
+                "Tee oder Wasser?"
               ]
             },
             {
               "label": "denn",
               "cells": [
-                "because",
-                "0"
+                "denn",
+                "Grund",
+                "Er bleibt, denn er hat Schmerzen."
               ],
               "highlight": true
             },
             {
               "label": "sondern",
               "cells": [
-                "but rather",
-                "0"
+                "sondern",
+                "Korrektur",
+                "nicht A, sondern B"
               ],
               "highlight": true
+            }
+          ]
+        },
+        {
+          "title": "denn oder weil?",
+          "caption": "Gleiche Bedeutung, andere Stellung",
+          "columns": [
+            "Satz",
+            "Verb"
+          ],
+          "rows": [
+            {
+              "label": "denn",
+              "cells": [
+                "…, denn er hat Schmerzen.",
+                "Position 2"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "weil",
+              "cells": [
+                "…, weil er Schmerzen hat.",
+                "am Ende (später)"
+              ]
             }
           ]
         }
       ],
       "warning": {
-        "title": "denn stays, weil moves",
+        "title": "Häufige Fehler",
         "items": [
           {
-            "de": "Er bleibt im Bett, denn er hat Schmerzen.",
-            "en": "verb in position 2",
-            "tone": "ok"
-          },
-          {
-            "de": "Er bleibt im Bett, weil er Schmerzen hat.",
-            "en": "with weil the verb goes to the end — a later chapter",
-            "tone": "ok"
-          },
-          {
-            "de": "Er bleibt im Bett, denn er Schmerzen hat.",
-            "en": "denn does not send the verb to the end",
+            "de": "✗ …, denn er Schmerzen hat",
+            "en": "✗ denn + Verb am Ende",
             "tone": "stop"
+          },
+          {
+            "de": "✓ …, denn er hat Schmerzen",
+            "en": "✓ Verb Position 2",
+            "tone": "ok"
+          },
+          {
+            "de": "✗ Er bekommt keine Tablette, aber eine Infusion",
+            "en": "✗ aber for replacement after Negation",
+            "tone": "stop"
+          },
+          {
+            "de": "✓ Er bekommt keine Tablette, sondern eine Infusion",
+            "en": "✓ Korrektur → sondern",
+            "tone": "ok"
           }
         ],
-        "tip": "If you can swap in und and the word order still works, the connector is position 0."
+        "tip": "Merksatz: ADUSO = Position 0 · Verb bleibt · nach nicht/kein → sondern."
       },
-      "quiz": [
-        {
-          "q": "Which connector sends the verb to the end?",
-          "options": [
-            "denn",
-            "weil",
-            "aber"
-          ],
-          "answer": 1,
-          "why": "weil is a subordinate conjunction. denn is position 0.",
-          "hint": "ADUSO stays in position 0. One of these is not in ADUSO."
-        },
-        {
-          "q": "Er hat kein Fieber, ___ er hat Schmerzen.",
-          "options": [
-            "aber",
-            "sondern",
-            "denn"
-          ],
-          "answer": 1,
-          "why": "A correction after kein/nicht uses sondern.",
-          "hint": "You are replacing one fact with another after a negative."
-        }
-      ],
-      "practice": "choose"
-    },
-    {
-      "id": "gaps",
-      "type": "gapfill",
-      "label": "Gap fill",
-      "title": "Which connector?",
-      "instructions": "Drag und, aber, oder, denn or sondern. The verb stays in position 2.",
-      "chips": [
-        {
-          "w": "aber",
-          "hint": "contrast, not a correction of a negative"
-        },
-        {
-          "w": "denn",
-          "hint": "because, verb stays in position 2"
-        },
-        {
-          "w": "und",
-          "hint": "and, two facts"
-        },
-        {
-          "w": "sondern",
-          "hint": "but rather, after nicht or kein"
-        },
-        {
-          "w": "oder",
-          "hint": "or, a choice"
-        },
-        {
-          "w": "weil",
-          "hint": "because, but the verb would go to the end — not this chapter"
-        }
-      ],
-      "items": [
-        {
-          "before": "Er hat Fieber,",
-          "after": "er trinkt Wasser.",
-          "answer": "aber",
-          "en": "He has a fever, but he drinks water.",
-          "why": "Contrast: aber. trinkt stays in position 2.",
-          "tip": "Contrast, not a correction.",
-          "hint": "but = aber."
-        },
-        {
-          "before": "Er bleibt im Bett,",
-          "after": "er hat Schmerzen.",
-          "answer": "denn",
-          "en": "He stays in bed because he is in pain.",
-          "why": "Reason with verb in position 2: denn.",
-          "tip": "because, position 2.",
-          "hint": "denn, not weil. hat is in position 2."
-        },
-        {
-          "before": "Sie misst den Blutdruck",
-          "after": "sie dokumentiert den Wert.",
-          "answer": "und",
-          "en": "She measures the blood pressure and she documents the reading.",
-          "why": "Two actions: und.",
-          "tip": "and.",
-          "hint": "Simple addition."
-        },
-        {
-          "before": "Er bekommt keine Tablette,",
-          "after": "er bekommt eine Infusion.",
-          "answer": "sondern",
-          "en": "He does not get a tablet; he gets an infusion.",
-          "why": "Negative + correction = sondern.",
-          "tip": "keine … sondern.",
-          "hint": "After keine, a correction is sondern."
-        },
-        {
-          "before": "Möchten Sie Tee",
-          "after": "möchten Sie Wasser?",
-          "answer": "oder",
-          "en": "Would you like tea, or would you like water?",
-          "why": "A choice: oder.",
-          "tip": "or.",
-          "hint": "Two options."
-        }
-      ],
-      "practice": "gap"
-    },
-    {
-      "id": "compare",
-      "type": "compare",
-      "label": "Compare",
-      "title": "aber or sondern?",
-      "instructions": "Pick the sentence that fits the chart.",
-      "items": [
-        {
-          "prompt": "The chart says: no tablet. He receives an infusion instead.",
-          "options": [
-            {
-              "emoji": "💊",
-              "label": "Er bekommt keine Tablette, aber eine Infusion.",
-              "caption": "aber after keine is the wrong connector"
-            },
-            {
-              "emoji": "💧",
-              "label": "Er bekommt keine Tablette, sondern eine Infusion.",
-              "caption": "correction after keine"
-            }
-          ],
-          "answer": 1,
-          "why": "sondern corrects a negative. aber would only contrast two positive ideas, or sound off after keine.",
-          "hint": "keine … ___ : the connector that means 'but rather'."
-        }
-      ],
-      "practice": "match"
-    },
-    {
-      "id": "builder",
-      "type": "builder",
-      "label": "Word order",
-      "title": "Keep the verb in position 2",
-      "instructions": "Build the handover sentence. denn does not move the verb.",
-      "items": [
-        {
-          "tiles": [
-            "Er",
-            "bleibt",
-            "im",
-            "Bett,",
-            "denn",
-            "er",
-            "hat",
-            "Schmerzen"
-          ],
-          "answers": [
-            "Er bleibt im Bett, denn er hat Schmerzen"
-          ],
-          "punct": ".",
-          "modal": "bleibt",
-          "inf": "Schmerzen",
-          "question": false,
-          "en": "He stays in bed because he is in pain.",
-          "hint": "denn is position 0. After denn, er is position 1 and hat is position 2.",
-          "feedback": {
-            "end": "Schmerzen is the last word. hat stays in position 2 of the second clause, not at the end.",
-            "fallback": "After denn, start the clause again: er (position 1) hat (position 2) Schmerzen."
-          }
-        }
-      ],
-      "practice": "build"
-    },
-    {
-      "id": "writing",
-      "type": "writing",
-      "label": "Writing",
-      "title": "A four-line handover",
-      "instructions": "Write a short handover. Use the connectors in the checklist. Then press Check.",
-      "prompt": "Herr Yilmaz, night shift. Write four German clauses.",
-      "bullets": [
-        "He has a fever, but he drinks water.",
-        "He stays in bed because he is in pain (use denn).",
-        "The nurse measures the blood pressure and documents the reading.",
-        "Offer tea or water."
-      ],
-      "model": "Herr Yilmaz hat Fieber, aber er trinkt Wasser. Er bleibt im Bett, denn er hat Schmerzen. Die Pflegekraft misst den Blutdruck und sie dokumentiert den Wert. Möchten Sie Tee oder möchten Sie Wasser?",
-      "modelEn": "Mr Yilmaz has a fever, but he drinks water. He stays in bed because he is in pain. The nurse measures the blood pressure and documents the reading. Would you like tea or water?",
-      "hint": "ADUSO: aber, denn, und, sondern, oder. The verb after denn stays in position 2: denn er hat Schmerzen.",
-      "checklist": [
-        {
-          "id": "aber",
-          "label": "A contrast with aber",
-          "keywords": [
-            "aber"
-          ]
-        },
-        {
-          "id": "denn",
-          "label": "A reason with denn (verb in position 2)",
-          "keywords": [
-            "denn"
-          ]
-        },
-        {
-          "id": "und",
-          "label": "Two facts joined with und",
-          "keywords": [
-            "und"
-          ]
-        },
-        {
-          "id": "oder",
-          "label": "A choice with oder",
-          "keywords": [
-            "oder"
-          ]
-        }
-      ],
-      "practice": "writing"
-    },
-    {
-      "id": "reading",
-      "type": "reading",
-      "label": "Reading",
-      "title": "Handover note",
-      "instructions": "Read the handover and answer.",
-      "document": {
-        "letterhead": "Station 3B · Übergabe",
-        "title": "Nacht",
-        "paragraphs": [
-          "Herr Yilmaz hat Fieber, aber er trinkt Wasser.",
-          "Er bleibt im Bett, denn er hat Schmerzen.",
-          "Er bekommt keine Tablette, sondern er bekommt eine Infusion."
-        ],
-        "signature": "Anna",
-        "stamp": "ÜBERGABE"
-      },
-      "questions": [
-        {
-          "q": "Why does he stay in bed?",
-          "options": [
-            "denn er hat Schmerzen",
-            "denn er hat Durst",
-            "oder er hat Fieber"
-          ],
-          "answer": 0,
-          "why": "Er bleibt im Bett, denn er hat Schmerzen."
-        },
-        {
-          "kind": "tf",
-          "q": "He gets a tablet.",
-          "options": [
-            "richtig",
-            "falsch"
-          ],
-          "answer": 1,
-          "why": "keine Tablette, sondern eine Infusion."
-        }
-      ],
-      "practice": "reading"
-    },
-    {
-      "id": "px-picture",
-      "label": "Picture",
-      "title": "Picture task",
-      "practice": "picture",
-      "type": "picturematch",
-      "instructions": "Link this thing to the next sentence with und, aber, oder or denn.",
-      "items": [
-        {
-          "id": "thermo",
-          "de": "Fieber",
-          "article": "das",
-          "plural": "Fieber",
-          "en": "fever",
-          "image": {
-            "type": "svg",
-            "id": "thermometer"
-          },
-          "hint": "Er hat Fieber, aber er trinkt."
-        },
-        {
-          "id": "tablet",
-          "de": "Tablette",
-          "article": "die",
-          "plural": "die Tabletten",
-          "en": "tablet",
-          "image": {
-            "type": "svg",
-            "id": "tablet"
-          },
-          "hint": "Er nimmt die Tablette, denn er hat Schmerzen."
-        },
-        {
-          "id": "bed",
-          "de": "Bett",
-          "article": "das",
-          "plural": "die Betten",
-          "en": "bed",
-          "image": {
-            "type": "svg",
-            "id": "bed"
-          },
-          "hint": "Er bleibt im Bett, und er schläft."
-        },
-        {
-          "id": "cup",
-          "de": "Wasser",
-          "article": "das",
-          "plural": "Wasser",
-          "en": "water",
-          "image": {
-            "type": "svg",
-            "id": "hands"
-          },
-          "hint": "Wasser oder Tee."
-        }
-      ]
-    },
-    {
-      "id": "px-transform",
-      "label": "Rewrite",
-      "title": "Change the form.",
-      "practice": "transform",
-      "type": "gapfill",
-      "instructions": "Put the article and noun into the case asked for.",
-      "chips": [
-        {
-          "w": "Er hat Fieber, aber er bleibt im Bett",
-          "hint": "aber"
-        },
-        {
-          "w": "Sie ruft, denn sie hat Schmerzen",
-          "hint": "denn"
-        },
-        {
-          "w": "Wir messen den Puls, und wir dokumentieren",
-          "hint": "und"
-        },
-        {
-          "w": "Er trinkt Wasser, oder er trinkt Tee",
-          "hint": "oder"
-        },
-        {
-          "w": "Nicht Wasser, sondern Tee",
-          "hint": "sondern"
-        },
-        {
-          "w": "denn er hat Schmerzen",
-          "hint": "denn"
-        }
-      ],
-      "items": [
-        {
-          "before": "Er hat Fieber. Er bleibt im Bett. (aber)",
-          "after": ".",
-          "answer": "Er hat Fieber, aber er bleibt im Bett",
-          "en": "Contrast.",
-          "why": "Verb stays after er.",
-          "tip": "aber",
-          "hint": "aber"
-        },
-        {
-          "before": "Sie ruft. Sie hat Schmerzen. (denn)",
-          "after": ".",
-          "answer": "Sie ruft, denn sie hat Schmerzen",
-          "en": "The reason is the second clause.",
-          "why": "denn + subject + verb.",
-          "tip": "denn",
-          "hint": "denn"
-        },
-        {
-          "before": "Wir messen den Puls. Wir dokumentieren. (und)",
-          "after": ".",
-          "answer": "Wir messen den Puls, und wir dokumentieren",
-          "en": "Both facts.",
-          "why": "und does not move the verb.",
-          "tip": "und",
-          "hint": "und"
-        },
-        {
-          "before": "Er trinkt Wasser. Er trinkt Tee. (oder)",
-          "after": ".",
-          "answer": "Er trinkt Wasser, oder er trinkt Tee",
-          "en": "Alternative.",
-          "why": "oder + subject + verb.",
-          "tip": "oder",
-          "hint": "oder"
-        },
-        {
-          "before": "Nicht Wasser. Tee. (sondern)",
-          "after": ".",
-          "answer": "Nicht Wasser, sondern Tee",
-          "en": "Replacement after nicht.",
-          "why": "sondern, not aber.",
-          "tip": "sondern",
-          "hint": "sondern"
-        },
-        {
-          "before": "Er hat Fieber. Hat er Schmerzen? Fix denn:",
-          "after": "",
-          "answer": "denn er hat Schmerzen",
-          "en": "Correct order after denn.",
-          "why": "Subject before the verb.",
-          "tip": "denn",
-          "hint": "denn"
-        }
-      ]
-    },
-    {
-      "id": "px-error",
-      "label": "Fehler",
-      "title": "Finde den Fehler",
-      "practice": "error",
-      "type": "riddle",
-      "instructions": "Read the wrong sentence. Choose the correction.",
-      "items": [
-        {
-          "clues": [
-            "Finde den Fehler.",
-            "Er hat Fieber, denn hat er Schmerzen."
-          ],
-          "options": [
-            "Er hat Fieber, denn er hat Schmerzen.",
-            "Er hat Fieber, denn hat er Schmerzen.",
-            "Er hat Fieber, denn hat Schmerzen er."
-          ],
-          "answer": 0,
-          "reveal": "Er hat Fieber, denn er hat Schmerzen.",
-          "hint": "After denn the subject stays before the verb."
-        },
-        {
-          "clues": [
-            "Finde den Fehler.",
-            "Nicht Wasser, aber Tee."
-          ],
-          "options": [
-            "Nicht Wasser, sondern Tee.",
-            "Nicht Wasser, aber Tee.",
-            "Nicht Wasser, denn Tee."
-          ],
-          "answer": 0,
-          "reveal": "Nicht Wasser, sondern Tee.",
-          "hint": "A replacement after nicht takes sondern."
-        },
-        {
-          "clues": [
-            "Finde den Fehler.",
-            "Sie bleibt, oder kommt sie später."
-          ],
-          "options": [
-            "Sie bleibt, oder sie kommt später.",
-            "Sie bleibt, oder kommt sie später.",
-            "Sie bleibt, oder kommt später sie."
-          ],
-          "answer": 0,
-          "reveal": "Sie bleibt, oder sie kommt später.",
-          "hint": "oder is position 0, so the verb stays in position 2."
-        },
-        {
-          "clues": [
-            "Finde den Fehler.",
-            "Ich habe Schmerzen, aber habe ich Hunger."
-          ],
-          "options": [
-            "Ich habe Schmerzen, aber ich habe Hunger.",
-            "Ich habe Schmerzen, aber habe ich Hunger.",
-            "Ich habe Schmerzen, aber habe Hunger ich."
-          ],
-          "answer": 0,
-          "reveal": "Ich habe Schmerzen, aber ich habe Hunger.",
-          "hint": "aber does not send the verb forward."
-        }
-      ]
-    },
-    {
-      "id": "px-dialogue",
-      "label": "Dialogue",
-      "title": "Complete the dialogue.",
-      "practice": "dialogue",
-      "type": "gapfill",
-      "instructions": "Choose the article. Notice the case.",
-      "chips": [
-        {
-          "w": "aber",
-          "hint": "aber"
-        },
-        {
-          "w": "und",
-          "hint": "und"
-        },
-        {
-          "w": "oder",
-          "hint": "oder"
-        },
-        {
-          "w": "denn",
-          "hint": "denn"
-        },
-        {
-          "w": "sondern",
-          "hint": "sondern"
-        },
-        {
-          "w": "aber er",
-          "hint": "aber"
-        }
-      ],
-      "items": [
-        {
-          "before": "Er hat Fieber,",
-          "after": "er trinkt Wasser.",
-          "answer": "aber",
-          "en": "Contrast.",
-          "why": "aber.",
-          "tip": "aber",
-          "hint": "aber",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "Wir messen den Puls,",
-          "after": "wir dokumentieren.",
-          "answer": "und",
-          "en": "Addition.",
-          "why": "und.",
-          "tip": "und",
-          "hint": "und",
-          "who": "Kollegin"
-        },
-        {
-          "before": "Möchten Sie Wasser",
-          "after": "Tee?",
-          "answer": "oder",
-          "en": "Alternative.",
-          "why": "oder.",
-          "tip": "oder",
-          "hint": "oder",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "Ich bleibe,",
-          "after": "der Patient ruft.",
-          "answer": "denn",
-          "en": "Reason.",
-          "why": "denn.",
-          "tip": "denn",
-          "hint": "denn",
-          "who": "Ärztin"
-        },
-        {
-          "before": "Nicht Saft,",
-          "after": "Wasser.",
-          "answer": "sondern",
-          "en": "Replacement.",
-          "why": "sondern.",
-          "tip": "sondern",
-          "hint": "sondern",
-          "who": "Pflegekraft"
-        },
-        {
-          "before": "Er ist müde,",
-          "after": "schläft nicht.",
-          "answer": "aber er",
-          "en": "Contrast, with the subject in the chip.",
-          "why": "aber + subject, verb stays.",
-          "tip": "aber",
-          "hint": "aber",
-          "who": "Kollegin"
-        }
-      ]
-    },
-    {
-      "id": "px-gap",
-      "label": "More practice",
-      "title": "Choose the form",
-      "practice": "gap",
-      "type": "gapfill",
-      "instructions": "Fill every gap. Each chip is used once.",
-      "chips": [
-        {
-          "w": "und",
-          "hint": "und"
-        },
-        {
-          "w": "aber",
-          "hint": "aber"
-        },
-        {
-          "w": "oder",
-          "hint": "oder"
-        },
-        {
-          "w": "denn",
-          "hint": "denn"
-        },
-        {
-          "w": "sondern",
-          "hint": "sondern"
-        },
-        {
-          "w": "aber er",
-          "hint": "aber"
-        },
-        {
-          "w": "denn der Patient",
-          "hint": "denn"
-        },
-        {
-          "w": "oder Tee",
-          "hint": "oder"
-        },
-        {
-          "w": "und den Befund",
-          "hint": "und"
-        },
-        {
-          "w": "sondern den Stuhl",
-          "hint": "sondern"
-        },
-        {
-          "w": "denn er hat",
-          "hint": "denn"
-        },
-        {
-          "w": "aber sie kommt",
-          "hint": "aber"
-        },
-        {
-          "w": "oder er bleibt",
-          "hint": "oder"
-        }
-      ],
-      "items": [
-        {
-          "before": "Addition:",
-          "after": "",
-          "answer": "und",
-          "en": "and",
-          "why": "Both facts.",
-          "tip": "und",
-          "hint": "und"
-        },
-        {
-          "before": "Contrast:",
-          "after": "",
-          "answer": "aber",
-          "en": "but",
-          "why": "A difference.",
-          "tip": "aber",
-          "hint": "aber"
-        },
-        {
-          "before": "Alternative:",
-          "after": "",
-          "answer": "oder",
-          "en": "or",
-          "why": "One of two.",
-          "tip": "oder",
-          "hint": "oder"
-        },
-        {
-          "before": "Reason, verb stays:",
-          "after": "",
-          "answer": "denn",
-          "en": "because",
-          "why": "Position 0.",
-          "tip": "denn",
-          "hint": "denn"
-        },
-        {
-          "before": "After nicht:",
-          "after": "",
-          "answer": "sondern",
-          "en": "but rather",
-          "why": "Replacement.",
-          "tip": "sondern",
-          "hint": "sondern"
-        },
-        {
-          "before": "Er hat Fieber, ___ er bleibt.",
-          "after": "",
-          "answer": "aber er",
-          "en": "but he",
-          "why": "aber + subject.",
-          "tip": "aber",
-          "hint": "aber"
-        },
-        {
-          "before": "Ich bleibe, ___ der Patient ruft.",
-          "after": "",
-          "answer": "denn der Patient",
-          "en": "because the patient",
-          "why": "denn + subject.",
-          "tip": "denn",
-          "hint": "denn"
-        },
-        {
-          "before": "Wasser ___ Tee.",
-          "after": "",
-          "answer": "oder Tee",
-          "en": "or tea",
-          "why": "oder.",
-          "tip": "oder",
-          "hint": "oder"
-        },
-        {
-          "before": "Puls ___ Befund.",
-          "after": "",
-          "answer": "und den Befund",
-          "en": "and the finding",
-          "why": "und.",
-          "tip": "und",
-          "hint": "und"
-        },
-        {
-          "before": "Nicht Bett, ___ Stuhl.",
-          "after": "",
-          "answer": "sondern den Stuhl",
-          "en": "but the chair",
-          "why": "sondern.",
-          "tip": "sondern",
-          "hint": "sondern"
-        },
-        {
-          "before": "Fix: denn hat er →",
-          "after": "",
-          "answer": "denn er hat",
-          "en": "because he has",
-          "why": "Subject before verb.",
-          "tip": "denn",
-          "hint": "denn"
-        },
-        {
-          "before": "Fix: aber kommt sie →",
-          "after": "",
-          "answer": "aber sie kommt",
-          "en": "but she comes",
-          "why": "Subject before verb.",
-          "tip": "aber",
-          "hint": "aber"
-        },
-        {
-          "before": "Fix: oder bleibt er →",
-          "after": "",
-          "answer": "oder er bleibt",
-          "en": "or he stays",
-          "why": "Subject before verb.",
-          "tip": "oder",
-          "hint": "oder"
-        }
-      ]
-    },
-    {
-      "id": "px-lernkontrolle",
-      "label": "Test",
-      "title": "Lernkontrolle",
-      "practice": "lernkontrolle",
-      "type": "grammar",
-      "story": [
-        "This mixed test closes the lesson. 80% marks it as mastered."
-      ],
-      "quizTitle": "Lernkontrolle",
+      "questionRule": "Wählen Sie den richtigen Konnektor oder die richtige Stellung.",
+      "quizTitle": "Welcher Konnektor?",
       "quiz": [
         {
           "kind": "mc",
-          "q": "und, aber, oder, denn sit in…",
-          "qEn": "Word order.",
+          "q": "Er hat Fieber, ___ er trinkt Wasser.",
           "options": [
-            "position 0",
-            "position 2",
-            "the end"
+            "aber",
+            "weil",
+            "dass"
           ],
           "answer": 0,
-          "why": "The verb of the second clause stays in position 2.",
-          "hint": "position 0"
-        },
-        {
-          "kind": "mc",
-          "q": "Contrast.",
-          "qEn": "But.",
-          "options": [
-            "denn",
-            "aber",
-            "oder"
-          ],
-          "answer": 1,
-          "why": "aber is the contrast.",
+          "why": "Kontrast → aber (Position 0).",
           "hint": "aber"
         },
         {
           "kind": "mc",
-          "q": "Reason, verb stays.",
-          "qEn": "Because.",
+          "q": "Er bleibt im Bett, ___ er hat Schmerzen.",
           "options": [
+            "denn",
             "weil",
-            "aber",
-            "denn"
+            "obwohl"
           ],
-          "answer": 2,
-          "why": "denn does not send the verb to the end.",
+          "answer": 0,
+          "why": "Grund mit Verb auf Position 2 → denn.",
           "hint": "denn"
         },
         {
           "kind": "mc",
-          "q": "After nicht, a replacement.",
-          "qEn": "But rather.",
-          "options": [
-            "sondern",
-            "aber",
-            "oder"
-          ],
-          "answer": 0,
-          "why": "Nicht Wasser, sondern Tee.",
-          "hint": "sondern"
-        },
-        {
-          "kind": "mc",
-          "q": "An alternative.",
-          "qEn": "Or.",
+          "q": "Sie misst den Puls ___ sie dokumentiert.",
           "options": [
             "und",
+            "denn",
+            "sondern"
+          ],
+          "answer": 0,
+          "why": "Addition → und.",
+          "hint": "und"
+        },
+        {
+          "kind": "mc",
+          "q": "Er bekommt keine Tablette, ___ er bekommt eine Infusion.",
+          "options": [
+            "sondern",
+            "aber",
+            "oder"
+          ],
+          "answer": 0,
+          "why": "Korrektur nach Negation → sondern.",
+          "hint": "sondern"
+        },
+        {
+          "kind": "mc",
+          "q": "Möchten Sie Tee ___ Wasser?",
+          "options": [
             "oder",
+            "sondern",
             "denn"
           ],
-          "answer": 1,
-          "why": "oder.",
+          "answer": 0,
+          "why": "Alternative → oder.",
           "hint": "oder"
         },
         {
           "kind": "mc",
-          "q": "Er hat Fieber, denn ___ Schmerzen.",
-          "qEn": "Order.",
+          "q": "Welcher Konnektor schickt das Verb ans Ende?",
           "options": [
-            "hat er",
-            "hat",
-            "er hat"
-          ],
-          "answer": 2,
-          "why": "Subject, then verb.",
-          "hint": "er hat"
-        },
-        {
-          "kind": "mc",
-          "q": "weil would…",
-          "qEn": "Compared with denn.",
-          "options": [
-            "send the verb to the end",
-            "keep position 2",
-            "take position 0"
+            "weil",
+            "denn",
+            "aber"
           ],
           "answer": 0,
-          "why": "weil is not this chapter.",
+          "why": "weil (nicht ADUSO). denn bleibt Position 0.",
           "hint": "weil"
         },
         {
           "kind": "mc",
-          "q": "Both facts.",
-          "qEn": "And.",
+          "q": "…, denn er ___ Schmerzen.",
+          "options": [
+            "hat",
+            "Schmerzen hat",
+            "hatte am Ende"
+          ],
+          "answer": 0,
+          "why": "denn + Verb Position 2.",
+          "hint": "hat"
+        },
+        {
+          "kind": "mc",
+          "q": "ADUSO bedeutet:",
+          "options": [
+            "aber denn und sondern oder",
+            "als dass und seit oder",
+            "aber darum und sonst oder"
+          ],
+          "answer": 0,
+          "why": "aber, denn, und, sondern, oder.",
+          "hint": "ADUSO"
+        },
+        {
+          "kind": "mc",
+          "q": "Kein Appetit, ___ Durst.",
+          "options": [
+            "sondern",
+            "denn",
+            "oder"
+          ],
+          "answer": 0,
+          "why": "Korrektur nach kein → sondern.",
+          "hint": "sondern"
+        },
+        {
+          "kind": "mc",
+          "q": "Position von aber:",
+          "options": [
+            "0",
+            "1",
+            "2"
+          ],
+          "answer": 0,
+          "why": "ADUSO = Position 0.",
+          "hint": "0"
+        },
+        {
+          "kind": "mc",
+          "q": "Er schläft nicht, ___ er wartet auf die Visite.",
+          "options": [
+            "sondern",
+            "oder",
+            "und"
+          ],
+          "answer": 0,
+          "why": "nicht A, sondern B.",
+          "hint": "sondern"
+        },
+        {
+          "kind": "mc",
+          "q": "Mira kommt ___ Jonas bleibt.",
           "options": [
             "aber",
-            "und",
-            "sondern"
+            "sondern",
+            "weil"
           ],
-          "answer": 1,
-          "why": "und adds.",
+          "answer": 0,
+          "why": "Kontrast ohne Negations-Korrektur → aber.",
+          "hint": "aber"
+        }
+      ]
+    },
+    {
+      "id": "gap-aduso",
+      "type": "gapfill",
+      "label": "Lücken",
+      "title": "Konnektor einsetzen",
+      "practice": "gap",
+      "instructions": "Wählen Sie aber, denn, und, sondern oder oder.",
+      "items": [
+        {
+          "before": "Herr Yilmaz hat Fieber, ",
+          "after": " er trinkt Wasser.",
+          "answer": "aber",
+          "en": "Mr Yilmaz has a fever, but he drinks water.",
+          "why": "Kontrast → aber.",
+          "tip": "aber",
+          "hint": "aber"
+        },
+        {
+          "before": "Er bleibt im Bett, ",
+          "after": " er hat Schmerzen.",
+          "answer": "denn",
+          "en": "He stays in bed because he is in pain.",
+          "why": "Grund → denn.",
+          "tip": "denn",
+          "hint": "denn"
+        },
+        {
+          "before": "Mira misst den Blutdruck ",
+          "after": " sie dokumentiert den Wert.",
+          "answer": "und",
+          "en": "Mira measures BP and documents it.",
+          "why": "Addition → und.",
+          "tip": "und",
+          "hint": "und"
+        },
+        {
+          "before": "Er bekommt keine Tablette, ",
+          "after": " er bekommt eine Infusion.",
+          "answer": "sondern",
+          "en": "Not a tablet but an infusion.",
+          "why": "Korrektur → sondern.",
+          "tip": "sondern",
+          "hint": "sondern"
+        },
+        {
+          "before": "Möchten Sie Tee ",
+          "after": " möchten Sie Wasser?",
+          "answer": "oder",
+          "en": "Tea or water?",
+          "why": "Alternative → oder.",
+          "tip": "oder",
+          "hint": "oder"
+        },
+        {
+          "before": "Der Puls ist hoch, ",
+          "after": " der Patient ist ruhig.",
+          "answer": "aber",
+          "en": "Pulse is high, but the patient is calm.",
+          "why": "aber.",
+          "tip": "aber",
+          "hint": "aber"
+        },
+        {
+          "before": "Wir rufen den Arzt, ",
+          "after": " die Werte steigen.",
+          "answer": "denn",
+          "en": "We call the doctor because the values are rising.",
+          "why": "denn.",
+          "tip": "denn",
+          "hint": "denn"
+        },
+        {
+          "before": "Jonas wechselt den Verband ",
+          "after": " er desinfiziert die Haut.",
+          "answer": "und",
+          "en": "Jonas changes the dressing and disinfects.",
+          "why": "und.",
+          "tip": "und",
+          "hint": "und"
+        },
+        {
+          "before": "Sie hat keinen Husten, ",
+          "after": " sie hat Fieber.",
+          "answer": "sondern",
+          "en": "No cough, but rather fever.",
+          "why": "sondern.",
+          "tip": "sondern",
+          "hint": "sondern"
+        },
+        {
+          "before": "Kommen Sie heute ",
+          "after": " kommen Sie morgen?",
+          "answer": "oder",
+          "en": "Today or tomorrow?",
+          "why": "oder.",
+          "tip": "oder",
+          "hint": "oder"
+        },
+        {
+          "before": "Die Nacht war unruhig, ",
+          "after": " jetzt schläft er.",
+          "answer": "aber",
+          "en": "The night was restless, but now he sleeps.",
+          "why": "aber.",
+          "tip": "aber",
+          "hint": "aber"
+        },
+        {
+          "before": "Bitte warten Sie, ",
+          "after": " die Visite beginnt gleich.",
+          "answer": "denn",
+          "en": "Please wait, because rounds start soon.",
+          "why": "denn.",
+          "tip": "denn",
+          "hint": "denn"
+        },
+        {
+          "before": "Wir geben Tee ",
+          "after": " wir geben Suppe.",
+          "answer": "oder",
+          "en": "We give tea or soup.",
+          "why": "oder.",
+          "tip": "oder",
+          "hint": "oder"
+        },
+        {
+          "before": "Er nimmt keine Tabletten, ",
+          "after": " er nimmt Tropfen.",
+          "answer": "sondern",
+          "en": "Not tablets but drops.",
+          "why": "sondern.",
+          "tip": "sondern",
+          "hint": "sondern"
+        },
+        {
+          "before": "Die Schicht endet ",
+          "after": " die Übergabe beginnt.",
+          "answer": "und",
+          "en": "The shift ends and handover begins.",
+          "why": "und.",
+          "tip": "und",
+          "hint": "und"
+        }
+      ],
+      "chips": [
+        {
+          "w": "aber",
+          "hint": "Kontrast → aber."
+        },
+        {
+          "w": "denn",
+          "hint": "Grund → denn."
+        },
+        {
+          "w": "und",
+          "hint": "Addition → und."
+        },
+        {
+          "w": "sondern",
+          "hint": "Korrektur → sondern."
+        },
+        {
+          "w": "oder",
+          "hint": "Alternative → oder."
+        },
+        {
+          "w": "aber",
+          "hint": "aber."
+        },
+        {
+          "w": "denn",
+          "hint": "denn."
+        },
+        {
+          "w": "und",
+          "hint": "und."
+        },
+        {
+          "w": "sondern",
+          "hint": "sondern."
+        },
+        {
+          "w": "oder",
+          "hint": "oder."
+        },
+        {
+          "w": "aber",
+          "hint": "aber."
+        },
+        {
+          "w": "denn",
+          "hint": "denn."
+        },
+        {
+          "w": "oder",
+          "hint": "oder."
+        },
+        {
+          "w": "sondern",
+          "hint": "sondern."
+        },
+        {
+          "w": "und",
+          "hint": "und."
+        }
+      ]
+    },
+    {
+      "id": "build-aduso",
+      "type": "builder",
+      "label": "Bauen",
+      "title": "Sätze verbinden",
+      "practice": "build",
+      "instructions": "Ordnen Sie die Kacheln. ADUSO steht in Position 0; das Verb bleibt auf 2.",
+      "items": [
+        {
+          "tiles": [
+            "Herr",
+            "Braun",
+            "hat",
+            "Hunger",
+            "aber",
+            "er",
+            "wartet"
+          ],
+          "answers": [
+            "Herr Braun hat Hunger aber er wartet"
+          ],
+          "punct": ".",
+          "modal": "aber",
+          "inf": "aber",
+          "question": false,
+          "en": "Mr Braun is hungry but he waits.",
+          "hint": "aber",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "liegt",
+            "ruhig",
+            "denn",
+            "der",
+            "Arm",
+            "schmerzt"
+          ],
+          "answers": [
+            "Er liegt ruhig denn der Arm schmerzt"
+          ],
+          "punct": ".",
+          "modal": "denn",
+          "inf": "denn",
+          "question": false,
+          "en": "He lies quietly because his arm hurts.",
+          "hint": "denn",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Jonas",
+            "prüft",
+            "den",
+            "Plan",
+            "und",
+            "er",
+            "ruft",
+            "an"
+          ],
+          "answers": [
+            "Jonas prüft den Plan und er ruft an"
+          ],
+          "punct": ".",
+          "modal": "und",
+          "inf": "und",
+          "question": false,
+          "en": "Jonas checks the plan and he calls.",
+          "hint": "und",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Er",
+            "nimmt",
+            "keinen",
+            "Kaffee",
+            "sondern",
+            "er",
+            "nimmt",
+            "Tee"
+          ],
+          "answers": [
+            "Er nimmt keinen Kaffee sondern er nimmt Tee"
+          ],
+          "punct": ".",
+          "modal": "sondern",
+          "inf": "sondern",
+          "question": false,
+          "en": "He does not take coffee but tea.",
+          "hint": "sondern",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Nehmen",
+            "Sie",
+            "Tee",
+            "oder",
+            "nehmen",
+            "Sie",
+            "Kaffee"
+          ],
+          "answers": [
+            "Nehmen Sie Tee oder nehmen Sie Kaffee"
+          ],
+          "punct": ".",
+          "modal": "oder",
+          "inf": "oder",
+          "question": true,
+          "en": "Will you take tea or coffee?",
+          "hint": "oder",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Der",
+            "Flur",
+            "war",
+            "laut",
+            "aber",
+            "jetzt",
+            "ist",
+            "Stille"
+          ],
+          "answers": [
+            "Der Flur war laut aber jetzt ist Stille"
+          ],
+          "punct": ".",
+          "modal": "aber",
+          "inf": "aber",
+          "question": false,
+          "en": "The corridor was loud but now it is silent.",
+          "hint": "aber",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "holen",
+            "Tücher",
+            "denn",
+            "das",
+            "Bett",
+            "ist",
+            "nass"
+          ],
+          "answers": [
+            "Wir holen Tücher denn das Bett ist nass"
+          ],
+          "punct": ".",
+          "modal": "denn",
+          "inf": "denn",
+          "question": false,
+          "en": "We fetch towels because the bed is wet.",
+          "hint": "denn",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Mira",
+            "reicht",
+            "das",
+            "Kissen",
+            "und",
+            "sie",
+            "lächelt"
+          ],
+          "answers": [
+            "Mira reicht das Kissen und sie lächelt"
+          ],
+          "punct": ".",
+          "modal": "und",
+          "inf": "und",
+          "question": false,
+          "en": "Mira hands the pillow and she smiles.",
+          "hint": "und",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "hat",
+            "keinen",
+            "Urlaub",
+            "sondern",
+            "sie",
+            "hat",
+            "Dienst"
+          ],
+          "answers": [
+            "Sie hat keinen Urlaub sondern sie hat Dienst"
+          ],
+          "punct": ".",
+          "modal": "sondern",
+          "inf": "sondern",
+          "question": false,
+          "en": "She has no holiday; she is on duty.",
+          "hint": "sondern",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Fahren",
+            "wir",
+            "hoch",
+            "oder",
+            "fahren",
+            "wir",
+            "runter"
+          ],
+          "answers": [
+            "Fahren wir hoch oder fahren wir runter"
+          ],
+          "punct": ".",
+          "modal": "oder",
+          "inf": "oder",
+          "question": true,
+          "en": "Do we go up or down?",
+          "hint": "oder",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Das",
+            "Licht",
+            "blinkt",
+            "aber",
+            "niemand",
+            "kommt"
+          ],
+          "answers": [
+            "Das Licht blinkt aber niemand kommt"
+          ],
+          "punct": ".",
+          "modal": "aber",
+          "inf": "aber",
+          "question": false,
+          "en": "The light flashes but nobody comes.",
+          "hint": "aber",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Kontrolle",
+            "endet",
+            "und",
+            "die",
+            "Pflege",
+            "startet"
+          ],
+          "answers": [
+            "Die Kontrolle endet und die Pflege startet"
+          ],
+          "punct": ".",
+          "modal": "und",
+          "inf": "und",
+          "question": false,
+          "en": "The check ends and care starts.",
+          "hint": "und",
+          "feedback": {
+            "fallback": "Prüfen Sie den Konnektor und die Wortstellung (Verb Position 2)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "error-aduso",
+      "type": "riddle",
+      "label": "Fehler",
+      "title": "Fehler finden",
+      "practice": "error",
+      "instructions": "Tippen Sie die korrekte Variante (Konnektor oder Stellung).",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er liegt ruhig, denn die Seite Schmerzen hat."
+          ],
+          "options": [
+            "Er liegt ruhig, denn die Seite schmerzt.",
+            "Er liegt ruhig, denn die Seite Schmerzen hat.",
+            "Er liegt ruhig, denn schmerzt die Seite."
+          ],
+          "answer": 0,
+          "reveal": "Er liegt ruhig, denn die Seite schmerzt.",
+          "hint": "denn + Verb 2"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er hat kein Fieber, aber er hat Husten."
+          ],
+          "options": [
+            "Er hat kein Fieber, sondern er hat Husten.",
+            "Er hat kein Fieber, aber er hat Husten.",
+            "Er hat kein Fieber, oder er hat Husten."
+          ],
+          "answer": 0,
+          "reveal": "Er hat kein Fieber, sondern er hat Husten.",
+          "hint": "sondern"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie misst den Puls, weil sie dokumentiert den Wert."
+          ],
+          "options": [
+            "Sie misst den Puls und sie dokumentiert den Wert.",
+            "Sie misst den Puls, weil sie dokumentiert den Wert.",
+            "Sie misst den Puls, denn sie dokumentiert den Wert."
+          ],
+          "answer": 0,
+          "reveal": "Sie misst den Puls und sie dokumentiert den Wert.",
+          "hint": "und"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Nehmen Sie Brot, sondern nehmen Sie Suppe?"
+          ],
+          "options": [
+            "Nehmen Sie Brot oder nehmen Sie Suppe?",
+            "Nehmen Sie Brot, sondern nehmen Sie Suppe?",
+            "Nehmen Sie Brot, denn nehmen Sie Suppe?"
+          ],
+          "answer": 0,
+          "reveal": "Nehmen Sie Brot oder nehmen Sie Suppe?",
+          "hint": "oder"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er hat Fieber, oder er trinkt trotzdem."
+          ],
+          "options": [
+            "Er hat Fieber, aber er trinkt trotzdem.",
+            "Er hat Fieber, oder er trinkt trotzdem.",
+            "Er hat Fieber, sondern er trinkt trotzdem."
+          ],
+          "answer": 0,
+          "reveal": "Er hat Fieber, aber er trinkt trotzdem.",
+          "hint": "aber"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir rufen, weil die Werte steigen schnell."
+          ],
+          "options": [
+            "Wir rufen, denn die Werte steigen schnell.",
+            "Wir rufen, weil die Werte steigen schnell.",
+            "Wir rufen, denn die Werte schnell steigen."
+          ],
+          "answer": 0,
+          "reveal": "Wir rufen, denn die Werte steigen schnell.",
+          "hint": "denn"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Keine Tabletten, aber Tropfen."
+          ],
+          "options": [
+            "Keine Tabletten, sondern Tropfen.",
+            "Keine Tabletten, aber Tropfen.",
+            "Keine Tabletten, oder Tropfen."
+          ],
+          "answer": 0,
+          "reveal": "Keine Tabletten, sondern Tropfen.",
+          "hint": "sondern"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Nacht war kurz, denn jetzt ist er fit."
+          ],
+          "options": [
+            "Die Nacht war kurz, aber jetzt ist er fit.",
+            "Die Nacht war kurz, denn jetzt ist er fit.",
+            "Die Nacht war kurz, sondern jetzt ist er fit."
+          ],
+          "answer": 0,
+          "reveal": "Die Nacht war kurz, aber jetzt ist er fit.",
+          "hint": "aber"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Bitte bleiben Sie, und die Kontrolle startet gleich."
+          ],
+          "options": [
+            "Bitte bleiben Sie, denn die Kontrolle startet gleich.",
+            "Bitte bleiben Sie, und die Kontrolle startet gleich.",
+            "Bitte bleiben Sie, sondern die Kontrolle startet gleich."
+          ],
+          "answer": 0,
+          "reveal": "Bitte bleiben Sie, denn die Kontrolle startet gleich.",
+          "hint": "denn"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er kommt heute, aber er kommt morgen?"
+          ],
+          "options": [
+            "Er kommt heute oder er kommt morgen?",
+            "Er kommt heute, aber er kommt morgen?",
+            "Er kommt heute, sondern er kommt morgen?"
+          ],
+          "answer": 0,
+          "reveal": "Er kommt heute oder er kommt morgen?",
+          "hint": "oder"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Jonas desinfiziert, sondern Mira dokumentiert."
+          ],
+          "options": [
+            "Jonas desinfiziert und Mira dokumentiert.",
+            "Jonas desinfiziert, sondern Mira dokumentiert.",
+            "Jonas desinfiziert, denn Mira dokumentiert."
+          ],
+          "answer": 0,
+          "reveal": "Jonas desinfiziert und Mira dokumentiert.",
+          "hint": "und"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Er schläft nicht, aber er wartet auf Hilfe."
+          ],
+          "options": [
+            "Er schläft nicht, sondern er wartet auf Hilfe.",
+            "Er schläft nicht, aber er wartet auf Hilfe.",
+            "Er schläft nicht, oder er wartet auf Hilfe."
+          ],
+          "answer": 0,
+          "reveal": "Er schläft nicht, sondern er wartet auf Hilfe.",
+          "hint": "sondern"
+        }
+      ]
+    },
+    {
+      "id": "picture-aduso",
+      "type": "picturematch",
+      "label": "Bilder",
+      "title": "Bilder zur Übergabe",
+      "practice": "picture",
+      "instructions": "Ordnen Sie Wort und Bild. Merken Sie sich den Konnektor dazu.",
+      "items": [
+        {
+          "id": "fieber",
+          "de": "Fieber",
+          "article": "das",
+          "plural": "die Fieber",
+          "en": "fever — hat Fieber, aber …",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          },
+          "hint": "aber"
+        },
+        {
+          "id": "wasser",
+          "de": "Wasser",
+          "article": "das",
+          "plural": "die Wasser",
+          "en": "water — trinkt Wasser",
+          "image": {
+            "type": "svg",
+            "id": "water"
+          },
+          "hint": "Wasser"
+        },
+        {
+          "id": "blutdruck",
+          "de": "Blutdruck",
+          "article": "der",
+          "plural": "die Blutdrücke",
+          "en": "blood pressure — misst und dokumentiert",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          },
+          "hint": "und"
+        },
+        {
+          "id": "infusion",
+          "de": "Infusion",
+          "article": "die",
+          "plural": "die Infusionen",
+          "en": "infusion — keine Tablette, sondern Infusion",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          },
+          "hint": "sondern"
+        },
+        {
+          "id": "tee",
+          "de": "Tee",
+          "article": "der",
+          "plural": "die Tees",
+          "en": "tea — Tee oder Wasser?",
+          "image": {
+            "type": "svg",
+            "id": "juice"
+          },
+          "hint": "oder"
+        },
+        {
+          "id": "bett",
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed — bleibt im Bett, denn …",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          },
+          "hint": "denn"
+        },
+        {
+          "id": "verband",
+          "de": "Verband",
+          "article": "der",
+          "plural": "die Verbände",
+          "en": "dressing — wechselt und desinfiziert",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "und"
+        },
+        {
+          "id": "arzt",
+          "de": "Arzt",
+          "article": "der",
+          "plural": "die Ärzte",
+          "en": "doctor — wir rufen den Arzt, denn …",
+          "image": {
+            "type": "svg",
+            "id": "oberarzt"
+          },
+          "hint": "denn"
+        },
+        {
+          "id": "tablette",
+          "de": "Tablette",
+          "article": "die",
+          "plural": "die Tabletten",
+          "en": "tablet — keine Tablette, sondern …",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "sondern"
+        },
+        {
+          "id": "rollstuhl",
+          "de": "Rollstuhl",
+          "article": "der",
+          "plural": "die Rollstühle",
+          "en": "wheelchair — denn der Weg ist weit",
+          "image": {
+            "type": "svg",
+            "id": "wheelchair"
+          },
+          "hint": "denn"
+        }
+      ]
+    },
+    {
+      "id": "dialog-aduso",
+      "type": "dialogfill",
+      "label": "Dialog",
+      "title": "Übergabe mit ADUSO",
+      "practice": "dialogue",
+      "instructions": "Tippen Sie den richtigen Konnektor. Am Ende können Sie den Dialog anhören.",
+      "sceneTitle": "Dialog · Morgenübergabe",
+      "scene": "Mira und Jonas übergeben an Dr. Klein.",
+      "speakers": {
+        "mira": {
+          "name": "Mira",
+          "role": "Pflegerin",
+          "avatar": "👩‍⚕️"
+        },
+        "jonas": {
+          "name": "Jonas",
+          "role": "Pfleger",
+          "avatar": "👨‍⚕️"
+        },
+        "arzt": {
+          "name": "Dr. Klein",
+          "role": "Arzt",
+          "avatar": "🩺"
+        },
+        "pat": {
+          "name": "Herr Yilmaz",
+          "role": "Patient",
+          "avatar": "🤒"
+        }
+      },
+      "listenLabel": "Dialog anhören",
+      "lines": [
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Herr Yilmaz hat Fieber, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "aber",
+                "weil"
+              ],
+              "answer": 0,
+              "why": "Kontrast → aber"
+            },
+            {
+              "text": " er trinkt gut."
+            }
+          ]
+        },
+        {
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Er bleibt liegen, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "denn",
+                "weil"
+              ],
+              "answer": 0,
+              "why": "denn: Verb Position 2"
+            },
+            {
+              "text": " er hat Schmerzen."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Ich messe den Puls "
+            },
+            {
+              "gap": true,
+              "options": [
+                "und",
+                "sondern"
+              ],
+              "answer": 0,
+              "why": "Addition → und"
+            },
+            {
+              "text": " ich dokumentiere."
+            }
+          ]
+        },
+        {
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Keine Tablette, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "sondern",
+                "aber"
+              ],
+              "answer": 0,
+              "why": "Korrektur → sondern"
+            },
+            {
+              "text": " eine Infusion."
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Tee "
+            },
+            {
+              "gap": true,
+              "options": [
+                "oder",
+                "denn"
+              ],
+              "answer": 0,
+              "why": "Alternative → oder"
+            },
+            {
+              "text": " Wasser — was möchten Sie?"
+            }
+          ]
+        },
+        {
+          "who": "pat",
+          "parts": [
+            {
+              "text": "Ich habe Durst, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "aber",
+                "sondern"
+              ],
+              "answer": 0,
+              "why": "Kontrast → aber"
+            },
+            {
+              "text": " ich mag keinen Kaffee."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Bitte warten Sie, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "denn",
+                "oder"
+              ],
+              "answer": 0,
+              "why": "Grund → denn"
+            },
+            {
+              "text": " die Visite kommt."
+            }
+          ]
+        },
+        {
+          "who": "jonas",
+          "parts": [
+            {
+              "text": "Wir öffnen das Fenster "
+            },
+            {
+              "gap": true,
+              "options": [
+                "und",
+                "aber"
+              ],
+              "answer": 0,
+              "why": "und"
+            },
+            {
+              "text": " wir lüften kurz."
+            }
+          ]
+        },
+        {
+          "who": "arzt",
+          "parts": [
+            {
+              "text": "Nicht heute, "
+            },
+            {
+              "gap": true,
+              "options": [
+                "sondern",
+                "oder"
+              ],
+              "answer": 0,
+              "why": "sondern"
+            },
+            {
+              "text": " morgen mobilisieren."
+            }
+          ]
+        },
+        {
+          "who": "mira",
+          "parts": [
+            {
+              "text": "Kommt die Physio heute "
+            },
+            {
+              "gap": true,
+              "options": [
+                "oder",
+                "denn"
+              ],
+              "answer": 0,
+              "why": "oder"
+            },
+            {
+              "text": " morgen?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schreiben-aduso",
+      "type": "sentencewrite",
+      "label": "Schreiben",
+      "title": "Sätze schreiben",
+      "practice": "writing",
+      "instructions": "Schreiben Sie den Satz mit dem passenden Konnektor. Kleinschreibung und Komma sind egal.",
+      "items": [
+        {
+          "cue": "Durst • aber • wartet",
+          "answers": [
+            "Frau Keller hat Durst, aber sie wartet",
+            "Frau Keller hat Durst aber sie wartet"
+          ],
+          "marks": [
+            {
+              "wrong": "weil",
+              "right": "aber",
+              "reason": "Kontrast → aber"
+            },
+            {
+              "wrong": "aber sie wartet sie",
+              "right": "aber sie wartet",
+              "reason": "Verb Position 2"
+            }
+          ],
+          "en": "Ms Keller is thirsty, but she waits.",
+          "hint": "aber"
+        },
+        {
+          "cue": "liegt still • denn • Rücken schmerzt",
+          "answers": [
+            "Er liegt still, denn der Rücken schmerzt",
+            "Er liegt still denn der Rücken schmerzt"
+          ],
+          "marks": [
+            {
+              "wrong": "denn der Rücken Schmerzen hat",
+              "right": "denn der Rücken schmerzt",
+              "reason": "Verb Position 2"
+            },
+            {
+              "wrong": "weil",
+              "right": "denn",
+              "reason": "Hier denn"
+            }
+          ],
+          "en": "He lies still because his back hurts.",
+          "hint": "denn"
+        },
+        {
+          "cue": "misst • und • dokumentiert",
+          "answers": [
+            "Sie misst und sie dokumentiert",
+            "Mira misst und sie dokumentiert",
+            "Sie misst den Wert und sie dokumentiert"
+          ],
+          "marks": [
+            {
+              "wrong": "sondern",
+              "right": "und",
+              "reason": "Addition → und"
+            },
+            {
+              "wrong": "denn",
+              "right": "und",
+              "reason": "kein Grund"
+            }
+          ],
+          "en": "She measures and she documents.",
+          "hint": "und"
+        },
+        {
+          "cue": "keinen Saft • sondern • Milch",
+          "answers": [
+            "Sie nimmt keinen Saft, sondern sie nimmt Milch",
+            "Sie nimmt keinen Saft sondern Milch"
+          ],
+          "marks": [
+            {
+              "wrong": "aber",
+              "right": "sondern",
+              "reason": "Korrektur nach Negation"
+            },
+            {
+              "wrong": "oder",
+              "right": "sondern",
+              "reason": "Korrektur"
+            }
+          ],
+          "en": "She does not take juice but milk.",
+          "hint": "sondern"
+        },
+        {
+          "cue": "links • oder • rechts",
+          "answers": [
+            "Gehen wir links oder rechts",
+            "Gehen wir links oder gehen wir rechts",
+            "Links oder rechts"
+          ],
+          "marks": [
+            {
+              "wrong": "sondern",
+              "right": "oder",
+              "reason": "Alternative"
+            },
+            {
+              "wrong": "denn",
+              "right": "oder",
+              "reason": "Wahl"
+            }
+          ],
+          "en": "Left or right?",
+          "hint": "oder"
+        },
+        {
+          "cue": "Nacht laut • aber • jetzt Ruhe",
+          "answers": [
+            "Die Nacht war laut, aber jetzt ist Ruhe",
+            "Die Nacht war laut aber jetzt ist Ruhe"
+          ],
+          "marks": [
+            {
+              "wrong": "sondern",
+              "right": "aber",
+              "reason": "Kontrast"
+            },
+            {
+              "wrong": "denn",
+              "right": "aber",
+              "reason": "kein Grund"
+            }
+          ],
+          "en": "The night was loud, but now it is quiet.",
+          "hint": "aber"
+        },
+        {
+          "cue": "holen Hilfe • denn • Patient fällt",
+          "answers": [
+            "Wir holen Hilfe, denn der Patient fällt",
+            "Wir holen Hilfe denn der Patient fällt"
+          ],
+          "marks": [
+            {
+              "wrong": "denn der Patient fällt der",
+              "right": "denn der Patient fällt",
+              "reason": "Hauptsatzstellung"
+            },
+            {
+              "wrong": "weil",
+              "right": "denn",
+              "reason": "Hier denn"
+            }
+          ],
+          "en": "We get help because the patient is falling.",
+          "hint": "denn"
+        },
+        {
+          "cue": "keine Pause • sondern • Dienst",
+          "answers": [
+            "Er hat keine Pause, sondern er hat Dienst",
+            "Er hat keine Pause sondern Dienst"
+          ],
+          "marks": [
+            {
+              "wrong": "aber",
+              "right": "sondern",
+              "reason": "Korrektur"
+            },
+            {
+              "wrong": "oder",
+              "right": "sondern",
+              "reason": "Korrektur"
+            }
+          ],
+          "en": "He has no break; he is on duty.",
+          "hint": "sondern"
+        },
+        {
+          "cue": "heute • oder • morgen",
+          "answers": [
+            "Kommen Sie heute oder morgen",
+            "Heute oder morgen",
+            "Kommen Sie heute oder kommen Sie morgen"
+          ],
+          "marks": [
+            {
+              "wrong": "sondern",
+              "right": "oder",
+              "reason": "Alternative"
+            },
+            {
+              "wrong": "aber",
+              "right": "oder",
+              "reason": "Wahl, kein Kontrast"
+            }
+          ],
+          "en": "Today or tomorrow?",
+          "hint": "oder"
+        },
+        {
+          "cue": "Visite endet • und • Pflege beginnt",
+          "answers": [
+            "Die Visite endet und die Pflege beginnt",
+            "Die Visite endet, und die Pflege beginnt"
+          ],
+          "marks": [
+            {
+              "wrong": "denn",
+              "right": "und",
+              "reason": "Addition"
+            },
+            {
+              "wrong": "aber",
+              "right": "und",
+              "reason": "kein Kontrast"
+            }
+          ],
+          "en": "Rounds end and care begins.",
+          "hint": "und"
+        }
+      ]
+    },
+    {
+      "id": "lernkontrolle",
+      "type": "grammar",
+      "label": "Test",
+      "title": "Lernkontrolle",
+      "practice": "lernkontrolle",
+      "heroTitle": "Können Sie ADUSO?",
+      "heroImage": "clipboard",
+      "story": [
+        "Prüfen Sie Konnektor und Verbstellung."
+      ],
+      "tables": [],
+      "warning": {
+        "title": "Tipp",
+        "items": [
+          {
+            "de": "✓ …, denn er hat Schmerzen",
+            "en": "Verb Position 2",
+            "tone": "ok"
+          },
+          {
+            "de": "✓ nicht A, sondern B",
+            "en": "Korrektur",
+            "tone": "ok"
+          }
+        ],
+        "tip": "ADUSO = Position 0 · Verb bleibt · sondern nach Negation"
+      },
+      "questionRule": "Wählen Sie die richtige Lösung.",
+      "quizTitle": "Lernkontrolle ADUSO",
+      "quiz": [
+        {
+          "kind": "mc",
+          "q": "Er hat Fieber, ___ er isst wenig.",
+          "options": [
+            "aber",
+            "weil",
+            "dass"
+          ],
+          "answer": 0,
+          "why": "aber.",
+          "hint": "aber"
+        },
+        {
+          "kind": "mc",
+          "q": "Er liegt, ___ er hat Schmerzen.",
+          "options": [
+            "denn",
+            "weil",
+            "ob"
+          ],
+          "answer": 0,
+          "why": "denn.",
+          "hint": "denn"
+        },
+        {
+          "kind": "mc",
+          "q": "Sie misst ___ sie schreibt.",
+          "options": [
+            "und",
+            "sondern",
+            "denn"
+          ],
+          "answer": 0,
+          "why": "und.",
           "hint": "und"
         },
         {
           "kind": "mc",
-          "q": "Sie bleibt, oder ___ später.",
-          "qEn": "Order.",
-          "options": [
-            "kommt sie",
-            "kommt",
-            "sie kommt"
-          ],
-          "answer": 2,
-          "why": "Subject, then verb.",
-          "hint": "sie kommt"
-        },
-        {
-          "kind": "mc",
-          "q": "Nicht Saft, ___ Wasser.",
-          "qEn": "Replacement.",
+          "q": "Keine Creme, ___ Salbe.",
           "options": [
             "sondern",
             "aber",
+            "oder"
+          ],
+          "answer": 0,
+          "why": "sondern.",
+          "hint": "sondern"
+        },
+        {
+          "kind": "mc",
+          "q": "Tee ___ Kaffee?",
+          "options": [
+            "oder",
+            "denn",
+            "sondern"
+          ],
+          "answer": 0,
+          "why": "oder.",
+          "hint": "oder"
+        },
+        {
+          "kind": "mc",
+          "q": "…, denn er ___ Durst.",
+          "options": [
+            "hat",
+            "Durst hat",
+            "hatte am Ende"
+          ],
+          "answer": 0,
+          "why": "Verb Position 2.",
+          "hint": "hat"
+        },
+        {
+          "kind": "mc",
+          "q": "Nicht ADUSO ist:",
+          "options": [
+            "weil",
+            "denn",
+            "aber"
+          ],
+          "answer": 0,
+          "why": "weil schickt das Verb ans Ende.",
+          "hint": "weil"
+        },
+        {
+          "kind": "mc",
+          "q": "Position von und:",
+          "options": [
+            "0",
+            "1",
+            "2"
+          ],
+          "answer": 0,
+          "why": "Position 0.",
+          "hint": "0"
+        },
+        {
+          "kind": "mc",
+          "q": "Kein Appetit, ___ Durst.",
+          "options": [
+            "sondern",
+            "oder",
             "denn"
           ],
           "answer": 0,
@@ -1399,38 +3021,47 @@
         },
         {
           "kind": "mc",
-          "q": "Can you drop a repeated subject after und?",
-          "qEn": "Ellipsis.",
+          "q": "Die Schicht endet ___ die Übergabe beginnt.",
           "options": [
-            "no",
-            "yes",
-            "only after denn"
+            "und",
+            "sondern",
+            "weil"
           ],
-          "answer": 1,
-          "why": "Wir messen und dokumentieren.",
-          "hint": "ellipsis"
+          "answer": 0,
+          "why": "Addition → und.",
+          "hint": "und"
         },
         {
           "kind": "mc",
-          "q": "Ich rufe, ___ der Schmerz stark ist. Which keeps position 2?",
-          "qEn": "Reason.",
+          "q": "Er schläft nicht, ___ er wartet.",
           "options": [
-            "weil",
-            "dass",
-            "denn"
+            "sondern",
+            "oder",
+            "und"
           ],
-          "answer": 2,
-          "why": "denn er ist stark, not denn stark ist.",
-          "hint": "denn"
+          "answer": 0,
+          "why": "sondern.",
+          "hint": "sondern"
+        },
+        {
+          "kind": "mc",
+          "q": "ADUSO =",
+          "options": [
+            "aber denn und sondern oder",
+            "als dass und seit oder",
+            "aber darum und sonst oder"
+          ],
+          "answer": 0,
+          "why": "ADUSO.",
+          "hint": "ADUSO"
         }
       ]
     },
     {
       "id": "summary",
       "type": "summary",
-      "label": "Summary",
+      "label": "Ziel",
       "title": "ADUSO",
-      "reviewStepType": "grammar",
       "redemittel": [
         {
           "de": "Er hat Fieber, aber er trinkt Wasser.",
@@ -1441,13 +3072,29 @@
           "en": "He stays in bed because he is in pain."
         },
         {
-          "de": "Sie misst den Blutdruck und sie dokumentiert den Wert.",
-          "en": "She measures the blood pressure and documents the reading."
-        },
-        {
           "de": "Keine Tablette, sondern eine Infusion.",
           "en": "Not a tablet, but an infusion."
+        },
+        {
+          "de": "Tee oder Wasser?",
+          "en": "Tea or water?"
         }
+      ],
+      "rules": [
+        {
+          "c": "N",
+          "rule": "aber, denn, und, sondern, oder = Position 0; Verb bleibt auf Position 2."
+        },
+        {
+          "c": "N",
+          "rule": "Nach nicht/kein bei Korrektur: sondern. denn ≠ weil (Stellung)."
+        }
+      ],
+      "messages": [
+        "Noch üben: denn und sondern.",
+        "Gut — die Konnektoren sitzen besser.",
+        "Sehr gut — weiter so in der Übergabe.",
+        "Stark! Kapitel 40 geschafft."
       ]
     }
   ]
