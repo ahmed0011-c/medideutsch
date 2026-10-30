@@ -342,11 +342,110 @@ export function HoerenPlayer({ lesson }: { lesson: HoerenLesson }) {
         </div>
 
         <div className={`hoeren-stage${scriptHidden ? " script-hidden" : ""}`}>
-          <div className="hoeren-video-wrap">
-            <div className="hoeren-video">
-              <div id={mountId} />
+          <div className="hoeren-main">
+            <div className="hoeren-video-wrap">
+              <div className="hoeren-video">
+                <div id={mountId} />
+              </div>
+              {!ready ? <p className="hoeren-video-fallback muted">Video wird geladen …</p> : null}
             </div>
-            {!ready ? <p className="hoeren-video-fallback muted">Video wird geladen …</p> : null}
+
+            <p className="hoeren-play-hint">
+              <span className="hoeren-play-dot" aria-hidden="true" />
+              Video läuft weiter. Tippe im Transkript auf ein Wort, um die Bedeutung zu sehen.
+            </p>
+
+            <aside className="hoeren-wortbedeutung" aria-live="polite" aria-label="Wortbedeutung">
+              <div className="hoeren-wb-head">
+                <span className="hoeren-wb-icon" aria-hidden="true">
+                  📖
+                </span>
+                <h3>Wortbedeutung</h3>
+              </div>
+
+              {selected ? (
+                <div className="hoeren-wb-body">
+                  <div className="hoeren-wb-title">
+                    <p className="hoeren-wb-lemma">
+                      {selected.token.article && selected.token.article !== "—"
+                        ? `${selected.token.article} `
+                        : ""}
+                      {selected.token.lemma || stripPunct(selected.token.w)}
+                    </p>
+                    <span className={`hoeren-pos-tag pos-${selected.token.pos}`}>
+                      {selected.token.pos === "verb"
+                        ? "Verb"
+                        : selected.token.pos === "noun"
+                          ? "Nomen"
+                          : selected.token.pos === "prep"
+                            ? "Präposition"
+                            : selected.token.pos === "compound"
+                              ? "Zusammensetzung"
+                              : "Wort"}
+                    </span>
+                  </div>
+
+                  {selected.token.split?.length ? (
+                    <p className="hoeren-split">
+                      {selected.token.split.map((part, i) => (
+                        <span key={`${part}-${i}`}>
+                          {i > 0 ? <span className="hoeren-split-plus"> + </span> : null}
+                          <b>{part}</b>
+                        </span>
+                      ))}
+                    </p>
+                  ) : null}
+
+                  <div className="hoeren-wb-meanings">
+                    <p className="hoeren-wb-row hoeren-de">
+                      <span className="hoeren-flag" title="Deutsch" aria-label="Deutsch">
+                        🇩🇪
+                      </span>
+                      <span>{selected.token.de || "—"}</span>
+                    </p>
+                    <p className="hoeren-wb-row hoeren-en">
+                      <span className="hoeren-flag" title="English" aria-label="English">
+                        🇬🇧
+                      </span>
+                      <span>{selected.token.en || "—"}</span>
+                    </p>
+                  </div>
+
+                  <div className="hoeren-wb-example">
+                    <p className="hoeren-wb-example-label">Beispielsatz</p>
+                    <p className="hoeren-wb-example-text">
+                      {(lesson.lines.find((l) => l.id === selected.lineId)?.tokens ?? []).map((tok, i, arr) => (
+                        <span key={`${selected.lineId}-ex-${i}`}>
+                          <span className={i === selected.index ? "hoeren-wb-hit" : undefined}>{tok.w}</span>
+                          {i < arr.length - 1 ? " " : ""}
+                        </span>
+                      ))}
+                    </p>
+                  </div>
+
+                  <div className="hoeren-wb-actions">
+                    <button
+                      type="button"
+                      className="btn btn-ghost btn-sm hoeren-wb-speak"
+                      onClick={() => speech.speak(selected.token.lemma || stripPunct(selected.token.w))}
+                    >
+                      🔊 Aussprache anhören
+                    </button>
+                    <button
+                      type="button"
+                      className={`btn btn-sm hoeren-wb-bank${savedFlash || isSaved() ? " wb-saved" : ""}`}
+                      onClick={saveToWortbank}
+                    >
+                      {savedFlash || isSaved() ? "⭐ In Wortbank" : "⭐ + Wortbank"}
+                    </button>
+                  </div>
+                </div>
+              ) : (
+                <p className="hoeren-wb-empty">
+                  Tippe auf ein farbiges Wort im Transkript — die Bedeutung erscheint hier, während das Video weiterläuft.
+                </p>
+              )}
+            </aside>
           </div>
 
           {!scriptHidden ? (
@@ -386,6 +485,8 @@ export function HoerenPlayer({ lesson }: { lesson: HoerenLesson }) {
                           const linked =
                             token.link && (linkHover === token.link || selected?.token.link === token.link);
                           const clickable = token.pos !== "other" || Boolean(token.de || token.lemma);
+                          const isSelected =
+                            selected?.lineId === line.id && selected.index === index;
                           return (
                             <span
                               key={`${line.id}-${index}`}
@@ -394,6 +495,7 @@ export function HoerenPlayer({ lesson }: { lesson: HoerenLesson }) {
                                 colored ? `pos-${token.pos}` : "pos-plain",
                                 linked ? "linked" : "",
                                 clickable ? "tap" : "",
+                                isSelected ? "is-selected" : "",
                               ]
                                 .filter(Boolean)
                                 .join(" ")}
@@ -417,61 +519,6 @@ export function HoerenPlayer({ lesson }: { lesson: HoerenLesson }) {
             </div>
           ) : null}
         </div>
-
-        {selected ? (
-          <aside className="hoeren-wordcard" aria-live="polite">
-            <button
-              type="button"
-              className="hoeren-wordcard-close"
-              aria-label="Schließen"
-              onClick={() => setSelected(null)}
-            >
-              ×
-            </button>
-            <p className="hoeren-wordcard-lemma">
-              {selected.token.article && selected.token.article !== "—"
-                ? `${selected.token.article} `
-                : ""}
-              <strong>{selected.token.lemma || stripPunct(selected.token.w)}</strong>
-            </p>
-            {selected.token.split?.length ? (
-              <p className="hoeren-split">
-                {selected.token.split.map((part, i) => (
-                  <span key={part}>
-                    {i > 0 ? <span className="hoeren-split-plus"> + </span> : null}
-                    <b>{part}</b>
-                  </span>
-                ))}
-              </p>
-            ) : null}
-            <p className={`hoeren-pos-tag pos-${selected.token.pos}`}>
-              {selected.token.pos === "verb"
-                ? "Verb"
-                : selected.token.pos === "noun"
-                  ? "Nomen"
-                  : selected.token.pos === "prep"
-                    ? "Präposition"
-                    : selected.token.pos === "compound"
-                      ? "Zusammensetzung"
-                      : "Wort"}
-            </p>
-            {selected.token.de ? <p className="hoeren-de">{selected.token.de}</p> : null}
-            {selected.token.en ? <p className="hoeren-en muted">{selected.token.en}</p> : null}
-            <div className="hoeren-wordcard-actions">
-              <button
-                type="button"
-                className="icon-btn"
-                aria-label="Anhören"
-                onClick={() => speech.speak(selected.token.lemma || stripPunct(selected.token.w))}
-              >
-                🔊
-              </button>
-              <button type="button" className={`btn btn-soft btn-sm${savedFlash || isSaved() ? " wb-saved" : ""}`} onClick={saveToWortbank}>
-                {savedFlash || isSaved() ? "⭐ Zur Wortbank" : "⭐ Zur Wortbank"}
-              </button>
-            </div>
-          </aside>
-        ) : null}
       </section>
 
       <section className="hoeren-part card" aria-labelledby="part2">
