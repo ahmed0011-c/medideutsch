@@ -23,30 +23,30 @@
     26
   ],
   "title": "Gesehen – eingekauft – bezahlt",
-  "subtitle": "How to build the past participle",
+  "subtitle": "Partizip II",
   "glossary": {
     "wie": {
       "de": "wie",
       "pos": "adverb",
       "en": "how",
-      "emoji": "🏥"
+      "emoji": "🔤"
     },
     "heißt": {
-      "de": "heißt",
+      "de": "heißen → es heißt",
       "pos": "form",
       "en": "is called",
-      "emoji": "🏥"
+      "emoji": "⏪"
     },
     "das": {
       "de": "das",
       "pos": "article",
       "en": "the (neuter)",
-      "emoji": "🏥"
+      "emoji": "🔤"
     },
     "partizip": {
       "de": "Partizip",
       "pos": "noun",
-      "en": "past participle",
+      "en": "participle",
       "emoji": "🏥",
       "article": "das",
       "plural": "die Partizipien"
@@ -55,27 +55,26 @@
       "de": "der",
       "pos": "article",
       "en": "the (masculine)",
-      "emoji": "🏥"
+      "emoji": "🔤"
     },
     "arzt": {
       "de": "Arzt",
       "pos": "noun",
-      "en": "doctor (male)",
-      "emoji": "🏥",
-      "article": "der",
-      "plural": "die Ärzte"
+      "en": "doctor",
+      "article": "der"
     },
     "hat": {
-      "de": "hat",
+      "de": "haben → er hat",
       "pos": "form",
-      "en": "has (er/sie/es)",
-      "emoji": "🏥"
+      "en": "has",
+      "emoji": "⏪",
+      "note": "Wrong auxiliary for kommen, gehen, fahren, fallen, bleiben, aufstehen, einschlafen."
     },
     "den": {
       "de": "den",
       "pos": "article",
       "en": "the (accusative masculine)",
-      "emoji": "🏥"
+      "emoji": "🔤"
     },
     "befund": {
       "de": "Befund",
@@ -99,7 +98,7 @@
       "de": "die",
       "pos": "article",
       "en": "the (feminine or plural)",
-      "emoji": "🏥"
+      "emoji": "🔤"
     },
     "tochter": {
       "de": "Tochter",
@@ -118,7 +117,7 @@
     "patient": {
       "de": "Patient",
       "pos": "noun",
-      "en": "patient (male)",
+      "en": "patient",
       "emoji": "🏥",
       "article": "der",
       "plural": "die Patienten",
@@ -137,13 +136,13 @@
       "de": "ich",
       "pos": "pronoun",
       "en": "I",
-      "emoji": "🏥"
+      "emoji": "🔤"
     },
     "habe": {
-      "de": "habe",
+      "de": "haben → ich habe",
       "pos": "form",
-      "en": "have (ich)",
-      "emoji": "🏥"
+      "en": "have",
+      "emoji": "⏪"
     },
     "gewartet": {
       "de": "gewartet",
@@ -172,7 +171,11 @@
       "en": "nurse",
       "emoji": "🏥",
       "article": "die",
-      "plural": "die Pflegekräfte"
+      "plural": "die Pflegekräfte",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
     },
     "geschrieben": {
       "de": "geschrieben",
@@ -184,15 +187,12 @@
       "de": "Schicht",
       "pos": "noun",
       "en": "shift",
-      "emoji": "🏥",
-      "article": "die",
-      "plural": "die Schichten"
+      "article": "die"
     },
     "am": {
       "de": "am",
       "pos": "contraction",
-      "en": "in the; on the",
-      "emoji": "🏥"
+      "en": "an + dem"
     },
     "abend": {
       "de": "Abend",
@@ -269,9 +269,10 @@
     },
     "ein": {
       "de": "ein",
-      "pos": "article",
-      "en": "a (neuter)",
-      "emoji": "🏥"
+      "pos": "particle",
+      "en": "in; separable prefix in einschlafen",
+      "emoji": "🔤",
+      "note": "Also the article ein."
     },
     "zimmer": {
       "de": "Zimmer",
@@ -279,11 +280,7 @@
       "en": "room",
       "emoji": "🏥",
       "article": "das",
-      "plural": "die Zimmer",
-      "image": {
-        "type": "svg",
-        "id": "room"
-      }
+      "plural": "die Zimmer"
     },
     "bekommen": {
       "de": "bekommen",
@@ -294,8 +291,8 @@
     "sie": {
       "de": "sie",
       "pos": "pronoun",
-      "en": "she",
-      "emoji": "🏥"
+      "en": "she, they, or formal you",
+      "emoji": "🔤"
     },
     "anna": {
       "de": "Anna",
@@ -434,159 +431,2983 @@
         "type": "svg",
         "id": "clipboard"
       }
+    },
+    "sein": {
+      "de": "sein",
+      "pos": "verb",
+      "en": "to be",
+      "emoji": "🔤",
+      "note": "In this perfect, sein stands in position 2. The participle goes to the end."
+    },
+    "haben": {
+      "de": "haben",
+      "pos": "verb",
+      "en": "to have",
+      "emoji": "🔤",
+      "note": "lachen takes haben: hat gelacht. Movement takes sein."
+    },
+    "bin": {
+      "de": "sein → ich bin",
+      "pos": "form",
+      "en": "am; have (with sein)",
+      "emoji": "⏪"
+    },
+    "bist": {
+      "de": "sein → du bist",
+      "pos": "form",
+      "en": "are; have (with sein)",
+      "emoji": "⏪"
+    },
+    "ist": {
+      "de": "sein → er ist",
+      "pos": "form",
+      "en": "is; has (with sein)",
+      "emoji": "⏪"
+    },
+    "sind": {
+      "de": "sein → sie sind",
+      "pos": "form",
+      "en": "are; have (with sein)",
+      "emoji": "⏪"
+    },
+    "seid": {
+      "de": "sein → ihr seid",
+      "pos": "form",
+      "en": "are; have (with sein)",
+      "emoji": "⏪"
+    },
+    "hast": {
+      "de": "haben → du hast",
+      "pos": "form",
+      "en": "have",
+      "emoji": "⏪"
+    },
+    "habt": {
+      "de": "haben → ihr habt",
+      "pos": "form",
+      "en": "have",
+      "emoji": "⏪"
+    },
+    "wurde": {
+      "de": "werden → er wurde",
+      "pos": "form",
+      "en": "became",
+      "emoji": "⏪",
+      "note": "wurde does not form this perfect."
+    },
+    "war": {
+      "de": "sein → er war",
+      "pos": "form",
+      "en": "was",
+      "emoji": "⏪",
+      "note": "A state yesterday is war. Movement is ist plus the participle."
+    },
+    "kommt": {
+      "de": "kommen → sie kommt",
+      "pos": "form",
+      "en": "comes",
+      "emoji": "⏪"
+    },
+    "kommen": {
+      "de": "kommen → sie kommen",
+      "pos": "form",
+      "en": "come",
+      "emoji": "⏪"
+    },
+    "gehst": {
+      "de": "gehen → du gehst",
+      "pos": "form",
+      "en": "go",
+      "emoji": "⏪"
+    },
+    "geht": {
+      "de": "gehen → er geht",
+      "pos": "form",
+      "en": "goes",
+      "emoji": "⏪"
+    },
+    "bleiben": {
+      "de": "bleiben → er bleibt",
+      "pos": "form",
+      "en": "stay",
+      "emoji": "⏪"
+    },
+    "bleibt": {
+      "de": "bleiben → er bleibt",
+      "pos": "form",
+      "en": "stays",
+      "emoji": "⏪"
+    },
+    "laufen": {
+      "de": "laufen → wir laufen",
+      "pos": "form",
+      "en": "walk, run",
+      "emoji": "⏪"
+    },
+    "schläft": {
+      "de": "schlafen → sie schläft",
+      "pos": "form",
+      "en": "sleeps",
+      "emoji": "⏪"
+    },
+    "lacht": {
+      "de": "lachen → er lacht",
+      "pos": "form",
+      "en": "laughs",
+      "emoji": "⏪"
+    },
+    "fährt": {
+      "de": "fahren → er fährt",
+      "pos": "form",
+      "en": "drives, goes",
+      "emoji": "⏪"
+    },
+    "wach": {
+      "de": "wach",
+      "pos": "adjective",
+      "en": "awake",
+      "emoji": "🔤"
+    },
+    "aufwacht": {
+      "de": "aufwachen → sie wacht auf",
+      "pos": "form",
+      "en": "wakes up",
+      "emoji": "⏪"
+    },
+    "steht": {
+      "de": "stehen → er steht",
+      "pos": "form",
+      "en": "stands",
+      "emoji": "⏪"
+    },
+    "gekommen": {
+      "de": "kommen → gekommen",
+      "pos": "participle",
+      "en": "come",
+      "emoji": "✅"
+    },
+    "angekommen": {
+      "de": "ankommen → angekommen",
+      "pos": "participle",
+      "en": "arrived",
+      "emoji": "✅",
+      "note": "Separable an-. Not angekommt."
+    },
+    "gegangen": {
+      "de": "gehen → gegangen",
+      "pos": "participle",
+      "en": "gone",
+      "emoji": "✅"
+    },
+    "gefahren": {
+      "de": "fahren → gefahren",
+      "pos": "participle",
+      "en": "driven, gone by vehicle",
+      "emoji": "✅"
+    },
+    "gelaufen": {
+      "de": "laufen → gelaufen",
+      "pos": "participle",
+      "en": "walked, run",
+      "emoji": "✅"
+    },
+    "gefallen": {
+      "de": "fallen → gefallen",
+      "pos": "participle",
+      "en": "fallen",
+      "emoji": "✅"
+    },
+    "geblieben": {
+      "de": "bleiben → geblieben",
+      "pos": "participle",
+      "en": "stayed",
+      "emoji": "✅",
+      "note": "bleiben always takes sein."
+    },
+    "aufgestanden": {
+      "de": "aufstehen → aufgestanden",
+      "pos": "participle",
+      "en": "got up",
+      "emoji": "✅",
+      "note": "Separable. ge- sits in the middle. Not aufgesteht."
+    },
+    "eingeschlafen": {
+      "de": "einschlafen → eingeschlafen",
+      "pos": "participle",
+      "en": "fallen asleep",
+      "emoji": "✅",
+      "note": "Change of state. sein, not haben."
+    },
+    "aufgewacht": {
+      "de": "aufwachen → aufgewacht",
+      "pos": "participle",
+      "en": "woken up",
+      "emoji": "✅"
+    },
+    "gelacht": {
+      "de": "lachen → gelacht",
+      "pos": "participle",
+      "en": "laughed",
+      "emoji": "✅",
+      "note": "lachen takes haben. ist gelacht is not German."
+    },
+    "gekommt": {
+      "de": "gekommt",
+      "pos": "participle",
+      "en": "come (wrong)",
+      "emoji": "✅",
+      "note": "kommen → gekommen."
+    },
+    "angekommt": {
+      "de": "angekommt",
+      "pos": "participle",
+      "en": "arrived (wrong)",
+      "emoji": "✅",
+      "note": "ankommen → angekommen."
+    },
+    "gegengt": {
+      "de": "gegengt",
+      "pos": "participle",
+      "en": "gone (wrong)",
+      "emoji": "✅",
+      "note": "gehen → gegangen."
+    },
+    "gefahrt": {
+      "de": "gefahrt",
+      "pos": "participle",
+      "en": "driven (wrong)",
+      "emoji": "✅",
+      "note": "fahren → gefahren."
+    },
+    "gelauft": {
+      "de": "gelauft",
+      "pos": "participle",
+      "en": "walked (wrong)",
+      "emoji": "✅",
+      "note": "laufen → gelaufen."
+    },
+    "gefallt": {
+      "de": "gefallt",
+      "pos": "participle",
+      "en": "fallen (wrong)",
+      "emoji": "✅",
+      "note": "fallen → gefallen."
+    },
+    "gebleibt": {
+      "de": "gebleibt",
+      "pos": "participle",
+      "en": "stayed (wrong)",
+      "emoji": "✅",
+      "note": "bleiben → geblieben."
+    },
+    "aufgesteht": {
+      "de": "aufgesteht",
+      "pos": "participle",
+      "en": "got up (wrong)",
+      "emoji": "✅",
+      "note": "aufstehen → aufgestanden."
+    },
+    "eingeschlaft": {
+      "de": "eingeschlaft",
+      "pos": "participle",
+      "en": "fallen asleep (wrong)",
+      "emoji": "✅",
+      "note": "einschlafen → eingeschlafen."
+    },
+    "aufgewachtet": {
+      "de": "aufgewachtet",
+      "pos": "participle",
+      "en": "woken (wrong)",
+      "emoji": "✅",
+      "note": "aufwachen → aufgewacht."
+    },
+    "gelachtet": {
+      "de": "gelachtet",
+      "pos": "participle",
+      "en": "laughed (wrong)",
+      "emoji": "✅",
+      "note": "lachen → gelacht."
+    },
+    "gelachen": {
+      "de": "gelachen",
+      "pos": "participle",
+      "en": "laughed (wrong)",
+      "emoji": "✅",
+      "note": "lachen → gelacht."
+    },
+    "du": {
+      "de": "du",
+      "pos": "pronoun",
+      "en": "you (informal)",
+      "emoji": "🔤"
+    },
+    "er": {
+      "de": "er",
+      "pos": "pronoun",
+      "en": "he",
+      "emoji": "🔤"
+    },
+    "wir": {
+      "de": "wir",
+      "pos": "pronoun",
+      "en": "we",
+      "emoji": "🔤"
+    },
+    "ihr": {
+      "de": "ihr",
+      "pos": "pronoun",
+      "en": "you (plural)",
+      "emoji": "🔤"
+    },
+    "ihm": {
+      "de": "ihm",
+      "pos": "pronoun",
+      "en": "him (dative)",
+      "emoji": "🔤"
+    },
+    "was": {
+      "de": "was",
+      "pos": "pronoun",
+      "en": "what",
+      "emoji": "🔤"
+    },
+    "wer": {
+      "de": "wer",
+      "pos": "pronoun",
+      "en": "who",
+      "emoji": "🔤"
+    },
+    "wo": {
+      "de": "wo",
+      "pos": "adverb",
+      "en": "where",
+      "emoji": "🔤"
+    },
+    "wohin": {
+      "de": "wohin",
+      "pos": "adverb",
+      "en": "where to",
+      "emoji": "🔤"
+    },
+    "welche": {
+      "de": "welche",
+      "pos": "pronoun",
+      "en": "which",
+      "emoji": "🔤"
+    },
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and",
+      "emoji": "🔤"
+    },
+    "ja": {
+      "de": "ja",
+      "pos": "particle",
+      "en": "yes",
+      "emoji": "🔤"
+    },
+    "nicht": {
+      "de": "nicht",
+      "pos": "adverb",
+      "en": "not",
+      "emoji": "🔤"
+    },
+    "gestern": {
+      "de": "gestern",
+      "pos": "adverb",
+      "en": "yesterday",
+      "emoji": "🔤"
+    },
+    "heute": {
+      "de": "heute",
+      "pos": "adverb",
+      "en": "today",
+      "emoji": "🔤"
+    },
+    "früh": {
+      "de": "früh",
+      "pos": "adverb",
+      "en": "early",
+      "emoji": "🔤"
+    },
+    "spät": {
+      "de": "spät",
+      "pos": "adverb",
+      "en": "late",
+      "emoji": "🔤"
+    },
+    "leise": {
+      "de": "leise",
+      "pos": "adverb",
+      "en": "quietly",
+      "emoji": "🔤"
+    },
+    "laut": {
+      "de": "laut",
+      "pos": "adverb",
+      "en": "loudly",
+      "emoji": "🔤"
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (clock time)",
+      "emoji": "🔤"
+    },
+    "acht": {
+      "de": "acht",
+      "pos": "number",
+      "en": "eight",
+      "emoji": "🔤"
+    },
+    "sechs": {
+      "de": "sechs",
+      "pos": "number",
+      "en": "six",
+      "emoji": "🔤"
+    },
+    "vier": {
+      "de": "vier",
+      "pos": "number",
+      "en": "four",
+      "emoji": "🔤"
+    },
+    "dem": {
+      "de": "dem",
+      "pos": "article",
+      "en": "the (dative)",
+      "emoji": "🔤"
+    },
+    "im": {
+      "de": "im",
+      "pos": "preposition",
+      "en": "in the",
+      "emoji": "🔤"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in",
+      "emoji": "🔤"
+    },
+    "ins": {
+      "de": "ins",
+      "pos": "preposition",
+      "en": "into the (in + das)",
+      "emoji": "🔤"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on, onto",
+      "emoji": "🔤"
+    },
+    "aus": {
+      "de": "aus",
+      "pos": "preposition",
+      "en": "out of",
+      "emoji": "🔤"
+    },
+    "bei": {
+      "de": "bei",
+      "pos": "preposition",
+      "en": "with, at",
+      "emoji": "🔤"
+    },
+    "zu": {
+      "de": "zu",
+      "pos": "preposition",
+      "en": "to",
+      "emoji": "🔤"
+    },
+    "zur": {
+      "de": "zur",
+      "pos": "preposition",
+      "en": "to the (zu + der)",
+      "emoji": "🔤"
+    },
+    "zum": {
+      "de": "zum",
+      "pos": "preposition",
+      "en": "to the (zu + dem)",
+      "emoji": "🔤"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "after, to",
+      "emoji": "🔤"
+    },
+    "mit": {
+      "de": "mit",
+      "pos": "preposition",
+      "en": "with",
+      "emoji": "🔤"
+    },
+    "an": {
+      "de": "an",
+      "pos": "preposition",
+      "en": "at, to",
+      "emoji": "🔤"
+    },
+    "ans": {
+      "de": "ans",
+      "pos": "preposition",
+      "en": "to the",
+      "emoji": "🔤"
+    },
+    "wird": {
+      "de": "werden → es wird",
+      "pos": "form",
+      "en": "becomes",
+      "emoji": "⏪"
+    },
+    "finde": {
+      "de": "finden → ich finde",
+      "pos": "form",
+      "en": "find",
+      "emoji": "⏪"
+    },
+    "stimmt": {
+      "de": "stimmen → es stimmt",
+      "pos": "form",
+      "en": "is correct",
+      "emoji": "⏪"
+    },
+    "sagen": {
+      "de": "sagen → Sie sagen",
+      "pos": "form",
+      "en": "say",
+      "emoji": "⏪"
+    },
+    "fragt": {
+      "de": "fragen → sie fragt",
+      "pos": "form",
+      "en": "asks",
+      "emoji": "⏪"
+    },
+    "schreiben": {
+      "de": "schreiben → Sie schreiben",
+      "pos": "form",
+      "en": "write",
+      "emoji": "⏪"
+    },
+    "schon": {
+      "de": "schon",
+      "pos": "adverb",
+      "en": "already",
+      "emoji": "🔤"
+    },
+    "perfekt": {
+      "de": "Perfekt",
+      "pos": "noun",
+      "en": "perfect tense",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "—"
+    },
+    "ende": {
+      "de": "Ende",
+      "pos": "noun",
+      "en": "end",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Enden"
+    },
+    "fehler": {
+      "de": "Fehler",
+      "pos": "noun",
+      "en": "mistake",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Fehler"
+    },
+    "antwort": {
+      "de": "Antwort",
+      "pos": "noun",
+      "en": "answer",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Antworten"
+    },
+    "satz": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Sätze"
+    },
+    "sätze": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Sätze"
+    },
+    "lernkontrolle": {
+      "de": "Lernkontrolle",
+      "pos": "noun",
+      "en": "final check",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Lernkontrollen"
+    },
+    "zeile": {
+      "de": "Zeile",
+      "pos": "noun",
+      "en": "line",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Zeilen"
+    },
+    "weg": {
+      "de": "Weg",
+      "pos": "noun",
+      "en": "way, path",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Wege"
+    },
+    "neuaufgenommene": {
+      "de": "Neuaufgenommene",
+      "pos": "noun",
+      "en": "newly admitted woman",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Neuaufgenommenen",
+      "image": {
+        "type": "svg",
+        "id": "patientin"
+      }
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Stationen"
+    },
+    "transportdienst": {
+      "de": "Transportdienst",
+      "pos": "noun",
+      "en": "transport service",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "—"
+    },
+    "ct": {
+      "de": "CT",
+      "pos": "noun",
+      "en": "CT scanner",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die CTs"
+    },
+    "logopädin": {
+      "de": "Logopädin",
+      "pos": "noun",
+      "en": "speech therapist",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Logopädinnen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "sprechzimmer": {
+      "de": "Sprechzimmer",
+      "pos": "noun",
+      "en": "consulting room",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Sprechzimmer"
+    },
+    "sturzpatient": {
+      "de": "Sturzpatient",
+      "pos": "noun",
+      "en": "patient who fell",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Sturzpatienten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "bad": {
+      "de": "Bad",
+      "pos": "noun",
+      "en": "bathroom",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Bäder"
+    },
+    "sitzwache": {
+      "de": "Sitzwache",
+      "pos": "noun",
+      "en": "bedside sitter",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Sitzwachen",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "heimbewohner": {
+      "de": "Heimbewohner",
+      "pos": "noun",
+      "en": "care-home resident",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Heimbewohner",
+      "image": {
+        "type": "svg",
+        "id": "grandfather"
+      }
+    },
+    "speisesaal": {
+      "de": "Speisesaal",
+      "pos": "noun",
+      "en": "dining room",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Speisesäle"
+    },
+    "physiotherapie": {
+      "de": "Physiotherapie",
+      "pos": "noun",
+      "en": "physiotherapy",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—"
+    },
+    "wartebereich": {
+      "de": "Wartebereich",
+      "pos": "noun",
+      "en": "waiting area",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Wartebereiche"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Betten",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "aufzug": {
+      "de": "Aufzug",
+      "pos": "noun",
+      "en": "lift",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Aufzüge"
+    },
+    "verlegte": {
+      "de": "Verlegte",
+      "pos": "noun",
+      "en": "transferred patient",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Verlegten",
+      "image": {
+        "type": "svg",
+        "id": "patient"
+      }
+    },
+    "toilette": {
+      "de": "Toilette",
+      "pos": "noun",
+      "en": "toilet",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Toiletten"
+    },
+    "angehörige": {
+      "de": "Angehörige",
+      "pos": "noun",
+      "en": "relatives",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Angehörigen",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    },
+    "angehöriger": {
+      "de": "Angehöriger",
+      "pos": "noun",
+      "en": "relative",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Angehörigen",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    },
+    "pforte": {
+      "de": "Pforte",
+      "pos": "noun",
+      "en": "gate lodge",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Pforten"
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Patientinnen",
+      "image": {
+        "type": "svg",
+        "id": "patientin"
+      }
+    },
+    "physiotherapeutin": {
+      "de": "Physiotherapeutin",
+      "pos": "noun",
+      "en": "physiotherapist",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Physiotherapeutinnen"
+    },
+    "kapelle": {
+      "de": "Kapelle",
+      "pos": "noun",
+      "en": "chapel",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Kapellen"
+    },
+    "kind": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "child",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Kinder",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "kinder": {
+      "de": "Kind",
+      "pos": "noun",
+      "en": "child",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Kinder",
+      "image": {
+        "type": "svg",
+        "id": "child"
+      }
+    },
+    "garten": {
+      "de": "Garten",
+      "pos": "noun",
+      "en": "garden",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Gärten"
+    },
+    "begleitung": {
+      "de": "Begleitung",
+      "pos": "noun",
+      "en": "escort, companion",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Begleitungen",
+      "image": {
+        "type": "svg",
+        "id": "mother"
+      }
+    },
+    "seelsorger": {
+      "de": "Seelsorger",
+      "pos": "noun",
+      "en": "chaplain",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Seelsorger",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    },
+    "andacht": {
+      "de": "Andacht",
+      "pos": "noun",
+      "en": "devotion, short service",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Andachten"
+    },
+    "treppe": {
+      "de": "Treppe",
+      "pos": "noun",
+      "en": "stairs",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Treppen"
+    },
+    "stuhl": {
+      "de": "Stuhl",
+      "pos": "noun",
+      "en": "chair",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Stühle",
+      "image": {
+        "type": "svg",
+        "id": "chair"
+      }
+    },
+    "mutter": {
+      "de": "Mutter",
+      "pos": "noun",
+      "en": "mother",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Mütter",
+      "image": {
+        "type": "svg",
+        "id": "mother"
+      }
+    },
+    "onkel": {
+      "de": "Onkel",
+      "pos": "noun",
+      "en": "uncle",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Onkel",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    },
+    "gang": {
+      "de": "Gang",
+      "pos": "noun",
+      "en": "corridor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Gänge"
+    },
+    "park": {
+      "de": "Park",
+      "pos": "noun",
+      "en": "park",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Parks"
+    },
+    "freundin": {
+      "de": "Freundin",
+      "pos": "noun",
+      "en": "friend",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Freundinnen",
+      "image": {
+        "type": "svg",
+        "id": "mother"
+      }
+    },
+    "fahrdienst": {
+      "de": "Fahrdienst",
+      "pos": "noun",
+      "en": "transport crew",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Fahrdienste"
+    },
+    "mrt": {
+      "de": "MRT",
+      "pos": "noun",
+      "en": "MRI",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die MRTs"
+    },
+    "gast": {
+      "de": "Gast",
+      "pos": "noun",
+      "en": "guest",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Gäste",
+      "image": {
+        "type": "svg",
+        "id": "grandfather"
+      }
+    },
+    "nora": {
+      "de": "Nora",
+      "pos": "noun",
+      "en": "Nora",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—",
+      "image": {
+        "type": "svg",
+        "id": "patientin"
+      }
+    },
+    "säugling": {
+      "de": "Säugling",
+      "pos": "noun",
+      "en": "baby",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Säuglinge",
+      "image": {
+        "type": "svg",
+        "id": "baby"
+      }
+    },
+    "rettung": {
+      "de": "Rettung",
+      "pos": "noun",
+      "en": "rescue crew",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "—"
+    },
+    "therapie": {
+      "de": "Therapie",
+      "pos": "noun",
+      "en": "therapy",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Therapien"
+    },
+    "röntgenabteilung": {
+      "de": "Röntgenabteilung",
+      "pos": "noun",
+      "en": "X-ray department",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Röntgenabteilungen"
+    },
+    "bewohner": {
+      "de": "Bewohner",
+      "pos": "noun",
+      "en": "resident",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Bewohner",
+      "image": {
+        "type": "svg",
+        "id": "grandfather"
+      }
+    },
+    "rollstuhl": {
+      "de": "Rollstuhl",
+      "pos": "noun",
+      "en": "wheelchair",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Rollstühle",
+      "image": {
+        "type": "svg",
+        "id": "wheelchair"
+      }
+    },
+    "apotheke": {
+      "de": "Apotheke",
+      "pos": "noun",
+      "en": "pharmacy",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Apotheken",
+      "image": {
+        "type": "svg",
+        "id": "pharmacy"
+      }
+    },
+    "monitor": {
+      "de": "Monitor",
+      "pos": "noun",
+      "en": "monitor",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Monitore",
+      "image": {
+        "type": "svg",
+        "id": "monitor"
+      }
+    },
+    "hof": {
+      "de": "Hof",
+      "pos": "noun",
+      "en": "courtyard",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Höfe"
+    },
+    "schlaf": {
+      "de": "Schlaf",
+      "pos": "noun",
+      "en": "sleep",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "—"
+    },
+    "wege": {
+      "de": "Weg",
+      "pos": "noun",
+      "en": "way",
+      "emoji": "🏥",
+      "article": "der",
+      "plural": "die Wege"
+    },
+    "angehörigen": {
+      "de": "Angehörige",
+      "pos": "noun",
+      "en": "relatives",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Angehörigen",
+      "image": {
+        "type": "svg",
+        "id": "father"
+      }
+    },
+    "bleibe": {
+      "de": "bleiben → ich bleibe",
+      "pos": "form",
+      "en": "stay",
+      "emoji": "⏪"
+    },
+    "neu": {
+      "de": "neu",
+      "pos": "adjective",
+      "en": "new",
+      "emoji": "🔤"
+    },
+    "oder": {
+      "de": "oder",
+      "pos": "conjunction",
+      "en": "or",
+      "emoji": "🔤"
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from, of",
+      "emoji": "🔤"
+    },
+    "gehen": {
+      "de": "gehen → gehen",
+      "pos": "form",
+      "en": "go",
+      "emoji": "⏪"
+    },
+    "fallen": {
+      "de": "fallen → fallen",
+      "pos": "form",
+      "en": "fall",
+      "emoji": "⏪"
+    },
+    "aufstehen": {
+      "de": "aufstehen → aufstehen",
+      "pos": "form",
+      "en": "get up",
+      "emoji": "⏪"
+    },
+    "schlafen": {
+      "de": "schlafen → schlafen",
+      "pos": "form",
+      "en": "sleep",
+      "emoji": "⏪"
+    },
+    "lachen": {
+      "de": "lachen → lachen",
+      "pos": "form",
+      "en": "laugh",
+      "emoji": "⏪"
+    },
+    "fällt": {
+      "de": "fallen → sie fällt",
+      "pos": "form",
+      "en": "falls",
+      "emoji": "⏪"
+    },
+    "stehen": {
+      "de": "stehen → wir stehen",
+      "pos": "form",
+      "en": "stand",
+      "emoji": "⏪"
+    },
+    "fahre": {
+      "de": "fahren → ich fahre",
+      "pos": "form",
+      "en": "drive",
+      "emoji": "⏪"
+    },
+    "fahren": {
+      "de": "fahren → wir fahren",
+      "pos": "form",
+      "en": "drive",
+      "emoji": "⏪"
+    },
+    "wacht": {
+      "de": "aufwachen → er wacht auf",
+      "pos": "form",
+      "en": "wakes",
+      "emoji": "⏪"
+    },
+    "ankunft": {
+      "de": "Ankunft",
+      "pos": "noun",
+      "en": "arrival",
+      "emoji": "🏥",
+      "article": "die",
+      "plural": "die Ankünfte"
+    },
+    "labor": {
+      "de": "Labor",
+      "pos": "noun",
+      "en": "lab",
+      "emoji": "🏥",
+      "article": "das",
+      "plural": "die Labore"
+    },
+    "kommst": {
+      "de": "kommen → du kommst",
+      "pos": "form",
+      "en": "come",
+      "emoji": "⏪"
+    },
+    "fahrt": {
+      "de": "fahren → ihr fahrt",
+      "pos": "form",
+      "en": "drive",
+      "emoji": "⏪"
+    },
+    "falle": {
+      "de": "fallen → ich falle",
+      "pos": "form",
+      "en": "fall",
+      "emoji": "⏪"
+    },
+    "läuft": {
+      "de": "laufen → es läuft",
+      "pos": "form",
+      "en": "walks",
+      "emoji": "⏪"
+    },
+    "gehe": {
+      "de": "gehen → ich gehe",
+      "pos": "form",
+      "en": "go",
+      "emoji": "⏪"
+    },
+    "radiologie": {
+      "de": "Radiologie",
+      "pos": "noun",
+      "en": "radiology",
+      "article": "die"
+    },
+    "notaufnahme": {
+      "de": "Notaufnahme",
+      "pos": "noun",
+      "en": "A&E / ER",
+      "article": "die"
+    },
+    "wartezimmer": {
+      "de": "Wartezimmer",
+      "pos": "noun",
+      "en": "waiting room",
+      "article": "das"
+    },
+    "bewohnerin": {
+      "de": "Bewohnerin",
+      "pos": "noun",
+      "en": "resident (f)",
+      "article": "die"
+    },
+    "praktikantin": {
+      "de": "Praktikantin",
+      "pos": "noun",
+      "en": "trainee",
+      "article": "die"
+    },
+    "lena": {
+      "de": "Lena",
+      "pos": "name",
+      "en": "Lena"
+    },
+    "tom": {
+      "de": "Tom",
+      "pos": "name",
+      "en": "Tom"
+    },
+    "notarzt": {
+      "de": "Notarzt",
+      "pos": "noun",
+      "en": "emergency doctor",
+      "article": "der"
+    },
+    "morgen": {
+      "de": "Morgen",
+      "pos": "noun",
+      "en": "morning",
+      "article": "der"
+    },
+    "passiert": {
+      "de": "passieren → passiert",
+      "pos": "verb",
+      "en": "happened (participle form also passiert)"
+    },
+    "geschehen": {
+      "de": "geschehen",
+      "pos": "verb",
+      "en": "to happen"
+    },
+    "gestorben": {
+      "de": "sterben → gestorben",
+      "pos": "participle",
+      "en": "died"
+    },
+    "sterben": {
+      "de": "sterben",
+      "pos": "form",
+      "en": "to die"
+    },
+    "geworden": {
+      "de": "werden → geworden",
+      "pos": "verb",
+      "en": "become"
+    },
+    "werden": {
+      "de": "werden",
+      "pos": "verb",
+      "en": "to become"
+    },
+    "gewesen": {
+      "de": "sein → gewesen",
+      "pos": "verb",
+      "en": "been"
+    },
+    "mitgekommen": {
+      "de": "mitkommen → mitgekommen",
+      "pos": "verb",
+      "en": "come along"
+    },
+    "mitkommen": {
+      "de": "mitkommen",
+      "pos": "verb",
+      "en": "to come along"
+    },
+    "satzklammer": {
+      "de": "Satzklammer",
+      "pos": "noun",
+      "en": "sentence bracket",
+      "article": "die"
+    },
+    "hilfsverb": {
+      "de": "Hilfsverb",
+      "pos": "noun",
+      "en": "auxiliary verb",
+      "article": "das"
+    },
+    "bewegung": {
+      "de": "Bewegung",
+      "pos": "noun",
+      "en": "movement",
+      "article": "die"
+    },
+    "zustandswechsel": {
+      "de": "Zustandswechsel",
+      "pos": "noun",
+      "en": "change of state",
+      "article": "der"
+    },
+    "ziel": {
+      "de": "Ziel",
+      "pos": "noun",
+      "en": "destination; goal",
+      "article": "das"
+    },
+    "auto": {
+      "de": "Auto",
+      "pos": "noun",
+      "en": "car",
+      "article": "das"
+    },
+    "gelaufen2": {
+      "de": "gelaufen",
+      "pos": "participle",
+      "en": "walked"
+    },
+    "haus": {
+      "de": "Haus",
+      "pos": "noun",
+      "en": "house; home",
+      "article": "das"
+    },
+    "nachhause": {
+      "de": "nach Hause",
+      "pos": "phrase",
+      "en": "home (direction)"
+    },
+    "uhr": {
+      "de": "Uhr",
+      "pos": "noun",
+      "en": "o'clock",
+      "article": "die"
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "article": "die"
+    },
+    "wann": {
+      "de": "wann",
+      "pos": "adverb",
+      "en": "when"
+    },
+    "warum": {
+      "de": "warum",
+      "pos": "adverb",
+      "en": "why"
+    },
+    "auch": {
+      "de": "auch",
+      "pos": "adverb",
+      "en": "also"
+    },
+    "immer": {
+      "de": "immer",
+      "pos": "adverb",
+      "en": "always"
+    },
+    "nur": {
+      "de": "nur",
+      "pos": "adverb",
+      "en": "only"
+    },
+    "aber": {
+      "de": "aber",
+      "pos": "conjunction",
+      "en": "but"
+    },
+    "eine": {
+      "de": "eine",
+      "pos": "article",
+      "en": "a"
+    },
+    "bitte": {
+      "de": "bitte",
+      "pos": "adverb",
+      "en": "please"
+    },
+    "nein": {
+      "de": "nein",
+      "pos": "particle",
+      "en": "no"
+    },
+    "richtig": {
+      "de": "richtig",
+      "pos": "adjective",
+      "en": "correct"
+    },
+    "falsch": {
+      "de": "falsch",
+      "pos": "adjective",
+      "en": "wrong"
+    },
+    "bild": {
+      "de": "Bild",
+      "pos": "noun",
+      "en": "picture",
+      "article": "das"
+    },
+    "bilder": {
+      "de": "Bilder",
+      "pos": "noun",
+      "en": "pictures",
+      "article": "die"
+    },
+    "bauen": {
+      "de": "bauen",
+      "pos": "form",
+      "en": "to build"
+    },
+    "lücken": {
+      "de": "Lücken",
+      "pos": "noun",
+      "en": "gaps",
+      "article": "die"
+    },
+    "überblick": {
+      "de": "Überblick",
+      "pos": "noun",
+      "en": "overview",
+      "article": "der"
+    },
+    "grammatik": {
+      "de": "Grammatik",
+      "pos": "noun",
+      "en": "grammar",
+      "article": "die"
+    },
+    "trennbar": {
+      "de": "trennbar",
+      "pos": "adjective",
+      "en": "separable"
+    },
+    "ge": {
+      "de": "ge-",
+      "pos": "prefix",
+      "en": "participle prefix"
+    },
+    "einschlafen": {
+      "de": "einschlafen",
+      "pos": "form",
+      "en": "to fall asleep"
+    },
+    "aufwachen": {
+      "de": "aufwachen",
+      "pos": "form",
+      "en": "to wake up"
+    },
+    "ankommen": {
+      "de": "ankommen",
+      "pos": "form",
+      "en": "to arrive"
+    },
+    "schlaft": {
+      "de": "schlaft (falsch)",
+      "pos": "verb",
+      "en": "wrong participle form"
+    },
+    "geschlaft": {
+      "de": "geschlaft (falsch)",
+      "pos": "verb",
+      "en": "wrong form of geschlafen"
+    },
+    "geschlafen": {
+      "de": "schlafen → geschlafen",
+      "pos": "verb",
+      "en": "slept"
+    },
+    "vater": {
+      "de": "Vater",
+      "pos": "noun",
+      "en": "father",
+      "article": "der"
+    },
+    "ärztin": {
+      "de": "Ärztin",
+      "pos": "noun",
+      "en": "doctor (f)",
+      "article": "die"
+    },
+    "nachtwache": {
+      "de": "Nachtwache",
+      "pos": "noun",
+      "en": "night shift",
+      "article": "die"
+    },
+    "schichtleitung": {
+      "de": "Schichtleitung",
+      "pos": "noun",
+      "en": "shift lead",
+      "article": "die"
+    },
+    "kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague (f)",
+      "article": "die"
+    },
+    "hilfe": {
+      "de": "Hilfe",
+      "pos": "noun",
+      "en": "help",
+      "article": "die"
+    },
+    "sturz": {
+      "de": "Sturz",
+      "pos": "noun",
+      "en": "fall",
+      "article": "der"
+    },
+    "was2": {
+      "de": "Was",
+      "pos": "pronoun",
+      "en": "what"
+    },
+    "passieren": {
+      "de": "passieren",
+      "pos": "verb",
+      "en": "to happen"
+    },
+    "müde": {
+      "de": "müde",
+      "pos": "adjective",
+      "en": "tired"
+    },
+    "krank": {
+      "de": "krank",
+      "pos": "adjective",
+      "en": "ill"
+    },
+    "besser": {
+      "de": "besser",
+      "pos": "adjective",
+      "en": "better"
+    },
+    "geworden2": {
+      "de": "geworden",
+      "pos": "participle",
+      "en": "become"
+    },
+    "gewesen2": {
+      "de": "gewesen",
+      "pos": "participle",
+      "en": "been"
+    },
+    "welches": {
+      "de": "welches",
+      "pos": "pronoun",
+      "en": "which"
+    },
+    "hilfsverb2": {
+      "de": "Hilfsverb",
+      "pos": "noun",
+      "en": "auxiliary"
+    },
+    "nehmen": {
+      "de": "nehmen",
+      "pos": "verb",
+      "en": "to take"
+    },
+    "immer2": {
+      "de": "immer",
+      "pos": "adverb",
+      "en": "always"
+    },
+    "oft": {
+      "de": "oft",
+      "pos": "adverb",
+      "en": "often"
+    },
+    "anfang": {
+      "de": "Anfang",
+      "pos": "noun",
+      "en": "beginning",
+      "article": "der"
+    },
+    "position": {
+      "de": "Position",
+      "pos": "noun",
+      "en": "position",
+      "article": "die"
+    },
+    "zwei": {
+      "de": "zwei",
+      "pos": "numeral",
+      "en": "two"
+    },
+    "ohne": {
+      "de": "ohne",
+      "pos": "preposition",
+      "en": "without"
+    },
+    "zielort": {
+      "de": "Zielort",
+      "pos": "noun",
+      "en": "destination",
+      "article": "der"
+    },
+    "ort": {
+      "de": "Ort",
+      "pos": "noun",
+      "en": "place",
+      "article": "der"
+    },
+    "zustand": {
+      "de": "Zustand",
+      "pos": "noun",
+      "en": "state",
+      "article": "der"
+    },
+    "wechsel": {
+      "de": "Wechsel",
+      "pos": "noun",
+      "en": "change",
+      "article": "der"
+    },
+    "fahrer": {
+      "de": "Fahrer",
+      "pos": "noun",
+      "en": "driver",
+      "article": "der"
+    },
+    "objekt": {
+      "de": "Objekt",
+      "pos": "noun",
+      "en": "object",
+      "article": "das"
+    },
+    "subjekt": {
+      "de": "Subjekt",
+      "pos": "noun",
+      "en": "subject",
+      "article": "das"
+    },
+    "person": {
+      "de": "Person",
+      "pos": "noun",
+      "en": "person",
+      "article": "die"
+    },
+    "test": {
+      "de": "Test",
+      "pos": "noun",
+      "en": "test",
+      "article": "der"
+    },
+    "mastery": {
+      "de": "Mastery",
+      "pos": "noun",
+      "en": "mastery"
+    },
+    "achtzig": {
+      "de": "achtzig",
+      "pos": "numeral",
+      "en": "eighty"
+    },
+    "prozent": {
+      "de": "Prozent",
+      "pos": "noun",
+      "en": "percent",
+      "article": "das"
+    },
+    "ankünfte": {
+      "de": "Ankünfte",
+      "pos": "noun",
+      "en": "arrivals"
+    },
+    "hände": {
+      "de": "Hände",
+      "pos": "noun",
+      "en": "hands",
+      "article": "die"
+    },
+    "stühle": {
+      "de": "Stühle",
+      "pos": "noun",
+      "en": "chairs"
+    },
+    "monitore": {
+      "de": "Monitore",
+      "pos": "noun",
+      "en": "monitors"
+    },
+    "betten": {
+      "de": "Betten",
+      "pos": "noun",
+      "en": "beds"
+    },
+    "pflegekräfte": {
+      "de": "Pflegekräfte",
+      "pos": "noun",
+      "en": "nurses"
+    },
+    "rollstühle": {
+      "de": "Rollstühle",
+      "pos": "noun",
+      "en": "wheelchairs"
+    },
+    "aufzüge": {
+      "de": "Aufzüge",
+      "pos": "noun",
+      "en": "lifts"
+    },
+    "später": {
+      "de": "später",
+      "pos": "adverb",
+      "en": "later"
+    },
+    "tür": {
+      "de": "Tür",
+      "pos": "noun",
+      "en": "door",
+      "article": "die",
+      "plural": "die Türen"
+    },
+    "check": {
+      "de": "Check",
+      "pos": "noun",
+      "en": "check",
+      "article": "der",
+      "plural": "die Checks"
+    },
+    "grüne": {
+      "de": "grüne",
+      "pos": "adjective",
+      "en": "green"
+    },
+    "verben": {
+      "de": "Verb",
+      "pos": "noun",
+      "en": "verb",
+      "article": "das",
+      "plural": "die Verben"
+    },
+    "verb": {
+      "de": "Verb",
+      "pos": "noun",
+      "en": "verb",
+      "article": "das",
+      "plural": "die Verben"
+    },
+    "sprechen": {
+      "de": "sprechen",
+      "pos": "form",
+      "en": "to speak"
+    },
+    "modalverben": {
+      "de": "Modalverb",
+      "pos": "noun",
+      "en": "modal verb",
+      "article": "das",
+      "plural": "die Modalverben"
+    },
+    "gestanden": {
+      "de": "gestanden",
+      "pos": "participle",
+      "en": "stood"
+    },
+    "hause": {
+      "de": "Hause",
+      "pos": "noun",
+      "en": "home (nach Hause)",
+      "article": "das",
+      "plural": "die Häuser"
+    },
+    "nimmt": {
+      "de": "nehmen → nimmt",
+      "pos": "form",
+      "en": "takes"
+    },
+    "manchmal": {
+      "de": "manchmal",
+      "pos": "adverb",
+      "en": "sometimes"
+    },
+    "genitiv": {
+      "de": "Genitiv",
+      "pos": "noun",
+      "en": "genitive",
+      "article": "der",
+      "plural": "die Genitive"
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "before; in front of"
+    },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "thermometer",
+      "article": "das",
+      "plural": "die Thermometer"
+    },
+    "partizipien": {
+      "de": "Partizipien",
+      "pos": "noun",
+      "en": "participles"
+    },
+    "messen": {
+      "de": "messen",
+      "pos": "verb",
+      "en": "to measure"
+    },
+    "gewechselt": {
+      "de": "gewechselt",
+      "pos": "participle",
+      "en": "changed"
+    },
+    "wechseln": {
+      "de": "wechseln",
+      "pos": "verb",
+      "en": "to change"
+    },
+    "bereitgestellt": {
+      "de": "bereitgestellt",
+      "pos": "participle",
+      "en": "prepared/provided"
+    },
+    "bereitstellen": {
+      "de": "bereitstellen",
+      "pos": "verb",
+      "en": "to prepare/provide"
+    },
+    "sehen": {
+      "de": "sehen",
+      "pos": "verb",
+      "en": "to see"
+    },
+    "aufgeräumt": {
+      "de": "aufgeräumt",
+      "pos": "participle",
+      "en": "tidied"
+    },
+    "aufräumen": {
+      "de": "aufräumen",
+      "pos": "verb",
+      "en": "to tidy"
+    },
+    "einkaufen": {
+      "de": "einkaufen",
+      "pos": "verb",
+      "en": "to shop"
+    },
+    "bezahlen": {
+      "de": "bezahlen",
+      "pos": "verb",
+      "en": "to pay"
+    },
+    "untersuchen": {
+      "de": "untersuchen",
+      "pos": "verb",
+      "en": "to examine"
+    },
+    "operiert": {
+      "de": "operiert",
+      "pos": "participle",
+      "en": "operated"
+    },
+    "operieren": {
+      "de": "operieren",
+      "pos": "verb",
+      "en": "to operate"
+    },
+    "kontrolliert": {
+      "de": "kontrolliert",
+      "pos": "participle",
+      "en": "checked"
+    },
+    "kontrollieren": {
+      "de": "kontrollieren",
+      "pos": "verb",
+      "en": "to check"
+    },
+    "verbunden": {
+      "de": "verbunden",
+      "pos": "participle",
+      "en": "bandaged"
+    },
+    "verbinden": {
+      "de": "verbinden",
+      "pos": "verb",
+      "en": "to bandage"
+    },
+    "öffnen": {
+      "de": "öffnen",
+      "pos": "verb",
+      "en": "to open"
+    },
+    "gegeben": {
+      "de": "gegeben",
+      "pos": "participle",
+      "en": "given"
+    },
+    "geben": {
+      "de": "geben",
+      "pos": "verb",
+      "en": "to give"
+    },
+    "dokumentieren": {
+      "de": "dokumentieren",
+      "pos": "verb",
+      "en": "to document"
+    },
+    "gearbeitet": {
+      "de": "gearbeitet",
+      "pos": "participle",
+      "en": "worked"
+    },
+    "arbeiten": {
+      "de": "arbeiten",
+      "pos": "verb",
+      "en": "to work"
+    },
+    "warten": {
+      "de": "warten",
+      "pos": "verb",
+      "en": "to wait"
+    },
+    "gemacht": {
+      "de": "gemacht",
+      "pos": "participle",
+      "en": "done"
+    },
+    "machen": {
+      "de": "machen",
+      "pos": "verb",
+      "en": "to do"
+    },
+    "getrunken": {
+      "de": "getrunken",
+      "pos": "participle",
+      "en": "drunk"
+    },
+    "trinken": {
+      "de": "trinken",
+      "pos": "verb",
+      "en": "to drink"
+    },
+    "anrufen": {
+      "de": "anrufen",
+      "pos": "verb",
+      "en": "to call"
+    },
+    "geholfen": {
+      "de": "geholfen",
+      "pos": "participle",
+      "en": "helped"
+    },
+    "helfen": {
+      "de": "helfen",
+      "pos": "verb",
+      "en": "to help"
+    },
+    "gesprochen": {
+      "de": "gesprochen",
+      "pos": "participle",
+      "en": "spoken"
+    },
+    "gefragt": {
+      "de": "gefragt",
+      "pos": "participle",
+      "en": "asked"
+    },
+    "fragen": {
+      "de": "fragen",
+      "pos": "verb",
+      "en": "to ask"
+    },
+    "aufgeschrieben": {
+      "de": "aufgeschrieben",
+      "pos": "participle",
+      "en": "written down"
+    },
+    "aufschreiben": {
+      "de": "aufschreiben",
+      "pos": "verb",
+      "en": "to write down"
+    },
+    "blutdruck": {
+      "de": "Blutdruck",
+      "pos": "noun",
+      "en": "blood pressure",
+      "article": "der"
+    },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "article": "der",
+      "plural": "die Verbände"
+    },
+    "verbände": {
+      "de": "Verbände",
+      "pos": "noun",
+      "en": "dressings"
+    },
+    "medikamente": {
+      "de": "Medikamente",
+      "pos": "noun",
+      "en": "medicines"
+    },
+    "medikament": {
+      "de": "Medikament",
+      "pos": "noun",
+      "en": "medicine",
+      "article": "das",
+      "plural": "die Medikamente"
+    },
+    "röntgenbild": {
+      "de": "Röntgenbild",
+      "pos": "noun",
+      "en": "X-ray",
+      "article": "das",
+      "plural": "die Röntgenbilder"
+    },
+    "röntgenbilder": {
+      "de": "Röntgenbilder",
+      "pos": "noun",
+      "en": "X-rays"
+    },
+    "übergabebericht": {
+      "de": "Übergabebericht",
+      "pos": "noun",
+      "en": "handover report",
+      "article": "der"
+    },
+    "übergabeberichte": {
+      "de": "Übergabeberichte",
+      "pos": "noun",
+      "en": "handover reports"
+    },
+    "blutprobe": {
+      "de": "Blutprobe",
+      "pos": "noun",
+      "en": "blood sample",
+      "article": "die",
+      "plural": "die Blutproben"
+    },
+    "blutproben": {
+      "de": "Blutproben",
+      "pos": "noun",
+      "en": "blood samples"
+    },
+    "dienstzimmer": {
+      "de": "Dienstzimmer",
+      "pos": "noun",
+      "en": "staff room",
+      "article": "das"
+    },
+    "verbandsmaterial": {
+      "de": "Verbandsmaterial",
+      "pos": "noun",
+      "en": "dressing material",
+      "article": "das"
+    },
+    "parkticket": {
+      "de": "Parkticket",
+      "pos": "noun",
+      "en": "parking ticket",
+      "article": "das"
+    },
+    "parktickets": {
+      "de": "Parktickets",
+      "pos": "noun",
+      "en": "parking tickets"
+    },
+    "wunde": {
+      "de": "Wunde",
+      "pos": "noun",
+      "en": "wound",
+      "article": "die",
+      "plural": "die Wunden"
+    },
+    "wunden": {
+      "de": "Wunden",
+      "pos": "noun",
+      "en": "wounds"
+    },
+    "knie": {
+      "de": "Knie",
+      "pos": "noun",
+      "en": "knee",
+      "article": "das"
+    },
+    "puls": {
+      "de": "Puls",
+      "pos": "noun",
+      "en": "pulse",
+      "article": "der"
+    },
+    "bein": {
+      "de": "Bein",
+      "pos": "noun",
+      "en": "leg",
+      "article": "das",
+      "plural": "die Beine"
+    },
+    "beine": {
+      "de": "Beine",
+      "pos": "noun",
+      "en": "legs"
+    },
+    "fenster": {
+      "de": "Fenster",
+      "pos": "noun",
+      "en": "window",
+      "article": "das"
+    },
+    "infusion": {
+      "de": "Infusion",
+      "pos": "noun",
+      "en": "infusion",
+      "article": "die",
+      "plural": "die Infusionen"
+    },
+    "infusionen": {
+      "de": "Infusionen",
+      "pos": "noun",
+      "en": "infusions"
+    },
+    "praktikantinnen": {
+      "de": "Praktikantinnen",
+      "pos": "noun",
+      "en": "trainees"
+    },
+    "laborantinnen": {
+      "de": "Laborantinnen",
+      "pos": "noun",
+      "en": "lab techs"
+    },
+    "scans": {
+      "de": "Scans",
+      "pos": "noun",
+      "en": "scans"
+    },
+    "befunde": {
+      "de": "Befunde",
+      "pos": "noun",
+      "en": "findings"
+    },
+    "akten": {
+      "de": "Akten",
+      "pos": "noun",
+      "en": "files"
+    },
+    "tabletten": {
+      "de": "Tabletten",
+      "pos": "noun",
+      "en": "tablets"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das"
+    },
+    "töchter": {
+      "de": "Töchter",
+      "pos": "noun",
+      "en": "daughters"
+    },
+    "proben": {
+      "de": "Proben",
+      "pos": "noun",
+      "en": "samples"
+    },
+    "ärzte": {
+      "de": "Ärzte",
+      "pos": "noun",
+      "en": "doctors"
+    },
+    "ärztinnen": {
+      "de": "Ärztinnen",
+      "pos": "noun",
+      "en": "doctors (f)"
+    },
+    "patientinnen": {
+      "de": "Patientinnen",
+      "pos": "noun",
+      "en": "patients (f)"
+    },
+    "chirurg": {
+      "de": "Chirurg",
+      "pos": "noun",
+      "en": "surgeon",
+      "article": "der",
+      "plural": "die Chirurgen"
+    },
+    "chirurgen": {
+      "de": "Chirurgen",
+      "pos": "noun",
+      "en": "surgeons"
+    },
+    "schichtbericht": {
+      "de": "Schichtbericht",
+      "pos": "noun",
+      "en": "shift report",
+      "article": "der"
+    },
+    "blutdrücke": {
+      "de": "Blutdrücke",
+      "pos": "noun",
+      "en": "blood pressures"
+    },
+    "pulse": {
+      "de": "Pulse",
+      "pos": "noun",
+      "en": "pulses"
+    },
+    "noch": {
+      "de": "noch",
+      "pos": "adv",
+      "en": "still"
+    },
+    "nie": {
+      "de": "nie",
+      "pos": "adv",
+      "en": "never"
+    },
+    "einen": {
+      "de": "einen",
+      "pos": "article",
+      "en": "a"
+    },
+    "kein": {
+      "de": "kein",
+      "pos": "det",
+      "en": "no"
+    },
+    "keine": {
+      "de": "keine",
+      "pos": "det",
+      "en": "no"
+    },
+    "des": {
+      "de": "des",
+      "pos": "article",
+      "en": "of the"
+    },
+    "für": {
+      "de": "für",
+      "pos": "prep",
+      "en": "for"
+    },
+    "über": {
+      "de": "über",
+      "pos": "prep",
+      "en": "about"
+    },
+    "durch": {
+      "de": "durch",
+      "pos": "prep",
+      "en": "through"
+    },
+    "vom": {
+      "de": "vom",
+      "pos": "prep",
+      "en": "from the"
+    },
+    "beim": {
+      "de": "beim",
+      "pos": "prep",
+      "en": "at the"
+    },
+    "satzende": {
+      "de": "Satzende",
+      "pos": "noun",
+      "en": "end of sentence"
+    },
+    "zuerst": {
+      "de": "zuerst",
+      "pos": "adv",
+      "en": "first"
+    },
+    "geoperiert": {
+      "de": "geoperiert",
+      "pos": "other",
+      "en": "wrong form (geoperiert)",
+      "emoji": "🔤"
+    },
+    "gebezahlt": {
+      "de": "gebezahlt",
+      "pos": "other",
+      "en": "wrong form (gebezahlt)",
+      "emoji": "🔤"
+    },
+    "geaufräumt": {
+      "de": "geaufräumt",
+      "pos": "other",
+      "en": "wrong form (geaufräumt)",
+      "emoji": "🔤"
+    },
+    "genehmt": {
+      "de": "genehmt",
+      "pos": "other",
+      "en": "wrong form (genehmt)",
+      "emoji": "🔤"
+    },
+    "gemesst": {
+      "de": "gemesst",
+      "pos": "other",
+      "en": "wrong form (gemesst)",
+      "emoji": "🔤"
+    },
+    "geseht": {
+      "de": "geseht",
+      "pos": "other",
+      "en": "wrong form (geseht)",
+      "emoji": "🔤"
+    },
+    "gekontrolliert": {
+      "de": "gekontrolliert",
+      "pos": "other",
+      "en": "wrong form (gekontrolliert)",
+      "emoji": "🔤"
+    },
+    "geöffnetet": {
+      "de": "geöffnetet",
+      "pos": "other",
+      "en": "wrong form (geöffnetet)",
+      "emoji": "🔤"
+    },
+    "geschreibet": {
+      "de": "geschreibet",
+      "pos": "other",
+      "en": "wrong form (geschreibet)",
+      "emoji": "🔤"
+    },
+    "gebereitstellt": {
+      "de": "gebereitstellt",
+      "pos": "other",
+      "en": "wrong form (gebereitstellt)",
+      "emoji": "🔤"
+    },
+    "gewechsel": {
+      "de": "gewechsel",
+      "pos": "other",
+      "en": "wrong form (gewechsel)",
+      "emoji": "🔤"
+    },
+    "geverbunden": {
+      "de": "geverbunden",
+      "pos": "other",
+      "en": "wrong form (geverbunden)",
+      "emoji": "🔤"
+    },
+    "gegebt": {
+      "de": "gegebt",
+      "pos": "other",
+      "en": "wrong form (gegebt)",
+      "emoji": "🔤"
+    },
+    "bereitstellt": {
+      "de": "bereitstellt",
+      "pos": "other",
+      "en": "wrong form (bereitstellt)",
+      "emoji": "🔤"
+    },
+    "aufräumt": {
+      "de": "aufräumt",
+      "pos": "other",
+      "en": "wrong form (aufräumt)",
+      "emoji": "🔤"
+    },
+    "verbindet": {
+      "de": "verbindet",
+      "pos": "other",
+      "en": "wrong form (verbindet)",
+      "emoji": "🔤"
+    },
+    "geoffnet": {
+      "de": "geoffnet",
+      "pos": "other",
+      "en": "wrong form (geoffnet)",
+      "emoji": "🔤"
+    },
+    "gemachen": {
+      "de": "gemachen",
+      "pos": "other",
+      "en": "wrong form (gemachen)",
+      "emoji": "🔤"
+    },
+    "nehmt": {
+      "de": "nehmt",
+      "pos": "other",
+      "en": "wrong form (nehmt)",
+      "emoji": "🔤"
+    },
+    "begezahlt": {
+      "de": "begezahlt",
+      "pos": "other",
+      "en": "wrong form (begezahlt)",
+      "emoji": "🔤"
+    },
+    "einkauft": {
+      "de": "einkauft",
+      "pos": "other",
+      "en": "wrong form (einkauft)",
+      "emoji": "🔤"
+    },
+    "geeinkauft": {
+      "de": "geeinkauft",
+      "pos": "other",
+      "en": "wrong form (geeinkauft)",
+      "emoji": "🔤"
+    },
+    "Können": {
+      "de": "Können",
+      "pos": "other",
+      "en": "Können",
+      "emoji": "🔤"
+    },
+    "können": {
+      "de": "Können",
+      "pos": "other",
+      "en": "Können",
+      "emoji": "🔤"
+    },
+    "participles": {
+      "de": "participles",
+      "pos": "other",
+      "en": "participles",
+      "emoji": "🔤"
+    },
+    "participle": {
+      "de": "participle",
+      "pos": "other",
+      "en": "participle",
+      "emoji": "🔤"
+    },
+    "and": {
+      "de": "and",
+      "pos": "other",
+      "en": "and",
+      "emoji": "🔤"
+    },
+    "shopping": {
+      "de": "shopping",
+      "pos": "other",
+      "en": "shopping",
+      "emoji": "🔤"
+    },
+    "Abschluss": {
+      "de": "Abschluss",
+      "pos": "other",
+      "en": "Abschluss",
+      "emoji": "🔤"
+    },
+    "abschluss": {
+      "de": "Abschluss",
+      "pos": "other",
+      "en": "Abschluss",
+      "emoji": "🔤"
+    },
+    "desk": {
+      "de": "desk",
+      "pos": "other",
+      "en": "desk",
+      "emoji": "🔤"
+    },
+    "Bauplan": {
+      "de": "Bauplan",
+      "pos": "other",
+      "en": "Bauplan",
+      "emoji": "🔤"
+    },
+    "bauplan": {
+      "de": "Bauplan",
+      "pos": "other",
+      "en": "Bauplan",
+      "emoji": "🔤"
+    },
+    "trinkt": {
+      "de": "trinkt",
+      "pos": "other",
+      "en": "trinkt",
+      "emoji": "🔤"
+    },
+    "finden": {
+      "de": "finden",
+      "pos": "other",
+      "en": "finden",
+      "emoji": "🔤"
+    },
+    "warte": {
+      "de": "warte",
+      "pos": "other",
+      "en": "warte",
+      "emoji": "🔤"
+    },
+    "en": {
+      "de": "en",
+      "pos": "other",
+      "en": "en",
+      "emoji": "🔤"
+    },
+    "waited": {
+      "de": "waited",
+      "pos": "other",
+      "en": "waited",
+      "emoji": "🔤"
+    },
+    "daughter": {
+      "de": "daughter",
+      "pos": "other",
+      "en": "daughter",
+      "emoji": "🔤"
+    },
+    "the": {
+      "de": "the",
+      "pos": "other",
+      "en": "the",
+      "emoji": "🔤"
+    },
+    "vowel": {
+      "de": "vowel",
+      "pos": "other",
+      "en": "vowel",
+      "emoji": "🔤"
+    },
+    "I": {
+      "de": "I",
+      "pos": "other",
+      "en": "I",
+      "emoji": "🔤"
+    },
+    "i": {
+      "de": "I",
+      "pos": "other",
+      "en": "I",
+      "emoji": "🔤"
+    },
+    "erledigt": {
+      "de": "erledigt",
+      "pos": "other",
+      "en": "erledigt",
+      "emoji": "🔤"
+    },
+    "sieht": {
+      "de": "sieht",
+      "pos": "other",
+      "en": "sieht",
+      "emoji": "🔤"
+    },
+    "doctor": {
+      "de": "doctor",
+      "pos": "other",
+      "en": "doctor",
+      "emoji": "🔤"
+    },
+    "done": {
+      "de": "done",
+      "pos": "other",
+      "en": "done",
+      "emoji": "🔤"
+    },
+    "has": {
+      "de": "has",
+      "pos": "other",
+      "en": "has",
+      "emoji": "🔤"
+    },
+    "Infinitive": {
+      "de": "Infinitive",
+      "pos": "other",
+      "en": "Infinitive",
+      "emoji": "🔤"
+    },
+    "infinitive": {
+      "de": "Infinitive",
+      "pos": "other",
+      "en": "Infinitive",
+      "emoji": "🔤"
+    },
+    "At": {
+      "de": "At",
+      "pos": "other",
+      "en": "At",
+      "emoji": "🔤"
+    },
+    "at": {
+      "de": "At",
+      "pos": "other",
+      "en": "At",
+      "emoji": "🔤"
+    },
+    "bilden": {
+      "de": "bilden",
+      "pos": "other",
+      "en": "bilden",
+      "emoji": "🔤"
+    },
+    "II": {
+      "de": "II",
+      "pos": "other",
+      "en": "II",
+      "emoji": "🔤"
+    },
+    "ii": {
+      "de": "II",
+      "pos": "other",
+      "en": "II",
+      "emoji": "🔤"
+    },
+    "Drei": {
+      "de": "Drei",
+      "pos": "other",
+      "en": "Drei",
+      "emoji": "🔤"
+    },
+    "drei": {
+      "de": "Drei",
+      "pos": "other",
+      "en": "Drei",
+      "emoji": "🔤"
+    },
+    "new": {
+      "de": "new",
+      "pos": "other",
+      "en": "new",
+      "emoji": "🔤"
+    },
+    "paid": {
+      "de": "paid",
+      "pos": "other",
+      "en": "paid",
+      "emoji": "🔤"
+    },
+    "report": {
+      "de": "report",
+      "pos": "other",
+      "en": "report",
+      "emoji": "🔤"
+    },
+    "Four": {
+      "de": "Four",
+      "pos": "other",
+      "en": "Four",
+      "emoji": "🔤"
+    },
+    "four": {
+      "de": "Four",
+      "pos": "other",
+      "en": "Four",
+      "emoji": "🔤"
+    },
+    "Stationsbilder": {
+      "de": "Stationsbilder",
+      "pos": "other",
+      "en": "Stationsbilder",
+      "emoji": "🔤"
+    },
+    "stationsbilder": {
+      "de": "Stationsbilder",
+      "pos": "other",
+      "en": "Stationsbilder",
+      "emoji": "🔤"
+    },
+    "et": {
+      "de": "et",
+      "pos": "other",
+      "en": "et",
+      "emoji": "🔤"
+    },
+    "Evening": {
+      "de": "Evening",
+      "pos": "other",
+      "en": "Evening",
+      "emoji": "🔤"
+    },
+    "evening": {
+      "de": "Evening",
+      "pos": "other",
+      "en": "Evening",
+      "emoji": "🔤"
+    },
+    "t": {
+      "de": "t",
+      "pos": "other",
+      "en": "t",
+      "emoji": "🔤"
+    },
+    "Falsche": {
+      "de": "Falsche",
+      "pos": "other",
+      "en": "Falsche",
+      "emoji": "🔤"
+    },
+    "falsche": {
+      "de": "Falsche",
+      "pos": "other",
+      "en": "Falsche",
+      "emoji": "🔤"
+    },
+    "Present": {
+      "de": "Present",
+      "pos": "other",
+      "en": "Present",
+      "emoji": "🔤"
+    },
+    "present": {
+      "de": "Present",
+      "pos": "other",
+      "en": "Present",
+      "emoji": "🔤"
+    },
+    "Baupläne": {
+      "de": "Baupläne",
+      "pos": "other",
+      "en": "Baupläne",
+      "emoji": "🔤"
+    },
+    "baupläne": {
+      "de": "Baupläne",
+      "pos": "other",
+      "en": "Baupläne",
+      "emoji": "🔤"
+    },
+    "seen": {
+      "de": "seen",
+      "pos": "other",
+      "en": "seen",
+      "emoji": "🔤"
+    },
+    "a": {
+      "de": "a",
+      "pos": "other",
+      "en": "a",
+      "emoji": "🔤"
+    },
+    "kauft": {
+      "de": "kauft",
+      "pos": "other",
+      "en": "kauft",
+      "emoji": "🔤"
+    },
+    "ieren": {
+      "de": "ieren",
+      "pos": "other",
+      "en": "ieren",
+      "emoji": "🔤"
+    },
+    "to": {
+      "de": "to",
+      "pos": "other",
+      "en": "to",
+      "emoji": "🔤"
+    },
+    "The": {
+      "de": "The",
+      "pos": "other",
+      "en": "The",
+      "emoji": "🔤"
+    },
+    "einsetzen": {
+      "de": "einsetzen",
+      "pos": "other",
+      "en": "einsetzen",
+      "emoji": "🔤"
+    },
+    "shift": {
+      "de": "shift",
+      "pos": "other",
+      "en": "shift",
+      "emoji": "🔤"
+    },
+    "nachtschwester": {
+      "de": "Nachtschwester",
+      "pos": "noun",
+      "en": "night nurse",
+      "article": "die",
+      "plural": "die Nachtschwestern",
+      "emoji": "👩‍⚕️"
+    },
+    "nachtschwestern": {
+      "de": "Nachtschwestern",
+      "pos": "noun",
+      "en": "night nurses"
+    },
+    "Nachtschwester": {
+      "de": "Nachtschwester",
+      "pos": "noun",
+      "en": "night nurse",
+      "article": "die",
+      "plural": "die Nachtschwestern",
+      "emoji": "👩‍⚕️"
     }
   },
   "steps": [
     {
       "id": "overview",
       "type": "overview",
-      "label": "Start",
-      "title": "Three ways to build a participle",
+      "label": "Überblick",
+      "title": "Schichtbericht: Was ist erledigt?",
+      "minutes": 40,
       "learn": [
-        "Weak verbs take ge- and -t: gefragt. A stem in -t or -d takes -et: gewartet. öffnen does too: geöffnet.",
-        "A separable prefix keeps ge- in the middle: eingekauft, angerufen. be-, er-, ver- and -ieren take no ge-: bezahlt, erklärt, untersucht, dokumentiert.",
-        "Strong verbs take ge- and -en: gesehen. The vowel often changes: geschrieben, genommen. messen → gemessen, not gemesst."
+        "Schwache Verben: ge- … -t (gemacht, gefragt). Stamm auf -t/-d oder Konsonant+n (öffnen, warten): oft -et (geöffnet, gewartet).",
+        "Starke Verben: ge- … -en, oft mit Vokalwechsel (gesehen, geschrieben, genommen, gemessen).",
+        "Trennbare Verben: ge- in der Mitte (aufgeräumt, eingekauft, bereitgestellt). Untrennbare be-/ver-/ent-/er-/zer-/ge- und -ieren: kein ge- (bezahlt, verbunden, untersucht, operiert, kontrolliert).",
+        "Satzklammer: Hilfsverb in Position 2, Partizip am Ende. Gloss: build the past participle."
       ],
-      "minutes": 25,
       "vocab": [
         {
-          "de": "Befund",
+          "de": "Blutdruck",
           "article": "der",
-          "plural": "die Befunde",
-          "en": "finding, report",
-          "emoji": "📄",
-          "glossaryKey": "befund",
+          "en": "blood pressure",
+          "emoji": "🩺",
+          "glossaryKey": "blutdruck",
           "image": {
             "type": "svg",
-            "id": "clipboard"
+            "id": "bpmonitor"
           }
         },
         {
-          "de": "Patient",
+          "de": "Verband",
           "article": "der",
-          "plural": "die Patienten",
-          "en": "patient (male)",
-          "emoji": "🧑🏽",
-          "glossaryKey": "patient",
-          "image": {
-            "type": "svg",
-            "id": "patient"
-          }
-        },
-        {
-          "de": "Tablette",
-          "article": "die",
-          "plural": "die Tabletten",
-          "en": "tablet",
-          "emoji": "💊",
-          "glossaryKey": "tablette",
-          "image": {
-            "type": "svg",
-            "id": "tablet"
-          }
-        },
-        {
-          "de": "Akte",
-          "article": "die",
-          "plural": "die Akten",
-          "en": "chart",
-          "emoji": "📋",
-          "glossaryKey": "akte",
-          "image": {
-            "type": "svg",
-            "id": "clipboard"
-          }
-        },
-        {
-          "de": "Fieber",
-          "article": "das",
-          "en": "fever",
-          "emoji": "🌡️",
-          "glossaryKey": "fieber",
-          "image": {
-            "type": "svg",
-            "id": "thermometer"
-          }
-        },
-        {
-          "de": "Zimmer",
-          "article": "das",
-          "plural": "die Zimmer",
-          "en": "room",
-          "emoji": "🛏️",
-          "glossaryKey": "zimmer",
-          "image": {
-            "type": "svg",
-            "id": "room"
-          }
-        },
-        {
-          "de": "Stethoskop",
-          "article": "das",
-          "plural": "die Stethoskope",
-          "en": "the stethoscope",
-          "emoji": "🏥",
-          "glossaryKey": "stethoskop",
-          "image": {
-            "type": "svg",
-            "id": "stethoscope"
-          }
-        },
-        {
-          "de": "Spritze",
-          "article": "die",
-          "plural": "die Spritzen",
-          "en": "the syringe",
-          "emoji": "🏥",
-          "glossaryKey": "spritze",
-          "image": {
-            "type": "svg",
-            "id": "syringe"
-          }
-        },
-        {
-          "de": "Pflaster",
-          "article": "das",
-          "plural": "die Pflaster",
-          "en": "the plaster",
-          "emoji": "🏥",
-          "glossaryKey": "pflaster",
+          "en": "dressing",
+          "emoji": "🩹",
+          "glossaryKey": "verband",
           "image": {
             "type": "svg",
             "id": "plaster"
           }
         },
         {
-          "de": "Kittel",
-          "article": "der",
-          "plural": "die Kittel",
-          "en": "the coat",
-          "emoji": "🏥",
-          "glossaryKey": "kittel",
+          "de": "Medikament",
+          "article": "das",
+          "en": "medicine",
+          "emoji": "💊",
+          "glossaryKey": "medikament",
           "image": {
             "type": "svg",
-            "id": "coat"
+            "id": "tablet"
           }
         },
         {
-          "de": "Ausweis",
-          "article": "der",
-          "plural": "die Ausweise",
-          "en": "the ID card",
-          "emoji": "🏥",
-          "glossaryKey": "ausweis",
-          "image": {
-            "type": "svg",
-            "id": "idcard"
-          }
-        },
-        {
-          "de": "Probe",
+          "de": "Wunde",
           "article": "die",
-          "plural": "die Proben",
-          "en": "the sample",
-          "emoji": "🏥",
-          "glossaryKey": "probe",
+          "en": "wound",
+          "emoji": "🩹",
+          "glossaryKey": "wunde",
+          "image": {
+            "type": "svg",
+            "id": "hands"
+          }
+        },
+        {
+          "de": "Infusion",
+          "article": "die",
+          "en": "infusion",
+          "emoji": "💧",
+          "glossaryKey": "infusion",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          }
+        },
+        {
+          "de": "Blutprobe",
+          "article": "die",
+          "en": "blood sample",
+          "emoji": "🧪",
+          "glossaryKey": "blutprobe",
           "image": {
             "type": "svg",
             "id": "vial"
@@ -594,55 +3415,52 @@
         }
       ],
       "text": {
-        "title": "Wie heißt das Partizip?",
-        "de": "Die Laborantin hat den Scan gesehen. Die Tochter hat eingekauft. Der Besucher hat bezahlt. Ich habe gewartet. Die Laborantin hat die Probe untersucht. Die Sekretärin hat den Bericht geschrieben.",
-        "en": "The doctor has seen the report. The daughter has done the shopping. The patient has paid. I waited. The doctor has examined the patient. The nurse has written the report."
+        "title": "Übergabe · Schichtbericht",
+        "de": "Lena hat den Blutdruck gemessen. Sie hat den Verband gewechselt. Die Praktikantin hat die Medikamente bereitgestellt. Der Arzt hat das Röntgenbild gesehen. Ich habe den Übergabebericht geschrieben.",
+        "en": "Lena measured the blood pressure. She changed the dressing. The trainee set out the medicines. The doctor saw the X-ray. I wrote the handover report."
       }
     },
     {
       "id": "grammar",
       "type": "grammar",
-      "label": "Grammar",
-      "title": "ge-, no ge-, or a new vowel",
+      "label": "Grammatik",
+      "title": "Partizip II bilden",
       "practice": "choose",
-      "heroTitle": "gesehen, eingekauft, bezahlt",
+      "heroTitle": "Drei Baupläne: ge-t, ge-en, kein ge-",
       "heroImage": "clipboard",
       "story": [
-        "Chapters 24 and 25 chose <b>haben</b> or <b>sein</b>. The participle still closes the sentence. This chapter builds that participle.",
-        "Weak: <b>ge-</b> plus the stem plus <b>-t</b>. fragen → <b>gefragt</b>. machen → <b>gemacht</b>. A stem in <b>-t</b> or <b>-d</b> takes <b>-et</b>: warten → <b>gewartet</b>, arbeiten → <b>gearbeitet</b>. öffnen → <b>geöffnet</b>.",
-        "Separable: the prefix stays, and <b>ge-</b> sits in the middle. einkaufen → <b>eingekauft</b>. abholen → <b>abgeholt</b>. anrufen → <b>angerufen</b>.",
-        "No <b>ge-</b> after <b>be-, er-, ver-</b>, or on an <b>-ieren</b> verb. bezahlen → <b>bezahlt</b>. erklären → <b>erklärt</b>. untersuchen → <b>untersucht</b>. dokumentieren → <b>dokumentiert</b>. bekommen stays <b>bekommen</b>.",
-        "Strong: <b>ge-</b> plus <b>-en</b>, often with a new vowel. sehen → <b>gesehen</b>. schreiben → <b>geschrieben</b>. trinken → <b>getrunken</b>. nehmen → <b>genommen</b>. messen → <b>gemessen</b>, not gemesst."
+        "Kapitel 24 und 25 haben <b>haben</b> oder <b>sein</b> gewählt. Jetzt bauen wir das <b>Partizip II</b> am Satzende.",
+        "<b>Schwach (regelmäßig):</b> ge- + Stamm + -t. Beispiel: machen → <b>gemacht</b>, fragen → <b>gefragt</b>. Stamm auf -t/-d oder Konsonant+n → oft <b>-et</b>: warten → <b>gewartet</b>, öffnen → <b>geöffnet</b>.",
+        "<b>Stark (unregelmäßig):</b> ge- + Stamm + -en, oft mit Vokalwechsel. sehen → <b>gesehen</b>, schreiben → <b>geschrieben</b>, nehmen → <b>genommen</b>, messen → <b>gemessen</b> (nicht gemesst).",
+        "<b>Trennbar:</b> Vorsilbe + ge- + Rest. aufräumen → <b>aufgeräumt</b>, einkaufen → <b>eingekauft</b>, bereitstellen → <b>bereitgestellt</b>.",
+        "<b>Kein ge-:</b> untrennbare Vorsilben be-/ver-/ent-/er-/zer-/ge- und Verben auf <b>-ieren</b>. bezahlen → <b>bezahlt</b>, verbinden → <b>verbunden</b>, untersuchen → <b>untersucht</b>, operieren → <b>operiert</b>, kontrollieren → <b>kontrolliert</b>, dokumentieren → <b>dokumentiert</b>.",
+        "Satzklammer bleibt: <b>hat … gemessen</b>. Gloss: three blueprints for the past participle."
       ],
-      "questionRule": "Weak: ge- + t, or -et after -t/-d. Separable: prefix + ge-. No ge- after be-/er-/ver- or on -ieren. Strong: ge- + en.",
+      "questionRule": "Frage: Wie lautet das Partizip? Schwach ge-…-t, stark ge-…-en, trennbar ge- in der Mitte, be-/ver-/-ieren ohne ge-.",
       "tables": [
         {
-          "title": "Schwach: ge- + t",
-          "caption": "Stem in -t or -d, and öffnen: add -et.",
+          "title": "Schwach: ge- … -t",
+          "caption": "regelmäßig",
           "columns": [
-            "Infinitiv",
             "Partizip"
           ],
           "rows": [
             {
-              "label": "fragen",
+              "label": "machen",
               "cells": [
-                "fragen",
-                "gefragt"
+                "gemacht"
               ],
               "highlight": true
             },
             {
-              "label": "machen",
+              "label": "fragen",
               "cells": [
-                "machen",
-                "gemacht"
+                "gefragt"
               ]
             },
             {
               "label": "warten",
               "cells": [
-                "warten",
                 "gewartet"
               ],
               "highlight": true
@@ -650,99 +3468,28 @@
             {
               "label": "öffnen",
               "cells": [
-                "öffnen",
                 "geöffnet"
               ]
             },
             {
-              "label": "arbeiten",
+              "label": "wechseln",
               "cells": [
-                "arbeiten",
-                "gearbeitet"
-              ]
+                "gewechselt"
+              ],
+              "highlight": true
             }
           ]
         },
         {
-          "title": "Trennbar, oder ohne ge-",
-          "caption": "Separable: prefix + ge- in the middle. be-, er-, ver- and -ieren: no ge-.",
+          "title": "Stark: ge- … -en",
+          "caption": "oft Vokalwechsel",
           "columns": [
-            "Infinitiv",
-            "Partizip"
-          ],
-          "rows": [
-            {
-              "label": "einkaufen",
-              "cells": [
-                "einkaufen",
-                "eingekauft"
-              ],
-              "highlight": true
-            },
-            {
-              "label": "abholen",
-              "cells": [
-                "abholen",
-                "abgeholt"
-              ]
-            },
-            {
-              "label": "anrufen",
-              "cells": [
-                "anrufen",
-                "angerufen"
-              ]
-            },
-            {
-              "label": "bezahlen",
-              "cells": [
-                "bezahlen",
-                "bezahlt"
-              ],
-              "highlight": true
-            },
-            {
-              "label": "erklären",
-              "cells": [
-                "erklären",
-                "erklärt"
-              ]
-            },
-            {
-              "label": "untersuchen",
-              "cells": [
-                "untersuchen",
-                "untersucht"
-              ]
-            },
-            {
-              "label": "dokumentieren",
-              "cells": [
-                "dokumentieren",
-                "dokumentiert"
-              ]
-            },
-            {
-              "label": "bekommen",
-              "cells": [
-                "bekommen",
-                "bekommen"
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Stark: ge- + en",
-          "caption": "The vowel often changes. verstehen → verstanden: ver- blocks ge-.",
-          "columns": [
-            "Infinitiv",
             "Partizip"
           ],
           "rows": [
             {
               "label": "sehen",
               "cells": [
-                "sehen",
                 "gesehen"
               ],
               "highlight": true
@@ -750,261 +3497,1328 @@
             {
               "label": "schreiben",
               "cells": [
-                "schreiben",
                 "geschrieben"
-              ]
-            },
-            {
-              "label": "trinken",
-              "cells": [
-                "trinken",
-                "getrunken"
               ]
             },
             {
               "label": "nehmen",
               "cells": [
-                "nehmen",
                 "genommen"
-              ]
-            },
-            {
-              "label": "sprechen",
-              "cells": [
-                "sprechen",
-                "gesprochen"
-              ]
-            },
-            {
-              "label": "essen",
-              "cells": [
-                "essen",
-                "gegessen"
-              ]
+              ],
+              "highlight": true
             },
             {
               "label": "messen",
               "cells": [
-                "messen",
                 "gemessen"
               ],
               "highlight": true
             },
             {
+              "label": "geben",
+              "cells": [
+                "gegeben"
+              ]
+            },
+            {
               "label": "helfen",
               "cells": [
-                "helfen",
                 "geholfen"
               ]
             }
           ]
+        },
+        {
+          "title": "Trennbar: ge- in der Mitte",
+          "caption": "Vorsilbe + ge- + Rest",
+          "columns": [
+            "Partizip"
+          ],
+          "rows": [
+            {
+              "label": "aufräumen",
+              "cells": [
+                "aufgeräumt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "einkaufen",
+              "cells": [
+                "eingekauft"
+              ]
+            },
+            {
+              "label": "bereitstellen",
+              "cells": [
+                "bereitgestellt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "anrufen",
+              "cells": [
+                "angerufen"
+              ]
+            },
+            {
+              "label": "aufschreiben",
+              "cells": [
+                "aufgeschrieben"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kein ge-",
+          "caption": "be-/ver-/ent-/er-/-ieren",
+          "columns": [
+            "Partizip"
+          ],
+          "rows": [
+            {
+              "label": "bezahlen",
+              "cells": [
+                "bezahlt"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "untersuchen",
+              "cells": [
+                "untersucht"
+              ]
+            },
+            {
+              "label": "verbinden",
+              "cells": [
+                "verbunden"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "operieren",
+              "cells": [
+                "operiert"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "kontrollieren",
+              "cells": [
+                "kontrolliert"
+              ]
+            },
+            {
+              "label": "dokumentieren",
+              "cells": [
+                "dokumentiert"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Station: häufige Verben",
+          "caption": "Mini-Tabelle",
+          "columns": [
+            "Partizip"
+          ],
+          "rows": [
+            {
+              "label": "messen",
+              "cells": [
+                "gemessen"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "wechseln",
+              "cells": [
+                "gewechselt"
+              ]
+            },
+            {
+              "label": "geben",
+              "cells": [
+                "gegeben"
+              ]
+            },
+            {
+              "label": "nehmen",
+              "cells": [
+                "genommen"
+              ]
+            },
+            {
+              "label": "schreiben",
+              "cells": [
+                "geschrieben"
+              ]
+            },
+            {
+              "label": "operieren",
+              "cells": [
+                "operiert"
+              ],
+              "highlight": true
+            }
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "title": "Drei Baupläne",
+          "body": "ge-…-t · ge-…-en · kein ge- (be-/ver-/-ieren)."
+        },
+        {
+          "title": "Trennbar",
+          "body": "ge- rutscht in die Mitte: auf-ge-räumt, ein-ge-kauft."
+        },
+        {
+          "title": "messen",
+          "body": "messen → gemessen (stark), nicht gemesst."
+        },
+        {
+          "title": "Satzklammer",
+          "body": "hat … gemessen. Partizip ans Ende."
         }
       ],
       "warning": {
-        "title": "Three familiar wrong builds",
+        "title": "Häufige Fehler",
+        "tip": "be-/ver-/-ieren → kein ge-. Trennbar → ge- in der Mitte. Stark → oft -en.",
         "items": [
           {
-            "de": "Die Laborantin hat den Scan gesehen.",
-            "en": "Strong: gesehen, not geseht.",
-            "tone": "ok"
-          },
-          {
-            "de": "Der Arzt hat den Befund geseht.",
-            "en": "sehen does not take -t.",
+            "de": "Falsch: geoperiert. Richtig: operiert.",
+            "en": "-ieren verbs take no ge-.",
             "tone": "stop"
           },
           {
-            "de": "Die Tochter hat eingekauft.",
-            "en": "The prefix stays on the participle.",
-            "tone": "ok"
-          },
-          {
-            "de": "Die Tochter hat gekauft ein.",
-            "en": "ein does not split off in the participle.",
+            "de": "Falsch: gebezahlt. Richtig: bezahlt.",
+            "en": "be- prefix: no ge-.",
             "tone": "stop"
           },
           {
-            "de": "Die Laborantin hat die Probe untersucht.",
-            "en": "untersuchen takes no ge-.",
-            "tone": "ok"
+            "de": "Falsch: geaufräumt. Richtig: aufgeräumt.",
+            "en": "separable: ge- in the middle.",
+            "tone": "stop"
           },
           {
-            "de": "Der Arzt hat den Patienten geuntersucht.",
-            "en": "ge- does not go in front of unter-.",
+            "de": "Falsch: genehmt. Richtig: genommen.",
+            "en": "nehmen is strong: genommen.",
+            "tone": "stop"
+          },
+          {
+            "de": "Falsch: gemesst. Richtig: gemessen.",
+            "en": "messen → gemessen.",
+            "tone": "stop"
+          },
+          {
+            "de": "Falsch: geseht. Richtig: gesehen.",
+            "en": "sehen is strong: gesehen.",
             "tone": "stop"
           }
-        ],
-        "tip": "Ask three questions: Is there a separable prefix? Is the start be-, er-, ver-, or -ieren? Is the verb strong? Otherwise ge- plus -t."
+        ]
       },
-      "quizTitle": "Build the participle",
+      "meaningsTitle": "Mini-Szenen",
+      "meanings": [
+        {
+          "modal": "gemessen",
+          "emoji": "🩺",
+          "en": "measured",
+          "use": "stark",
+          "de": "Lena hat den Blutdruck gemessen.",
+          "deEn": "Lena measured the blood pressure."
+        },
+        {
+          "modal": "gewechselt",
+          "emoji": "🩹",
+          "en": "changed",
+          "use": "schwach",
+          "de": "Sie hat den Verband gewechselt.",
+          "deEn": "She changed the dressing."
+        },
+        {
+          "modal": "bereitgestellt",
+          "emoji": "💊",
+          "en": "set out / prepared",
+          "use": "trennbar",
+          "de": "Die Praktikantin hat die Medikamente bereitgestellt.",
+          "deEn": "The trainee set out the medicines."
+        },
+        {
+          "modal": "bezahlt",
+          "emoji": "💳",
+          "en": "paid",
+          "use": "kein ge-",
+          "de": "Der Besucher hat das Parkticket bezahlt.",
+          "deEn": "The visitor paid the parking ticket."
+        },
+        {
+          "modal": "operiert",
+          "emoji": "🏥",
+          "en": "operated on",
+          "use": "-ieren",
+          "de": "Der Chirurg hat das Knie operiert.",
+          "deEn": "The surgeon operated on the knee."
+        },
+        {
+          "modal": "aufgeräumt",
+          "emoji": "🧹",
+          "en": "tidied",
+          "use": "trennbar",
+          "de": "Wir haben das Dienstzimmer aufgeräumt.",
+          "deEn": "We tidied the staff room."
+        }
+      ],
+      "animation": [
+        {
+          "before": [
+            {
+              "t": "machen",
+              "r": "subj"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "ge-t",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Sie",
+              "r": "subj"
+            },
+            {
+              "t": "hat",
+              "r": "verb"
+            },
+            {
+              "t": "den",
+              "r": "rest"
+            },
+            {
+              "t": "Verband",
+              "r": "rest"
+            },
+            {
+              "t": "gewechselt",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "schwach: ge- + -t",
+          "enAfter": "Sie hat den Verband gewechselt.",
+          "callLabel": "ge- … -t"
+        },
+        {
+          "before": [
+            {
+              "t": "messen",
+              "r": "subj"
+            },
+            {
+              "t": "+",
+              "r": "rest"
+            },
+            {
+              "t": "ge-en",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "Lena",
+              "r": "subj"
+            },
+            {
+              "t": "hat",
+              "r": "verb"
+            },
+            {
+              "t": "den",
+              "r": "rest"
+            },
+            {
+              "t": "Blutdruck",
+              "r": "rest"
+            },
+            {
+              "t": "gemessen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "stark: ge- + -en",
+          "enAfter": "Lena hat den Blutdruck gemessen.",
+          "callLabel": "ge- … -en"
+        },
+        {
+          "before": [
+            {
+              "t": "bezahlen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "Er",
+              "r": "subj"
+            },
+            {
+              "t": "hat",
+              "r": "verb"
+            },
+            {
+              "t": "bezahlt",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "be- → kein ge-",
+          "enAfter": "Er hat bezahlt.",
+          "callLabel": "kein ge-"
+        }
+      ],
+      "quizTitle": "Bauplan-Check",
       "quiz": [
         {
           "kind": "mc",
+          "q": "machen → ?",
+          "options": [
+            "gemacht",
+            "gemachen",
+            "machen"
+          ],
+          "answer": 0,
+          "why": "Schwach: ge- + -t.",
+          "hint": "ge-t"
+        },
+        {
+          "kind": "mc",
           "q": "sehen → ?",
-          "qEn": "Strong: -en.",
           "options": [
             "gesehen",
             "geseht",
             "sehen"
           ],
           "answer": 0,
-          "why": "gesehen.",
-          "hint": "gesehen."
+          "why": "Stark: ge- + -en.",
+          "hint": "gesehen"
         },
         {
           "kind": "mc",
           "q": "einkaufen → ?",
-          "qEn": "ge- sits after ein-.",
           "options": [
             "eingekauft",
-            "gekauft ein",
-            "geeingekauft"
+            "geeinkauft",
+            "einkauft"
           ],
           "answer": 0,
-          "why": "eingekauft.",
-          "hint": "eingekauft."
+          "why": "Trennbar: ge- in der Mitte.",
+          "hint": "ein-ge-kauft"
         },
         {
           "kind": "mc",
           "q": "bezahlen → ?",
-          "qEn": "be- blocks ge-.",
           "options": [
             "bezahlt",
-            "gebezahlen",
-            "gebezaht"
+            "gebezahlt",
+            "begezahlt"
           ],
           "answer": 0,
-          "why": "bezahlt.",
-          "hint": "bezahlt."
+          "why": "be- → kein ge-.",
+          "hint": "bezahlt"
         },
         {
           "kind": "mc",
-          "q": "warten → ?",
-          "qEn": "The stem ends in -t, so -et.",
+          "q": "messen → ?",
           "options": [
-            "gewartet",
-            "gewart",
-            "gewartt"
+            "gemessen",
+            "gemesst",
+            "messen"
           ],
           "answer": 0,
-          "why": "gewartet.",
-          "hint": "gewartet."
+          "why": "Stark mit Vokalwechsel.",
+          "hint": "gemessen"
         },
         {
           "kind": "mc",
-          "q": "untersuchen → ?",
-          "qEn": "No ge-.",
+          "q": "operieren → ?",
           "options": [
-            "untersucht",
-            "geuntersucht",
-            "untersuchen"
+            "operiert",
+            "geoperiert",
+            "operieren"
           ],
           "answer": 0,
-          "why": "untersucht.",
-          "hint": "untersucht."
+          "why": "-ieren → kein ge-.",
+          "hint": "operiert"
         },
         {
           "kind": "mc",
-          "q": "schreiben → ?",
-          "qEn": "ei becomes ie, plus -en.",
+          "q": "aufräumen → ?",
           "options": [
-            "geschrieben",
-            "geschreibt",
-            "schreiben"
+            "aufgeräumt",
+            "geaufräumt",
+            "aufräumt"
           ],
           "answer": 0,
-          "why": "geschrieben.",
-          "hint": "geschrieben."
+          "why": "Trennbar: auf-ge-räumt.",
+          "hint": "aufgeräumt"
+        },
+        {
+          "kind": "mc",
+          "q": "nehmen → ?",
+          "options": [
+            "genommen",
+            "genehmt",
+            "nehmt"
+          ],
+          "answer": 0,
+          "why": "Stark: genommen.",
+          "hint": "genommen"
+        },
+        {
+          "kind": "mc",
+          "q": "öffnen → ?",
+          "options": [
+            "geöffnet",
+            "geöffnetet",
+            "geoffnet"
+          ],
+          "answer": 0,
+          "why": "Schwach mit -et.",
+          "hint": "geöffnet"
+        },
+        {
+          "kind": "mc",
+          "q": "verbinden → ?",
+          "options": [
+            "verbunden",
+            "geverbunden",
+            "verbindet"
+          ],
+          "answer": 0,
+          "why": "ver- → kein ge-; stark: verbunden.",
+          "hint": "verbunden"
+        },
+        {
+          "kind": "mc",
+          "q": "kontrollieren → ?",
+          "options": [
+            "kontrolliert",
+            "gekontrolliert",
+            "kontrollieren"
+          ],
+          "answer": 0,
+          "why": "-ieren → kein ge-.",
+          "hint": "kontrolliert"
+        },
+        {
+          "kind": "mc",
+          "q": "Wo steht das Partizip?",
+          "options": [
+            "Am Satzende",
+            "Vor dem Hilfsverb",
+            "Immer zuerst"
+          ],
+          "answer": 0,
+          "why": "Satzklammer: hat … Partizip.",
+          "hint": "Ende"
         }
       ]
     },
     {
       "id": "gap-partizip",
-      "label": "Gap",
-      "title": "Put the participle in",
-      "practice": "gap",
       "type": "gapfill",
-      "instructions": "The label names the infinitive. Only that participle fits.",
+      "label": "Lücken",
+      "title": "Partizip einsetzen",
+      "practice": "gap",
+      "instructions": "Bilden Sie das Partizip II. Der Infinitiv steht in Klammern. Nur das Partizip in die Lücke.",
       "chips": [
         {
+          "w": "gemessen",
+          "hint": "gemessen"
+        },
+        {
+          "w": "gewechselt",
+          "hint": "gewechselt"
+        },
+        {
+          "w": "bereitgestellt",
+          "hint": "bereitgestellt"
+        },
+        {
           "w": "gesehen",
-          "hint": "sehen → gesehen."
-        },
-        {
-          "w": "eingekauft",
-          "hint": "einkaufen → eingekauft."
-        },
-        {
-          "w": "bezahlt",
-          "hint": "bezahlen → bezahlt."
-        },
-        {
-          "w": "gewartet",
-          "hint": "warten → gewartet."
-        },
-        {
-          "w": "untersucht",
-          "hint": "untersuchen → untersucht."
+          "hint": "gesehen"
         },
         {
           "w": "geschrieben",
-          "hint": "schreiben → geschrieben."
+          "hint": "geschrieben"
+        },
+        {
+          "w": "genommen",
+          "hint": "genommen"
+        },
+        {
+          "w": "aufgeräumt",
+          "hint": "aufgeräumt"
+        },
+        {
+          "w": "eingekauft",
+          "hint": "eingekauft"
+        },
+        {
+          "w": "bezahlt",
+          "hint": "bezahlt"
+        },
+        {
+          "w": "untersucht",
+          "hint": "untersucht"
+        },
+        {
+          "w": "operiert",
+          "hint": "operiert"
+        },
+        {
+          "w": "kontrolliert",
+          "hint": "kontrolliert"
+        },
+        {
+          "w": "verbunden",
+          "hint": "verbunden"
+        },
+        {
+          "w": "geöffnet",
+          "hint": "geöffnet"
+        },
+        {
+          "w": "gegeben",
+          "hint": "gegeben"
         }
       ],
       "items": [
         {
-          "before": "sehen: Der Arzt hat den Befund",
+          "before": "Lena hat den Blutdruck (messen)",
+          "after": ".",
+          "answer": "gemessen",
+          "en": "Lena measured the blood pressure.",
+          "why": "messen → gemessen (stark).",
+          "tip": "gemessen",
+          "hint": "gemessen"
+        },
+        {
+          "before": "Sie hat den Verband (wechseln)",
+          "after": ".",
+          "answer": "gewechselt",
+          "en": "She changed the dressing.",
+          "why": "wechseln → gewechselt (schwach).",
+          "tip": "gewechselt",
+          "hint": "gewechselt"
+        },
+        {
+          "before": "Die Praktikantin hat die Medikamente (bereitstellen)",
+          "after": ".",
+          "answer": "bereitgestellt",
+          "en": "The trainee set out the medicines.",
+          "why": "trennbar: bereit-ge-stellt.",
+          "tip": "bereitgestellt",
+          "hint": "bereitgestellt"
+        },
+        {
+          "before": "Der Arzt hat das Röntgenbild (sehen)",
           "after": ".",
           "answer": "gesehen",
-          "en": "The doctor has seen the report.",
-          "why": "gesehen.",
-          "tip": "gesehen, not geseht.",
-          "hint": "gesehen."
+          "en": "The doctor saw the X-ray.",
+          "why": "sehen → gesehen.",
+          "tip": "gesehen",
+          "hint": "gesehen"
         },
         {
-          "before": "einkaufen: Die Tochter hat",
-          "after": ".",
-          "answer": "eingekauft",
-          "en": "The daughter has done the shopping.",
-          "why": "eingekauft.",
-          "tip": "eingekauft.",
-          "hint": "eingekauft."
-        },
-        {
-          "before": "bezahlen: Der Patient hat",
-          "after": ".",
-          "answer": "bezahlt",
-          "en": "The patient has paid.",
-          "why": "bezahlt.",
-          "tip": "bezahlt.",
-          "hint": "bezahlt."
-        },
-        {
-          "before": "warten: Ich habe",
-          "after": ".",
-          "answer": "gewartet",
-          "en": "I waited.",
-          "why": "gewartet.",
-          "tip": "gewartet.",
-          "hint": "gewartet."
-        },
-        {
-          "before": "untersuchen: Der Arzt hat den Patienten",
-          "after": ".",
-          "answer": "untersucht",
-          "en": "The doctor has examined the patient.",
-          "why": "untersucht.",
-          "tip": "untersucht, not geuntersucht.",
-          "hint": "untersucht."
-        },
-        {
-          "before": "schreiben: Die Pflegekraft hat den Befund",
+          "before": "Ich habe den Übergabebericht (schreiben)",
           "after": ".",
           "answer": "geschrieben",
-          "en": "The nurse has written the report.",
-          "why": "geschrieben.",
-          "tip": "geschrieben.",
-          "hint": "geschrieben."
+          "en": "I wrote the handover report.",
+          "why": "schreiben → geschrieben.",
+          "tip": "geschrieben",
+          "hint": "geschrieben"
+        },
+        {
+          "before": "Die Pflegekraft hat die Blutprobe (nehmen)",
+          "after": ".",
+          "answer": "genommen",
+          "en": "The nurse took the blood sample.",
+          "why": "nehmen → genommen.",
+          "tip": "genommen",
+          "hint": "genommen"
+        },
+        {
+          "before": "Wir haben das Dienstzimmer (aufräumen)",
+          "after": ".",
+          "answer": "aufgeräumt",
+          "en": "We tidied the staff room.",
+          "why": "trennbar: auf-ge-räumt.",
+          "tip": "aufgeräumt",
+          "hint": "aufgeräumt"
+        },
+        {
+          "before": "Die Praktikantin hat Verbandsmaterial (einkaufen)",
+          "after": ".",
+          "answer": "eingekauft",
+          "en": "The trainee bought dressing material.",
+          "why": "trennbar: ein-ge-kauft.",
+          "tip": "eingekauft",
+          "hint": "eingekauft"
+        },
+        {
+          "before": "Der Besucher hat das Parkticket (bezahlen)",
+          "after": ".",
+          "answer": "bezahlt",
+          "en": "The visitor paid the parking ticket.",
+          "why": "be- → kein ge-.",
+          "tip": "bezahlt",
+          "hint": "bezahlt"
+        },
+        {
+          "before": "Die Ärztin hat die Wunde (untersuchen)",
+          "after": ".",
+          "answer": "untersucht",
+          "en": "The doctor examined the wound.",
+          "why": "untrennbar: kein ge-.",
+          "tip": "untersucht",
+          "hint": "untersucht"
+        },
+        {
+          "before": "Der Chirurg hat das Knie (operieren)",
+          "after": ".",
+          "answer": "operiert",
+          "en": "The surgeon operated on the knee.",
+          "why": "-ieren → kein ge-.",
+          "tip": "operiert",
+          "hint": "operiert"
+        },
+        {
+          "before": "Die Nachtschwester hat den Puls (kontrollieren)",
+          "after": ".",
+          "answer": "kontrolliert",
+          "en": "The night nurse checked the pulse.",
+          "why": "-ieren → kein ge-.",
+          "tip": "kontrolliert",
+          "hint": "kontrolliert"
+        },
+        {
+          "before": "Lena hat das Bein (verbinden)",
+          "after": ".",
+          "answer": "verbunden",
+          "en": "Lena bandaged the leg.",
+          "why": "ver- → kein ge-; verbunden.",
+          "tip": "verbunden",
+          "hint": "verbunden"
+        },
+        {
+          "before": "Ich habe das Fenster (öffnen)",
+          "after": ".",
+          "answer": "geöffnet",
+          "en": "I opened the window.",
+          "why": "öffnen → geöffnet (-et).",
+          "tip": "geöffnet",
+          "hint": "geöffnet"
+        },
+        {
+          "before": "Die Pflegekraft hat die Infusion (geben)",
+          "after": ".",
+          "answer": "gegeben",
+          "en": "The nurse gave the infusion.",
+          "why": "geben → gegeben.",
+          "tip": "gegeben",
+          "hint": "gegeben"
+        }
+      ]
+    },
+    {
+      "id": "build-partizip",
+      "type": "builder",
+      "label": "Bauen",
+      "title": "Sätze mit Partizip bauen",
+      "practice": "build",
+      "instructions": "Legen Sie die Kacheln. Das Partizip steht am Ende.",
+      "items": [
+        {
+          "tiles": [
+            "Lena",
+            "hat",
+            "den",
+            "Blutdruck",
+            "gemessen"
+          ],
+          "answers": [
+            "Lena hat den Blutdruck gemessen"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "gemessen",
+          "question": false,
+          "en": "Lena measured the blood pressure.",
+          "hint": "hat … gemessen",
+          "feedback": {
+            "end": "Partizip am Ende: gemessen.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Sie",
+            "hat",
+            "den",
+            "Verband",
+            "gewechselt"
+          ],
+          "answers": [
+            "Sie hat den Verband gewechselt"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "gewechselt",
+          "question": false,
+          "en": "She changed the dressing.",
+          "hint": "hat … gewechselt",
+          "feedback": {
+            "end": "Partizip am Ende: gewechselt.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Praktikantin",
+            "hat",
+            "die",
+            "Medikamente",
+            "bereitgestellt"
+          ],
+          "answers": [
+            "Die Praktikantin hat die Medikamente bereitgestellt"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "bereitgestellt",
+          "question": false,
+          "en": "The trainee set out the medicines.",
+          "hint": "hat … bereitgestellt",
+          "feedback": {
+            "end": "Partizip am Ende: bereitgestellt.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Der",
+            "Arzt",
+            "hat",
+            "das",
+            "Röntgenbild",
+            "gesehen"
+          ],
+          "answers": [
+            "Der Arzt hat das Röntgenbild gesehen"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "gesehen",
+          "question": false,
+          "en": "The doctor saw the X-ray.",
+          "hint": "hat … gesehen",
+          "feedback": {
+            "end": "Partizip am Ende: gesehen.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Ich",
+            "habe",
+            "den",
+            "Übergabebericht",
+            "geschrieben"
+          ],
+          "answers": [
+            "Ich habe den Übergabebericht geschrieben"
+          ],
+          "punct": ".",
+          "modal": "habe",
+          "inf": "geschrieben",
+          "question": false,
+          "en": "I wrote the handover report.",
+          "hint": "habe … geschrieben",
+          "feedback": {
+            "end": "Partizip am Ende: geschrieben.",
+            "fallback": "habe + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Wir",
+            "haben",
+            "das",
+            "Dienstzimmer",
+            "aufgeräumt"
+          ],
+          "answers": [
+            "Wir haben das Dienstzimmer aufgeräumt"
+          ],
+          "punct": ".",
+          "modal": "haben",
+          "inf": "aufgeräumt",
+          "question": false,
+          "en": "We tidied the staff room.",
+          "hint": "haben … aufgeräumt",
+          "feedback": {
+            "end": "Partizip am Ende: aufgeräumt.",
+            "fallback": "haben + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Der",
+            "Besucher",
+            "hat",
+            "das",
+            "Parkticket",
+            "bezahlt"
+          ],
+          "answers": [
+            "Der Besucher hat das Parkticket bezahlt"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "bezahlt",
+          "question": false,
+          "en": "The visitor paid the parking ticket.",
+          "hint": "hat … bezahlt",
+          "feedback": {
+            "end": "Partizip am Ende: bezahlt.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Der",
+            "Chirurg",
+            "hat",
+            "das",
+            "Knie",
+            "operiert"
+          ],
+          "answers": [
+            "Der Chirurg hat das Knie operiert"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "operiert",
+          "question": false,
+          "en": "The surgeon operated on the knee.",
+          "hint": "hat … operiert",
+          "feedback": {
+            "end": "Partizip am Ende: operiert.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Lena",
+            "hat",
+            "das",
+            "Bein",
+            "verbunden"
+          ],
+          "answers": [
+            "Lena hat das Bein verbunden"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "verbunden",
+          "question": false,
+          "en": "Lena bandaged the leg.",
+          "hint": "hat … verbunden",
+          "feedback": {
+            "end": "Partizip am Ende: verbunden.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Nachtschwester",
+            "hat",
+            "den",
+            "Puls",
+            "kontrolliert"
+          ],
+          "answers": [
+            "Die Nachtschwester hat den Puls kontrolliert"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "kontrolliert",
+          "question": false,
+          "en": "The night nurse checked the pulse.",
+          "hint": "hat … kontrolliert",
+          "feedback": {
+            "end": "Partizip am Ende: kontrolliert.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Pflegekraft",
+            "hat",
+            "die",
+            "Infusion",
+            "gegeben"
+          ],
+          "answers": [
+            "Die Pflegekraft hat die Infusion gegeben"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "gegeben",
+          "question": false,
+          "en": "The nurse gave the infusion.",
+          "hint": "hat … gegeben",
+          "feedback": {
+            "end": "Partizip am Ende: gegeben.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        },
+        {
+          "tiles": [
+            "Die",
+            "Praktikantin",
+            "hat",
+            "Verbandsmaterial",
+            "eingekauft"
+          ],
+          "answers": [
+            "Die Praktikantin hat Verbandsmaterial eingekauft"
+          ],
+          "punct": ".",
+          "modal": "hat",
+          "inf": "eingekauft",
+          "question": false,
+          "en": "The trainee bought dressing material.",
+          "hint": "hat … eingekauft",
+          "feedback": {
+            "end": "Partizip am Ende: eingekauft.",
+            "fallback": "hat + Partizip am Ende."
+          }
+        }
+      ]
+    },
+    {
+      "id": "error-partizip",
+      "type": "riddle",
+      "label": "Fehler",
+      "title": "Falsche Partizipien finden",
+      "practice": "error",
+      "instructions": "Finden Sie den Fehler und wählen Sie die korrekte Form.",
+      "items": [
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Chirurg hat das Knie geoperiert."
+          ],
+          "options": [
+            "Der Chirurg hat das Knie operiert.",
+            "Der Chirurg hat das Knie geoperiert.",
+            "Der Chirurg hat das Knie operieren."
+          ],
+          "answer": 0,
+          "reveal": "Der Chirurg hat das Knie operiert.",
+          "hint": "operiert"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Besucher hat gebezahlt."
+          ],
+          "options": [
+            "Der Besucher hat bezahlt.",
+            "Der Besucher hat gebezahlt.",
+            "Der Besucher hat bezahlen."
+          ],
+          "answer": 0,
+          "reveal": "Der Besucher hat bezahlt.",
+          "hint": "bezahlt"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Wir haben das Dienstzimmer geaufräumt."
+          ],
+          "options": [
+            "Wir haben das Dienstzimmer aufgeräumt.",
+            "Wir haben das Dienstzimmer geaufräumt.",
+            "Wir haben das Dienstzimmer aufräumen."
+          ],
+          "answer": 0,
+          "reveal": "Wir haben das Dienstzimmer aufgeräumt.",
+          "hint": "aufgeräumt"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie hat die Blutprobe genehmt."
+          ],
+          "options": [
+            "Sie hat die Blutprobe genommen.",
+            "Sie hat die Blutprobe genehmt.",
+            "Sie hat die Blutprobe nehmen."
+          ],
+          "answer": 0,
+          "reveal": "Sie hat die Blutprobe genommen.",
+          "hint": "genommen"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Lena hat den Blutdruck gemesst."
+          ],
+          "options": [
+            "Lena hat den Blutdruck gemessen.",
+            "Lena hat den Blutdruck gemesst.",
+            "Lena hat den Blutdruck messen."
+          ],
+          "answer": 0,
+          "reveal": "Lena hat den Blutdruck gemessen.",
+          "hint": "gemessen"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Der Arzt hat das Röntgenbild geseht."
+          ],
+          "options": [
+            "Der Arzt hat das Röntgenbild gesehen.",
+            "Der Arzt hat das Röntgenbild geseht.",
+            "Der Arzt hat das Röntgenbild sehen."
+          ],
+          "answer": 0,
+          "reveal": "Der Arzt hat das Röntgenbild gesehen.",
+          "hint": "gesehen"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Nachtschwester hat den Puls gekontrolliert."
+          ],
+          "options": [
+            "Die Nachtschwester hat den Puls kontrolliert.",
+            "Die Nachtschwester hat den Puls gekontrolliert.",
+            "Die Nachtschwester hat den Puls kontrollieren."
+          ],
+          "answer": 0,
+          "reveal": "Die Nachtschwester hat den Puls kontrolliert.",
+          "hint": "kontrolliert"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Lena hat das Bein geverbunden."
+          ],
+          "options": [
+            "Lena hat das Bein verbunden.",
+            "Lena hat das Bein geverbunden.",
+            "Lena hat das Bein verbinden."
+          ],
+          "answer": 0,
+          "reveal": "Lena hat das Bein verbunden.",
+          "hint": "verbunden"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich habe den Übergabebericht geschreibet."
+          ],
+          "options": [
+            "Ich habe den Übergabebericht geschrieben.",
+            "Ich habe den Übergabebericht geschreibet.",
+            "Ich habe den Übergabebericht schreiben."
+          ],
+          "answer": 0,
+          "reveal": "Ich habe den Übergabebericht geschrieben.",
+          "hint": "geschrieben"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Sie hat den Verband gewechsel."
+          ],
+          "options": [
+            "Sie hat den Verband gewechselt.",
+            "Sie hat den Verband gewechsel.",
+            "Sie hat den Verband wechseln."
+          ],
+          "answer": 0,
+          "reveal": "Sie hat den Verband gewechselt.",
+          "hint": "gewechselt"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Die Praktikantin hat die Medikamente gebereitstellt."
+          ],
+          "options": [
+            "Die Praktikantin hat die Medikamente bereitgestellt.",
+            "Die Praktikantin hat die Medikamente gebereitstellt.",
+            "Die Praktikantin hat die Medikamente bereitstellen."
+          ],
+          "answer": 0,
+          "reveal": "Die Praktikantin hat die Medikamente bereitgestellt.",
+          "hint": "bereitgestellt"
+        },
+        {
+          "clues": [
+            "Finde den Fehler.",
+            "Ich habe das Fenster geöffnetet."
+          ],
+          "options": [
+            "Ich habe das Fenster geöffnet.",
+            "Ich habe das Fenster geöffnetet.",
+            "Ich habe das Fenster öffnen."
+          ],
+          "answer": 0,
+          "reveal": "Ich habe das Fenster geöffnet.",
+          "hint": "geöffnet"
+        }
+      ]
+    },
+    {
+      "id": "picture-ward",
+      "type": "picturematch",
+      "label": "Bilder",
+      "title": "Stationsbilder und Partizipien",
+      "practice": "picture",
+      "instructions": "Ordnen Sie das Bild dem Wort zu. Das Partizip steht als Hinweis.",
+      "items": [
+        {
+          "id": "blutdruck",
+          "de": "Blutdruck",
+          "article": "der",
+          "plural": "die Blutdrücke",
+          "en": "blood pressure — gemessen",
+          "image": {
+            "type": "svg",
+            "id": "bpmonitor"
+          },
+          "hint": "gemessen"
+        },
+        {
+          "id": "verband",
+          "de": "Verband",
+          "article": "der",
+          "plural": "die Verbände",
+          "en": "dressing — gewechselt",
+          "image": {
+            "type": "svg",
+            "id": "plaster"
+          },
+          "hint": "gewechselt"
+        },
+        {
+          "id": "medikament",
+          "de": "Medikament",
+          "article": "das",
+          "plural": "die Medikamente",
+          "en": "medicine — bereitgestellt",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          },
+          "hint": "bereitgestellt"
+        },
+        {
+          "id": "roentgen",
+          "de": "Röntgenbild",
+          "article": "das",
+          "plural": "die Röntgenbilder",
+          "en": "X-ray — gesehen",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          },
+          "hint": "gesehen"
+        },
+        {
+          "id": "blutprobe",
+          "de": "Blutprobe",
+          "article": "die",
+          "plural": "die Blutproben",
+          "en": "blood sample — genommen",
+          "image": {
+            "type": "svg",
+            "id": "vial"
+          },
+          "hint": "genommen"
+        },
+        {
+          "id": "dienstzimmer",
+          "de": "Dienstzimmer",
+          "article": "das",
+          "plural": "die Dienstzimmer",
+          "en": "staff room — aufgeräumt",
+          "image": {
+            "type": "svg",
+            "id": "room"
+          },
+          "hint": "aufgeräumt"
+        },
+        {
+          "id": "wunde",
+          "de": "Wunde",
+          "article": "die",
+          "plural": "die Wunden",
+          "en": "wound — untersucht",
+          "image": {
+            "type": "svg",
+            "id": "hands"
+          },
+          "hint": "untersucht"
+        },
+        {
+          "id": "infusion",
+          "de": "Infusion",
+          "article": "die",
+          "plural": "die Infusionen",
+          "en": "infusion — gegeben",
+          "image": {
+            "type": "svg",
+            "id": "infusion"
+          },
+          "hint": "gegeben"
+        },
+        {
+          "id": "puls",
+          "de": "Puls",
+          "article": "der",
+          "plural": "die Pulse",
+          "en": "pulse — kontrolliert",
+          "image": {
+            "type": "svg",
+            "id": "monitor"
+          },
+          "hint": "kontrolliert"
+        },
+        {
+          "id": "knie",
+          "de": "Knie",
+          "article": "das",
+          "plural": "die Knie",
+          "en": "knee — operiert",
+          "image": {
+            "type": "svg",
+            "id": "patient"
+          },
+          "hint": "operiert"
         }
       ]
     },
@@ -1127,210 +4941,6 @@
       ]
     },
     {
-      "id": "picture-ward",
-      "type": "picturematch",
-      "label": "Pictures",
-      "title": "What the shift used",
-      "practice": "picture",
-      "instructions": "A chart, a tablet, a stethoscope, a syringe, a plaster, a coat, an ID card, a test tube.",
-      "items": [
-        {
-          "id": "befund",
-          "de": "Befund",
-          "article": "der",
-          "plural": "die Befunde",
-          "en": "the report",
-          "image": {
-            "type": "svg",
-            "id": "clipboard"
-          },
-          "hint": "der"
-        },
-        {
-          "id": "tablette",
-          "de": "Tablette",
-          "article": "die",
-          "plural": "die Tabletten",
-          "en": "the tablet",
-          "image": {
-            "type": "svg",
-            "id": "tablet"
-          },
-          "hint": "die"
-        },
-        {
-          "id": "stethoskop",
-          "de": "Stethoskop",
-          "article": "das",
-          "plural": "die Stethoskope",
-          "en": "the stethoscope",
-          "image": {
-            "type": "svg",
-            "id": "stethoscope"
-          },
-          "hint": "das"
-        },
-        {
-          "id": "spritze",
-          "de": "Spritze",
-          "article": "die",
-          "plural": "die Spritzen",
-          "en": "the syringe",
-          "image": {
-            "type": "svg",
-            "id": "syringe"
-          },
-          "hint": "die"
-        },
-        {
-          "id": "pflaster",
-          "de": "Pflaster",
-          "article": "das",
-          "plural": "die Pflaster",
-          "en": "the plaster",
-          "image": {
-            "type": "svg",
-            "id": "plaster"
-          },
-          "hint": "das"
-        },
-        {
-          "id": "kittel",
-          "de": "Kittel",
-          "article": "der",
-          "plural": "die Kittel",
-          "en": "the coat",
-          "image": {
-            "type": "svg",
-            "id": "coat"
-          },
-          "hint": "der"
-        },
-        {
-          "id": "ausweis",
-          "de": "Ausweis",
-          "article": "der",
-          "plural": "die Ausweise",
-          "en": "the ID card",
-          "image": {
-            "type": "svg",
-            "id": "idcard"
-          },
-          "hint": "der"
-        },
-        {
-          "id": "probe",
-          "de": "Probe",
-          "article": "die",
-          "plural": "die Proben",
-          "en": "the sample",
-          "image": {
-            "type": "svg",
-            "id": "vial"
-          },
-          "hint": "die"
-        }
-      ]
-    },
-    {
-      "id": "build-partizip",
-      "type": "builder",
-      "label": "Build",
-      "title": "Participle at the end",
-      "practice": "build",
-      "instructions": "Build the Perfekt. The participle is the last word.",
-      "items": [
-        {
-          "tiles": [
-            "Die",
-            "Laborantin",
-            "hat",
-            "den",
-            "Scan",
-            "gesehen"
-          ],
-          "answers": [
-            "Die Laborantin hat den Scan gesehen"
-          ],
-          "punct": ".",
-          "modal": "hat",
-          "inf": "gesehen",
-          "question": false,
-          "en": "The doctor has seen the report.",
-          "hint": "gesehen last.",
-          "feedback": {
-            "end": "The participle comes last: gesehen.",
-            "fallback": "hat … gesehen."
-          }
-        },
-        {
-          "tiles": [
-            "Die",
-            "Tochter",
-            "hat",
-            "eingekauft"
-          ],
-          "answers": [
-            "Die Tochter hat eingekauft"
-          ],
-          "punct": ".",
-          "modal": "hat",
-          "inf": "eingekauft",
-          "question": false,
-          "en": "The daughter has done the shopping.",
-          "hint": "eingekauft is one word.",
-          "feedback": {
-            "end": "The participle comes last: eingekauft.",
-            "fallback": "hat eingekauft."
-          }
-        },
-        {
-          "tiles": [
-            "Der",
-            "Besucher",
-            "hat",
-            "bezahlt"
-          ],
-          "answers": [
-            "Der Besucher hat bezahlt"
-          ],
-          "punct": ".",
-          "modal": "hat",
-          "inf": "bezahlt",
-          "question": false,
-          "en": "The patient has paid.",
-          "hint": "bezahlt, no ge-.",
-          "feedback": {
-            "end": "The participle comes last: bezahlt.",
-            "fallback": "hat bezahlt."
-          }
-        },
-        {
-          "tiles": [
-            "Die",
-            "Sekretärin",
-            "hat",
-            "den",
-            "Bericht",
-            "geschrieben"
-          ],
-          "answers": [
-            "Die Sekretärin hat den Bericht geschrieben"
-          ],
-          "punct": ".",
-          "modal": "hat",
-          "inf": "geschrieben",
-          "question": false,
-          "en": "The nurse has written the report.",
-          "hint": "geschrieben last.",
-          "feedback": {
-            "end": "The participle comes last: geschrieben.",
-            "fallback": "hat … geschrieben."
-          }
-        }
-      ]
-    },
-    {
       "id": "transform-partizip",
       "label": "Rewrite",
       "title": "Present to participle",
@@ -1417,106 +5027,6 @@
           "why": "warte → habe gewartet.",
           "tip": "gewartet.",
           "hint": "gewartet."
-        }
-      ]
-    },
-    {
-      "id": "error-partizip",
-      "type": "riddle",
-      "label": "Error",
-      "title": "Finde den Fehler",
-      "practice": "error",
-      "instructions": "The last line builds the participle wrong. Choose the correction.",
-      "items": [
-        {
-          "clues": [
-            "sehen is strong.",
-            "Not -t.",
-            "Der Arzt hat den Befund geseht."
-          ],
-          "options": [
-            "Die Laborantin hat den Scan gesehen.",
-            "Der Arzt hat den Befund geseht.",
-            "Der Arzt hat den Befund sehen."
-          ],
-          "answer": 0,
-          "reveal": "Die Laborantin hat den Scan gesehen.",
-          "hint": "gesehen."
-        },
-        {
-          "clues": [
-            "einkaufen is separable.",
-            "ein- does not split off.",
-            "Die Tochter hat gekauft ein."
-          ],
-          "options": [
-            "Die Tochter hat eingekauft.",
-            "Die Tochter hat gekauft ein.",
-            "Die Tochter hat geeingekauft."
-          ],
-          "answer": 0,
-          "reveal": "Die Tochter hat eingekauft.",
-          "hint": "eingekauft."
-        },
-        {
-          "clues": [
-            "bezahlen has be-.",
-            "No ge-.",
-            "Der Patient hat gebezahlen."
-          ],
-          "options": [
-            "Der Besucher hat bezahlt.",
-            "Der Patient hat gebezahlen.",
-            "Der Patient hat gebezaht."
-          ],
-          "answer": 0,
-          "reveal": "Der Besucher hat bezahlt.",
-          "hint": "bezahlt."
-        },
-        {
-          "clues": [
-            "untersuchen takes no ge-.",
-            "Not geuntersucht.",
-            "Der Arzt hat den Patienten geuntersucht."
-          ],
-          "options": [
-            "Die Laborantin hat die Probe untersucht.",
-            "Der Arzt hat den Patienten geuntersucht.",
-            "Der Arzt hat den Patienten untersuchen."
-          ],
-          "answer": 0,
-          "reveal": "Die Laborantin hat die Probe untersucht.",
-          "hint": "untersucht."
-        },
-        {
-          "clues": [
-            "warten ends in -t.",
-            "Add -et.",
-            "Ich habe gewart."
-          ],
-          "options": [
-            "Ich habe gewartet.",
-            "Ich habe gewart.",
-            "Ich habe gewartt."
-          ],
-          "answer": 0,
-          "reveal": "Ich habe gewartet.",
-          "hint": "gewartet."
-        },
-        {
-          "clues": [
-            "schreiben is strong.",
-            "ei becomes ie.",
-            "Sie hat den Befund geschreibt."
-          ],
-          "options": [
-            "Sie hat den Befund geschrieben.",
-            "Sie hat den Befund geschreibt.",
-            "Sie hat den Befund schreiben."
-          ],
-          "answer": 0,
-          "reveal": "Sie hat den Befund geschrieben.",
-          "hint": "geschrieben."
         }
       ]
     },
@@ -1830,171 +5340,161 @@
       "id": "lernkontrolle",
       "type": "grammar",
       "label": "Test",
-      "title": "Lernkontrolle",
+      "title": "Lernkontrolle · Partizip II",
       "practice": "lernkontrolle",
-      "heroTitle": "Das Partizip",
-      "heroImage": "stethoscope",
+      "heroTitle": "Können Sie die Partizipien bilden?",
+      "heroImage": "clipboard",
       "story": [
-        "Twelve questions. Eighty percent mastered means at least ten correct."
+        "Schwach ge-…-t, stark ge-…-en, trennbar ge- in der Mitte, be-/ver-/-ieren ohne ge-."
       ],
-      "questionRule": "ge- + t, prefix + ge-, no ge-, or ge- + en.",
-      "quizTitle": "Lernkontrolle",
+      "questionRule": "Wählen Sie das richtige Partizip II.",
+      "quizTitle": "Abschluss-Check",
+      "mastery": 0.8,
+      "passMark": 0.8,
       "quiz": [
         {
           "kind": "mc",
-          "q": "sehen → ?",
-          "qEn": "Strong.",
-          "options": [
-            "gesehen",
-            "geseht",
-            "sehen"
-          ],
-          "answer": 0,
-          "why": "gesehen.",
-          "hint": "gesehen."
-        },
-        {
-          "kind": "mc",
-          "q": "einkaufen → ?",
-          "qEn": "Separable.",
-          "options": [
-            "eingekauft",
-            "gekauft ein",
-            "geeingekauft"
-          ],
-          "answer": 0,
-          "why": "eingekauft.",
-          "hint": "eingekauft."
-        },
-        {
-          "kind": "mc",
-          "q": "bezahlen → ?",
-          "qEn": "No ge-.",
-          "options": [
-            "bezahlt",
-            "gebezahlen",
-            "gebezaht"
-          ],
-          "answer": 0,
-          "why": "bezahlt.",
-          "hint": "bezahlt."
-        },
-        {
-          "kind": "mc",
-          "q": "warten → ?",
-          "qEn": "-et.",
-          "options": [
-            "gewartet",
-            "gewart",
-            "gewartt"
-          ],
-          "answer": 0,
-          "why": "gewartet.",
-          "hint": "gewartet."
-        },
-        {
-          "kind": "mc",
-          "q": "untersuchen → ?",
-          "qEn": "No ge-.",
-          "options": [
-            "untersucht",
-            "geuntersucht",
-            "untersuchen"
-          ],
-          "answer": 0,
-          "why": "untersucht.",
-          "hint": "untersucht."
-        },
-        {
-          "kind": "mc",
-          "q": "schreiben → ?",
-          "qEn": "Strong.",
-          "options": [
-            "geschrieben",
-            "geschreibt",
-            "schreiben"
-          ],
-          "answer": 0,
-          "why": "geschrieben.",
-          "hint": "geschrieben."
-        },
-        {
-          "kind": "mc",
-          "q": "trinken → ?",
-          "qEn": "i becomes u.",
-          "options": [
-            "getrunken",
-            "getrinkt",
-            "trinken"
-          ],
-          "answer": 0,
-          "why": "getrunken.",
-          "hint": "getrunken."
-        },
-        {
-          "kind": "mc",
-          "q": "nehmen → ?",
-          "qEn": "e becomes o.",
-          "options": [
-            "genommen",
-            "genehmen",
-            "nehmen"
-          ],
-          "answer": 0,
-          "why": "genommen.",
-          "hint": "genommen."
-        },
-        {
-          "kind": "mc",
-          "q": "anrufen → ?",
-          "qEn": "Separable and strong.",
-          "options": [
-            "angerufen",
-            "gerufen",
-            "anrufen"
-          ],
-          "answer": 0,
-          "why": "angerufen.",
-          "hint": "angerufen."
-        },
-        {
-          "kind": "mc",
-          "q": "bekommen → ?",
-          "qEn": "The participle looks like the infinitive.",
-          "options": [
-            "bekommen",
-            "gebekommen",
-            "bekommt"
-          ],
-          "answer": 0,
-          "why": "bekommen.",
-          "hint": "bekommen."
-        },
-        {
-          "kind": "mc",
-          "q": "öffnen → ?",
-          "qEn": "-et.",
-          "options": [
-            "geöffnet",
-            "geöffent",
-            "öffnen"
-          ],
-          "answer": 0,
-          "why": "geöffnet.",
-          "hint": "geöffnet."
-        },
-        {
-          "kind": "mc",
           "q": "messen → ?",
-          "qEn": "Not gemesst.",
           "options": [
             "gemessen",
             "gemesst",
             "messen"
           ],
           "answer": 0,
-          "why": "gemessen.",
-          "hint": "gemessen."
+          "why": "Stark: gemessen.",
+          "hint": "gemessen"
+        },
+        {
+          "kind": "mc",
+          "q": "wechseln → ?",
+          "options": [
+            "gewechselt",
+            "gewechsel",
+            "wechseln"
+          ],
+          "answer": 0,
+          "why": "Schwach: gewechselt.",
+          "hint": "gewechselt"
+        },
+        {
+          "kind": "mc",
+          "q": "bereitstellen → ?",
+          "options": [
+            "bereitgestellt",
+            "gebereitstellt",
+            "bereitstellt"
+          ],
+          "answer": 0,
+          "why": "Trennbar: bereit-ge-stellt.",
+          "hint": "bereitgestellt"
+        },
+        {
+          "kind": "mc",
+          "q": "sehen → ?",
+          "options": [
+            "gesehen",
+            "geseht",
+            "sehen"
+          ],
+          "answer": 0,
+          "why": "Stark: gesehen.",
+          "hint": "gesehen"
+        },
+        {
+          "kind": "mc",
+          "q": "bezahlen → ?",
+          "options": [
+            "bezahlt",
+            "gebezahlt",
+            "bezahlen"
+          ],
+          "answer": 0,
+          "why": "be- → kein ge-.",
+          "hint": "bezahlt"
+        },
+        {
+          "kind": "mc",
+          "q": "operieren → ?",
+          "options": [
+            "operiert",
+            "geoperiert",
+            "operieren"
+          ],
+          "answer": 0,
+          "why": "-ieren → kein ge-.",
+          "hint": "operiert"
+        },
+        {
+          "kind": "mc",
+          "q": "aufräumen → ?",
+          "options": [
+            "aufgeräumt",
+            "geaufräumt",
+            "aufräumt"
+          ],
+          "answer": 0,
+          "why": "auf-ge-räumt.",
+          "hint": "aufgeräumt"
+        },
+        {
+          "kind": "mc",
+          "q": "nehmen → ?",
+          "options": [
+            "genommen",
+            "genehmt",
+            "nehmen"
+          ],
+          "answer": 0,
+          "why": "genommen.",
+          "hint": "genommen"
+        },
+        {
+          "kind": "mc",
+          "q": "verbinden → ?",
+          "options": [
+            "verbunden",
+            "geverbunden",
+            "verbindet"
+          ],
+          "answer": 0,
+          "why": "ver- → verbunden.",
+          "hint": "verbunden"
+        },
+        {
+          "kind": "mc",
+          "q": "kontrollieren → ?",
+          "options": [
+            "kontrolliert",
+            "gekontrolliert",
+            "kontrollieren"
+          ],
+          "answer": 0,
+          "why": "-ieren → kein ge-.",
+          "hint": "kontrolliert"
+        },
+        {
+          "kind": "mc",
+          "q": "öffnen → ?",
+          "options": [
+            "geöffnet",
+            "geöffnetet",
+            "geoffnet"
+          ],
+          "answer": 0,
+          "why": "geöffnet.",
+          "hint": "geöffnet"
+        },
+        {
+          "kind": "mc",
+          "q": "geben → ?",
+          "options": [
+            "gegeben",
+            "gegebt",
+            "geben"
+          ],
+          "answer": 0,
+          "why": "geben → gegeben.",
+          "hint": "gegeben"
         }
       ]
     },
@@ -2002,32 +5502,55 @@
       "id": "summary",
       "type": "summary",
       "label": "Summary",
-      "title": "gesehen, eingekauft, bezahlt",
+      "title": "Partizip II",
       "reviewStepType": "grammar",
       "redemittel": [
         {
-          "de": "Die Laborantin hat den Scan gesehen.",
-          "en": "The doctor has seen the report."
+          "de": "Lena hat den Blutdruck gemessen.",
+          "en": "Lena measured the blood pressure."
         },
         {
-          "de": "Die Tochter hat eingekauft.",
-          "en": "The daughter has done the shopping."
+          "de": "Sie hat den Verband gewechselt.",
+          "en": "She changed the dressing."
         },
         {
-          "de": "Der Besucher hat bezahlt.",
-          "en": "The patient has paid."
+          "de": "Die Praktikantin hat die Medikamente bereitgestellt.",
+          "en": "The trainee set out the medicines."
         },
         {
-          "de": "Ich habe gewartet.",
-          "en": "I waited."
+          "de": "Der Besucher hat das Parkticket bezahlt.",
+          "en": "The visitor paid the parking ticket."
+        },
+        {
+          "de": "Der Chirurg hat das Knie operiert.",
+          "en": "The surgeon operated on the knee."
+        },
+        {
+          "de": "Wir haben das Dienstzimmer aufgeräumt.",
+          "en": "We tidied the staff room."
         }
       ],
       "messages": [
-        "Look again at ge-, no ge-, and -en.",
-        "Separable verbs keep the prefix. be-, er-, ver- and -ieren take no ge-.",
-        "Sehr gut. gesehen, eingekauft, bezahlt.",
-        "Ausgezeichnet. You can build the participle for the ward."
+        "Schwach: ge-…-t. Stark: ge-…-en (oft Vokalwechsel). Trennbar: ge- in der Mitte.",
+        "Kein ge- bei be-/ver-/ent-/er-/zer-/ge- und bei -ieren (bezahlt, verbunden, operiert).",
+        "Satzklammer: hat … Partizip am Ende.",
+        "Station: gemessen, gewechselt, bereitgestellt, gesehen, geschrieben, genommen."
       ]
     }
+  ],
+  "exerciseLanguage": "de",
+  "scenarios": [
+    "a2-krankenhaus",
+    "a2-hilfsmittel",
+    "a2-vitalwerte",
+    "a2-patienten",
+    "a2-arzneimittel",
+    "a2-untersuchungen",
+    "a2-notfall",
+    "a2-hygiene",
+    "b1-aufnahme",
+    "b1-wunden",
+    "b1-herz",
+    "b1-team"
   ]
 }
