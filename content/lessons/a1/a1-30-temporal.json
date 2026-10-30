@@ -19,12 +19,12 @@
     "der": {
       "de": "der",
       "pos": "article",
-      "en": "the (masculine)"
+      "en": "the (masculine nominative, or feminine dative and genitive)"
     },
     "die": {
       "de": "die",
       "pos": "article",
-      "en": "the (feminine or plural)"
+      "en": "the (feminine, or plural)"
     },
     "das": {
       "de": "das",
@@ -34,40 +34,254 @@
     "dem": {
       "de": "dem",
       "pos": "article",
-      "en": "the (dative)"
+      "en": "the (dative)",
+      "note": "nach and vor take dem when the noun is masculine or neuter."
     },
     "den": {
       "de": "den",
       "pos": "article",
-      "en": "the (masculine accusative or plural dative)"
+      "en": "the (masculine accusative, or plural dative)"
     },
-    "er": {
-      "de": "er",
+    "und": {
+      "de": "und",
+      "pos": "conjunction",
+      "en": "and"
+    },
+    "es": {
+      "de": "es",
       "pos": "pronoun",
-      "en": "he"
+      "en": "it"
     },
-    "ist": {
-      "de": "sein → ist",
-      "pos": "verb",
-      "en": "is"
+    "sie": {
+      "de": "sie",
+      "pos": "pronoun",
+      "en": "she; they; you (formal)"
     },
-    "hat": {
-      "de": "haben → hat",
-      "pos": "verb",
-      "en": "has"
+    "nicht": {
+      "de": "nicht",
+      "pos": "adverb",
+      "en": "not"
     },
-    "anna": {
-      "de": "Anna",
-      "pos": "name",
-      "en": "Anna"
+    "noch": {
+      "de": "noch",
+      "pos": "adverb",
+      "en": "still"
     },
-    "visite": {
-      "de": "Visite",
+    "später": {
+      "de": "später",
+      "pos": "adverb",
+      "en": "later"
+    },
+    "als": {
+      "de": "als",
+      "pos": "conjunction",
+      "en": "than; as"
+    },
+    "danach": {
+      "de": "danach",
+      "pos": "adverb",
+      "en": "after that"
+    },
+    "davor": {
+      "de": "davor",
+      "pos": "adverb",
+      "en": "before that"
+    },
+    "welche": {
+      "de": "welche",
+      "pos": "determiner",
+      "en": "which"
+    },
+    "welcher": {
+      "de": "welcher",
+      "pos": "determiner",
+      "en": "which"
+    },
+    "wann": {
+      "de": "wann",
+      "pos": "adverb",
+      "en": "when"
+    },
+    "auf": {
+      "de": "auf",
+      "pos": "preposition",
+      "en": "on; in (auf Station)"
+    },
+    "leichte": {
+      "de": "leichte",
+      "pos": "adjective",
+      "en": "light (Kost: easy-to-eat diet)"
+    },
+    "neue": {
+      "de": "neue",
+      "pos": "adjective",
+      "en": "new"
+    },
+    "ganze": {
+      "de": "ganze",
+      "pos": "adjective",
+      "en": "whole"
+    },
+    "am": {
+      "de": "am",
+      "pos": "contraction",
+      "en": "on (a day or a part of the day)",
+      "note": "an + dem. Days and parts of the day: am Montag, am Morgen. Not the night.",
+      "emoji": "🟡"
+    },
+    "um": {
+      "de": "um",
+      "pos": "preposition",
+      "en": "at (a clock time)",
+      "note": "Only the clock: um acht Uhr. Not a day, not a month.",
+      "emoji": "🔵"
+    },
+    "im": {
+      "de": "im",
+      "pos": "contraction",
+      "en": "in (a month or a season)",
+      "note": "in + dem. Months and seasons: im April, im Winter. Not a day.",
+      "emoji": "🟢"
+    },
+    "in": {
+      "de": "in",
+      "pos": "preposition",
+      "en": "in",
+      "note": "The night is in der Nacht, never am Nacht.",
+      "emoji": "🟣"
+    },
+    "nach": {
+      "de": "nach",
+      "pos": "preposition",
+      "en": "after",
+      "note": "Takes the dative: nach dem Essen, nach der Blutabnahme."
+    },
+    "vor": {
+      "de": "vor",
+      "pos": "preposition",
+      "en": "before",
+      "note": "Takes the dative: vor dem Essen, vor der Visite."
+    },
+    "seit": {
+      "de": "seit",
+      "pos": "preposition",
+      "en": "since",
+      "note": "A start that is still true now. seit Montag, seit Januar."
+    },
+    "ab": {
+      "de": "ab",
+      "pos": "preposition",
+      "en": "from (a future start)",
+      "note": "The start is still ahead. ab Freitag, ab April."
+    },
+    "von": {
+      "de": "von",
+      "pos": "preposition",
+      "en": "from",
+      "note": "Opens a span. Close it with bis, not nach."
+    },
+    "bis": {
+      "de": "bis",
+      "pos": "preposition",
+      "en": "until; to",
+      "note": "Closes von. von Montag bis Freitag."
+    },
+    "zwischen": {
+      "de": "zwischen",
+      "pos": "preposition",
+      "en": "between",
+      "note": "A window with two edges: zwischen acht und zehn."
+    },
+    "ein": {
+      "de": "ein",
+      "pos": "number",
+      "en": "one"
+    },
+    "zwei": {
+      "de": "zwei",
+      "pos": "number",
+      "en": "two"
+    },
+    "vier": {
+      "de": "vier",
+      "pos": "number",
+      "en": "four"
+    },
+    "fünf": {
+      "de": "fünf",
+      "pos": "number",
+      "en": "five"
+    },
+    "sechs": {
+      "de": "sechs",
+      "pos": "number",
+      "en": "six"
+    },
+    "acht": {
+      "de": "acht",
+      "pos": "number",
+      "en": "eight"
+    },
+    "neun": {
+      "de": "neun",
+      "pos": "number",
+      "en": "nine"
+    },
+    "zehn": {
+      "de": "zehn",
+      "pos": "number",
+      "en": "ten"
+    },
+    "elf": {
+      "de": "elf",
+      "pos": "number",
+      "en": "eleven"
+    },
+    "zwölf": {
+      "de": "zwölf",
+      "pos": "number",
+      "en": "twelve"
+    },
+    "dreizehn": {
+      "de": "dreizehn",
+      "pos": "number",
+      "en": "thirteen"
+    },
+    "vierzehn": {
+      "de": "vierzehn",
+      "pos": "number",
+      "en": "fourteen"
+    },
+    "sechzehn": {
+      "de": "sechzehn",
+      "pos": "number",
+      "en": "sixteen"
+    },
+    "achtzehn": {
+      "de": "achtzehn",
+      "pos": "number",
+      "en": "eighteen"
+    },
+    "zweiundzwanzig": {
+      "de": "zweiundzwanzig",
+      "pos": "number",
+      "en": "twenty-two"
+    },
+    "uhr": {
+      "de": "Uhr",
       "pos": "noun",
-      "en": "ward round",
+      "en": "o'clock; clock",
       "article": "die",
-      "plural": "die Visiten",
-      "emoji": "🩺"
+      "plural": "die Uhren",
+      "emoji": "🕐"
+    },
+    "uhren": {
+      "de": "Uhr",
+      "pos": "noun",
+      "en": "clock",
+      "article": "die",
+      "plural": "die Uhren",
+      "emoji": "🕐"
     },
     "montag": {
       "de": "Montag",
@@ -77,145 +291,29 @@
       "plural": "die Montage",
       "emoji": "📅"
     },
-    "nimmt": {
-      "de": "nehmen → nimmt",
-      "pos": "verb",
-      "en": "takes"
-    },
-    "tablette": {
-      "de": "Tablette",
+    "dienstag": {
+      "de": "Dienstag",
       "pos": "noun",
-      "en": "tablet",
-      "article": "die",
-      "plural": "die Tabletten",
-      "emoji": "💊"
-    },
-    "um": {
-      "de": "um",
-      "pos": "preposition",
-      "en": "at (clock time)"
-    },
-    "acht": {
-      "de": "acht",
-      "pos": "number",
-      "en": "eight"
-    },
-    "uhr": {
-      "de": "Uhr",
-      "pos": "noun",
-      "en": "o'clock",
-      "article": "die",
-      "plural": "die Uhren",
-      "emoji": "🕐"
-    },
-    "im": {
-      "de": "im",
-      "pos": "contraction",
-      "en": "in + dem"
-    },
-    "winter": {
-      "de": "Winter",
-      "pos": "noun",
-      "en": "winter",
+      "en": "Tuesday",
       "article": "der",
-      "plural": "die Winter",
-      "emoji": "❄️"
+      "plural": "die Dienstage",
+      "emoji": "📅"
     },
-    "bleibt": {
-      "de": "bleiben → bleibt",
-      "pos": "verb",
-      "en": "stays"
-    },
-    "zimmer": {
-      "de": "Zimmer",
+    "mittwoch": {
+      "de": "Mittwoch",
       "pos": "noun",
-      "en": "room",
-      "article": "das",
-      "plural": "die Zimmer",
-      "emoji": "🚪"
-    },
-    "in": {
-      "de": "in",
-      "pos": "preposition",
-      "en": "in"
-    },
-    "nacht": {
-      "de": "Nacht",
-      "pos": "noun",
-      "en": "night",
-      "article": "die",
-      "plural": "die Nächte",
-      "emoji": "🌙"
-    },
-    "misst": {
-      "de": "messen → misst",
-      "pos": "verb",
-      "en": "measures"
-    },
-    "pflegekraft": {
-      "de": "Pflegekraft",
-      "pos": "noun",
-      "en": "nurse",
-      "article": "die",
-      "plural": "die Pflegekräfte",
-      "emoji": "🧑‍⚕️"
-    },
-    "fieber": {
-      "de": "Fieber",
-      "pos": "noun",
-      "en": "fever",
-      "article": "das",
-      "plural": "Fieber",
-      "emoji": "🤒"
-    },
-    "nach": {
-      "de": "nach",
-      "pos": "preposition",
-      "en": "after"
-    },
-    "essen": {
-      "de": "Essen",
-      "pos": "noun",
-      "en": "meal",
-      "article": "das",
-      "plural": "die Essen",
-      "emoji": "🍽️"
-    },
-    "vor": {
-      "de": "vor",
-      "pos": "preposition",
-      "en": "before"
-    },
-    "trinkt": {
-      "de": "trinken → trinkt",
-      "pos": "verb",
-      "en": "drinks"
-    },
-    "wasser": {
-      "de": "Wasser",
-      "pos": "noun",
-      "en": "water",
-      "article": "das",
-      "plural": "Wasser",
-      "emoji": "💧"
-    },
-    "seit": {
-      "de": "seit",
-      "pos": "preposition",
-      "en": "since"
-    },
-    "husten": {
-      "de": "Husten",
-      "pos": "noun",
-      "en": "cough",
+      "en": "Wednesday",
       "article": "der",
-      "plural": "Husten",
-      "emoji": "😷"
+      "plural": "die Mittwoche",
+      "emoji": "📅"
     },
-    "ab": {
-      "de": "ab",
-      "pos": "preposition",
-      "en": "from (a starting point)"
+    "donnerstag": {
+      "de": "Donnerstag",
+      "pos": "noun",
+      "en": "Thursday",
+      "article": "der",
+      "plural": "die Donnerstage",
+      "emoji": "📅"
     },
     "freitag": {
       "de": "Freitag",
@@ -225,20 +323,986 @@
       "plural": "die Freitage",
       "emoji": "📅"
     },
-    "zu": {
-      "de": "zu",
-      "pos": "preposition",
-      "en": "to; at"
+    "samstag": {
+      "de": "Samstag",
+      "pos": "noun",
+      "en": "Saturday",
+      "article": "der",
+      "plural": "die Samstage",
+      "emoji": "📅"
     },
-    "hause": {
-      "de": "zu Hause",
-      "pos": "adverb",
-      "en": "at home"
+    "sonntag": {
+      "de": "Sonntag",
+      "pos": "noun",
+      "en": "Sunday",
+      "article": "der",
+      "plural": "die Sonntage",
+      "emoji": "📅"
     },
-    "am": {
-      "de": "am",
-      "pos": "contraction",
-      "en": "an + dem; on a day"
+    "januar": {
+      "de": "Januar",
+      "pos": "noun",
+      "en": "January",
+      "article": "der",
+      "plural": "die Januare",
+      "emoji": "📅"
+    },
+    "februar": {
+      "de": "Februar",
+      "pos": "noun",
+      "en": "February",
+      "article": "der",
+      "plural": "die Februare",
+      "emoji": "📅"
+    },
+    "märz": {
+      "de": "März",
+      "pos": "noun",
+      "en": "March",
+      "article": "der",
+      "plural": "die Märze",
+      "emoji": "📅"
+    },
+    "april": {
+      "de": "April",
+      "pos": "noun",
+      "en": "April",
+      "article": "der",
+      "plural": "die Aprile",
+      "emoji": "📅"
+    },
+    "mai": {
+      "de": "Mai",
+      "pos": "noun",
+      "en": "May",
+      "article": "der",
+      "plural": "die Maie",
+      "emoji": "📅"
+    },
+    "juni": {
+      "de": "Juni",
+      "pos": "noun",
+      "en": "June",
+      "article": "der",
+      "plural": "die Junis",
+      "emoji": "📅"
+    },
+    "august": {
+      "de": "August",
+      "pos": "noun",
+      "en": "August",
+      "article": "der",
+      "plural": "die Auguste",
+      "emoji": "📅"
+    },
+    "september": {
+      "de": "September",
+      "pos": "noun",
+      "en": "September",
+      "article": "der",
+      "plural": "die September",
+      "emoji": "📅"
+    },
+    "oktober": {
+      "de": "Oktober",
+      "pos": "noun",
+      "en": "October",
+      "article": "der",
+      "plural": "die Oktober",
+      "emoji": "📅"
+    },
+    "november": {
+      "de": "November",
+      "pos": "noun",
+      "en": "November",
+      "article": "der",
+      "plural": "die November",
+      "emoji": "📅"
+    },
+    "dezember": {
+      "de": "Dezember",
+      "pos": "noun",
+      "en": "December",
+      "article": "der",
+      "plural": "die Dezember",
+      "emoji": "📅"
+    },
+    "morgen": {
+      "de": "Morgen",
+      "pos": "noun",
+      "en": "morning",
+      "article": "der",
+      "plural": "die Morgen",
+      "emoji": "📅"
+    },
+    "vormittag": {
+      "de": "Vormittag",
+      "pos": "noun",
+      "en": "late morning",
+      "article": "der",
+      "plural": "die Vormittage",
+      "emoji": "📅"
+    },
+    "nachmittag": {
+      "de": "Nachmittag",
+      "pos": "noun",
+      "en": "afternoon",
+      "article": "der",
+      "plural": "die Nachmittage",
+      "emoji": "📅"
+    },
+    "winter": {
+      "de": "Winter",
+      "pos": "noun",
+      "en": "winter",
+      "article": "der",
+      "plural": "die Winter",
+      "emoji": "📅"
+    },
+    "frühling": {
+      "de": "Frühling",
+      "pos": "noun",
+      "en": "spring",
+      "article": "der",
+      "plural": "die Frühlinge",
+      "emoji": "📅"
+    },
+    "sommer": {
+      "de": "Sommer",
+      "pos": "noun",
+      "en": "summer",
+      "article": "der",
+      "plural": "die Sommer",
+      "emoji": "📅"
+    },
+    "herbst": {
+      "de": "Herbst",
+      "pos": "noun",
+      "en": "autumn",
+      "article": "der",
+      "plural": "die Herbste",
+      "emoji": "📅"
+    },
+    "nacht": {
+      "de": "Nacht",
+      "pos": "noun",
+      "en": "night",
+      "article": "die",
+      "plural": "die Nächte",
+      "emoji": "🌙",
+      "note": "Never am Nacht. The lamp says in der Nacht."
+    },
+    "wochentag": {
+      "de": "Wochentag",
+      "pos": "noun",
+      "en": "weekday",
+      "article": "der",
+      "plural": "die Wochentage",
+      "emoji": "📅"
+    },
+    "tag": {
+      "de": "Tag",
+      "pos": "noun",
+      "en": "day",
+      "article": "der",
+      "plural": "die Tage",
+      "emoji": "📅"
+    },
+    "woche": {
+      "de": "Woche",
+      "pos": "noun",
+      "en": "week",
+      "article": "die",
+      "plural": "die Wochen",
+      "emoji": "📅"
+    },
+    "tageszeit": {
+      "de": "Tageszeit",
+      "pos": "noun",
+      "en": "part of the day",
+      "article": "die",
+      "plural": "die Tageszeiten",
+      "emoji": "🩺"
+    },
+    "uhrzeit": {
+      "de": "Uhrzeit",
+      "pos": "noun",
+      "en": "clock time",
+      "article": "die",
+      "plural": "die Uhrzeiten",
+      "emoji": "🕐"
+    },
+    "jahreszeit": {
+      "de": "Jahreszeit",
+      "pos": "noun",
+      "en": "season",
+      "article": "die",
+      "plural": "die Jahreszeiten",
+      "emoji": "🩺"
+    },
+    "monat": {
+      "de": "Monat",
+      "pos": "noun",
+      "en": "month",
+      "article": "der",
+      "plural": "die Monate",
+      "emoji": "🩺"
+    },
+    "zeit": {
+      "de": "Zeit",
+      "pos": "noun",
+      "en": "time",
+      "article": "die",
+      "plural": "die Zeiten",
+      "emoji": "🩺"
+    },
+    "zeiten": {
+      "de": "Zeit",
+      "pos": "noun",
+      "en": "time",
+      "article": "die",
+      "plural": "die Zeiten",
+      "emoji": "🩺"
+    },
+    "zukunft": {
+      "de": "Zukunft",
+      "pos": "noun",
+      "en": "future",
+      "article": "die",
+      "plural": "die Zukünfte",
+      "emoji": "🩺"
+    },
+    "start": {
+      "de": "Start",
+      "pos": "noun",
+      "en": "start",
+      "article": "der",
+      "plural": "die Starts",
+      "emoji": "🩺"
+    },
+    "spanne": {
+      "de": "Spanne",
+      "pos": "noun",
+      "en": "span",
+      "article": "die",
+      "plural": "die Spannen",
+      "emoji": "🩺"
+    },
+    "fenster": {
+      "de": "Fenster",
+      "pos": "noun",
+      "en": "window",
+      "article": "das",
+      "plural": "die Fenster",
+      "emoji": "🩺"
+    },
+    "form": {
+      "de": "Form",
+      "pos": "noun",
+      "en": "form",
+      "article": "die",
+      "plural": "die Formen",
+      "emoji": "🩺"
+    },
+    "präposition": {
+      "de": "Präposition",
+      "pos": "noun",
+      "en": "preposition",
+      "article": "die",
+      "plural": "die Präpositionen",
+      "emoji": "🩺"
+    },
+    "bild": {
+      "de": "Bild",
+      "pos": "noun",
+      "en": "picture",
+      "article": "das",
+      "plural": "die Bilder",
+      "emoji": "🩺"
+    },
+    "satz": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "article": "der",
+      "plural": "die Sätze",
+      "emoji": "🩺"
+    },
+    "sätze": {
+      "de": "Satz",
+      "pos": "noun",
+      "en": "sentence",
+      "article": "der",
+      "plural": "die Sätze",
+      "emoji": "🩺"
+    },
+    "fehler": {
+      "de": "Fehler",
+      "pos": "noun",
+      "en": "mistake",
+      "article": "der",
+      "plural": "die Fehler",
+      "emoji": "🩺"
+    },
+    "lernkontrolle": {
+      "de": "Lernkontrolle",
+      "pos": "noun",
+      "en": "chapter test",
+      "article": "die",
+      "plural": "die Lernkontrollen",
+      "emoji": "🩺"
+    },
+    "stationsleitung": {
+      "de": "Stationsleitung",
+      "pos": "noun",
+      "en": "ward manager",
+      "article": "die",
+      "plural": "die Stationsleitungen",
+      "emoji": "👩‍⚕️"
+    },
+    "schichtleitung": {
+      "de": "Schichtleitung",
+      "pos": "noun",
+      "en": "shift lead",
+      "article": "die",
+      "plural": "die Schichtleitungen",
+      "emoji": "🩺"
+    },
+    "pflegekraft": {
+      "de": "Pflegekraft",
+      "pos": "noun",
+      "en": "nurse",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "emoji": "👩‍⚕️"
+    },
+    "nachtschwester": {
+      "de": "Nachtschwester",
+      "pos": "noun",
+      "en": "night nurse",
+      "article": "die",
+      "plural": "die Nachtschwestern",
+      "emoji": "🌙",
+      "image": {
+        "type": "svg",
+        "id": "nurse"
+      }
+    },
+    "praktikantin": {
+      "de": "Praktikantin",
+      "pos": "noun",
+      "en": "trainee nurse",
+      "article": "die",
+      "plural": "die Praktikantinnen",
+      "emoji": "🩺"
+    },
+    "praxisanleiterin": {
+      "de": "Praxisanleiterin",
+      "pos": "noun",
+      "en": "practice supervisor",
+      "article": "die",
+      "plural": "die Praxisanleiterinnen",
+      "emoji": "🩺"
+    },
+    "laborantin": {
+      "de": "Laborantin",
+      "pos": "noun",
+      "en": "lab technician",
+      "article": "die",
+      "plural": "die Laborantinnen",
+      "emoji": "🩺"
+    },
+    "aufnahmekraft": {
+      "de": "Aufnahmekraft",
+      "pos": "noun",
+      "en": "admissions nurse",
+      "article": "die",
+      "plural": "die Aufnahmekräfte",
+      "emoji": "🩺"
+    },
+    "wundexperte": {
+      "de": "Wundexperte",
+      "pos": "noun",
+      "en": "wound specialist",
+      "article": "der",
+      "plural": "die Wundexperten",
+      "emoji": "🩺"
+    },
+    "kardiologin": {
+      "de": "Kardiologin",
+      "pos": "noun",
+      "en": "cardiologist",
+      "article": "die",
+      "plural": "die Kardiologinnen",
+      "emoji": "🩺"
+    },
+    "betreuerin": {
+      "de": "Betreuerin",
+      "pos": "noun",
+      "en": "carer",
+      "article": "die",
+      "plural": "die Betreuerinnen",
+      "emoji": "🩺"
+    },
+    "bewohner": {
+      "de": "Bewohner",
+      "pos": "noun",
+      "en": "resident",
+      "article": "der",
+      "plural": "die Bewohner",
+      "emoji": "🩺"
+    },
+    "bewohnerin": {
+      "de": "Bewohnerin",
+      "pos": "noun",
+      "en": "resident",
+      "article": "die",
+      "plural": "die Bewohnerinnen",
+      "emoji": "🩺"
+    },
+    "patient": {
+      "de": "Patient",
+      "pos": "noun",
+      "en": "patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "emoji": "🩺"
+    },
+    "patientin": {
+      "de": "Patientin",
+      "pos": "noun",
+      "en": "patient",
+      "article": "die",
+      "plural": "die Patientinnen",
+      "emoji": "🩺"
+    },
+    "kollegin": {
+      "de": "Kollegin",
+      "pos": "noun",
+      "en": "colleague",
+      "article": "die",
+      "plural": "die Kolleginnen",
+      "emoji": "🩺"
+    },
+    "vater": {
+      "de": "Vater",
+      "pos": "noun",
+      "en": "father",
+      "article": "der",
+      "plural": "die Väter",
+      "emoji": "🩺"
+    },
+    "dienstplan": {
+      "de": "Dienstplan",
+      "pos": "noun",
+      "en": "duty roster",
+      "article": "der",
+      "plural": "die Dienstpläne",
+      "emoji": "📅",
+      "image": {
+        "type": "svg",
+        "id": "calendar"
+      },
+      "note": "A2 Modul 1 Auf Station."
+    },
+    "dienst": {
+      "de": "Dienst",
+      "pos": "noun",
+      "en": "duty; shift",
+      "article": "der",
+      "plural": "die Dienste",
+      "emoji": "🩺"
+    },
+    "frühschicht": {
+      "de": "Frühschicht",
+      "pos": "noun",
+      "en": "early shift",
+      "article": "die",
+      "plural": "die Frühschichten",
+      "emoji": "🩺"
+    },
+    "schicht": {
+      "de": "Schicht",
+      "pos": "noun",
+      "en": "shift",
+      "article": "die",
+      "plural": "die Schichten",
+      "emoji": "🩺"
+    },
+    "nachtschicht": {
+      "de": "Nachtschicht",
+      "pos": "noun",
+      "en": "night shift",
+      "article": "die",
+      "plural": "die Nachtschichten",
+      "emoji": "🩺"
+    },
+    "station": {
+      "de": "Station",
+      "pos": "noun",
+      "en": "ward",
+      "article": "die",
+      "plural": "die Stationen",
+      "emoji": "🩺"
+    },
+    "visite": {
+      "de": "Visite",
+      "pos": "noun",
+      "en": "ward round",
+      "article": "die",
+      "plural": "die Visiten",
+      "emoji": "🩺"
+    },
+    "übergabe": {
+      "de": "Übergabe",
+      "pos": "noun",
+      "en": "handover",
+      "article": "die",
+      "plural": "die Übergaben",
+      "emoji": "📋",
+      "image": {
+        "type": "svg",
+        "id": "clipboard"
+      },
+      "note": "B1 Modul 8."
+    },
+    "kurve": {
+      "de": "Kurve",
+      "pos": "noun",
+      "en": "observation chart",
+      "article": "die",
+      "plural": "die Kurven",
+      "emoji": "📋"
+    },
+    "tablette": {
+      "de": "Tablette",
+      "pos": "noun",
+      "en": "tablet",
+      "article": "die",
+      "plural": "die Tabletten",
+      "emoji": "💊",
+      "image": {
+        "type": "svg",
+        "id": "tablet"
+      }
+    },
+    "tropfen": {
+      "de": "Tropfen",
+      "pos": "noun",
+      "en": "drop",
+      "article": "der",
+      "plural": "die Tropfen",
+      "emoji": "💧"
+    },
+    "medikamente": {
+      "de": "Medikament",
+      "pos": "noun",
+      "en": "medication",
+      "article": "das",
+      "plural": "die Medikamente",
+      "emoji": "💊"
+    },
+    "thermometer": {
+      "de": "Thermometer",
+      "pos": "noun",
+      "en": "thermometer",
+      "article": "das",
+      "plural": "die Thermometer",
+      "emoji": "🌡️",
+      "image": {
+        "type": "svg",
+        "id": "thermometer"
+      }
+    },
+    "vitalwerte": {
+      "de": "Vitalwerte",
+      "pos": "noun",
+      "en": "vital signs",
+      "article": "die",
+      "plural": "die Vitalwerte",
+      "emoji": "💓"
+    },
+    "puls": {
+      "de": "Puls",
+      "pos": "noun",
+      "en": "pulse",
+      "article": "der",
+      "plural": "die Pulse",
+      "emoji": "🩺"
+    },
+    "husten": {
+      "de": "Husten",
+      "pos": "noun",
+      "en": "cough",
+      "article": "der",
+      "plural": "die Husten",
+      "emoji": "🩺"
+    },
+    "bett": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "emoji": "🛏️",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "betten": {
+      "de": "Bett",
+      "pos": "noun",
+      "en": "bed",
+      "article": "das",
+      "plural": "die Betten",
+      "emoji": "🛏️",
+      "image": {
+        "type": "svg",
+        "id": "bed"
+      }
+    },
+    "waschen": {
+      "de": "Waschen",
+      "pos": "noun",
+      "en": "washing",
+      "article": "das",
+      "plural": "die Waschen",
+      "emoji": "🩺"
+    },
+    "hände": {
+      "de": "Hand",
+      "pos": "noun",
+      "en": "hand",
+      "article": "die",
+      "plural": "die Hände",
+      "emoji": "🩺"
+    },
+    "kost": {
+      "de": "Kost",
+      "pos": "noun",
+      "en": "diet",
+      "article": "die",
+      "plural": "die Kostformen",
+      "emoji": "🩺"
+    },
+    "essen": {
+      "de": "Essen",
+      "pos": "noun",
+      "en": "meal",
+      "article": "das",
+      "plural": "die Essen",
+      "emoji": "🩺"
+    },
+    "frühstück": {
+      "de": "Frühstück",
+      "pos": "noun",
+      "en": "breakfast",
+      "article": "das",
+      "plural": "die Frühstücke",
+      "emoji": "🩺"
+    },
+    "mittagessen": {
+      "de": "Mittagessen",
+      "pos": "noun",
+      "en": "lunch",
+      "article": "das",
+      "plural": "die Mittagessen",
+      "emoji": "🩺"
+    },
+    "wasser": {
+      "de": "Wasser",
+      "pos": "noun",
+      "en": "water",
+      "article": "das",
+      "plural": "die Wasser",
+      "emoji": "🩺"
+    },
+    "kalender": {
+      "de": "Kalender",
+      "pos": "noun",
+      "en": "calendar",
+      "article": "der",
+      "plural": "die Kalender",
+      "emoji": "📅",
+      "image": {
+        "type": "svg",
+        "id": "calendar"
+      }
+    },
+    "beschäftigung": {
+      "de": "Beschäftigung",
+      "pos": "noun",
+      "en": "activity",
+      "article": "die",
+      "plural": "die Beschäftigungen",
+      "emoji": "🩺"
+    },
+    "hilfsmittel": {
+      "de": "Hilfsmittel",
+      "pos": "noun",
+      "en": "aid",
+      "article": "das",
+      "plural": "die Hilfsmittel",
+      "emoji": "🩺"
+    },
+    "rollstuhl": {
+      "de": "Rollstuhl",
+      "pos": "noun",
+      "en": "wheelchair",
+      "article": "der",
+      "plural": "die Rollstühle",
+      "emoji": "🩺"
+    },
+    "kontrolle": {
+      "de": "Kontrolle",
+      "pos": "noun",
+      "en": "check",
+      "article": "die",
+      "plural": "die Kontrollen",
+      "emoji": "🩺"
+    },
+    "blutabnahme": {
+      "de": "Blutabnahme",
+      "pos": "noun",
+      "en": "blood draw",
+      "article": "die",
+      "plural": "die Blutabnahmen",
+      "emoji": "🩺"
+    },
+    "ekg": {
+      "de": "EKG",
+      "pos": "noun",
+      "en": "ECG",
+      "article": "das",
+      "plural": "die EKGs",
+      "emoji": "🩺"
+    },
+    "sturz": {
+      "de": "Sturz",
+      "pos": "noun",
+      "en": "fall",
+      "article": "der",
+      "plural": "die Stürze",
+      "emoji": "🩺"
+    },
+    "sturzprotokoll": {
+      "de": "Sturzprotokoll",
+      "pos": "noun",
+      "en": "fall report",
+      "article": "das",
+      "plural": "die Sturzprotokolle",
+      "emoji": "🩺"
+    },
+    "verband": {
+      "de": "Verband",
+      "pos": "noun",
+      "en": "dressing",
+      "article": "der",
+      "plural": "die Verbände",
+      "emoji": "🩺"
+    },
+    "verbandswechsel": {
+      "de": "Verbandswechsel",
+      "pos": "noun",
+      "en": "dressing change",
+      "article": "der",
+      "plural": "die Verbandswechsel",
+      "emoji": "🩺"
+    },
+    "herzoperation": {
+      "de": "Herzoperation",
+      "pos": "noun",
+      "en": "heart operation",
+      "article": "die",
+      "plural": "die Herzoperationen",
+      "emoji": "🩺"
+    },
+    "aufnahmegespräch": {
+      "de": "Aufnahmegespräch",
+      "pos": "noun",
+      "en": "admission interview",
+      "article": "das",
+      "plural": "die Aufnahmegespräche",
+      "emoji": "🩺"
+    },
+    "fragebogen": {
+      "de": "Fragebogen",
+      "pos": "noun",
+      "en": "questionnaire",
+      "article": "der",
+      "plural": "die Fragebögen",
+      "emoji": "🩺"
+    },
+    "biografie": {
+      "de": "Biografie",
+      "pos": "noun",
+      "en": "biography",
+      "article": "die",
+      "plural": "die Biografien",
+      "emoji": "🩺"
+    },
+    "tagesstruktur": {
+      "de": "Tagesstruktur",
+      "pos": "noun",
+      "en": "daily structure",
+      "article": "die",
+      "plural": "die Tagesstrukturen",
+      "emoji": "🩺"
+    },
+    "pflegeplanung": {
+      "de": "Pflegeplanung",
+      "pos": "noun",
+      "en": "care plan",
+      "article": "die",
+      "plural": "die Pflegeplanungen",
+      "emoji": "🩺"
+    },
+    "pflegebericht": {
+      "de": "Pflegebericht",
+      "pos": "noun",
+      "en": "nursing report",
+      "article": "der",
+      "plural": "die Pflegeberichte",
+      "emoji": "🩺"
+    },
+    "teambesprechung": {
+      "de": "Teambesprechung",
+      "pos": "noun",
+      "en": "team meeting",
+      "article": "die",
+      "plural": "die Teambesprechungen",
+      "emoji": "🩺"
+    },
+    "ist": {
+      "de": "sein → ist",
+      "pos": "form",
+      "en": "is"
+    },
+    "sind": {
+      "de": "sein → sind",
+      "pos": "form",
+      "en": "are"
+    },
+    "hat": {
+      "de": "haben → hat",
+      "pos": "form",
+      "en": "has"
+    },
+    "gilt": {
+      "de": "gelten → gilt",
+      "pos": "form",
+      "en": "applies; is in force"
+    },
+    "beginnt": {
+      "de": "beginnen → beginnt",
+      "pos": "form",
+      "en": "begins"
+    },
+    "kontrolliert": {
+      "de": "kontrollieren → kontrolliert",
+      "pos": "form",
+      "en": "checks"
+    },
+    "macht": {
+      "de": "machen → macht",
+      "pos": "form",
+      "en": "makes; does"
+    },
+    "kommt": {
+      "de": "kommen → kommt",
+      "pos": "form",
+      "en": "comes"
+    },
+    "desinfiziert": {
+      "de": "desinfizieren → desinfiziert",
+      "pos": "form",
+      "en": "disinfects"
+    },
+    "steht": {
+      "de": "stehen → steht",
+      "pos": "form",
+      "en": "stands; is entered"
+    },
+    "plant": {
+      "de": "planen → plant",
+      "pos": "form",
+      "en": "plans"
+    },
+    "gibt": {
+      "de": "geben → gibt",
+      "pos": "form",
+      "en": "gives; hands over"
+    },
+    "wechselt": {
+      "de": "wechseln → wechselt",
+      "pos": "form",
+      "en": "changes"
+    },
+    "richtet": {
+      "de": "richten → richtet",
+      "pos": "form",
+      "en": "prepares (medication)"
+    },
+    "prüft": {
+      "de": "prüfen → prüft",
+      "pos": "form",
+      "en": "checks"
+    },
+    "bleibt": {
+      "de": "bleiben → bleibt",
+      "pos": "form",
+      "en": "stays"
+    },
+    "ruht": {
+      "de": "ruhen → ruht",
+      "pos": "form",
+      "en": "rests"
+    },
+    "misst": {
+      "de": "messen → misst",
+      "pos": "form",
+      "en": "measures"
+    },
+    "folgt": {
+      "de": "folgen → folgt",
+      "pos": "form",
+      "en": "follows"
+    },
+    "nimmt": {
+      "de": "nehmen → nimmt",
+      "pos": "form",
+      "en": "takes"
+    },
+    "trinkt": {
+      "de": "trinken → trinkt",
+      "pos": "form",
+      "en": "drinks"
+    },
+    "schreibt": {
+      "de": "schreiben → schreibt",
+      "pos": "form",
+      "en": "writes"
+    },
+    "liest": {
+      "de": "lesen → liest",
+      "pos": "form",
+      "en": "reads"
+    },
+    "startet": {
+      "de": "starten → startet",
+      "pos": "form",
+      "en": "starts"
+    },
+    "finde": {
+      "de": "finden → finde",
+      "pos": "form",
+      "en": "find"
+    },
+    "schreiben": {
+      "de": "schreiben",
+      "pos": "form",
+      "en": "write"
     }
   },
   "id": "a1-30-temporal",
@@ -255,68 +1319,92 @@
       "id": "overview",
       "type": "overview",
       "label": "Überblick",
-      "title": "Lesson intro",
+      "title": "Der Dienstplan",
       "minutes": 40,
       "learn": [
-        "am for days and parts of the day: am Montag, am Morgen. The night is the exception: in der Nacht.",
-        "um for the clock: um acht Uhr. im for months and seasons: im Winter.",
-        "nach and vor take the dative: nach dem Essen, vor dem Essen.",
-        "seit looks back to a start that still holds. ab looks forward to a start. von … bis is the span."
+        "am for a day or a part of the day: am Montag, am Morgen. The night is the exception: in der Nacht. On the ward that is the Dienstplan (Menschen im Beruf – Pflege, A2 Modul 1).",
+        "um for the clock: um acht Uhr. im for a month or a season: im Winter, im Mai. The Kardiologin names a month that way (B1 Modul 2).",
+        "nach and vor take the dative: nach dem Essen, vor der Visite. A procedure works the same way: nach der Blutabnahme (A2 Modul 6).",
+        "seit looks back to a start that still holds. ab looks forward to a start. von … bis is the span on the Pflegeplanung (B1 Modul 6). zwischen is a window."
       ],
       "vocab": [
         {
-          "de": "Visite",
-          "article": "die",
-          "plural": "die Visiten",
-          "en": "ward round",
-          "emoji": "🩺",
-          "glossaryKey": "visite"
-        },
-        {
-          "de": "Montag",
+          "de": "Dienstplan",
           "article": "der",
-          "plural": "die Montage",
-          "en": "Monday",
+          "plural": "die Dienstpläne",
+          "en": "duty roster",
           "emoji": "📅",
-          "glossaryKey": "montag"
+          "glossaryKey": "dienstplan",
+          "image": {
+            "type": "svg",
+            "id": "calendar"
+          }
         },
         {
-          "de": "Nacht",
+          "de": "Tablette",
           "article": "die",
-          "plural": "die Nächte",
-          "en": "night",
-          "emoji": "🌙",
-          "glossaryKey": "nacht"
+          "plural": "die Tabletten",
+          "en": "tablet",
+          "emoji": "💊",
+          "glossaryKey": "tablette",
+          "image": {
+            "type": "svg",
+            "id": "tablet"
+          }
         },
         {
-          "de": "Essen",
+          "de": "Thermometer",
           "article": "das",
-          "plural": "die Essen",
-          "en": "meal",
-          "emoji": "🍽️",
-          "glossaryKey": "essen"
+          "plural": "die Thermometer",
+          "en": "thermometer",
+          "emoji": "🌡️",
+          "glossaryKey": "thermometer",
+          "image": {
+            "type": "svg",
+            "id": "thermometer"
+          }
         },
         {
-          "de": "Husten",
-          "article": "der",
-          "plural": "Husten",
-          "en": "cough",
-          "emoji": "😷",
-          "glossaryKey": "husten"
+          "de": "Bett",
+          "article": "das",
+          "plural": "die Betten",
+          "en": "bed",
+          "emoji": "🛏️",
+          "glossaryKey": "bett",
+          "image": {
+            "type": "svg",
+            "id": "bed"
+          }
         },
         {
-          "de": "Winter",
-          "article": "der",
-          "plural": "die Winter",
-          "en": "winter",
-          "emoji": "❄️",
-          "glossaryKey": "winter"
+          "de": "Nachtschwester",
+          "article": "die",
+          "plural": "die Nachtschwestern",
+          "en": "night nurse",
+          "emoji": "🌙",
+          "glossaryKey": "nachtschwester",
+          "image": {
+            "type": "svg",
+            "id": "nurse"
+          }
+        },
+        {
+          "de": "Übergabe",
+          "article": "die",
+          "plural": "die Übergaben",
+          "en": "handover",
+          "emoji": "📋",
+          "glossaryKey": "übergabe",
+          "image": {
+            "type": "svg",
+            "id": "clipboard"
+          }
         }
       ],
       "text": {
-        "title": "Am Montag",
-        "de": "Die Visite ist am Montag. Er nimmt die Tablette um acht Uhr. Im Winter bleibt er im Zimmer. In der Nacht misst die Pflegekraft das Fieber. Nach dem Essen nimmt er die Tablette. Vor dem Essen trinkt er Wasser. Seit Montag hat er Husten. Ab Freitag ist er zu Hause.",
-        "en": "The ward round is on Monday. He takes the tablet at eight o'clock. In winter he stays in the room. At night the nurse takes the temperature. After the meal he takes the tablet. Before the meal he drinks water. He has had a cough since Monday. From Friday he is at home."
+        "title": "Der Dienstplan",
+        "de": "Der Dienstplan gilt am Donnerstag. Die Frühschicht beginnt um fünf Uhr. Im Februar kontrolliert die Nachtschwester die Vitalwerte. Am Vormittag macht die Pflegekraft die Betten. Nach dem Waschen kommt die Tablette. Vor der Schicht desinfiziert die Praktikantin die Hände. Seit Donnerstag gilt die neue Kost. Ab Samstag steht die Beschäftigung im Kalender.",
+        "en": "The duty roster applies on Thursday. The early shift starts at five. In February the night nurse checks the vital signs. In the late morning the nurse makes the beds. The tablet comes after washing. Before the shift the trainee disinfects her hands. The new diet has applied since Thursday. From Saturday the activity is in the calendar. Situations: A2 Modul 1 Auf Station, Modul 3 Vitalwerte, Modul 4 Betten machen and Kostformen, Modul 5 Medikamente, Modul 8 Händedesinfektion, Modul 2 Beschäftigungen."
       }
     },
     {
@@ -325,14 +1413,17 @@
       "label": "Grammar",
       "title": "am, um, im",
       "practice": "choose",
-      "heroTitle": "The time word chooses the preposition",
+      "heroTitle": "Vier Uhren auf Station",
       "heroImage": "calendar",
       "story": [
-        "<b>am</b> Montag, <b>am</b> Morgen, but <b>in der</b> Nacht. <b>um</b> acht Uhr. <b>im</b> Winter, <b>im</b> Mai.",
-        "<b>vor</b> and <b>nach</b> take the dative: vor dem Essen, nach dem Essen.",
-        "<b>seit</b> Montag means it started then and is still true. <b>ab</b> Freitag means it will start then. <b>von</b> Montag <b>bis</b> Freitag is the whole span."
+        "On Station the Praxisanleiterin opens the medication cupboard from <b>Menschen im Beruf – Pflege</b> (A2 Modul 1, Auf Station). Four clocks sit on the door. Each clock hears only one kind of time. Learn the face, and the preposition is decided before anyone speaks.",
+        "The <b>day stamp</b> is yellow. The Dienstplan stamps a day or a part of the day: <b>am</b> Montag, <b>am</b> Morgen. The Stationsleitung writes the Frühschicht that way. The stamp refuses the night. Nacht is not a day, so the purple lamp says <b>in der Nacht</b>. The Nachtschwester (A2 Modul 3, Vitalwerte) measures the Puls then. Never am Nacht.",
+        "The <b>bell</b> is blue. It rings for one point on the clock and only then: <b>um</b> acht Uhr. In A2 Modul 5 the Pflegekraft richtet die Tablette when the bell rings. If you can ask Wie viel Uhr?, the bell answers um. am acht Uhr sticks the day stamp onto a clock face, and the cupboard will not have it.",
+        "The <b>month drawer</b> is green. Months and seasons live in it: <b>im</b> Mai, <b>im</b> Winter. im is in plus dem, squeezed into one word. The Kardiologin (B1 Modul 2, Herzoperationen) names a month that way. The Betreuerin (A2 Modul 2, Hilfsmittel) names a season when she checks the Rollstuhl. A day does not go in the drawer: not im Montag. A season does not take the day stamp: not am Winter.",
+        "The <b>arrows</b> point at an event. Orange <b>nach</b> points forward, red <b>vor</b> points back, and both take the dative: nach <b>dem</b> Essen, vor <b>der</b> Visite. The Patient (A2 Modul 4) nimmt die Tablette nach dem Essen. Visite is feminine, so vor takes der, not dem. nach das Essen is the accusative, and the arrow rejects it. A procedure takes the same dative: nach der Blutabnahme, vor dem Frühstück (A2 Modul 6 and Modul 3).",
+        "Under the clocks the chart has a <b>timeline</b>. <b>seit</b> Montag draws a line back to a start that is still true: the Bewohnerin follows the Tagesstruktur seit Montag (B1 Modul 1, Demenz). <b>ab</b> Freitag plants a flag in the future: the Pflegeplanung starts then (B1 Modul 6). <b>von</b> Montag <b>bis</b> Freitag is the bracket on the Dienstplan, closed with bis, not nach. <b>zwischen</b> acht und zehn is a window, the way an Übergabe (B1 Modul 8) sits between two clock times."
       ],
-      "questionRule": "Day or part of the day: am. Clock: um. Month or season: im. Night: in der.",
+      "questionRule": "Day stamp am. Bell um. Month drawer im. Night lamp in der. Arrows vor and nach take the dative. seit looks back, ab looks forward, von … bis is the bracket, zwischen is the window.",
       "animation": [
         {
           "before": [
@@ -351,7 +1442,7 @@
               "r": "verb"
             }
           ],
-          "enBefore": "A day.",
+          "enBefore": "A2 Modul 1. The Dienstplan has a day.",
           "enAfter": "am Montag",
           "callLabel": "Show am"
         },
@@ -380,7 +1471,7 @@
               "r": "rest"
             }
           ],
-          "enBefore": "A clock time.",
+          "enBefore": "A2 Modul 5. The Tablette has a clock time.",
           "enAfter": "um acht Uhr",
           "callLabel": "Show um"
         },
@@ -405,547 +1496,998 @@
               "r": "rest"
             }
           ],
-          "enBefore": "The exception.",
+          "enBefore": "A2 Modul 3. The Nachtschwester has the night.",
           "enAfter": "in der Nacht",
           "callLabel": "Show in der"
+        },
+        {
+          "before": [
+            {
+              "t": "Essen",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "nach",
+              "r": "subj"
+            },
+            {
+              "t": "dem",
+              "r": "verb"
+            },
+            {
+              "t": "Essen",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "A2 Modul 4. The Patient, after the meal.",
+          "enAfter": "nach dem Essen",
+          "callLabel": "Show nach"
+        },
+        {
+          "before": [
+            {
+              "t": "Montag",
+              "r": "subj"
+            }
+          ],
+          "after": [
+            {
+              "t": "seit",
+              "r": "subj"
+            },
+            {
+              "t": "Montag",
+              "r": "verb"
+            }
+          ],
+          "enBefore": "B1 Modul 1. The Tagesstruktur still holds.",
+          "enAfter": "seit Montag",
+          "callLabel": "Show seit"
+        },
+        {
+          "before": [
+            {
+              "t": "Montag",
+              "r": "subj"
+            },
+            {
+              "t": "Freitag",
+              "r": "verb"
+            }
+          ],
+          "after": [
+            {
+              "t": "von",
+              "r": "subj"
+            },
+            {
+              "t": "Montag",
+              "r": "verb"
+            },
+            {
+              "t": "bis",
+              "r": "rest"
+            },
+            {
+              "t": "Freitag",
+              "r": "rest"
+            }
+          ],
+          "enBefore": "B1 Modul 6. The Pflegeplanung spans the week.",
+          "enAfter": "von Montag bis Freitag",
+          "callLabel": "Show von bis"
         }
       ],
       "tables": [
         {
-          "title": "am, um, im",
-          "caption": "One time idea, one preposition.",
+          "title": "🟡 Day stamp · am",
+          "caption": "A2 Modul 1 Auf Station. The Dienstplan stamps a day or a part of the day.",
           "columns": [
-            "Zeit",
-            "Präposition",
-            "Beispiel"
+            "You see",
+            "You say"
           ],
           "rows": [
             {
               "label": "Tag",
               "cells": [
-                "Tag, Tageszeit",
-                "am",
-                "am Montag, am Morgen"
+                "Montag, Freitag",
+                "am Montag"
               ],
               "highlight": true
             },
             {
-              "label": "Nacht",
+              "label": "Tageszeit",
               "cells": [
-                "Nacht",
-                "in der",
-                "in der Nacht"
+                "Morgen, Abend",
+                "am Morgen"
               ]
             },
+            {
+              "label": "Nicht",
+              "cells": [
+                "Nacht",
+                "not am Nacht"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🟣 Night lamp · in der",
+          "caption": "A2 Modul 3 Vitalwerte. The Nachtschwester works in der Nacht.",
+          "columns": [
+            "You see",
+            "You say"
+          ],
+          "rows": [
+            {
+              "label": "Nacht",
+              "cells": [
+                "die Nacht",
+                "in der Nacht"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Falsch",
+              "cells": [
+                "am, im",
+                "am Nacht, im Nacht"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🔵 Bell · um",
+          "caption": "A2 Modul 5 Medikamente richten. The bell is the clock, um acht Uhr.",
+          "columns": [
+            "You see",
+            "You say"
+          ],
+          "rows": [
             {
               "label": "Uhr",
               "cells": [
-                "Uhrzeit",
-                "um",
+                "acht Uhr",
                 "um acht Uhr"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Falsch",
+              "cells": [
+                "am, im",
+                "am acht Uhr"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🟢 Month drawer · im",
+          "caption": "B1 Modul 2 Herzoperationen and A2 Modul 2 Hilfsmittel. Months and seasons take im.",
+          "columns": [
+            "You see",
+            "You say"
+          ],
+          "rows": [
+            {
+              "label": "Monat",
+              "cells": [
+                "Mai",
+                "im Mai"
+              ],
+              "highlight": true
+            },
+            {
+              "label": "Jahreszeit",
+              "cells": [
+                "Winter",
+                "im Winter"
               ]
             },
             {
-              "label": "Saison",
+              "label": "Nicht",
               "cells": [
-                "Monat, Jahreszeit",
-                "im",
-                "im Winter, im Mai"
+                "Montag",
+                "not im Montag"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "🟠🔴 Arrows · nach and vor",
+          "caption": "A2 Modul 4 Bei Patienten. nach and vor take the dative. Visite is feminine: vor der Visite.",
+          "columns": [
+            "Arrow",
+            "Dative",
+            "Ward"
+          ],
+          "rows": [
             {
               "label": "nach",
               "cells": [
-                "danach",
-                "nach + Dativ",
+                "forward",
+                "dem / der",
                 "nach dem Essen"
-              ]
+              ],
+              "highlight": true
             },
             {
               "label": "vor",
               "cells": [
-                "davor",
-                "vor + Dativ",
+                "back",
+                "dem / der",
                 "vor dem Essen"
               ]
             },
             {
+              "label": "vor + die",
+              "cells": [
+                "back",
+                "der",
+                "vor der Visite"
+              ]
+            },
+            {
+              "label": "Falsch",
+              "cells": [
+                "accusative",
+                "das / die",
+                "nach das Essen"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Timeline on the chart",
+          "caption": "B1 Modul 1 Tagesstruktur, B1 Modul 6 Pflegeplanung, B1 Modul 8 Übergabe.",
+          "columns": [
+            "Tool",
+            "Direction",
+            "Ward"
+          ],
+          "rows": [
+            {
               "label": "seit",
               "cells": [
-                "Beginn, noch jetzt",
-                "seit",
+                "looks back",
+                "still true now",
                 "seit Montag"
-              ]
+              ],
+              "highlight": true
             },
             {
               "label": "ab",
               "cells": [
-                "Beginn in der Zukunft",
-                "ab",
+                "looks forward",
+                "starts then",
                 "ab Freitag"
+              ]
+            },
+            {
+              "label": "von … bis",
+              "cells": [
+                "a bracket",
+                "start and end",
+                "von Montag bis Freitag"
+              ]
+            },
+            {
+              "label": "zwischen",
+              "cells": [
+                "a window",
+                "two edges",
+                "zwischen acht und zehn"
               ]
             }
           ]
         }
       ],
       "warning": {
-        "title": "Nacht is not am",
+        "title": "Die Uhr lehnt die falsche Form ab",
         "items": [
           {
             "de": "am Montag",
-            "en": "A day.",
+            "en": "A2 Modul 1. The Dienstplan stamps Monday with am.",
             "tone": "ok"
           },
           {
+            "de": "im Montag",
+            "en": "Monday is a day, not a month. The green drawer stays shut.",
+            "tone": "stop"
+          },
+          {
             "de": "in der Nacht",
-            "en": "Not am Nacht.",
+            "en": "A2 Modul 3. The Nachtschwester measures in der Nacht.",
             "tone": "ok"
           },
           {
             "de": "am Nacht",
-            "en": "Nacht takes in der.",
+            "en": "The day stamp does not stick to Nacht.",
             "tone": "stop"
           },
           {
             "de": "um acht Uhr",
-            "en": "A clock time.",
+            "en": "A2 Modul 5. The bell rings at eight, when the Tablette is prepared.",
             "tone": "ok"
           },
           {
             "de": "am acht Uhr",
-            "en": "The clock takes um.",
+            "en": "The clock is not a day.",
+            "tone": "stop"
+          },
+          {
+            "de": "im Winter",
+            "en": "A2 Modul 2. The Betreuerin names the season with im.",
+            "tone": "ok"
+          },
+          {
+            "de": "am Winter",
+            "en": "Winter is not a day.",
             "tone": "stop"
           },
           {
             "de": "nach dem Essen",
-            "en": "Dative dem.",
+            "en": "A2 Modul 4. The Patient takes the Tablette after the meal. Dative dem.",
             "tone": "ok"
           },
           {
-            "de": "seit Montag",
-            "en": "It still holds.",
+            "de": "nach das Essen",
+            "en": "das is accusative. nach wants dem.",
+            "tone": "stop"
+          },
+          {
+            "de": "vor dem Essen",
+            "en": "The red arrow points back. Dative dem.",
             "tone": "ok"
+          },
+          {
+            "de": "vor das Essen",
+            "en": "das is not the dative.",
+            "tone": "stop"
+          },
+          {
+            "de": "seit Montag",
+            "en": "B1 Modul 1. The Tagesstruktur has held since Monday.",
+            "tone": "ok"
+          },
+          {
+            "de": "von Montag bis Freitag",
+            "en": "B1 Modul 8. The Übergabe bracket closes with bis.",
+            "tone": "ok"
+          },
+          {
+            "de": "von Montag nach Freitag",
+            "en": "The bracket closes with bis, not nach.",
+            "tone": "stop"
+          },
+          {
+            "de": "vor der Visite",
+            "en": "Visite is feminine. vor takes der. B1 Modul 8, before the round.",
+            "tone": "ok"
+          },
+          {
+            "de": "vor das Visite",
+            "en": "das is not the feminine dative.",
+            "tone": "stop"
           }
         ],
-        "tip": "am Tag, in der Nacht, um Uhr, im Monat. nach and vor plus dative."
+        "tip": "Yellow am for the day on the Dienstplan. Blue um for the bell. Green im for the month drawer. Purple in der for the Nachtschwester. Orange nach and red vor take dem or der. seit back, ab forward, bis closes von."
       },
       "tips": [
         {
-          "title": "Four clocks",
+          "title": "Four faces",
           "emoji": "🕐",
           "mnemonic": "am · um · im · in der Nacht",
-          "body": "am Montag, um acht Uhr, im Winter, in der Nacht. seit looks back. ab looks forward.",
+          "body": "Day stamp am Montag on the Dienstplan (A2 Modul 1). Bell um acht Uhr when the Pflegekraft richtet die Tablette (A2 Modul 5). Month drawer im Winter when the Betreuerin prüft den Rollstuhl (A2 Modul 2). Night lamp in der Nacht for the Nachtschwester (A2 Modul 3). If the face and the time disagree, the sentence is wrong before the verb is chosen.",
           "examples": [
             {
-              "de": "Nach dem Essen nimmt er die Tablette.",
-              "en": "after, dative"
+              "de": "Die Stationsleitung plant die Frühschicht am Montag.",
+              "en": "A2 Modul 1, a day"
             },
             {
-              "de": "Ab Freitag ist er zu Hause.",
-              "en": "future start"
+              "de": "Die Pflegekraft richtet die Tablette um acht Uhr.",
+              "en": "A2 Modul 5, a clock time"
+            }
+          ]
+        },
+        {
+          "title": "The chart timeline",
+          "emoji": "📈",
+          "mnemonic": "seit back · ab forward · von … bis",
+          "body": "seit Montag: the Tagesstruktur started then and the Bewohnerin still follows it (B1 Modul 1). ab Freitag: the Pflegeplanung starts then, not before (B1 Modul 6). von Montag bis Freitag: the whole stretch, closed with bis. zwischen is only a window between two times.",
+          "examples": [
+            {
+              "de": "Die Bewohnerin folgt der Tagesstruktur seit Montag.",
+              "en": "still true"
+            },
+            {
+              "de": "Die Pflegeplanung gilt ab Freitag.",
+              "en": "future start, B1 Modul 6"
             }
           ]
         }
       ],
-      "quizTitle": "Which preposition?",
+      "quizTitle": "Welche Form",
       "quiz": [
         {
           "kind": "mc",
-          "q": "Monday.",
-          "qEn": "Day.",
+          "q": "Die Stationsleitung schreibt den Dienstplan. Montag.",
+          "qEn": "A2 Modul 1 Auf Station.",
           "options": [
             "am Montag",
             "im Montag",
             "um Montag"
           ],
           "answer": 0,
-          "why": "Days take am.",
+          "why": "A day takes the yellow stamp am.",
           "hint": "am."
         },
         {
           "kind": "mc",
-          "q": "Eight o'clock.",
-          "qEn": "Clock.",
+          "q": "Die Pflegekraft richtet die Tablette. Acht Uhr.",
+          "qEn": "A2 Modul 5 Medikamente richten.",
           "options": [
-            "am acht Uhr",
             "um acht Uhr",
+            "am acht Uhr",
             "im acht Uhr"
           ],
-          "answer": 1,
-          "why": "The clock takes um.",
+          "answer": 0,
+          "why": "The clock takes the blue bell um.",
           "hint": "um."
         },
         {
           "kind": "mc",
-          "q": "At night.",
-          "qEn": "Exception.",
+          "q": "Die Nachtschwester misst den Puls.",
+          "qEn": "A2 Modul 3 Vitalwerte.",
           "options": [
+            "in der Nacht",
             "am Nacht",
-            "im Nacht",
-            "in der Nacht"
+            "im Nacht"
           ],
-          "answer": 2,
-          "why": "Nacht takes in der.",
+          "answer": 0,
+          "why": "Night takes the purple lamp in der.",
           "hint": "in der."
         },
         {
           "kind": "mc",
-          "q": "After the meal.",
-          "qEn": "Dative.",
+          "q": "Der Patient nimmt die Tablette später.",
+          "qEn": "A2 Modul 4 Bei Patienten.",
           "options": [
             "nach dem Essen",
             "nach das Essen",
             "nach den Essen"
           ],
           "answer": 0,
-          "why": "nach takes the dative.",
+          "why": "nach takes the dative dem.",
           "hint": "dem."
+        }
+      ],
+      "meaningsTitle": "Sechs Momente auf Station",
+      "meanings": [
+        {
+          "modal": "am",
+          "emoji": "🟡",
+          "en": "day stamp",
+          "use": "A2 Modul 1 Auf Station. A day on the Dienstplan takes am.",
+          "de": "Die Stationsleitung plant die Frühschicht am Montag.",
+          "deEn": "The ward manager plans the early shift on Monday."
+        },
+        {
+          "modal": "um",
+          "emoji": "🔵",
+          "en": "bell",
+          "use": "A2 Modul 5 Medikamente richten. The clock takes um.",
+          "de": "Die Pflegekraft richtet die Tablette um acht Uhr.",
+          "deEn": "The nurse prepares the tablet at eight o'clock."
+        },
+        {
+          "modal": "in der",
+          "emoji": "🟣",
+          "en": "night lamp",
+          "use": "A2 Modul 3 Vitalwerte. Night is in der Nacht, never am Nacht.",
+          "de": "Die Nachtschwester misst den Puls in der Nacht.",
+          "deEn": "The night nurse takes the pulse at night."
+        },
+        {
+          "modal": "im",
+          "emoji": "🟢",
+          "en": "month drawer",
+          "use": "A2 Modul 2 Hilfsmittel. A season takes im.",
+          "de": "Die Betreuerin prüft den Rollstuhl im Winter.",
+          "deEn": "The carer checks the wheelchair in winter."
+        },
+        {
+          "modal": "nach",
+          "emoji": "🟠",
+          "en": "arrow forward",
+          "use": "A2 Modul 4 Bei Patienten. nach takes the dative dem.",
+          "de": "Der Patient nimmt die Tablette nach dem Essen.",
+          "deEn": "The patient takes the tablet after the meal."
+        },
+        {
+          "modal": "seit",
+          "emoji": "📈",
+          "en": "timeline back",
+          "use": "B1 Modul 1 Tagesstruktur. seit is a start that still holds.",
+          "de": "Die Bewohnerin folgt der Tagesstruktur seit Montag.",
+          "deEn": "The resident has followed the daily structure since Monday."
         }
       ]
     },
     {
       "id": "gap-time",
       "label": "Lücken",
-      "title": "The preposition",
+      "title": "Die Präposition",
       "practice": "gap",
       "type": "gapfill",
-      "instructions": "The label blocks vor, nach and the wrong preposition. Each chip fits one sentence.",
+      "instructions": "Tap the time phrase from Menschen im Beruf – Pflege. The cue names the day, the clock, the month or the arrow. English is only in the hint.",
       "chips": [
         {
-          "w": "am",
-          "hint": "am."
+          "w": "am Dienstag",
+          "hint": "A day takes am."
         },
         {
-          "w": "um",
-          "hint": "um."
+          "w": "am Mittwoch",
+          "hint": "A day takes am."
         },
         {
-          "w": "Im",
-          "hint": "im."
+          "w": "am Nachmittag",
+          "hint": "A part of the day takes am."
         },
         {
-          "w": "In",
-          "hint": "in."
+          "w": "um neun Uhr",
+          "hint": "The clock takes um."
         },
         {
-          "w": "Nach",
-          "hint": "nach."
+          "w": "um elf Uhr",
+          "hint": "The clock takes um."
         },
         {
-          "w": "Vor",
-          "hint": "vor."
+          "w": "um zwei Uhr",
+          "hint": "The clock takes um."
+        },
+        {
+          "w": "im April",
+          "hint": "A month takes im."
+        },
+        {
+          "w": "im Juni",
+          "hint": "A month takes im."
+        },
+        {
+          "w": "im Herbst",
+          "hint": "A season takes im."
+        },
+        {
+          "w": "im Frühling",
+          "hint": "A season takes im."
+        },
+        {
+          "w": "nach der Blutabnahme",
+          "hint": "nach plus dative."
+        },
+        {
+          "w": "vor dem Frühstück",
+          "hint": "vor plus dative."
+        },
+        {
+          "w": "seit Mittwoch",
+          "hint": "A start that still holds."
+        },
+        {
+          "w": "ab Sonntag",
+          "hint": "A future start."
+        },
+        {
+          "w": "von Dienstag bis Donnerstag",
+          "hint": "A span, closed with bis."
         }
       ],
       "items": [
         {
-          "before": "Genau an diesem Wochentag, nicht davor und nicht danach: Die Visite ist",
-          "after": "Montag.",
-          "answer": "am",
-          "en": "day",
-          "why": "Days take am.",
-          "tip": "Tag",
-          "hint": "am."
+          "before": "Dienstag, der Wochentag. Die Laborantin plant die Blutabnahme. Die Blutabnahme ist",
+          "after": ".",
+          "answer": "am Dienstag",
+          "en": "The blood draw is on Tuesday.",
+          "why": "A2 Modul 6 Blut und Blutabnahme. A weekday takes am.",
+          "tip": "am",
+          "hint": "A day."
         },
         {
-          "before": "Punkt, nicht vorher und nicht nachher: Er nimmt die Tablette",
-          "after": "acht Uhr.",
-          "answer": "um",
-          "en": "clock",
-          "why": "Clock takes um.",
-          "tip": "Uhr",
-          "hint": "um."
+          "before": "Mittwoch, der Wochentag. Die Laborantin plant das EKG. Das EKG ist",
+          "after": ".",
+          "answer": "am Mittwoch",
+          "en": "The ECG is on Wednesday.",
+          "why": "A2 Modul 6 Diagnostische Geräte. A weekday takes am.",
+          "tip": "am",
+          "hint": "A day."
         },
         {
-          "before": "Die Jahreszeit, Kontraktion, nicht davor und nicht danach:",
-          "after": "Winter bleibt er im Zimmer.",
-          "answer": "Im",
-          "en": "season",
-          "why": "Seasons take im.",
-          "tip": "Jahreszeit",
-          "hint": "im."
+          "before": "Nachmittag, die Tageszeit. Die Schichtleitung gibt die Übergabe. Die Übergabe ist",
+          "after": ".",
+          "answer": "am Nachmittag",
+          "en": "The handover is in the afternoon.",
+          "why": "B1 Modul 8 Übergabe. A part of the day takes am.",
+          "tip": "am",
+          "hint": "A part of the day."
         },
         {
-          "before": "Während der Nacht, nicht vorher und nicht nachher:",
-          "after": "der Nacht misst sie das Fieber.",
-          "answer": "In",
-          "en": "night",
-          "why": "Nacht takes in der.",
-          "tip": "Nacht",
-          "hint": "in."
+          "before": "Neun Uhr, die Uhrzeit. Die Aufnahmekraft beginnt das Aufnahmegespräch",
+          "after": ".",
+          "answer": "um neun Uhr",
+          "en": "The admission interview begins at nine.",
+          "why": "B1 Modul 1 Patienten aufnehmen. The clock takes um.",
+          "tip": "um",
+          "hint": "A clock time."
         },
         {
-          "before": "Später als das Essen:",
-          "after": "dem Essen nimmt er die Tablette.",
-          "answer": "Nach",
-          "en": "after",
-          "why": "Dative follows.",
-          "tip": "danach",
-          "hint": "nach."
+          "before": "Elf Uhr, die Uhrzeit. Der Wundexperte wechselt den Verband. Der Verbandswechsel ist",
+          "after": ".",
+          "answer": "um elf Uhr",
+          "en": "The dressing change is at eleven.",
+          "why": "B1 Modul 3 Einen Verband wechseln. The clock takes um.",
+          "tip": "um",
+          "hint": "A clock time."
         },
         {
-          "before": "Früher als das Essen:",
-          "after": "dem Essen trinkt er Wasser.",
-          "answer": "Vor",
-          "en": "before",
-          "why": "Dative follows.",
-          "tip": "davor",
-          "hint": "vor."
+          "before": "Zwei Uhr, die Uhrzeit. Die Pflegekraft richtet die Medikamente",
+          "after": ".",
+          "answer": "um zwei Uhr",
+          "en": "The nurse prepares the medication at two.",
+          "why": "A2 Modul 5 Medikamente richten. The clock takes um.",
+          "tip": "um",
+          "hint": "A clock time."
+        },
+        {
+          "before": "April, der Monat. Die Kardiologin. Die Herzoperation ist",
+          "after": ".",
+          "answer": "im April",
+          "en": "The heart operation is in April.",
+          "why": "B1 Modul 2 Herzoperationen. A month takes im.",
+          "tip": "im",
+          "hint": "A month."
+        },
+        {
+          "before": "Juni, der Monat. Die Betreuerin prüft die Hilfsmittel. Die Kontrolle ist",
+          "after": ".",
+          "answer": "im Juni",
+          "en": "The check is in June.",
+          "why": "A2 Modul 2 Hilfsmittel. A month takes im.",
+          "tip": "im",
+          "hint": "A month."
+        },
+        {
+          "before": "Herbst, die Jahreszeit. Der Bewohner bleibt",
+          "after": "auf Station.",
+          "answer": "im Herbst",
+          "en": "The resident stays in autumn.",
+          "why": "A2 Modul 2 Ältere Menschen. A season takes im.",
+          "tip": "im",
+          "hint": "A season."
+        },
+        {
+          "before": "Frühling, die Jahreszeit. Die leichte Kost beginnt",
+          "after": ".",
+          "answer": "im Frühling",
+          "en": "The light diet begins in spring.",
+          "why": "A2 Modul 4 Kostformen. A season takes im.",
+          "tip": "im",
+          "hint": "A season."
+        },
+        {
+          "before": "Danach. Der Patient ruht",
+          "after": ".",
+          "answer": "nach der Blutabnahme",
+          "en": "The patient rests after the blood draw.",
+          "why": "A2 Modul 6. nach takes the dative der.",
+          "tip": "nach",
+          "hint": "After, dative."
+        },
+        {
+          "before": "Davor. Die Nachtschwester misst den Puls",
+          "after": ".",
+          "answer": "vor dem Frühstück",
+          "en": "The night nurse takes the pulse before breakfast.",
+          "why": "A2 Modul 3 Vitalwerte. vor takes the dative dem.",
+          "tip": "vor",
+          "hint": "Before, dative."
+        },
+        {
+          "before": "Es gilt noch. Der Bewohner folgt der Tagesstruktur",
+          "after": ".",
+          "answer": "seit Mittwoch",
+          "en": "He has followed the daily structure since Wednesday.",
+          "why": "B1 Modul 1 Mit dementen Menschen umgehen. seit still holds.",
+          "tip": "seit",
+          "hint": "Still true."
+        },
+        {
+          "before": "Start in der Zukunft. Die Praktikantin beginnt die neue Schicht",
+          "after": ".",
+          "answer": "ab Sonntag",
+          "en": "The trainee starts the new shift from Sunday.",
+          "why": "A2 Modul 1 Auf Station. ab is a future start.",
+          "tip": "ab",
+          "hint": "Future start."
+        },
+        {
+          "before": "Die ganze Spanne. Die Pflegeplanung gilt",
+          "after": ".",
+          "answer": "von Dienstag bis Donnerstag",
+          "en": "The care plan runs from Tuesday to Thursday.",
+          "why": "B1 Modul 6 Pflegeplanung. Close the span with bis.",
+          "tip": "bis",
+          "hint": "von … bis."
         }
       ]
     },
     {
       "id": "match-time",
       "label": "Match",
-      "title": "Which time word?",
+      "title": "Welche Zeit",
       "practice": "match",
       "type": "compare",
-      "instructions": "Choose the phrase.",
+      "instructions": "Choose the time phrase for the ward situation. The caption in English tells you which clock face it is.",
       "items": [
         {
-          "prompt": "Monday.",
+          "prompt": "Samstag, die Beschäftigung der Bewohnerin. Welche Form?",
           "options": [
             {
-              "emoji": "📅",
-              "label": "am Montag",
-              "caption": "day"
+              "emoji": "🟡",
+              "label": "am Samstag",
+              "caption": "A day. A2 Modul 2 Beschäftigungen."
             },
             {
-              "emoji": "❌",
-              "label": "um Montag",
-              "caption": "not a clock"
+              "emoji": "🟢",
+              "label": "im Samstag",
+              "caption": "Samstag is not a month."
             },
             {
-              "emoji": "❌",
-              "label": "im Montag",
-              "caption": "not a month"
+              "emoji": "🔵",
+              "label": "um Samstag",
+              "caption": "Samstag is not a clock time."
             }
           ],
           "answer": 0,
-          "why": "am.",
-          "hint": "Day."
+          "why": "A2 Modul 2 Beschäftigungen. A day takes am.",
+          "hint": "am."
         },
         {
-          "prompt": "Eight o'clock.",
+          "prompt": "Vierzehn Uhr, die Übergabe. Welche Form?",
           "options": [
             {
-              "emoji": "🕐",
-              "label": "um acht Uhr",
-              "caption": "clock"
+              "emoji": "🔵",
+              "label": "um vierzehn Uhr",
+              "caption": "A clock time. B1 Modul 8 Übergabe."
             },
             {
-              "emoji": "❌",
-              "label": "am acht Uhr",
-              "caption": "not a day"
+              "emoji": "🟡",
+              "label": "am vierzehn Uhr",
+              "caption": "The day stamp does not take a clock."
             },
             {
-              "emoji": "❌",
-              "label": "im acht Uhr",
-              "caption": "not a month"
+              "emoji": "🟢",
+              "label": "im vierzehn Uhr",
+              "caption": "Fourteen o'clock is not a month."
             }
           ],
           "answer": 0,
-          "why": "um.",
-          "hint": "Clock."
+          "why": "B1 Modul 8 Übergabe. The clock takes um.",
+          "hint": "um."
         },
         {
-          "prompt": "Night.",
+          "prompt": "Sommer, die Kontrolle nach dem Sturz. Welche Form?",
           "options": [
             {
-              "emoji": "🌙",
-              "label": "in der Nacht",
-              "caption": "exception"
+              "emoji": "🟢",
+              "label": "im Sommer",
+              "caption": "A season. A2 Modul 7 Sturzprotokoll."
             },
             {
-              "emoji": "❌",
-              "label": "am Nacht",
-              "caption": "wrong"
+              "emoji": "🟡",
+              "label": "am Sommer",
+              "caption": "Sommer is not a day."
             },
             {
-              "emoji": "❌",
-              "label": "um Nacht",
-              "caption": "not a clock"
+              "emoji": "🔵",
+              "label": "um Sommer",
+              "caption": "Sommer is not a clock time."
             }
           ],
           "answer": 0,
-          "why": "in der.",
-          "hint": "Night."
+          "why": "A2 Modul 7 Sturzprotokoll. A season takes im.",
+          "hint": "im."
         },
         {
-          "prompt": "Since Monday, still true.",
+          "prompt": "Freitag, die Kost gilt noch. Welche Form?",
           "options": [
             {
-              "emoji": "📅",
-              "label": "seit Montag",
-              "caption": "still"
+              "emoji": "📈",
+              "label": "seit Freitag",
+              "caption": "Still true. A2 Modul 4 Kostformen."
             },
             {
-              "emoji": "❌",
-              "label": "ab Montag",
-              "caption": "that is a future start"
+              "emoji": "🟢",
+              "label": "im Freitag",
+              "caption": "Freitag is not a month."
             },
             {
-              "emoji": "❌",
-              "label": "um Montag",
-              "caption": "not a clock"
+              "emoji": "🔵",
+              "label": "um Freitag",
+              "caption": "Freitag is not a clock time."
             }
           ],
           "answer": 0,
-          "why": "seit.",
-          "hint": "Still."
+          "why": "A2 Modul 4 Kostformen. seit looks back to a start that still holds. ab would be a future start.",
+          "hint": "seit."
         }
       ]
     },
     {
       "id": "picture-time",
       "label": "Picture",
-      "title": "Picture the time",
+      "title": "Das Bild",
       "practice": "picture",
       "type": "picturematch",
-      "instructions": "Name the time phrase.",
+      "instructions": "Match the ward word to the picture. These words are the ones Menschen im Beruf – Pflege uses on the ward.",
       "items": [
         {
-          "id": "monday",
-          "de": "Montag",
+          "id": "dienstplan",
+          "de": "Dienstplan",
           "article": "der",
-          "plural": "die Montage",
-          "en": "am Montag",
+          "plural": "die Dienstpläne",
+          "en": "duty roster",
           "image": {
             "type": "svg",
             "id": "calendar"
           },
-          "hint": "am"
+          "hint": "A2 Modul 1. The duty roster."
         },
         {
-          "id": "tablet",
+          "id": "tablette",
           "de": "Tablette",
           "article": "die",
           "plural": "die Tabletten",
-          "en": "um acht Uhr",
+          "en": "tablet",
           "image": {
             "type": "svg",
             "id": "tablet"
           },
-          "hint": "um"
+          "hint": "A2 Modul 5. The tablet."
         },
         {
-          "id": "fever",
-          "de": "Fieber",
+          "id": "thermometer",
+          "de": "Thermometer",
           "article": "das",
-          "plural": "Fieber",
-          "en": "in der Nacht",
+          "plural": "die Thermometer",
+          "en": "thermometer",
           "image": {
             "type": "svg",
             "id": "thermometer"
           },
-          "hint": "in der"
+          "hint": "A2 Modul 3. The thermometer."
         },
         {
-          "id": "bed",
-          "de": "Zimmer",
+          "id": "bett",
+          "de": "Bett",
           "article": "das",
-          "plural": "die Zimmer",
-          "en": "im Winter",
+          "plural": "die Betten",
+          "en": "bed",
           "image": {
             "type": "svg",
             "id": "bed"
           },
-          "hint": "im"
+          "hint": "A2 Modul 4. The bed."
         }
       ]
     },
     {
       "id": "build-time",
       "label": "Build",
-      "title": "Build the sentence",
+      "title": "Der Satz",
       "practice": "build",
       "type": "builder",
-      "instructions": "The preposition belongs to the time word.",
+      "instructions": "Build the sentence. The time phrase may stand first or later. Both orders count when the tiles are the same.",
       "items": [
         {
+          "task": "Wann ist die Beschäftigung?",
           "tiles": [
             "Die",
-            "Visite",
+            "Beschäftigung",
             "ist",
             "am",
-            "Montag"
+            "Sonntag"
           ],
           "answers": [
-            "Die Visite ist am Montag"
+            "Die Beschäftigung ist am Sonntag",
+            "Am Sonntag ist die Beschäftigung"
           ],
           "punct": ".",
-          "modal": "Visite",
-          "inf": "Montag",
+          "modal": "ist",
+          "inf": "Sonntag",
           "question": false,
-          "en": "The round is on Monday.",
-          "hint": "am.",
+          "en": "The activity is on Sunday.",
+          "hint": "A day takes am.",
           "feedback": {
-            "fallback": "am."
+            "end": "Keep the preposition with its time word.",
+            "fallback": "am for a day, um for the clock, im for a month, ab for a future start."
           }
         },
         {
+          "task": "Wann richtet die Pflegekraft die Tropfen?",
           "tiles": [
-            "Er",
-            "nimmt",
-            "sie",
+            "Die",
+            "Pflegekraft",
+            "richtet",
+            "die",
+            "Tropfen",
             "um",
-            "acht",
+            "sechzehn",
             "Uhr"
           ],
           "answers": [
-            "Er nimmt sie um acht Uhr"
+            "Die Pflegekraft richtet die Tropfen um sechzehn Uhr",
+            "Um sechzehn Uhr richtet die Pflegekraft die Tropfen"
           ],
           "punct": ".",
-          "modal": "nimmt",
+          "modal": "richtet",
           "inf": "Uhr",
           "question": false,
-          "en": "He takes it at eight.",
-          "hint": "um. sie is the tablet.",
+          "en": "The nurse prepares the drops at four p.m.",
+          "hint": "The clock takes um.",
           "feedback": {
-            "fallback": "um. sie is the tablet."
+            "end": "Keep the preposition with its time word.",
+            "fallback": "am for a day, um for the clock, im for a month, ab for a future start."
           }
         },
         {
+          "task": "Wann ist die Herzoperation?",
           "tiles": [
-            "In",
-            "der",
-            "Nacht",
-            "misst",
-            "sie",
-            "Fieber"
-          ],
-          "answers": [
-            "In der Nacht misst sie Fieber"
-          ],
-          "punct": ".",
-          "modal": "der",
-          "inf": "Fieber",
-          "question": false,
-          "en": "At night she takes the temperature.",
-          "hint": "in der.",
-          "feedback": {
-            "fallback": "in der."
-          }
-        },
-        {
-          "tiles": [
-            "Ab",
-            "Freitag",
+            "Die",
+            "Herzoperation",
             "ist",
-            "er",
-            "zu",
-            "Hause"
+            "im",
+            "Oktober"
           ],
           "answers": [
-            "Ab Freitag ist er zu Hause"
+            "Die Herzoperation ist im Oktober",
+            "Im Oktober ist die Herzoperation"
           ],
           "punct": ".",
-          "modal": "Freitag",
-          "inf": "Hause",
+          "modal": "ist",
+          "inf": "Oktober",
           "question": false,
-          "en": "From Friday he is at home.",
-          "hint": "ab.",
+          "en": "The heart operation is in October.",
+          "hint": "A month takes im.",
           "feedback": {
-            "fallback": "ab."
+            "end": "Keep the preposition with its time word.",
+            "fallback": "am for a day, um for the clock, im for a month, ab for a future start."
+          }
+        },
+        {
+          "task": "Wann gilt die Pflegeplanung?",
+          "tiles": [
+            "Die",
+            "Pflegeplanung",
+            "gilt",
+            "ab",
+            "Mittwoch"
+          ],
+          "answers": [
+            "Die Pflegeplanung gilt ab Mittwoch",
+            "Ab Mittwoch gilt die Pflegeplanung"
+          ],
+          "punct": ".",
+          "modal": "gilt",
+          "inf": "Mittwoch",
+          "question": false,
+          "en": "The care plan applies from Wednesday.",
+          "hint": "ab is a future start.",
+          "feedback": {
+            "end": "Keep the preposition with its time word.",
+            "fallback": "am for a day, um for the clock, im for a month, ab for a future start."
           }
         }
       ]
@@ -953,90 +2495,114 @@
     {
       "id": "transform-time",
       "label": "Umformen",
-      "title": "Add the preposition",
+      "title": "Die Form",
       "practice": "transform",
       "type": "gapfill",
-      "instructions": "Write the time phrase.",
+      "instructions": "Turn the bare time into the phrase the ward uses. One chip is grammatical. The others wear the wrong face.",
       "chips": [
         {
-          "w": "am Montag",
-          "hint": "am."
+          "w": "um zweiundzwanzig Uhr",
+          "hint": "The clock takes um."
         },
         {
-          "w": "um acht Uhr",
-          "hint": "um."
+          "w": "am zweiundzwanzig Uhr",
+          "hint": "A clock is not a day."
         },
         {
-          "w": "im Winter",
-          "hint": "im."
+          "w": "im November",
+          "hint": "A month takes im."
         },
         {
-          "w": "in der Nacht",
-          "hint": "in der."
+          "w": "am November",
+          "hint": "A month is not a day."
         },
         {
-          "w": "nach dem Essen",
-          "hint": "dem."
+          "w": "nach der Übergabe",
+          "hint": "nach plus dative."
         },
         {
-          "w": "ab Freitag",
-          "hint": "ab."
+          "w": "nach die Übergabe",
+          "hint": "die is not the dative."
+        },
+        {
+          "w": "vor dem Mittagessen",
+          "hint": "vor plus dative."
+        },
+        {
+          "w": "vor das Mittagessen",
+          "hint": "das is not the dative."
+        },
+        {
+          "w": "von Mittwoch bis Freitag",
+          "hint": "Close the span with bis."
+        },
+        {
+          "w": "von Mittwoch nach Freitag",
+          "hint": "bis closes the span, not nach."
+        },
+        {
+          "w": "zwischen neun und elf",
+          "hint": "A window between two times."
+        },
+        {
+          "w": "um neun und elf",
+          "hint": "um is one clock time, not a window."
         }
       ],
       "items": [
         {
-          "before": "Montag →",
-          "after": "",
-          "answer": "am Montag",
-          "en": "day",
-          "why": "am.",
-          "tip": "Tag",
-          "hint": "am."
+          "before": "Zweiundzwanzig Uhr, die Uhrzeit. Die Nachtschwester beginnt die Nachtschicht",
+          "after": ".",
+          "answer": "um zweiundzwanzig Uhr",
+          "en": "The night shift begins at ten p.m.",
+          "why": "A2 Modul 3 Vitalwerte. The clock takes um.",
+          "tip": "um",
+          "hint": "A clock time."
         },
         {
-          "before": "acht Uhr →",
-          "after": "",
-          "answer": "um acht Uhr",
-          "en": "clock",
-          "why": "um.",
-          "tip": "Uhr",
-          "hint": "um."
+          "before": "November, der Monat. Das Sturzprotokoll gilt",
+          "after": ".",
+          "answer": "im November",
+          "en": "The fall report applies in November.",
+          "why": "A2 Modul 7 Sturzprotokoll. A month takes im.",
+          "tip": "im",
+          "hint": "A month."
         },
         {
-          "before": "Winter →",
-          "after": "",
-          "answer": "im Winter",
-          "en": "season",
-          "why": "im.",
-          "tip": "Jahreszeit",
-          "hint": "im."
-        },
-        {
-          "before": "Nacht →",
-          "after": "",
-          "answer": "in der Nacht",
-          "en": "night",
-          "why": "in der.",
-          "tip": "Nacht",
-          "hint": "in der."
-        },
-        {
-          "before": "Essen, danach →",
-          "after": "",
-          "answer": "nach dem Essen",
-          "en": "after",
-          "why": "dative.",
+          "before": "Danach. Die Kollegin schreibt die Kurve",
+          "after": ".",
+          "answer": "nach der Übergabe",
+          "en": "The colleague writes the chart after handover.",
+          "why": "B1 Modul 8 Übergabe. nach takes der.",
           "tip": "nach",
-          "hint": "dem."
+          "hint": "After, dative."
         },
         {
-          "before": "Freitag, future start →",
-          "after": "",
-          "answer": "ab Freitag",
-          "en": "from",
-          "why": "ab.",
-          "tip": "ab",
-          "hint": "ab."
+          "before": "Davor. Die Pflegekraft macht die Betten",
+          "after": ".",
+          "answer": "vor dem Mittagessen",
+          "en": "The nurse makes the beds before lunch.",
+          "why": "A2 Modul 4 Betten machen. vor takes dem.",
+          "tip": "vor",
+          "hint": "Before, dative."
+        },
+        {
+          "before": "Mittwoch bis Freitag, die Spanne. Die Beschäftigung gilt",
+          "after": ".",
+          "answer": "von Mittwoch bis Freitag",
+          "en": "The activity runs from Wednesday to Friday.",
+          "why": "A2 Modul 2 Beschäftigungen. Close the span with bis.",
+          "tip": "bis",
+          "hint": "von … bis."
+        },
+        {
+          "before": "Neun und elf, das Fenster. Die Visite ist",
+          "after": ".",
+          "answer": "zwischen neun und elf",
+          "en": "The round sits between nine and eleven.",
+          "why": "B1 Modul 2. zwischen is a window, not one clock time.",
+          "tip": "zwischen",
+          "hint": "A window."
         }
       ]
     },
@@ -1046,159 +2612,159 @@
       "title": "Finde den Fehler",
       "practice": "error",
       "type": "riddle",
-      "instructions": "Read the wrong sentence. Choose the correction.",
+      "instructions": "The last line is the wrong clock face. Choose the repair. The reveal is the sentence the ward would write.",
       "items": [
         {
           "clues": [
             "Finde den Fehler.",
-            "Die Visite ist um Montag."
+            "Der Dienst beginnt um Freitag."
           ],
           "options": [
-            "Die Visite ist am Montag.",
-            "Die Visite ist im Montag.",
-            "Die Visite ist in Montag."
+            "Der Dienst beginnt am Freitag.",
+            "Der Dienst beginnt im Freitag.",
+            "Der Dienst beginnt in Freitag."
           ],
           "answer": 0,
-          "reveal": "A day takes am.",
-          "hint": "am."
+          "reveal": "Der Dienst beginnt am Freitag.",
+          "hint": "A2 Modul 1 Auf Station. A day takes am, not um."
         },
         {
           "clues": [
             "Finde den Fehler.",
-            "Er nimmt sie am acht Uhr."
+            "Die Nachtschwester misst am vier Uhr."
           ],
           "options": [
-            "Er nimmt sie um acht Uhr.",
-            "Er nimmt sie im acht Uhr.",
-            "Er nimmt sie in acht Uhr."
+            "Die Nachtschwester misst um vier Uhr.",
+            "Die Nachtschwester misst im vier Uhr.",
+            "Die Nachtschwester misst in vier Uhr."
           ],
           "answer": 0,
-          "reveal": "The clock takes um.",
-          "hint": "um."
+          "reveal": "Die Nachtschwester misst um vier Uhr.",
+          "hint": "A2 Modul 3 Vitalwerte. The clock takes um, not am."
         },
         {
           "clues": [
             "Finde den Fehler.",
-            "Sie misst am Nacht das Fieber."
+            "Die Kontrolle ist am August."
           ],
           "options": [
-            "Sie misst in der Nacht das Fieber.",
-            "Sie misst im Nacht das Fieber.",
-            "Sie misst um Nacht das Fieber."
+            "Die Kontrolle ist im August.",
+            "Die Kontrolle ist um August.",
+            "Die Kontrolle ist in August."
           ],
           "answer": 0,
-          "reveal": "Nacht takes in der.",
-          "hint": "in der."
+          "reveal": "Die Kontrolle ist im August.",
+          "hint": "A2 Modul 2 Hilfsmittel. A month takes im, not am."
         },
         {
           "clues": [
             "Finde den Fehler.",
-            "Nach das Essen nimmt er sie."
+            "Nach das Mittagessen ruht sie."
           ],
           "options": [
-            "Nach dem Essen nimmt er sie.",
-            "Nach den Essen nimmt er sie.",
-            "Nach der Essen nimmt er sie."
+            "Nach dem Mittagessen ruht sie.",
+            "Nach den Mittagessen ruht sie.",
+            "Nach der Mittagessen ruht sie."
           ],
           "answer": 0,
-          "reveal": "Essen is neuter dative: dem.",
-          "hint": "dem."
+          "reveal": "Nach dem Mittagessen ruht sie.",
+          "hint": "A2 Modul 4. Mittagessen is neuter. nach takes dem."
         }
       ]
     },
     {
       "id": "dialogue-time",
       "label": "Dialog",
-      "title": "Medication times",
+      "title": "Die Uhrzeit",
       "practice": "dialogue",
       "type": "gapfill",
-      "instructions": "The label names the only time phrase that fits.",
+      "instructions": "Complete what the colleague says. Each speaker is a person from Menschen im Beruf – Pflege.",
       "chips": [
         {
-          "w": "am Montag",
-          "hint": "am."
+          "w": "ab Dienstag",
+          "hint": "A future start."
         },
         {
-          "w": "um acht Uhr",
-          "hint": "um."
+          "w": "um achtzehn Uhr",
+          "hint": "The clock takes um."
         },
         {
-          "w": "in der Nacht",
-          "hint": "in der."
+          "w": "im September",
+          "hint": "A month takes im."
         },
         {
-          "w": "nach dem Essen",
-          "hint": "dem."
+          "w": "seit Samstag",
+          "hint": "A start that still holds."
         },
         {
-          "w": "vor dem Essen",
-          "hint": "dem."
+          "w": "von Montag bis Sonntag",
+          "hint": "A span, closed with bis."
         },
         {
-          "w": "seit Montag",
-          "hint": "seit."
+          "w": "zwischen vierzehn und sechzehn",
+          "hint": "A window between two times."
         }
       ],
       "items": [
         {
-          "before": "Ein Wochentag, nicht die Uhr: Die Visite ist",
+          "before": "Der Fragebogen startet später und gilt",
           "after": ".",
-          "answer": "am Montag",
-          "en": "day",
-          "why": "am.",
-          "tip": "Tag",
-          "hint": "am.",
+          "answer": "ab Dienstag",
+          "en": "The questionnaire applies from Tuesday.",
+          "why": "B1 Modul 1 Patienten aufnehmen. ab is a future start.",
+          "tip": "ab",
+          "hint": "Future start.",
+          "who": "Aufnahmekraft"
+        },
+        {
+          "before": "Achtzehn Uhr, die Uhrzeit. Die Patientin nimmt die Tropfen",
+          "after": ".",
+          "answer": "um achtzehn Uhr",
+          "en": "The patient takes the drops at six p.m.",
+          "why": "A2 Modul 5 Medikamente einnehmen. The clock takes um.",
+          "tip": "um",
+          "hint": "A clock time.",
           "who": "Pflegekraft"
         },
         {
-          "before": "Die Uhr, nicht der Tag: Er nimmt die Tablette",
+          "before": "September, der Monat. Die Herzoperation ist",
           "after": ".",
-          "answer": "um acht Uhr",
-          "en": "clock",
-          "why": "um.",
-          "tip": "Uhr",
-          "hint": "um.",
-          "who": "Pflegekraft"
+          "answer": "im September",
+          "en": "The heart operation is in September.",
+          "why": "B1 Modul 2 Herzoperationen. A month takes im.",
+          "tip": "im",
+          "hint": "A month.",
+          "who": "Kardiologin"
         },
         {
-          "before": "Nur die Nachtschicht: Bitte messen Sie das Fieber",
+          "before": "Samstag, es gilt noch. Die Biografie gilt",
           "after": ".",
-          "answer": "in der Nacht",
-          "en": "night",
-          "why": "in der.",
-          "tip": "Nacht",
-          "hint": "in der.",
-          "who": "Arzt"
-        },
-        {
-          "before": "Später als das Essen: Er nimmt die Tablette",
-          "after": ".",
-          "answer": "nach dem Essen",
-          "en": "after",
-          "why": "dative.",
-          "tip": "nach",
-          "hint": "dem.",
-          "who": "Arzt"
-        },
-        {
-          "before": "Früher als das Essen: Er trinkt Wasser",
-          "after": ".",
-          "answer": "vor dem Essen",
-          "en": "before",
-          "why": "dative.",
-          "tip": "vor",
-          "hint": "dem.",
-          "who": "Arzt"
-        },
-        {
-          "before": "Seit wann, es dauert noch an: Er hat Husten",
-          "after": ".",
-          "answer": "seit Montag",
-          "en": "since",
-          "why": "still true.",
+          "answer": "seit Samstag",
+          "en": "The biography has applied since Saturday.",
+          "why": "B1 Modul 1 Biografiebericht. seit still holds.",
           "tip": "seit",
-          "hint": "seit.",
-          "who": "Pflegekraft"
+          "hint": "Still true.",
+          "who": "Aufnahmekraft"
+        },
+        {
+          "before": "Montag bis Sonntag, die Spanne. Die Tagesstruktur gilt",
+          "after": ".",
+          "answer": "von Montag bis Sonntag",
+          "en": "The daily structure runs from Monday to Sunday.",
+          "why": "B1 Modul 1 Tagesstruktur. Close the span with bis.",
+          "tip": "bis",
+          "hint": "von … bis.",
+          "who": "Betreuerin"
+        },
+        {
+          "before": "Vierzehn und sechzehn, das Fenster. Die Visite ist",
+          "after": ".",
+          "answer": "zwischen vierzehn und sechzehn",
+          "en": "The round sits between two and four p.m.",
+          "why": "B1 Modul 2. zwischen is a window.",
+          "tip": "zwischen",
+          "hint": "A window.",
+          "who": "Kardiologin"
         }
       ]
     },
@@ -1208,113 +2774,113 @@
       "title": "seit, ab, von, bis",
       "practice": "gap",
       "type": "gapfill",
-      "instructions": "The label names the only time phrase that fits.",
+      "instructions": "seit looks back, ab looks forward, von … bis is the span, zwischen is a window. im and um appear when the cue is a month or a clock.",
       "chips": [
         {
-          "w": "seit Montag",
-          "hint": "seit."
+          "w": "im Dezember",
+          "hint": "A month takes im."
         },
         {
-          "w": "ab Freitag",
-          "hint": "ab."
+          "w": "um ein Uhr",
+          "hint": "The clock takes um."
         },
         {
-          "w": "von Montag bis Freitag",
-          "hint": "von bis."
+          "w": "nach dem Dienst",
+          "hint": "nach plus dative."
         },
         {
-          "w": "zwischen acht und zehn",
-          "hint": "zwischen."
+          "w": "vor dem Dienst",
+          "hint": "vor plus dative."
         },
         {
-          "w": "im Mai",
-          "hint": "im."
+          "w": "seit Januar",
+          "hint": "A start that still holds."
         },
         {
-          "w": "am Morgen",
-          "hint": "am."
+          "w": "ab April",
+          "hint": "A future start."
         },
         {
-          "w": "in der Nacht",
-          "hint": "in der."
+          "w": "von Freitag bis Sonntag",
+          "hint": "A span, closed with bis."
         },
         {
-          "w": "vor der Visite",
-          "hint": "der."
+          "w": "zwischen sechs und acht",
+          "hint": "A window between two times."
         }
       ],
       "items": [
         {
-          "before": "Seit wann, und es ist noch so: Er hat Husten",
+          "before": "Dezember, der Monat. Die Vitalwerte sind",
           "after": ".",
-          "answer": "seit Montag",
-          "en": "still",
-          "why": "seit.",
-          "tip": "seit",
-          "hint": "seit."
+          "answer": "im Dezember",
+          "en": "The vital signs check is in December.",
+          "why": "A2 Modul 3 Vitalwerte kontrollieren. A month takes im.",
+          "tip": "im",
+          "hint": "A month."
         },
         {
-          "before": "Zukunft, ein Starttag, noch nicht heute: Er ist zu Hause",
+          "before": "Ein Uhr, die Uhrzeit. Das Aufnahmegespräch beginnt",
           "after": ".",
-          "answer": "ab Freitag",
-          "en": "future",
-          "why": "ab.",
-          "tip": "ab",
-          "hint": "ab."
+          "answer": "um ein Uhr",
+          "en": "The admission interview begins at one.",
+          "why": "B1 Modul 1 Patienten aufnehmen. The clock takes um.",
+          "tip": "um",
+          "hint": "A clock time."
         },
         {
-          "before": "Eine Spanne von Tagen, nicht eine Uhrzeit: Die Visite ist",
+          "before": "Danach. Die Schichtleitung schreibt die Kurve",
           "after": ".",
-          "answer": "von Montag bis Freitag",
-          "en": "span",
-          "why": "von … bis.",
-          "tip": "bis",
-          "hint": "von bis."
+          "answer": "nach dem Dienst",
+          "en": "The shift lead writes the chart after duty.",
+          "why": "B1 Modul 8 Kurve. nach takes dem.",
+          "tip": "nach",
+          "hint": "After, dative."
         },
         {
-          "before": "Zwischen zwei Uhrzeiten: Er nimmt die Tablette",
+          "before": "Davor. Die Stationsleitung liest den Dienstplan",
           "after": ".",
-          "answer": "zwischen acht und zehn",
-          "en": "between",
-          "why": "zwischen.",
-          "tip": "zwischen",
-          "hint": "zwischen."
-        },
-        {
-          "before": "Ein Monat, nicht ein Start: Er bleibt",
-          "after": "im Zimmer.",
-          "answer": "im Mai",
-          "en": "month",
-          "why": "Months take im.",
-          "tip": "Monat",
-          "hint": "im."
-        },
-        {
-          "before": "Die Tageszeit, nicht die Nacht: Die Visite ist",
-          "after": ".",
-          "answer": "am Morgen",
-          "en": "part of the day",
-          "why": "am, not the night.",
-          "tip": "Morgen",
-          "hint": "am."
-        },
-        {
-          "before": "Nie am Tag, nur die Nachtschicht: Sie misst das Fieber",
-          "after": ".",
-          "answer": "in der Nacht",
-          "en": "night again, unique phrase",
-          "why": "in der.",
-          "tip": "Nacht",
-          "hint": "in der."
-        },
-        {
-          "before": "Früher als die Visite: Er trinkt Wasser",
-          "after": ".",
-          "answer": "vor der Visite",
-          "en": "before, feminine dative",
-          "why": "der Visite is feminine dative.",
+          "answer": "vor dem Dienst",
+          "en": "The ward manager reads the roster before duty.",
+          "why": "A2 Modul 1 Auf Station. vor takes dem.",
           "tip": "vor",
-          "hint": "der."
+          "hint": "Before, dative."
+        },
+        {
+          "before": "Januar, es gilt noch. Der Bewohner hat Husten",
+          "after": ".",
+          "answer": "seit Januar",
+          "en": "The resident has had a cough since January.",
+          "why": "A2 Modul 1 Gesundheitliche Probleme. seit still holds.",
+          "tip": "seit",
+          "hint": "Still true."
+        },
+        {
+          "before": "April, Start in der Zukunft. Die neue Kost gilt",
+          "after": ".",
+          "answer": "ab April",
+          "en": "The new diet applies from April.",
+          "why": "A2 Modul 4 Kostformen. ab is a future start.",
+          "tip": "ab",
+          "hint": "Future start."
+        },
+        {
+          "before": "Freitag bis Sonntag, die Spanne. Die Beschäftigung gilt",
+          "after": ".",
+          "answer": "von Freitag bis Sonntag",
+          "en": "The activity runs from Friday to Sunday.",
+          "why": "A2 Modul 2 Beschäftigungen. Close the span with bis.",
+          "tip": "bis",
+          "hint": "von … bis."
+        },
+        {
+          "before": "Sechs und acht, das Fenster. Die Übergabe ist",
+          "after": ".",
+          "answer": "zwischen sechs und acht",
+          "en": "The handover sits between six and eight.",
+          "why": "B1 Modul 8 Übergabe. zwischen is a window.",
+          "tip": "zwischen",
+          "hint": "A window."
         }
       ]
     },
@@ -1322,117 +2888,117 @@
       "id": "reading",
       "type": "reading",
       "label": "Reading",
-      "title": "Read the note",
+      "title": "Der Pflegebericht",
       "practice": "reading",
-      "instructions": "Read the note, then answer.",
+      "instructions": "Read the note from the ward manager. Then answer in the time phrase the note uses.",
       "document": {
-        "letterhead": "Station 4 · MediDeutsch",
-        "title": "Am Montag",
+        "letterhead": "Station",
+        "title": "Der Pflegebericht",
         "paragraphs": [
-          "Die Visite ist am Montag. Er nimmt die Tablette um acht Uhr. Im Winter bleibt er im Zimmer. In der Nacht misst die Pflegekraft das Fieber. Nach dem Essen nimmt er die Tablette. Vor dem Essen trinkt er Wasser. Seit Montag hat er Husten. Ab Freitag ist er zu Hause."
+          "Die Biografie ist um zwölf Uhr. Der Pflegebericht gilt im Januar. Nach dem Verbandswechsel ruht die Patientin. Vor der Blutabnahme trinkt der Patient Wasser."
         ],
-        "signature": "Anna",
+        "signature": "Stationsleitung",
         "stamp": "Station"
       },
       "questions": [
         {
           "kind": "mc",
-          "q": "Wann ist die Visite?",
-          "qEn": "Day.",
+          "q": "Wann ist die Biografie?",
+          "qEn": "B1 Modul 1 Biografiebericht.",
           "options": [
-            "am Montag",
-            "um Montag",
-            "im Montag"
+            "um zwölf Uhr",
+            "am zwölf Uhr",
+            "im zwölf Uhr"
           ],
           "answer": 0,
-          "why": "am.",
-          "hint": "am."
-        },
-        {
-          "kind": "mc",
-          "q": "Wann nimmt er die Tablette? Clock.",
-          "qEn": "Clock.",
-          "options": [
-            "am acht Uhr",
-            "um acht Uhr",
-            "im acht Uhr"
-          ],
-          "answer": 1,
-          "why": "um.",
+          "why": "The clock takes um.",
           "hint": "um."
         },
         {
           "kind": "mc",
-          "q": "Wann misst sie das Fieber in diesem Text?",
-          "qEn": "Night.",
+          "q": "Wann gilt der Pflegebericht?",
+          "qEn": "B1 Modul 6 Pflegeberichte.",
           "options": [
-            "am Nacht",
-            "um Nacht",
-            "in der Nacht"
+            "im Januar",
+            "am Januar",
+            "um Januar"
           ],
-          "answer": 2,
-          "why": "in der Nacht.",
-          "hint": "Night."
+          "answer": 0,
+          "why": "A month takes im.",
+          "hint": "im."
         },
         {
           "kind": "mc",
-          "q": "Seit wann hat er Husten?",
-          "qEn": "Still.",
+          "q": "Wann ruht die Patientin?",
+          "qEn": "B1 Modul 3 Einen Verband wechseln.",
           "options": [
-            "seit Montag",
-            "ab Freitag",
-            "um Montag"
+            "Nach dem Verbandswechsel",
+            "Nach das Verbandswechsel",
+            "Vor das Verbandswechsel"
           ],
           "answer": 0,
-          "why": "seit.",
-          "hint": "seit."
+          "why": "nach takes the dative dem.",
+          "hint": "dem."
+        },
+        {
+          "kind": "mc",
+          "q": "Wann trinkt der Patient Wasser?",
+          "qEn": "A2 Modul 6 Blut und Blutabnahme.",
+          "options": [
+            "Vor der Blutabnahme",
+            "Nach das Blutabnahme",
+            "Um der Blutabnahme"
+          ],
+          "answer": 0,
+          "why": "vor takes the dative der. Blutabnahme is feminine.",
+          "hint": "der."
         }
       ]
     },
     {
       "id": "writing-time",
       "label": "Writing",
-      "title": "Write the times",
+      "title": "Schreiben",
       "practice": "writing",
       "type": "writing",
-      "instructions": "Write four time phrases in sentences.",
-      "prompt": "On Monday, at eight, at night, after the meal.",
+      "instructions": "Write four sentences. Use each time phrase in the list. The model shows one way.",
+      "prompt": "Vier Sätze. Praxisanleiterin, Teambesprechung, Vater, Kardiologin.",
       "bullets": [
-        "am Montag",
-        "um acht",
-        "in der Nacht",
-        "nach dem Essen"
+        "um dreizehn Uhr",
+        "im März",
+        "nach dem Aufnahmegespräch",
+        "vor der Herzoperation"
       ],
-      "model": "Die Visite ist am Montag. Er nimmt die Tablette um acht Uhr. In der Nacht misst sie das Fieber. Nach dem Essen nimmt er die Tablette.",
-      "modelEn": "The round is on Monday. He takes the tablet at eight. At night she takes the temperature. After the meal he takes the tablet.",
-      "hint": "am for the day, um for the clock, in der for the night, nach plus dative.",
+      "model": "Die Praxisanleiterin kommt um dreizehn Uhr. Die Teambesprechung ist im März. Nach dem Aufnahmegespräch ruht der Vater. Vor der Herzoperation misst die Kardiologin den Puls.",
+      "modelEn": "The practice supervisor comes at one p.m. The team meeting is in March. The father rests after the admission interview. Before the heart operation the cardiologist takes the pulse. A2 Modul 8, B1 Modul 4 Teambesprechung, B1 Modul 1, B1 Modul 2.",
+      "hint": "um for the clock, im for the month, nach and vor plus dative.",
       "checklist": [
         {
-          "id": "a",
-          "label": "am Montag",
+          "id": "uhr",
+          "label": "um dreizehn Uhr",
           "keywords": [
-            "am Montag"
+            "um dreizehn uhr"
           ]
         },
         {
-          "id": "u",
-          "label": "um acht",
+          "id": "monat",
+          "label": "im März",
           "keywords": [
-            "um acht"
+            "im märz"
           ]
         },
         {
-          "id": "n",
-          "label": "in der Nacht",
+          "id": "nach",
+          "label": "nach dem Aufnahmegespräch",
           "keywords": [
-            "in der Nacht"
+            "nach dem aufnahmegespräch"
           ]
         },
         {
-          "id": "e",
-          "label": "nach dem Essen",
+          "id": "vor",
+          "label": "vor der Herzoperation",
           "keywords": [
-            "nach dem Essen"
+            "vor der herzoperation"
           ]
         }
       ]
@@ -1444,164 +3010,164 @@
       "title": "Lernkontrolle",
       "practice": "lernkontrolle",
       "story": [
-        "Mixed test for chapter 30. Eighty per cent marks the lesson as mastered."
+        "Mixed test for chapter 30. The situations are the ward clocks from Menschen im Beruf – Pflege. Eighty per cent marks the lesson as mastered."
       ],
-      "quizTitle": "Lernkontrolle",
+      "quizTitle": "Welche Form",
       "quiz": [
         {
           "kind": "mc",
-          "q": "Monday.",
-          "qEn": "Day.",
+          "q": "Die Stationsleitung plant die Frühschicht. Welcher Tag?",
+          "qEn": "A2 Modul 1 Auf Station.",
           "options": [
             "am Montag",
-            "um Montag",
-            "im Montag"
+            "im Montag",
+            "um Montag"
           ],
           "answer": 0,
-          "why": "am.",
+          "why": "A day takes am.",
           "hint": "am."
         },
         {
           "kind": "mc",
-          "q": "Morning.",
-          "qEn": "Part of the day.",
+          "q": "Die Pflegekraft macht die Betten. Welche Tageszeit?",
+          "qEn": "A2 Modul 4 Betten machen.",
           "options": [
-            "in der Morgen",
             "am Morgen",
+            "im Morgen",
             "um Morgen"
           ],
-          "answer": 1,
-          "why": "am.",
+          "answer": 0,
+          "why": "A part of the day takes am. Not the night.",
           "hint": "am."
         },
         {
           "kind": "mc",
-          "q": "Night.",
-          "qEn": "Exception.",
+          "q": "Die Nachtschwester misst den Puls. Wann?",
+          "qEn": "A2 Modul 3 Vitalwerte.",
           "options": [
+            "in der Nacht",
             "am Nacht",
-            "im Nacht",
-            "in der Nacht"
+            "im Nacht"
           ],
-          "answer": 2,
-          "why": "in der.",
+          "answer": 0,
+          "why": "Night takes in der.",
           "hint": "in der."
         },
         {
           "kind": "mc",
-          "q": "Eight o'clock.",
-          "qEn": "Clock.",
+          "q": "Die Pflegekraft richtet die Tablette. Welche Uhr?",
+          "qEn": "A2 Modul 5 Medikamente richten.",
           "options": [
             "um acht Uhr",
             "am acht Uhr",
             "im acht Uhr"
           ],
           "answer": 0,
-          "why": "um.",
+          "why": "The clock takes um.",
           "hint": "um."
         },
         {
           "kind": "mc",
-          "q": "Winter.",
-          "qEn": "Season.",
+          "q": "Die Betreuerin prüft den Rollstuhl. Welche Jahreszeit?",
+          "qEn": "A2 Modul 2 Hilfsmittel.",
           "options": [
-            "am Winter",
             "im Winter",
+            "am Winter",
             "um Winter"
           ],
-          "answer": 1,
-          "why": "im.",
+          "answer": 0,
+          "why": "A season takes im.",
           "hint": "im."
         },
         {
           "kind": "mc",
-          "q": "May.",
-          "qEn": "Month.",
+          "q": "Mai, der Monat. Die Herzoperation ist wann?",
+          "qEn": "B1 Modul 2 Herzoperationen.",
           "options": [
+            "im Mai",
             "am Mai",
-            "um Mai",
-            "im Mai"
+            "um Mai"
           ],
-          "answer": 2,
-          "why": "im.",
+          "answer": 0,
+          "why": "A month takes im.",
           "hint": "im."
         },
         {
           "kind": "mc",
-          "q": "After the meal.",
-          "qEn": "Dative.",
+          "q": "Der Patient nimmt die Tablette später als das Essen.",
+          "qEn": "A2 Modul 4 Bei Patienten.",
           "options": [
             "nach dem Essen",
             "nach das Essen",
-            "nach den Essen"
+            "vor das Essen"
           ],
           "answer": 0,
-          "why": "dem.",
+          "why": "nach takes the dative dem.",
           "hint": "dem."
         },
         {
           "kind": "mc",
-          "q": "Before the round. Visite is feminine.",
-          "qEn": "Dative.",
+          "q": "Die Visite kommt später. Der Patient trinkt Wasser davor.",
+          "qEn": "B1 Modul 8, before the round.",
           "options": [
-            "vor die Visite",
             "vor der Visite",
-            "vor dem Visite"
+            "vor das Visite",
+            "vor den Visite"
           ],
-          "answer": 1,
-          "why": "der.",
+          "answer": 0,
+          "why": "Visite is feminine. vor takes der.",
           "hint": "der."
         },
         {
           "kind": "mc",
-          "q": "Cough since Monday, still true.",
-          "qEn": "seit.",
+          "q": "Die Bewohnerin folgt der Tagesstruktur, und es gilt noch. Seit wann?",
+          "qEn": "B1 Modul 1 Tagesstruktur.",
           "options": [
-            "ab Montag",
-            "um Montag",
-            "seit Montag"
+            "seit Montag",
+            "im Montag",
+            "um Montag"
           ],
-          "answer": 2,
-          "why": "seit.",
+          "answer": 0,
+          "why": "seit is a start that still holds.",
           "hint": "seit."
         },
         {
           "kind": "mc",
-          "q": "At home from Friday.",
-          "qEn": "ab.",
+          "q": "Die Pflegeplanung startet später. Ab wann?",
+          "qEn": "B1 Modul 6 Pflegeplanung.",
           "options": [
             "ab Freitag",
-            "seit Freitag",
+            "im Freitag",
             "um Freitag"
           ],
           "answer": 0,
-          "why": "Future start is ab.",
+          "why": "ab is a future start.",
           "hint": "ab."
         },
         {
           "kind": "mc",
-          "q": "Monday to Friday.",
-          "qEn": "Span.",
+          "q": "Die Übergabe gilt die ganze Woche. Welche Spanne?",
+          "qEn": "B1 Modul 8 Übergabe.",
           "options": [
-            "seit Montag bis Freitag",
             "von Montag bis Freitag",
-            "am Montag bis Freitag"
+            "von Montag nach Freitag",
+            "seit Montag bis Freitag"
           ],
-          "answer": 1,
-          "why": "von … bis.",
-          "hint": "von bis."
+          "answer": 0,
+          "why": "Close the span with bis.",
+          "hint": "bis."
         },
         {
           "kind": "mc",
-          "q": "Between eight and ten.",
-          "qEn": "zwischen.",
+          "q": "Zwei Zeiten, nicht die Uhr. Die Tablette. Welche Form?",
+          "qEn": "A2 Modul 5 Medikamente einnehmen.",
           "options": [
+            "zwischen acht und zehn",
             "um acht und zehn",
-            "am acht und zehn",
-            "zwischen acht und zehn"
+            "am acht und zehn"
           ],
-          "answer": 2,
-          "why": "zwischen.",
+          "answer": 0,
+          "why": "zwischen is a window. um is one clock time.",
           "hint": "zwischen."
         }
       ]
@@ -1613,26 +3179,48 @@
       "title": "am, um, im, in der Nacht",
       "redemittel": [
         {
-          "de": "Die Visite ist am Montag.",
-          "en": "The ward round is on Monday."
+          "de": "Die Stationsleitung plant die Frühschicht am Montag.",
+          "en": "A2 Modul 1. A day takes am."
         },
         {
-          "de": "Er nimmt die Tablette um acht Uhr.",
-          "en": "He takes the tablet at eight."
+          "de": "Die Pflegekraft richtet die Tablette um acht Uhr.",
+          "en": "A2 Modul 5. The clock takes um."
         },
         {
-          "de": "In der Nacht misst sie das Fieber.",
-          "en": "At night she takes the temperature."
+          "de": "Die Nachtschwester misst den Puls in der Nacht.",
+          "en": "A2 Modul 3. Night takes in der."
         },
         {
-          "de": "Nach dem Essen nimmt er die Tablette.",
-          "en": "After the meal he takes the tablet."
+          "de": "Die Betreuerin prüft den Rollstuhl im Winter.",
+          "en": "A2 Modul 2. A season takes im."
         },
         {
-          "de": "Seit Montag hat er Husten.",
-          "en": "He has had a cough since Monday."
+          "de": "Der Patient nimmt die Tablette nach dem Essen.",
+          "en": "A2 Modul 4. nach takes dem."
+        },
+        {
+          "de": "Die Bewohnerin folgt der Tagesstruktur seit Montag.",
+          "en": "B1 Modul 1. seit still holds."
         }
       ]
     }
+  ],
+  "exerciseLanguage": "de",
+  "scenarios": [
+    "a2-krankenhaus",
+    "a2-hilfsmittel",
+    "a2-vitalwerte",
+    "a2-patienten",
+    "a2-arzneimittel",
+    "a2-untersuchungen",
+    "a2-notfall",
+    "a2-hygiene",
+    "b1-aufnahme",
+    "b1-demenz",
+    "b1-herz",
+    "b1-wunden",
+    "b1-beschwerden",
+    "b1-team",
+    "b1-dokumentation"
   ]
 }
