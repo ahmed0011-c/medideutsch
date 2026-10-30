@@ -1,22 +1,27 @@
 import type { Lesson, Step } from "@/lib/lesson-schema";
 
+/** Required practice roles for the chapter skeleton:
+ * Überblick + Grammatik + Lücken + Bauen + Fehler + Bilder + Dialog + Schreiben + Lernkontrolle (+ Summary).
+ * match / transform / reading remain allowed on older lessons but are not required. */
 export const PRACTICE_ROLES = [
-  "match",
   "gap",
   "choose",
   "build",
-  "transform",
   "error",
   "picture",
   "dialogue",
-  "reading",
   "writing",
   "lernkontrolle",
 ] as const;
 
-export type PracticeRole = (typeof PRACTICE_ROLES)[number];
+export type PracticeRole =
+  | (typeof PRACTICE_ROLES)[number]
+  | "match"
+  | "transform"
+  | "reading";
 
-export const MIN_EXERCISES = 12;
+/** Core exercise steps (excludes Überblick / Summary). */
+export const MIN_EXERCISES = 8;
 export const MIN_ITEMS = 60;
 export const MIN_LERNKONTROLLE = 10;
 export const MASTERY_RATIO = 0.8;
@@ -31,6 +36,8 @@ const EXERCISE_TYPES = new Set([
   "riddle",
   "reading",
   "writing",
+  "sentencewrite",
+  "dialogfill",
 ]);
 
 type McMap = Record<string, { solved?: boolean } | undefined>;
@@ -53,6 +60,13 @@ export function countStepItems(step: Step): number {
   if ("questions" in step && step.questions) count += step.questions.length;
   if ("sentences" in step && step.sentences) count += step.sentences.length;
   if ("checklist" in step && step.checklist) count += step.checklist.length;
+  if (step.type === "dialogfill") {
+    for (const line of step.lines) {
+      for (const part of line.parts) {
+        if ("gap" in part && part.gap) count += 1;
+      }
+    }
+  }
   return count;
 }
 

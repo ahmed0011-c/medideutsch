@@ -18,6 +18,8 @@ import { PictureStepView } from "@/components/steps/PictureStep";
 import { ColourStepView } from "@/components/steps/ColourStep";
 import { ReadingStepView } from "@/components/steps/ReadingStep";
 import { CompareStepView, RiddleStepView, WritingStepView } from "@/components/steps/ExtraSteps";
+import { SentenceWriteStepView } from "@/components/steps/SentenceWriteStep";
+import { DialogFillStepView } from "@/components/steps/DialogFillStep";
 import { QuickReactStepView } from "@/components/steps/QuickReactStep";
 import { SummaryStepView } from "@/components/steps/SummaryStep";
 import type { SavedProgress } from "@/lib/storage";
@@ -208,6 +210,10 @@ function StepBody({
       return <QuickReactStepView step={step} />;
     case "writing":
       return <WritingStepView step={step} />;
+    case "sentencewrite":
+      return <SentenceWriteStepView step={step} />;
+    case "dialogfill":
+      return <DialogFillStepView step={step} />;
     case "summary":
       return <SummaryStepView step={step} onRestart={onRestart} onReview={onReview} />;
     default:
@@ -264,6 +270,23 @@ function statusLine(step: Step, progress: SavedProgress, lesson: Lesson): string
     case "writing": {
       const got = Object.keys(progress.writing[step.id]?.awarded ?? {}).length;
       return `Checklist: ${got}/${step.checklist.length}`;
+    }
+    case "sentencewrite": {
+      const got = Object.keys(progress.writing[step.id]?.awarded ?? {}).length;
+      return `Sätze: ${got}/${step.items.length}`;
+    }
+    case "dialogfill": {
+      let total = 0;
+      let n = 0;
+      for (let li = 0; li < step.lines.length; li++) {
+        for (let pi = 0; pi < step.lines[li].parts.length; pi++) {
+          const part = step.lines[li].parts[pi];
+          if (!("gap" in part) || !part.gap) continue;
+          total += 1;
+          if (progress.gapDone[`${step.id}:${li}:${pi}`]) n += 1;
+        }
+      }
+      return `Lücken: ${n}/${total}`;
     }
     case "summary":
       return "Lesson complete";

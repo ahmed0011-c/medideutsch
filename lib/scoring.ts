@@ -78,6 +78,7 @@ type StepLike = {
   label: string;
   scoreLabel?: string;
   quiz?: unknown[];
+  lines?: Array<{ parts?: Array<Record<string, unknown>>; [key: string]: unknown }>;
   tips?: unknown[];
   items?: unknown[];
   questions?: unknown[];
@@ -180,6 +181,28 @@ export function scoreSections(
           });
         }
         break;
+      case "sentencewrite":
+        if (step.items?.length) {
+          sections.push({
+            key: `write:${step.id}:`,
+            label,
+            max: step.items.length * scoring.firstTry,
+          });
+        }
+        break;
+      case "dialogfill": {
+        const gaps = (step.lines ?? []).reduce((n, line) => {
+          return n + (line.parts ?? []).filter((part) => part.gap === true).length;
+        }, 0);
+        if (gaps) {
+          sections.push({
+            key: `dialogfill:${step.id}:`,
+            label,
+            max: gaps * scoring.firstTry,
+          });
+        }
+        break;
+      }
       default:
         break;
     }

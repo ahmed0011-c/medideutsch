@@ -56,6 +56,17 @@ function germanExerciseTexts(lesson: Lesson): string[] {
       push(step.prompt, step.model, ...step.bullets);
       for (const item of step.checklist) push(item.label);
     }
+    if (step.type === "sentencewrite") {
+      for (const item of step.items) push(item.cue, ...item.answers);
+    }
+    if (step.type === "dialogfill") {
+      for (const line of step.lines) {
+        for (const part of line.parts) {
+          if ("text" in part) push(part.text);
+          if ("gap" in part && part.gap) push(...part.options);
+        }
+      }
+    }
     if (step.type === "reading") {
       for (const question of step.questions) push(question.q, ...question.options);
     }

@@ -413,6 +413,68 @@ export const riddleStepSchema = z.object({
   ),
 });
 
+
+export const sentencewriteStepSchema = z.object({
+  ...stepBase,
+  type: z.literal("sentencewrite"),
+  instructions: z.string(),
+  items: z
+    .array(
+      z.object({
+        /** Shown above the input, e.g. helfen: die Pflegerin • dem alt__ Patienten • beim Waschen */
+        cue: z.string().min(1),
+        /** Accepted full sentences (different word orders). First is the model answer. */
+        answers: z.array(z.string().min(1)).min(1),
+        /** Optional token-level hints for wrong endings / forms. */
+        marks: z
+          .array(
+            z.object({
+              wrong: z.string().min(1),
+              right: z.string().min(1),
+              reason: z.string().min(1),
+            }),
+          )
+          .optional(),
+        en: z.string().optional(),
+        hint: z.string().optional(),
+      }),
+    )
+    .min(1),
+});
+
+export const dialogfillStepSchema = z.object({
+  ...stepBase,
+  type: z.literal("dialogfill"),
+  instructions: z.string(),
+  scene: z.string().optional(),
+  sceneTitle: z.string().optional(),
+  speakers: z.record(
+    z.string(),
+    z.object({ name: z.string(), role: z.string(), avatar: z.string() }),
+  ),
+  lines: z
+    .array(
+      z.object({
+        who: z.string(),
+        parts: z
+          .array(
+            z.union([
+              z.object({ text: z.string() }),
+              z.object({
+                gap: z.literal(true),
+                options: z.tuple([z.string(), z.string()]),
+                answer: z.union([z.literal(0), z.literal(1)]),
+                why: z.string(),
+              }),
+            ]),
+          )
+          .min(1),
+      }),
+    )
+    .min(1),
+  listenLabel: z.string().optional(),
+});
+
 export const writingStepSchema = z.object({
   ...stepBase,
   type: z.literal("writing"),
@@ -481,6 +543,8 @@ export const stepSchema = z.discriminatedUnion("type", [
   riddleStepSchema,
   quickReactStepSchema,
   writingStepSchema,
+  sentencewriteStepSchema,
+  dialogfillStepSchema,
   summaryStepSchema,
 ]);
 
@@ -532,5 +596,7 @@ export type CompareStep = z.infer<typeof compareStepSchema>;
 export type RiddleStep = z.infer<typeof riddleStepSchema>;
 export type QuickReactStep = z.infer<typeof quickReactStepSchema>;
 export type WritingStep = z.infer<typeof writingStepSchema>;
+export type SentenceWriteStep = z.infer<typeof sentencewriteStepSchema>;
+export type DialogFillStep = z.infer<typeof dialogfillStepSchema>;
 export type SummaryStep = z.infer<typeof summaryStepSchema>;
 export type McQuestion = z.infer<typeof mcSchema>;
