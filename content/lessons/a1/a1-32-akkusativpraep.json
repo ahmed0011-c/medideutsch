@@ -1861,71 +1861,47 @@
       "instructions": "Wählen Sie die passende FUDOG-Phrase.",
       "chips": [
         {
-          "w": "für die Bewohnerin",
+          "w": "für die",
           "hint": "für + die"
         },
         {
-          "w": "um den Infusionsständer",
+          "w": "um den",
           "hint": "um + den"
         },
         {
-          "w": "durch die Notaufnahme",
+          "w": "durch die",
           "hint": "durch + die"
         },
         {
-          "w": "ohne den Begleitschein",
+          "w": "ohne den",
           "hint": "ohne + den"
         },
         {
-          "w": "gegen die Übelkeit",
+          "w": "gegen die",
           "hint": "gegen + die"
         },
         {
-          "w": "für die Tochter",
-          "hint": "für"
-        },
-        {
-          "w": "um den Rollstuhl",
-          "hint": "um"
-        },
-        {
-          "w": "durch den Gang",
+          "w": "durch den",
           "hint": "durch"
         },
         {
-          "w": "ohne die Brille",
+          "w": "ohne die",
           "hint": "ohne"
         },
         {
-          "w": "für die Wunde",
-          "hint": "für"
-        },
-        {
-          "w": "gegen den Husten",
+          "w": "gegen den",
           "hint": "gegen"
         },
         {
-          "w": "ohne den Gehstock",
-          "hint": "ohne"
-        },
-        {
-          "w": "für die Patientin",
-          "hint": "für"
-        },
-        {
-          "w": "um acht Uhr",
+          "w": "um",
           "hint": "Uhrzeit"
-        },
-        {
-          "w": "gegen den Dekubitus",
-          "hint": "gegen"
         }
       ],
       "items": [
         {
           "before": "Das Rezept ist",
-          "after": ".",
-          "answer": "für die Bewohnerin",
+          "after": "Bewohnerin.",
+          "answer": "für die",
           "en": "prescription for resident",
           "why": "für + Akk. feminin = die.",
           "tip": "für die",
@@ -1933,8 +1909,8 @@
         },
         {
           "before": "Lena geht",
-          "after": ".",
-          "answer": "um den Infusionsständer",
+          "after": "Infusionsständer.",
+          "answer": "um den",
           "en": "around the IV stand",
           "why": "um + Akk. maskulin = den.",
           "tip": "um den",
@@ -1942,8 +1918,8 @@
         },
         {
           "before": "Der Notarzt kommt",
-          "after": ".",
-          "answer": "durch die Notaufnahme",
+          "after": "Notaufnahme.",
+          "answer": "durch die",
           "en": "through A&E",
           "why": "durch + Akk. feminin = die.",
           "tip": "durch die",
@@ -1951,8 +1927,8 @@
         },
         {
           "before": "Die Blutprobe kommt",
-          "after": ".",
-          "answer": "ohne den Begleitschein",
+          "after": "Begleitschein.",
+          "answer": "ohne den",
           "en": "without the form",
           "why": "ohne + Akk. maskulin = den.",
           "tip": "ohne den",
@@ -1960,8 +1936,8 @@
         },
         {
           "before": "Die Tropfen helfen",
-          "after": ".",
-          "answer": "gegen die Übelkeit",
+          "after": "Übelkeit.",
+          "answer": "gegen die",
           "en": "against nausea",
           "why": "gegen + Akk. feminin = die.",
           "tip": "gegen die",
@@ -1969,8 +1945,8 @@
         },
         {
           "before": "Tom bringt den Arztbrief",
-          "after": ".",
-          "answer": "für die Tochter",
+          "after": "Tochter.",
+          "answer": "für die",
           "en": "letter for the daughter",
           "why": "für + die Tochter.",
           "tip": "für die",
@@ -1978,8 +1954,8 @@
         },
         {
           "before": "Bitte gehen Sie",
-          "after": ".",
-          "answer": "um den Rollstuhl",
+          "after": "Rollstuhl.",
+          "answer": "um den",
           "en": "around the wheelchair",
           "why": "um + den Rollstuhl.",
           "tip": "um den",
@@ -1987,8 +1963,8 @@
         },
         {
           "before": "Die Praktikantin läuft",
-          "after": ".",
-          "answer": "durch den Gang",
+          "after": "Gang.",
+          "answer": "durch den",
           "en": "through the corridor",
           "why": "durch + den Gang.",
           "tip": "durch den",
@@ -1996,8 +1972,8 @@
         },
         {
           "before": "Der Bewohner kommt",
-          "after": ".",
-          "answer": "ohne die Brille",
+          "after": "Brille.",
+          "answer": "ohne die",
           "en": "without glasses",
           "why": "ohne + die Brille.",
           "tip": "ohne die",
@@ -2005,8 +1981,8 @@
         },
         {
           "before": "Das Pflaster ist",
-          "after": ".",
-          "answer": "für die Wunde",
+          "after": "Wunde.",
+          "answer": "für die",
           "en": "plaster for the wound",
           "why": "für + die Wunde.",
           "tip": "für die",
@@ -2014,8 +1990,8 @@
         },
         {
           "before": "Die Tablette hilft",
-          "after": ".",
-          "answer": "gegen den Husten",
+          "after": "Husten.",
+          "answer": "gegen den",
           "en": "against the cough",
           "why": "gegen + den Husten.",
           "tip": "gegen den",
@@ -2023,8 +1999,8 @@
         },
         {
           "before": "Der Bewohner geht",
-          "after": ".",
-          "answer": "ohne den Gehstock",
+          "after": "Gehstock.",
+          "answer": "ohne den",
           "en": "without the stick",
           "why": "ohne + den Gehstock.",
           "tip": "ohne den",
@@ -2032,8 +2008,8 @@
         },
         {
           "before": "Die Packungsbeilage ist",
-          "after": ".",
-          "answer": "für die Patientin",
+          "after": "Patientin.",
+          "answer": "für die",
           "en": "insert for patient",
           "why": "für + die Patientin.",
           "tip": "für die",
@@ -2041,8 +2017,8 @@
         },
         {
           "before": "Wir sprechen",
-          "after": ".",
-          "answer": "um acht Uhr",
+          "after": "acht Uhr.",
+          "answer": "um",
           "en": "at eight o'clock",
           "why": "um + Uhrzeit.",
           "tip": "um … Uhr",
@@ -2050,8 +2026,8 @@
         },
         {
           "before": "Die Wundauflage ist",
-          "after": ".",
-          "answer": "gegen den Dekubitus",
+          "after": "Dekubitus.",
+          "answer": "gegen den",
           "en": "against pressure sore",
           "why": "gegen + den Dekubitus.",
           "tip": "gegen den",

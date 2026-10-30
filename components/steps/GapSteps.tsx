@@ -21,9 +21,11 @@ export function GapFillStepView({ step }: { step: GapFillStep }) {
   const sensors = useLessonSensors();
   const [selected, setSelected] = useState<string | null>(null);
   const chips = seededShuffle(step.chips, 3);
-  const used = new Set(
-    step.items.filter((_, index) => progress.gapDone[`${step.id}:${index}`]).map((item) => item.answer),
-  );
+  const remaining = new Map<string, number>();
+  step.items.forEach((item, index) => {
+    if (progress.gapDone[`${step.id}:${index}`]) return;
+    remaining.set(item.answer, (remaining.get(item.answer) ?? 0) + 1);
+  });
 
   function tryGap(index: number, word: string, anchor: HTMLElement | null) {
     const item = step.items[index];
@@ -71,7 +73,7 @@ export function GapFillStepView({ step }: { step: GapFillStep }) {
       <div className="card">
         <div className="bank sticky">
           {chips.map((chip) =>
-            used.has(chip.w) ? null : (
+            !remaining.get(chip.w) ? null : (
               <Chip key={chip.w} id={`chip:${chip.w}`} label={chip.w} selected={selected === chip.w} onTap={() => setSelected((cur) => (cur === chip.w ? null : chip.w))} />
             ),
           )}

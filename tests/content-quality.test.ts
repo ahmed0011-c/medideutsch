@@ -66,8 +66,8 @@ function walkStep(lesson: Lesson, step: Step, hit: string[]) {
   }
   if (step.type === "gapfill") {
     const answers = step.items.map((item) => item.answer);
-    unique(answers, `${lesson.id} ${step.id} gaps`);
     const finished = step.items.map((item) => gapSentence(item.before, item.answer, item.after));
+    unique(finished, `${lesson.id} ${step.id} gaps`);
     step.items.forEach((item, index) => {
       for (const chip of answers) {
         if (chip === item.answer) continue;
