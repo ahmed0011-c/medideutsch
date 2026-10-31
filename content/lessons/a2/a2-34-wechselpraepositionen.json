@@ -1345,6 +1345,13 @@
       "pos": "adjective",
       "en": "flat"
     },
+    "Flur": {
+      "de": "Flur",
+      "pos": "noun",
+      "en": "corridor",
+      "article": "der",
+      "plural": "die Flure"
+    },
     "Fläche": {
       "de": "Fläche",
       "pos": "noun",
@@ -1959,6 +1966,13 @@
       "article": "das",
       "plural": "die Kapitel"
     },
+    "Karton": {
+      "de": "Karton",
+      "pos": "noun",
+      "en": "box / carton",
+      "article": "der",
+      "plural": "die Kartons"
+    },
     "Kasus": {
       "de": "Kasus",
       "pos": "noun",
@@ -2055,6 +2069,13 @@
       "de": "klären",
       "pos": "verb",
       "en": "to clarify"
+    },
+    "Koffer": {
+      "de": "Koffer",
+      "pos": "noun",
+      "en": "suitcase",
+      "article": "der",
+      "plural": "die Koffer"
     },
     "kollegin": {
       "de": "Kollegin",
@@ -2424,6 +2445,13 @@
       "pos": "pronoun",
       "en": "one; you (impersonal)"
     },
+    "Mantel": {
+      "de": "Mantel",
+      "pos": "noun",
+      "en": "coat",
+      "article": "der",
+      "plural": "die Mäntel"
+    },
     "Mappe": {
       "de": "Mappe",
       "pos": "noun",
@@ -2454,6 +2482,16 @@
       "de": "Meier",
       "pos": "noun",
       "en": "Meier (surname)"
+    },
+    "Mein": {
+      "de": "mein",
+      "pos": "pronoun",
+      "en": "my (masculine)"
+    },
+    "mein": {
+      "de": "mein",
+      "pos": "pronoun",
+      "en": "my"
     },
     "Meine": {
       "de": "meine",
@@ -3021,7 +3059,8 @@
       "de": "Pfleger",
       "pos": "noun",
       "en": "male nurse",
-      "article": "der"
+      "article": "der",
+      "plural": "die Pfleger"
     },
     "Pflegerin": {
       "de": "Pflegerin",
@@ -3496,6 +3535,11 @@
       "pos": "form",
       "en": "push (ihr imperative)"
     },
+    "schiebt": {
+      "de": "schieben → schiebt",
+      "pos": "form",
+      "en": "pushes"
+    },
     "Schild": {
       "de": "Schild",
       "pos": "noun",
@@ -3804,6 +3848,13 @@
       "de": "so",
       "pos": "adverb",
       "en": "so"
+    },
+    "Sofa": {
+      "de": "Sofa",
+      "pos": "noun",
+      "en": "sofa",
+      "article": "das",
+      "plural": "die Sofas"
     },
     "sofort": {
       "de": "sofort",
@@ -4532,8 +4583,9 @@
     "Wagen": {
       "de": "Wagen",
       "pos": "noun",
-      "en": "trolley; cart",
-      "article": "der"
+      "en": "trolley / cart",
+      "article": "der",
+      "plural": "die Wagen"
     },
     "wandert": {
       "de": "wandert",
@@ -5452,204 +5504,204 @@
       "label": "Lücken",
       "title": "im oder ins …?",
       "practice": "gap",
-      "instructions": "Wählen Sie die passende Lokalangabe.",
+      "instructions": "Wählen Sie die kurze Form für die Lücke (z. B. im, ins, in den).",
       "chips": [
         {
-          "w": "im Bett",
-          "hint": "Wo? · in + dem"
+          "w": "im",
+          "hint": "in + dem · Wo?"
         },
         {
-          "w": "ins Bett",
-          "hint": "Wohin? · in + das"
+          "w": "ins",
+          "hint": "in + das · Wohin?"
         },
         {
-          "w": "im Zimmer",
-          "hint": "Wo? · Raum"
+          "w": "in den",
+          "hint": "in + den · Wohin? maskulin"
         },
         {
-          "w": "ins Zimmer",
-          "hint": "Wohin? · Raum"
+          "w": "auf dem",
+          "hint": "auf + dem · Wo?"
         },
         {
-          "w": "auf dem Bett",
-          "hint": "Wo? · auf + dem"
+          "w": "auf den",
+          "hint": "auf + den · Wohin?"
         },
         {
-          "w": "aufs Bett",
-          "hint": "Wohin? · auf + das"
+          "w": "aufs",
+          "hint": "auf + das · Wohin?"
         },
         {
-          "w": "am Fenster",
-          "hint": "Wo? · an + dem"
+          "w": "am",
+          "hint": "an + dem · Wo?"
         },
         {
-          "w": "ans Fenster",
-          "hint": "Wohin? · an + das"
+          "w": "ans",
+          "hint": "an + das · Wohin?"
         },
         {
-          "w": "auf dem Tisch",
-          "hint": "Wo? · liegen"
+          "w": "an den",
+          "hint": "an + den · Wohin?"
         },
         {
-          "w": "auf den Tisch",
-          "hint": "Wohin? · legen"
+          "w": "neben dem",
+          "hint": "neben + dem · Wo?"
         },
         {
-          "w": "neben dem Bett",
-          "hint": "Wo? · neben"
+          "w": "neben das",
+          "hint": "neben + das · Wohin?"
         },
         {
-          "w": "neben das Bett",
-          "hint": "Wohin? · stellen"
+          "w": "unter dem",
+          "hint": "unter + dem · Wo?"
         },
         {
-          "w": "unter dem Bett",
-          "hint": "Wo? · unter"
+          "w": "unter das",
+          "hint": "unter + das · Wohin?"
         },
         {
-          "w": "unter das Bett",
-          "hint": "Wohin? · unter"
+          "w": "über dem",
+          "hint": "über + dem · Wo?"
         },
         {
-          "w": "über dem Bett",
-          "hint": "Wo? · hängen"
+          "w": "über das",
+          "hint": "über + das · Wohin?"
         }
       ],
       "items": [
         {
           "before": "Wo? Herr Braun liegt ",
-          "after": ".",
-          "answer": "im Bett",
+          "after": " Bett.",
+          "answer": "im",
           "en": "Where? Mr Braun is lying in bed.",
-          "why": "liegen · Wo? → Dativ",
-          "tip": "im Bett",
-          "hint": "im Bett"
+          "why": "liegen · Wo? → im (Dativ)",
+          "tip": "im",
+          "hint": "im"
         },
         {
           "before": "Wohin? Bitte legen Sie sich ",
-          "after": ".",
-          "answer": "ins Bett",
-          "en": "Where to? Please lie down in bed.",
-          "why": "legen · Wohin? → Akkusativ",
-          "tip": "ins Bett",
-          "hint": "ins Bett"
+          "after": " Bett.",
+          "answer": "ins",
+          "en": "Where to? Please lie down into bed.",
+          "why": "legen · Wohin? → ins (Akkusativ)",
+          "tip": "ins",
+          "hint": "ins"
         },
         {
-          "before": "Die Patientin wartet ",
-          "after": " 8.",
-          "answer": "im Zimmer",
-          "en": "The patient is waiting in room 8.",
-          "why": "warten · Ort → Dativ",
-          "tip": "im Zimmer",
-          "hint": "im Zimmer"
-        },
-        {
-          "before": "Wir bringen Frau Keller ",
-          "after": ".",
-          "answer": "ins Zimmer",
-          "en": "We are taking Mrs Keller into the room.",
-          "why": "bringen · Richtung → Akkusativ",
-          "tip": "ins Zimmer",
-          "hint": "ins Zimmer"
-        },
-        {
-          "before": "Der Pulsmesser liegt ",
-          "after": ".",
-          "answer": "auf dem Bett",
-          "en": "The pulse meter is lying on the bed.",
-          "why": "liegen · Wo?",
-          "tip": "auf dem Bett",
-          "hint": "auf dem Bett"
-        },
-        {
-          "before": "Legen Sie die Decke ",
-          "after": ".",
-          "answer": "aufs Bett",
-          "en": "Put the blanket onto the bed.",
-          "why": "legen · Wohin?",
-          "tip": "aufs Bett",
-          "hint": "aufs Bett"
-        },
-        {
-          "before": "Mira steht ",
-          "after": " und ruft.",
-          "answer": "am Fenster",
-          "en": "Mira is standing at the window and calling.",
-          "why": "stehen · Wo?",
-          "tip": "am Fenster",
-          "hint": "am Fenster"
-        },
-        {
-          "before": "Der Patient geht langsam ",
-          "after": ".",
-          "answer": "ans Fenster",
-          "en": "The patient walks slowly to the window.",
-          "why": "gehen · Wohin?",
-          "tip": "ans Fenster",
-          "hint": "ans Fenster"
-        },
-        {
-          "before": "Die Akte liegt ",
-          "after": ".",
-          "answer": "auf dem Tisch",
-          "en": "The file is lying on the table.",
-          "why": "liegen · Wo?",
-          "tip": "auf dem Tisch",
-          "hint": "auf dem Tisch"
-        },
-        {
-          "before": "Legen Sie die Akte ",
-          "after": ", bitte.",
-          "answer": "auf den Tisch",
-          "en": "Put the file onto the table, please.",
-          "why": "legen · Wohin?",
-          "tip": "auf den Tisch",
-          "hint": "auf den Tisch"
-        },
-        {
-          "before": "Der Stuhl steht ",
-          "after": ".",
-          "answer": "neben dem Bett",
-          "en": "The chair is standing next to the bed.",
-          "why": "stehen · Wo?",
-          "tip": "neben dem Bett",
-          "hint": "neben dem Bett"
-        },
-        {
-          "before": "Stellen Sie den Stuhl ",
-          "after": ".",
-          "answer": "neben das Bett",
-          "en": "Put the chair next to the bed.",
-          "why": "stellen · Wohin?",
-          "tip": "neben das Bett",
-          "hint": "neben das Bett"
-        },
-        {
-          "before": "Die Tasche liegt ",
-          "after": ".",
-          "answer": "unter dem Bett",
-          "en": "The bag is lying under the bed.",
-          "why": "liegen · Wo?",
-          "tip": "unter dem Bett",
-          "hint": "unter dem Bett"
-        },
-        {
-          "before": "Schieben Sie die Tasche ",
-          "after": ".",
-          "answer": "unter das Bett",
-          "en": "Slide the bag under the bed.",
-          "why": "schieben · Wohin?",
-          "tip": "unter das Bett",
-          "hint": "unter das Bett"
+          "before": "Der Pfleger schiebt den Wagen ",
+          "after": " Flur.",
+          "answer": "in den",
+          "en": "The nurse is pushing the trolley into the corridor.",
+          "why": "Flur maskulin · Wohin? → in den",
+          "tip": "in den",
+          "hint": "in den"
         },
         {
           "before": "Die Lampe hängt ",
-          "after": ".",
-          "answer": "über dem Bett",
+          "after": " Bett.",
+          "answer": "über dem",
           "en": "The lamp is hanging above the bed.",
-          "why": "hängen · Lage → Dativ",
-          "tip": "über dem Bett",
-          "hint": "über dem Bett"
+          "why": "hängen · Lage → über dem",
+          "tip": "über dem",
+          "hint": "über dem"
+        },
+        {
+          "before": "Der Pulsmesser liegt ",
+          "after": " Bett.",
+          "answer": "auf dem",
+          "en": "The pulse meter is lying on the bed.",
+          "why": "liegen · Wo? → auf dem",
+          "tip": "auf dem",
+          "hint": "auf dem"
+        },
+        {
+          "before": "Legen Sie die Decke ",
+          "after": " Bett.",
+          "answer": "aufs",
+          "en": "Put the blanket onto the bed.",
+          "why": "legen · Wohin? → aufs",
+          "tip": "aufs",
+          "hint": "aufs"
+        },
+        {
+          "before": "Mira steht ",
+          "after": " Fenster und ruft.",
+          "answer": "am",
+          "en": "Mira is standing at the window and calling.",
+          "why": "stehen · Wo? → am",
+          "tip": "am",
+          "hint": "am"
+        },
+        {
+          "before": "Der Patient geht langsam ",
+          "after": " Fenster.",
+          "answer": "ans",
+          "en": "The patient walks slowly to the window.",
+          "why": "gehen · Wohin? → ans",
+          "tip": "ans",
+          "hint": "ans"
+        },
+        {
+          "before": "Die Tasche liegt ",
+          "after": " Bett.",
+          "answer": "unter dem",
+          "en": "The bag is lying under the bed.",
+          "why": "liegen · Wo? → unter dem",
+          "tip": "unter dem",
+          "hint": "unter dem"
+        },
+        {
+          "before": "Legen Sie die Akte ",
+          "after": " Tisch, bitte.",
+          "answer": "auf den",
+          "en": "Put the file onto the table, please.",
+          "why": "legen · Wohin? → auf den",
+          "tip": "auf den",
+          "hint": "auf den"
+        },
+        {
+          "before": "Der Stuhl steht ",
+          "after": " Bett.",
+          "answer": "neben dem",
+          "en": "The chair is standing next to the bed.",
+          "why": "stehen · Wo? → neben dem",
+          "tip": "neben dem",
+          "hint": "neben dem"
+        },
+        {
+          "before": "Stellen Sie den Stuhl ",
+          "after": " Bett.",
+          "answer": "neben das",
+          "en": "Put the chair next to the bed.",
+          "why": "stellen · Wohin? → neben das",
+          "tip": "neben das",
+          "hint": "neben das"
+        },
+        {
+          "before": "Hängen Sie den Mantel ",
+          "after": " Haken.",
+          "answer": "an den",
+          "en": "Hang the coat on the hook.",
+          "why": "hängen · Wohin? → an den",
+          "tip": "an den",
+          "hint": "an den"
+        },
+        {
+          "before": "Schieben Sie die Tasche ",
+          "after": " Bett.",
+          "answer": "unter das",
+          "en": "Slide the bag under the bed.",
+          "why": "schieben · Wohin? → unter das",
+          "tip": "unter das",
+          "hint": "unter das"
+        },
+        {
+          "before": "Bitte hängen Sie die Lampe ",
+          "after": " Nachttisch.",
+          "answer": "über das",
+          "en": "Please hang the lamp above the bedside table.",
+          "why": "hängen · Wohin? → über das",
+          "tip": "über das",
+          "hint": "über das"
         }
       ]
     },
@@ -6430,7 +6482,7 @@
           "who": "pat",
           "parts": [
             {
-              "text": "Meine Schuhe stehen "
+              "text": "Mein Karton steht "
             },
             {
               "gap": true,
@@ -6450,7 +6502,7 @@
           "who": "arzt",
           "parts": [
             {
-              "text": "Stellen Sie die Schuhe "
+              "text": "Stellen Sie den Karton "
             },
             {
               "gap": true,
@@ -6525,20 +6577,20 @@
           "hint": "Die Akte liegt auf dem Tisch"
         },
         {
-          "cue": "Decke • Wohin? • aufs Bett",
+          "cue": "Kissen • Wohin? • aufs Sofa",
           "answers": [
-            "Legen Sie die Decke aufs Bett",
-            "Die Decke legen Sie aufs Bett"
+            "Legen Sie das Kissen aufs Sofa",
+            "Das Kissen legen Sie aufs Sofa"
           ],
           "marks": [
             {
-              "wrong": "auf dem Bett",
-              "right": "aufs Bett",
+              "wrong": "auf dem Sofa",
+              "right": "aufs Sofa",
               "reason": "legen → Akkusativ"
             }
           ],
-          "en": "Put the blanket onto the bed.",
-          "hint": "Legen Sie die Decke aufs Bett"
+          "en": "Put the pillow onto the sofa.",
+          "hint": "Legen Sie das Kissen aufs Sofa"
         },
         {
           "cue": "Mira • Wo? • am Fenster",
@@ -6573,10 +6625,10 @@
           "hint": "Der Patient geht ans Fenster"
         },
         {
-          "cue": "Stuhl • Wo? • neben dem Bett",
+          "cue": "Tisch • Wo? • neben dem Bett",
           "answers": [
-            "Der Stuhl steht neben dem Bett",
-            "Neben dem Bett steht der Stuhl"
+            "Der Tisch steht neben dem Bett",
+            "Neben dem Bett steht der Tisch"
           ],
           "marks": [
             {
@@ -6585,14 +6637,14 @@
               "reason": "stehen → Dativ"
             }
           ],
-          "en": "The chair is standing next to the bed.",
-          "hint": "Der Stuhl steht neben dem Bett"
+          "en": "The table is standing next to the bed.",
+          "hint": "Der Tisch steht neben dem Bett"
         },
         {
-          "cue": "Stuhl • Wohin? • neben das Bett",
+          "cue": "Tisch • Wohin? • neben das Bett",
           "answers": [
-            "Stellen Sie den Stuhl neben das Bett",
-            "Den Stuhl stellen Sie neben das Bett"
+            "Stellen Sie den Tisch neben das Bett",
+            "Den Tisch stellen Sie neben das Bett"
           ],
           "marks": [
             {
@@ -6601,14 +6653,14 @@
               "reason": "stellen → Akkusativ"
             }
           ],
-          "en": "Put the chair next to the bed.",
-          "hint": "Stellen Sie den Stuhl neben das Bett"
+          "en": "Put the table next to the bed.",
+          "hint": "Stellen Sie den Tisch neben das Bett"
         },
         {
-          "cue": "Tasche • Wo? • unter dem Bett",
+          "cue": "Koffer • Wo? • unter dem Bett",
           "answers": [
-            "Die Tasche liegt unter dem Bett",
-            "Unter dem Bett liegt die Tasche"
+            "Der Koffer liegt unter dem Bett",
+            "Unter dem Bett liegt der Koffer"
           ],
           "marks": [
             {
@@ -6617,8 +6669,8 @@
               "reason": "liegen → Dativ"
             }
           ],
-          "en": "The bag is lying under the bed.",
-          "hint": "Die Tasche liegt unter dem Bett"
+          "en": "The suitcase is lying under the bed.",
+          "hint": "Der Koffer liegt unter dem Bett"
         },
         {
           "cue": "Kittel • Wohin? • an den Haken",
