@@ -3,7 +3,7 @@ import { WortbankPage } from "@/components/wortbank/WortbankPage";
 
 export const metadata: Metadata = {
   title: "Wortbank — MediDeutsch",
-  description: "Look up any German word, then keep it with the words you saved from lessons.",
+  description: "Words you saved from lessons and from Look up, grouped by where they came from.",
 };
 
 export default function Page() {

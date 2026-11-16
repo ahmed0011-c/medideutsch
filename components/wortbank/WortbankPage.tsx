@@ -2,9 +2,10 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Illustration } from "@/components/illustrations";
 import { SiteHeader } from "@/components/site/SiteHeader";
-import { LearnerPanel, LookupBox, PrefixSplit } from "@/components/wortbank/LookupBox";
+import { LearnerPanel, PrefixSplit } from "@/components/wortbank/LookupBox";
 import { MemoryCard } from "@/components/wortbank/MemoryCard";
 import { SeparablePractice, Satzklammer } from "@/components/wortbank/SeparablePractice";
 import { SeparableSplit } from "@/components/wortbank/SaveButtons";
@@ -21,14 +22,11 @@ import {
   reviewResult,
   setStory,
   toggleHard,
-  upsertWortbank,
   type LessonKind,
   type ReviewGrade,
   type WortbankDoc,
-  type WortbankDraft,
   type WortbankEntry,
 } from "@/lib/wortbank";
-import { findSavedEntry } from "@/lib/lookup";
 
 type Mode = "bank" | "hard" | "separable" | "review";
 
@@ -55,7 +53,7 @@ export function WortbankPage() {
   const [focusId, setFocusId] = useState<string | null>(null);
   const [reviewHard, setReviewHard] = useState(false);
   const [reviewKey, setReviewKey] = useState(0);
-  const [lookupRequest, setLookupRequest] = useState<{ id: number; word: string } | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
     setDoc(createProgressStore().loadWortbank() ?? emptyWortbank());
@@ -67,22 +65,8 @@ export function WortbankPage() {
     writeDoc(next);
   }
 
-  function addLookup(draft: WortbankDraft) {
-    if (findSavedEntry(doc.entries, draft)) return;
-    const next = upsertWortbank(doc, draft);
-    commit(next);
-    setMode("bank");
-    setFocusId(null);
-    setLessonId("");
-    setKind("all");
-    setQuery("");
-    setHardOnly(false);
-  }
-
   function lookupWord(word: string) {
-    setFocusId(null);
-    setMode("bank");
-    setLookupRequest({ id: Date.now(), word });
+    router.push(`/nachschlagen?q=${encodeURIComponent(word)}`);
   }
 
   const focus = doc.entries.find((entry) => entry.id === focusId) ?? null;
@@ -109,21 +93,10 @@ export function WortbankPage() {
         <p className="kicker">Your words</p>
         <h1 style={{ marginTop: 0 }}>Wortbank</h1>
         <p className="muted">
-          Words you star while practising, kept with the lesson they came from. {doc.entries.length} saved
-          {doc.entries.some((entry) => entry.hard) ? `, ${doc.entries.filter((entry) => entry.hard).length} marked Schwer` : ""}.
+          Words you star while practising, or look up yourself, kept with where they came from. {doc.entries.length} saved
+          {doc.entries.some((entry) => entry.hard) ? `, ${doc.entries.filter((entry) => entry.hard).length} marked Schwer` : ""}.{" "}
+          <Link href="/nachschlagen">Look up a new word</Link>
         </p>
-        <LookupBox
-          entries={doc.entries}
-          request={lookupRequest}
-          onAdd={addLookup}
-          onShow={(id) => {
-            setMode("bank");
-            setFocusId(id);
-            setLessonId("");
-            setKind("all");
-            setHardOnly(false);
-          }}
-        />
         <div className="wb-tabs" role="tablist">
           {MODES.map((item) => (
             <button
@@ -222,10 +195,12 @@ export function WortbankPage() {
               <div className="card wb-empty">
                 <h2>Noch keine Wörter</h2>
                 <p>
-                  Tippe in einer Grammatiklektion oder einem Comic ein Wort an und drücke ⭐ Speichern. Oder look a
-                  word up above and add it here. The words stay grouped by where they came from.
+                  Tippe in einer Grammatiklektion oder einem Comic ein Wort an und drücke ⭐ Speichern. Or look a word
+                  up and add it here. The words stay grouped by where they came from.
                 </p>
                 <p>
+                  <Link href="/nachschlagen">Look up a new word</Link>
+                  {" · "}
                   <Link href="/learn">Grammatik öffnen</Link>
                   {" · "}
                   <Link href="/wortschatz">Wortschatz öffnen</Link>
@@ -346,7 +321,7 @@ function WordDetail({
         <blockquote>{entry.sentence}</blockquote>
       ) : null}
       <div className="wb-inline">
-        <Link className="btn btn-soft btn-sm" href={entry.href}>
+        <Link className="btn btn-soft btn-sm" href={fromLookup ? "/nachschlagen" : entry.href}>
           {fromLookup ? "Look up another" : "Zur Lektion"}
         </Link>
         <button className={`btn btn-ghost btn-sm${entry.hard ? " wb-hard" : ""}`} type="button" aria-pressed={entry.hard} onClick={onHard}>

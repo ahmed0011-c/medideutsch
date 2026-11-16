@@ -244,7 +244,7 @@ export function lookupToDraft(sense: LookupSense): WortbankDraft {
     en: meanings.slice(0, 2).join("; "),
     emoji: emojiFor(sense.pos),
     sentence: sense.examples[0]?.de ?? "",
-    href: "/wortbank#lookup",
+    href: "/nachschlagen",
     source: "Lookup",
   };
   return assignDefined(draft, {

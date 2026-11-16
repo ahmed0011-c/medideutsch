@@ -373,6 +373,7 @@ describe("lookup response parsing", () => {
     expect(kept?.ipa).toBeUndefined();
     const lookup = saved.entries.find((entry) => entry.lessonKind === "lookup");
     expect(lookup?.source).toBe("Lookup");
+    expect(lookup?.href).toBe("/nachschlagen");
     expect(lookup?.de).toBe("ab|holen");
     expect(lookup?.separable).toBe(true);
     expect(lookup?.praeteritum).toBe("holte ab");

@@ -62,12 +62,6 @@ export function LookupBox({
   }, []);
 
   useEffect(() => {
-    if (window.location.hash !== "#lookup") return;
-    document.getElementById("lookup")?.scrollIntoView({ block: "start" });
-    document.getElementById("lookup-input")?.focus();
-  }, []);
-
-  useEffect(() => {
     if (!request) return;
     setInput(request.word);
     void run(request.word);
@@ -80,11 +74,6 @@ export function LookupBox({
 
   return (
     <section className="card lookup" id="lookup">
-      <p className="kicker">Dictionary</p>
-      <h2>Look up a German word</h2>
-      <p className="muted">
-        Type any word. You get the English meaning, and the article, plural, or verb forms a learner needs. Then add it to your Wortbank.
-      </p>
       <form
         className="lookup-form"
         onSubmit={(event) => {
