@@ -1,5 +1,36 @@
-export type LessonKind = "grammar" | "comic" | "hoeren";
+export type LessonKind = "grammar" | "comic" | "hoeren" | "lookup";
 export type ReviewGrade = "again" | "good" | "easy";
+export type Article = "der" | "die" | "das";
+
+/**
+ * Optional learner fields. Lesson saves from before lookup omit every one of
+ * these, and loading them still works.
+ */
+export type LearnerFields = {
+  /** Where the card came from, e.g. "Lookup". */
+  source?: string;
+  /** Set when the noun has a single article. */
+  article?: Article;
+  /** Every article when a noun can be more than one gender. */
+  articles?: Article[];
+  plural?: string;
+  ipa?: string;
+  /** Direct audio URL, when Wiktionary has a recording. */
+  audio?: string;
+  meanings?: string[];
+  examples?: Array<{ de: string; en?: string }>;
+  related?: string[];
+  /** True when the verb splits, false when we know it does not. */
+  separable?: boolean;
+  inseparable?: boolean;
+  /** Separable prefix, so abholen can be shown as ab|holen. */
+  prefix?: string;
+  praeteritum?: string;
+  partizip?: string;
+  aux?: "haben" | "sein";
+  /** "mymemory" when Wiktionary had no English sense. */
+  enSource?: "wiktionary" | "mymemory";
+};
 
 export type WortbankEntry = {
   id: string;
@@ -24,7 +55,7 @@ export type WortbankEntry = {
   intervalDays: number;
   ease: number;
   reps: number;
-};
+} & LearnerFields;
 
 export type WortbankDoc = {
   version: 1;
@@ -45,7 +76,7 @@ export type WortbankDraft = {
   image?: string;
   sentence: string;
   href: string;
-};
+} & LearnerFields;
 
 export const WORTBANK_EVENT = "wortbank:changed";
 
@@ -68,6 +99,23 @@ export function isWortbankDoc(value: unknown): value is WortbankDoc {
   return doc.version === 1 && Array.isArray(doc.entries);
 }
 
+/** Review progress stays put when the same word is saved again. */
+function withDraft(entry: WortbankEntry, draft: WortbankDraft): WortbankEntry {
+  const next: WortbankEntry = {
+    ...entry,
+    ...draft,
+    id: entry.id,
+    hard: entry.hard,
+    story: entry.story,
+    savedAt: entry.savedAt,
+    due: entry.due,
+    intervalDays: entry.intervalDays,
+    ease: entry.ease,
+    reps: entry.reps,
+  };
+  return next;
+}
+
 /** Insert or refresh the source sentence. Hard flag, personal story, and review schedule stay. */
 export function upsertWortbank(doc: WortbankDoc, draft: WortbankDraft, now = new Date()): WortbankDoc {
   const id = entryId(draft.lessonId, draft.key);
@@ -88,24 +136,7 @@ export function upsertWortbank(doc: WortbankDoc, draft: WortbankDraft, now = new
   }
   return {
     version: 1,
-    entries: doc.entries.map((entry) =>
-      entry.id === id
-        ? {
-            ...entry,
-            lessonTitle: draft.lessonTitle,
-            lessonKind: draft.lessonKind,
-            surface: draft.surface,
-            lemma: draft.lemma,
-            pos: draft.pos,
-            de: draft.de,
-            en: draft.en,
-            emoji: draft.emoji,
-            image: draft.image,
-            sentence: draft.sentence,
-            href: draft.href,
-          }
-        : entry,
-    ),
+    entries: doc.entries.map((entry) => (entry.id === id ? withDraft(entry, draft) : entry)),
   };
 }
 

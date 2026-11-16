@@ -13,6 +13,7 @@ export function SiteHeader() {
           <Link href="/learn">Grammatik</Link>
           <Link href="/hoeren">Hören</Link>
           <Link href="/wortschatz">Wortschatz</Link>
+          <Link href="/nachschlagen">Look up</Link>
           <WortbankNavLink />
           <Link href="/grammar">Cases</Link>
           <Link href="/account">Progress</Link>

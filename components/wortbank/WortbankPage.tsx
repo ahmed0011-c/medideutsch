@@ -2,8 +2,10 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Illustration } from "@/components/illustrations";
 import { SiteHeader } from "@/components/site/SiteHeader";
+import { LearnerPanel, PrefixSplit } from "@/components/wortbank/LookupBox";
 import { MemoryCard } from "@/components/wortbank/MemoryCard";
 import { SeparablePractice, Satzklammer } from "@/components/wortbank/SeparablePractice";
 import { SeparableSplit } from "@/components/wortbank/SaveButtons";
@@ -20,6 +22,7 @@ import {
   reviewResult,
   setStory,
   toggleHard,
+  type LessonKind,
   type ReviewGrade,
   type WortbankDoc,
   type WortbankEntry,
@@ -50,6 +53,7 @@ export function WortbankPage() {
   const [focusId, setFocusId] = useState<string | null>(null);
   const [reviewHard, setReviewHard] = useState(false);
   const [reviewKey, setReviewKey] = useState(0);
+  const router = useRouter();
 
   useEffect(() => {
     setDoc(createProgressStore().loadWortbank() ?? emptyWortbank());
@@ -59,6 +63,10 @@ export function WortbankPage() {
   function commit(next: WortbankDoc) {
     setDoc(next);
     writeDoc(next);
+  }
+
+  function lookupWord(word: string) {
+    router.push(`/nachschlagen?q=${encodeURIComponent(word)}`);
   }
 
   const focus = doc.entries.find((entry) => entry.id === focusId) ?? null;
@@ -85,8 +93,9 @@ export function WortbankPage() {
         <p className="kicker">Your words</p>
         <h1 style={{ marginTop: 0 }}>Wortbank</h1>
         <p className="muted">
-          Words you star while practising, kept with the lesson they came from. {doc.entries.length} saved
-          {doc.entries.some((entry) => entry.hard) ? `, ${doc.entries.filter((entry) => entry.hard).length} marked Schwer` : ""}.
+          Words you star while practising, or look up yourself, kept with where they came from. {doc.entries.length} saved
+          {doc.entries.some((entry) => entry.hard) ? `, ${doc.entries.filter((entry) => entry.hard).length} marked Schwer` : ""}.{" "}
+          <Link href="/nachschlagen">Look up a new word</Link>
         </p>
         <div className="wb-tabs" role="tablist">
           {MODES.map((item) => (
@@ -121,6 +130,7 @@ export function WortbankPage() {
             onBack={() => setFocusId(null)}
             onHard={() => commit(toggleHard(doc, focus.id))}
             onStory={(story) => commit(setStory(doc, focus.id, story))}
+            onLookup={lookupWord}
             onRemove={() => {
               commit(removeEntry(doc, focus.id));
               setFocusId(null);
@@ -185,10 +195,12 @@ export function WortbankPage() {
               <div className="card wb-empty">
                 <h2>Noch keine Wörter</h2>
                 <p>
-                  Tippe in einer Grammatiklektion oder einem Comic ein Wort an und drücke ⭐ Speichern. Die
-                  Wörter landen hier, gruppiert nach der Lektion.
+                  Tippe in einer Grammatiklektion oder einem Comic ein Wort an und drücke ⭐ Speichern. Or look a word
+                  up and add it here. The words stay grouped by where they came from.
                 </p>
                 <p>
+                  <Link href="/nachschlagen">Look up a new word</Link>
+                  {" · "}
                   <Link href="/learn">Grammatik öffnen</Link>
                   {" · "}
                   <Link href="/wortschatz">Wortschatz öffnen</Link>
@@ -203,9 +215,7 @@ export function WortbankPage() {
               visibleGroups.map((group) => (
                 <details key={group.lessonId} className="wb-group" open>
                   <summary>
-                    <span>
-                      {group.lessonKind === "comic" ? "Comic" : group.lessonKind === "hoeren" ? "Hören" : "Grammatik"} · {group.lessonTitle}
-                    </span>
+                    <span>{groupLabel(group.lessonKind, group.lessonTitle)}</span>
                     <b>{group.entries.length}</b>
                   </summary>
                   <ul>
@@ -214,8 +224,15 @@ export function WortbankPage() {
                         <button className="wb-word" type="button" onClick={() => setFocusId(entry.id)}>
                           <span className="emoji">{entry.image ? <Illustration id={entry.image} /> : entry.emoji || "🔤"}</span>
                           <span>
-                            <strong>{entry.de}</strong>
-                            <small>{entry.en}</small>
+                            <strong>
+                              <WordLabel entry={entry} />
+                            </strong>
+                            <small>
+                              {entry.en || "No English gloss yet"}
+                              {entry.source === "Lookup" || entry.lessonKind === "lookup" ? (
+                                <em className="lookup-source">Lookup</em>
+                              ) : null}
+                            </small>
                           </span>
                         </button>
                         <button
@@ -245,14 +262,17 @@ function WordDetail({
   onHard,
   onStory,
   onRemove,
+  onLookup,
 }: {
   entry: WortbankEntry;
   onBack: () => void;
   onHard: () => void;
   onStory: (story: string) => void;
   onRemove: () => void;
+  onLookup: (word: string) => void;
 }) {
   const verb = lookupVerb(entry.lemma);
+  const fromLookup = entry.lessonKind === "lookup" || entry.source === "Lookup";
   return (
     <article className="card wb-detail" data-testid="word-detail">
       <button className="btn btn-ghost btn-sm" type="button" onClick={onBack}>
@@ -262,16 +282,47 @@ function WordDetail({
         <span className="emoji">{entry.image ? <Illustration id={entry.image} /> : entry.emoji || "🔤"}</span>
         <div>
           <h2>
-            {verb?.separable ? <SeparableSplit lemma={entry.lemma} /> : entry.de}
+            <WordLabel entry={entry} verbSeparable={Boolean(verb?.separable)} />
           </h2>
-          <p>{entry.en}</p>
-          <p className="muted">{entry.pos}</p>
+          {entry.meanings && entry.meanings.length > 1 ? (
+            <ol className="lookup-meanings">
+              {entry.meanings.map((meaning) => (
+                <li key={meaning}>{meaning}</li>
+              ))}
+            </ol>
+          ) : (
+            <p>{entry.en}</p>
+          )}
+          <p className="muted">
+            {entry.pos}
+            {fromLookup ? <em className="lookup-source">Lookup</em> : null}
+          </p>
         </div>
       </header>
-      {entry.sentence ? <blockquote>{entry.sentence}</blockquote> : null}
+      {hasLearnerFacts(entry) ? (
+        <LearnerPanel
+          lemma={entry.lemma}
+          articles={entry.articles ?? (entry.article ? [entry.article] : [])}
+          plural={entry.plural}
+          ipa={entry.ipa}
+          audio={entry.audio}
+          separable={entry.separable}
+          inseparable={entry.inseparable}
+          praeteritum={entry.praeteritum}
+          partizip={entry.partizip}
+          aux={entry.aux}
+          examples={entry.examples}
+          related={entry.related}
+          onRelated={onLookup}
+          showSound
+        />
+      ) : null}
+      {entry.sentence && !entry.examples?.some((example) => example.de === entry.sentence) ? (
+        <blockquote>{entry.sentence}</blockquote>
+      ) : null}
       <div className="wb-inline">
-        <Link className="btn btn-soft btn-sm" href={entry.href}>
-          Zur Lektion
+        <Link className="btn btn-soft btn-sm" href={fromLookup ? "/nachschlagen" : entry.href}>
+          {fromLookup ? "Look up another" : "Zur Lektion"}
         </Link>
         <button className={`btn btn-ghost btn-sm${entry.hard ? " wb-hard" : ""}`} type="button" aria-pressed={entry.hard} onClick={onHard}>
           {entry.hard ? "★ Schwer" : "☆ Schwer"}
@@ -285,6 +336,54 @@ function WordDetail({
       <MemoryCard lemma={entry.lemma} emoji={entry.emoji} story={entry.story} onStory={onStory} />
     </article>
   );
+}
+
+function groupLabel(kind: LessonKind, title: string): string {
+  if (kind === "lookup") return "Lookup";
+  const track = kind === "comic" ? "Comic" : kind === "hoeren" ? "Hören" : "Grammatik";
+  return `${track} · ${title}`;
+}
+
+function hasLearnerFacts(entry: WortbankEntry): boolean {
+  return Boolean(
+    entry.lessonKind === "lookup" ||
+      entry.source === "Lookup" ||
+      entry.ipa ||
+      entry.plural ||
+      entry.praeteritum ||
+      entry.partizip ||
+      entry.audio ||
+      entry.examples?.length ||
+      entry.related?.length ||
+      entry.separable !== undefined,
+  );
+}
+
+function WordLabel({ entry, verbSeparable = false }: { entry: WortbankEntry; verbSeparable?: boolean }) {
+  if (entry.separable && entry.prefix && entry.lemma.toLocaleLowerCase("de").startsWith(entry.prefix.toLocaleLowerCase("de"))) {
+    return <PrefixSplit prefix={entry.prefix} lemma={entry.lemma} />;
+  }
+  if (verbSeparable) return <SeparableSplit lemma={entry.lemma} />;
+  if (entry.article) {
+    return (
+      <>
+        <span className={`art art-${entry.article}`}>{entry.article}</span> {entry.lemma}
+      </>
+    );
+  }
+  if (entry.articles && entry.articles.length > 1) {
+    return (
+      <>
+        {entry.articles.map((article) => (
+          <span key={article} className={`art art-${article}`}>
+            {article}{" "}
+          </span>
+        ))}
+        {entry.lemma}
+      </>
+    );
+  }
+  return <>{entry.de}</>;
 }
 
 function ReviewDeck({
