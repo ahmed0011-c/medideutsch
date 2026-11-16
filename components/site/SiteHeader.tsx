@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BrandMark } from "@/components/illustrations";
+import { LookupNavLink } from "@/components/site/LookupNavLink";
 import { WortbankNavLink } from "@/components/site/WortbankNavLink";
 
 export function SiteHeader() {
@@ -13,6 +14,7 @@ export function SiteHeader() {
           <Link href="/learn">Grammatik</Link>
           <Link href="/hoeren">Hören</Link>
           <Link href="/wortschatz">Wortschatz</Link>
+          <LookupNavLink />
           <WortbankNavLink />
           <Link href="/grammar">Cases</Link>
           <Link href="/account">Progress</Link>
