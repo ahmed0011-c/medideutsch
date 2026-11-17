@@ -232,7 +232,50 @@ async function finishEntry(
   const base = cardFor(batch, picked.key);
   if (!isLexicalCard(base) || !base) return null;
   const enriched = (await withEnglish(batch, picked.key, signal, parent)) ?? base;
-  return decorate(enriched, picked);
+  const withMeaning = await ensureEnglish(batch, enriched, signal, parent);
+  return decorate({ ...withMeaning, also: alsoForms(batch, withMeaning.title) }, picked);
+}
+
+/** A form-of page must not be the card the learner reads. Follow it when it is all we have. */
+async function ensureEnglish(batch: Batch, card: LookupCard, signal: AbortSignal, parent?: AbortSignal): Promise<LookupCard> {
+  if (card.senses.some((sense) => sense.meanings.length > 0)) return card;
+  const translated = await withEnglish(batch, card.title, signal, parent);
+  if (translated && translated.senses.some((sense) => sense.meanings.length > 0)) return translated;
+  const form = formsFor(batch, card.title)[0];
+  if (!form) return translated ?? card;
+  if (!cardFor(batch, form.lemma)) {
+    const more = await fetchBatch(queryCandidates(form.lemma), signal);
+    if (more !== "aborted") mergeBatch(batch, more);
+  }
+  const lemma = await withEnglish(batch, form.lemma, signal, parent);
+  if (lemma && lemma.senses.some((sense) => sense.meanings.length > 0)) {
+    return { ...lemma, interpretation: `${card.title} → ${lemma.title}, ${form.label}` };
+  }
+  return translated ?? card;
+}
+
+function alsoForms(batch: Batch, shownTitle: string): LookupCard["also"] {
+  const folded = shownTitle.toLocaleLowerCase("de");
+  const pages = [...batch.de, ...batch.en].filter(
+    (page) => page.title !== shownTitle && page.title.toLocaleLowerCase("de") === folded,
+  );
+  const also: NonNullable<LookupCard["also"]> = [];
+  for (const page of pages) {
+    const source = batch.de.includes(page) ? "de" : "en";
+    const solo = assembleLookup({
+      title: page.title,
+      deWikitext: source === "de" ? page.wikitext : null,
+      enWikitext: source === "en" ? page.wikitext : null,
+    });
+    if (isLexicalCard(solo)) continue;
+    for (const form of extractFormReferences(page.wikitext, source)) {
+      if (form.lemma.toLocaleLowerCase("de") === shownTitle.toLocaleLowerCase("de")) continue;
+      if (!/present|preterite|imperative|subjunctive|infinitive|participle|verb|inflected/i.test(form.label)) continue;
+      if (also.some((item) => item.form === page.title && item.lemma === form.lemma)) continue;
+      also.push({ form: page.title, lemma: form.lemma, label: form.label });
+    }
+  }
+  return also.length ? also : undefined;
 }
 
 function preferKeywordCase(plan: LookupPlan, card: LookupCard): LookupCard {
@@ -377,10 +420,8 @@ function lexicalTitles(batch: Batch): Map<string, string> {
     const card = cardFor(batch, page.title);
     if (!isLexicalCard(card) || !card) continue;
     map.set(page.title, card.title);
-    map.set(card.title, card.title);
-    const folded = card.title.toLocaleLowerCase("de");
-    const current = map.get(folded);
-    if (!current || card.title !== folded && current === folded) map.set(folded, card.title);
+    const folded = page.title.toLocaleLowerCase("de");
+    if (!map.has(folded)) map.set(folded, card.title);
   }
   return map;
 }

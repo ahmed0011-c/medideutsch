@@ -196,6 +196,15 @@ function LookupResult({
           {card.interpretation}
         </p>
       ) : null}
+      {card.also?.map((item) => (
+        <p className="lookup-note" data-testid="lookup-also" key={`${item.form}-${item.lemma}`}>
+          Also: {item.form} →{" "}
+          <button type="button" onClick={() => onRelated(item.lemma)}>
+            {item.lemma}
+          </button>{" "}
+          ({/verb|present|preterite|imperative|subjunctive|infinitive|participle|inflected/i.test(item.label) ? "verb form" : item.label})
+        </p>
+      ))}
       {card.source === "abbreviation" ? (
         <p className="lookup-note">Clinical abbreviation stored in the app. Nothing was looked up online.</p>
       ) : null}

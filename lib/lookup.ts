@@ -40,6 +40,8 @@ export type LookupCompound = {
   guess: string;
 };
 
+export type LookupAlso = { form: string; lemma: string; label: string };
+
 export type LookupCard = {
   title: string;
   /** Wiktionary had no German entry; only a translation is available. */
@@ -47,6 +49,8 @@ export type LookupCard = {
   senses: LookupSense[];
   /** How the typed string was read, e.g. "auszusprechen → aussprechen, zu-infinitive". */
   interpretation?: string;
+  /** The other reading, e.g. a verb form beside the noun. */
+  also?: LookupAlso[];
   suggestions?: LookupSuggestion[];
   /** Other separable verbs that share this stem. */
   separableHints?: string[];
@@ -398,7 +402,7 @@ function applyTranslation(sense: LookupSense, translation: string): LookupSense 
 function cleanSense(sense: LookupSense): LookupSense {
   return {
     ...sense,
-    meanings: uniq(sense.meanings.map(tidyMeaning).filter((item): item is string => Boolean(item))).slice(0, 4),
+    meanings: shortMeanings(uniq(sense.meanings.map(tidyMeaning).filter((item): item is string => Boolean(item)))),
     examples: sense.examples
       .map((example) => ({ de: tidyMeaning(example.de) ?? "", en: example.en ? tidyMeaning(example.en) ?? undefined : undefined }))
       .filter((example) => example.de.length > 1),
@@ -410,6 +414,11 @@ function dropNoiseSenses(senses: LookupSense[]): LookupSense[] {
   const meaningful = senses.filter((sense) => sense.pos !== "word" || senses.length === 1);
   const kept = meaningful.filter((sense) => senseHasContent(sense) && (sense.pos !== "word" || sense.meanings.length || sense.germanGloss));
   return kept.length ? kept : meaningful.filter((sense) => senseHasContent(sense));
+}
+
+function shortMeanings(items: string[]): string[] {
+  const short = items.filter((item) => item.length <= 160);
+  return (short.length ? short : items).slice(0, 4);
 }
 
 function tidyMeaning(value: string): string | null {
@@ -429,8 +438,20 @@ function tidyMeaning(value: string): string | null {
 export function isFormOfGloss(text: string): boolean {
   const line = text.trim();
   if (/\b(?:plural|inflection|zu-infinitive|past participle|present participle) of\b/i.test(line)) return true;
-  if (/^(?:(?:first|second|third|1st|2nd|3rd)[^.]{0,80}|(?:genitive|dative|accusative|nominative)[^.]{0,60})\s+of\s+\S+/i.test(line)) return true;
+  if (/^(?:(?:first|second|third|1st|2nd|3rd)[^.]{0,120}|(?:genitive|dative|accusative|nominative)[^.]{0,80})\s+of\s+\S+/i.test(line)) return true;
+  if (
+    /^(?:first|second|third|1st|2nd|3rd|singular|plural)\b/i.test(line) &&
+    /\b(?:present|preterite|subjunctive|imperative|participle)\b/i.test(line)
+  ) {
+    return true;
+  }
   return false;
+}
+
+/** Note shown beside a noun when the other case is only a verb form. */
+export function alsoFormLine(form: string, lemma: string, label: string): string {
+  const verbish = /verb|present|preterite|imperative|subjunctive|infinitive|participle|inflected/i.test(label);
+  return `Also: ${form} → ${lemma} (${verbish ? "verb form" : label})`;
 }
 
 function isGrammarLabel(word: string): boolean {
@@ -501,7 +522,7 @@ function senseHasContent(sense: LookupSense): boolean {
 }
 
 function overlay(base: LookupSense, extra: LookupSense): LookupSense {
-  const meanings = uniq([...extra.meanings, ...base.meanings]);
+  const meanings = shortMeanings(uniq([...base.meanings, ...extra.meanings]));
   const separable = base.separable === true || extra.separable === true ? true : (base.separable ?? extra.separable);
   const examples = [...extra.examples, ...base.examples].filter((example, index, all) => {
     const key = example.de.toLocaleLowerCase("de");

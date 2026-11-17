@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { lookupAbbreviation } from "@/lib/abbreviations";
 import { segmentCompound } from "@/lib/compounds";
 import { interpretLookup, participleLemma, pickLookup, spellingVariants, zuInfinitiveLemma } from "@/lib/lookup-interpret";
-import { assembleLookup, extractFormReferences, extractRestFormReferences, pickCaseEntry, readRedirects, selectPage } from "@/lib/lookup";
+import { alsoFormLine, assembleLookup, extractFormReferences, extractRestFormReferences, isFormOfGloss, pickCaseEntry, readRedirects, selectPage } from "@/lib/lookup";
 import { parseOpenSearch, parseWikiSummary, readLookupCache, writeLookupCache, type LookupResponse } from "@/lib/lookup-client";
 
 const AUSZUSPRECHEN_DE = `
@@ -187,6 +187,53 @@ describe("inflected lookup", () => {
     expect(spellingVariants("hole")).toEqual([]);
     expect(spellingVariants("Krankenhau")).toEqual([]);
     expect(interpretLookup("nehmen")?.kind).toBe("direct");
+    expect(interpretLookup("Klappe")?.kind).toBe("direct");
+    expect(interpretLookup("Klappe")?.lemma).toBeUndefined();
+    expect(interpretLookup("Essen")?.kind).toBe("direct");
+    expect(interpretLookup("essen")?.kind).toBe("direct");
+    expect(interpretLookup("Patienten")?.note).toBe("Patienten → Patient, plural");
+    expect(interpretLookup("ging")?.note).toBe("ging → gehen, preterite");
+    expect(
+      pickCaseEntry("Klappe", [
+        { title: "klappe", lexical: false },
+        { title: "Klappe", lexical: true },
+      ]),
+    ).toBe("Klappe");
+    expect(
+      pickCaseEntry("Essen", [
+        { title: "essen", lexical: true },
+        { title: "Essen", lexical: true },
+      ]),
+    ).toBe("Essen");
+    expect(
+      pickCaseEntry("essen", [
+        { title: "Essen", lexical: true },
+        { title: "essen", lexical: true },
+      ]),
+    ).toBe("essen");
+    expect(alsoFormLine("klappe", "klappen", "present")).toBe("Also: klappe → klappen (verb form)");
+    expect(isFormOfGloss("first-person singular present")).toBe(true);
+    expect(isFormOfGloss("first / third-person singular subjunctive I")).toBe(true);
+    expect(isFormOfGloss("inflection of klappen : first-person singular present")).toBe(true);
+    expect(isFormOfGloss("flap")).toBe(false);
+    expect(
+      assembleLookup({
+        title: "klappe",
+        restDefinition: {
+          de: [
+            {
+              partOfSpeech: "Verb",
+              language: "German",
+              definitions: [
+                { definition: "inflection of klappen" },
+                { definition: "first-person singular present" },
+                { definition: "first / third-person singular subjunctive I" },
+              ],
+            },
+          ],
+        },
+      }),
+    ).toBeNull();
     expect(interpretLookup("einwaschen")?.lemma).toBeUndefined();
     expect(interpretLookup("i.v.")?.note).toBe("i.v. → intravenös, intravenous");
     expect(spellingVariants("Strasse")).toEqual([{ lemma: "Straße", label: "spelling" }]);

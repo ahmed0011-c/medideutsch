@@ -192,7 +192,8 @@ describe("lookup response parsing", () => {
     expect(sense?.plural).toBe("Hunde");
     expect(sense?.ipa).toBe("/hʊnt/");
     expect(sense?.audio).toBe("https://commons.wikimedia.org/wiki/Special:FilePath/De-Hund.ogg");
-    expect(sense?.meanings.slice(0, 2)).toEqual(["dog, hound", "A board with casters used to transport heavy objects."]);
+    expect(sense?.meanings.slice(0, 2)).toEqual(["dog", "hound"]);
+    expect(sense?.meanings).toContain("A board with casters used to transport heavy objects.");
     expect(sense?.meanings).not.toContain("WRONG");
     expect(sense?.meanings).not.toContain("SHOULD-NOT-APPEAR");
     expect(sense?.examples[0]).toEqual({ de: "ein gemeiner Hund", en: "a mean dog" });
