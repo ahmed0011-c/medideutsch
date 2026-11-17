@@ -13,6 +13,7 @@ import {
   tokenizeComic,
 } from "@/lib/comic-text";
 import { createProgressStore } from "@/lib/storage";
+import { parseArticles } from "@/lib/flashcards";
 import { lemmaFromGloss } from "@/lib/verbs";
 import { SeparableSplit, WortbankSaveButtons } from "@/components/wortbank/SaveButtons";
 
@@ -1231,6 +1232,7 @@ export function ComicPlayer({ lesson }: { lesson: ComicLesson }) {
             emoji: popEntry.emoji || "🔤",
             sentence: pop.say ?? "",
             href: `/wortschatz/${lesson.id}${pop.source ? `#${pop.source}` : ""}`,
+            ...comicLearnerFields(popEntry),
           }}
           onLayout={() => setPopLayout((value) => value + 1)}
         />
@@ -1240,6 +1242,16 @@ export function ComicPlayer({ lesson }: { lesson: ComicLesson }) {
       </div>
     </div>
   );
+}
+
+function comicLearnerFields(entry: GlossEntry) {
+  const articles = parseArticles(entry.art);
+  const plural = entry.pl?.trim();
+  return {
+    ...(articles.length === 1 ? { article: articles[0] } : {}),
+    ...(articles.length > 1 ? { articles } : {}),
+    ...(plural ? { plural } : {}),
+  };
 }
 
 function comicHead(entry: GlossEntry): string {

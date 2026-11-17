@@ -261,6 +261,7 @@ export function HoerenPlayer({ lesson }: { lesson: HoerenLesson }) {
       emoji: token.pos === "verb" ? "🔵" : token.pos === "noun" || token.pos === "compound" ? "🟢" : "🟠",
       sentence,
       href: `/hoeren/${lesson.slug}`,
+      ...(token.article === "der" || token.article === "die" || token.article === "das" ? { article: token.article } : {}),
     };
     const store = createProgressStore();
     const doc = upsertWortbank(store.loadWortbank() ?? emptyWortbank(), draft);

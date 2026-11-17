@@ -1,5 +1,7 @@
 export type LessonKind = "grammar" | "comic" | "hoeren" | "lookup";
 export type ReviewGrade = "again" | "good" | "easy";
+/** Flashcards rating. Absent on words saved before a learner rates the card. */
+export type FlashRating = "easy" | "medium" | "hard";
 export type Article = "der" | "die" | "das";
 
 /**
@@ -55,6 +57,8 @@ export type WortbankEntry = {
   intervalDays: number;
   ease: number;
   reps: number;
+  /** Last Easy / Medium / Hard flashcard rating. Omitted until the card is rated. */
+  rating?: FlashRating;
 } & LearnerFields;
 
 export type WortbankDoc = {
@@ -112,6 +116,7 @@ function withDraft(entry: WortbankEntry, draft: WortbankDraft): WortbankEntry {
     intervalDays: entry.intervalDays,
     ease: entry.ease,
     reps: entry.reps,
+    rating: entry.rating,
   };
   return next;
 }
