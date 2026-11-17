@@ -789,6 +789,7 @@ export function interpretLookup(raw: string): LookupPlan | null {
 
 function lexicalTitle(lexical: Map<string, string>, lemma: string | undefined): string | null {
   if (!lemma) return null;
+  if (lexical.has(lemma)) return lexical.get(lemma) ?? null;
   return lexical.get(lemma.toLocaleLowerCase("de")) ?? null;
 }
 
@@ -818,7 +819,7 @@ export function pickLookup(plan: LookupPlan, lexical: Map<string, string>): Pick
       const same = title.toLocaleLowerCase("de") === plan.input.toLocaleLowerCase("de");
       return {
         type: "entry",
-        key: title.toLocaleLowerCase("de"),
+        key: title,
         interpretation: same || !plan.label ? undefined : note(plan.input, title, plan.label),
         hints: plan.hints,
       };
@@ -833,7 +834,7 @@ export function pickLookup(plan: LookupPlan, lexical: Map<string, string>): Pick
     if (spelling && inputTitle.toLocaleLowerCase("de") !== plan.input.toLocaleLowerCase("de")) {
       return {
         type: "entry",
-        key: inputTitle.toLocaleLowerCase("de"),
+        key: inputTitle,
         interpretation: note(plan.input, inputTitle, spelling.label),
       };
     }
@@ -841,14 +842,14 @@ export function pickLookup(plan: LookupPlan, lexical: Map<string, string>): Pick
     if (plan.lemma && plan.lemma.toLocaleLowerCase("de") !== inputTitle.toLocaleLowerCase("de")) {
       suggestions.push({ lemma: plan.lemma, label: plan.label });
     }
-    return { type: "entry", key: inputTitle.toLocaleLowerCase("de"), hints: plan.hints, suggestions };
+    return { type: "entry", key: inputTitle, hints: plan.hints, suggestions };
   }
   if (plan.lemma) {
     const title = lexicalTitle(lexical, plan.lemma);
     if (title && plan.label) {
       return {
         type: "entry",
-        key: title.toLocaleLowerCase("de"),
+        key: title,
         interpretation: note(plan.input, title, plan.label),
         hints: plan.hints,
       };
@@ -859,7 +860,7 @@ export function pickLookup(plan: LookupPlan, lexical: Map<string, string>): Pick
     if (title) {
       return {
         type: "entry",
-        key: title.toLocaleLowerCase("de"),
+        key: title,
         interpretation: note(plan.input, title, variant.label),
       };
     }
