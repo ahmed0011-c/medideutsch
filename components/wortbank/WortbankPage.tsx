@@ -5,11 +5,13 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Illustration } from "@/components/illustrations";
 import { SiteHeader } from "@/components/site/SiteHeader";
+import { FlashcardsPractice, FlashFilterBar, RatingBadge } from "@/components/wortbank/Flashcards";
 import { LearnerPanel, PrefixSplit } from "@/components/wortbank/LookupBox";
 import { MemoryCard } from "@/components/wortbank/MemoryCard";
 import { SeparablePractice, Satzklammer } from "@/components/wortbank/SeparablePractice";
 import { SeparableSplit } from "@/components/wortbank/SaveButtons";
 import { VerbExplorer } from "@/components/wortbank/VerbExplorer";
+import { countDue, matchesFlashFilter, flashFilterCounts, type FlashFilter } from "@/lib/flashcards";
 import { lookupVerb } from "@/lib/verbs";
 import { createProgressStore } from "@/lib/storage";
 import {
@@ -18,12 +20,9 @@ import {
   notifyWortbank,
   posBucket,
   removeEntry,
-  reviewQueue,
-  reviewResult,
   setStory,
   toggleHard,
   type LessonKind,
-  type ReviewGrade,
   type WortbankDoc,
   type WortbankEntry,
 } from "@/lib/wortbank";
@@ -34,7 +33,7 @@ const MODES: Array<{ id: Mode; label: string }> = [
   { id: "bank", label: "Wörter" },
   { id: "hard", label: "Schwere Wörter" },
   { id: "separable", label: "Trennbare Verben" },
-  { id: "review", label: "Wiederholen" },
+  { id: "review", label: "Flashcards" },
 ];
 
 function writeDoc(doc: WortbankDoc) {
@@ -50,9 +49,8 @@ export function WortbankPage() {
   const [lessonId, setLessonId] = useState("");
   const [kind, setKind] = useState<"all" | "verb" | "noun" | "other">("all");
   const [hardOnly, setHardOnly] = useState(false);
+  const [rateFilter, setRateFilter] = useState<FlashFilter>("all");
   const [focusId, setFocusId] = useState<string | null>(null);
-  const [reviewHard, setReviewHard] = useState(false);
-  const [reviewKey, setReviewKey] = useState(0);
   const router = useRouter();
 
   useEffect(() => {
@@ -75,6 +73,7 @@ export function WortbankPage() {
     const needle = query.trim().toLowerCase();
     return doc.entries.filter((entry) => {
       if ((mode === "hard" || hardOnly) && !entry.hard) return false;
+      if (!matchesFlashFilter(entry, rateFilter)) return false;
       if (lessonId && entry.lessonId !== lessonId) return false;
       if (kind !== "all" && posBucket(entry.pos) !== kind) return false;
       if (!needle) return true;
@@ -83,8 +82,9 @@ export function WortbankPage() {
         .toLowerCase()
         .includes(needle);
     });
-  }, [doc.entries, query, lessonId, kind, hardOnly, mode]);
+  }, [doc.entries, query, lessonId, kind, hardOnly, mode, rateFilter]);
   const visibleGroups = groupByLesson(visible);
+  const due = countDue(doc.entries);
 
   return (
     <>
@@ -95,8 +95,13 @@ export function WortbankPage() {
         <p className="muted">
           Words you star while practising, or look up yourself, kept with where they came from. {doc.entries.length} saved
           {doc.entries.some((entry) => entry.hard) ? `, ${doc.entries.filter((entry) => entry.hard).length} marked Schwer` : ""}.{" "}
-          <Link href="/nachschlagen">Look up a new word</Link>
+          {due} due. <Link href="/nachschlagen">Look up a new word</Link>
         </p>
+        <div className="fk-launch">
+          <Link className="btn btn-primary" href="/wortbank/karten" data-testid="open-flashcards">
+            Flashcards{due ? ` · ${due} due` : ""}
+          </Link>
+        </div>
         <div className="wb-tabs" role="tablist">
           {MODES.map((item) => (
             <button
@@ -108,10 +113,6 @@ export function WortbankPage() {
               onClick={() => {
                 setMode(item.id);
                 setFocusId(null);
-                if (item.id === "review") {
-                  setReviewHard(false);
-                  setReviewKey((value) => value + 1);
-                }
               }}
             >
               {item.label}
@@ -121,9 +122,7 @@ export function WortbankPage() {
         </div>
         {!ready ? <p className="muted">Opening the Wortbank…</p> : null}
         {ready && mode === "separable" ? <SeparablePractice saved={doc.entries} /> : null}
-        {ready && mode === "review" ? (
-          <ReviewDeck key={reviewKey} doc={doc} onDoc={commit} initialHard={reviewHard} />
-        ) : null}
+        {ready && mode === "review" ? <FlashcardsPractice doc={doc} onChange={commit} /> : null}
         {ready && (mode === "bank" || mode === "hard") && focus ? (
           <WordDetail
             entry={focus}
@@ -139,6 +138,7 @@ export function WortbankPage() {
         ) : null}
         {ready && (mode === "bank" || mode === "hard") && !focus ? (
           <>
+            <FlashFilterBar value={rateFilter} counts={flashFilterCounts(doc.entries)} onChange={setRateFilter} />
             <div className="wb-filters">
               <label className="wb-filter">
                 Suche
@@ -178,16 +178,8 @@ export function WortbankPage() {
                   Nur Schwer
                 </label>
               ) : (
-                <button
-                  className="btn btn-primary btn-sm"
-                  type="button"
-                  onClick={() => {
-                    setReviewHard(true);
-                    setReviewKey((value) => value + 1);
-                    setMode("review");
-                  }}
-                >
-                  Schwere Wörter wiederholen
+                <button className="btn btn-primary btn-sm" type="button" onClick={() => setMode("review")}>
+                  Practise with Flashcards
                 </button>
               )}
             </div>
@@ -208,8 +200,8 @@ export function WortbankPage() {
               </div>
             ) : !visibleGroups.length ? (
               <div className="card wb-empty">
-                <h2>Nichts passt zur Suche</h2>
-                <p>Nimm einen Filter weg oder speichere das Wort in der Lektion.</p>
+                <h2>Nothing matches</h2>
+                <p>Clear a filter, or save the word from a lesson.</p>
               </div>
             ) : (
               visibleGroups.map((group) => (
@@ -228,7 +220,8 @@ export function WortbankPage() {
                               <WordLabel entry={entry} />
                             </strong>
                             <small>
-                              {entry.en || "No English gloss yet"}
+                              <span>{entry.en || "No English gloss yet"}</span>
+                              <RatingBadge rating={entry.rating} />
                               {entry.source === "Lookup" || entry.lessonKind === "lookup" ? (
                                 <em className="lookup-source">Lookup</em>
                               ) : null}
@@ -384,107 +377,4 @@ function WordLabel({ entry, verbSeparable = false }: { entry: WortbankEntry; ver
     );
   }
   return <>{entry.de}</>;
-}
-
-function ReviewDeck({
-  doc,
-  onDoc,
-  initialHard,
-}: {
-  doc: WortbankDoc;
-  onDoc: (doc: WortbankDoc) => void;
-  initialHard: boolean;
-}) {
-  const groups = groupByLesson(doc.entries);
-  const [lessonId, setLessonId] = useState("");
-  const [hardOnly, setHardOnly] = useState(initialHard);
-  const [flipped, setFlipped] = useState(false);
-  const queue = useMemo(
-    () =>
-      reviewQueue(doc.entries, {
-        lessonId: lessonId || undefined,
-        hardOnly,
-        includeLater: true,
-      }),
-    [doc.entries, lessonId, hardOnly],
-  );
-  const card = queue[0];
-
-  function grade(next: ReviewGrade) {
-    if (!card) return;
-    const updated = reviewResult(card, next);
-    onDoc({
-      version: 1,
-      entries: doc.entries.map((entry) => (entry.id === card.id ? updated : entry)),
-    });
-    setFlipped(false);
-  }
-
-  if (!doc.entries.length) {
-    return (
-      <div className="card wb-empty">
-        <h2>Noch nichts zu wiederholen</h2>
-        <p>Speichere zuerst ein Wort mit ⭐ Speichern.</p>
-      </div>
-    );
-  }
-
-  return (
-    <section className="card wb-review" data-testid="flashcard-review">
-      <div className="wb-filters">
-        <label className="wb-filter">
-          Lektion
-          <select
-            value={lessonId}
-            onChange={(event) => {
-              setLessonId(event.target.value);
-              setFlipped(false);
-            }}
-          >
-            <option value="">Alle</option>
-            {groups.map((group) => (
-              <option key={group.lessonId} value={group.lessonId}>
-                {group.lessonTitle}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="wb-check">
-          <input
-            type="checkbox"
-            checked={hardOnly}
-            onChange={(event) => {
-              setHardOnly(event.target.checked);
-              setFlipped(false);
-            }}
-          />
-          Nur Schwer
-        </label>
-      </div>
-      {!card ? (
-        <p>Für diesen Filter liegt gerade keine Karte bereit.</p>
-      ) : (
-        <>
-          <button className={`wb-card${flipped ? " show" : ""}`} type="button" onClick={() => setFlipped((value) => !value)}>
-            <span className="emoji">{card.image ? <Illustration id={card.image} /> : card.emoji || "🔤"}</span>
-            <strong>{flipped ? card.en : card.de}</strong>
-            <small>{flipped ? card.sentence || card.lessonTitle : card.pos}</small>
-            {card.hard ? <em>Schwer</em> : null}
-          </button>
-          <p className="muted">{queue.length} in dieser Runde · tippe die Karte für die Rückseite</p>
-          <div className="wb-grades">
-            <button className="btn btn-ghost" type="button" data-testid="grade-again" onClick={() => grade("again")}>
-              Again
-            </button>
-            <button className="btn btn-soft" type="button" data-testid="grade-good" onClick={() => grade("good")}>
-              Good
-            </button>
-            <button className="btn btn-primary" type="button" data-testid="grade-easy" onClick={() => grade("easy")}>
-              Easy
-            </button>
-          </div>
-        </>
-      )}
-    </section>
-  );
 }

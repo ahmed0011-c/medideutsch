@@ -193,6 +193,8 @@ export function WordPopover() {
             image: entry.image?.type === "svg" ? entry.image.id : undefined,
             sentence: pop.sentence ?? "",
             href: grammarHref(lesson.level, lesson.id, progress.stepIndex),
+            ...(entry.article ? { article: entry.article } : {}),
+            ...(entry.plural ? { plural: entry.plural } : {}),
           }}
           onChange={() => setTick((value) => value + 1)}
         />

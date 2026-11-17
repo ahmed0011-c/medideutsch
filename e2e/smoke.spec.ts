@@ -196,6 +196,8 @@ test("Wortbank saves, marks Schwer, and opens practice", async ({ page }) => {
   await page.goto("/wortbank", { waitUntil: "domcontentloaded" });
   await expect(page.getByRole("heading", { name: "Wortbank" })).toBeVisible();
   await expect(page.getByText("Patient").first()).toBeVisible();
+  await expect(page.getByTestId("rate-filter-all")).toBeVisible();
+  await expect(page.getByTestId("rating-badge").first()).toHaveText(/unrated/i);
   await page.getByRole("tab", { name: /Schwere Wörter/ }).click();
   await expect(page.getByText("Patient").first()).toBeVisible();
   await page.locator("button.wb-word").first().click();
@@ -207,10 +209,18 @@ test("Wortbank saves, marks Schwer, and opens practice", async ({ page }) => {
   await page.getByTestId("prefix-chip").click();
   await expect(page.getByText("Stimmt.")).toBeVisible();
 
-  await page.getByRole("tab", { name: "Wiederholen" }).click();
+  await expect(page.getByTestId("open-flashcards")).toBeVisible();
+  await page.getByRole("tab", { name: "Flashcards" }).click();
   await expect(page.getByTestId("flashcard-review")).toBeVisible();
-  await page.locator(".wb-card").click();
-  await page.getByTestId("grade-good").click();
+  await page.getByTestId("flashcards-start").click();
+  await page.getByTestId("flashcard").click();
+  await page.getByTestId("grade-medium").click();
+  await expect(page.getByTestId("flashcard-summary")).toBeVisible();
+  await assertSurface(page, bag);
+
+  await page.goto("/wortbank/karten", { waitUntil: "domcontentloaded" });
+  await expect(page.getByRole("heading", { name: "Flashcards" })).toBeVisible();
+  await expect(page.getByTestId("flashcards-start")).toBeVisible();
   await assertSurface(page, bag);
 });
 
@@ -218,7 +228,7 @@ test("mobile course map, lesson, and Wortbank stay on screen", async ({ page }) 
   const bag: string[] = [];
   attach(page, bag);
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const url of ["/learn", "/learn/a1/a1-33-wechsel-dativ?step=0", "/wortbank", "/wortschatz/wortschatz-aufnahmegespraech"]) {
+  for (const url of ["/learn", "/learn/a1/a1-33-wechsel-dativ?step=0", "/wortbank", "/wortbank/karten", "/wortschatz/wortschatz-aufnahmegespraech"]) {
     await page.goto(url, { waitUntil: "domcontentloaded" });
     await expect(page.getByText("Opening the lesson")).toHaveCount(0);
     await assertSurface(page, bag);
