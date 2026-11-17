@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { lookupAbbreviation } from "@/lib/abbreviations";
 import { segmentCompound } from "@/lib/compounds";
 import { interpretLookup, participleLemma, pickLookup, spellingVariants, zuInfinitiveLemma } from "@/lib/lookup-interpret";
-import { assembleLookup, extractFormReferences, extractRestFormReferences, readRedirects, selectPage } from "@/lib/lookup";
+import { assembleLookup, extractFormReferences, extractRestFormReferences, pickCaseEntry, readRedirects, selectPage } from "@/lib/lookup";
 import { parseOpenSearch, parseWikiSummary, readLookupCache, writeLookupCache, type LookupResponse } from "@/lib/lookup-client";
 
 const AUSZUSPRECHEN_DE = `
@@ -164,6 +164,18 @@ describe("inflected lookup", () => {
     expect(selectPage([{ title: "Gehen" }, { title: "gehen" }], "gehen")?.title).toBe("gehen");
     expect(selectPage([{ title: "Gehen" }, { title: "gehen" }], "Gehen")?.title).toBe("Gehen");
     expect(selectPage([{ title: "Übergabe", aliases: ["Ubergabe"] }], "Ubergabe")?.title).toBe("Übergabe");
+    expect(
+      pickCaseEntry("arzt", [
+        { title: "arzt", lexical: false },
+        { title: "Arzt", lexical: true },
+      ]),
+    ).toBe("Arzt");
+    expect(
+      pickCaseEntry("gehen", [
+        { title: "Gehen", lexical: true },
+        { title: "gehen", lexical: true },
+      ]),
+    ).toBe("gehen");
     expect(interpretLookup("sich einwaschen")?.note).toBe("sich einwaschen → einwaschen, reflexive");
     expect(interpretLookup("zur Kenntnis nehmen")?.note).toBe("zur Kenntnis nehmen → Kenntnis + nehmen, phrase");
     expect(interpretLookup("zur Kenntnis nehmen")?.keywords).toEqual(["Kenntnis", "nehmen"]);
