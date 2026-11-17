@@ -3,7 +3,14 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createBrowserSpeech } from "@/lib/audio";
 import { lookupGerman } from "@/lib/lookup-client";
-import { findSavedEntry, lookupToDraft, type LookupCard, type LookupExample, type LookupSense } from "@/lib/lookup";
+import {
+  findSavedEntry,
+  lookupToDraft,
+  type LookupCard,
+  type LookupExample,
+  type LookupSense,
+  type LookupSuggestion,
+} from "@/lib/lookup";
 import type { Article, WortbankDraft, WortbankEntry } from "@/lib/wortbank";
 
 export function LookupBox({
@@ -21,6 +28,8 @@ export function LookupBox({
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
   const [message, setMessage] = useState("");
   const [card, setCard] = useState<LookupCard | null>(null);
+  const [extras, setExtras] = useState<LookupCard[]>([]);
+  const [suggestions, setSuggestions] = useState<LookupSuggestion[]>([]);
   const [senseIndex, setSenseIndex] = useState(0);
   const abortRef = useRef<AbortController | null>(null);
   const requestSeq = useRef(0);
@@ -35,17 +44,23 @@ export function LookupBox({
       setStatus("error");
       setMessage("Type a German word to look it up.");
       setCard(null);
+      setExtras([]);
+      setSuggestions([]);
       return;
     }
     setStatus("loading");
     setMessage(`Looking up “${word}”…`);
     setCard(null);
+    setExtras([]);
+    setSuggestions([]);
     const result = await lookupGerman(word, controller.signal);
     if (seq !== requestSeq.current) return;
     if (!result.ok) {
       if (result.error === "aborted") return;
       setStatus("error");
       setCard(null);
+      setExtras([]);
+      setSuggestions(result.suggestions ?? []);
       setMessage(
         result.error === "offline"
           ? "You appear to be offline, or Wiktionary did not respond. Saved words stay on this device."
@@ -56,6 +71,8 @@ export function LookupBox({
       return;
     }
     setCard(result.card);
+    setExtras(result.extras ?? []);
+    setSuggestions(result.card.suggestions ?? []);
     setSenseIndex(0);
     setStatus("done");
     setMessage("");
@@ -101,20 +118,52 @@ export function LookupBox({
       </form>
       <div aria-live="polite">
         {message ? <p className={status === "error" ? "lookup-error" : "muted"}>{message}</p> : null}
-        {card && sense ? (
-          <LookupResult
-            card={card}
-            sense={sense}
-            senseIndex={senseIndex}
-            onSense={setSenseIndex}
-            saved={saved}
-            onAdd={() => onAdd(lookupToDraft(sense))}
-            onShow={() => saved && onShow(saved.id)}
-            onRelated={(word) => {
+        {!card && suggestions.length ? (
+          <DidYouMean
+            items={suggestions}
+            onPick={(word) => {
               setInput(word);
               void run(word);
             }}
           />
+        ) : null}
+        {card && sense ? (
+          <>
+            <LookupResult
+              card={card}
+              sense={sense}
+              senseIndex={senseIndex}
+              onSense={setSenseIndex}
+              saved={saved}
+              onAdd={() => onAdd(lookupToDraft(sense))}
+              onShow={() => saved && onShow(saved.id)}
+              onRelated={(word) => {
+                setInput(word);
+                void run(word);
+              }}
+            />
+            {extras.map((extra) => {
+              const extraSense = extra.senses[0];
+              if (!extraSense) return null;
+              const extraSaved = findSavedEntry(entries, extraSense);
+              return (
+                <LookupResult
+                  key={`${extra.title}-${extraSense.pos}`}
+                  card={{ ...extra, interpretation: undefined }}
+                  sense={extraSense}
+                  senseIndex={0}
+                  onSense={() => undefined}
+                  saved={extraSaved}
+                  onAdd={() => onAdd(lookupToDraft(extraSense))}
+                  onShow={() => extraSaved && onShow(extraSaved.id)}
+                  onRelated={(word) => {
+                    setInput(word);
+                    void run(word);
+                  }}
+                />
+              );
+            })}
+          </>
         ) : null}
       </div>
     </section>
@@ -142,6 +191,22 @@ function LookupResult({
 }) {
   return (
     <article className="lookup-card" data-testid="lookup-card">
+      {card.interpretation ? (
+        <p className="lookup-note" data-testid="lookup-interpretation">
+          {card.interpretation}
+        </p>
+      ) : null}
+      {card.source === "abbreviation" ? (
+        <p className="lookup-note">Clinical abbreviation stored in the app. Nothing was looked up online.</p>
+      ) : null}
+      {card.source === "wikipedia" ? (
+        <p className="lookup-note">
+          German Wikipedia summary for a name or brand, not a learner dictionary entry. The English line is a machine translation.
+        </p>
+      ) : null}
+      {card.source === "compound" ? (
+        <p className="lookup-note">No dictionary entry for the whole word. The parts below are known; the combined line is a guess.</p>
+      ) : null}
       {card.senses.length > 1 ? (
         <div className="lookup-senses" role="tablist" aria-label="Word class">
           {card.senses.map((item, index) => (
@@ -190,10 +255,41 @@ function LookupResult({
       ) : (
         <p className="muted">No English sense found.</p>
       )}
-      {sense.enSource === "mymemory" ? (
+      {sense.enSource === "mymemory" && card.source !== "wikipedia" ? (
         <p className="lookup-note">Wiktionary had no English sense, so this translation comes from MyMemory.</p>
       ) : null}
-      {!sense.meanings.length && sense.germanGloss ? (
+      {card.source === "abbreviation" && sense.germanGloss ? (
+        <p className="lookup-gloss">
+          <span>Stands for</span>
+          {sense.germanGloss}
+        </p>
+      ) : null}
+      {card.compound ? (
+        <div className="lookup-compound" data-testid="lookup-compound">
+          <ul>
+            {card.compound.parts.map((part) => (
+              <li key={part.word}>
+                <b>{part.word}</b> — {part.en}
+              </li>
+            ))}
+          </ul>
+          <p data-testid="lookup-compound-guess">
+            <span>Combined guess</span> {card.compound.guess}
+          </p>
+        </div>
+      ) : null}
+      {card.separableHints?.length ? (
+        <div className="lookup-hints" data-testid="lookup-separable-hints">
+          <span>Separable verbs</span>
+          {card.separableHints.map((word) => (
+            <button key={word} type="button" onClick={() => onRelated(word)}>
+              {word}
+            </button>
+          ))}
+        </div>
+      ) : null}
+      {card.suggestions?.length ? <DidYouMean items={card.suggestions} onPick={onRelated} /> : null}
+      {!sense.meanings.length && sense.germanGloss && card.source !== "abbreviation" ? (
         <p className="lookup-gloss">
           <span>German definition</span>
           {sense.germanGloss}
@@ -230,6 +326,21 @@ function LookupResult({
         )}
       </div>
     </article>
+  );
+}
+
+export function DidYouMean({ items, onPick }: { items: LookupSuggestion[]; onPick: (lemma: string) => void }) {
+  if (!items.length) return null;
+  return (
+    <p className="lookup-suggest" data-testid="lookup-suggest">
+      <span>Did you mean</span>
+      {items.map((item) => (
+        <button key={`${item.lemma}-${item.label ?? ""}`} type="button" onClick={() => onPick(item.lemma)}>
+          {item.lemma}
+          {item.label ? ` (${item.label})` : ""}
+        </button>
+      ))}
+    </p>
   );
 }
 
