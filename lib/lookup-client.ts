@@ -8,6 +8,7 @@ import {
   germanSectionEn,
   isLexicalCard,
   parseMyMemory,
+  pickCaseEntry,
   queryCandidates,
   readRedirects,
   readRevisionPages,
@@ -245,10 +246,18 @@ function preferKeywordCase(plan: LookupPlan, card: LookupCard): LookupCard {
   };
 }
 
+function alignInterpretation(interpretation: string | undefined, title: string): string | undefined {
+  if (!interpretation) return undefined;
+  return interpretation.replace(/→\s+([^,]+),/, (match, lemma: string) =>
+    lemma.trim().toLocaleLowerCase("de") === title.toLocaleLowerCase("de") ? `→ ${title},` : match,
+  );
+}
+
 function decorate(card: LookupCard, picked: { interpretation?: string; hints?: string[]; suggestions?: LookupSuggestion[] }): LookupCard {
+  const interpretation = alignInterpretation(picked.interpretation ?? card.interpretation, card.title);
   return {
     ...card,
-    interpretation: picked.interpretation ?? card.interpretation,
+    interpretation,
     separableHints: picked.hints?.length ? picked.hints : card.separableHints,
     suggestions: picked.suggestions?.length ? picked.suggestions : card.suggestions,
     source: card.source ?? "wiktionary",
@@ -347,9 +356,9 @@ async function withEnglish(batch: Batch, key: string, signal: AbortSignal, paren
   if (current.senses.some((sense) => sense.meanings.length > 0)) return current;
   const translation = await myMemory(current.title, signal);
   if (parent?.aborted || !translation) return current;
-  const de = selectPage(batch.de, key);
-  const en = selectPage(batch.en, key);
-  const rest = selectPage(batch.rest, key);
+  const de = batch.de.find((page) => page.title === current.title);
+  const en = batch.en.find((page) => page.title === current.title);
+  const rest = batch.rest.find((page) => page.title === current.title);
   return (
     assembleLookup({
       title: current.title,
@@ -368,23 +377,39 @@ function lexicalTitles(batch: Batch): Map<string, string> {
     const card = cardFor(batch, page.title);
     if (!isLexicalCard(card) || !card) continue;
     map.set(page.title, card.title);
-    const folded = page.title.toLocaleLowerCase("de");
-    if (!map.has(folded) || page.title === folded) map.set(folded, card.title);
+    map.set(card.title, card.title);
+    const folded = card.title.toLocaleLowerCase("de");
+    const current = map.get(folded);
+    if (!current || card.title !== folded && current === folded) map.set(folded, card.title);
   }
   return map;
 }
 
 function cardFor(batch: Batch, title: string): LookupCard | null {
-  const de = selectPage(batch.de, title);
-  const en = selectPage(batch.en, title);
-  const rest = selectPage(batch.rest, title);
-  if (!de && !en && !rest) return null;
-  return assembleLookup({
-    title: de?.title || en?.title || title,
-    deWikitext: de?.wikitext ?? null,
-    enWikitext: en?.wikitext ?? null,
-    restDefinition: rest?.body ?? null,
+  const folded = title.toLocaleLowerCase("de");
+  const sameCase = (page: { title: string; aliases?: string[] }) =>
+    page.title.toLocaleLowerCase("de") === folded || page.aliases?.some((alias) => alias.toLocaleLowerCase("de") === folded);
+  const dePages = batch.de.filter(sameCase);
+  const enPages = batch.en.filter(sameCase);
+  const names = [...new Set([...dePages.map((page) => page.title), ...enPages.map((page) => page.title)])];
+  if (!names.length && !batch.rest.some((item) => item.title.toLocaleLowerCase("de") === folded)) return null;
+  const cards = (names.length ? names : [title]).map((pageTitle) => {
+    const de = dePages.find((page) => page.title === pageTitle);
+    const en = enPages.find((page) => page.title === pageTitle);
+    const rest = batch.rest.find((item) => item.title === pageTitle);
+    const card = assembleLookup({
+      title: pageTitle,
+      deWikitext: de?.wikitext ?? null,
+      enWikitext: en?.wikitext ?? null,
+      restDefinition: rest?.body ?? null,
+    });
+    return { title: pageTitle, card, lexical: isLexicalCard(card) };
   });
+  const chosen = pickCaseEntry(
+    title,
+    cards.map((item) => ({ title: item.title, lexical: item.lexical })),
+  );
+  return cards.find((item) => item.title === chosen)?.card ?? cards.find((item) => item.card)?.card ?? null;
 }
 
 function formsFor(batch: Batch, title: string): FormReference[] {

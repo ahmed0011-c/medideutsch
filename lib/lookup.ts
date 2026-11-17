@@ -202,6 +202,19 @@ export function parseMyMemory(payload: unknown): string | null {
  * Pick the German entry. An exact case match wins when it really is German
  * (`hund` is Danish; `Hund` is the noun the learner wants).
  */
+/**
+ * When `arzt` is only the imperative of arzten and `Arzt` is the noun,
+ * the lexical page wins. An exact lexical hit such as `gehen` still beats `Gehen`.
+ */
+export function pickCaseEntry(query: string, entries: Array<{ title: string; lexical: boolean }>): string | null {
+  const folded = query.toLocaleLowerCase("de");
+  const matches = entries.filter((entry) => entry.title.toLocaleLowerCase("de") === folded);
+  const exact = matches.find((entry) => entry.title === query && entry.lexical);
+  if (exact) return exact.title;
+  const lexical = matches.filter((entry) => entry.lexical);
+  return lexical[0]?.title ?? matches.find((entry) => entry.title === query)?.title ?? null;
+}
+
 /** Prefer an exact title, then the lowercase headword when case-variants share a folded name. */
 export function selectPage<T extends { title: string; aliases?: string[] }>(pages: T[], query: string): T | null {
   const names = (page: T) => [page.title, ...(page.aliases ?? [])];
