@@ -33,12 +33,28 @@ export type LookupSense = {
   enSource?: "wiktionary" | "mymemory";
 };
 
+export type LookupSuggestion = { lemma: string; label?: string };
+
+export type LookupCompound = {
+  parts: Array<{ word: string; en: string }>;
+  guess: string;
+};
+
 export type LookupCard = {
   title: string;
   /** Wiktionary had no German entry; only a translation is available. */
   partial: boolean;
   senses: LookupSense[];
+  /** How the typed string was read, e.g. "auszusprechen → aussprechen, zu-infinitive". */
+  interpretation?: string;
+  suggestions?: LookupSuggestion[];
+  /** Other separable verbs that share this stem. */
+  separableHints?: string[];
+  compound?: LookupCompound;
+  source?: "wiktionary" | "abbreviation" | "wikipedia" | "compound";
 };
+
+export type FormReference = { lemma: string; label: string };
 
 const ARTICLE: Record<"m" | "f" | "n", Article> = { m: "der", f: "die", n: "das" };
 
@@ -108,6 +124,9 @@ export function queryCandidates(query: string): string[] {
     if (value && !out.includes(value)) out.push(value);
   };
   push(query);
+  const lower = query.toLocaleLowerCase("de");
+  push(lower.charAt(0).toLocaleUpperCase("de") + lower.slice(1));
+  push(lower);
   push(query.charAt(0).toLocaleUpperCase("de") + query.slice(1));
   push(query.charAt(0).toLocaleLowerCase("de") + query.slice(1));
   return out;
@@ -129,6 +148,20 @@ export function commonsAudioUrl(file: string): string {
 type WikiPage = { title: string; missing: boolean; wikitext: string | null };
 
 /** MediaWiki `action=query&prop=revisions` payload (formatversion=2). */
+export function readRedirects(payload: unknown): Array<{ from: string; to: string }> {
+  if (!payload || typeof payload !== "object") return [];
+  const redirects = (payload as { query?: { redirects?: unknown } }).query?.redirects;
+  if (!Array.isArray(redirects)) return [];
+  const out: Array<{ from: string; to: string }> = [];
+  for (const row of redirects) {
+    if (!row || typeof row !== "object") continue;
+    const from = (row as { from?: unknown }).from;
+    const to = (row as { to?: unknown }).to;
+    if (typeof from === "string" && typeof to === "string") out.push({ from, to });
+  }
+  return out;
+}
+
 export function readRevisionPages(payload: unknown): WikiPage[] {
   if (!payload || typeof payload !== "object") return [];
   const pages = (payload as { query?: { pages?: unknown } }).query?.pages;
@@ -169,6 +202,17 @@ export function parseMyMemory(payload: unknown): string | null {
  * Pick the German entry. An exact case match wins when it really is German
  * (`hund` is Danish; `Hund` is the noun the learner wants).
  */
+/** Prefer an exact title, then the lowercase headword when case-variants share a folded name. */
+export function selectPage<T extends { title: string; aliases?: string[] }>(pages: T[], query: string): T | null {
+  const names = (page: T) => [page.title, ...(page.aliases ?? [])];
+  const exact = pages.find((page) => names(page).includes(query));
+  if (exact) return exact;
+  const folded = query.toLocaleLowerCase("de");
+  const matches = pages.filter((page) => names(page).some((name) => name.toLocaleLowerCase("de") === folded));
+  const lowerHeadword = matches.find((page) => page.title === folded);
+  return lowerHeadword ?? matches[0] ?? null;
+}
+
 export function chooseGermanPage(
   pages: WikiPage[],
   query: string,
@@ -219,6 +263,23 @@ export function assembleLookup(parts: {
     return { title: enTitle, partial: true, senses: [applyTranslation(emptySense(enTitle, "word"), translation)] };
   }
   return { title: senses[0]?.lemma || enTitle, partial: false, senses };
+}
+
+export function isLexicalCard(card: LookupCard | null | undefined): boolean {
+  if (!card || card.partial) return false;
+  return card.senses.some((sense) => {
+    const wikiMeaning = sense.meanings.length > 0 && sense.enSource !== "mymemory";
+    return Boolean(
+      wikiMeaning ||
+        sense.articles.length ||
+        sense.plural ||
+        sense.praeteritum ||
+        sense.partizip ||
+        sense.separable === true ||
+        sense.inseparable === true ||
+        sense.germanGloss,
+    );
+  });
 }
 
 export function findSavedEntry(entries: WortbankEntry[], sense: Pick<LookupSense, "lemma" | "pos">): WortbankEntry | undefined {
@@ -347,9 +408,16 @@ function tidyMeaning(value: string): string | null {
     .trim();
   if (!text || text.length < 2) return null;
   if (/^(nominative|accusative|genitive|dative|singular|plural)\b/i.test(text)) return null;
-  if (/\b(plural|inflection) of\b/i.test(text)) return null;
+  if (isFormOfGloss(text)) return null;
   if (/[{}]/.test(text) || /\.mw-parser-output/i.test(text)) return null;
   return text;
+}
+
+export function isFormOfGloss(text: string): boolean {
+  const line = text.trim();
+  if (/\b(?:plural|inflection|zu-infinitive|past participle|present participle) of\b/i.test(line)) return true;
+  if (/^(?:(?:first|second|third|1st|2nd|3rd)[^.]{0,80}|(?:genitive|dative|accusative|nominative)[^.]{0,60})\s+of\s+\S+/i.test(line)) return true;
+  return false;
 }
 
 function isGrammarLabel(word: string): boolean {
@@ -458,10 +526,11 @@ function parseDeWikitext(wikitext: string, title: string): LookupSense[] {
   const section = germanSectionDe(wikitext);
   if (!section) return [];
   const lemma = headingLemma(wikitext) || title;
-  const blocks = level3Blocks(section).filter((block) => /Wortart\|/i.test(block.title));
-  const senses = (blocks.length ? blocks : [{ title: "", body: section }]).map((block) =>
-    parseDeBlock(block.title, block.body, lemma),
-  );
+  const wortart = level3Blocks(section).filter((block) => /Wortart\|/i.test(block.title));
+  const blocks = wortart.filter((block) => !isDeFormHeading(block.title));
+  const chosen = blocks.length ? blocks : wortart.length ? [] : [{ title: "", body: section }];
+  if (!chosen.length) return [];
+  const senses = chosen.map((block) => parseDeBlock(block.title, block.body, lemma));
   if (senses.length === 1 && senses[0] && !senses[0].meanings.length) {
     senses[0].meanings = englishGlosses(section).slice(0, 4);
     if (senses[0].meanings.length) senses[0].enSource = "wiktionary";
@@ -533,6 +602,7 @@ function parseEnWikitext(wikitext: string, title: string): LookupSense[] {
     }
     const pos = EN_POS[titleText.toLocaleLowerCase("en")];
     if (!pos) continue;
+    if (enBlockIsFormOnly(block.body)) continue;
     senses.push(parseEnBlock(pos, titleText, block.body, pronunciation, title));
   }
   return senses;
@@ -1023,6 +1093,179 @@ function stripHtml(value: string): string {
     .replace(/&#0?39;/gi, "'")
     .replace(/&#(\d+);/g, (_, code: string) => String.fromCodePoint(Number(code)));
   return text.replace(/\s+/g, " ").trim();
+}
+
+function isDeFormHeading(title: string): boolean {
+  return /Wortart\|(?:Konjugierte Form|Deklinierte Form|Erweiterter Infinitiv|Partizip II|Partizip I|Gebeugte Form)/i.test(title);
+}
+
+function enBlockIsFormOnly(body: string): boolean {
+  const glosses = glossLines(body).filter((line) => !isFormOfGloss(line));
+  if (glosses.length) return false;
+  return /\{\{(?:de-zu-infinitive of|past participle of|present participle of|verb form of|inflection of|infl of|plural of|noun form of|adj form of|form of|head\|de\|(?:verb|noun|adjective|adj|participle) form)/i.test(
+    body,
+  );
+}
+
+export function extractFormReferences(wikitext: string, source: "de" | "en"): FormReference[] {
+  if (!wikitext) return [];
+  return source === "de" ? extractDeFormRefs(wikitext) : extractEnFormRefs(wikitext);
+}
+
+export function extractRestFormReferences(payload: unknown): FormReference[] {
+  if (!payload || typeof payload !== "object") return [];
+  const german = (payload as { de?: unknown }).de;
+  if (!Array.isArray(german)) return [];
+  const byLemma = new Map<string, string[]>();
+  for (const block of german) {
+    if (!block || typeof block !== "object") continue;
+    const definitions = (block as { definitions?: unknown }).definitions;
+    if (!Array.isArray(definitions)) continue;
+    for (const definition of definitions) {
+      if (!definition || typeof definition !== "object") continue;
+      const html = (definition as { definition?: unknown }).definition;
+      if (typeof html !== "string") continue;
+      const text = stripHtml(html);
+      const label = labelFromGloss(text);
+      if (!label) continue;
+      const lemma = lemmaFromFormHtml(html) || lemmaAfterOf(text);
+      if (!lemma) continue;
+      const labels = byLemma.get(lemma) ?? [];
+      labels.push(label);
+      byLemma.set(lemma, labels);
+    }
+  }
+  return collapseForms(byLemma);
+}
+
+function extractDeFormRefs(wikitext: string): FormReference[] {
+  const section = germanSectionDe(wikitext);
+  if (!section) return [];
+  const byLemma = new Map<string, string[]>();
+  const add = (lemma: string, label: string) => {
+    const clean = lemma.trim();
+    if (!clean || clean.length > 60 || /[:|#]/.test(clean)) return;
+    const labels = byLemma.get(clean) ?? [];
+    if (label) labels.push(label);
+    byLemma.set(clean, labels);
+  };
+  for (const match of section.matchAll(/\{\{Grundformverweis(?:\s+[A-Za-zÄÖÜäöü]+)?\|([^|}]+)/g)) {
+    add(match[1], "");
+  }
+  const merkmale = bracedSection(section, "Grammatische Merkmale");
+  for (const line of merkmale.split("\n")) {
+    const link = /\[\[([^\]|#]+)/.exec(line);
+    if (!link) continue;
+    add(link[1], labelFromMerkmal(line));
+  }
+  return collapseForms(byLemma);
+}
+
+function extractEnFormRefs(wikitext: string): FormReference[] {
+  const section = germanSectionEn(wikitext);
+  if (!section) return [];
+  const byLemma = new Map<string, string[]>();
+  const names = [
+    "de-zu-infinitive of",
+    "past participle of",
+    "present participle of",
+    "verb form of",
+    "inflection of",
+    "infl of",
+    "plural of",
+    "noun form of",
+    "form of",
+  ];
+  for (const template of collectTemplates(section, names)) {
+    const ref = formFromTemplate(template);
+    if (!ref) continue;
+    const labels = byLemma.get(ref.lemma) ?? [];
+    labels.push(ref.label);
+    byLemma.set(ref.lemma, labels);
+  }
+  return collapseForms(byLemma);
+}
+
+function formFromTemplate(template: string): FormReference | null {
+  const bar = template.indexOf("|");
+  const name = template
+    .slice(2, bar > 0 ? bar : template.length)
+    .trim()
+    .toLocaleLowerCase("en");
+  const parts = templateArgs(template)
+    .positional.map((part) => part.trim())
+    .filter((part) => part && part.toLocaleLowerCase("en") !== "de");
+  const lemma = parts[0]?.replace(/[{}]/g, "").trim();
+  if (!lemma || lemma.length > 60) return null;
+  const tags = parts.slice(1).join(" ").toLocaleLowerCase("en");
+  let label = "inflected form";
+  if (name.includes("zu-infinitive")) label = "zu-infinitive";
+  else if (name.includes("past participle")) label = "past participle";
+  else if (name.includes("plural")) label = "plural";
+  else if (/\bpret/.test(tags)) label = "preterite";
+  else if (/\bpres\b/.test(tags)) label = "present";
+  else if (/\b(?:p|pl|plural)\b/.test(tags) && !/\b(?:s|sg|singular)\b/.test(tags)) label = "plural";
+  else if (/\b(?:gen|dat|acc|nom)\b/.test(tags)) label = "declined form";
+  return { lemma, label };
+}
+
+function labelFromMerkmal(line: string): string {
+  const text = line.toLocaleLowerCase("de");
+  if (/erweiterter infinitiv/.test(text)) return "zu-infinitive";
+  if (/partizip/.test(text)) return "past participle";
+  if (/präteritum|praeteritum/.test(text)) return "preterite";
+  if (/präsens|praesens/.test(text)) return "present";
+  if (/imperativ/.test(text)) return "imperative";
+  if (/konjunktiv/.test(text)) return "subjunctive";
+  if (/plural/.test(text) && !/singular/.test(text)) return "plural";
+  if (/singular|plural|genitiv|dativ|akkusativ|nominativ/.test(text)) return "declined form";
+  return "inflected form";
+}
+
+function labelFromGloss(text: string): string | null {
+  const line = text.trim();
+  if (/zu-infinitive of\b/i.test(line)) return "zu-infinitive";
+  if (/past participle of\b/i.test(line)) return "past participle";
+  if (/present participle of\b/i.test(line)) return "present participle";
+  if (/\bplural of\b/i.test(line) && !/\bsingular of\b/i.test(line)) return "plural";
+  if (/\bpreterite of\b|\bpast tense of\b/i.test(line)) return "preterite";
+  if (/\bpresent of\b/i.test(line)) return "present";
+  if (/\b(?:genitive|dative|accusative|nominative)\b/i.test(line) && /\bof\b/i.test(line)) return "declined form";
+  if (isFormOfGloss(line)) return "inflected form";
+  return null;
+}
+
+function lemmaFromFormHtml(html: string): string | null {
+  for (const match of html.matchAll(/href="\/wiki\/([^"#?]+)[^"]*"[^>]*>([^<]+)/g)) {
+    const href = decodeURIComponent(match[1] ?? "");
+    if (/^(?:Appendix|Wiktionary|Help):/i.test(href)) continue;
+    const text = stripHtml(match[2] ?? "").trim();
+    if (text && text.length < 60 && !/^(?:first|second|third|singular|plural|genitive|dative|accusative|nominative)$/i.test(text)) {
+      return text;
+    }
+  }
+  return null;
+}
+
+function lemmaAfterOf(text: string): string | null {
+  const match = /\bof\s+([A-Za-zÄÖÜäöüß][\wÄÖÜäöüß-]*)\s*$/u.exec(text.trim());
+  return match?.[1] ?? null;
+}
+
+function collapseForms(byLemma: Map<string, string[]>): FormReference[] {
+  return [...byLemma.entries()].map(([lemma, labels]) => ({ lemma, label: summarizeFormLabels(labels) }));
+}
+
+function summarizeFormLabels(labels: string[]): string {
+  const unique = [...new Set(labels.filter(Boolean))];
+  if (unique.length === 0) return "inflected form";
+  if (unique.length === 1) return unique[0];
+  const nounish = new Set(["plural", "declined form", "genitive", "dative plural"]);
+  if (unique.every((label) => nounish.has(label))) {
+    if (unique.includes("plural") && unique.length > 1) return "declined form";
+    return unique[0];
+  }
+  return unique[0];
 }
 
 function uniq(items: string[]): string[] {

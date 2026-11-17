@@ -674,6 +674,14 @@ a.lesson-card:hover{border-color:var(--teal-2);transform:translateY(-2px)}
 .lookup-related span{font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-right:2px}
 .lookup-related button,.lookup-related b{border:1px solid var(--line);background:#fff;color:var(--navy);border-radius:999px;padding:4px 10px;font-weight:700}
 .lookup-related button:hover{border-color:var(--teal);color:var(--teal)}
+.lookup-suggest,.lookup-hints{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0}
+.lookup-suggest span,.lookup-hints span,.lookup-compound p span{font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.lookup-suggest button,.lookup-hints button{border:1px solid var(--line);background:#fff;color:var(--navy);border-radius:999px;padding:4px 10px;font-weight:700;cursor:pointer}
+.lookup-suggest button:hover,.lookup-hints button:hover{border-color:var(--teal);color:var(--teal)}
+.lookup-compound{display:grid;gap:4px;margin:8px 0}
+.lookup-compound ul{margin:0;padding-left:18px}
+.lookup-compound li{margin:2px 0}
+.lookup-compound p{margin:0;font-weight:700;color:var(--navy)}
 .lookup-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px}
 .lookup-source{display:inline-block;margin-left:6px;background:var(--teal-50);color:var(--teal);border-radius:999px;padding:1px 7px;font-style:normal;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
 .wb-word small .lookup-source{margin-left:6px}
